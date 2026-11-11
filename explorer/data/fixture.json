@@ -1,0 +1,272 @@
+{
+  "user": "sample",
+  "note": "Sample matches for layout. Not Ali's collection.",
+  "items": [
+    {
+      "discogs": {
+        "id": 1001,
+        "master_id": 501,
+        "title": "Symphony No. 5",
+        "artists": [
+          {"name": "Ludwig van Beethoven", "join": ","},
+          {"name": "Berlin Philharmonic", "join": "Conducted By"},
+          {"name": "Herbert von Karajan", "join": ""}
+        ],
+        "year": 1963,
+        "labels": [{"name": "Deutsche Grammophon", "catno": "138 804"}],
+        "formats": ["LP", "Stereo"],
+        "genres": ["Classical"],
+        "styles": ["Romantic", "Symphony"],
+        "thumb": "",
+        "cover_image": "",
+        "url": "https://www.discogs.com/release/1001"
+      },
+      "spotify": {
+        "status": "found",
+        "confidence": 0.96,
+        "album": {
+          "id": "sp-beethoven-5",
+          "name": "Beethoven: Symphony No. 5",
+          "artists": ["Herbert von Karajan", "Berlin Philharmonic"],
+          "release_date": "1963-01-01",
+          "url": "https://open.spotify.com/album/sample-beethoven-5",
+          "image": "",
+          "label": "Deutsche Grammophon"
+        },
+        "alternates": [
+          {
+            "id": "sp-alt-1",
+            "name": "Symphonies Nos. 5 & 7",
+            "artists": ["Carlos Kleiber", "Vienna Philharmonic"],
+            "release_date": "1975",
+            "url": "https://open.spotify.com/album/sample-kleiber",
+            "label": "Deutsche Grammophon",
+            "confidence": 0.61
+          }
+        ]
+      },
+      "qobuz": {
+        "status": "found",
+        "confidence": 0.93,
+        "album": {
+          "id": "qb-beethoven-5",
+          "name": "Symphony No. 5 in C minor",
+          "artists": ["Herbert von Karajan"],
+          "release_date": "1963",
+          "url": "https://www.qobuz.com/album/sample-beethoven-5",
+          "image": "",
+          "label": "Deutsche Grammophon"
+        },
+        "alternates": []
+      }
+    },
+    {
+      "discogs": {
+        "id": 1002,
+        "master_id": 502,
+        "title": "Piano Concerto No. 1",
+        "artists": [
+          {"name": "Pyotr Ilyich Tchaikovsky", "join": "-"},
+          {"name": "Van Cliburn", "join": ""}
+        ],
+        "year": 1958,
+        "labels": [{"name": "RCA Victor Red Seal", "catno": "LSC-2252"}],
+        "formats": ["LP", "Stereo"],
+        "genres": ["Classical"],
+        "styles": ["Romantic", "Concerto"],
+        "thumb": "",
+        "cover_image": "",
+        "url": "https://www.discogs.com/release/1002"
+      },
+      "spotify": {
+        "status": "probable",
+        "confidence": 0.47,
+        "album": {
+          "id": "sp-wrong",
+          "name": "Piano Concerto No. 2",
+          "artists": ["Vladimir Horowitz"],
+          "release_date": "1943",
+          "url": "https://open.spotify.com/album/sample-wrong-concerto",
+          "label": "RCA"
+        },
+        "alternates": []
+      },
+      "qobuz": {"status": "not_found", "confidence": 0.12, "album": null, "alternates": []}
+    },
+    {
+      "discogs": {
+        "id": 1003,
+        "master_id": null,
+        "title": "String Quartets, Op. 76",
+        "artists": [
+          {"name": "Joseph Haydn", "join": ","},
+          {"name": "Quartetto Italiano", "join": ""}
+        ],
+        "year": 1972,
+        "labels": [{"name": "Philips", "catno": "6500 831"}],
+        "formats": ["LP"],
+        "genres": ["Classical"],
+        "styles": ["Classical"],
+        "thumb": "",
+        "cover_image": "",
+        "url": "https://www.discogs.com/release/1003"
+      },
+      "spotify": {"status": "not_found", "confidence": 0.08, "album": null, "alternates": []},
+      "qobuz": {"status": "not_found", "confidence": 0.05, "album": null, "alternates": []}
+    },
+    {
+      "release": {
+        "id": 1004,
+        "title": "The Planets",
+        "artist": "Gustav Holst",
+        "year": "1918 recording, issued 1967",
+        "label": "Decca",
+        "catno": "SXL 2001",
+        "formats": [{"name": "Vinyl", "qty": "1", "descriptions": ["LP", "Stereo"]}],
+        "genre": "Classical",
+        "style": "Modern"
+      },
+      "spotify_match": {
+        "status": "matched",
+        "score": 88,
+        "album": {
+          "name": "The Planets, Op. 32",
+          "artist": "Adrian Boult",
+          "release_date": "1967",
+          "url": "https://open.spotify.com/album/sample-planets",
+          "label": "Decca"
+        }
+      },
+      "qobuz": {"status": "miss", "confidence": 0.2, "album": null}
+    },
+    {
+      "discogs": {
+        "id": 1005,
+        "title": "Kind of Blue",
+        "artists": [{"name": "Miles Davis", "anv": "Davis", "join": ""}],
+        "year": 1959,
+        "labels": [{"name": "Columbia", "catno": "CL 1355"}],
+        "formats": ["LP", "Mono"],
+        "genres": ["Jazz"],
+        "styles": ["Modal"],
+        "url": "https://www.discogs.com/release/1005"
+      },
+      "spotify": {
+        "status": "found",
+        "confidence": 0.99,
+        "album": {
+          "id": "sp-kod",
+          "name": "Kind of Blue",
+          "artists": [{"name": "Miles Davis"}],
+          "url": "https://open.spotify.com/album/sample-kind-of-blue",
+          "release_date": "1959-08-17",
+          "label": "Columbia"
+        },
+        "alternates": []
+      },
+      "qobuz": "unchecked"
+    },
+    {
+      "discogs": {
+        "id": 1006,
+        "master_id": 0,
+        "title": "Untitled rehearsal tape",
+        "artists": [],
+        "year": 0,
+        "labels": [{"name": "Private press", "catno": "none"}],
+        "formats": [],
+        "genres": [],
+        "styles": [],
+        "url": "https://www.discogs.com/release/1006"
+      },
+      "spotify": {"status": "pending", "confidence": null, "album": null, "alternates": []},
+      "qobuz": {"status": "pending", "confidence": null, "album": null, "alternates": []}
+    },
+    {
+      "discogs": {
+        "id": 1007,
+        "title": "Das Lied von der Erde",
+        "artists": [
+          {"name": "Gustav Mahler", "join": ","},
+          {"name": "Kathleen Ferrier", "join": ","},
+          {"name": "Vienna Philharmonic", "join": ""}
+        ],
+        "year": 1952,
+        "labels": [{"name": "Decca", "catno": "LXT 2721"}],
+        "formats": ["LP", "Mono"],
+        "genres": ["Classical"],
+        "styles": ["Late Romantic"],
+        "url": "https://www.discogs.com/release/1007"
+      },
+      "spotify": {
+        "status": "likely",
+        "confidence": "0.42",
+        "album": {
+          "name": "Das Lied von der Erde",
+          "artists": ["Bruno Walter"],
+          "url": "https://open.spotify.com/album/sample-lied",
+          "label": "Decca"
+        },
+        "alternatives": [
+          {"name": "Lieder eines fahrenden Gesellen", "artists": ["Dietrich Fischer-Dieskau"], "url": "https://open.spotify.com/album/sample-lieder"}
+        ]
+      },
+      "qobuz": {
+        "status": "probable",
+        "score": 0.55,
+        "album": {
+          "name": "Das Lied von der Erde",
+          "artists": ["Kathleen Ferrier", "Bruno Walter"],
+          "url": "https://www.qobuz.com/album/sample-lied",
+          "release_date": "1952"
+        },
+        "alternates": []
+      }
+    },
+    {
+      "discogs": {
+        "id": 1008,
+        "title": "The French Suites / Overture In The French Style, BWV 831",
+        "artists": [
+          {"name": "Johann Sebastian Bach", "join": ","},
+          {"name": "András Schiff", "join": ","},
+          {"name": "Glenn Gould", "join": ","},
+          {"name": "Sviatoslav Richter", "join": ","},
+          {"name": "Martha Argerich", "join": ""}
+        ],
+        "year": 1984,
+        "labels": [
+          {"name": "Archiv Produktion", "catno": "415 012-1"},
+          {"name": "Deutsche Grammophon", "catno": "415 012"}
+        ],
+        "formats": ["2×LP", "Box", "Stereo"],
+        "genres": ["Classical"],
+        "styles": ["Baroque", "Keyboard"],
+        "url": "https://www.discogs.com/release/1008"
+      },
+      "spotify": {
+        "status": "found",
+        "confidence": 0.81,
+        "album": {
+          "name": "Bach: French Suites",
+          "artists": ["András Schiff"],
+          "url": "https://open.spotify.com/album/sample-french-suites",
+          "release_date": "1984",
+          "label": "Decca"
+        },
+        "alternates": []
+      },
+      "qobuz": {
+        "status": "not_found",
+        "confidence": 0.22,
+        "album": {
+          "name": "English Suites",
+          "artists": ["Murray Perahia"],
+          "url": "https://www.qobuz.com/album/sample-english",
+          "label": "Sony"
+        },
+        "alternates": []
+      }
+    }
+  ]
+}

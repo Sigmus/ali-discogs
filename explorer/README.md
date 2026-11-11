@@ -1,0 +1,59 @@
+# Ali's collection
+
+Static explorer for [ajozi](https://www.discogs.com/user/ajozi/collection) on Discogs: which of the records turn up on Spotify and on Qobuz, and which are on neither.
+
+On sigmus this is served at [/ali-discogs/](https://sigmus.fly.dev/ali-discogs/). Styles, scripts, and JSON use relative paths, so the same files work under that prefix and under a GitHub Pages project site at `/ali-discogs/`. In this repository the match results are [`../data/collection_matches.json`](../data/collection_matches.json); `make build` copies them into the published `data/` folder beside this page. `node test/normalize.test.js` reads that repo file when it is not sitting next to the page.
+
+## Data
+
+`data/collection_matches.json` is the file the page loads: a JSON array of 741 collection copies. Spotify is filled in (255 found, 276 probable, 210 not found). Qobuz is `unchecked` on every row. `www.qobuz.com` returns 403 from the machine that built the file and from the machine that checked the public search and album pages here, so there is no Qobuz match script. Each row keeps `qobuz.search_url`, and the card links to it. `data/summary.json` is the match run’s totals.
+
+Preferred shape, one object per collection copy:
+
+```json
+{
+  "items": [
+    {
+      "discogs": {
+        "id": 15221307,
+        "master_id": 1015652,
+        "title": "Russian Keyboard Masters Vol. 1",
+        "artists": ["Emil Gilels"],
+        "year": 1974,
+        "labels": [{"name": "ABC Westminster Gold", "catno": "WG-8273"}],
+        "formats": ["LP"],
+        "genres": ["Classical"],
+        "styles": [],
+        "thumb": "https://i.discogs.com/…",
+        "cover_image": "https://i.discogs.com/…",
+        "url": "https://www.discogs.com/release/15221307"
+      },
+      "spotify": {
+        "status": "found",
+        "confidence": 0.92,
+        "album": {
+          "id": "…",
+          "name": "…",
+          "artists": ["…"],
+          "release_date": "1974",
+          "url": "https://open.spotify.com/album/…",
+          "image": "https://…",
+          "label": "…"
+        },
+        "alternates": []
+      },
+      "qobuz": {"status": "not_found", "confidence": 0.1, "album": null, "alternates": []}
+    }
+  ]
+}
+```
+
+The committed file is flatter than that sketch: `discogs_id`, `discogs_url`, `composers`, `performers`, `conductor`, `tracklist`, and a `spotify` object with `best_candidate` on misses. The loader still accepts the nested shape above.
+
+`status` is `found`, `probable`, `not_found`, `pending`, or `unchecked`. `unchecked` is a neutral grey state, not a miss. `confidence` is 0–1, or a 0–100 score. A bare array is accepted, and so are a few aliases (`releases`, `spotify_match`, `score`, `alternatives`, artist objects, Discogs `basic_information`). `data/fixture.json` is a handful of invented rows. Open `?data=fixture` to see them. It is not part of the collection.
+
+`node test/normalize.test.js` checks the loader against the fixture and the committed collection.
+
+## Page
+
+The tally counts found, probable, and not found per service, plus found on neither and found on both. Those counts are filters. **Spotify: not found** jumps to the 210 misses. A miss is marked on the card, with Spotify’s `best_candidate` labelled closest guess, and a Search on Qobuz link while Qobuz is unchecked. Search covers title, composer, performer, conductor, ensemble, track, label, and catalogue number. Composer, genre or style, label, and decade narrow it further. Sort defaults to composer (by surname), and also offers artist, title, year, label, or the lower of the two confidences. Each card links to Discogs, and to the Spotify album when the match has a URL, with the matched name beside the Discogs title. Alternates and the track list expand on the card. The theme follows the system until you switch it.
