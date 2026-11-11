@@ -1,0 +1,17 @@
+{
+ "total": 741,
+ "spotify": {
+  "not_found": 210,
+  "found": 255,
+  "probable": 276
+ },
+ "qobuz": {
+  "unchecked": 741
+ },
+ "qobuz_note": "www.qobuz.com returns HTTP 403 (Akamai \"Access Denied\") for every page from this machine (curl, headless and headed Chrome); no other public, key-free Qobuz search route exists.",
+ "thresholds": {
+  "found_min_conf": 0.8,
+  "probable_min_conf": 0.62
+ },
+ "generated": "2026-11-11T15:30:56+0100"
+}
