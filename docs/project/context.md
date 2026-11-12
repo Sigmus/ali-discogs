@@ -45,8 +45,8 @@ verified in both themes. Filters use equal-width grid columns, Clear follows
 Sort, and the A to Z button is removed. All named table headers now toggle
 ascending/descending sorting with Sonoteque’s triangle indicators; the Sort
 selector stays synchronized. Spotify sorts by status then confidence. Spotify cells display confidence and status inline, e.g. `100% (Found)`.
-User requested committing all changes, merging to main and pushing. Publication
-is in progress; inspect Git and GitHub Actions for final synchronization/deployment.
+Redesign committed as `c0ed7a3`, fast-forwarded into main and pushed to origin.
+Pages deployment was triggered; inspect GitHub Actions for the final outcome.
 [Plan and validation](../plans/2026-11-12-sonoteque-ui.md).
 
 ## References

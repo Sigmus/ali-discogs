@@ -106,3 +106,11 @@ UI suite, including new sorting cases; `make build` and `git diff --check` pass.
 Fresh fetch shows remote main unchanged at the imported application baseline;
 local main also holds the project-documentation commit. Publishing the redesign
 and all documentation together; inspect Git/Actions for final outcome.
+
+## 2026-11-12 — Redesign merged and pushed
+
+Committed all redesign/docs changes as `c0ed7a3`, fast-forwarded main and pushed
+to origin. Local and remote main matched with a clean working tree immediately
+after push. Pages and test workflows triggered for that SHA. Public site:
+https://sigmus.github.io/ali-discogs/. Deployment completion is checked in GitHub
+Actions; this entry records the verified push, not an assumed deployment result.
