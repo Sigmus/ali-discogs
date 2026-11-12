@@ -13,7 +13,7 @@ try {
   document.documentElement.setAttribute("data-theme", t);
 } catch (e) {}
 </script>
-<link rel="stylesheet" href="style.css">
+<link rel="stylesheet" href="style.css?v=20261112-frequency">
 
 </head>
 <body>
@@ -27,7 +27,7 @@ try {
 <label>Spotify match<select class="view-select" id="sp"><option value="">All statuses</option><option value="found">Found</option><option value="probable">Probable</option><option value="not_found">Not found</option><option value="pending">Pending</option><option value="unchecked">Unchecked</option></select></label>
 <label>Composer<select class="view-select" id="composer"><option value="">Any</option></select></label><label>Label<select class="view-select" id="label"><option value="">Any</option></select></label><label>Genre or style<select class="view-select" id="genre"><option value="">Any</option></select></label><label>Decade<select class="view-select" id="decade"><option value="">Any</option></select></label>
 <label>Sort<select class="view-select" id="sort"><option value="composer">Composer</option><option value="artist">Artist</option><option value="performers">Artists (credits)</option><option value="spotify">Spotify status</option><option value="title">Title</option><option value="year" selected>Year</option><option value="label">Label</option><option value="confidence">Match confidence</option></select></label>
-<button id="reset" type="button" disabled>Clear</button>
+<div class="filter-actions"><label class="frequency-toggle"><input id="frequency" type="checkbox" role="switch" checked><span>Most frequent first</span></label><button id="reset" type="button" disabled>Clear</button></div>
 </form>
 <p id="showing" class="quiet" aria-live="polite"></p>
 <div id="shelf" tabindex="-1" aria-busy="true">Loading albums…</div>
@@ -37,5 +37,5 @@ try {
 <footer><span id="foot"></span><a href="https://www.discogs.com/user/ajozi/collection">ajozi on Discogs</a><a id="sample-link" href="?data=fixture">Sample data</a></footer>
 </main>
 <noscript>This page needs JavaScript to load the collection.</noscript>
-<script src="app.js"></script>
+<script src="app.js?v=20261112-frequency"></script>
 </body></html>

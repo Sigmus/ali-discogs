@@ -30,9 +30,10 @@ def local_setting(name):
 
 class Catalog:
     def __init__(self, source=DEFAULT_SOURCE, *, offline=False, refresh=False,
-                 anonymous=False, cache=ROOT / ".qobuz-poc/cache"):
+                 anonymous=False, cache=ROOT / ".qobuz-poc/cache", before_request=None):
         if offline and refresh:
             raise CatalogError("--offline and --refresh cannot be combined.")
+        self.before_request = before_request or (lambda: None)
         self.source = Path(source)
         self.offline = offline
         self.refresh = refresh
@@ -71,6 +72,7 @@ class Catalog:
 
         def bounded_get(*args, **kwargs):
             kwargs.setdefault("timeout", 20)
+            self.before_request()
             return original_get(*args, **kwargs)
 
         discovery_session.get = bounded_get
@@ -110,6 +112,7 @@ class Catalog:
         if self.app_id is None:
             self.connect()
         try:
+            self.before_request()
             response = self.session.get(
                 "https://www.qobuz.com/api.json/0.2/" + endpoint,
                 params={"app_id": self.app_id, **params}, timeout=20,

@@ -61,6 +61,10 @@ muted metadata, thin rules, violet accents and paired light/dark themes.
 Spotify status filtering uses the Spotify match dropdown. Search covers
 title, composer, performer, conductor, ensemble, track, label and catalogue number.
 Composer, genre/style, label and decade filters combine with Spotify status.
+The “Most frequent first” switch before Clear is on by default and orders all
+filter options by collection count, with alphabetical ties. Switch it off for
+alphabetical ordering (decades oldest first, undated last). Placeholders stay
+first and active selections survive reordering. The Sort selector is unchanged.
 The default sort is Year, oldest to newest, with undated albums last.
 Click Album, Year, Composer, Artists or Spotify headings to sort; click again to
 reverse. The active heading shows Sonoteque’s triangle indicator. Spotify sorts

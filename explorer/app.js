@@ -433,6 +433,7 @@
     const decade = $("decade");
     const sort = $("sort");
     const reset = $("reset");
+    const frequency = $("frequency");
     const showing = $("showing");
     const shelf = $("shelf");
     const foot = $("foot");
@@ -562,13 +563,18 @@
         const key = it.discogs.year ? String(Math.floor(it.discogs.year / 10) * 10) : "undated";
         decades.set(key, (decades.get(key) || 0) + 1);
       });
-      const byName = (a, b) => cmpStr(a[0], b[0]);
-      genre.innerHTML = optionList([...genres.entries()].sort(byName), "Any");
-      composer.innerHTML = optionList([...composers.values()].map(row => [row.name, row.count]).sort(byName), "Any");
-      label.innerHTML = optionList([...labels.entries()].sort(byName), "Any");
+      const byName = (a, b) => cmpStr(a[2] || a[0], b[2] || b[0]);
+      const order = pairs => pairs.sort((a, b) =>
+        (frequency.checked ? b[1] - a[1] : 0) || byName(a, b));
+      const statuses = tally(items).spotify;
+      sp.innerHTML = optionList(order(Object.entries(statuses).map(([key, count]) =>
+        [key, count, STATUS_LABEL[key]])), "All statuses");
+      genre.innerHTML = optionList(order([...genres.entries()]), "Any");
+      composer.innerHTML = optionList(order([...composers.values()].map(row => [row.name, row.count])), "Any");
+      label.innerHTML = optionList(order([...labels.entries()]), "Any");
       const decadeKeys = [...decades.keys()].filter(k => k !== "undated").sort();
       if (decades.has("undated")) decadeKeys.push("undated");
-      decade.innerHTML = optionList(decadeKeys.map(k => [k, decades.get(k), k === "undated" ? "Undated" : k + "s"]), "Any");
+      decade.innerHTML = optionList(order(decadeKeys.map(k => [k, decades.get(k), k === "undated" ? "Undated" : k + "s"])), "Any");
     }
 
     function addedLabel(iso) {
@@ -730,6 +736,11 @@
     });
     [sp, genre, composer, label, decade, sort].forEach(el => el.addEventListener("change", fromForm));
     reset.addEventListener("click", clearFilters);
+    frequency.addEventListener("change", () => {
+      if (!ready) return;
+      fillFilters();
+      syncControls();
+    });
     shelf.addEventListener("click", e => {
       if (e.target.closest("[data-clear]")) clearFilters();
       const button = e.target.closest("button[data-sort]");

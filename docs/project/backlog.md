@@ -41,3 +41,11 @@ manual override persistence with AD-004 before writing collection results.
 Done when: a reviewed test sample demonstrates accepted/rejected candidates,
 access failures remain unchecked, and reviewed Qobuz results survive Spotify
 rescoring. Keep credentials and raw private-session caches out of publication.
+
+## AD-007 — Full-collection Qobuz candidate search
+
+Status: agreed and running locally (2026-11-12). All 740 distinct releases,
+covering 741 copies, get a slow first-pass search. See docs/qobuz.md for progress,
+stop/resume and pacing. Done when the manifest has a successful search response
+for every release and a counts summary is recorded; zero hits remain unresolved.
+This scope does not authorize automatic acceptance of matches or production writes.

@@ -52,9 +52,34 @@ in a static explorer. See [README](../../README.md) for setup and matching rules
 - Match classifications are algorithmic, not a completed manual audit.
 - `make serve` builds/serves localhost:8000. Check server availability on resume.
 
+## Full-collection search in progress
+
+User authorized slow searches for all albums on 2026-11-12. Started detached
+`qobuz_all_poc.py` with caffeinate; 740 release queries cover 741 copies, up to
+five candidates each, >=15 seconds between requests and 120 seconds rest every
+50 uncached searches. Stops on any API/network error. No full candidate-track
+fetch or accepted match/data merge in this pass. Check
+`.qobuz-poc/all/progress.json`, `run.log` and worker PID for actual current state.
+Use docs/qobuz.md to stop/resume. Do not assume the background run completed.
+Thread heartbeat `qobuz-search-progress` now checks hourly with time remaining
+and estimated finish in Europe/Amsterdam per user request;
+the last 20-minute update was delivered at about 16:05 Europe/Amsterdam.
+On warnings/errors or unexplained stalls, pause via
+STOP and ask the user; never retry/resume without their response.
+
+## Latest local UI change
+
+Added “Most frequent first” switch before Clear, on by default. Orders Spotify
+status/composer/label/genre/decade choices by collection count with alphabetical
+ties; off restores alphabetical/chronological options. Retains active filters.
+Browser verified both orders and selection preservation; normalization tests,
+syntax, build and diff checks pass. User requested committing/pushing this
+branch with the slow-search runner and docs. Not merged to main or published.
+
 ## Next action
 
-Proposed AD-006: normalize Qobuz track credits/work IDs, score programme coverage
+First inspect full-search progress and handle any failure; after retrieval,
+proposed AD-006: normalize Qobuz track credits/work IDs, score programme coverage
 and performer agreement conservatively, and output candidates for manual review.
 Coordinate override persistence with AD-004 before any production data merge.
 See [backlog](backlog.md), [decisions](decisions.md) and [history](history.md).

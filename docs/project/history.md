@@ -190,3 +190,56 @@ existing offline matcher/UI tests and static build pass; tests added to make/CI.
 Retained the older app-ID comparison probe. Published data remains unchanged.
 Pending Year-default UI edits are included in the requested commit scope. Real
 .env, upstream checkout, response caches and Python caches remain ignored.
+
+### 2026-11-12 — Start slow full-collection catalogue searches
+
+User authorized all-album searches at a conservative pace. Added a resumable,
+locked runner with exact query manifest, duplicate handling, request pacing
+(15 seconds minimum), two-minute rests each 50 new searches, and stop-on-error.
+Eight mocked tests pass. Launched detached with caffeinate to prevent idle sleep.
+Actual progress is in ignored .qobuz-poc/all/progress.json; completion is not
+yet claimed. No automatic matches or published data writes.
+
+### 2026-11-12 — Schedule progress checks and pause on warning
+
+User requested updates every 20 minutes and a pause/question at any danger sign.
+Created thread heartbeat `qobuz-search-progress` at 20-minute intervals. It
+checks saved progress/logs, pauses on access/rate-limit/API/network problems or
+unexplained stalls, and asks before any retry/resume. Successful empty searches
+are not failure signals. Existing runner stops on the first API/network error.
+
+### 2026-11-12 — Change progress cadence after next update
+
+User requested keeping the next update, then switching to hourly. Updated the
+existing heartbeat prompt to perform that transition at its next firing, leaving
+the immediate 20-minute schedule intact. Search pacing and stop-on-error stay unchanged.
+
+### 2026-11-12 — Hourly progress cadence enabled
+
+At the final 20-minute check (~16:05 Europe/Amsterdam), 154/740 releases were
+searched: 78 with candidates, 76 zero-result queries, 243 candidates saved.
+Run was in its expected 120-second batch rest, with no errors reported.
+Switched `qobuz-search-progress` to hourly as requested.
+
+### 2026-11-12 — Include ETA in hourly updates
+
+User requested ETA in progress updates. Updated the existing hourly heartbeat
+to estimate remaining time and local finish from observed throughput and planned
+rests, show uncertainty, and omit running ETAs while paused/failed.
+
+### 2026-11-12 — Toggle filter option ordering
+
+Added an accessible switch before Clear, default on, sorting filter dropdown
+choices by total collection frequency then name. Off restores alphabetical
+ordering (chronological decades). Placeholders stay first, current selections
+survive reordering, and Sort still controls album-table sorting. Browser checked
+Beethoven/Bach frequency ordering, alphabetical mode and retained Bach selection.
+UI normalization tests, JavaScript syntax, build and diff checks pass. Versioned
+UI asset URLs prevent stale browser caches. Background Qobuz run untouched.
+
+### 2026-11-12 — Commit and push filter toggle and slow-search tooling
+
+User requested commit/push of current work on codex/qobuz-poc: frequency-order
+toggle, resumable slow full-collection runner, pacing/stop tests and updated docs.
+Credentials, upstream checkout and candidate caches stay ignored. No main merge
+or Pages publication is part of this push; active search is not restarted.

@@ -113,3 +113,48 @@ make build
 
 Unit tests use mocked network responses. The dated sample report records live
 API evidence; neither proves automated match accuracy for the full collection.
+
+## Slow search of the full collection
+
+User authorized a full candidate-search pass on 2026-11-12. Run:
+
+```sh
+uv run scripts/qobuz_all_poc.py
+```
+
+This searches 740 distinct releases (741 copies), one query each, up to five
+candidates. It uses the six tested queries where available; otherwise the first
+key performer (or first performer), composer surname and first ten normalized
+title words. This is a first retrieval pass, not an exhaustive search or matching
+classification. Empty searches will need later work/track-based fallbacks.
+It does not fetch every candidate's full track metadata in this pass.
+
+All live requests, including app-ID discovery, are serial and spaced at least
+15 seconds apart. After each 50 uncached searches it rests two minutes. This is
+an intentionally conservative policy, not a published guarantee against Qobuz
+limits. Any access, rate-limit or network error stops the run; no automatic
+retries. Existing successful responses are reused. Duplicate copies share one
+release search. A file lock prevents two copies of this runner at once.
+
+Results and the exact query plan live under ignored `.qobuz-poc/all/`:
+`manifest.json`, `<discogs_id>.json`, `progress.json`, and `run.log` when launched
+with output redirection. Progress includes PID, status, counts and timestamps.
+A detached run was started with `caffeinate -i` to prevent idle system sleep;
+closing the laptop/restarting may still interrupt it. Resume with the same command.
+
+```sh
+cat .qobuz-poc/all/progress.json
+# Request a clean stop; results already fetched are preserved.
+touch .qobuz-poc/all/STOP
+# Remove the marker before resuming.
+rm .qobuz-poc/all/STOP
+uv run scripts/qobuz_all_poc.py
+```
+
+A changed collection/query manifest stops rather than mixing plans silently.
+Do not delete it without preserving existing evidence and reviewing the change.
+The final `status: complete` means all first-pass searches finished, not that
+all albums were found. The runner writes no production data. Inspect progress
+and the process before starting another run; the launcher PID and actual worker
+PID differ. Eight mocked tests cover caching/errors plus pacing, stop markers
+and duplicate handling.
