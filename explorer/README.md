@@ -56,4 +56,20 @@ The committed file is flatter than that sketch: `discogs_id`, `discogs_url`, `co
 
 ## Page
 
-The tally counts found, probable, and not found per service, plus found on neither and found on both. Those counts are filters. **Spotify: not found** jumps to the 210 misses. A miss is marked on the card, with Spotify’s `best_candidate` labelled closest guess, and a Search on Qobuz link while Qobuz is unchecked. Search covers title, composer, performer, conductor, ensemble, track, label, and catalogue number. Composer, genre or style, label, and decade narrow it further. Sort defaults to composer (by surname), and also offers artist, title, year, label, or the lower of the two confidences. Each card links to Discogs, and to the Spotify album when the match has a URL, with the matched name beside the Discogs title. Alternates and the track list expand on the card. The theme follows the system until you switch it.
+The explorer uses Sonoteque's visual style: compact album table, small covers,
+muted metadata, thin rules, violet accents and paired light/dark themes.
+Spotify found/probable/not-found counts are clickable filters. Search covers
+title, composer, performer, conductor, ensemble, track, label and catalogue number.
+Composer, genre/style, label and decade filters combine with Spotify status.
+Click Album, Year, Composer, Artists or Spotify headings to sort; click again to
+reverse. The active heading shows Sonoteque’s triangle indicator. Spotify sorts
+by status then confidence; Artists sorts performance credits. The Sort selector
+also offers album artist, label and confidence sorting and stays synchronized.
+
+Open an album title or status to view full metadata, all tracks, Spotify match
+or closest guess and alternate candidates. Discogs and Qobuz search links live
+in details. Qobuz is unchecked; no main-page Qobuz totals or filters are shown.
+The back link preserves collection filters. Hash links identify release/copy;
+rows lacking instance IDs use occurrence order to distinguish duplicates.
+On mobile, year and artists columns are hidden; metadata remains in details.
+The theme follows the system until switched. Grid view has been removed.

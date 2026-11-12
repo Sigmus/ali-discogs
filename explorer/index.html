@@ -14,111 +14,29 @@ try {
 } catch (e) {}
 </script>
 <link rel="stylesheet" href="style.css">
-<link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'%3E%3Crect width='32' height='32' rx='6' fill='%23101818'/%3E%3Ccircle cx='16' cy='16' r='9' fill='none' stroke='%237dcec9' stroke-width='2'/%3E%3Ccircle cx='16' cy='16' r='2' fill='%237dcec9'/%3E%3C/svg%3E">
+
 </head>
 <body>
 <a class="skip" href="#shelf">Skip to releases</a>
-<div class="wrap">
-  <header class="top">
-    <div>
-      <h1>Ali's collection</h1>
-      <p class="lede" id="lede">Discogs user ajozi. Loading the collection…</p>
-    </div>
-    <div class="toolbar">
-      <button type="button" class="iconbtn" id="theme" aria-label="Switch to dark theme">
-        <svg class="icon-moon" viewBox="0 0 24 24" aria-hidden="true"><path d="M16 3.5A8.5 8.5 0 1 0 20.5 14 7 7 0 0 1 16 3.5z" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linejoin="round"/></svg>
-        <svg class="icon-sun" viewBox="0 0 24 24" aria-hidden="true"><circle cx="12" cy="12" r="3.5" fill="none" stroke="currentColor" stroke-width="1.75"/><path d="M12 3v2.2M12 18.8V21M3 12h2.2M18.8 12H21M5.4 5.4l1.6 1.6M17 17l1.6 1.6M18.6 5.4 17 7M7 17l-1.6 1.6" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/></svg>
-      </button>
-      <div class="view" role="group" aria-label="Layout">
-        <button type="button" class="iconbtn" id="view-grid" aria-pressed="true" aria-label="Grid">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 4h6.5v6.5H4zM13.5 4H20v6.5h-6.5zM4 13.5h6.5V20H4zM13.5 13.5H20V20h-6.5z" fill="none" stroke="currentColor" stroke-width="1.75"/></svg>
-        </button>
-        <button type="button" class="iconbtn" id="view-list" aria-pressed="false" aria-label="List">
-          <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 6.5h12M8 12h12M8 17.5h12M4 6.5h.01M4 12h.01M4 17.5h.01" fill="none" stroke="currentColor" stroke-width="1.75" stroke-linecap="round"/></svg>
-        </button>
-      </div>
-    </div>
-  </header>
-
-  <p class="notice" id="notice" hidden></p>
-
-  <div class="toolsbar">
-    <div class="tally" id="tally" aria-label="Match counts"></div>
-    <div class="presets">
-      <button type="button" class="preset" id="preset-miss" aria-pressed="false">Spotify: not found</button>
-    </div>
-    <form class="filters" id="filters">
-      <label class="field search"><span>Search</span>
-        <input id="q" type="search" placeholder="Title, composer, performer" autocomplete="off" spellcheck="false">
-      </label>
-      <label class="field"><span>Spotify</span>
-        <select id="sp" aria-label="Spotify status">
-          <option value="">Any status</option>
-          <option value="found">Found</option>
-          <option value="probable">Probable</option>
-          <option value="not_found">Not found</option>
-          <option value="pending">Pending</option>
-          <option value="unchecked">Unchecked</option>
-        </select>
-      </label>
-      <label class="field"><span>Qobuz</span>
-        <select id="qb" aria-label="Qobuz status">
-          <option value="">Any status</option>
-          <option value="found">Found</option>
-          <option value="probable">Probable</option>
-          <option value="not_found">Not found</option>
-          <option value="pending">Pending</option>
-          <option value="unchecked">Unchecked</option>
-        </select>
-      </label>
-      <label class="field check">
-        <input id="gap" type="checkbox">
-        <span>Missing on both</span>
-      </label>
-      <label class="field"><span>Genre or style</span>
-        <select id="genre"><option value="">Any</option></select>
-      </label>
-      <label class="field"><span>Composer</span>
-        <select id="composer"><option value="">Any</option></select>
-      </label>
-      <label class="field"><span>Label</span>
-        <select id="label"><option value="">Any</option></select>
-      </label>
-      <label class="field narrow"><span>Decade</span>
-        <select id="decade"><option value="">Any</option></select>
-      </label>
-      <div class="sortline">
-        <label class="field narrow"><span>Sort</span>
-          <select id="sort">
-            <option value="composer" selected>Composer</option>
-            <option value="artist">Artist</option>
-            <option value="title">Title</option>
-            <option value="year">Year</option>
-            <option value="label">Label</option>
-            <option value="confidence">Confidence</option>
-          </select>
-        </label>
-        <button type="button" class="dirbtn" id="dir" aria-label="A to Z">A to Z</button>
-        <button type="button" class="ghost" id="reset" disabled>Clear</button>
-      </div>
-    </form>
-    <p class="showing" id="showing" aria-live="polite"></p>
-  </div>
-
-  <div id="shelf" class="shelf grid" aria-busy="true">
-    <div class="skel"></div><div class="skel"></div><div class="skel"></div><div class="skel"></div>
-    <div class="skel"></div><div class="skel"></div><div class="skel"></div><div class="skel"></div>
-  </div>
-
-  <footer>
-    <p id="foot"></p>
-    <p class="footlinks">
-      <a href="https://www.discogs.com/user/ajozi/collection">ajozi on Discogs</a>
-      <a id="sample-link" href="?data=fixture">Sample match results</a>
-    </p>
-  </footer>
-</div>
-<noscript><p class="notice">This page needs JavaScript to read the collection file.</p></noscript>
+<header class="app-header"><a class="brand" href="./">Ali’s collection</a><button id="theme" aria-label="Switch theme"><span class="icon-moon">☽</span><span class="icon-sun">☀</span></button></header>
+<main class="page-shell">
+<section id="collection-view">
+<h1>Albums</h1><p id="lede" class="quiet">Loading the collection…</p>
+<div id="tally" class="tally" aria-label="Spotify match counts"></div>
+<form id="filters" class="filters">
+<label class="search">Search<input id="q" type="search" placeholder="Title, composer, performer" autocomplete="off"></label>
+<label>Spotify match<select class="view-select" id="sp"><option value="">All statuses</option><option value="found">Found</option><option value="probable">Probable</option><option value="not_found">Not found</option><option value="pending">Pending</option><option value="unchecked">Unchecked</option></select></label>
+<label>Composer<select class="view-select" id="composer"><option value="">Any</option></select></label><label>Label<select class="view-select" id="label"><option value="">Any</option></select></label><label>Genre or style<select class="view-select" id="genre"><option value="">Any</option></select></label><label>Decade<select class="view-select" id="decade"><option value="">Any</option></select></label>
+<label>Sort<select class="view-select" id="sort"><option value="composer">Composer</option><option value="artist">Artist</option><option value="performers">Artists (credits)</option><option value="spotify">Spotify status</option><option value="title">Title</option><option value="year">Year</option><option value="label">Label</option><option value="confidence">Match confidence</option></select></label>
+<button id="reset" type="button" disabled>Clear</button>
+</form>
+<p id="showing" class="quiet" aria-live="polite"></p>
+<div id="shelf" tabindex="-1" aria-busy="true">Loading albums…</div>
+</section>
+<section id="detail-view" hidden tabindex="-1"></section>
+<p id="notice" class="notice" hidden></p>
+<footer><span id="foot"></span><a href="https://www.discogs.com/user/ajozi/collection">ajozi on Discogs</a><a id="sample-link" href="?data=fixture">Sample data</a></footer>
+</main>
+<noscript>This page needs JavaScript to load the collection.</noscript>
 <script src="app.js"></script>
-</body>
-</html>
+</body></html>

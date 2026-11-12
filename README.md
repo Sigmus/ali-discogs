@@ -100,7 +100,12 @@ The package layout:
 
 ## Explorer
 
-`explorer/index.html`, `app.js`, and `style.css` are the page. Paths are relative (`style.css`, `app.js`, `data/collection_matches.json`), so the same files work at the site root and under the `/ali-discogs/` prefix GitHub Pages uses for this repo. `?data=fixture` loads eight invented rows from `explorer/data/fixture.json`.
+`explorer/index.html`, `app.js`, and `style.css` are the page. Paths are relative (`style.css`, `app.js`, `data/collection_matches.json`), so the same files work at the site root and under the `/ali-discogs/` prefix GitHub Pages uses for this repo. The UI uses a compact Sonoteque-style album table with Spotify status/confidence,
+search, composer, label, genre/style, decade and sorting controls. Album links open
+dedicated details with the full track list, Spotify match and alternate candidates,
+and Discogs/Qobuz links. Filters survive navigation to details and back.
+
+`?data=fixture` loads eight invented rows from `explorer/data/fixture.json`.
 
 `make build` writes `dist/` with the page, the fixture, `collection_matches.json`, and `summary.json`. `make serve` builds and serves that directory. The loader test is `node explorer/test/normalize.test.js`.
 

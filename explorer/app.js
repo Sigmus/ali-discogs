@@ -34,17 +34,8 @@
     pending: "Pending",
     unchecked: "Unchecked"
   };
-  const TALLY_ORDER = ["found", "probable", "not_found", "pending", "unchecked"];
-  const TALLY_WORD = {
-    found: "found",
-    probable: "probable",
-    not_found: "not found",
-    pending: "pending",
-    unchecked: "unchecked"
-  };
-  const SORTS = ["composer", "artist", "title", "year", "label", "confidence"];
+  const SORTS = ["composer", "artist", "title", "year", "label", "confidence", "performers", "spotify"];
   const THEME_KEY = "ali-discogs-theme";
-  const VIEW_KEY = "ali-discogs-view";
   const LIST_KEYS = ["items", "releases", "matches", "collection", "results", "data", "records", "entries", "collection_matches", "albums"];
 
   function asArray(v) {
@@ -390,6 +381,16 @@
     let c = 0;
     if (state.sort === "year") c = numNullLast(a.discogs.year, b.discogs.year, dir);
     else if (state.sort === "confidence") c = numNullLast(a._conf, b._conf, dir);
+    else if (state.sort === "performers") {
+      const credits = it => [it.discogs.conductor, ...it.discogs.performers, ...it.discogs.ensembles]
+        .filter(Boolean).join(" ") || it.discogs.artists.map(a => a.name).join(" ");
+      c = strNullLast(credits(a), credits(b), dir);
+    }
+    else if (state.sort === "spotify") {
+      const rank = { found: 0, probable: 1, not_found: 2, pending: 3, unchecked: 4 };
+      c = (rank[a.spotify.status] - rank[b.spotify.status]) * dir ||
+        numNullLast(a.spotify.confidence, b.spotify.confidence, -dir);
+    }
     else if (state.sort === "title") c = cmpStr(a.discogs.title, b.discogs.title) * dir;
     else if (state.sort === "label") c = (cmpStr(a._label, b._label) || cmpStr(a._catno, b._catno)) * dir;
     else if (state.sort === "artist") c = strNullLast(a._artist, b._artist, dir) || cmpStr(a._artistFull, b._artistFull) * dir;
@@ -427,23 +428,17 @@
     const tallyEl = $("tally");
     const q = $("q");
     const sp = $("sp");
-    const qb = $("qb");
-    const gap = $("gap");
     const genre = $("genre");
     const composer = $("composer");
-    const presetMiss = $("preset-miss");
     const label = $("label");
     const decade = $("decade");
     const sort = $("sort");
-    const dir = $("dir");
     const reset = $("reset");
     const showing = $("showing");
     const shelf = $("shelf");
     const foot = $("foot");
     const sampleLink = $("sample-link");
     const themeBtn = $("theme");
-    const viewGrid = $("view-grid");
-    const viewList = $("view-list");
     const form = $("filters");
     let items = [];
     let counts = null;
@@ -457,15 +452,6 @@
       const next = defaultState();
       next.q = params.get("q") || "";
       next.sp = params.get("sp") || "";
-      next.qb = params.get("qb") || "";
-      if (params.get("gap") === "1" || params.get("neither") === "1") {
-        next.sp = "not_found";
-        next.qb = "not_found";
-      }
-      if (params.get("both") === "1") {
-        next.sp = "found";
-        next.qb = "found";
-      }
       next.genre = params.get("genre") || "";
       next.composer = params.get("composer") || "";
       next.label = params.get("label") || "";
@@ -497,33 +483,19 @@
     function isDefault() {
       return !state.q && !state.sp && !state.qb && !state.genre && !state.composer && !state.label && !state.decade && state.sort === "composer" && state.dir !== "desc";
     }
-    function dirLabel() {
-      const asc = state.dir !== "desc";
-      if (state.sort === "year") return asc ? "Oldest first" : "Newest first";
-      if (state.sort === "confidence") return asc ? "Lowest first" : "Highest first";
-      return asc ? "A to Z" : "Z to A";
-    }
     function syncControls() {
       q.value = state.q;
       sp.value = state.sp;
-      qb.value = state.qb;
       if ([...genre.options].some(o => o.value === state.genre)) genre.value = state.genre;
       if ([...composer.options].some(o => o.value === state.composer)) composer.value = state.composer;
       if ([...label.options].some(o => o.value === state.label)) label.value = state.label;
       if ([...decade.options].some(o => o.value === state.decade)) decade.value = state.decade;
       sort.value = state.sort;
-      gap.checked = state.sp === "not_found" && state.qb === "not_found";
-      dir.textContent = dirLabel();
-      dir.setAttribute("aria-label", dirLabel());
-      const missOn = state.sp === "not_found" && !state.qb;
-      presetMiss.classList.toggle("on", missOn);
-      presetMiss.setAttribute("aria-pressed", missOn ? "true" : "false");
       reset.disabled = isDefault();
     }
     function readControls() {
       state.q = q.value;
       state.sp = sp.value;
-      state.qb = qb.value;
       state.genre = genre.value;
       state.composer = composer.value;
       state.label = label.value;
@@ -548,15 +520,6 @@
       themeBtn.setAttribute("aria-label", dark ? "Switch to light theme" : "Switch to dark theme");
       if (persist) localStorage.setItem(THEME_KEY, dark ? "dark" : "light");
     }
-    function applyView(view) {
-      const list = view === "list";
-      shelf.classList.toggle("list", list);
-      shelf.classList.toggle("grid", !list);
-      viewGrid.setAttribute("aria-pressed", list ? "false" : "true");
-      viewList.setAttribute("aria-pressed", list ? "true" : "false");
-      try { localStorage.setItem(VIEW_KEY, list ? "list" : "grid"); } catch (e) { /* ignore */ }
-    }
-
     function optionList(pairs, placeholder) {
       return [`<option value="">${esc(placeholder)}</option>`].concat(pairs.map(([value, count, textLabel]) => {
         return `<option value="${esc(value)}">${esc(textLabel || value)} (${count})</option>`;
@@ -613,19 +576,8 @@
 
     function buildTally() {
       counts = tally(items);
-      const row = (name, key) => {
-        const buttons = TALLY_ORDER.map(status => {
-          const n = counts[key][status];
-          const hidden = (status === "pending" || status === "unchecked") && !n ? " hidden" : "";
-          return `<button type="button" data-set="${key === "spotify" ? "sp" : "qb"}" data-val="${status}"${hidden}><span class="swatch ${status}"></span><span class="num">${n}</span><span class="lbl">${TALLY_WORD[status]}</span></button>`;
-        }).join("");
-        return `<div class="tally-row"><span class="tally-name">${name}</span>${buttons}</div>`;
-      };
-      tallyEl.innerHTML = row("Spotify", "spotify") + row("Qobuz", "qobuz") +
-        `<div class="tally-row tally-cross">` +
-        `<button type="button" data-set="neither"><span class="swatch not_found"></span><span class="num">${counts.neither}</span><span class="lbl">found on neither</span></button>` +
-        `<button type="button" data-set="both"><span class="swatch found"></span><span class="num">${counts.both}</span><span class="lbl">found on both</span></button>` +
-        `</div>`;
+      tallyEl.innerHTML = `<button type="button" data-set="sp" data-val=""><span class="num">${items.length}</span> All</button>` +
+        ["found", "probable", "not_found"].map(status => `<button type="button" data-set="sp" data-val="${status}"><span class="num">${counts.spotify[status]}</span> ${esc(STATUS_LABEL[status])}</button>`).join("");
     }
     function paintTally() {
       tallyEl.querySelectorAll("button").forEach(btn => {
@@ -651,15 +603,6 @@
       if (parts.length === 1) return parts[0].slice(0, 2).toUpperCase();
       return (parts[0][0] + parts[parts.length - 1][0]).toUpperCase();
     }
-    function artistHtml(artists) {
-      if (!artists.length) return `<span class="who">Unknown artist</span>`;
-      const first = `<span class="who">${esc(artists[0].name)}</span>`;
-      const rest = artists.slice(1);
-      if (!rest.length) return first;
-      const shown = rest.slice(0, 2).map(a => esc(a.name)).join('<span class="dot">·</span>');
-      const extra = rest.length > 2 ? ` +${rest.length - 2}` : "";
-      return `${first} <span class="with"><span class="dot">·</span>${shown}${extra}</span>`;
-    }
     function labelHtml(labels) {
       const shown = labels.slice(0, 2).map(l => {
         const cat = l.catno ? ` <span class="cat">${esc(l.catno)}</span>` : "";
@@ -679,15 +622,7 @@
       const conf = typeof album.confidence === "number" ? ` <span class="conf">${Math.round(album.confidence * 100)}%</span>` : "";
       return `<p class="match">${prefix || ""}${nameHtml}${who.length ? ` <span class="by">${esc(who.join(", "))}</span>` : ""}${extra.length ? ` <span class="extra">${esc(extra.join(" · "))}</span>` : ""}${conf}</p>`;
     }
-    function peopleTitle(d) {
-      const parts = [];
-      if (d.composers && d.composers.length) parts.push(d.composers.join(", "));
-      if (d.conductor) parts.push(d.conductor);
-      if (d.performers && d.performers.length) parts.push(d.performers.join(", "));
-      if (!parts.length) return creditFull(d.artists);
-      return parts.join(" · ");
-    }
-    function supportLine(d) {
+    function supportLine(d, limit = 3) {
       if (!d.composers || !d.composers.length) return [];
       const skip = new Set(d.composers.map(s => s.toLowerCase()));
       const bits = [];
@@ -698,13 +633,7 @@
       add(d.conductor);
       (d.performers || []).forEach(add);
       (d.ensembles || []).forEach(add);
-      return bits.slice(0, 3);
-    }
-    function trackHtml(tracks) {
-      if (!tracks || !tracks.length) return "";
-      const shown = tracks.slice(0, 8);
-      const more = tracks.length > shown.length ? `<li class="quiet">+${tracks.length - shown.length} more</li>` : "";
-      return `<details class="alts tracks"><summary>${tracks.length} track${tracks.length === 1 ? "" : "s"}</summary><ol>${shown.map(t => `<li>${esc(t)}</li>`).join("")}${more}</ol></details>`;
+      return bits.slice(0, limit);
     }
     function serviceHtml(name, svc) {
       const labelText = STATUS_LABEL[svc.status] || svc.status;
@@ -723,49 +652,49 @@
         : "";
       return `<div class="svc"><div class="svc-h"><span class="svc-name">${esc(name)}</span><span class="badge ${esc(svc.status)}">${esc(labelText)}</span>${conf}</div>${body}${alts}</div>`;
     }
-    function cardHtml(it) {
+    function coverHtml(d, large = false) {
+      const url = safeUrl(large ? d.cover_image || d.thumb : d.thumb || d.cover_image);
+      return url ? `<img src="${esc(url)}" alt="" loading="lazy" data-initials="${esc(initials(d.title))}">` : `<div class="mono" aria-hidden="true">${esc(initials(d.title))}</div>`;
+    }
+    function detailHash(it) {
+      const params = new URLSearchParams(location.hash.slice(1));
+      params.set("album", it._route);
+      return "#" + params.toString();
+    }
+    function rowHtml(it) {
+      const d = it.discogs, href = detailHash(it);
+      return `<tr><td class="cover-cell"><a href="${esc(href)}" tabindex="-1" aria-hidden="true">${coverHtml(d)}</a></td>
+        <td class="title"><a class="album-link" href="${esc(href)}" title="${esc(d.title)}">${esc(d.title)}</a></td>
+        <td class="col-year">${d.year || "—"}</td>
+        <td><a class="album-link" href="${esc(href)}" title="${esc(d.composers.join(" · "))}">${esc(d.composers.join(" · ") || "—")}</a></td>
+        <td class="col-artists"><a class="album-link" href="${esc(href)}" title="${esc(supportLine(d).join(" · "))}">${esc(supportLine(d, Infinity).join(" · ") || d.artists.map(a => a.name).join(" · "))}</a></td>
+        <td><a href="${esc(href)}" class="status ${esc(it.spotify.status)}">${typeof it.spotify.confidence === "number" ? Math.round(it.spotify.confidence * 100) + "% (" + esc(STATUS_LABEL[it.spotify.status]) + ")" : esc(STATUS_LABEL[it.spotify.status])}</a></td></tr>`;
+    }
+    function renderDetail() {
+      const params = new URLSearchParams(location.hash.slice(1));
+      const id = params.get("album");
+      const it = id !== null ? items.find(row => row._route === id) : null;
+      $("collection-view").hidden = id !== null;
+      const detail = $("detail-view");
+      detail.hidden = id === null;
+      if (id === null) { document.title = "Ali's collection"; return; }
+      params.delete("album");
+      const back = params.toString() ? "#" + params.toString() : "#";
+      if (!it) { detail.innerHTML = `<a class="back" href="${esc(back)}">← Albums</a><h1>Album not found</h1>`; return; }
       const d = it.discogs;
-      const spotifyMiss = it.spotify.status === "not_found";
-      const neither = spotifyMiss && it.qobuz.status === "not_found";
-      const cover = safeUrl(d.cover_image);
-      const thumb = safeUrl(d.thumb);
-      const leadName = (d.composers && d.composers[0]) || (d.artists[0] && d.artists[0].name) || d.title;
-      const ini = initials(leadName);
-      const img = cover
-        ? `<img alt="" src="${esc(cover)}"${thumb ? ` data-thumb="${esc(thumb)}"` : ""} data-initials="${esc(ini)}" width="600" height="600" loading="lazy" decoding="async">`
-        : `<div class="mono" aria-hidden="true">${esc(ini)}</div>`;
-      const flag = neither ? `<p class="flag">On neither</p>` : spotifyMiss ? `<p class="flag">Not on Spotify</p>` : "";
-      const who = (d.composers && d.composers.length)
-        ? artistHtml(d.composers.map(name => ({ name })))
-        : artistHtml(d.artists);
-      const support = supportLine(d);
-      const supportHtml = support.length ? `<p class="support">${esc(support.join(" · "))}</p>` : "";
-      const chips = (d.styles.length ? d.styles : d.genres);
-      const shown = chips.slice(0, 3);
-      const chipLine = shown.length
-        ? `<p class="styles">${shown.map(esc).join('<span class="dot">·</span>')}${chips.length > 3 ? `<span class="dot">·</span>+${chips.length - 3}` : ""}</p>`
-        : "";
-      const when = it._copies > 1 ? addedLabel(d.date_added) : "";
-      const copy = when ? `<p class="copy">Copy added ${esc(when)}</p>` : "";
-      const href = safeUrl(d.url);
-      const title = href
-        ? `<a href="${esc(href)}" target="_blank" rel="noopener noreferrer">${esc(d.title)}</a>`
-        : esc(d.title);
-      const year = d.year ? `<span>${d.year}</span>` : `<span>Undated</span>`;
-      const formats = d.formats.length ? `<span class="dot">·</span><span>${esc(d.formats.join(" · "))}</span>` : "";
-      return `<article class="card${spotifyMiss ? " gap" : ""}">
-        <div class="cover">${img}</div>
-        <div class="body">
-          ${flag}
-          <h2 title="${esc(d.title)}">${title}</h2>
-          <p class="artist" title="${esc(peopleTitle(d))}">${who}</p>
-          ${supportHtml}
-          <p class="meta">${year}${formats}</p>
-          <p class="labels">${labelHtml(d.labels)}</p>
-          ${chipLine}${copy}${trackHtml(d.tracklist)}
-        </div>
-        <div class="services">${serviceHtml("Spotify", it.spotify)}${serviceHtml("Qobuz", it.qobuz)}</div>
-      </article>`;
+      document.title = d.title + " · Ali's collection";
+      detail.innerHTML = `<a class="back" href="${esc(back)}">← Albums</a><article>
+        <div class="detail-head"><div class="detail-cover">${coverHtml(d, true)}</div><div>
+        <h1>${esc(d.title)}</h1><p class="composer">${esc(d.composers.join(" · "))}</p>
+        <p class="support">${esc(supportLine(d, Infinity).join(" · ") || d.artists.map(a => a.name).join(" · "))}</p>
+        <p class="meta">${esc([d.year || "Undated", ...d.formats].join(" · "))}</p>
+        <p class="labels">${labelHtml(d.labels)}</p><p class="styles">${esc([...new Set(d.genres.concat(d.styles))].join(" · "))}</p>
+        ${it._copies > 1 ? `<p class="copy">Copy added ${esc(addedLabel(d.date_added))}</p>` : ""}
+        <div class="external-links">${safeUrl(d.url) ? `<a href="${esc(safeUrl(d.url))}" target="_blank" rel="noopener noreferrer">Discogs ↗</a>` : ""}${safeUrl(it.qobuz.search_url) ? `<a href="${esc(safeUrl(it.qobuz.search_url))}" target="_blank" rel="noopener noreferrer">Search Qobuz ↗</a>` : ""}</div></div></div>
+        ${serviceHtml("Spotify", it.spotify)}
+        <h2>Tracks <span class="quiet">${d.tracklist.length}</span></h2>
+        ${d.tracklist.length ? `<ol class="track-list">${d.tracklist.map((t, i) => `<li><span class="track-number">${i + 1}</span><span>${esc(t)}</span></li>`).join("")}</ol>` : `<p class="quiet">No track list available.</p>`}
+        </article>`;
     }
     function emptyMessage() {
       if (state.sp === "not_found" && state.qb === "not_found" && !state.q && !state.genre && !state.composer && !state.label && !state.decade) {
@@ -775,6 +704,12 @@
         return "Every release has a Spotify match.";
       }
       return "No releases match these filters.";
+    }
+    function headerHtml(name, key, className = "") {
+      const active = state.sort === key;
+      const direction = active ? (state.dir === "desc" ? "descending" : "ascending") : "none";
+      const sortClass = active ? (state.dir === "desc" ? "sort-desc" : "sort-asc") : "";
+      return `<th scope="col" class="sortable ${className} ${sortClass}" aria-sort="${direction}"><button type="button" data-sort="${key}">${name} <span class="sort-arrow" aria-hidden="true"></span></button></th>`;
     }
     function renderShelf() {
       if (!ready) return;
@@ -787,25 +722,16 @@
         shelf.innerHTML = `<div class="empty"><p>${esc(emptyMessage())}</p><button type="button" data-clear>Clear filters</button></div>`;
         return;
       }
-      shelf.innerHTML = rows.map(cardHtml).join("");
+      shelf.innerHTML = `<div class="table-wrap"><table class="album-table"><colgroup><col style="width:48px"><col class="col-album" style="width:30%"><col class="col-year" style="width:75px"><col class="col-composer" style="width:18%"><col class="col-artists"><col class="col-status" style="width:145px"></colgroup><thead><tr><th aria-label="Cover"></th>${headerHtml("Album", "title")}${headerHtml("Year", "year", "col-year")}${headerHtml("Composer", "composer")}${headerHtml("Artists", "performers", "col-artists")}${headerHtml("Spotify", "spotify")}</tr></thead><tbody>${rows.map(rowHtml).join("")}</tbody></table></div>`;
     }
     function showNotice() {
       const waiting = items.length && items.every(it =>
         (it.spotify.status === "pending" || it.spotify.status === "unchecked") &&
         (it.qobuz.status === "pending" || it.qobuz.status === "unchecked"));
-      const qobuzBlocked = items.length && items.every(it => it.qobuz.status === "unchecked");
-      const spotifyChecked = items.some(it => it.spotify.status === "found" || it.spotify.status === "probable" || it.spotify.status === "not_found");
       if (sample) {
         notice.hidden = false;
         notice.className = "notice sample";
         notice.textContent = "Sample matches for trying filters and badges. These are not Ali’s records.";
-        return;
-      }
-      if (qobuzBlocked && spotifyChecked) {
-        const miss = items.filter(it => it.spotify.status === "not_found").length;
-        notice.hidden = false;
-        notice.className = "notice";
-        notice.textContent = `Qobuz is unchecked: qobuz.com returned 403, so each card links to a Qobuz search. ${miss.toLocaleString()} releases were not found on Spotify.`;
         return;
       }
       if (waiting) {
@@ -823,33 +749,18 @@
       clearTimeout(timer);
       timer = setTimeout(fromForm, 80);
     });
-    [sp, qb, genre, composer, label, decade, sort].forEach(el => el.addEventListener("change", fromForm));
-    presetMiss.addEventListener("click", () => {
-      const pure = state.sp === "not_found" && !state.qb && !state.q && !state.genre && !state.composer && !state.label && !state.decade && state.sort === "composer" && state.dir !== "desc";
-      Object.assign(state, defaultState());
-      if (!pure) state.sp = "not_found";
-      syncControls();
-      commit();
-    });
-    gap.addEventListener("change", () => {
-      if (gap.checked) {
-        state.sp = "not_found";
-        state.qb = "not_found";
-      } else if (state.sp === "not_found" && state.qb === "not_found") {
-        state.sp = "";
-        state.qb = "";
-      }
-      syncControls();
-      commit();
-    });
-    dir.addEventListener("click", () => {
-      state.dir = state.dir === "desc" ? "asc" : "desc";
-      syncControls();
-      commit();
-    });
+    [sp, genre, composer, label, decade, sort].forEach(el => el.addEventListener("change", fromForm));
     reset.addEventListener("click", clearFilters);
     shelf.addEventListener("click", e => {
       if (e.target.closest("[data-clear]")) clearFilters();
+      const button = e.target.closest("button[data-sort]");
+      if (!button) return;
+      const key = button.dataset.sort;
+      state.dir = state.sort === key && state.dir !== "desc" ? "desc" : "asc";
+      state.sort = key;
+      syncControls();
+      commit();
+      shelf.querySelector(`button[data-sort="${key}"]`).focus({ preventScroll: true });
     });
     function clearFilters() {
       Object.assign(state, defaultState());
@@ -875,10 +786,13 @@
     themeBtn.addEventListener("click", () => {
       applyTheme(document.documentElement.dataset.theme === "dark" ? "light" : "dark", true);
     });
-    viewGrid.addEventListener("click", () => applyView("grid"));
-    viewList.addEventListener("click", () => applyView("list"));
+    document.querySelector(".skip").addEventListener("click", e => {
+      e.preventDefault();
+      const target = $("detail-view").hidden ? shelf : $("detail-view");
+      target.focus();
+    });
     document.addEventListener("keydown", e => {
-      if (e.key === "/" && !/^(input|select|textarea)$/i.test(document.activeElement && document.activeElement.tagName)) {
+      if (e.key === "/" && $("detail-view").hidden && !/^(input|select|textarea)$/i.test(document.activeElement && document.activeElement.tagName)) {
         e.preventDefault();
         q.focus();
       }
@@ -888,7 +802,13 @@
       syncControls();
       renderShelf();
       paintTally();
+      renderDetail();
+      window.scrollTo(0, 0);
+      if (!$("detail-view").hidden) $("detail-view").focus({ preventScroll: true });
     });
+    $("detail-view").addEventListener("error", e => {
+      if (e.target.tagName === "IMG") { const mono = document.createElement("div"); mono.className = "mono"; mono.textContent = e.target.dataset.initials || "?"; e.target.replaceWith(mono); }
+    }, true);
     shelf.addEventListener("error", e => {
       const img = e.target;
       if (!img || img.tagName !== "IMG") return;
@@ -905,10 +825,6 @@
       img.replaceWith(mono);
     }, true);
 
-    try {
-      const stored = localStorage.getItem(VIEW_KEY);
-      applyView(stored === "list" ? "list" : "grid");
-    } catch (e) { applyView("grid"); }
     applyTheme(document.documentElement.dataset.theme === "dark" ? "dark" : "light", false);
     const themeQuery = window.matchMedia("(prefers-color-scheme: dark)");
     themeQuery.addEventListener("change", e => {
@@ -932,22 +848,29 @@
       .then(raw => {
         const meta = metaOf(raw);
         items = enrichAll(collectionFrom(raw));
+        const occurrences = new Map();
+        items.forEach((it, index) => {
+          const id = String(it.discogs.id ?? "row-" + index);
+          const n = (occurrences.get(id) || 0) + 1;
+          occurrences.set(id, n);
+          it._route = id + ":" + (it.discogs.instance_id ?? n);
+        });
         ready = true;
         fillFilters();
         syncControls();
         buildTally();
         paintTally();
         const who = meta.user && meta.user !== "sample" ? meta.user : "ajozi";
-        const spotifyMiss = items.filter(it => it.spotify.status === "not_found").length;
         lede.textContent = sample
           ? `${items.length.toLocaleString()} sample releases with invented matches, for checking badges. Not Ali’s collection.`
-          : `${items.length.toLocaleString()} releases from Discogs user ${who}. ${spotifyMiss.toLocaleString()} are not on Spotify, marked in red.`;
+          : `${items.length.toLocaleString()} releases · Discogs collection of ${who}`;
         showNotice(meta);
         const when = meta.fetched_at ? addedLabel(meta.fetched_at) : "";
         foot.textContent = when
           ? `Discogs collection fetched ${when}. Cover images load from Discogs.`
           : "Cover images load from Discogs.";
         renderShelf();
+        renderDetail();
       })
       .catch(err => {
         shelf.innerHTML = "";

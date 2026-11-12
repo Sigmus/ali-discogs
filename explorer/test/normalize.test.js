@@ -209,4 +209,20 @@ assert.ok(beethoven.every(it => it.discogs.composers.some(c => c.toLowerCase() =
 const beethovenMiss = query(collection, { ...empty, composer: "Ludwig van Beethoven", sp: "not_found" });
 assert.equal(beethovenMiss.length, 27);
 
+// Table Artists sorts actual performance credits, independently of album artist.
+const sortingRows = enrichAll(collectionFrom([
+  {discogs_id: 1, title: "Zeta", artists: ["Z artist"], performers: ["Alpha player"], year: 1980, spotify: {status: "found", confidence: 0.9}},
+  {discogs_id: 2, title: "Alpha", artists: ["A artist"], performers: ["Zulu player"], year: 1960, spotify: {status: "not_found", confidence: 0.5}},
+  {discogs_id: 3, title: "Beta", performers: ["Middle player"], spotify: {status: "found", confidence: 0.95}}
+]));
+const sortedIds = (sort, dir = "asc") => query(sortingRows, {...empty, sort, dir}).map(it => it.discogs.id);
+assert.deepEqual(sortedIds("performers"), [1, 3, 2]);
+assert.deepEqual(sortedIds("performers", "desc"), [2, 3, 1]);
+assert.deepEqual(sortedIds("spotify"), [3, 1, 2]);
+assert.deepEqual(sortedIds("spotify", "desc"), [2, 1, 3]);
+assert.deepEqual(sortedIds("year"), [2, 1, 3]);
+assert.deepEqual(sortedIds("year", "desc"), [1, 2, 3]);
+assert.deepEqual(sortedIds("title"), [2, 3, 1]);
+assert.deepEqual(sortedIds("title", "desc"), [1, 3, 2]);
+
 console.log("normalize tests ok", collection.length, "releases");

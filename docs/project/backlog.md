@@ -2,8 +2,8 @@
 
 Updated: 2026-11-12, Europe/Amsterdam
 
-No implementation priorities have been agreed yet. The suggested order below
-is a recommendation. IDs remain stable when reordered. Promote an entry to
+AD-005 is implemented locally and awaiting visual review; see history and context.
+The entries below remain proposals. IDs remain stable when reordered. Promote an entry to
 agreed work only when the user requests it; record completion in [history](history.md).
 
 ## AD-001 — Audit Spotify match quality
