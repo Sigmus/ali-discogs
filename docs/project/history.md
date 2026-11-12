@@ -126,3 +126,11 @@ Validated JavaScript syntax, existing normalization/query tests and static build
 Made composer, artist and Spotify status table cells plain text; titles and
 covers retain detail navigation. Removed accent coloring from static composer
 and match labels. Syntax, normalization/query tests and static build pass.
+
+### 2026-11-12 — Fix GitHub Pages source and verify live UI
+
+Live browser inspection found the README published because Pages used the
+legacy main/root source. Changed the repository Pages source to GitHub Actions
+and pushed `8e9f638`. Deployment `43231078310` succeeded. Browser inspection of
+https://sigmus.github.io/ali-discogs/ confirmed the album UI, 741 table rows,
+no status tabs and no status hyperlinks.

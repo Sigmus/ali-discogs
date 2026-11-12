@@ -20,8 +20,9 @@ in a static explorer. See [README](../../README.md) for setup and matching rules
 - `make serve` builds `dist/` and serves on localhost:8000. The UI was started
   and opened on 2026-11-12; the browser displayed all 741 releases. A server's
   continued availability must be checked when resuming.
-- GitHub Actions definitions cover tests and GitHub Pages deployment. README
-  lists public URLs; live deployment availability has not been verified here.
+- GitHub Pages now uses the GitHub Actions source (`build_type: workflow`).
+  Live site verified on 2026-11-12: album UI loads all 741 rows, without status
+  tabs or status hyperlinks. Deployment run `43231078310` succeeded.
 
 ## Limitations
 
@@ -49,7 +50,8 @@ Status tabs have been removed; Spotify filtering remains in the dropdown.
 Table metadata/status are plain text; title and cover open details. Static
 detail labels use neutral colors so they do not resemble hyperlinks.
 Redesign committed as `c0ed7a3`, fast-forwarded into main and pushed to origin.
-Pages deployment was triggered; inspect GitHub Actions for the final outcome.
+Follow-up UI commit `8e9f638` is pushed and deployed. The previous branch-root
+Pages source served the README; switching to Actions fixed publication.
 [Plan and validation](../plans/2026-11-12-sonoteque-ui.md).
 
 ## References
