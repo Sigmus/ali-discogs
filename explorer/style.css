@@ -111,28 +111,6 @@ button:disabled {
   opacity:.4;
   cursor:default;
 }
-.tally {
-  display:flex;
-  gap:16px;
-  flex-wrap:wrap;
-  margin:20px 0;
-}
-.tally button {
-  padding:0;
-  background:none;
-  border:0;
-  border-bottom:2px solid transparent;
-  border-radius:0;
-  color:var(--c-muted);
-}
-.tally button.on {
-  color:var(--c-accent);
-  border-color:var(--c-accent);
-}
-.tally .num {
-  font-weight:600;
-  margin-right:4px;
-}
 .filters {
   display:grid;
   grid-template-columns:repeat(4,minmax(0,1fr));
@@ -205,7 +183,7 @@ tbody tr:hover {
 td.title {
   color:var(--c-text);
 }
-td a.album-link {
+td a.album-link,td .cell-text {
   display:block;
   overflow:hidden;
   text-overflow:ellipsis;
@@ -233,7 +211,7 @@ td.cover-cell {
   white-space:nowrap;
 }
 .status.probable {
-  color:var(--c-accent);
+  color:var(--c-muted);
 }
 .status.not_found {
   color:var(--c-text);
@@ -268,7 +246,7 @@ td.cover-cell {
   font-size:24px;
 }
 .detail-head .composer {
-  color:var(--c-accent);
+  color:var(--c-muted);
   margin:8px 0;
 }
 .detail-head p {
@@ -300,7 +278,7 @@ td.cover-cell {
   font-size:12px;
 }
 .badge {
-  color:var(--c-accent);
+  color:var(--c-muted);
 }
 .match {
   margin:4px 0;
@@ -407,9 +385,6 @@ footer {
   td,th {
     padding-left:6px;
     padding-right:6px;
-  }
-  .tally {
-    gap:12px;
   }
 }
 

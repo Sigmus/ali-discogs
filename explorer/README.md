@@ -58,7 +58,7 @@ The committed file is flatter than that sketch: `discogs_id`, `discogs_url`, `co
 
 The explorer uses Sonoteque's visual style: compact album table, small covers,
 muted metadata, thin rules, violet accents and paired light/dark themes.
-Spotify found/probable/not-found counts are clickable filters. Search covers
+Spotify status filtering uses the Spotify match dropdown. Search covers
 title, composer, performer, conductor, ensemble, track, label and catalogue number.
 Composer, genre/style, label and decade filters combine with Spotify status.
 Click Album, Year, Composer, Artists or Spotify headings to sort; click again to
@@ -66,7 +66,7 @@ reverse. The active heading shows Sonoteque’s triangle indicator. Spotify sort
 by status then confidence; Artists sorts performance credits. The Sort selector
 also offers album artist, label and confidence sorting and stays synchronized.
 
-Open an album title or status to view full metadata, all tracks, Spotify match
+Open an album title or cover to view full metadata, all tracks, Spotify match
 or closest guess and alternate candidates. Discogs and Qobuz search links live
 in details. Qobuz is unchecked; no main-page Qobuz totals or filters are shown.
 The back link preserves collection filters. Hash links identify release/copy;

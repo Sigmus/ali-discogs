@@ -425,7 +425,6 @@
     const $ = id => document.getElementById(id);
     const lede = $("lede");
     const notice = $("notice");
-    const tallyEl = $("tally");
     const q = $("q");
     const sp = $("sp");
     const genre = $("genre");
@@ -441,7 +440,6 @@
     const themeBtn = $("theme");
     const form = $("filters");
     let items = [];
-    let counts = null;
     let sample = false;
     let ready = false;
     const state = defaultState();
@@ -505,7 +503,6 @@
     function commit() {
       writeHash();
       renderShelf();
-      paintTally();
       reset.disabled = isDefault();
     }
     function fromForm() {
@@ -572,24 +569,6 @@
       const decadeKeys = [...decades.keys()].filter(k => k !== "undated").sort();
       if (decades.has("undated")) decadeKeys.push("undated");
       decade.innerHTML = optionList(decadeKeys.map(k => [k, decades.get(k), k === "undated" ? "Undated" : k + "s"]), "Any");
-    }
-
-    function buildTally() {
-      counts = tally(items);
-      tallyEl.innerHTML = `<button type="button" data-set="sp" data-val=""><span class="num">${items.length}</span> All</button>` +
-        ["found", "probable", "not_found"].map(status => `<button type="button" data-set="sp" data-val="${status}"><span class="num">${counts.spotify[status]}</span> ${esc(STATUS_LABEL[status])}</button>`).join("");
-    }
-    function paintTally() {
-      tallyEl.querySelectorAll("button").forEach(btn => {
-        const kind = btn.dataset.set;
-        let on = false;
-        if (kind === "sp") on = state.sp === btn.dataset.val;
-        else if (kind === "qb") on = state.qb === btn.dataset.val;
-        else if (kind === "neither") on = state.sp === "not_found" && state.qb === "not_found";
-        else if (kind === "both") on = state.sp === "found" && state.qb === "found";
-        btn.classList.toggle("on", on);
-        btn.setAttribute("aria-pressed", on ? "true" : "false");
-      });
     }
 
     function addedLabel(iso) {
@@ -666,9 +645,9 @@
       return `<tr><td class="cover-cell"><a href="${esc(href)}" tabindex="-1" aria-hidden="true">${coverHtml(d)}</a></td>
         <td class="title"><a class="album-link" href="${esc(href)}" title="${esc(d.title)}">${esc(d.title)}</a></td>
         <td class="col-year">${d.year || "—"}</td>
-        <td><a class="album-link" href="${esc(href)}" title="${esc(d.composers.join(" · "))}">${esc(d.composers.join(" · ") || "—")}</a></td>
-        <td class="col-artists"><a class="album-link" href="${esc(href)}" title="${esc(supportLine(d).join(" · "))}">${esc(supportLine(d, Infinity).join(" · ") || d.artists.map(a => a.name).join(" · "))}</a></td>
-        <td><a href="${esc(href)}" class="status ${esc(it.spotify.status)}">${typeof it.spotify.confidence === "number" ? Math.round(it.spotify.confidence * 100) + "% (" + esc(STATUS_LABEL[it.spotify.status]) + ")" : esc(STATUS_LABEL[it.spotify.status])}</a></td></tr>`;
+        <td><span class="cell-text" title="${esc(d.composers.join(" · "))}">${esc(d.composers.join(" · ") || "—")}</span></td>
+        <td class="col-artists"><span class="cell-text" title="${esc(supportLine(d, Infinity).join(" · "))}">${esc(supportLine(d, Infinity).join(" · ") || d.artists.map(a => a.name).join(" · "))}</span></td>
+        <td><span class="status ${esc(it.spotify.status)}">${typeof it.spotify.confidence === "number" ? Math.round(it.spotify.confidence * 100) + "% (" + esc(STATUS_LABEL[it.spotify.status]) + ")" : esc(STATUS_LABEL[it.spotify.status])}</span></td></tr>`;
     }
     function renderDetail() {
       const params = new URLSearchParams(location.hash.slice(1));
@@ -767,22 +746,7 @@
       syncControls();
       commit();
     }
-    tallyEl.addEventListener("click", e => {
-      const btn = e.target.closest("button");
-      if (!btn) return;
-      const kind = btn.dataset.set;
-      const val = btn.dataset.val;
-      if (kind === "sp" || kind === "qb") state[kind] = state[kind] === val ? "" : val;
-      else if (kind === "neither") {
-        if (state.sp === "not_found" && state.qb === "not_found") { state.sp = ""; state.qb = ""; }
-        else { state.sp = "not_found"; state.qb = "not_found"; }
-      } else if (kind === "both") {
-        if (state.sp === "found" && state.qb === "found") { state.sp = ""; state.qb = ""; }
-        else { state.sp = "found"; state.qb = "found"; }
-      }
-      syncControls();
-      commit();
-    });
+
     themeBtn.addEventListener("click", () => {
       applyTheme(document.documentElement.dataset.theme === "dark" ? "light" : "dark", true);
     });
@@ -801,7 +765,6 @@
       readHash();
       syncControls();
       renderShelf();
-      paintTally();
       renderDetail();
       window.scrollTo(0, 0);
       if (!$("detail-view").hidden) $("detail-view").focus({ preventScroll: true });
@@ -858,8 +821,6 @@
         ready = true;
         fillFilters();
         syncControls();
-        buildTally();
-        paintTally();
         const who = meta.user && meta.user !== "sample" ? meta.user : "ajozi";
         lede.textContent = sample
           ? `${items.length.toLocaleString()} sample releases with invented matches, for checking badges. Not Ali’s collection.`

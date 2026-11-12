@@ -114,3 +114,15 @@ to origin. Local and remote main matched with a clean working tree immediately
 after push. Pages and test workflows triggered for that SHA. Public site:
 https://sigmus.github.io/ali-discogs/. Deployment completion is checked in GitHub
 Actions; this entry records the verified push, not an assumed deployment result.
+
+### 2026-11-12 — Remove status tabs
+
+Removed the All/Found/Probable/Not found tab row and its UI handlers/styles at
+the user’s request. Spotify match filtering remains available in the dropdown.
+Validated JavaScript syntax, existing normalization/query tests and static build.
+
+### 2026-11-12 — Clarify link affordances
+
+Made composer, artist and Spotify status table cells plain text; titles and
+covers retain detail navigation. Removed accent coloring from static composer
+and match labels. Syntax, normalization/query tests and static build pass.
