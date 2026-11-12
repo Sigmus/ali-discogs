@@ -1,5 +1,9 @@
 # ali-discogs
 
+Project status, proposed work, decisions, and progress live in
+[docs/project/context.md](docs/project/context.md). Repository contributors and
+agents should follow [AGENTS.md](AGENTS.md).
+
 Match [Ali’s Discogs collection](https://www.discogs.com/user/ajozi/collection) (user `ajozi`, 741 classical releases) against the Spotify catalogue, and browse the result in a static explorer.
 
 Spotify today: **255 found**, **276 probable**, **210 not found**. Qobuz is `unchecked` on every row. `www.qobuz.com` answers 403 from the network that built this, so each row keeps a `qobuz.search_url` and the card links there. There is no Qobuz matcher.
