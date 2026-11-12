@@ -23,3 +23,5 @@ jobs:
           node-version: "22"
       - name: Explorer loader
         run: node explorer/test/normalize.test.js
+      - name: Qobuz catalogue cache and error handling (mocked)
+        run: uv run --with 'requests>=2.32,<3' python -m unittest discover -s scripts/test -v

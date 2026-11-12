@@ -6,3 +6,6 @@ __pycache__/
 .python-version
 dist/
 .uv/
+
+# Local catalogue probe responses
+.qobuz-poc/

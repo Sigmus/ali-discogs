@@ -418,7 +418,7 @@
   }
 
   function defaultState() {
-    return { q: "", sp: "", qb: "", genre: "", composer: "", label: "", decade: "", sort: "composer", dir: "asc" };
+    return { q: "", sp: "", qb: "", genre: "", composer: "", label: "", decade: "", sort: "year", dir: "asc" };
   }
 
   function boot() {
@@ -454,8 +454,8 @@
       next.composer = params.get("composer") || "";
       next.label = params.get("label") || "";
       next.decade = params.get("decade") || "";
-      const sortBy = params.get("sort") || "composer";
-      next.sort = SORTS.includes(sortBy) ? sortBy : "composer";
+      const sortBy = params.get("sort") || "year";
+      next.sort = SORTS.includes(sortBy) ? sortBy : "year";
       next.dir = params.get("dir") === "desc" ? "desc" : "asc";
       const statuses = ["", "found", "probable", "not_found", "pending", "unchecked"];
       if (!statuses.includes(next.sp)) next.sp = "";
@@ -471,7 +471,7 @@
       if (state.composer) params.set("composer", state.composer);
       if (state.label) params.set("label", state.label);
       if (state.decade) params.set("decade", state.decade);
-      if (state.sort !== "composer") params.set("sort", state.sort);
+      if (state.sort !== "year") params.set("sort", state.sort);
       if (state.dir === "desc") params.set("dir", "desc");
       const s = params.toString();
       const same = s ? location.hash === "#" + s : !location.hash;
@@ -479,7 +479,7 @@
       history.replaceState(null, "", s ? "#" + s : location.pathname + location.search);
     }
     function isDefault() {
-      return !state.q && !state.sp && !state.qb && !state.genre && !state.composer && !state.label && !state.decade && state.sort === "composer" && state.dir !== "desc";
+      return !state.q && !state.sp && !state.qb && !state.genre && !state.composer && !state.label && !state.decade && state.sort === "year" && state.dir !== "desc";
     }
     function syncControls() {
       q.value = state.q;
@@ -498,7 +498,7 @@
       state.composer = composer.value;
       state.label = label.value;
       state.decade = decade.value;
-      state.sort = SORTS.includes(sort.value) ? sort.value : "composer";
+      state.sort = SORTS.includes(sort.value) ? sort.value : "year";
     }
     function commit() {
       writeHash();

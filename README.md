@@ -6,7 +6,7 @@ agents should follow [AGENTS.md](AGENTS.md).
 
 Match [Ali’s Discogs collection](https://www.discogs.com/user/ajozi/collection) (user `ajozi`, 741 classical releases) against the Spotify catalogue, and browse the result in a static explorer.
 
-Spotify today: **255 found**, **276 probable**, **210 not found**. Qobuz is `unchecked` on every row. `www.qobuz.com` answers 403 from the network that built this, so each row keeps a `qobuz.search_url` and the card links there. There is no Qobuz matcher.
+Saved Spotify results: **255 found**, **276 probable**, **210 not found**. Published Qobuz results remain `unchecked`, with search links in album details. A local, authenticated Qobuz catalogue PoC now works; it retrieves review candidates without changing published classifications. See [Qobuz setup, cache and enrichment handoff](docs/qobuz.md).
 
 The explorer is the page that was published from `apps/ali-discogs/` in the sigmus web app (live at <https://sigmus.fly.dev/ali-discogs/>). This repo is its long-term home. GitHub Pages serves it at <https://sigmus.github.io/ali-discogs/>.
 
@@ -21,6 +21,8 @@ raw/spotify/<16 hex>.json      cached Spotify search response, {"q", "resp"}
 raw/qobuz/                     empty; nothing is fetched
 explorer/                      static page (index.html, app.js, style.css, fixture, loader test)
 src/ali_discogs/               matcher
+scripts/                      read-only Qobuz catalogue probes and cache tests
+.qobuz-poc/                   ignored local upstream checkout and candidate metadata
 ```
 
 Spotify cache filenames are the first 16 hex chars of `sha1("album|{limit}|{query}")` with the default `limit` of 10. A rerun reads those files and does not call Spotify when the query is already cached. Discogs pages and release details work the same way: if `raw/discogs/...` exists, it is used.

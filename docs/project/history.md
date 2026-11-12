@@ -134,3 +134,59 @@ legacy main/root source. Changed the repository Pages source to GitHub Actions
 and pushed `8e9f638`. Deployment `43231078310` succeeded. Browser inspection of
 https://sigmus.github.io/ali-discogs/ confirmed the album UI, 741 table rows,
 no status tabs and no status hyperlinks.
+
+### 2026-11-12 — Default to chronological sorting
+
+Changed default sorting and Clear reset to Year ascending, oldest to newest,
+with undated albums last. Explicit sort links still override the default.
+JavaScript syntax, normalization/query tests and static build pass.
+
+### 2026-11-12 — Prepare Python Qobuz PoC
+
+Created `codex/qobuz-poc`, preserving pending sorting edits. Added an isolated,
+read-only search/metadata probe with ignored output and no dataset mutations.
+qobuz 0.0.2 installs under Python 3.12; 46 upstream mocked tests pass. Live
+search awaits QOBUZ_APP_ID; no claim of working API access yet. See the PoC plan.
+
+### 2026-11-12 — Inspect alternate Qobuz client
+
+Inspected user-specified Sei969/qobuz-dl. It offers catalogue search, full
+metadata and downloads, but initialization requires a user token and probes
+audio access. Recorded integration concerns in the PoC plan; no live execution
+or new credential extraction performed.
+
+### 2026-11-12 — Test alternate catalogue access
+
+Sei969/qobuz-dl application-ID discovery succeeded. Anonymous catalog/search
+returned HTTP 401, reproduced using the new catalogue-only script. No audio
+requests or dataset updates. Authenticated trial awaits a locally supplied
+QOBUZ_USER_AUTH_TOKEN. Script syntax checked; live rejection is explicit.
+
+### 2026-11-12 — Authenticated Qobuz catalogue success
+
+Using the user-supplied local token, the catalogue-only PoC returned HTTP 200
+for catalog/search and album/get, with five Bach/Gould/Goldberg candidates.
+Raw metadata remains ignored locally. No audio requests or published data changes.
+
+### 2026-11-12 — Six-release Qobuz sample
+
+Tested two releases each from Spotify found/probable/not_found. All six initial
+searches and 19 candidate metadata fetches succeeded; five queries had hits.
+Gould Byrd/Gibbons has the same eight-piece programme; other strong candidates
+include reissue supersets, with a concrete wrong-orchestra Eroica false positive.
+Gilels Russian Keyboard Masters remains unresolved after fallback. No automated
+match claims or collection updates. See the dated sample report. Syntax and
+diff checks pass; live API calls and complete returned track counts verified.
+
+### 2026-11-12 — Make Qobuz enrichment resumable and commit handoff
+
+User requested environment template, code/docs handoff and committing all work.
+Added QOBUZ_USER_AUTH_TOKEN placeholder to .env.example and docs/qobuz.md with
+pinned source setup, token renewal, resume, offline, refresh and custom batches.
+Consolidated catalogue access with per-request atomic caching, revision checks,
+20-second timeouts and credential-safe errors; never initializes audio handling.
+Live six-release fetch and offline replay pass. Five new mocked cache/error tests,
+existing offline matcher/UI tests and static build pass; tests added to make/CI.
+Retained the older app-ID comparison probe. Published data remains unchanged.
+Pending Year-default UI edits are included in the requested commit scope. Real
+.env, upstream checkout, response caches and Python caches remain ignored.
