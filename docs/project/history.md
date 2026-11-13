@@ -788,3 +788,62 @@ User requested committing and pushing the validated follow-up on
 `codex/qobuz-coverage-round2`: three reviewed Probables, portable query/metadata
 evidence, preserved request cache, report corrections and reproducibility checks.
 No merge or Pages deployment requested.
+
+## 2026-11-13 — PR3 deployed and unmatched audit started
+
+Merged PR3 as8afd7dd after passing CI. Main test/Pages succeeded; live Qobuz
+asset byte-identical to main, copies12/73/656. New branch codex/qobuz-unmatched-audit
+classifies655remaining unique releases offline:324no saved hits,14metadata needed,
+316work/credit unresolved,1completeness gap. Prior rejected recording excluded
+from usable leads. No new API calls or promotions; next scope strongest metadata leads.
+
+## 2026-11-13 — Four unmatched metadata leads fetched and audited
+
+Slow resumable batch saves77tracks across4albums without warnings. Previn Nevsky
+is wrong orchestra (Los Angeles versus required London); opera cast/context and
+Karajan musical hierarchy/Op71a/71 remain unresolved. No promotions. Corrected
+query validation archive included in audit, recovering Coltrane hits in inventory.
+Current655triage324/10/320/1. Shared metadata/cache preserved; no publication actions.
+
+## 2026-11-13 — Karajan bounded hierarchy correction
+
+All original source units partitioned into two works without global parser change;
+complete9tracks and required artists support Probable85 for10738828. DG catalogue
+and1983provenance support recording family; takes/mastering unresolved.81script
+tests including missing source/candidate sections pass, Node/build pass. No API
+calls, commit or publication. Local copies12/74/655; deployed12/73/656 unchanged.
+
+## 2026-11-13 — Opera cast audit against raw target credits
+
+Both cached operas compared to original source actor/role lists. Earlier Tannhauser
+additional-singer concern corrected: those bass singers are in target too. Four
+boy-page credits absent by exact candidate key; chorus-master role differs. Tristan
+has all named singers but chorus/translated orchestra unresolved. No promotions;
+missing credit keys are not wrong-cast proof. Portable report and script saved.
+
+
+### 2026-11-13 — Tristan chat-link404 correction
+
+The assistant supplied a guessed/shortened nl-en slug; saved canonical route was
+already correct. Opened exact saved fr-fr route in browser and verified album
+page/29tracks. Resolver now prefers canonical index over plausible supplied URL;
+--album-id prints safe links offline. Regression for reported slug passes; all
+publication Qobuz links match index. AGENTS requires exact resolver use in chat
+as well as code/docs. Five URL tests pass. No commit/push requested.
+
+## 2026-11-13 — Major cross-service validation gap documented
+
+User explicitly requested recording the Spotify/Qobuz standards difference.
+Tristan Spotify Probable0.737 is legacy album-level evidence, not full-edition
+validation. Qobuz remains unresolved for work/credit grouping; raw target also
+contains29:20rehearsal side absent by label from cached Qobuz tracks. Corrected
+prior conversational overstatement: Spotify rehearsal omission is not yet
+track-verified; Qobuz rehearsal gap is not its sole implemented blocker. No
+status/score/code changes in this documentation task.
+
+## 2026-11-13 — Unmatched enrichment checkpoint publication
+
+User requested commit everything, merge to main and push. Includes bounded
+Karajan Probable, four-album portable metadata/cache, opera cast audit, canonical
+URL precedence/CLI/regression guard, and major Spotify/Qobuz validation-gap docs.
+No credential files or ignored run state included.

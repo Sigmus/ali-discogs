@@ -49,7 +49,21 @@ def assess(row, album, review):
             fingerprint(album) != review['album_sha256']):
         raise ValueError('Reviewed evidence changed; review again before publication')
     corrections = review.get('target_title_corrections', {})
-    if corrections:
+    groups = review.get('target_unit_groups', [])
+    if groups:
+        from copy import deepcopy
+        from qobuz_match import units
+        titles = units(row)
+        flattened = [title for group in groups for title in group['source_titles']]
+        if corrections or flattened != titles or len(set(flattened)) != len(flattened) or any(not group['source_titles'] or not group['canonical_title'] for group in groups) or len({g['canonical_title'] for g in groups}) != len(groups):
+            raise ValueError('Ambiguous or incomplete reviewed target grouping')
+        effective = deepcopy(row)
+        effective['tracklist'] = [{'title': g['canonical_title'], 'type': 'index'} for g in groups]
+        effective['_reviewed_title_sources'] = {g['canonical_title']: g['source_titles'][0] for g in groups}
+        evidence = evaluate(effective, album)
+        for item in evidence['programme']:
+            item['target'] = effective['_reviewed_title_sources'].get(item['target'], item['target'])
+    elif corrections:
         from copy import deepcopy
         from qobuz_match import units
         titles = units(row)

@@ -210,3 +210,6 @@ and is a required offline matcher input alongside the comparison archive.
 
 `data/qobuz_trial_recording_reviews.json` and `data/qobuz_query_trial_metadata.json.gz`
 are required portable inputs for the bounded Klemperer follow-up review.
+
+The unmatched follow-up requires `data/qobuz_unmatched_recording_reviews.json`
+and `data/qobuz_unmatched_metadata.json.gz` for portable offline replay.

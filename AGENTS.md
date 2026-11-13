@@ -32,3 +32,8 @@ instructions do not authorize automatic commits, pushes, or external changes.
 
 When the user asks to use WhatsApp, use the native WhatsApp desktop app through
 Computer Use by default.
+
+For Qobuz links in code, docs, or chat, resolve the exact URL with
+`python3 scripts/qobuz_urls.py --album-id ID` or the canonical index. Never
+invent/shorten a slug or substitute a locale. If no canonical route is saved,
+use the resolver search fallback. Verify browser opening when reporting a fixed404.

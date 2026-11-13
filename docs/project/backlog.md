@@ -9,6 +9,11 @@ agreed work only when the user requests it; record completion in [history](histo
 
 ## AD-001 — Audit Spotify match quality
 
+Major documented gap: [cross-service validation standards](../plans/2026-11-13-cross-service-validation-gap.md).
+Proposed next paired audit: Tristan2996680 main opera versus rehearsal-side
+coverage on both services; then shared evidence/status semantics. Documentation
+requested; implementation and Spotify retrieval are separate work.
+
 Status: user-authorized ten-album track caching/audit completed (227 tracks),
 using existing sp PKCE login. See [refinement and findings](../plans/2026-11-13-query-credits-spotify-tracks.md).
 Two partial programmes confirmed (1012732 and 6119238); user-authorized
@@ -40,6 +45,14 @@ Done when: identity, refresh, correction precedence, and validation rules are
 documented in a linked plan. Implementation is a separate step.
 
 ## AD-008 — Improve Qobuz coverage beyond conservative v1
+
+Current authorized work: [remaining-release offline triage](../plans/2026-11-13-qobuz-unmatched-audit.md)
+after PR3 merge/deployment. Four selected albums77tracks fetched and audited,
+no warnings. Karajan bounded hierarchy/opus review complete, one Probable; next opera
+cast/context evidence review complete; next source-role/ensemble alias and
+act completeness design with secondary-artist guards. Wrong-orchestra
+Nevsky candidate excluded from promotion. Current triage10metadata-needed,
+320work/credit,324nohits,1completeness; corrected-query evidence now included.
 
 Status: user-authorized [round2](../plans/2026-11-13-qobuz-round2.md) complete:
 3new bounded Probables (Klemperer,Ancerl,deVito),40slow searches for20empty

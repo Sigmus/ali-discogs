@@ -36,11 +36,11 @@ def load_urls():
 def album_url(album, urls=None):
     aid = str(album.get('id', ''))
     # Preserve the provider's exact public route; never synthesize a bare /album/ID.
-    if valid_album_url(album.get('url'), aid):
-        return album['url']
     url = (load_urls() if urls is None else urls).get(aid)
     if valid_album_url(url, aid):
         return url
+    if valid_album_url(album.get('url'), aid):
+        return album['url']
     # Missing URL evidence must remain navigable without inventing a slug.
     query = ' '.join(filter(None, [album.get('title', ''), (album.get('artist') or {}).get('name', '')]))
     return 'https://www.qobuz.com/nl-en/search?q=' + quote(query or aid, safe='')
@@ -79,5 +79,9 @@ if __name__ == '__main__':
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--archive', type=Path, default=ARCHIVE)
     parser.add_argument('--output', type=Path, default=INDEX)
+    parser.add_argument('--album-id', help='Print the saved canonical link (or search fallback), without API calls')
     args = parser.parse_args()
-    export(args.archive, args.output)
+    if args.album_id:
+        print(album_url({'id': args.album_id}))
+    else:
+        export(args.archive, args.output)

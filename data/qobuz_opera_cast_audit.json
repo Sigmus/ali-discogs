@@ -1,0 +1,232 @@
+{
+  "schema_version": 1,
+  "metadata_sha256": "b9ee630308545a56700f5322dea82ebad2621bc20c5e76f7b8743aaa94ba3c9e",
+  "entries": [
+    {
+      "discogs_id": "2996680",
+      "album_id": "0002894497722",
+      "target_source_sha256": "a855d5c1d8d35846816904c8f1a036e439120e1978cf04111bde6e574240d6f2",
+      "source_notes": "Mitschnitt der Bayreuther Festspiele 1966\nLive recording of the Bayreuth Festival, 1966\nEnregistrement public du Festival de Bayreuth, 1966\n\nAuszeichnungen • Awards • Prix: Grand Prix International Du Disque Edison\n\nComes with a 32-page booklet (libretto) in German, English and French.\n\nBox: Printed in West Germany by Schwerdtle & Schantz Berlin\nBooklet: Printed in Germany by Gerhard Stalling AG, Oldenburg\n\nMade in Germany\n℗ 1966 Polydor International GmbH\n\nRunouts are stamped.",
+      "candidate_track_count": 29,
+      "credits": [
+        {
+          "name": "Chor Der Bayreuther Festspiele",
+          "target_role": "Chorus",
+          "present_in_candidate_names": false,
+          "accepted_by_existing_credit_parser": false
+        },
+        {
+          "name": "Wilhelm Pitz",
+          "target_role": "Chorus Master",
+          "present_in_candidate_names": true,
+          "accepted_by_existing_credit_parser": false
+        },
+        {
+          "name": "Karl Böhm",
+          "target_role": "Conductor",
+          "present_in_candidate_names": true,
+          "accepted_by_existing_credit_parser": true
+        },
+        {
+          "name": "Orchester Der Bayreuther Festspiele",
+          "target_role": "Orchestra",
+          "present_in_candidate_names": false,
+          "accepted_by_existing_credit_parser": false
+        },
+        {
+          "name": "Christa Ludwig",
+          "target_role": "Performer [Brangäne], Soprano Vocals [Uncredited]",
+          "present_in_candidate_names": true,
+          "accepted_by_existing_credit_parser": true
+        },
+        {
+          "name": "Erwin Wohlfahrt",
+          "target_role": "Performer [Ein Hirt], Tenor Vocals [Uncredited]",
+          "present_in_candidate_names": true,
+          "accepted_by_existing_credit_parser": true
+        },
+        {
+          "name": "Peter Schreier",
+          "target_role": "Performer [Ein Junger Seemann], Tenor Vocals [Uncredited]",
+          "present_in_candidate_names": true,
+          "accepted_by_existing_credit_parser": true
+        },
+        {
+          "name": "Gerd Nienstedt",
+          "target_role": "Performer [Ein Steuermann], Baritone Vocals [Uncredited]",
+          "present_in_candidate_names": true,
+          "accepted_by_existing_credit_parser": true
+        },
+        {
+          "name": "Birgit Nilsson",
+          "target_role": "Performer [Isolde], Soprano Vocals [Uncredited]",
+          "present_in_candidate_names": true,
+          "accepted_by_existing_credit_parser": true
+        },
+        {
+          "name": "Eberhard Wächter",
+          "target_role": "Performer [Kurwenal], Baritone Vocals [Uncredited]",
+          "present_in_candidate_names": true,
+          "accepted_by_existing_credit_parser": true
+        },
+        {
+          "name": "Martti Talvela",
+          "target_role": "Performer [König Marke], Bass Vocals [Uncredited]",
+          "present_in_candidate_names": true,
+          "accepted_by_existing_credit_parser": true
+        },
+        {
+          "name": "Claude Heater",
+          "target_role": "Performer [Melot], Baritone Vocals [Uncredited]",
+          "present_in_candidate_names": true,
+          "accepted_by_existing_credit_parser": true
+        },
+        {
+          "name": "Wolfgang Windgassen",
+          "target_role": "Performer [Tristan], Tenor Vocals [Uncredited]",
+          "present_in_candidate_names": true,
+          "accepted_by_existing_credit_parser": true
+        }
+      ],
+      "missing_exact_name_keys": [
+        "Chor Der Bayreuther Festspiele",
+        "Orchester Der Bayreuther Festspiele"
+      ],
+      "limitations": [
+        "Exact normalized name-key comparison only; missing keys may be translations/aliases or role metadata, not a cast contradiction.",
+        "Presence anywhere in album is not scene-level role verification or complete opera proof.",
+        "Production normalized requirements omit some raw credited actors; do not promote by satisfying only that subset."
+      ]
+    },
+    {
+      "discogs_id": "4365080",
+      "album_id": "5099909655058",
+      "target_source_sha256": "de6e91c606a45debf1f44cc1ec7db476cd2ffa6b9356382b1f947e42d75aa795",
+      "source_notes": "First Cat# on box front, second on spine, third on box back cover, fourth on Labels and fifth on booklet back cover.\n\nBooklet, printed by Rheinland-Druck GmbH, with notes and libretto in German.\nRecorded October 1960 in Berlin.",
+      "candidate_track_count": 27,
+      "credits": [
+        {
+          "name": "Dietrich Fischer-Dieskau",
+          "target_role": "Baritone Vocals [Wolfram Von Eschenbach]",
+          "present_in_candidate_names": true,
+          "accepted_by_existing_credit_parser": true
+        },
+        {
+          "name": "Rudolf Gonszar",
+          "target_role": "Bass Vocals [Biterolf]",
+          "present_in_candidate_names": true,
+          "accepted_by_existing_credit_parser": true
+        },
+        {
+          "name": "Gottlob Frick",
+          "target_role": "Bass Vocals [Hermann]",
+          "present_in_candidate_names": true,
+          "accepted_by_existing_credit_parser": true
+        },
+        {
+          "name": "Reiner Süß",
+          "target_role": "Bass Vocals [Reinmar Von Zweter]",
+          "present_in_candidate_names": true,
+          "accepted_by_existing_credit_parser": true
+        },
+        {
+          "name": "Chor Der Staatsoper Berlin",
+          "target_role": "Chorus",
+          "present_in_candidate_names": true,
+          "accepted_by_existing_credit_parser": true
+        },
+        {
+          "name": "Karl Schmidt (2)",
+          "target_role": "Chorus Master",
+          "present_in_candidate_names": true,
+          "accepted_by_existing_credit_parser": false
+        },
+        {
+          "name": "Franz Konwitschny",
+          "target_role": "Conductor",
+          "present_in_candidate_names": true,
+          "accepted_by_existing_credit_parser": true
+        },
+        {
+          "name": "Das Orchester Der Staatsoper Berlin",
+          "target_role": "Orchestra",
+          "present_in_candidate_names": false,
+          "accepted_by_existing_credit_parser": false
+        },
+        {
+          "name": "Lisa Otto",
+          "target_role": "Soprano Vocals [Ein junger Hirt]",
+          "present_in_candidate_names": true,
+          "accepted_by_existing_credit_parser": true
+        },
+        {
+          "name": "Elisabeth Grümmer",
+          "target_role": "Soprano Vocals [Elisabeth]",
+          "present_in_candidate_names": true,
+          "accepted_by_existing_credit_parser": true
+        },
+        {
+          "name": "Marianne Schech",
+          "target_role": "Soprano Vocals [Venus]",
+          "present_in_candidate_names": true,
+          "accepted_by_existing_credit_parser": true
+        },
+        {
+          "name": "Gerhard Unger",
+          "target_role": "Tenor Vocals [Heinrich Der Schreiber]",
+          "present_in_candidate_names": true,
+          "accepted_by_existing_credit_parser": true
+        },
+        {
+          "name": "Hans Hopf",
+          "target_role": "Tenor Vocals [Tannhäuser]",
+          "present_in_candidate_names": true,
+          "accepted_by_existing_credit_parser": true
+        },
+        {
+          "name": "Fritz Wunderlich",
+          "target_role": "Tenor Vocals [Walther Von Der Vogelweide]",
+          "present_in_candidate_names": true,
+          "accepted_by_existing_credit_parser": true
+        },
+        {
+          "name": "Arnold Schremm",
+          "target_role": "Treble Vocals [Edelknaben]",
+          "present_in_candidate_names": false,
+          "accepted_by_existing_credit_parser": false
+        },
+        {
+          "name": "Karl-Heinz Voortmann",
+          "target_role": "Treble Vocals [Edelknaben]",
+          "present_in_candidate_names": false,
+          "accepted_by_existing_credit_parser": false
+        },
+        {
+          "name": "Manfred Koop",
+          "target_role": "Treble Vocals [Edelknaben]",
+          "present_in_candidate_names": false,
+          "accepted_by_existing_credit_parser": false
+        },
+        {
+          "name": "Michael Wein",
+          "target_role": "Treble Vocals [Edelknaben]",
+          "present_in_candidate_names": false,
+          "accepted_by_existing_credit_parser": false
+        }
+      ],
+      "missing_exact_name_keys": [
+        "Das Orchester Der Staatsoper Berlin",
+        "Arnold Schremm",
+        "Karl-Heinz Voortmann",
+        "Manfred Koop",
+        "Michael Wein"
+      ],
+      "limitations": [
+        "Exact normalized name-key comparison only; missing keys may be translations/aliases or role metadata, not a cast contradiction.",
+        "Presence anywhere in album is not scene-level role verification or complete opera proof.",
+        "Production normalized requirements omit some raw credited actors; do not promote by satisfying only that subset."
+      ]
+    }
+  ],
+  "decision": "Both unresolved; preserve source and candidate evidence without weakening credit requirements."
+}

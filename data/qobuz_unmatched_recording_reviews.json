@@ -1,0 +1,205 @@
+{
+  "schema_version": 1,
+  "releases": [
+    {
+      "discogs_id": "10738828",
+      "album_id": "0002894390212",
+      "target_sha256": "f6f5eccce79b9e4ed452c58cc44d721ed601c4d3fb8af55e1e101e672e2d001b",
+      "album_sha256": "a61236097273a725c1d41c1b64edada363d60318ee6adeb7b446a9eb300b9087",
+      "decision": "probable",
+      "sources": [
+        "https://www.deutschegrammophon.com/en/catalogue/products/tchaikovsky-romeo-und-julia-karajan-3321"
+      ],
+      "recording_review": "DG identifies this catalogue as Karajan/Berlin Romeo and Juliet plus NutcrackerSuite. Cached target1983 DG2532096/2561408 and candidate1983 reissue support the recording family; both named works and all eight suite sections carry the required orchestra/conductor.",
+      "limitations": [
+        "Catalogue/programme and1983 provenance support recording family, not independent take or identical mastering verification.",
+        "LP/digital section timings differ; no timing identity guarantee is claimed."
+      ],
+      "target_unit_groups": [
+        {
+          "source_titles": [
+            "Romeo Und Julia"
+          ],
+          "canonical_title": "Romeo and Juliet, TH 42"
+        },
+        {
+          "source_titles": [
+            "Der Nußknacker Op. 71a. Suite Aus Dem Ballett Op. 71",
+            "I. Ouverture Miniature",
+            "Allegro Guisto",
+            "II. Danses Caracteristiques",
+            "Marche. Tempo Di Marcia Viva",
+            "Danse De La Fee Dragee. Andante Non Troppo",
+            "Danse Russe Trepak. Tempo Di Trepak",
+            "Danse Arabe. Allegretto",
+            "Danse Chinoise. Allegro Moderato",
+            "Danse Des Mirlitons. Moderato Assai",
+            "III. Valse Des Fleurs",
+            "Tempo Di Valse"
+          ],
+          "canonical_title": "The Nutcracker Suite, Op. 71a"
+        }
+      ],
+      "works": [
+        {
+          "target": "Romeo Und Julia",
+          "movements": [
+            1
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Cached source heading/position hierarchy and exact credited candidate sections",
+          "reason": "Romeo overture and eight suite sections separately supported; every source label belongs to one reviewed work.",
+          "reviewed_sections": {
+            "532928": {
+              "track_sha256": "7f84b2949eaf0da34aba9470620664800b01d9de648140a2910ebf53d7fbda58",
+              "movements": [
+                1
+              ]
+            }
+          }
+        },
+        {
+          "target": "Der Nußknacker Op. 71a. Suite Aus Dem Ballett Op. 71",
+          "movements": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Cached source heading/position hierarchy and exact credited candidate sections",
+          "reason": "Romeo overture and eight suite sections separately supported; every source label belongs to one reviewed work.",
+          "reviewed_sections": {
+            "532929": {
+              "track_sha256": "4cfbe9f6c62af09f76052b5abb0cf4982f447c623a61d6b7932d9d2f1d1270d2",
+              "movements": [
+                1
+              ]
+            },
+            "532930": {
+              "track_sha256": "2f4383caf21873bdd65edd323b09f011613dafc789d0e14306b4f266756ed03b",
+              "movements": [
+                2
+              ]
+            },
+            "532931": {
+              "track_sha256": "e976d7a41d10b98bfdcd42e0ac38a9b4c6380e4184c6f9e364846b5bc5e7e0e9",
+              "movements": [
+                3
+              ]
+            },
+            "532932": {
+              "track_sha256": "c49719f183fdcf23024d4efbfde0472c46cd86e9e7261feffa34caa1dfd07cb4",
+              "movements": [
+                4
+              ]
+            },
+            "532933": {
+              "track_sha256": "df64d2514829d00b4270e840d2bbabf5ec201273f49d8a041bd1295259b1e6c6",
+              "movements": [
+                5
+              ]
+            },
+            "532934": {
+              "track_sha256": "68c7d8aeaf7f3cce6ba51c9c0880e7fc8225de41994f45457bb2a0793de92666",
+              "movements": [
+                6
+              ]
+            },
+            "532935": {
+              "track_sha256": "a0428bb35e180340e7c10485c02fa4fc523a11119f0be1fbd92b00d478a29376",
+              "movements": [
+                7
+              ]
+            },
+            "532936": {
+              "track_sha256": "3ab881b8e17a2299d49bbc5ab61ee07540e5c0b0bcd762d928744e872c343007",
+              "movements": [
+                8
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "audits": [
+    {
+      "discogs_id": "10738828",
+      "album_id": "0002894390212",
+      "decision": "probable",
+      "recording_review": "DG identifies this catalogue as Karajan/Berlin Romeo and Juliet plus NutcrackerSuite. Cached target1983 DG2532096/2561408 and candidate1983 reissue support the recording family; both named works and all eight suite sections carry the required orchestra/conductor.",
+      "sources": [
+        "https://www.deutschegrammophon.com/en/catalogue/products/tchaikovsky-romeo-und-julia-karajan-3321"
+      ],
+      "limitations": [
+        "Catalogue/programme and1983 provenance support recording family, not independent take or identical mastering verification.",
+        "LP/digital section timings differ; no timing identity guarantee is claimed."
+      ],
+      "eligible": true,
+      "completeness": {
+        "status": "complete",
+        "works": [
+          {
+            "target": "Romeo Und Julia",
+            "status": "complete",
+            "expected_movements": [
+              1
+            ],
+            "observed_movements": [
+              1
+            ],
+            "track_ids": [
+              532928
+            ],
+            "scope": "reviewed-whole-work",
+            "source": "Cached source heading/position hierarchy and exact credited candidate sections",
+            "reason": "Romeo overture and eight suite sections separately supported; every source label belongs to one reviewed work."
+          },
+          {
+            "target": "Der Nußknacker Op. 71a. Suite Aus Dem Ballett Op. 71",
+            "status": "complete",
+            "expected_movements": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "observed_movements": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8
+            ],
+            "track_ids": [
+              532929,
+              532930,
+              532931,
+              532932,
+              532933,
+              532934,
+              532935,
+              532936
+            ],
+            "scope": "reviewed-whole-work",
+            "source": "Cached source heading/position hierarchy and exact credited candidate sections",
+            "reason": "Romeo overture and eight suite sections separately supported; every source label belongs to one reviewed work."
+          }
+        ],
+        "overlapping_target_tracks": false
+      }
+    }
+  ]
+}
