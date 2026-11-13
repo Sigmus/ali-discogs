@@ -1,0 +1,710 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-13",
+  "purpose": "Bounded recording/programme reviews. Hash changes require re-review; never bypass current performer/work support. Not calibrated confidence or an exact-edition guarantee.",
+  "releases": [
+    {
+      "discogs_id": "3066447",
+      "album_id": "0002894631272",
+      "target_sha256": "5a3bf7f5b609e59f60dadc6029526d3355fee2d75be434d35d56b58cc3c7764f",
+      "album_sha256": "38bab22f0b76be5975cca9d9ecb9c2ae8c46a323f366e28696a8bdd80f121941",
+      "decision": "reject-recording",
+      "recording_review": "Target notes date the EMI performances to 1966–1969; the selected DG catalogue 4631272 is documented by Presto with 1981–1984 Paris recordings. Same pianist and works do not establish the same recording.",
+      "limitations": [
+        "The candidate is excluded, not evidence that Qobuz lacks the EMI recording."
+      ],
+      "sources": [
+        "https://www.discogs.com/release/3066447",
+        "https://www.prestomusic.com/classical/products/7924312--beethoven-complete-piano-sonatas"
+      ],
+      "target_source": {
+        "sha256": "7b2edfa030f7c1e7059eb63eb383b8931785e3a2f490eedaf83b73d0d1fcd8ce",
+        "title": "Les Plus Belles Sonates Pour Piano",
+        "year": 0,
+        "labels": [
+          {
+            "name": "Pathé Marconi EMI",
+            "catno": "2904643"
+          }
+        ],
+        "notes": "Recorded between 1966-1969.\r\nDMM.\r\n",
+        "tracklist": [
+          {
+            "position": "",
+            "type_": "heading",
+            "title": "Sonata No. 14 In C Sharp Minor, Op. 27 No.2 'Moonlight'",
+            "duration": ""
+          },
+          {
+            "position": "A1",
+            "type_": "track",
+            "title": "I: Adagio Sostenuto",
+            "duration": ""
+          },
+          {
+            "position": "A2",
+            "type_": "track",
+            "title": "II: Allegretto",
+            "duration": ""
+          },
+          {
+            "position": "A3",
+            "type_": "track",
+            "title": "III: Presto Agitato - Adagio - Presto Agitato",
+            "duration": ""
+          },
+          {
+            "position": "",
+            "type_": "heading",
+            "title": "Sonata No. 8 In C Minor, Op. 13 'Pathetique'",
+            "duration": ""
+          },
+          {
+            "position": "A4",
+            "type_": "track",
+            "title": "I: Grave - Allegro Di Molto E Con Brio",
+            "duration": ""
+          },
+          {
+            "position": "A5",
+            "type_": "track",
+            "title": "II: Adagio Cantabile",
+            "duration": ""
+          },
+          {
+            "position": "B1",
+            "type_": "track",
+            "title": "III: Rondo: Allegro",
+            "duration": ""
+          },
+          {
+            "position": "",
+            "type_": "heading",
+            "title": "Sonata No. 23 In F Minor, Op. 57 'Appassionata'",
+            "duration": ""
+          },
+          {
+            "position": "B2",
+            "type_": "track",
+            "title": "I: Allegro Asai",
+            "duration": ""
+          },
+          {
+            "position": "B3",
+            "type_": "track",
+            "title": "II: Andante Con Moto",
+            "duration": ""
+          },
+          {
+            "position": "B4",
+            "type_": "track",
+            "title": "III: Allegro, Ma Non Troppo - Presto",
+            "duration": ""
+          },
+          {
+            "position": "",
+            "type_": "heading",
+            "title": "Sonata No. 21 In C Major, Op. 53 'Waldstein'",
+            "duration": ""
+          },
+          {
+            "position": "C1",
+            "type_": "track",
+            "title": "I: Allegro Con Brio",
+            "duration": ""
+          },
+          {
+            "position": "C2",
+            "type_": "track",
+            "title": "II: Introduzione: Adagio Molto - Rondo: Allegretto Moderato - Prestissimo",
+            "duration": ""
+          },
+          {
+            "position": "",
+            "type_": "heading",
+            "title": "Sonata No. 32 In C Minor, Op. 111",
+            "duration": ""
+          },
+          {
+            "position": "D1",
+            "type_": "track",
+            "title": "I: Maestoso - Allegro Con Brio Ed Appassionato",
+            "duration": ""
+          },
+          {
+            "position": "D2",
+            "type_": "track",
+            "title": "II: Arietta: Adagio Molto Semplice E Cantabile",
+            "duration": ""
+          },
+          {
+            "position": "",
+            "type_": "heading",
+            "title": "Sonata No. 31 In A Flat Major, Op. 110",
+            "duration": ""
+          },
+          {
+            "position": "E1",
+            "type_": "track",
+            "title": "I: Moderato Cantabile, Molto Espressivo",
+            "duration": ""
+          },
+          {
+            "position": "E2",
+            "type_": "track",
+            "title": "II: Allegro Molto",
+            "duration": ""
+          },
+          {
+            "position": "E3",
+            "type_": "track",
+            "title": "III: Adagio Ma Non Troppo",
+            "duration": ""
+          },
+          {
+            "position": "E4",
+            "type_": "track",
+            "title": "IV: Fuga: Allegro Ma Non Troppo - L'Istesso Tempo Di Arioso - L'Istessa Tempo Della Fuga - Meno Allegro",
+            "duration": ""
+          },
+          {
+            "position": "",
+            "type_": "heading",
+            "title": "Sonata No. 30 In E Major, Op. 109",
+            "duration": ""
+          },
+          {
+            "position": "E5",
+            "type_": "track",
+            "title": "I: Vivace, Ma Non Troppo - Adagio Espressivo - Tempo I",
+            "duration": ""
+          },
+          {
+            "position": "E6",
+            "type_": "track",
+            "title": "II: Prestissimo",
+            "duration": ""
+          },
+          {
+            "position": "F1",
+            "type_": "track",
+            "title": "III: Tema: Andante Molto Cantabile Ed Espressivo - Variazioni 1-6",
+            "duration": ""
+          },
+          {
+            "position": "",
+            "type_": "heading",
+            "title": "Sonata No. 26 In E Flat Major, Op. 81a 'Les Adieux'",
+            "duration": ""
+          },
+          {
+            "position": "F2",
+            "type_": "track",
+            "title": "I: Das Lebewohl (Les Adieux): Adagio - Allegro",
+            "duration": ""
+          },
+          {
+            "position": "F3",
+            "type_": "track",
+            "title": "II: Abwesenheit (L'Absence): Andante Espressivo",
+            "duration": ""
+          },
+          {
+            "position": "F4",
+            "type_": "track",
+            "title": "III: Wiedersehen (Le Retour): Vivacissimamente - Poco Andante - Tempo I",
+            "duration": ""
+          }
+        ]
+      },
+      "works": []
+    },
+    {
+      "discogs_id": "4429613",
+      "album_id": "0190295866983",
+      "target_sha256": "98fb34d2e4ecec22dd6f860e0e5d2f8ee4b32e14c9abe4674383438c12b4ae48",
+      "album_sha256": "97f88cb739a80256c19fc8a521ded2d3e8c779121df51be71cbf927d7d74335c",
+      "decision": "probable",
+      "recording_review": "Warner identifies this exact digital barcode as Schnabel’s 1932–1938 cycle remastered from original 78RPM discs, consistent with the target Beethoven Society collection.",
+      "limitations": [
+        "A remastered programme superset, not the identical Seraphim LP edition.",
+        "Whole-work timings agree within 3%; Tempest first/second movement timings differ materially from LP annotations, so individual take/session identity remains qualified."
+      ],
+      "sources": [
+        "https://www.discogs.com/release/4429613",
+        "https://www.warnerclassics.com/release/beethoven-complete-piano-sonatas-3",
+        "https://dcmlab.github.io/beethoven_piano_sonatas/"
+      ],
+      "target_source": {
+        "sha256": "a840256c0a4346d43f0cc41733b6cf208d6ebbc4793a230796d2bf68099a8d54",
+        "title": "The Complete Beethoven Society Recordings, 1932–37 / Vol. 2: Sonatas, Nos. 11–17",
+        "year": 1972,
+        "labels": [
+          {
+            "name": "Seraphim",
+            "catno": "IC-6064"
+          }
+        ],
+        "notes": "——Center labels info—— \nCherub photo on tan labels\n\n——Sleeve info—— \n3-LP set in hinged box\nTracklisting and timings on box back\nIncludes booklet with liner notes in English\n\n",
+        "tracklist": [
+          {
+            "position": "",
+            "type_": "index",
+            "title": "Sonata No. 11 In B Flat, Op. 22",
+            "duration": "",
+            "sub_tracks": [
+              {
+                "position": "A1",
+                "type_": "track",
+                "title": "Allegro Con Brio",
+                "duration": "6:45"
+              },
+              {
+                "position": "A2",
+                "type_": "track",
+                "title": "Adagio Con Molt' Espressione",
+                "duration": "9:05"
+              },
+              {
+                "position": "A3",
+                "type_": "track",
+                "title": "Menuetto",
+                "duration": "3:20"
+              },
+              {
+                "position": "A4",
+                "type_": "track",
+                "title": "Rondo (Allegretto)",
+                "duration": "5:20"
+              }
+            ]
+          },
+          {
+            "position": "",
+            "type_": "index",
+            "title": "Sonata No. 12 In A Flat, Op. 26 (\"Funeral March\")",
+            "duration": "",
+            "sub_tracks": [
+              {
+                "position": "B1",
+                "type_": "track",
+                "title": "Andante Con Variazioni",
+                "duration": "9:55"
+              },
+              {
+                "position": "B2",
+                "type_": "track",
+                "title": "Scherzo (Molto Allegro)",
+                "duration": "2:30"
+              },
+              {
+                "position": "B3",
+                "type_": "track",
+                "title": "Maestoso Andante (Marcia Funebre Sulla Morte D'Un Eroe)",
+                "duration": "7:20"
+              },
+              {
+                "position": "B4",
+                "type_": "track",
+                "title": "Allegro",
+                "duration": "2:25"
+              }
+            ]
+          },
+          {
+            "position": "",
+            "type_": "index",
+            "title": "Sonata No. 13 In E Flat, Op. 27 No. 1",
+            "duration": "",
+            "sub_tracks": [
+              {
+                "position": "C1",
+                "type_": "track",
+                "title": "I Andante - Allegro; II. Molto Allegro E Vivace",
+                "duration": "7:20"
+              },
+              {
+                "position": "C2",
+                "type_": "track",
+                "title": "III. Adagio Con Espressione - Allegro Vivace",
+                "duration": "8:25"
+              }
+            ]
+          },
+          {
+            "position": "",
+            "type_": "index",
+            "title": "Sonata No. 14 In C Sharp Minor, Op. 27 No. 2 (\"Moonlight\")",
+            "duration": "",
+            "sub_tracks": [
+              {
+                "position": "C3",
+                "type_": "track",
+                "title": "I. Adagio Sostenuto; II. Allegretto; III. Presto Agitato",
+                "duration": "13:45"
+              }
+            ]
+          },
+          {
+            "position": "",
+            "type_": "index",
+            "title": "Sonata No. 15 In D, Op. 28 (\"Pastoral\")",
+            "duration": "",
+            "sub_tracks": [
+              {
+                "position": "D1",
+                "type_": "track",
+                "title": "Allegro",
+                "duration": "7:25"
+              },
+              {
+                "position": "D2",
+                "type_": "track",
+                "title": "Andante",
+                "duration": "7:15"
+              },
+              {
+                "position": "D3",
+                "type_": "track",
+                "title": "Scherzo (Allegro Vivace)",
+                "duration": "2:15"
+              },
+              {
+                "position": "D4",
+                "type_": "track",
+                "title": "Rondo (Allegro, Ma Non Troppo)",
+                "duration": "4:35"
+              }
+            ]
+          },
+          {
+            "position": "",
+            "type_": "index",
+            "title": "Sonata No. 16 In G, Op. 31 No. 1",
+            "duration": "",
+            "sub_tracks": [
+              {
+                "position": "E1",
+                "type_": "track",
+                "title": "Allegro Vivace",
+                "duration": "5:55"
+              },
+              {
+                "position": "E2",
+                "type_": "track",
+                "title": "Adagio Grazioso",
+                "duration": "12:40"
+              },
+              {
+                "position": "E3",
+                "type_": "track",
+                "title": "Rondo (Allegretto - Adagio - Presto)",
+                "duration": "5:45"
+              }
+            ]
+          },
+          {
+            "position": "",
+            "type_": "index",
+            "title": "Sonata No. 17 In D Minor, Op. 31 No. 2 (\"Tempest\")",
+            "duration": "",
+            "sub_tracks": [
+              {
+                "position": "F1",
+                "type_": "track",
+                "title": "Largo - Allegro",
+                "duration": "9:53"
+              },
+              {
+                "position": "F2",
+                "type_": "track",
+                "title": "Adagio",
+                "duration": "7:27"
+              },
+              {
+                "position": "F3",
+                "type_": "track",
+                "title": "Allegretto",
+                "duration": "5:49"
+              }
+            ]
+          }
+        ]
+      },
+      "works": [
+        {
+          "target": "Sonata No. 11 In B Flat, Op. 22",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+          "reason": "Reviewed against preserved nested target programme and candidate movement titles; all required production credits must still pass."
+        },
+        {
+          "target": "Sonata No. 12 In A Flat, Op. 26 (\"Funeral March\")",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+          "reason": "Reviewed against preserved nested target programme and candidate movement titles; all required production credits must still pass."
+        },
+        {
+          "target": "Sonata No. 13 In E Flat, Op. 27 No. 1",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+          "reason": "Reviewed against preserved nested target programme and candidate movement titles; all required production credits must still pass.",
+          "joined_tracks": {
+            "36924084": {
+              "track_sha256": "704f15076fa79cf99b35a024786c3f175670f4aed5b8ef7cfbc388ec5c10a7ab",
+              "movements": [
+                3,
+                4
+              ]
+            }
+          }
+        },
+        {
+          "target": "Sonata No. 14 In C Sharp Minor, Op. 27 No. 2 (\"Moonlight\")",
+          "movements": [
+            1,
+            2,
+            3
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+          "reason": "Reviewed against preserved nested target programme and candidate movement titles; all required production credits must still pass."
+        },
+        {
+          "target": "Sonata No. 15 In D, Op. 28 (\"Pastoral\")",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+          "reason": "Reviewed against preserved nested target programme and candidate movement titles; all required production credits must still pass."
+        },
+        {
+          "target": "Sonata No. 16 In G, Op. 31 No. 1",
+          "movements": [
+            1,
+            2,
+            3
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+          "reason": "Reviewed against preserved nested target programme and candidate movement titles; all required production credits must still pass."
+        },
+        {
+          "target": "Sonata No. 17 In D Minor, Op. 31 No. 2 (\"Tempest\")",
+          "movements": [
+            1,
+            2,
+            3
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+          "reason": "Reviewed against preserved nested target programme and candidate movement titles; all required production credits must still pass."
+        }
+      ]
+    },
+    {
+      "discogs_id": "12130939",
+      "album_id": "hse4g44fcm6qb",
+      "target_sha256": "27b248716b2a1c24e22bfb3ae04182c55161668cd43c20d044c0e73ddc0c05ec",
+      "album_sha256": "3965ae149799edfa047db40e62a70e23922780bf6180f93daef69b2e9df84e99",
+      "decision": "probable",
+      "recording_review": "Warner identifies this exact barcode as the studio cycle, with Fifth and Tenth Adagio recorded in 1978 at Abbey Road; consistent with the 1979 EMI target, distinct from the 1988 live Fifth.",
+      "limitations": [
+        "The requested Tenth is only its Adagio; no complete Tenth Symphony claim.",
+        "Studio-cycle provenance supports Probable; exact LP mastering is not verified."
+      ],
+      "sources": [
+        "https://www.discogs.com/release/12130939",
+        "https://wmg.jp/klaus-tennstedt/discography/31233"
+      ],
+      "target_source": {
+        "sha256": "3a967a3456564c1902886f3aa2170763270af7853ed8050b54f4e748d72a4a81",
+        "title": "Symphonie N° 5 / Symphonie N° 10 - Adagio",
+        "year": 1979,
+        "labels": [
+          {
+            "name": "La Voix De Son Maître",
+            "catno": "2C 167-03440/1"
+          }
+        ],
+        "notes": "Made in France + 8 pages booklet in French\n",
+        "tracklist": [
+          {
+            "position": "",
+            "type_": "index",
+            "title": "Symphony No. 5 In C Sharp Minor",
+            "duration": "",
+            "sub_tracks": [
+              {
+                "position": "A1",
+                "type_": "track",
+                "title": "First Movement: Trauermarsch",
+                "duration": ""
+              },
+              {
+                "position": "A2",
+                "type_": "track",
+                "title": "Second Movement: Sturmisch Bewegt, Mit Grosster Vehemenz",
+                "duration": ""
+              },
+              {
+                "position": "B1",
+                "type_": "track",
+                "title": "Third Movement: Scherzo",
+                "duration": ""
+              },
+              {
+                "position": "C1",
+                "type_": "track",
+                "title": "Fourth Movement: Adagietto (Sehr Langsam)",
+                "duration": ""
+              },
+              {
+                "position": "C2",
+                "type_": "track",
+                "title": "Fifth Movement: Rondo - Finale",
+                "duration": ""
+              }
+            ]
+          },
+          {
+            "position": "",
+            "type_": "index",
+            "title": "Symphony No. 10 In F Sharp Major",
+            "duration": "",
+            "sub_tracks": [
+              {
+                "position": "D1",
+                "type_": "track",
+                "title": "Adagio",
+                "duration": ""
+              }
+            ]
+          }
+        ]
+      },
+      "works": [
+        {
+          "target": "Symphony No. 5 In C Sharp Minor",
+          "movements": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "https://wmg.jp/klaus-tennstedt/discography/31233",
+          "reason": "Reviewed against preserved nested target programme and candidate movement titles; all required production credits must still pass."
+        },
+        {
+          "target": "Symphony No. 10 In F Sharp Major",
+          "movements": [
+            1
+          ],
+          "scope": "listed-target-excerpt",
+          "source": "https://wmg.jp/klaus-tennstedt/discography/31233",
+          "reason": "Preserved raw target explicitly lists only Adagio; matches the credited candidate first movement, not the whole Tenth."
+        }
+      ]
+    },
+    {
+      "discogs_id": "37312800",
+      "album_id": "0002894824972",
+      "target_sha256": "3d8a0327a76450e3d671ef0e0352a9223a71f3f57e8834781c25be884d2e9b0f",
+      "album_sha256": "2e6cdf3157a0c1b0a8f690b7f1103fe2de88d7fb8207246990897feec0147e7d",
+      "decision": "probable",
+      "recording_review": "Decca/Eloquence identifies Kubelik’s Vienna cycle and the Fourth’s March 1956 sessions; cached digital conductor/orchestra and production personnel agree with this cycle and the target Decca LP.",
+      "limitations": [
+        "Publisher page describes physical companion catalogue 4824969, not an exact barcode match to digital 4824972.",
+        "Target mono LP and digital remaster are different editions; exact mastering/take identity is not independently verified."
+      ],
+      "sources": [
+        "https://www.discogs.com/release/37312800",
+        "https://www.eloquenceclassics.com/releases-archive/brahms-symphonies-nos-1-4/"
+      ],
+      "target_source": {
+        "sha256": "578dc513e4159ffebe77d53fec55b8dce859aedc176327c310f1e267249c8b3b",
+        "title": "Symphonie Nr.IV e-moll",
+        "year": 1959,
+        "labels": [
+          {
+            "name": "Decca",
+            "catno": "LXT 5214"
+          }
+        ],
+        "notes": "\"Wiener Philharmoniker\" on front cover, \"The Vienna Philharmonic Orchestra\" on labels\nOrange Decca Label. ",
+        "tracklist": [
+          {
+            "position": "",
+            "type_": "index",
+            "title": "Symphony Nr. IV E-Minor Opus 98\t",
+            "duration": "",
+            "sub_tracks": [
+              {
+                "position": "A1",
+                "type_": "track",
+                "title": "1.Satz: Allegro Non Troppo",
+                "duration": ""
+              },
+              {
+                "position": "A2",
+                "type_": "track",
+                "title": "2. Satz: Andante Moderato",
+                "duration": ""
+              },
+              {
+                "position": "B1",
+                "type_": "track",
+                "title": "3. Satz: Allegro Giocoso",
+                "duration": ""
+              },
+              {
+                "position": "B2",
+                "type_": "track",
+                "title": "4. Satz: Allegro Energico E Passionato",
+                "duration": ""
+              }
+            ]
+          }
+        ]
+      },
+      "works": [
+        {
+          "target": "Symphony Nr. IV E-Minor Opus 98\t",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "https://www.eloquenceclassics.com/releases-archive/brahms-symphonies-nos-1-4/",
+          "reason": "Reviewed against preserved nested target programme and candidate movement titles; all required production credits must still pass."
+        }
+      ]
+    }
+  ]
+}

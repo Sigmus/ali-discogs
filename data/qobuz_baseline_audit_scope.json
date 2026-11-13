@@ -1,0 +1,338 @@
+{
+  "schema_version": 1,
+  "baseline_commit": "7ea8898f9fa97213f331ec0005c2f7d308170405",
+  "baseline_matcher_version": "qobuz-programme-v1",
+  "purpose": "Frozen original 66 selected Qobuz matches, before cache-wide expansion. Audit only; no score overrides.",
+  "entries": [
+    {
+      "discogs_id": "1026299",
+      "status": "probable",
+      "album_id": "0002894802866"
+    },
+    {
+      "discogs_id": "1445439",
+      "status": "found",
+      "album_id": "0886445075762"
+    },
+    {
+      "discogs_id": "1477603",
+      "status": "found",
+      "album_id": "ruik94uhdr4bc"
+    },
+    {
+      "discogs_id": "1607240",
+      "status": "probable",
+      "album_id": "0002894563392"
+    },
+    {
+      "discogs_id": "1855288",
+      "status": "probable",
+      "album_id": "zccb3oe0za3sb"
+    },
+    {
+      "discogs_id": "2151729",
+      "status": "probable",
+      "album_id": "mgqf8a52y6hxb"
+    },
+    {
+      "discogs_id": "2207158",
+      "status": "probable",
+      "album_id": "0090266304523"
+    },
+    {
+      "discogs_id": "2208689",
+      "status": "probable",
+      "album_id": "leoqsekgfg7gb"
+    },
+    {
+      "discogs_id": "2218786",
+      "status": "probable",
+      "album_id": "3610152352321"
+    },
+    {
+      "discogs_id": "2279849",
+      "status": "found",
+      "album_id": "0886446202600"
+    },
+    {
+      "discogs_id": "2559625",
+      "status": "probable",
+      "album_id": "0002894808892"
+    },
+    {
+      "discogs_id": "2799449",
+      "status": "found",
+      "album_id": "b1rn6n99bwtyc"
+    },
+    {
+      "discogs_id": "2939272",
+      "status": "found",
+      "album_id": "0886446473093"
+    },
+    {
+      "discogs_id": "2949124",
+      "status": "probable",
+      "album_id": "0002894779079"
+    },
+    {
+      "discogs_id": "2955185",
+      "status": "probable",
+      "album_id": "0002894794461"
+    },
+    {
+      "discogs_id": "3097437",
+      "status": "probable",
+      "album_id": "3610154893341"
+    },
+    {
+      "discogs_id": "3154926",
+      "status": "probable",
+      "album_id": "0002894832587"
+    },
+    {
+      "discogs_id": "3417675",
+      "status": "probable",
+      "album_id": "oi4uagzp5hqkc"
+    },
+    {
+      "discogs_id": "3507687",
+      "status": "probable",
+      "album_id": "i8f1uit51uojb"
+    },
+    {
+      "discogs_id": "3622476",
+      "status": "probable",
+      "album_id": "oi4uagzp5hqkc"
+    },
+    {
+      "discogs_id": "3759065",
+      "status": "found",
+      "album_id": "0060254707654"
+    },
+    {
+      "discogs_id": "3773687",
+      "status": "probable",
+      "album_id": "yb43sv5bu0gpc"
+    },
+    {
+      "discogs_id": "3958148",
+      "status": "probable",
+      "album_id": "0002894742692"
+    },
+    {
+      "discogs_id": "4197603",
+      "status": "probable",
+      "album_id": "uvrr478stdc0b"
+    },
+    {
+      "discogs_id": "4226783",
+      "status": "probable",
+      "album_id": "md0knh1wh02pb"
+    },
+    {
+      "discogs_id": "4305503",
+      "status": "probable",
+      "album_id": "iqzrrgn83zkma"
+    },
+    {
+      "discogs_id": "4478666",
+      "status": "found",
+      "album_id": "mtcwbakayclea"
+    },
+    {
+      "discogs_id": "4540319",
+      "status": "probable",
+      "album_id": "0002894786633"
+    },
+    {
+      "discogs_id": "4685996",
+      "status": "probable",
+      "album_id": "0724356792852"
+    },
+    {
+      "discogs_id": "4719816",
+      "status": "found",
+      "album_id": "0886446202594"
+    },
+    {
+      "discogs_id": "5286520",
+      "status": "probable",
+      "album_id": "3610154965161"
+    },
+    {
+      "discogs_id": "6115834",
+      "status": "probable",
+      "album_id": "0002894786633"
+    },
+    {
+      "discogs_id": "6115836",
+      "status": "probable",
+      "album_id": "0002894786633"
+    },
+    {
+      "discogs_id": "6118529",
+      "status": "probable",
+      "album_id": "0002894786633"
+    },
+    {
+      "discogs_id": "6119238",
+      "status": "probable",
+      "album_id": "0002894786633"
+    },
+    {
+      "discogs_id": "6175022",
+      "status": "probable",
+      "album_id": "0002894776360"
+    },
+    {
+      "discogs_id": "6426884",
+      "status": "probable",
+      "album_id": "0002894378192"
+    },
+    {
+      "discogs_id": "6575638",
+      "status": "probable",
+      "album_id": "n94n178c50qmb"
+    },
+    {
+      "discogs_id": "6913643",
+      "status": "probable",
+      "album_id": "3610154076782"
+    },
+    {
+      "discogs_id": "6919420",
+      "status": "probable",
+      "album_id": "0002894776360"
+    },
+    {
+      "discogs_id": "7001990",
+      "status": "found",
+      "album_id": "0888608886031"
+    },
+    {
+      "discogs_id": "7159852",
+      "status": "probable",
+      "album_id": "hfyxkx5rtp89a"
+    },
+    {
+      "discogs_id": "7678883",
+      "status": "probable",
+      "album_id": "0002894757198"
+    },
+    {
+      "discogs_id": "7871589",
+      "status": "probable",
+      "album_id": "0002894786633"
+    },
+    {
+      "discogs_id": "7888645",
+      "status": "probable",
+      "album_id": "n40010vfrexnb"
+    },
+    {
+      "discogs_id": "8316658",
+      "status": "found",
+      "album_id": "3614596844916"
+    },
+    {
+      "discogs_id": "8418209",
+      "status": "probable",
+      "album_id": "0002894291602"
+    },
+    {
+      "discogs_id": "8597411",
+      "status": "found",
+      "album_id": "ve66kuadcegpa"
+    },
+    {
+      "discogs_id": "9387170",
+      "status": "probable",
+      "album_id": "bdwxo4pgq3dwb"
+    },
+    {
+      "discogs_id": "9521183",
+      "status": "found",
+      "album_id": "n5q85sldaowaa"
+    },
+    {
+      "discogs_id": "9932637",
+      "status": "probable",
+      "album_id": "j9632ukqcjtlb"
+    },
+    {
+      "discogs_id": "9932715",
+      "status": "probable",
+      "album_id": "0002894777932"
+    },
+    {
+      "discogs_id": "10480488",
+      "status": "probable",
+      "album_id": "kovvp9ihrfr6a"
+    },
+    {
+      "discogs_id": "12122769",
+      "status": "probable",
+      "album_id": "og36pbj86os7b"
+    },
+    {
+      "discogs_id": "12189169",
+      "status": "probable",
+      "album_id": "0002894806569"
+    },
+    {
+      "discogs_id": "12774826",
+      "status": "probable",
+      "album_id": "3614599269853"
+    },
+    {
+      "discogs_id": "13509145",
+      "status": "probable",
+      "album_id": "0002894807276"
+    },
+    {
+      "discogs_id": "14338491",
+      "status": "probable",
+      "album_id": "0002894594542"
+    },
+    {
+      "discogs_id": "14448160",
+      "status": "probable",
+      "album_id": "cxhvofqzayuqa"
+    },
+    {
+      "discogs_id": "15282801",
+      "status": "probable",
+      "album_id": "0002894756080"
+    },
+    {
+      "discogs_id": "15390424",
+      "status": "probable",
+      "album_id": "0002894307782"
+    },
+    {
+      "discogs_id": "18770818",
+      "status": "probable",
+      "album_id": "pfc4fflitmbpa"
+    },
+    {
+      "discogs_id": "23695508",
+      "status": "probable",
+      "album_id": "3610154145846"
+    },
+    {
+      "discogs_id": "28133197",
+      "status": "probable",
+      "album_id": "3614599294374"
+    },
+    {
+      "discogs_id": "28220854",
+      "status": "probable",
+      "album_id": "0002894630792"
+    },
+    {
+      "discogs_id": "34875983",
+      "status": "probable",
+      "album_id": "0002894756080"
+    }
+  ]
+}

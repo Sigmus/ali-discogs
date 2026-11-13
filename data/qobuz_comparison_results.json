@@ -1,0 +1,1738 @@
+{
+  "schema_version": 1,
+  "selection": "10 evenly spaced empty-result IDs; 10 purposive unresolved failure controls; 5 Found and 5 Probable Spotify IDs evenly spaced within status, all disjoint. Not a random or representative catalogue sample.",
+  "qobuz_empty_group": [
+    {
+      "discogs_id": "594243",
+      "title": "A Love Supreme",
+      "category": "qobuz_empty",
+      "queries": [
+        "mccoy tyner coltrane",
+        "mccoy tyner a love supreme"
+      ],
+      "unique_search_hits": 5,
+      "query_results": [
+        {
+          "query": "mccoy tyner coltrane",
+          "hits": 5
+        },
+        {
+          "query": "mccoy tyner a love supreme",
+          "hits": 0
+        }
+      ],
+      "candidates": [
+        {
+          "album_id": "0073145891832",
+          "title": "McCoy Tyner Plays John Coltrane: Live At The Village Vanguard",
+          "artist": "McCoy Tyner",
+          "limitation": "No full metadata selected or available; search hit only."
+        },
+        {
+          "album_id": "w4t9kf3hmbkic",
+          "title": "Moon On Their Wings (Live Copenhagen '61)",
+          "artist": "John Coltrane",
+          "limitation": "No full metadata selected or available; search hit only."
+        },
+        {
+          "album_id": "xtldi296q6u1a",
+          "title": "In Memoriam Mccoy Tyner Vol. 2: Everytime We Say Goodbye",
+          "artist": "John Coltrane",
+          "limitation": "No full metadata selected or available; search hit only."
+        },
+        {
+          "album_id": "0887845963253",
+          "title": "Ballads",
+          "artist": "John Coltrane",
+          "limitation": "No full metadata selected or available; search hit only."
+        },
+        {
+          "album_id": "sp13gs5jtnl0b",
+          "title": "My Favorite Things ",
+          "artist": "John Coltrane",
+          "limitation": "No full metadata selected or available; search hit only."
+        }
+      ]
+    },
+    {
+      "discogs_id": "3066447",
+      "title": "Les Plus Belles Sonates Pour Piano",
+      "category": "qobuz_empty",
+      "queries": [
+        "daniel barenboim beethoven",
+        "barenboim beethoven op 109"
+      ],
+      "unique_search_hits": 7,
+      "query_results": [
+        {
+          "query": "daniel barenboim beethoven",
+          "hits": 5
+        },
+        {
+          "query": "barenboim beethoven op 109",
+          "hits": 3
+        }
+      ],
+      "candidates": [
+        {
+          "album_id": "0002894196022",
+          "title": "Beethoven: Piano Sonatas Nos.8 \"Moonlight\", 14 \"Appassionata\" & 23 \"Pathétique\"",
+          "artist": "Daniel Barenboim",
+          "limitation": "No full metadata selected or available; search hit only."
+        },
+        {
+          "album_id": "bl0292og4t3pc",
+          "title": "Beethoven: Piano Sonatas Nos. 27-32",
+          "artist": "Daniel Barenboim",
+          "limitation": "No full metadata selected or available; search hit only."
+        },
+        {
+          "album_id": "0002894631272",
+          "title": "Beethoven: The Piano Sonatas",
+          "artist": "Daniel Barenboim",
+          "evidence": {
+            "status": "unchecked",
+            "confidence": null,
+            "coverage": 0.7419354838709677,
+            "covered": 23,
+            "target_count": 31,
+            "required_performers": [
+              "Daniel Barenboim"
+            ],
+            "programme": [
+              {
+                "target": "Sonata No. 14 In C Sharp Minor, Op. 27 No.2 'Moonlight'",
+                "work_tracks": 3,
+                "credited_tracks": 3,
+                "track_ids": [
+                  560817,
+                  560824,
+                  560831
+                ]
+              },
+              {
+                "target": "I: Adagio Sostenuto",
+                "work_tracks": 1,
+                "credited_tracks": 1,
+                "track_ids": [
+                  560817
+                ]
+              },
+              {
+                "target": "II: Allegretto",
+                "work_tracks": 2,
+                "credited_tracks": 2,
+                "track_ids": [
+                  560789,
+                  560824
+                ]
+              },
+              {
+                "target": "III: Presto Agitato - Adagio - Presto Agitato",
+                "work_tracks": 0,
+                "credited_tracks": 0,
+                "track_ids": []
+              },
+              {
+                "target": "Sonata No. 8 In C Minor, Op. 13 'Pathetique'",
+                "work_tracks": 3,
+                "credited_tracks": 3,
+                "track_ids": [
+                  560829,
+                  560835,
+                  560839
+                ]
+              },
+              {
+                "target": "I: Grave - Allegro Di Molto E Con Brio",
+                "work_tracks": 1,
+                "credited_tracks": 1,
+                "track_ids": [
+                  560829
+                ]
+              },
+              {
+                "target": "II: Adagio Cantabile",
+                "work_tracks": 1,
+                "credited_tracks": 1,
+                "track_ids": [
+                  560835
+                ]
+              },
+              {
+                "target": "III: Rondo: Allegro",
+                "work_tracks": 1,
+                "credited_tracks": 1,
+                "track_ids": [
+                  560839
+                ]
+              },
+              {
+                "target": "Sonata No. 23 In F Minor, Op. 57 'Appassionata'",
+                "work_tracks": 3,
+                "credited_tracks": 3,
+                "track_ids": [
+                  560766,
+                  560775,
+                  560784
+                ]
+              },
+              {
+                "target": "I: Allegro Asai",
+                "work_tracks": 0,
+                "credited_tracks": 0,
+                "track_ids": []
+              },
+              {
+                "target": "II: Andante Con Moto",
+                "work_tracks": 1,
+                "credited_tracks": 1,
+                "track_ids": [
+                  560775
+                ]
+              },
+              {
+                "target": "III: Allegro, Ma Non Troppo - Presto",
+                "work_tracks": 0,
+                "credited_tracks": 0,
+                "track_ids": []
+              },
+              {
+                "target": "Sonata No. 21 In C Major, Op. 53 'Waldstein'",
+                "work_tracks": 3,
+                "credited_tracks": 3,
+                "track_ids": [
+                  560819,
+                  560826,
+                  560832
+                ]
+              },
+              {
+                "target": "I: Allegro Con Brio",
+                "work_tracks": 8,
+                "credited_tracks": 8,
+                "track_ids": [
+                  560814,
+                  560743,
+                  560770,
+                  560829,
+                  560744,
+                  560745,
+                  560819,
+                  560804
+                ]
+              },
+              {
+                "target": "II: Introduzione: Adagio Molto - Rondo: Allegretto Moderato - Prestissimo",
+                "work_tracks": 0,
+                "credited_tracks": 0,
+                "track_ids": []
+              },
+              {
+                "target": "Sonata No. 32 In C Minor, Op. 111",
+                "work_tracks": 2,
+                "credited_tracks": 2,
+                "track_ids": [
+                  560804,
+                  560813
+                ]
+              },
+              {
+                "target": "I: Maestoso - Allegro Con Brio Ed Appassionato",
+                "work_tracks": 1,
+                "credited_tracks": 1,
+                "track_ids": [
+                  560804
+                ]
+              },
+              {
+                "target": "II: Arietta: Adagio Molto Semplice E Cantabile",
+                "work_tracks": 1,
+                "credited_tracks": 1,
+                "track_ids": [
+                  560813
+                ]
+              },
+              {
+                "target": "Sonata No. 31 In A Flat Major, Op. 110",
+                "work_tracks": 3,
+                "credited_tracks": 3,
+                "track_ids": [
+                  560777,
+                  560786,
+                  560795
+                ]
+              },
+              {
+                "target": "I: Moderato Cantabile, Molto Espressivo",
+                "work_tracks": 1,
+                "credited_tracks": 1,
+                "track_ids": [
+                  560777
+                ]
+              },
+              {
+                "target": "II: Allegro Molto",
+                "work_tracks": 1,
+                "credited_tracks": 1,
+                "track_ids": [
+                  560786
+                ]
+              },
+              {
+                "target": "III: Adagio Ma Non Troppo",
+                "work_tracks": 2,
+                "credited_tracks": 2,
+                "track_ids": [
+                  560767,
+                  560795
+                ]
+              },
+              {
+                "target": "IV: Fuga: Allegro Ma Non Troppo - L'Istesso Tempo Di Arioso - L'Istessa Tempo Della Fuga - Meno Allegro",
+                "work_tracks": 0,
+                "credited_tracks": 0,
+                "track_ids": []
+              },
+              {
+                "target": "Sonata No. 30 In E Major, Op. 109",
+                "work_tracks": 3,
+                "credited_tracks": 3,
+                "track_ids": [
+                  560750,
+                  560759,
+                  560768
+                ]
+              },
+              {
+                "target": "I: Vivace, Ma Non Troppo - Adagio Espressivo - Tempo I",
+                "work_tracks": 1,
+                "credited_tracks": 1,
+                "track_ids": [
+                  560750
+                ]
+              },
+              {
+                "target": "II: Prestissimo",
+                "work_tracks": 1,
+                "credited_tracks": 1,
+                "track_ids": [
+                  560759
+                ]
+              },
+              {
+                "target": "III: Tema: Andante Molto Cantabile Ed Espressivo - Variazioni 1-6",
+                "work_tracks": 0,
+                "credited_tracks": 0,
+                "track_ids": []
+              },
+              {
+                "target": "Sonata No. 26 In E Flat Major, Op. 81a 'Les Adieux'",
+                "work_tracks": 3,
+                "credited_tracks": 3,
+                "track_ids": [
+                  560833,
+                  560838,
+                  560842
+                ]
+              },
+              {
+                "target": "I: Das Lebewohl (Les Adieux): Adagio - Allegro",
+                "work_tracks": 1,
+                "credited_tracks": 1,
+                "track_ids": [
+                  560833
+                ]
+              },
+              {
+                "target": "II: Abwesenheit (L'Absence): Andante Espressivo",
+                "work_tracks": 0,
+                "credited_tracks": 0,
+                "track_ids": []
+              },
+              {
+                "target": "III: Wiedersehen (Le Retour): Vivacissimamente - Poco Andante - Tempo I",
+                "work_tracks": 0,
+                "credited_tracks": 0,
+                "track_ids": []
+              }
+            ],
+            "reasons": [
+              "23/31 target items supported after composer/work grouping; unresolved."
+            ]
+          },
+          "completeness": {
+            "status": "unknown",
+            "works": [
+              {
+                "target": "Sonata No. 14 In C Sharp Minor, Op. 27 No.2 'Moonlight'",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "missing_movements": [],
+                "track_ids": [
+                  560817,
+                  560824,
+                  560831
+                ],
+                "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+                "scope": "whole-work-inventory",
+                "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+              },
+              {
+                "target": "I: Adagio Sostenuto",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "II: Allegretto",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "III: Presto Agitato - Adagio - Presto Agitato",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Sonata No. 8 In C Minor, Op. 13 'Pathetique'",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "missing_movements": [],
+                "track_ids": [
+                  560829,
+                  560835,
+                  560839
+                ],
+                "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+                "scope": "whole-work-inventory",
+                "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+              },
+              {
+                "target": "I: Grave - Allegro Di Molto E Con Brio",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "II: Adagio Cantabile",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "III: Rondo: Allegro",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Sonata No. 23 In F Minor, Op. 57 'Appassionata'",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "missing_movements": [],
+                "track_ids": [
+                  560766,
+                  560775,
+                  560784
+                ],
+                "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+                "scope": "whole-work-inventory",
+                "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+              },
+              {
+                "target": "I: Allegro Asai",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "II: Andante Con Moto",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "III: Allegro, Ma Non Troppo - Presto",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Sonata No. 21 In C Major, Op. 53 'Waldstein'",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "I: Allegro Con Brio",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "II: Introduzione: Adagio Molto - Rondo: Allegretto Moderato - Prestissimo",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Sonata No. 32 In C Minor, Op. 111",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "I: Maestoso - Allegro Con Brio Ed Appassionato",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "II: Arietta: Adagio Molto Semplice E Cantabile",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Sonata No. 31 In A Flat Major, Op. 110",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "I: Moderato Cantabile, Molto Espressivo",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "II: Allegro Molto",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "III: Adagio Ma Non Troppo",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "IV: Fuga: Allegro Ma Non Troppo - L'Istesso Tempo Di Arioso - L'Istessa Tempo Della Fuga - Meno Allegro",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Sonata No. 30 In E Major, Op. 109",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "I: Vivace, Ma Non Troppo - Adagio Espressivo - Tempo I",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "II: Prestissimo",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "III: Tema: Andante Molto Cantabile Ed Espressivo - Variazioni 1-6",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Sonata No. 26 In E Flat Major, Op. 81a 'Les Adieux'",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "I: Das Lebewohl (Les Adieux): Adagio - Allegro",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "II: Abwesenheit (L'Absence): Andante Espressivo",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "III: Wiedersehen (Le Retour): Vivacissimamente - Poco Andante - Tempo I",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              }
+            ],
+            "overlapping_target_tracks": false
+          }
+        },
+        {
+          "album_id": "zbnl88r4plrba",
+          "title": "Beethoven: Symphony No. 7, Op. 92",
+          "artist": "Daniel Barenboim",
+          "limitation": "No full metadata selected or available; search hit only."
+        },
+        {
+          "album_id": "bn4naurb578zb",
+          "title": "Beethoven Trios",
+          "artist": "Daniel Barenboim",
+          "limitation": "No full metadata selected or available; search hit only."
+        },
+        {
+          "album_id": "5099970442151",
+          "title": "Beethoven: Complete Piano Sonatas",
+          "artist": "Daniel Barenboim",
+          "limitation": "No full metadata selected or available; search hit only."
+        },
+        {
+          "album_id": "fstv6cjkgurtc",
+          "title": "Beethoven For All - The Piano Sonatas",
+          "artist": "Daniel Barenboim",
+          "limitation": "No full metadata selected or available; search hit only."
+        }
+      ]
+    },
+    {
+      "discogs_id": "4429613",
+      "title": "The Complete Beethoven Society Recordings, 1932–37 / Vol. 2: Sonatas, Nos. 11–17",
+      "category": "qobuz_empty",
+      "queries": [
+        "artur schnabel beethoven",
+        "schnabel beethoven op 22"
+      ],
+      "unique_search_hits": 7,
+      "query_results": [
+        {
+          "query": "artur schnabel beethoven",
+          "hits": 5
+        },
+        {
+          "query": "schnabel beethoven op 22",
+          "hits": 2
+        }
+      ],
+      "candidates": [
+        {
+          "album_id": "evmb3lj8sm3la",
+          "title": "Beethoven: Piano Sonatas Nos. 27-29 (Schnabel) (1932-1935)",
+          "artist": "Artur Schnabel",
+          "limitation": "No full metadata selected or available; search hit only."
+        },
+        {
+          "album_id": "0190295866983",
+          "title": "Beethoven: Complete Piano Sonatas (2016 Remaster)",
+          "artist": "Artur Schnabel",
+          "evidence": {
+            "status": "probable",
+            "confidence": 0.85,
+            "coverage": 1.0,
+            "covered": 7,
+            "target_count": 7,
+            "required_performers": [
+              "Artur Schnabel"
+            ],
+            "programme": [
+              {
+                "target": "Sonata No. 11 In B Flat, Op. 22",
+                "work_tracks": 4,
+                "credited_tracks": 4,
+                "track_ids": [
+                  36924078,
+                  36924079,
+                  36924080,
+                  36924081
+                ]
+              },
+              {
+                "target": "Sonata No. 12 In A Flat, Op. 26 (\"Funeral March\")",
+                "work_tracks": 4,
+                "credited_tracks": 4,
+                "track_ids": [
+                  36924098,
+                  36924099,
+                  36924100,
+                  36924101
+                ]
+              },
+              {
+                "target": "Sonata No. 13 In E Flat, Op. 27 No. 1",
+                "work_tracks": 3,
+                "credited_tracks": 3,
+                "track_ids": [
+                  36924082,
+                  36924083,
+                  36924084
+                ]
+              },
+              {
+                "target": "Sonata No. 14 In C Sharp Minor, Op. 27 No. 2 (\"Moonlight\")",
+                "work_tracks": 3,
+                "credited_tracks": 3,
+                "track_ids": [
+                  36924085,
+                  36924086,
+                  36924087
+                ]
+              },
+              {
+                "target": "Sonata No. 15 In D, Op. 28 (\"Pastoral\")",
+                "work_tracks": 4,
+                "credited_tracks": 4,
+                "track_ids": [
+                  36924088,
+                  36924089,
+                  36924090,
+                  36924091
+                ]
+              },
+              {
+                "target": "Sonata No. 16 In G, Op. 31 No. 1",
+                "work_tracks": 3,
+                "credited_tracks": 3,
+                "track_ids": [
+                  36924102,
+                  36924103,
+                  36924104
+                ]
+              },
+              {
+                "target": "Sonata No. 17 In D Minor, Op. 31 No. 2 (\"Tempest\")",
+                "work_tracks": 3,
+                "credited_tracks": 3,
+                "track_ids": [
+                  36924105,
+                  36924106,
+                  36924107
+                ]
+              }
+            ],
+            "reasons": [
+              "Each target item has supporting work and performer credits.",
+              "Grouped movements or extra recordings require review; recording identity is not confirmed."
+            ]
+          },
+          "completeness": {
+            "status": "unknown",
+            "works": [
+              {
+                "target": "Sonata No. 11 In B Flat, Op. 22",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Sonata No. 12 In A Flat, Op. 26 (\"Funeral March\")",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "missing_movements": [],
+                "track_ids": [
+                  36924098,
+                  36924099,
+                  36924100,
+                  36924101
+                ],
+                "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+                "scope": "whole-work-inventory",
+                "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+              },
+              {
+                "target": "Sonata No. 13 In E Flat, Op. 27 No. 1",
+                "status": "unknown",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  null
+                ],
+                "missing_movements": [
+                  3,
+                  4
+                ],
+                "track_ids": [
+                  36924082,
+                  36924083,
+                  36924084
+                ],
+                "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+                "scope": "whole-work-inventory",
+                "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+              },
+              {
+                "target": "Sonata No. 14 In C Sharp Minor, Op. 27 No. 2 (\"Moonlight\")",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "missing_movements": [],
+                "track_ids": [
+                  36924085,
+                  36924086,
+                  36924087
+                ],
+                "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+                "scope": "whole-work-inventory",
+                "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+              },
+              {
+                "target": "Sonata No. 15 In D, Op. 28 (\"Pastoral\")",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Sonata No. 16 In G, Op. 31 No. 1",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "missing_movements": [],
+                "track_ids": [
+                  36924102,
+                  36924103,
+                  36924104
+                ],
+                "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+                "scope": "whole-work-inventory",
+                "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+              },
+              {
+                "target": "Sonata No. 17 In D Minor, Op. 31 No. 2 (\"Tempest\")",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              }
+            ],
+            "overlapping_target_tracks": false
+          }
+        },
+        {
+          "album_id": "ldki24bpeid2a",
+          "title": "Beethoven: Piano Sonatas Nos 26 \"Les Adieux\", 28 & 29 \"Hammerklavier\"",
+          "artist": "Artur Schnabel",
+          "limitation": "No full metadata selected or available; search hit only."
+        },
+        {
+          "album_id": "0884385808242",
+          "title": "The Beethoven Piano Sonatas",
+          "artist": "Ludwig van Beethoven",
+          "limitation": "No full metadata selected or available; search hit only."
+        },
+        {
+          "album_id": "0724356288058",
+          "title": "Beethoven: Piano Sonatas, Nos. 21 \"Waldstein\", 22, 23 \"Appassionata\", 24, 25, 27 & 30 - 32",
+          "artist": "Artur Schnabel",
+          "limitation": "No full metadata selected or available; search hit only."
+        },
+        {
+          "album_id": "tjpgmbekb04ha",
+          "title": "BEETHOVEN: PIANO SONATA No.5  \"THE LITTLE PATHETIQUE\", No.6, No.7, No.19 \"LEICHTE SONATEN\", No.20, No.22",
+          "artist": "Artur Schnabel",
+          "limitation": "No full metadata selected or available; search hit only."
+        },
+        {
+          "album_id": "s33j4q8tppimb",
+          "title": "BEETHOVEN: PIANO SONATA No.11, PIANO SONATA No.12 \"FUNERAL MARCH\", PIANO SONATA No.13 \"SONATA QUASI UNA FANTASIA\", \"SIX VARIATIONS FOR PIANO ON AN ORIGINAL THEME\"",
+          "artist": "Artur Schnabel",
+          "limitation": "No full metadata selected or available; search hit only."
+        }
+      ]
+    },
+    {
+      "discogs_id": "6091545",
+      "title": "Psalmen Davids, 1619 (Five Concertos For Soloists, Choruses & Instruments)",
+      "category": "qobuz_empty",
+      "queries": [
+        "wilhelm ehmann schutz",
+        "wilhelm ehmann psalmen davids 1619"
+      ],
+      "unique_search_hits": 5,
+      "query_results": [
+        {
+          "query": "wilhelm ehmann schutz",
+          "hits": 5
+        },
+        {
+          "query": "wilhelm ehmann psalmen davids 1619",
+          "hits": 0
+        }
+      ],
+      "candidates": [
+        {
+          "album_id": "svqciaw36mwvc",
+          "title": "Schütz: Kleine geistliche Konzerte, vol. 1",
+          "artist": "Wilhelm Ehmann",
+          "limitation": "No full metadata selected or available; search hit only."
+        },
+        {
+          "album_id": "v9prgt1zbyfwa",
+          "title": "Schütz: Geistliche Chormusik 1648",
+          "artist": "Wilhelm Ehmann",
+          "limitation": "No full metadata selected or available; search hit only."
+        },
+        {
+          "album_id": "sx5t3srv3jgac",
+          "title": "Schütz: Kleine geistliche Konzerte, vol. 3",
+          "artist": "Wilhelm Ehmann",
+          "limitation": "No full metadata selected or available; search hit only."
+        },
+        {
+          "album_id": "btchqd447im7b",
+          "title": "Schütz: Kleine geistliche Konzerte, vol. 2",
+          "artist": "Wilhelm Ehmann",
+          "limitation": "No full metadata selected or available; search hit only."
+        },
+        {
+          "album_id": "qgcbaft6pbgob",
+          "title": "Schütz: Weihnachtshistorie / Weihnachtsmotetten",
+          "artist": "Wilhelm Ehmann",
+          "limitation": "No full metadata selected or available; search hit only."
+        }
+      ]
+    },
+    {
+      "discogs_id": "7103881",
+      "title": "Messen F-dur (BWV 233), A-dur (BWV 234)",
+      "category": "qobuz_empty",
+      "queries": [
+        "martin flamig bach",
+        "flamig bach bwv 233"
+      ],
+      "unique_search_hits": 6,
+      "query_results": [
+        {
+          "query": "martin flamig bach",
+          "hits": 5
+        },
+        {
+          "query": "flamig bach bwv 233",
+          "hits": 1
+        }
+      ],
+      "candidates": [
+        {
+          "album_id": "ktylumldw296b",
+          "title": "Bach: Weihnachtsoratorium",
+          "artist": "Dresdner Kreuzchor",
+          "limitation": "No full metadata selected or available; search hit only."
+        },
+        {
+          "album_id": "e8h0mwzotiblb",
+          "title": "Bach: Christmas Oratorio, BWV 248",
+          "artist": "Martin Flamig",
+          "limitation": "No full metadata selected or available; search hit only."
+        },
+        {
+          "album_id": "hz3y69pf3amua",
+          "title": "Bach: Messe G-Moll & Messe G-Dur",
+          "artist": "Dresdner Kreuzchor",
+          "evidence": {
+            "status": "unchecked",
+            "confidence": null,
+            "coverage": 0.0,
+            "covered": 0,
+            "target_count": 2,
+            "required_performers": [
+              "Martin Flämig",
+              "Renate Krahmer",
+              "Annelies Burmeister",
+              "Theo Adam",
+              "Dresdner Kreuzchor",
+              "Dresdner Philharmonie",
+              "Manfred Reichelt"
+            ],
+            "programme": [
+              {
+                "target": "Messe F-dur, BWV 233",
+                "work_tracks": 0,
+                "credited_tracks": 0,
+                "track_ids": []
+              },
+              {
+                "target": "Messe A-dur, BWV 234",
+                "work_tracks": 0,
+                "credited_tracks": 0,
+                "track_ids": []
+              }
+            ],
+            "reasons": [
+              "0/2 target items supported after composer/work grouping; unresolved."
+            ]
+          },
+          "completeness": {
+            "status": "unknown",
+            "works": [
+              {
+                "target": "Messe F-dur, BWV 233",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Messe A-dur, BWV 234",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              }
+            ],
+            "overlapping_target_tracks": false
+          }
+        },
+        {
+          "album_id": "deivnz0mjzqya",
+          "title": "Bach: Messe F-Dur & Messe A-Dur",
+          "artist": "Dresdner Kreuzchor",
+          "evidence": {
+            "status": "unchecked",
+            "confidence": null,
+            "coverage": 0.0,
+            "covered": 0,
+            "target_count": 2,
+            "required_performers": [
+              "Martin Flämig",
+              "Renate Krahmer",
+              "Annelies Burmeister",
+              "Theo Adam",
+              "Dresdner Kreuzchor",
+              "Dresdner Philharmonie",
+              "Manfred Reichelt"
+            ],
+            "programme": [
+              {
+                "target": "Messe F-dur, BWV 233",
+                "work_tracks": 6,
+                "credited_tracks": 0,
+                "track_ids": []
+              },
+              {
+                "target": "Messe A-dur, BWV 234",
+                "work_tracks": 6,
+                "credited_tracks": 0,
+                "track_ids": []
+              }
+            ],
+            "reasons": [
+              "0/2 target items supported after composer/work grouping; unresolved."
+            ]
+          },
+          "completeness": {
+            "status": "unknown",
+            "works": [
+              {
+                "target": "Messe F-dur, BWV 233",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Messe A-dur, BWV 234",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              }
+            ],
+            "overlapping_target_tracks": false
+          }
+        },
+        {
+          "album_id": "wq5rk2d69g83b",
+          "title": "Bach: Weihnachtsoratorium (Highlights)",
+          "artist": "Dresdner Kreuzchor",
+          "limitation": "No full metadata selected or available; search hit only."
+        },
+        {
+          "album_id": "0782124913021",
+          "title": "BACH, J.S.: Masses - BWV 233-236 (Flamig)",
+          "artist": "Martin Flamig",
+          "limitation": "No full metadata selected or available; search hit only."
+        }
+      ]
+    },
+    {
+      "discogs_id": "8534837",
+      "title": "Double Concerto / Piano Trio No. 1",
+      "category": "qobuz_empty",
+      "queries": [
+        "alfred cortot bartholdy",
+        "alfred cortot double concerto piano"
+      ],
+      "unique_search_hits": 6,
+      "query_results": [
+        {
+          "query": "alfred cortot bartholdy",
+          "hits": 3
+        },
+        {
+          "query": "alfred cortot double concerto piano",
+          "hits": 3
+        }
+      ],
+      "candidates": [
+        {
+          "album_id": "y41bp3kr0163a",
+          "title": "Felix Mendelssohn & Robert Schumann",
+          "artist": "Alfred Cortot",
+          "limitation": "No full metadata selected or available; search hit only."
+        },
+        {
+          "album_id": "4053166990667",
+          "title": "Pablo Casals plays: Ludwig van Beethoven / Felix Mendelssohn Bartholdy / Robert Schumann: 10 Variations / Piano Trio (1926-1955)",
+          "artist": "Pablo Casals",
+          "limitation": "No full metadata selected or available; search hit only."
+        },
+        {
+          "album_id": "jzqdz9rqcwjka",
+          "title": "Mendelssohn's Art",
+          "artist": "Various Artists",
+          "limitation": "No full metadata selected or available; search hit only."
+        },
+        {
+          "album_id": "3610159204920",
+          "title": "Brahms: Double concerto pour violon et violoncelle - Mendelssohn: Trio pour piano, violon et violoncelle no. 1",
+          "artist": "Jacques Thibaud",
+          "evidence": {
+            "status": "unchecked",
+            "confidence": null,
+            "coverage": 0.0,
+            "covered": 0,
+            "target_count": 2,
+            "required_performers": [
+              "Alfred Cortot",
+              "Pablo Casals",
+              "Jacques Thibaud",
+              "Orquestra Pau Casals"
+            ],
+            "programme": [
+              {
+                "target": "Double Concerto For Violin And Violoncello",
+                "work_tracks": 0,
+                "credited_tracks": 0,
+                "track_ids": []
+              },
+              {
+                "target": "Trio No 1 In D Minor",
+                "work_tracks": 0,
+                "credited_tracks": 0,
+                "track_ids": []
+              }
+            ],
+            "reasons": [
+              "0/2 target items supported after composer/work grouping; unresolved.",
+              "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
+            ],
+            "work_group_policy": "qobuz-work-groups-v1"
+          },
+          "completeness": {
+            "status": "unknown",
+            "works": [
+              {
+                "target": "Double Concerto For Violin And Violoncello",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Trio No 1 In D Minor",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              }
+            ],
+            "overlapping_target_tracks": false
+          }
+        },
+        {
+          "album_id": "4053166990674",
+          "title": "Pablo Casals plays: Johannes Brahms / Joseph Haydn / Luigi Boccherini : Double Concerto / Piano Trio / Cello Concerto (1926-1955)",
+          "artist": "Pablo Casals",
+          "limitation": "No full metadata selected or available; search hit only."
+        },
+        {
+          "album_id": "8424295026934",
+          "title": "Brahms: Sonata para Cello y Piano No. 2 & Doble Concierto para Violin, Cello y Orquestra",
+          "artist": "Pablo Casals",
+          "limitation": "No full metadata selected or available; search hit only."
+        }
+      ]
+    },
+    {
+      "discogs_id": "10301402",
+      "title": "Die 4 Symphonien · Das Violinkonzert · Die Haydn-Variationen · Ein Deutsches Requiem",
+      "category": "qobuz_empty",
+      "queries": [
+        "herbert von karajan brahms",
+        "karajan brahms op 45"
+      ],
+      "unique_search_hits": 9,
+      "query_results": [
+        {
+          "query": "herbert von karajan brahms",
+          "hits": 5
+        },
+        {
+          "query": "karajan brahms op 45",
+          "hits": 5
+        }
+      ],
+      "candidates": [
+        {
+          "album_id": "0002894798228",
+          "title": "Brahms : The Four Symphonies",
+          "artist": "Herbert von Karajan",
+          "evidence": {
+            "status": "unchecked",
+            "confidence": null,
+            "coverage": 0.0,
+            "covered": 0,
+            "target_count": 7,
+            "required_performers": [
+              "Herbert von Karajan",
+              "Berliner Philharmoniker",
+              "Wiener Singverein",
+              "Gundula Janowitz",
+              "Eberhard Wächter",
+              "Christian Ferras"
+            ],
+            "programme": [
+              {
+                "target": "Symphonie Nr. 1 C-moll Op. 68",
+                "work_tracks": 0,
+                "credited_tracks": 0,
+                "track_ids": []
+              },
+              {
+                "target": "Symphonie Nr. 2 D-dur Op. 73",
+                "work_tracks": 0,
+                "credited_tracks": 0,
+                "track_ids": []
+              },
+              {
+                "target": "Symphonie Nr. 3 F-dur Op. 90",
+                "work_tracks": 0,
+                "credited_tracks": 0,
+                "track_ids": []
+              },
+              {
+                "target": "Symphonie Nr. 4 E-moll Op. 98",
+                "work_tracks": 0,
+                "credited_tracks": 0,
+                "track_ids": []
+              },
+              {
+                "target": "Konzert Für Violine Und Orchester D-dur Op. 77",
+                "work_tracks": 0,
+                "credited_tracks": 0,
+                "track_ids": []
+              },
+              {
+                "target": "Ein Deutsches Requiem Op. 45 (Nach Worten Der Heiligen Schrift Für Soli, Chor Und Orchester)",
+                "work_tracks": 0,
+                "credited_tracks": 0,
+                "track_ids": []
+              },
+              {
+                "target": "Variationen Über Ein Thema Von Joseph Haydn Für Orchester Op. 56 A",
+                "work_tracks": 0,
+                "credited_tracks": 0,
+                "track_ids": []
+              }
+            ],
+            "reasons": [
+              "0/7 target items supported after composer/work grouping; unresolved."
+            ]
+          },
+          "completeness": {
+            "status": "unknown",
+            "works": [
+              {
+                "target": "Symphonie Nr. 1 C-moll Op. 68",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Symphonie Nr. 2 D-dur Op. 73",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Symphonie Nr. 3 F-dur Op. 90",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Symphonie Nr. 4 E-moll Op. 98",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Konzert Für Violine Und Orchester D-dur Op. 77",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Ein Deutsches Requiem Op. 45 (Nach Worten Der Heiligen Schrift Für Soli, Chor Und Orchester)",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Variationen Über Ein Thema Von Joseph Haydn Für Orchester Op. 56 A",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              }
+            ],
+            "overlapping_target_tracks": false
+          }
+        },
+        {
+          "album_id": "bam3c6gqmr85n",
+          "title": "Brahms: A German Requiem, Tragic Overture & Haydn Variations",
+          "artist": "Herbert von Karajan",
+          "limitation": "No full metadata selected or available; search hit only."
+        },
+        {
+          "album_id": "c8ynl5mfnbi5a",
+          "title": "Brahms: Ein deutsches Requiem, Op.45",
+          "artist": "Gundula Janowitz",
+          "limitation": "No full metadata selected or available; search hit only."
+        },
+        {
+          "album_id": "sg3xxb8apkmwb",
+          "title": "Brahms: Piano Concerto No. 2 in B Flat, Op. 83 / Grieg: Piano Concerto in A Minor, Op. 16",
+          "artist": "Geza Anda",
+          "limitation": "No full metadata selected or available; search hit only."
+        },
+        {
+          "album_id": "0002894106032",
+          "title": "Brahms: Double Concerto In A Minor, Op. 102; Tragic Overture, Op. 81",
+          "artist": "Anne-Sophie Mutter",
+          "limitation": "No full metadata selected or available; search hit only."
+        },
+        {
+          "album_id": "0724356281257",
+          "title": "Brahms : Un requiem allemand, Op. 45",
+          "artist": "Herbert von Karajan",
+          "limitation": "No full metadata selected or available; search hit only."
+        },
+        {
+          "album_id": "3610150161321",
+          "title": "Brahms : Un requiem allemand, Op. 45",
+          "artist": "Wiener Philharmonic Orchestra",
+          "limitation": "No full metadata selected or available; search hit only."
+        },
+        {
+          "album_id": "0002894316512",
+          "title": "Brahms: Ein Deutsches Requiem Op.45",
+          "artist": "Barbara Hendricks",
+          "limitation": "No full metadata selected or available; search hit only."
+        },
+        {
+          "album_id": "gms5y1vpjroaa",
+          "title": "BRAHMS: EIN DEUTSCHES REQUIEM",
+          "artist": "Herbert von Karajan",
+          "limitation": "No full metadata selected or available; search hit only."
+        }
+      ]
+    },
+    {
+      "discogs_id": "12130939",
+      "title": "Symphonie N° 5 / Symphonie N° 10 - Adagio",
+      "category": "qobuz_empty",
+      "queries": [
+        "klaus tennstedt mahler",
+        "klaus tennstedt symphonie ndeg 5"
+      ],
+      "unique_search_hits": 5,
+      "query_results": [
+        {
+          "query": "klaus tennstedt mahler",
+          "hits": 5
+        },
+        {
+          "query": "klaus tennstedt symphonie ndeg 5",
+          "hits": 0
+        }
+      ],
+      "candidates": [
+        {
+          "album_id": "hse4g44fcm6qb",
+          "title": "Mahler: Symphonies",
+          "artist": "Klaus Tennstedt",
+          "evidence": {
+            "status": "probable",
+            "confidence": 0.85,
+            "coverage": 1.0,
+            "covered": 2,
+            "target_count": 2,
+            "required_performers": [
+              "Klaus Tennstedt",
+              "London Philharmonic Orchestra"
+            ],
+            "programme": [
+              {
+                "target": "Symphony No. 5 In C Sharp Minor",
+                "work_tracks": 5,
+                "credited_tracks": 5,
+                "track_ids": [
+                  332669191,
+                  332669192,
+                  332669193,
+                  332669194,
+                  332669195
+                ]
+              },
+              {
+                "target": "Symphony No. 10 In F Sharp Major",
+                "work_tracks": 1,
+                "credited_tracks": 1,
+                "track_ids": [
+                  332669227
+                ]
+              }
+            ],
+            "reasons": [
+              "Each target item has supporting work and performer credits.",
+              "Grouped movements or extra recordings require review; recording identity is not confirmed."
+            ]
+          },
+          "completeness": {
+            "status": "unknown",
+            "works": [
+              {
+                "target": "Symphony No. 5 In C Sharp Minor",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Symphony No. 10 In F Sharp Major",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              }
+            ],
+            "overlapping_target_tracks": false
+          }
+        },
+        {
+          "album_id": "0094636158051",
+          "title": "Mahler: Symphonies Nos. 4 & 8 \"Symphony of a Thousand\"",
+          "artist": "Klaus Tennstedt",
+          "limitation": "No full metadata selected or available; search hit only."
+        },
+        {
+          "album_id": "twdsmj9f2ypca",
+          "title": "Mahler: Symphony No. 6",
+          "artist": "Klaus Tennstedt",
+          "limitation": "No full metadata selected or available; search hit only."
+        },
+        {
+          "album_id": "lvndsf3ku47ic",
+          "title": "Mahler: Symphony No. 5 in C-Sharp Minor & Kindertotenlieder",
+          "artist": "Brigitte Fassbaender",
+          "limitation": "No full metadata selected or available; search hit only."
+        },
+        {
+          "album_id": "cvqfxz78s87ka",
+          "title": "Mahler: Symphony No. 3",
+          "artist": "London Philharmonic Orchestra",
+          "limitation": "No full metadata selected or available; search hit only."
+        }
+      ]
+    },
+    {
+      "discogs_id": "15926362",
+      "title": "Symphonies Nos. 1-4",
+      "category": "qobuz_empty",
+      "queries": [
+        "bernard haitink mahler",
+        "bernard haitink symphonies nos 1"
+      ],
+      "unique_search_hits": 10,
+      "query_results": [
+        {
+          "query": "bernard haitink mahler",
+          "hits": 5
+        },
+        {
+          "query": "bernard haitink symphonies nos 1",
+          "hits": 5
+        }
+      ],
+      "candidates": [
+        {
+          "album_id": "woub7hzdnhq7b",
+          "title": "Mahler: The Symphonies & Song Cycles",
+          "artist": "Bernard Haitink",
+          "evidence": {
+            "status": "unchecked",
+            "confidence": null,
+            "coverage": 0.0,
+            "covered": 0,
+            "target_count": 4,
+            "required_performers": [
+              "Bernard Haitink",
+              "Women's Chorus Of The Groot Omroepkoor",
+              "Concertgebouworkest",
+              "Elly Ameling",
+              "Herman Krebbers"
+            ],
+            "programme": [
+              {
+                "target": "Symphonie Nr. 1 D-Dur \"Titan\"",
+                "work_tracks": 0,
+                "credited_tracks": 0,
+                "track_ids": []
+              },
+              {
+                "target": "Symphonie Nr. 2 C-Moll \"Aufherstehung\"",
+                "work_tracks": 0,
+                "credited_tracks": 0,
+                "track_ids": []
+              },
+              {
+                "target": "Symphonie Nr. 3 D-Moll",
+                "work_tracks": 8,
+                "credited_tracks": 0,
+                "track_ids": []
+              },
+              {
+                "target": "Symphonie Nr. 4 G-Dur",
+                "work_tracks": 7,
+                "credited_tracks": 0,
+                "track_ids": []
+              }
+            ],
+            "reasons": [
+              "0/4 target items supported after composer/work grouping; unresolved."
+            ]
+          },
+          "completeness": {
+            "status": "unknown",
+            "works": [
+              {
+                "target": "Symphonie Nr. 1 D-Dur \"Titan\"",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Symphonie Nr. 2 C-Moll \"Aufherstehung\"",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Symphonie Nr. 3 D-Moll",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Symphonie Nr. 4 G-Dur",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              }
+            ],
+            "overlapping_target_tracks": false
+          }
+        },
+        {
+          "album_id": "dhvx32etf36ab",
+          "title": "Mahler: Symphonies Nos. 3, 4 & 9 ",
+          "artist": "Symphonieorchester Des Bayerischen Rundfunks",
+          "limitation": "No full metadata selected or available; search hit only."
+        },
+        {
+          "album_id": "rdwiaho8lhpxa",
+          "title": "Mahler: Symphony No. 9",
+          "artist": "Berliner Philharmoniker",
+          "limitation": "No full metadata selected or available; search hit only."
+        },
+        {
+          "album_id": "aj4zgms3cpdra",
+          "title": "Mahler: Orchestral Works",
+          "artist": "Symphonieorchester Des Bayerischen Rundfunks",
+          "limitation": "No full metadata selected or available; search hit only."
+        },
+        {
+          "album_id": "hzw2x04znnk5b",
+          "title": "Mahler: Symphony No. 2 'Resurrection'",
+          "artist": "Aafje Heynis",
+          "limitation": "No full metadata selected or available; search hit only."
+        },
+        {
+          "album_id": "say42lq7jpadb",
+          "title": "Beethoven: Symphonies Nos. 1-9",
+          "artist": "Bernard Haitink",
+          "limitation": "No full metadata selected or available; search hit only."
+        },
+        {
+          "album_id": "i4x2o66dhzohb",
+          "title": "Brahms: Symphonies Nos 1-4",
+          "artist": "Bernard Haitink",
+          "limitation": "No full metadata selected or available; search hit only."
+        },
+        {
+          "album_id": "jp5p0k4lcvpjb",
+          "title": "Bruckner: Symphonies Nos. 1-9",
+          "artist": "Symphonieorchester Des Bayerischen Rundfunks",
+          "limitation": "No full metadata selected or available; search hit only."
+        },
+        {
+          "album_id": "0002894784214",
+          "title": "Shostakovich: Symphonies Nos. 1 & 5",
+          "artist": "London Philharmonic Orchestra",
+          "limitation": "No full metadata selected or available; search hit only."
+        },
+        {
+          "album_id": "ncyfh6n4obzmb",
+          "title": "Beethoven: Symphonies Nos. 1 & 5",
+          "artist": "London Philharmonic Orchestra",
+          "limitation": "No full metadata selected or available; search hit only."
+        }
+      ]
+    },
+    {
+      "discogs_id": "37312800",
+      "title": "Symphonie Nr.IV e-moll",
+      "category": "qobuz_empty",
+      "queries": [
+        "rafael kubelik brahms",
+        "kubelik brahms op 98"
+      ],
+      "unique_search_hits": 6,
+      "query_results": [
+        {
+          "query": "rafael kubelik brahms",
+          "hits": 5
+        },
+        {
+          "query": "kubelik brahms op 98",
+          "hits": 1
+        }
+      ],
+      "candidates": [
+        {
+          "album_id": "sg3xxb8apkmwb",
+          "title": "Brahms: Piano Concerto No. 2 in B Flat, Op. 83 / Grieg: Piano Concerto in A Minor, Op. 16",
+          "artist": "Geza Anda",
+          "limitation": "No full metadata selected or available; search hit only."
+        },
+        {
+          "album_id": "oztz24wqi3m4w",
+          "title": "Brahms: Symphonie No. 2, Chant du destin & Danses hongroises (Les indispensables de Diapason)",
+          "artist": "Rafael Kubelik",
+          "limitation": "No full metadata selected or available; search hit only."
+        },
+        {
+          "album_id": "b0urtwzjr9a3b",
+          "title": "Henryk Szeryng: Dvorak & Brahms",
+          "artist": "Rafael Kubelik",
+          "limitation": "No full metadata selected or available; search hit only."
+        },
+        {
+          "album_id": "0002894824972",
+          "title": "Brahms : Symphonies Nos. 1–4 (Remastered)",
+          "artist": "Rafael Kubelik",
+          "evidence": {
+            "status": "probable",
+            "confidence": 0.85,
+            "coverage": 1.0,
+            "covered": 1,
+            "target_count": 1,
+            "required_performers": [
+              "Rafael Kubelik",
+              "Wiener Philharmoniker"
+            ],
+            "programme": [
+              {
+                "target": "Symphony Nr. IV E-Minor Opus 98\t",
+                "work_tracks": 4,
+                "credited_tracks": 4,
+                "track_ids": [
+                  41419216,
+                  41419218,
+                  41419220,
+                  41419222
+                ]
+              }
+            ],
+            "reasons": [
+              "Each target item has supporting work and performer credits.",
+              "Grouped movements or extra recordings require review; recording identity is not confirmed."
+            ]
+          },
+          "completeness": {
+            "status": "unknown",
+            "works": [
+              {
+                "target": "Symphony Nr. IV E-Minor Opus 98\t",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              }
+            ],
+            "overlapping_target_tracks": false
+          }
+        },
+        {
+          "album_id": "yy7527m2ip0yb",
+          "title": "Brahms: The 4 Symphonies",
+          "artist": "Symphonieorchester Des Bayerischen Rundfunks",
+          "limitation": "No full metadata selected or available; search hit only."
+        },
+        {
+          "album_id": "g745wd46p0wcc",
+          "title": "Brahms Symphony No. 4 in E Minor, Op. 98",
+          "artist": "Orquesta Sinfónica de la Radio Bávara",
+          "limitation": "No full metadata selected or available; search hit only."
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "originally_empty_releases": 10,
+    "fallback_queries": 20,
+    "releases_with_hits": 10,
+    "query_hit_count": 17,
+    "full_metadata_albums_selected": 8,
+    "selected_metadata_already_in_snapshot": 1,
+    "releases_with_programme_credit_lead": 3,
+    "releases_with_complete_programme_credit_lead": 0
+  },
+  "limitations": [
+    "Search hits are not accepted matches. Publication untouched.",
+    "Spotify ten-case cached album review has no track-level verification; see offline report.",
+    "Purposive/ID-stratified sample; no catalogue precision/recall estimate."
+  ],
+  "provenance": {
+    "matcher_version": "qobuz-work-groups-v1+reviewed-expansion-v2",
+    "evidence_sha256": "c38df992ab44bbc892ffacafa19d74cc1495d7579d3d6da670653204dca25e57",
+    "snapshot_metadata_completed_at": "2026-11-13T00:15:30.593902+00:00"
+  }
+}

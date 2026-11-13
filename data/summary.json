@@ -2,8 +2,9 @@
  "total": 741,
  "spotify": {
   "not_found": 210,
-  "found": 255,
-  "probable": 276
+  "found": 254,
+  "probable": 273,
+  "unchecked": 4
  },
  "qobuz": {
   "unchecked": 741
@@ -13,5 +14,5 @@
   "found_min_conf": 0.8,
   "probable_min_conf": 0.62
  },
- "generated": "2026-11-11T15:30:56+0100"
+ "generated": "2026-11-13T16:13:59+0100"
 }

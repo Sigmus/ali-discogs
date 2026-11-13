@@ -34,7 +34,7 @@
     pending: "Pending",
     unchecked: "Unchecked"
   };
-  const SORTS = ["composer", "artist", "title", "year", "label", "confidence", "performers", "spotify"];
+  const SORTS = ["composer", "artist", "title", "year", "label", "confidence", "performers", "spotify", "qobuz"];
   const THEME_KEY = "ali-discogs-theme";
   const LIST_KEYS = ["items", "releases", "matches", "collection", "results", "data", "records", "entries", "collection_matches", "albums"];
 
@@ -202,10 +202,21 @@
       confidence: confidenceOf(v.confidence ?? v.score ?? v.probability),
       album: albumOf(albumSource),
       best_candidate: best,
+      programme_review: v.programme_review && typeof v.programme_review === "object"
+        ? { status: text(v.programme_review.status), reason: text(v.programme_review.reason), limitation: text(v.programme_review.limitation) } : null,
       search_url: safeUrl(v.search_url || v.searchUrl || v.search),
       alternates: alternatesOf(v.alternates || v.alternatives || v.candidates || v.others || [])
         .filter(a => !best || !a.id || a.id !== best.id)
     };
+  }
+  function applyQobuz(items, reviews) {
+    return items.map(it => {
+      const review = reviews[String(it.discogs.id)] || null;
+      if (!review) return it;
+      return {...it, qobuzReview: review, qobuz: serviceOf({...review,
+        search_url: it.qobuz.search_url,
+        alternates: review.candidates.filter(a => !review.album || a.id !== review.album.id)})};
+    });
   }
   function discogsOf(entry) {
     let d = null;
@@ -386,6 +397,11 @@
         .filter(Boolean).join(" ") || it.discogs.artists.map(a => a.name).join(" ");
       c = strNullLast(credits(a), credits(b), dir);
     }
+    else if (state.sort === "qobuz") {
+      const rank = { found: 0, probable: 1, not_found: 2, pending: 3, unchecked: 4 };
+      c = (rank[a.qobuz.status] - rank[b.qobuz.status]) * dir ||
+        numNullLast(a.qobuz.confidence, b.qobuz.confidence, -dir);
+    }
     else if (state.sort === "spotify") {
       const rank = { found: 0, probable: 1, not_found: 2, pending: 3, unchecked: 4 };
       c = (rank[a.spotify.status] - rank[b.spotify.status]) * dir ||
@@ -418,7 +434,7 @@
   }
 
   function defaultState() {
-    return { q: "", sp: "", qb: "", genre: "", composer: "", label: "", decade: "", sort: "composer", dir: "asc" };
+    return { q: "", sp: "", qb: "", genre: "", composer: "", label: "", decade: "", sort: "year", dir: "asc" };
   }
 
   function boot() {
@@ -431,8 +447,9 @@
     const composer = $("composer");
     const label = $("label");
     const decade = $("decade");
-    const sort = $("sort");
+    const qb = $("qb");
     const reset = $("reset");
+    const frequency = $("frequency");
     const showing = $("showing");
     const shelf = $("shelf");
     const foot = $("foot");
@@ -450,12 +467,13 @@
       const next = defaultState();
       next.q = params.get("q") || "";
       next.sp = params.get("sp") || "";
+      next.qb = params.get("qb") || "";
       next.genre = params.get("genre") || "";
       next.composer = params.get("composer") || "";
       next.label = params.get("label") || "";
       next.decade = params.get("decade") || "";
-      const sortBy = params.get("sort") || "composer";
-      next.sort = SORTS.includes(sortBy) ? sortBy : "composer";
+      const sortBy = params.get("sort") || "year";
+      next.sort = SORTS.includes(sortBy) ? sortBy : "year";
       next.dir = params.get("dir") === "desc" ? "desc" : "asc";
       const statuses = ["", "found", "probable", "not_found", "pending", "unchecked"];
       if (!statuses.includes(next.sp)) next.sp = "";
@@ -471,7 +489,7 @@
       if (state.composer) params.set("composer", state.composer);
       if (state.label) params.set("label", state.label);
       if (state.decade) params.set("decade", state.decade);
-      if (state.sort !== "composer") params.set("sort", state.sort);
+      if (state.sort !== "year") params.set("sort", state.sort);
       if (state.dir === "desc") params.set("dir", "desc");
       const s = params.toString();
       const same = s ? location.hash === "#" + s : !location.hash;
@@ -479,26 +497,26 @@
       history.replaceState(null, "", s ? "#" + s : location.pathname + location.search);
     }
     function isDefault() {
-      return !state.q && !state.sp && !state.qb && !state.genre && !state.composer && !state.label && !state.decade && state.sort === "composer" && state.dir !== "desc";
+      return !state.q && !state.sp && !state.qb && !state.genre && !state.composer && !state.label && !state.decade && state.sort === "year" && state.dir !== "desc";
     }
     function syncControls() {
       q.value = state.q;
       sp.value = state.sp;
+      qb.value = state.qb;
       if ([...genre.options].some(o => o.value === state.genre)) genre.value = state.genre;
       if ([...composer.options].some(o => o.value === state.composer)) composer.value = state.composer;
       if ([...label.options].some(o => o.value === state.label)) label.value = state.label;
       if ([...decade.options].some(o => o.value === state.decade)) decade.value = state.decade;
-      sort.value = state.sort;
       reset.disabled = isDefault();
     }
     function readControls() {
       state.q = q.value;
       state.sp = sp.value;
+      state.qb = qb.value;
       state.genre = genre.value;
       state.composer = composer.value;
       state.label = label.value;
       state.decade = decade.value;
-      state.sort = SORTS.includes(sort.value) ? sort.value : "composer";
     }
     function commit() {
       writeHash();
@@ -562,13 +580,20 @@
         const key = it.discogs.year ? String(Math.floor(it.discogs.year / 10) * 10) : "undated";
         decades.set(key, (decades.get(key) || 0) + 1);
       });
-      const byName = (a, b) => cmpStr(a[0], b[0]);
-      genre.innerHTML = optionList([...genres.entries()].sort(byName), "Any");
-      composer.innerHTML = optionList([...composers.values()].map(row => [row.name, row.count]).sort(byName), "Any");
-      label.innerHTML = optionList([...labels.entries()].sort(byName), "Any");
+      const byName = (a, b) => cmpStr(a[2] || a[0], b[2] || b[0]);
+      const order = pairs => pairs.sort((a, b) =>
+        (frequency.checked ? b[1] - a[1] : 0) || byName(a, b));
+      const statuses = tally(items);
+      [[sp, statuses.spotify], [qb, statuses.qobuz]].forEach(([control, counts]) => {
+        control.innerHTML = optionList(order(Object.entries(counts).map(([key, count]) =>
+          [key, count, STATUS_LABEL[key]])), "All statuses");
+      });
+      genre.innerHTML = optionList(order([...genres.entries()]), "Any");
+      composer.innerHTML = optionList(order([...composers.values()].map(row => [row.name, row.count])), "Any");
+      label.innerHTML = optionList(order([...labels.entries()]), "Any");
       const decadeKeys = [...decades.keys()].filter(k => k !== "undated").sort();
       if (decades.has("undated")) decadeKeys.push("undated");
-      decade.innerHTML = optionList(decadeKeys.map(k => [k, decades.get(k), k === "undated" ? "Undated" : k + "s"]), "Any");
+      decade.innerHTML = optionList(order(decadeKeys.map(k => [k, decades.get(k), k === "undated" ? "Undated" : k + "s"])), "Any");
     }
 
     function addedLabel(iso) {
@@ -615,10 +640,13 @@
       return bits.slice(0, limit);
     }
     function serviceHtml(name, svc) {
-      const labelText = STATUS_LABEL[svc.status] || svc.status;
-      const conf = typeof svc.confidence === "number" ? `<span class="conf">${Math.round(svc.confidence * 100)}%</span>` : "";
       let body = "";
-      if (svc.status === "not_found") {
+      if (["confirmed_partial_programme", "confirmed_programme_mismatch"].includes(svc.programme_review?.status)) {
+        body = `<p class="match">${svc.programme_review.status === "confirmed_programme_mismatch" ? "Programme mismatch" : "Incomplete programme"}: ${esc(svc.programme_review.reason)}</p><p class="quiet">${esc(svc.programme_review.limitation)}</p>`;
+        if (svc.best_candidate) body += matchHtml(svc.best_candidate, `<span class="closest">Rejected programme match</span> `);
+      } else if (svc.programme_review?.status === "reviewed_programme_supported") {
+        body = matchHtml(svc.album, "") + `<p class="quiet">${esc(svc.programme_review.reason)}</p><p class="quiet">${esc(svc.programme_review.limitation)}</p>`;
+      } else if (svc.status === "not_found") {
         const guess = svc.best_candidate || svc.album;
         body = guess
           ? matchHtml(guess, `<span class="closest">Closest guess</span> `)
@@ -629,7 +657,7 @@
       const alts = svc.alternates.length
         ? `<details class="alts"><summary>${svc.alternates.length} other candidate${svc.alternates.length === 1 ? "" : "s"}</summary><ul>${svc.alternates.map(a => `<li>${matchHtml(a, "")}</li>`).join("")}</ul></details>`
         : "";
-      return `<div class="svc"><div class="svc-h"><span class="svc-name">${esc(name)}</span><span class="badge ${esc(svc.status)}">${esc(labelText)}</span>${conf}</div>${body}${alts}</div>`;
+      return `<div class="svc"><div class="svc-h"><span class="svc-name">${esc(name)}</span><span class="status ${esc(svc.status)}">${esc(statusText(svc))}</span></div>${body}${alts}</div>`;
     }
     function coverHtml(d, large = false) {
       const url = safeUrl(large ? d.cover_image || d.thumb : d.thumb || d.cover_image);
@@ -640,6 +668,21 @@
       params.set("album", it._route);
       return "#" + params.toString();
     }
+    function statusText(svc) {
+      return typeof svc.confidence === "number"
+        ? Math.round(svc.confidence * 100) + "% (" + (STATUS_LABEL[svc.status] || svc.status) + ")"
+        : STATUS_LABEL[svc.status] || svc.status;
+    }
+    function qobuzHtml(it) {
+      const review = it.qobuzReview;
+      if (!review) return serviceHtml("Qobuz", it.qobuz);
+      return `<section class="svc"><div class="svc-h"><span class="svc-name">Qobuz</span><span class="status ${esc(it.qobuz.status)}">${esc(statusText(it.qobuz))}</span></div>
+        <p class="quiet">${esc(review.reasons.join(" "))}</p>
+        <p class="quiet">Scores describe programme and credit evidence; they are not a calibrated probability or listening verification.</p>
+        <p class="quiet">Searched ${esc(addedLabel(review.searched_at))} · Query: ${esc(review.query)}</p>
+        <ul class="qobuz-candidates">${review.candidates.map(a => `<li>${safeUrl(a.image) ? `<img src="${esc(safeUrl(a.image))}" alt="" loading="lazy">` : ""}<div>${matchHtml({...a, confidence: null}, "")}<p class="quiet">${esc(statusText(a))} · ${a.covered}/${a.target_count} programme items supported</p><p class="quiet">${esc(a.reasons.join(" "))}</p><details><summary>Programme evidence</summary><ul>${a.programme.map(m => `<li>${esc(m.target)}: ${m.recording_group ? `${m.credited_tracks} tracks supported by recording-group credits` : m.credited_tracks ? "matching work and credits" : m.work_tracks ? "required credits not supported" : "work unresolved"}${m.inherited_title_context ? `; ${m.inherited_title_context.length} movement titles use the preceding work context` : ""}</li>`).join("")}</ul></details></div></li>`).join("")}</ul>
+        </section>`;
+    }
     function rowHtml(it) {
       const d = it.discogs, href = detailHash(it);
       return `<tr><td class="cover-cell"><a href="${esc(href)}" tabindex="-1" aria-hidden="true">${coverHtml(d)}</a></td>
@@ -647,7 +690,7 @@
         <td class="col-year">${d.year || "—"}</td>
         <td><span class="cell-text" title="${esc(d.composers.join(" · "))}">${esc(d.composers.join(" · ") || "—")}</span></td>
         <td class="col-artists"><span class="cell-text" title="${esc(supportLine(d, Infinity).join(" · "))}">${esc(supportLine(d, Infinity).join(" · ") || d.artists.map(a => a.name).join(" · "))}</span></td>
-        <td><span class="status ${esc(it.spotify.status)}">${typeof it.spotify.confidence === "number" ? Math.round(it.spotify.confidence * 100) + "% (" + esc(STATUS_LABEL[it.spotify.status]) + ")" : esc(STATUS_LABEL[it.spotify.status])}</span></td></tr>`;
+        <td><span class="status ${esc(it.spotify.status)}">${esc(statusText(it.spotify))}</span></td><td><span class="status ${esc(it.qobuz.status)}" title="Programme and performer evidence">${esc(statusText(it.qobuz))}</span></td></tr>`;
     }
     function renderDetail() {
       const params = new URLSearchParams(location.hash.slice(1));
@@ -671,6 +714,7 @@
         ${it._copies > 1 ? `<p class="copy">Copy added ${esc(addedLabel(d.date_added))}</p>` : ""}
         <div class="external-links">${safeUrl(d.url) ? `<a href="${esc(safeUrl(d.url))}" target="_blank" rel="noopener noreferrer">Discogs ↗</a>` : ""}${safeUrl(it.qobuz.search_url) ? `<a href="${esc(safeUrl(it.qobuz.search_url))}" target="_blank" rel="noopener noreferrer">Search Qobuz ↗</a>` : ""}</div></div></div>
         ${serviceHtml("Spotify", it.spotify)}
+        ${qobuzHtml(it)}
         <h2>Tracks <span class="quiet">${d.tracklist.length}</span></h2>
         ${d.tracklist.length ? `<ol class="track-list">${d.tracklist.map((t, i) => `<li><span class="track-number">${i + 1}</span><span>${esc(t)}</span></li>`).join("")}</ol>` : `<p class="quiet">No track list available.</p>`}
         </article>`;
@@ -701,7 +745,7 @@
         shelf.innerHTML = `<div class="empty"><p>${esc(emptyMessage())}</p><button type="button" data-clear>Clear filters</button></div>`;
         return;
       }
-      shelf.innerHTML = `<div class="table-wrap"><table class="album-table"><colgroup><col style="width:48px"><col class="col-album" style="width:30%"><col class="col-year" style="width:75px"><col class="col-composer" style="width:18%"><col class="col-artists"><col class="col-status" style="width:145px"></colgroup><thead><tr><th aria-label="Cover"></th>${headerHtml("Album", "title")}${headerHtml("Year", "year", "col-year")}${headerHtml("Composer", "composer")}${headerHtml("Artists", "performers", "col-artists")}${headerHtml("Spotify", "spotify")}</tr></thead><tbody>${rows.map(rowHtml).join("")}</tbody></table></div>`;
+      shelf.innerHTML = `<div class="table-wrap"><table class="album-table"><colgroup><col style="width:48px"><col class="col-album" style="width:26%"><col class="col-year" style="width:75px"><col class="col-composer" style="width:18%"><col class="col-artists"><col class="col-status" style="width:145px"><col style="width:125px"></colgroup><thead><tr><th aria-label="Cover"></th>${headerHtml("Album", "title")}${headerHtml("Year", "year", "col-year")}${headerHtml("Composer", "composer")}${headerHtml("Artists", "performers", "col-artists")}${headerHtml("Spotify", "spotify")}${headerHtml("Qobuz", "qobuz")}</tr></thead><tbody>${rows.map(rowHtml).join("")}</tbody></table></div>`;
     }
     function showNotice() {
       const waiting = items.length && items.every(it =>
@@ -728,8 +772,13 @@
       clearTimeout(timer);
       timer = setTimeout(fromForm, 80);
     });
-    [sp, genre, composer, label, decade, sort].forEach(el => el.addEventListener("change", fromForm));
+    [sp, qb, genre, composer, label, decade].forEach(el => el.addEventListener("change", fromForm));
     reset.addEventListener("click", clearFilters);
+    frequency.addEventListener("change", () => {
+      if (!ready) return;
+      fillFilters();
+      syncControls();
+    });
     shelf.addEventListener("click", e => {
       if (e.target.closest("[data-clear]")) clearFilters();
       const button = e.target.closest("button[data-sort]");
@@ -808,9 +857,15 @@
         if (!res.ok) throw new Error(res.status + " " + res.statusText);
         return res.json();
       })
-      .then(raw => {
+      .then(async raw => {
+        let reviews = {};
+        if (!sample) {
+          const response = await fetch("data/qobuz_matches.json");
+          if (response.ok) reviews = (await response.json()).releases || {};
+          else if (response.status !== 404) throw new Error("Couldn’t load Qobuz review evidence: " + response.status);
+        }
         const meta = metaOf(raw);
-        items = enrichAll(collectionFrom(raw));
+        items = enrichAll(applyQobuz(collectionFrom(raw), reviews));
         const occurrences = new Map();
         items.forEach((it, index) => {
           const id = String(it.discogs.id ?? "row-" + index);
@@ -843,5 +898,5 @@
       });
   }
 
-  return { collectionFrom, enrichAll, query, tally, metaOf, boot };
+  return { collectionFrom, enrichAll, query, tally, metaOf, applyQobuz, boot };
 });

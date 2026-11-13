@@ -1,0 +1,368 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-13",
+  "scope": "Pilot movement inventory; catalogue-level structure, not recording-session evidence.",
+  "works": [
+    {
+      "composer": "Ludwig van Beethoven",
+      "catalogue": [
+        "op",
+        "67",
+        ""
+      ],
+      "movements": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "source": "https://www.laphil.com/works/symphony-no-5-in-c-minor-op-67"
+    },
+    {
+      "composer": "Ludwig van Beethoven",
+      "catalogue": [
+        "op",
+        "58",
+        ""
+      ],
+      "movements": [
+        1,
+        2,
+        3
+      ],
+      "source": "https://www.laphil.com/works/piano-concerto-no-4-in-g-major-op-58"
+    },
+    {
+      "composer": "Ludwig van Beethoven",
+      "catalogue": [
+        "op",
+        "73",
+        ""
+      ],
+      "movements": [
+        1,
+        2,
+        3
+      ],
+      "source": "https://www.berliner-philharmoniker.de/en/programme-notes/ludwig-van-beethoven-concerto-for-piano-and-orchestra-in-e-flat-major-op-73/"
+    },
+    {
+      "composer": "Pyotr Ilyich Tchaikovsky",
+      "catalogue": [
+        "op",
+        "23",
+        ""
+      ],
+      "movements": [
+        1,
+        2,
+        3
+      ],
+      "source": "https://pac.uga.edu/wp-content/uploads/2024/05/Atlanta-Symphony-Orchestra-4.13.25-program-PDF.pdf#page=2"
+    },
+    {
+      "composer": "Ludwig van Beethoven",
+      "catalogue": [
+        "op",
+        "26",
+        ""
+      ],
+      "movements": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+      "source_note": "Opus mapping and individual movement files in corpus overview; Hentschel et al. (2024), doi:10.18061/emr.v18i1.8903. Only work/movement ordinal facts retained."
+    },
+    {
+      "composer": "Ludwig van Beethoven",
+      "catalogue": [
+        "op",
+        "31",
+        "1"
+      ],
+      "movements": [
+        1,
+        2,
+        3
+      ],
+      "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+      "source_note": "Opus mapping and individual movement files in corpus overview; Hentschel et al. (2024), doi:10.18061/emr.v18i1.8903. Only work/movement ordinal facts retained."
+    },
+    {
+      "composer": "Ludwig van Beethoven",
+      "catalogue": [
+        "op",
+        "10",
+        "2"
+      ],
+      "movements": [
+        1,
+        2,
+        3
+      ],
+      "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+      "source_note": "Opus mapping and individual movement files in corpus overview; Hentschel et al. (2024), doi:10.18061/emr.v18i1.8903. Only work/movement ordinal facts retained."
+    },
+    {
+      "composer": "Ludwig van Beethoven",
+      "catalogue": [
+        "op",
+        "57",
+        ""
+      ],
+      "movements": [
+        1,
+        2,
+        3
+      ],
+      "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+      "source_note": "Opus mapping and individual movement files in corpus overview; Hentschel et al. (2024), doi:10.18061/emr.v18i1.8903. Only work/movement ordinal facts retained."
+    },
+    {
+      "composer": "Ludwig van Beethoven",
+      "catalogue": [
+        "op",
+        "7",
+        ""
+      ],
+      "movements": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+      "source_note": "Opus mapping and individual movement files in corpus overview; Hentschel et al. (2024), doi:10.18061/emr.v18i1.8903. Only work/movement ordinal facts retained."
+    },
+    {
+      "composer": "Ludwig van Beethoven",
+      "catalogue": [
+        "op",
+        "2",
+        "2"
+      ],
+      "movements": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+      "source_note": "Opus mapping and individual movement files in corpus overview; Hentschel et al. (2024), doi:10.18061/emr.v18i1.8903. Only work/movement ordinal facts retained."
+    },
+    {
+      "composer": "Ludwig van Beethoven",
+      "catalogue": [
+        "op",
+        "27",
+        "2"
+      ],
+      "movements": [
+        1,
+        2,
+        3
+      ],
+      "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+      "source_note": "Opus mapping and individual movement files in corpus overview; Hentschel et al. (2024), doi:10.18061/emr.v18i1.8903. Only work/movement ordinal facts retained."
+    },
+    {
+      "composer": "Ludwig van Beethoven",
+      "catalogue": [
+        "op",
+        "27",
+        "1"
+      ],
+      "movements": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+      "source_note": "Opus mapping and individual movement files in corpus overview; Hentschel et al. (2024), doi:10.18061/emr.v18i1.8903. Only work/movement ordinal facts retained."
+    },
+    {
+      "composer": "Ludwig van Beethoven",
+      "catalogue": [
+        "op",
+        "13",
+        ""
+      ],
+      "movements": [
+        1,
+        2,
+        3
+      ],
+      "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+      "source_note": "Opus mapping and individual movement files in corpus overview; Hentschel et al. (2024), doi:10.18061/emr.v18i1.8903. Only work/movement ordinal facts retained."
+    },
+    {
+      "composer": "Ludwig van Beethoven",
+      "catalogue": [
+        "op",
+        "21",
+        ""
+      ],
+      "movements": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "source": "https://www.esm.rochester.edu/beethoven/symphony-no-1/"
+    },
+    {
+      "composer": "Ludwig van Beethoven",
+      "catalogue": [
+        "op",
+        "36",
+        ""
+      ],
+      "movements": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "source": "https://www.esm.rochester.edu/beethoven/symphony-no-2/"
+    },
+    {
+      "composer": "Ludwig van Beethoven",
+      "catalogue": [
+        "op",
+        "55",
+        ""
+      ],
+      "movements": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "source": "https://www.esm.rochester.edu/beethoven/symphony-no-3/"
+    },
+    {
+      "composer": "Ludwig van Beethoven",
+      "catalogue": [
+        "op",
+        "60",
+        ""
+      ],
+      "movements": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "source": "https://www.esm.rochester.edu/beethoven/symphony-no-4/"
+    },
+    {
+      "composer": "Ludwig van Beethoven",
+      "catalogue": [
+        "op",
+        "68",
+        ""
+      ],
+      "movements": [
+        1,
+        2,
+        3,
+        4,
+        5
+      ],
+      "source": "https://www.esm.rochester.edu/beethoven/symphony-no-6/"
+    },
+    {
+      "composer": "Ludwig van Beethoven",
+      "catalogue": [
+        "op",
+        "92",
+        ""
+      ],
+      "movements": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "source": "https://www.esm.rochester.edu/beethoven/symphony-no-7/"
+    },
+    {
+      "composer": "Ludwig van Beethoven",
+      "catalogue": [
+        "op",
+        "93",
+        ""
+      ],
+      "movements": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "source": "https://www.esm.rochester.edu/beethoven/symphony-no-8/"
+    },
+    {
+      "composer": "Ludwig van Beethoven",
+      "catalogue": [
+        "op",
+        "125",
+        ""
+      ],
+      "movements": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "source": "https://www.esm.rochester.edu/beethoven/symphony-no-9/"
+    },
+    {
+      "composer": "Wolfgang Amadeus Mozart",
+      "catalogue": [
+        "k",
+        "216",
+        ""
+      ],
+      "movements": [
+        1,
+        2,
+        3
+      ],
+      "source": "https://www.laphil.com/works/violin-concerto-no-3-k-216",
+      "source_note": "Programme explicitly describes the three-movement form for K.216 and K.219."
+    },
+    {
+      "composer": "Wolfgang Amadeus Mozart",
+      "catalogue": [
+        "k",
+        "219",
+        ""
+      ],
+      "movements": [
+        1,
+        2,
+        3
+      ],
+      "source": "https://www.laphil.com/works/violin-concerto-no-3-k-216",
+      "source_note": "Programme explicitly describes the three-movement form for K.216 and K.219."
+    },
+    {
+      "composer": "Sergei Rachmaninoff",
+      "catalogue": [
+        "op",
+        "18",
+        ""
+      ],
+      "movements": [
+        1,
+        2,
+        3
+      ],
+      "source": "https://www.rsno.org.uk/wp-content/uploads/2023/11/Rachmaninov-Piano-Concerto-No2-91011-Nov-2023.pdf#page=12"
+    }
+  ]
+}

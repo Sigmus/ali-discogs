@@ -19,6 +19,15 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v5
+      - uses: actions/setup-python@v6
+        with:
+          python-version: "3.12"
+      - uses: astral-sh/setup-uv@v10.3.3
+      - uses: actions/setup-node@v5
+        with:
+          node-version: "22"
+      - name: Validate before publishing
+        run: make test
       - name: Assemble explorer
         run: make build
       - uses: actions/upload-pages-artifact@v5

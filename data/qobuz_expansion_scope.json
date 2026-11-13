@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-13",
+  "review": "docs/plans/2026-11-13-qobuz-coverage-pilot.md",
+  "purpose": "Bounded reviewed candidate discovery scope, not score overrides. Recompute original credit and completeness checks on every generation.",
+  "releases": {
+    "890111": ["0002894776360"],
+    "1093216": ["0002894791000", "y7nd66idm247a"],
+    "1469965": ["0886445221237"],
+    "1517438": ["0002894779797"],
+    "1917259": ["0002894776360"],
+    "2127229": ["0002894779797"],
+    "3000698": ["0002894776360"],
+    "3275173": ["3610151639041"],
+    "3441146": ["0002894776360"],
+    "4382530": ["0002894190682"]
+  }
+}

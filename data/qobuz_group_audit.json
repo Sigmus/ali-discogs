@@ -1,0 +1,5632 @@
+{
+  "schema_version": 1,
+  "purpose": "Metadata evidence comparison; not recording-session validation or score overrides.",
+  "releases": [
+    {
+      "discogs_id": "890111",
+      "album_id": "0002894776360",
+      "title": "Klaviersonaten = Piano Sonatas »Trauermarsch« = »Funeral March« Op. 26 & Op. 31, No. 1",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Klaviersonate Nr. 12 As-Dur Op. 26",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            610562,
+            610571,
+            610580,
+            610589
+          ]
+        },
+        {
+          "target": "Klaviersonate Nr. 16 G-Dur Op. 31 Nr. 1",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            610528,
+            610537,
+            610546
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Klaviersonate Nr. 12 As-Dur Op. 26",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            610562,
+            610571,
+            610580,
+            610589
+          ]
+        },
+        {
+          "target": "Klaviersonate Nr. 16 G-Dur Op. 31 Nr. 1",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            610528,
+            610537,
+            610546
+          ]
+        }
+      ],
+      "legacy_completeness": "complete",
+      "current_completeness": "complete",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "1026299",
+      "album_id": "0002894802866",
+      "title": "Violinkonzerte = Violin Concertos (No.3 G-dur = G Major KV 216 · No.5 A-dur = A Major KV 219)",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Konzert Für Violine Und Orchester Nr. 3 G-dur KV 216",
+          "work_tracks": 3,
+          "credited_tracks": 1,
+          "track_ids": [
+            13277660
+          ]
+        },
+        {
+          "target": "Konzert Für Violine Und Orchester Nr. 5 A-dur KV 219",
+          "work_tracks": 3,
+          "credited_tracks": 1,
+          "track_ids": [
+            13277671
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Konzert Für Violine Und Orchester Nr. 3 G-dur KV 216",
+          "work_tracks": 3,
+          "credited_tracks": 1,
+          "track_ids": [
+            13277660
+          ]
+        },
+        {
+          "target": "Konzert Für Violine Und Orchester Nr. 5 A-dur KV 219",
+          "work_tracks": 3,
+          "credited_tracks": 1,
+          "track_ids": [
+            13277671
+          ]
+        }
+      ],
+      "legacy_completeness": "incomplete",
+      "current_completeness": "incomplete",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "1093216",
+      "album_id": "0002894791000",
+      "title": "Symphonie Nr. 5",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Symphonie Nr. 5 C-moll Op. 67",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            8505054,
+            8505056,
+            8505058,
+            8505060
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Symphonie Nr. 5 C-moll Op. 67",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            8505054,
+            8505056,
+            8505058,
+            8505060
+          ]
+        }
+      ],
+      "legacy_completeness": "complete",
+      "current_completeness": "complete",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "1445439",
+      "album_id": "0886445075762",
+      "title": "Glenn Gould Plays Music Of William Byrd And Orlando Gibbons",
+      "legacy_status": "found",
+      "current_status": "found",
+      "legacy_programme": [
+        {
+          "target": "First Pavan And Galliard",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            26889979
+          ]
+        },
+        {
+          "target": "Fantasy In C Major",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            26889980
+          ]
+        },
+        {
+          "target": "Allemande (Italian Ground)",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            26889981
+          ]
+        },
+        {
+          "target": "Hughe Ashton's Ground",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            26889982
+          ]
+        },
+        {
+          "target": "Sixth Pavan And Galliard",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            26889983
+          ]
+        },
+        {
+          "target": "\"Lord Of Salisbury\" Pavan And Galliard",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            26889984
+          ]
+        },
+        {
+          "target": "A Voluntary",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            26889985
+          ]
+        },
+        {
+          "target": "Sellinger's Round",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            26889986
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "First Pavan And Galliard",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            26889979
+          ]
+        },
+        {
+          "target": "Fantasy In C Major",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            26889980
+          ]
+        },
+        {
+          "target": "Allemande (Italian Ground)",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            26889981
+          ]
+        },
+        {
+          "target": "Hughe Ashton's Ground",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            26889982
+          ]
+        },
+        {
+          "target": "Sixth Pavan And Galliard",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            26889983
+          ]
+        },
+        {
+          "target": "\"Lord Of Salisbury\" Pavan And Galliard",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            26889984
+          ]
+        },
+        {
+          "target": "A Voluntary",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            26889985
+          ]
+        },
+        {
+          "target": "Sellinger's Round",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            26889986
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "1469965",
+      "album_id": "0886445221237",
+      "title": "Piano Transcriptions Of Orchestral Showpieces",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Meistersinger Prelude",
+          "work_tracks": 25,
+          "credited_tracks": 1,
+          "track_ids": [
+            26897976
+          ]
+        },
+        {
+          "target": "Dawn And Siegfried's Rhine Journey, From \"Götterdämmerung\"",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            26897977
+          ]
+        },
+        {
+          "target": "Siegfried Idyll",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            26897978
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Meistersinger Prelude",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            26897976
+          ]
+        },
+        {
+          "target": "Dawn And Siegfried's Rhine Journey, From \"Götterdämmerung\"",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            26897977
+          ]
+        },
+        {
+          "target": "Siegfried Idyll",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            26897978
+          ]
+        }
+      ],
+      "legacy_completeness": "complete",
+      "current_completeness": "complete",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "1477603",
+      "album_id": "ruik94uhdr4bc",
+      "title": "Back To Back (Duke Ellington And Johnny Hodges Play The Blues)",
+      "legacy_status": "found",
+      "current_status": "found",
+      "legacy_programme": [
+        {
+          "target": "Wabash Blues",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            54378498
+          ]
+        },
+        {
+          "target": "Basin Street Blues",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            54378499
+          ]
+        },
+        {
+          "target": "Beale Street Blues",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            54378500
+          ]
+        },
+        {
+          "target": "Weary Blues",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            54378501
+          ]
+        },
+        {
+          "target": "St Louis Blues",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            54378502
+          ]
+        },
+        {
+          "target": "Loveless Love",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            54378503
+          ]
+        },
+        {
+          "target": "Royal Garden Blues",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            54378504
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Wabash Blues",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            54378498
+          ]
+        },
+        {
+          "target": "Basin Street Blues",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            54378499
+          ]
+        },
+        {
+          "target": "Beale Street Blues",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            54378500
+          ]
+        },
+        {
+          "target": "Weary Blues",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            54378501
+          ]
+        },
+        {
+          "target": "St Louis Blues",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            54378502
+          ]
+        },
+        {
+          "target": "Loveless Love",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            54378503
+          ]
+        },
+        {
+          "target": "Royal Garden Blues",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            54378504
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "1517438",
+      "album_id": "0002894779797",
+      "title": "Klavierkonzert = Piano Concerto No.4",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Konzert Für Klavier Und Orchester Nr. 4 G-dur Op. 58",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            5493242,
+            5493243,
+            5493244
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Konzert Für Klavier Und Orchester Nr. 4 G-dur Op. 58",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            5493242,
+            5493243,
+            5493244
+          ]
+        }
+      ],
+      "legacy_completeness": "complete",
+      "current_completeness": "complete",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "1607240",
+      "album_id": "0002894563392",
+      "title": "12 Etudes D'Exécution Transcendante / 3 Etudes De Concert",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "12 Etudes D'Exécution Transcendante",
+          "work_tracks": 12,
+          "credited_tracks": 12,
+          "track_ids": [
+            4159372,
+            4159373,
+            4159374,
+            4159375,
+            4159376,
+            4159377,
+            4159378,
+            4159379,
+            4159380,
+            4159381,
+            4159382,
+            4159383
+          ]
+        },
+        {
+          "target": "3 Etudes De Concert",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            4159384,
+            4159385,
+            4159386
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "12 Etudes D'Exécution Transcendante",
+          "work_tracks": 12,
+          "credited_tracks": 12,
+          "track_ids": [
+            4159372,
+            4159373,
+            4159374,
+            4159375,
+            4159376,
+            4159377,
+            4159378,
+            4159379,
+            4159380,
+            4159381,
+            4159382,
+            4159383
+          ]
+        },
+        {
+          "target": "3 Etudes De Concert",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            4159384,
+            4159385,
+            4159386
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "1855288",
+      "album_id": "zccb3oe0za3sb",
+      "title": "Piano Concerto No. 1 / Piano Concerto No. 2",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Piano Concerto No. 1 In E Flat Major",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            156908736,
+            156908737,
+            156908738,
+            156908739
+          ]
+        },
+        {
+          "target": "Piano Concerto No. 2 In A Major",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            156908740,
+            156908741,
+            156908742,
+            156908743
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Piano Concerto No. 1 In E Flat Major",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            156908736,
+            156908737,
+            156908738,
+            156908739
+          ]
+        },
+        {
+          "target": "Piano Concerto No. 2 In A Major",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            156908740,
+            156908741,
+            156908742,
+            156908743
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "1917259",
+      "album_id": "0002894776360",
+      "title": "Appassionata Op. 57 / Sonate Op. 10 Nr. 2",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Klaviersonate Nr. 6 F-dur Op. 10 Nr. 2",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            610552,
+            610561,
+            610570
+          ]
+        },
+        {
+          "target": "Klaviersonate Nr. 23 F-moll Op. 57 »Appassionata«",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            610592,
+            610601,
+            610609
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Klaviersonate Nr. 6 F-dur Op. 10 Nr. 2",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            610552,
+            610561,
+            610570
+          ]
+        },
+        {
+          "target": "Klaviersonate Nr. 23 F-moll Op. 57 »Appassionata«",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            610592,
+            610601,
+            610609
+          ]
+        }
+      ],
+      "legacy_completeness": "complete",
+      "current_completeness": "complete",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "2127229",
+      "album_id": "0002894779797",
+      "title": "Klavierkonzert Nr. 5 · \"Emperor\" Concerto",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Konzert Für Klavier Und Orchester Nr. 5 Es-dur Op. 73 = Concerto For Piano And Orchestra No. 5 In E Flat Major, Op. 73",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            5493246,
+            5493247,
+            5493248
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Konzert Für Klavier Und Orchester Nr. 5 Es-dur Op. 73 = Concerto For Piano And Orchestra No. 5 In E Flat Major, Op. 73",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            5493246,
+            5493247,
+            5493248
+          ]
+        }
+      ],
+      "legacy_completeness": "complete",
+      "current_completeness": "complete",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "2151729",
+      "album_id": "mgqf8a52y6hxb",
+      "title": "Concerto In D, Op. 35",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Concerto For Violin In D Major, Op. 35",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            230234709,
+            230234710,
+            230234711
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Concerto For Violin In D Major, Op. 35",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            230234709,
+            230234710,
+            230234711
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "2207158",
+      "album_id": "0090266304523",
+      "title": "The Chopin Ballades",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Ballade No. 1 In G Minor, Op. 23",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            206455
+          ]
+        },
+        {
+          "target": "Ballade No. 2 In F, Op. 38",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            206456
+          ]
+        },
+        {
+          "target": "Ballade No. 3 In A-Flat, Op. 47",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            206457
+          ]
+        },
+        {
+          "target": "Ballade No. 4 In F Minor, Op. 52",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            206458
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Ballade No. 1 In G Minor, Op. 23",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            206455
+          ]
+        },
+        {
+          "target": "Ballade No. 2 In F, Op. 38",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            206456
+          ]
+        },
+        {
+          "target": "Ballade No. 3 In A-Flat, Op. 47",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            206457
+          ]
+        },
+        {
+          "target": "Ballade No. 4 In F Minor, Op. 52",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            206458
+          ]
+        }
+      ],
+      "legacy_completeness": "complete",
+      "current_completeness": "complete",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "2208689",
+      "album_id": "leoqsekgfg7gb",
+      "title": "Concerto No. 1",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Piano Concerto No. 1, In B-Flat Minor Op. 23",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            232211763,
+            232211764,
+            232211765
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Piano Concerto No. 1, In B-Flat Minor Op. 23",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            232211763,
+            232211764,
+            232211765
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "2218786",
+      "album_id": "3610152352321",
+      "title": "Piano Concerto",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Piano Concerto In A Minor, Op. 54",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            9906434,
+            9906436,
+            9906437
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Piano Concerto In A Minor, Op. 54",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            9906434,
+            9906436,
+            9906437
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "2279849",
+      "album_id": "0886446202600",
+      "title": "Les Ballades",
+      "legacy_status": "found",
+      "current_status": "found",
+      "legacy_programme": [
+        {
+          "target": "Ballade N° 1 - En Sol Mineur, Op. 23",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            44580390
+          ]
+        },
+        {
+          "target": "Ballade N° 2 - En Fa, Op. 38",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            44580391
+          ]
+        },
+        {
+          "target": "Ballade N° 3 - En La Bémol, Op. 47",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            44580392
+          ]
+        },
+        {
+          "target": "Ballade N° 4 - En Fa Mineur, Op. 52",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            44580393
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Ballade N° 1 - En Sol Mineur, Op. 23",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            44580390
+          ]
+        },
+        {
+          "target": "Ballade N° 2 - En Fa, Op. 38",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            44580391
+          ]
+        },
+        {
+          "target": "Ballade N° 3 - En La Bémol, Op. 47",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            44580392
+          ]
+        },
+        {
+          "target": "Ballade N° 4 - En Fa Mineur, Op. 52",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            44580393
+          ]
+        }
+      ],
+      "legacy_completeness": "complete",
+      "current_completeness": "complete",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "2559625",
+      "album_id": "0002894808892",
+      "title": "Symphonie Fantastique",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Symphonie Fantastique, Op. 14 - Episode De La Vie D'un Artiste",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            23860708
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Symphonie Fantastique, Op. 14 - Episode De La Vie D'un Artiste",
+          "work_tracks": 5,
+          "credited_tracks": 5,
+          "track_ids": [
+            23860708,
+            23860710,
+            23860712,
+            23860714,
+            23860716
+          ],
+          "inherited_title_context": [
+            {
+              "track_id": 23860710,
+              "parent_track_id": 23860708
+            },
+            {
+              "track_id": 23860712,
+              "parent_track_id": 23860708
+            },
+            {
+              "track_id": 23860714,
+              "parent_track_id": 23860708
+            },
+            {
+              "track_id": 23860716,
+              "parent_track_id": 23860708
+            }
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "2799449",
+      "album_id": "b1rn6n99bwtyc",
+      "title": "Sings The Blues",
+      "legacy_status": "found",
+      "current_status": "found",
+      "legacy_programme": [
+        {
+          "target": "I Gotta Right To Sing The Blues",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            50962859
+          ]
+        },
+        {
+          "target": "Basin Street Blues",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            50962860
+          ]
+        },
+        {
+          "target": "St. Louis Blues",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            50962861
+          ]
+        },
+        {
+          "target": "The Blues Are Brewin'",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            50962862
+          ]
+        },
+        {
+          "target": "Rockin' Chair",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            50962863
+          ]
+        },
+        {
+          "target": "Where The Blues Were Born In New Orleans",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            50962864
+          ]
+        },
+        {
+          "target": "Blues For Yesterday",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            50962865
+          ]
+        },
+        {
+          "target": "Jack-Armstrong Blues",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            50962866
+          ]
+        },
+        {
+          "target": "Blues In The South",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            50962867
+          ]
+        },
+        {
+          "target": "Back O'town Blues",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            50962868
+          ]
+        },
+        {
+          "target": "Fifty-Fifty Blues",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            50962869
+          ]
+        },
+        {
+          "target": "Do You Know What It Means To Miss New Orleans ?",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            50962870
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "I Gotta Right To Sing The Blues",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            50962859
+          ]
+        },
+        {
+          "target": "Basin Street Blues",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            50962860
+          ]
+        },
+        {
+          "target": "St. Louis Blues",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            50962861
+          ]
+        },
+        {
+          "target": "The Blues Are Brewin'",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            50962862
+          ]
+        },
+        {
+          "target": "Rockin' Chair",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            50962863
+          ]
+        },
+        {
+          "target": "Where The Blues Were Born In New Orleans",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            50962864
+          ]
+        },
+        {
+          "target": "Blues For Yesterday",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            50962865
+          ]
+        },
+        {
+          "target": "Jack-Armstrong Blues",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            50962866
+          ]
+        },
+        {
+          "target": "Blues In The South",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            50962867
+          ]
+        },
+        {
+          "target": "Back O'town Blues",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            50962868
+          ]
+        },
+        {
+          "target": "Fifty-Fifty Blues",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            50962869
+          ]
+        },
+        {
+          "target": "Do You Know What It Means To Miss New Orleans ?",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            50962870
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "2939272",
+      "album_id": "0886446473093",
+      "title": "Sketches Of Spain",
+      "legacy_status": "found",
+      "current_status": "found",
+      "legacy_programme": [
+        {
+          "target": "Concierto De Aranjuez",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            40048098
+          ]
+        },
+        {
+          "target": "Will O' The Wisp (From \"El Amor Brujo\")",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            40048099
+          ]
+        },
+        {
+          "target": "The Pan Piper",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            40048100
+          ]
+        },
+        {
+          "target": "Saeta",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            40048101
+          ]
+        },
+        {
+          "target": "Solea",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            40048102
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Concierto De Aranjuez",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            40048098
+          ]
+        },
+        {
+          "target": "Will O' The Wisp (From \"El Amor Brujo\")",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            40048099
+          ]
+        },
+        {
+          "target": "The Pan Piper",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            40048100
+          ]
+        },
+        {
+          "target": "Saeta",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            40048101
+          ]
+        },
+        {
+          "target": "Solea",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            40048102
+          ]
+        }
+      ],
+      "legacy_completeness": "complete",
+      "current_completeness": "complete",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "2949124",
+      "album_id": "0002894779079",
+      "title": "Sonate No.3 / Polonaises Nos. 3 · 4 · 6",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Klaviersonate Nr. 3 h-moll Op. 58",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            2201170,
+            2201171,
+            2201172,
+            2201173
+          ]
+        },
+        {
+          "target": "Polonaise Nr. 3 A-dur Op. 40 Nr. 1 (Polonaise Militaire)",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            2201174
+          ]
+        },
+        {
+          "target": "Polonaise Nr. 4 c-moll Op. 40 Nr. 2",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            2201175
+          ]
+        },
+        {
+          "target": "Polonaise Nr. 6 As-dur Op. 53 (Polonaise Héroique)",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            2201176
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Klaviersonate Nr. 3 h-moll Op. 58",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            2201170,
+            2201171,
+            2201172,
+            2201173
+          ]
+        },
+        {
+          "target": "Polonaise Nr. 3 A-dur Op. 40 Nr. 1 (Polonaise Militaire)",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            2201174
+          ]
+        },
+        {
+          "target": "Polonaise Nr. 4 c-moll Op. 40 Nr. 2",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            2201175
+          ]
+        },
+        {
+          "target": "Polonaise Nr. 6 As-dur Op. 53 (Polonaise Héroique)",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            2201176
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "2955185",
+      "album_id": "0002894794461",
+      "title": "L'Oiseau De Feu - Le Chant Du Rossignol",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "L'Oiseau De Feu",
+          "work_tracks": 6,
+          "credited_tracks": 6,
+          "track_ids": [
+            21732469,
+            21732471,
+            21732473,
+            21732475,
+            21732477,
+            21732479
+          ]
+        },
+        {
+          "target": "Le Chant Du Rossignol",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            21732481,
+            21732483,
+            21732485,
+            21732487
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "L'Oiseau De Feu",
+          "work_tracks": 6,
+          "credited_tracks": 6,
+          "track_ids": [
+            21732469,
+            21732471,
+            21732473,
+            21732475,
+            21732477,
+            21732479
+          ]
+        },
+        {
+          "target": "Le Chant Du Rossignol",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            21732481,
+            21732483,
+            21732485,
+            21732487
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "3000698",
+      "album_id": "0002894776360",
+      "title": "Klaviersonaten Nos. 2 & 4 • Piano Sonatas • Sonates Pour Piano",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Klaviersonate Nr. 4 Es-dur Op. 7",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            610524,
+            610533,
+            610542,
+            610551
+          ]
+        },
+        {
+          "target": "Klaviersonate Nr. 2 A-dur Op. 2 Nr. 2",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            610523,
+            610532,
+            610541,
+            610550
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Klaviersonate Nr. 4 Es-dur Op. 7",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            610524,
+            610533,
+            610542,
+            610551
+          ]
+        },
+        {
+          "target": "Klaviersonate Nr. 2 A-dur Op. 2 Nr. 2",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            610523,
+            610532,
+            610541,
+            610550
+          ]
+        }
+      ],
+      "legacy_completeness": "complete",
+      "current_completeness": "complete",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "3097437",
+      "album_id": "3610154893341",
+      "title": "Concerto No. 1",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Concerto No. 1",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            14398744,
+            14398746,
+            14398748
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Concerto No. 1",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            14398744,
+            14398746,
+            14398748
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "3154926",
+      "album_id": "0002894832587",
+      "title": "Piano Concerto No. 2",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Piano Concerto No. 2 In B Flat Op. 83",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            42846094,
+            42846095,
+            42846096,
+            42846097
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Piano Concerto No. 2 In B Flat Op. 83",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            42846094,
+            42846095,
+            42846096,
+            42846097
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "3275173",
+      "album_id": "3610151639041",
+      "title": "Concerto No. 2 In C Minor, Op. 18",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Concerto No. 2 In C Minor, Op. 18",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            11740816,
+            11740817,
+            11740818
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Concerto No. 2 In C Minor, Op. 18",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            11740816,
+            11740817,
+            11740818
+          ]
+        }
+      ],
+      "legacy_completeness": "complete",
+      "current_completeness": "complete",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "3417675",
+      "album_id": "oi4uagzp5hqkc",
+      "title": "Cello Concerto",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Cello Concerto In B Minor, Op. 104",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            121999866,
+            121999867,
+            121999868
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Cello Concerto In B Minor, Op. 104",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            121999866,
+            121999867,
+            121999868
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "3441146",
+      "album_id": "0002894776360",
+      "title": "Sonaten - »Pathétique«·»Mondschein/Moonlight«",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Klaviersonate Nr. 14 cis-moll Op. 27 Nr. 2 »Mondschein-Sonate«",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            610563,
+            610572,
+            610581
+          ]
+        },
+        {
+          "target": "Klaviersonate Nr. 13 Es-dur Op. 27 Nr. 1 (Sonata Quasi Una Fantasia)",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            610527,
+            610536,
+            610545,
+            610554
+          ]
+        },
+        {
+          "target": "Klaviersonate Nr. 8 c-moll Op. 13 »Pathétique«",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            610560,
+            610569,
+            610578
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Klaviersonate Nr. 14 cis-moll Op. 27 Nr. 2 »Mondschein-Sonate«",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            610563,
+            610572,
+            610581
+          ]
+        },
+        {
+          "target": "Klaviersonate Nr. 13 Es-dur Op. 27 Nr. 1 (Sonata Quasi Una Fantasia)",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            610527,
+            610536,
+            610545,
+            610554
+          ]
+        },
+        {
+          "target": "Klaviersonate Nr. 8 c-moll Op. 13 »Pathétique«",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            610560,
+            610569,
+            610578
+          ]
+        }
+      ],
+      "legacy_completeness": "complete",
+      "current_completeness": "complete",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "3507687",
+      "album_id": "i8f1uit51uojb",
+      "title": "Symphonie No. 4",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Symphony No. 4, E-moll Op. 98",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            154456969,
+            154456970,
+            154456971,
+            154456972
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Symphony No. 4, E-moll Op. 98",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            154456969,
+            154456970,
+            154456971,
+            154456972
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "3622476",
+      "album_id": "oi4uagzp5hqkc",
+      "title": "Dvořák Cello Concerto",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Cello Concerto In B Minor, Op. 104",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            121999866,
+            121999867,
+            121999868
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Cello Concerto In B Minor, Op. 104",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            121999866,
+            121999867,
+            121999868
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "3759065",
+      "album_id": "0060254707654",
+      "title": "The Köln Concert",
+      "legacy_status": "found",
+      "current_status": "found",
+      "legacy_programme": [
+        {
+          "target": "KÖLN, January 24, 1975 Part I",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            24044959
+          ]
+        },
+        {
+          "target": "KÖLN, January 24, 1975 Part II a",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            24044960
+          ]
+        },
+        {
+          "target": "KÖLN, January 24, 1975 Part II b",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            24044961
+          ]
+        },
+        {
+          "target": "KÖLN, January 24, 1975 Part II c",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            24044962
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "KÖLN, January 24, 1975 Part I",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            24044959
+          ]
+        },
+        {
+          "target": "KÖLN, January 24, 1975 Part II a",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            24044960
+          ]
+        },
+        {
+          "target": "KÖLN, January 24, 1975 Part II b",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            24044961
+          ]
+        },
+        {
+          "target": "KÖLN, January 24, 1975 Part II c",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            24044962
+          ]
+        }
+      ],
+      "legacy_completeness": "complete",
+      "current_completeness": "complete",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "3773687",
+      "album_id": "yb43sv5bu0gpc",
+      "title": "Symphonie Fantastique",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Symphonie Fantastique Op. 14 - Épisode De La Vie D'un Artiste",
+          "work_tracks": 5,
+          "credited_tracks": 5,
+          "track_ids": [
+            53822972,
+            53822973,
+            53822974,
+            53822975,
+            53822976
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Symphonie Fantastique Op. 14 - Épisode De La Vie D'un Artiste",
+          "work_tracks": 5,
+          "credited_tracks": 5,
+          "track_ids": [
+            53822972,
+            53822973,
+            53822974,
+            53822975,
+            53822976
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "3958148",
+      "album_id": "0002894742692",
+      "title": "Peer Gynt Suites 1 & 2 / Pelléas Et Mélisande",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Peer Gynt Suite Nr. 1 Op. 46",
+          "work_tracks": 13,
+          "credited_tracks": 13,
+          "track_ids": [
+            580986,
+            580988,
+            580990,
+            580992,
+            580993,
+            580995,
+            580997,
+            580999,
+            581001,
+            581003,
+            581005,
+            581007,
+            581009
+          ]
+        },
+        {
+          "target": "Peer Gynt Suite Nr. 2 Op. 55",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            580994,
+            580996,
+            580998,
+            581000
+          ]
+        },
+        {
+          "target": "Pelléas Et Mélisande Op. 46",
+          "work_tracks": 13,
+          "credited_tracks": 13,
+          "track_ids": [
+            580986,
+            580988,
+            580990,
+            580992,
+            580993,
+            580995,
+            580997,
+            580999,
+            581001,
+            581003,
+            581005,
+            581007,
+            581009
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Peer Gynt Suite Nr. 1 Op. 46",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            580986,
+            580988,
+            580990,
+            580992
+          ]
+        },
+        {
+          "target": "Peer Gynt Suite Nr. 2 Op. 55",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            580994,
+            580996,
+            580998,
+            581000
+          ]
+        },
+        {
+          "target": "Pelléas Et Mélisande Op. 46",
+          "work_tracks": 9,
+          "credited_tracks": 9,
+          "track_ids": [
+            580993,
+            580995,
+            580997,
+            580999,
+            581001,
+            581003,
+            581005,
+            581007,
+            581009
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "4197603",
+      "album_id": "uvrr478stdc0b",
+      "title": "Requiem Mass In C Minor",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Requiem Mass In C Minor",
+          "work_tracks": 2,
+          "credited_tracks": 2,
+          "track_ids": [
+            71017465,
+            71017466
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Requiem Mass In C Minor",
+          "work_tracks": 2,
+          "credited_tracks": 2,
+          "track_ids": [
+            71017465,
+            71017466
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "4226783",
+      "album_id": "md0knh1wh02pb",
+      "title": "Violin Concerto",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Concerto In D, Op. 77",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            230884877,
+            230884878,
+            230884879
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Concerto In D, Op. 77",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            230884877,
+            230884878,
+            230884879
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "4305503",
+      "album_id": "iqzrrgn83zkma",
+      "title": "Mein Herze Schwimmt Im Blut / Jauchzet Gott In Allen Landen",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Mein Herze Schwimmt Im Blut BWV 199",
+          "work_tracks": 8,
+          "credited_tracks": 8,
+          "track_ids": [
+            203194921,
+            203194922,
+            203194923,
+            203194924,
+            203194925,
+            203194926,
+            203194927,
+            203194928
+          ]
+        },
+        {
+          "target": "Jauchzet Gott In Allen LAnden BWV 51",
+          "work_tracks": 5,
+          "credited_tracks": 5,
+          "track_ids": [
+            203194929,
+            203194930,
+            203194931,
+            203194932,
+            203194933
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Mein Herze Schwimmt Im Blut BWV 199",
+          "work_tracks": 8,
+          "credited_tracks": 8,
+          "track_ids": [
+            203194921,
+            203194922,
+            203194923,
+            203194924,
+            203194925,
+            203194926,
+            203194927,
+            203194928
+          ]
+        },
+        {
+          "target": "Jauchzet Gott In Allen LAnden BWV 51",
+          "work_tracks": 5,
+          "credited_tracks": 5,
+          "track_ids": [
+            203194929,
+            203194930,
+            203194931,
+            203194932,
+            203194933
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "4382530",
+      "album_id": "0002894190682",
+      "title": "Klavierkonzert Nr. 1 B-Moll",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Konzert Für Klavier Und Orchester Nr. 1 B-Moll Op. 23",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            520033,
+            520034,
+            520035
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Konzert Für Klavier Und Orchester Nr. 1 B-Moll Op. 23",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            520033,
+            520034,
+            520035
+          ]
+        }
+      ],
+      "legacy_completeness": "complete",
+      "current_completeness": "complete",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "4478666",
+      "album_id": "mtcwbakayclea",
+      "title": "Disney Songs The Satchmo Way",
+      "legacy_status": "found",
+      "current_status": "found",
+      "legacy_programme": [
+        {
+          "target": "Bibbidi-Bobbidi-Boo",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            54548786
+          ]
+        },
+        {
+          "target": "'Bout Time",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            54548787
+          ]
+        },
+        {
+          "target": "The Ballad Of Davy Crockett",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            54548788
+          ]
+        },
+        {
+          "target": "The Bare Necessities",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            54548789
+          ]
+        },
+        {
+          "target": "Zip-A-Dee-Doo-Dah",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            54548781
+          ]
+        },
+        {
+          "target": "When You Wish Upon A Star",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            54548790
+          ]
+        },
+        {
+          "target": "Whistle While You Work",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            54548784
+          ]
+        },
+        {
+          "target": "Ten Feet Off The Ground",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            54548782
+          ]
+        },
+        {
+          "target": "Heigh Ho",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            54548783
+          ]
+        },
+        {
+          "target": "Chim Chim Cheree",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            54548785
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Bibbidi-Bobbidi-Boo",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            54548786
+          ]
+        },
+        {
+          "target": "'Bout Time",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            54548787
+          ]
+        },
+        {
+          "target": "The Ballad Of Davy Crockett",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            54548788
+          ]
+        },
+        {
+          "target": "The Bare Necessities",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            54548789
+          ]
+        },
+        {
+          "target": "Zip-A-Dee-Doo-Dah",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            54548781
+          ]
+        },
+        {
+          "target": "When You Wish Upon A Star",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            54548790
+          ]
+        },
+        {
+          "target": "Whistle While You Work",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            54548784
+          ]
+        },
+        {
+          "target": "Ten Feet Off The Ground",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            54548782
+          ]
+        },
+        {
+          "target": "Heigh Ho",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            54548783
+          ]
+        },
+        {
+          "target": "Chim Chim Cheree",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            54548785
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "4540319",
+      "album_id": "0002894786633",
+      "title": "Symphony No.5 / Hussite Overture",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Symphony No. 5 In F Major, Op.76 B54",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            14495000,
+            14495004,
+            14495008,
+            14495013
+          ]
+        },
+        {
+          "target": "Hussite Overture, Op. 67",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            14495070
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Symphony No. 5 In F Major, Op.76 B54",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            14495000,
+            14495004,
+            14495008,
+            14495013
+          ]
+        },
+        {
+          "target": "Hussite Overture, Op. 67",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            14495070
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "4685996",
+      "album_id": "0724356792852",
+      "title": "Winterreise",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Winterreise, Op. 89",
+          "work_tracks": 24,
+          "credited_tracks": 23,
+          "track_ids": [
+            1037502,
+            1037503,
+            1037504,
+            1037505,
+            1037507,
+            1037508,
+            1037509,
+            1037510,
+            1037511,
+            1037512,
+            1037513,
+            1037514,
+            1037515,
+            1037516,
+            1037517,
+            1037518,
+            1037519,
+            1037520,
+            1037521,
+            1037522,
+            1037523,
+            1037524,
+            1037525
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Winterreise, Op. 89",
+          "work_tracks": 24,
+          "credited_tracks": 24,
+          "track_ids": [
+            1037502,
+            1037503,
+            1037504,
+            1037505,
+            1037506,
+            1037507,
+            1037508,
+            1037509,
+            1037510,
+            1037511,
+            1037512,
+            1037513,
+            1037514,
+            1037515,
+            1037516,
+            1037517,
+            1037518,
+            1037519,
+            1037520,
+            1037521,
+            1037522,
+            1037523,
+            1037524,
+            1037525
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "4719816",
+      "album_id": "0886446202594",
+      "title": "The Chopin Scherzos",
+      "legacy_status": "found",
+      "current_status": "found",
+      "legacy_programme": [
+        {
+          "target": "No 1 In B Minor, Op. 20 (Presto Con Fuoco)",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            44580385
+          ]
+        },
+        {
+          "target": "No 2 In B-Flat Minor, Op. 31 (Presto)",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            44580386
+          ]
+        },
+        {
+          "target": "No 3 In C-Sharp Minor, Op. 39 (Presto Con Fuoco)",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            44580387
+          ]
+        },
+        {
+          "target": "No 4 In E, Op. 54 (Presto)",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            44580388
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "No 1 In B Minor, Op. 20 (Presto Con Fuoco)",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            44580385
+          ]
+        },
+        {
+          "target": "No 2 In B-Flat Minor, Op. 31 (Presto)",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            44580386
+          ]
+        },
+        {
+          "target": "No 3 In C-Sharp Minor, Op. 39 (Presto Con Fuoco)",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            44580387
+          ]
+        },
+        {
+          "target": "No 4 In E, Op. 54 (Presto)",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            44580388
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "5286520",
+      "album_id": "3610154965161",
+      "title": "Concerto In D Major",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Concerto In D, Op. 61 (For Violin And Orchestra)",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            15066808,
+            15066810,
+            15066812
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Concerto In D, Op. 61 (For Violin And Orchestra)",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            15066808,
+            15066810,
+            15066812
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "6115834",
+      "album_id": "0002894786633",
+      "title": "Symphony No. 2",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Symphony No. 2 In B Flat Major, Op. 4",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            14494952,
+            14494955,
+            14494959,
+            14494964
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Symphony No. 2 In B Flat Major, Op. 4",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            14494952,
+            14494955,
+            14494959,
+            14494964
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "6115836",
+      "album_id": "0002894786633",
+      "title": "Symphony No.4 / Overture: In Nature's Realm",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Symphony No.4 In D Minor, Op. 13",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            14494982,
+            14494986,
+            14494990,
+            14494995
+          ]
+        },
+        {
+          "target": "In Nature's Realm Overture, Op. 91",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            14495032
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Symphony No.4 In D Minor, Op. 13",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            14494982,
+            14494986,
+            14494990,
+            14494995
+          ]
+        },
+        {
+          "target": "In Nature's Realm Overture, Op. 91",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            14495032
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "6118529",
+      "album_id": "0002894786633",
+      "title": "Symphony No. 3 / Symphonic Variations, Op. 78",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Symphony No. 3 In E Flat Major, Op. 10",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            14494968,
+            14494972,
+            14494977
+          ]
+        },
+        {
+          "target": "Symphonic Variations, Op. 78",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            14495069
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Symphony No. 3 In E Flat Major, Op. 10",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            14494968,
+            14494972,
+            14494977
+          ]
+        },
+        {
+          "target": "Symphonic Variations, Op. 78",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            14495069
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "6119238",
+      "album_id": "0002894786633",
+      "title": "Symphony No. 6 / Overture 'My Home'",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Symphony No. 6 In D, Op. 60",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            14495018,
+            14495022,
+            14495024,
+            14495027
+          ]
+        },
+        {
+          "target": "Overture: My Home, Op. 62",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            14495068
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Symphony No. 6 In D, Op. 60",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            14495018,
+            14495022,
+            14495024,
+            14495027
+          ]
+        },
+        {
+          "target": "Overture: My Home, Op. 62",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            14495068
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "6175022",
+      "album_id": "0002894776360",
+      "title": "Sonaten (No. 15 »Pastorale« ∙ No. 3)",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Klaviersonate Nr. 3 C-dur Op. 2 Nr. 3",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            610559,
+            610568,
+            610577,
+            610586
+          ]
+        },
+        {
+          "target": "Klaviersonate Nr. 15 D-dur Op. 28 »Pastorale«",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            610590,
+            610599,
+            610607,
+            610613
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Klaviersonate Nr. 3 C-dur Op. 2 Nr. 3",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            610559,
+            610568,
+            610577,
+            610586
+          ]
+        },
+        {
+          "target": "Klaviersonate Nr. 15 D-dur Op. 28 »Pastorale«",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            610590,
+            610599,
+            610607,
+            610613
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "6426884",
+      "album_id": "0002894378192",
+      "title": "Symphony No. 8",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Symphony No. 8 In C Minor Op. 65",
+          "work_tracks": 5,
+          "credited_tracks": 5,
+          "track_ids": [
+            8780718,
+            8780720,
+            8780722,
+            8780724,
+            8780726
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Symphony No. 8 In C Minor Op. 65",
+          "work_tracks": 5,
+          "credited_tracks": 5,
+          "track_ids": [
+            8780718,
+            8780720,
+            8780722,
+            8780724,
+            8780726
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "6575638",
+      "album_id": "n94n178c50qmb",
+      "title": "Symphony No. 7 In D Minor",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Symphony No. 7 In D Minor",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            309869084,
+            309869085,
+            309869086,
+            309869087
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Symphony No. 7 In D Minor",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            309869084,
+            309869085,
+            309869086,
+            309869087
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "6913643",
+      "album_id": "3610154076782",
+      "title": "Symphonie Fantastique",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Symphonie Fantastique",
+          "work_tracks": 6,
+          "credited_tracks": 6,
+          "track_ids": [
+            12267606,
+            12267608,
+            12267610,
+            12267614,
+            12267617,
+            12267620
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Symphonie Fantastique",
+          "work_tracks": 6,
+          "credited_tracks": 6,
+          "track_ids": [
+            12267606,
+            12267608,
+            12267610,
+            12267614,
+            12267617,
+            12267620
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "6919420",
+      "album_id": "0002894776360",
+      "title": "Eroica-Variationen / Piano Sonata No.7",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "15 Variations And Fugue In E Flat Major, Op.35 Eroica Variations",
+          "work_tracks": 19,
+          "credited_tracks": 19,
+          "track_ids": [
+            610598,
+            610606,
+            610612,
+            610617,
+            610621,
+            610625,
+            610627,
+            610629,
+            610631,
+            610633,
+            610634,
+            610635,
+            610636,
+            610637,
+            610638,
+            610639,
+            610640,
+            610641,
+            610642
+          ]
+        },
+        {
+          "target": "Piano Sonata No.7 In D Major Op.10 No.3",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            610579,
+            610588,
+            610597,
+            610605
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "15 Variations And Fugue In E Flat Major, Op.35 Eroica Variations",
+          "work_tracks": 19,
+          "credited_tracks": 19,
+          "track_ids": [
+            610598,
+            610606,
+            610612,
+            610617,
+            610621,
+            610625,
+            610627,
+            610629,
+            610631,
+            610633,
+            610634,
+            610635,
+            610636,
+            610637,
+            610638,
+            610639,
+            610640,
+            610641,
+            610642
+          ]
+        },
+        {
+          "target": "Piano Sonata No.7 In D Major Op.10 No.3",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            610579,
+            610588,
+            610597,
+            610605
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "7001990",
+      "album_id": "0888608886031",
+      "title": "Four Suites For Orchestra",
+      "legacy_status": "found",
+      "current_status": "found",
+      "legacy_programme": [
+        {
+          "target": "Suite No. 1 In C Major",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            17108970
+          ]
+        },
+        {
+          "target": "Suite No. 4 In D Major",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            17108976
+          ]
+        },
+        {
+          "target": "Suite No. 2 In B Minor",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            17108972
+          ]
+        },
+        {
+          "target": "Suite No. 3 In D Major",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            17108974
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Suite No. 1 In C Major",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            17108970
+          ]
+        },
+        {
+          "target": "Suite No. 4 In D Major",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            17108976
+          ]
+        },
+        {
+          "target": "Suite No. 2 In B Minor",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            17108972
+          ]
+        },
+        {
+          "target": "Suite No. 3 In D Major",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            17108974
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "7159852",
+      "album_id": "hfyxkx5rtp89a",
+      "title": "Études Op. 10 Et Op. 25",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "12 Études, Op. 10",
+          "work_tracks": 12,
+          "credited_tracks": 12,
+          "track_ids": [
+            175643547,
+            175643548,
+            175643549,
+            175643550,
+            175643551,
+            175643552,
+            175643553,
+            175643554,
+            175643555,
+            175643556,
+            175643557,
+            175643558
+          ]
+        },
+        {
+          "target": "12 Études, Op. 25",
+          "work_tracks": 12,
+          "credited_tracks": 12,
+          "track_ids": [
+            175643559,
+            175643560,
+            175643561,
+            175643562,
+            175643563,
+            175643564,
+            175643565,
+            175643566,
+            175643567,
+            175643568,
+            175643569,
+            175643570
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "12 Études, Op. 10",
+          "work_tracks": 12,
+          "credited_tracks": 12,
+          "track_ids": [
+            175643547,
+            175643548,
+            175643549,
+            175643550,
+            175643551,
+            175643552,
+            175643553,
+            175643554,
+            175643555,
+            175643556,
+            175643557,
+            175643558
+          ]
+        },
+        {
+          "target": "12 Études, Op. 25",
+          "work_tracks": 12,
+          "credited_tracks": 12,
+          "track_ids": [
+            175643559,
+            175643560,
+            175643561,
+            175643562,
+            175643563,
+            175643564,
+            175643565,
+            175643566,
+            175643567,
+            175643568,
+            175643569,
+            175643570
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "7678883",
+      "album_id": "0002894757198",
+      "title": "The Piano Sonatas",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Sonata No. 1 In F Minor, Op. 2, No. 1",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            589370,
+            589378,
+            589386,
+            589394
+          ]
+        },
+        {
+          "target": "Sonata No. 2 In A Major, Op. 2 No. 2",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            589402,
+            589410,
+            589418,
+            589426
+          ]
+        },
+        {
+          "target": "Sonata No. 3 In C Major, Op. 2 No 3",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            589434,
+            589442,
+            589448,
+            589454
+          ]
+        },
+        {
+          "target": "Sonata No. 4 In E Flat Major, Op. 7",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            589371,
+            589379,
+            589387,
+            589395
+          ]
+        },
+        {
+          "target": "Sonata No. 5 In C Minor, Op. 10 No. 1",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            589460,
+            589466,
+            589471
+          ]
+        },
+        {
+          "target": "Sonata No. 6 In F Major, Op. 10 No. 2",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            589403,
+            589411,
+            589419
+          ]
+        },
+        {
+          "target": "Sonata No. 7 In D Major, Op. 10 No. 3",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            589427,
+            589435,
+            589443,
+            589449
+          ]
+        },
+        {
+          "target": "Sonata No. 8 In C Minor, Op. 13 “Pathétique”",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            589455,
+            589461,
+            589467
+          ]
+        },
+        {
+          "target": "Sonata No. 9 E Major, Op. 14 No. 1",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            589372,
+            589380,
+            589388
+          ]
+        },
+        {
+          "target": "Sonata No. 10 In G Major, Op. 14 No. 2",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            589396,
+            589404,
+            589412
+          ]
+        },
+        {
+          "target": "Sonata No. 11 In B Flat Major, Op. 22",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            589420,
+            589428,
+            589436,
+            589444
+          ]
+        },
+        {
+          "target": "Sonata No.12 In A Flat Major, Op. 26",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            589450,
+            589456,
+            589462,
+            589468
+          ]
+        },
+        {
+          "target": "Sonata No. 13 In E Flat Major, Op. 27 No. 1 “Quasi Una Fantasia”",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            589373,
+            589381,
+            589389,
+            589397
+          ]
+        },
+        {
+          "target": "Sonata No. 14 In C Sharp Minor, Op. 27 No. 2 “Moonlight”",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            589405,
+            589413,
+            589421
+          ]
+        },
+        {
+          "target": "Sonata No. 16 In G Major, Op. 31 No. 1",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            589457,
+            589463,
+            589469
+          ]
+        },
+        {
+          "target": "Sonata No. 15 D Major, Op. 28 “Pastoral”",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            589429,
+            589437,
+            589445,
+            589451
+          ]
+        },
+        {
+          "target": "Sonata No. 17 In D Minor, Op. 31 No. 2",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            589374,
+            589382,
+            589390
+          ]
+        },
+        {
+          "target": "Sonata No.18 E Flat Major, Op. 31 No. 3",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            589398,
+            589406,
+            589414,
+            589422
+          ]
+        },
+        {
+          "target": "Sonata No. 19 G Minor, Op. 49 No. 1",
+          "work_tracks": 2,
+          "credited_tracks": 2,
+          "track_ids": [
+            589430,
+            589438
+          ]
+        },
+        {
+          "target": "Sonata No. 20 In G Major, Op. 49 No. 2",
+          "work_tracks": 2,
+          "credited_tracks": 2,
+          "track_ids": [
+            589446,
+            589452
+          ]
+        },
+        {
+          "target": "Sonata No. 21 In C Major, Op. 53 “Waldstein”",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            589458,
+            589464,
+            589470
+          ]
+        },
+        {
+          "target": "Sonata No. 23 In F Minor, Op. 57 “Appassionata”",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            589391,
+            589399,
+            589407
+          ]
+        },
+        {
+          "target": "Sonata No. 22 In F Major, Op. 54",
+          "work_tracks": 2,
+          "credited_tracks": 2,
+          "track_ids": [
+            589375,
+            589383
+          ]
+        },
+        {
+          "target": "Sonata No. 24 In F Sharp Major, Op. 78",
+          "work_tracks": 2,
+          "credited_tracks": 2,
+          "track_ids": [
+            589415,
+            589423
+          ]
+        },
+        {
+          "target": "Sonata No. 25 In G Major, Op. 79",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            589431,
+            589439,
+            589447
+          ]
+        },
+        {
+          "target": "Sonata No. 26 In E Flat, Op. 81a “Les Adieux”",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            589453,
+            589459,
+            589465
+          ]
+        },
+        {
+          "target": "Sonata No. 27 In E Minor, Op. 90",
+          "work_tracks": 2,
+          "credited_tracks": 2,
+          "track_ids": [
+            589376,
+            589384
+          ]
+        },
+        {
+          "target": "Sonata No. 28 In A Major, Op. 101",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            589392,
+            589400,
+            589408
+          ]
+        },
+        {
+          "target": "Sonata No. 29 In B Flat Major, Op. 106 “Hammerklavier”",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            589416,
+            589424,
+            589432,
+            589440
+          ]
+        },
+        {
+          "target": "Sonata No. 30 In E Major, Op. 109",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            589377,
+            589385,
+            589393
+          ]
+        },
+        {
+          "target": "Sonata No. 31 In A Flat Major, Op. 110",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            589401,
+            589409,
+            589417,
+            589425
+          ]
+        },
+        {
+          "target": "Sonata No. 32 In C Minor, Op. 111",
+          "work_tracks": 2,
+          "credited_tracks": 2,
+          "track_ids": [
+            589433,
+            589441
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Sonata No. 1 In F Minor, Op. 2, No. 1",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            589370,
+            589378,
+            589386,
+            589394
+          ]
+        },
+        {
+          "target": "Sonata No. 2 In A Major, Op. 2 No. 2",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            589402,
+            589410,
+            589418,
+            589426
+          ]
+        },
+        {
+          "target": "Sonata No. 3 In C Major, Op. 2 No 3",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            589434,
+            589442,
+            589448,
+            589454
+          ]
+        },
+        {
+          "target": "Sonata No. 4 In E Flat Major, Op. 7",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            589371,
+            589379,
+            589387,
+            589395
+          ]
+        },
+        {
+          "target": "Sonata No. 5 In C Minor, Op. 10 No. 1",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            589460,
+            589466,
+            589471
+          ]
+        },
+        {
+          "target": "Sonata No. 6 In F Major, Op. 10 No. 2",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            589403,
+            589411,
+            589419
+          ]
+        },
+        {
+          "target": "Sonata No. 7 In D Major, Op. 10 No. 3",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            589427,
+            589435,
+            589443,
+            589449
+          ]
+        },
+        {
+          "target": "Sonata No. 8 In C Minor, Op. 13 “Pathétique”",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            589455,
+            589461,
+            589467
+          ]
+        },
+        {
+          "target": "Sonata No. 9 E Major, Op. 14 No. 1",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            589372,
+            589380,
+            589388
+          ]
+        },
+        {
+          "target": "Sonata No. 10 In G Major, Op. 14 No. 2",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            589396,
+            589404,
+            589412
+          ]
+        },
+        {
+          "target": "Sonata No. 11 In B Flat Major, Op. 22",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            589420,
+            589428,
+            589436,
+            589444
+          ]
+        },
+        {
+          "target": "Sonata No.12 In A Flat Major, Op. 26",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            589450,
+            589456,
+            589462,
+            589468
+          ]
+        },
+        {
+          "target": "Sonata No. 13 In E Flat Major, Op. 27 No. 1 “Quasi Una Fantasia”",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            589373,
+            589381,
+            589389,
+            589397
+          ]
+        },
+        {
+          "target": "Sonata No. 14 In C Sharp Minor, Op. 27 No. 2 “Moonlight”",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            589405,
+            589413,
+            589421
+          ]
+        },
+        {
+          "target": "Sonata No. 16 In G Major, Op. 31 No. 1",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            589457,
+            589463,
+            589469
+          ]
+        },
+        {
+          "target": "Sonata No. 15 D Major, Op. 28 “Pastoral”",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            589429,
+            589437,
+            589445,
+            589451
+          ]
+        },
+        {
+          "target": "Sonata No. 17 In D Minor, Op. 31 No. 2",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            589374,
+            589382,
+            589390
+          ]
+        },
+        {
+          "target": "Sonata No.18 E Flat Major, Op. 31 No. 3",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            589398,
+            589406,
+            589414,
+            589422
+          ]
+        },
+        {
+          "target": "Sonata No. 19 G Minor, Op. 49 No. 1",
+          "work_tracks": 2,
+          "credited_tracks": 2,
+          "track_ids": [
+            589430,
+            589438
+          ]
+        },
+        {
+          "target": "Sonata No. 20 In G Major, Op. 49 No. 2",
+          "work_tracks": 2,
+          "credited_tracks": 2,
+          "track_ids": [
+            589446,
+            589452
+          ]
+        },
+        {
+          "target": "Sonata No. 21 In C Major, Op. 53 “Waldstein”",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            589458,
+            589464,
+            589470
+          ]
+        },
+        {
+          "target": "Sonata No. 23 In F Minor, Op. 57 “Appassionata”",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            589391,
+            589399,
+            589407
+          ]
+        },
+        {
+          "target": "Sonata No. 22 In F Major, Op. 54",
+          "work_tracks": 2,
+          "credited_tracks": 2,
+          "track_ids": [
+            589375,
+            589383
+          ]
+        },
+        {
+          "target": "Sonata No. 24 In F Sharp Major, Op. 78",
+          "work_tracks": 2,
+          "credited_tracks": 2,
+          "track_ids": [
+            589415,
+            589423
+          ]
+        },
+        {
+          "target": "Sonata No. 25 In G Major, Op. 79",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            589431,
+            589439,
+            589447
+          ]
+        },
+        {
+          "target": "Sonata No. 26 In E Flat, Op. 81a “Les Adieux”",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            589453,
+            589459,
+            589465
+          ]
+        },
+        {
+          "target": "Sonata No. 27 In E Minor, Op. 90",
+          "work_tracks": 2,
+          "credited_tracks": 2,
+          "track_ids": [
+            589376,
+            589384
+          ]
+        },
+        {
+          "target": "Sonata No. 28 In A Major, Op. 101",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            589392,
+            589400,
+            589408
+          ]
+        },
+        {
+          "target": "Sonata No. 29 In B Flat Major, Op. 106 “Hammerklavier”",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            589416,
+            589424,
+            589432,
+            589440
+          ]
+        },
+        {
+          "target": "Sonata No. 30 In E Major, Op. 109",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            589377,
+            589385,
+            589393
+          ]
+        },
+        {
+          "target": "Sonata No. 31 In A Flat Major, Op. 110",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            589401,
+            589409,
+            589417,
+            589425
+          ]
+        },
+        {
+          "target": "Sonata No. 32 In C Minor, Op. 111",
+          "work_tracks": 2,
+          "credited_tracks": 2,
+          "track_ids": [
+            589433,
+            589441
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "7871589",
+      "album_id": "0002894786633",
+      "title": "\"Carnival\" Overture; Scherzo Capriccioso; The Golden Spinning Wheel",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Carnival Overture, Op. 92",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            14495066
+          ]
+        },
+        {
+          "target": "Scherzo Capriccioso, Op. 66",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            14495067
+          ]
+        },
+        {
+          "target": "The Golden Spinning Wheel - Das Goldene Spinnrad, Op. 109",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            14495072
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Carnival Overture, Op. 92",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            14495066
+          ]
+        },
+        {
+          "target": "Scherzo Capriccioso, Op. 66",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            14495067
+          ]
+        },
+        {
+          "target": "The Golden Spinning Wheel - Das Goldene Spinnrad, Op. 109",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            14495072
+          ]
+        }
+      ],
+      "legacy_completeness": "complete",
+      "current_completeness": "complete",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "7888645",
+      "album_id": "n40010vfrexnb",
+      "title": "Piano Concerto No.1 / Piano Concerto No.2",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Piano Concerto No. 1 In C Major. Op. 15",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            229052691,
+            229052692,
+            229052693
+          ]
+        },
+        {
+          "target": "Piano Concerto No. 2 In B Flat Major. Op. 19",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            229052694,
+            229052695,
+            229052696
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Piano Concerto No. 1 In C Major. Op. 15",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            229052691,
+            229052692,
+            229052693
+          ]
+        },
+        {
+          "target": "Piano Concerto No. 2 In B Flat Major. Op. 19",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            229052694,
+            229052695,
+            229052696
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "8316658",
+      "album_id": "3614596844916",
+      "title": "Preludes Book I",
+      "legacy_status": "found",
+      "current_status": "found",
+      "legacy_programme": [
+        {
+          "target": "No. 1, Danseuses De Delphes",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            29843638
+          ]
+        },
+        {
+          "target": "No. 2, Voiles",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            29843640
+          ]
+        },
+        {
+          "target": "No. 3, Le Vent Dans La Plaine",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            29843642
+          ]
+        },
+        {
+          "target": "No. 4, Les Sons Et Les Parfums Tournent Dans L'Air Du Soir",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            29843644
+          ]
+        },
+        {
+          "target": "No. 5, Les Collines D'Anacapri",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            29843646
+          ]
+        },
+        {
+          "target": "No. 6, Des Pas Sur la Neige",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            29843648
+          ]
+        },
+        {
+          "target": "No. 7, Ce Qu'A Vu Le Vent D'Ouest",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            29843650
+          ]
+        },
+        {
+          "target": "No. 8, La Fille Aux Cheveux de Lin",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            29843652
+          ]
+        },
+        {
+          "target": "No. 9, La Sérénade Interrompue",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            29843654
+          ]
+        },
+        {
+          "target": "No. 10, La Cathédrale Engloutie",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            29843656
+          ]
+        },
+        {
+          "target": "No. 11, La Danse De Puck",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            29843658
+          ]
+        },
+        {
+          "target": "No. 12, Minstrels",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            29843660
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "No. 1, Danseuses De Delphes",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            29843638
+          ]
+        },
+        {
+          "target": "No. 2, Voiles",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            29843640
+          ]
+        },
+        {
+          "target": "No. 3, Le Vent Dans La Plaine",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            29843642
+          ]
+        },
+        {
+          "target": "No. 4, Les Sons Et Les Parfums Tournent Dans L'Air Du Soir",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            29843644
+          ]
+        },
+        {
+          "target": "No. 5, Les Collines D'Anacapri",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            29843646
+          ]
+        },
+        {
+          "target": "No. 6, Des Pas Sur la Neige",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            29843648
+          ]
+        },
+        {
+          "target": "No. 7, Ce Qu'A Vu Le Vent D'Ouest",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            29843650
+          ]
+        },
+        {
+          "target": "No. 8, La Fille Aux Cheveux de Lin",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            29843652
+          ]
+        },
+        {
+          "target": "No. 9, La Sérénade Interrompue",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            29843654
+          ]
+        },
+        {
+          "target": "No. 10, La Cathédrale Engloutie",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            29843656
+          ]
+        },
+        {
+          "target": "No. 11, La Danse De Puck",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            29843658
+          ]
+        },
+        {
+          "target": "No. 12, Minstrels",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            29843660
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "8418209",
+      "album_id": "0002894291602",
+      "title": "Requiem",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Requiem En Ré Mineur, KV. 626",
+          "work_tracks": 14,
+          "credited_tracks": 2,
+          "track_ids": [
+            3522564,
+            3522567
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Requiem En Ré Mineur, KV. 626",
+          "work_tracks": 14,
+          "credited_tracks": 2,
+          "track_ids": [
+            3522564,
+            3522567
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "8597411",
+      "album_id": "ve66kuadcegpa",
+      "title": "Satchmo Sings",
+      "legacy_status": "found",
+      "current_status": "found",
+      "legacy_programme": [
+        {
+          "target": "Someday You'll Be Sorry",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            229760934
+          ]
+        },
+        {
+          "target": "Sincerely",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            229760935
+          ]
+        },
+        {
+          "target": "Your Cheatin Heart",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            229760936
+          ]
+        },
+        {
+          "target": "Ramona",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            229760937
+          ]
+        },
+        {
+          "target": "I Laughed At Love",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            229760938
+          ]
+        },
+        {
+          "target": "I Wonder",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            229760939
+          ]
+        },
+        {
+          "target": "Pledging My Love",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            229760940
+          ]
+        },
+        {
+          "target": "April In Portugal",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            229760941
+          ]
+        },
+        {
+          "target": "The Gypsy",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            229760942
+          ]
+        },
+        {
+          "target": "Kiss Of Fire",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            229760943
+          ]
+        },
+        {
+          "target": "Takes Two To Tango",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            229760944
+          ]
+        },
+        {
+          "target": "If",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            229760945
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Someday You'll Be Sorry",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            229760934
+          ]
+        },
+        {
+          "target": "Sincerely",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            229760935
+          ]
+        },
+        {
+          "target": "Your Cheatin Heart",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            229760936
+          ]
+        },
+        {
+          "target": "Ramona",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            229760937
+          ]
+        },
+        {
+          "target": "I Laughed At Love",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            229760938
+          ]
+        },
+        {
+          "target": "I Wonder",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            229760939
+          ]
+        },
+        {
+          "target": "Pledging My Love",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            229760940
+          ]
+        },
+        {
+          "target": "April In Portugal",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            229760941
+          ]
+        },
+        {
+          "target": "The Gypsy",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            229760942
+          ]
+        },
+        {
+          "target": "Kiss Of Fire",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            229760943
+          ]
+        },
+        {
+          "target": "Takes Two To Tango",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            229760944
+          ]
+        },
+        {
+          "target": "If",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            229760945
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "9387170",
+      "album_id": "bdwxo4pgq3dwb",
+      "title": "The Piano Concertos",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Piano Concerto No. 1 In D Minor, Op. 15",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            183244454,
+            183244455,
+            183244456
+          ]
+        },
+        {
+          "target": "Piano Concerto No.2 In B Flat Major Op. 83",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            183244457,
+            183244458,
+            183244459,
+            183244460
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Piano Concerto No. 1 In D Minor, Op. 15",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            183244454,
+            183244455,
+            183244456
+          ]
+        },
+        {
+          "target": "Piano Concerto No.2 In B Flat Major Op. 83",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            183244457,
+            183244458,
+            183244459,
+            183244460
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "9521183",
+      "album_id": "n5q85sldaowaa",
+      "title": "Les Scherzos Les Impromptus",
+      "legacy_status": "found",
+      "current_status": "found",
+      "legacy_programme": [
+        {
+          "target": "Scherzo No 1 En Si Mineur Op. 20",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            59395123
+          ]
+        },
+        {
+          "target": "Scherzo No 2 En Si Bémol Mineur Op. 31",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            59395124
+          ]
+        },
+        {
+          "target": "Scherzo No 3 En Ut Diése Mineur Op. 39",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            59395125
+          ]
+        },
+        {
+          "target": "Scherzo No 4 En Mi Majeur Op. 54",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            59395126
+          ]
+        },
+        {
+          "target": "Impromptu No 1 En La Bémol Majeur Op. 29",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            59395127
+          ]
+        },
+        {
+          "target": "Impromptu No 2 En Fa Diése Majeur Op. 36",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            59395128
+          ]
+        },
+        {
+          "target": "Impromptu No 3 En Sol Bémol Majeur Op. 51",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            59395129
+          ]
+        },
+        {
+          "target": "Fantaisie - Impromptu En Ut Diése Mineur Op. 66 (Op. Posthume). ",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            59395130
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Scherzo No 1 En Si Mineur Op. 20",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            59395123
+          ]
+        },
+        {
+          "target": "Scherzo No 2 En Si Bémol Mineur Op. 31",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            59395124
+          ]
+        },
+        {
+          "target": "Scherzo No 3 En Ut Diése Mineur Op. 39",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            59395125
+          ]
+        },
+        {
+          "target": "Scherzo No 4 En Mi Majeur Op. 54",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            59395126
+          ]
+        },
+        {
+          "target": "Impromptu No 1 En La Bémol Majeur Op. 29",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            59395127
+          ]
+        },
+        {
+          "target": "Impromptu No 2 En Fa Diése Majeur Op. 36",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            59395128
+          ]
+        },
+        {
+          "target": "Impromptu No 3 En Sol Bémol Majeur Op. 51",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            59395129
+          ]
+        },
+        {
+          "target": "Fantaisie - Impromptu En Ut Diése Mineur Op. 66 (Op. Posthume). ",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            59395130
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "9932637",
+      "album_id": "j9632ukqcjtlb",
+      "title": "9 Symphonies",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Symphony No. 1 In C Minor \"Bells Of Zlonice\"",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            189533131,
+            189533132,
+            189533133,
+            189533134
+          ]
+        },
+        {
+          "target": "Symphony No. 2 In B Flat Major, Op. 4",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            189533135,
+            189533136,
+            189533137,
+            189533138
+          ]
+        },
+        {
+          "target": "Symphony No. 3 In E Flat Major, Op. 10",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            189533143,
+            189533144,
+            189533145
+          ]
+        },
+        {
+          "target": "Symphony No. 4 In D Minor, Op. 13",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            189533146,
+            189533147,
+            189533148,
+            189533149
+          ]
+        },
+        {
+          "target": "Symphony No. 5 In F Major, Op. 76",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            189533150,
+            189533151,
+            189533152,
+            189533153
+          ]
+        },
+        {
+          "target": "Symphony No. 6 In D Major, Op. 60",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            189533139,
+            189533140,
+            189533141,
+            189533142
+          ]
+        },
+        {
+          "target": "Symphony No. 7 In D Minor, Op. 70",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            189533154,
+            189533155,
+            189533156,
+            189533157
+          ]
+        },
+        {
+          "target": "Symphony No. 8 In G Major, Op. 88",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            189533158,
+            189533159,
+            189533160,
+            189533161
+          ]
+        },
+        {
+          "target": "Symphony No. 9 In E Minor, Op. 95 \"From The New World\"",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            189533162,
+            189533163,
+            189533164,
+            189533165
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Symphony No. 1 In C Minor \"Bells Of Zlonice\"",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            189533131,
+            189533132,
+            189533133,
+            189533134
+          ]
+        },
+        {
+          "target": "Symphony No. 2 In B Flat Major, Op. 4",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            189533135,
+            189533136,
+            189533137,
+            189533138
+          ]
+        },
+        {
+          "target": "Symphony No. 3 In E Flat Major, Op. 10",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            189533143,
+            189533144,
+            189533145
+          ]
+        },
+        {
+          "target": "Symphony No. 4 In D Minor, Op. 13",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            189533146,
+            189533147,
+            189533148,
+            189533149
+          ]
+        },
+        {
+          "target": "Symphony No. 5 In F Major, Op. 76",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            189533150,
+            189533151,
+            189533152,
+            189533153
+          ]
+        },
+        {
+          "target": "Symphony No. 6 In D Major, Op. 60",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            189533139,
+            189533140,
+            189533141,
+            189533142
+          ]
+        },
+        {
+          "target": "Symphony No. 7 In D Minor, Op. 70",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            189533154,
+            189533155,
+            189533156,
+            189533157
+          ]
+        },
+        {
+          "target": "Symphony No. 8 In G Major, Op. 88",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            189533158,
+            189533159,
+            189533160,
+            189533161
+          ]
+        },
+        {
+          "target": "Symphony No. 9 In E Minor, Op. 95 \"From The New World\"",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            189533162,
+            189533163,
+            189533164,
+            189533165
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "9932715",
+      "album_id": "0002894777932",
+      "title": "4 Symphonies",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Symphonie Nr. 1 B-dur Op. 38 \"Frühlingssymphonie\"",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            614929,
+            614932,
+            614935,
+            614938
+          ]
+        },
+        {
+          "target": "Symphonie Nr. 4 D-moll Op. 120",
+          "work_tracks": 8,
+          "credited_tracks": 4,
+          "track_ids": [
+            614945,
+            614948,
+            614951,
+            614952
+          ]
+        },
+        {
+          "target": "Symphonie Nr. 2 C-dur Op. 61",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            614941,
+            614944,
+            614947,
+            614950
+          ]
+        },
+        {
+          "target": "Ouvertüre, Scherzo Und Finale E-dur Op. 52",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            614931,
+            614934,
+            614937
+          ]
+        },
+        {
+          "target": "Symphonie Nr. 3 Es-dur Op. 97 \"Rheinische Symphonie\"",
+          "work_tracks": 5,
+          "credited_tracks": 5,
+          "track_ids": [
+            614930,
+            614933,
+            614936,
+            614939,
+            614942
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Symphonie Nr. 1 B-dur Op. 38 \"Frühlingssymphonie\"",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            614929,
+            614932,
+            614935,
+            614938
+          ]
+        },
+        {
+          "target": "Symphonie Nr. 4 D-moll Op. 120",
+          "work_tracks": 8,
+          "credited_tracks": 4,
+          "track_ids": [
+            614945,
+            614948,
+            614951,
+            614952
+          ]
+        },
+        {
+          "target": "Symphonie Nr. 2 C-dur Op. 61",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            614941,
+            614944,
+            614947,
+            614950
+          ]
+        },
+        {
+          "target": "Ouvertüre, Scherzo Und Finale E-dur Op. 52",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            614931,
+            614934,
+            614937
+          ]
+        },
+        {
+          "target": "Symphonie Nr. 3 Es-dur Op. 97 \"Rheinische Symphonie\"",
+          "work_tracks": 5,
+          "credited_tracks": 5,
+          "track_ids": [
+            614930,
+            614933,
+            614936,
+            614939,
+            614942
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "10480488",
+      "album_id": "kovvp9ihrfr6a",
+      "title": "Symphony No.7",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Symphony No. 7",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            161584005,
+            161584006,
+            161584007,
+            161584008
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Symphony No. 7",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            161584005,
+            161584006,
+            161584007,
+            161584008
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "12122769",
+      "album_id": "og36pbj86os7b",
+      "title": "Concerto No. 2, In B Flat Major For Piano And Orchestra",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Concerto No. 2, In B-Flat, Op. 83",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            309474282,
+            309474283,
+            309474284,
+            309474285
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Concerto No. 2, In B-Flat, Op. 83",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            309474282,
+            309474283,
+            309474284,
+            309474285
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "12189169",
+      "album_id": "0002894806569",
+      "title": "Cello Concerto No.2 / Chant Du Ménestrel",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Chant Du Ménestrel",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            27851190
+          ]
+        },
+        {
+          "target": "Concerto For Cello And Orchestra No. 2, Op. 126",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            27851162,
+            27851164,
+            27851166
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Chant Du Ménestrel",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            27851190
+          ]
+        },
+        {
+          "target": "Concerto For Cello And Orchestra No. 2, Op. 126",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            27851162,
+            27851164,
+            27851166
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "12774826",
+      "album_id": "3614599269853",
+      "title": "Te Deum",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Te Deum, Op. 22",
+          "work_tracks": 6,
+          "credited_tracks": 2,
+          "track_ids": [
+            32678632,
+            32678634
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Te Deum, Op. 22",
+          "work_tracks": 6,
+          "credited_tracks": 2,
+          "track_ids": [
+            32678632,
+            32678634
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "13509145",
+      "album_id": "0002894807276",
+      "title": "Symphony No.2",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Sinfonía N.º 2 En \"Re\" Mayor, Op.73",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            8412525,
+            8412527,
+            8412529,
+            8412531
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Sinfonía N.º 2 En \"Re\" Mayor, Op.73",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            8412525,
+            8412527,
+            8412529,
+            8412531
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "14338491",
+      "album_id": "0002894594542",
+      "title": "Stabat Mater",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Stabat Mater",
+          "work_tracks": 30,
+          "credited_tracks": 7,
+          "track_ids": [
+            3512717,
+            3512719,
+            3512721,
+            3512724,
+            3512725,
+            3512727,
+            3512728
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Stabat Mater",
+          "work_tracks": 12,
+          "credited_tracks": 12,
+          "track_ids": [
+            3512717,
+            3512718,
+            3512719,
+            3512720,
+            3512721,
+            3512722,
+            3512723,
+            3512724,
+            3512725,
+            3512726,
+            3512727,
+            3512728
+          ],
+          "recording_group": {
+            "track_ids": [
+              3512717,
+              3512718,
+              3512719,
+              3512720,
+              3512721,
+              3512722,
+              3512723,
+              3512724,
+              3512725,
+              3512726,
+              3512727,
+              3512728
+            ],
+            "anchors": [
+              "Solisti Dell'Orchestra \"Scarlatti\" Napoli",
+              "Ettore Gracis"
+            ],
+            "scope": "contiguous-work-group",
+            "credit_policy": "Anchors on every track; each named performer evidenced within this group; no unknown extra musical main artists."
+          }
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "14448160",
+      "album_id": "cxhvofqzayuqa",
+      "title": "Pictures At An Exhibition",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Pictures At An Exhibition",
+          "work_tracks": 15,
+          "credited_tracks": 15,
+          "track_ids": [
+            162449760,
+            162449761,
+            162449762,
+            162449763,
+            162449764,
+            162449765,
+            162449766,
+            162449767,
+            162449768,
+            162449769,
+            162449770,
+            162449771,
+            162449772,
+            162449773,
+            162449774
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Pictures At An Exhibition",
+          "work_tracks": 15,
+          "credited_tracks": 15,
+          "track_ids": [
+            162449760,
+            162449761,
+            162449762,
+            162449763,
+            162449764,
+            162449765,
+            162449766,
+            162449767,
+            162449768,
+            162449769,
+            162449770,
+            162449771,
+            162449772,
+            162449773,
+            162449774
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "15282801",
+      "album_id": "0002894756080",
+      "title": "Symphony No. 3 In E Flat Major Opus 55 \"Eroica\"",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Symphony No. 3 (\"Eroica\") In E Flat Major, Op. 55",
+          "work_tracks": 8,
+          "credited_tracks": 4,
+          "track_ids": [
+            585537,
+            585543,
+            585549,
+            585555
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Symphony No. 3 (\"Eroica\") In E Flat Major, Op. 55",
+          "work_tracks": 8,
+          "credited_tracks": 4,
+          "track_ids": [
+            585537,
+            585543,
+            585549,
+            585555
+          ]
+        }
+      ],
+      "legacy_completeness": "complete",
+      "current_completeness": "complete",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "15390424",
+      "album_id": "0002894307782",
+      "title": "Sinfonia N.º 2",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Sinfonía N.º 2 En \"Re\" Mayor, Opus 43",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            527173,
+            527176,
+            527179,
+            527182
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Sinfonía N.º 2 En \"Re\" Mayor, Opus 43",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            527173,
+            527176,
+            527179,
+            527182
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "18770818",
+      "album_id": "pfc4fflitmbpa",
+      "title": "Symphony No. 4",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Symphony No. 4",
+          "work_tracks": 3,
+          "credited_tracks": 1,
+          "track_ids": [
+            270699541
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Symphony No. 4",
+          "work_tracks": 3,
+          "credited_tracks": 1,
+          "track_ids": [
+            270699541
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "23695508",
+      "album_id": "3610154145846",
+      "title": "Symphony No. 6 \"Pathetique\"",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Symphony No. 6 In B Minor, Op. 74, \"Pathetique\"",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            14396095,
+            14396097,
+            14396099,
+            14396101
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Symphony No. 6 In B Minor, Op. 74, \"Pathetique\"",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            14396095,
+            14396097,
+            14396099,
+            14396101
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "28133197",
+      "album_id": "3614599294374",
+      "title": "Symphonie No. 1 / Karelia Suite",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Symphonie N° 1 En Mi Mineur Op. 39",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            32735489,
+            32735491,
+            32735493,
+            32735495
+          ]
+        },
+        {
+          "target": "Karelia Suite Op. 11",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            32735497,
+            32735499,
+            32735501
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Symphonie N° 1 En Mi Mineur Op. 39",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            32735489,
+            32735491,
+            32735493,
+            32735495
+          ]
+        },
+        {
+          "target": "Karelia Suite Op. 11",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            32735497,
+            32735499,
+            32735501
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "28220854",
+      "album_id": "0002894630792",
+      "title": "Sonaten No. 17 »Der Sturm/The Tempest« • No. 18",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Klaviersonate Nr. 17 D-Moll Op. 31 Nr. 2 »Der Sturm«",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            560542,
+            560543,
+            560544
+          ]
+        },
+        {
+          "target": "Klaviersonate Nr. 18 Es-Dur Op. 31 Nr. 3",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            560545,
+            560546,
+            560547,
+            560548
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Klaviersonate Nr. 17 D-Moll Op. 31 Nr. 2 »Der Sturm«",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            560542,
+            560543,
+            560544
+          ]
+        },
+        {
+          "target": "Klaviersonate Nr. 18 Es-Dur Op. 31 Nr. 3",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            560545,
+            560546,
+            560547,
+            560548
+          ]
+        }
+      ],
+      "legacy_completeness": "unknown",
+      "current_completeness": "unknown",
+      "shared_track_assignments": false
+    },
+    {
+      "discogs_id": "34875983",
+      "album_id": "0002894756080",
+      "title": "Symphony No. 5 In C Minor Op. 67",
+      "legacy_status": "probable",
+      "current_status": "probable",
+      "legacy_programme": [
+        {
+          "target": "Symphony No. 5 In C Minor Op. 67",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            585538,
+            585544,
+            585550,
+            585556
+          ]
+        }
+      ],
+      "current_programme": [
+        {
+          "target": "Symphony No. 5 In C Minor Op. 67",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            585538,
+            585544,
+            585550,
+            585556
+          ]
+        }
+      ],
+      "legacy_completeness": "complete",
+      "current_completeness": "complete",
+      "shared_track_assignments": false
+    }
+  ],
+  "summary": {
+    "releases": 76,
+    "legacy_statuses": {
+      "probable": 64,
+      "found": 12
+    },
+    "current_statuses": {
+      "probable": 64,
+      "found": 12
+    },
+    "status_changes": 0,
+    "changed_programmes": 5,
+    "current_completeness": {
+      "complete": 17,
+      "incomplete": 1,
+      "unknown": 58
+    },
+    "shared_track_assignment_releases": 0
+  },
+  "provenance": {
+    "matcher_version": "qobuz-work-groups-v1+reviewed-expansion-v2",
+    "inputs_sha256": {
+      "baseline": "ce3e07394b30f223a9154fadc2381c6bb5100527fbecc1f9924078b3bb2cc749",
+      "expansion": "c70833f5e499ef56ff81e4f3f2cba985df6f0f59833dbb7a86a66eeb537a1f17",
+      "inventory": "ac5b17039789d5e994c13492246e74dd62bd8194dd089f579668d98e82dfe3f9",
+      "collection": "568e740daa2510e838b392ddb3c68963f1dbf3c614f4347b8df0fb5e31babab8"
+    },
+    "metadata_manifest_fingerprint": "5c4a9f6b2bf19892aefcb01ad617d1584cada9f2ca34b56d32dade8ed444bf9d"
+  }
+}

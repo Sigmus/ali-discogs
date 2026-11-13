@@ -1,0 +1,711 @@
+{
+  "schema_version": 1,
+  "policy": "Offline proposals and cached-hit ranking only; no new API queries or acceptance.",
+  "entries": [
+    {
+      "discogs_id": "594243",
+      "title": "A Love Supreme",
+      "lead_artist": "John Coltrane",
+      "proposed_queries": [
+        "john coltrane",
+        "john coltrane a love supreme"
+      ],
+      "ranked_cached_hits": [
+        {
+          "album_id": "sp13gs5jtnl0b",
+          "title": "My Favorite Things ",
+          "score": 46.25,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "0887845963253",
+          "title": "Ballads",
+          "score": 45.71,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "xtldi296q6u1a",
+          "title": "In Memoriam Mccoy Tyner Vol. 2: Everytime We Say Goodbye",
+          "score": 44.71,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "w4t9kf3hmbkic",
+          "title": "Moon On Their Wings (Live Copenhagen '61)",
+          "score": 26.15,
+          "lead_artist_supported": true,
+          "possible_live_variant": true,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "0073145891832",
+          "title": "McCoy Tyner Plays John Coltrane: Live At The Village Vanguard",
+          "score": 0,
+          "lead_artist_supported": false,
+          "possible_live_variant": true,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        }
+      ]
+    },
+    {
+      "discogs_id": "3066447",
+      "title": "Les Plus Belles Sonates Pour Piano",
+      "lead_artist": "Daniel Barenboim",
+      "proposed_queries": [
+        "daniel barenboim beethoven",
+        "daniel barenboim beethoven op 109"
+      ],
+      "ranked_cached_hits": [
+        {
+          "album_id": "0002894631272",
+          "title": "Beethoven: The Piano Sonatas",
+          "score": 88.52,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": 1.0,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "fstv6cjkgurtc",
+          "title": "Beethoven For All - The Piano Sonatas",
+          "score": 48.12,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "5099970442151",
+          "title": "Beethoven: Complete Piano Sonatas",
+          "score": 47.88,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "bl0292og4t3pc",
+          "title": "Beethoven: Piano Sonatas Nos. 27-32",
+          "score": 47.76,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "bn4naurb578zb",
+          "title": "Beethoven Trios",
+          "score": 47.35,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "zbnl88r4plrba",
+          "title": "Beethoven: Symphony No. 7, Op. 92",
+          "score": 46.98,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "0002894196022",
+          "title": "Beethoven: Piano Sonatas Nos.8 \"Moonlight\", 14 \"Appassionata\" & 23 \"Pathétique\"",
+          "score": 46.21,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        }
+      ]
+    },
+    {
+      "discogs_id": "4429613",
+      "title": "The Complete Beethoven Society Recordings, 1932–37 / Vol. 2: Sonatas, Nos. 11–17",
+      "lead_artist": "Artur Schnabel",
+      "proposed_queries": [
+        "artur schnabel beethoven",
+        "artur schnabel beethoven op 22"
+      ],
+      "ranked_cached_hits": [
+        {
+          "album_id": "0190295866983",
+          "title": "Beethoven: Complete Piano Sonatas (2016 Remaster)",
+          "score": 89.41,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": 1.0,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "0884385808242",
+          "title": "The Beethoven Piano Sonatas",
+          "score": 50.0,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "evmb3lj8sm3la",
+          "title": "Beethoven: Piano Sonatas Nos. 27-29 (Schnabel) (1932-1935)",
+          "score": 49.28,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "0724356288058",
+          "title": "Beethoven: Piano Sonatas, Nos. 21 \"Waldstein\", 22, 23 \"Appassionata\", 24, 25, 27 & 30 - 32",
+          "score": 48.98,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "tjpgmbekb04ha",
+          "title": "BEETHOVEN: PIANO SONATA No.5  \"THE LITTLE PATHETIQUE\", No.6, No.7, No.19 \"LEICHTE SONATEN\", No.20, No.22",
+          "score": 48.43,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "ldki24bpeid2a",
+          "title": "Beethoven: Piano Sonatas Nos 26 \"Les Adieux\", 28 & 29 \"Hammerklavier\"",
+          "score": 48.06,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "s33j4q8tppimb",
+          "title": "BEETHOVEN: PIANO SONATA No.11, PIANO SONATA No.12 \"FUNERAL MARCH\", PIANO SONATA No.13 \"SONATA QUASI UNA FANTASIA\", \"SIX VARIATIONS FOR PIANO ON AN ORIGINAL THEME\"",
+          "score": 46.93,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        }
+      ]
+    },
+    {
+      "discogs_id": "6091545",
+      "title": "Psalmen Davids, 1619 (Five Concertos For Soloists, Choruses & Instruments)",
+      "lead_artist": "Westfälische Kantorei",
+      "proposed_queries": [
+        "westfalische kantorei schutz",
+        "westfalische kantorei psalmen davids 1619 five concertos for"
+      ],
+      "ranked_cached_hits": [
+        {
+          "album_id": "btchqd447im7b",
+          "title": "Schütz: Kleine geistliche Konzerte, vol. 2",
+          "score": 47.1,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "svqciaw36mwvc",
+          "title": "Schütz: Kleine geistliche Konzerte, vol. 1",
+          "score": 47.1,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "sx5t3srv3jgac",
+          "title": "Schütz: Kleine geistliche Konzerte, vol. 3",
+          "score": 47.1,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "v9prgt1zbyfwa",
+          "title": "Schütz: Geistliche Chormusik 1648",
+          "score": 46.0,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "qgcbaft6pbgob",
+          "title": "Schütz: Weihnachtshistorie / Weihnachtsmotetten",
+          "score": 7.14,
+          "lead_artist_supported": false,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        }
+      ]
+    },
+    {
+      "discogs_id": "7103881",
+      "title": "Messen F-dur (BWV 233), A-dur (BWV 234)",
+      "lead_artist": "Renate Krahmer",
+      "proposed_queries": [
+        "renate krahmer bach",
+        "renate krahmer bach bwv 233"
+      ],
+      "ranked_cached_hits": [
+        {
+          "album_id": "deivnz0mjzqya",
+          "title": "Bach: Messe F-Dur & Messe A-Dur",
+          "score": 51.61,
+          "lead_artist_supported": false,
+          "possible_live_variant": false,
+          "programme_title_coverage": 1.0,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "0782124913021",
+          "title": "BACH, J.S.: Masses - BWV 233-236 (Flamig)",
+          "score": 8.82,
+          "lead_artist_supported": false,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "hz3y69pf3amua",
+          "title": "Bach: Messe G-Moll & Messe G-Dur",
+          "score": 8.25,
+          "lead_artist_supported": false,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "e8h0mwzotiblb",
+          "title": "Bach: Christmas Oratorio, BWV 248",
+          "score": 8.0,
+          "lead_artist_supported": false,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "wq5rk2d69g83b",
+          "title": "Bach: Weihnachtsoratorium (Highlights)",
+          "score": 3.48,
+          "lead_artist_supported": false,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "ktylumldw296b",
+          "title": "Bach: Weihnachtsoratorium",
+          "score": 3.45,
+          "lead_artist_supported": false,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        }
+      ]
+    },
+    {
+      "discogs_id": "8534837",
+      "title": "Double Concerto / Piano Trio No. 1",
+      "lead_artist": "Pablo Casals",
+      "proposed_queries": [
+        "pablo casals mendelssohn",
+        "pablo casals brahms",
+        "pablo casals double concerto piano trio no 1"
+      ],
+      "ranked_cached_hits": [
+        {
+          "album_id": "3610159204920",
+          "title": "Brahms: Double concerto pour violon et violoncelle - Mendelssohn: Trio pour piano, violon et violoncelle no. 1",
+          "score": 68.89,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": 0.5,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "4053166990674",
+          "title": "Pablo Casals plays: Johannes Brahms / Joseph Haydn / Luigi Boccherini : Double Concerto / Piano Trio / Cello Concerto (1926-1955)",
+          "score": 48.44,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "8424295026934",
+          "title": "Brahms: Sonata para Cello y Piano No. 2 & Doble Concierto para Violin, Cello y Orquestra",
+          "score": 48.07,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "y41bp3kr0163a",
+          "title": "Felix Mendelssohn & Robert Schumann",
+          "score": 46.88,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "4053166990667",
+          "title": "Pablo Casals plays: Ludwig van Beethoven / Felix Mendelssohn Bartholdy / Robert Schumann: 10 Variations / Piano Trio (1926-1955)",
+          "score": 46.71,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "jzqdz9rqcwjka",
+          "title": "Mendelssohn's Art",
+          "score": 5.83,
+          "lead_artist_supported": false,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        }
+      ]
+    },
+    {
+      "discogs_id": "10301402",
+      "title": "Die 4 Symphonien · Das Violinkonzert · Die Haydn-Variationen · Ein Deutsches Requiem",
+      "lead_artist": "Herbert von Karajan",
+      "proposed_queries": [
+        "herbert von karajan brahms",
+        "herbert von karajan brahms op 45"
+      ],
+      "ranked_cached_hits": [
+        {
+          "album_id": "bam3c6gqmr85n",
+          "title": "Brahms: A German Requiem, Tragic Overture & Haydn Variations",
+          "score": 49.25,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "gms5y1vpjroaa",
+          "title": "BRAHMS: EIN DEUTSCHES REQUIEM",
+          "score": 49.06,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "0002894316512",
+          "title": "Brahms: Ein Deutsches Requiem Op.45",
+          "score": 48.57,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "c8ynl5mfnbi5a",
+          "title": "Brahms: Ein deutsches Requiem, Op.45",
+          "score": 48.57,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "0002894106032",
+          "title": "Brahms: Double Concerto In A Minor, Op. 102; Tragic Overture, Op. 81",
+          "score": 47.14,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "sg3xxb8apkmwb",
+          "title": "Brahms: Piano Concerto No. 2 in B Flat, Op. 83 / Grieg: Piano Concerto in A Minor, Op. 16",
+          "score": 46.84,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "0002894798228",
+          "title": "Brahms : The Four Symphonies",
+          "score": 45.0,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": 0.0,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "0724356281257",
+          "title": "Brahms : Un requiem allemand, Op. 45",
+          "score": 44.73,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "3610150161321",
+          "title": "Brahms : Un requiem allemand, Op. 45",
+          "score": 44.73,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        }
+      ]
+    },
+    {
+      "discogs_id": "12130939",
+      "title": "Symphonie N° 5 / Symphonie N° 10 - Adagio",
+      "lead_artist": "Klaus Tennstedt",
+      "proposed_queries": [
+        "klaus tennstedt mahler",
+        "klaus tennstedt symphonie n 5 symphonie n 10"
+      ],
+      "ranked_cached_hits": [
+        {
+          "album_id": "hse4g44fcm6qb",
+          "title": "Mahler: Symphonies",
+          "score": 88.97,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": 1.0,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "0094636158051",
+          "title": "Mahler: Symphonies Nos. 4 & 8 \"Symphony of a Thousand\"",
+          "score": 51.24,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "cvqfxz78s87ka",
+          "title": "Mahler: Symphony No. 3",
+          "score": 49.18,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "twdsmj9f2ypca",
+          "title": "Mahler: Symphony No. 6",
+          "score": 49.18,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "lvndsf3ku47ic",
+          "title": "Mahler: Symphony No. 5 in C-Sharp Minor & Kindertotenlieder",
+          "score": 48.33,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        }
+      ]
+    },
+    {
+      "discogs_id": "15926362",
+      "title": "Symphonies Nos. 1-4",
+      "lead_artist": "Bernard Haitink",
+      "proposed_queries": [
+        "bernard haitink mahler",
+        "bernard haitink symphonies nos 1 4"
+      ],
+      "ranked_cached_hits": [
+        {
+          "album_id": "woub7hzdnhq7b",
+          "title": "Mahler: The Symphonies & Song Cycles",
+          "score": 70.2,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": 0.5,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "i4x2o66dhzohb",
+          "title": "Brahms: Symphonies Nos 1-4",
+          "score": 56.74,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "dhvx32etf36ab",
+          "title": "Mahler: Symphonies Nos. 3, 4 & 9 ",
+          "score": 55.11,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "jp5p0k4lcvpjb",
+          "title": "Bruckner: Symphonies Nos. 1-9",
+          "score": 55.11,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "ncyfh6n4obzmb",
+          "title": "Beethoven: Symphonies Nos. 1 & 5",
+          "score": 54.78,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "say42lq7jpadb",
+          "title": "Beethoven: Symphonies Nos. 1-9",
+          "score": 54.78,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "0002894784214",
+          "title": "Shostakovich: Symphonies Nos. 1 & 5",
+          "score": 53.88,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "rdwiaho8lhpxa",
+          "title": "Mahler: Symphony No. 9",
+          "score": 51.58,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "hzw2x04znnk5b",
+          "title": "Mahler: Symphony No. 2 'Resurrection'",
+          "score": 49.41,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "aj4zgms3cpdra",
+          "title": "Mahler: Orchestral Works",
+          "score": 47.8,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        }
+      ]
+    },
+    {
+      "discogs_id": "37312800",
+      "title": "Symphonie Nr.IV e-moll",
+      "lead_artist": "Rafael Kubelik",
+      "proposed_queries": [
+        "rafael kubelik brahms",
+        "rafael kubelik brahms op 98"
+      ],
+      "ranked_cached_hits": [
+        {
+          "album_id": "0002894824972",
+          "title": "Brahms : Symphonies Nos. 1–4 (Remastered)",
+          "score": 90.34,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": 1.0,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "g745wd46p0wcc",
+          "title": "Brahms Symphony No. 4 in E Minor, Op. 98",
+          "score": 50.85,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "yy7527m2ip0yb",
+          "title": "Brahms: The 4 Symphonies",
+          "score": 48.0,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "oztz24wqi3m4w",
+          "title": "Brahms: Symphonie No. 2, Chant du destin & Danses hongroises (Les indispensables de Diapason)",
+          "score": 47.04,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "b0urtwzjr9a3b",
+          "title": "Henryk Szeryng: Dvorak & Brahms",
+          "score": 46.4,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        },
+        {
+          "album_id": "sg3xxb8apkmwb",
+          "title": "Brahms: Piano Concerto No. 2 in B Flat, Op. 83 / Grieg: Piano Concerto in A Minor, Op. 16",
+          "score": 45.88,
+          "lead_artist_supported": true,
+          "possible_live_variant": false,
+          "programme_title_coverage": null,
+          "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+        }
+      ]
+    }
+  ]
+}

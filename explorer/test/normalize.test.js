@@ -181,8 +181,8 @@ assert.equal(query(flatRows, { ...empty, sp: "not_found" }).length, 1);
 const collection = enrichAll(collectionFrom(real));
 assert.equal(collection.length, 741);
 const realCounts = tally(collection);
-assert.equal(realCounts.spotify.found, 255);
-assert.equal(realCounts.spotify.probable, 276);
+assert.equal(realCounts.spotify.found, 254);
+assert.equal(realCounts.spotify.probable, 273);
 assert.equal(realCounts.spotify.not_found, 210);
 assert.equal(realCounts.qobuz.unchecked, 741);
 assert.equal(realCounts.neither, 0);
@@ -226,3 +226,44 @@ assert.deepEqual(sortedIds("title"), [2, 3, 1]);
 assert.deepEqual(sortedIds("title", "desc"), [1, 3, 2]);
 
 console.log("normalize tests ok", collection.length, "releases");
+
+// Separate publication evidence survives replacement of generated Spotify data.
+const { applyQobuz } = require('../app.js');
+const qobuzData = JSON.parse(fs.readFileSync(path.join(root, '..', 'data', 'qobuz_matches.json'), 'utf8'));
+const withQobuz = enrichAll(applyQobuz(collectionFrom(real), qobuzData.releases));
+const gould = withQobuz.find(it => it.discogs.id === 1445439);
+assert.equal(gould.qobuz.status, 'found');
+assert.equal(gould.qobuz.confidence, .95);
+assert.equal(gould.qobuz.alternates.length, 1);
+assert.equal(collectionFrom(real).find(it => it.discogs.id === 1445439).qobuz.status, 'unchecked');
+const sortedQobuz = query(withQobuz, {...empty, sort: 'qobuz'});
+assert.equal(sortedQobuz[0].qobuz.status, 'found');
+assert.equal(sortedQobuz.at(-1).qobuz.status, 'unchecked');
+assert.equal(withQobuz.length, 741);
+console.log('Qobuz sidecar merge and sorting ok');
+
+assert.equal(realCounts.spotify.unchecked, 4);
+for (const id of [1012732, 9458258]) {
+  const svc = collection.find(it => it.discogs.id === id).spotify;
+  assert.equal(svc.status, "unchecked");
+  assert.equal(svc.confidence, null);
+  assert.equal(svc.album, null);
+  assert.ok(svc.best_candidate.id);
+  assert.equal(svc.programme_review.status, "confirmed_partial_programme");
+  assert.ok(svc.programme_review.reason.length > 30);
+}
+console.log("Spotify partial-programme guard normalization ok");
+
+const recoveredDvorak = collection.find(it => it.discogs.id === 6119238).spotify;
+assert.equal(recoveredDvorak.status, "probable");
+assert.equal(recoveredDvorak.confidence, .85);
+assert.equal(recoveredDvorak.album.id, "6ECe5dUoLAX7LCyYArKemo");
+assert.equal(recoveredDvorak.programme_review.status, "reviewed_programme_supported");
+
+for (const id of [1252193, 5249935]) {
+  const svc = collection.find(it => it.discogs.id === id).spotify;
+  assert.equal(svc.status, "unchecked");
+  assert.equal(svc.confidence, null);
+  assert.equal(svc.album, null);
+  assert.equal(svc.programme_review.status, "confirmed_programme_mismatch");
+}

@@ -6,7 +6,7 @@ agents should follow [AGENTS.md](AGENTS.md).
 
 Match [Ali’s Discogs collection](https://www.discogs.com/user/ajozi/collection) (user `ajozi`, 741 classical releases) against the Spotify catalogue, and browse the result in a static explorer.
 
-Spotify today: **255 found**, **276 probable**, **210 not found**. Qobuz is `unchecked` on every row. `www.qobuz.com` answers 403 from the network that built this, so each row keeps a `qobuz.search_url` and the card links there. There is no Qobuz matcher.
+Saved Spotify results: **255 found**, **276 probable**, **210 not found**. Published Qobuz results remain `unchecked`, with search links in album details. A local, authenticated Qobuz catalogue PoC now works; it retrieves review candidates without changing published classifications. See [Qobuz setup, cache and enrichment handoff](docs/qobuz.md).
 
 The explorer is the page that was published from `apps/ali-discogs/` in the sigmus web app (live at <https://sigmus.fly.dev/ali-discogs/>). This repo is its long-term home. GitHub Pages serves it at <https://sigmus.github.io/ali-discogs/>.
 
@@ -21,6 +21,8 @@ raw/spotify/<16 hex>.json      cached Spotify search response, {"q", "resp"}
 raw/qobuz/                     empty; nothing is fetched
 explorer/                      static page (index.html, app.js, style.css, fixture, loader test)
 src/ali_discogs/               matcher
+scripts/                      read-only Qobuz catalogue probes and cache tests
+.qobuz-poc/                   ignored local upstream checkout and candidate metadata
 ```
 
 Spotify cache filenames are the first 16 hex chars of `sha1("album|{limit}|{query}")` with the default `limit` of 10. A rerun reads those files and does not call Spotify when the query is already cached. Discogs pages and release details work the same way: if `raw/discogs/...` exists, it is used.
@@ -100,14 +102,14 @@ The package layout:
 
 ## Explorer
 
-`explorer/index.html`, `app.js`, and `style.css` are the page. Paths are relative (`style.css`, `app.js`, `data/collection_matches.json`), so the same files work at the site root and under the `/ali-discogs/` prefix GitHub Pages uses for this repo. The UI uses a compact Sonoteque-style album table with Spotify status/confidence,
+`explorer/index.html`, `app.js`, and `style.css` are the page. Paths are relative (`style.css`, `app.js`, `data/collection_matches.json`), so the same files work at the site root and under the `/ali-discogs/` prefix GitHub Pages uses for this repo. The UI uses a compact Sonoteque-style album table with Spotify and Qobuz status/confidence,
 search, composer, label, genre/style, decade and sorting controls. Album links open
-dedicated details with the full track list, Spotify match and alternate candidates,
+dedicated details with the full track list, service matches, evidence and alternate candidates,
 and Discogs/Qobuz links. Filters survive navigation to details and back.
 
 `?data=fixture` loads eight invented rows from `explorer/data/fixture.json`.
 
-`make build` writes `dist/` with the page, the fixture, `collection_matches.json`, and `summary.json`. `make serve` builds and serves that directory. The loader test is `node explorer/test/normalize.test.js`.
+`make build` writes `dist/` with the page, the fixture, `collection_matches.json`, `summary.json`, and the separate `qobuz_matches.json` overlay. `make serve` builds and serves that directory. The loader test is `node explorer/test/normalize.test.js`.
 
 ## GitHub Pages
 
@@ -116,3 +118,70 @@ and Discogs/Qobuz links. Filters survive navigation to details and back.
 <https://sigmus.github.io/ali-discogs/>
 
 The workflow can only publish once the repository’s Pages source is **GitHub Actions**. If that is not set yet: **Settings → Pages → Build and deployment → Source → GitHub Actions**. Nothing else (no branch, no custom domain) is required. The test workflow (`.github/workflows/test.yml`) reruns the offline matcher on pull requests and checks that the counts stay 255 / 276 / 210.
+
+Qobuz scores are conservative programme/performer evidence levels, with unresolved
+cases left unchecked. The checked-in sanitized overlay survives Spotify rescoring;
+`make build` needs no local Qobuz cache, credentials or network access. To regenerate
+from completed local evidence, run `uv run python scripts/qobuz_match.py`.
+See [Qobuz setup and resume](docs/qobuz.md) and the
+[matching audit](docs/plans/2026-11-13-qobuz-audit.md) before interpreting scores.
+
+Portable Qobuz evidence is included in `data/qobuz_evidence.json.gz` (about 1.8 MB).
+After checkout, run `uv sync` and `uv run python scripts/qobuz_match.py` to regenerate
+matches offline: no token, local `.qobuz-poc/` folder or upstream checkout required.
+To inspect it, use Python's `gzip`/`json` modules; see [Qobuz docs](docs/qobuz.md).
+
+The complete successful Qobuz request cache is also shared in
+`data/qobuz_request_cache.tar.gz` (~5 MB, 1,788 responses). Restore locally with
+`python3 scripts/qobuz_cache_archive.py restore` to reuse API responses in the
+catalogue tools. It excludes credentials, logs and third-party source; see the
+[cache sharing guide](docs/qobuz.md#shared-request-cache).
+
+Explicit Qobuz target work/track credits are preserved in
+`data/qobuz_target_credits.json.gz`; this is a required offline matching input.
+The [refinement report](docs/plans/2026-11-13-query-credits-spotify-tracks.md)
+describes query relevance and conservative credit scoping.
+
+The ten-case Spotify comparison also has portable tracks at
+`data/spotify_pilot_tracks.json.gz` (227 tracks, no credentials/audio).
+Run `uv run --with requests python scripts/spotify_pilot_tracks.py --restore` to
+restore/replay these locally without authentication, then
+`uv run python scripts/spotify_pilot_audit.py` for the audit. Explicit live fetching
+uses the existing `sp` PKCE login via `--fetch --sp-python PATH_TO_SP_PYTHON`;
+it does not need a Spotify client secret in this repo. Local run state stays
+ignored under `.spotify-poc/`, and research archives are not part of Pages builds.
+
+Four pilot recording/programme reviews are preserved in
+`data/qobuz_lead_reviews.json`. Run `uv run python scripts/qobuz_lead_review.py`
+for the offline audit; publication regeneration consumes the existing comparison
+archive and checks source hashes. See [review and limits](docs/plans/2026-11-13-qobuz-lead-validation.md).
+
+Spotify matching also requires `data/spotify_programme_reviews.json` and the portable
+track archive above. Two explicitly reviewed partial albums are withheld as Unchecked,
+with missing-work explanations in details. Source changes require re-review; unreviewed
+alternatives are not automatically promoted. See [safeguard scope and tests](docs/plans/2026-11-13-spotify-programme-safeguard.md).
+
+Spotify follow-up evidence is shared separately in
+`data/spotify_dvorak_tracks.json.gz` and `data/spotify_broader_tracks.json.gz`.
+`uv run python scripts/spotify_followup_verify.py` verifies the two fixed scopes
+and reviewed findings offline. Dvorak's explicit positive replacement also requires
+`data/spotify_replacement_reviews.json`; negative reviews can reference a specific
+portable archive without overwriting the original pilot evidence.
+
+To restore the follow-up locally without credentials:
+
+```sh
+uv run --with requests python scripts/spotify_pilot_tracks.py \
+  --scope data/spotify_dvorak_scope.json --output .spotify-poc/dvorak \
+  --archive data/spotify_dvorak_tracks.json.gz --restore
+uv run --with requests python scripts/spotify_pilot_tracks.py \
+  --scope data/spotify_broader_scope.json --output .spotify-poc/broader \
+  --archive data/spotify_broader_tracks.json.gz --restore
+```
+
+A separately authorized `--fetch` uses an existing sp login (override `--sp-python`
+if needed), at least15-second spacing, persisted pages, STOP/lock and first-warning
+pause/no retry. Custom scopes are limited to12 albums and require separate output
+and archive paths. Ordinary invocation is offline. See the
+[follow-up and readiness review](docs/plans/2026-11-13-spotify-followup-readiness.md).
+Pages runs `make test` before publishing; PR CI includes all programme guard tests.

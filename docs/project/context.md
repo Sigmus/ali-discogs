@@ -1,62 +1,99 @@
 # Ali Discogs
 
-Updated: 2026-11-12, Europe/Amsterdam
+Updated: 2026-11-13, Europe/Amsterdam
 
-Match Ali's Discogs collection (`ajozi`) against Spotify and browse the results
-in a static explorer. See [README](../../README.md) for setup and matching rules.
+Match Ali's Discogs collection (`ajozi`) against Spotify and browse a static
+explorer. [README](../../README.md) owns setup/architecture; project history and
+plans preserve dated evidence and prior handoffs.
 
 ## Current state
 
-- Redesign developed on `codex/sonoteque-ui`, based on documentation commit `3c2d393`.
-  User authorized merging to main and pushing on 2026-11-12.
-  Application baseline: `99589fb`.
-  Inspect Git for subsequent changes and publication status.
-- Committed dataset generated 2026-11-11: 741 collection copies; Spotify has
-  255 found, 276 probable, and 210 not found. Qobuz has 741 unchecked.
-  Source: `data/summary.json`; these are saved results, not a fresh match run.
-- Explorer now uses a Sonoteque-style table and dedicated details, with search,
-  filters, sorting, match candidates,
-  track lists, and links to Discogs, Spotify, and Qobuz searches.
-- `make serve` builds `dist/` and serves on localhost:8000. The UI was started
-  and opened on 2026-11-12; the browser displayed all 741 releases. A server's
-  continued availability must be checked when resuming.
-- GitHub Pages now uses the GitHub Actions source (`build_type: workflow`).
-  Live site verified on 2026-11-12: album UI loads all 741 rows, without status
-  tabs or status hyperlinks. Deployment run `43231078310` succeeded.
+- Branch `codex/qobuz-poc`; checkpoint3f5a2c6 and three earlier commits unpushed.
+  User requested committing the completed Dvorak review, eight-case Spotify
+  audit and readiness checkpoint. No push, merge or deployment requested.
+- Current collection:741 copies /740 unique releases. Spotify254Found /273Probable
+  /210NotFound /4Unchecked copies. Retained labels are not independent full
+  recording confirmations. Qobuz figures below are independent enrichment.
+- Qobuz overlay: 12 Found / 67 Probable / 662 unchecked copies; unique 12/67/661.
+  Separate `data/qobuz_matches.json` survives Spotify rescoring; original pipeline
+  Qobuz fields stay unchecked. Empty/inconclusive queries are not confirmed absence.
+- Sonoteque table/details, 80% main width, column sorting (Year ascending default),
+  Spotify/Qobuz filters and frequency-order switch. Qobuz details show evidence.
+- Pages uses Actions on main. Last recorded live verification was 2026-11-12;
+  inspect current Actions/live page before claiming subsequent deployment status.
 
-## Limitations
+## Preserved catalogue evidence
 
-- No Qobuz matcher exists. The imported documentation reports HTTP 403;
-  access has not been rechecked in this session. Unchecked does not mean absent.
-- Match classifications are algorithmic results, not a completed manual audit.
-- Full offline Python matcher and UI normalization/query tests pass on
-  2026-11-12, along with the static build. Existing CI expectations
-  pin the offline Spotify totals to 255 / 276 / 210.
+- Original search: 740 queries, 370 nonempty / 370 empty, 1,217 candidate entries /
+  1,036 unique Qobuz albums. Full metadata completed 2026-11-13 01:15 Amsterdam:
+  27,770 tracks, album IDs/counts/unique track IDs verified. One 500/730-track
+  response was recovered with user-authorized strict pagination. Monitors deleted.
+- Shared `data/qobuz_evidence.json.gz` preserves original whitelisted evidence.
+  Raw request archive now has 1,788 responses (29 added in later bounded pilots);
+  original member payloads preserved. Credentials/run state remain ignored.
+- Comparison pilot adds portable `data/qobuz_comparison_evidence.json.gz`: twenty
+  fallback queries and eight complete selected albums (seven new/one reused).
+  Two corrected-query validations are separately preserved. No audio requested.
+- Shared evidence supports offline collaboration; [Qobuz guide](../qobuz.md) owns
+  export/restore/replay commands. No automatic refresh or warning retry permitted.
 
-## Active work and next action
+## Matching, audits and refinement
 
-Implemented AD-005 locally: table only, equal browsing/Spotify-review emphasis,
-dedicated details, all requested filters retained, Qobuz search link in details.
-Sonoteque theme tokens and component measurements are used in standalone CSS.
-The main container is capped at 80% of the viewport per user preference.
-Browser verified filtering, details/return, empty state, mobile and both themes;
-loader/query tests and build pass. No application data changed.
-Dropdowns now use Sonoteque’s exact `.view-select` CSS and SVG chevrons,
-verified in both themes. Filters use equal-width grid columns, Clear follows
-Sort, and the A to Z button is removed. All named table headers now toggle
-ascending/descending sorting with Sonoteque’s triangle indicators; the Sort
-selector stays synchronized. Spotify sorts by status then confidence. Spotify cells display confidence and status inline, e.g. `100% (Found)`.
-Status tabs have been removed; Spotify filtering remains in the dropdown.
-Table metadata/status are plain text; title and cover open details. Static
-detail labels use neutral colors so they do not resemble hyperlinks.
-Redesign committed as `c0ed7a3`, fast-forwarded into main and pushed to origin.
-Follow-up UI commit `8e9f638` is pushed and deployed. The previous branch-root
-Pages source served the README; switching to Actions fixed publication.
-[Plan and validation](../plans/2026-11-12-sonoteque-ui.md).
+- Current work-group-v2 matcher uses bounded inherited movement titles, explicit
+  vocal roles, conservative recording-group support and shared-opus work guards.
+  Found 95% / Probable 85% are heuristic levels, not calibrated probabilities or
+  independent recording-session verification. Ambiguous aliases remain unresolved.
+- Original-66 audit reproduced v1 scores: seven strict-coverage supports, one
+  incomplete-credit case with music present and 58 unresolved. Later comparison
+  across 66+10 selected matches fixes five evidence mappings, no shared track
+  assignments. All existing publication status labels remain unchanged.
+- Explicit target-credit archive derives positive work/position assignments for
+  128 releases from cached Discogs, with source hashes. Unknown/unscoped actors
+  stay required globally; cross-side ranges and parent/child units handled with
+  fail-closed guards. Candidate credits do not determine target requirements.
+- Query planner selects album leads instead of supporting players and fixes
+  compound composer query names. Relevance ranking is not match confidence.
+  Corrected Coltrane query finds actual A Love Supreme editions; live variant
+  flagged. Only two validation queries run, not a collection-wide expansion.
+- Thirty-release pilot: fallback hits for all ten originally empty releases,
+  three initial programme/performer leads. Credit/hierarchy changes
+  improve Barenboim target mapping from 23/31 flattened items to 8/8 work units.
+  Subsequent bounded review promotes Schnabel, Tennstedt and Kubelik to Probable,
+  with complete movement/credit checks and documented recording-cycle support.
+  Barenboim is excluded: target EMI1966–69 versus later DG cycle. Hash-bound
+  review permits one exact Schnabel joined track and Tennstedt Adagio excerpt.
+  Blank source credit assignments and other completeness/session gaps remain open.
 
-## References
+## Spotify track evidence
 
-- [Backlog](backlog.md)
-- [Decisions](decisions.md)
-- [History](history.md)
-- [Implementation plans](../plans/README.md)
+- Existing sp PKCE login reused; tokens stay outside the repo. Original ten albums
+  (227tracks) are shared portably; local state ignored, no playback/library calls.
+- Five negative candidate reviews: original Brahms whole collection/Symphony1
+  and Dvorak Sixth/MyHome, plus new wrong jazz concert, unrelated Debussy/Ravel
+  programme and Mendelssohn missing Scottish3. Known bad albums cannot be accepted
+  by similarity scores; preserve candidates and explain missing/mismatched works.
+- Dvorak replacement explicitly reviewed: both alternatives cover Sixth I–IV and
+  MyHome with required artists; selected39-track set Probable85. Original partial
+  remains rejected. Positive review has source hashes; exact take/mastering unverified.
+- Eight new risk-selected albums cached (140tracks); two Dvorak alternatives add
+  101tracks. Shared separate archives; original227-track archive unchanged.
+  Broader audit:2programme mismatches,1partial,3listed-programme supports and
+  2opera act-heading supports. Five retained labels still recording-unverified.
+  No population accuracy estimate; no title-gap-to-absence inference.
+
+## Validation and next action
+
+- Fresh checkout simulation passes9pipeline/guard +66script tests, portable audit,
+  byte-identical Qobuz replay, UI/JS/build. No local credentials/caches required.
+  Credential scan/whitelist/build-boundary checks pass; browser UI verified.
+- Readiness review: fetched origin/main0847175 is an ancestor; no conflict expected.
+  CI includes all guards; Pages now validates before publishing. Remote CI has not
+  run for the follow-up checkpoint. No actual merge/push/deployment performed.
+- Next action: push the committed follow-up and open a PR when requested; require green
+  remote checks before merge, then verify deployed page. Quality caveats remain.
+- [Follow-up findings and readiness](../plans/2026-11-13-spotify-followup-readiness.md).
+- [Spotify safeguard](../plans/2026-11-13-spotify-programme-safeguard.md) records scope and checks.
+- Latest review: [four Qobuz leads](../plans/2026-11-13-qobuz-lead-validation.md).
+- Details: [refinement and Spotify audit](../plans/2026-11-13-query-credits-spotify-tracks.md),
+  [comparison pilot](../plans/2026-11-13-service-comparison-pilot.md),
+  [backlog](backlog.md), [decisions](decisions.md), [history](history.md).

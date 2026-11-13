@@ -1,0 +1,963 @@
+{
+  "schema_version": 1,
+  "purpose": "Research gate only, not accepted matches or session verification.",
+  "inventory_reviewed_on": "2026-11-13",
+  "releases": [
+    {
+      "discogs_id": "890111",
+      "title": "Klaviersonaten = Piano Sonatas »Trauermarsch« = »Funeral March« Op. 26 & Op. 31, No. 1",
+      "candidates": [
+        {
+          "album_id": "0002894776360",
+          "requires_experimental_alias": false,
+          "ready_for_probable_integration": true,
+          "status": "complete",
+          "works": [
+            {
+              "target": "Klaviersonate Nr. 12 As-Dur Op. 26",
+              "status": "complete",
+              "expected_movements": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "observed_movements": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "missing_movements": [],
+              "track_ids": [
+                610562,
+                610571,
+                610580,
+                610589
+              ],
+              "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+              "scope": "whole-work-inventory",
+              "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+            },
+            {
+              "target": "Klaviersonate Nr. 16 G-Dur Op. 31 Nr. 1",
+              "status": "complete",
+              "expected_movements": [
+                1,
+                2,
+                3
+              ],
+              "observed_movements": [
+                1,
+                2,
+                3
+              ],
+              "missing_movements": [],
+              "track_ids": [
+                610528,
+                610537,
+                610546
+              ],
+              "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+              "scope": "whole-work-inventory",
+              "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+            }
+          ],
+          "overlapping_target_tracks": false
+        }
+      ]
+    },
+    {
+      "discogs_id": "1093216",
+      "title": "Symphonie Nr. 5",
+      "candidates": [
+        {
+          "album_id": "0002894778168",
+          "requires_experimental_alias": false,
+          "ready_for_probable_integration": false,
+          "status": "incomplete",
+          "works": [
+            {
+              "target": "Symphonie Nr. 5 C-moll Op. 67",
+              "status": "incomplete",
+              "expected_movements": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "observed_movements": [
+                1
+              ],
+              "missing_movements": [
+                2,
+                3,
+                4
+              ],
+              "track_ids": [
+                616175
+              ],
+              "source": "https://www.laphil.com/works/symphony-no-5-in-c-minor-op-67",
+              "scope": "whole-work-inventory",
+              "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+            }
+          ],
+          "overlapping_target_tracks": false
+        },
+        {
+          "album_id": "0002894791000",
+          "requires_experimental_alias": false,
+          "ready_for_probable_integration": true,
+          "status": "complete",
+          "works": [
+            {
+              "target": "Symphonie Nr. 5 C-moll Op. 67",
+              "status": "complete",
+              "expected_movements": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "observed_movements": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "missing_movements": [],
+              "track_ids": [
+                8505054,
+                8505056,
+                8505058,
+                8505060
+              ],
+              "source": "https://www.laphil.com/works/symphony-no-5-in-c-minor-op-67",
+              "scope": "whole-work-inventory",
+              "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+            }
+          ],
+          "overlapping_target_tracks": false
+        },
+        {
+          "album_id": "0002894805871",
+          "requires_experimental_alias": false,
+          "ready_for_probable_integration": false,
+          "status": "unknown",
+          "works": [
+            {
+              "target": "Symphonie Nr. 5 C-moll Op. 67",
+              "status": "unknown",
+              "expected_movements": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "observed_movements": [
+                null
+              ],
+              "missing_movements": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "track_ids": [
+                4514310
+              ],
+              "source": "https://www.laphil.com/works/symphony-no-5-in-c-minor-op-67",
+              "scope": "whole-work-inventory",
+              "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+            }
+          ],
+          "overlapping_target_tracks": false
+        },
+        {
+          "album_id": "y7nd66idm247a",
+          "requires_experimental_alias": false,
+          "ready_for_probable_integration": true,
+          "status": "complete",
+          "works": [
+            {
+              "target": "Symphonie Nr. 5 C-moll Op. 67",
+              "status": "complete",
+              "expected_movements": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "observed_movements": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "missing_movements": [],
+              "track_ids": [
+                54377019,
+                54377020,
+                54377021,
+                54377022
+              ],
+              "source": "https://www.laphil.com/works/symphony-no-5-in-c-minor-op-67",
+              "scope": "whole-work-inventory",
+              "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+            }
+          ],
+          "overlapping_target_tracks": false
+        }
+      ]
+    },
+    {
+      "discogs_id": "1469965",
+      "title": "Piano Transcriptions Of Orchestral Showpieces",
+      "candidates": [
+        {
+          "album_id": "0886445221237",
+          "requires_experimental_alias": false,
+          "ready_for_probable_integration": true,
+          "status": "complete",
+          "works": [
+            {
+              "target": "Meistersinger Prelude",
+              "status": "complete",
+              "scope": "listed-target-track",
+              "track_ids": [
+                26897976
+              ],
+              "target_duration_seconds": 572,
+              "candidate_duration_seconds": 582,
+              "source": "collection tracklist",
+              "reason": "Single credited title correspondence with duration within max(5 seconds, 3%); not whole-work or recording-session proof."
+            },
+            {
+              "target": "Dawn And Siegfried's Rhine Journey, From \"Götterdämmerung\"",
+              "status": "complete",
+              "scope": "listed-target-track",
+              "track_ids": [
+                26897977
+              ],
+              "target_duration_seconds": 792,
+              "candidate_duration_seconds": 795,
+              "source": "collection tracklist",
+              "reason": "Single credited title correspondence with duration within max(5 seconds, 3%); not whole-work or recording-session proof."
+            },
+            {
+              "target": "Siegfried Idyll",
+              "status": "complete",
+              "scope": "listed-target-track",
+              "track_ids": [
+                26897978
+              ],
+              "target_duration_seconds": 1419,
+              "candidate_duration_seconds": 1415,
+              "source": "collection tracklist",
+              "reason": "Single credited title correspondence with duration within max(5 seconds, 3%); not whole-work or recording-session proof."
+            }
+          ],
+          "overlapping_target_tracks": false
+        }
+      ]
+    },
+    {
+      "discogs_id": "1517438",
+      "title": "Klavierkonzert = Piano Concerto No.4",
+      "candidates": [
+        {
+          "album_id": "0002894779797",
+          "requires_experimental_alias": false,
+          "ready_for_probable_integration": true,
+          "status": "complete",
+          "works": [
+            {
+              "target": "Konzert Für Klavier Und Orchester Nr. 4 G-dur Op. 58",
+              "status": "complete",
+              "expected_movements": [
+                1,
+                2,
+                3
+              ],
+              "observed_movements": [
+                1,
+                2,
+                3
+              ],
+              "missing_movements": [],
+              "track_ids": [
+                5493242,
+                5493243,
+                5493244
+              ],
+              "source": "https://www.laphil.com/works/piano-concerto-no-4-in-g-major-op-58",
+              "scope": "whole-work-inventory",
+              "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+            }
+          ],
+          "overlapping_target_tracks": false
+        }
+      ]
+    },
+    {
+      "discogs_id": "1917259",
+      "title": "Appassionata Op. 57 / Sonate Op. 10 Nr. 2",
+      "candidates": [
+        {
+          "album_id": "0002894776360",
+          "requires_experimental_alias": false,
+          "ready_for_probable_integration": true,
+          "status": "complete",
+          "works": [
+            {
+              "target": "Klaviersonate Nr. 6 F-dur Op. 10 Nr. 2",
+              "status": "complete",
+              "expected_movements": [
+                1,
+                2,
+                3
+              ],
+              "observed_movements": [
+                1,
+                2,
+                3
+              ],
+              "missing_movements": [],
+              "track_ids": [
+                610552,
+                610561,
+                610570
+              ],
+              "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+              "scope": "whole-work-inventory",
+              "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+            },
+            {
+              "target": "Klaviersonate Nr. 23 F-moll Op. 57 »Appassionata«",
+              "status": "complete",
+              "expected_movements": [
+                1,
+                2,
+                3
+              ],
+              "observed_movements": [
+                1,
+                2,
+                3
+              ],
+              "missing_movements": [],
+              "track_ids": [
+                610592,
+                610601,
+                610609
+              ],
+              "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+              "scope": "whole-work-inventory",
+              "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+            }
+          ],
+          "overlapping_target_tracks": false
+        }
+      ]
+    },
+    {
+      "discogs_id": "2127229",
+      "title": "Klavierkonzert Nr. 5 · \"Emperor\" Concerto",
+      "candidates": [
+        {
+          "album_id": "0002894779797",
+          "requires_experimental_alias": false,
+          "ready_for_probable_integration": true,
+          "status": "complete",
+          "works": [
+            {
+              "target": "Konzert Für Klavier Und Orchester Nr. 5 Es-dur Op. 73 = Concerto For Piano And Orchestra No. 5 In E Flat Major, Op. 73",
+              "status": "complete",
+              "expected_movements": [
+                1,
+                2,
+                3
+              ],
+              "observed_movements": [
+                1,
+                2,
+                3
+              ],
+              "missing_movements": [],
+              "track_ids": [
+                5493246,
+                5493247,
+                5493248
+              ],
+              "source": "https://www.berliner-philharmoniker.de/en/programme-notes/ludwig-van-beethoven-concerto-for-piano-and-orchestra-in-e-flat-major-op-73/",
+              "scope": "whole-work-inventory",
+              "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+            }
+          ],
+          "overlapping_target_tracks": false
+        }
+      ]
+    },
+    {
+      "discogs_id": "2712474",
+      "title": "Violin Concertos No. 3 & 5",
+      "candidates": [
+        {
+          "album_id": "d4y2z1shovo2a",
+          "requires_experimental_alias": true,
+          "ready_for_probable_integration": false,
+          "status": "complete",
+          "works": [
+            {
+              "target": "Violin Concerto No. 3 In G Major, K. 216",
+              "status": "complete",
+              "expected_movements": [
+                1,
+                2,
+                3
+              ],
+              "observed_movements": [
+                1,
+                2,
+                3
+              ],
+              "missing_movements": [],
+              "track_ids": [
+                298121962,
+                298121963,
+                298121964
+              ],
+              "source": "https://www.laphil.com/works/violin-concerto-no-3-k-216",
+              "scope": "whole-work-inventory",
+              "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+            },
+            {
+              "target": "Violin Concerto No. 5 In A Major, K. 219 \"Turkish\"",
+              "status": "complete",
+              "expected_movements": [
+                1,
+                2,
+                3
+              ],
+              "observed_movements": [
+                1,
+                2,
+                3
+              ],
+              "missing_movements": [],
+              "track_ids": [
+                298121965,
+                298121966,
+                298121967
+              ],
+              "source": "https://www.laphil.com/works/violin-concerto-no-3-k-216",
+              "scope": "whole-work-inventory",
+              "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+            }
+          ],
+          "overlapping_target_tracks": false
+        }
+      ]
+    },
+    {
+      "discogs_id": "3000698",
+      "title": "Klaviersonaten Nos. 2 & 4 • Piano Sonatas • Sonates Pour Piano",
+      "candidates": [
+        {
+          "album_id": "0002894776360",
+          "requires_experimental_alias": false,
+          "ready_for_probable_integration": true,
+          "status": "complete",
+          "works": [
+            {
+              "target": "Klaviersonate Nr. 4 Es-dur Op. 7",
+              "status": "complete",
+              "expected_movements": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "observed_movements": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "missing_movements": [],
+              "track_ids": [
+                610524,
+                610533,
+                610542,
+                610551
+              ],
+              "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+              "scope": "whole-work-inventory",
+              "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+            },
+            {
+              "target": "Klaviersonate Nr. 2 A-dur Op. 2 Nr. 2",
+              "status": "complete",
+              "expected_movements": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "observed_movements": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "missing_movements": [],
+              "track_ids": [
+                610523,
+                610532,
+                610541,
+                610550
+              ],
+              "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+              "scope": "whole-work-inventory",
+              "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+            }
+          ],
+          "overlapping_target_tracks": false
+        }
+      ]
+    },
+    {
+      "discogs_id": "3275173",
+      "title": "Concerto No. 2 In C Minor, Op. 18",
+      "candidates": [
+        {
+          "album_id": "3610151639041",
+          "requires_experimental_alias": false,
+          "ready_for_probable_integration": true,
+          "status": "complete",
+          "works": [
+            {
+              "target": "Concerto No. 2 In C Minor, Op. 18",
+              "status": "complete",
+              "expected_movements": [
+                1,
+                2,
+                3
+              ],
+              "observed_movements": [
+                1,
+                2,
+                3
+              ],
+              "missing_movements": [],
+              "track_ids": [
+                11740816,
+                11740817,
+                11740818
+              ],
+              "source": "https://www.rsno.org.uk/wp-content/uploads/2023/11/Rachmaninov-Piano-Concerto-No2-91011-Nov-2023.pdf#page=12",
+              "scope": "whole-work-inventory",
+              "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+            }
+          ],
+          "overlapping_target_tracks": false
+        }
+      ]
+    },
+    {
+      "discogs_id": "3441146",
+      "title": "Sonaten - »Pathétique«·»Mondschein/Moonlight«",
+      "candidates": [
+        {
+          "album_id": "0002894776360",
+          "requires_experimental_alias": false,
+          "ready_for_probable_integration": true,
+          "status": "complete",
+          "works": [
+            {
+              "target": "Klaviersonate Nr. 14 cis-moll Op. 27 Nr. 2 »Mondschein-Sonate«",
+              "status": "complete",
+              "expected_movements": [
+                1,
+                2,
+                3
+              ],
+              "observed_movements": [
+                1,
+                2,
+                3
+              ],
+              "missing_movements": [],
+              "track_ids": [
+                610563,
+                610572,
+                610581
+              ],
+              "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+              "scope": "whole-work-inventory",
+              "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+            },
+            {
+              "target": "Klaviersonate Nr. 13 Es-dur Op. 27 Nr. 1 (Sonata Quasi Una Fantasia)",
+              "status": "complete",
+              "expected_movements": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "observed_movements": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "missing_movements": [],
+              "track_ids": [
+                610527,
+                610536,
+                610545,
+                610554
+              ],
+              "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+              "scope": "whole-work-inventory",
+              "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+            },
+            {
+              "target": "Klaviersonate Nr. 8 c-moll Op. 13 »Pathétique«",
+              "status": "complete",
+              "expected_movements": [
+                1,
+                2,
+                3
+              ],
+              "observed_movements": [
+                1,
+                2,
+                3
+              ],
+              "missing_movements": [],
+              "track_ids": [
+                610560,
+                610569,
+                610578
+              ],
+              "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+              "scope": "whole-work-inventory",
+              "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+            }
+          ],
+          "overlapping_target_tracks": false
+        }
+      ]
+    },
+    {
+      "discogs_id": "3699703",
+      "title": "9 Symphonien",
+      "candidates": [
+        {
+          "album_id": "0002894791673",
+          "requires_experimental_alias": false,
+          "ready_for_probable_integration": false,
+          "status": "unknown",
+          "works": [
+            {
+              "target": "Symphonie Nr. 1 C-dur Op. 21 ",
+              "status": "complete",
+              "expected_movements": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "observed_movements": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "missing_movements": [],
+              "track_ids": [
+                10519991,
+                10519993,
+                10519995,
+                10519997
+              ],
+              "source": "https://www.esm.rochester.edu/beethoven/symphony-no-1/",
+              "scope": "whole-work-inventory",
+              "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+            },
+            {
+              "target": "Symphonie Nr. 2 D-dur Op. 36 ",
+              "status": "complete",
+              "expected_movements": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "observed_movements": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "missing_movements": [],
+              "track_ids": [
+                10519999,
+                10520002,
+                10520006,
+                10520009
+              ],
+              "source": "https://www.esm.rochester.edu/beethoven/symphony-no-2/",
+              "scope": "whole-work-inventory",
+              "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+            },
+            {
+              "target": "Symphonie Nr. 3 Es-dur Op. 55 »Eroica« ",
+              "status": "complete",
+              "expected_movements": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "observed_movements": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "missing_movements": [],
+              "track_ids": [
+                10520012,
+                10520015,
+                10520018,
+                10520022
+              ],
+              "source": "https://www.esm.rochester.edu/beethoven/symphony-no-3/",
+              "scope": "whole-work-inventory",
+              "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+            },
+            {
+              "target": "Symphonie Nr. 4 B-dur Op. 60",
+              "status": "complete",
+              "expected_movements": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "observed_movements": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "missing_movements": [],
+              "track_ids": [
+                10520025,
+                10520028,
+                10520031,
+                10520035
+              ],
+              "source": "https://www.esm.rochester.edu/beethoven/symphony-no-4/",
+              "scope": "whole-work-inventory",
+              "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+            },
+            {
+              "target": "Symphonie Nr. 5 c-moll Op. 67",
+              "status": "complete",
+              "expected_movements": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "observed_movements": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "missing_movements": [],
+              "track_ids": [
+                10520038,
+                10520041,
+                10520044,
+                10520047
+              ],
+              "source": "https://www.laphil.com/works/symphony-no-5-in-c-minor-op-67",
+              "scope": "whole-work-inventory",
+              "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+            },
+            {
+              "target": "Symphonie Nr. 6 F-dur Op. 68 »Pastorale« ",
+              "status": "complete",
+              "expected_movements": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "observed_movements": [
+                1,
+                2,
+                3,
+                4,
+                5
+              ],
+              "missing_movements": [],
+              "track_ids": [
+                10520051,
+                10520053,
+                10520055,
+                10520057,
+                10520059
+              ],
+              "source": "https://www.esm.rochester.edu/beethoven/symphony-no-6/",
+              "scope": "whole-work-inventory",
+              "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+            },
+            {
+              "target": "Symphonie Nr. 7 A-dur Op. 92 ",
+              "status": "complete",
+              "expected_movements": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "observed_movements": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "missing_movements": [],
+              "track_ids": [
+                10520061,
+                10520063,
+                10520065,
+                10520067
+              ],
+              "source": "https://www.esm.rochester.edu/beethoven/symphony-no-7/",
+              "scope": "whole-work-inventory",
+              "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+            },
+            {
+              "target": "Symphonie Nr. 8 F-dur Op. 93 ",
+              "status": "complete",
+              "expected_movements": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "observed_movements": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "missing_movements": [],
+              "track_ids": [
+                10520069,
+                10520071,
+                10520073,
+                10520075
+              ],
+              "source": "https://www.esm.rochester.edu/beethoven/symphony-no-8/",
+              "scope": "whole-work-inventory",
+              "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+            },
+            {
+              "target": "Symphonie Nr. 9 d-moll Op. 125",
+              "status": "unknown",
+              "expected_movements": [
+                1,
+                2,
+                3,
+                4
+              ],
+              "observed_movements": [
+                1,
+                2,
+                3,
+                null,
+                null
+              ],
+              "missing_movements": [
+                4
+              ],
+              "track_ids": [
+                10520077,
+                10520079,
+                10520081,
+                10520083,
+                10520085
+              ],
+              "source": "https://www.esm.rochester.edu/beethoven/symphony-no-9/",
+              "scope": "whole-work-inventory",
+              "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+            }
+          ],
+          "overlapping_target_tracks": false
+        }
+      ]
+    },
+    {
+      "discogs_id": "4382530",
+      "title": "Klavierkonzert Nr. 1 B-Moll",
+      "candidates": [
+        {
+          "album_id": "0002894190682",
+          "requires_experimental_alias": false,
+          "ready_for_probable_integration": true,
+          "status": "complete",
+          "works": [
+            {
+              "target": "Konzert Für Klavier Und Orchester Nr. 1 B-Moll Op. 23",
+              "status": "complete",
+              "expected_movements": [
+                1,
+                2,
+                3
+              ],
+              "observed_movements": [
+                1,
+                2,
+                3
+              ],
+              "missing_movements": [],
+              "track_ids": [
+                520033,
+                520034,
+                520035
+              ],
+              "source": "https://pac.uga.edu/wp-content/uploads/2024/05/Atlanta-Symphony-Orchestra-4.13.25-program-PDF.pdf#page=2",
+              "scope": "whole-work-inventory",
+              "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+            }
+          ],
+          "overlapping_target_tracks": false
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "complete": 12,
+    "incomplete": 1,
+    "unknown": 2,
+    "releases_with_complete_candidate": 11,
+    "releases_ready_for_probable_integration": 10
+  },
+  "provenance": {
+    "checker_version": "qobuz-completeness-pilot-v2",
+    "pilot_sha256": "820e58a719cb709b9993257419d406e1fe8492c4c47be2db3732c1e74c24461c",
+    "inventory_sha256": "ac5b17039789d5e994c13492246e74dd62bd8194dd089f579668d98e82dfe3f9",
+    "collection_sha256": "568e740daa2510e838b392ddb3c68963f1dbf3c614f4347b8df0fb5e31babab8",
+    "metadata_manifest_fingerprint": "5c4a9f6b2bf19892aefcb01ad617d1584cada9f2ca34b56d32dade8ed444bf9d"
+  }
+}

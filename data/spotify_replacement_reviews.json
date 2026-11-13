@@ -1,0 +1,63 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-13",
+  "policy": "Explicit bounded positive review, never an automatic fallback from a rejected album.",
+  "entries": [
+    {
+      "discogs_id": "6119238",
+      "album_id": "6ECe5dUoLAX7LCyYArKemo",
+      "album_name": "Dvorák: The Symphonies/Overtures",
+      "total_tracks": 39,
+      "target_sha256": "044281d43949d5c581ed1469ec7ccf42b4e3a1b83510c1ab55b3a76c9aabb175",
+      "album_evidence_sha256": "61eb5a7427661144f5e89a0584ec6e13a6a606c87bfd126c1a52b3e8389bc2f9",
+      "track_archive": "spotify_dvorak_tracks.json.gz",
+      "track_archive_sha256": "ae2c72e6be9c0649b45ed1350790da539ab275b4a9da1fdd62295d8597c2abc2",
+      "required_artists": [
+        "Antonín Dvořák",
+        "István Kertész",
+        "London Symphony Orchestra"
+      ],
+      "programme": [
+        {
+          "target": "Symphony No. 6 In D, Op. 60",
+          "track_ids": [
+            "3QpbYJIYrnsBpKYvXgE2RI",
+            "6AgQ8fHjXwy8rzQ64C1gal",
+            "71S364MwjiDqvIMJ91QVCE",
+            "1jksTBq0iufnMAVrZziHd4"
+          ],
+          "movement_numbers": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "durations_ms": [
+            950720,
+            691600,
+            473120,
+            619560
+          ]
+        },
+        {
+          "target": "Overture: My Home, Op. 62",
+          "track_ids": [
+            "2CbBf28pTNOt3WBj5XNf0Y"
+          ],
+          "movement_numbers": [
+            null
+          ],
+          "durations_ms": [
+            576906
+          ]
+        }
+      ],
+      "finding": "Reviewed replacement contains the complete Sixth (four movements) and My Home, with Dvořák, Kertész and the LSO listed on every selected track. My Home is 9:36.9 versus the LP’s 9:35. The incomplete prior album is excluded.",
+      "limitation": "Probable programme and performer correspondence within the Decca cycle; artist lists do not establish instrument roles, exact take or LP mastering. 85% is heuristic.",
+      "sources": [
+        "https://www.eloquenceclassics.com/releases-archive/dvorak-overtures-tone-poems/",
+        "https://shop.deccarecordsus.com/products/london-symphony-orchestra-dvorak-complete-symphonies-tone-poems-overtures-requiem"
+      ]
+    }
+  ]
+}

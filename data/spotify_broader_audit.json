@@ -1,0 +1,417 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-13",
+  "selection": "Four Found and four Probable unique releases, evenly spaced by numeric Discogs ID within each status among targets with at least two current work units and selected albums of 2–40 tracks. Excludes the original ten-case pilot. Purposive multi-item risk sample, not representative or random.",
+  "track_archive_sha256": "1c51348e533654f44c476b0281f6638970066bc39062382fe3747894870e9ee9",
+  "scope_sha256": "ce88860433cc06952498863380104b4fd41e4e0b2b4cc364d429a9aeef032235",
+  "entries": [
+    {
+      "discogs_id": "1010200",
+      "target_title": "Die Brandenburgischen Konzerte",
+      "original_status": "found",
+      "album_id": "2H0pZpcCXADx7s2mWpZA1s",
+      "album_title": "Bach: die Brandenburgischen Konzerte",
+      "target_sha256": "88d60513ceaf4f7dbb930828080ae71f07abb339ae6b18b22a5c1de52ae996dc",
+      "album_evidence_sha256": "60bb6300fb25fb5f93144b20b817b430c33e4db415168c6e3115b520c5b6fc6b",
+      "track_count": 19,
+      "review_status": "listed_programme_supported",
+      "finding": "All six Brandenburg concertos appear as BWV1046–1051 with 4/3/3/3/3/3 tracks; target order differs from digital. Historical recording identity not independently verified.",
+      "recording_status": "unresolved; artist lists lack instrument/conductor roles and exact session provenance",
+      "automatic_title_mapping_diagnostic_only": [
+        {
+          "target": "1. Brandenburgisches Konzert F-dur Für 2 Hörner, 3 Oboen, Fagott, Violino Piccolo, Streicher Und Basso Continuo",
+          "track_ids": []
+        },
+        {
+          "target": "3. Brandenburgisches Konzert G-dur Für 3 Violinen, 3 Violen, 3 Violoncelli, Kontrabaß Und Cembalo",
+          "track_ids": []
+        },
+        {
+          "target": "4. Brandenburgisches Konzert G-dur Für Solovioline, 2 Blockflöten, 2 Violinen, Viola, Violoncello Und Basso Continuo",
+          "track_ids": []
+        },
+        {
+          "target": "5. Brandenburgisches Konzert D-dur Für Cembalo Concertato, Traversflöte, Solovioline, Violine, Viola, Violoncello Und Basso Continuo",
+          "track_ids": []
+        },
+        {
+          "target": "2. Brandenburgisches Konzert F-dur Für Clarintrompete, Blockflöte, Oboe, Violine, Streicher Und Basso Continuo",
+          "track_ids": []
+        },
+        {
+          "target": "6. Brandenburgisches Konzert B-dur Für 2 Violen, 2 Viole Da Gamba, Violoncello Und Basso Continuo",
+          "track_ids": []
+        }
+      ]
+    },
+    {
+      "discogs_id": "4067901",
+      "target_title": "Les 14 Valses",
+      "original_status": "found",
+      "album_id": "2tqj5U25MXjOG4dgKRPb4S",
+      "album_title": "Chopin: Les 14 Valses",
+      "target_sha256": "16e35cd5590cfc8966fa690e1d79475d7f3daa755bd18f78475bf171912a7177",
+      "album_evidence_sha256": "1553ed984ea8ec79299edfd332ed67e006558786f44c6cc36fd6acab91a9d695",
+      "track_count": 14,
+      "review_status": "listed_programme_supported",
+      "finding": "Fourteen waltzes correspond by opus/subnumber and final E-minor posthumous waltz. Title translations are not missing works. Exact recording/take remains unverified.",
+      "recording_status": "unresolved; artist lists lack instrument/conductor roles and exact session provenance",
+      "automatic_title_mapping_diagnostic_only": [
+        {
+          "target": "Valse N°1 En Mi Bémol Majeur, Op. 18 - \"Grande Valse Brillante\"",
+          "track_ids": [
+            "6J6pwFyoyxV7xxqzQ0GulZ"
+          ]
+        },
+        {
+          "target": "Valse N°2 En La Bémol Majeur, Op. 34 N°1",
+          "track_ids": []
+        },
+        {
+          "target": "Valse N°3 En La Mineur, Op. 34 N°2",
+          "track_ids": []
+        },
+        {
+          "target": "Valse N°4 En Fa Majeur, Op. 34 N°3",
+          "track_ids": []
+        },
+        {
+          "target": "Valse N°5 Grande Valse En La Bémol Majeur, Op. 42",
+          "track_ids": [
+            "3Z4wTW9w5xq2WmP18KW5jQ"
+          ]
+        },
+        {
+          "target": "Valse N°6 En Ré Bémol Majeur, Op. 64 N°1",
+          "track_ids": []
+        },
+        {
+          "target": "Valse N°7 En Ut Dièse Mineur, Op. 64 N°2",
+          "track_ids": []
+        },
+        {
+          "target": "Valse N°8 En La Bémol Majeur, Op. 64 N°3",
+          "track_ids": []
+        },
+        {
+          "target": "Valse N°9 En La Bémol Majeur, Op. 69 N°1 - \"De L'Adieu\"",
+          "track_ids": []
+        },
+        {
+          "target": "Valse N°10 En Si Mineur, Op. 69 N°2",
+          "track_ids": []
+        },
+        {
+          "target": "Valse N°11 En Sol Bémol Majeur, Op. 70 N°1",
+          "track_ids": []
+        },
+        {
+          "target": "Valse N°12 En Fa Mineur, Op. 70 N°2",
+          "track_ids": []
+        },
+        {
+          "target": "Valse N°13 En Ré Bémol Majeur, Op. 70 N°3",
+          "track_ids": []
+        },
+        {
+          "target": "Valse N°14 En Mi Mineur, Op. Posthume",
+          "track_ids": []
+        }
+      ]
+    },
+    {
+      "discogs_id": "7577224",
+      "target_title": "Pelleas Et Melisande",
+      "original_status": "found",
+      "album_id": "7hOaI2sQ0tJ233JKPT77js",
+      "album_title": "Debussy: Pelléas et Mélisande",
+      "target_sha256": "aa92f813b067038f737aace411bb47f217787b574397df3b69cb9cdff48d9261",
+      "album_evidence_sha256": "2d0944756200a192e6cef8bc97fc6e5578449067456569f421c435547777d34e",
+      "track_count": 37,
+      "review_status": "target_headings_supported",
+      "finding": "All five Pelleas acts appear. Target has only five act headings; full scene/text completeness and recording identity not established by headings alone.",
+      "recording_status": "unresolved; artist lists lack instrument/conductor roles and exact session provenance",
+      "automatic_title_mapping_diagnostic_only": [
+        {
+          "target": "Act I",
+          "track_ids": []
+        },
+        {
+          "target": "Act II",
+          "track_ids": []
+        },
+        {
+          "target": "Act III",
+          "track_ids": []
+        },
+        {
+          "target": "Act IV",
+          "track_ids": []
+        },
+        {
+          "target": "Act V",
+          "track_ids": []
+        }
+      ]
+    },
+    {
+      "discogs_id": "24278222",
+      "target_title": "Dido And Aeneas",
+      "original_status": "found",
+      "album_id": "2AwilJPMXI7zNpTtN9cYcG",
+      "album_title": "Purcell: Dido and Aeneas",
+      "target_sha256": "3c0526bea87f2d8f1f842ec325eb5b99876b05a9098d160552537b98651120cf",
+      "album_evidence_sha256": "3f7e860d46af9cef453564ff2d7ba3d15cfddab201b03b0cbe3b2be2d294109b",
+      "track_count": 40,
+      "review_status": "target_headings_supported",
+      "finding": "All three Dido acts and overture appear; the two LP portions of Act2 are one digital act. Two bonus final-scene tracks. Full scene completeness and recording identity remain unverified.",
+      "recording_status": "unresolved; artist lists lack instrument/conductor roles and exact session provenance",
+      "automatic_title_mapping_diagnostic_only": [
+        {
+          "target": "Act 1",
+          "track_ids": []
+        },
+        {
+          "target": "Act 2 (First Part)",
+          "track_ids": []
+        },
+        {
+          "target": "Act 2 (Conclusion)",
+          "track_ids": []
+        },
+        {
+          "target": "Act 3",
+          "track_ids": []
+        }
+      ]
+    },
+    {
+      "discogs_id": "1252193",
+      "target_title": "The Greatest Jazz Concert Ever",
+      "original_status": "probable",
+      "album_id": "0GxMH1Xgx3pMzN37aoTGaJ",
+      "album_title": "Concert of the Century - A Tribute to Charlie Parker",
+      "target_sha256": "44a36d76c9a89689e447719dc7481366de65209bbe7906c06f7ca35416a0e99f",
+      "album_evidence_sha256": "fd6263f0a68e38b0f2fcc382cb5486244607299a48b5ecb937c6f71460acddb9",
+      "track_count": 8,
+      "review_status": "confirmed_programme_mismatch",
+      "finding": "The eight tracks belong to Concert of the Century, a different concert programme. None of the sixteen requested titles is present; this is not The Greatest Jazz Concert Ever.",
+      "recording_status": "unresolved; artist lists lack instrument/conductor roles and exact session provenance",
+      "automatic_title_mapping_diagnostic_only": [
+        {
+          "target": "Perdido",
+          "track_ids": []
+        },
+        {
+          "target": "Salt Peanuts",
+          "track_ids": []
+        },
+        {
+          "target": "All The Things You Are",
+          "track_ids": []
+        },
+        {
+          "target": "Wee",
+          "track_ids": []
+        },
+        {
+          "target": "Hot House",
+          "track_ids": []
+        },
+        {
+          "target": "A Night In Tunisia",
+          "track_ids": []
+        },
+        {
+          "target": "Embraceable You",
+          "track_ids": []
+        },
+        {
+          "target": "Sure Thing",
+          "track_ids": []
+        },
+        {
+          "target": "My Devotion",
+          "track_ids": []
+        },
+        {
+          "target": "Polka Dots And Moonbeams",
+          "track_ids": []
+        },
+        {
+          "target": "Cherokee",
+          "track_ids": []
+        },
+        {
+          "target": "Jubilee",
+          "track_ids": []
+        },
+        {
+          "target": "I've Got You Under My Skin",
+          "track_ids": []
+        },
+        {
+          "target": "My Heart Stood Still",
+          "track_ids": []
+        },
+        {
+          "target": "I Want To Be Happy",
+          "track_ids": []
+        },
+        {
+          "target": "Lullaby Of Birdand",
+          "track_ids": []
+        }
+      ]
+    },
+    {
+      "discogs_id": "5249935",
+      "target_title": "Ibéria • La Mer • Prelude To \"The Afternoon Of A Faun\"",
+      "original_status": "probable",
+      "album_id": "6vpFLMK4oDZ2wgB34RI7Jz",
+      "album_title": "Debussy: Nocturnes; Ravel: Daphnis et Chloé Suite No. 2 (Paul Paray: The Mercury Masters II, Volume 17)",
+      "target_sha256": "4ecf0e8b83db54ecf44b7be65bcd0f7439727f0a391a303bf467613bf36b04cf",
+      "album_evidence_sha256": "b7fd6f6ca84ca13ba3483da18fde910ef5c7b9c5f2260e6dc0a01301ae872f0f",
+      "track_count": 6,
+      "review_status": "confirmed_programme_mismatch",
+      "finding": "All six tracks are Debussy Nocturnes and Ravel Daphnis Suite2; requested Iberia, La Mer and Prelude to the Afternoon of a Faun are absent.",
+      "recording_status": "unresolved; artist lists lack instrument/conductor roles and exact session provenance",
+      "automatic_title_mapping_diagnostic_only": [
+        {
+          "target": "Iberia (Images For Orchestra, No. 2)",
+          "track_ids": []
+        },
+        {
+          "target": "In The Streets And Byways",
+          "track_ids": []
+        },
+        {
+          "target": "Fragrance Of The Night",
+          "track_ids": []
+        },
+        {
+          "target": "Morning Of A Festival Day",
+          "track_ids": []
+        },
+        {
+          "target": "-",
+          "track_ids": []
+        },
+        {
+          "target": "Prelude To \"The Afternoon Of A Faun\"",
+          "track_ids": []
+        },
+        {
+          "target": "La Mer (\"The Sea\") - Three Symphonic Sketches",
+          "track_ids": []
+        },
+        {
+          "target": "From Dawn Till Noon On The Sea",
+          "track_ids": []
+        },
+        {
+          "target": "Play Of The Waves",
+          "track_ids": []
+        },
+        {
+          "target": "Dialogue Of The Wind And The Sea",
+          "track_ids": []
+        }
+      ]
+    },
+    {
+      "discogs_id": "9458258",
+      "target_title": "Scotch Symphony / Italian Symphony",
+      "original_status": "probable",
+      "album_id": "3j6WUDThx2oosV3K4Q4reO",
+      "album_title": "Mendelssohn: Symphonies Nos.4 \"Italian\" & 5 \"Reformation\"",
+      "target_sha256": "f36a3c1dde2832e1ffea58bb9f677b49d0c8e8d1deb9a853a742534de2dedd15",
+      "album_evidence_sha256": "d4e79a719013f84430609fa4c5ecd7065af77b5109f4f1392207dc0ebd5ada8b",
+      "track_count": 8,
+      "review_status": "confirmed_partial_programme",
+      "finding": "Italian Symphony4 is present in four movements, but requested Scottish Symphony3 Op.56 is absent. The other four tracks are Reformation Symphony5 Op.107.",
+      "recording_status": "unresolved; artist lists lack instrument/conductor roles and exact session provenance",
+      "automatic_title_mapping_diagnostic_only": [
+        {
+          "target": "Symphony No. 3 In A Minor, Op. 56—\"Scotch\"",
+          "track_ids": []
+        },
+        {
+          "target": "Symphony No. 4 In A Major, Op. 90—\"Italian\"",
+          "track_ids": [
+            "0ObxUGg2TbHVhy0EegzDfv",
+            "7yH265kNiNPfsAAkrfkUKb",
+            "45VcWHuSggpRKylZa6TuDV",
+            "7DzznxgaNgYMiNZsFFjMja"
+          ]
+        }
+      ]
+    },
+    {
+      "discogs_id": "29719858",
+      "target_title": "Cello Concerto • Silent Woods • Songs My Mother Taught Me • Lasst Mich Allein • Goin' Home",
+      "original_status": "probable",
+      "album_id": "2DkUvnxlZmEMBmPOmzC4lE",
+      "album_title": "Dvořák: Cello Concerto",
+      "target_sha256": "4976a46f3c345caf070e1d0cbcf00a4c30db2d996869b43a72fbf4f1b7cee0e8",
+      "album_evidence_sha256": "63031a8794df3fbb762213fa31ec5e1be4d121d38e836aee1c1ca6e35bbf2353",
+      "track_count": 8,
+      "review_status": "listed_programme_supported",
+      "finding": "Cello Concerto in three movements plus five listed arrangements are present, including Silent Woods, Songs My Mother Taught Me, Lasst Mich Allein, Goin Home and Romantic Piece. A grouping heading is not another requested composition; exact live performance/recording remains unverified.",
+      "recording_status": "unresolved; artist lists lack instrument/conductor roles and exact session provenance",
+      "automatic_title_mapping_diagnostic_only": [
+        {
+          "target": "Concerto For Cello And Orchestra In B Minor Op. 104 (B 191) = Konzert Für Violoncello Und Orchester H-moll (Live Recording)",
+          "track_ids": [
+            "0IQ2wNbgTMGCVh2R0RYtY4",
+            "3z3wCIsXBj8yeBAl35hf0C",
+            "4gWC5bCZxPgRqs65nM9hHv"
+          ]
+        },
+        {
+          "target": "Arrangements For Solo Cello And Cello Ensemble",
+          "track_ids": []
+        },
+        {
+          "target": "Lasst Mich Allein No. 1 From 4 Lieder Op. 82 (B 157) = Leave Me Alone. Andante",
+          "track_ids": [
+            "677uA8tjjsuOdadGFz6QCO"
+          ]
+        },
+        {
+          "target": "Goin' Home After The Largo From Symphony No. 9 In E Minor \"From The New World\" Op. 95 (B 178)",
+          "track_ids": [
+            "3xKEsO01bOOnA3QIgpDQk0"
+          ]
+        },
+        {
+          "target": "Songs My Mother Taught Me No. 4 From Gypsy Melodies Op. 55 (B 104) = Als Die Alte Mutter Mich Noch Lehrte Singen",
+          "track_ids": [
+            "1rAOWBj54LH8ooWg02NWTJ"
+          ]
+        },
+        {
+          "target": "Allegro Moderato No. 1 From 4 Romantic Pieces Op. 75 (B 150)",
+          "track_ids": [
+            "3h36nK2T0kIsfEh6buiZPw"
+          ]
+        },
+        {
+          "target": "Silent Woods No. 5 From From The Bohemian Forest Op. 68 (B 133) = Waldesruhe. Lento E Molto Cantabile",
+          "track_ids": [
+            "7j87LO2Hp9wJsS04ZVNnVw"
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "albums": 8,
+    "tracks": 140,
+    "confirmed_programme_mismatches": 2,
+    "confirmed_partial_programmes": 1,
+    "listed_programmes_supported_recording_unverified": 3,
+    "target_heading_support_only": 2
+  },
+  "limitation": "Purposive sample; no population accuracy estimate. Five retained labels are not independent full recording verifications."
+}

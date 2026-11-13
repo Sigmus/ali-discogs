@@ -1,0 +1,496 @@
+{
+  "schema_version": 1,
+  "audited_on": "2026-11-13",
+  "policy": "Dated review observations, not score overrides. Nonrandom ten-album sample; no accuracy-rate estimate.",
+  "track_evidence_sha256": "199050acc341abf7fc5806f9053dc2f1c1920975e64b64cb53b575d0e6d4a0c4",
+  "entries": [
+    {
+      "discogs_id": "669978",
+      "target_title": "The Man With The Horn",
+      "published_status": "found",
+      "album_id": "1fRSDRiFk922cV3bgFCdtz",
+      "album_title": "The Man With The Horn (2022 Remaster)",
+      "album_url": "https://open.spotify.com/album/1fRSDRiFk922cV3bgFCdtz",
+      "track_count": 6,
+      "programme": [
+        {
+          "target": "Fat Time",
+          "track_ids": [
+            "58lV79BZU7PlnHRUC8kDNL"
+          ]
+        },
+        {
+          "target": "Back Seat Betty",
+          "track_ids": [
+            "5Z0YHVCrkPfRX6YhX5W2hQ"
+          ]
+        },
+        {
+          "target": "Shout",
+          "track_ids": []
+        },
+        {
+          "target": "Aïda",
+          "track_ids": []
+        },
+        {
+          "target": "The Man With The Horn",
+          "track_ids": [
+            "47ULAV7jxxH7xf4qFrIe11"
+          ]
+        },
+        {
+          "target": "Ursula",
+          "track_ids": []
+        }
+      ],
+      "title_supported_items": 3,
+      "target_items": 6,
+      "recording_credit_status": "unverified: Spotify artist lists do not provide instrument/conductor/chorus roles",
+      "interpretation": "Unmapped titles may be parser, translation or catalogue gaps; not automatic absence.",
+      "review_status": "unresolved_recording_validation"
+    },
+    {
+      "discogs_id": "3569461",
+      "target_title": "Symfoni Nr. 3. \"Espansiva\"",
+      "published_status": "found",
+      "album_id": "4EynPoWcBb1hycDLHReOCg",
+      "album_title": "Nielsen: Symphonies Nos. 3 & 5",
+      "album_url": "https://open.spotify.com/album/4EynPoWcBb1hycDLHReOCg",
+      "track_count": 6,
+      "programme": [
+        {
+          "target": "Sinfonia Eespansiva (No. 3), Op. 27 (Beginning)",
+          "track_ids": [
+            "2zVzvaOwUw9BWv2hEciFkO",
+            "4gPs14LBTy78y3CWnpDoiT",
+            "5KEqOWcGRU0wXjwNbCOiJI",
+            "79nSP4dTP6wE5sJh1Bg8nM"
+          ]
+        },
+        {
+          "target": "Sinfonia Eespansiva (No. 3), Op. 27 (Conclusion)",
+          "track_ids": [
+            "2zVzvaOwUw9BWv2hEciFkO",
+            "4gPs14LBTy78y3CWnpDoiT",
+            "5KEqOWcGRU0wXjwNbCOiJI",
+            "79nSP4dTP6wE5sJh1Bg8nM"
+          ]
+        }
+      ],
+      "title_supported_items": 2,
+      "target_items": 2,
+      "recording_credit_status": "unverified: Spotify artist lists do not provide instrument/conductor/chorus roles",
+      "interpretation": "Unmapped titles may be parser, translation or catalogue gaps; not automatic absence.",
+      "review_status": "unresolved_recording_validation"
+    },
+    {
+      "discogs_id": "6119238",
+      "target_title": "Symphony No. 6 / Overture 'My Home'",
+      "published_status": "found",
+      "album_id": "5arfXVZ6Cp45OVLB8EBf0E",
+      "album_title": "Dvorák: Symphonies Nos.4-6",
+      "album_url": "https://open.spotify.com/album/5arfXVZ6Cp45OVLB8EBf0E",
+      "track_count": 15,
+      "programme": [
+        {
+          "target": "Symphony No. 6 In D, Op. 60",
+          "track_ids": [
+            "6M6BxETPG3WQdlRP6T0HAX",
+            "4Plumf9pOvB4iX6O9smOyD",
+            "2MH0SXSz60i2J0Wm5JZoHt",
+            "0dtojzlTlmKrxTJCCRCMjK"
+          ]
+        },
+        {
+          "target": "Overture: My Home, Op. 62",
+          "track_ids": []
+        }
+      ],
+      "title_supported_items": 1,
+      "target_items": 2,
+      "recording_credit_status": "unverified: Spotify artist lists do not provide instrument/conductor/chorus roles",
+      "interpretation": "Unmapped titles may be parser, translation or catalogue gaps; not automatic absence.",
+      "review_status": "confirmed_partial_programme",
+      "finding": "Symphony No.6 Op.60 present, but requested My Home Op.62 absent. Extras are In Nature's Realm Op.91, Carnival Op.92 and Scherzo capriccioso Op.66."
+    },
+    {
+      "discogs_id": "8982341",
+      "target_title": "Götterdämmerung",
+      "published_status": "found",
+      "album_id": "4tEj5Vtog4QUL7PdLHqyGN",
+      "album_title": "Wagner: Götterdämmerung",
+      "album_url": "https://open.spotify.com/album/4tEj5Vtog4QUL7PdLHqyGN",
+      "track_count": 54,
+      "programme": [
+        {
+          "target": "Götterdämmerung",
+          "track_ids": []
+        }
+      ],
+      "title_supported_items": 0,
+      "target_items": 1,
+      "recording_credit_status": "unverified: Spotify artist lists do not provide instrument/conductor/chorus roles",
+      "interpretation": "Unmapped titles may be parser, translation or catalogue gaps; not automatic absence.",
+      "review_status": "unresolved_recording_validation"
+    },
+    {
+      "discogs_id": "36163426",
+      "target_title": "Symphonie N° 9",
+      "published_status": "found",
+      "album_id": "0LyK2Ex3DgtEhH0prIcnJV",
+      "album_title": "Bruckner: Symphonies Nos. 3, 8 & 9",
+      "album_url": "https://open.spotify.com/album/0LyK2Ex3DgtEhH0prIcnJV",
+      "track_count": 11,
+      "programme": [
+        {
+          "target": "Symphonie N° 9 En Ré Mineur (Version Originale)",
+          "track_ids": []
+        }
+      ],
+      "title_supported_items": 0,
+      "target_items": 1,
+      "recording_credit_status": "unverified: Spotify artist lists do not provide instrument/conductor/chorus roles",
+      "interpretation": "Unmapped titles may be parser, translation or catalogue gaps; not automatic absence.",
+      "review_status": "unresolved_recording_validation"
+    },
+    {
+      "discogs_id": "1012732",
+      "target_title": "Die 4 Symphonien · Das Violinkonzert · Die Haydn-Variationen · Ein Deutsches Requiem",
+      "published_status": "probable",
+      "album_id": "6dm8J92KYKdS6QBdmUGg2S",
+      "album_title": "Karajan: Brahms Symphony No. 1",
+      "album_url": "https://open.spotify.com/album/6dm8J92KYKdS6QBdmUGg2S",
+      "track_count": 4,
+      "programme": [
+        {
+          "target": "Symphonie Nr. 1 C-moll Op. 68",
+          "track_ids": [
+            "3813sr9KYOWRcyEhMyuyYi",
+            "0NTZKYMi0FD5CEp8HNO2Qc",
+            "2z2vLfxXNLC9SMYYwLB37N",
+            "5OY6uUNOG5q436gEae0gf0"
+          ]
+        },
+        {
+          "target": "Symphonie Nr. 2 D-dur Op. 73",
+          "track_ids": []
+        },
+        {
+          "target": "Symphonie Nr. 3 F-dur Op. 90",
+          "track_ids": []
+        },
+        {
+          "target": "Symphonie Nr. 4 E-moll Op. 98",
+          "track_ids": []
+        },
+        {
+          "target": "Konzert Für Violine Und Orchester D-dur Op. 77",
+          "track_ids": []
+        },
+        {
+          "target": "Ein Deutsches Requiem Op. 45 (Nach Worten Der Heiligen Schrift Für Soli, Chor Und Orchester)",
+          "track_ids": []
+        },
+        {
+          "target": "Variationen Über Ein Thema Von Joseph Haydn Für Orchester Op. 56 A",
+          "track_ids": []
+        }
+      ],
+      "title_supported_items": 1,
+      "target_items": 7,
+      "recording_credit_status": "unverified: Spotify artist lists do not provide instrument/conductor/chorus roles",
+      "interpretation": "Unmapped titles may be parser, translation or catalogue gaps; not automatic absence.",
+      "review_status": "confirmed_partial_programme",
+      "finding": "All four tracks are Brahms Symphony No.1 Op.68 movements; requested symphonies 2–4, violin concerto, German Requiem and Haydn Variations absent from this album track list."
+    },
+    {
+      "discogs_id": "3985321",
+      "target_title": "Nabucco",
+      "published_status": "probable",
+      "album_id": "7wTcnAlGQbJC5vMfwdpdeK",
+      "album_title": "Verdi: Nabucco",
+      "album_url": "https://open.spotify.com/album/7wTcnAlGQbJC5vMfwdpdeK",
+      "track_count": 44,
+      "programme": [
+        {
+          "target": "Nabucco – Dramma Lirico In Quattro Parti",
+          "track_ids": []
+        },
+        {
+          "target": "Sinfonia",
+          "track_ids": []
+        },
+        {
+          "target": "Parte Prima:",
+          "track_ids": []
+        },
+        {
+          "target": "Parte Seconda:",
+          "track_ids": []
+        },
+        {
+          "target": "Parte Terza:",
+          "track_ids": []
+        },
+        {
+          "target": "Parte Quarta:",
+          "track_ids": []
+        }
+      ],
+      "title_supported_items": 0,
+      "target_items": 6,
+      "recording_credit_status": "unverified: Spotify artist lists do not provide instrument/conductor/chorus roles",
+      "interpretation": "Unmapped titles may be parser, translation or catalogue gaps; not automatic absence.",
+      "review_status": "unresolved_recording_validation"
+    },
+    {
+      "discogs_id": "7194998",
+      "target_title": "Dinu Lipatti Plays The Waltzes Of Chopin",
+      "published_status": "probable",
+      "album_id": "5xSzXhMaD1t78kjTm7iarw",
+      "album_title": "Dinu Lipatti plays Chopin",
+      "album_url": "https://open.spotify.com/album/5xSzXhMaD1t78kjTm7iarw",
+      "track_count": 17,
+      "programme": [
+        {
+          "target": "Waltz No. 4 In F Major Op. 34 No. 3 (\"Valse Brilliante\")",
+          "track_ids": [
+            "6NFH1XqmbDXyH3XV6Qrf0D"
+          ]
+        },
+        {
+          "target": "Waltz No. 5 In A-Flat Major Op. 42 (The \"Two-Four\" Valse)",
+          "track_ids": [
+            "7HVXKVINUsYnZo3JbByLnf"
+          ]
+        },
+        {
+          "target": "Waltz No. 6 In D-Flat Major Op. 64 No. 1 (\"Minute\" Valse)",
+          "track_ids": [
+            "5f1q12q8TmWJM62NHNp4Y6"
+          ]
+        },
+        {
+          "target": "Waltz No. 9 In A-Flat Major Op. 69 No. 1 (\"L'Adieu\")",
+          "track_ids": [
+            "6nmLhbZNMSC1izRP0kGnNt"
+          ]
+        },
+        {
+          "target": "Waltz No. 7 In C-Sharp Minor Op. 64 No. 2",
+          "track_ids": [
+            "0t181TUh5iwizZbSJmdIly"
+          ]
+        },
+        {
+          "target": "Waltz No. 11 In G-Flat Major Op. 70 No. 1",
+          "track_ids": [
+            "3E1BtiRPoMDmIT5nlktfuK"
+          ]
+        },
+        {
+          "target": "Waltz No. 10 In B Minor Op. 69 No. 2",
+          "track_ids": [
+            "4dB3RCNvod8s6bBdqPtYgZ"
+          ]
+        },
+        {
+          "target": "Waltz No. 14 In E Minor Posthumous",
+          "track_ids": []
+        },
+        {
+          "target": "Waltz No. 3 In A Minor Op. 34 No. 2 (\"Valse Brillante\")",
+          "track_ids": [
+            "5DtxMldLJvUfhI0daMyaha"
+          ]
+        },
+        {
+          "target": "Waltz No. 8 In A-Flat Major Op. 64 No. 3",
+          "track_ids": [
+            "0uBvDLzpkdlvtRogyOdMEw"
+          ]
+        },
+        {
+          "target": "Waltz No. 12 In F Minor, Op. 70 No. 2",
+          "track_ids": [
+            "15balr4CEMp0hO7B678pH1"
+          ]
+        },
+        {
+          "target": "Waltz No. 13 In D-Flat Major, Op. 70 No. 3",
+          "track_ids": [
+            "4egjj2HOTpe9zT3TKHxqT5"
+          ]
+        },
+        {
+          "target": "Waltz No. 1 In E-Flat Major, Op. 18 (\"Grande Valse Brillante\")",
+          "track_ids": [
+            "6oW5V1XYXFZVt0rDBRsgRX"
+          ]
+        },
+        {
+          "target": "Waltz No. 2 In A-Flat Major Op. 34 No. 1 (\"Valse Brillante\")",
+          "track_ids": [
+            "1ewh1y4bpOmaVE4KQdVQpW"
+          ]
+        }
+      ],
+      "title_supported_items": 13,
+      "target_items": 14,
+      "recording_credit_status": "unverified: Spotify artist lists do not provide instrument/conductor/chorus roles",
+      "interpretation": "Unmapped titles may be parser, translation or catalogue gaps; not automatic absence.",
+      "review_status": "unresolved_recording_validation"
+    },
+    {
+      "discogs_id": "11553633",
+      "target_title": "Sonatas, Volume 2",
+      "published_status": "probable",
+      "album_id": "4GElFhOBzWfORPEhxLiXdV",
+      "album_title": "Scarlatti: Keyboard Sonatas",
+      "album_url": "https://open.spotify.com/album/4GElFhOBzWfORPEhxLiXdV",
+      "track_count": 24,
+      "programme": [
+        {
+          "target": "Sonata In D Major, L.206",
+          "track_ids": []
+        },
+        {
+          "target": "Sonata In B Minor, L.449",
+          "track_ids": []
+        },
+        {
+          "target": "Sonata In D Major, L.213",
+          "track_ids": []
+        },
+        {
+          "target": "Sonata In C Major, L.102",
+          "track_ids": []
+        },
+        {
+          "target": "Sonata In A Minor, L.138",
+          "track_ids": []
+        },
+        {
+          "target": "Sonata In F Minor, L.382",
+          "track_ids": []
+        },
+        {
+          "target": "Sonata In F Major, L.520",
+          "track_ids": []
+        },
+        {
+          "target": "Sonata In D Minor, L.422",
+          "track_ids": []
+        },
+        {
+          "target": "Sonata In G Minor, L.49",
+          "track_ids": []
+        },
+        {
+          "target": "Sonata In D Minor, L.423",
+          "track_ids": []
+        },
+        {
+          "target": "Sonata In D Major, L.418",
+          "track_ids": []
+        },
+        {
+          "target": "Sonata In D Major, L.14",
+          "track_ids": []
+        },
+        {
+          "target": "Sonata In D Major, L.461",
+          "track_ids": []
+        },
+        {
+          "target": "Sonata In B Flat Major, L.497",
+          "track_ids": []
+        },
+        {
+          "target": "Sonata In F Major, L.228",
+          "track_ids": []
+        },
+        {
+          "target": "Sonata In F Minor, L.187",
+          "track_ids": []
+        },
+        {
+          "target": "Sonata In G Major, L.103",
+          "track_ids": []
+        },
+        {
+          "target": "Sonata In C Major, L.255",
+          "track_ids": []
+        },
+        {
+          "target": "Sonata In D Major, L.56",
+          "track_ids": []
+        },
+        {
+          "target": "Sonata In B Flat Major, L.97",
+          "track_ids": []
+        }
+      ],
+      "title_supported_items": 0,
+      "target_items": 20,
+      "recording_credit_status": "unverified: Spotify artist lists do not provide instrument/conductor/chorus roles",
+      "interpretation": "Unmapped titles may be parser, translation or catalogue gaps; not automatic absence.",
+      "review_status": "unresolved_recording_validation"
+    },
+    {
+      "discogs_id": "34330297",
+      "target_title": "Khovanshchina",
+      "published_status": "probable",
+      "album_id": "1ENSh2QPIKVm8KYKa4MT3h",
+      "album_title": "Sofia Preobrazhenskaya, Vol. 8: Khovanshchina",
+      "album_url": "https://open.spotify.com/album/1ENSh2QPIKVm8KYKa4MT3h",
+      "track_count": 46,
+      "programme": [
+        {
+          "target": "Act I (Beginning)",
+          "track_ids": []
+        },
+        {
+          "target": "Act I (Conclusion)",
+          "track_ids": []
+        },
+        {
+          "target": "Act II",
+          "track_ids": []
+        },
+        {
+          "target": "Act III (Beginning)",
+          "track_ids": []
+        },
+        {
+          "target": "Act III (Conclusion)",
+          "track_ids": []
+        },
+        {
+          "target": "Act IV, Scene 1",
+          "track_ids": []
+        },
+        {
+          "target": "Act IV, Scene 2",
+          "track_ids": []
+        },
+        {
+          "target": "Act V",
+          "track_ids": []
+        }
+      ],
+      "title_supported_items": 0,
+      "target_items": 8,
+      "recording_credit_status": "unverified: Spotify artist lists do not provide instrument/conductor/chorus roles",
+      "interpretation": "Unmapped titles may be parser, translation or catalogue gaps; not automatic absence.",
+      "review_status": "unresolved_recording_validation"
+    }
+  ],
+  "summary": {
+    "albums": 10,
+    "tracks": 227,
+    "confirmed_partial_programmes": 2,
+    "remaining_recording_validations_unresolved": 8
+  }
+}

@@ -1,0 +1,92 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-13",
+  "discogs_id": "6119238",
+  "track_archive_sha256": "ae2c72e6be9c0649b45ed1350790da539ab275b4a9da1fdd62295d8597c2abc2",
+  "candidates": [
+    {
+      "album_id": "6ECe5dUoLAX7LCyYArKemo",
+      "programme": [
+        {
+          "target": "Symphony No. 6 In D, Op. 60",
+          "track_ids": [
+            "3QpbYJIYrnsBpKYvXgE2RI",
+            "6AgQ8fHjXwy8rzQ64C1gal",
+            "71S364MwjiDqvIMJ91QVCE",
+            "1jksTBq0iufnMAVrZziHd4"
+          ],
+          "movement_numbers": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "durations_ms": [
+            950720,
+            691600,
+            473120,
+            619560
+          ]
+        },
+        {
+          "target": "Overture: My Home, Op. 62",
+          "track_ids": [
+            "2CbBf28pTNOt3WBj5XNf0Y"
+          ],
+          "movement_numbers": [
+            null
+          ],
+          "durations_ms": [
+            576906
+          ]
+        }
+      ],
+      "review": "complete target programme with required artists on all five tracks; different mastering/session not independently established"
+    },
+    {
+      "album_id": "2Jkm0g7cumZrTnQBAJVtHY",
+      "programme": [
+        {
+          "target": "Symphony No. 6 In D, Op. 60",
+          "track_ids": [
+            "6RLbZvhbtNbbiB2uekRsho",
+            "3w1prWHvtMGTfM2bXNFQnF",
+            "7pPy37wpZ1oyLcfQ6nXjkl",
+            "1Yngho0ML3m2Eo8oF0EZhM"
+          ],
+          "movement_numbers": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "durations_ms": [
+            950720,
+            691600,
+            473120,
+            619560
+          ]
+        },
+        {
+          "target": "Overture: My Home, Op. 62",
+          "track_ids": [
+            "6ZL84BDryqVJsRVzWwbJPr"
+          ],
+          "movement_numbers": [
+            null
+          ],
+          "durations_ms": [
+            576906
+          ]
+        }
+      ],
+      "review": "complete target programme with required artists on all five tracks; different mastering/session not independently established"
+    }
+  ],
+  "selected_album_id": "6ECe5dUoLAX7LCyYArKemo",
+  "sources": [
+    "https://www.eloquenceclassics.com/releases-archive/dvorak-overtures-tone-poems/",
+    "https://shop.deccarecordsus.com/products/london-symphony-orchestra-dvorak-complete-symphonies-tone-poems-overtures-requiem"
+  ],
+  "limitation": "Probable programme and performer correspondence within the Decca cycle; artist lists do not establish instrument roles, exact take or LP mastering. 85% is heuristic."
+}

@@ -1,0 +1,47 @@
+{
+  "schema_version": 1,
+  "selected_on": "2026-11-13",
+  "purpose": "At most one title-promising or diagnostic candidate per release; metadata retrieval is not match acceptance. No candidate selected for the two wholly unrelated result sets.",
+  "entries": [
+    {
+      "discogs_id": "3066447",
+      "album_id": "0002894631272",
+      "selection_reason": "Complete Barenboim sonata set; possible programme superset."
+    },
+    {
+      "discogs_id": "4429613",
+      "album_id": "0190295866983",
+      "selection_reason": "Complete Schnabel sonatas; possible programme superset."
+    },
+    {
+      "discogs_id": "7103881",
+      "album_id": "deivnz0mjzqya",
+      "selection_reason": "Exact F-major/A-major mass pairing."
+    },
+    {
+      "discogs_id": "8534837",
+      "album_id": "3610159204920",
+      "selection_reason": "Exact Brahms double concerto/Mendelssohn trio pairing."
+    },
+    {
+      "discogs_id": "10301402",
+      "album_id": "0002894798228",
+      "selection_reason": "Four symphonies only; partial-programme comparison control for larger collection."
+    },
+    {
+      "discogs_id": "12130939",
+      "album_id": "hse4g44fcm6qb",
+      "selection_reason": "Tennstedt symphony collection; check Fifth and Tenth Adagio."
+    },
+    {
+      "discogs_id": "15926362",
+      "album_id": "woub7hzdnhq7b",
+      "selection_reason": "Haitink Mahler cycle; possible full target superset."
+    },
+    {
+      "discogs_id": "37312800",
+      "album_id": "0002894824972",
+      "selection_reason": "Kubelik cycle; verify required Vienna orchestra rather than assuming name match."
+    }
+  ]
+}
