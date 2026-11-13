@@ -22,9 +22,9 @@ The percentages are heuristic scores, not comparable calibrated probabilities.
   box programme or rehearsal-side coverage. Its full tracks have not been
   independently validated in this audit; equal track count alone proves nothing.
 - Qobuz0002894497722 has29cached tracks spanning the main opera, no track labelled
-  as that rehearsal side. This is strong evidence of the same main recording
-  family, not an accepted complete-edition match. Chorus/orchestra alias and
-  opera-context interpretation remain unresolved too.
+  as that rehearsal side. A later same-day review accepts this as Probable85 for
+  the three acts only. The rehearsal side remains an explicit edition gap, and
+  scene alignment is not claimed. It is not a complete LP-box match.
 
 The assistant previously described the rehearsal gap as the sole reason Qobuz
 was withheld, and implied the same omission was verified on Spotify. That was

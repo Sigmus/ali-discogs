@@ -13,7 +13,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'src'))
 from ali_discogs.text import tnorm, norm, ORCH_ALIASES, is_composer
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = 'qobuz-work-groups-v2+explicit-target-credits+reviewed-leads'
+VERSION = 'qobuz-work-groups-v2+explicit-target-credits+reviewed-leads+opera-source-roles+prelude-fugue-pairs+container-headings'
 
 
 def credits_v1(track):
@@ -282,6 +282,30 @@ def generate():
         if review['discogs_id'] in round2_reviews:
             raise ValueError('Duplicate unmatched review')
         round2_reviews[review['discogs_id']] = review
+    opera_review_path = ROOT/'data/qobuz_opera_recording_reviews.json'
+    opera_reviews = json.loads(opera_review_path.read_text())
+    if opera_reviews['schema_version'] != 1:
+        raise ValueError('Unsupported opera review schema')
+    for review in opera_reviews['releases']:
+        if review['review_kind'] != 'source-role-ensemble' or review['discogs_id'] in round2_reviews:
+            raise ValueError('Invalid or duplicate opera review')
+        round2_reviews[review['discogs_id']] = review
+    pair_review_path = ROOT/'data/qobuz_prelude_fugue_reviews.json'
+    pair_reviews = json.loads(pair_review_path.read_text())
+    if pair_reviews['schema_version'] != 1:
+        raise ValueError('Unsupported prelude/fugue review schema')
+    for review in pair_reviews['releases']:
+        if review['review_kind'] != 'prelude-fugue-pairs' or review['discogs_id'] in round2_reviews:
+            raise ValueError('Invalid or duplicate prelude/fugue review')
+        round2_reviews[review['discogs_id']] = review
+    container_review_path = ROOT/'data/qobuz_container_reviews.json'
+    container_reviews = json.loads(container_review_path.read_text())
+    if container_reviews['schema_version'] != 1:
+        raise ValueError('Unsupported container review schema')
+    for review in container_reviews['releases']:
+        if review['review_kind'] != 'container-headings' or review['discogs_id'] in round2_reviews:
+            raise ValueError('Invalid or duplicate container review')
+        round2_reviews[review['discogs_id']] = review
     results = {}
     for entry in manifest['entries']:
         rid = entry['discogs_id']
@@ -327,6 +351,9 @@ def generate():
               'lead_review_fingerprint': hashlib.sha256(REVIEW.read_bytes()).hexdigest(),
               'comparison_evidence_fingerprint': hashlib.sha256(ARCHIVE.read_bytes()).hexdigest(),
               'album_urls_fingerprint': hashlib.sha256(URL_INDEX.read_bytes()).hexdigest(),
+              'opera_review_fingerprint': hashlib.sha256(opera_review_path.read_bytes()).hexdigest(),
+              'pair_review_fingerprint': hashlib.sha256(pair_review_path.read_bytes()).hexdigest(),
+              'container_review_fingerprint': hashlib.sha256(container_review_path.read_bytes()).hexdigest(),
               'unmatched_review_fingerprint': hashlib.sha256(unmatched_review_path.read_bytes()).hexdigest(),
               'unmatched_metadata_fingerprint': hashlib.sha256(unmatched_metadata_path.read_bytes()).hexdigest(),
               'trial_review_fingerprint': hashlib.sha256(trial_review_path.read_bytes()).hexdigest(),

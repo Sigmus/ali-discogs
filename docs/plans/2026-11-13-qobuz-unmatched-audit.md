@@ -109,6 +109,56 @@ source recording roles and ensemble aliases, with scene/act completeness checks;
 never silently remove uncredited secondary artists to obtain a match.
 
 
+## Source-role and act review
+
+Implemented offline in `scripts/qobuz_opera_review.py`. Ensemble names differ
+only with a recording-specific reason. Chorus master is not director. Every
+musical Discogs credit must stay in the review. Candidate track IDs are bound.
+
+Tristan2996680 / 0002894497722 is Probable85. Acts I–III cover all 29 tracks
+(7/11/11). Bayreuther Festspielorchester and Festspielchor are the reviewed
+names for Orchester/Chor der Bayreuther Festspiele. Wilhelm Pitz is ChorusMaster.
+Ludwig, Nienstedt and Heater keep explicit voice-type conflicts. Side J, the
+Böhm rehearsal, is absent and stated as an edition gap. Scenes are not aligned
+because the candidate uses libretto incipits. Canonical route verified in the
+browser: `https://www.qobuz.com/fr-fr/album/wagner-tristan-und-isolde-orchester-der-bayreuther-festspiele-karl-bohm/0002894497722`.
+
+Tannhäuser4365080 stays ineligible. Blockers: Act III scene 2 unlabelled;
+Orchester der Deutschen Oper Berlin on a joined credit; Karl Schmidt is Director;
+Arnold Schremm, Karl-Heinz Voortmann, Manfred Koop and Michael Wein are absent.
+The leading "Das" on the Staatsoper orchestra is an explicit alias and does not
+override those blockers. Published copies are now 12 Found / 75 Probable /
+654 Unchecked. No new API calls.
+
+## Gould pairs and the Barenboim caution
+
+The strongest remaining cached lead, Barenboim9866861, is La Voce del Padrone
+3C063-02000 from the EMI sonata cycle. Its three sonatas also occur on DG
+0002894631272, the later Paris cycle already rejected for another Barenboim
+target. Same pianist and works are not the same recording, so this pair stays
+unpublished.
+
+Gould2175684, CBS Masterworks 77427 with a 1975 phonographic copyright, matches
+Sony Classical 0886443628625. All 96 tracks are used once: prelude and fugue for
+BWV 846–893, Gould on every track. Three preludes omit their BWV and are bound
+to the next fugue. The two volume headings and the overall BWV range heading are
+containers. Probable85. Copies were 12/76/653. Canonical route:
+`https://www.qobuz.com/fr-fr/album/glenn-gould-plays-bach-the-well-tempered-clavier-books-i-ii-bwv-846-893-glenn-gould/0886443628625`.
+
+## Michelangeli headings
+
+Michelangeli6678433, DG 2530 236 (1972 LP), matches DG `uoihym7lfe48a`, released
+2018-09-28, UPC 0028948361939. The source heading Mazurkas matches no track. The
+other 13 units each match one track and those 13 tracks are the whole album:
+Op. 67/2, 56/2, 67/4, 68/2, 68/1, 33/1, 30/3, 30/2, 33/4, 68/4, Prelude Op. 45,
+Ballade Op. 23, Scherzo Op. 31. Michelangeli is credited on every track. German
+B-moll for the scherzo is B-flat minor and was already matched by opus. A
+numbered work cannot be reclassified as a container; dropping a piece or the
+pianist fails the review. Probable85. The 2018 file is not verified as the 1972
+mastering. Copies 12/77/652, unique 12/77/651. Canonical route:
+`https://www.qobuz.com/fr-fr/album/chopin-10-mazurkas-arturo-benedetti-michelangeli/uoihym7lfe48a`.
+
+
 ### 2026-11-13 — Tristan chat-link404 correction
 
 The assistant supplied a guessed/shortened nl-en slug; saved canonical route was

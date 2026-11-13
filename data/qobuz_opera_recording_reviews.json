@@ -1,0 +1,325 @@
+{
+  "schema_version": 1,
+  "releases": [
+    {
+      "discogs_id": "2996680",
+      "album_id": "0002894497722",
+      "review_kind": "source-role-ensemble",
+      "target_sha256": "28465c0929149e0eed0536627ea9060bc1346dbda1dcae5949f63c547d369126",
+      "album_sha256": "5d330be2eb7d698cc283260eff2739d1cad2deb74fdee94e4e71b2c30e002942",
+      "source_sha256": "a855d5c1d8d35846816904c8f1a036e439120e1978cf04111bde6e574240d6f2",
+      "decision": "probable",
+      "sources": [
+        "https://www.qobuz.com/fr-fr/album/wagner-tristan-und-isolde-orchester-der-bayreuther-festspiele-karl-bohm/0002894497722"
+      ],
+      "recording_review": "Böhm/Bayreuth 1966 Tristan: all three acts, both festival ensembles under explicit names, chorus master Wilhelm Pitz, and every named singer are present. Canonical album route uses Orchester der Bayreuther Festspiele while track credits use Bayreuther Festspielorchester.",
+      "limitations": [
+        "Act coverage uses libretto incipits; scene alignment is not claimed.",
+        "Side J, Karl Böhm bei der Probe (Act III prelude and first scene, 29:20), is absent. This supports the main three-act recording, not the complete LP box.",
+        "Voice-type labels differ for Christa Ludwig, Gerd Nienstedt and Claude Heater; those named singers stay required.",
+        "Exact takes and mastering remain unverified."
+      ],
+      "act_policy": {
+        "required_acts": [
+          1,
+          2,
+          3
+        ],
+        "attach_leading_unlabelled_to_next_act": true,
+        "attach_contiguous_unlabelled": true,
+        "scene_evidence": "acts-only"
+      },
+      "edition_gaps": [
+        {
+          "position": "J",
+          "title": "Karl Böhm Bei Der Probe: III. Aufzug: Vorspiel & 1. Auftritt",
+          "absent_word": "probe",
+          "limitation": "Side J, Karl Böhm bei der Probe (Act III prelude and first scene, 29:20), is absent. This supports the main three-act recording, not the complete LP box."
+        }
+      ],
+      "source_roles": [
+        {
+          "name": "Chor Der Bayreuther Festspiele",
+          "role": "Chorus",
+          "kind": "chorus",
+          "candidate_name": "Bayreuther Festspielchor",
+          "alias_reason": "Bayreuth festival chorus; Festspielchor and Chor der Bayreuther Festspiele name the same ensemble. Bound to this recording."
+        },
+        {
+          "name": "Wilhelm Pitz",
+          "role": "Chorus Master",
+          "kind": "chorus-master"
+        },
+        {
+          "name": "Karl Böhm",
+          "role": "Conductor",
+          "kind": "conductor"
+        },
+        {
+          "name": "Orchester Der Bayreuther Festspiele",
+          "role": "Orchestra",
+          "kind": "orchestra",
+          "candidate_name": "Bayreuther Festspielorchester",
+          "alias_reason": "Bayreuth festival orchestra; Festspielorchester and Orchester der Bayreuther Festspiele name the same ensemble. Bound to this recording."
+        },
+        {
+          "name": "Christa Ludwig",
+          "role": "Performer [Brangäne], Soprano Vocals [Uncredited]",
+          "kind": "vocal",
+          "voice_conflict": [
+            [
+              "soprano"
+            ],
+            [
+              "contralto"
+            ]
+          ]
+        },
+        {
+          "name": "Erwin Wohlfahrt",
+          "role": "Performer [Ein Hirt], Tenor Vocals [Uncredited]",
+          "kind": "vocal"
+        },
+        {
+          "name": "Peter Schreier",
+          "role": "Performer [Ein Junger Seemann], Tenor Vocals [Uncredited]",
+          "kind": "vocal"
+        },
+        {
+          "name": "Gerd Nienstedt",
+          "role": "Performer [Ein Steuermann], Baritone Vocals [Uncredited]",
+          "kind": "vocal",
+          "voice_conflict": [
+            [
+              "baritone"
+            ],
+            [
+              "bass"
+            ]
+          ]
+        },
+        {
+          "name": "Birgit Nilsson",
+          "role": "Performer [Isolde], Soprano Vocals [Uncredited]",
+          "kind": "vocal"
+        },
+        {
+          "name": "Eberhard Wächter",
+          "role": "Performer [Kurwenal], Baritone Vocals [Uncredited]",
+          "kind": "vocal"
+        },
+        {
+          "name": "Martti Talvela",
+          "role": "Performer [König Marke], Bass Vocals [Uncredited]",
+          "kind": "vocal"
+        },
+        {
+          "name": "Claude Heater",
+          "role": "Performer [Melot], Baritone Vocals [Uncredited]",
+          "kind": "vocal",
+          "voice_conflict": [
+            [
+              "baritone"
+            ],
+            [
+              "tenor"
+            ]
+          ]
+        },
+        {
+          "name": "Wolfgang Windgassen",
+          "role": "Performer [Tristan], Tenor Vocals [Uncredited]",
+          "kind": "vocal"
+        }
+      ],
+      "expected_track_ids": [
+        546850,
+        546853,
+        546856,
+        546859,
+        546862,
+        546865,
+        546868,
+        546851,
+        546854,
+        546857,
+        546860,
+        546863,
+        546866,
+        546869,
+        546871,
+        546873,
+        546875,
+        546877,
+        546852,
+        546855,
+        546858,
+        546861,
+        546864,
+        546867,
+        546870,
+        546872,
+        546874,
+        546876,
+        546878
+      ]
+    },
+    {
+      "discogs_id": "4365080",
+      "album_id": "5099909655058",
+      "review_kind": "source-role-ensemble",
+      "target_sha256": "1f115b302b7f78bcce560d50514dfd3e4054f118acf08a47b98375f954a728a3",
+      "album_sha256": "b235609b513398ff6c77b5432ae5ae2f1339d5773c14b4e21b1cd79b0e19eebc",
+      "source_sha256": "de6e91c606a45debf1f44cc1ec7db476cd2ffa6b9356382b1f947e42d75aa795",
+      "decision": "withhold",
+      "sources": [
+        "https://www.qobuz.com/fr-fr/album/wagner-tannhauser-elisabeth-grummer-hans-hopf-dietrich-fischer-dieskau-marianne-schech-fritz-wunderlich-gottlob-frick-chor-der-staatsoper-berlin-orchester-der-staatsoper-berlin-franz-konwitschny/5099909655058"
+      ],
+      "recording_review": "Dresden-version acts and the Staatsoper alias are not enough. Four named Edelknaben are absent, Karl Schmidt is Director rather than Chorus Master, Act III scene 2 is unlabelled, and one credit names Orchester der Deutschen Oper Berlin.",
+      "limitations": [
+        "Four credited page singers are absent and cannot be dropped to force a match.",
+        "Chorus Master and Director are different recording roles.",
+        "Orchester der Deutschen Oper Berlin is a conflicting ensemble credit, not an alias."
+      ],
+      "act_policy": {
+        "required_acts": [
+          1,
+          2,
+          3
+        ],
+        "attach_leading_unlabelled_to_next_act": true,
+        "attach_contiguous_unlabelled": true,
+        "prelude_act": 1,
+        "scene_evidence": "numbered-scenes",
+        "version_word": {
+          "source": "dresdener",
+          "candidate": "dresden"
+        }
+      },
+      "source_roles": [
+        {
+          "name": "Dietrich Fischer-Dieskau",
+          "role": "Baritone Vocals [Wolfram Von Eschenbach]",
+          "kind": "vocal"
+        },
+        {
+          "name": "Rudolf Gonszar",
+          "role": "Bass Vocals [Biterolf]",
+          "kind": "vocal"
+        },
+        {
+          "name": "Gottlob Frick",
+          "role": "Bass Vocals [Hermann]",
+          "kind": "vocal"
+        },
+        {
+          "name": "Reiner Süß",
+          "role": "Bass Vocals [Reinmar Von Zweter]",
+          "kind": "vocal"
+        },
+        {
+          "name": "Chor Der Staatsoper Berlin",
+          "role": "Chorus",
+          "kind": "chorus",
+          "candidate_name": "Chor der Staatsoper Berlin"
+        },
+        {
+          "name": "Karl Schmidt (2)",
+          "role": "Chorus Master",
+          "kind": "chorus-master"
+        },
+        {
+          "name": "Franz Konwitschny",
+          "role": "Conductor",
+          "kind": "conductor"
+        },
+        {
+          "name": "Das Orchester Der Staatsoper Berlin",
+          "role": "Orchestra",
+          "kind": "orchestra",
+          "candidate_name": "Orchester der Staatsoper Berlin",
+          "alias_reason": "Leading article Das only; the orchestra name is otherwise identical on this recording."
+        },
+        {
+          "name": "Lisa Otto",
+          "role": "Soprano Vocals [Ein junger Hirt]",
+          "kind": "vocal"
+        },
+        {
+          "name": "Elisabeth Grümmer",
+          "role": "Soprano Vocals [Elisabeth]",
+          "kind": "vocal"
+        },
+        {
+          "name": "Marianne Schech",
+          "role": "Soprano Vocals [Venus]",
+          "kind": "vocal"
+        },
+        {
+          "name": "Gerhard Unger",
+          "role": "Tenor Vocals [Heinrich Der Schreiber]",
+          "kind": "vocal"
+        },
+        {
+          "name": "Hans Hopf",
+          "role": "Tenor Vocals [Tannhäuser]",
+          "kind": "vocal"
+        },
+        {
+          "name": "Fritz Wunderlich",
+          "role": "Tenor Vocals [Walther Von Der Vogelweide]",
+          "kind": "vocal"
+        },
+        {
+          "name": "Arnold Schremm",
+          "role": "Treble Vocals [Edelknaben]",
+          "kind": "vocal"
+        },
+        {
+          "name": "Karl-Heinz Voortmann",
+          "role": "Treble Vocals [Edelknaben]",
+          "kind": "vocal"
+        },
+        {
+          "name": "Manfred Koop",
+          "role": "Treble Vocals [Edelknaben]",
+          "kind": "vocal"
+        },
+        {
+          "name": "Michael Wein",
+          "role": "Treble Vocals [Edelknaben]",
+          "kind": "vocal"
+        }
+      ],
+      "expected_track_ids": [
+        3413559,
+        3413560,
+        3413561,
+        3413562,
+        3413563,
+        3413564,
+        3413565,
+        3413566,
+        3413567,
+        3413568,
+        3413569,
+        3413570,
+        3413571,
+        3413572,
+        3413573,
+        3413574,
+        3413575,
+        3413576,
+        3413577,
+        3413578,
+        3413579,
+        3413580,
+        3413581,
+        3413582,
+        3413583,
+        3413584,
+        3413585
+      ]
+    }
+  ]
+}

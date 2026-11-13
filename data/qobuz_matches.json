@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "matcher_version": "qobuz-work-groups-v2+explicit-target-credits+reviewed-leads",
+  "matcher_version": "qobuz-work-groups-v2+explicit-target-credits+reviewed-leads+opera-source-roles+prelude-fugue-pairs+container-headings",
   "score_kind": "heuristic",
   "metadata_completed_at": "2026-11-13T00:15:30.593902+00:00",
   "search_manifest_fingerprint": "72bfbc0de0c0d8ee65c624b6ebe07db7be6ef0f10b6ba5fd4f468d54f812e802",
@@ -12,6 +12,9 @@
   "lead_review_fingerprint": "bc731b95eadb23cb1a13d735a4e7410615ae06f260b2c4a381ed4a29e229265e",
   "comparison_evidence_fingerprint": "c38df992ab44bbc892ffacafa19d74cc1495d7579d3d6da670653204dca25e57",
   "album_urls_fingerprint": "f7a6ad4aa323b46f8b3876ab558b41f2748e9b81b2b9d9c8a05fe020b600d8d7",
+  "opera_review_fingerprint": "11a52ad521b086b7c967327a0d01d0cee432d3cf8695754899a7f40aeb20839d",
+  "pair_review_fingerprint": "7709aa57ef7815fda88766badd3064939bccb142bd0e97389a0f5f011c54cd84",
+  "container_review_fingerprint": "aa8a8e530114e05869e1215561786073250faca3c9349b66059ea59ff3c535e0",
   "unmatched_review_fingerprint": "21d025cd3fb58ad2087d5f859097c6c56d5ce4d79eabf61be52e3930ce1ebc30",
   "unmatched_metadata_fingerprint": "b9ee630308545a56700f5322dea82ebad2621bc20c5e76f7b8743aaa94ba3c9e",
   "trial_review_fingerprint": "29b152d71ab83c8be83049c16bdc43fd84fa485eefeca6bba69012aa90e3de07",
@@ -11558,9 +11561,19 @@
       ]
     },
     "2175684": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0886443628625",
+        "name": "Glenn Gould plays Bach: The Well-Tempered Clavier Books I & II, BWV 846-893",
+        "artists": [
+          "Glenn Gould"
+        ],
+        "label": "Sony Classical",
+        "release_date": "2004-03-29",
+        "image": "https://static.qobuz.com/images/covers/25/86/0886443628625_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/glenn-gould-plays-bach-the-well-tempered-clavier-books-i-ii-bwv-846-893-glenn-gould/0886443628625"
+      },
       "candidates": [
         {
           "id": "0886443628625",
@@ -11572,30 +11585,15 @@
           "release_date": "2004-03-29",
           "image": "https://static.qobuz.com/images/covers/25/86/0886443628625_230.jpg",
           "url": "https://www.qobuz.com/fr-fr/album/glenn-gould-plays-bach-the-well-tempered-clavier-books-i-ii-bwv-846-893-glenn-gould/0886443628625",
-          "status": "unchecked",
-          "confidence": null,
-          "coverage": 0.9607843137254902,
-          "covered": 49,
-          "target_count": 51,
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 48,
+          "target_count": 48,
           "required_performers": [
             "Glenn Gould"
           ],
           "programme": [
-            {
-              "target": "48 Preludes And Fugues BWV 846-893",
-              "work_tracks": 2,
-              "credited_tracks": 2,
-              "track_ids": [
-                13919212,
-                13919214
-              ]
-            },
-            {
-              "target": "Volume / Teil I",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
             {
               "target": "No. 1 In C Major BWV 846",
               "work_tracks": 2,
@@ -11607,17 +11605,19 @@
             },
             {
               "target": "No. 2 In C Minor BWV 847",
-              "work_tracks": 1,
-              "credited_tracks": 1,
+              "work_tracks": 2,
+              "credited_tracks": 2,
               "track_ids": [
+                13919216,
                 13919218
               ]
             },
             {
               "target": "No. 3 In C Sharp Major BWV 848",
-              "work_tracks": 1,
-              "credited_tracks": 1,
+              "work_tracks": 2,
+              "credited_tracks": 2,
               "track_ids": [
+                13919220,
                 13919222
               ]
             },
@@ -11677,9 +11677,10 @@
             },
             {
               "target": "No. 10 In E Minor BWV 855",
-              "work_tracks": 1,
-              "credited_tracks": 1,
+              "work_tracks": 2,
+              "credited_tracks": 2,
               "track_ids": [
+                13919248,
                 13919250
               ]
             },
@@ -11808,12 +11809,6 @@
                 13919304,
                 13919306
               ]
-            },
-            {
-              "target": "Volume / Teil II",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
             },
             {
               "target": "No. 1 In C Major BWV 870",
@@ -12033,7 +12028,455 @@
             }
           ],
           "reasons": [
-            "49/51 target items supported after composer/work grouping; unresolved."
+            "Each BWV has its own prelude and fugue with the required pianist. Volume headings are containers, not extra works.",
+            "CBS Masterworks 77427 is the Gould studio cycle, phonographic copyright 1975. This Sony Classical edition has both books, BWV 846-893, with Gould on every prelude and fugue. It identifies the cycle, not a particular mastering.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "The LP bands join each prelude and fugue; the digital edition splits them. Both pieces are required.",
+            "Three prelude titles omit the key and BWV. Each is accepted only as the track immediately before its own numbered fugue.",
+            "Volume headings are containers, not separate works.",
+            "Exact takes and mastering of the 2004 issue remain unverified."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "No. 1 In C Major BWV 846",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919212,
+                  13919214
+                ]
+              },
+              {
+                "target": "No. 2 In C Minor BWV 847",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919216,
+                  13919218
+                ]
+              },
+              {
+                "target": "No. 3 In C Sharp Major BWV 848",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919220,
+                  13919222
+                ]
+              },
+              {
+                "target": "No. 4 In C Sharp Minor BWV 849",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919224,
+                  13919226
+                ]
+              },
+              {
+                "target": "No. 5 In D Major BWV 850",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919228,
+                  13919230
+                ]
+              },
+              {
+                "target": "No. 6 In D Minor BWV 851",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919232,
+                  13919234
+                ]
+              },
+              {
+                "target": "No. 7 In E Flat Major BWV 852",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919236,
+                  13919238
+                ]
+              },
+              {
+                "target": "No. 8 In E Flat Minor BWV 853",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919240,
+                  13919242
+                ]
+              },
+              {
+                "target": "No. 9 In E Major BWV 854",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919244,
+                  13919246
+                ]
+              },
+              {
+                "target": "No. 10 In E Minor BWV 855",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919248,
+                  13919250
+                ]
+              },
+              {
+                "target": "No. 11 In F Major BWV 856",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919252,
+                  13919254
+                ]
+              },
+              {
+                "target": "No. 12 In F Minor BWV 857",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919256,
+                  13919258
+                ]
+              },
+              {
+                "target": "No. 13 In F Sharp Major BWV 858",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919260,
+                  13919262
+                ]
+              },
+              {
+                "target": "No. 14 In F Sharp Minor BWV 859",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919264,
+                  13919266
+                ]
+              },
+              {
+                "target": "No. 15 In G Major BWV 860",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919268,
+                  13919270
+                ]
+              },
+              {
+                "target": "No. 16 In G Minor BWV 861",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919272,
+                  13919274
+                ]
+              },
+              {
+                "target": "No. 17 In A Flat Major BWV 862",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919276,
+                  13919278
+                ]
+              },
+              {
+                "target": "No. 18 In G Sharp Minor BWV 863",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919280,
+                  13919282
+                ]
+              },
+              {
+                "target": "No. 19 In A Major BWV 864",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919284,
+                  13919286
+                ]
+              },
+              {
+                "target": "No. 20 In A Minor BWV 865",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919288,
+                  13919290
+                ]
+              },
+              {
+                "target": "No. 21 In B Flat Major BWV 866",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919292,
+                  13919294
+                ]
+              },
+              {
+                "target": "No. 22 In B Flat Minor BWV 867",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919296,
+                  13919298
+                ]
+              },
+              {
+                "target": "No. 23 In B Major BWV 868",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919300,
+                  13919302
+                ]
+              },
+              {
+                "target": "No. 24 In B Minor BWV 869",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919304,
+                  13919306
+                ]
+              },
+              {
+                "target": "No. 1 In C Major BWV 870",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919308,
+                  13919310
+                ]
+              },
+              {
+                "target": "No. 2 In C Minor BWV 871",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919312,
+                  13919314
+                ]
+              },
+              {
+                "target": "No. 3 In C Sharp Major BWV 872",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919316,
+                  13919318
+                ]
+              },
+              {
+                "target": "No. 4 In C Sharp Minor BWV 873",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919320,
+                  13919322
+                ]
+              },
+              {
+                "target": "No. 5 In D Major BWV 874",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919324,
+                  13919326
+                ]
+              },
+              {
+                "target": "No. 6 In D Minor BWV 875",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919328,
+                  13919330
+                ]
+              },
+              {
+                "target": "No. 7 In E Flat Major, BWV 876",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919332,
+                  13919334
+                ]
+              },
+              {
+                "target": "No. 8 In E Flat Minor BWV 877",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919336,
+                  13919338
+                ]
+              },
+              {
+                "target": "No. 9 In E Major BWV 878",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919340,
+                  13919342
+                ]
+              },
+              {
+                "target": "No. 10 In E Minor BWV 879",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919344,
+                  13919346
+                ]
+              },
+              {
+                "target": "No. 11 In F Major BWV 880",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919348,
+                  13919350
+                ]
+              },
+              {
+                "target": "No. 12 In F Minor, BWV 881",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919352,
+                  13919354
+                ]
+              },
+              {
+                "target": "No. 13 In F Sharp Major BWV 882",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919356,
+                  13919358
+                ]
+              },
+              {
+                "target": "No. 14 In F Sharp Minor BWV 883",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919360,
+                  13919362
+                ]
+              },
+              {
+                "target": "No. 15 In G Major BWV 884",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919364,
+                  13919366
+                ]
+              },
+              {
+                "target": "No. 16 In G Minor BWV 885",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919368,
+                  13919370
+                ]
+              },
+              {
+                "target": "No. 17 In A Flat Major BWV 886",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919372,
+                  13919374
+                ]
+              },
+              {
+                "target": "No. 18 In G Sharp Minor BWV 887",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919376,
+                  13919378
+                ]
+              },
+              {
+                "target": "No. 19 In A Major BWV 888",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919380,
+                  13919382
+                ]
+              },
+              {
+                "target": "No. 20 In A Minor BWV 889",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919384,
+                  13919386
+                ]
+              },
+              {
+                "target": "No. 21 In B Flat Major BWV 890",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919388,
+                  13919390
+                ]
+              },
+              {
+                "target": "No. 22 In B Flat Minor BWV 891",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919392,
+                  13919394
+                ]
+              },
+              {
+                "target": "No. 23 In B Major BWV 892",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919396,
+                  13919398
+                ]
+              },
+              {
+                "target": "No. 24 In B Minor BWV 893",
+                "status": "complete",
+                "scope": "reviewed-prelude-fugue-pair",
+                "track_ids": [
+                  13919400,
+                  13919402
+                ]
+              }
+            ]
+          },
+          "recording_review": "CBS Masterworks 77427 is the Gould studio cycle, phonographic copyright 1975. This Sony Classical edition has both books, BWV 846-893, with Gould on every prelude and fugue. It identifies the cycle, not a particular mastering.",
+          "review_sources": [
+            "https://www.qobuz.com/fr-fr/album/glenn-gould-plays-bach-the-well-tempered-clavier-books-i-ii-bwv-846-893-glenn-gould/0886443628625"
           ]
         },
         {
@@ -13360,7 +13803,13 @@
       "query": "Glenn Gould Bach Well Tempered Clavier",
       "searched_at": "2026-11-12T14:50:16.762945+00:00",
       "reasons": [
-        "49/51 target items supported after composer/work grouping; unresolved."
+        "Each BWV has its own prelude and fugue with the required pianist. Volume headings are containers, not extra works.",
+        "CBS Masterworks 77427 is the Gould studio cycle, phonographic copyright 1975. This Sony Classical edition has both books, BWV 846-893, with Gould on every prelude and fugue. It identifies the cycle, not a particular mastering.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "The LP bands join each prelude and fugue; the digital edition splits them. Both pieces are required.",
+        "Three prelude titles omit the key and BWV. Each is accepted only as the track immediately before its own numbered fugue.",
+        "Volume headings are containers, not separate works.",
+        "Exact takes and mastering of the 2004 issue remain unverified."
       ]
     },
     "6831914": {
@@ -51034,9 +51483,19 @@
       ]
     },
     "6678433": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "uoihym7lfe48a",
+        "name": "Chopin: 10 Mazurkas",
+        "artists": [
+          "Arturo Benedetti Michelangeli"
+        ],
+        "label": "Deutsche Grammophon (DG)",
+        "release_date": "2018-09-28",
+        "image": "https://static.qobuz.com/images/covers/8a/e4/uoihym7lfe48a_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/chopin-10-mazurkas-arturo-benedetti-michelangeli/uoihym7lfe48a"
+      },
       "candidates": [
         {
           "id": "uoihym7lfe48a",
@@ -51048,21 +51507,15 @@
           "release_date": "2018-09-28",
           "image": "https://static.qobuz.com/images/covers/8a/e4/uoihym7lfe48a_230.jpg",
           "url": "https://www.qobuz.com/fr-fr/album/chopin-10-mazurkas-arturo-benedetti-michelangeli/uoihym7lfe48a",
-          "status": "unchecked",
-          "confidence": null,
-          "coverage": 0.9285714285714286,
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
           "covered": 13,
-          "target_count": 14,
+          "target_count": 13,
           "required_performers": [
             "Arturo Benedetti Michelangeli"
           ],
           "programme": [
-            {
-              "target": "Mazurkas",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
             {
               "target": "Op. 67 No. 2: Cantabile",
               "work_tracks": 1,
@@ -51169,14 +51622,136 @@
             }
           ],
           "reasons": [
-            "13/14 target items supported after composer/work grouping; unresolved."
+            "Each listed piece has its own credited track. The source heading is a container, not an extra work.",
+            "DG 2530 236 is Michelangeli’s 1972 Chopin recital. This DG digital edition has the same ten mazurkas, Prelude Op. 45, Ballade Op. 23 and Scherzo Op. 31, with Michelangeli on every track. It identifies the recital, not a particular mastering.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "The heading Mazurkas is a container. Each numbered piece still needs its own track.",
+            "The 2018 digital issue is not verified as the same mastering as the 1972 LP."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Op. 67 No. 2: Cantabile",
+                "status": "complete",
+                "scope": "reviewed-single-track",
+                "track_ids": [
+                  53709069
+                ]
+              },
+              {
+                "target": "Op. 56 No. 2: Vivace",
+                "status": "complete",
+                "scope": "reviewed-single-track",
+                "track_ids": [
+                  53709070
+                ]
+              },
+              {
+                "target": "Op. 67 No. 4: Moderato Animato",
+                "status": "complete",
+                "scope": "reviewed-single-track",
+                "track_ids": [
+                  53709071
+                ]
+              },
+              {
+                "target": "Op. 68 No. 2: Lento",
+                "status": "complete",
+                "scope": "reviewed-single-track",
+                "track_ids": [
+                  53709072
+                ]
+              },
+              {
+                "target": "Op. 68 No. 1: Vivace",
+                "status": "complete",
+                "scope": "reviewed-single-track",
+                "track_ids": [
+                  53709073
+                ]
+              },
+              {
+                "target": "Op. 33 No. 1: Mesto",
+                "status": "complete",
+                "scope": "reviewed-single-track",
+                "track_ids": [
+                  53709074
+                ]
+              },
+              {
+                "target": "Op. 30 No. 3: Allegro Non Troppo - Risoluto",
+                "status": "complete",
+                "scope": "reviewed-single-track",
+                "track_ids": [
+                  53709075
+                ]
+              },
+              {
+                "target": "Op. 30 No. 2: Allegretto",
+                "status": "complete",
+                "scope": "reviewed-single-track",
+                "track_ids": [
+                  53709076
+                ]
+              },
+              {
+                "target": "Op. 33 No. 4: Mesto",
+                "status": "complete",
+                "scope": "reviewed-single-track",
+                "track_ids": [
+                  53709077
+                ]
+              },
+              {
+                "target": "Op. 68 No. 4: Andantino",
+                "status": "complete",
+                "scope": "reviewed-single-track",
+                "track_ids": [
+                  53709078
+                ]
+              },
+              {
+                "target": "Prelude Cis-moll Op. 45",
+                "status": "complete",
+                "scope": "reviewed-single-track",
+                "track_ids": [
+                  53709079
+                ]
+              },
+              {
+                "target": "Ballade G-moll Op. 23",
+                "status": "complete",
+                "scope": "reviewed-single-track",
+                "track_ids": [
+                  53709080
+                ]
+              },
+              {
+                "target": "Scherzo B-moll Op. 31",
+                "status": "complete",
+                "scope": "reviewed-single-track",
+                "track_ids": [
+                  53709081
+                ]
+              }
+            ]
+          },
+          "recording_review": "DG 2530 236 is Michelangeli’s 1972 Chopin recital. This DG digital edition has the same ten mazurkas, Prelude Op. 45, Ballade Op. 23 and Scherzo Op. 31, with Michelangeli on every track. It identifies the recital, not a particular mastering.",
+          "review_sources": [
+            "https://www.qobuz.com/fr-fr/album/chopin-10-mazurkas-arturo-benedetti-michelangeli/uoihym7lfe48a"
           ]
         }
       ],
       "query": "arturo benedetti michelangeli chopin 10 mazurkas prelude op 45 ballade op 23 scherzo op",
       "searched_at": "2026-11-12T15:30:19.504849+00:00",
       "reasons": [
-        "13/14 target items supported after composer/work grouping; unresolved."
+        "Each listed piece has its own credited track. The source heading is a container, not an extra work.",
+        "DG 2530 236 is Michelangeli’s 1972 Chopin recital. This DG digital edition has the same ten mazurkas, Prelude Op. 45, Ballade Op. 23 and Scherzo Op. 31, with Michelangeli on every track. It identifies the recital, not a particular mastering.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "The heading Mazurkas is a container. Each numbered piece still needs its own track.",
+        "The 2018 digital issue is not verified as the same mastering as the 1972 LP."
       ]
     },
     "13655367": {
@@ -58670,14 +59245,136 @@
       ]
     },
     "2996680": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0002894497722",
+        "name": "Wagner : Tristan und Isolde",
+        "artists": [
+          "Bayreuther Festspielorchester"
+        ],
+        "label": "Deutsche Grammophon (DG)",
+        "release_date": "1966-01-01",
+        "image": "https://static.qobuz.com/images/covers/22/77/0002894497722_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/wagner-tristan-und-isolde-orchester-der-bayreuther-festspiele-karl-bohm/0002894497722"
+      },
+      "candidates": [
+        {
+          "id": "0002894497722",
+          "name": "Wagner : Tristan und Isolde",
+          "artists": [
+            "Bayreuther Festspielorchester"
+          ],
+          "label": "Deutsche Grammophon (DG)",
+          "release_date": "1966-01-01",
+          "image": "https://static.qobuz.com/images/covers/22/77/0002894497722_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/wagner-tristan-und-isolde-orchester-der-bayreuther-festspiele-karl-bohm/0002894497722",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 1,
+          "target_count": 1,
+          "required_performers": [
+            "Karl Böhm",
+            "Chor Der Bayreuther Festspiele",
+            "Wilhelm Pitz",
+            "Orchester Der Bayreuther Festspiele",
+            "Christa Ludwig",
+            "Erwin Wohlfahrt",
+            "Peter Schreier",
+            "Gerd Nienstedt",
+            "Birgit Nilsson",
+            "Eberhard Wächter",
+            "Martti Talvela",
+            "Claude Heater",
+            "Wolfgang Windgassen"
+          ],
+          "programme": [
+            {
+              "target": "Tristan Und Isolde",
+              "work_tracks": 29,
+              "credited_tracks": 29,
+              "track_ids": [
+                546850,
+                546853,
+                546856,
+                546859,
+                546862,
+                546865,
+                546868,
+                546851,
+                546854,
+                546857,
+                546860,
+                546863,
+                546866,
+                546869,
+                546871,
+                546873,
+                546875,
+                546877,
+                546852,
+                546855,
+                546858,
+                546861,
+                546864,
+                546867,
+                546870,
+                546872,
+                546874,
+                546876,
+                546878
+              ],
+              "opera_acts": {
+                "1": 7,
+                "2": 11,
+                "3": 11
+              },
+              "scene_evidence": "acts-only"
+            }
+          ],
+          "reasons": [
+            "Reviewed act coverage, ensemble names and recording roles support this album.",
+            "Böhm/Bayreuth 1966 Tristan: all three acts, both festival ensembles under explicit names, chorus master Wilhelm Pitz, and every named singer are present. Canonical album route uses Orchester der Bayreuther Festspiele while track credits use Bayreuther Festspielorchester.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Act coverage uses libretto incipits; scene alignment is not claimed.",
+            "Side J, Karl Böhm bei der Probe (Act III prelude and first scene, 29:20), is absent. This supports the main three-act recording, not the complete LP box.",
+            "Voice-type labels differ for Christa Ludwig, Gerd Nienstedt and Claude Heater; those named singers stay required.",
+            "Exact takes and mastering remain unverified."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Tristan Und Isolde",
+                "status": "complete",
+                "scope": "reviewed-opera-acts",
+                "acts": {
+                  "1": 7,
+                  "2": 11,
+                  "3": 11
+                },
+                "scene_evidence": "acts-only"
+              }
+            ]
+          },
+          "recording_review": "Böhm/Bayreuth 1966 Tristan: all three acts, both festival ensembles under explicit names, chorus master Wilhelm Pitz, and every named singer are present. Canonical album route uses Orchester der Bayreuther Festspiele while track credits use Bayreuther Festspielorchester.",
+          "review_sources": [
+            "https://www.qobuz.com/fr-fr/album/wagner-tristan-und-isolde-orchester-der-bayreuther-festspiele-karl-bohm/0002894497722"
+          ]
+        }
+      ],
       "query": "karl bohm wagner tristan und isolde bayreuth 1966",
       "searched_at": "2026-11-12T15:49:51.094989+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Reviewed act coverage, ensemble names and recording roles support this album.",
+        "Böhm/Bayreuth 1966 Tristan: all three acts, both festival ensembles under explicit names, chorus master Wilhelm Pitz, and every named singer are present. Canonical album route uses Orchester der Bayreuther Festspiele while track credits use Bayreuther Festspielorchester.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Act coverage uses libretto incipits; scene alignment is not claimed.",
+        "Side J, Karl Böhm bei der Probe (Act III prelude and first scene, 29:20), is absent. This supports the main three-act recording, not the complete LP box.",
+        "Voice-type labels differ for Christa Ludwig, Gerd Nienstedt and Claude Heater; those named singers stay required.",
+        "Exact takes and mastering remain unverified."
       ]
     },
     "3699703": {

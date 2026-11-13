@@ -851,3 +851,34 @@ No credential files or ignored run state included.
 PR4 merged as20dc0e8 after GitHub CI passed (run43475914824). All work saved
 in f64bb7f and merged/pushed to main; local full checks91Python tests plus
 Node/Spotify checks passed. Deployment completion not yet verified.
+
+## 2026-11-13 — Opera source roles and act coverage
+
+Hash-bound review equates ensemble names only with a recording-specific reason,
+keeps every musical credit, and checks acts. Tristan2996680 becomes Probable85
+for acts I–III (29 tracks); side J rehearsal stays a visible edition gap.
+Tannhäuser4365080 stays Unchecked because four page singers are absent, the
+chorus master is credited as director, Act III scene 2 is unlabelled, and a
+joined credit names Orchester der Deutschen Oper Berlin. Published copies
+12/75/654, unique 12/75/653. No API calls. Browser confirmed the Tristan detail,
+canonical album route, and Qobuz counts. Focused script and normalization tests
+passed. Not committed.
+
+## 2026-11-13 — Gould Well-Tempered Clavier pairs
+
+The nearest cached lead after Tristan was Barenboim volume 9866861. It is an
+EMI/La Voce del Padrone issue of the cycle already rejected against DG 4631272,
+so it stays unpublished. Gould2175684 / Sony 0886443628625 has all 48 prelude
+and fugue pairs, BWV 846–893, with Gould on every track. Three untitled preludes
+are bound to the following fugue. Volume headings are containers. Probable85;
+1975 LP mastering is not verified. Copies 12/76/653, unique 12/76/652. No API
+calls. Focused tests and normalization passed. Not committed.
+
+## 2026-11-13 — Michelangeli mazurka headings
+
+DG 2530 236, Michelangeli6678433, matches the 13-track DG album
+`uoihym7lfe48a`. The heading Mazurkas is a container; each numbered mazurka,
+the Prelude, Ballade and Scherzo keeps its own track, with Michelangeli
+credited. Probable85. The 2018 digital issue is not verified as the 1972
+mastering. Copies 12/77/652, unique 12/77/651. No API calls. Container tests
+passed. Not committed.

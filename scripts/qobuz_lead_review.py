@@ -48,6 +48,15 @@ def assess(row, album, review):
             target_fingerprint(row) != review['target_sha256'] or
             fingerprint(album) != review['album_sha256']):
         raise ValueError('Reviewed evidence changed; review again before publication')
+    if review.get('review_kind') == 'source-role-ensemble':
+        from qobuz_opera_review import assess_opera
+        return assess_opera(row, album, review)
+    if review.get('review_kind') == 'prelude-fugue-pairs':
+        from qobuz_pair_review import assess_pairs
+        return assess_pairs(row, album, review)
+    if review.get('review_kind') == 'container-headings':
+        from qobuz_container_review import assess_containers
+        return assess_containers(row, album, review)
     corrections = review.get('target_title_corrections', {})
     groups = review.get('target_unit_groups', [])
     if groups:

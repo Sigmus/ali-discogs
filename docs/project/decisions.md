@@ -203,7 +203,44 @@ Status: documented limitation; shared replacement status model remains proposed.
 Retained legacy Spotify album-level labels and stricter reviewed Qobuz labels
 are not directly comparable coverage or accuracy measurements. Do not explain
 count differences as catalogue/search superiority alone. Tristan2996680 shows a
-Spotify Probable without full-edition confirmation while Qobuz remains unchecked;
-raw target includes rehearsal material. Distinguish actual matcher blockers,
+Spotify Probable without full-edition confirmation. A later same-day Qobuz review
+accepts the main three acts only; raw target includes rehearsal material.
+Distinguish actual matcher blockers,
 review observations and unverified Spotify track coverage. See
 [validation gap](../plans/2026-11-13-cross-service-validation-gap.md).
+
+## 2026-11-13 — Opera roles, ensemble names and act coverage stay source-bound
+
+Status: adopted for the continued unmatched-release review.
+
+A hash-bound opera review may equate two ensemble names only when the review
+states the recording-specific reason. Chorus master is not director. Every
+cached musical credit, including secondary singers, must remain in the review;
+omitting one fails closed. Act labels can support a main-opera Probable85.
+Scenes stay unresolved when the candidate uses incipits, and that limit must be
+visible. A rehearsal or bonus side listed on the raw release stays an explicit
+edition gap: Tristan's side J does not block the three acts and does not make
+the LP box complete. A conflicting ensemble credit, a missing named singer, or
+an unlabelled required scene withholds the album. No general alias table.
+
+## 2026-11-13 — Prelude and fugue pairs stay hash-bound
+
+Status: adopted for the Gould Well-Tempered Clavier review.
+
+A container heading is not a separate work only when the review lists every such
+heading from the cached source. Each remaining BWV needs its own prelude and
+fugue, in source order, with the required pianist on both tracks. A title that
+says only "Prelude" is accepted solely for a reviewed track immediately before
+the fugue of that BWV. Cap at Probable85. A later recording cycle is not the
+earlier one: EMI Barenboim volume 9866861 stays unmatched to DG 4631272.
+
+## 2026-11-13 — A heading is a container only when every numbered piece remains
+
+Status: adopted for the Michelangeli Chopin recital review.
+
+A hash-bound review may treat source headings as containers when those headings
+are exactly the units with no credited track. A title that carries an opus, BWV
+or work number cannot be a container. Every other unit needs exactly one track,
+those tracks must partition the album, and the required performer must be
+credited on each. Losing a piece or the performer fails closed. Cap at
+Probable85. Same label and programme do not prove the same mastering.

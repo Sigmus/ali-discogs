@@ -1,0 +1,41 @@
+{
+  "schema_version": 1,
+  "releases": [
+    {
+      "discogs_id": "6678433",
+      "album_id": "uoihym7lfe48a",
+      "review_kind": "container-headings",
+      "target_sha256": "ab10d62985f1d69c95dbb1006accb366e11a4a414eae27a1638a98d4ea40df1d",
+      "album_sha256": "709779c004f027477f08a7c4849740804bc9858ef7f2b9b4bd85f407bee97b60",
+      "source_sha256": "790bdeb0f8857da761b0a219dc16ed4ae6b2821939d3884e3263d03e2e7b370b",
+      "decision": "probable",
+      "performer": "Arturo Benedetti Michelangeli",
+      "sources": [
+        "https://www.qobuz.com/fr-fr/album/chopin-10-mazurkas-arturo-benedetti-michelangeli/uoihym7lfe48a"
+      ],
+      "recording_review": "DG 2530 236 is Michelangeli’s 1972 Chopin recital. This DG digital edition has the same ten mazurkas, Prelude Op. 45, Ballade Op. 23 and Scherzo Op. 31, with Michelangeli on every track. It identifies the recital, not a particular mastering.",
+      "limitations": [
+        "The heading Mazurkas is a container. Each numbered piece still needs its own track.",
+        "The 2018 digital issue is not verified as the same mastering as the 1972 LP."
+      ],
+      "container_titles": [
+        "Mazurkas"
+      ],
+      "expected_track_ids": [
+        53709069,
+        53709070,
+        53709071,
+        53709072,
+        53709073,
+        53709074,
+        53709075,
+        53709076,
+        53709077,
+        53709078,
+        53709079,
+        53709080,
+        53709081
+      ]
+    }
+  ]
+}
