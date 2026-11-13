@@ -328,3 +328,41 @@ matches retain their previous statuses while their evidence mappings improve.
 `uv run python scripts/qobuz_group_audit.py` reproduces comparison of all 76
 reviewed selections. See [work-group implementation and review](plans/2026-11-13-qobuz-work-groups.md)
 for rules, controls, withheld cases and limitations.
+
+## Thirty-release service comparison
+
+The fixed 2026-11-13 comparison includes twenty fallback queries for ten empty
+Qobuz searches, ten cached unresolved Qobuz controls and ten cached Spotify
+Found/Probable cases. See [comparison findings](plans/2026-11-13-service-comparison-pilot.md).
+The separate portable `data/qobuz_comparison_evidence.json.gz` preserves all new
+searches and eight selected complete albums; original evidence remains unchanged.
+The shared raw-request archive now contains 1,786 responses, including this pilot.
+
+Offline replay: `uv run --with requests python scripts/qobuz_comparison_pilot.py --report`.
+Preparation without flags is offline too. Explicit `--search`/`--metadata` modes
+resume the fixed saved tasks with the existing slow/STOP safeguards; do not resume
+a failed warning without user direction. `--export` rebuilds portable evidence
+from completed local outputs. These commands never update publication matches.
+Spotify search caches lack tracks; this pilot's Spotify findings are album-level
+warnings, not a full recording/programme validation.
+
+## Explicit target-credit evidence and query relevance
+
+Current matching requires `data/qobuz_target_credits.json.gz`, a portable model
+of explicit cached Discogs work/position credits with source hashes. Rebuild it
+with `uv run python scripts/qobuz_target_credits.py`; matching itself needs no raw
+Discogs files. Unscoped/unparseable requirements stay global, and only explicit
+positive assignments may scope a performer to particular works. Historical v1
+units/evaluation remain frozen for comparison. Target archive fingerprints are
+recorded in regenerated matches.
+
+`uv run python scripts/qobuz_query_plan.py` proposes improved bounded queries and
+ranks cached hits offline; those scores are relevance, not accepted confidence.
+The two-query validation is preserved separately, not merged into publication.
+See [query/credit refinement and Spotify findings](plans/2026-11-13-query-credits-spotify-tracks.md).
+
+The follow-up [refinement/Spotify track audit](plans/2026-11-13-query-credits-spotify-tracks.md)
+now preserves all 227 Spotify pilot tracks and confirms two partial programmes.
+Historical comparison files retain their original evidence/limitations; use the
+new track audit for current findings. The raw Qobuz archive now has 1,788 responses
+(two more corrected-query validations); matching labels remain unchanged.

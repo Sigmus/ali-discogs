@@ -499,3 +499,73 @@ or Pages publication is part of this push; active search is not restarted.
 - Existing validation: 43 offline Qobuz tests, UI normalization/overlay/sort,
   JS syntax/build, browser evidence inspection and byte-identical regeneration.
   All 740 classification labels remain unchanged. No push/deployment requested.
+
+## 2026-11-13 — Begin 30-release service comparison
+
+- User authorized starting the proposed 10-empty / 10-unresolved Qobuz and
+  10-Spotify comparison pilot. Fixed a disjoint dated sample and twenty shorter
+  Qobuz queries; added resumable serial worker with persisted pacing, lock,
+  per-query saves and first-warning STOP/no-retry handling. Three mocked safety
+  tests pass. Initial sample selection correctly refused an already-Probable ID;
+  replaced it with an unresolved control before any network calls.
+- Offline inspection found Spotify cache holds album results, not full tracks;
+  comparable programme-level audit is not possible from that evidence. A Brahms
+  multi-work collection mapped to a Symphony No.1 album is a strong partial-programme
+  warning, not a completed track-level rejection. Qobuz retrieval is running;
+  final counts/findings pending. No publication changes or Spotify API calls.
+
+## 2026-11-13 — Complete 30-release comparison pilot
+
+- Twenty slow fallback searches completed without warnings: 17 nonempty queries,
+  hits for all ten originally empty releases. Eight selected full albums inspected
+  (seven newly fetched/one reused), all 423 tracks verified; metadata completed
+  13:04 Europe/Amsterdam. Three target-heading programme/credit leads (Schnabel,
+  Tennstedt, Kubelik) remain unpromoted pending completeness/session review.
+- Reviewed ten cached unresolved controls and ten Spotify album-level cases.
+  Spotify lacks tracks; one Brahms whole-collection→Symphony No.1 partial-programme
+  warning and nine unverified cases, not a measured error rate. Target-wide credits
+  and query relevance remain material bottlenecks; no catalogue-size conclusion.
+- Preserved portable whitelisted search/metadata evidence, generated results and
+  all-30 manual observations. Refreshed previously requested shared raw-cache
+  archive to 1,786 responses: all old 1,759 member payloads unchanged, 27 added.
+- All 47 mocked/offline tests pass. Export/report byte replay, credential-value
+  scan and publication-byte preservation checked. Scores remain 12/64/664 unique,
+  with no Spotify API or audio requests. Pilot changes uncommitted/unpushed;
+  no automatic further fetches, matching-rule changes or deployment.
+
+## 2026-11-13 — Query/target-credit refinement and Spotify track evidence
+
+- User authorized refinements and track caching, requested local Spotify .env
+  placeholders, then asked where sp holds secrets. Added placeholders preserving
+  existing settings; found sp PKCE config/token cache under ~/.config/sp. Reused
+  existing login with one successful refresh, no secret copying/display.
+- Cached ten Spotify albums / 227 complete tracks at slow spacing, without
+  warnings/audio/library calls. Added whitelisted shared archive, conflict-safe
+  offline restore and audit. Confirmed Brahms collection→Symphony No.1 partial
+  candidate and Found Dvorak Sixth/My Home candidate missing My Home. Eight other
+  recording validations unresolved; no published Spotify labels changed.
+- Implemented album-lead/compound-composer query proposals and relevance ranking.
+  Two scoped query validations succeeded: Coltrane A Love Supreme editions found,
+  with live variant flagged, and Casals/Mendelssohn trio candidates. Cached outputs
+  shared; raw-request archive refreshed to 1,788 responses. No collection run.
+- Derived explicit target performance scopes for 128 releases, with raw-source
+  hashes. Added parent/child hierarchy, full cross-side range parsing, retained
+  global-credit protection and ambiguity/non-musician guards. Real Bitches Brew
+  credit-range regression prevents discarding required Joe Zawinul/Larry Young.
+  Barenboim pilot improves from 23/31 flattened items to 8/8 work units, unpromoted.
+- All 58 offline tests, UI tests/build/diff pass; Qobuz regeneration identical,
+  all 740 labels preserved (12/64/664 unique). Secret scans pass. New work remains
+  uncommitted/unpushed; no automatic scoring corrections, merge or deployment.
+
+## 2026-11-13 — Commit service-comparison and refinement checkpoint
+
+- User requested committing current work and a next-step recommendation. Checkpoint
+  includes resumable comparison evidence/caches, query planning/validation,
+  explicit target-credit model, Spotify track caching/audit, regression tests and
+  technical/project docs. Local .env and OAuth credentials remain excluded.
+- Prior validation: 58 offline tests, UI tests/build/diff, identical regeneration,
+  unchanged published statuses and private token-value scans. No new tests or
+  API calls needed solely for this commit. No push, merge or deployment requested.
+- Recommend verifying the strongest Qobuz pilot leads for promotion before another
+  search batch, plus a Spotify full-programme safeguard before publication.
+  Recommendation does not authorize implementation or further fetching.

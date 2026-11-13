@@ -132,7 +132,21 @@ matches offline: no token, local `.qobuz-poc/` folder or upstream checkout requi
 To inspect it, use Python's `gzip`/`json` modules; see [Qobuz docs](docs/qobuz.md).
 
 The complete successful Qobuz request cache is also shared in
-`data/qobuz_request_cache.tar.gz` (~5 MB, 1,759 responses). Restore locally with
+`data/qobuz_request_cache.tar.gz` (~5 MB, 1,788 responses). Restore locally with
 `python3 scripts/qobuz_cache_archive.py restore` to reuse API responses in the
 catalogue tools. It excludes credentials, logs and third-party source; see the
 [cache sharing guide](docs/qobuz.md#shared-request-cache).
+
+Explicit Qobuz target work/track credits are preserved in
+`data/qobuz_target_credits.json.gz`; this is a required offline matching input.
+The [refinement report](docs/plans/2026-11-13-query-credits-spotify-tracks.md)
+describes query relevance and conservative credit scoping.
+
+The ten-case Spotify comparison also has portable tracks at
+`data/spotify_pilot_tracks.json.gz` (227 tracks, no credentials/audio).
+Run `uv run --with requests python scripts/spotify_pilot_tracks.py --restore` to
+restore/replay these locally without authentication, then
+`uv run python scripts/spotify_pilot_audit.py` for the audit. Explicit live fetching
+uses the existing `sp` PKCE login via `--fetch --sp-python PATH_TO_SP_PYTHON`;
+it does not need a Spotify client secret in this repo. Local run state stays
+ignored under `.spotify-poc/`, and research archives are not part of Pages builds.

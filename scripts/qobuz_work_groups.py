@@ -127,23 +127,29 @@ def evaluate_grouped(row, album, legacy=None):
     identities = {t: catalogue(t) for t in targets}
     collisions = {t for t in targets if any(identities[t] & identities[o] for o in targets if o != t)}
     for target in targets:
-        possible = [t for t in tracks if target_work_matches(row, target, t, target in collisions)]
-        direct = [t for t in possible if required and all(agrees(p, credits(t)) for p in required)]
+        from qobuz_target_credits import requirements
+        work_row, work_required, target_scope = requirements(row, target, required)
+        work_tracks = contextual_tracks(work_row, album['tracks']['items']) if target_scope else tracks
+        possible = [t for t in work_tracks if target_work_matches(work_row, target, t, target in collisions)]
+        direct = [t for t in possible if work_required and all(agrees(p, credits(t)) for p in work_required)]
         # Never merge disjoint runs or repeated performances within an anthology.
         runs = []
         possible_ids = {t['id'] for t in possible}
-        for i, t in enumerate(tracks):
+        for i, t in enumerate(work_tracks):
             if t['id'] not in possible_ids:
                 continue
             if not runs or runs[-1][-1][0] != i - 1 or (ordinal(t['title']) == 1 and runs[-1]):
                 runs.append([])
             runs[-1].append((i, t))
-        groups = [g for run in runs if (g := group_support(row, [t for _, t in run], required))]
+        groups = [g for run in runs if (g := group_support(work_row, [t for _, t in run], work_required))]
         # If multiple performances qualify, keep direct evidence rather than
         # synthesizing one recording from their combined credits.
         group = groups[0] if len(groups) == 1 else None
         ids = group['track_ids'] if group else [t['id'] for t in direct]
         item = {'target': target, 'work_tracks': len(possible), 'credited_tracks': len(ids), 'track_ids': ids}
+        if target_scope:
+            item['required_performers'] = work_required
+            item['target_credit_scope'] = target_scope
         inherited = [{'track_id': t['id'], 'parent_track_id': t['context_parent_track_id']}
                      for t in possible if 'context_parent_track_id' in t]
         if inherited:
@@ -152,11 +158,11 @@ def evaluate_grouped(row, album, legacy=None):
             item['recording_group'] = group
         programme.append(item)
     covered = sum(bool(p['track_ids']) for p in programme)
-    base.update(programme=programme, covered=covered, coverage=covered / len(programme) if programme else 0)
+    base.update(programme=programme, target_count=len(programme), covered=covered, coverage=covered / len(programme) if programme else 0)
     if covered != len(programme) or not programme or not required:
         base.update(status='unchecked', confidence=None,
                     reasons=[f'{covered}/{len(programme)} target items supported after composer/work grouping; unresolved.'])
-    elif base['status'] == 'unchecked' or any('recording_group' in p for p in programme):
+    elif base['status'] == 'unchecked' or len(programme) != original['target_count'] or any('recording_group' in p for p in programme):
         grouped = any('recording_group' in p for p in programme)
         reason = ('Target works have recording-group performer evidence; credits need not list every soloist on every movement. Recording identity requires review.' if grouped else
                   'Each target item has explicit work and performer-role credits; recording identity requires review.')

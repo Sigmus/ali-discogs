@@ -1,0 +1,3578 @@
+{
+  "schema_version": 1,
+  "selection": "10 evenly spaced empty-result IDs; 10 purposive unresolved failure controls; 5 Found and 5 Probable Spotify IDs evenly spaced within status, all disjoint. Not a random or representative catalogue sample.",
+  "collection_sha256": "568e740daa2510e838b392ddb3c68963f1dbf3c614f4347b8df0fb5e31babab8",
+  "matcher_version": "qobuz-work-groups-v1+reviewed-expansion-v2",
+  "entries": [
+    {
+      "discogs_id": "594243",
+      "title": "A Love Supreme",
+      "category": "qobuz_empty",
+      "queries": [
+        "mccoy tyner coltrane",
+        "mccoy tyner a love supreme"
+      ],
+      "discogs_programme": [
+        {
+          "position": "A1",
+          "title": "Part 1> Acknowledgement",
+          "type": "track",
+          "duration": "7:39"
+        },
+        {
+          "position": "A2",
+          "title": "Part 2> Resolution",
+          "type": "track",
+          "duration": "7:15"
+        },
+        {
+          "position": "B1",
+          "title": "Part 3> Pursuance / Part 4> Psalm",
+          "type": "track",
+          "duration": "17:40"
+        }
+      ],
+      "expected_performers": [
+        "McCoy Tyner",
+        "John Coltrane"
+      ],
+      "expected_composers": [
+        "John Coltrane"
+      ]
+    },
+    {
+      "discogs_id": "3066447",
+      "title": "Les Plus Belles Sonates Pour Piano",
+      "category": "qobuz_empty",
+      "queries": [
+        "daniel barenboim beethoven",
+        "barenboim beethoven op 109"
+      ],
+      "discogs_programme": [
+        {
+          "position": "",
+          "title": "Sonata No. 14 In C Sharp Minor, Op. 27 No.2 'Moonlight'",
+          "type": "heading",
+          "duration": ""
+        },
+        {
+          "position": "A1",
+          "title": "I: Adagio Sostenuto",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "A2",
+          "title": "II: Allegretto",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "A3",
+          "title": "III: Presto Agitato - Adagio - Presto Agitato",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "",
+          "title": "Sonata No. 8 In C Minor, Op. 13 'Pathetique'",
+          "type": "heading",
+          "duration": ""
+        },
+        {
+          "position": "A4",
+          "title": "I: Grave - Allegro Di Molto E Con Brio",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "A5",
+          "title": "II: Adagio Cantabile",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "B1",
+          "title": "III: Rondo: Allegro",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "",
+          "title": "Sonata No. 23 In F Minor, Op. 57 'Appassionata'",
+          "type": "heading",
+          "duration": ""
+        },
+        {
+          "position": "B2",
+          "title": "I: Allegro Asai",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "B3",
+          "title": "II: Andante Con Moto",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "B4",
+          "title": "III: Allegro, Ma Non Troppo - Presto",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "",
+          "title": "Sonata No. 21 In C Major, Op. 53 'Waldstein'",
+          "type": "heading",
+          "duration": ""
+        },
+        {
+          "position": "C1",
+          "title": "I: Allegro Con Brio",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "C2",
+          "title": "II: Introduzione: Adagio Molto - Rondo: Allegretto Moderato - Prestissimo",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "",
+          "title": "Sonata No. 32 In C Minor, Op. 111",
+          "type": "heading",
+          "duration": ""
+        },
+        {
+          "position": "D1",
+          "title": "I: Maestoso - Allegro Con Brio Ed Appassionato",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "D2",
+          "title": "II: Arietta: Adagio Molto Semplice E Cantabile",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "",
+          "title": "Sonata No. 31 In A Flat Major, Op. 110",
+          "type": "heading",
+          "duration": ""
+        },
+        {
+          "position": "E1",
+          "title": "I: Moderato Cantabile, Molto Espressivo",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "E2",
+          "title": "II: Allegro Molto",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "E3",
+          "title": "III: Adagio Ma Non Troppo",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "E4",
+          "title": "IV: Fuga: Allegro Ma Non Troppo - L'Istesso Tempo Di Arioso - L'Istessa Tempo Della Fuga - Meno Allegro",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "",
+          "title": "Sonata No. 30 In E Major, Op. 109",
+          "type": "heading",
+          "duration": ""
+        },
+        {
+          "position": "E5",
+          "title": "I: Vivace, Ma Non Troppo - Adagio Espressivo - Tempo I",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "E6",
+          "title": "II: Prestissimo",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "F1",
+          "title": "III: Tema: Andante Molto Cantabile Ed Espressivo - Variazioni 1-6",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "",
+          "title": "Sonata No. 26 In E Flat Major, Op. 81a 'Les Adieux'",
+          "type": "heading",
+          "duration": ""
+        },
+        {
+          "position": "F2",
+          "title": "I: Das Lebewohl (Les Adieux): Adagio - Allegro",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "F3",
+          "title": "II: Abwesenheit (L'Absence): Andante Espressivo",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "F4",
+          "title": "III: Wiedersehen (Le Retour): Vivacissimamente - Poco Andante - Tempo I",
+          "type": "track",
+          "duration": ""
+        }
+      ],
+      "expected_performers": [
+        "Daniel Barenboim"
+      ],
+      "expected_composers": [
+        "Ludwig van Beethoven"
+      ]
+    },
+    {
+      "discogs_id": "4429613",
+      "title": "The Complete Beethoven Society Recordings, 1932–37 / Vol. 2: Sonatas, Nos. 11–17",
+      "category": "qobuz_empty",
+      "queries": [
+        "artur schnabel beethoven",
+        "schnabel beethoven op 22"
+      ],
+      "discogs_programme": [
+        {
+          "position": "",
+          "title": "Sonata No. 11 In B Flat, Op. 22",
+          "type": "index",
+          "duration": ""
+        },
+        {
+          "position": "",
+          "title": "Sonata No. 12 In A Flat, Op. 26 (\"Funeral March\")",
+          "type": "index",
+          "duration": ""
+        },
+        {
+          "position": "",
+          "title": "Sonata No. 13 In E Flat, Op. 27 No. 1",
+          "type": "index",
+          "duration": ""
+        },
+        {
+          "position": "",
+          "title": "Sonata No. 14 In C Sharp Minor, Op. 27 No. 2 (\"Moonlight\")",
+          "type": "index",
+          "duration": ""
+        },
+        {
+          "position": "",
+          "title": "Sonata No. 15 In D, Op. 28 (\"Pastoral\")",
+          "type": "index",
+          "duration": ""
+        },
+        {
+          "position": "",
+          "title": "Sonata No. 16 In G, Op. 31 No. 1",
+          "type": "index",
+          "duration": ""
+        },
+        {
+          "position": "",
+          "title": "Sonata No. 17 In D Minor, Op. 31 No. 2 (\"Tempest\")",
+          "type": "index",
+          "duration": ""
+        }
+      ],
+      "expected_performers": [
+        "Artur Schnabel"
+      ],
+      "expected_composers": [
+        "Ludwig van Beethoven"
+      ]
+    },
+    {
+      "discogs_id": "6091545",
+      "title": "Psalmen Davids, 1619 (Five Concertos For Soloists, Choruses & Instruments)",
+      "category": "qobuz_empty",
+      "queries": [
+        "wilhelm ehmann schutz",
+        "wilhelm ehmann psalmen davids 1619"
+      ],
+      "discogs_programme": [
+        {
+          "position": "A1",
+          "title": "Psalm 136: Danket Dem Herren, Denn Er Ist Freundlich, SWV 45",
+          "type": "track",
+          "duration": "10:06"
+        },
+        {
+          "position": "A2",
+          "title": "Psalm 6: Ach Herr, Straf Nicht In Deinem Zorn, SWV 24",
+          "type": "track",
+          "duration": "6:05"
+        },
+        {
+          "position": "A3",
+          "title": "Psalm 23: Der Herr Ist Mein Hirt, SWV 33",
+          "type": "track",
+          "duration": "5:30"
+        },
+        {
+          "position": "B1",
+          "title": "Psalm 128: Wohl Dem, Der Den Herren Fuerchtet, SWV 30",
+          "type": "track",
+          "duration": "6:44"
+        },
+        {
+          "position": "B2",
+          "title": "Canzone: Nun Lob, Mein Seel, Den Herren, SWV 41",
+          "type": "track",
+          "duration": "18:36"
+        }
+      ],
+      "expected_performers": [
+        "Wilhelm Ehmann",
+        "Westfälische Kantorei",
+        "Christa Labsch",
+        "Bernhard Michaelis",
+        "Adele Stolte",
+        "Rotraud Pax",
+        "Hans-Joachim Rotzsch",
+        "Johannes Hoefflin",
+        "Heinrich Haferland"
+      ],
+      "expected_composers": [
+        "Heinrich Schütz"
+      ]
+    },
+    {
+      "discogs_id": "7103881",
+      "title": "Messen F-dur (BWV 233), A-dur (BWV 234)",
+      "category": "qobuz_empty",
+      "queries": [
+        "martin flamig bach",
+        "flamig bach bwv 233"
+      ],
+      "discogs_programme": [
+        {
+          "position": "",
+          "title": "Messe F-dur, BWV 233",
+          "type": "index",
+          "duration": ""
+        },
+        {
+          "position": "",
+          "title": "Messe A-dur, BWV 234",
+          "type": "index",
+          "duration": ""
+        }
+      ],
+      "expected_performers": [
+        "Martin Flämig",
+        "Renate Krahmer",
+        "Annelies Burmeister",
+        "Theo Adam",
+        "Dresdner Kreuzchor",
+        "Dresdner Philharmonie",
+        "Manfred Reichelt"
+      ],
+      "expected_composers": [
+        "Johann Sebastian Bach"
+      ]
+    },
+    {
+      "discogs_id": "8534837",
+      "title": "Double Concerto / Piano Trio No. 1",
+      "category": "qobuz_empty",
+      "queries": [
+        "alfred cortot bartholdy",
+        "alfred cortot double concerto piano"
+      ],
+      "discogs_programme": [
+        {
+          "position": "A",
+          "title": "Double Concerto For Violin And Violoncello",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "B",
+          "title": "Trio No 1 In D Minor",
+          "type": "track",
+          "duration": ""
+        }
+      ],
+      "expected_performers": [
+        "Alfred Cortot",
+        "Pablo Casals",
+        "Jacques Thibaud",
+        "Orquestra Pau Casals"
+      ],
+      "expected_composers": [
+        "Felix Mendelssohn-Bartholdy",
+        "Johannes Brahms"
+      ]
+    },
+    {
+      "discogs_id": "10301402",
+      "title": "Die 4 Symphonien · Das Violinkonzert · Die Haydn-Variationen · Ein Deutsches Requiem",
+      "category": "qobuz_empty",
+      "queries": [
+        "herbert von karajan brahms",
+        "karajan brahms op 45"
+      ],
+      "discogs_programme": [
+        {
+          "position": "",
+          "title": "Symphonie Nr. 1 C-moll Op. 68",
+          "type": "index",
+          "duration": ""
+        },
+        {
+          "position": "",
+          "title": "Symphonie Nr. 2 D-dur Op. 73",
+          "type": "index",
+          "duration": ""
+        },
+        {
+          "position": "",
+          "title": "Symphonie Nr. 3 F-dur Op. 90",
+          "type": "index",
+          "duration": ""
+        },
+        {
+          "position": "",
+          "title": "Symphonie Nr. 4 E-moll Op. 98",
+          "type": "index",
+          "duration": ""
+        },
+        {
+          "position": "",
+          "title": "Konzert Für Violine Und Orchester D-dur Op. 77",
+          "type": "index",
+          "duration": ""
+        },
+        {
+          "position": "",
+          "title": "Ein Deutsches Requiem Op. 45 (Nach Worten Der Heiligen Schrift Für Soli, Chor Und Orchester)",
+          "type": "index",
+          "duration": ""
+        },
+        {
+          "position": "N",
+          "title": "Variationen Über Ein Thema Von Joseph Haydn Für Orchester Op. 56 A",
+          "type": "track",
+          "duration": ""
+        }
+      ],
+      "expected_performers": [
+        "Herbert von Karajan",
+        "Berliner Philharmoniker",
+        "Wiener Singverein",
+        "Gundula Janowitz",
+        "Eberhard Wächter",
+        "Christian Ferras"
+      ],
+      "expected_composers": [
+        "Johannes Brahms"
+      ]
+    },
+    {
+      "discogs_id": "12130939",
+      "title": "Symphonie N° 5 / Symphonie N° 10 - Adagio",
+      "category": "qobuz_empty",
+      "queries": [
+        "klaus tennstedt mahler",
+        "klaus tennstedt symphonie ndeg 5"
+      ],
+      "discogs_programme": [
+        {
+          "position": "",
+          "title": "Symphony No. 5 In C Sharp Minor",
+          "type": "index",
+          "duration": ""
+        },
+        {
+          "position": "",
+          "title": "Symphony No. 10 In F Sharp Major",
+          "type": "index",
+          "duration": ""
+        }
+      ],
+      "expected_performers": [
+        "Klaus Tennstedt",
+        "London Philharmonic Orchestra"
+      ],
+      "expected_composers": [
+        "Gustav Mahler"
+      ]
+    },
+    {
+      "discogs_id": "15926362",
+      "title": "Symphonies Nos. 1-4",
+      "category": "qobuz_empty",
+      "queries": [
+        "bernard haitink mahler",
+        "bernard haitink symphonies nos 1"
+      ],
+      "discogs_programme": [
+        {
+          "position": "",
+          "title": "Symphonie Nr. 1 D-Dur \"Titan\"",
+          "type": "index",
+          "duration": ""
+        },
+        {
+          "position": "",
+          "title": "Symphonie Nr. 2 C-Moll \"Aufherstehung\"",
+          "type": "index",
+          "duration": ""
+        },
+        {
+          "position": "",
+          "title": "Symphonie Nr. 3 D-Moll",
+          "type": "index",
+          "duration": ""
+        },
+        {
+          "position": "",
+          "title": "Symphonie Nr. 4 G-Dur",
+          "type": "index",
+          "duration": ""
+        }
+      ],
+      "expected_performers": [
+        "Bernard Haitink",
+        "Women's Chorus Of The Groot Omroepkoor",
+        "Concertgebouworkest",
+        "Elly Ameling",
+        "Herman Krebbers"
+      ],
+      "expected_composers": [
+        "Gustav Mahler"
+      ]
+    },
+    {
+      "discogs_id": "37312800",
+      "title": "Symphonie Nr.IV e-moll",
+      "category": "qobuz_empty",
+      "queries": [
+        "rafael kubelik brahms",
+        "kubelik brahms op 98"
+      ],
+      "discogs_programme": [
+        {
+          "position": "",
+          "title": "Symphony Nr. IV E-Minor Opus 98\t",
+          "type": "index",
+          "duration": ""
+        }
+      ],
+      "expected_performers": [
+        "Rafael Kubelik",
+        "Wiener Philharmoniker"
+      ],
+      "expected_composers": [
+        "Johannes Brahms"
+      ]
+    },
+    {
+      "discogs_id": "6381208",
+      "title": "Missa Solemnis",
+      "category": "qobuz_unresolved",
+      "queries": [],
+      "discogs_programme": [
+        {
+          "position": "",
+          "title": "Missa Solemnis",
+          "type": "index",
+          "duration": ""
+        }
+      ],
+      "expected_performers": [
+        "Otto Klemperer",
+        "New Philharmonia Orchestra",
+        "New Philharmonia Chorus",
+        "Elisabeth Söderström",
+        "Marga Höffgen",
+        "Waldemar Kmentt",
+        "Martti Talvela"
+      ],
+      "expected_composers": [
+        "Ludwig Van Beethoven"
+      ],
+      "candidates": [
+        {
+          "album_id": "kno5hz96hygbc",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 1,
+          "target_count": 1,
+          "required_performers": [
+            "Otto Klemperer",
+            "New Philharmonia Orchestra",
+            "New Philharmonia Chorus",
+            "Elisabeth Söderström",
+            "Marga Höffgen",
+            "Waldemar Kmentt",
+            "Martti Talvela"
+          ],
+          "programme": [
+            {
+              "target": "Missa Solemnis",
+              "work_tracks": 11,
+              "credited_tracks": 11,
+              "track_ids": [
+                241256109,
+                241256110,
+                241256111,
+                241256112,
+                241256113,
+                241256114,
+                241256115,
+                241256116,
+                241256117,
+                241256118,
+                241256119
+              ],
+              "recording_group": {
+                "track_ids": [
+                  241256109,
+                  241256110,
+                  241256111,
+                  241256112,
+                  241256113,
+                  241256114,
+                  241256115,
+                  241256116,
+                  241256117,
+                  241256118,
+                  241256119
+                ],
+                "anchors": [
+                  "New Philharmonia Orchestra",
+                  "Otto Klemperer"
+                ],
+                "scope": "contiguous-work-group",
+                "credit_policy": "Anchors on every track; each named performer evidenced within this group; no unknown extra musical main artists."
+              }
+            }
+          ],
+          "reasons": [
+            "Target works have recording-group performer evidence; credits need not list every soloist on every movement. Recording identity requires review.",
+            "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
+          ],
+          "work_group_policy": "qobuz-work-groups-v1"
+        },
+        {
+          "album_id": "onbmce2a556ob",
+          "status": "unchecked",
+          "confidence": null,
+          "coverage": 0.0,
+          "covered": 0,
+          "target_count": 1,
+          "required_performers": [
+            "Otto Klemperer",
+            "New Philharmonia Orchestra",
+            "New Philharmonia Chorus",
+            "Elisabeth Söderström",
+            "Marga Höffgen",
+            "Waldemar Kmentt",
+            "Martti Talvela"
+          ],
+          "programme": [
+            {
+              "target": "Missa Solemnis",
+              "work_tracks": 11,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ],
+          "reasons": [
+            "0/1 target items supported after composer/work grouping; unresolved."
+          ]
+        },
+        {
+          "album_id": "0724356754751",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 1,
+          "target_count": 1,
+          "required_performers": [
+            "Otto Klemperer",
+            "New Philharmonia Orchestra",
+            "New Philharmonia Chorus",
+            "Elisabeth Söderström",
+            "Marga Höffgen",
+            "Waldemar Kmentt",
+            "Martti Talvela"
+          ],
+          "programme": [
+            {
+              "target": "Missa Solemnis",
+              "work_tracks": 11,
+              "credited_tracks": 9,
+              "track_ids": [
+                1036365,
+                1036366,
+                1036367,
+                1036368,
+                1036370,
+                1036371,
+                1036373,
+                1036374,
+                1036375
+              ]
+            }
+          ],
+          "reasons": [
+            "Each target item has explicit work and performer-role credits; recording identity requires review.",
+            "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
+          ],
+          "work_group_policy": "qobuz-work-groups-v1"
+        },
+        {
+          "album_id": "kdm22moqmlz9b",
+          "status": "unchecked",
+          "confidence": null,
+          "coverage": 0.0,
+          "covered": 0,
+          "target_count": 1,
+          "required_performers": [
+            "Otto Klemperer",
+            "New Philharmonia Orchestra",
+            "New Philharmonia Chorus",
+            "Elisabeth Söderström",
+            "Marga Höffgen",
+            "Waldemar Kmentt",
+            "Martti Talvela"
+          ],
+          "programme": [
+            {
+              "target": "Missa Solemnis",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ],
+          "reasons": [
+            "0/1 target items supported after composer/work grouping; unresolved."
+          ]
+        },
+        {
+          "album_id": "pb3zyp2k0602b",
+          "status": "unchecked",
+          "confidence": null,
+          "coverage": 0.0,
+          "covered": 0,
+          "target_count": 1,
+          "required_performers": [
+            "Otto Klemperer",
+            "New Philharmonia Orchestra",
+            "New Philharmonia Chorus",
+            "Elisabeth Söderström",
+            "Marga Höffgen",
+            "Waldemar Kmentt",
+            "Martti Talvela"
+          ],
+          "programme": [
+            {
+              "target": "Missa Solemnis",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ],
+          "reasons": [
+            "0/1 target items supported after composer/work grouping; unresolved."
+          ]
+        }
+      ]
+    },
+    {
+      "discogs_id": "6599326",
+      "title": "Requiem Op. 89",
+      "category": "qobuz_unresolved",
+      "queries": [],
+      "discogs_programme": [
+        {
+          "position": "",
+          "title": "Requiem Op. 89",
+          "type": "index",
+          "duration": ""
+        }
+      ],
+      "expected_performers": [
+        "Karel Ančerl",
+        "Maria Stader",
+        "Ernst Haefliger",
+        "Kim Borg",
+        "The Czech Philharmonic Orchestra"
+      ],
+      "expected_composers": [
+        "Antonín Dvořák",
+        "Sieglinde Wagner"
+      ],
+      "candidates": [
+        {
+          "album_id": "tzrc8oc3d248a",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 1,
+          "target_count": 1,
+          "required_performers": [
+            "Karel Ančerl",
+            "Maria Stader",
+            "Ernst Haefliger",
+            "Kim Borg",
+            "The Czech Philharmonic Orchestra"
+          ],
+          "programme": [
+            {
+              "target": "Requiem Op. 89",
+              "work_tracks": 13,
+              "credited_tracks": 13,
+              "track_ids": [
+                133795929,
+                133795930,
+                133795931,
+                133795932,
+                133795933,
+                133795934,
+                133795935,
+                133795936,
+                133795937,
+                133795938,
+                133795939,
+                133795940,
+                133795941
+              ]
+            }
+          ],
+          "reasons": [
+            "Each target item has explicit work and performer-role credits; recording identity requires review.",
+            "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
+          ],
+          "work_group_policy": "qobuz-work-groups-v1"
+        },
+        {
+          "album_id": "0002894530732",
+          "status": "unchecked",
+          "confidence": null,
+          "coverage": 0.0,
+          "covered": 0,
+          "target_count": 1,
+          "required_performers": [
+            "Karel Ančerl",
+            "Maria Stader",
+            "Ernst Haefliger",
+            "Kim Borg",
+            "The Czech Philharmonic Orchestra"
+          ],
+          "programme": [
+            {
+              "target": "Requiem Op. 89",
+              "work_tracks": 13,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ],
+          "reasons": [
+            "0/1 target items supported after composer/work grouping; unresolved."
+          ]
+        },
+        {
+          "album_id": "p6s353rlr52xb",
+          "status": "unchecked",
+          "confidence": null,
+          "coverage": 0.0,
+          "covered": 0,
+          "target_count": 1,
+          "required_performers": [
+            "Karel Ančerl",
+            "Maria Stader",
+            "Ernst Haefliger",
+            "Kim Borg",
+            "The Czech Philharmonic Orchestra"
+          ],
+          "programme": [
+            {
+              "target": "Requiem Op. 89",
+              "work_tracks": 13,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ],
+          "reasons": [
+            "0/1 target items supported after composer/work grouping; unresolved."
+          ]
+        }
+      ]
+    },
+    {
+      "discogs_id": "8252155",
+      "title": "Messen",
+      "category": "qobuz_unresolved",
+      "queries": [],
+      "discogs_programme": [
+        {
+          "position": "A",
+          "title": "Messe g-moll, BWV 235",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "B",
+          "title": "Messe G-dur, BWV 236",
+          "type": "track",
+          "duration": ""
+        }
+      ],
+      "expected_performers": [
+        "Renate Krahmer",
+        "Annelies Burmeister",
+        "Peter Schreier",
+        "Theo Adam",
+        "Dresdner Kreuzchor",
+        "Dresdner Philharmonie",
+        "Martin Flämig"
+      ],
+      "expected_composers": [
+        "Johann Sebastian Bach"
+      ],
+      "candidates": [
+        {
+          "album_id": "hz3y69pf3amua",
+          "status": "unchecked",
+          "confidence": null,
+          "coverage": 0.5,
+          "covered": 1,
+          "target_count": 2,
+          "required_performers": [
+            "Renate Krahmer",
+            "Annelies Burmeister",
+            "Peter Schreier",
+            "Theo Adam",
+            "Dresdner Kreuzchor",
+            "Dresdner Philharmonie",
+            "Martin Flämig"
+          ],
+          "programme": [
+            {
+              "target": "Messe g-moll, BWV 235",
+              "work_tracks": 6,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Messe G-dur, BWV 236",
+              "work_tracks": 6,
+              "credited_tracks": 6,
+              "track_ids": [
+                118211873,
+                118211874,
+                118211875,
+                118211876,
+                118211877,
+                118211878
+              ],
+              "recording_group": {
+                "track_ids": [
+                  118211873,
+                  118211874,
+                  118211875,
+                  118211876,
+                  118211877,
+                  118211878
+                ],
+                "anchors": [
+                  "Dresdner Philharmonie"
+                ],
+                "scope": "contiguous-work-group",
+                "credit_policy": "Anchors on every track; each named performer evidenced within this group; no unknown extra musical main artists."
+              }
+            }
+          ],
+          "reasons": [
+            "1/2 target items supported after composer/work grouping; unresolved.",
+            "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
+          ],
+          "work_group_policy": "qobuz-work-groups-v1"
+        },
+        {
+          "album_id": "deivnz0mjzqya",
+          "status": "unchecked",
+          "confidence": null,
+          "coverage": 0.0,
+          "covered": 0,
+          "target_count": 2,
+          "required_performers": [
+            "Renate Krahmer",
+            "Annelies Burmeister",
+            "Peter Schreier",
+            "Theo Adam",
+            "Dresdner Kreuzchor",
+            "Dresdner Philharmonie",
+            "Martin Flämig"
+          ],
+          "programme": [
+            {
+              "target": "Messe g-moll, BWV 235",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Messe G-dur, BWV 236",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ],
+          "reasons": [
+            "0/2 target items supported after composer/work grouping; unresolved."
+          ]
+        }
+      ]
+    },
+    {
+      "discogs_id": "8121703",
+      "title": "Twenty Harpsichord Sonatas",
+      "category": "qobuz_unresolved",
+      "queries": [],
+      "discogs_programme": [
+        {
+          "position": "A1",
+          "title": "Sonata In C Major, L. 104 – F Minor, L. 438 – G Major, L. 232 - G Minor, L. 488",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "A2",
+          "title": "Sonata In A Major, L. 132 – F Major, L. 384 – F Minor, L. 475",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "A3",
+          "title": "Sonata In B Minor, L. 263 – D Major, L. 463 – F Sharp Minor, L. 294 – D Major, L. 208",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "B1",
+          "title": "Sonata In C Sharp Minor, L, 256 – E Major, L. 257",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "B2",
+          "title": "Sonata In E Major, L . 375 – G Major, L. S27 – G Minor, L. 338 - E Flat Major, L. 142",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "B3",
+          "title": "Sonata In E Major, L. 23 – F Major, L. 474 – F Major, L. 479",
+          "type": "track",
+          "duration": ""
+        }
+      ],
+      "expected_performers": [
+        "Wanda Landowska"
+      ],
+      "expected_composers": [
+        "Domenico Scarlatti"
+      ],
+      "candidates": [
+        {
+          "album_id": "ujhzfrl46gycc",
+          "status": "unchecked",
+          "confidence": null,
+          "coverage": 0.0,
+          "covered": 0,
+          "target_count": 6,
+          "required_performers": [
+            "Wanda Landowska"
+          ],
+          "programme": [
+            {
+              "target": "Sonata In C Major, L. 104 – F Minor, L. 438 – G Major, L. 232 - G Minor, L. 488",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Sonata In A Major, L. 132 – F Major, L. 384 – F Minor, L. 475",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Sonata In B Minor, L. 263 – D Major, L. 463 – F Sharp Minor, L. 294 – D Major, L. 208",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Sonata In C Sharp Minor, L, 256 – E Major, L. 257",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Sonata In E Major, L . 375 – G Major, L. S27 – G Minor, L. 338 - E Flat Major, L. 142",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Sonata In E Major, L. 23 – F Major, L. 474 – F Major, L. 479",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ],
+          "reasons": [
+            "0/6 target items supported after composer/work grouping; unresolved."
+          ]
+        }
+      ]
+    },
+    {
+      "discogs_id": "5820114",
+      "title": "The Five Piano Concertos",
+      "category": "qobuz_unresolved",
+      "queries": [],
+      "discogs_programme": [
+        {
+          "position": "",
+          "title": "Concerto No. 1 In C Major, Op. 15",
+          "type": "index",
+          "duration": ""
+        },
+        {
+          "position": "B2",
+          "title": "12 Variations In A Major, On A Russian Theme From Wranitzky's \"Das Waldmädchen,\" G.182",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "",
+          "title": "Concerto No. 2 In B Flat Major, Op. 19",
+          "type": "index",
+          "duration": ""
+        },
+        {
+          "position": "D2",
+          "title": "32 Variations in C Minor, On An Original Theme, G.191",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "",
+          "title": "Concerto No. 3 In C Minor, Op. 37",
+          "type": "index",
+          "duration": ""
+        },
+        {
+          "position": "G1",
+          "title": "6 Variations in D Major On A Turkish Theme from \"The Ruins Of Athens,\" Op. 76",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "",
+          "title": "Concerto No. 4 In G Major, Op. 58",
+          "type": "index",
+          "duration": ""
+        },
+        {
+          "position": "",
+          "title": "Concerto No. 5 in E Flat Major, Op. 73 (\"Emperor\")",
+          "type": "index",
+          "duration": ""
+        }
+      ],
+      "expected_performers": [
+        "George Szell",
+        "Emil Gilels",
+        "The Cleveland Orchestra"
+      ],
+      "expected_composers": [
+        "Ludwig van Beethoven"
+      ],
+      "candidates": [
+        {
+          "album_id": "v97lzb7cicexb",
+          "status": "unchecked",
+          "confidence": null,
+          "coverage": 0.625,
+          "covered": 5,
+          "target_count": 8,
+          "required_performers": [
+            "George Szell",
+            "Emil Gilels",
+            "The Cleveland Orchestra"
+          ],
+          "programme": [
+            {
+              "target": "Concerto No. 1 In C Major, Op. 15",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                81582341,
+                81582342,
+                81582343
+              ]
+            },
+            {
+              "target": "12 Variations In A Major, On A Russian Theme From Wranitzky's \"Das Waldmädchen,\" G.182",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Concerto No. 2 In B Flat Major, Op. 19",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                81582344,
+                81582345,
+                81582346
+              ]
+            },
+            {
+              "target": "32 Variations in C Minor, On An Original Theme, G.191",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Concerto No. 3 In C Minor, Op. 37",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                81582347,
+                81582348,
+                81582349
+              ]
+            },
+            {
+              "target": "6 Variations in D Major On A Turkish Theme from \"The Ruins Of Athens,\" Op. 76",
+              "work_tracks": 7,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Concerto No. 4 In G Major, Op. 58",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                81582350,
+                81582351,
+                81582352
+              ]
+            },
+            {
+              "target": "Concerto No. 5 in E Flat Major, Op. 73 (\"Emperor\")",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                81582353,
+                81582354,
+                81582355
+              ]
+            }
+          ],
+          "reasons": [
+            "5/8 target items supported after composer/work grouping; unresolved."
+          ]
+        },
+        {
+          "album_id": "av98godsw1g2b",
+          "status": "unchecked",
+          "confidence": null,
+          "coverage": 0.0,
+          "covered": 0,
+          "target_count": 8,
+          "required_performers": [
+            "George Szell",
+            "Emil Gilels",
+            "The Cleveland Orchestra"
+          ],
+          "programme": [
+            {
+              "target": "Concerto No. 1 In C Major, Op. 15",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "12 Variations In A Major, On A Russian Theme From Wranitzky's \"Das Waldmädchen,\" G.182",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Concerto No. 2 In B Flat Major, Op. 19",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "32 Variations in C Minor, On An Original Theme, G.191",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Concerto No. 3 In C Minor, Op. 37",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "6 Variations in D Major On A Turkish Theme from \"The Ruins Of Athens,\" Op. 76",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Concerto No. 4 In G Major, Op. 58",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Concerto No. 5 in E Flat Major, Op. 73 (\"Emperor\")",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ],
+          "reasons": [
+            "0/8 target items supported after composer/work grouping; unresolved."
+          ]
+        },
+        {
+          "album_id": "rrpea9ujgawpa",
+          "status": "unchecked",
+          "confidence": null,
+          "coverage": 0.0,
+          "covered": 0,
+          "target_count": 8,
+          "required_performers": [
+            "George Szell",
+            "Emil Gilels",
+            "The Cleveland Orchestra"
+          ],
+          "programme": [
+            {
+              "target": "Concerto No. 1 In C Major, Op. 15",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "12 Variations In A Major, On A Russian Theme From Wranitzky's \"Das Waldmädchen,\" G.182",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Concerto No. 2 In B Flat Major, Op. 19",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "32 Variations in C Minor, On An Original Theme, G.191",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Concerto No. 3 In C Minor, Op. 37",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "6 Variations in D Major On A Turkish Theme from \"The Ruins Of Athens,\" Op. 76",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Concerto No. 4 In G Major, Op. 58",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Concerto No. 5 in E Flat Major, Op. 73 (\"Emperor\")",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ],
+          "reasons": [
+            "0/8 target items supported after composer/work grouping; unresolved."
+          ]
+        },
+        {
+          "album_id": "0724356950955",
+          "status": "unchecked",
+          "confidence": null,
+          "coverage": 0.125,
+          "covered": 1,
+          "target_count": 8,
+          "required_performers": [
+            "George Szell",
+            "Emil Gilels",
+            "The Cleveland Orchestra"
+          ],
+          "programme": [
+            {
+              "target": "Concerto No. 1 In C Major, Op. 15",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "12 Variations In A Major, On A Russian Theme From Wranitzky's \"Das Waldmädchen,\" G.182",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Concerto No. 2 In B Flat Major, Op. 19",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "32 Variations in C Minor, On An Original Theme, G.191",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Concerto No. 3 In C Minor, Op. 37",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "6 Variations in D Major On A Turkish Theme from \"The Ruins Of Athens,\" Op. 76",
+              "work_tracks": 1,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Concerto No. 4 In G Major, Op. 58",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Concerto No. 5 in E Flat Major, Op. 73 (\"Emperor\")",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                1038924,
+                1038926,
+                1038928
+              ]
+            }
+          ],
+          "reasons": [
+            "1/8 target items supported after composer/work grouping; unresolved."
+          ]
+        },
+        {
+          "album_id": "0828768524527",
+          "status": "unchecked",
+          "confidence": null,
+          "coverage": 0.0,
+          "covered": 0,
+          "target_count": 8,
+          "required_performers": [
+            "George Szell",
+            "Emil Gilels",
+            "The Cleveland Orchestra"
+          ],
+          "programme": [
+            {
+              "target": "Concerto No. 1 In C Major, Op. 15",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "12 Variations In A Major, On A Russian Theme From Wranitzky's \"Das Waldmädchen,\" G.182",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Concerto No. 2 In B Flat Major, Op. 19",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "32 Variations in C Minor, On An Original Theme, G.191",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Concerto No. 3 In C Minor, Op. 37",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "6 Variations in D Major On A Turkish Theme from \"The Ruins Of Athens,\" Op. 76",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Concerto No. 4 In G Major, Op. 58",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Concerto No. 5 in E Flat Major, Op. 73 (\"Emperor\")",
+              "work_tracks": 1,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ],
+          "reasons": [
+            "0/8 target items supported after composer/work grouping; unresolved."
+          ]
+        }
+      ]
+    },
+    {
+      "discogs_id": "6678433",
+      "title": "10 Mazurkas · Prélude Op. 45 · Ballade Op.23 · Scherzo Op. 31",
+      "category": "qobuz_unresolved",
+      "queries": [],
+      "discogs_programme": [
+        {
+          "position": "",
+          "title": "Mazurkas",
+          "type": "heading",
+          "duration": ""
+        },
+        {
+          "position": "A1",
+          "title": "Op. 67 No. 2: Cantabile",
+          "type": "track",
+          "duration": "1:56"
+        },
+        {
+          "position": "A2",
+          "title": "Op. 56 No. 2: Vivace",
+          "type": "track",
+          "duration": "1:44"
+        },
+        {
+          "position": "A3",
+          "title": "Op. 67 No. 4: Moderato Animato",
+          "type": "track",
+          "duration": "3:04"
+        },
+        {
+          "position": "A4",
+          "title": "Op. 68 No. 2: Lento",
+          "type": "track",
+          "duration": "3:04"
+        },
+        {
+          "position": "A5",
+          "title": "Op. 68 No. 1: Vivace",
+          "type": "track",
+          "duration": "1:28"
+        },
+        {
+          "position": "A6",
+          "title": "Op. 33 No. 1: Mesto",
+          "type": "track",
+          "duration": "1:59"
+        },
+        {
+          "position": "A7",
+          "title": "Op. 30 No. 3: Allegro Non Troppo - Risoluto",
+          "type": "track",
+          "duration": "3:11"
+        },
+        {
+          "position": "A8",
+          "title": "Op. 30 No. 2: Allegretto",
+          "type": "track",
+          "duration": "1:32"
+        },
+        {
+          "position": "A9",
+          "title": "Op. 33 No. 4: Mesto",
+          "type": "track",
+          "duration": "6:10"
+        },
+        {
+          "position": "A10",
+          "title": "Op. 68 No. 4: Andantino",
+          "type": "track",
+          "duration": "3:40"
+        },
+        {
+          "position": "",
+          "title": "Prelude Cis-moll Op. 45",
+          "type": "index",
+          "duration": ""
+        },
+        {
+          "position": "",
+          "title": "Ballade G-moll Op. 23",
+          "type": "index",
+          "duration": ""
+        },
+        {
+          "position": "",
+          "title": "Scherzo B-moll Op. 31",
+          "type": "index",
+          "duration": ""
+        }
+      ],
+      "expected_performers": [
+        "Arturo Benedetti Michelangeli"
+      ],
+      "expected_composers": [
+        "Frédéric Chopin"
+      ],
+      "candidates": [
+        {
+          "album_id": "uoihym7lfe48a",
+          "status": "unchecked",
+          "confidence": null,
+          "coverage": 0.9285714285714286,
+          "covered": 13,
+          "target_count": 14,
+          "required_performers": [
+            "Arturo Benedetti Michelangeli"
+          ],
+          "programme": [
+            {
+              "target": "Mazurkas",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Op. 67 No. 2: Cantabile",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                53709069
+              ]
+            },
+            {
+              "target": "Op. 56 No. 2: Vivace",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                53709070
+              ]
+            },
+            {
+              "target": "Op. 67 No. 4: Moderato Animato",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                53709071
+              ]
+            },
+            {
+              "target": "Op. 68 No. 2: Lento",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                53709072
+              ]
+            },
+            {
+              "target": "Op. 68 No. 1: Vivace",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                53709073
+              ]
+            },
+            {
+              "target": "Op. 33 No. 1: Mesto",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                53709074
+              ]
+            },
+            {
+              "target": "Op. 30 No. 3: Allegro Non Troppo - Risoluto",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                53709075
+              ]
+            },
+            {
+              "target": "Op. 30 No. 2: Allegretto",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                53709076
+              ]
+            },
+            {
+              "target": "Op. 33 No. 4: Mesto",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                53709077
+              ]
+            },
+            {
+              "target": "Op. 68 No. 4: Andantino",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                53709078
+              ]
+            },
+            {
+              "target": "Prelude Cis-moll Op. 45",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                53709079
+              ]
+            },
+            {
+              "target": "Ballade G-moll Op. 23",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                53709080
+              ]
+            },
+            {
+              "target": "Scherzo B-moll Op. 31",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                53709081
+              ]
+            }
+          ],
+          "reasons": [
+            "13/14 target items supported after composer/work grouping; unresolved."
+          ]
+        }
+      ]
+    },
+    {
+      "discogs_id": "9739139",
+      "title": "Symphony No. 9 \"From The New World\"",
+      "category": "qobuz_unresolved",
+      "queries": [],
+      "discogs_programme": [
+        {
+          "position": "",
+          "title": "Symphony No. 9 \"From The New World\" In E Minor, Op. 95",
+          "type": "index",
+          "duration": ""
+        }
+      ],
+      "expected_performers": [
+        "Kiril Kondrashin",
+        "Wiener Philharmoniker"
+      ],
+      "expected_composers": [
+        "Antonín Dvořák"
+      ],
+      "candidates": [
+        {
+          "album_id": "jox1pt5atqcga",
+          "status": "unchecked",
+          "confidence": null,
+          "coverage": 0.0,
+          "covered": 0,
+          "target_count": 1,
+          "required_performers": [
+            "Kiril Kondrashin",
+            "Wiener Philharmoniker"
+          ],
+          "programme": [
+            {
+              "target": "Symphony No. 9 \"From The New World\" In E Minor, Op. 95",
+              "work_tracks": 4,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ],
+          "reasons": [
+            "0/1 target items supported after composer/work grouping; unresolved."
+          ]
+        }
+      ]
+    },
+    {
+      "discogs_id": "13069435",
+      "title": "Concerto Pour Violon & Orchestre",
+      "category": "qobuz_unresolved",
+      "queries": [],
+      "discogs_programme": [
+        {
+          "position": "",
+          "title": "Concerto Pour Violon Et Orchestre En Ré, Op. 35",
+          "type": "index",
+          "duration": ""
+        }
+      ],
+      "expected_performers": [
+        "David Oistrach",
+        "The Philadelphia Orchestra",
+        "Eugene Ormandy"
+      ],
+      "expected_composers": [
+        "Pyotr Ilyich Tchaikovsky"
+      ],
+      "candidates": [
+        {
+          "album_id": "3610154002583",
+          "status": "unchecked",
+          "confidence": null,
+          "coverage": 0.0,
+          "covered": 0,
+          "target_count": 1,
+          "required_performers": [
+            "David Oistrach",
+            "The Philadelphia Orchestra",
+            "Eugene Ormandy"
+          ],
+          "programme": [
+            {
+              "target": "Concerto Pour Violon Et Orchestre En Ré, Op. 35",
+              "work_tracks": 3,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ],
+          "reasons": [
+            "0/1 target items supported after composer/work grouping; unresolved."
+          ]
+        },
+        {
+          "album_id": "3614591685613",
+          "status": "unchecked",
+          "confidence": null,
+          "coverage": 0.0,
+          "covered": 0,
+          "target_count": 1,
+          "required_performers": [
+            "David Oistrach",
+            "The Philadelphia Orchestra",
+            "Eugene Ormandy"
+          ],
+          "programme": [
+            {
+              "target": "Concerto Pour Violon Et Orchestre En Ré, Op. 35",
+              "work_tracks": 3,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ],
+          "reasons": [
+            "0/1 target items supported after composer/work grouping; unresolved."
+          ]
+        },
+        {
+          "album_id": "0884977911558",
+          "status": "unchecked",
+          "confidence": null,
+          "coverage": 0.0,
+          "covered": 0,
+          "target_count": 1,
+          "required_performers": [
+            "David Oistrach",
+            "The Philadelphia Orchestra",
+            "Eugene Ormandy"
+          ],
+          "programme": [
+            {
+              "target": "Concerto Pour Violon Et Orchestre En Ré, Op. 35",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ],
+          "reasons": [
+            "0/1 target items supported after composer/work grouping; unresolved."
+          ]
+        },
+        {
+          "album_id": "0887396372436",
+          "status": "unchecked",
+          "confidence": null,
+          "coverage": 0.0,
+          "covered": 0,
+          "target_count": 1,
+          "required_performers": [
+            "David Oistrach",
+            "The Philadelphia Orchestra",
+            "Eugene Ormandy"
+          ],
+          "programme": [
+            {
+              "target": "Concerto Pour Violon Et Orchestre En Ré, Op. 35",
+              "work_tracks": 3,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ],
+          "reasons": [
+            "0/1 target items supported after composer/work grouping; unresolved."
+          ]
+        },
+        {
+          "album_id": "5060122340847",
+          "status": "unchecked",
+          "confidence": null,
+          "coverage": 0.0,
+          "covered": 0,
+          "target_count": 1,
+          "required_performers": [
+            "David Oistrach",
+            "The Philadelphia Orchestra",
+            "Eugene Ormandy"
+          ],
+          "programme": [
+            {
+              "target": "Concerto Pour Violon Et Orchestre En Ré, Op. 35",
+              "work_tracks": 3,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ],
+          "reasons": [
+            "0/1 target items supported after composer/work grouping; unresolved."
+          ]
+        }
+      ]
+    },
+    {
+      "discogs_id": "4841406",
+      "title": "Concerto No.1 / Concerto No.2",
+      "category": "qobuz_unresolved",
+      "queries": [],
+      "discogs_programme": [
+        {
+          "position": "",
+          "title": "Piano Concerto No. 1 In E Flat",
+          "type": "index",
+          "duration": ""
+        },
+        {
+          "position": "",
+          "title": "Piano Concerto No. 2 In A Major",
+          "type": "index",
+          "duration": ""
+        }
+      ],
+      "expected_performers": [
+        "Kiril Kondrashin",
+        "Sviatoslav Richter",
+        "London Symphony Orchestra"
+      ],
+      "expected_composers": [
+        "Franz Liszt"
+      ],
+      "candidates": [
+        {
+          "album_id": "yt22nah20mswc",
+          "status": "unchecked",
+          "confidence": null,
+          "coverage": 0.0,
+          "covered": 0,
+          "target_count": 2,
+          "required_performers": [
+            "Kiril Kondrashin",
+            "Sviatoslav Richter",
+            "London Symphony Orchestra"
+          ],
+          "programme": [
+            {
+              "target": "Piano Concerto No. 1 In E Flat",
+              "work_tracks": 1,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Piano Concerto No. 2 In A Major",
+              "work_tracks": 1,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ],
+          "reasons": [
+            "0/2 target items supported after composer/work grouping; unresolved."
+          ]
+        },
+        {
+          "album_id": "i9fy7pzti22jb",
+          "status": "unchecked",
+          "confidence": null,
+          "coverage": 0.0,
+          "covered": 0,
+          "target_count": 2,
+          "required_performers": [
+            "Kiril Kondrashin",
+            "Sviatoslav Richter",
+            "London Symphony Orchestra"
+          ],
+          "programme": [
+            {
+              "target": "Piano Concerto No. 1 In E Flat",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Piano Concerto No. 2 In A Major",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ],
+          "reasons": [
+            "0/2 target items supported after composer/work grouping; unresolved."
+          ]
+        },
+        {
+          "album_id": "0002894462002",
+          "status": "unchecked",
+          "confidence": null,
+          "coverage": 0.0,
+          "covered": 0,
+          "target_count": 2,
+          "required_performers": [
+            "Kiril Kondrashin",
+            "Sviatoslav Richter",
+            "London Symphony Orchestra"
+          ],
+          "programme": [
+            {
+              "target": "Piano Concerto No. 1 In E Flat",
+              "work_tracks": 4,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Piano Concerto No. 2 In A Major",
+              "work_tracks": 4,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ],
+          "reasons": [
+            "0/2 target items supported after composer/work grouping; unresolved."
+          ]
+        },
+        {
+          "album_id": "0002894784818",
+          "status": "unchecked",
+          "confidence": null,
+          "coverage": 0.0,
+          "covered": 0,
+          "target_count": 2,
+          "required_performers": [
+            "Kiril Kondrashin",
+            "Sviatoslav Richter",
+            "London Symphony Orchestra"
+          ],
+          "programme": [
+            {
+              "target": "Piano Concerto No. 1 In E Flat",
+              "work_tracks": 4,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Piano Concerto No. 2 In A Major",
+              "work_tracks": 4,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ],
+          "reasons": [
+            "0/2 target items supported after composer/work grouping; unresolved."
+          ]
+        },
+        {
+          "album_id": "l9yr83dikutqa",
+          "status": "unchecked",
+          "confidence": null,
+          "coverage": 0.0,
+          "covered": 0,
+          "target_count": 2,
+          "required_performers": [
+            "Kiril Kondrashin",
+            "Sviatoslav Richter",
+            "London Symphony Orchestra"
+          ],
+          "programme": [
+            {
+              "target": "Piano Concerto No. 1 In E Flat",
+              "work_tracks": 4,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Piano Concerto No. 2 In A Major",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ],
+          "reasons": [
+            "0/2 target items supported after composer/work grouping; unresolved."
+          ]
+        }
+      ]
+    },
+    {
+      "discogs_id": "3198796",
+      "title": "Die Walküre",
+      "category": "qobuz_unresolved",
+      "queries": [],
+      "discogs_programme": [
+        {
+          "position": "",
+          "title": "Die Walküre",
+          "type": "index",
+          "duration": ""
+        }
+      ],
+      "expected_performers": [
+        "Pierre Boulez",
+        "Orchester der Bayreuther Festspiele",
+        "Carmen Reppel",
+        "Donald McIntyre",
+        "Elisabeth Glauser",
+        "Gabriele Schnaut",
+        "Gwendolyn Killebrew",
+        "Gwyneth Jones",
+        "Hanna Schwarz",
+        "Ilse Gramatzki",
+        "Jeannine Altmeyer",
+        "Karen Middleton",
+        "Katie Clarke",
+        "Marga Schiml",
+        "Matti Salminen (2)",
+        "Peter Hofmann"
+      ],
+      "expected_composers": [
+        "Richard Wagner"
+      ],
+      "candidates": [
+        {
+          "album_id": "0002894757960",
+          "status": "unchecked",
+          "confidence": null,
+          "coverage": 0.0,
+          "covered": 0,
+          "target_count": 1,
+          "required_performers": [
+            "Orchester der Bayreuther Festspiele",
+            "Carmen Reppel",
+            "Donald McIntyre",
+            "Elisabeth Glauser",
+            "Gabriele Schnaut",
+            "Gwendolyn Killebrew",
+            "Gwyneth Jones",
+            "Hanna Schwarz",
+            "Ilse Gramatzki",
+            "Jeannine Altmeyer",
+            "Karen Middleton",
+            "Katie Clarke",
+            "Marga Schiml",
+            "Matti Salminen (2)",
+            "Peter Hofmann"
+          ],
+          "programme": [
+            {
+              "target": "Die Walküre",
+              "work_tracks": 32,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ],
+          "reasons": [
+            "0/1 target items supported after composer/work grouping; unresolved."
+          ]
+        },
+        {
+          "album_id": "0002894344222",
+          "status": "unchecked",
+          "confidence": null,
+          "coverage": 0.0,
+          "covered": 0,
+          "target_count": 1,
+          "required_performers": [
+            "Orchester der Bayreuther Festspiele",
+            "Carmen Reppel",
+            "Donald McIntyre",
+            "Elisabeth Glauser",
+            "Gabriele Schnaut",
+            "Gwendolyn Killebrew",
+            "Gwyneth Jones",
+            "Hanna Schwarz",
+            "Ilse Gramatzki",
+            "Jeannine Altmeyer",
+            "Karen Middleton",
+            "Katie Clarke",
+            "Marga Schiml",
+            "Matti Salminen (2)",
+            "Peter Hofmann"
+          ],
+          "programme": [
+            {
+              "target": "Die Walküre",
+              "work_tracks": 32,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ],
+          "reasons": [
+            "0/1 target items supported after composer/work grouping; unresolved."
+          ]
+        }
+      ]
+    },
+    {
+      "discogs_id": "669978",
+      "title": "The Man With The Horn",
+      "category": "spotify_review",
+      "queries": [],
+      "discogs_programme": [
+        {
+          "position": "A1",
+          "title": "Fat Time",
+          "type": "track",
+          "duration": "9:53"
+        },
+        {
+          "position": "A2",
+          "title": "Back Seat Betty",
+          "type": "track",
+          "duration": "11:15"
+        },
+        {
+          "position": "A3",
+          "title": "Shout",
+          "type": "track",
+          "duration": "5:52"
+        },
+        {
+          "position": "B1",
+          "title": "Aïda",
+          "type": "track",
+          "duration": "8:10"
+        },
+        {
+          "position": "B2",
+          "title": "The Man With The Horn",
+          "type": "track",
+          "duration": "6:32"
+        },
+        {
+          "position": "B3",
+          "title": "Ursula",
+          "type": "track",
+          "duration": "10:50"
+        }
+      ],
+      "expected_performers": [
+        "Miles Davis"
+      ],
+      "expected_composers": [],
+      "spotify_status": "found",
+      "spotify_album": {
+        "id": "1fRSDRiFk922cV3bgFCdtz",
+        "name": "The Man With The Horn (2022 Remaster)",
+        "artists": [
+          "Miles Davis"
+        ],
+        "release_date": "1981-07",
+        "total_tracks": 6,
+        "album_type": "album",
+        "url": "https://open.spotify.com/album/1fRSDRiFk922cV3bgFCdtz",
+        "image": "https://i.scdn.co/image/ab67616d0000b2734d4e8569c9166981b6eec163",
+        "label": null
+      },
+      "signals": {
+        "confidence": 0.99,
+        "p_in_artists": true,
+        "cond_hit": null,
+        "orch_hit": null,
+        "live_mismatch": false,
+        "p_primary": true,
+        "p_frac": 1.0,
+        "c_frac": 1.0,
+        "title_score": 100.0,
+        "title_sort": 75.0,
+        "num_agree": null,
+        "year_close": true
+      },
+      "cached_album": {
+        "id": "1fRSDRiFk922cV3bgFCdtz",
+        "name": "The Man With The Horn (2022 Remaster)",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0kbYTNQb4Pb1rPbbaF0pT4"
+            },
+            "href": "https://api.spotify.com/v1/artists/0kbYTNQb4Pb1rPbbaF0pT4",
+            "id": "0kbYTNQb4Pb1rPbbaF0pT4",
+            "name": "Miles Davis",
+            "type": "artist",
+            "uri": "spotify:artist:0kbYTNQb4Pb1rPbbaF0pT4"
+          }
+        ],
+        "total_tracks": 6,
+        "release_date": "1981-07"
+      },
+      "limitation": "Spotify search cache has album metadata only; movement/recording-credit validation is unavailable. No Spotify API calls made."
+    },
+    {
+      "discogs_id": "3569461",
+      "title": "Symfoni Nr. 3. \"Espansiva\"",
+      "category": "spotify_review",
+      "queries": [],
+      "discogs_programme": [
+        {
+          "position": "",
+          "title": "Sinfonia Eespansiva (No. 3), Op. 27 (Beginning)",
+          "type": "heading",
+          "duration": "21:35"
+        },
+        {
+          "position": "A1",
+          "title": "I - Allegro Espansivo",
+          "type": "track",
+          "duration": "11:40"
+        },
+        {
+          "position": "A2",
+          "title": "II - Andante Pastorale",
+          "type": "track",
+          "duration": "9:50"
+        },
+        {
+          "position": "",
+          "title": "Sinfonia Eespansiva (No. 3), Op. 27 (Conclusion)",
+          "type": "heading",
+          "duration": "16:05"
+        },
+        {
+          "position": "B1",
+          "title": "III - Allegretto Un Poco",
+          "type": "track",
+          "duration": "6:30"
+        },
+        {
+          "position": "B2",
+          "title": "IV - Finale: Allegro",
+          "type": "track",
+          "duration": "9:30"
+        }
+      ],
+      "expected_performers": [
+        "Leonard Bernstein",
+        "Det Kongelige Kapel",
+        "Ruth Guldbæk",
+        "Niels Møller"
+      ],
+      "expected_composers": [
+        "Carl Nielsen"
+      ],
+      "spotify_status": "found",
+      "spotify_album": {
+        "id": "4EynPoWcBb1hycDLHReOCg",
+        "name": "Nielsen: Symphonies Nos. 3 & 5",
+        "artists": [
+          "Carl Nielsen",
+          "Leonard Bernstein"
+        ],
+        "release_date": "1963",
+        "total_tracks": 6,
+        "album_type": "album",
+        "url": "https://open.spotify.com/album/4EynPoWcBb1hycDLHReOCg",
+        "image": "https://i.scdn.co/image/ab67616d0000b273ab5372f7a06024253cad6882",
+        "label": null
+      },
+      "signals": {
+        "confidence": 0.837,
+        "p_in_artists": true,
+        "cond_hit": true,
+        "orch_hit": null,
+        "live_mismatch": false,
+        "p_primary": true,
+        "p_frac": 0.25,
+        "c_frac": 1.0,
+        "title_score": 73.1,
+        "title_sort": 57.9,
+        "num_agree": 1,
+        "year_close": false
+      },
+      "cached_album": {
+        "id": "4EynPoWcBb1hycDLHReOCg",
+        "name": "Nielsen: Symphonies Nos. 3 & 5",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/73I7vbj7hzsw8rW4LUoxtz"
+            },
+            "href": "https://api.spotify.com/v1/artists/73I7vbj7hzsw8rW4LUoxtz",
+            "id": "73I7vbj7hzsw8rW4LUoxtz",
+            "name": "Carl Nielsen",
+            "type": "artist",
+            "uri": "spotify:artist:73I7vbj7hzsw8rW4LUoxtz"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2LmyJyCF5V1eQyvHgJNbTn"
+            },
+            "href": "https://api.spotify.com/v1/artists/2LmyJyCF5V1eQyvHgJNbTn",
+            "id": "2LmyJyCF5V1eQyvHgJNbTn",
+            "name": "Leonard Bernstein",
+            "type": "artist",
+            "uri": "spotify:artist:2LmyJyCF5V1eQyvHgJNbTn"
+          }
+        ],
+        "total_tracks": 6,
+        "release_date": "1963"
+      },
+      "limitation": "Spotify search cache has album metadata only; movement/recording-credit validation is unavailable. No Spotify API calls made."
+    },
+    {
+      "discogs_id": "6119238",
+      "title": "Symphony No. 6 / Overture 'My Home'",
+      "category": "spotify_review",
+      "queries": [],
+      "discogs_programme": [
+        {
+          "position": "",
+          "title": "Symphony No. 6 In D, Op. 60",
+          "type": "index",
+          "duration": ""
+        },
+        {
+          "position": "B3",
+          "title": "Overture: My Home, Op. 62",
+          "type": "track",
+          "duration": "9:35"
+        }
+      ],
+      "expected_performers": [
+        "István Kertész",
+        "London Symphony Orchestra"
+      ],
+      "expected_composers": [
+        "Antonín Dvořák"
+      ],
+      "spotify_status": "found",
+      "spotify_album": {
+        "id": "5arfXVZ6Cp45OVLB8EBf0E",
+        "name": "Dvorák: Symphonies Nos.4-6",
+        "artists": [
+          "Antonín Dvořák",
+          "London Symphony Orchestra",
+          "István Kertész"
+        ],
+        "release_date": "2003-01-01",
+        "total_tracks": 15,
+        "album_type": "compilation",
+        "url": "https://open.spotify.com/album/5arfXVZ6Cp45OVLB8EBf0E",
+        "image": "https://i.scdn.co/image/ab67616d0000b273daa9dd9f45dae39aa55abf60",
+        "label": null
+      },
+      "signals": {
+        "confidence": 0.972,
+        "p_in_artists": true,
+        "cond_hit": true,
+        "orch_hit": true,
+        "live_mismatch": false,
+        "p_primary": true,
+        "p_frac": 1.0,
+        "c_frac": 1.0,
+        "title_score": 80.7,
+        "title_sort": 56.5,
+        "num_agree": 1,
+        "year_close": null
+      },
+      "cached_album": {
+        "id": "5arfXVZ6Cp45OVLB8EBf0E",
+        "name": "Dvorák: Symphonies Nos.4-6",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6n7nd5iceYpXVwcx8VPpxF"
+            },
+            "href": "https://api.spotify.com/v1/artists/6n7nd5iceYpXVwcx8VPpxF",
+            "id": "6n7nd5iceYpXVwcx8VPpxF",
+            "name": "Antonín Dvořák",
+            "type": "artist",
+            "uri": "spotify:artist:6n7nd5iceYpXVwcx8VPpxF"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/5yxyJsFanEAuwSM5kOuZKc"
+            },
+            "href": "https://api.spotify.com/v1/artists/5yxyJsFanEAuwSM5kOuZKc",
+            "id": "5yxyJsFanEAuwSM5kOuZKc",
+            "name": "London Symphony Orchestra",
+            "type": "artist",
+            "uri": "spotify:artist:5yxyJsFanEAuwSM5kOuZKc"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6QcRHYSvrGdLCS5L7SV4WL"
+            },
+            "href": "https://api.spotify.com/v1/artists/6QcRHYSvrGdLCS5L7SV4WL",
+            "id": "6QcRHYSvrGdLCS5L7SV4WL",
+            "name": "István Kertész",
+            "type": "artist",
+            "uri": "spotify:artist:6QcRHYSvrGdLCS5L7SV4WL"
+          }
+        ],
+        "total_tracks": 15,
+        "release_date": "2003-01-01"
+      },
+      "limitation": "Spotify search cache has album metadata only; movement/recording-credit validation is unavailable. No Spotify API calls made."
+    },
+    {
+      "discogs_id": "8982341",
+      "title": "Götterdämmerung",
+      "category": "spotify_review",
+      "queries": [],
+      "discogs_programme": [
+        {
+          "position": "",
+          "title": "Götterdämmerung",
+          "type": "index",
+          "duration": ""
+        }
+      ],
+      "expected_performers": [
+        "Georg Solti",
+        "Wiener Philharmoniker",
+        "Dietrich Fischer-Dieskau",
+        "Grace Hoffman",
+        "Maureen Guy",
+        "Anita Välkki",
+        "Birgit Nilsson",
+        "Claire Watson",
+        "Gwyneth Jones",
+        "Lucia Popp",
+        "Wolfgang Windgassen"
+      ],
+      "expected_composers": [
+        "Richard Wagner"
+      ],
+      "spotify_status": "found",
+      "spotify_album": {
+        "id": "4tEj5Vtog4QUL7PdLHqyGN",
+        "name": "Wagner: Götterdämmerung",
+        "artists": [
+          "Richard Wagner",
+          "Birgit Nilsson",
+          "Wolfgang Windgassen",
+          "Gottlob Frick",
+          "Wiener Philharmoniker",
+          "Sir Georg Solti"
+        ],
+        "release_date": "2013-01-01",
+        "total_tracks": 54,
+        "album_type": "album",
+        "url": "https://open.spotify.com/album/4tEj5Vtog4QUL7PdLHqyGN",
+        "image": "https://i.scdn.co/image/ab67616d0000b2738dc42f6223d28d2f02b1d9d2",
+        "label": null
+      },
+      "signals": {
+        "confidence": 0.875,
+        "p_in_artists": true,
+        "cond_hit": true,
+        "orch_hit": true,
+        "live_mismatch": false,
+        "p_primary": true,
+        "p_frac": 0.5,
+        "c_frac": 1.0,
+        "title_score": 100.0,
+        "title_sort": 100.0,
+        "num_agree": null,
+        "year_close": null
+      },
+      "cached_album": {
+        "id": "4tEj5Vtog4QUL7PdLHqyGN",
+        "name": "Wagner: Götterdämmerung",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1C1x4MVkql8AiABuTw6DgE"
+            },
+            "href": "https://api.spotify.com/v1/artists/1C1x4MVkql8AiABuTw6DgE",
+            "id": "1C1x4MVkql8AiABuTw6DgE",
+            "name": "Richard Wagner",
+            "type": "artist",
+            "uri": "spotify:artist:1C1x4MVkql8AiABuTw6DgE"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6ljM6B2XmSU7BtG3tZLQ1K"
+            },
+            "href": "https://api.spotify.com/v1/artists/6ljM6B2XmSU7BtG3tZLQ1K",
+            "id": "6ljM6B2XmSU7BtG3tZLQ1K",
+            "name": "Birgit Nilsson",
+            "type": "artist",
+            "uri": "spotify:artist:6ljM6B2XmSU7BtG3tZLQ1K"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/5wBaHI4YBLWJ2OkXU63YFs"
+            },
+            "href": "https://api.spotify.com/v1/artists/5wBaHI4YBLWJ2OkXU63YFs",
+            "id": "5wBaHI4YBLWJ2OkXU63YFs",
+            "name": "Wolfgang Windgassen",
+            "type": "artist",
+            "uri": "spotify:artist:5wBaHI4YBLWJ2OkXU63YFs"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0gO52wRLxLFlQXVYjisqnB"
+            },
+            "href": "https://api.spotify.com/v1/artists/0gO52wRLxLFlQXVYjisqnB",
+            "id": "0gO52wRLxLFlQXVYjisqnB",
+            "name": "Gottlob Frick",
+            "type": "artist",
+            "uri": "spotify:artist:0gO52wRLxLFlQXVYjisqnB"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/003f4bk13c6Q3gAUXv7dGJ"
+            },
+            "href": "https://api.spotify.com/v1/artists/003f4bk13c6Q3gAUXv7dGJ",
+            "id": "003f4bk13c6Q3gAUXv7dGJ",
+            "name": "Wiener Philharmoniker",
+            "type": "artist",
+            "uri": "spotify:artist:003f4bk13c6Q3gAUXv7dGJ"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0dicUFoK5LIbqu6OoHu8VH"
+            },
+            "href": "https://api.spotify.com/v1/artists/0dicUFoK5LIbqu6OoHu8VH",
+            "id": "0dicUFoK5LIbqu6OoHu8VH",
+            "name": "Sir Georg Solti",
+            "type": "artist",
+            "uri": "spotify:artist:0dicUFoK5LIbqu6OoHu8VH"
+          }
+        ],
+        "total_tracks": 54,
+        "release_date": "2013-01-01"
+      },
+      "limitation": "Spotify search cache has album metadata only; movement/recording-credit validation is unavailable. No Spotify API calls made."
+    },
+    {
+      "discogs_id": "36163426",
+      "title": "Symphonie N° 9",
+      "category": "spotify_review",
+      "queries": [],
+      "discogs_programme": [
+        {
+          "position": "",
+          "title": "Symphonie N° 9 En Ré Mineur (Version Originale)",
+          "type": "index",
+          "duration": ""
+        }
+      ],
+      "expected_performers": [
+        "Carl Schuricht",
+        "Wiener Philharmoniker"
+      ],
+      "expected_composers": [
+        "Anton Bruckner"
+      ],
+      "spotify_status": "found",
+      "spotify_album": {
+        "id": "0LyK2Ex3DgtEhH0prIcnJV",
+        "name": "Bruckner: Symphonies Nos. 3, 8 & 9",
+        "artists": [
+          "Anton Bruckner",
+          "Wiener Philharmoniker",
+          "Carl Schuricht"
+        ],
+        "release_date": "2024-07-20",
+        "total_tracks": 11,
+        "album_type": "album",
+        "url": "https://open.spotify.com/album/0LyK2Ex3DgtEhH0prIcnJV",
+        "image": "https://i.scdn.co/image/ab67616d0000b2734a31689d074e4862ec6a07ec",
+        "label": null
+      },
+      "signals": {
+        "confidence": 0.89,
+        "p_in_artists": true,
+        "cond_hit": true,
+        "orch_hit": true,
+        "live_mismatch": false,
+        "p_primary": true,
+        "p_frac": 1.0,
+        "c_frac": 1.0,
+        "title_score": 80.0,
+        "title_sort": 72.7,
+        "num_agree": null,
+        "year_close": null
+      },
+      "cached_album": {
+        "id": "0LyK2Ex3DgtEhH0prIcnJV",
+        "name": "Bruckner: Symphonies Nos. 3, 8 & 9",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2bM3j1JQWBkmzuoZKu4zj2"
+            },
+            "href": "https://api.spotify.com/v1/artists/2bM3j1JQWBkmzuoZKu4zj2",
+            "id": "2bM3j1JQWBkmzuoZKu4zj2",
+            "name": "Anton Bruckner",
+            "type": "artist",
+            "uri": "spotify:artist:2bM3j1JQWBkmzuoZKu4zj2"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/003f4bk13c6Q3gAUXv7dGJ"
+            },
+            "href": "https://api.spotify.com/v1/artists/003f4bk13c6Q3gAUXv7dGJ",
+            "id": "003f4bk13c6Q3gAUXv7dGJ",
+            "name": "Wiener Philharmoniker",
+            "type": "artist",
+            "uri": "spotify:artist:003f4bk13c6Q3gAUXv7dGJ"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0nEkEbW7pcAHu49cCJJG96"
+            },
+            "href": "https://api.spotify.com/v1/artists/0nEkEbW7pcAHu49cCJJG96",
+            "id": "0nEkEbW7pcAHu49cCJJG96",
+            "name": "Carl Schuricht",
+            "type": "artist",
+            "uri": "spotify:artist:0nEkEbW7pcAHu49cCJJG96"
+          }
+        ],
+        "total_tracks": 11,
+        "release_date": "2024-07-20"
+      },
+      "limitation": "Spotify search cache has album metadata only; movement/recording-credit validation is unavailable. No Spotify API calls made."
+    },
+    {
+      "discogs_id": "1012732",
+      "title": "Die 4 Symphonien · Das Violinkonzert · Die Haydn-Variationen · Ein Deutsches Requiem",
+      "category": "spotify_review",
+      "queries": [],
+      "discogs_programme": [
+        {
+          "position": "",
+          "title": "Symphonie Nr. 1 C-moll Op. 68",
+          "type": "index",
+          "duration": ""
+        },
+        {
+          "position": "",
+          "title": "Symphonie Nr. 2 D-dur Op. 73",
+          "type": "index",
+          "duration": ""
+        },
+        {
+          "position": "",
+          "title": "Symphonie Nr. 3 F-dur Op. 90",
+          "type": "index",
+          "duration": ""
+        },
+        {
+          "position": "",
+          "title": "Symphonie Nr. 4 E-moll Op. 98",
+          "type": "index",
+          "duration": ""
+        },
+        {
+          "position": "",
+          "title": "Konzert Für Violine Und Orchester D-dur Op. 77",
+          "type": "index",
+          "duration": ""
+        },
+        {
+          "position": "",
+          "title": "Ein Deutsches Requiem Op. 45 (Nach Worten Der Heiligen Schrift Für Soli, Chor Und Orchester)",
+          "type": "index",
+          "duration": ""
+        },
+        {
+          "position": "N",
+          "title": "Variationen Über Ein Thema Von Joseph Haydn Für Orchester Op. 56 A",
+          "type": "track",
+          "duration": ""
+        }
+      ],
+      "expected_performers": [
+        "Herbert von Karajan",
+        "Berliner Philharmoniker",
+        "Wiener Singverein",
+        "Gundula Janowitz",
+        "Eberhard Wächter",
+        "Christian Ferras"
+      ],
+      "expected_composers": [
+        "Johannes Brahms"
+      ],
+      "spotify_status": "probable",
+      "spotify_album": {
+        "id": "6dm8J92KYKdS6QBdmUGg2S",
+        "name": "Karajan: Brahms Symphony No. 1",
+        "artists": [
+          "Johannes Brahms",
+          "Herbert von Karajan",
+          "Berliner Philharmoniker"
+        ],
+        "release_date": "2026-11-06",
+        "total_tracks": 4,
+        "album_type": "album",
+        "url": "https://open.spotify.com/album/6dm8J92KYKdS6QBdmUGg2S",
+        "image": "https://i.scdn.co/image/ab67616d0000b2739affaabf6788a65f1e317a9c",
+        "label": null
+      },
+      "signals": {
+        "confidence": 0.86,
+        "p_in_artists": true,
+        "cond_hit": true,
+        "orch_hit": true,
+        "live_mismatch": false,
+        "p_primary": true,
+        "p_frac": 0.5,
+        "c_frac": 1.0,
+        "title_score": 95.0,
+        "title_sort": 26.4,
+        "num_agree": 0,
+        "year_close": false
+      },
+      "cached_album": {
+        "id": "6dm8J92KYKdS6QBdmUGg2S",
+        "name": "Karajan: Brahms Symphony No. 1",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/5wTAi7QkpP6kp8a54lmTOq"
+            },
+            "href": "https://api.spotify.com/v1/artists/5wTAi7QkpP6kp8a54lmTOq",
+            "id": "5wTAi7QkpP6kp8a54lmTOq",
+            "name": "Johannes Brahms",
+            "type": "artist",
+            "uri": "spotify:artist:5wTAi7QkpP6kp8a54lmTOq"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/5zCaQxjl110XTrm4LQ1CxY"
+            },
+            "href": "https://api.spotify.com/v1/artists/5zCaQxjl110XTrm4LQ1CxY",
+            "id": "5zCaQxjl110XTrm4LQ1CxY",
+            "name": "Herbert von Karajan",
+            "type": "artist",
+            "uri": "spotify:artist:5zCaQxjl110XTrm4LQ1CxY"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/6uRJnvQ3f8whVnmeoecv5Z"
+            },
+            "href": "https://api.spotify.com/v1/artists/6uRJnvQ3f8whVnmeoecv5Z",
+            "id": "6uRJnvQ3f8whVnmeoecv5Z",
+            "name": "Berliner Philharmoniker",
+            "type": "artist",
+            "uri": "spotify:artist:6uRJnvQ3f8whVnmeoecv5Z"
+          }
+        ],
+        "total_tracks": 4,
+        "release_date": "2026-11-06"
+      },
+      "limitation": "Spotify search cache has album metadata only; movement/recording-credit validation is unavailable. No Spotify API calls made."
+    },
+    {
+      "discogs_id": "3985321",
+      "title": "Nabucco",
+      "category": "spotify_review",
+      "queries": [],
+      "discogs_programme": [
+        {
+          "position": "",
+          "title": "Nabucco – Dramma Lirico In Quattro Parti",
+          "type": "heading",
+          "duration": ""
+        },
+        {
+          "position": "A1",
+          "title": "Sinfonia",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "",
+          "title": "Parte Prima:",
+          "type": "index",
+          "duration": ""
+        },
+        {
+          "position": "",
+          "title": "Parte Seconda:",
+          "type": "index",
+          "duration": ""
+        },
+        {
+          "position": "",
+          "title": "Parte Terza:",
+          "type": "index",
+          "duration": ""
+        },
+        {
+          "position": "",
+          "title": "Parte Quarta:",
+          "type": "index",
+          "duration": ""
+        }
+      ],
+      "expected_performers": [
+        "Giuseppe Sinopoli",
+        "Chor der Deutschen Oper Berlin",
+        "Walter Hagen-Groll",
+        "Orchester Der Deutschen Oper Berlin"
+      ],
+      "expected_composers": [
+        "Giuseppe Verdi"
+      ],
+      "spotify_status": "probable",
+      "spotify_album": {
+        "id": "7wTcnAlGQbJC5vMfwdpdeK",
+        "name": "Verdi: Nabucco",
+        "artists": [
+          "Giuseppe Verdi",
+          "Orchester der Deutschen Oper Berlin",
+          "Giuseppe Sinopoli"
+        ],
+        "release_date": "1983-01-01",
+        "total_tracks": 44,
+        "album_type": "album",
+        "url": "https://open.spotify.com/album/7wTcnAlGQbJC5vMfwdpdeK",
+        "image": "https://i.scdn.co/image/ab67616d0000b2733ba2283d209df3471d19b835",
+        "label": null
+      },
+      "signals": {
+        "confidence": 0.603,
+        "p_in_artists": false,
+        "cond_hit": true,
+        "orch_hit": true,
+        "live_mismatch": false,
+        "p_primary": false,
+        "p_frac": 0.75,
+        "c_frac": 1.0,
+        "title_score": 100.0,
+        "title_sort": 100.0,
+        "num_agree": null,
+        "year_close": true
+      },
+      "cached_album": {
+        "id": "7wTcnAlGQbJC5vMfwdpdeK",
+        "name": "Verdi: Nabucco",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1JOQXgYdQV2yfrhewqx96o"
+            },
+            "href": "https://api.spotify.com/v1/artists/1JOQXgYdQV2yfrhewqx96o",
+            "id": "1JOQXgYdQV2yfrhewqx96o",
+            "name": "Giuseppe Verdi",
+            "type": "artist",
+            "uri": "spotify:artist:1JOQXgYdQV2yfrhewqx96o"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/4UH0f8KeI9GR9H403vxsNO"
+            },
+            "href": "https://api.spotify.com/v1/artists/4UH0f8KeI9GR9H403vxsNO",
+            "id": "4UH0f8KeI9GR9H403vxsNO",
+            "name": "Orchester der Deutschen Oper Berlin",
+            "type": "artist",
+            "uri": "spotify:artist:4UH0f8KeI9GR9H403vxsNO"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3d1jQ9OG2p2PW3rzzTspDY"
+            },
+            "href": "https://api.spotify.com/v1/artists/3d1jQ9OG2p2PW3rzzTspDY",
+            "id": "3d1jQ9OG2p2PW3rzzTspDY",
+            "name": "Giuseppe Sinopoli",
+            "type": "artist",
+            "uri": "spotify:artist:3d1jQ9OG2p2PW3rzzTspDY"
+          }
+        ],
+        "total_tracks": 44,
+        "release_date": "1983-01-01"
+      },
+      "limitation": "Spotify search cache has album metadata only; movement/recording-credit validation is unavailable. No Spotify API calls made."
+    },
+    {
+      "discogs_id": "7194998",
+      "title": "Dinu Lipatti Plays The Waltzes Of Chopin",
+      "category": "spotify_review",
+      "queries": [],
+      "discogs_programme": [
+        {
+          "position": "A1",
+          "title": "Waltz No. 4 In F Major Op. 34 No. 3 (\"Valse Brilliante\")",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "A2",
+          "title": "Waltz No. 5 In A-Flat Major Op. 42 (The \"Two-Four\" Valse)",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "A3",
+          "title": "Waltz No. 6 In D-Flat Major Op. 64 No. 1 (\"Minute\" Valse)",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "A4",
+          "title": "Waltz No. 9 In A-Flat Major Op. 69 No. 1 (\"L'Adieu\")",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "A5",
+          "title": "Waltz No. 7 In C-Sharp Minor Op. 64 No. 2",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "A6",
+          "title": "Waltz No. 11 In G-Flat Major Op. 70 No. 1",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "A7",
+          "title": "Waltz No. 10 In B Minor Op. 69 No. 2",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "A8",
+          "title": "Waltz No. 14 In E Minor Posthumous",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "B1",
+          "title": "Waltz No. 3 In A Minor Op. 34 No. 2 (\"Valse Brillante\")",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "B2",
+          "title": "Waltz No. 8 In A-Flat Major Op. 64 No. 3",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "B3",
+          "title": "Waltz No. 12 In F Minor, Op. 70 No. 2",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "B4",
+          "title": "Waltz No. 13 In D-Flat Major, Op. 70 No. 3",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "B5",
+          "title": "Waltz No. 1 In E-Flat Major, Op. 18 (\"Grande Valse Brillante\")",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "B6",
+          "title": "Waltz No. 2 In A-Flat Major Op. 34 No. 1 (\"Valse Brillante\")",
+          "type": "track",
+          "duration": ""
+        }
+      ],
+      "expected_performers": [
+        "Dinu Lipatti"
+      ],
+      "expected_composers": [
+        "Frédéric Chopin"
+      ],
+      "spotify_status": "probable",
+      "spotify_album": {
+        "id": "5xSzXhMaD1t78kjTm7iarw",
+        "name": "Dinu Lipatti plays Chopin",
+        "artists": [
+          "Frédéric Chopin",
+          "Dinu Lipatti"
+        ],
+        "release_date": "2016-01-15",
+        "total_tracks": 17,
+        "album_type": "album",
+        "url": "https://open.spotify.com/album/5xSzXhMaD1t78kjTm7iarw",
+        "image": "https://i.scdn.co/image/ab67616d0000b273f05dd7626c3f94e3ec18a87f",
+        "label": null
+      },
+      "signals": {
+        "confidence": 0.95,
+        "p_in_artists": true,
+        "cond_hit": null,
+        "orch_hit": null,
+        "live_mismatch": false,
+        "p_primary": true,
+        "p_frac": 1.0,
+        "c_frac": 1.0,
+        "title_score": 100.0,
+        "title_sort": 22.2,
+        "num_agree": null,
+        "year_close": null
+      },
+      "cached_album": {
+        "id": "5xSzXhMaD1t78kjTm7iarw",
+        "name": "Dinu Lipatti plays Chopin",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/7y97mc3bZRFXzT2szRM4L4"
+            },
+            "href": "https://api.spotify.com/v1/artists/7y97mc3bZRFXzT2szRM4L4",
+            "id": "7y97mc3bZRFXzT2szRM4L4",
+            "name": "Frédéric Chopin",
+            "type": "artist",
+            "uri": "spotify:artist:7y97mc3bZRFXzT2szRM4L4"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0Te2ZxgvPNpa87vUpbLunI"
+            },
+            "href": "https://api.spotify.com/v1/artists/0Te2ZxgvPNpa87vUpbLunI",
+            "id": "0Te2ZxgvPNpa87vUpbLunI",
+            "name": "Dinu Lipatti",
+            "type": "artist",
+            "uri": "spotify:artist:0Te2ZxgvPNpa87vUpbLunI"
+          }
+        ],
+        "total_tracks": 17,
+        "release_date": "2016-01-15"
+      },
+      "limitation": "Spotify search cache has album metadata only; movement/recording-credit validation is unavailable. No Spotify API calls made."
+    },
+    {
+      "discogs_id": "11553633",
+      "title": "Sonatas, Volume 2",
+      "category": "spotify_review",
+      "queries": [],
+      "discogs_programme": [
+        {
+          "position": "A1(a)",
+          "title": "Sonata In D Major, L.206",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "A1(b)",
+          "title": "Sonata In B Minor, L.449",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "A1(c)",
+          "title": "Sonata In D Major, L.213",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "A2(a)",
+          "title": "Sonata In C Major, L.102",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "A2(b)",
+          "title": "Sonata In A Minor, L.138",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "A3(a)",
+          "title": "Sonata In F Minor, L.382",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "A3(b)",
+          "title": "Sonata In F Major, L.520",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "A3(c)",
+          "title": "Sonata In D Minor, L.422",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "A4(a)",
+          "title": "Sonata In G Minor, L.49",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "A4(b)",
+          "title": "Sonata In D Minor, L.423",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "B1(a)",
+          "title": "Sonata In D Major, L.418",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "B1(b)",
+          "title": "Sonata In D Major, L.14",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "B1(c)",
+          "title": "Sonata In D Major, L.461",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "B1(d)",
+          "title": "Sonata In B Flat Major, L.497",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "B2(a)",
+          "title": "Sonata In F Major, L.228",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "B2(b)",
+          "title": "Sonata In F Minor, L.187",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "B3(a)",
+          "title": "Sonata In G Major, L.103",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "B3(b)",
+          "title": "Sonata In C Major, L.255",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "B3(c)",
+          "title": "Sonata In D Major, L.56",
+          "type": "track",
+          "duration": ""
+        },
+        {
+          "position": "B3(d)",
+          "title": "Sonata In B Flat Major, L.97",
+          "type": "track",
+          "duration": ""
+        }
+      ],
+      "expected_performers": [
+        "Wanda Landowska"
+      ],
+      "expected_composers": [
+        "Domenico Scarlatti"
+      ],
+      "spotify_status": "probable",
+      "spotify_album": {
+        "id": "4GElFhOBzWfORPEhxLiXdV",
+        "name": "Scarlatti: Keyboard Sonatas",
+        "artists": [
+          "Domenico Scarlatti",
+          "Wanda Landowska"
+        ],
+        "release_date": "1993-10-01",
+        "total_tracks": 24,
+        "album_type": "album",
+        "url": "https://open.spotify.com/album/4GElFhOBzWfORPEhxLiXdV",
+        "image": "https://i.scdn.co/image/ab67616d0000b273adc2801bd20d669971a39fb7",
+        "label": null
+      },
+      "signals": {
+        "confidence": 0.821,
+        "p_in_artists": true,
+        "cond_hit": null,
+        "orch_hit": null,
+        "live_mismatch": false,
+        "p_primary": true,
+        "p_frac": 1.0,
+        "c_frac": 1.0,
+        "title_score": 57.1,
+        "title_sort": 46.7,
+        "num_agree": 0,
+        "year_close": false
+      },
+      "cached_album": {
+        "id": "4GElFhOBzWfORPEhxLiXdV",
+        "name": "Scarlatti: Keyboard Sonatas",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/0mFblCBw0GcoY7zY1P8tzE"
+            },
+            "href": "https://api.spotify.com/v1/artists/0mFblCBw0GcoY7zY1P8tzE",
+            "id": "0mFblCBw0GcoY7zY1P8tzE",
+            "name": "Domenico Scarlatti",
+            "type": "artist",
+            "uri": "spotify:artist:0mFblCBw0GcoY7zY1P8tzE"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/1L4ntGcjd7D13AJnaeANHU"
+            },
+            "href": "https://api.spotify.com/v1/artists/1L4ntGcjd7D13AJnaeANHU",
+            "id": "1L4ntGcjd7D13AJnaeANHU",
+            "name": "Wanda Landowska",
+            "type": "artist",
+            "uri": "spotify:artist:1L4ntGcjd7D13AJnaeANHU"
+          }
+        ],
+        "total_tracks": 24,
+        "release_date": "1993-10-01"
+      },
+      "limitation": "Spotify search cache has album metadata only; movement/recording-credit validation is unavailable. No Spotify API calls made."
+    },
+    {
+      "discogs_id": "34330297",
+      "title": "Khovanshchina",
+      "category": "spotify_review",
+      "queries": [],
+      "discogs_programme": [
+        {
+          "position": "A",
+          "title": "Act I (Beginning)",
+          "type": "track",
+          "duration": "23:40"
+        },
+        {
+          "position": "B",
+          "title": "Act I (Conclusion)",
+          "type": "track",
+          "duration": "17:02"
+        },
+        {
+          "position": "C",
+          "title": "Act II",
+          "type": "track",
+          "duration": "24:38"
+        },
+        {
+          "position": "D",
+          "title": "Act III (Beginning)",
+          "type": "track",
+          "duration": "18:42"
+        },
+        {
+          "position": "E",
+          "title": "Act III (Conclusion)",
+          "type": "track",
+          "duration": "18:30"
+        },
+        {
+          "position": "F",
+          "title": "Act IV, Scene 1",
+          "type": "track",
+          "duration": "18:16"
+        },
+        {
+          "position": "G",
+          "title": "Act IV, Scene 2",
+          "type": "track",
+          "duration": "15:43"
+        },
+        {
+          "position": "H",
+          "title": "Act V",
+          "type": "track",
+          "duration": "23:30"
+        }
+      ],
+      "expected_performers": [
+        "Boris Khaikin",
+        "Soloists Of The Bolshoi Theatre",
+        "Chorus Of The Bolshoi Theatre",
+        "Bolshoi Theatre Orchestra",
+        "Владислав Пьявко",
+        "Aleksei Maslennikov",
+        "Виктор Нечипайло",
+        "Aleksander Ognivtsev",
+        "Ирина Архипова",
+        "Алексей Кривченя",
+        "Aleksander Khazanov",
+        "Александр Рыбнов",
+        "Nikolai Rimsky-Korsakov",
+        "Тамара Сорокина",
+        "Tatiana Tugarinova",
+        "Юрий Григорьев (4)",
+        "Vladimir Filippov",
+        "Andrei Fedoseyev",
+        "Геннадий Ефимов"
+      ],
+      "expected_composers": [
+        "Modest Mussorgsky"
+      ],
+      "spotify_status": "probable",
+      "spotify_album": {
+        "id": "1ENSh2QPIKVm8KYKa4MT3h",
+        "name": "Sofia Preobrazhenskaya, Vol. 8: Khovanshchina",
+        "artists": [
+          "Modest Mussorgsky",
+          "Sofia Preobrazhenskaya",
+          "Kirov State Academic Theatre Chorus",
+          "Kirov State Academic Theatre Orchestra",
+          "Boris Khaikin"
+        ],
+        "release_date": "2009-05-01",
+        "total_tracks": 46,
+        "album_type": "album",
+        "url": "https://open.spotify.com/album/1ENSh2QPIKVm8KYKa4MT3h",
+        "image": "https://i.scdn.co/image/ab67616d0000b2733de697dffcbffd2373959d8b",
+        "label": null
+      },
+      "signals": {
+        "confidence": 0.737,
+        "p_in_artists": true,
+        "cond_hit": true,
+        "orch_hit": false,
+        "live_mismatch": false,
+        "p_primary": true,
+        "p_frac": 0.25,
+        "c_frac": 1.0,
+        "title_score": 100.0,
+        "title_sort": 47.3,
+        "num_agree": null,
+        "year_close": false
+      },
+      "cached_album": {
+        "id": "1ENSh2QPIKVm8KYKa4MT3h",
+        "name": "Sofia Preobrazhenskaya, Vol. 8: Khovanshchina",
+        "artists": [
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/284mnx33IWcymQEpMxyfHl"
+            },
+            "href": "https://api.spotify.com/v1/artists/284mnx33IWcymQEpMxyfHl",
+            "id": "284mnx33IWcymQEpMxyfHl",
+            "name": "Modest Mussorgsky",
+            "type": "artist",
+            "uri": "spotify:artist:284mnx33IWcymQEpMxyfHl"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/4vVO9UDFIQl4gTreqpJCWi"
+            },
+            "href": "https://api.spotify.com/v1/artists/4vVO9UDFIQl4gTreqpJCWi",
+            "id": "4vVO9UDFIQl4gTreqpJCWi",
+            "name": "Sofia Preobrazhenskaya",
+            "type": "artist",
+            "uri": "spotify:artist:4vVO9UDFIQl4gTreqpJCWi"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/2wYcnlWhpB6VN4hlcMZxty"
+            },
+            "href": "https://api.spotify.com/v1/artists/2wYcnlWhpB6VN4hlcMZxty",
+            "id": "2wYcnlWhpB6VN4hlcMZxty",
+            "name": "Kirov State Academic Theatre Chorus",
+            "type": "artist",
+            "uri": "spotify:artist:2wYcnlWhpB6VN4hlcMZxty"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/5I7rHLV4kUI7SF0AuVMLmi"
+            },
+            "href": "https://api.spotify.com/v1/artists/5I7rHLV4kUI7SF0AuVMLmi",
+            "id": "5I7rHLV4kUI7SF0AuVMLmi",
+            "name": "Kirov State Academic Theatre Orchestra",
+            "type": "artist",
+            "uri": "spotify:artist:5I7rHLV4kUI7SF0AuVMLmi"
+          },
+          {
+            "external_urls": {
+              "spotify": "https://open.spotify.com/artist/3cISKf8c9JaiZWdIRwHxUc"
+            },
+            "href": "https://api.spotify.com/v1/artists/3cISKf8c9JaiZWdIRwHxUc",
+            "id": "3cISKf8c9JaiZWdIRwHxUc",
+            "name": "Boris Khaikin",
+            "type": "artist",
+            "uri": "spotify:artist:3cISKf8c9JaiZWdIRwHxUc"
+          }
+        ],
+        "total_tracks": 46,
+        "release_date": "2009-05-01"
+      },
+      "limitation": "Spotify search cache has album metadata only; movement/recording-credit validation is unavailable. No Spotify API calls made."
+    }
+  ]
+}

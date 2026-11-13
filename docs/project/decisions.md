@@ -105,3 +105,20 @@ credits or enable general fuzzy aliases. Preserve the historical v1 evaluator fo
 comparison. Newly qualifying candidates require independent programme-completeness
 evidence before promotion and are capped at Probable 85%. Metadata groups do not
 establish session identity; unresolved old structures remain documented limitations.
+
+## 2026-11-13 — Positive target scopes and shared sp authentication
+
+Status: adopted implementation of user-requested query/credit/cache refinement.
+
+Use only explicit cached Discogs work/position credits to specialize requirements;
+retain unscoped, unparseable or ambiguous global actors. Candidate evidence must
+not choose which target artists to discard. Preserve historical v1 target units
+while current units recognize parent headings without losing standalone pieces.
+Query relevance scores are discovery ranking, not accepted match confidence.
+
+Reuse the existing sp PKCE login for bounded Spotify catalogue metadata rather
+than copying secrets to this repo. Keep tokens in its subprocess/config cache,
+refresh once with no retries, preserve credentials on failure and stop on warnings.
+Share only whitelisted complete tracks, never tokens or audio/preview URLs.
+Confirmed partial-programme observations remain separate from scoring changes;
+no automatic correction or accuracy-rate claim from the ten-case sample.

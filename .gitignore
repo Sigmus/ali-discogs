@@ -9,3 +9,6 @@ dist/
 
 # Local catalogue probe responses
 .qobuz-poc/
+
+# Local Spotify pilot metadata and run state
+.spotify-poc/

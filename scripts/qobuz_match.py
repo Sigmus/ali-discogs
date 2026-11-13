@@ -12,7 +12,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'src'))
 from ali_discogs.text import tnorm, norm, ORCH_ALIASES, is_composer
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = 'qobuz-work-groups-v1+reviewed-expansion-v2'
+VERSION = 'qobuz-work-groups-v2+explicit-target-credits'
 
 
 def credits_v1(track):
@@ -81,7 +81,7 @@ def work_match(target, title):
     return fuzz.token_set_ratio(a, b) >= 93
 
 
-def units(row):
+def units_v1(row):
     tracks = row.get('tracklist') or []
     has_headings = any(t.get('type') == 'index' for t in tracks)
     result = []
@@ -97,8 +97,23 @@ def units(row):
     return result
 
 
+def units(row):
+    result=[]
+    parent=False
+    for t in row.get('tracklist') or []:
+        title=t.get('title','')
+        if not title:continue
+        if t.get('type') in {'index','heading'}:
+            parent=True;result.append(title);continue
+        numbered=bool(re.match(r'^(?:[IVX]+\s*[:.\-]|\d+\.)',title))
+        generic=units_v1({'tracklist':[{'title':'Work heading','type':'index'},t]})==['Work heading']
+        if parent and (numbered or generic):continue
+        result.append(title)
+    return result
+
+
 def evaluate_v1(row, album):
-    targets = units(row)
+    targets = units_v1(row)
     tracks = album['tracks']['items']
     required = list(dict.fromkeys([*(row.get('key_performers') or []), *(row.get('performers') or []),
                 *(row.get('ensembles') or []), *([row['conductor']] if row.get('conductor') else [])]))
@@ -197,6 +212,7 @@ def generate():
     metadata_manifest = snapshot['metadata_manifest']
     scope_path = ROOT/'data/qobuz_expansion_scope.json'
     inventory_path = ROOT/'data/qobuz_work_inventory.json'
+    target_credits_path = ROOT/'data/qobuz_target_credits.json.gz'
     scope = json.loads(scope_path.read_text())
     inventory = json.loads(inventory_path.read_text())
     if scope['schema_version'] != 1 or inventory['schema_version'] != 1:
@@ -231,6 +247,7 @@ def generate():
               'metadata_manifest_fingerprint': metadata_manifest['fingerprint'],
               'collection_fingerprint': hashlib.sha256((ROOT/'data/collection_matches.json').read_bytes()).hexdigest(),
               'expansion_scope_fingerprint': hashlib.sha256(scope_path.read_bytes()).hexdigest(),
+              'target_credits_fingerprint': hashlib.sha256(target_credits_path.read_bytes()).hexdigest(),
               'work_inventory_fingerprint': hashlib.sha256(inventory_path.read_bytes()).hexdigest(),
               'releases': results}
     path = ROOT/'data/qobuz_matches.json'

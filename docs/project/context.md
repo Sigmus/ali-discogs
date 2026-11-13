@@ -3,92 +3,86 @@
 Updated: 2026-11-13, Europe/Amsterdam
 
 Match Ali's Discogs collection (`ajozi`) against Spotify and browse a static
-explorer. See [README](../../README.md) for setup and architecture.
+explorer. [README](../../README.md) owns setup/architecture; project history and
+plans preserve dated evidence and prior handoffs.
 
 ## Current state
 
-- Branch `codex/qobuz-poc`: prior cache/UI work pushed. Bounded expansion
-  checkpoint committed as `c1857a7` at user request; not pushed. Audit artifacts
-  and work-group improvements are included in the user-requested follow-up commit.
-  No push, merge or Pages deployment requested.
-- Original dataset (2026-11-11): 741 copies, Spotify 255 found / 276 probable /
-  210 not found. Pipeline JSON still has Qobuz unchecked; explorer overlays the
-  separate generated `data/qobuz_matches.json` file so Spotify rescoring cannot
-  erase Qobuz evidence. `data/summary.json` describes pipeline data, not overlay.
-- Sonoteque-style table/details, 80% main width, no status tabs. Branch includes
-  Year ascending default and frequency-order switch. These are not yet published.
+- Branch `codex/qobuz-poc`; commits c1857a7 and 30aa723 are local/unpushed.
+  User requested committing the subsequent comparison/refinement checkpoint.
+  No push, merge or deployment requested.
+- Current collection: 741 copies / 740 unique releases. Spotify labels remain
+  255 Found / 276 Probable / 210 Not found copies, but audit found two partial
+  programmes below; these labels must not be treated as independently verified.
+- Qobuz overlay: 12 Found / 64 Probable / 665 unchecked copies; unique 12/64/664.
+  Separate `data/qobuz_matches.json` survives Spotify rescoring; original pipeline
+  Qobuz fields stay unchecked. Empty/inconclusive queries are not confirmed absence.
+- Sonoteque table/details, 80% main width, column sorting (Year ascending default),
+  Spotify/Qobuz filters and frequency-order switch. Qobuz details show evidence.
 - Pages uses Actions on main. Last recorded live verification was 2026-11-12;
-  inspect Actions/current live page before asserting later deployment status.
+  inspect current Actions/live page before claiming subsequent deployment status.
 
-## Retrieval complete
+## Preserved catalogue evidence
 
-- 740 unique release queries cover 741 copies: 370 with candidates, 370 empty,
-  1,217 candidate entries / 1,036 unique Qobuz albums. Empty searches unresolved.
-- Metadata completed 2026-11-13 01:15:30 Europe/Amsterdam. Independently verified
-  all 1,036 album IDs, complete track counts and unique IDs within each album:
-  27,770 track entries. No retries after warnings without authorization.
-- One large album returned 500/730 tracks; user authorized cached pagination.
-  Recovery verified; retrieval finished with no further warnings. Caffeinate
-  prevented idle sleep during retrieval; worker has now finished.
-- Search and metadata hourly monitors deleted after completion. No background
-  fetch remains necessary. Mutable cache directories/source/token remain ignored.
-- User requested collaborator access: `data/qobuz_evidence.json.gz` now preserves
-  all searches/full metadata in a whitelisted ~1.8 MB portable snapshot. Matcher
-  uses this by default, with no local cache, token or source checkout needed.
-- User additionally requested sharing raw caches: versioned ~5 MB archive
-  `data/qobuz_request_cache.tar.gz` preserves all 1,759 request JSON responses.
-  Restore with `python3 scripts/qobuz_cache_archive.py restore`; it validates
-  members and refuses conflicting local files. No credentials/logs/source shared.
-- [Qobuz guide](../qobuz.md) documents setup, preservation and resume commands.
+- Original search: 740 queries, 370 nonempty / 370 empty, 1,217 candidate entries /
+  1,036 unique Qobuz albums. Full metadata completed 2026-11-13 01:15 Amsterdam:
+  27,770 tracks, album IDs/counts/unique track IDs verified. One 500/730-track
+  response was recovered with user-authorized strict pagination. Monitors deleted.
+- Shared `data/qobuz_evidence.json.gz` preserves original whitelisted evidence.
+  Raw request archive now has 1,788 responses (29 added in later bounded pilots);
+  original member payloads preserved. Credentials/run state remain ignored.
+- Comparison pilot adds portable `data/qobuz_comparison_evidence.json.gz`: twenty
+  fallback queries and eight complete selected albums (seven new/one reused).
+  Two corrected-query validations are separately preserved. No audio requested.
+- Shared evidence supports offline collaboration; [Qobuz guide](../qobuz.md) owns
+  export/restore/replay commands. No automatic refresh or warning retry permitted.
 
-## Offline matching and publication preparation
+## Matching, audits and refinement
 
-- Implemented qobuz-work-groups-v1 plus bounded reviewed-expansion-v2; all original
-  1,217 candidate entries assessed offline, with ten additional matched releases.
-  [Audit](../plans/2026-11-13-qobuz-audit.md) records rules, reviewed cases and limits.
-- Unique releases: 12 Found / 64 Probable / 664 unchecked. Copies: 12 / 64 / 665.
-  No Not found labels derived from first-pass absence. No 100% scores.
-- Found 95% requires one-to-one programme/track mapping, equal count and required
-  performer/ensemble/conductor plus composer evidence. Probable 85% retains
-  grouped/superset cases. Scores are heuristic levels, not calibrated accuracy or
-  independently verified recording sessions. Unresolved aliases stay unchecked.
-- Audit corrected omitted standalone programme items and confused Part II A/B/C;
-  regression tests added. Reviewed all final Found title/credit correspondences,
-  15 spread-out Probable mappings and known negative/uncertain controls.
-- `data/qobuz_matches.json` contains selected public metadata, explanations,
-  programme evidence and provenance fingerprints, no token/headers/audio URLs.
-  Build copies it directly; clean-copy build without ignored caches verified.
-- Removed the Sort dropdown; table headers control sorting. Added Qobuz match
-  immediately after Spotify, with counts/frequency ordering and URL persistence.
-  Browser verified filters, header sorting and Clear; Probable now has 64 rows.
-  User requested committing/pushing this filter UI edit on codex/qobuz-poc;
-  inspect Git for resulting commit. No merge or deployment requested.
-- UI shows Qobuz status/confidence in table/details, sortable status column,
-  linked candidates and expandable programme evidence. Browser verified desktop
-  table/detail and narrow-screen horizontal table containment.
-- Manual corrections are not implemented/accepted. Future separate overrides
-  must take precedence over generated scores; don't hand-edit generated output.
+- Current work-group-v2 matcher uses bounded inherited movement titles, explicit
+  vocal roles, conservative recording-group support and shared-opus work guards.
+  Found 95% / Probable 85% are heuristic levels, not calibrated probabilities or
+  independent recording-session verification. Ambiguous aliases remain unresolved.
+- Original-66 audit reproduced v1 scores: seven strict-coverage supports, one
+  incomplete-credit case with music present and 58 unresolved. Later comparison
+  across 66+10 selected matches fixes five evidence mappings, no shared track
+  assignments. All existing publication status labels remain unchanged.
+- Explicit target-credit archive derives positive work/position assignments for
+  128 releases from cached Discogs, with source hashes. Unknown/unscoped actors
+  stay required globally; cross-side ranges and parent/child units handled with
+  fail-closed guards. Candidate credits do not determine target requirements.
+- Query planner selects album leads instead of supporting players and fixes
+  compound composer query names. Relevance ranking is not match confidence.
+  Corrected Coltrane query finds actual A Love Supreme editions; live variant
+  flagged. Only two validation queries run, not a collection-wide expansion.
+- Thirty-release pilot: fallback hits for all ten originally empty releases,
+  three initial programme/performer leads, none promoted. Credit/hierarchy changes
+  improve Barenboim target mapping from 23/31 flattened items to 8/8 work units.
+  Blank source credit assignments and completeness/session gaps remain unresolved.
 
-## Validation and limitations
+## Spotify track evidence
 
-- Current validation: 43 Qobuz mocked/offline tests, UI normalization/overlay/sort,
-  JS syntax, build and diff checks pass. Earlier Spotify tests also passed.
-- Low recall is intentional in v1. Translation/ensemble aliases, catalogue
-  equivalences, movement completeness and recording/take identity need more work.
-  This is a conservative deployable first pass, not complete catalogue validation.
-- No additional Qobuz calls after metadata retrieval; no audio requests.
+- User requested .env placeholders; added without exposing/overwriting Qobuz
+  settings. Existing sp PKCE login was reused instead: config/client ID and tokens
+  remain under ~/.config/sp; no client secret required or copied into the repo.
+- Ten selected albums cached successfully (227 tracks), with slow spacing,
+  pagination and first-warning STOP/no retry. Shared whitelisted archive restores
+  offline; local state ignored under `.spotify-poc/`. No playback/library calls.
+- Two confirmed partial programmes: 1012732 Brahms whole collection maps to only
+  Symphony No.1; 6119238 Dvorak Sixth/My Home maps to an album missing My Home.
+  Other eight recording validations unresolved; artist lists lack role credits.
+- Review reports are observations, not score overrides. Spotify publication data
+  unchanged. No population accuracy/catalogue-size claim from this selected sample.
 
-## Next action
+## Validation and next action
 
-Work-group/role-aware improvements implemented and reaudited across 66+10 reviewed
-selections. Five mappings improve (Berlioz, Grieg/Sibelius, Winterreise, Pergolesi,
-Gould title-hit filtering); no shared work-track assignments remain in this sample.
-All 740 statuses unchanged: 12 Found / 64 Probable / 664 unchecked. Two choral
-leads stay unchecked pending completeness. No fuzzy aliases or session certainty.
-Historical audit remains frozen to v1; 43 offline tests pass. See
-[work groups](../plans/2026-11-13-qobuz-work-groups.md) and
-[baseline audit](../plans/2026-11-13-qobuz-baseline-completeness-audit.md).
-Next proposed work: source completeness for the two withheld choral leads, then
-verify explicit name aliases. User requested committing all audit/grouping work;
-no push requested. No Qobuz calls, merge or deployment.
-See [backlog](backlog.md), [decisions](decisions.md) and [history](history.md).
+- 58 mocked/offline tests, UI normalization/overlay/sort, build and diff checks
+  pass. Repeated Qobuz generation identical; all 740 status labels preserved.
+  Secret-value scans pass. Retrieval completed without API warnings.
+- Next recommendation: validate completeness/recording identity for the strongest
+  Qobuz pilot leads before promoting them or expanding searches. Add a Spotify
+  full-programme safeguard for the two confirmed partial cases before publication.
+  These remain proposals; no further fetching, push or deployment requested.
+- Details: [refinement and Spotify audit](../plans/2026-11-13-query-credits-spotify-tracks.md),
+  [comparison pilot](../plans/2026-11-13-service-comparison-pilot.md),
+  [backlog](backlog.md), [decisions](decisions.md), [history](history.md).
