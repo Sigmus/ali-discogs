@@ -933,3 +933,13 @@ says E-flat, the sounding key. Warner digital is not the 1975 La Voix De Son
 Maître pressing. Bitches Brew 7609610 was inspected and not published: Larry
 Young is absent from the two tracks that name him. Copies 12/84/645, unique
 12/84/644. Heading tests and normalization passed. No API calls.
+
+## 2026-11-13 — Bitches Brew credit gap recorded
+
+Discogs 7609610 stays unchecked. The six titles are the 1970 album. Larry Young
+is required on four of them; Qobuz 0886443874428 and 0074646577424 credit him
+on Pharaoh’s Dance and Spanish Key only. The six-track file names Zawinul on
+John McLaughlin, and the seven-track file adds Feio. The open questions are
+whether a review may accept that gap, and which facts the explorer should
+show. No matcher or UI change. See
+[Bitches Brew credits](../plans/2026-11-13-bitches-brew-credits.md).

@@ -103,3 +103,18 @@ from confirmed absence and preserve independent reviewed overrides.
 
 Done when: a broader independently labelled sample supports improved rules and
 coverage without regressing known wrong-orchestra/incomplete-programme controls.
+
+## AD-009 — Decide the Bitches Brew credit gap
+
+Status: proposed. Recording the case does not authorize a match or a UI change.
+
+Discogs 7609610 is unchecked at 4/6 against Columbia/Legacy files
+0886443874428 and 0074646577424. The six titles are *Bitches Brew*. Larry Young
+is missing on John McLaughlin and Miles Runs the Voodoo Down, the six-track
+file names Zawinul on John McLaughlin, and Feio is extra on the seven-track
+file. Decide whether any of that can become a hash-bound Probable, and which
+facts belong on the album row, in programme evidence, or nowhere in the
+explorer. See [Bitches Brew credits](../plans/2026-11-13-bitches-brew-credits.md).
+
+Done when: the matching exception and the UI wording are accepted or rejected
+in a decision. Implementation follows only if that decision asks for it.

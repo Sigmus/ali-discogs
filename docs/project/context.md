@@ -83,18 +83,18 @@ plans preserve dated evidence and prior handoffs.
 ## Validation and next action
 
 - Seven paced album/get calls on 2026-11-13 saved 410 tracks in
-  `data/qobuz_metadata_needed.json.gz`. None is published. A Love Supreme’s
-  four parts match the joined LP band, but McCoy Tyner is absent from the
-  credits. The other six albums omit a named work or credit a different ensemble.
+  `data/qobuz_metadata_needed.json.gz`. None is published. A Love Supreme
+  lacks McCoy Tyner; the other six omit a named work or credit another ensemble.
 - Inventory is now 324 no saved hits, 3 metadata-needed, 313 work/credit
   unresolved, 4 reviewed withholds, and the Barenboim9866861 completeness
   caution. Matthew Passion5140330, Schütz6091545 and Chopin12419639 stay
   unfetched: their saved hits are different works or a different conductor.
-- Menuhin 2527568 / Warner 0077774708852 is Probable 85: the heading covers
-  both concertos, three movements each. Op. 6 is D major in the source and
-  E-flat in the file. The 1975 LP mastering is not verified. Bitches Brew
-  7609610 stays unpublished because Larry Young is missing on two tracks.
-- Next: leave the seven fetches unpublished. The remaining unresolved credits
-  need a new scope. Bach 4483876 still needs a reason BWV 1062 is unassigned.
+- Menuhin 2527568 is Probable 85 in local commit 0cc34b7, not pushed.
+  Op. 6 is D major in the source and E-flat in the file.
+- Bitches Brew 7609610 stays unchecked at 4/6. Young is missing on two titles,
+  and one file names Zawinul where this copy does not. Open proposal:
+  [Bitches Brew credits](../plans/2026-11-13-bitches-brew-credits.md).
+- Next: discuss that proposal before any match or UI change. The seven fetches
+  stay unpublished. Bach 4483876 still needs a reason BWV 1062 is unassigned.
 - [Unmatched audit](../plans/2026-11-13-qobuz-unmatched-audit.md).
 - [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).

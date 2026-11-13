@@ -285,3 +285,17 @@ must be credited on every used track. A heading that carries an opus, BWV or
 work number is not a container. This does not relax the one-track rule used
 for numbered pieces under a heading. Cap at Probable 85. A source key name and
 a later digital file do not prove the same mastering.
+
+## 2026-11-13 — Bitches Brew’s missing credit is an open case
+
+Status: proposal. Not a match rule and not a UI change.
+
+Discogs 7609610 is the 2015 Columbia/Legacy double LP. Its six titles are the
+1970 album. Larry Young is required on Pharaoh’s Dance, Spanish Key, John
+McLaughlin, and Miles Runs the Voodoo Down. Cached Qobuz editions
+0886443874428 and 0074646577424 name him only on the first two. The six-track
+file also names Joe Zawinul on John McLaughlin, where this copy does not.
+Feio is an extra on the seven-track file. The release stays unchecked at 4/6.
+Session knowledge does not fill a credit the file omits. How this may affect
+matching, and which of these facts the explorer should show, is
+[Bitches Brew credits](../plans/2026-11-13-bitches-brew-credits.md).
