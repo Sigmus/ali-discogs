@@ -230,3 +230,41 @@ and excludes unknown fields. Gzip timestamps are fixed for reproducible exports.
 Local `.qobuz-poc/` still contains raw response duplicates, progress/logs, locks,
 STOP markers and third-party source; it remains ignored. Credentials stay in
 ignored `.env`. Re-fetch only new queries/albums or explicitly stale data.
+
+## Shared request cache
+
+User requested sharing the raw caches in addition to the compact evidence.
+`data/qobuz_request_cache.tar.gz` preserves all 1,759 successful request-cache
+JSON files byte-for-byte (~5 MB compressed / ~78 MB on disk). This includes
+search responses, album/get responses and pagination, plus earlier sample calls.
+Requests retain endpoint/parameters, timestamps and source revision; responses
+retain the catalogue metadata rather than only the snapshot's selected fields.
+There are no auth headers or tokens. Observations remain account/territory/date
+specific; availability flags are not proof of another account's access.
+
+After checkout:
+
+```sh
+python3 scripts/qobuz_cache_archive.py restore
+# Replay the initial sample without network, credentials or source checkout:
+uv run scripts/qobuz_sample_poc.py --offline
+```
+
+Restore validates flat hashed filenames, request keys/endpoints and sensitive
+field names, checks all entries before writing, skips identical existing files
+and refuses to overwrite differing local cache entries. For conflicts, use a
+separate `--cache PATH` and inspect; do not discard fresher local responses.
+Nothing is extracted using unrestricted tar paths or symlinks.
+
+After future authorized requests, explicitly update the shared archive with:
+
+```sh
+python3 scripts/qobuz_cache_archive.py export
+```
+
+Review/scan and commit the updated archive. Private `.env`, app headers/secrets,
+third-party source, process logs, STOP markers and locks remain excluded. The
+mutable `.qobuz-poc/` working directories stay ignored; sharing happens through
+this versioned archive. Neither evidence/cache archive is copied into Pages.
+The offline matcher still uses the compact evidence snapshot by default;
+restoring request caches is optional for algorithm work and useful for query tools.

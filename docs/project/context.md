@@ -30,10 +30,14 @@ explorer. See [README](../../README.md) for setup and architecture.
   Recovery verified; retrieval finished with no further warnings. Caffeinate
   prevented idle sleep during retrieval; worker has now finished.
 - Search and metadata hourly monitors deleted after completion. No background
-  fetch remains necessary. Raw caches/source/token remain ignored/local.
+  fetch remains necessary. Mutable cache directories/source/token remain ignored.
 - User requested collaborator access: `data/qobuz_evidence.json.gz` now preserves
   all searches/full metadata in a whitelisted ~1.8 MB portable snapshot. Matcher
   uses this by default, with no local cache, token or source checkout needed.
+- User additionally requested sharing raw caches: versioned ~5 MB archive
+  `data/qobuz_request_cache.tar.gz` preserves all 1,759 request JSON responses.
+  Restore with `python3 scripts/qobuz_cache_archive.py restore`; it validates
+  members and refuses conflicting local files. No credentials/logs/source shared.
 - [Qobuz guide](../qobuz.md) documents setup, preservation and resume commands.
 
 ## Offline matching and publication preparation
@@ -61,7 +65,7 @@ explorer. See [README](../../README.md) for setup and architecture.
 ## Validation and limitations
 
 - `make test` passes: two Spotify offline tests, UI normalization/overlay/sort
-  tests and 20 Qobuz mocked/offline tests. Build, JS syntax and diff checks pass.
+  tests and 20 Qobuz mocked/offline tests; two additional cache archive tests pass. Build, JS syntax and diff checks pass.
 - Low recall is intentional in v1. Translation/ensemble aliases, catalogue
   equivalences, movement completeness and recording/take identity need more work.
   This is a conservative deployable first pass, not complete catalogue validation.

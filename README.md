@@ -130,3 +130,9 @@ Portable Qobuz evidence is included in `data/qobuz_evidence.json.gz` (about 1.8 
 After checkout, run `uv sync` and `uv run python scripts/qobuz_match.py` to regenerate
 matches offline: no token, local `.qobuz-poc/` folder or upstream checkout required.
 To inspect it, use Python's `gzip`/`json` modules; see [Qobuz docs](docs/qobuz.md).
+
+The complete successful Qobuz request cache is also shared in
+`data/qobuz_request_cache.tar.gz` (~5 MB, 1,759 responses). Restore locally with
+`python3 scripts/qobuz_cache_archive.py restore` to reuse API responses in the
+catalogue tools. It excludes credentials, logs and third-party source; see the
+[cache sharing guide](docs/qobuz.md#shared-request-cache).

@@ -69,3 +69,13 @@ complete searches/tracks/credits and provenance. Matcher reads it by default.
 Keep raw request duplicates, third-party checkout, credentials, logs, locks and
 STOP markers ignored. Publication builds copy only the UI match file, not the
 research snapshot. Export updated evidence explicitly after authorized retrieval.
+
+## 2026-11-13 — Share raw successful request caches too
+
+Status: adopted by explicit follow-up user request, extending the portable snapshot.
+
+Commit a deterministic archive of all successful request-cache JSON responses,
+not merely selected evidence fields. Scan for credential values/sensitive keys;
+exclude machine state, credentials and third-party source. Validated restoration
+must preserve existing conflicting responses. Mutable local caches remain ignored,
+and archives stay outside the Pages artifact. No network refresh implied.

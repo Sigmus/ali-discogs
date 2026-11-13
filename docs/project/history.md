@@ -352,3 +352,16 @@ or Pages publication is part of this push; active search is not restarted.
   remain ignored. Snapshot is excluded from Pages build; only UI match data ships.
 - Included portable evidence with the related matcher/UI/retrieval/docs work in
   the requested local commit. No push, merge or deployment authorized/performed.
+
+## 2026-11-13 — Share complete successful Qobuz request cache
+
+- User explicitly requested caches in addition to portable evidence. Archived all
+  1,759 successful request responses, byte-for-byte, in a ~5 MB versioned tar.gz.
+- Credential-value and sensitive-field-name scans passed. No auth headers,
+  credentials, process logs, STOP/lock state or third-party source included.
+- Added deterministic export and validated restore; existing conflicting files
+  are preserved. Two tests pass for offline cache replay/conflict handling and
+  traversal rejection. Full archive restored into a temporary directory and
+  compared byte-for-byte with all original responses.
+- Documented collaborator restore/offline sample commands. Included in requested
+  local cache-sharing commit; no push, merge, refresh or deployment performed.
