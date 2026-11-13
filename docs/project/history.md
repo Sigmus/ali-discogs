@@ -881,4 +881,12 @@ DG 2530 236, Michelangeli6678433, matches the 13-track DG album
 the Prelude, Ballade and Scherzo keeps its own track, with Michelangeli
 credited. Probable85. The 2018 digital issue is not verified as the 1972
 mastering. Copies 12/77/652, unique 12/77/651. No API calls. Container tests
-passed. Not committed.
+passed. Committed with the Tristan and Gould reviews as 0d37bcb.
+
+## 2026-11-13 — Eight cached near-misses planned as one pass
+
+The remaining close cached albums are Kempff Op. 81a, Rubinstein Op. posth. 72
+No. 1 on two Discogs releases, Davis’s Swan of Tuonela, Haebler’s two F-major
+sonatas, Time Out’s Audrey, Jazz Samba’s Baia, Dutoit’s *La Jeunesse d’Hercule*
+and Ellington’s two Shepherd takes. The pass reviews all eight before reporting.
+A missing named piece stays unpublished. No implementation in this step.

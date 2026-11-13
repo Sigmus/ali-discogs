@@ -244,3 +244,12 @@ or work number cannot be a container. Every other unit needs exactly one track,
 those tracks must partition the album, and the required performer must be
 credited on each. Losing a piece or the performer fails closed. Cap at
 Probable85. Same label and programme do not prove the same mastering.
+
+## 2026-11-13 — Eight cached near-misses are one pass
+
+Status: adopted.
+
+Review Kempff, Rubinstein, Davis/Sibelius, Haebler, Time Out, Jazz Samba,
+Dutoit and Ellington before reporting. A title pairing is per review. A named
+piece absent from the cached album stays unpublished. See
+[eight cached near-misses](../plans/2026-11-13-qobuz-eight-cached.md).

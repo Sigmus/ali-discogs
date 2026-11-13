@@ -90,8 +90,7 @@ plans preserve dated evidence and prior handoffs.
   Probable85 for the three acts. Tannhäuser4365080 and Barenboim9866861 stay
   unpublished.
 - Stored unmatched-audit JSON still describes the earlier inventory.
-  Next: another bounded cached near-miss. Rubinstein’s Op. posth. 72 No. 1 is
-  present under another title and still needs its own review; a missing piece
-  stays missing.
+  Next: the [eight cached near-misses](../plans/2026-11-13-qobuz-eight-cached.md)
+  in one pass. A named piece that is absent from the cached album stays absent.
 - [Unmatched audit](../plans/2026-11-13-qobuz-unmatched-audit.md).
 - [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).
