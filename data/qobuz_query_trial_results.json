@@ -1,0 +1,1061 @@
+{
+  "schema_version": 1,
+  "scope_sha256": "b21d3c9cfa3535786a16cd977f1dac4c481b9ff92a63027adac2f3695b0bb7a3",
+  "entries": [
+    {
+      "discogs_id": "1132104",
+      "title": "Streichquartette No. 8 & No. 10",
+      "queries": [
+        {
+          "strategy": "performer_composer",
+          "query": "prague string quartet dvorak",
+          "hits": 5,
+          "candidates": [
+            {
+              "album_id": "0002894631652",
+              "title": "Dvorák: The String Quartets",
+              "cached_complete_metadata": true,
+              "score": 88.3,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": 1.0,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "ea8il96kf0fhc",
+              "title": "Dvorak, A.: String Quartets, Vol. 5 (Vlach Quartet) - Cypresses / String Quartet Movement in F Major / 2 Waltzes / Gavotte",
+              "cached_complete_metadata": false,
+              "score": 6.27,
+              "lead_artist_supported": false,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "m7x6r8rp2gccc",
+              "title": "Dvorak, A.: String Quartets, Vol. 6 (Vlach Quartet) - Nos. 5, 7",
+              "cached_complete_metadata": false,
+              "score": 9.11,
+              "lead_artist_supported": false,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "a7qcngmeocuqb",
+              "title": "Dvořák: String Quartets Op. 96 \"American\" & Op. 106",
+              "cached_complete_metadata": false,
+              "score": 11.27,
+              "lead_artist_supported": false,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "wkdg7ixn6cd6a",
+              "title": "Smetana, Dvořák & Suk: String Quartets",
+              "cached_complete_metadata": false,
+              "score": 47.21,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            }
+          ]
+        },
+        {
+          "strategy": "performer_composer_catalogue",
+          "query": "prague string quartet dvorak op 51",
+          "hits": 2,
+          "candidates": [
+            {
+              "album_id": "0730099437424",
+              "title": "String Quartets No. 10, Op. 51 and No. 14, Op. 105",
+              "cached_complete_metadata": false,
+              "score": 11.83,
+              "lead_artist_supported": false,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "xwxtelv4deuoa",
+              "title": "Dvořák: Chamber Works II",
+              "cached_complete_metadata": false,
+              "score": 6.4,
+              "lead_artist_supported": false,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "discogs_id": "2966855",
+      "title": "The Complete Beethoven Society Recordings, 1932–37 / Vol. 4: Sonatas, Nos. 28–32",
+      "queries": [
+        {
+          "strategy": "performer_composer",
+          "query": "artur schnabel beethoven",
+          "hits": 5,
+          "candidates": [
+            {
+              "album_id": "evmb3lj8sm3la",
+              "title": "Beethoven: Piano Sonatas Nos. 27-29 (Schnabel) (1932-1935)",
+              "cached_complete_metadata": false,
+              "score": 49.6,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "0190295866983",
+              "title": "Beethoven: Complete Piano Sonatas (2016 Remaster)",
+              "cached_complete_metadata": true,
+              "score": 89.41,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": 1.0,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "ldki24bpeid2a",
+              "title": "Beethoven: Piano Sonatas Nos 26 \"Les Adieux\", 28 & 29 \"Hammerklavier\"",
+              "cached_complete_metadata": false,
+              "score": 48.96,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "0884385808242",
+              "title": "The Beethoven Piano Sonatas",
+              "cached_complete_metadata": false,
+              "score": 50.0,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "0724356288058",
+              "title": "Beethoven: Piano Sonatas, Nos. 21 \"Waldstein\", 22, 23 \"Appassionata\", 24, 25, 27 & 30 - 32",
+              "cached_complete_metadata": false,
+              "score": 49.52,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            }
+          ]
+        },
+        {
+          "strategy": "performer_composer_catalogue",
+          "query": "artur schnabel beethoven op 101",
+          "hits": 1,
+          "candidates": [
+            {
+              "album_id": "jfa1q4i2ojafa",
+              "title": "BEETHOVEN: PIANO SONATA No.4 \"GRAND SONATA\", No.9, No.10, No.28",
+              "cached_complete_metadata": false,
+              "score": 49.54,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "discogs_id": "4469662",
+      "title": "Klavierkonzert Nr.2 C-Moll / Etudes Tableaux",
+      "queries": [
+        {
+          "strategy": "performer_composer",
+          "query": "vladimir ashkenazy rachmaninoff",
+          "hits": 5,
+          "candidates": [
+            {
+              "album_id": "sndzorrexm26b",
+              "title": "Rachmaninoff: 24 Preludes",
+              "cached_complete_metadata": false,
+              "score": 46.67,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "0002894786978",
+              "title": "Sergei Rachmaninoff : Complete Works For Piano",
+              "cached_complete_metadata": false,
+              "score": 46.98,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "t36l19q7sfitp",
+              "title": "Rimsky-Korsakov: Scheherazade; Rachmaninoff: Paganini Rhapsody",
+              "cached_complete_metadata": false,
+              "score": 45.94,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "0002894830036",
+              "title": "Rachmaninoff: The Isle of the Dead; Symphonic Dances",
+              "cached_complete_metadata": false,
+              "score": 46.52,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "0002894830271",
+              "title": "Rachmaninoff: Symphony No. 2",
+              "cached_complete_metadata": false,
+              "score": 44.71,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            }
+          ]
+        },
+        {
+          "strategy": "performer_composer_catalogue",
+          "query": "vladimir ashkenazy rachmaninoff op 18",
+          "hits": 5,
+          "candidates": [
+            {
+              "album_id": "0002894667272",
+              "title": "Rachmaninoff: Klavierkonzerte Nr.2 & 4",
+              "cached_complete_metadata": false,
+              "score": 50.39,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "0002894787358",
+              "title": "Rachmaninov: Piano Concertos Nos. 1-4, Rhapsody on a Theme of Paganini",
+              "cached_complete_metadata": false,
+              "score": 47.34,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "0002894215902",
+              "title": "Rachmaninov: Piano Concertos Nos. 1-4",
+              "cached_complete_metadata": false,
+              "score": 46.75,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "0002894664622",
+              "title": "The Art of Ashkenazy",
+              "cached_complete_metadata": false,
+              "score": 45.81,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "0002894144752",
+              "title": "Rachmaninov: Piano Concertos Nos.2 & 4",
+              "cached_complete_metadata": false,
+              "score": 46.75,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "discogs_id": "6105272",
+      "title": "Streichquartette 1–15 · Klavierquintett G-Moll Op. 57",
+      "queries": [
+        {
+          "strategy": "performer_composer",
+          "query": "borodin string quartet shostakovich",
+          "hits": 5,
+          "candidates": [
+            {
+              "album_id": "g4nhgjv3d6wbc",
+              "title": "Shostakovich : Complete String Quartets",
+              "cached_complete_metadata": false,
+              "score": 6.9,
+              "lead_artist_supported": false,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "0002894788209",
+              "title": "Shostakovich: String Quartets Nos. 1, 8 & 14",
+              "cached_complete_metadata": false,
+              "score": 7.64,
+              "lead_artist_supported": false,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "awbcbvuv8x90b",
+              "title": "Shostakovich: Complete Quartets",
+              "cached_complete_metadata": false,
+              "score": 7.0,
+              "lead_artist_supported": false,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "0884977565164",
+              "title": "Borodin, Dvorak & Shostakovich String Quartets",
+              "cached_complete_metadata": false,
+              "score": 5.59,
+              "lead_artist_supported": false,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "0002894255412",
+              "title": "Tchaikovsky: String Quartet No. 1 – Borodin: String Quartet No. 2 – Shostakovich: String Quartet No. 8",
+              "cached_complete_metadata": false,
+              "score": 8.17,
+              "lead_artist_supported": false,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            }
+          ]
+        },
+        {
+          "strategy": "performer_composer_catalogue",
+          "query": "borodin string quartet shostakovich op 101",
+          "hits": 3,
+          "candidates": [
+            {
+              "album_id": "g4nhgjv3d6wbc",
+              "title": "Shostakovich : Complete String Quartets",
+              "cached_complete_metadata": false,
+              "score": 6.9,
+              "lead_artist_supported": false,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "e4i336bjck6sb",
+              "title": "Dmitri Shostakovich: String Quartets Nos. 4, 6 & 9",
+              "cached_complete_metadata": false,
+              "score": 7.58,
+              "lead_artist_supported": false,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "m6v3wmv6p8r5b",
+              "title": "Pennies from Heaven",
+              "cached_complete_metadata": false,
+              "score": 5.22,
+              "lead_artist_supported": false,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "discogs_id": "6837646",
+      "title": "Les 6 Dernières Symphonies",
+      "queries": [
+        {
+          "strategy": "performer_composer",
+          "query": "columbia symphony orchestra mozart",
+          "hits": 5,
+          "candidates": [
+            {
+              "album_id": "3614591716737",
+              "title": "Mozart: Symphonies Nos. 25 & 28",
+              "cached_complete_metadata": false,
+              "score": 49.06,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "uw2kg61xnxzxc",
+              "title": "Bruno Walter conducts Mozart & Haydn - The Remastered Stereo Recordings",
+              "cached_complete_metadata": false,
+              "score": 46.88,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "zhjirs0dq8nia",
+              "title": "Wolfgang Amadeus Mozart: Piano Concertos Nos. 12 & 27 - Béla Bartók: Piano Concerto No. 1",
+              "cached_complete_metadata": false,
+              "score": 5.61,
+              "lead_artist_supported": false,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "zs7bxlgxh6aia",
+              "title": "Mozart: Piano Concertos Nos. 22 & 23",
+              "cached_complete_metadata": false,
+              "score": 46.21,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "c6fcvaaa5hpta",
+              "title": "Mozart: Symphonies 25, 28 & 29",
+              "cached_complete_metadata": false,
+              "score": 49.23,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            }
+          ]
+        },
+        {
+          "strategy": "performer_composer_catalogue",
+          "query": "columbia symphony orchestra mozart k 385",
+          "hits": 4,
+          "candidates": [
+            {
+              "album_id": "zhjirs0dq8nia",
+              "title": "Wolfgang Amadeus Mozart: Piano Concertos Nos. 12 & 27 - Béla Bartók: Piano Concerto No. 1",
+              "cached_complete_metadata": false,
+              "score": 5.61,
+              "lead_artist_supported": false,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "kh5oyvmi71g0b",
+              "title": "Mozart: Symphonies Nos. 25, 28, 29 & 35 \"Haffner\"",
+              "cached_complete_metadata": false,
+              "score": 7.16,
+              "lead_artist_supported": false,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "0886445221237",
+              "title": "Glenn Gould. The Complete Columbia Album Collection",
+              "cached_complete_metadata": true,
+              "score": 5.79,
+              "lead_artist_supported": false,
+              "possible_live_variant": false,
+              "programme_title_coverage": 0.0,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "0887396449671",
+              "title": "Mozart - Symphony No. 35 in D Major, K. 385",
+              "cached_complete_metadata": false,
+              "score": 46.25,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "discogs_id": "7975379",
+      "title": "BWV 149 Man Singet Mit Freuden Vom Sieg / BWV 188 Ich Habe Meine Zuversicht.",
+      "queries": [
+        {
+          "strategy": "performer_composer",
+          "query": "bach ensemble helmuth rilling bach",
+          "hits": 5,
+          "candidates": [
+            {
+              "album_id": "zklxml4pykuib",
+              "title": "The Bach Family",
+              "cached_complete_metadata": false,
+              "score": 4.55,
+              "lead_artist_supported": false,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "a6g9640whj71a",
+              "title": "J.S. Bach: Cantatas",
+              "cached_complete_metadata": false,
+              "score": 4.44,
+              "lead_artist_supported": false,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "iqbs0nrzapw1b",
+              "title": "Bach Family",
+              "cached_complete_metadata": false,
+              "score": 3.81,
+              "lead_artist_supported": false,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "3260050774659",
+              "title": "La magie des plus beaux Adagios, Vol. 2",
+              "cached_complete_metadata": false,
+              "score": 6.18,
+              "lead_artist_supported": false,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "r0rhoezalx05a",
+              "title": "Best of J.S. Bach",
+              "cached_complete_metadata": false,
+              "score": 5.84,
+              "lead_artist_supported": false,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            }
+          ]
+        },
+        {
+          "strategy": "performer_composer_catalogue",
+          "query": "bach ensemble helmuth rilling bach bwv 149",
+          "hits": 0,
+          "candidates": []
+        }
+      ]
+    },
+    {
+      "discogs_id": "9866861",
+      "title": "Tutte Le Sonate Per Pianoforte - Vol. 11: Sonate N. 11 Op. 22 - N. 13 Op. 27 N. 1 - N. 27 Op. 90",
+      "queries": [
+        {
+          "strategy": "performer_composer",
+          "query": "daniel barenboim beethoven",
+          "hits": 5,
+          "candidates": [
+            {
+              "album_id": "0002894196022",
+              "title": "Beethoven: Piano Sonatas Nos.8 \"Moonlight\", 14 \"Appassionata\" & 23 \"Pathétique\"",
+              "cached_complete_metadata": false,
+              "score": 48.27,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "bl0292og4t3pc",
+              "title": "Beethoven: Piano Sonatas Nos. 27-32",
+              "cached_complete_metadata": false,
+              "score": 48.42,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "0002894631272",
+              "title": "Beethoven: The Piano Sonatas",
+              "cached_complete_metadata": true,
+              "score": 86.67,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": 1.0,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "zbnl88r4plrba",
+              "title": "Beethoven: Symphony No. 7, Op. 92",
+              "cached_complete_metadata": false,
+              "score": 47.27,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "bn4naurb578zb",
+              "title": "Beethoven Trios",
+              "cached_complete_metadata": false,
+              "score": 43.75,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            }
+          ]
+        },
+        {
+          "strategy": "performer_composer_catalogue",
+          "query": "daniel barenboim beethoven op 22",
+          "hits": 4,
+          "candidates": [
+            {
+              "album_id": "hdzghotfvyyya",
+              "title": "Beethoven: Piano Sonatas Nos. 5, 6, 7, Op. 10 & 22, Op. 54",
+              "cached_complete_metadata": false,
+              "score": 50.23,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "0002894631272",
+              "title": "Beethoven: The Piano Sonatas",
+              "cached_complete_metadata": true,
+              "score": 86.67,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": 1.0,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "5099970442151",
+              "title": "Beethoven: Complete Piano Sonatas",
+              "cached_complete_metadata": false,
+              "score": 46.73,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "fstv6cjkgurtc",
+              "title": "Beethoven For All - The Piano Sonatas",
+              "cached_complete_metadata": false,
+              "score": 46.55,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "discogs_id": "11887204",
+      "title": "Sinfonia N°4  - Sinfonia N°5",
+      "queries": [
+        {
+          "strategy": "performer_composer",
+          "query": "arturo toscanini beethoven",
+          "hits": 5,
+          "candidates": [
+            {
+              "album_id": "0886446344348",
+              "title": "Beethoven: Symphony No. 7 in A Major, Op. 92, Symphony No. 2 in D Major, Op. 36 & Egmont Overture, Op. 84",
+              "cached_complete_metadata": false,
+              "score": 44.92,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "0888880782755",
+              "title": "Beethoven: Symphonies 1-9",
+              "cached_complete_metadata": false,
+              "score": 46.04,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "0886446346205",
+              "title": "Beethoven: Missa Solemnis, Op. 123 - Cherubini: Requiem Mass No. 1 in C Minor",
+              "cached_complete_metadata": true,
+              "score": 45.66,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": 0.0,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "o4kob3b17kiec",
+              "title": "Ludwig van Beethoven: Complete Symphonies & Selected Overtures (1939)",
+              "cached_complete_metadata": true,
+              "score": 46.36,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": 0.0,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "0886446345741",
+              "title": "Beethoven: Violin Concerto in D Major, Op. 61 & Piano Concerto No. 3 in C Minor, Op. 37",
+              "cached_complete_metadata": true,
+              "score": 45.56,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": 0.0,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            }
+          ]
+        },
+        {
+          "strategy": "performer_composer_catalogue",
+          "query": "arturo toscanini beethoven op 60",
+          "hits": 5,
+          "candidates": [
+            {
+              "album_id": "0828765570220",
+              "title": "Beethoven: Symphonies 1-9",
+              "cached_complete_metadata": true,
+              "score": 46.04,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": 0.0,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "0017685120329",
+              "title": "Ludwig van Beethoven: Complete Symphonies & Selected Overtures (1939)",
+              "cached_complete_metadata": true,
+              "score": 46.36,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": 0.0,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "0743216665624",
+              "title": "Beethoven: Symphonies 1-9",
+              "cached_complete_metadata": true,
+              "score": 46.04,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": 0.0,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "0886446344379",
+              "title": "Beethoven: Symphony No. 6 in F Major, Op. 68 \"Pastorale\" & Symphony No. 4 in B-Flat Major, Op. 60",
+              "cached_complete_metadata": true,
+              "score": 45.22,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": 0.0,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "fnguaqnvtv9ic",
+              "title": "Ludwig Van Beethoven: Symphony No. 2 in D Major, Op. 36 - Symphony No.4 in B-Flat Major, Op. 60",
+              "cached_complete_metadata": false,
+              "score": 45.17,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "discogs_id": "14934969",
+      "title": "Sinfonia No. 6 In Fa Maggiore Op. 68 <<Pastorale>> / Ouverture Leonora No. 1, Op. 138",
+      "queries": [
+        {
+          "strategy": "performer_composer",
+          "query": "otto klemperer beethoven",
+          "hits": 5,
+          "candidates": [
+            {
+              "album_id": "vrg5q0y8vzvaa",
+              "title": "Beethoven: The 9 Symphonies & Overtures (Remastered)",
+              "cached_complete_metadata": true,
+              "score": 86.94,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": 1.0,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "j36029gm33qya",
+              "title": "Beethoven: Symphonies Nos. 7 & 8, Leonore Overtures Nos. 1 - 3 & Fidelio's Overture (Remastered)",
+              "cached_complete_metadata": true,
+              "score": 68.35,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": 0.5,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "m9u4tuh82pbqa",
+              "title": "Wagner Ride of the Valkyries - Mozart, Beethoven, Bach, Mendelssohn",
+              "cached_complete_metadata": true,
+              "score": 47.06,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": 0.0,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "q5fidlie65aic",
+              "title": "Beethoven: Fidelio, Op. 72",
+              "cached_complete_metadata": true,
+              "score": 64.95,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": 0.5,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "bo905xkdctroc",
+              "title": "Beethoven: Piano Concertos Nos. 2 & 5 \"Emperor\"",
+              "cached_complete_metadata": true,
+              "score": 46.26,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": 0.0,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            }
+          ]
+        },
+        {
+          "strategy": "performer_composer_catalogue",
+          "query": "otto klemperer beethoven op 138",
+          "hits": 5,
+          "candidates": [
+            {
+              "album_id": "5099992803350",
+              "title": "Beethoven: Symphony No. 6, Leonore Overture No. 1",
+              "cached_complete_metadata": true,
+              "score": 89.41,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": 1.0,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "0724356774056",
+              "title": "Beethoven: Symphony No. 3 \"Eroica\" - Overtures: \"Leonore\" Nos. 1 & 2",
+              "cached_complete_metadata": false,
+              "score": 50.15,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "qmle032m05vsc",
+              "title": "Beethoven: Fidelio Overture, Op. 72b & Leonore Overtures Nos. 1, 2 & 3, Op. 138",
+              "cached_complete_metadata": false,
+              "score": 50.42,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "z9oezcxflr8ia",
+              "title": "Beethoven: Leonore Overture No. 2 in C Major, Op. 138",
+              "cached_complete_metadata": false,
+              "score": 49.76,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "y57syjf64muya",
+              "title": "Beethoven: Leonore Overture No. 1 in C Major, Op. 138",
+              "cached_complete_metadata": false,
+              "score": 49.76,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "discogs_id": "31515947",
+      "title": "Sinfonia N. 9 In Re Minore, Op. 125, \"Corale\"",
+      "queries": [
+        {
+          "strategy": "performer_composer",
+          "query": "wilhelm furtwangler beethoven",
+          "hits": 5,
+          "candidates": [
+            {
+              "album_id": "u2gtrj05aqv5a",
+              "title": "Beethoven: Symphony No. 9 \"Choral\" (Live)",
+              "cached_complete_metadata": false,
+              "score": 28.11,
+              "lead_artist_supported": true,
+              "possible_live_variant": true,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "x18f607es44qa",
+              "title": "Beethoven: Symphonies Nos. 4 & 7",
+              "cached_complete_metadata": false,
+              "score": 46.57,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "tfgtrk2rlz5lb",
+              "title": "Beethoven: Symphonies Nos. 3 \"Eroica\", 5 & 6 \"Pastoral\"",
+              "cached_complete_metadata": false,
+              "score": 48.47,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "xy83gy5hg20sa",
+              "title": "Franz Schubert: Symphony No. 9 - Ludwig van Beethoven: Symphony No. 9 (Finale)",
+              "cached_complete_metadata": false,
+              "score": 48.07,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "t8n76q1dfe8ub",
+              "title": "Furtwängler Remastered: Beethoven, Wagner, Mozart, Strauss, Brahms",
+              "cached_complete_metadata": false,
+              "score": 46.4,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            }
+          ]
+        },
+        {
+          "strategy": "performer_composer_catalogue",
+          "query": "wilhelm furtwangler beethoven op 125",
+          "hits": 5,
+          "candidates": [
+            {
+              "album_id": "q8ou90nhxf7ac",
+              "title": "Beethoven: Symphony No. 9 in D Minor, Op. 125 \"Choral\" ",
+              "cached_complete_metadata": true,
+              "score": 93.79,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": 1.0,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "0724356690158",
+              "title": "Beethoven: Symphony No. 9, Op. 125 \"Choral\"",
+              "cached_complete_metadata": false,
+              "score": 50.53,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": null,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "q4jnzvdu2cxzb",
+              "title": "Beethoven: Symphony No. 9 in D Minor, Op. 125 \"Choral\"",
+              "cached_complete_metadata": true,
+              "score": 53.79,
+              "lead_artist_supported": true,
+              "possible_live_variant": false,
+              "programme_title_coverage": 0.0,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "ny2volmophw9a",
+              "title": "Beethoven: Symphony No. 9 in D Minor, Op. 125 \"Choral\" (Live)",
+              "cached_complete_metadata": true,
+              "score": 33.48,
+              "lead_artist_supported": true,
+              "possible_live_variant": true,
+              "programme_title_coverage": 0.0,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            },
+            {
+              "album_id": "jeynb4mo98pgc",
+              "title": "Beethoven: Symphony No. 9 in D Minor, Op. 125 \"Choral\" (Live)",
+              "cached_complete_metadata": true,
+              "score": 33.48,
+              "lead_artist_supported": true,
+              "possible_live_variant": true,
+              "programme_title_coverage": 0.0,
+              "purpose": "Search relevance only; not recording identity, confidence or match acceptance."
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "performer_composer": {
+      "nonempty": 10,
+      "candidate_entries": 50
+    },
+    "performer_composer_catalogue": {
+      "nonempty": 9,
+      "candidate_entries": 34
+    }
+  },
+  "limitations": [
+    "Top five hits only; relevance is not match confidence.",
+    "No new full metadata fetched or matches accepted.",
+    "Query yield is not recording coverage; no catalogue absence inference.",
+    "Ten evenly spaced IDs with empty original searches, one normalized composer and catalogue identifiers; excludes both prior pilot scopes. Purposive, not representative. Catalogue choice is lexical, not necessarily the main work."
+  ]
+}

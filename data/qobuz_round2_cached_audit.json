@@ -1,0 +1,221 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-13",
+  "entries": [
+    {
+      "discogs_id": "6381208",
+      "album_id": "kno5hz96hygbc",
+      "decision": "probable",
+      "recording_review": "Full Klemperer/New Philharmonia cast agrees with the documented 1965 EMI recording; eleven digital sections cover the five requested mass movements. Grouped movement timings agree with the LP within 3%.",
+      "sources": [
+        "https://www.warnerclassics.com/de/release/beethoven-missa-solemnis",
+        "https://ci.nii.ac.jp/ncid/BA56807310"
+      ],
+      "limitations": [
+        "Publisher/library documentation supports the recording family, not an exact barcode/take or Angel LP mastering guarantee.",
+        "Required named singers are supported within the contiguous work group; not every movement has every voice."
+      ],
+      "eligible": true,
+      "completeness": {
+        "status": "complete",
+        "works": [
+          {
+            "target": "Missa Solemnis",
+            "status": "complete",
+            "expected_movements": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "observed_movements": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11
+            ],
+            "track_ids": [
+              241256109,
+              241256110,
+              241256111,
+              241256112,
+              241256113,
+              241256114,
+              241256115,
+              241256116,
+              241256117,
+              241256118,
+              241256119
+            ],
+            "scope": "reviewed-named-sections",
+            "source": "cached target nested tracklist and full digital section sequence; recording sources listed in review",
+            "reason": "Five target movements mapped to digital sections: Kyrie[1], Gloria[2–4], Credo[5–7], Sanctus/Benedictus[8–9], Agnus Dei[10–11]. This is eleven sections, not eleven independent mass movements."
+          }
+        ],
+        "overlapping_target_tracks": false
+      }
+    },
+    {
+      "discogs_id": "6599326",
+      "album_id": "tzrc8oc3d248a",
+      "decision": "probable",
+      "recording_review": "All thirteen requested Requiem sections and the Ancerl/Stader/Wagner/Haefliger/Borg/Czech Philharmonic cast agree with the documented 1959 recording; the different 1964 Ancerl cast is excluded.",
+      "sources": [
+        "https://www.antonin-dvorak.cz/en/work/requiem-recordings/",
+        "https://ge.nii.ac.jp/ncid/BB24443630"
+      ],
+      "limitations": [
+        "Selected digital edition is a third-party reissue, not the original DG label; mastering, transfer provenance and exact take remain unverified.",
+        "Introitus/Kyrie corresponds to Requiem aeternam, Domine Jesu to Offertorium, and Sanctus/Benedictus to Sanctus; these mappings are restricted to this reviewed candidate."
+      ],
+      "eligible": true,
+      "completeness": {
+        "status": "complete",
+        "works": [
+          {
+            "target": "Requiem Op. 89",
+            "status": "complete",
+            "expected_movements": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ],
+            "observed_movements": [
+              1,
+              2,
+              3,
+              4,
+              5,
+              6,
+              7,
+              8,
+              9,
+              10,
+              11,
+              12,
+              13
+            ],
+            "track_ids": [
+              133795929,
+              133795930,
+              133795931,
+              133795932,
+              133795933,
+              133795934,
+              133795935,
+              133795936,
+              133795937,
+              133795938,
+              133795939,
+              133795940,
+              133795941
+            ],
+            "scope": "reviewed-named-sections",
+            "source": "cached target nested tracklist and full digital section sequence; recording sources listed in review",
+            "reason": "Thirteen sections in target order; exact reviewed title/track hashes resolve nonstandard l./Roman labels and named liturgical equivalences without changing global parsing."
+          }
+        ],
+        "overlapping_target_tracks": false
+      }
+    },
+    {
+      "discogs_id": "8151148",
+      "album_id": "3614591254543",
+      "decision": "probable",
+      "recording_review": "All seven movements of Brahms Sonatas1/3 list both Gioconda de Vito and Edwin Fischer. Publisher/library documentation identifies their 1954 EMI recordings, consistent with the target pairing.",
+      "sources": [
+        "https://www.hyperion-records.co.uk/dc.asp?dc=D_APR7314",
+        "https://ci.nii.ac.jp/ncid/BA47147480"
+      ],
+      "limitations": [
+        "The original source heading repeats Op.78 and joins No.1 to the opus number. Reviewed as Sonata No.1, Op.78; the original Discogs text is retained.",
+        "BNF Collection digital transfer differs from the original EMI LP edition; exact transfer/mastering and take identity remain unverified."
+      ],
+      "eligible": true,
+      "completeness": {
+        "status": "complete",
+        "works": [
+          {
+            "target": "Sonata Per Violino E Pianoforte N. 1 In Sol Magg., Op. 78N. 1 In  Sol  Maggiore, Op. 78  ",
+            "status": "complete",
+            "expected_movements": [
+              1,
+              2,
+              3
+            ],
+            "observed_movements": [
+              1,
+              2,
+              3
+            ],
+            "track_ids": [
+              22828354,
+              22828356,
+              22828358
+            ],
+            "scope": "reviewed-whole-work",
+            "source": "cached target nested three/four movement structure; library/publisher recording documentation",
+            "reason": "All target movements in order with both named violinist and pianist; malformed duplicated title interpreted only in this reviewed pair."
+          },
+          {
+            "target": "Sonata Per Violino E Pianoforte N. 3 In Re Minore., Op. 108",
+            "status": "complete",
+            "expected_movements": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "observed_movements": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "track_ids": [
+              22828360,
+              22828362,
+              22828364,
+              22828366
+            ],
+            "scope": "reviewed-whole-work",
+            "source": "cached target nested three/four movement structure; library/publisher recording documentation",
+            "reason": "All target movements in order with both named violinist and pianist; malformed duplicated title interpreted only in this reviewed pair."
+          }
+        ],
+        "overlapping_target_tracks": false
+      }
+    }
+  ],
+  "summary": {
+    "reviewed": 3,
+    "eligible_probable": 3,
+    "from_original_cache": 2,
+    "from_recovered_search": 1
+  },
+  "limitations": "Hash-bound programme/recording-family reviews, not exact session/mastering verification. Other aliases remain unresolved."
+}

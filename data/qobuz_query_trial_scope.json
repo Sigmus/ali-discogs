@@ -1,0 +1,148 @@
+{
+  "schema_version": 1,
+  "collection_sha256": "a214eee877d4749fa957b3d2a293c2925d7ba0621259f2742139a6cd86f928c8",
+  "selected_on": "2026-11-13",
+  "selection": "Ten evenly spaced IDs with empty original searches, one normalized composer and catalogue identifiers; excludes both prior pilot scopes. Purposive, not representative. Catalogue choice is lexical, not necessarily the main work.",
+  "entries": [
+    {
+      "discogs_id": "1132104",
+      "title": "Streichquartette No. 8 & No. 10",
+      "queries": [
+        {
+          "strategy": "performer_composer",
+          "query": "prague string quartet dvorak"
+        },
+        {
+          "strategy": "performer_composer_catalogue",
+          "query": "prague string quartet dvorak op 51"
+        }
+      ]
+    },
+    {
+      "discogs_id": "2966855",
+      "title": "The Complete Beethoven Society Recordings, 1932–37 / Vol. 4: Sonatas, Nos. 28–32",
+      "queries": [
+        {
+          "strategy": "performer_composer",
+          "query": "artur schnabel beethoven"
+        },
+        {
+          "strategy": "performer_composer_catalogue",
+          "query": "artur schnabel beethoven op 101"
+        }
+      ]
+    },
+    {
+      "discogs_id": "4469662",
+      "title": "Klavierkonzert Nr.2 C-Moll / Etudes Tableaux",
+      "queries": [
+        {
+          "strategy": "performer_composer",
+          "query": "vladimir ashkenazy rachmaninoff"
+        },
+        {
+          "strategy": "performer_composer_catalogue",
+          "query": "vladimir ashkenazy rachmaninoff op 18"
+        }
+      ]
+    },
+    {
+      "discogs_id": "6105272",
+      "title": "Streichquartette 1–15 · Klavierquintett G-Moll Op. 57",
+      "queries": [
+        {
+          "strategy": "performer_composer",
+          "query": "borodin string quartet shostakovich"
+        },
+        {
+          "strategy": "performer_composer_catalogue",
+          "query": "borodin string quartet shostakovich op 101"
+        }
+      ]
+    },
+    {
+      "discogs_id": "6837646",
+      "title": "Les 6 Dernières Symphonies",
+      "queries": [
+        {
+          "strategy": "performer_composer",
+          "query": "columbia symphony orchestra mozart"
+        },
+        {
+          "strategy": "performer_composer_catalogue",
+          "query": "columbia symphony orchestra mozart k 385"
+        }
+      ]
+    },
+    {
+      "discogs_id": "7975379",
+      "title": "BWV 149 Man Singet Mit Freuden Vom Sieg / BWV 188 Ich Habe Meine Zuversicht.",
+      "queries": [
+        {
+          "strategy": "performer_composer",
+          "query": "bach ensemble helmuth rilling bach"
+        },
+        {
+          "strategy": "performer_composer_catalogue",
+          "query": "bach ensemble helmuth rilling bach bwv 149"
+        }
+      ]
+    },
+    {
+      "discogs_id": "9866861",
+      "title": "Tutte Le Sonate Per Pianoforte - Vol. 11: Sonate N. 11 Op. 22 - N. 13 Op. 27 N. 1 - N. 27 Op. 90",
+      "queries": [
+        {
+          "strategy": "performer_composer",
+          "query": "daniel barenboim beethoven"
+        },
+        {
+          "strategy": "performer_composer_catalogue",
+          "query": "daniel barenboim beethoven op 22"
+        }
+      ]
+    },
+    {
+      "discogs_id": "11887204",
+      "title": "Sinfonia N°4  - Sinfonia N°5",
+      "queries": [
+        {
+          "strategy": "performer_composer",
+          "query": "arturo toscanini beethoven"
+        },
+        {
+          "strategy": "performer_composer_catalogue",
+          "query": "arturo toscanini beethoven op 60"
+        }
+      ]
+    },
+    {
+      "discogs_id": "14934969",
+      "title": "Sinfonia No. 6 In Fa Maggiore Op. 68 <<Pastorale>> / Ouverture Leonora No. 1, Op. 138",
+      "queries": [
+        {
+          "strategy": "performer_composer",
+          "query": "otto klemperer beethoven"
+        },
+        {
+          "strategy": "performer_composer_catalogue",
+          "query": "otto klemperer beethoven op 138"
+        }
+      ]
+    },
+    {
+      "discogs_id": "31515947",
+      "title": "Sinfonia N. 9 In Re Minore, Op. 125, \"Corale\"",
+      "queries": [
+        {
+          "strategy": "performer_composer",
+          "query": "wilhelm furtwangler beethoven"
+        },
+        {
+          "strategy": "performer_composer_catalogue",
+          "query": "wilhelm furtwangler beethoven op 125"
+        }
+      ]
+    }
+  ]
+}

@@ -48,7 +48,24 @@ def assess(row, album, review):
             target_fingerprint(row) != review['target_sha256'] or
             fingerprint(album) != review['album_sha256']):
         raise ValueError('Reviewed evidence changed; review again before publication')
-    evidence = evaluate(row, album)
+    corrections = review.get('target_title_corrections', {})
+    if corrections:
+        from copy import deepcopy
+        from qobuz_match import units
+        titles = units(row)
+        if (any(titles.count(t) != 1 for t in corrections) or
+                any(not isinstance(t, str) or not t for t in corrections.values()) or
+                len(set(corrections.values())) != len(corrections)):
+            raise ValueError('Ambiguous reviewed target title correction')
+        effective = deepcopy(row)
+        for track in effective['tracklist']:
+            track['title'] = corrections.get(track.get('title'), track.get('title'))
+        effective['_reviewed_title_sources'] = {v:k for k,v in corrections.items()}
+        evidence = evaluate(effective, album)
+        for item in evidence['programme']:
+            item['target'] = effective['_reviewed_title_sources'].get(item['target'], item['target'])
+    else:
+        evidence = evaluate(row, album)
     result = {'discogs_id': review['discogs_id'], 'album_id': review['album_id'],
               'decision': review['decision'], 'recording_review': review['recording_review'],
               'sources': review['sources'], 'limitations': review['limitations'],
@@ -65,9 +82,10 @@ def assess(row, album, review):
         tracks = [t for t in album['tracks']['items'] if t['id'] in ids]
         numbers = []
         for track in tracks:
-            joined = spec.get('joined_tracks', {}).get(str(track['id']))
+            joined = (spec.get('reviewed_sections', {}).get(str(track['id'])) or
+                      spec.get('joined_tracks', {}).get(str(track['id'])))
             if joined:
-                # Only this exact reviewed track may represent two movements.
+                # Only an exact reviewed track may supply a named section or join.
                 if fingerprint(track) != joined['track_sha256']:
                     raise ValueError('Reviewed joined track changed')
                 numbers.extend(joined['movements'])

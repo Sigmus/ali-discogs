@@ -11,7 +11,13 @@
   "work_inventory_fingerprint": "ac5b17039789d5e994c13492246e74dd62bd8194dd089f579668d98e82dfe3f9",
   "lead_review_fingerprint": "bc731b95eadb23cb1a13d735a4e7410615ae06f260b2c4a381ed4a29e229265e",
   "comparison_evidence_fingerprint": "c38df992ab44bbc892ffacafa19d74cc1495d7579d3d6da670653204dca25e57",
-  "album_urls_fingerprint": "d80e3f90c8f2cd26414641f87b993be62a75a307543c6d45917e6bb243a86535",
+  "album_urls_fingerprint": "1f1ab45fbbdf82cfe674165cd4a4a3b860a981229943b7d98b14846510a8e427",
+  "trial_review_fingerprint": "29b152d71ab83c8be83049c16bdc43fd84fa485eefeca6bba69012aa90e3de07",
+  "trial_metadata_fingerprint": "6bf5d6039af872d3362c56899455b470ad6cb4cb9dee2e4cdb8f7caeb9df7123",
+  "schnabel_late_review_fingerprint": "e4f18bf648db61617d8fd3a4b2979fd23356050be95d618816e5e403fba41840",
+  "richter_review_fingerprint": "a14865f86e46150593e39bfa285fa6c7c61c8f46147b8094c0cb048fd02118ab",
+  "round2_review_fingerprint": "be60742c3d35f5a9aa67f200642f7fcde98a52562a46130e043db8f4aa7c851e",
+  "round2_metadata_fingerprint": "9db62d7bf62d4b77f5acf422dfde77959f845f4dc00b2ac0e10c02ccea295860",
   "releases": {
     "15221307": {
       "status": "unchecked",
@@ -2405,9 +2411,19 @@
       ]
     },
     "6381208": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "kno5hz96hygbc",
+        "name": "Beethoven: Missa solemnis, Op. 123",
+        "artists": [
+          "Otto Klemperer"
+        ],
+        "label": "Warner Classics",
+        "release_date": "2001-04-10",
+        "image": "https://static.qobuz.com/images/covers/bc/yg/kno5hz96hygbc_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/beethoven-missa-solemnis-op-123-otto-klemperer/kno5hz96hygbc"
+      },
       "candidates": [
         {
           "id": "kno5hz96hygbc",
@@ -2419,8 +2435,8 @@
           "release_date": "2001-04-10",
           "image": "https://static.qobuz.com/images/covers/bc/yg/kno5hz96hygbc_230.jpg",
           "url": "https://www.qobuz.com/fr-fr/album/beethoven-missa-solemnis-op-123-otto-klemperer/kno5hz96hygbc",
-          "status": "unchecked",
-          "confidence": null,
+          "status": "probable",
+          "confidence": 0.85,
           "coverage": 1.0,
           "covered": 1,
           "target_count": 1,
@@ -2477,20 +2493,70 @@
           "reasons": [
             "Target works have recording-group performer evidence; credits need not list every soloist on every movement. Recording identity requires review.",
             "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups.",
-            "New work-group candidate withheld pending programme-completeness review."
+            "Full Klemperer/New Philharmonia cast agrees with the documented 1965 EMI recording; eleven digital sections cover the five requested mass movements. Grouped movement timings agree with the LP within 3%.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Publisher/library documentation supports the recording family, not an exact barcode/take or Angel LP mastering guarantee.",
+            "Required named singers are supported within the contiguous work group; not every movement has every voice."
           ],
           "work_group_policy": "qobuz-work-groups-v1",
-          "promotion_review": {
-            "status": "unknown",
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
             "works": [
               {
                 "target": "Missa Solemnis",
-                "status": "unknown",
-                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11
+                ],
+                "track_ids": [
+                  241256109,
+                  241256110,
+                  241256111,
+                  241256112,
+                  241256113,
+                  241256114,
+                  241256115,
+                  241256116,
+                  241256117,
+                  241256118,
+                  241256119
+                ],
+                "scope": "reviewed-named-sections",
+                "source": "cached target nested tracklist and full digital section sequence; recording sources listed in review",
+                "reason": "Five target movements mapped to digital sections: Kyrie[1], Gloria[2–4], Credo[5–7], Sanctus/Benedictus[8–9], Agnus Dei[10–11]. This is eleven sections, not eleven independent mass movements."
               }
             ],
             "overlapping_target_tracks": false
-          }
+          },
+          "recording_review": "Full Klemperer/New Philharmonia cast agrees with the documented 1965 EMI recording; eleven digital sections cover the five requested mass movements. Grouped movement timings agree with the LP within 3%.",
+          "review_sources": [
+            "https://www.warnerclassics.com/de/release/beethoven-missa-solemnis",
+            "https://ci.nii.ac.jp/ncid/BA56807310"
+          ]
         },
         {
           "id": "0724356754751",
@@ -2666,7 +2732,10 @@
       "reasons": [
         "Target works have recording-group performer evidence; credits need not list every soloist on every movement. Recording identity requires review.",
         "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups.",
-        "New work-group candidate withheld pending programme-completeness review."
+        "Full Klemperer/New Philharmonia cast agrees with the documented 1965 EMI recording; eleven digital sections cover the five requested mass movements. Grouped movement timings agree with the LP within 3%.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Publisher/library documentation supports the recording family, not an exact barcode/take or Angel LP mastering guarantee.",
+        "Required named singers are supported within the contiguous work group; not every movement has every voice."
       ]
     },
     "7652134": {
@@ -49766,9 +49835,19 @@
       ]
     },
     "6599326": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "tzrc8oc3d248a",
+        "name": "Dvořák: Requiem Op. 89",
+        "artists": [
+          "Karel Ancerl"
+        ],
+        "label": "Alexandre Bak - Classical Music Reference Recording",
+        "release_date": "1959-01-01",
+        "image": "https://static.qobuz.com/images/covers/8a/24/tzrc8oc3d248a_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/dvorak-requiem-op-89-antonin-dvorak-czech-philharmonic-orchestra-prague-philharmonic-choir-karel-ancerl/tzrc8oc3d248a"
+      },
       "candidates": [
         {
           "id": "tzrc8oc3d248a",
@@ -49780,8 +49859,8 @@
           "release_date": "1959-01-01",
           "image": "https://static.qobuz.com/images/covers/8a/24/tzrc8oc3d248a_230.jpg",
           "url": "https://www.qobuz.com/fr-fr/album/dvorak-requiem-op-89-antonin-dvorak-czech-philharmonic-orchestra-prague-philharmonic-choir-karel-ancerl/tzrc8oc3d248a",
-          "status": "unchecked",
-          "confidence": null,
+          "status": "probable",
+          "confidence": 0.85,
           "coverage": 1.0,
           "covered": 1,
           "target_count": 1,
@@ -49817,20 +49896,76 @@
           "reasons": [
             "Each target item has explicit work and performer-role credits; recording identity requires review.",
             "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups.",
-            "New work-group candidate withheld pending programme-completeness review."
+            "All thirteen requested Requiem sections and the Ancerl/Stader/Wagner/Haefliger/Borg/Czech Philharmonic cast agree with the documented 1959 recording; the different 1964 Ancerl cast is excluded.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Selected digital edition is a third-party reissue, not the original DG label; mastering, transfer provenance and exact take remain unverified.",
+            "Introitus/Kyrie corresponds to Requiem aeternam, Domine Jesu to Offertorium, and Sanctus/Benedictus to Sanctus; these mappings are restricted to this reviewed candidate."
           ],
           "work_group_policy": "qobuz-work-groups-v1",
-          "promotion_review": {
-            "status": "unknown",
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
             "works": [
               {
                 "target": "Requiem Op. 89",
-                "status": "unknown",
-                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10,
+                  11,
+                  12,
+                  13
+                ],
+                "track_ids": [
+                  133795929,
+                  133795930,
+                  133795931,
+                  133795932,
+                  133795933,
+                  133795934,
+                  133795935,
+                  133795936,
+                  133795937,
+                  133795938,
+                  133795939,
+                  133795940,
+                  133795941
+                ],
+                "scope": "reviewed-named-sections",
+                "source": "cached target nested tracklist and full digital section sequence; recording sources listed in review",
+                "reason": "Thirteen sections in target order; exact reviewed title/track hashes resolve nonstandard l./Roman labels and named liturgical equivalences without changing global parsing."
               }
             ],
             "overlapping_target_tracks": false
-          }
+          },
+          "recording_review": "All thirteen requested Requiem sections and the Ancerl/Stader/Wagner/Haefliger/Borg/Czech Philharmonic cast agree with the documented 1959 recording; the different 1964 Ancerl cast is excluded.",
+          "review_sources": [
+            "https://www.antonin-dvorak.cz/en/work/requiem-recordings/",
+            "https://ge.nii.ac.jp/ncid/BB24443630"
+          ]
         },
         {
           "id": "0002894530732",
@@ -49906,7 +50041,10 @@
       "reasons": [
         "Each target item has explicit work and performer-role credits; recording identity requires review.",
         "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups.",
-        "New work-group candidate withheld pending programme-completeness review."
+        "All thirteen requested Requiem sections and the Ancerl/Stader/Wagner/Haefliger/Borg/Czech Philharmonic cast agree with the documented 1959 recording; the different 1964 Ancerl cast is excluded.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Selected digital edition is a third-party reissue, not the original DG label; mastering, transfer provenance and exact take remain unverified.",
+        "Introitus/Kyrie corresponds to Requiem aeternam, Domine Jesu to Offertorium, and Sanctus/Benedictus to Sanctus; these mappings are restricted to this reviewed candidate."
       ]
     },
     "5065978": {
@@ -93436,14 +93574,136 @@
       ]
     },
     "14934969": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "5099992803350",
+        "name": "Beethoven: Symphony No. 6, Leonore Overture No. 1",
+        "artists": [
+          "Otto Klemperer"
+        ],
+        "label": "Warner Classics",
+        "release_date": "2012-10-02",
+        "image": "https://static.qobuz.com/images/covers/50/33/5099992803350_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/beethoven-symphony-no-6-leonore-overture-no-1-otto-klemperer/5099992803350"
+      },
+      "candidates": [
+        {
+          "id": "5099992803350",
+          "name": "Beethoven: Symphony No. 6, Leonore Overture No. 1",
+          "artists": [
+            "Otto Klemperer"
+          ],
+          "label": "Warner Classics",
+          "release_date": "2012-10-02",
+          "image": "https://static.qobuz.com/images/covers/50/33/5099992803350_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/beethoven-symphony-no-6-leonore-overture-no-1-otto-klemperer/5099992803350",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 2,
+          "target_count": 2,
+          "required_performers": [
+            "Otto Klemperer",
+            "Philharmonia Orchestra"
+          ],
+          "programme": [
+            {
+              "target": "Sinfonia No. 6 In Fa Maggiore Op. 68 <<Pastorale>> ",
+              "work_tracks": 5,
+              "credited_tracks": 5,
+              "track_ids": [
+                8428954,
+                8428955,
+                8428956,
+                8428957,
+                8428958
+              ]
+            },
+            {
+              "target": "<<Leonore>> Ouverture No. 1, Op. 138",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                8428959
+              ]
+            }
+          ],
+          "reasons": [
+            "Each target item has supporting work and performer credits.",
+            "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+            "All five Pastoral movements and the complete listed Leonore No.1 track have Klemperer/Philharmonia credits. Warner documents the October1957 Pastoral recording, consistent with target notes and this EMI/Warner reissue family.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Publisher date evidence concerns the symphony; the overture session date and exact takes are not independently verified.",
+            "Matching programme and recording-family support do not establish identical LP/digital mastering."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Sinfonia No. 6 In Fa Maggiore Op. 68 <<Pastorale>> ",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "track_ids": [
+                  8428954,
+                  8428955,
+                  8428956,
+                  8428957,
+                  8428958
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "Cached target five numbered movements and separately listed overture; full credited candidate track list",
+                "reason": "Complete ordered symphony movements or single titled overture; no shared tracks."
+              },
+              {
+                "target": "<<Leonore>> Ouverture No. 1, Op. 138",
+                "status": "complete",
+                "expected_movements": [
+                  1
+                ],
+                "observed_movements": [
+                  1
+                ],
+                "track_ids": [
+                  8428959
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "Cached target five numbered movements and separately listed overture; full credited candidate track list",
+                "reason": "Complete ordered symphony movements or single titled overture; no shared tracks."
+              }
+            ],
+            "overlapping_target_tracks": false
+          },
+          "recording_review": "All five Pastoral movements and the complete listed Leonore No.1 track have Klemperer/Philharmonia credits. Warner documents the October1957 Pastoral recording, consistent with target notes and this EMI/Warner reissue family.",
+          "review_sources": [
+            "https://wmg.jp/otto-klemperer/discography/16392",
+            "https://www.qobuz.com/ie-en/album/beethoven-symphony-no-6-leonore-overture-no-1-otto-klemperer/5099992803350"
+          ]
+        }
+      ],
       "query": "otto klemperer beethoven sinfonia no 6 in fa maggiore op 68 pastorale ouverture",
       "searched_at": "2026-11-12T16:26:38.423029+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Each target item has supporting work and performer credits.",
+        "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+        "All five Pastoral movements and the complete listed Leonore No.1 track have Klemperer/Philharmonia credits. Warner documents the October1957 Pastoral recording, consistent with target notes and this EMI/Warner reissue family.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Publisher date evidence concerns the symphony; the overture session date and exact takes are not independently verified.",
+        "Matching programme and recording-family support do not establish identical LP/digital mastering."
       ]
     },
     "26149643": {
@@ -93469,14 +93729,183 @@
       ]
     },
     "3667210": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "m5in5vzcm30pa",
+        "name": "Bartók: Piano Concerto No. 2, Sz. 95 - Prokofiev: Piano Concerto No. 5, Op. 55",
+        "artists": [
+          "Sviatoslav Richter"
+        ],
+        "label": "Warner Classics",
+        "release_date": "2013-02-05",
+        "image": "https://static.qobuz.com/images/covers/pa/30/m5in5vzcm30pa_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/bartok-piano-concerto-no-2-sz-95-prokofiev-piano-concerto-no-5-op-55-sviatoslav-richter-lorin-maazel/m5in5vzcm30pa"
+      },
+      "candidates": [
+        {
+          "id": "m5in5vzcm30pa",
+          "name": "Bartók: Piano Concerto No. 2, Sz. 95 - Prokofiev: Piano Concerto No. 5, Op. 55",
+          "artists": [
+            "Sviatoslav Richter"
+          ],
+          "label": "Warner Classics",
+          "release_date": "2013-02-05",
+          "image": "https://static.qobuz.com/images/covers/pa/30/m5in5vzcm30pa_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/bartok-piano-concerto-no-2-sz-95-prokofiev-piano-concerto-no-5-op-55-sviatoslav-richter-lorin-maazel/m5in5vzcm30pa",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 2,
+          "target_count": 2,
+          "required_performers": [
+            "Lorin Maazel",
+            "Sviatoslav Richter",
+            "London Symphony Orchestra",
+            "Orchestre De Paris"
+          ],
+          "programme": [
+            {
+              "target": "Piano Concerto No.2, Sz83#",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                455299210,
+                455299211,
+                455299212
+              ],
+              "required_performers": [
+                "Lorin Maazel",
+                "Sviatoslav Richter",
+                "Orchestre De Paris"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [
+                  "A1",
+                  "A2",
+                  "A3"
+                ],
+                "performers": [
+                  {
+                    "name": "Orchestre De Paris",
+                    "role": "Orchestra"
+                  }
+                ]
+              }
+            },
+            {
+              "target": "Piano Concerto No.5 In G Minor, Op.55",
+              "work_tracks": 5,
+              "credited_tracks": 5,
+              "track_ids": [
+                455299213,
+                455299214,
+                455299215,
+                455299216,
+                455299217
+              ],
+              "required_performers": [
+                "Lorin Maazel",
+                "Sviatoslav Richter",
+                "London Symphony Orchestra"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [
+                  "B1",
+                  "B2",
+                  "B3",
+                  "B4"
+                ],
+                "performers": [
+                  {
+                    "name": "London Symphony Orchestra",
+                    "role": "Orchestra"
+                  }
+                ]
+              }
+            }
+          ],
+          "reasons": [
+            "Each target item has explicit work and performer-role credits; recording identity requires review.",
+            "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups.",
+            "Warner documents Richter/Maazel with Orchestre de Paris for Bartok No.2, Sz95 (1969) and London Symphony Orchestra for Prokofiev No.5, Op55 in G major (1970). All three plus five movements and work-specific credits are supported. Source Sz83 and G minor headings are interpreted only within this reviewed pair.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Publisher documentation supports this recording family, not exact LP mastering or independent take verification. Original Discogs catalogue/key text is preserved."
+          ],
+          "work_group_policy": "qobuz-work-groups-v1",
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Piano Concerto No.2, Sz83#",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "track_ids": [
+                  455299210,
+                  455299211,
+                  455299212
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "Warner publisher catalogue and cached target/candidate movement lists",
+                "reason": "Complete ordered movements; original per-work orchestra assignments retained. LP joins final Prokofiev movements; digital has separate IV and V."
+              },
+              {
+                "target": "Piano Concerto No.5 In G Minor, Op.55",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "track_ids": [
+                  455299213,
+                  455299214,
+                  455299215,
+                  455299216,
+                  455299217
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "Warner publisher catalogue and cached target/candidate movement lists",
+                "reason": "Complete ordered movements; original per-work orchestra assignments retained. LP joins final Prokofiev movements; digital has separate IV and V."
+              }
+            ],
+            "overlapping_target_tracks": false
+          },
+          "recording_review": "Warner documents Richter/Maazel with Orchestre de Paris for Bartok No.2, Sz95 (1969) and London Symphony Orchestra for Prokofiev No.5, Op55 in G major (1970). All three plus five movements and work-specific credits are supported. Source Sz83 and G minor headings are interpreted only within this reviewed pair.",
+          "review_sources": [
+            "https://wmg.jp/richter/discography/33795"
+          ]
+        }
+      ],
       "query": "lorin maazel bartok concerto n 2 concerto n 5",
       "searched_at": "2026-11-12T16:27:23.516770+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Each target item has explicit work and performer-role credits; recording identity requires review.",
+        "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups.",
+        "Warner documents Richter/Maazel with Orchestre de Paris for Bartok No.2, Sz95 (1969) and London Symphony Orchestra for Prokofiev No.5, Op55 in G major (1970). All three plus five movements and work-specific credits are supported. Source Sz83 and G minor headings are interpreted only within this reviewed pair.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Publisher documentation supports this recording family, not exact LP mastering or independent take verification. Original Discogs catalogue/key text is preserved."
       ]
     },
     "28108858": {
@@ -93524,14 +93953,140 @@
       ]
     },
     "8151148": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "3614591254543",
+        "name": "Brahms: Violin Sonatas Nos. 1 & 3",
+        "artists": [
+          "Gioconda De Vito"
+        ],
+        "label": "BNF Collection",
+        "release_date": "1960-01-01",
+        "image": "https://static.qobuz.com/images/covers/43/45/3614591254543_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/brahms-violin-sonatas-nos-1-3-gioconda-de-vito-edwin-fischer/3614591254543"
+      },
+      "candidates": [
+        {
+          "id": "3614591254543",
+          "name": "Brahms: Violin Sonatas Nos. 1 & 3",
+          "artists": [
+            "Gioconda De Vito"
+          ],
+          "label": "BNF Collection",
+          "release_date": "1960-01-01",
+          "image": "https://static.qobuz.com/images/covers/43/45/3614591254543_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/brahms-violin-sonatas-nos-1-3-gioconda-de-vito-edwin-fischer/3614591254543",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 2,
+          "target_count": 2,
+          "required_performers": [
+            "Gioconda De Vito",
+            "Edwin Fischer"
+          ],
+          "programme": [
+            {
+              "target": "Sonata Per Violino E Pianoforte N. 1 In Sol Magg., Op. 78N. 1 In  Sol  Maggiore, Op. 78  ",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                22828354,
+                22828356,
+                22828358
+              ]
+            },
+            {
+              "target": "Sonata Per Violino E Pianoforte N. 3 In Re Minore., Op. 108",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                22828360,
+                22828362,
+                22828364,
+                22828366
+              ]
+            }
+          ],
+          "reasons": [
+            "Each target item has supporting work and performer credits.",
+            "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+            "All seven movements of Brahms Sonatas1/3 list both Gioconda de Vito and Edwin Fischer. Publisher/library documentation identifies their 1954 EMI recordings, consistent with the target pairing.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "The original source heading repeats Op.78 and joins No.1 to the opus number. Reviewed as Sonata No.1, Op.78; the original Discogs text is retained.",
+            "BNF Collection digital transfer differs from the original EMI LP edition; exact transfer/mastering and take identity remain unverified."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Sonata Per Violino E Pianoforte N. 1 In Sol Magg., Op. 78N. 1 In  Sol  Maggiore, Op. 78  ",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "track_ids": [
+                  22828354,
+                  22828356,
+                  22828358
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "cached target nested three/four movement structure; library/publisher recording documentation",
+                "reason": "All target movements in order with both named violinist and pianist; malformed duplicated title interpreted only in this reviewed pair."
+              },
+              {
+                "target": "Sonata Per Violino E Pianoforte N. 3 In Re Minore., Op. 108",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "track_ids": [
+                  22828360,
+                  22828362,
+                  22828364,
+                  22828366
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "cached target nested three/four movement structure; library/publisher recording documentation",
+                "reason": "All target movements in order with both named violinist and pianist; malformed duplicated title interpreted only in this reviewed pair."
+              }
+            ],
+            "overlapping_target_tracks": false
+          },
+          "recording_review": "All seven movements of Brahms Sonatas1/3 list both Gioconda de Vito and Edwin Fischer. Publisher/library documentation identifies their 1954 EMI recordings, consistent with the target pairing.",
+          "review_sources": [
+            "https://www.hyperion-records.co.uk/dc.asp?dc=D_APR7314",
+            "https://ci.nii.ac.jp/ncid/BA47147480"
+          ]
+        }
+      ],
       "query": "gioconda de vito brahms sonata per violino e pianoforte n 1 e n 3",
       "searched_at": "2026-11-12T16:28:38.557276+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Each target item has supporting work and performer credits.",
+        "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+        "All seven movements of Brahms Sonatas1/3 list both Gioconda de Vito and Edwin Fischer. Publisher/library documentation identifies their 1954 EMI recordings, consistent with the target pairing.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "The original source heading repeats Op.78 and joins No.1 to the opus number. Reviewed as Sonata No.1, Op.78; the original Discogs text is retained.",
+        "BNF Collection digital transfer differs from the original EMI LP edition; exact transfer/mastering and take identity remain unverified."
       ]
     },
     "31515947": {
@@ -124625,14 +125180,235 @@
       ]
     },
     "2966855": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0190295866983",
+        "name": "Beethoven: Complete Piano Sonatas (2016 Remaster)",
+        "artists": [
+          "Artur Schnabel"
+        ],
+        "label": "Warner Classics",
+        "release_date": "2016-08-26",
+        "image": "https://static.qobuz.com/images/covers/83/69/0190295866983_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/beethoven-complete-piano-sonatas-2016-remaster-artur-schnabel/0190295866983"
+      },
+      "candidates": [
+        {
+          "id": "0190295866983",
+          "name": "Beethoven: Complete Piano Sonatas (2016 Remaster)",
+          "artists": [
+            "Artur Schnabel"
+          ],
+          "label": "Warner Classics",
+          "release_date": "2016-08-26",
+          "image": "https://static.qobuz.com/images/covers/83/69/0190295866983_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/beethoven-complete-piano-sonatas-2016-remaster-artur-schnabel/0190295866983",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 5,
+          "target_count": 5,
+          "required_performers": [
+            "Artur Schnabel"
+          ],
+          "programme": [
+            {
+              "target": "Piano Sonata No. 29 In B-Flat Major, Op. 106 (\"Hammerklavier\")",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                36924129,
+                36924130,
+                36924131,
+                36924132
+              ]
+            },
+            {
+              "target": "Piano Sonata No. 28 In A Major, Op. 101",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                36924126,
+                36924127,
+                36924128
+              ]
+            },
+            {
+              "target": "Piano Sonata No. 30 In E Major, Op. 109",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                36924135,
+                36924136,
+                36924137
+              ]
+            },
+            {
+              "target": "Piano Sonata No. 31 In A-Flat Major, Op. 110",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                36924138,
+                36924139,
+                36924140
+              ]
+            },
+            {
+              "target": "Piano Sonata No. 32 In C Minor, Op. 111",
+              "work_tracks": 2,
+              "credited_tracks": 2,
+              "track_ids": [
+                36924141,
+                36924142
+              ]
+            }
+          ],
+          "reasons": [
+            "Each target item has explicit work and performer-role credits; recording identity requires review.",
+            "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups.",
+            "All five requested late sonatas have complete, ordered movement support with Artur Schnabel credited. Warner identifies this barcode as the 1932–1938 cycle, consistent with the target notes dating these five sonatas to 1932–1935.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Recording-family support, not independent take verification or the same LP transfer/mastering.",
+            "The target dates individual sonatas to 1932–1935; publisher documentation dates the complete cycle rather than each selected take."
+          ],
+          "work_group_policy": "qobuz-work-groups-v1",
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Piano Sonata No. 29 In B-Flat Major, Op. 106 (\"Hammerklavier\")",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "track_ids": [
+                  36924129,
+                  36924130,
+                  36924131,
+                  36924132
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "Cached target heading and numbered LP movement list; exact candidate track titles",
+                "reason": "All listed movements with required pianist; joined sections reviewed only for this exact track."
+              },
+              {
+                "target": "Piano Sonata No. 28 In A Major, Op. 101",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "track_ids": [
+                  36924126,
+                  36924127,
+                  36924128
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "Cached target heading and numbered LP movement list; exact candidate track titles",
+                "reason": "All listed movements with required pianist; joined sections reviewed only for this exact track."
+              },
+              {
+                "target": "Piano Sonata No. 30 In E Major, Op. 109",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "track_ids": [
+                  36924135,
+                  36924136,
+                  36924137
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "Cached target heading and numbered LP movement list; exact candidate track titles",
+                "reason": "All listed movements with required pianist; joined sections reviewed only for this exact track."
+              },
+              {
+                "target": "Piano Sonata No. 31 In A-Flat Major, Op. 110",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "track_ids": [
+                  36924138,
+                  36924139,
+                  36924140
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "Cached target heading and numbered LP movement list; exact candidate track titles",
+                "reason": "All listed movements with required pianist; joined sections reviewed only for this exact track."
+              },
+              {
+                "target": "Piano Sonata No. 32 In C Minor, Op. 111",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2
+                ],
+                "observed_movements": [
+                  1,
+                  2
+                ],
+                "track_ids": [
+                  36924141,
+                  36924142
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "Cached target heading and numbered LP movement list; exact candidate track titles",
+                "reason": "All listed movements with required pianist; joined sections reviewed only for this exact track."
+              }
+            ],
+            "overlapping_target_tracks": false
+          },
+          "recording_review": "All five requested late sonatas have complete, ordered movement support with Artur Schnabel credited. Warner identifies this barcode as the 1932–1938 cycle, consistent with the target notes dating these five sonatas to 1932–1935.",
+          "review_sources": [
+            "https://www.warnerclassics.com/release/beethoven-complete-piano-sonatas-3"
+          ]
+        }
+      ],
       "query": "artur schnabel beethoven the complete beethoven society recordings 1932 37 vol 4 sonatas",
       "searched_at": "2026-11-12T17:37:44.199904+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Each target item has explicit work and performer-role credits; recording identity requires review.",
+        "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups.",
+        "All five requested late sonatas have complete, ordered movement support with Artur Schnabel credited. Warner identifies this barcode as the 1932–1938 cycle, consistent with the target notes dating these five sonatas to 1932–1935.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Recording-family support, not independent take verification or the same LP transfer/mastering.",
+        "The target dates individual sonatas to 1932–1935; publisher documentation dates the complete cycle rather than each selected take."
       ]
     },
     "4694929": {

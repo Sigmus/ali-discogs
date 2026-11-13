@@ -692,3 +692,99 @@ or Pages publication is part of this push; active search is not restarted.
   tests, UI URL normalization, syntax/build/diff checks pass. Documentation updated.
 - Main push will trigger the existing validated Pages workflow; verify its result
   before claiming the link correction is live.
+
+## 2026-11-13 — Qobuz round2 completes with three new Probables
+
+- User authorized cached near-matches first, then20-release slow fallback batch.
+  Isolated on `codex/qobuz-coverage-round2`. Klemperer6381208 and Ancerl6599326
+  pass exact named-section/performer reviews. New deVito8151148 pair passes7
+  movements/both performers after bounded malformed-heading interpretation.
+  Local counts12Found/70Probable/659Unchecked copies; unique12/70/658.
+- Forty fixed queries yield27nonempty,18/20releases with hits,107release-candidate
+  pairs. Twelve pairs with existing metadata have no unmodified full acceptance.
+  Two selected new metadata albums complete (15tracks). Richter3667210 remains
+  Unchecked for target catalogue/key conflicts; no guessed opus alias enabled.
+- Retrieval serial, >=15second spacing including discovery, resumable, no API
+  warnings/retries/audio. Shared41new responses; archive1,829, all prior1,788
+  payloads unchanged. Original evidence archives unchanged; canonical URLs1,045.
+- Nine pipeline tests +75script tests (84total), audit/replay, UI/JS/build/diff and
+  private credential-value checks pass. Only3intended publication records change;
+  repeated output identical; local Klemperer/deVito details verified. Spotify
+  untouched. Work uncommitted/unpushed; deployed main still12/67/662Qobuz copies.
+- [Scope, outcomes, evidence and next proposals](../plans/2026-11-13-qobuz-round2.md).
+  No additional batch, commit/push or deployment authorized by this completed run.
+
+## 2026-11-13 — Round2 checkpoint and query-strategy follow-up
+
+- User-requested round2 commit `877bc5a` saves three reviewed matches and reusable
+  evidence. No push/deploy requested.
+- Cached Richter/Maazel audit resolves Sz95/G-major source conflicts against
+  Warner publisher catalogue; complete3+5 movements and correct work-specific
+  orchestras pass. Source-bound review adds one Probable, local copies12/71/658.
+- Authorized ten-release/twenty-query paired strategy trial started with fixed
+  scope, headline-ensemble preference and existing paced/resumable STOP worker.
+  No full metadata expansion or automatic search-hit acceptance.
+- Validation:78script+9pipeline tests, Node normalization and local build pass;
+  original round2 audits remain historical. Trial outcome recorded in its plan.
+
+- Query trial completed20/20without warnings: broad10/10nonempty versus catalogue9/10,
+  with31additional candidate pairs; no new metadata or search-hit promotions.
+  Shared archive1,845responses preserves all1,829previous payloads. No active worker.
+
+
+## 2026-11-13 — Offline query-trial candidate screen
+
+Screened81deduplicated release/candidate pairs (correcting earlier85arithmetic),
+19with complete cached metadata across all shared archives and62uncached.
+No candidate passes all existing guards; three programme/credit leads still
+need completeness/recording review. Schnabel complete set reused from comparison
+archive, avoiding a proposed fetch. Fixed proposed metadata scope narrowed to
+Prague Quartet Dvorak and exact Klemperer pairing; no API calls/publication changes.
+Report replay verified deterministic; publication bytes unchanged.
+
+
+## 2026-11-13 — Cached Schnabel late-sonata validation
+
+User-authorized review promotes2966855 to Probable85: five complete sonatas with
+required pianist; two hash-bound joined sections reconcile LP/digital divisions.
+Warner barcode catalogue and preserved target dates support recording family,
+not exact take/mastering. No API calls; reused comparison archive. Local copies
+12/72/657.79script tests, Node normalization/build pass; no commit/push/deploy.
+
+
+## 2026-11-13 — Two scoped metadata albums retrieved
+
+User-authorized paced fetch completes Prague Quartet71tracks and Klemperer6tracks,
+full counts/IDs validated, no warnings. Portable metadata and reproducible offline
+audit saved; request cache and canonical URLs exported. Klemperer programme/credits
+supported but overture/session review remains; Dvorak member credits and No.8
+ambiguity unresolved. No new promotions or publication actions.
+
+
+## 2026-11-13 — Klemperer follow-up review
+
+Bounded review promotes14934969: complete5-movement Symphony6 and Leonore1,
+required artists and Warner October1957 recording-family support. Exact overture
+session/take/mastering caveats preserved. Dvorak remains unresolved for individual
+member credits and heading ambiguity; no additional API calls or relaxed rules.
+Local copies12/73/656.80script tests plus Node/build checks pass. User authorized
+continuation without routine confirmation; no commit/push/deploy requested.
+
+
+## 2026-11-13 — Cumulative follow-up checkpoint review
+
+Fixed query-report lead scoring for headline ensembles and expanded cache flags
+to all shared metadata archives; saved queries/hit counts unchanged. Exactly three
+follow-up match records differ from877bc5a. All1,829prior cache payloads preserved;
+archive now1,847. Secret-value scan passes. Full make test passes9pipeline and
+80script tests plus Node/Spotify checks. No publication operations performed.
+
+Portable replay from a temporary copy containing only code/shared data (no .env,
+raw caches or .qobuz-poc), using uv offline, reproduced qobuz_matches byte-identically.
+
+## 2026-11-13 — Follow-up commit and branch push
+
+User requested committing and pushing the validated follow-up on
+`codex/qobuz-coverage-round2`: three reviewed Probables, portable query/metadata
+evidence, preserved request cache, report corrections and reproducibility checks.
+No merge or Pages deployment requested.

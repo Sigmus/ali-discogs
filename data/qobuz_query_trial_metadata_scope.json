@@ -1,0 +1,18 @@
+{
+  "schema_version": 1,
+  "status": "proposed_not_fetched",
+  "search_evidence_sha256": "a875444fce1a5e7674180ef4cfb66ba8855cd36ee052fba0a8a6a4f2216d90bf",
+  "entries": [
+    {
+      "discogs_id": "1132104",
+      "album_id": "0002894631652",
+      "reason": "Headline Prague String Quartet and broad quartet collection; verify both No.8 and No.10 plus source players/recording."
+    },
+    {
+      "discogs_id": "14934969",
+      "album_id": "5099992803350",
+      "reason": "Exact advertised Symphony6/Leonore1 programme with Klemperer; compare Philharmonia credits and source recording family."
+    }
+  ],
+  "policy": "Two fixed leads only; no automatic fetching, promotion or scope expansion."
+}

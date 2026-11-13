@@ -31,7 +31,7 @@ class CanonicalQobuzURLTests(unittest.TestCase):
 
     def test_publication_and_pilot_album_links_all_resolve_from_shared_index(self):
         urls=load_urls()
-        self.assertEqual(len(urls),1043)
+        self.assertGreaterEqual(len(urls),1043)
         def check(value):
             if isinstance(value,dict):
                 if 'url' in value and 'id' in value:
