@@ -30,9 +30,14 @@ documented in a linked plan. Implementation is a separate step.
 
 ## AD-008 — Improve Qobuz coverage beyond conservative v1
 
-Status: proposed follow-up. AD-006 initial matching/publication preparation is
-complete; see [audit](../plans/2026-11-13-qobuz-audit.md) and history. Deployment
-requires user instruction; nothing merged/pushed/published yet.
+Status: user-authorized bounded offline pilot and integration complete. Further
+expansion proposed. See [pilot and review](../plans/2026-11-13-qobuz-coverage-pilot.md).
+Ten additional Probable releases integrated through recomputed credit/completeness
+checks and a fixed candidate scope; alias/split-movement cases withheld. Next
+recommended step is retrospective completeness review of the v1 baseline before
+another bounded offline discovery sample. AD-006 initial preparation is complete;
+see [audit](../plans/2026-11-13-qobuz-audit.md). User requested committing the bounded expansion checkpoint, then auditing the
+original 66 matches offline. No push, merge or deployment requested.
 
 Investigate verified catalogue aliases, multilingual works/performers, movement
 completeness and recording-session identity. Broaden the 370 empty first-pass

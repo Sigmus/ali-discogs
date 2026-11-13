@@ -1,11 +1,13 @@
 {
   "schema_version": 1,
-  "matcher_version": "qobuz-programme-v1",
+  "matcher_version": "qobuz-programme-v1+reviewed-expansion-v2",
   "score_kind": "heuristic",
   "metadata_completed_at": "2026-11-13T00:15:30.593902+00:00",
   "search_manifest_fingerprint": "72bfbc0de0c0d8ee65c624b6ebe07db7be6ef0f10b6ba5fd4f468d54f812e802",
   "metadata_manifest_fingerprint": "5c4a9f6b2bf19892aefcb01ad617d1584cada9f2ca34b56d32dade8ed444bf9d",
   "collection_fingerprint": "568e740daa2510e838b392ddb3c68963f1dbf3c614f4347b8df0fb5e31babab8",
+  "expansion_scope_fingerprint": "c70833f5e499ef56ff81e4f3f2cba985df6f0f59833dbb7a86a66eeb537a1f17",
+  "work_inventory_fingerprint": "ac5b17039789d5e994c13492246e74dd62bd8194dd089f579668d98e82dfe3f9",
   "releases": {
     "15221307": {
       "status": "unchecked",
@@ -9901,14 +9903,120 @@
       ]
     },
     "1469965": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0886445221237",
+        "name": "Glenn Gould. The Complete Columbia Album Collection",
+        "artists": [
+          "Glenn Gould"
+        ],
+        "label": "Sony Classical",
+        "release_date": "2015-09-11",
+        "image": "https://static.qobuz.com/images/covers/37/12/0886445221237_230.jpg",
+        "url": "https://www.qobuz.com/album/0886445221237"
+      },
+      "candidates": [
+        {
+          "id": "0886445221237",
+          "name": "Glenn Gould. The Complete Columbia Album Collection",
+          "artists": [
+            "Glenn Gould"
+          ],
+          "label": "Sony Classical",
+          "release_date": "2015-09-11",
+          "image": "https://static.qobuz.com/images/covers/37/12/0886445221237_230.jpg",
+          "url": "https://www.qobuz.com/album/0886445221237",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 3,
+          "target_count": 3,
+          "required_performers": [
+            "Glenn Gould"
+          ],
+          "programme": [
+            {
+              "target": "Meistersinger Prelude",
+              "work_tracks": 25,
+              "credited_tracks": 1,
+              "track_ids": [
+                26897976
+              ]
+            },
+            {
+              "target": "Dawn And Siegfried's Rhine Journey, From \"Götterdämmerung\"",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                26897977
+              ]
+            },
+            {
+              "target": "Siegfried Idyll",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                26897978
+              ]
+            }
+          ],
+          "reasons": [
+            "Each target item has supporting work and performer credits.",
+            "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+            "Reviewed cache-wide candidate: all inventoried movements or explicitly listed timed tracks are supported; recording identity still requires review."
+          ],
+          "discovery": "reviewed-cache-expansion",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Meistersinger Prelude",
+                "status": "complete",
+                "scope": "listed-target-track",
+                "track_ids": [
+                  26897976
+                ],
+                "target_duration_seconds": 572,
+                "candidate_duration_seconds": 582,
+                "source": "collection tracklist",
+                "reason": "Single credited title correspondence with duration within max(5 seconds, 3%); not whole-work or recording-session proof."
+              },
+              {
+                "target": "Dawn And Siegfried's Rhine Journey, From \"Götterdämmerung\"",
+                "status": "complete",
+                "scope": "listed-target-track",
+                "track_ids": [
+                  26897977
+                ],
+                "target_duration_seconds": 792,
+                "candidate_duration_seconds": 795,
+                "source": "collection tracklist",
+                "reason": "Single credited title correspondence with duration within max(5 seconds, 3%); not whole-work or recording-session proof."
+              },
+              {
+                "target": "Siegfried Idyll",
+                "status": "complete",
+                "scope": "listed-target-track",
+                "track_ids": [
+                  26897978
+                ],
+                "target_duration_seconds": 1419,
+                "candidate_duration_seconds": 1415,
+                "source": "collection tracklist",
+                "reason": "Single credited title correspondence with duration within max(5 seconds, 3%); not whole-work or recording-session proof."
+              }
+            ],
+            "overlapping_target_tracks": false
+          }
+        }
+      ],
       "query": "glenn gould wagner piano transcriptions of orchestral showpieces",
       "searched_at": "2026-11-12T14:50:02.075031+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Each target item has supporting work and performer credits.",
+        "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+        "Reviewed cache-wide candidate: all inventoried movements or explicitly listed timed tracks are supported; recording identity still requires review."
       ]
     },
     "1723557": {
@@ -35972,14 +36080,126 @@
       ]
     },
     "1917259": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0002894776360",
+        "name": "Beethoven: The Piano Sonatas",
+        "artists": [
+          "Emil Gilels"
+        ],
+        "label": "Deutsche Grammophon (DG)",
+        "release_date": "2006-01-01",
+        "image": "https://static.qobuz.com/images/covers/60/63/0002894776360_230.jpg",
+        "url": "https://www.qobuz.com/album/0002894776360"
+      },
+      "candidates": [
+        {
+          "id": "0002894776360",
+          "name": "Beethoven: The Piano Sonatas",
+          "artists": [
+            "Emil Gilels"
+          ],
+          "label": "Deutsche Grammophon (DG)",
+          "release_date": "2006-01-01",
+          "image": "https://static.qobuz.com/images/covers/60/63/0002894776360_230.jpg",
+          "url": "https://www.qobuz.com/album/0002894776360",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 2,
+          "target_count": 2,
+          "required_performers": [
+            "Emil Gilels"
+          ],
+          "programme": [
+            {
+              "target": "Klaviersonate Nr. 6 F-dur Op. 10 Nr. 2",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                610552,
+                610561,
+                610570
+              ]
+            },
+            {
+              "target": "Klaviersonate Nr. 23 F-moll Op. 57 »Appassionata«",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                610592,
+                610601,
+                610609
+              ]
+            }
+          ],
+          "reasons": [
+            "Each target item has supporting work and performer credits.",
+            "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+            "Reviewed cache-wide candidate: all inventoried movements or explicitly listed timed tracks are supported; recording identity still requires review."
+          ],
+          "discovery": "reviewed-cache-expansion",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Klaviersonate Nr. 6 F-dur Op. 10 Nr. 2",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "missing_movements": [],
+                "track_ids": [
+                  610552,
+                  610561,
+                  610570
+                ],
+                "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+                "scope": "whole-work-inventory",
+                "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+              },
+              {
+                "target": "Klaviersonate Nr. 23 F-moll Op. 57 »Appassionata«",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "missing_movements": [],
+                "track_ids": [
+                  610592,
+                  610601,
+                  610609
+                ],
+                "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+                "scope": "whole-work-inventory",
+                "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+              }
+            ],
+            "overlapping_target_tracks": false
+          }
+        }
+      ],
       "query": "emil gilels beethoven appassionata op 57 sonate op 10 nr 2",
       "searched_at": "2026-11-12T15:31:49.867642+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Each target item has supporting work and performer credits.",
+        "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+        "Reviewed cache-wide candidate: all inventoried movements or explicitly listed timed tracks are supported; recording identity still requires review."
       ]
     },
     "2345819": {
@@ -36005,14 +36225,169 @@
       ]
     },
     "1093216": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0002894791000",
+        "name": "Wiener Philharmoniker Symphony Edition (Vol. 1 : Mozart, Haydn, Beethoven, Schubert, Mendelssohn, Schumann, Brahms)",
+        "artists": [
+          "Wiener Philharmonic Orchestra"
+        ],
+        "label": "Deutsche Grammophon (DG)",
+        "release_date": "2012-01-01",
+        "image": "https://static.qobuz.com/images/covers/00/10/0002894791000_230.jpg",
+        "url": "https://www.qobuz.com/album/0002894791000"
+      },
+      "candidates": [
+        {
+          "id": "0002894791000",
+          "name": "Wiener Philharmoniker Symphony Edition (Vol. 1 : Mozart, Haydn, Beethoven, Schubert, Mendelssohn, Schumann, Brahms)",
+          "artists": [
+            "Wiener Philharmonic Orchestra"
+          ],
+          "label": "Deutsche Grammophon (DG)",
+          "release_date": "2012-01-01",
+          "image": "https://static.qobuz.com/images/covers/00/10/0002894791000_230.jpg",
+          "url": "https://www.qobuz.com/album/0002894791000",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 1,
+          "target_count": 1,
+          "required_performers": [
+            "Carlos Kleiber",
+            "Wiener Philharmoniker"
+          ],
+          "programme": [
+            {
+              "target": "Symphonie Nr. 5 C-moll Op. 67",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                8505054,
+                8505056,
+                8505058,
+                8505060
+              ]
+            }
+          ],
+          "reasons": [
+            "Each target item has supporting work and performer credits.",
+            "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+            "Reviewed cache-wide candidate: all inventoried movements or explicitly listed timed tracks are supported; recording identity still requires review."
+          ],
+          "discovery": "reviewed-cache-expansion",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Symphonie Nr. 5 C-moll Op. 67",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "missing_movements": [],
+                "track_ids": [
+                  8505054,
+                  8505056,
+                  8505058,
+                  8505060
+                ],
+                "source": "https://www.laphil.com/works/symphony-no-5-in-c-minor-op-67",
+                "scope": "whole-work-inventory",
+                "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+              }
+            ],
+            "overlapping_target_tracks": false
+          }
+        },
+        {
+          "id": "y7nd66idm247a",
+          "name": "Great Symphonies: The Best of DG Originals",
+          "artists": [
+            "Carlos Kleiber"
+          ],
+          "label": "Deutsche Grammophon (DG)",
+          "release_date": "2005-01-01",
+          "image": "https://static.qobuz.com/images/covers/7a/24/y7nd66idm247a_230.jpg",
+          "url": "https://www.qobuz.com/album/y7nd66idm247a",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 1,
+          "target_count": 1,
+          "required_performers": [
+            "Carlos Kleiber",
+            "Wiener Philharmoniker"
+          ],
+          "programme": [
+            {
+              "target": "Symphonie Nr. 5 C-moll Op. 67",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                54377019,
+                54377020,
+                54377021,
+                54377022
+              ]
+            }
+          ],
+          "reasons": [
+            "Each target item has supporting work and performer credits.",
+            "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+            "Reviewed cache-wide candidate: all inventoried movements or explicitly listed timed tracks are supported; recording identity still requires review."
+          ],
+          "discovery": "reviewed-cache-expansion",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Symphonie Nr. 5 C-moll Op. 67",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "missing_movements": [],
+                "track_ids": [
+                  54377019,
+                  54377020,
+                  54377021,
+                  54377022
+                ],
+                "source": "https://www.laphil.com/works/symphony-no-5-in-c-minor-op-67",
+                "scope": "whole-work-inventory",
+                "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+              }
+            ],
+            "overlapping_target_tracks": false
+          }
+        }
+      ],
       "query": "carlos kleiber beethoven symphonie nr 5",
       "searched_at": "2026-11-12T15:32:34.796213+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Each target item has supporting work and performer credits.",
+        "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+        "Reviewed cache-wide candidate: all inventoried movements or explicitly listed timed tracks are supported; recording identity still requires review."
       ]
     },
     "4286791": {
@@ -36226,14 +36601,130 @@
       ]
     },
     "890111": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0002894776360",
+        "name": "Beethoven: The Piano Sonatas",
+        "artists": [
+          "Emil Gilels"
+        ],
+        "label": "Deutsche Grammophon (DG)",
+        "release_date": "2006-01-01",
+        "image": "https://static.qobuz.com/images/covers/60/63/0002894776360_230.jpg",
+        "url": "https://www.qobuz.com/album/0002894776360"
+      },
+      "candidates": [
+        {
+          "id": "0002894776360",
+          "name": "Beethoven: The Piano Sonatas",
+          "artists": [
+            "Emil Gilels"
+          ],
+          "label": "Deutsche Grammophon (DG)",
+          "release_date": "2006-01-01",
+          "image": "https://static.qobuz.com/images/covers/60/63/0002894776360_230.jpg",
+          "url": "https://www.qobuz.com/album/0002894776360",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 2,
+          "target_count": 2,
+          "required_performers": [
+            "Emil Gilels"
+          ],
+          "programme": [
+            {
+              "target": "Klaviersonate Nr. 12 As-Dur Op. 26",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                610562,
+                610571,
+                610580,
+                610589
+              ]
+            },
+            {
+              "target": "Klaviersonate Nr. 16 G-Dur Op. 31 Nr. 1",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                610528,
+                610537,
+                610546
+              ]
+            }
+          ],
+          "reasons": [
+            "Each target item has supporting work and performer credits.",
+            "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+            "Reviewed cache-wide candidate: all inventoried movements or explicitly listed timed tracks are supported; recording identity still requires review."
+          ],
+          "discovery": "reviewed-cache-expansion",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Klaviersonate Nr. 12 As-Dur Op. 26",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "missing_movements": [],
+                "track_ids": [
+                  610562,
+                  610571,
+                  610580,
+                  610589
+                ],
+                "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+                "scope": "whole-work-inventory",
+                "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+              },
+              {
+                "target": "Klaviersonate Nr. 16 G-Dur Op. 31 Nr. 1",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "missing_movements": [],
+                "track_ids": [
+                  610528,
+                  610537,
+                  610546
+                ],
+                "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+                "scope": "whole-work-inventory",
+                "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+              }
+            ],
+            "overlapping_target_tracks": false
+          }
+        }
+      ],
       "query": "emil gilels beethoven klaviersonaten",
       "searched_at": "2026-11-12T15:35:35.211463+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Each target item has supporting work and performer credits.",
+        "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+        "Reviewed cache-wide candidate: all inventoried movements or explicitly listed timed tracks are supported; recording identity still requires review."
       ]
     },
     "2681944": {
@@ -36543,10 +37034,88 @@
       ]
     },
     "1517438": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0002894779797",
+        "name": "Beethoven: Complete Concertos",
+        "artists": [
+          "Daniel Barenboim"
+        ],
+        "label": "Deutsche Grammophon (DG)",
+        "release_date": "1997-10-06",
+        "image": "https://static.qobuz.com/images/covers/97/97/0002894779797_230.jpg",
+        "url": "https://www.qobuz.com/album/0002894779797"
+      },
       "candidates": [
+        {
+          "id": "0002894779797",
+          "name": "Beethoven: Complete Concertos",
+          "artists": [
+            "Daniel Barenboim"
+          ],
+          "label": "Deutsche Grammophon (DG)",
+          "release_date": "1997-10-06",
+          "image": "https://static.qobuz.com/images/covers/97/97/0002894779797_230.jpg",
+          "url": "https://www.qobuz.com/album/0002894779797",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 1,
+          "target_count": 1,
+          "required_performers": [
+            "Karl Böhm",
+            "Maurizio Pollini",
+            "Wiener Philharmoniker"
+          ],
+          "programme": [
+            {
+              "target": "Konzert Für Klavier Und Orchester Nr. 4 G-dur Op. 58",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                5493242,
+                5493243,
+                5493244
+              ]
+            }
+          ],
+          "reasons": [
+            "Each target item has supporting work and performer credits.",
+            "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+            "Reviewed cache-wide candidate: all inventoried movements or explicitly listed timed tracks are supported; recording identity still requires review."
+          ],
+          "discovery": "reviewed-cache-expansion",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Konzert Für Klavier Und Orchester Nr. 4 G-dur Op. 58",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "missing_movements": [],
+                "track_ids": [
+                  5493242,
+                  5493243,
+                  5493244
+                ],
+                "source": "https://www.laphil.com/works/piano-concerto-no-4-in-g-major-op-58",
+                "scope": "whole-work-inventory",
+                "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+              }
+            ],
+            "overlapping_target_tracks": false
+          }
+        },
         {
           "id": "gj0g8wrj1gscb",
           "name": "3. Klavierkonzert C Minor Op. 37 - Largo",
@@ -36583,7 +37152,9 @@
       "query": "karl bohm beethoven klavierkonzert",
       "searched_at": "2026-11-12T15:37:35.147975+00:00",
       "reasons": [
-        "0/1 target items have matching work and performer credits; unresolved."
+        "Each target item has supporting work and performer credits.",
+        "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+        "Reviewed cache-wide candidate: all inventoried movements or explicitly listed timed tracks are supported; recording identity still requires review."
       ]
     },
     "5142584": {
@@ -36993,14 +37564,95 @@
       ]
     },
     "2127229": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0002894779797",
+        "name": "Beethoven: Complete Concertos",
+        "artists": [
+          "Daniel Barenboim"
+        ],
+        "label": "Deutsche Grammophon (DG)",
+        "release_date": "1997-10-06",
+        "image": "https://static.qobuz.com/images/covers/97/97/0002894779797_230.jpg",
+        "url": "https://www.qobuz.com/album/0002894779797"
+      },
+      "candidates": [
+        {
+          "id": "0002894779797",
+          "name": "Beethoven: Complete Concertos",
+          "artists": [
+            "Daniel Barenboim"
+          ],
+          "label": "Deutsche Grammophon (DG)",
+          "release_date": "1997-10-06",
+          "image": "https://static.qobuz.com/images/covers/97/97/0002894779797_230.jpg",
+          "url": "https://www.qobuz.com/album/0002894779797",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 1,
+          "target_count": 1,
+          "required_performers": [
+            "Karl Böhm",
+            "Maurizio Pollini",
+            "Wiener Philharmoniker"
+          ],
+          "programme": [
+            {
+              "target": "Konzert Für Klavier Und Orchester Nr. 5 Es-dur Op. 73 = Concerto For Piano And Orchestra No. 5 In E Flat Major, Op. 73",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                5493246,
+                5493247,
+                5493248
+              ]
+            }
+          ],
+          "reasons": [
+            "Each target item has supporting work and performer credits.",
+            "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+            "Reviewed cache-wide candidate: all inventoried movements or explicitly listed timed tracks are supported; recording identity still requires review."
+          ],
+          "discovery": "reviewed-cache-expansion",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Konzert Für Klavier Und Orchester Nr. 5 Es-dur Op. 73 = Concerto For Piano And Orchestra No. 5 In E Flat Major, Op. 73",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "missing_movements": [],
+                "track_ids": [
+                  5493246,
+                  5493247,
+                  5493248
+                ],
+                "source": "https://www.berliner-philharmoniker.de/en/programme-notes/ludwig-van-beethoven-concerto-for-piano-and-orchestra-in-e-flat-major-op-73/",
+                "scope": "whole-work-inventory",
+                "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+              }
+            ],
+            "overlapping_target_tracks": false
+          }
+        }
+      ],
       "query": "karl bohm beethoven klavierkonzert nr 5 emperor concerto",
       "searched_at": "2026-11-12T15:39:35.549199+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Each target item has supporting work and performer credits.",
+        "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+        "Reviewed cache-wide candidate: all inventoried movements or explicitly listed timed tracks are supported; recording identity still requires review."
       ]
     },
     "4101347": {
@@ -37522,14 +38174,163 @@
       ]
     },
     "3441146": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0002894776360",
+        "name": "Beethoven: The Piano Sonatas",
+        "artists": [
+          "Emil Gilels"
+        ],
+        "label": "Deutsche Grammophon (DG)",
+        "release_date": "2006-01-01",
+        "image": "https://static.qobuz.com/images/covers/60/63/0002894776360_230.jpg",
+        "url": "https://www.qobuz.com/album/0002894776360"
+      },
+      "candidates": [
+        {
+          "id": "0002894776360",
+          "name": "Beethoven: The Piano Sonatas",
+          "artists": [
+            "Emil Gilels"
+          ],
+          "label": "Deutsche Grammophon (DG)",
+          "release_date": "2006-01-01",
+          "image": "https://static.qobuz.com/images/covers/60/63/0002894776360_230.jpg",
+          "url": "https://www.qobuz.com/album/0002894776360",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 3,
+          "target_count": 3,
+          "required_performers": [
+            "Emil Gilels"
+          ],
+          "programme": [
+            {
+              "target": "Klaviersonate Nr. 14 cis-moll Op. 27 Nr. 2 »Mondschein-Sonate«",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                610563,
+                610572,
+                610581
+              ]
+            },
+            {
+              "target": "Klaviersonate Nr. 13 Es-dur Op. 27 Nr. 1 (Sonata Quasi Una Fantasia)",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                610527,
+                610536,
+                610545,
+                610554
+              ]
+            },
+            {
+              "target": "Klaviersonate Nr. 8 c-moll Op. 13 »Pathétique«",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                610560,
+                610569,
+                610578
+              ]
+            }
+          ],
+          "reasons": [
+            "Each target item has supporting work and performer credits.",
+            "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+            "Reviewed cache-wide candidate: all inventoried movements or explicitly listed timed tracks are supported; recording identity still requires review."
+          ],
+          "discovery": "reviewed-cache-expansion",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Klaviersonate Nr. 14 cis-moll Op. 27 Nr. 2 »Mondschein-Sonate«",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "missing_movements": [],
+                "track_ids": [
+                  610563,
+                  610572,
+                  610581
+                ],
+                "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+                "scope": "whole-work-inventory",
+                "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+              },
+              {
+                "target": "Klaviersonate Nr. 13 Es-dur Op. 27 Nr. 1 (Sonata Quasi Una Fantasia)",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "missing_movements": [],
+                "track_ids": [
+                  610527,
+                  610536,
+                  610545,
+                  610554
+                ],
+                "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+                "scope": "whole-work-inventory",
+                "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+              },
+              {
+                "target": "Klaviersonate Nr. 8 c-moll Op. 13 »Pathétique«",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "missing_movements": [],
+                "track_ids": [
+                  610560,
+                  610569,
+                  610578
+                ],
+                "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+                "scope": "whole-work-inventory",
+                "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+              }
+            ],
+            "overlapping_target_tracks": false
+          }
+        }
+      ],
       "query": "emil gilels beethoven sonaten pathetique mondschein moonlight",
       "searched_at": "2026-11-12T15:41:50.382357+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Each target item has supporting work and performer credits.",
+        "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+        "Reviewed cache-wide candidate: all inventoried movements or explicitly listed timed tracks are supported; recording identity still requires review."
       ]
     },
     "6919420": {
@@ -42683,14 +43484,134 @@
       ]
     },
     "3000698": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0002894776360",
+        "name": "Beethoven: The Piano Sonatas",
+        "artists": [
+          "Emil Gilels"
+        ],
+        "label": "Deutsche Grammophon (DG)",
+        "release_date": "2006-01-01",
+        "image": "https://static.qobuz.com/images/covers/60/63/0002894776360_230.jpg",
+        "url": "https://www.qobuz.com/album/0002894776360"
+      },
+      "candidates": [
+        {
+          "id": "0002894776360",
+          "name": "Beethoven: The Piano Sonatas",
+          "artists": [
+            "Emil Gilels"
+          ],
+          "label": "Deutsche Grammophon (DG)",
+          "release_date": "2006-01-01",
+          "image": "https://static.qobuz.com/images/covers/60/63/0002894776360_230.jpg",
+          "url": "https://www.qobuz.com/album/0002894776360",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 2,
+          "target_count": 2,
+          "required_performers": [
+            "Emil Gilels"
+          ],
+          "programme": [
+            {
+              "target": "Klaviersonate Nr. 4 Es-dur Op. 7",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                610524,
+                610533,
+                610542,
+                610551
+              ]
+            },
+            {
+              "target": "Klaviersonate Nr. 2 A-dur Op. 2 Nr. 2",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                610523,
+                610532,
+                610541,
+                610550
+              ]
+            }
+          ],
+          "reasons": [
+            "Each target item has supporting work and performer credits.",
+            "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+            "Reviewed cache-wide candidate: all inventoried movements or explicitly listed timed tracks are supported; recording identity still requires review."
+          ],
+          "discovery": "reviewed-cache-expansion",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Klaviersonate Nr. 4 Es-dur Op. 7",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "missing_movements": [],
+                "track_ids": [
+                  610524,
+                  610533,
+                  610542,
+                  610551
+                ],
+                "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+                "scope": "whole-work-inventory",
+                "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+              },
+              {
+                "target": "Klaviersonate Nr. 2 A-dur Op. 2 Nr. 2",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "missing_movements": [],
+                "track_ids": [
+                  610523,
+                  610532,
+                  610541,
+                  610550
+                ],
+                "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+                "scope": "whole-work-inventory",
+                "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+              }
+            ],
+            "overlapping_target_tracks": false
+          }
+        }
+      ],
       "query": "emil gilels beethoven klaviersonaten nos 2 4 piano sonatas sonates pour piano",
       "searched_at": "2026-11-12T15:52:06.290569+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Each target item has supporting work and performer credits.",
+        "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+        "Reviewed cache-wide candidate: all inventoried movements or explicitly listed timed tracks are supported; recording identity still requires review."
       ]
     },
     "13538423": {
@@ -44395,14 +45316,96 @@
       ]
     },
     "4382530": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0002894190682",
+        "name": "Tchaikovsky: Piano Concerto No.1 / Rachmaninov: Préludes",
+        "artists": [
+          "Sviatoslav Richter"
+        ],
+        "label": "Deutsche Grammophon (DG)",
+        "release_date": "1987-01-01",
+        "image": "https://static.qobuz.com/images/covers/82/06/0002894190682_230.jpg",
+        "url": "https://www.qobuz.com/album/0002894190682"
+      },
+      "candidates": [
+        {
+          "id": "0002894190682",
+          "name": "Tchaikovsky: Piano Concerto No.1 / Rachmaninov: Préludes",
+          "artists": [
+            "Sviatoslav Richter"
+          ],
+          "label": "Deutsche Grammophon (DG)",
+          "release_date": "1987-01-01",
+          "image": "https://static.qobuz.com/images/covers/82/06/0002894190682_230.jpg",
+          "url": "https://www.qobuz.com/album/0002894190682",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 1,
+          "target_count": 1,
+          "required_performers": [
+            "Herbert Von Karajan",
+            "Sviatoslav Richter",
+            "Herbert von Karajan",
+            "Wiener Symphoniker"
+          ],
+          "programme": [
+            {
+              "target": "Konzert Für Klavier Und Orchester Nr. 1 B-Moll Op. 23",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                520033,
+                520034,
+                520035
+              ]
+            }
+          ],
+          "reasons": [
+            "Each target item has supporting work and performer credits.",
+            "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+            "Reviewed cache-wide candidate: all inventoried movements or explicitly listed timed tracks are supported; recording identity still requires review."
+          ],
+          "discovery": "reviewed-cache-expansion",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Konzert Für Klavier Und Orchester Nr. 1 B-Moll Op. 23",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "missing_movements": [],
+                "track_ids": [
+                  520033,
+                  520034,
+                  520035
+                ],
+                "source": "https://pac.uga.edu/wp-content/uploads/2024/05/Atlanta-Symphony-Orchestra-4.13.25-program-PDF.pdf#page=2",
+                "scope": "whole-work-inventory",
+                "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+              }
+            ],
+            "overlapping_target_tracks": false
+          }
+        }
+      ],
       "query": "herbert von karajan tchaikovsky klavierkonzert nr 1 b moll",
       "searched_at": "2026-11-12T15:55:21.336499+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Each target item has supporting work and performer credits.",
+        "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+        "Reviewed cache-wide candidate: all inventoried movements or explicitly listed timed tracks are supported; recording identity still requires review."
       ]
     },
     "4191410": {
@@ -83708,10 +84711,88 @@
       ]
     },
     "3275173": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "3610151639041",
+        "name": "Rachmaninoff: Piano Concerto No. 2 - Tchaikovsky: Piano Concerto No. 1",
+        "artists": [
+          "Arthur Rubinstein"
+        ],
+        "label": "Ginkgo Rubinstein",
+        "release_date": "2012-01-01",
+        "image": "https://static.qobuz.com/images/covers/41/90/3610151639041_230.jpg",
+        "url": "https://www.qobuz.com/album/3610151639041"
+      },
       "candidates": [
+        {
+          "id": "3610151639041",
+          "name": "Rachmaninoff: Piano Concerto No. 2 - Tchaikovsky: Piano Concerto No. 1",
+          "artists": [
+            "Arthur Rubinstein"
+          ],
+          "label": "Ginkgo Rubinstein",
+          "release_date": "2012-01-01",
+          "image": "https://static.qobuz.com/images/covers/41/90/3610151639041_230.jpg",
+          "url": "https://www.qobuz.com/album/3610151639041",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 1,
+          "target_count": 1,
+          "required_performers": [
+            "Vladimir Golschmann",
+            "Arthur Rubinstein",
+            "NBC Symphony Orchestra"
+          ],
+          "programme": [
+            {
+              "target": "Concerto No. 2 In C Minor, Op. 18",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                11740816,
+                11740817,
+                11740818
+              ]
+            }
+          ],
+          "reasons": [
+            "Each target item has supporting work and performer credits.",
+            "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+            "Reviewed cache-wide candidate: all inventoried movements or explicitly listed timed tracks are supported; recording identity still requires review."
+          ],
+          "discovery": "reviewed-cache-expansion",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Concerto No. 2 In C Minor, Op. 18",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "missing_movements": [],
+                "track_ids": [
+                  11740816,
+                  11740817,
+                  11740818
+                ],
+                "source": "https://www.rsno.org.uk/wp-content/uploads/2023/11/Rachmaninov-Piano-Concerto-No2-91011-Nov-2023.pdf#page=12",
+                "scope": "whole-work-inventory",
+                "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+              }
+            ],
+            "overlapping_target_tracks": false
+          }
+        },
         {
           "id": "0886445755831",
           "name": "Rachmaninoff: Piano Concerto No. 2 in C Minor, Op. 18",
@@ -83780,7 +84861,9 @@
       "query": "vladimir golschmann rachmaninoff concerto no 2 in c minor op 18",
       "searched_at": "2026-11-12T17:24:58.051694+00:00",
       "reasons": [
-        "0/1 target items have matching work and performer credits; unresolved."
+        "Each target item has supporting work and performer credits.",
+        "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+        "Reviewed cache-wide candidate: all inventoried movements or explicitly listed timed tracks are supported; recording identity still requires review."
       ]
     },
     "8567942": {

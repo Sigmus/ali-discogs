@@ -42,9 +42,10 @@ explorer. See [README](../../README.md) for setup and architecture.
 
 ## Offline matching and publication preparation
 
-- Implemented qobuz-programme-v1; all 1,217 candidate entries assessed offline.
+- Implemented qobuz-programme-v1 plus bounded reviewed-expansion-v2; all original
+  1,217 candidate entries assessed offline, with ten additional matched releases.
   [Audit](../plans/2026-11-13-qobuz-audit.md) records rules, reviewed cases and limits.
-- Unique releases: 12 Found / 54 Probable / 674 unchecked. Copies: 12 / 54 / 675.
+- Unique releases: 12 Found / 64 Probable / 664 unchecked. Copies: 12 / 64 / 665.
   No Not found labels derived from first-pass absence. No 100% scores.
 - Found 95% requires one-to-one programme/track mapping, equal count and required
   performer/ensemble/conductor plus composer evidence. Probable 85% retains
@@ -58,7 +59,7 @@ explorer. See [README](../../README.md) for setup and architecture.
   Build copies it directly; clean-copy build without ignored caches verified.
 - Removed the Sort dropdown; table headers control sorting. Added Qobuz match
   immediately after Spotify, with counts/frequency ordering and URL persistence.
-  Browser verified 12 Found / 54 Probable filters, header sorting and Clear.
+  Browser verified filters, header sorting and Clear; Probable now has 64 rows.
   User requested committing/pushing this filter UI edit on codex/qobuz-poc;
   inspect Git for resulting commit. No merge or deployment requested.
 - UI shows Qobuz status/confidence in table/details, sortable status column,
@@ -69,8 +70,8 @@ explorer. See [README](../../README.md) for setup and architecture.
 
 ## Validation and limitations
 
-- `make test` passes: two Spotify offline tests, UI normalization/overlay/sort
-  tests and 20 Qobuz mocked/offline tests; two additional cache archive tests pass. Build, JS syntax and diff checks pass.
+- Current validation: 33 Qobuz mocked/offline tests, UI normalization/overlay/sort,
+  build and diff checks pass. Earlier full-suite Spotify tests also passed.
 - Low recall is intentional in v1. Translation/ensemble aliases, catalogue
   equivalences, movement completeness and recording/take identity need more work.
   This is a conservative deployable first pass, not complete catalogue validation.
@@ -78,6 +79,12 @@ explorer. See [README](../../README.md) for setup and architecture.
 
 ## Next action
 
-Present the prepared branch for user review and deployment instruction. Broader
-fallback queries and matcher coverage improvements remain proposed follow-ups.
+Bounded offline expansion integrated: ten new Probable releases, unchanged original
+66 matched entries. All 33 Qobuz offline tests, UI tests/build pass; browser verified.
+Twenty-four sourced work inventories, explicit child movements and timed target
+tracks support the fixed scope. Alias-dependent and ambiguous cases withheld.
+See [pilot](../plans/2026-11-13-qobuz-coverage-pilot.md). Next: retrospectively audit
+v1 completeness, then select a new bounded offline sample. No additional Qobuz
+calls or deployment. User requested committing this checkpoint, then auditing
+the original 66 matches offline; no push requested.
 See [backlog](backlog.md), [decisions](decisions.md) and [history](history.md).

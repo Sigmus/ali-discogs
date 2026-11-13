@@ -387,3 +387,68 @@ or Pages publication is part of this push; active search is not restarted.
 - User requested committing/pushing the Sort-dropdown removal and Qobuz match
   filter addition with related docs on codex/qobuz-poc. Prior browser, build,
   normalization, syntax and diff validation passed; no additional code changes.
+
+## 2026-11-13 — Qobuz coverage improvement recommendations
+
+- Inspected current matcher and generated evidence at user request for ideas.
+  Of 674 unresolved unique releases, 370 have empty first-pass searches and 304
+  have candidates. Among those 304, 51 have some credited programme coverage;
+  94 have a candidate with title/work support for every target but fail full
+  credited coverage. These groups overlap and are leads, not validated matches.
+- Recommended offline failure audit, verified credit/title/catalogue aliases,
+  hierarchical movement matching and cross-searching the existing 1,036-album
+  snapshot before separately authorized slow fallback API searches. No matcher
+  changes, API requests or new match claims made.
+
+## 2026-11-13 — Bounded offline coverage pilot
+
+- Added reproducible cache-wide discovery script and separate research output;
+  no publication matcher/data changes or API calls. Inspected 219 unresolved
+  releases to find 12 proposals/15 candidates, eight formerly empty searches.
+  Eleven releases have a candidate passing unchanged rules; one requires an
+  experimental explicit name alias. Reviewed all target-to-track correspondences.
+- Review caught two single-movement compilations satisfying v1 work-heading
+  coverage. Documented exclusions and prioritised explicit movement completeness
+  before expansion. Remaining candidates are catalogue leads, not confirmed
+  recording-session identities. See dated pilot plan for the 12-case audit.
+- All 24 Qobuz mocked/offline tests pass using the optional requests dependency,
+  including two new discovery/alias/negative-control tests. Diff check passes.
+
+## 2026-11-13 — Fail-closed movement completeness pilot
+
+- Added separate completeness checker and four-work movement inventory, grounded
+  in independently inspected LA Phil, Berliner Philharmoniker and Atlanta
+  Symphony/UGA programme references. No Qobuz calls or publication-data changes.
+- Reran fixed 15-candidate pilot: five candidates across four releases pass
+  movement coverage; one incomplete and nine unknown are withheld. Both known
+  partial Kleiber compilations are prevented from passing; missing/ambiguous
+  labels, duplicates, order changes and split/joined movements remain unresolved.
+- Added real-data negative/positive controls and credit/identity checks; all 28
+  mocked/offline Qobuz tests pass. Report includes input fingerprints. Target
+  child-track handling, wider sourced inventory and session verification remain
+  incomplete; no automatic promotion, commit, push or deployment.
+
+## 2026-11-13 — Extend pilot and integrate ten offline candidates
+
+- Expanded sourced work inventory to 24 works; added numbered target-child and
+  timed standalone-track evidence, plus rejection of overlapping assignments.
+  Fixed pilot now supports 12 candidates across 11 releases; experimental alias
+  case, split Karajan finale and two partial Kleiber compilations not promoted.
+- Integrated ten releases/eleven candidates via a fixed reviewed discovery scope;
+  all original credit and completeness checks recompute on generation, no aliases
+  or score overrides. All additions Probable 85%. Unique counts now 12 Found /
+  64 Probable / 664 unchecked; copies 12 / 64 / 665. All previous 66 matched entries
+  verified unchanged. No Qobuz calls or retrieval-cache changes.
+- All 33 Qobuz mocked/offline tests, UI normalization/overlay/sort, build and diff
+  checks pass. Browser verified Gilels details and 64-row Probable filter. Recording
+  identity and retrospective baseline completeness still need review; no automatic
+  commit, push, merge or deployment. Repeated generation checked for reproducibility.
+
+## 2026-11-13 — Checkpoint before baseline audit
+
+- User requested committing the tested bounded offline expansion, then auditing
+  completeness of the original 66 Qobuz matches. Existing validation: 33 offline
+  Qobuz tests, UI tests/build, browser inspection and byte-identical regeneration.
+- This checkpoint includes the discovery/completeness scripts, research evidence,
+  sourced inventories, bounded candidate scope, regenerated matches and docs.
+  Audit follows separately; no push, merge or deployment requested.

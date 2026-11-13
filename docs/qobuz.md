@@ -268,3 +268,27 @@ mutable `.qobuz-poc/` working directories stay ignored; sharing happens through
 this versioned archive. Neither evidence/cache archive is copied into Pages.
 The offline matcher still uses the compact evidence snapshot by default;
 restoring request caches is optional for algorithm work and useful for query tools.
+
+## Reviewed offline cache expansion
+
+The matcher also reads `data/qobuz_expansion_scope.json` and
+`data/qobuz_work_inventory.json`. These are required versioned inputs: a bounded
+reviewed candidate scope and independently sourced movement expectations. Scope
+entries do not override scoring; every generation recomputes original credit
+checks and completeness, without the discovery pilot's experimental name aliases.
+Added candidates are capped at Probable 85%. The original first-pass v1 candidate
+rules remain unchanged, so the new gate is not a retrospective baseline audit.
+
+`uv run python scripts/qobuz_completeness.py` reproduces the fixed pilot audit in
+`data/qobuz_completeness_pilot.json`. The original discovery artifact is a frozen
+research sample: rerunning `scripts/qobuz_coverage_pilot.py` against newer match
+output selects a different sample and does not authorize broadening publication.
+Neither research JSON nor the work/scope inventories are copied into the website
+artifact; the generated match sidecar includes the relevant candidate evidence.
+
+The completeness checker supports sourced whole-work movement ordinals, explicitly
+numbered target child tracks and unique timed target-track correspondences
+(within max(5 seconds, 3%)). Unknown, ambiguous, split/joined, duplicate or reordered
+movements stay unresolved. Track timing is supporting metadata, not an audio-cut
+or session guarantee. See the [pilot review](plans/2026-11-13-qobuz-coverage-pilot.md)
+for the selected cases, sources, limits and validation.

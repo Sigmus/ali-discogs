@@ -79,3 +79,16 @@ not merely selected evidence fields. Scan for credential values/sensitive keys;
 exclude machine state, credentials and third-party source. Validated restoration
 must preserve existing conflicting responses. Mutable local caches remain ignored,
 and archives stay outside the Pages artifact. No network refresh implied.
+
+## 2026-11-13 — Bounded offline coverage expansion
+
+Status: adopted implementation of the user's continued matching-improvement request.
+
+Reuse the shared snapshot before new API calls. A fixed reviewed candidate scope
+limits publication expansion; it never overrides original credits or the new
+completeness checks. Store independently sourced work expectations separately and
+fingerprint both inputs in generated output. Expansion is capped at Probable 85%.
+Do not enable experimental performer aliases or infer completeness from a sequence
+starting at I. Explicit target movements and timed standalone tracks describe the
+requested programme, not independently verified whole works or recording sessions.
+The existing v1 baseline remains unchanged pending a separate retrospective audit.

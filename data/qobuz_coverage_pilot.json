@@ -1,0 +1,1732 @@
+{
+  "schema_version": 1,
+  "purpose": "Offline discovery only; no accepted matches or recording-session verification.",
+  "aliases": {
+    "david oistrach": "david oistrakh",
+    "kiril kondrashin": "kirill kondrashin",
+    "chicago symphony orchestra cso": "chicago symphony orchestra"
+  },
+  "snapshot_metadata_completed_at": "2026-11-13T00:15:30.593902+00:00",
+  "inspected": [
+    {
+      "discogs_id": "11562013",
+      "eligible_albums": 14
+    },
+    {
+      "discogs_id": "2175684",
+      "eligible_albums": 23
+    },
+    {
+      "discogs_id": "3475547",
+      "eligible_albums": 36
+    },
+    {
+      "discogs_id": "11168177",
+      "eligible_albums": 36
+    },
+    {
+      "discogs_id": "6678433",
+      "eligible_albums": 3
+    },
+    {
+      "discogs_id": "6029612",
+      "eligible_albums": 3
+    },
+    {
+      "discogs_id": "4641786",
+      "eligible_albums": 2
+    },
+    {
+      "discogs_id": "2383925",
+      "eligible_albums": 3
+    },
+    {
+      "discogs_id": "5177097",
+      "eligible_albums": 8
+    },
+    {
+      "discogs_id": "669978",
+      "eligible_albums": 16
+    },
+    {
+      "discogs_id": "10102576",
+      "eligible_albums": 6
+    },
+    {
+      "discogs_id": "7525022",
+      "eligible_albums": 9
+    },
+    {
+      "discogs_id": "2527568",
+      "eligible_albums": 4
+    },
+    {
+      "discogs_id": "4483876",
+      "eligible_albums": 1
+    },
+    {
+      "discogs_id": "5939010",
+      "eligible_albums": 36
+    },
+    {
+      "discogs_id": "5820114",
+      "eligible_albums": 2
+    },
+    {
+      "discogs_id": "2628957",
+      "eligible_albums": 3
+    },
+    {
+      "discogs_id": "9932700",
+      "eligible_albums": 15
+    },
+    {
+      "discogs_id": "10100439",
+      "eligible_albums": 1
+    },
+    {
+      "discogs_id": "1656511",
+      "eligible_albums": 3
+    },
+    {
+      "discogs_id": "2463301",
+      "eligible_albums": 21
+    },
+    {
+      "discogs_id": "2486104",
+      "eligible_albums": 1
+    },
+    {
+      "discogs_id": "2700887",
+      "eligible_albums": 5
+    },
+    {
+      "discogs_id": "3408094",
+      "eligible_albums": 23
+    },
+    {
+      "discogs_id": "5038376",
+      "eligible_albums": 5
+    },
+    {
+      "discogs_id": "6472687",
+      "eligible_albums": 13
+    },
+    {
+      "discogs_id": "7119504",
+      "eligible_albums": 3
+    },
+    {
+      "discogs_id": "7844349",
+      "eligible_albums": 9
+    },
+    {
+      "discogs_id": "20066470",
+      "eligible_albums": 5
+    },
+    {
+      "discogs_id": "22222342",
+      "eligible_albums": 23
+    },
+    {
+      "discogs_id": "6364992",
+      "eligible_albums": 1
+    },
+    {
+      "discogs_id": "4395895",
+      "eligible_albums": 8
+    },
+    {
+      "discogs_id": "12419718",
+      "eligible_albums": 12
+    },
+    {
+      "discogs_id": "7609610",
+      "eligible_albums": 1
+    },
+    {
+      "discogs_id": "7860979",
+      "eligible_albums": 34
+    },
+    {
+      "discogs_id": "13671866",
+      "eligible_albums": 1
+    },
+    {
+      "discogs_id": "15263974",
+      "eligible_albums": 7
+    },
+    {
+      "discogs_id": "8165012",
+      "eligible_albums": 6
+    },
+    {
+      "discogs_id": "3737065",
+      "eligible_albums": 9
+    },
+    {
+      "discogs_id": "4300898",
+      "eligible_albums": 5
+    },
+    {
+      "discogs_id": "22663367",
+      "eligible_albums": 9
+    },
+    {
+      "discogs_id": "17623039",
+      "eligible_albums": 2
+    },
+    {
+      "discogs_id": "6257908",
+      "eligible_albums": 1
+    },
+    {
+      "discogs_id": "1704535",
+      "eligible_albums": 3
+    },
+    {
+      "discogs_id": "4067901",
+      "eligible_albums": 12
+    },
+    {
+      "discogs_id": "7095769",
+      "eligible_albums": 3
+    },
+    {
+      "discogs_id": "8291074",
+      "eligible_albums": 3
+    },
+    {
+      "discogs_id": "4073133",
+      "eligible_albums": 3
+    },
+    {
+      "discogs_id": "13538423",
+      "eligible_albums": 6
+    },
+    {
+      "discogs_id": "11938972",
+      "eligible_albums": 4
+    },
+    {
+      "discogs_id": "12977198",
+      "eligible_albums": 11
+    },
+    {
+      "discogs_id": "594243",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "890111",
+      "eligible_albums": 14
+    },
+    {
+      "discogs_id": "1010200",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "1012732",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "1035152",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "1093216",
+      "eligible_albums": 10
+    },
+    {
+      "discogs_id": "1132104",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "1180104",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "1216294",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "1252193",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "1372856",
+      "eligible_albums": 2
+    },
+    {
+      "discogs_id": "1421356",
+      "eligible_albums": 3
+    },
+    {
+      "discogs_id": "1458083",
+      "eligible_albums": 23
+    },
+    {
+      "discogs_id": "1469965",
+      "eligible_albums": 23
+    },
+    {
+      "discogs_id": "1470008",
+      "eligible_albums": 23
+    },
+    {
+      "discogs_id": "1512597",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "1517438",
+      "eligible_albums": 3
+    },
+    {
+      "discogs_id": "1524282",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "1555255",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "1638548",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "1640528",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "1660485",
+      "eligible_albums": 3
+    },
+    {
+      "discogs_id": "1662708",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "1665223",
+      "eligible_albums": 3
+    },
+    {
+      "discogs_id": "1697514",
+      "eligible_albums": 5
+    },
+    {
+      "discogs_id": "1723557",
+      "eligible_albums": 3
+    },
+    {
+      "discogs_id": "1724303",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "1730282",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "1846030",
+      "eligible_albums": 2
+    },
+    {
+      "discogs_id": "1896362",
+      "eligible_albums": 21
+    },
+    {
+      "discogs_id": "1917259",
+      "eligible_albums": 14
+    },
+    {
+      "discogs_id": "1989694",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "2047925",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "2060839",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "2085106",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "2094583",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "2127229",
+      "eligible_albums": 3
+    },
+    {
+      "discogs_id": "2142489",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "2170750",
+      "eligible_albums": 4
+    },
+    {
+      "discogs_id": "2221315",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "2236260",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "2268139",
+      "eligible_albums": 7
+    },
+    {
+      "discogs_id": "2329424",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "2345819",
+      "eligible_albums": 9
+    },
+    {
+      "discogs_id": "2347781",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "2349914",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "2356725",
+      "eligible_albums": 34
+    },
+    {
+      "discogs_id": "2380440",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "2383222",
+      "eligible_albums": 4
+    },
+    {
+      "discogs_id": "2394378",
+      "eligible_albums": 8
+    },
+    {
+      "discogs_id": "2402801",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "2440679",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "2452986",
+      "eligible_albums": 7
+    },
+    {
+      "discogs_id": "2497053",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "2526032",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "2526909",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "2548602",
+      "eligible_albums": 23
+    },
+    {
+      "discogs_id": "2636984",
+      "eligible_albums": 1
+    },
+    {
+      "discogs_id": "2666680",
+      "eligible_albums": 9
+    },
+    {
+      "discogs_id": "2671188",
+      "eligible_albums": 17
+    },
+    {
+      "discogs_id": "2681944",
+      "eligible_albums": 7
+    },
+    {
+      "discogs_id": "2712284",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "2712474",
+      "eligible_albums": 7
+    },
+    {
+      "discogs_id": "2718671",
+      "eligible_albums": 4
+    },
+    {
+      "discogs_id": "2725003",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "2767598",
+      "eligible_albums": 8
+    },
+    {
+      "discogs_id": "2772163",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "2808874",
+      "eligible_albums": 17
+    },
+    {
+      "discogs_id": "2819374",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "2831179",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "2845131",
+      "eligible_albums": 5
+    },
+    {
+      "discogs_id": "2845198",
+      "eligible_albums": 5
+    },
+    {
+      "discogs_id": "2857544",
+      "eligible_albums": 1
+    },
+    {
+      "discogs_id": "2861399",
+      "eligible_albums": 1
+    },
+    {
+      "discogs_id": "2872749",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "2877518",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "2906025",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "2930473",
+      "eligible_albums": 1
+    },
+    {
+      "discogs_id": "2954706",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "2961241",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "2966855",
+      "eligible_albums": 1
+    },
+    {
+      "discogs_id": "2993801",
+      "eligible_albums": 1
+    },
+    {
+      "discogs_id": "2996680",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "3000291",
+      "eligible_albums": 4
+    },
+    {
+      "discogs_id": "3000698",
+      "eligible_albums": 14
+    },
+    {
+      "discogs_id": "3018585",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "3044759",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "3066447",
+      "eligible_albums": 27
+    },
+    {
+      "discogs_id": "3074016",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "3094204",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "3100828",
+      "eligible_albums": 3
+    },
+    {
+      "discogs_id": "3103644",
+      "eligible_albums": 7
+    },
+    {
+      "discogs_id": "3130380",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "3144336",
+      "eligible_albums": 1
+    },
+    {
+      "discogs_id": "3158136",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "3167056",
+      "eligible_albums": 2
+    },
+    {
+      "discogs_id": "3179229",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "3198746",
+      "eligible_albums": 4
+    },
+    {
+      "discogs_id": "3198796",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "3198824",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "3217466",
+      "eligible_albums": 2
+    },
+    {
+      "discogs_id": "3275173",
+      "eligible_albums": 3
+    },
+    {
+      "discogs_id": "3285095",
+      "eligible_albums": 3
+    },
+    {
+      "discogs_id": "3290606",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "3290970",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "3293855",
+      "eligible_albums": 3
+    },
+    {
+      "discogs_id": "3312801",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "3331705",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "3334175",
+      "eligible_albums": 13
+    },
+    {
+      "discogs_id": "3337609",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "3337623",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "3346884",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "3347307",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "3369031",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "3386012",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "3406649",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "3441146",
+      "eligible_albums": 14
+    },
+    {
+      "discogs_id": "3441916",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "3470778",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "3476755",
+      "eligible_albums": 17
+    },
+    {
+      "discogs_id": "3503146",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "3510156",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "3569461",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "3584044",
+      "eligible_albums": 1
+    },
+    {
+      "discogs_id": "3598439",
+      "eligible_albums": 34
+    },
+    {
+      "discogs_id": "3614511",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "3646455",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "3652175",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "3667210",
+      "eligible_albums": 2
+    },
+    {
+      "discogs_id": "3670806",
+      "eligible_albums": 2
+    },
+    {
+      "discogs_id": "3672809",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "3675625",
+      "eligible_albums": 1
+    },
+    {
+      "discogs_id": "3699703",
+      "eligible_albums": 34
+    },
+    {
+      "discogs_id": "3729749",
+      "eligible_albums": 11
+    },
+    {
+      "discogs_id": "3735116",
+      "eligible_albums": 2
+    },
+    {
+      "discogs_id": "3788392",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "3789771",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "3798658",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "3849153",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "3877405",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "3893557",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "3908329",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "3949380",
+      "eligible_albums": 3
+    },
+    {
+      "discogs_id": "3956949",
+      "eligible_albums": 10
+    },
+    {
+      "discogs_id": "3972653",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "3985321",
+      "eligible_albums": 2
+    },
+    {
+      "discogs_id": "3997747",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "4009817",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "4021412",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "4023547",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "4031075",
+      "eligible_albums": 4
+    },
+    {
+      "discogs_id": "4035824",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "4046757",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "4082656",
+      "eligible_albums": 3
+    },
+    {
+      "discogs_id": "4101347",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "4149781",
+      "eligible_albums": 2
+    },
+    {
+      "discogs_id": "4169669",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "4191410",
+      "eligible_albums": 2
+    },
+    {
+      "discogs_id": "4219540",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "4230971",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "4256464",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "4259729",
+      "eligible_albums": 3
+    },
+    {
+      "discogs_id": "4268630",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "4286791",
+      "eligible_albums": 2
+    },
+    {
+      "discogs_id": "4352998",
+      "eligible_albums": 1
+    },
+    {
+      "discogs_id": "4365080",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "4374524",
+      "eligible_albums": 0
+    },
+    {
+      "discogs_id": "4382530",
+      "eligible_albums": 3
+    }
+  ],
+  "proposals": [
+    {
+      "discogs_id": "890111",
+      "title": "Klaviersonaten = Piano Sonatas »Trauermarsch« = »Funeral March« Op. 26 & Op. 31, No. 1",
+      "original_search_empty": true,
+      "candidates": [
+        {
+          "id": "0002894776360",
+          "name": "Beethoven: The Piano Sonatas",
+          "artists": [
+            "Emil Gilels"
+          ],
+          "label": "Deutsche Grammophon (DG)",
+          "release_date": "2006-01-01",
+          "image": "https://static.qobuz.com/images/covers/60/63/0002894776360_230.jpg",
+          "url": "https://www.qobuz.com/album/0002894776360",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 2,
+          "target_count": 2,
+          "required_performers": [
+            "emil gilels"
+          ],
+          "programme": [
+            {
+              "target": "Klaviersonate Nr. 12 As-Dur Op. 26",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                610562,
+                610571,
+                610580,
+                610589
+              ]
+            },
+            {
+              "target": "Klaviersonate Nr. 16 G-Dur Op. 31 Nr. 1",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                610528,
+                610537,
+                610546
+              ]
+            }
+          ],
+          "reasons": [
+            "Each target item has supporting work and performer credits.",
+            "Grouped movements or extra recordings require review; recording identity is not confirmed."
+          ],
+          "original_search_candidate": false,
+          "unmodified_rules_status": "probable",
+          "requires_experimental_alias": false
+        }
+      ]
+    },
+    {
+      "discogs_id": "1093216",
+      "title": "Symphonie Nr. 5",
+      "original_search_empty": true,
+      "candidates": [
+        {
+          "id": "0002894778168",
+          "name": "111 Years of Deutsche Grammophon",
+          "artists": [
+            "Claudio Abbado"
+          ],
+          "label": "Deutsche Grammophon (DG)",
+          "release_date": "2009-10-05",
+          "image": "https://static.qobuz.com/images/covers/68/81/0002894778168_230.jpg",
+          "url": "https://www.qobuz.com/album/0002894778168",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 1,
+          "target_count": 1,
+          "required_performers": [
+            "carlos kleiber",
+            "vienna philharmonic"
+          ],
+          "programme": [
+            {
+              "target": "Symphonie Nr. 5 C-moll Op. 67",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                616175
+              ]
+            }
+          ],
+          "reasons": [
+            "Each target item has supporting work and performer credits.",
+            "Grouped movements or extra recordings require review; recording identity is not confirmed."
+          ],
+          "original_search_candidate": false,
+          "unmodified_rules_status": "probable",
+          "requires_experimental_alias": false
+        },
+        {
+          "id": "0002894791000",
+          "name": "Wiener Philharmoniker Symphony Edition (Vol. 1 : Mozart, Haydn, Beethoven, Schubert, Mendelssohn, Schumann, Brahms)",
+          "artists": [
+            "Wiener Philharmonic Orchestra"
+          ],
+          "label": "Deutsche Grammophon (DG)",
+          "release_date": "2012-01-01",
+          "image": "https://static.qobuz.com/images/covers/00/10/0002894791000_230.jpg",
+          "url": "https://www.qobuz.com/album/0002894791000",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 1,
+          "target_count": 1,
+          "required_performers": [
+            "carlos kleiber",
+            "vienna philharmonic"
+          ],
+          "programme": [
+            {
+              "target": "Symphonie Nr. 5 C-moll Op. 67",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                8505054,
+                8505056,
+                8505058,
+                8505060
+              ]
+            }
+          ],
+          "reasons": [
+            "Each target item has supporting work and performer credits.",
+            "Grouped movements or extra recordings require review; recording identity is not confirmed."
+          ],
+          "original_search_candidate": false,
+          "unmodified_rules_status": "probable",
+          "requires_experimental_alias": false
+        },
+        {
+          "id": "0002894805871",
+          "name": "La grande battle",
+          "artists": [
+            "Various Artists"
+          ],
+          "label": "Universal Music Division Decca Records France",
+          "release_date": "2011-01-01",
+          "image": "https://static.qobuz.com/images/covers/71/58/0002894805871_230.jpg",
+          "url": "https://www.qobuz.com/album/0002894805871",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 1,
+          "target_count": 1,
+          "required_performers": [
+            "carlos kleiber",
+            "vienna philharmonic"
+          ],
+          "programme": [
+            {
+              "target": "Symphonie Nr. 5 C-moll Op. 67",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                4514310
+              ]
+            }
+          ],
+          "reasons": [
+            "Each target item has supporting work and performer credits.",
+            "Grouped movements or extra recordings require review; recording identity is not confirmed."
+          ],
+          "original_search_candidate": false,
+          "unmodified_rules_status": "probable",
+          "requires_experimental_alias": false
+        },
+        {
+          "id": "y7nd66idm247a",
+          "name": "Great Symphonies: The Best of DG Originals",
+          "artists": [
+            "Carlos Kleiber"
+          ],
+          "label": "Deutsche Grammophon (DG)",
+          "release_date": "2005-01-01",
+          "image": "https://static.qobuz.com/images/covers/7a/24/y7nd66idm247a_230.jpg",
+          "url": "https://www.qobuz.com/album/y7nd66idm247a",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 1,
+          "target_count": 1,
+          "required_performers": [
+            "carlos kleiber",
+            "vienna philharmonic"
+          ],
+          "programme": [
+            {
+              "target": "Symphonie Nr. 5 C-moll Op. 67",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                54377019,
+                54377020,
+                54377021,
+                54377022
+              ]
+            }
+          ],
+          "reasons": [
+            "Each target item has supporting work and performer credits.",
+            "Grouped movements or extra recordings require review; recording identity is not confirmed."
+          ],
+          "original_search_candidate": false,
+          "unmodified_rules_status": "probable",
+          "requires_experimental_alias": false
+        }
+      ]
+    },
+    {
+      "discogs_id": "1469965",
+      "title": "Piano Transcriptions Of Orchestral Showpieces",
+      "original_search_empty": true,
+      "candidates": [
+        {
+          "id": "0886445221237",
+          "name": "Glenn Gould. The Complete Columbia Album Collection",
+          "artists": [
+            "Glenn Gould"
+          ],
+          "label": "Sony Classical",
+          "release_date": "2015-09-11",
+          "image": "https://static.qobuz.com/images/covers/37/12/0886445221237_230.jpg",
+          "url": "https://www.qobuz.com/album/0886445221237",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 3,
+          "target_count": 3,
+          "required_performers": [
+            "glenn gould"
+          ],
+          "programme": [
+            {
+              "target": "Meistersinger Prelude",
+              "work_tracks": 25,
+              "credited_tracks": 1,
+              "track_ids": [
+                26897976
+              ]
+            },
+            {
+              "target": "Dawn And Siegfried's Rhine Journey, From \"Götterdämmerung\"",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                26897977
+              ]
+            },
+            {
+              "target": "Siegfried Idyll",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                26897978
+              ]
+            }
+          ],
+          "reasons": [
+            "Each target item has supporting work and performer credits.",
+            "Grouped movements or extra recordings require review; recording identity is not confirmed."
+          ],
+          "original_search_candidate": false,
+          "unmodified_rules_status": "probable",
+          "requires_experimental_alias": false
+        }
+      ]
+    },
+    {
+      "discogs_id": "1517438",
+      "title": "Klavierkonzert = Piano Concerto No.4",
+      "original_search_empty": false,
+      "candidates": [
+        {
+          "id": "0002894779797",
+          "name": "Beethoven: Complete Concertos",
+          "artists": [
+            "Daniel Barenboim"
+          ],
+          "label": "Deutsche Grammophon (DG)",
+          "release_date": "1997-10-06",
+          "image": "https://static.qobuz.com/images/covers/97/97/0002894779797_230.jpg",
+          "url": "https://www.qobuz.com/album/0002894779797",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 1,
+          "target_count": 1,
+          "required_performers": [
+            "karl bohm",
+            "maurizio pollini",
+            "vienna philharmonic"
+          ],
+          "programme": [
+            {
+              "target": "Konzert Für Klavier Und Orchester Nr. 4 G-dur Op. 58",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                5493242,
+                5493243,
+                5493244
+              ]
+            }
+          ],
+          "reasons": [
+            "Each target item has supporting work and performer credits.",
+            "Grouped movements or extra recordings require review; recording identity is not confirmed."
+          ],
+          "original_search_candidate": false,
+          "unmodified_rules_status": "probable",
+          "requires_experimental_alias": false
+        }
+      ]
+    },
+    {
+      "discogs_id": "1917259",
+      "title": "Appassionata Op. 57 / Sonate Op. 10 Nr. 2",
+      "original_search_empty": true,
+      "candidates": [
+        {
+          "id": "0002894776360",
+          "name": "Beethoven: The Piano Sonatas",
+          "artists": [
+            "Emil Gilels"
+          ],
+          "label": "Deutsche Grammophon (DG)",
+          "release_date": "2006-01-01",
+          "image": "https://static.qobuz.com/images/covers/60/63/0002894776360_230.jpg",
+          "url": "https://www.qobuz.com/album/0002894776360",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 2,
+          "target_count": 2,
+          "required_performers": [
+            "emil gilels"
+          ],
+          "programme": [
+            {
+              "target": "Klaviersonate Nr. 6 F-dur Op. 10 Nr. 2",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                610552,
+                610561,
+                610570
+              ]
+            },
+            {
+              "target": "Klaviersonate Nr. 23 F-moll Op. 57 »Appassionata«",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                610592,
+                610601,
+                610609
+              ]
+            }
+          ],
+          "reasons": [
+            "Each target item has supporting work and performer credits.",
+            "Grouped movements or extra recordings require review; recording identity is not confirmed."
+          ],
+          "original_search_candidate": false,
+          "unmodified_rules_status": "probable",
+          "requires_experimental_alias": false
+        }
+      ]
+    },
+    {
+      "discogs_id": "2127229",
+      "title": "Klavierkonzert Nr. 5 · \"Emperor\" Concerto",
+      "original_search_empty": true,
+      "candidates": [
+        {
+          "id": "0002894779797",
+          "name": "Beethoven: Complete Concertos",
+          "artists": [
+            "Daniel Barenboim"
+          ],
+          "label": "Deutsche Grammophon (DG)",
+          "release_date": "1997-10-06",
+          "image": "https://static.qobuz.com/images/covers/97/97/0002894779797_230.jpg",
+          "url": "https://www.qobuz.com/album/0002894779797",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 1,
+          "target_count": 1,
+          "required_performers": [
+            "karl bohm",
+            "maurizio pollini",
+            "vienna philharmonic"
+          ],
+          "programme": [
+            {
+              "target": "Konzert Für Klavier Und Orchester Nr. 5 Es-dur Op. 73 = Concerto For Piano And Orchestra No. 5 In E Flat Major, Op. 73",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                5493246,
+                5493247,
+                5493248
+              ]
+            }
+          ],
+          "reasons": [
+            "Each target item has supporting work and performer credits.",
+            "Grouped movements or extra recordings require review; recording identity is not confirmed."
+          ],
+          "original_search_candidate": false,
+          "unmodified_rules_status": "probable",
+          "requires_experimental_alias": false
+        }
+      ]
+    },
+    {
+      "discogs_id": "2712474",
+      "title": "Violin Concertos No. 3 & 5",
+      "original_search_empty": false,
+      "candidates": [
+        {
+          "id": "d4y2z1shovo2a",
+          "name": "Mozart: Violin Concertos Nos. 1, 3 & 5 \"Turkish\"",
+          "artists": [
+            "David Oïstrakh"
+          ],
+          "label": "Warner Classics",
+          "release_date": "2024-11-25",
+          "image": "https://static.qobuz.com/images/covers/2a/vo/d4y2z1shovo2a_230.jpg",
+          "url": "https://www.qobuz.com/album/d4y2z1shovo2a",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 2,
+          "target_count": 2,
+          "required_performers": [
+            "david oistrakh",
+            "berlin philharmonic"
+          ],
+          "programme": [
+            {
+              "target": "Violin Concerto No. 3 In G Major, K. 216",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                298121962,
+                298121963,
+                298121964
+              ]
+            },
+            {
+              "target": "Violin Concerto No. 5 In A Major, K. 219 \"Turkish\"",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                298121965,
+                298121966,
+                298121967
+              ]
+            }
+          ],
+          "reasons": [
+            "Each target item has supporting work and performer credits.",
+            "Grouped movements or extra recordings require review; recording identity is not confirmed."
+          ],
+          "original_search_candidate": false,
+          "unmodified_rules_status": "unchecked",
+          "requires_experimental_alias": true
+        }
+      ]
+    },
+    {
+      "discogs_id": "3000698",
+      "title": "Klaviersonaten Nos. 2 & 4 • Piano Sonatas • Sonates Pour Piano",
+      "original_search_empty": true,
+      "candidates": [
+        {
+          "id": "0002894776360",
+          "name": "Beethoven: The Piano Sonatas",
+          "artists": [
+            "Emil Gilels"
+          ],
+          "label": "Deutsche Grammophon (DG)",
+          "release_date": "2006-01-01",
+          "image": "https://static.qobuz.com/images/covers/60/63/0002894776360_230.jpg",
+          "url": "https://www.qobuz.com/album/0002894776360",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 2,
+          "target_count": 2,
+          "required_performers": [
+            "emil gilels"
+          ],
+          "programme": [
+            {
+              "target": "Klaviersonate Nr. 4 Es-dur Op. 7",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                610524,
+                610533,
+                610542,
+                610551
+              ]
+            },
+            {
+              "target": "Klaviersonate Nr. 2 A-dur Op. 2 Nr. 2",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                610523,
+                610532,
+                610541,
+                610550
+              ]
+            }
+          ],
+          "reasons": [
+            "Each target item has supporting work and performer credits.",
+            "Grouped movements or extra recordings require review; recording identity is not confirmed."
+          ],
+          "original_search_candidate": false,
+          "unmodified_rules_status": "probable",
+          "requires_experimental_alias": false
+        }
+      ]
+    },
+    {
+      "discogs_id": "3275173",
+      "title": "Concerto No. 2 In C Minor, Op. 18",
+      "original_search_empty": false,
+      "candidates": [
+        {
+          "id": "3610151639041",
+          "name": "Rachmaninoff: Piano Concerto No. 2 - Tchaikovsky: Piano Concerto No. 1",
+          "artists": [
+            "Arthur Rubinstein"
+          ],
+          "label": "Ginkgo Rubinstein",
+          "release_date": "2012-01-01",
+          "image": "https://static.qobuz.com/images/covers/41/90/3610151639041_230.jpg",
+          "url": "https://www.qobuz.com/album/3610151639041",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 1,
+          "target_count": 1,
+          "required_performers": [
+            "vladimir golschmann",
+            "arthur rubinstein",
+            "nbc symphony orchestra"
+          ],
+          "programme": [
+            {
+              "target": "Concerto No. 2 In C Minor, Op. 18",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                11740816,
+                11740817,
+                11740818
+              ]
+            }
+          ],
+          "reasons": [
+            "Each target item has supporting work and performer credits.",
+            "Grouped movements or extra recordings require review; recording identity is not confirmed."
+          ],
+          "original_search_candidate": false,
+          "unmodified_rules_status": "probable",
+          "requires_experimental_alias": false
+        }
+      ]
+    },
+    {
+      "discogs_id": "3441146",
+      "title": "Sonaten - »Pathétique«·»Mondschein/Moonlight«",
+      "original_search_empty": true,
+      "candidates": [
+        {
+          "id": "0002894776360",
+          "name": "Beethoven: The Piano Sonatas",
+          "artists": [
+            "Emil Gilels"
+          ],
+          "label": "Deutsche Grammophon (DG)",
+          "release_date": "2006-01-01",
+          "image": "https://static.qobuz.com/images/covers/60/63/0002894776360_230.jpg",
+          "url": "https://www.qobuz.com/album/0002894776360",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 3,
+          "target_count": 3,
+          "required_performers": [
+            "emil gilels"
+          ],
+          "programme": [
+            {
+              "target": "Klaviersonate Nr. 14 cis-moll Op. 27 Nr. 2 »Mondschein-Sonate«",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                610563,
+                610572,
+                610581
+              ]
+            },
+            {
+              "target": "Klaviersonate Nr. 13 Es-dur Op. 27 Nr. 1 (Sonata Quasi Una Fantasia)",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                610527,
+                610536,
+                610545,
+                610554
+              ]
+            },
+            {
+              "target": "Klaviersonate Nr. 8 c-moll Op. 13 »Pathétique«",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                610560,
+                610569,
+                610578
+              ]
+            }
+          ],
+          "reasons": [
+            "Each target item has supporting work and performer credits.",
+            "Grouped movements or extra recordings require review; recording identity is not confirmed."
+          ],
+          "original_search_candidate": false,
+          "unmodified_rules_status": "probable",
+          "requires_experimental_alias": false
+        }
+      ]
+    },
+    {
+      "discogs_id": "3699703",
+      "title": "9 Symphonien",
+      "original_search_empty": false,
+      "candidates": [
+        {
+          "id": "0002894791673",
+          "name": "1970s (Années 70 - Vol. 3)",
+          "artists": [
+            "Herbert von Karajan"
+          ],
+          "label": "Deutsche Grammophon (DG)",
+          "release_date": "2013-01-01",
+          "image": "https://static.qobuz.com/images/covers/73/16/0002894791673_230.jpg",
+          "url": "https://www.qobuz.com/album/0002894791673",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 9,
+          "target_count": 9,
+          "required_performers": [
+            "herbert von karajan",
+            "berlin philharmonic"
+          ],
+          "programme": [
+            {
+              "target": "Symphonie Nr. 1 C-dur Op. 21 ",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                10519991,
+                10519993,
+                10519995,
+                10519997
+              ]
+            },
+            {
+              "target": "Symphonie Nr. 2 D-dur Op. 36 ",
+              "work_tracks": 8,
+              "credited_tracks": 4,
+              "track_ids": [
+                10519999,
+                10520002,
+                10520006,
+                10520009
+              ]
+            },
+            {
+              "target": "Symphonie Nr. 3 Es-dur Op. 55 »Eroica« ",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                10520012,
+                10520015,
+                10520018,
+                10520022
+              ]
+            },
+            {
+              "target": "Symphonie Nr. 4 B-dur Op. 60",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                10520025,
+                10520028,
+                10520031,
+                10520035
+              ]
+            },
+            {
+              "target": "Symphonie Nr. 5 c-moll Op. 67",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                10520038,
+                10520041,
+                10520044,
+                10520047
+              ]
+            },
+            {
+              "target": "Symphonie Nr. 6 F-dur Op. 68 »Pastorale« ",
+              "work_tracks": 5,
+              "credited_tracks": 5,
+              "track_ids": [
+                10520051,
+                10520053,
+                10520055,
+                10520057,
+                10520059
+              ]
+            },
+            {
+              "target": "Symphonie Nr. 7 A-dur Op. 92 ",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                10520061,
+                10520063,
+                10520065,
+                10520067
+              ]
+            },
+            {
+              "target": "Symphonie Nr. 8 F-dur Op. 93 ",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                10520069,
+                10520071,
+                10520073,
+                10520075
+              ]
+            },
+            {
+              "target": "Symphonie Nr. 9 d-moll Op. 125",
+              "work_tracks": 5,
+              "credited_tracks": 5,
+              "track_ids": [
+                10520077,
+                10520079,
+                10520081,
+                10520083,
+                10520085
+              ]
+            }
+          ],
+          "reasons": [
+            "Each target item has supporting work and performer credits.",
+            "Grouped movements or extra recordings require review; recording identity is not confirmed."
+          ],
+          "original_search_candidate": false,
+          "unmodified_rules_status": "probable",
+          "requires_experimental_alias": false
+        }
+      ]
+    },
+    {
+      "discogs_id": "4382530",
+      "title": "Klavierkonzert Nr. 1 B-Moll",
+      "original_search_empty": true,
+      "candidates": [
+        {
+          "id": "0002894190682",
+          "name": "Tchaikovsky: Piano Concerto No.1 / Rachmaninov: Préludes",
+          "artists": [
+            "Sviatoslav Richter"
+          ],
+          "label": "Deutsche Grammophon (DG)",
+          "release_date": "1987-01-01",
+          "image": "https://static.qobuz.com/images/covers/82/06/0002894190682_230.jpg",
+          "url": "https://www.qobuz.com/album/0002894190682",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 1,
+          "target_count": 1,
+          "required_performers": [
+            "herbert von karajan",
+            "sviatoslav richter",
+            "wiener symphoniker"
+          ],
+          "programme": [
+            {
+              "target": "Konzert Für Klavier Und Orchester Nr. 1 B-Moll Op. 23",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                520033,
+                520034,
+                520035
+              ]
+            }
+          ],
+          "reasons": [
+            "Each target item has supporting work and performer credits.",
+            "Grouped movements or extra recordings require review; recording identity is not confirmed."
+          ],
+          "original_search_candidate": false,
+          "unmodified_rules_status": "probable",
+          "requires_experimental_alias": false
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "releases_inspected": 219,
+    "proposed_releases": 12,
+    "candidate_count": 15,
+    "previously_empty": 8,
+    "with_unmodified_rule_candidate": 11
+  }
+}

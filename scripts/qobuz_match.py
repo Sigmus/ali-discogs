@@ -11,7 +11,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'src'))
 from ali_discogs.text import tnorm, norm, ORCH_ALIASES, is_composer
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = 'qobuz-programme-v1'
+VERSION = 'qobuz-programme-v1+reviewed-expansion-v2'
 
 
 def credits(track):
@@ -136,11 +136,35 @@ def public_album(album):
             'url': 'https://www.qobuz.com/album/' + str(album['id'])}
 
 
+
+def expanded_candidate(row, album, inventory):
+    """Recompute checks; reviewed candidate scope never overrides missing evidence."""
+    from qobuz_completeness import check_programme
+    evidence = evaluate(row, album)
+    if evidence['status'] == 'unchecked':
+        return None
+    completeness = check_programme(row, album, evidence, inventory)
+    if completeness['status'] != 'complete':
+        return None
+    # Expansion remains a programme/credit lead, including box-set supersets.
+    evidence['status'], evidence['confidence'] = 'probable', .85
+    evidence['reasons'] = [*evidence['reasons'],
+        'Reviewed cache-wide candidate: all inventoried movements or explicitly listed timed tracks are supported; recording identity still requires review.']
+    return {**public_album(album), **evidence, 'discovery': 'reviewed-cache-expansion',
+            'completeness': completeness}
+
+
 def generate():
     rows = {r['discogs_id']: r for r in json.loads((ROOT/'data/collection_matches.json').read_text())}
     snapshot = load_snapshot()
     manifest = snapshot['search_manifest']
     metadata_manifest = snapshot['metadata_manifest']
+    scope_path = ROOT/'data/qobuz_expansion_scope.json'
+    inventory_path = ROOT/'data/qobuz_work_inventory.json'
+    scope = json.loads(scope_path.read_text())
+    inventory = json.loads(inventory_path.read_text())
+    if scope['schema_version'] != 1 or inventory['schema_version'] != 1:
+        raise ValueError('Unsupported expansion evidence schema')
     results = {}
     for entry in manifest['entries']:
         rid = entry['discogs_id']
@@ -152,6 +176,12 @@ def generate():
                 raise ValueError('Incomplete or mismatched metadata')
             evidence = evaluate(rows[rid], album)
             candidates.append({**public_album(album), **evidence})
+        own_ids = {c['id'] for c in candidates}
+        for aid in scope['releases'].get(str(rid), []):
+            if aid not in own_ids:
+                extra = expanded_candidate(rows[rid], snapshot['albums'][aid], inventory)
+                if extra:
+                    candidates.append(extra)
         candidates.sort(key=lambda a: ({'found': 2, 'probable': 1, 'unchecked': 0}[a['status']], a['coverage'], a['confidence'] or 0), reverse=True)
         best = candidates[0] if candidates else None
         results[str(rid)] = {'status': best['status'] if best else 'unchecked',
@@ -164,6 +194,8 @@ def generate():
               'search_manifest_fingerprint': manifest['fingerprint'],
               'metadata_manifest_fingerprint': metadata_manifest['fingerprint'],
               'collection_fingerprint': hashlib.sha256((ROOT/'data/collection_matches.json').read_bytes()).hexdigest(),
+              'expansion_scope_fingerprint': hashlib.sha256(scope_path.read_bytes()).hexdigest(),
+              'work_inventory_fingerprint': hashlib.sha256(inventory_path.read_bytes()).hexdigest(),
               'releases': results}
     path = ROOT/'data/qobuz_matches.json'
     temp = path.with_suffix('.tmp')
