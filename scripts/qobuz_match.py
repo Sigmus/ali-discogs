@@ -7,6 +7,7 @@ import sys
 from collections import Counter
 from functools import lru_cache
 from qobuz_snapshot import load_snapshot
+from qobuz_urls import album_url, INDEX as URL_INDEX
 from rapidfuzz import fuzz
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'src'))
 from ali_discogs.text import tnorm, norm, ORCH_ALIASES, is_composer
@@ -184,7 +185,7 @@ def public_album(album):
             'label': (album.get('label') or {}).get('name', ''),
             'release_date': album.get('release_date_original', ''),
             'image': (album.get('image') or {}).get('small', ''),
-            'url': 'https://www.qobuz.com/album/' + str(album['id'])}
+            'url': album_url(album)}
 
 
 
@@ -259,6 +260,7 @@ def generate():
               'work_inventory_fingerprint': hashlib.sha256(inventory_path.read_bytes()).hexdigest(),
               'lead_review_fingerprint': hashlib.sha256(REVIEW.read_bytes()).hexdigest(),
               'comparison_evidence_fingerprint': hashlib.sha256(ARCHIVE.read_bytes()).hexdigest(),
+              'album_urls_fingerprint': hashlib.sha256(URL_INDEX.read_bytes()).hexdigest(),
               'releases': results}
     path = ROOT/'data/qobuz_matches.json'
     temp = path.with_suffix('.tmp')

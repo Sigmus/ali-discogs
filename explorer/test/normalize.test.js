@@ -267,3 +267,14 @@ for (const id of [1252193, 5249935]) {
   assert.equal(svc.album, null);
   assert.equal(svc.programme_review.status, "confirmed_programme_mismatch");
 }
+
+// Canonical provider URLs survive overlay normalization for selected albums and alternatives.
+const dvorakQobuz = withQobuz.find(it => it.discogs.id === 6119238).qobuz;
+assert.equal(dvorakQobuz.album.url, qobuzData.releases['6119238'].album.url);
+assert.match(dvorakQobuz.album.url, /^https:\/\/www\.qobuz\.com\/[a-z]{2}-[a-z]{2}\/album\/[^/]+\/0002894786633$/);
+for (const item of withQobuz) {
+  for (const album of [item.qobuz.album, ...item.qobuz.alternates].filter(Boolean)) {
+    assert.match(album.url, /^https:\/\/www\.qobuz\.com\/[a-z]{2}-[a-z]{2}\/album\/[^/]+\/[A-Za-z0-9]+$/);
+  }
+}
+console.log('Canonical Qobuz links preserved in albums and alternatives');

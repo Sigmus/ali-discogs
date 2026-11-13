@@ -89,9 +89,9 @@ plans preserve dated evidence and prior handoffs.
 - PR CI and merged-main test/Pages runs passed. Live index/app/style/collection/
   summary/Qobuz JSON match the release; deployed Dvorak detail renders correctly.
   Publication figures and four withheld programmes verified from live data.
-- Next proposal: review replacement leads for four remaining Unchecked Spotify
-  releases, cache first, then another bounded audit. No new fetching authorized
-  by this completed release. Preserve documented recording-quality limitations.
+- Canonical Qobuz URL fix complete: shared1,043-album URL index from cached
+  metadata; selected/candidate/pilot/sample links fixed. Evidence and scores
+  unchanged. User requested commit/push; no Qobuz API calls needed.
 - [Follow-up findings and readiness](../plans/2026-11-13-spotify-followup-readiness.md).
 - [Spotify safeguard](../plans/2026-11-13-spotify-programme-safeguard.md) records scope and checks.
 - Latest review: [four Qobuz leads](../plans/2026-11-13-qobuz-lead-validation.md).

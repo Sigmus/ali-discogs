@@ -162,3 +162,12 @@ partial programme in details. Unreviewed alternatives remain unaccepted.
 Include programme-guard tests and portable follow-up verification in CI. Pages
 must run local validation successfully before artifact upload and deployment;
 separate test workflows alone do not gate its deploy job.
+
+## 2026-11-13 — Preserve canonical Qobuz routes separately
+
+Status: adopted in the user-requested link correction.
+
+Use provider-supplied locale/slug album URLs from a separate shared offline index;
+never synthesize bare www.qobuz.com/album/ID links. Keep matching evidence and
+recording-review hashes immutable for presentation-only URL corrections. Validate
+exact HTTPS host/path/album ID; absent URL evidence gets a search fallback.

@@ -366,3 +366,25 @@ now preserves all 227 Spotify pilot tracks and confirms two partial programmes.
 Historical comparison files retain their original evidence/limitations; use the
 new track audit for current findings. The raw Qobuz archive now has 1,788 responses
 (two more corrected-query validations); matching labels remain unchanged.
+
+## Canonical album URLs
+
+The public website does not reliably resolve bare `www.qobuz.com/album/ID` links.
+Use cached canonical locale/album/slug/ID URLs. `data/qobuz_album_urls.json` preserves
+1,043 cached album URLs separately from immutable matching evidence/review hashes.
+No login or new API calls are needed to regenerate this index:
+
+```sh
+uv run python scripts/qobuz_urls.py
+uv run python scripts/qobuz_match.py
+make build
+```
+
+The index is exported deterministically from shared `album/get` responses in
+`data/qobuz_request_cache.tar.gz`; it contains public URLs only and records the
+source archive hash. After newly authorized retrieval, export the request archive
+before rebuilding the URL index. The publisher validates exact host, HTTPS,
+locale/slug path and matching album ID. Missing or invalid URL evidence falls back
+to a safely encoded title/artist search; it never invents a slug or bare album URL.
+Existing evidence archives and review fingerprints do not need to be rewritten.
+Canonical routes do not guarantee availability in every account territory.

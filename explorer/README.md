@@ -6,7 +6,13 @@ On sigmus this is served at [/ali-discogs/](https://sigmus.fly.dev/ali-discogs/)
 
 ## Data
 
-`data/collection_matches.json` is the file the page loads: a JSON array of 741 collection copies. Spotify is filled in (255 found, 276 probable, 210 not found). Qobuz is `unchecked` on every row. The earlier dataset build encountered Qobuz HTTP 403. An authenticated catalogue PoC now works, but does not update these published results. See [Qobuz enrichment setup](../docs/qobuz.md). Each row keeps `qobuz.search_url`, linked from album details. `data/summary.json` is the match run’s totals.
+`data/collection_matches.json` contains741 collection copies and Spotify results
+(254Found,273Probable,210NotFound,4Unchecked as of2026-11-13). The explorer also
+loads the independent `data/qobuz_matches.json` overlay:12Found,67Probable,
+662Unchecked copies. Details retain `qobuz.search_url`; selected albums and
+candidates use canonical Qobuz locale/slug URLs from the shared offline index.
+`data/summary.json` contains pipeline totals before the Qobuz overlay.
+See [Qobuz enrichment setup](../docs/qobuz.md).
 
 Preferred shape, one object per collection copy:
 

@@ -664,3 +664,31 @@ or Pages publication is part of this push; active search is not restarted.
   catalogue calls; matched scores retain previously documented limitations.
 - Release documentation updated separately on main; no product/data changes.
   Further matching work remains proposed, not part of this completed release.
+
+## 2026-11-13 — Diagnose Qobuz album-link404
+
+- User reported /album/0002894786633 returning404, including while logged in.
+  `public_album()` synthesizes a bare /album/ID URL; cached API metadata and shared
+  raw archive instead contain a full locale/album/slug/ID URL. Portable whitelist
+  currently discards url/slug. This is an application URL-generation bug, not
+  evidence of a failed match, login issue or album removal.
+- Qobuz public search indexes the same ID under its full us-en album route. No
+  authenticated catalogue calls made. Proposed follow-up: preserve canonical
+  cached URL/slug and use it for publication, with offline replay/link tests.
+
+## 2026-11-13 — Fix Qobuz links everywhere from cached canonical routes
+
+- User authorized fix, commit and push. Added deterministic portable index of
+  1,043 canonical URLs from shared successful metadata; publisher uses provider
+  locale/slug route with exact host/ID validation and safe search fallback.
+  Corrected selected albums, all candidates, historical pilot URLs and sample
+  links. Historical completeness report updates only its pilot-file fingerprint.
+- Matching evidence archives byte-identical. URL-stripped all740 publication
+  records are identical: no score, status, programme or recording-review change.
+  No new authenticated catalogue calls. Browser opened the reported album's full
+  cached fr-fr URL successfully (album title visible behind cookie consent).
+- Four new URL tests cover reported regression, invalid/missing routes, complete
+  published/pilot coverage and deterministic offline index export. Total79Python
+  tests, UI URL normalization, syntax/build/diff checks pass. Documentation updated.
+- Main push will trigger the existing validated Pages workflow; verify its result
+  before claiming the link correction is live.

@@ -185,3 +185,10 @@ pause/no retry. Custom scopes are limited to12 albums and require separate outpu
 and archive paths. Ordinary invocation is offline. See the
 [follow-up and readiness review](docs/plans/2026-11-13-spotify-followup-readiness.md).
 Pages runs `make test` before publishing; PR CI includes all programme guard tests.
+
+Qobuz public links use the provider's cached canonical locale/album/slug/ID URLs
+from `data/qobuz_album_urls.json`. Rebuild this shared index entirely offline with
+`uv run python scripts/qobuz_urls.py`, then regenerate matches. Export the shared
+request archive first when adding newly retrieved albums. Existing compact evidence
+and reviewed metadata hashes remain unchanged; missing URL evidence falls back to
+a Qobuz search link instead of an invented album route.
