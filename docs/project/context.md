@@ -17,7 +17,7 @@ plans preserve dated evidence and prior handoffs.
 - Current collection:741 copies /740 unique releases. Spotify254Found /273Probable
   /210NotFound /4Unchecked copies. Retained labels are not independent full
   recording confirmations. Qobuz figures below are independent enrichment.
-- Qobuz overlay: 12 Found / 92 Probable / 637 unchecked copies; unique 12/92/636.
+- Qobuz overlay: 12 Found / 93 Probable / 636 unchecked copies; unique 12/93/635.
   Separate `data/qobuz_matches.json` survives Spotify rescoring; original pipeline
   Qobuz fields stay unchecked. Empty/inconclusive queries are not confirmed absence.
 - Sonoteque table/details, 80% main width, column sorting (Year ascending default),
@@ -82,15 +82,15 @@ plans preserve dated evidence and prior handoffs.
 
 ## Validation and next action
 
-- Probable 85: Toscanini 10757104, BWV 201 8176289, and the Hungarian
-  Quartet 15980846, Fifths and Lark, four movements each. The file says
-  Hungarian String Quartet. It is not the 1958 Columbia pressing.
-- Unpublished: Klien 12329947 has both piano quartets, but Brainin, Schidlof,
-  and Lovett are not named. Barbirolli’s Fifth and Ninth are two files.
-  Cluytens lacks Le Chasseur maudit. Wand’s Bruckner 5 hit is Berlin, not
-  Cologne. Klemperer’s Eroica files omit Fidelio or use Leonore overtures.
-- Inventory of the 636 still unchecked: 305 no saved hits, 12 metadata-needed,
-  311 work or credit gaps, 7 reviewed withholds, and the Barenboim caution.
+- Probable 85 also includes Brendel 4395895, all nine late Liszt pieces.
+  N° 2 of the third year is Aux cyprès No. 1. The Decca file is not Philips
+  9500 775. The Hungarian Quartet 15980846 remains Probable 85.
+- Unpublished: Klien lacks Brainin, Schidlof, and Lovett. Carnaval 13671866
+  splits the LP bands, and Prêtre is absent from the piano-only numbers.
+  François 12419718 is the 176-track Chopin box, not Columbia FCX 30120.
+  Barbirolli, Cluytens, Wand, and the Klemperer Eroica files stay unpublished.
+- Inventory of the 635 still unchecked: 305 no saved hits, 12 metadata-needed,
+  310 work or credit gaps, 7 reviewed withholds, and the Barenboim caution.
   Sellheim 7421796 stays an empty query, not confirmed absence.
 - Bitches Brew stays an open proposal. The split Mahler files and the incomplete
   Franck album stay unpublished. [Bitches Brew credits](../plans/2026-11-13-bitches-brew-credits.md).

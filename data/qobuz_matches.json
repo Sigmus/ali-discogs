@@ -15,7 +15,7 @@
   "opera_review_fingerprint": "11a52ad521b086b7c967327a0d01d0cee432d3cf8695754899a7f40aeb20839d",
   "pair_review_fingerprint": "7709aa57ef7815fda88766badd3064939bccb142bd0e97389a0f5f011c54cd84",
   "container_review_fingerprint": "aa8a8e530114e05869e1215561786073250faca3c9349b66059ea59ff3c535e0",
-  "binding_review_fingerprint": "e651b584c30e58065339a06457a9e1d6a2d392eda4d55b931f21f013fb4be9da",
+  "binding_review_fingerprint": "9a26ebee7db42f52357535af6126d5887be1eb719e4f0e518c79d864d1ddc414",
   "heading_review_fingerprint": "44c6333ec66aff9cbbf7a29ae8d00ef0005da4fb05dae7e65278f889e97fab8b",
   "cached_half_review_fingerprint": "51e57b6a2ed934ed1a91452a4a8c314099d6641b216c73740a3da7cda998dbcf",
   "side_range_review_fingerprint": "4434bf0427e75aae1b891957d05cd4175f6b01d7b2f6a8e352238c3a297c44f7",
@@ -108661,9 +108661,19 @@
       ]
     },
     "4395895": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0002894784779",
+        "name": "Liszt: Late Piano Works",
+        "artists": [
+          "Alfred Brendel"
+        ],
+        "label": "Decca Music Group Ltd.",
+        "release_date": "1980-01-01",
+        "image": "https://static.qobuz.com/images/covers/79/47/0002894784779_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/liszt-late-piano-works-alfred-brendel/0002894784779"
+      },
       "candidates": [
         {
           "id": "0002894784779",
@@ -108675,10 +108685,10 @@
           "release_date": "1980-01-01",
           "image": "https://static.qobuz.com/images/covers/79/47/0002894784779_230.jpg",
           "url": "https://www.qobuz.com/fr-fr/album/liszt-late-piano-works-alfred-brendel/0002894784779",
-          "status": "unchecked",
-          "confidence": null,
-          "coverage": 0.4444444444444444,
-          "covered": 4,
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 9,
           "target_count": 9,
           "required_performers": [
             "Alfred Brendel"
@@ -108702,27 +108712,35 @@
             },
             {
               "target": "Sunt Lacrimae Rerum (Années De Pèlerinage 3e Année N° 5)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                6802204
+              ]
             },
             {
               "target": "Schlummerlied = Slumber Song = Berceuse (Weihnachtsbaum = Christmas Tree = Arbre De Noël N° 7)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                6802205
+              ]
             },
             {
               "target": "Valse Oubliée N° 1",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                6802206
+              ]
             },
             {
               "target": "Unstern! Sinistre - Disastro",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                6802207
+              ]
             },
             {
               "target": "Schlaflos! - Frage Und Antwort",
@@ -108734,9 +108752,11 @@
             },
             {
               "target": "Mosonyis Grabgeleit = Funeral Music For Mosonyi = Marche Funèbre Pour La Mort De Mosonyi",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                6802209
+              ]
             },
             {
               "target": "Csárdás Macabre",
@@ -108748,14 +108768,104 @@
             }
           ],
           "reasons": [
-            "4/9 target items supported after composer/work grouping; unresolved."
+            "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+            "Philips 9500 775 is Brendel’s 1980 Liszt late-piano recital. This file has all nine pieces, with Brendel on every track.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "N° 2 of the third year is Aux cyprès No. 1, the first threnody, not the second cypress piece.",
+            "This Decca file is not verified as Philips 9500 775."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Aux Cyprès De La Villa D'Este (Années De Pèlerinage 3e Année N° 2)",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  6802202
+                ]
+              },
+              {
+                "target": "Les Jeux D'eau À La Villa D'Este (Années De Pèlerinage 3e Année N° 4)",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  6802203
+                ]
+              },
+              {
+                "target": "Sunt Lacrimae Rerum (Années De Pèlerinage 3e Année N° 5)",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  6802204
+                ]
+              },
+              {
+                "target": "Schlummerlied = Slumber Song = Berceuse (Weihnachtsbaum = Christmas Tree = Arbre De Noël N° 7)",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  6802205
+                ]
+              },
+              {
+                "target": "Valse Oubliée N° 1",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  6802206
+                ]
+              },
+              {
+                "target": "Unstern! Sinistre - Disastro",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  6802207
+                ]
+              },
+              {
+                "target": "Schlaflos! - Frage Und Antwort",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  6802208
+                ]
+              },
+              {
+                "target": "Mosonyis Grabgeleit = Funeral Music For Mosonyi = Marche Funèbre Pour La Mort De Mosonyi",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  6802209
+                ]
+              },
+              {
+                "target": "Csárdás Macabre",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  6802210
+                ]
+              }
+            ]
+          },
+          "recording_review": "Philips 9500 775 is Brendel’s 1980 Liszt late-piano recital. This file has all nine pieces, with Brendel on every track.",
+          "review_sources": [
+            "https://www.qobuz.com/fr-fr/album/liszt-late-piano-works-alfred-brendel/0002894784779"
           ]
         }
       ],
       "query": "alfred brendel liszt late piano works",
       "searched_at": "2026-11-12T17:08:11.177916+00:00",
       "reasons": [
-        "4/9 target items supported after composer/work grouping; unresolved."
+        "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+        "Philips 9500 775 is Brendel’s 1980 Liszt late-piano recital. This file has all nine pieces, with Brendel on every track.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "N° 2 of the third year is Aux cyprès No. 1, the first threnody, not the second cypress piece.",
+        "This Decca file is not verified as Philips 9500 775."
       ]
     },
     "4305503": {

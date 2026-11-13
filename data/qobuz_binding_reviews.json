@@ -1328,6 +1328,96 @@
           23693733
         ]
       }
+    },
+    {
+      "discogs_id": "4395895",
+      "album_id": "0002894784779",
+      "review_kind": "bound-tracks",
+      "decision": "probable",
+      "target_sha256": "76a63bea49ec6016cbe169c27be1678637c5b9082abeb534124d8f0613afd3fc",
+      "album_sha256": "489e780219acc090a9c9a4967dd3fb4cb552521bf2d06bbc38ebf03ddbd42f44",
+      "source_sha256": "d1e6679f04c82251d59b7a4a0659dca4148ffe89c940c9b1c5f949b064fef28a",
+      "pulls": [],
+      "adds": [
+        {
+          "track_id": 6802204,
+          "target": "Sunt Lacrimae Rerum (Années De Pèlerinage 3e Année N° 5)",
+          "title_contains": "Sunt lacrimae",
+          "reason": "The file names the same piece."
+        },
+        {
+          "track_id": 6802205,
+          "target": "Schlummerlied = Slumber Song = Berceuse (Weihnachtsbaum = Christmas Tree = Arbre De Noël N° 7)",
+          "title_contains": "Schlummerlied",
+          "reason": "The file names the same piece."
+        },
+        {
+          "track_id": 6802206,
+          "target": "Valse Oubliée N° 1",
+          "title_contains": "Valse oubliée No. 1",
+          "reason": "The file names the same piece."
+        },
+        {
+          "track_id": 6802207,
+          "target": "Unstern! Sinistre - Disastro",
+          "title_contains": "Unstern",
+          "reason": "The file names the same piece."
+        },
+        {
+          "track_id": 6802209,
+          "target": "Mosonyis Grabgeleit = Funeral Music For Mosonyi = Marche Funèbre Pour La Mort De Mosonyi",
+          "title_contains": "Mosonyis Grabgeleit",
+          "reason": "The file names the same piece."
+        }
+      ],
+      "required_performers": [
+        "Alfred Brendel"
+      ],
+      "movement_runs": false,
+      "marks": [
+        {
+          "track_id": 6802202,
+          "text": "No. 1"
+        }
+      ],
+      "sources": [
+        "https://www.qobuz.com/fr-fr/album/liszt-late-piano-works-alfred-brendel/0002894784779"
+      ],
+      "limitations": [
+        "N° 2 of the third year is Aux cyprès No. 1, the first threnody, not the second cypress piece.",
+        "This Decca file is not verified as Philips 9500 775."
+      ],
+      "recording_review": "Philips 9500 775 is Brendel’s 1980 Liszt late-piano recital. This file has all nine pieces, with Brendel on every track.",
+      "extra_track_ids": [],
+      "expected": {
+        "Aux Cyprès De La Villa D'Este (Années De Pèlerinage 3e Année N° 2)": [
+          6802202
+        ],
+        "Les Jeux D'eau À La Villa D'Este (Années De Pèlerinage 3e Année N° 4)": [
+          6802203
+        ],
+        "Sunt Lacrimae Rerum (Années De Pèlerinage 3e Année N° 5)": [
+          6802204
+        ],
+        "Schlummerlied = Slumber Song = Berceuse (Weihnachtsbaum = Christmas Tree = Arbre De Noël N° 7)": [
+          6802205
+        ],
+        "Valse Oubliée N° 1": [
+          6802206
+        ],
+        "Unstern! Sinistre - Disastro": [
+          6802207
+        ],
+        "Schlaflos! - Frage Und Antwort": [
+          6802208
+        ],
+        "Mosonyis Grabgeleit = Funeral Music For Mosonyi = Marche Funèbre Pour La Mort De Mosonyi": [
+          6802209
+        ],
+        "Csárdás Macabre": [
+          6802210
+        ]
+      }
     }
   ]
 }

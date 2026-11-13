@@ -1007,3 +1007,16 @@ Fidelio or substitute Leonore overtures, so neither was downloaded. Copies
 12/92/637, unique 12/92/636. Inventory of the 636 still unchecked: 305 no saved
 hits, 12 metadata-needed, 311 work or credit gaps, 7 reviewed withholds, and
 the Barenboim caution. The explorer shows 85% and 2/2.
+
+## 2026-11-13 — Brendel’s late Liszt recital published
+
+Philips 9500 775 has nine late pieces. The Decca file has those nine, with
+Brendel on every track. Probable 85 for 4395895. N° 2 of the third year is
+Aux cyprès No. 1, the first threnody. The file is not verified as that Philips
+pressing. Carnaval 13671866 stays unpublished: the LP joins movements that the
+file splits, and Prêtre is not credited on the piano-only numbers. François
+12419718 stays unpublished: the saved file is the 176-track Chopin box, not
+Columbia FCX 30120. Copies 12/93/636, unique 12/93/635. Inventory of the 635
+still unchecked: 305 no saved hits, 12 metadata-needed, 310 work or credit
+gaps, 7 reviewed withholds, and the Barenboim caution. The explorer shows 85%
+and 9/9.

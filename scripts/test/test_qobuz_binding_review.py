@@ -39,7 +39,7 @@ class BindingReviewTests(unittest.TestCase):
                 published.append(discogs_id)
             else:
                 self.assertIsNone(candidate)
-        self.assertEqual(published, ['11562013', '3475547', '11168177', '6029612', '5177097', '7525022', '4483876', '7119504', '6472687', '10757104', '15980846'])
+        self.assertEqual(published, ['11562013', '3475547', '11168177', '6029612', '5177097', '7525022', '4483876', '7119504', '6472687', '10757104', '15980846', '4395895'])
 
     def test_an_ensemble_alias_needs_a_reason_and_still_names_the_source_ensemble(self):
         row, album, review = self.review('15980846')
