@@ -171,3 +171,15 @@ Use provider-supplied locale/slug album URLs from a separate shared offline inde
 never synthesize bare www.qobuz.com/album/ID links. Keep matching evidence and
 recording-review hashes immutable for presentation-only URL corrections. Validate
 exact HTTPS host/path/album ID; absent URL evidence gets a search fallback.
+
+## 2026-11-13 — Bound named-section and malformed-title reviews
+
+Status: adopted in user-authorized Qobuz round2.
+
+Exact target/candidate/track hashes may support reviewed named liturgical sections
+without globally weakening movement parsing. A reviewed malformed work heading
+may be interpreted canonically only inside that source-bound review, preserving
+original text and original work-credit assignment keys. Recompute all required
+performers and complete non-overlapping sections; cap additions at Probable85.
+Conflicting catalogue/key information remains unresolved until specifically
+reviewed; search recovery and correct musicians alone do not authorize a match.

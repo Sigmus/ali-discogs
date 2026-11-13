@@ -41,7 +41,12 @@ documented in a linked plan. Implementation is a separate step.
 
 ## AD-008 — Improve Qobuz coverage beyond conservative v1
 
-Status: bounded offline improvement and 30-release comparison complete,
+Status: user-authorized [round2](../plans/2026-11-13-qobuz-round2.md) complete:
+3new bounded Probables (Klemperer,Ancerl,deVito),40slow searches for20empty
+releases recover hits for18;2selected metadata fetches (15tracks), no warnings.
+Richter pair remains unresolved for source catalogue/key conflicts. Further work
+is proposed: verify that bounded correction, shorten title queries and improve
+explicit role/composer normalization. No broad run, push or deployment authorized. Prior bounded offline improvement and30-release comparison complete,
 including twenty slow Qobuz fallback queries and eight album metadata inspections. See
 [comparison plan](../plans/2026-11-13-service-comparison-pilot.md). Further expansion
 remains proposed. See [pilot and review](../plans/2026-11-13-qobuz-coverage-pilot.md).

@@ -1,0 +1,568 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-13",
+  "purpose": "Bounded cached near-match review; exact section hashes, current performer support, Probable cap. Not calibrated/session verification.",
+  "releases": [
+    {
+      "discogs_id": "6381208",
+      "album_id": "kno5hz96hygbc",
+      "target_sha256": "c8060f0d5d8fdc75ed1114861b87fbc798be1260d9d1e9200c74722af07a3d0a",
+      "album_sha256": "8b84847a5466c057cfcd25e7daa9801dfb7650f74a94a9489641f30ec55bce92",
+      "decision": "probable",
+      "recording_review": "Full Klemperer/New Philharmonia cast agrees with the documented 1965 EMI recording; eleven digital sections cover the five requested mass movements. Grouped movement timings agree with the LP within 3%.",
+      "sources": [
+        "https://www.warnerclassics.com/de/release/beethoven-missa-solemnis",
+        "https://ci.nii.ac.jp/ncid/BA56807310"
+      ],
+      "limitations": [
+        "Publisher/library documentation supports the recording family, not an exact barcode/take or Angel LP mastering guarantee.",
+        "Required named singers are supported within the contiguous work group; not every movement has every voice."
+      ],
+      "target_source": {
+        "sha256": "9722132d04fc92085f46e655766b6a15481616f68b01ebc1306a6e0e134f72d5",
+        "title": "Missa Solemnis",
+        "labels": [
+          {
+            "name": "Angel Records",
+            "catno": "SB-3679"
+          },
+          {
+            "name": "Angel Records",
+            "catno": "3679"
+          }
+        ],
+        "tracklist": [
+          {
+            "position": "",
+            "type_": "index",
+            "title": "Missa Solemnis",
+            "duration": "",
+            "sub_tracks": [
+              {
+                "position": "A1",
+                "type_": "track",
+                "title": "Kyrie",
+                "duration": "9:08"
+              },
+              {
+                "position": "A2",
+                "type_": "track",
+                "title": "Gloria",
+                "duration": "18:20"
+              },
+              {
+                "position": "B",
+                "type_": "track",
+                "title": "Credo",
+                "duration": "20:24"
+              },
+              {
+                "position": "C",
+                "type_": "track",
+                "title": "Sanctus / Benedictus",
+                "duration": "15:38"
+              },
+              {
+                "position": "D",
+                "type_": "track",
+                "title": "Agnus Dei",
+                "duration": "15:00"
+              }
+            ]
+          }
+        ],
+        "notes": "12-page insert in English, containing notes, text, translations, and biographies of the artists.  Auto-coupled release.\n\nSlip case\n\nLabelography Code: US-LB-S-2: US | Light Blue | Stereo | Iteration 2\n- Release Dates: February 1965 - December 1969\n- Notes:\n-- Small Recording Angel logo at top\n-- Silver decoration around label circumference\n-- \"Mfd. in U.S.A.\" or \"Manufactured in U.S.A.\" above\n-- STEREO in serif font\n"
+      },
+      "works": [
+        {
+          "target": "Missa Solemnis",
+          "movements": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11
+          ],
+          "scope": "reviewed-named-sections",
+          "source": "cached target nested tracklist and full digital section sequence; recording sources listed in review",
+          "reason": "Five target movements mapped to digital sections: Kyrie[1], Gloria[2–4], Credo[5–7], Sanctus/Benedictus[8–9], Agnus Dei[10–11]. This is eleven sections, not eleven independent mass movements.",
+          "reviewed_sections": {
+            "241256109": {
+              "track_sha256": "1ad7c41476af3878926f9ce3ce0aa36482fc609c295386b59a3a8648aff8988e",
+              "movements": [
+                1
+              ]
+            },
+            "241256110": {
+              "track_sha256": "23ba36f305ff400bd76b2a157cafc8d64610023470ad594071bd47ac5c378116",
+              "movements": [
+                2
+              ]
+            },
+            "241256111": {
+              "track_sha256": "b74c75a1ba93122d635715aeaf3320e10890ded446382d74a06b633af7eaf05d",
+              "movements": [
+                3
+              ]
+            },
+            "241256112": {
+              "track_sha256": "b78392360940bb3216b11260bc699622daefbdb61437a1b75713e4cf8d775356",
+              "movements": [
+                4
+              ]
+            },
+            "241256113": {
+              "track_sha256": "0344c8e6f47f571d1c326157f83ead8712afca365489b7a66664644c46ed432b",
+              "movements": [
+                5
+              ]
+            },
+            "241256114": {
+              "track_sha256": "f91ef650d048704c04f27eee153bd898303abcfb5c4dec86850552d8d5a02bc6",
+              "movements": [
+                6
+              ]
+            },
+            "241256115": {
+              "track_sha256": "d331ce7a490fa08999b1935d2f1d152899186ca7a0f396988592dc6303a95d7d",
+              "movements": [
+                7
+              ]
+            },
+            "241256116": {
+              "track_sha256": "fdf264fd017747e9c205f03753e585a8481e0c6f33b602dc1f7021866e8f3741",
+              "movements": [
+                8
+              ]
+            },
+            "241256117": {
+              "track_sha256": "c3fd6e6e75239c2e52f52094a21adf4acff93f2588f7b41739aa39b721b2eb26",
+              "movements": [
+                9
+              ]
+            },
+            "241256118": {
+              "track_sha256": "c98eeb3de89b30570e09ebcacc21ad7ed9ac0aec57089a44c59369525e270e13",
+              "movements": [
+                10
+              ]
+            },
+            "241256119": {
+              "track_sha256": "0fd8ee408600189c8479f45e99f17670166f6e96de76e2efb377c4085653a21f",
+              "movements": [
+                11
+              ]
+            }
+          }
+        }
+      ],
+      "timing_review": [
+        {
+          "target_seconds": 548,
+          "candidate_seconds": 564
+        },
+        {
+          "target_seconds": 1100,
+          "candidate_seconds": 1100
+        },
+        {
+          "target_seconds": 1224,
+          "candidate_seconds": 1236
+        },
+        {
+          "target_seconds": 938,
+          "candidate_seconds": 946
+        },
+        {
+          "target_seconds": 900,
+          "candidate_seconds": 914
+        }
+      ]
+    },
+    {
+      "discogs_id": "6599326",
+      "album_id": "tzrc8oc3d248a",
+      "target_sha256": "3b2f3bbb83eff98b08a2f0936e4bb8a57b362f24219a810cf12fe3c5a842485f",
+      "album_sha256": "7aee27d683584e3b0121f754990bb6406c92c8f125f3efffc9d268895dbef8d6",
+      "decision": "probable",
+      "recording_review": "All thirteen requested Requiem sections and the Ancerl/Stader/Wagner/Haefliger/Borg/Czech Philharmonic cast agree with the documented 1959 recording; the different 1964 Ancerl cast is excluded.",
+      "sources": [
+        "https://www.antonin-dvorak.cz/en/work/requiem-recordings/",
+        "https://ge.nii.ac.jp/ncid/BB24443630"
+      ],
+      "limitations": [
+        "Selected digital edition is a third-party reissue, not the original DG label; mastering, transfer provenance and exact take remain unverified.",
+        "Introitus/Kyrie corresponds to Requiem aeternam, Domine Jesu to Offertorium, and Sanctus/Benedictus to Sanctus; these mappings are restricted to this reviewed candidate."
+      ],
+      "target_source": {
+        "sha256": "491e6555252881dda43debbd5b290e3cd81c61ad0045956bd5ab8151208baa38",
+        "title": "Requiem Op. 89",
+        "labels": [
+          {
+            "name": "Deutsche Grammophon",
+            "catno": "138 026/27 SLPM"
+          }
+        ],
+        "tracklist": [
+          {
+            "position": "",
+            "type_": "index",
+            "title": "Requiem Op. 89",
+            "duration": "",
+            "sub_tracks": [
+              {
+                "position": "A1",
+                "type_": "track",
+                "title": "1. Introitus - Kyrie",
+                "duration": ""
+              },
+              {
+                "position": "A2",
+                "type_": "track",
+                "title": "2. Graduale",
+                "duration": ""
+              },
+              {
+                "position": "A3",
+                "type_": "track",
+                "title": "3. Dies Irae",
+                "duration": ""
+              },
+              {
+                "position": "A4",
+                "type_": "track",
+                "title": "4. Tuba Mirum",
+                "duration": ""
+              },
+              {
+                "position": "B5",
+                "type_": "track",
+                "title": "5. Quid Sum Miser",
+                "duration": ""
+              },
+              {
+                "position": "B6",
+                "type_": "track",
+                "title": "6. Recordare",
+                "duration": ""
+              },
+              {
+                "position": "B7",
+                "type_": "track",
+                "title": "7. Confutatis Maledictis",
+                "duration": ""
+              },
+              {
+                "position": "B8",
+                "type_": "track",
+                "title": "8. Lacrymosa",
+                "duration": ""
+              },
+              {
+                "position": "C9",
+                "type_": "track",
+                "title": "9. Domine Jesu",
+                "duration": ""
+              },
+              {
+                "position": "C10",
+                "type_": "track",
+                "title": "10. Hostias",
+                "duration": ""
+              },
+              {
+                "position": "D11",
+                "type_": "track",
+                "title": "11. Sanctus - Benedictus",
+                "duration": ""
+              },
+              {
+                "position": "D12",
+                "type_": "track",
+                "title": "12. Pie Jesu",
+                "duration": ""
+              },
+              {
+                "position": "D13",
+                "type_": "track",
+                "title": "13. Agnus Dei",
+                "duration": ""
+              }
+            ]
+          }
+        ],
+        "notes": "Not a gatefold cover - hard cardboard sleeve.  Timecode on back 1/60.\nAuto-coupled"
+      },
+      "works": [
+        {
+          "target": "Requiem Op. 89",
+          "movements": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10,
+            11,
+            12,
+            13
+          ],
+          "scope": "reviewed-named-sections",
+          "source": "cached target nested tracklist and full digital section sequence; recording sources listed in review",
+          "reason": "Thirteen sections in target order; exact reviewed title/track hashes resolve nonstandard l./Roman labels and named liturgical equivalences without changing global parsing.",
+          "reviewed_sections": {
+            "133795929": {
+              "track_sha256": "127dc145dcbb32632b42703f94891963b336af0a49f5ef32484d1feee03f9e47",
+              "movements": [
+                1
+              ]
+            },
+            "133795930": {
+              "track_sha256": "fcd409e4d1bd748b22a1f7b571c670bef6f13feba3c5c362597ce44167013a5f",
+              "movements": [
+                2
+              ]
+            },
+            "133795931": {
+              "track_sha256": "4d3d3ab9a99b08387b5d24152cebb40a721ad84e5510b3152ea655168477aef6",
+              "movements": [
+                3
+              ]
+            },
+            "133795932": {
+              "track_sha256": "fdc260c177aca57179bf0c37582829c3d9ecc5c875db82ec907c9ada87cc09ce",
+              "movements": [
+                4
+              ]
+            },
+            "133795933": {
+              "track_sha256": "784c14c36a2408d45070633c87868906d79a5e25791b721228f4a6149537d1cf",
+              "movements": [
+                5
+              ]
+            },
+            "133795934": {
+              "track_sha256": "6b476d694a3107c14eacff58f3e0ecf3fb433497d7f694f078774cca4bd6ba5a",
+              "movements": [
+                6
+              ]
+            },
+            "133795935": {
+              "track_sha256": "0f5897957b17f6bd887e0faed636bfac2f089c4821cfc7d2717e7828cf9185cc",
+              "movements": [
+                7
+              ]
+            },
+            "133795936": {
+              "track_sha256": "7543cdab7dce65532b9d3d9ea601aab8c76664ddc70e59f72402e60579d2bd00",
+              "movements": [
+                8
+              ]
+            },
+            "133795937": {
+              "track_sha256": "7893fee91a2566a244cda3b971576c1b3c4f75cdb80ea2894096f9ed65ec0143",
+              "movements": [
+                9
+              ]
+            },
+            "133795938": {
+              "track_sha256": "25424226f888d248a97897c424430ab1f9584215bea24f006df6debe3ded0282",
+              "movements": [
+                10
+              ]
+            },
+            "133795939": {
+              "track_sha256": "d83f8a0d0c16a67e8b099823426eeaac04e995159b0f8e5dd1ea7faf86de4035",
+              "movements": [
+                11
+              ]
+            },
+            "133795940": {
+              "track_sha256": "396baed6946525d94ea9ef26f76feac108cc067f26b6d16a2627f527d1417fe1",
+              "movements": [
+                12
+              ]
+            },
+            "133795941": {
+              "track_sha256": "af0fad84cbfd8d6becb0eae7696935575d711e16c2e32b32f2d0fba6b53cbf24",
+              "movements": [
+                13
+              ]
+            }
+          }
+        }
+      ]
+    },
+    {
+      "discogs_id": "8151148",
+      "album_id": "3614591254543",
+      "target_sha256": "d8be1f5e2c88ade8e3f3cdf2f440b50ec8ac4d5b6e51e8effe562394db3ef182",
+      "album_sha256": "9587f7b3a2c5050d394b2d28636805e6d6c49e6fe727249a269ada164573d3cf",
+      "decision": "probable",
+      "target_title_corrections": {
+        "Sonata Per Violino E Pianoforte N. 1 In Sol Magg., Op. 78N. 1 In  Sol  Maggiore, Op. 78  ": "Violin Sonata No. 1 in G Major, Op. 78"
+      },
+      "recording_review": "All seven movements of Brahms Sonatas1/3 list both Gioconda de Vito and Edwin Fischer. Publisher/library documentation identifies their 1954 EMI recordings, consistent with the target pairing.",
+      "sources": [
+        "https://www.hyperion-records.co.uk/dc.asp?dc=D_APR7314",
+        "https://ci.nii.ac.jp/ncid/BA47147480"
+      ],
+      "limitations": [
+        "The original source heading repeats Op.78 and joins No.1 to the opus number. Reviewed as Sonata No.1, Op.78; the original Discogs text is retained.",
+        "BNF Collection digital transfer differs from the original EMI LP edition; exact transfer/mastering and take identity remain unverified."
+      ],
+      "target_source": {
+        "sha256": "39a85fdc76a46c21c54a82a80173e666ef9d7632f62f71df588a7a8a051fcb78",
+        "title": "Sonata Per Violino E Pianoforte N.1 E N.3",
+        "labels": [
+          {
+            "name": "La Voce Del Padrone",
+            "catno": "53 2902571 M"
+          }
+        ],
+        "tracklist": [
+          {
+            "position": "",
+            "type_": "index",
+            "title": "Sonata Per Violino E Pianoforte N. 1 In Sol Magg., Op. 78N. 1 In  Sol  Maggiore, Op. 78  ",
+            "duration": "",
+            "sub_tracks": [
+              {
+                "position": "A1",
+                "type_": "track",
+                "title": "Primo Movim.: Vivace Ma Non troppo",
+                "duration": ""
+              },
+              {
+                "position": "A2",
+                "type_": "track",
+                "title": "Secondo Movim.: Adagio - Più Andante",
+                "duration": ""
+              },
+              {
+                "position": "A3",
+                "type_": "track",
+                "title": "Terzo Movim.: Allegro Molto Moderato - Traquillo - Più Moderato",
+                "duration": ""
+              }
+            ]
+          },
+          {
+            "position": "",
+            "type_": "index",
+            "title": "Sonata Per Violino E Pianoforte N. 3 In Re Minore., Op. 108",
+            "duration": "",
+            "sub_tracks": [
+              {
+                "position": "B1",
+                "type_": "track",
+                "title": "Primo Movim.: Allegro",
+                "duration": ""
+              },
+              {
+                "position": "B2",
+                "type_": "track",
+                "title": "Secondo Movim.: Adagio",
+                "duration": ""
+              },
+              {
+                "position": "B3",
+                "type_": "track",
+                "title": "Terzo Movim.: Un Poco Presto E Con Sentimento",
+                "duration": ""
+              },
+              {
+                "position": "B4",
+                "type_": "track",
+                "title": "Quarto Movim.: Presto Agitato",
+                "duration": ""
+              }
+            ]
+          }
+        ],
+        "notes": "Ⓟ 1956 EMI Records Ltd.\nⒸ 1985 EMI Italiana SpA"
+      },
+      "works": [
+        {
+          "target": "Sonata Per Violino E Pianoforte N. 1 In Sol Magg., Op. 78N. 1 In  Sol  Maggiore, Op. 78  ",
+          "movements": [
+            1,
+            2,
+            3
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "cached target nested three/four movement structure; library/publisher recording documentation",
+          "reason": "All target movements in order with both named violinist and pianist; malformed duplicated title interpreted only in this reviewed pair.",
+          "reviewed_sections": {
+            "22828354": {
+              "track_sha256": "c638566907bf6e49683482ac5b5bdb486bb613f9edaf17e22e6e358d78b4773a",
+              "movements": [
+                1
+              ]
+            },
+            "22828356": {
+              "track_sha256": "8835b084a7f02dda9768d142451177c44f65182dedc597e740f21729c8db3df5",
+              "movements": [
+                2
+              ]
+            },
+            "22828358": {
+              "track_sha256": "29b23c10856d8c07a9a7ac3db0c0eefe8817b4148c5fbc0e3b6c630d2396889c",
+              "movements": [
+                3
+              ]
+            }
+          }
+        },
+        {
+          "target": "Sonata Per Violino E Pianoforte N. 3 In Re Minore., Op. 108",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "cached target nested three/four movement structure; library/publisher recording documentation",
+          "reason": "All target movements in order with both named violinist and pianist; malformed duplicated title interpreted only in this reviewed pair.",
+          "reviewed_sections": {
+            "22828360": {
+              "track_sha256": "9bdbf03d426064193c15cfcb03b9c859082e4c4539d5ec4fee440e10a57251f3",
+              "movements": [
+                1
+              ]
+            },
+            "22828362": {
+              "track_sha256": "53fbb048e42590f42189da2e7ac7a6e7a9710364c53606f1947a5248c3107980",
+              "movements": [
+                2
+              ]
+            },
+            "22828364": {
+              "track_sha256": "cfd9309ad380bf381e0b82bb779629019b7e93d452f12d6ee27c83e424d71a9d",
+              "movements": [
+                3
+              ]
+            },
+            "22828366": {
+              "track_sha256": "e1f2cde295c31301e248b18e8e1c5629f9201d1cc7df510cf4644bdefb2d13c0",
+              "movements": [
+                4
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ]
+}

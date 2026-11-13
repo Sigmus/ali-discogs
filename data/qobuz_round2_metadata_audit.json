@@ -1,0 +1,136 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "discogs_id": "3667210",
+      "album_id": "m5in5vzcm30pa",
+      "title": "Bartók: Piano Concerto No. 2, Sz. 95 - Prokofiev: Piano Concerto No. 5, Op. 55",
+      "track_count": 8,
+      "unmodified_matcher_evidence": {
+        "status": "unchecked",
+        "confidence": null,
+        "coverage": 0.5,
+        "covered": 1,
+        "target_count": 2,
+        "required_performers": [
+          "Lorin Maazel",
+          "Sviatoslav Richter",
+          "London Symphony Orchestra",
+          "Orchestre De Paris"
+        ],
+        "programme": [
+          {
+            "target": "Piano Concerto No.2, Sz83#",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": [],
+            "required_performers": [
+              "Lorin Maazel",
+              "Sviatoslav Richter",
+              "Orchestre De Paris"
+            ],
+            "target_credit_scope": {
+              "source": "cached Discogs explicit work/position credits",
+              "positions": [
+                "A1",
+                "A2",
+                "A3"
+              ],
+              "performers": [
+                {
+                  "name": "Orchestre De Paris",
+                  "role": "Orchestra"
+                }
+              ]
+            }
+          },
+          {
+            "target": "Piano Concerto No.5 In G Minor, Op.55",
+            "work_tracks": 5,
+            "credited_tracks": 5,
+            "track_ids": [
+              455299213,
+              455299214,
+              455299215,
+              455299216,
+              455299217
+            ],
+            "required_performers": [
+              "Lorin Maazel",
+              "Sviatoslav Richter",
+              "London Symphony Orchestra"
+            ],
+            "target_credit_scope": {
+              "source": "cached Discogs explicit work/position credits",
+              "positions": [
+                "B1",
+                "B2",
+                "B3",
+                "B4"
+              ],
+              "performers": [
+                {
+                  "name": "London Symphony Orchestra",
+                  "role": "Orchestra"
+                }
+              ]
+            }
+          }
+        ],
+        "reasons": [
+          "1/2 target items supported after composer/work grouping; unresolved.",
+          "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
+        ],
+        "work_group_policy": "qobuz-work-groups-v1"
+      },
+      "reviewed_for_probable": false,
+      "finding": "Target says Sz83# versus candidate Sz95 and G minor versus G major. Both concertos have correct named performers/orchestras, but catalogue correction is not automatically accepted; remains Unchecked."
+    },
+    {
+      "discogs_id": "8151148",
+      "album_id": "3614591254543",
+      "title": "Brahms: Violin Sonatas Nos. 1 & 3",
+      "track_count": 7,
+      "unmodified_matcher_evidence": {
+        "status": "unchecked",
+        "confidence": null,
+        "coverage": 0.5,
+        "covered": 1,
+        "target_count": 2,
+        "required_performers": [
+          "Gioconda De Vito",
+          "Edwin Fischer"
+        ],
+        "programme": [
+          {
+            "target": "Sonata Per Violino E Pianoforte N. 1 In Sol Magg., Op. 78N. 1 In  Sol  Maggiore, Op. 78  ",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Sonata Per Violino E Pianoforte N. 3 In Re Minore., Op. 108",
+            "work_tracks": 4,
+            "credited_tracks": 4,
+            "track_ids": [
+              22828360,
+              22828362,
+              22828364,
+              22828366
+            ]
+          }
+        ],
+        "reasons": [
+          "1/2 target items supported after composer/work grouping; unresolved."
+        ]
+      },
+      "reviewed_for_probable": true,
+      "finding": "Malformed duplicated Op78N1/Op78 heading cleaned only within this exact reviewed target/candidate pair. Three plus four movements with both named players pass; Probable85, remaster/take unverified."
+    }
+  ],
+  "summary": {
+    "selected_albums": 2,
+    "tracks": 15,
+    "promoted": 1
+  }
+}

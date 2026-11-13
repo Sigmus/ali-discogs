@@ -692,3 +692,24 @@ or Pages publication is part of this push; active search is not restarted.
   tests, UI URL normalization, syntax/build/diff checks pass. Documentation updated.
 - Main push will trigger the existing validated Pages workflow; verify its result
   before claiming the link correction is live.
+
+## 2026-11-13 — Qobuz round2 completes with three new Probables
+
+- User authorized cached near-matches first, then20-release slow fallback batch.
+  Isolated on `codex/qobuz-coverage-round2`. Klemperer6381208 and Ancerl6599326
+  pass exact named-section/performer reviews. New deVito8151148 pair passes7
+  movements/both performers after bounded malformed-heading interpretation.
+  Local counts12Found/70Probable/659Unchecked copies; unique12/70/658.
+- Forty fixed queries yield27nonempty,18/20releases with hits,107release-candidate
+  pairs. Twelve pairs with existing metadata have no unmodified full acceptance.
+  Two selected new metadata albums complete (15tracks). Richter3667210 remains
+  Unchecked for target catalogue/key conflicts; no guessed opus alias enabled.
+- Retrieval serial, >=15second spacing including discovery, resumable, no API
+  warnings/retries/audio. Shared41new responses; archive1,829, all prior1,788
+  payloads unchanged. Original evidence archives unchanged; canonical URLs1,045.
+- Nine pipeline tests +75script tests (84total), audit/replay, UI/JS/build/diff and
+  private credential-value checks pass. Only3intended publication records change;
+  repeated output identical; local Klemperer/deVito details verified. Spotify
+  untouched. Work uncommitted/unpushed; deployed main still12/67/662Qobuz copies.
+- [Scope, outcomes, evidence and next proposals](../plans/2026-11-13-qobuz-round2.md).
+  No additional batch, commit/push or deployment authorized by this completed run.

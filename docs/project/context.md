@@ -8,13 +8,13 @@ plans preserve dated evidence and prior handoffs.
 
 ## Current state
 
-- On `main`; feature merged through [PR2](https://github.com/Sigmus/ali-discogs/pull/2)
-  as02ec297 after remote CI passed. User authorized push/PR/merge/deploy.
-  GitHub Pages deployed and live assets/browser verified on2026-11-13.
+- Active branch `codex/qobuz-coverage-round2`, based on deployed main1735ab7.
+  User authorized cached near-match validation, then a slow20-release fallback
+  batch. Local changes uncommitted; no push/merge/deploy requested.
 - Current collection:741 copies /740 unique releases. Spotify254Found /273Probable
   /210NotFound /4Unchecked copies. Retained labels are not independent full
   recording confirmations. Qobuz figures below are independent enrichment.
-- Qobuz overlay: 12 Found / 67 Probable / 662 unchecked copies; unique 12/67/661.
+- Qobuz overlay: 12 Found / 70 Probable / 659 unchecked copies; unique12/70/658 locally.
   Separate `data/qobuz_matches.json` survives Spotify rescoring; original pipeline
   Qobuz fields stay unchecked. Empty/inconclusive queries are not confirmed absence.
 - Sonoteque table/details, 80% main width, column sorting (Year ascending default),
@@ -29,7 +29,7 @@ plans preserve dated evidence and prior handoffs.
   27,770 tracks, album IDs/counts/unique track IDs verified. One 500/730-track
   response was recovered with user-authorized strict pagination. Monitors deleted.
 - Shared `data/qobuz_evidence.json.gz` preserves original whitelisted evidence.
-  Raw request archive now has 1,788 responses (29 added in later bounded pilots);
+  Raw request archive now has1,829 responses (41 added in round2);
   original member payloads preserved. Credentials/run state remain ignored.
 - Comparison pilot adds portable `data/qobuz_comparison_evidence.json.gz`: twenty
   fallback queries and eight complete selected albums (seven new/one reused).
@@ -83,18 +83,18 @@ plans preserve dated evidence and prior handoffs.
 
 ## Validation and next action
 
-- Fresh checkout simulation passes9pipeline/guard +66script tests, portable audit,
-  byte-identical Qobuz replay, UI/JS/build. No local credentials/caches required.
+- Current round2 checks:9pipeline/guard +75script tests, offline audit/replay,
+  canonical URLs, UI/JS/build pass. Prior fresh-checkout validation remains recorded.
   Credential scan/whitelist/build-boundary checks pass; browser UI verified.
-- PR CI and merged-main test/Pages runs passed. Live index/app/style/collection/
-  summary/Qobuz JSON match the release; deployed Dvorak detail renders correctly.
-  Publication figures and four withheld programmes verified from live data.
-- Canonical Qobuz URL fix complete: shared1,043-album URL index from cached
-  metadata; selected/candidate/pilot/sample links fixed. Evidence and scores
-  unchanged. User requested commit/push; no Qobuz API calls needed.
+- Deployed main1735ab7 remains12/67/662Qobuz copies; round2 is local/uncommitted.
+  Next proposal: verify Richter catalogue conflicts, then shorter work queries
+  and explicit role/composer normalization. No further batch/publication authorized.
+- Round2 complete: Klemperer Missa, Ancerl Requiem and deVito/Fischer Sonatas1/3
+  now Probable85 with bounded evidence/source-title review. Search40queries:
+  18/20releases have hits,107pairs;2selected albums15tracks fetched without warnings.
+  Richter pair withheld for source catalogue/key conflicts. No active retrieval.
+- [Active round2 scope and findings](../plans/2026-11-13-qobuz-round2.md).
 - [Follow-up findings and readiness](../plans/2026-11-13-spotify-followup-readiness.md).
 - [Spotify safeguard](../plans/2026-11-13-spotify-programme-safeguard.md) records scope and checks.
 - Latest review: [four Qobuz leads](../plans/2026-11-13-qobuz-lead-validation.md).
-- Details: [refinement and Spotify audit](../plans/2026-11-13-query-credits-spotify-tracks.md),
-  [comparison pilot](../plans/2026-11-13-service-comparison-pilot.md),
-  [backlog](backlog.md), [decisions](decisions.md), [history](history.md).
+- [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).

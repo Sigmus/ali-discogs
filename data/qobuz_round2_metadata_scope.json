@@ -1,0 +1,17 @@
+{
+  "schema_version": 1,
+  "selected_on": "2026-11-13",
+  "purpose": "At most two exact paired-programme leads from completed result sets; retrieve only after the40-query search stage. No automatic match acceptance.",
+  "entries": [
+    {
+      "discogs_id": "3667210",
+      "album_id": "m5in5vzcm30pa",
+      "selection_reason": "Exact Bartok2/Prokofiev5 pairing; resolve explicit target orchestra assignments, target catalogue typo and joined finale before acceptance."
+    },
+    {
+      "discogs_id": "8151148",
+      "album_id": "3614591254543",
+      "selection_reason": "Explicit Brahms Violin Sonatas1/3 pairing by deVito; verify full movements and both performers."
+    }
+  ]
+}

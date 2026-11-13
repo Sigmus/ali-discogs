@@ -87,6 +87,9 @@ def load():
 
 
 def requirements(row,title,global_required):
+    # Only the hash-bound review adapter supplies this mapping. Title cleanup
+    # must not discard the original source's per-work performer assignments.
+    title = row.get('_reviewed_title_sources', {}).get(title, title)
     entries=load().get(str(row.get('discogs_id')),[])
     active=[e for e in entries if e['title']==title]
     if not entries or len(active)>1:return row,global_required,None

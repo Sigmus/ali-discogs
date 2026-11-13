@@ -221,6 +221,27 @@ def generate():
     from qobuz_lead_review import load_reviews, reviewed_candidate, REVIEW, ARCHIVE
     reviews, reviewed_albums = load_reviews()
     lead_reviews = {r['discogs_id']: r for r in reviews}
+    round2_path = ROOT/'data/qobuz_round2_reviews.json'
+    round2 = json.loads(round2_path.read_text())
+    if round2['schema_version'] != 1:
+        raise ValueError('Unsupported round-two review schema')
+    round2_reviews = {r['discogs_id']: r for r in round2['releases']}
+    if len(round2_reviews) != len(round2['releases']):
+        raise ValueError('Duplicate round-two review')
+    round2_meta_path = ROOT/'data/qobuz_round2_metadata.json.gz'
+    import gzip
+    with gzip.open(round2_meta_path, 'rt') as handle:
+        round2_meta = json.load(handle)
+    if round2_meta['schema_version'] != 1:
+        raise ValueError('Unsupported round-two metadata schema')
+    round2_albums = dict(snapshot['albums'])
+    for record in round2_meta['metadata']:
+        album = record['album']
+        tracks = album['tracks']['items']
+        if (str(album['id']) != record['task']['album_id'] or len(tracks) != album['tracks_count']
+                or len({t['id'] for t in tracks}) != len(tracks)):
+            raise ValueError('Incomplete round-two metadata')
+        round2_albums[str(album['id'])] = album
     results = {}
     for entry in manifest['entries']:
         rid = entry['discogs_id']
@@ -243,6 +264,11 @@ def generate():
             extra = reviewed_candidate(rows[rid], reviewed_albums[review['album_id']], review)
             if extra and extra['id'] not in {c['id'] for c in candidates}:
                 candidates.append(extra)
+        review = round2_reviews.get(str(rid))
+        if review:
+            extra = reviewed_candidate(rows[rid], round2_albums[review['album_id']], review)
+            if extra:
+                candidates = [c for c in candidates if c['id'] != extra['id']] + [extra]
         candidates.sort(key=lambda a: ({'found': 2, 'probable': 1, 'unchecked': 0}[a['status']], a['coverage'], a['confidence'] or 0), reverse=True)
         best = candidates[0] if candidates else None
         results[str(rid)] = {'status': best['status'] if best else 'unchecked',
@@ -261,6 +287,8 @@ def generate():
               'lead_review_fingerprint': hashlib.sha256(REVIEW.read_bytes()).hexdigest(),
               'comparison_evidence_fingerprint': hashlib.sha256(ARCHIVE.read_bytes()).hexdigest(),
               'album_urls_fingerprint': hashlib.sha256(URL_INDEX.read_bytes()).hexdigest(),
+              'round2_review_fingerprint': hashlib.sha256(round2_path.read_bytes()).hexdigest(),
+              'round2_metadata_fingerprint': hashlib.sha256(round2_meta_path.read_bytes()).hexdigest(),
               'releases': results}
     path = ROOT/'data/qobuz_matches.json'
     temp = path.with_suffix('.tmp')

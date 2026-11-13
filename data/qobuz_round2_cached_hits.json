@@ -1,0 +1,631 @@
+{
+  "schema_version": 1,
+  "purpose": "Cached complete-metadata assessments of newly recovered search hits; no automatic acceptance.",
+  "candidate_pairs": [
+    {
+      "discogs_id": "1035152",
+      "album_id": "0002894778122",
+      "title": "Pianist Of The Century (Complete DG Solo / Concerto Recordings)",
+      "status": "unchecked",
+      "coverage": 0.0,
+      "completeness": "unknown",
+      "programme": [
+        {
+          "target": "Konzert Für Klavier Und Orchester A-Moll Op. 54",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": [],
+          "required_performers": [
+            "Sviatoslav Richter",
+            "Witold Rowicki",
+            "Orkiestra Symfoniczna Filharmonii Narodowej"
+          ],
+          "target_credit_scope": {
+            "source": "cached Discogs explicit work/position credits",
+            "positions": [
+              "A1",
+              "A2",
+              "A3"
+            ],
+            "performers": [
+              {
+                "name": "Witold Rowicki",
+                "role": "Conductor"
+              },
+              {
+                "name": "Orkiestra Symfoniczna Filharmonii Narodowej",
+                "role": "Orchestra"
+              }
+            ]
+          }
+        },
+        {
+          "target": "Introduction Und Allegro Appassionato (Konzertstück Für Klavier Und Orchester G-dur Op. 92)",
+          "work_tracks": 1,
+          "credited_tracks": 0,
+          "track_ids": [],
+          "required_performers": [
+            "Sviatoslav Richter",
+            "Stanislaw Wislocki",
+            "Orkiestra Symfoniczna Filharmonii Narodowej"
+          ],
+          "target_credit_scope": {
+            "source": "cached Discogs explicit work/position credits",
+            "positions": [
+              "B1"
+            ],
+            "performers": [
+              {
+                "name": "Stanislaw Wislocki",
+                "role": "Conductor"
+              },
+              {
+                "name": "Orkiestra Symfoniczna Filharmonii Narodowej",
+                "role": "Orchestra"
+              }
+            ]
+          }
+        },
+        {
+          "target": "Novellette F-dur Op. 21 No. 1",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": [],
+          "required_performers": [
+            "Sviatoslav Richter"
+          ],
+          "target_credit_scope": {
+            "source": "cached Discogs explicit work/position credits",
+            "positions": [],
+            "performers": []
+          }
+        },
+        {
+          "target": "Toccata C-dur Op. 7",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": [],
+          "required_performers": [
+            "Sviatoslav Richter"
+          ],
+          "target_credit_scope": {
+            "source": "cached Discogs explicit work/position credits",
+            "positions": [],
+            "performers": []
+          }
+        }
+      ]
+    },
+    {
+      "discogs_id": "2345819",
+      "album_id": "0002894779797",
+      "title": "Beethoven: Complete Concertos",
+      "status": "unchecked",
+      "coverage": 0.0,
+      "completeness": "unknown",
+      "programme": [
+        {
+          "target": "Konzert Für Klavier Und Orchester D-dur - Nach Dem Violinkonzert Op. 61 Übertragen Vom Komponisten",
+          "work_tracks": 3,
+          "credited_tracks": 0,
+          "track_ids": []
+        }
+      ]
+    },
+    {
+      "discogs_id": "2345819",
+      "album_id": "n2zugm3hpaxlc",
+      "title": "Heroic Beethoven: Best Of",
+      "status": "unchecked",
+      "coverage": 0.0,
+      "completeness": "unknown",
+      "programme": [
+        {
+          "target": "Konzert Für Klavier Und Orchester D-dur - Nach Dem Violinkonzert Op. 61 Übertragen Vom Komponisten",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        }
+      ]
+    },
+    {
+      "discogs_id": "3667210",
+      "album_id": "0094635084955",
+      "title": "Tchaikovsky, Prokofiev & Bartók: Piano Concertos",
+      "status": "unchecked",
+      "coverage": 0.5,
+      "completeness": "unknown",
+      "programme": [
+        {
+          "target": "Piano Concerto No.2, Sz83#",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": [],
+          "required_performers": [
+            "Lorin Maazel",
+            "Sviatoslav Richter",
+            "Orchestre De Paris"
+          ],
+          "target_credit_scope": {
+            "source": "cached Discogs explicit work/position credits",
+            "positions": [
+              "A1",
+              "A2",
+              "A3"
+            ],
+            "performers": [
+              {
+                "name": "Orchestre De Paris",
+                "role": "Orchestra"
+              }
+            ]
+          }
+        },
+        {
+          "target": "Piano Concerto No.5 In G Minor, Op.55",
+          "work_tracks": 5,
+          "credited_tracks": 5,
+          "track_ids": [
+            811786,
+            811788,
+            811790,
+            811792,
+            811794
+          ],
+          "required_performers": [
+            "Lorin Maazel",
+            "Sviatoslav Richter",
+            "London Symphony Orchestra"
+          ],
+          "target_credit_scope": {
+            "source": "cached Discogs explicit work/position credits",
+            "positions": [
+              "B1",
+              "B2",
+              "B3",
+              "B4"
+            ],
+            "performers": [
+              {
+                "name": "London Symphony Orchestra",
+                "role": "Orchestra"
+              }
+            ]
+          }
+        }
+      ]
+    },
+    {
+      "discogs_id": "5933977",
+      "album_id": "0002894797530",
+      "title": "Wagner: Tristan und Isolde, WWV 90",
+      "status": "unchecked",
+      "coverage": 0.0,
+      "completeness": "unknown",
+      "programme": [
+        {
+          "target": "Tristan Und Isolde",
+          "work_tracks": 30,
+          "credited_tracks": 0,
+          "track_ids": []
+        }
+      ]
+    },
+    {
+      "discogs_id": "5933977",
+      "album_id": "0002894786194",
+      "title": "Wagner: Götterdämmerung",
+      "status": "unchecked",
+      "coverage": 0.0,
+      "completeness": "unknown",
+      "programme": [
+        {
+          "target": "Tristan Und Isolde",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        }
+      ]
+    },
+    {
+      "discogs_id": "11599278",
+      "album_id": "m4r2pgqepwvia",
+      "title": "Ludwig van Beethoven: Klavierkonzert No. 4 B-dur Op. 58 - Symphonie No. 7 A-dur Op. 92",
+      "status": "unchecked",
+      "coverage": 0.0,
+      "completeness": "incomplete",
+      "programme": [
+        {
+          "target": "Piano Concerto No. 4 Op 58",
+          "work_tracks": 3,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Overture To The Opera \"Leonore\" No. 2, Op. 72",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        }
+      ]
+    },
+    {
+      "discogs_id": "13927062",
+      "album_id": "3610154893341",
+      "title": "Chopin: Piano Concerto No. 1, Op. 11",
+      "status": "unchecked",
+      "coverage": 0.13043478260869565,
+      "completeness": "unknown",
+      "programme": [
+        {
+          "target": "Valse N°1 En Mi Bémol Op.18",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Valse N°2 En la Bémol Op; 34 N°1",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": " Valse N°3 En la Mineur Op.34 N°2",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Valse N°4 En Fa Op.34 N°3",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Valse N°5 En la Bémol Op.42",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Valse N°6 En Ré Bémol Op.64 N°1 \"Minute\"",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Valse N°7 En Do Dièse Mineur Op.62 N°2",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Valse N°8 En la Bémol Op.64 N°3",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Valse N°9 En la Bémol Posth.op.69 N°1 \"L'Adieu\"",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Valse N°10,en Si Mineur Posth Op.69 N°2",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Valse N°11 En Sol Bem Posth. Op.70 N°1",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Valse N°12 En Fa Mineur Posth. 0p..70 N°2",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Valse N°13 En Ré Bémol Posth. Op.70 N°3",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Valse N°14 En Mi Mineur Posth",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Polonaise N°1 En Ut Dièse Mineur Op.26 N°1",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Polonaise N°2 En Mi Bémol Mineur Op.26 N°2",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Polonaise N°3 En la Op.40 N°1",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Polonaise N°4 En Ut Mineur Op.40 N°2",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Polonaise N°5 En Fa Dièse Mineur Op.44",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Polonaise N°6 En la Bémol Op.53",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Concerto N°1 En Mi Mineur Op.11- Allegro Maestoso",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            14398744,
+            14398746,
+            14398748
+          ]
+        },
+        {
+          "target": "Concerto N°1 En Mi Mineur Op;11-Romance",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            14398744,
+            14398746,
+            14398748
+          ]
+        },
+        {
+          "target": "Concerto N°1 En Mi Mineur Op.11 -Rondo",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            14398744,
+            14398746,
+            14398748
+          ]
+        }
+      ]
+    },
+    {
+      "discogs_id": "16108064",
+      "album_id": "0886446346205",
+      "title": "Beethoven: Missa Solemnis, Op. 123 - Cherubini: Requiem Mass No. 1 in C Minor",
+      "status": "unchecked",
+      "coverage": 0.0,
+      "completeness": "unknown",
+      "programme": [
+        {
+          "target": "Sinfonia N.1",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Sinfonia N.2",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        }
+      ]
+    },
+    {
+      "discogs_id": "16108064",
+      "album_id": "o4kob3b17kiec",
+      "title": "Ludwig van Beethoven: Complete Symphonies & Selected Overtures (1939)",
+      "status": "unchecked",
+      "coverage": 0.0,
+      "completeness": "unknown",
+      "programme": [
+        {
+          "target": "Sinfonia N.1",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Sinfonia N.2",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        }
+      ]
+    },
+    {
+      "discogs_id": "16108064",
+      "album_id": "0886446345741",
+      "title": "Beethoven: Violin Concerto in D Major, Op. 61 & Piano Concerto No. 3 in C Minor, Op. 37",
+      "status": "unchecked",
+      "coverage": 0.0,
+      "completeness": "unknown",
+      "programme": [
+        {
+          "target": "Sinfonia N.1",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Sinfonia N.2",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        }
+      ]
+    },
+    {
+      "discogs_id": "23201027",
+      "album_id": "bvc3arolnncza",
+      "title": "Debussy: Piano Works",
+      "status": "unchecked",
+      "coverage": 0.0,
+      "completeness": "unknown",
+      "programme": [
+        {
+          "target": "Sonata N° 1 In Fa Minore Op 2 N° 1",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Sonata N° 19 In Sol Minore Op 49 N° 1",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Sonata N° 20 In Sol Maggiore Op 49 N° 2",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Sonata N° 2 In La Minore Op 2 N° 2",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Sonata N° 3 In Do Maggiore Op 2 N° 3",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Sonata N° 4 In Mi Bemole Maggiore Op 7",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Sonata N° 5 En Do Minore Op 10 N° 1",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Sonata N° 6 In Fa Maggiore Op 10 N° 2",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Sonata N° 7 In Re Maggiore Op 10 N° 3",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Sonata N° 11 In Si Bemole Maggiore Op 22",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Sonata N° 8 In Do Minore Op 13",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Sonata N° 14 In Do Diesis Minore Op 27 N° 1",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Sonata N° 9 In Mi Maggiore Op 14 N° 1",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Sonata N° 13 In Mi Bemole Maggiore Op 27 N° 1",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Sonata N° 10 In Sol Maggiore Op 14 N° 2",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Sonata N° 12 In La Bemolle Maggiore Op 26",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Sonata N° 15 In Re Maggiore Op 28",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Sonata N° 17 In Re Minore Op 31 N° 1",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Sonata N° 18 In Mi Bemole Maggiore Op 31 N° 3",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Sonata N° 23 In Fa Minore Op 57",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Sonata N° 21 In Do Maggiore Op 53",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Sonata N° 30 In Mi Maggiore Op 30",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Sonata N° 31 In La Bemole Maggiore Op 110",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        }
+      ]
+    }
+  ],
+  "summary": {
+    "cached_candidate_pairs": 12,
+    "complete_credited_candidates": 0
+  }
+}
