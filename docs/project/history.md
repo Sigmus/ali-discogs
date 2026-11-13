@@ -943,3 +943,16 @@ John McLaughlin, and the seven-track file adds Feio. The open questions are
 whether a review may accept that gap, and which facts the explorer should
 show. No matcher or UI change. See
 [Bitches Brew credits](../plans/2026-11-13-bitches-brew-credits.md).
+
+## 2026-11-13 — Half-coverage cached albums reviewed together
+
+Probable 85: Bach two-piano concertos 4483876, including BWV 1062; Ravel
+7119504, both piano concertos; Stern 6472687, Tchaikovsky and Mendelssohn;
+Busch Brandenburg 3–5, 8165012; Rubinstein mazurkas 5939010, all 51.
+Withheld: Ciccolini 2486104 because Op. 22 is absent, Francescatti 3584044
+because Concerto No. 3 is absent, Furtwängler 7844349 because Oberon and The
+Merry Wives of Windsor are absent. Twelve other albums from this band stay
+unchecked. Bitches Brew stays parked. Copies 12/89/640, unique 12/89/639.
+Inventory of the 639 still unchecked: 324 no saved hits, 3 metadata-needed,
+304 work or credit gaps, 7 reviewed withholds, and the Barenboim completeness
+caution. Review tests and normalization passed. No API calls.

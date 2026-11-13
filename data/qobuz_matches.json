@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "matcher_version": "qobuz-work-groups-v2+explicit-target-credits+reviewed-leads+opera-source-roles+prelude-fugue-pairs+container-headings+bound-tracks+heading-over-groups",
+  "matcher_version": "qobuz-work-groups-v2+explicit-target-credits+reviewed-leads+opera-source-roles+prelude-fugue-pairs+container-headings+bound-tracks+heading-over-groups+cached-half",
   "score_kind": "heuristic",
   "metadata_completed_at": "2026-11-13T00:15:30.593902+00:00",
   "search_manifest_fingerprint": "72bfbc0de0c0d8ee65c624b6ebe07db7be6ef0f10b6ba5fd4f468d54f812e802",
@@ -15,8 +15,9 @@
   "opera_review_fingerprint": "11a52ad521b086b7c967327a0d01d0cee432d3cf8695754899a7f40aeb20839d",
   "pair_review_fingerprint": "7709aa57ef7815fda88766badd3064939bccb142bd0e97389a0f5f011c54cd84",
   "container_review_fingerprint": "aa8a8e530114e05869e1215561786073250faca3c9349b66059ea59ff3c535e0",
-  "binding_review_fingerprint": "7617a5f8c1854bb735bf3aed12f7ebddabc249dc608b23aec8b9ae71839ac25a",
+  "binding_review_fingerprint": "dbf6723ed4bc56f8cb667fd17b50056f8adc1c42dd504b631462da73de5fa8c3",
   "heading_review_fingerprint": "44c6333ec66aff9cbbf7a29ae8d00ef0005da4fb05dae7e65278f889e97fab8b",
+  "cached_half_review_fingerprint": "51e57b6a2ed934ed1a91452a4a8c314099d6641b216c73740a3da7cda998dbcf",
   "unmatched_review_fingerprint": "21d025cd3fb58ad2087d5f859097c6c56d5ce4d79eabf61be52e3930ce1ebc30",
   "unmatched_metadata_fingerprint": "b9ee630308545a56700f5322dea82ebad2621bc20c5e76f7b8743aaa94ba3c9e",
   "trial_review_fingerprint": "29b152d71ab83c8be83049c16bdc43fd84fa485eefeca6bba69012aa90e3de07",
@@ -907,9 +908,19 @@
       ]
     },
     "8165012": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "5099921297052",
+        "name": "Bach, JS: Brandenburg Concertos & Orchestral Suites",
+        "artists": [
+          "Adolf Busch"
+        ],
+        "label": "Warner Classics",
+        "release_date": "1991-01-01",
+        "image": "https://static.qobuz.com/images/covers/52/70/5099921297052_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/bach-js-brandenburg-concertos-orchestral-suites-adolf-busch/5099921297052"
+      },
       "candidates": [
         {
           "id": "5099921297052",
@@ -921,11 +932,11 @@
           "release_date": "1991-01-01",
           "image": "https://static.qobuz.com/images/covers/52/70/5099921297052_230.jpg",
           "url": "https://www.qobuz.com/fr-fr/album/bach-js-brandenburg-concertos-orchestral-suites-adolf-busch/5099921297052",
-          "status": "unchecked",
-          "confidence": null,
-          "coverage": 0.6,
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
           "covered": 3,
-          "target_count": 5,
+          "target_count": 3,
           "required_performers": [
             "Adolf Busch"
           ],
@@ -938,12 +949,6 @@
                 1728224,
                 1728227
               ]
-            },
-            {
-              "target": "Allegro, Adagio, Allegro",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
             },
             {
               "target": "Concert Brandenbourgeous N° 4, BWV 1049",
@@ -964,26 +969,69 @@
                 1728207,
                 1728210
               ]
-            },
-            {
-              "target": "Affetuoso",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
             }
           ],
           "reasons": [
-            "3/5 target items supported after composer/work grouping; unresolved.",
-            "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
+            "The movement labels sit under headings that already have their tracks.",
+            "Angel COLC 14 is Busch in Brandenburg Concertos 3, 4 and 5. This file has those three concertos, with Busch on every used track. Rudolf Serkin plays the piano in No. 5.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "The first movement of Brandenburg Concerto No. 3 is titled only “I.” The next track joins the Adagio and the Allegro.",
+            "Affetuoso on the LP is spelled Affettuoso in the file.",
+            "Concertos 1, 2 and 6, and the four orchestral suites, are not on this LP.",
+            "This digital file is not verified as the 1958 Angel pressing."
           ],
-          "work_group_policy": "qobuz-work-groups-v1"
+          "work_group_policy": "qobuz-work-groups-v1",
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Concert Brandenbourgeous N° 3, BWV 1048",
+                "status": "complete",
+                "scope": "reviewed-covered-label",
+                "track_ids": [
+                  1728224,
+                  1728227
+                ]
+              },
+              {
+                "target": "Concert Brandenbourgeous N° 4, BWV 1049",
+                "status": "complete",
+                "scope": "reviewed-covered-label",
+                "track_ids": [
+                  1728230,
+                  1728233,
+                  1728236
+                ]
+              },
+              {
+                "target": "Concert Brandenbourgeous N° 5, BWV 1050",
+                "status": "complete",
+                "scope": "reviewed-covered-label",
+                "track_ids": [
+                  1728204,
+                  1728207,
+                  1728210
+                ]
+              }
+            ]
+          },
+          "recording_review": "Angel COLC 14 is Busch in Brandenburg Concertos 3, 4 and 5. This file has those three concertos, with Busch on every used track. Rudolf Serkin plays the piano in No. 5.",
+          "review_sources": [
+            "https://www.qobuz.com/fr-fr/album/bach-js-brandenburg-concertos-orchestral-suites-adolf-busch/5099921297052"
+          ]
         }
       ],
       "query": "adolf busch bach brandenburg concertos 3 4 5",
       "searched_at": "2026-11-12T14:28:15.368361+00:00",
       "reasons": [
-        "3/5 target items supported after composer/work grouping; unresolved.",
-        "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
+        "The movement labels sit under headings that already have their tracks.",
+        "Angel COLC 14 is Busch in Brandenburg Concertos 3, 4 and 5. This file has those three concertos, with Busch on every used track. Rudolf Serkin plays the piano in No. 5.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "The first movement of Brandenburg Concerto No. 3 is titled only “I.” The next track joins the Adagio and the Allegro.",
+        "Affetuoso on the LP is spelled Affettuoso in the file.",
+        "Concertos 1, 2 and 6, and the four orchestral suites, are not on this LP.",
+        "This digital file is not verified as the 1958 Angel pressing."
       ]
     },
     "5312413": {
@@ -19448,9 +19496,19 @@
       ]
     },
     "6472687": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "5060122345361",
+        "name": "Mendelssohn: Violin Concerto in E Minor, Op. 64 - Tchaikovsky: Violin Concerto in D Major, Op. 35",
+        "artists": [
+          "Felix Mendelssohn"
+        ],
+        "label": "Past Classics",
+        "release_date": "2012-05-09",
+        "image": "https://static.qobuz.com/images/covers/61/53/5060122345361_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/mendelssohn-violin-concerto-in-e-minor-op-64-tchaikovsky-violin-concerto-in-d-major-op-35-isaac-stern-philadelphia-orchestra-eugene-ormandy/5060122345361"
+      },
       "candidates": [
         {
           "id": "5060122345361",
@@ -19462,10 +19520,10 @@
           "release_date": "2012-05-09",
           "image": "https://static.qobuz.com/images/covers/61/53/5060122345361_230.jpg",
           "url": "https://www.qobuz.com/fr-fr/album/mendelssohn-violin-concerto-in-e-minor-op-64-tchaikovsky-violin-concerto-in-d-major-op-35-isaac-stern-philadelphia-orchestra-eugene-ormandy/5060122345361",
-          "status": "unchecked",
-          "confidence": null,
-          "coverage": 0.5,
-          "covered": 1,
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 2,
           "target_count": 2,
           "required_performers": [
             "Eugene Ormandy",
@@ -19484,16 +19542,49 @@
             },
             {
               "target": " Violin Concerto In E Minor, Op. 64 ",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                5607460
+              ]
             }
           ],
           "reasons": [
-            "1/2 target items supported after composer/work grouping; unresolved.",
-            "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
+            "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+            "Columbia MS 6062 is Stern and Ormandy in the Tchaikovsky and Mendelssohn violin concertos. This file has both concertos, with Stern, Ormandy and the Philadelphia Orchestra on every track.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "The Mendelssohn concerto is one track, with all three movements joined.",
+            "The Tchaikovsky slow movement and finale share one track.",
+            "This digital file is not verified as the 1959 Columbia pressing."
           ],
-          "work_group_policy": "qobuz-work-groups-v1"
+          "work_group_policy": "qobuz-work-groups-v1",
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Violin Concerto In D, Op. 35",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  5607461,
+                  5607462
+                ]
+              },
+              {
+                "target": " Violin Concerto In E Minor, Op. 64 ",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  5607460
+                ]
+              }
+            ]
+          },
+          "recording_review": "Columbia MS 6062 is Stern and Ormandy in the Tchaikovsky and Mendelssohn violin concertos. This file has both concertos, with Stern, Ormandy and the Philadelphia Orchestra on every track.",
+          "review_sources": [
+            "https://www.qobuz.com/fr-fr/album/mendelssohn-violin-concerto-in-e-minor-op-64-tchaikovsky-violin-concerto-in-d-major-op-35-isaac-stern-philadelphia-orchestra-eugene-ormandy/5060122345361"
+          ]
         },
         {
           "id": "uwdllzqxnxxra",
@@ -19651,8 +19742,12 @@
       "query": "eugene ormandy tchaikovsky violin concerto in d major violin concerto in e minor",
       "searched_at": "2026-11-12T15:00:47.617966+00:00",
       "reasons": [
-        "1/2 target items supported after composer/work grouping; unresolved.",
-        "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
+        "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+        "Columbia MS 6062 is Stern and Ormandy in the Tchaikovsky and Mendelssohn violin concertos. This file has both concertos, with Stern, Ormandy and the Philadelphia Orchestra on every track.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "The Mendelssohn concerto is one track, with all three movements joined.",
+        "The Tchaikovsky slow movement and finale share one track.",
+        "This digital file is not verified as the 1959 Columbia pressing."
       ]
     },
     "3584044": {
@@ -99059,9 +99154,19 @@
       ]
     },
     "4483876": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "chrak9aw6jk2b",
+        "name": "Bach: Concertos pour un et deux pianos, BWV 1053, 1058, 1060, 1061 & 1062",
+        "artists": [
+          "Michel Béroff"
+        ],
+        "label": "Warner Classics",
+        "release_date": "2023-01-13",
+        "image": "https://static.qobuz.com/images/covers/2b/jk/chrak9aw6jk2b_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/bach-concertos-pour-un-et-deux-pianos-bwv-1053-1058-1060-1061-1062-michel-beroff-jean-philippe-collard-ensemble-orchestral-de-paris-jean-pierre-wallez/chrak9aw6jk2b"
+      },
       "candidates": [
         {
           "id": "chrak9aw6jk2b",
@@ -99073,10 +99178,10 @@
           "release_date": "2023-01-13",
           "image": "https://static.qobuz.com/images/covers/2b/jk/chrak9aw6jk2b_230.jpg",
           "url": "https://www.qobuz.com/fr-fr/album/bach-concertos-pour-un-et-deux-pianos-bwv-1053-1058-1060-1061-1062-michel-beroff-jean-philippe-collard-ensemble-orchestral-de-paris-jean-pierre-wallez/chrak9aw6jk2b",
-          "status": "unchecked",
-          "confidence": null,
-          "coverage": 0.6666666666666666,
-          "covered": 2,
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 3,
           "target_count": 3,
           "required_performers": [
             "Jean-Pierre Wallez",
@@ -99107,13 +99212,62 @@
             },
             {
               "target": "Concerto En Ut Mineur, BWV 1062 Pour Deux Pianos Et Orchestre À Cordes (Transcription Du Concerto Pour Deux Violons, BWV 1043)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                193057660,
+                193057661,
+                193057662
+              ]
             }
           ],
           "reasons": [
-            "2/3 target items supported after composer/work grouping; unresolved."
+            "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+            "La Voix de Son Maître 1731441 is Béroff and Collard in the three Bach two-piano concertos. This file has those three concertos, with both pianists, the Paris ensemble and Wallez on every used track. It also contains two solo concertos.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "BWV 1053 and BWV 1058 are not on this LP. They stay outside the two-piano programme.",
+            "The source names BWV 1043 only as the violin concerto from which BWV 1062 was arranged.",
+            "This digital file is not verified as the 1983 La Voix de Son Maître pressing."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Concerto En Ut Majeur, BWV 1061 Pour Deux Pianos Et Orchestre À Cordes",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  193057657,
+                  193057658,
+                  193057659
+                ]
+              },
+              {
+                "target": "Concerto En Ut Mineur, BWV 1060 Pour Deux Pianos Et Orchestre À Cordes",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  193057654,
+                  193057655,
+                  193057656
+                ]
+              },
+              {
+                "target": "Concerto En Ut Mineur, BWV 1062 Pour Deux Pianos Et Orchestre À Cordes (Transcription Du Concerto Pour Deux Violons, BWV 1043)",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  193057660,
+                  193057661,
+                  193057662
+                ]
+              }
+            ]
+          },
+          "recording_review": "La Voix de Son Maître 1731441 is Béroff and Collard in the three Bach two-piano concertos. This file has those three concertos, with both pianists, the Paris ensemble and Wallez on every used track. It also contains two solo concertos.",
+          "review_sources": [
+            "https://www.qobuz.com/fr-fr/album/bach-concertos-pour-un-et-deux-pianos-bwv-1053-1058-1060-1061-1062-michel-beroff-jean-philippe-collard-ensemble-orchestral-de-paris-jean-pierre-wallez/chrak9aw6jk2b"
           ]
         },
         {
@@ -99165,7 +99319,12 @@
       "query": "jean pierre wallez bach les concertos pour deux pianos",
       "searched_at": "2026-11-12T16:42:54.673121+00:00",
       "reasons": [
-        "2/3 target items supported after composer/work grouping; unresolved."
+        "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+        "La Voix de Son Maître 1731441 is Béroff and Collard in the three Bach two-piano concertos. This file has those three concertos, with both pianists, the Paris ensemble and Wallez on every used track. It also contains two solo concertos.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "BWV 1053 and BWV 1058 are not on this LP. They stay outside the two-piano programme.",
+        "The source names BWV 1043 only as the violin concerto from which BWV 1062 was arranged.",
+        "This digital file is not verified as the 1983 La Voix de Son Maître pressing."
       ]
     },
     "11291879": {
@@ -99235,9 +99394,19 @@
       ]
     },
     "7119504": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "3610154644448",
+        "name": "Ravel: Les deux concertos pour piano",
+        "artists": [
+          "Samson François"
+        ],
+        "label": "BNF Collection",
+        "release_date": "1960-01-01",
+        "image": "https://static.qobuz.com/images/covers/48/44/3610154644448_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/ravel-les-deux-concertos-pour-piano-samson-francois-orchestre-de-la-societe-des-concerts-du-conservatoire-andre-cluytens/3610154644448"
+      },
       "candidates": [
         {
           "id": "3610154644448",
@@ -99249,10 +99418,10 @@
           "release_date": "1960-01-01",
           "image": "https://static.qobuz.com/images/covers/48/44/3610154644448_230.jpg",
           "url": "https://www.qobuz.com/fr-fr/album/ravel-les-deux-concertos-pour-piano-samson-francois-orchestre-de-la-societe-des-concerts-du-conservatoire-andre-cluytens/3610154644448",
-          "status": "unchecked",
-          "confidence": null,
-          "coverage": 0.5,
-          "covered": 1,
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 2,
           "target_count": 2,
           "required_performers": [
             "André Cluytens",
@@ -99262,9 +99431,13 @@
           "programme": [
             {
               "target": "Concerto En Sol Majeur",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                14355272,
+                14355276,
+                14355280
+              ]
             },
             {
               "target": "Concerto Pour La Main Gauche",
@@ -99276,7 +99449,39 @@
             }
           ],
           "reasons": [
-            "1/2 target items supported after composer/work grouping; unresolved."
+            "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+            "La Voix de Son Maître 2C 069-10867 is François and Cluytens in both Ravel piano concertos. This file has the G major concerto in three movements and the left-hand concerto, with those performers on every track.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "The source says Sol majeur. The file says G major.",
+            "This digital file is not verified as the 1973 La Voix de Son Maître pressing."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Concerto En Sol Majeur",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  14355272,
+                  14355276,
+                  14355280
+                ]
+              },
+              {
+                "target": "Concerto Pour La Main Gauche",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  14355284
+                ]
+              }
+            ]
+          },
+          "recording_review": "La Voix de Son Maître 2C 069-10867 is François and Cluytens in both Ravel piano concertos. This file has the G major concerto in three movements and the left-hand concerto, with those performers on every track.",
+          "review_sources": [
+            "https://www.qobuz.com/fr-fr/album/ravel-les-deux-concertos-pour-piano-samson-francois-orchestre-de-la-societe-des-concerts-du-conservatoire-andre-cluytens/3610154644448"
           ]
         },
         {
@@ -99399,7 +99604,11 @@
       "query": "andre cluytens ravel les deux concertos pour piano",
       "searched_at": "2026-11-12T16:44:39.377732+00:00",
       "reasons": [
-        "1/2 target items supported after composer/work grouping; unresolved."
+        "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+        "La Voix de Son Maître 2C 069-10867 is François and Cluytens in both Ravel piano concertos. This file has the G major concerto in three movements and the left-hand concerto, with those performers on every track.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "The source says Sol majeur. The file says G major.",
+        "This digital file is not verified as the 1973 La Voix de Son Maître pressing."
       ]
     },
     "6181503": {
@@ -120573,9 +120782,19 @@
       ]
     },
     "5939010": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "vjbhud6daf7yb",
+        "name": "Arthur Rubinstein - Chopin : Mazurkas",
+        "artists": [
+          "Arthur Rubinstein"
+        ],
+        "label": "BNF Collection",
+        "release_date": "2018-11-30",
+        "image": "https://static.qobuz.com/images/covers/yb/f7/vjbhud6daf7yb_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/arthur-rubinstein-chopin-mazurkas-arthur-rubinstein/vjbhud6daf7yb"
+      },
       "candidates": [
         {
           "id": "vjbhud6daf7yb",
@@ -120587,538 +120806,850 @@
           "release_date": "2018-11-30",
           "image": "https://static.qobuz.com/images/covers/yb/f7/vjbhud6daf7yb_230.jpg",
           "url": "https://www.qobuz.com/fr-fr/album/arthur-rubinstein-chopin-mazurkas-arthur-rubinstein/vjbhud6daf7yb",
-          "status": "unchecked",
-          "confidence": null,
-          "coverage": 0.6307692307692307,
-          "covered": 41,
-          "target_count": 65,
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 51,
+          "target_count": 51,
           "required_performers": [
             "Arthur Rubinstein"
           ],
           "programme": [
             {
-              "target": "Op. 6",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "No. 1, In F-Sharp Minor",
-              "work_tracks": 3,
-              "credited_tracks": 3,
+              "target": "Op. 6: No. 1, In F-Sharp Minor",
               "track_ids": [
-                56767525,
-                56767546,
-                56767550
-              ]
+                56767525
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
             },
             {
-              "target": "No. 2, In C Sharp Minor",
-              "work_tracks": 1,
-              "credited_tracks": 1,
+              "target": "Op. 6: No. 2, In C Sharp Minor",
               "track_ids": [
                 56767526
-              ]
-            },
-            {
-              "target": "No. 3, In E",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "No. 4, In E-Flat Minor",
-              "work_tracks": 3,
-              "credited_tracks": 3,
-              "track_ids": [
-                56767528,
-                56767541,
-                56767544
-              ]
-            },
-            {
-              "target": "Op. 7",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "No. 1, In B-Flat",
-              "work_tracks": 2,
-              "credited_tracks": 2,
-              "track_ids": [
-                56767529,
-                56767534
-              ]
-            },
-            {
-              "target": "No. 2, In A Minor",
-              "work_tracks": 2,
-              "credited_tracks": 2,
-              "track_ids": [
-                56767530,
-                56767571
-              ]
-            },
-            {
-              "target": "No. 3, In F Minor",
+              ],
               "work_tracks": 1,
-              "credited_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "Op. 6: No. 3, In E",
+              "track_ids": [
+                56767527
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "Op. 6: No. 4, In E-Flat Minor",
+              "track_ids": [
+                56767528
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "Op. 7: No. 1, In B-Flat",
+              "track_ids": [
+                56767529
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "Op. 7: No. 2, In A Minor",
+              "track_ids": [
+                56767530
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "Op. 7: No. 3, In F Minor",
               "track_ids": [
                 56767531
-              ]
-            },
-            {
-              "target": "No. 4, In A-Flat",
-              "work_tracks": 4,
-              "credited_tracks": 4,
-              "track_ids": [
-                56767532,
-                56767536,
-                56767540,
-                56767553
-              ]
-            },
-            {
-              "target": "No. 5, In C",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Op. 17",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "No. 1, In B-Flat",
-              "work_tracks": 2,
-              "credited_tracks": 2,
-              "track_ids": [
-                56767529,
-                56767534
-              ]
-            },
-            {
-              "target": "No. 2, In E Minor",
-              "work_tracks": 2,
-              "credited_tracks": 2,
-              "track_ids": [
-                56767535,
-                56767551
-              ]
-            },
-            {
-              "target": "No. 3, In A-Flat",
-              "work_tracks": 4,
-              "credited_tracks": 4,
-              "track_ids": [
-                56767536,
-                56767540,
-                56767555,
-                56767561
-              ]
-            },
-            {
-              "target": "No. 4, In A Minor",
-              "work_tracks": 2,
-              "credited_tracks": 2,
-              "track_ids": [
-                56767537,
-                56767569
-              ]
-            },
-            {
-              "target": "Op. 24",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "No. 1, In G Minor",
+              ],
               "work_tracks": 1,
-              "credited_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "Op. 7: No. 4, In A-Flat",
+              "track_ids": [
+                56767532
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "Op. 7: No. 5, In C",
+              "track_ids": [
+                56767533
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "Op. 17: No. 1, In B-Flat",
+              "track_ids": [
+                56767534
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "Op. 17: No. 2, In E Minor",
+              "track_ids": [
+                56767535
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "Op. 17: No. 3, In A-Flat",
+              "track_ids": [
+                56767536
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "Op. 17: No. 4, In A Minor",
+              "track_ids": [
+                56767537
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "Op. 24: No. 1, In G Minor",
               "track_ids": [
                 56767538
-              ]
-            },
-            {
-              "target": "No. 2, In C",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "No. 3, In A Flat",
-              "work_tracks": 4,
-              "credited_tracks": 4,
-              "track_ids": [
-                56767536,
-                56767540,
-                56767555,
-                56767561
-              ]
-            },
-            {
-              "target": "No. 4, In B-Flat Minor",
-              "work_tracks": 3,
-              "credited_tracks": 3,
-              "track_ids": [
-                56767528,
-                56767541,
-                56767544
-              ]
-            },
-            {
-              "target": "Op. 30",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 1, In C Minor",
+              ],
               "work_tracks": 1,
-              "credited_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "Op. 24: No. 2, In C",
+              "track_ids": [
+                56767539
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "Op. 24: No. 3, In A Flat",
+              "track_ids": [
+                56767540
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "Op. 24: No. 4, In B-Flat Minor",
+              "track_ids": [
+                56767541
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "Op. 30: Nr. 1, In C Minor",
               "track_ids": [
                 56767542
-              ]
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
             },
             {
-              "target": "Nr. 2, In B Minor",
-              "work_tracks": 1,
-              "credited_tracks": 1,
+              "target": "Op. 30: Nr. 2, In B Minor",
               "track_ids": [
                 56767543
-              ]
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
             },
             {
-              "target": "Nr. 3, In D-Flat",
-              "work_tracks": 1,
-              "credited_tracks": 1,
+              "target": "Op. 30: Nr. 3, In D-Flat",
               "track_ids": [
                 56767544
-              ]
-            },
-            {
-              "target": "Nr. 4, In C-Sharp Minor",
-              "work_tracks": 5,
-              "credited_tracks": 5,
-              "track_ids": [
-                56767525,
-                56767526,
-                56767545,
-                56767546,
-                56767550
-              ]
-            },
-            {
-              "target": "Op. 33",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 1, In G-Sharp Minor",
-              "work_tracks": 3,
-              "credited_tracks": 3,
-              "track_ids": [
-                56767525,
-                56767546,
-                56767550
-              ]
-            },
-            {
-              "target": "Nr.  2, In D",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 3, In C",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 4, In B Minor",
+              ],
               "work_tracks": 1,
-              "credited_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "Op. 30: Nr. 4, In C-Sharp Minor",
+              "track_ids": [
+                56767545
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "Op. 33: Nr. 1, In G-Sharp Minor",
+              "track_ids": [
+                56767546
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "Op. 33: Nr.  2, In D",
+              "track_ids": [
+                56767547
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "Op. 33: Nr. 3, In C",
+              "track_ids": [
+                56767548
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "Op. 33: Nr. 4, In B Minor",
               "track_ids": [
                 56767549
-              ]
-            },
-            {
-              "target": "Op. 41",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 1, In C-Sharp Minor",
-              "work_tracks": 3,
-              "credited_tracks": 3,
-              "track_ids": [
-                56767525,
-                56767546,
-                56767550
-              ]
-            },
-            {
-              "target": "Nr. 2, In E Minor",
-              "work_tracks": 2,
-              "credited_tracks": 2,
-              "track_ids": [
-                56767535,
-                56767551
-              ]
-            },
-            {
-              "target": "Nr. 3, In B",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 4, In A-Flat",
-              "work_tracks": 4,
-              "credited_tracks": 4,
-              "track_ids": [
-                56767532,
-                56767536,
-                56767540,
-                56767553
-              ]
-            },
-            {
-              "target": "Op. 50",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 1, In G",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 2, In A-Flat",
-              "work_tracks": 2,
-              "credited_tracks": 2,
-              "track_ids": [
-                56767555,
-                56767561
-              ]
-            },
-            {
-              "target": "Nr. 3, In C-Sharp Minor",
-              "work_tracks": 3,
-              "credited_tracks": 3,
-              "track_ids": [
-                56767556,
-                56767562,
-                56767565
-              ]
-            },
-            {
-              "target": "Op. 56",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 1, In B",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 2, In C",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 3, In C Minor",
+              ],
               "work_tracks": 1,
-              "credited_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "Op. 41: Nr. 1, In C-Sharp Minor",
+              "track_ids": [
+                56767550
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "Op. 41: Nr. 2, In E Minor",
+              "track_ids": [
+                56767551
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "Op. 41: Nr. 3, In B",
+              "track_ids": [
+                56767552
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "Op. 41: Nr. 4, In A-Flat",
+              "track_ids": [
+                56767553
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "Op. 50: Nr. 1, In G",
+              "track_ids": [
+                56767554
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "Op. 50: Nr. 2, In A-Flat",
+              "track_ids": [
+                56767555
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "Op. 50: Nr. 3, In C-Sharp Minor",
+              "track_ids": [
+                56767556
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "Op. 56: Nr. 1, In B",
+              "track_ids": [
+                56767557
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "Op. 56: Nr. 2, In C",
+              "track_ids": [
+                56767558
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "Op. 56: Nr. 3, In C Minor",
               "track_ids": [
                 56767559
-              ]
-            },
-            {
-              "target": "Op. 59",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 1, In A Minor",
+              ],
               "work_tracks": 1,
-              "credited_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "Op. 59: Nr. 1, In A Minor",
               "track_ids": [
                 56767560
-              ]
-            },
-            {
-              "target": "Nr. 2, In A-Flat",
-              "work_tracks": 2,
-              "credited_tracks": 2,
-              "track_ids": [
-                56767555,
-                56767561
-              ]
-            },
-            {
-              "target": "Nr. 3, In F-Sharp Minor",
-              "work_tracks": 3,
-              "credited_tracks": 3,
-              "track_ids": [
-                56767556,
-                56767562,
-                56767565
-              ]
-            },
-            {
-              "target": "Op. 63",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 1, In B",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 2, In F Minor",
+              ],
               "work_tracks": 1,
-              "credited_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "Op. 59: Nr. 2, In A-Flat",
+              "track_ids": [
+                56767561
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "Op. 59: Nr. 3, In F-Sharp Minor",
+              "track_ids": [
+                56767562
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "Op. 63: Nr. 1, In B",
+              "track_ids": [
+                56767563
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "Op. 63: Nr. 2, In F Minor",
               "track_ids": [
                 56767564
-              ]
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
             },
             {
-              "target": "Nr. 3, In C-Sharp Minor",
-              "work_tracks": 3,
-              "credited_tracks": 3,
+              "target": "Op. 63: Nr. 3, In C-Sharp Minor",
               "track_ids": [
-                56767556,
-                56767562,
                 56767565
-              ]
-            },
-            {
-              "target": "-",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
             },
             {
               "target": "Mazurka In A Minor (\"A Son Ami Emile Gaillard\", Posth.)",
-              "work_tracks": 1,
-              "credited_tracks": 1,
               "track_ids": [
                 56767575
-              ]
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
             },
             {
               "target": "Mazurka In A Minor  (\"Notre Temps\")",
-              "work_tracks": 1,
-              "credited_tracks": 1,
               "track_ids": [
                 56767574
-              ]
-            },
-            {
-              "target": "Op. 67",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 1, In G (Posth.)",
+              ],
               "work_tracks": 1,
-              "credited_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "Op. 67: Nr. 1, In G (Posth.)",
               "track_ids": [
                 56767566
-              ]
-            },
-            {
-              "target": "Nr. 2, In G Minor (Posth.)",
-              "work_tracks": 2,
-              "credited_tracks": 2,
-              "track_ids": [
-                56767567,
-                56767571
-              ]
-            },
-            {
-              "target": "Nr. 3, In C (Posth.)",
+              ],
               "work_tracks": 1,
-              "credited_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "Op. 67: Nr. 2, In G Minor (Posth.)",
+              "track_ids": [
+                56767567
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "Op. 67: Nr. 3, In C (Posth.)",
               "track_ids": [
                 56767568
-              ]
-            },
-            {
-              "target": "Nr. 4, In A Minor (Posth.)",
-              "work_tracks": 4,
-              "credited_tracks": 4,
-              "track_ids": [
-                56767567,
-                56767569,
-                56767571,
-                56767573
-              ]
-            },
-            {
-              "target": "Op. 68",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 1, In C (Posth.)",
+              ],
               "work_tracks": 1,
-              "credited_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "Op. 67: Nr. 4, In A Minor (Posth.)",
+              "track_ids": [
+                56767569
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "Op. 68: Nr. 1, In C (Posth.)",
               "track_ids": [
                 56767570
-              ]
-            },
-            {
-              "target": "Nr. 2, In A Minor (Posth.)",
-              "work_tracks": 2,
-              "credited_tracks": 2,
-              "track_ids": [
-                56767567,
-                56767571
-              ]
-            },
-            {
-              "target": "Nr. 3, In F (Posth.)",
+              ],
               "work_tracks": 1,
-              "credited_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "Op. 68: Nr. 2, In A Minor (Posth.)",
+              "track_ids": [
+                56767571
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "Op. 68: Nr. 3, In F (Posth.)",
               "track_ids": [
                 56767572
-              ]
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
             },
             {
-              "target": "Nr. 4, In F Minor (Posth.)",
-              "work_tracks": 4,
-              "credited_tracks": 4,
+              "target": "Op. 68: Nr. 4, In F Minor (Posth.)",
               "track_ids": [
-                56767567,
-                56767569,
-                56767571,
                 56767573
-              ]
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
             }
           ],
           "reasons": [
-            "41/65 target items supported after composer/work grouping; unresolved."
+            "Each opus heading names the pieces that follow it. The heading is not a separate work.",
+            "RCA LSC-6177 is Rubinstein’s Chopin mazurkas. This file has all 51 mazurkas, with Rubinstein on every one. Two polonaises are extra.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "The file adds the word major where the LP gives only the key.",
+            "Op. 30 No. 3 is D-flat major. The file says D-flat minor.",
+            "The Polonaise-fantaisie and the Andante spianato are not in this mazurka set.",
+            "This digital file is not verified as the 1967 RCA pressing."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Op. 6: No. 1, In F-Sharp Minor",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767525
+                ]
+              },
+              {
+                "target": "Op. 6: No. 2, In C Sharp Minor",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767526
+                ]
+              },
+              {
+                "target": "Op. 6: No. 3, In E",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767527
+                ]
+              },
+              {
+                "target": "Op. 6: No. 4, In E-Flat Minor",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767528
+                ]
+              },
+              {
+                "target": "Op. 7: No. 1, In B-Flat",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767529
+                ]
+              },
+              {
+                "target": "Op. 7: No. 2, In A Minor",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767530
+                ]
+              },
+              {
+                "target": "Op. 7: No. 3, In F Minor",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767531
+                ]
+              },
+              {
+                "target": "Op. 7: No. 4, In A-Flat",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767532
+                ]
+              },
+              {
+                "target": "Op. 7: No. 5, In C",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767533
+                ]
+              },
+              {
+                "target": "Op. 17: No. 1, In B-Flat",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767534
+                ]
+              },
+              {
+                "target": "Op. 17: No. 2, In E Minor",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767535
+                ]
+              },
+              {
+                "target": "Op. 17: No. 3, In A-Flat",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767536
+                ]
+              },
+              {
+                "target": "Op. 17: No. 4, In A Minor",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767537
+                ]
+              },
+              {
+                "target": "Op. 24: No. 1, In G Minor",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767538
+                ]
+              },
+              {
+                "target": "Op. 24: No. 2, In C",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767539
+                ]
+              },
+              {
+                "target": "Op. 24: No. 3, In A Flat",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767540
+                ]
+              },
+              {
+                "target": "Op. 24: No. 4, In B-Flat Minor",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767541
+                ]
+              },
+              {
+                "target": "Op. 30: Nr. 1, In C Minor",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767542
+                ]
+              },
+              {
+                "target": "Op. 30: Nr. 2, In B Minor",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767543
+                ]
+              },
+              {
+                "target": "Op. 30: Nr. 3, In D-Flat",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767544
+                ]
+              },
+              {
+                "target": "Op. 30: Nr. 4, In C-Sharp Minor",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767545
+                ]
+              },
+              {
+                "target": "Op. 33: Nr. 1, In G-Sharp Minor",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767546
+                ]
+              },
+              {
+                "target": "Op. 33: Nr.  2, In D",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767547
+                ]
+              },
+              {
+                "target": "Op. 33: Nr. 3, In C",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767548
+                ]
+              },
+              {
+                "target": "Op. 33: Nr. 4, In B Minor",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767549
+                ]
+              },
+              {
+                "target": "Op. 41: Nr. 1, In C-Sharp Minor",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767550
+                ]
+              },
+              {
+                "target": "Op. 41: Nr. 2, In E Minor",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767551
+                ]
+              },
+              {
+                "target": "Op. 41: Nr. 3, In B",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767552
+                ]
+              },
+              {
+                "target": "Op. 41: Nr. 4, In A-Flat",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767553
+                ]
+              },
+              {
+                "target": "Op. 50: Nr. 1, In G",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767554
+                ]
+              },
+              {
+                "target": "Op. 50: Nr. 2, In A-Flat",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767555
+                ]
+              },
+              {
+                "target": "Op. 50: Nr. 3, In C-Sharp Minor",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767556
+                ]
+              },
+              {
+                "target": "Op. 56: Nr. 1, In B",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767557
+                ]
+              },
+              {
+                "target": "Op. 56: Nr. 2, In C",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767558
+                ]
+              },
+              {
+                "target": "Op. 56: Nr. 3, In C Minor",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767559
+                ]
+              },
+              {
+                "target": "Op. 59: Nr. 1, In A Minor",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767560
+                ]
+              },
+              {
+                "target": "Op. 59: Nr. 2, In A-Flat",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767561
+                ]
+              },
+              {
+                "target": "Op. 59: Nr. 3, In F-Sharp Minor",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767562
+                ]
+              },
+              {
+                "target": "Op. 63: Nr. 1, In B",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767563
+                ]
+              },
+              {
+                "target": "Op. 63: Nr. 2, In F Minor",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767564
+                ]
+              },
+              {
+                "target": "Op. 63: Nr. 3, In C-Sharp Minor",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767565
+                ]
+              },
+              {
+                "target": "Mazurka In A Minor (\"A Son Ami Emile Gaillard\", Posth.)",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767575
+                ]
+              },
+              {
+                "target": "Mazurka In A Minor  (\"Notre Temps\")",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767574
+                ]
+              },
+              {
+                "target": "Op. 67: Nr. 1, In G (Posth.)",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767566
+                ]
+              },
+              {
+                "target": "Op. 67: Nr. 2, In G Minor (Posth.)",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767567
+                ]
+              },
+              {
+                "target": "Op. 67: Nr. 3, In C (Posth.)",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767568
+                ]
+              },
+              {
+                "target": "Op. 67: Nr. 4, In A Minor (Posth.)",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767569
+                ]
+              },
+              {
+                "target": "Op. 68: Nr. 1, In C (Posth.)",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767570
+                ]
+              },
+              {
+                "target": "Op. 68: Nr. 2, In A Minor (Posth.)",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767571
+                ]
+              },
+              {
+                "target": "Op. 68: Nr. 3, In F (Posth.)",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767572
+                ]
+              },
+              {
+                "target": "Op. 68: Nr. 4, In F Minor (Posth.)",
+                "status": "complete",
+                "scope": "reviewed-opus-piece",
+                "track_ids": [
+                  56767573
+                ]
+              }
+            ]
+          },
+          "recording_review": "RCA LSC-6177 is Rubinstein’s Chopin mazurkas. This file has all 51 mazurkas, with Rubinstein on every one. Two polonaises are extra.",
+          "review_sources": [
+            "https://www.qobuz.com/fr-fr/album/arthur-rubinstein-chopin-mazurkas-arthur-rubinstein/vjbhud6daf7yb"
           ]
         },
         {
@@ -123087,7 +123618,13 @@
       "query": "arthur rubinstein chopin the mazurkas",
       "searched_at": "2026-11-12T17:30:13.871368+00:00",
       "reasons": [
-        "41/65 target items supported after composer/work grouping; unresolved."
+        "Each opus heading names the pieces that follow it. The heading is not a separate work.",
+        "RCA LSC-6177 is Rubinstein’s Chopin mazurkas. This file has all 51 mazurkas, with Rubinstein on every one. Two polonaises are extra.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "The file adds the word major where the LP gives only the key.",
+        "Op. 30 No. 3 is D-flat major. The file says D-flat minor.",
+        "The Polonaise-fantaisie and the Andante spianato are not in this mazurka set.",
+        "This digital file is not verified as the 1967 RCA pressing."
       ]
     },
     "3475547": {

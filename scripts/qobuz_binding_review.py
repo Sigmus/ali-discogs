@@ -26,6 +26,16 @@ def allowed(kind, target, title):
         (kind_a, number_a, sub_a), (kind_b, number_b, sub_b) = next(iter(left)), next(iter(right))
         return (kind_a == kind_b and number_a == number_b and sub_a == '' and sub_b
                 and sub_b in set(norm(target).split()))
+    if kind == 'transcription-bwv':
+        text = norm(target)
+        if text.count(' transcription ') != 1 or len(left) != 2 or len(right) != 1:
+            return False
+        if any(kind_name != 'bwv' for kind_name, _, _ in left | right):
+            return False
+        head, tail = text.split(' transcription ', 1)
+        cited = next(iter(right))[1]
+        other = next(number for _, number, _ in left if number != cited)
+        return cited in head.split() and other in tail.split() and cited not in tail.split()
     if kind == 'stated-sonata-number':
         number = sonata_no(target)
         return bool(number and number == sonata_no(title) and left and right and not left.issubset(right))

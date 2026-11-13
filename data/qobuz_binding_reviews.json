@@ -850,6 +850,266 @@
           24259630
         ]
       }
+    },
+    {
+      "discogs_id": "4483876",
+      "album_id": "chrak9aw6jk2b",
+      "review_kind": "bound-tracks",
+      "decision": "probable",
+      "target_sha256": "bec7da32c12aafa278bc3621bd27be483835c3ac095aa6a6ffd963d9e0771733",
+      "album_sha256": "fe34c805d596f8d12cfe02956761c7b1e36e731d00e0d5ccaa0cc8a46a67897b",
+      "source_sha256": "e13e7d5f253c0cf8ceb98d2c96b3800ad8090906c635765152080833dbb673de",
+      "pulls": [],
+      "adds": [
+        {
+          "track_id": 193057660,
+          "target": "Concerto En Ut Mineur, BWV 1062 Pour Deux Pianos Et Orchestre À Cordes (Transcription Du Concerto Pour Deux Violons, BWV 1043)",
+          "title_contains": "BWV 1062",
+          "catalogue_exception": "transcription-bwv",
+          "reason": "The source names BWV 1062 and, in parentheses, the violin concerto BWV 1043 it was arranged from."
+        },
+        {
+          "track_id": 193057661,
+          "target": "Concerto En Ut Mineur, BWV 1062 Pour Deux Pianos Et Orchestre À Cordes (Transcription Du Concerto Pour Deux Violons, BWV 1043)",
+          "title_contains": "BWV 1062",
+          "catalogue_exception": "transcription-bwv",
+          "reason": "The source names BWV 1062 and, in parentheses, the violin concerto BWV 1043 it was arranged from."
+        },
+        {
+          "track_id": 193057662,
+          "target": "Concerto En Ut Mineur, BWV 1062 Pour Deux Pianos Et Orchestre À Cordes (Transcription Du Concerto Pour Deux Violons, BWV 1043)",
+          "title_contains": "BWV 1062",
+          "catalogue_exception": "transcription-bwv",
+          "reason": "The source names BWV 1062 and, in parentheses, the violin concerto BWV 1043 it was arranged from."
+        }
+      ],
+      "required_performers": [
+        "Michel Béroff",
+        "Jean-Philippe Collard",
+        "Ensemble Orchestral De Paris",
+        "Jean-Pierre Wallez"
+      ],
+      "movement_runs": true,
+      "marks": [],
+      "sources": [
+        "https://www.qobuz.com/fr-fr/album/bach-concertos-pour-un-et-deux-pianos-bwv-1053-1058-1060-1061-1062-michel-beroff-jean-philippe-collard-ensemble-orchestral-de-paris-jean-pierre-wallez/chrak9aw6jk2b"
+      ],
+      "limitations": [
+        "BWV 1053 and BWV 1058 are not on this LP. They stay outside the two-piano programme.",
+        "The source names BWV 1043 only as the violin concerto from which BWV 1062 was arranged.",
+        "This digital file is not verified as the 1983 La Voix de Son Maître pressing."
+      ],
+      "recording_review": "La Voix de Son Maître 1731441 is Béroff and Collard in the three Bach two-piano concertos. This file has those three concertos, with both pianists, the Paris ensemble and Wallez on every used track. It also contains two solo concertos.",
+      "extra_track_ids": [
+        193057648,
+        193057649,
+        193057650,
+        193057651,
+        193057652,
+        193057653
+      ],
+      "expected": {
+        "Concerto En Ut Majeur, BWV 1061 Pour Deux Pianos Et Orchestre À Cordes": [
+          193057657,
+          193057658,
+          193057659
+        ],
+        "Concerto En Ut Mineur, BWV 1060 Pour Deux Pianos Et Orchestre À Cordes": [
+          193057654,
+          193057655,
+          193057656
+        ],
+        "Concerto En Ut Mineur, BWV 1062 Pour Deux Pianos Et Orchestre À Cordes (Transcription Du Concerto Pour Deux Violons, BWV 1043)": [
+          193057660,
+          193057661,
+          193057662
+        ]
+      }
+    },
+    {
+      "discogs_id": "7119504",
+      "album_id": "3610154644448",
+      "review_kind": "bound-tracks",
+      "decision": "probable",
+      "target_sha256": "beec1fd649ac3d52b92be640d4e7d506bca098d56387a2658e831ecae2e60ccf",
+      "album_sha256": "26621b054f78d27dbd439b96fa24b7eb8ae7cd045146962bfdf7fe969aa7ef93",
+      "source_sha256": "efa4529d56a5c7b86b2133d11a437745a2ed9a8cb510f04bb27e62eed1d4547c",
+      "pulls": [],
+      "adds": [
+        {
+          "track_id": 14355272,
+          "target": "Concerto En Sol Majeur",
+          "title_contains": "in G Major",
+          "reason": "Sol majeur is G major. These three movements are that concerto."
+        },
+        {
+          "track_id": 14355276,
+          "target": "Concerto En Sol Majeur",
+          "title_contains": "in G Major",
+          "reason": "Sol majeur is G major. These three movements are that concerto."
+        },
+        {
+          "track_id": 14355280,
+          "target": "Concerto En Sol Majeur",
+          "title_contains": "in G Major",
+          "reason": "Sol majeur is G major. These three movements are that concerto."
+        }
+      ],
+      "required_performers": [
+        "Samson François",
+        "André Cluytens",
+        "Orchestre De La Société Des Concerts Du Conservatoire"
+      ],
+      "movement_runs": true,
+      "marks": [],
+      "sources": [
+        "https://www.qobuz.com/fr-fr/album/ravel-les-deux-concertos-pour-piano-samson-francois-orchestre-de-la-societe-des-concerts-du-conservatoire-andre-cluytens/3610154644448"
+      ],
+      "limitations": [
+        "The source says Sol majeur. The file says G major.",
+        "This digital file is not verified as the 1973 La Voix de Son Maître pressing."
+      ],
+      "recording_review": "La Voix de Son Maître 2C 069-10867 is François and Cluytens in both Ravel piano concertos. This file has the G major concerto in three movements and the left-hand concerto, with those performers on every track.",
+      "extra_track_ids": [],
+      "expected": {
+        "Concerto En Sol Majeur": [
+          14355272,
+          14355276,
+          14355280
+        ],
+        "Concerto Pour La Main Gauche": [
+          14355284
+        ]
+      }
+    },
+    {
+      "discogs_id": "6472687",
+      "album_id": "5060122345361",
+      "review_kind": "bound-tracks",
+      "decision": "probable",
+      "target_sha256": "9486557d26e69cb83e6ad5c87c3897402edb15f994b234d3cd0a63baa30100c3",
+      "album_sha256": "3d2a8627a818003ca5d57420ec4692996c9d9a89db8d581670bdf9b692a5ca09",
+      "source_sha256": "72778f2f781e76dfbf3379c9f550579199a95ecfac40787da9a210591b4610ab",
+      "pulls": [],
+      "adds": [
+        {
+          "track_id": 5607460,
+          "target": " Violin Concerto In E Minor, Op. 64 ",
+          "title_contains": "Op.64",
+          "reason": "The file joins all three movements of Op. 64 on one track."
+        }
+      ],
+      "required_performers": [
+        "Isaac Stern",
+        "Eugene Ormandy",
+        "The Philadelphia Orchestra"
+      ],
+      "movement_runs": true,
+      "marks": [],
+      "sources": [
+        "https://www.qobuz.com/fr-fr/album/mendelssohn-violin-concerto-in-e-minor-op-64-tchaikovsky-violin-concerto-in-d-major-op-35-isaac-stern-philadelphia-orchestra-eugene-ormandy/5060122345361"
+      ],
+      "limitations": [
+        "The Mendelssohn concerto is one track, with all three movements joined.",
+        "The Tchaikovsky slow movement and finale share one track.",
+        "This digital file is not verified as the 1959 Columbia pressing."
+      ],
+      "recording_review": "Columbia MS 6062 is Stern and Ormandy in the Tchaikovsky and Mendelssohn violin concertos. This file has both concertos, with Stern, Ormandy and the Philadelphia Orchestra on every track.",
+      "extra_track_ids": [],
+      "expected": {
+        "Violin Concerto In D, Op. 35": [
+          5607461,
+          5607462
+        ],
+        " Violin Concerto In E Minor, Op. 64 ": [
+          5607460
+        ]
+      }
+    },
+    {
+      "discogs_id": "2486104",
+      "album_id": "mxh9m2rac2usa",
+      "review_kind": "bound-tracks",
+      "decision": "withhold",
+      "target_sha256": "42045ca28a6c2688fd0e9395ae8f4a785a0d58ebc8175afdf8a84c9794c23534",
+      "album_sha256": "67ccce3e0159e7710ceca799e0edf9d1cbed549482f09f6f7a9623a573763063",
+      "source_sha256": "b4baed27fda37089b1ba9d0a29806eceea890158bd368273890fa2c3d48865c6",
+      "pulls": [],
+      "adds": [],
+      "sources": [
+        "https://www.qobuz.com/fr-fr/album/saint-saens-piano-concertos-nos-1-op-17-3-op-29-aldo-ciccolini/mxh9m2rac2usa"
+      ],
+      "limitations": [
+        "The file pairs Op. 17 with Op. 29, not Op. 22."
+      ],
+      "recording_review": "Ciccolini’s Op. 17 is in this file. The G minor concerto, Op. 22, is not. The second concerto here is Op. 29.",
+      "absent_tokens": [
+        "op 22"
+      ],
+      "extra_track_ids": [
+        81218157,
+        81218158,
+        81218159
+      ],
+      "missing_targets": [
+        "Concerto N° 2 En Sol Mineur Op. 22 Pour Piano Et Orchestre"
+      ]
+    },
+    {
+      "discogs_id": "3584044",
+      "album_id": "pzus1ko2yfd5a",
+      "review_kind": "bound-tracks",
+      "decision": "withhold",
+      "target_sha256": "98bc78e464c2b555ec859af652f79e76090cc3956f179114eabb866596f5ffcb",
+      "album_sha256": "969661117996e5fa698c33ca02b220a618813ae3224d36821ac213e7d65e0327",
+      "source_sha256": "0a80b7c687d39ce95c9d33f8d0d06f713211f672811a1cdd0d79b2130be345cb",
+      "pulls": [],
+      "adds": [],
+      "sources": [
+        "https://www.qobuz.com/fr-fr/album/paganini-violin-concerto-no-1-in-d-major-op-6-ms-21-bruch-violin-concerto-no-1-in-g-minor-op-26-zino-francescatti/pzus1ko2yfd5a"
+      ],
+      "limitations": [
+        "The coupling is Bruch’s G minor concerto, not the concerto numbered 3 on the LP."
+      ],
+      "recording_review": "Francescatti’s Paganini Op. 6 is in this file. Violin Concerto No. 3 is not. The second work is Bruch’s Op. 26.",
+      "absent_tokens": [
+        "no 3"
+      ],
+      "extra_track_ids": [
+        309539155,
+        309539156,
+        309539157
+      ],
+      "missing_targets": [
+        "Violin Concerto No. 3"
+      ]
+    },
+    {
+      "discogs_id": "7844349",
+      "album_id": "ghwrdq5arp0rc",
+      "review_kind": "bound-tracks",
+      "decision": "withhold",
+      "target_sha256": "6f4baed0181b68aa6b20c0176158857c4f6c8c36de9321251aa151dd90777e76",
+      "album_sha256": "12b2b6b25afb03fb2a048225a8d250db382731f214bc97e968690f725186f190",
+      "source_sha256": "c9ee6c78300b0d56316ed16964339a74a8bc5d546589858f50175bbb30308818",
+      "pulls": [],
+      "adds": [],
+      "sources": [
+        "https://www.qobuz.com/fr-fr/album/schubert-symphony-no-8-d-759-unfinished-entracte-from-rosamunde-wilhelm-furtwangler-wiener-philharmoniker/ghwrdq5arp0rc"
+      ],
+      "limitations": [
+        "An ambience track and an alternate Rosamunde entracte are not the two overtures."
+      ],
+      "recording_review": "Furtwängler’s Unfinished and a Rosamunde entracte are in this file. The Merry Wives of Windsor and Oberon overtures are not.",
+      "absent_tokens": [
+        "oberon",
+        "merry"
+      ],
+      "extra_track_ids": [],
+      "missing_targets": [
+        "The Merry Wives Of Windsor",
+        "Oberon"
+      ]
     }
   ]
 }

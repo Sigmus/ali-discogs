@@ -299,3 +299,15 @@ Feio is an extra on the seven-track file. The release stays unchecked at 4/6.
 Session knowledge does not fill a credit the file omits. How this may affect
 matching, and which of these facts the explorer should show, is
 [Bitches Brew credits](../plans/2026-11-13-bitches-brew-credits.md).
+
+## 2026-11-13 — A saved half-coverage album needs its own review
+
+Status: adopted for the twenty closest cached albums, excluding Bitches Brew.
+
+A track may cite only the arranged BWV when the source names that BWV and, after
+the word transcription, the work it was arranged from. An opus heading is not a
+separate piece: each following number must match one track with that opus and
+number. The file may add the word major. Op. 30 No. 3 saying minor is recorded,
+not corrected. A movement label under a heading that already has those tracks
+is not a second work. A named piece that is absent stays withheld. Cap at
+Probable 85. A later digital file is not the LP pressing.

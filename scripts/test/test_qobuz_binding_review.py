@@ -4,7 +4,7 @@ from pathlib import Path
 import sys
 import unittest
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
-from qobuz_binding_review import assess_bindings
+from qobuz_binding_review import allowed, assess_bindings
 from qobuz_lead_review import ROOT, reviewed_candidate
 from qobuz_snapshot import load_snapshot
 
@@ -32,7 +32,7 @@ class BindingReviewTests(unittest.TestCase):
                 published.append(discogs_id)
             else:
                 self.assertIsNone(candidate)
-        self.assertEqual(published, ['11562013', '3475547', '11168177', '6029612', '5177097', '7525022'])
+        self.assertEqual(published, ['11562013', '3475547', '11168177', '6029612', '5177097', '7525022', '4483876', '7119504', '6472687'])
 
     def test_a_mislabelled_scherzo_or_a_wrong_koechel_number_cannot_be_forced(self):
         row, album, review = self.review('11562013')
@@ -62,3 +62,8 @@ class BindingReviewTests(unittest.TestCase):
         kept['exclusions'] = []
         with self.assertRaises(ValueError):
             assess_bindings(row, album, kept)
+
+    def test_the_violin_original_cannot_replace_the_arranged_concerto(self):
+        target = 'Concerto En Ut Mineur, BWV 1062 Pour Deux Pianos (Transcription Du Concerto Pour Deux Violons, BWV 1043)'
+        self.assertTrue(allowed('transcription-bwv', target, 'Concerto for Two Pianos in C Minor, BWV 1062: I.'))
+        self.assertFalse(allowed('transcription-bwv', target, 'Concerto for Two Violins, BWV 1043'))

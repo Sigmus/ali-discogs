@@ -13,7 +13,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'src'))
 from ali_discogs.text import tnorm, norm, ORCH_ALIASES, is_composer
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = 'qobuz-work-groups-v2+explicit-target-credits+reviewed-leads+opera-source-roles+prelude-fugue-pairs+container-headings+bound-tracks+heading-over-groups'
+VERSION = 'qobuz-work-groups-v2+explicit-target-credits+reviewed-leads+opera-source-roles+prelude-fugue-pairs+container-headings+bound-tracks+heading-over-groups+cached-half'
 
 
 def credits_v1(track):
@@ -322,6 +322,14 @@ def generate():
         if review['review_kind'] != 'heading-over-groups' or review['discogs_id'] in round2_reviews:
             raise ValueError('Invalid or duplicate heading review')
         round2_reviews[review['discogs_id']] = review
+    cached_review_path = ROOT/'data/qobuz_cached_half_reviews.json'
+    cached_reviews = json.loads(cached_review_path.read_text())
+    if cached_reviews['schema_version'] != 1:
+        raise ValueError('Unsupported cached half review schema')
+    for review in cached_reviews['releases']:
+        if review['review_kind'] not in {'covered-labels', 'opus-pieces'} or review['discogs_id'] in round2_reviews:
+            raise ValueError('Invalid or duplicate cached half review')
+        round2_reviews[review['discogs_id']] = review
     results = {}
     for entry in manifest['entries']:
         rid = entry['discogs_id']
@@ -372,6 +380,7 @@ def generate():
               'container_review_fingerprint': hashlib.sha256(container_review_path.read_bytes()).hexdigest(),
               'binding_review_fingerprint': hashlib.sha256(binding_review_path.read_bytes()).hexdigest(),
               'heading_review_fingerprint': hashlib.sha256(heading_review_path.read_bytes()).hexdigest(),
+              'cached_half_review_fingerprint': hashlib.sha256(cached_review_path.read_bytes()).hexdigest(),
               'unmatched_review_fingerprint': hashlib.sha256(unmatched_review_path.read_bytes()).hexdigest(),
               'unmatched_metadata_fingerprint': hashlib.sha256(unmatched_metadata_path.read_bytes()).hexdigest(),
               'trial_review_fingerprint': hashlib.sha256(trial_review_path.read_bytes()).hexdigest(),

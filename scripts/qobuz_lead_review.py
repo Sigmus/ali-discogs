@@ -63,6 +63,12 @@ def assess(row, album, review):
     if review.get('review_kind') == 'heading-over-groups':
         from qobuz_heading_review import assess_headings
         return assess_headings(row, album, review)
+    if review.get('review_kind') == 'covered-labels':
+        from qobuz_cached_review import assess_labels
+        return assess_labels(row, album, review)
+    if review.get('review_kind') == 'opus-pieces':
+        from qobuz_cached_review import assess_opus_pieces
+        return assess_opus_pieces(row, album, review)
     corrections = review.get('target_title_corrections', {})
     groups = review.get('target_unit_groups', [])
     if groups:

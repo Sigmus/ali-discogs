@@ -1,0 +1,129 @@
+{
+  "schema_version": 1,
+  "releases": [
+    {
+      "discogs_id": "8165012",
+      "album_id": "5099921297052",
+      "review_kind": "covered-labels",
+      "decision": "probable",
+      "target_sha256": "07a74b3bce77744c6fa468929a21d09c0d79249a61a377a3805682ea44a4740e",
+      "album_sha256": "8fc10219b5015437f2204b7c5278d18fbe2fd2610f0e8db5aff5253b767a9944",
+      "source_sha256": "bf3ba72e093095663da9fd411a06c2bd8f2f74426c18d30a9fbd644462d41253",
+      "labels": [
+        {
+          "title": "Allegro, Adagio, Allegro",
+          "parent": "Concert Brandenbourgeous N° 3, BWV 1048",
+          "parent_track_ids": [
+            1728224,
+            1728227
+          ],
+          "title_contains": [
+            "Adagio",
+            "Allegro",
+            "I."
+          ]
+        },
+        {
+          "title": "Affetuoso",
+          "parent": "Concert Brandenbourgeous N° 5, BWV 1050",
+          "parent_track_ids": [
+            1728204,
+            1728207,
+            1728210
+          ],
+          "title_contains": [
+            "Affettuoso"
+          ]
+        }
+      ],
+      "required_performers": [
+        "Adolf Busch"
+      ],
+      "extra_track_ids": [
+        1728203,
+        1728206,
+        1728209,
+        1728212,
+        1728215,
+        1728218,
+        1728221,
+        1728213,
+        1728216,
+        1728219,
+        1728222,
+        1728225,
+        1728228,
+        1728231,
+        1728234,
+        1728237,
+        1728239,
+        1728205,
+        1728208,
+        1728211,
+        1728214,
+        1728217,
+        1728220,
+        1728223,
+        1728226,
+        1728229,
+        1728232,
+        1728235,
+        1728238,
+        1728240,
+        1728241,
+        1728242,
+        1728243,
+        1728244
+      ],
+      "sources": [
+        "https://www.qobuz.com/fr-fr/album/bach-js-brandenburg-concertos-orchestral-suites-adolf-busch/5099921297052"
+      ],
+      "limitations": [
+        "The first movement of Brandenburg Concerto No. 3 is titled only “I.” The next track joins the Adagio and the Allegro.",
+        "Affetuoso on the LP is spelled Affettuoso in the file.",
+        "Concertos 1, 2 and 6, and the four orchestral suites, are not on this LP.",
+        "This digital file is not verified as the 1958 Angel pressing."
+      ],
+      "recording_review": "Angel COLC 14 is Busch in Brandenburg Concertos 3, 4 and 5. This file has those three concertos, with Busch on every used track. Rudolf Serkin plays the piano in No. 5."
+    },
+    {
+      "discogs_id": "5939010",
+      "album_id": "vjbhud6daf7yb",
+      "review_kind": "opus-pieces",
+      "decision": "probable",
+      "target_sha256": "edc681628345d40a59495811a3977bd7728093b98d6150dec55c4961e372f5d6",
+      "album_sha256": "df00176e59d7b08f38990b7e3bd29d0aa2081f3ef89b75607ce0d86102a74f55",
+      "source_sha256": "a661750d17d1ad17491de83f5da0824c2cf6154699e3def65afcca72de571a5b",
+      "nicknames": {
+        "Mazurka In A Minor (\"A Son Ami Emile Gaillard\", Posth.)": "gaillard",
+        "Mazurka In A Minor  (\"Notre Temps\")": "notre temps"
+      },
+      "required_performers": [
+        "Arthur Rubinstein"
+      ],
+      "mode_conflicts": [
+        {
+          "opus": "Op. 30",
+          "title": "Nr. 3, In D-Flat",
+          "track_id": 56767544,
+          "file_mode": "minor"
+        }
+      ],
+      "extra_track_ids": [
+        56767576,
+        56767577,
+        56767578
+      ],
+      "sources": [
+        "https://www.qobuz.com/fr-fr/album/arthur-rubinstein-chopin-mazurkas-arthur-rubinstein/vjbhud6daf7yb"
+      ],
+      "limitations": [
+        "The file adds the word major where the LP gives only the key.",
+        "Op. 30 No. 3 is D-flat major. The file says D-flat minor.",
+        "The Polonaise-fantaisie and the Andante spianato are not in this mazurka set.",
+        "This digital file is not verified as the 1967 RCA pressing."
+      ],
+      "recording_review": "RCA LSC-6177 is Rubinstein’s Chopin mazurkas. This file has all 51 mazurkas, with Rubinstein on every one. Two polonaises are extra."
+    }
+  ]
+}

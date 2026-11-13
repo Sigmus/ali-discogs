@@ -17,7 +17,7 @@ plans preserve dated evidence and prior handoffs.
 - Current collection:741 copies /740 unique releases. Spotify254Found /273Probable
   /210NotFound /4Unchecked copies. Retained labels are not independent full
   recording confirmations. Qobuz figures below are independent enrichment.
-- Qobuz overlay: 12 Found / 84 Probable / 645 unchecked copies; unique 12/84/644 locally.
+- Qobuz overlay: 12 Found / 89 Probable / 640 unchecked copies; unique 12/89/639 locally.
   Separate `data/qobuz_matches.json` survives Spotify rescoring; original pipeline
   Qobuz fields stay unchecked. Empty/inconclusive queries are not confirmed absence.
 - Sonoteque table/details, 80% main width, column sorting (Year ascending default),
@@ -85,16 +85,16 @@ plans preserve dated evidence and prior handoffs.
 - Seven paced album/get calls on 2026-11-13 saved 410 tracks in
   `data/qobuz_metadata_needed.json.gz`. None is published. A Love Supreme
   lacks McCoy Tyner; the other six omit a named work or credit another ensemble.
-- Inventory is now 324 no saved hits, 3 metadata-needed, 313 work/credit
-  unresolved, 4 reviewed withholds, and the Barenboim9866861 completeness
-  caution. Matthew Passion5140330, Schütz6091545 and Chopin12419639 stay
-  unfetched: their saved hits are different works or a different conductor.
-- Menuhin 2527568 is Probable 85 in local commit 0cc34b7, not pushed.
-  Op. 6 is D major in the source and E-flat in the file.
-- Bitches Brew 7609610 stays unchecked at 4/6. Young is missing on two titles,
-  and one file names Zawinul where this copy does not. Open proposal:
+- Inventory is 324 no saved hits, 3 metadata-needed, 304 work/credit
+  unresolved, 7 reviewed withholds, and the Barenboim9866861 completeness
+  caution. Matthew Passion5140330, Schütz6091545 and Chopin12419639 stay unfetched.
+- Half-coverage pass, local only: Probable 85 for Bach 4483876, Ravel 7119504,
+  Stern 6472687, Busch 8165012 and Rubinstein mazurkas 5939010. Withheld:
+  Saint-Saëns Op. 22, Concerto No. 3, and Furtwängler’s two overtures.
+- Bitches Brew 7609610 stays unchecked. Open proposal:
   [Bitches Brew credits](../plans/2026-11-13-bitches-brew-credits.md).
-- Next: discuss that proposal before any match or UI change. The seven fetches
-  stay unpublished. Bach 4483876 still needs a reason BWV 1062 is unassigned.
+- Next: leave Bitches Brew until that proposal is decided. The remaining cached
+  albums are mostly far from a complete programme. The 324 with no saved hit
+  need new searches.
 - [Unmatched audit](../plans/2026-11-13-qobuz-unmatched-audit.md).
 - [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).
