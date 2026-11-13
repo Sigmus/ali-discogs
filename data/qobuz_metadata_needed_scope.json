@@ -1,0 +1,55 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "discogs_id": "594243",
+      "album_id": "0060253742084",
+      "reason": "Four-track A Love Supreme by John Coltrane. The live, masters and platinum sets are different editions."
+    },
+    {
+      "discogs_id": "4469662",
+      "album_id": "0002894667272",
+      "reason": "Ashkenazy, German title for piano concertos 2 and 4. The Etudes-Tableaux are not named."
+    },
+    {
+      "discogs_id": "6105272",
+      "album_id": "g4nhgjv3d6wbc",
+      "reason": "Borodin Quartet complete string quartets. The piano quintet is not named."
+    },
+    {
+      "discogs_id": "6465567",
+      "album_id": "0002894637012",
+      "reason": "Munich Bach orchestra sacred-masterpieces set. The search titles do not name the Advent, Christmas and Easter cantatas."
+    },
+    {
+      "discogs_id": "6907296",
+      "album_id": "0886446492919",
+      "reason": "Serkin plays the Italian Concerto and Chromatic Fantasy. The three-piano concertos are not named."
+    },
+    {
+      "discogs_id": "7975379",
+      "album_id": "a6g9640whj71a",
+      "reason": "Stuttgart Bach collegium cantata set, the ensemble associated with Rilling. BWV 149 and 188 are not named."
+    },
+    {
+      "discogs_id": "9850479",
+      "album_id": "3614590915896",
+      "reason": "Souzay mélodies that name Duparc together with Chausson and Fauré."
+    }
+  ],
+  "not_fetched": [
+    {
+      "discogs_id": "5140330",
+      "reason": "Saved Lehmann hits are the Christmas Oratorio and sacred cantatas, not the St Matthew Passion."
+    },
+    {
+      "discogs_id": "6091545",
+      "reason": "Saved Ehmann hits are other Schütz collections, not the 1619 Psalms of David."
+    },
+    {
+      "discogs_id": "12419639",
+      "reason": "Rigutto hits are nocturnes and waltzes. The concerto hit is conducted by Erich Bergel."
+    }
+  ],
+  "policy": "Seven fixed albums from saved hits. Paced album/get only. No new searches and no automatic acceptance."
+}

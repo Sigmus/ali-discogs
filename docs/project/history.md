@@ -910,3 +910,26 @@ withholds (Tannhäuser4365080, Haebler4641786, Time Out2383925,
 Saint-Saëns10102576), and one completeness caution, Barenboim9866861 against
 the later DG cycle. No new searches, fetches, or promotions. The audit script
 completed and wrote `data/qobuz_unmatched_audit.json`.
+
+## 2026-11-13 — Seven metadata-needed albums fetched
+
+Paced album/get for seven saved hits, 410 tracks, archived in
+`data/qobuz_metadata_needed.json.gz`. No publication. A Love Supreme594243 has
+all four parts and the joined Pursuance/Psalm duration, but McCoy Tyner is not
+in the credit string. Rachmaninoff4469662 lacks the Etudes-Tableaux. Shostakovich
+6105272 has the quartets and quintet in the work field, credited to a later
+Borodin lineup rather than Berlinsky or the Beethoven Quartet. Richter6465567
+is the Matthew Passion. Serkin6907296 lacks the three-piano concertos. Rilling
+7975379 lacks BWV 149 and 188. Souzay9850479 has two of twelve Duparc songs.
+Matthew Passion5140330, Schütz6091545 and Chopin12419639 were not fetched:
+their saved hits name different works or Erich Bergel. Inventory is 324/3/313/4/1.
+
+## 2026-11-13 — Menuhin Paganini concertos published locally
+
+Discogs 2527568 / Qobuz 0077774708852 is Probable 85. The source heading is not
+a third work. Op. 6 and Op. 7 each keep three movements, with Menuhin, Erede and
+the Royal Philharmonic on every track. The source calls Op. 6 D major; the file
+says E-flat, the sounding key. Warner digital is not the 1975 La Voix De Son
+Maître pressing. Bitches Brew 7609610 was inspected and not published: Larry
+Young is absent from the two tracks that name him. Copies 12/84/645, unique
+12/84/644. Heading tests and normalization passed. No API calls.

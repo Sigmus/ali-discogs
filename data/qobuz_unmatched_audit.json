@@ -10,6 +10,7 @@
     "qobuz_query_trial_searches.json.gz": "a875444fce1a5e7674180ef4cfb66ba8855cd36ee052fba0a8a6a4f2216d90bf",
     "qobuz_query_validation.json.gz": "53457cf526b5bbea733010f3b285ac456345e98b4b401c4f4494588e9895987f",
     "qobuz_unmatched_metadata.json.gz": "b9ee630308545a56700f5322dea82ebad2621bc20c5e76f7b8743aaa94ba3c9e",
+    "qobuz_metadata_needed.json.gz": "251d740a4edc8bd4a8b4dc2dc0a173c19a4785b735de4af5de1d1839f3ba85a4",
     "collection_matches.json": "a214eee877d4749fa957b3d2a293c2925d7ba0621259f2742139a6cd86f928c8",
     "qobuz_matches.json": "6cab770ebddf346105517f5629c663b52325cef576651dfcb53db8ec2b23ad8a",
     "qobuz_work_inventory.json": "ac5b17039789d5e994c13492246e74dd62bd8194dd089f579668d98e82dfe3f9",
@@ -17,10 +18,10 @@
     "qobuz_opera_recording_reviews.json": "11a52ad521b086b7c967327a0d01d0cee432d3cf8695754899a7f40aeb20839d"
   },
   "summary": {
-    "metadata_needed": 10,
-    "work_or_credit_unresolved": 306,
+    "work_or_credit_unresolved": 313,
     "no_saved_hits": 324,
     "reviewed_withheld": 4,
+    "metadata_needed": 3,
     "completeness_review_needed": 1
   },
   "unmatched_unique_releases": 645,
@@ -28,10 +29,40 @@
     {
       "discogs_id": "594243",
       "title": "A Love Supreme",
-      "category": "metadata_needed",
+      "category": "work_or_credit_unresolved",
       "saved_hits": 10,
-      "uncached_hits": 10,
-      "cached_candidates": []
+      "uncached_hits": 9,
+      "cached_candidates": [
+        {
+          "album_id": "0060253742084",
+          "title": "A Love Supreme",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Part 1> Acknowledgement",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Part 2> Resolution",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Part 3> Pursuance / Part 4> Psalm",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ]
+        }
+      ]
     },
     {
       "discogs_id": "669978",
@@ -31621,10 +31652,34 @@
     {
       "discogs_id": "4469662",
       "title": "Klavierkonzert Nr.2 C-Moll / Etudes Tableaux",
-      "category": "metadata_needed",
+      "category": "work_or_credit_unresolved",
       "saved_hits": 10,
-      "uncached_hits": 10,
-      "cached_candidates": []
+      "uncached_hits": 9,
+      "cached_candidates": [
+        {
+          "album_id": "0002894667272",
+          "title": "Rachmaninoff: Klavierkonzerte Nr.2 & 4",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "incomplete",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Konzert Für Klavier Und Orchester Nr. 2 C-Moll, Op. 18",
+              "work_tracks": 3,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Etudes Tableaux, Op. 39",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ]
+        }
+      ]
     },
     {
       "discogs_id": "4483876",
@@ -38707,10 +38762,365 @@
     {
       "discogs_id": "6105272",
       "title": "Streichquartette 1–15 · Klavierquintett G-Moll Op. 57",
-      "category": "metadata_needed",
+      "category": "work_or_credit_unresolved",
       "saved_hits": 7,
-      "uncached_hits": 7,
-      "cached_candidates": []
+      "uncached_hits": 6,
+      "cached_candidates": [
+        {
+          "album_id": "g4nhgjv3d6wbc",
+          "title": "Shostakovich : Complete String Quartets",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Streichquartett Nr. 1 C-Dur Op. 49",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Valentin Berlinsky",
+                "Borodin String Quartet",
+                "Beethoven Quartet",
+                "Rostislav Dubinsky",
+                "Yaroslav Alexandrov"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            },
+            {
+              "target": "Streichquartett Nr. 2 A-Dur Op. 68",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Valentin Berlinsky",
+                "Borodin String Quartet",
+                "Beethoven Quartet",
+                "Rostislav Dubinsky",
+                "Yaroslav Alexandrov"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            },
+            {
+              "target": "Streichquartett Nr. 4 D-dur Op. 83",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Valentin Berlinsky",
+                "Borodin String Quartet",
+                "Beethoven Quartet",
+                "Rostislav Dubinsky",
+                "Yaroslav Alexandrov"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            },
+            {
+              "target": "Streichquartett Nr. 6 G-Dur Op. 101",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Valentin Berlinsky",
+                "Borodin String Quartet",
+                "Beethoven Quartet",
+                "Rostislav Dubinsky",
+                "Yaroslav Alexandrov"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            },
+            {
+              "target": "Streichquartett Nr. 5 B-Dur Op. 92",
+              "work_tracks": 3,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Valentin Berlinsky",
+                "Borodin String Quartet",
+                "Beethoven Quartet",
+                "Rostislav Dubinsky",
+                "Yaroslav Alexandrov"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            },
+            {
+              "target": "Streichquartett Nr. 9 Es-Dur Op. 117",
+              "work_tracks": 5,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Valentin Berlinsky",
+                "Borodin String Quartet",
+                "Beethoven Quartet",
+                "Rostislav Dubinsky",
+                "Yaroslav Alexandrov"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            },
+            {
+              "target": "Streichquartett Nr. 8 C-Moll Op. 110",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Valentin Berlinsky",
+                "Borodin String Quartet",
+                "Beethoven Quartet",
+                "Rostislav Dubinsky",
+                "Yaroslav Alexandrov"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            },
+            {
+              "target": "Streichquartett Nr. 3 F-Dur Op. 73",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Valentin Berlinsky",
+                "Borodin String Quartet",
+                "Beethoven Quartet",
+                "Rostislav Dubinsky",
+                "Yaroslav Alexandrov"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            },
+            {
+              "target": "Streichquartett Nr. 4 As-Dur Op. 118",
+              "work_tracks": 4,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Valentin Berlinsky",
+                "Borodin String Quartet",
+                "Beethoven Quartet",
+                "Rostislav Dubinsky",
+                "Yaroslav Alexandrov"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            },
+            {
+              "target": "Streichquartett Nr. 11 F-Moll Op. 122",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Valentin Berlinsky",
+                "Borodin String Quartet",
+                "Beethoven Quartet",
+                "Rostislav Dubinsky",
+                "Yaroslav Alexandrov"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            },
+            {
+              "target": "Streichquartett Nr. 7 Fis-Moll Op. 108",
+              "work_tracks": 3,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Valentin Berlinsky",
+                "Borodin String Quartet",
+                "Beethoven Quartet",
+                "Rostislav Dubinsky",
+                "Yaroslav Alexandrov"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            },
+            {
+              "target": "Streichquartett Nr. 13 B-Moll Op. 138",
+              "work_tracks": 1,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Valentin Berlinsky",
+                "Borodin String Quartet",
+                "Beethoven Quartet",
+                "Rostislav Dubinsky",
+                "Yaroslav Alexandrov"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            },
+            {
+              "target": "Streichquartett Nr. 12 Des-Dur Op. 133",
+              "work_tracks": 2,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Valentin Berlinsky",
+                "Borodin String Quartet",
+                "Beethoven Quartet",
+                "Rostislav Dubinsky",
+                "Yaroslav Alexandrov"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            },
+            {
+              "target": "Streichquartett Nr. 14 Fis-Dur Op. 142",
+              "work_tracks": 3,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Valentin Berlinsky",
+                "Borodin String Quartet",
+                "Beethoven Quartet",
+                "Rostislav Dubinsky",
+                "Yaroslav Alexandrov",
+                "Sergei Shirinsky",
+                "Dmitri Tsyganov",
+                "Николай Забавников"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [
+                  "M1",
+                  "M2.1",
+                  "M2.2"
+                ],
+                "performers": [
+                  {
+                    "name": "Sergei Shirinsky",
+                    "role": "Cello"
+                  },
+                  {
+                    "name": "Dmitri Tsyganov",
+                    "role": "Violin [First]"
+                  },
+                  {
+                    "name": "Николай Забавников",
+                    "role": "Violin [Second]"
+                  }
+                ]
+              }
+            },
+            {
+              "target": "Streichquartett Nr. 15 Es-Moll Op. 144",
+              "work_tracks": 6,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Valentin Berlinsky",
+                "Borodin String Quartet",
+                "Beethoven Quartet",
+                "Rostislav Dubinsky",
+                "Yaroslav Alexandrov",
+                "Евгений Альтман",
+                "Dmitri Tsyganov",
+                "Николай Забавников"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [
+                  "N1.1",
+                  "N1.2",
+                  "N1.3",
+                  "N1.4",
+                  "O1.1",
+                  "O1.2"
+                ],
+                "performers": [
+                  {
+                    "name": "Евгений Альтман",
+                    "role": "Cello"
+                  },
+                  {
+                    "name": "Dmitri Tsyganov",
+                    "role": "Violin [First]"
+                  },
+                  {
+                    "name": "Николай Забавников",
+                    "role": "Violin [Second]"
+                  }
+                ]
+              }
+            },
+            {
+              "target": "Klavierquintett Für 2 Violinen, Viola, Violoncell Und Klavier G-moll Op. 57",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Valentin Berlinsky",
+                "Borodin String Quartet",
+                "Beethoven Quartet",
+                "Rostislav Dubinsky",
+                "Yaroslav Alexandrov",
+                "Luba Edlina"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [
+                  "O2.1",
+                  "O2.2",
+                  "P1",
+                  "P2.1",
+                  "P2.2"
+                ],
+                "performers": [
+                  {
+                    "name": "Luba Edlina",
+                    "role": "Piano"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       "discogs_id": "6113868",
@@ -42668,10 +43078,208 @@
     {
       "discogs_id": "6465567",
       "title": "Kantaten I: Kantaten Zu Advent, Weihnachten Und Ostern",
-      "category": "metadata_needed",
+      "category": "work_or_credit_unresolved",
       "saved_hits": 5,
-      "uncached_hits": 5,
-      "cached_candidates": []
+      "uncached_hits": 4,
+      "cached_candidates": [
+        {
+          "album_id": "0002894637012",
+          "title": "Bach, J.S.: Sacred Masterpieces",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Nun Komm, Der Heiden Heiland",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Bereitet Die Wege, Bereitet Die Bahn",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Christen, Ätzet Diesen Tag",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Christum Wir Sollen Loben Schon",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Sehet, Welch Eine Liebe Hat Uns Der Vater Erzeiget",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Gottlob! Nun Geht Das Jahr Zu Ende",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Gottlob! Nun Geht Das Jahr Zu Ende (Continued)",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Gott, Wie Dein Name, So Ist Auch Dein Ruhm",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Ach Gott, Wie Manches Herzeleid",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Sie Werden Aus Saba Alle Kommen",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Sie Werden Aus Saba Alle Kommen (Continued)",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Meinen Jesum Laß Ich Nicht",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Meine Seufzer, Meine TrÄnen",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Was Mein Gott Will, Das G'scheh Allzeit",
+              "work_tracks": 1,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Jesus Schlaft, Was Soll Ich Hoffen?",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Ich Habe Genug",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Ich Hab In Gottes Herz Und Sinn",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Ich Hab In Gottes Herz Und Sinn (Continued)",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Erhalt Uns, Herr, Bei Deinem Wort",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Du Wahrer Gott Und Davids Sohn",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Wie SchÖn Leuchtet Der Morgenstern",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Himmelskönig , Sei Willkommen",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Himmelskönig, Sei Willkommen (Continued)",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Christ Lag In Todesbanden",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Bleib Bei Uns, Denn Es Will Abend Werden",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Der Friede Sei Mit Dir",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Halt Im Gedächtnis Jesum Christ",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Du Hirte Israel, Hore",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Weinen, Klagen, Sorgen, Zagen",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Es Ist Euch Gut, Daß Ich Hingehe",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Bisher Habt Ihr Nichts Gebeten In Meinem Namen",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ]
+        }
+      ]
     },
     {
       "discogs_id": "6472687",
@@ -44377,10 +44985,116 @@
     {
       "discogs_id": "6907296",
       "title": "Concertos For Three Pianos Nos. 1 & 2 / Italian Concerto / Chromatic Fantasy & Fugue",
-      "category": "metadata_needed",
+      "category": "work_or_credit_unresolved",
       "saved_hits": 5,
-      "uncached_hits": 5,
-      "cached_candidates": []
+      "uncached_hits": 4,
+      "cached_candidates": [
+        {
+          "album_id": "0886446492919",
+          "title": "Bach: Gamba Sonata No. 3 & Chromatic Fantasy & Italian Concerto & Cappriccio & Toccata ",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Concerto No. 1 In D Minor For Three Pianos And String Orchestra, BWV 1063",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Alexander Schneider",
+                "Rudolf Serkin",
+                "Marlboro Festival Orchestra",
+                "Mieczyslaw Horszowski",
+                "Peter Serkin",
+                "Ruth Laredo"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [
+                  "A1",
+                  "A2",
+                  "A3"
+                ],
+                "performers": [
+                  {
+                    "name": "Mieczyslaw Horszowski",
+                    "role": "Piano"
+                  },
+                  {
+                    "name": "Peter Serkin",
+                    "role": "Piano"
+                  },
+                  {
+                    "name": "Ruth Laredo",
+                    "role": "Piano"
+                  }
+                ]
+              }
+            },
+            {
+              "target": "Italian Concerto, BWV 971 (Mono)",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Alexander Schneider",
+                "Rudolf Serkin",
+                "Marlboro Festival Orchestra"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            },
+            {
+              "target": "Concerto No. 2 In C Major For Three Pianos And String Orchestra, BWV 1064",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Alexander Schneider",
+                "Rudolf Serkin",
+                "Marlboro Festival Orchestra",
+                "Mieczyslaw Horszowski"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [
+                  "B1",
+                  "B2",
+                  "B3"
+                ],
+                "performers": [
+                  {
+                    "name": "Mieczyslaw Horszowski",
+                    "role": "Piano"
+                  }
+                ]
+              }
+            },
+            {
+              "target": "Chromatic Fantasy And Fugue In D Minor, BWV 903 (Mono)",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Alexander Schneider",
+                "Rudolf Serkin",
+                "Marlboro Festival Orchestra"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       "discogs_id": "6929259",
@@ -53216,10 +53930,213 @@
     {
       "discogs_id": "7975379",
       "title": "BWV 149 Man Singet Mit Freuden Vom Sieg / BWV 188 Ich Habe Meine Zuversicht.",
-      "category": "metadata_needed",
+      "category": "work_or_credit_unresolved",
       "saved_hits": 5,
-      "uncached_hits": 5,
-      "cached_candidates": []
+      "uncached_hits": 4,
+      "cached_candidates": [
+        {
+          "album_id": "a6g9640whj71a",
+          "title": "J.S. Bach: Cantatas",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Man Singet Mit Freuden Vom Sieg (Kantate BWV 149 Zu Michaelis Für Sopran, Alt, Tenor, Baß, Vierstimmigen Chor, 3 Trompeten, Pauken, 3 Oboen, Fagott, Streicher Und Generalbaß)",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Gächinger Kantorei Stuttgart",
+                "Bach-Ensemble Helmuth Rilling",
+                "Mechthild Georg",
+                "Philippe Huttenlocher",
+                "Christoph Carl (3)",
+                "Hans-Joachim Erhard",
+                "Michael Behringer",
+                "Daisuke Mogi",
+                "Diethelm Jonas",
+                "Hedda Rothweiler",
+                "Arleen Auger",
+                "Aldo Baldin",
+                "Norbert Schmitt",
+                "Bernhard Läubin",
+                "Hannes Läubin",
+                "Wolfgang Läubin",
+                "Jacoba Muckel",
+                "Stefan Trauer"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [
+                  "A1",
+                  "A2",
+                  "A3",
+                  "A4",
+                  "A5",
+                  "A6",
+                  "A7"
+                ],
+                "performers": [
+                  {
+                    "name": "Mechthild Georg",
+                    "role": "Alto Vocals"
+                  },
+                  {
+                    "name": "Philippe Huttenlocher",
+                    "role": "Bass Vocals"
+                  },
+                  {
+                    "name": "Christoph Carl (3)",
+                    "role": "Bassoon"
+                  },
+                  {
+                    "name": "Hans-Joachim Erhard",
+                    "role": "Harpsichord"
+                  },
+                  {
+                    "name": "Michael Behringer",
+                    "role": "Harpsichord"
+                  },
+                  {
+                    "name": "Daisuke Mogi",
+                    "role": "Oboe"
+                  },
+                  {
+                    "name": "Diethelm Jonas",
+                    "role": "Oboe"
+                  },
+                  {
+                    "name": "Hedda Rothweiler",
+                    "role": "Oboe"
+                  },
+                  {
+                    "name": "Hans-Joachim Erhard",
+                    "role": "Organ [Orgelpositiv]"
+                  },
+                  {
+                    "name": "Arleen Auger",
+                    "role": "Soprano Vocals"
+                  },
+                  {
+                    "name": "Aldo Baldin",
+                    "role": "Tenor Vocals"
+                  },
+                  {
+                    "name": "Norbert Schmitt",
+                    "role": "Trombone"
+                  },
+                  {
+                    "name": "Bernhard Läubin",
+                    "role": "Trumpet"
+                  },
+                  {
+                    "name": "Hannes Läubin",
+                    "role": "Trumpet"
+                  },
+                  {
+                    "name": "Wolfgang Läubin",
+                    "role": "Trumpet"
+                  },
+                  {
+                    "name": "Jacoba Muckel",
+                    "role": "Violoncello"
+                  },
+                  {
+                    "name": "Stefan Trauer",
+                    "role": "Violoncello"
+                  }
+                ]
+              }
+            },
+            {
+              "target": "Ich Habe Meine Zuversicht (Kantate BWV 188 Zum 21. Sonntag nach Trinitatis Für Sopran, Alt, Tenor, Baß, Vierstimmigen Chor, Konzertierende Orgel, 2 Oboen, Oboe Da Caccia, Streicher Und Generalbaß)",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Gächinger Kantorei Stuttgart",
+                "Bach-Ensemble Helmuth Rilling",
+                "Julia Hamari",
+                "Walter Heldwein",
+                "Günther Pfitzenmaier",
+                "Michael Behringer",
+                "Günther Passin",
+                "Hedda Rothweiler",
+                "Dietmar Keller",
+                "Martha Schuster",
+                "Hans-Joachim Erhard",
+                "Arleen Auger",
+                "Aldo Baldin",
+                "Stefan Trauer"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [
+                  "B1",
+                  "B2",
+                  "B3",
+                  "B4",
+                  "B5",
+                  "B6"
+                ],
+                "performers": [
+                  {
+                    "name": "Julia Hamari",
+                    "role": "Alto Vocals"
+                  },
+                  {
+                    "name": "Walter Heldwein",
+                    "role": "Bass Vocals"
+                  },
+                  {
+                    "name": "Günther Pfitzenmaier",
+                    "role": "Bassoon"
+                  },
+                  {
+                    "name": "Michael Behringer",
+                    "role": "Harpsichord"
+                  },
+                  {
+                    "name": "Günther Passin",
+                    "role": "Oboe"
+                  },
+                  {
+                    "name": "Hedda Rothweiler",
+                    "role": "Oboe"
+                  },
+                  {
+                    "name": "Dietmar Keller",
+                    "role": "Oboe Da Caccia"
+                  },
+                  {
+                    "name": "Martha Schuster",
+                    "role": "Organ [Satz 1]"
+                  },
+                  {
+                    "name": "Hans-Joachim Erhard",
+                    "role": "Organ [Satz 4]"
+                  },
+                  {
+                    "name": "Arleen Auger",
+                    "role": "Soprano Vocals"
+                  },
+                  {
+                    "name": "Aldo Baldin",
+                    "role": "Tenor Vocals"
+                  },
+                  {
+                    "name": "Stefan Trauer",
+                    "role": "Violoncello"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       "discogs_id": "7990485",
@@ -68433,10 +69350,94 @@
     {
       "discogs_id": "9850479",
       "title": "Duparc Songs",
-      "category": "metadata_needed",
+      "category": "work_or_credit_unresolved",
       "saved_hits": 4,
-      "uncached_hits": 4,
-      "cached_candidates": []
+      "uncached_hits": 3,
+      "cached_candidates": [
+        {
+          "album_id": "3614590915896",
+          "title": "Chausson, Fauré & Duparc: Mélodies ",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "L'invitation Au Voyage",
+              "work_tracks": 1,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Sérenade Florentine",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "La Vague Et La Cloche",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Extase",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Le Manoir De Rosemonde",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Lamento",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "La Vie Antérieure",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Testament",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Phidylé",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Chanson Triste",
+              "work_tracks": 1,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Elégie",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Soupir",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ]
+        }
+      ]
     },
     {
       "discogs_id": "9855113",

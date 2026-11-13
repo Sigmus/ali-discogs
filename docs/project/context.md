@@ -17,7 +17,7 @@ plans preserve dated evidence and prior handoffs.
 - Current collection:741 copies /740 unique releases. Spotify254Found /273Probable
   /210NotFound /4Unchecked copies. Retained labels are not independent full
   recording confirmations. Qobuz figures below are independent enrichment.
-- Qobuz overlay: 12 Found / 83 Probable / 646 unchecked copies; unique 12/83/645 locally.
+- Qobuz overlay: 12 Found / 84 Probable / 645 unchecked copies; unique 12/84/644 locally.
   Separate `data/qobuz_matches.json` survives Spotify rescoring; original pipeline
   Qobuz fields stay unchecked. Empty/inconclusive queries are not confirmed absence.
 - Sonoteque table/details, 80% main width, column sorting (Year ascending default),
@@ -82,17 +82,19 @@ plans preserve dated evidence and prior handoffs.
 
 ## Validation and next action
 
-- No new catalogue calls. The [eight cached near-misses](../plans/2026-11-13-qobuz-eight-cached.md)
-  are reviewed. Probable85: Kempff11562013, both Rubinstein nocturne releases,
-  Davis/Sibelius6029612, Jazz Samba5177097 and Ellington7525022. Withheld:
-  Haebler4641786, Time Out2383925 and Saint-Saëns10102576.
-- Michelangeli, Gould and Tristan remain Probable85. Tannhäuser and the later
-  Barenboim cycle stay unpublished. Binding tests and normalization passed.
-- Unmatched inventory refreshed 2026-11-13 after the eight-album pass:
-  324 no saved hits, 10 metadata-needed, 306 work/credit unresolved,
-  4 reviewed withholds, 1 completeness caution. That caution is Barenboim
-  9866861 against the later DG cycle, already kept unpublished.
-- Next: the 10 metadata-needed releases have saved hits and no cached album.
-  Fetching them, or opening the 306 unresolved credits, needs a new scope.
+- Seven paced album/get calls on 2026-11-13 saved 410 tracks in
+  `data/qobuz_metadata_needed.json.gz`. None is published. A Love Supreme’s
+  four parts match the joined LP band, but McCoy Tyner is absent from the
+  credits. The other six albums omit a named work or credit a different ensemble.
+- Inventory is now 324 no saved hits, 3 metadata-needed, 313 work/credit
+  unresolved, 4 reviewed withholds, and the Barenboim9866861 completeness
+  caution. Matthew Passion5140330, Schütz6091545 and Chopin12419639 stay
+  unfetched: their saved hits are different works or a different conductor.
+- Menuhin 2527568 / Warner 0077774708852 is Probable 85: the heading covers
+  both concertos, three movements each. Op. 6 is D major in the source and
+  E-flat in the file. The 1975 LP mastering is not verified. Bitches Brew
+  7609610 stays unpublished because Larry Young is missing on two tracks.
+- Next: leave the seven fetches unpublished. The remaining unresolved credits
+  need a new scope. Bach 4483876 still needs a reason BWV 1062 is unassigned.
 - [Unmatched audit](../plans/2026-11-13-qobuz-unmatched-audit.md).
 - [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).

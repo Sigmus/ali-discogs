@@ -55,11 +55,14 @@ Source-role, ensemble-alias and act review is implemented and hash-bound.
 Tristan2996680 is Probable85 for the main three acts, with the rehearsal side
 kept visible. Gould2175684 is Probable85 for BWV 846–893 prelude/fugue pairs.
 Michelangeli6678433 is Probable85: the heading Mazurkas is a container and the
-13 numbered pieces each have one track. Tannhäuser4365080 stays withheld.
+13 numbered pieces each have one track. Menuhin2527568 is Probable85: the
+heading covers both Paganini concertos, and each concerto keeps its three
+movements. Tannhäuser4365080 stays withheld.
 Barenboim9866861 stays unmatched to the later DG cycle.
-Wrong-orchestra Nevsky stays excluded. The stored triage file was refreshed
-2026-11-13: 324 no saved hits, 10 metadata-needed, 306 work/credit unresolved,
-4 reviewed withholds, and Barenboim9866861 as the one completeness caution.
+Wrong-orchestra Nevsky stays excluded. The stored triage file now includes
+the seven fetched albums: 324 no saved hits, 3 metadata-needed, 313 work/credit
+unresolved, 4 reviewed withholds, and Barenboim9866861 as the one completeness
+caution. None of the seven fetches is published.
 
 Status: user-authorized [round2](../plans/2026-11-13-qobuz-round2.md) complete:
 3new bounded Probables (Klemperer,Ancerl,deVito),40slow searches for20empty

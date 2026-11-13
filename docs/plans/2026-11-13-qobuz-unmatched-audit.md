@@ -190,3 +190,27 @@ St Matthew Passion5140330, Schütz6091545, Shostakovich6105272, Bach cantatas
 6465567, Bach three-piano concertos6907296, Bach cantatas7975379, Duparc9850479,
 and Chopin12419639. Every saved hit for those ten is still uncached. Fetching
 them is a new scope.
+
+## Seven album files fetched
+
+13 November 2026, Europe/Amsterdam. User continued into the metadata-needed
+scope. `scripts/qobuz_metadata_needed.py --fetch` retrieved seven fixed albums
+at the existing 15-second pace. 410 tracks passed the complete-count and unique-ID
+checks. Archive: `data/qobuz_metadata_needed.json.gz`. No searches and no
+promotion.
+
+| Discogs | Album | Result |
+|---|---|---|
+| 594243 | `0060253742084`, 4 tracks | All four parts of A Love Supreme. Pursuance plus Psalm is 17:44 against the LP’s joined 17:40. McCoy Tyner is absent from every credit string. |
+| 4469662 | `0002894667272`, 7 tracks | Concertos Nos. 2 and 4 plus a two-piano rhapsody. Etudes-Tableaux, Op. 39, is absent. |
+| 6105272 | `g4nhgjv3d6wbc`, 75 tracks | Quartets 1–15 and the piano quintet are in the work field, with extra pieces. Credits name a later Borodin lineup, not Valentin Berlinsky or the Beethoven Quartet. |
+| 6465567 | `0002894637012`, 222 tracks | The file is the St Matthew Passion, not the Advent, Christmas and Easter cantatas. |
+| 6907296 | `0886446492919`, 10 tracks | Italian Concerto and Chromatic Fantasy movements. The three-piano concertos are absent. |
+| 7975379 | `a6g9640whj71a`, 87 tracks | Cantatas without BWV 149 or BWV 188. |
+| 9850479 | `3614590915896`, 5 tracks | Two Duparc songs, *Chanson triste* and *L’invitation au voyage*. Ten named songs are absent. |
+
+Not fetched: 5140330, because the Lehmann hits are the Christmas Oratorio and
+sacred cantatas; 6091545, because the Ehmann hits are other Schütz collections;
+12419639, because the Rigutto hits are nocturnes and waltzes and the concerto
+hit is conducted by Erich Bergel. Inventory after including the archive:
+324/3/313/4/1.

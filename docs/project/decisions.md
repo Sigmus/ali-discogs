@@ -273,3 +273,15 @@ album has a withhold decision is `reviewed_withheld`, including Tannhäuser,
 Haebler, Time Out and Saint-Saëns Op. 50. That category does not publish a
 match and does not queue the same gap again. Barenboim9866861 remains the one
 completeness caution and stays unpublished against DG 4631272.
+
+## 2026-11-13 — A heading may cover works that already have their tracks
+
+Status: adopted for the Menuhin Paganini review.
+
+When the only unmatched source unit is a heading, a hash-bound review may keep
+the other units’ existing multi-track assignments. Those tracks must partition
+the album, movement numbers must run in order, and every required performer
+must be credited on every used track. A heading that carries an opus, BWV or
+work number is not a container. This does not relax the one-track rule used
+for numbered pieces under a heading. Cap at Probable 85. A source key name and
+a later digital file do not prove the same mastering.

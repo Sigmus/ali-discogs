@@ -60,6 +60,9 @@ def assess(row, album, review):
     if review.get('review_kind') == 'bound-tracks':
         from qobuz_binding_review import assess_bindings
         return assess_bindings(row, album, review)
+    if review.get('review_kind') == 'heading-over-groups':
+        from qobuz_heading_review import assess_headings
+        return assess_headings(row, album, review)
     corrections = review.get('target_title_corrections', {})
     groups = review.get('target_unit_groups', [])
     if groups:

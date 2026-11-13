@@ -1,0 +1,45 @@
+{
+  "schema_version": 1,
+  "releases": [
+    {
+      "discogs_id": "2527568",
+      "album_id": "0077774708852",
+      "review_kind": "heading-over-groups",
+      "decision": "probable",
+      "target_sha256": "da98446cf919d1dbdfc6054fc734f350d3809dc4b92d8a497acc38af8c059b8a",
+      "album_sha256": "59fece38f3191a2bfe835d901bc8f6ac6c7c21d6633893b42c41e849ed30f189",
+      "source_sha256": "f3d8321e99ee56e6de5fc985e5af830c7700c616ba85b0916f0f066a1da0ddb6",
+      "required_performers": [
+        "Yehudi Menuhin",
+        "Alberto Erede",
+        "Royal Philharmonic Orchestra"
+      ],
+      "movement_runs": true,
+      "container_titles": [
+        "Les Deux Concertos Pour Violon Et Orchestre"
+      ],
+      "expected": {
+        "Concerto N°1 En Ré Majeur, Op.6": [
+          787317,
+          787318,
+          787319
+        ],
+        "Concerto N°2 En Si Mineur, Op.7 \"La Campanella\"": [
+          787320,
+          787321,
+          787322
+        ]
+      },
+      "extra_track_ids": [],
+      "sources": [
+        "https://www.qobuz.com/fr-fr/album/concertos-pour-violon-1-2-niccolo-paganini/0077774708852"
+      ],
+      "recording_review": "La Voix de Son Maître 2C 069-00194 is Menuhin and Erede in Paganini’s two violin concertos. This Warner file has both concertos, three movements each, with Menuhin, Erede and the Royal Philharmonic on every track.",
+      "limitations": [
+        "The heading names the two concertos. It is not a third work.",
+        "The source calls Op. 6 D major. The digital title says E-flat major, the sounding key of that scordatura concerto.",
+        "The 1975 French LP mastering is not verified."
+      ]
+    }
+  ]
+}

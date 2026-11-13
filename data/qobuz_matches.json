@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "matcher_version": "qobuz-work-groups-v2+explicit-target-credits+reviewed-leads+opera-source-roles+prelude-fugue-pairs+container-headings+bound-tracks",
+  "matcher_version": "qobuz-work-groups-v2+explicit-target-credits+reviewed-leads+opera-source-roles+prelude-fugue-pairs+container-headings+bound-tracks+heading-over-groups",
   "score_kind": "heuristic",
   "metadata_completed_at": "2026-11-13T00:15:30.593902+00:00",
   "search_manifest_fingerprint": "72bfbc0de0c0d8ee65c624b6ebe07db7be6ef0f10b6ba5fd4f468d54f812e802",
@@ -16,6 +16,7 @@
   "pair_review_fingerprint": "7709aa57ef7815fda88766badd3064939bccb142bd0e97389a0f5f011c54cd84",
   "container_review_fingerprint": "aa8a8e530114e05869e1215561786073250faca3c9349b66059ea59ff3c535e0",
   "binding_review_fingerprint": "7617a5f8c1854bb735bf3aed12f7ebddabc249dc608b23aec8b9ae71839ac25a",
+  "heading_review_fingerprint": "44c6333ec66aff9cbbf7a29ae8d00ef0005da4fb05dae7e65278f889e97fab8b",
   "unmatched_review_fingerprint": "21d025cd3fb58ad2087d5f859097c6c56d5ce4d79eabf61be52e3930ce1ebc30",
   "unmatched_metadata_fingerprint": "b9ee630308545a56700f5322dea82ebad2621bc20c5e76f7b8743aaa94ba3c9e",
   "trial_review_fingerprint": "29b152d71ab83c8be83049c16bdc43fd84fa485eefeca6bba69012aa90e3de07",
@@ -96530,10 +96531,101 @@
       ]
     },
     "2527568": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0077774708852",
+        "name": "Concertos pour violon 1 & 2",
+        "artists": [
+          "Yehudi Menuhin"
+        ],
+        "label": "Warner Classics",
+        "release_date": "1987-08-10",
+        "image": "https://static.qobuz.com/images/covers/52/88/0077774708852_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/concertos-pour-violon-1-2-niccolo-paganini/0077774708852"
+      },
       "candidates": [
+        {
+          "id": "0077774708852",
+          "name": "Concertos pour violon 1 & 2",
+          "artists": [
+            "Yehudi Menuhin"
+          ],
+          "label": "Warner Classics",
+          "release_date": "1987-08-10",
+          "image": "https://static.qobuz.com/images/covers/52/88/0077774708852_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/concertos-pour-violon-1-2-niccolo-paganini/0077774708852",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 2,
+          "target_count": 2,
+          "required_performers": [
+            "Alberto Erede",
+            "Yehudi Menuhin",
+            "Royal Philharmonic Orchestra"
+          ],
+          "programme": [
+            {
+              "target": "Concerto N°1 En Ré Majeur, Op.6",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                787317,
+                787318,
+                787319
+              ]
+            },
+            {
+              "target": "Concerto N°2 En Si Mineur, Op.7 \"La Campanella\"",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                787320,
+                787321,
+                787322
+              ]
+            }
+          ],
+          "reasons": [
+            "The source heading names the programme. Each listed work keeps its own credited tracks.",
+            "La Voix de Son Maître 2C 069-00194 is Menuhin and Erede in Paganini’s two violin concertos. This Warner file has both concertos, three movements each, with Menuhin, Erede and the Royal Philharmonic on every track.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "The heading names the two concertos. It is not a third work.",
+            "The source calls Op. 6 D major. The digital title says E-flat major, the sounding key of that scordatura concerto.",
+            "The 1975 French LP mastering is not verified."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Concerto N°1 En Ré Majeur, Op.6",
+                "status": "complete",
+                "scope": "reviewed-heading-group",
+                "track_ids": [
+                  787317,
+                  787318,
+                  787319
+                ]
+              },
+              {
+                "target": "Concerto N°2 En Si Mineur, Op.7 \"La Campanella\"",
+                "status": "complete",
+                "scope": "reviewed-heading-group",
+                "track_ids": [
+                  787320,
+                  787321,
+                  787322
+                ]
+              }
+            ]
+          },
+          "recording_review": "La Voix de Son Maître 2C 069-00194 is Menuhin and Erede in Paganini’s two violin concertos. This Warner file has both concertos, three movements each, with Menuhin, Erede and the Royal Philharmonic on every track.",
+          "review_sources": [
+            "https://www.qobuz.com/fr-fr/album/concertos-pour-violon-1-2-niccolo-paganini/0077774708852"
+          ]
+        },
         {
           "id": "3610159880360",
           "name": "Paganini: Concertos pour violon Nos. 1 & 2",
@@ -96639,58 +96731,6 @@
           ]
         },
         {
-          "id": "0077774708852",
-          "name": "Concertos pour violon 1 & 2",
-          "artists": [
-            "Yehudi Menuhin"
-          ],
-          "label": "Warner Classics",
-          "release_date": "1987-08-10",
-          "image": "https://static.qobuz.com/images/covers/52/88/0077774708852_230.jpg",
-          "url": "https://www.qobuz.com/fr-fr/album/concertos-pour-violon-1-2-niccolo-paganini/0077774708852",
-          "status": "unchecked",
-          "confidence": null,
-          "coverage": 0.6666666666666666,
-          "covered": 2,
-          "target_count": 3,
-          "required_performers": [
-            "Alberto Erede",
-            "Yehudi Menuhin",
-            "Royal Philharmonic Orchestra"
-          ],
-          "programme": [
-            {
-              "target": "Les Deux Concertos Pour Violon Et Orchestre",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Concerto N°1 En Ré Majeur, Op.6",
-              "work_tracks": 3,
-              "credited_tracks": 3,
-              "track_ids": [
-                787317,
-                787318,
-                787319
-              ]
-            },
-            {
-              "target": "Concerto N°2 En Si Mineur, Op.7 \"La Campanella\"",
-              "work_tracks": 3,
-              "credited_tracks": 3,
-              "track_ids": [
-                787320,
-                787321,
-                787322
-              ]
-            }
-          ],
-          "reasons": [
-            "2/3 target items supported after composer/work grouping; unresolved."
-          ]
-        },
-        {
           "id": "5099909481251",
           "name": "The Very Best of: Yehudi Menuhin",
           "artists": [
@@ -96742,7 +96782,12 @@
       "query": "alberto erede paganini deux concertos",
       "searched_at": "2026-11-12T16:35:39.207979+00:00",
       "reasons": [
-        "2/3 target items supported after composer/work grouping; unresolved."
+        "The source heading names the programme. Each listed work keeps its own credited tracks.",
+        "La Voix de Son Maître 2C 069-00194 is Menuhin and Erede in Paganini’s two violin concertos. This Warner file has both concertos, three movements each, with Menuhin, Erede and the Royal Philharmonic on every track.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "The heading names the two concertos. It is not a third work.",
+        "The source calls Op. 6 D major. The digital title says E-flat major, the sounding key of that scordatura concerto.",
+        "The 1975 French LP mastering is not verified."
       ]
     },
     "11058952": {
