@@ -150,3 +150,13 @@ restore/replay these locally without authentication, then
 uses the existing `sp` PKCE login via `--fetch --sp-python PATH_TO_SP_PYTHON`;
 it does not need a Spotify client secret in this repo. Local run state stays
 ignored under `.spotify-poc/`, and research archives are not part of Pages builds.
+
+Four pilot recording/programme reviews are preserved in
+`data/qobuz_lead_reviews.json`. Run `uv run python scripts/qobuz_lead_review.py`
+for the offline audit; publication regeneration consumes the existing comparison
+archive and checks source hashes. See [review and limits](docs/plans/2026-11-13-qobuz-lead-validation.md).
+
+Spotify matching also requires `data/spotify_programme_reviews.json` and the portable
+track archive above. Two explicitly reviewed partial albums are withheld as Unchecked,
+with missing-work explanations in details. Source changes require re-review; unreviewed
+alternatives are not automatically promoted. See [safeguard scope and tests](docs/plans/2026-11-13-spotify-programme-safeguard.md).

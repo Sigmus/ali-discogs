@@ -122,3 +122,28 @@ refresh once with no retries, preserve credentials on failure and stop on warnin
 Share only whitelisted complete tracks, never tokens or audio/preview URLs.
 Confirmed partial-programme observations remain separate from scoring changes;
 no automatic correction or accuracy-rate claim from the ten-case sample.
+
+## 2026-11-13 — Hash-bound pilot recording reviews
+
+Status: adopted in the user-authorized four-lead validation.
+
+Keep specific recording/programme judgements separate from general matching rules.
+Portable review ledger hashes bind target inputs and full candidate metadata;
+changed evidence requires re-review. Current work/credit checks and exact movement
+coverage still run. One exact joined Schnabel track and one target-only Tennstedt
+Adagio excerpt are permitted without globally loosening joined-movement parsing.
+Three accepted leads remain Probable85%, with edition/session limitations visible.
+Barenboim's conflicting recording cycle is recorded as rejected. See the
+[four-lead review](../plans/2026-11-13-qobuz-lead-validation.md).
+
+## 2026-11-13 — Withhold reviewed partial Spotify albums
+
+Status: adopted in the user-authorized Spotify programme safeguard.
+
+An explicit, hash-bound incomplete-programme finding takes precedence over album
+similarity. Return Unchecked with no accepted album/public confidence; retain raw
+signals, reviewed candidate, alternatives and missing-work explanation. Do not
+silently promote an unaudited replacement or interpret this as catalogue absence.
+Scope is the exact reviewed target/candidate pair; absence of a negative review
+is not completeness approval. Changed evidence requires re-review. This supersedes
+the earlier decision to leave the two pilot findings outside scoring.

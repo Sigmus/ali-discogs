@@ -1,0 +1,37 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-13",
+  "policy": "Negative, candidate-specific full-programme safeguard based on complete cached tracks and explicit review; no automatic acceptance of replacements.",
+  "track_archive_sha256": "199050acc341abf7fc5806f9053dc2f1c1920975e64b64cb53b575d0e6d4a0c4",
+  "entries": [
+    {
+      "discogs_id": "6119238",
+      "album_id": "5arfXVZ6Cp45OVLB8EBf0E",
+      "album_name": "Dvorák: Symphonies Nos.4-6",
+      "total_tracks": 15,
+      "target_sha256": "044281d43949d5c581ed1469ec7ccf42b4e3a1b83510c1ab55b3a76c9aabb175",
+      "album_evidence_sha256": "737daff1b9b6e11b49d3c0b220737d70f444c5aabc38ff28f7b65716c1afc0fd",
+      "decision": "confirmed_partial_programme",
+      "finding": "Symphony No.6 Op.60 present, but requested My Home Op.62 absent. Extras are In Nature's Realm Op.91, Carnival Op.92 and Scherzo capriccioso Op.66.",
+      "missing_programme": [
+        "My Home, Op. 62"
+      ]
+    },
+    {
+      "discogs_id": "1012732",
+      "album_id": "6dm8J92KYKdS6QBdmUGg2S",
+      "album_name": "Karajan: Brahms Symphony No. 1",
+      "total_tracks": 4,
+      "target_sha256": "aee7f41d917329de1037d2436304367b3a38d29fbf788b444c01aa2c3757da5a",
+      "album_evidence_sha256": "0b433f707b1225d25e45dd9f6b84fc6a85f6bb6dd4b2dfb5361e706c69894d46",
+      "decision": "confirmed_partial_programme",
+      "finding": "All four tracks are Brahms Symphony No.1 Op.68 movements; requested symphonies 2–4, violin concerto, German Requiem and Haydn Variations absent from this album track list.",
+      "missing_programme": [
+        "Symphonies Nos. 2–4",
+        "Violin Concerto",
+        "Ein deutsches Requiem",
+        "Haydn Variations"
+      ]
+    }
+  ]
+}

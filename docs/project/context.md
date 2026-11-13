@@ -8,13 +8,13 @@ plans preserve dated evidence and prior handoffs.
 
 ## Current state
 
-- Branch `codex/qobuz-poc`; commits c1857a7 and 30aa723 are local/unpushed.
-  User requested committing the subsequent comparison/refinement checkpoint.
-  No push, merge or deployment requested.
-- Current collection: 741 copies / 740 unique releases. Spotify labels remain
-  255 Found / 276 Probable / 210 Not found copies, but audit found two partial
-  programmes below; these labels must not be treated as independently verified.
-- Qobuz overlay: 12 Found / 64 Probable / 665 unchecked copies; unique 12/64/664.
+- Branch `codex/qobuz-poc`; user requested committing the four-lead Qobuz
+  validation and Spotify programme safeguard checkpoint. Prior three commits are
+  local/unpushed. No push, merge or deployment requested.
+- Current collection: 741 copies / 740 unique releases. Spotify labels now
+  254 Found / 275 Probable / 210 Not found / 2 Unchecked copies. The two reviewed
+  partial programmes are withheld; other labels are not independently verified.
+- Qobuz overlay: 12 Found / 67 Probable / 662 unchecked copies; unique 12/67/661.
   Separate `data/qobuz_matches.json` survives Spotify rescoring; original pipeline
   Qobuz fields stay unchecked. Empty/inconclusive queries are not confirmed absence.
 - Sonoteque table/details, 80% main width, column sorting (Year ascending default),
@@ -56,9 +56,13 @@ plans preserve dated evidence and prior handoffs.
   Corrected Coltrane query finds actual A Love Supreme editions; live variant
   flagged. Only two validation queries run, not a collection-wide expansion.
 - Thirty-release pilot: fallback hits for all ten originally empty releases,
-  three initial programme/performer leads, none promoted. Credit/hierarchy changes
+  three initial programme/performer leads. Credit/hierarchy changes
   improve Barenboim target mapping from 23/31 flattened items to 8/8 work units.
-  Blank source credit assignments and completeness/session gaps remain unresolved.
+  Subsequent bounded review promotes Schnabel, Tennstedt and Kubelik to Probable,
+  with complete movement/credit checks and documented recording-cycle support.
+  Barenboim is excluded: target EMI1966–69 versus later DG cycle. Hash-bound
+  review permits one exact Schnabel joined track and Tennstedt Adagio excerpt.
+  Blank source credit assignments and other completeness/session gaps remain open.
 
 ## Spotify track evidence
 
@@ -71,18 +75,21 @@ plans preserve dated evidence and prior handoffs.
 - Two confirmed partial programmes: 1012732 Brahms whole collection maps to only
   Symphony No.1; 6119238 Dvorak Sixth/My Home maps to an album missing My Home.
   Other eight recording validations unresolved; artist lists lack role credits.
-- Review reports are observations, not score overrides. Spotify publication data
-  unchanged. No population accuracy/catalogue-size claim from this selected sample.
+- User-authorized candidate-specific guard now withholds those two partial albums
+  as Unchecked, preserves similarity signals/candidates and explains missing works
+  in details. No silent alternate promotion. Hash changes require re-review.
+  No population accuracy/catalogue-size claim from this selected sample.
 
 ## Validation and next action
 
-- 58 mocked/offline tests, UI normalization/overlay/sort, build and diff checks
-  pass. Repeated Qobuz generation identical; all 740 status labels preserved.
-  Secret-value scans pass. Retrieval completed without API warnings.
-- Next recommendation: validate completeness/recording identity for the strongest
-  Qobuz pilot leads before promoting them or expanding searches. Add a Spotify
-  full-programme safeguard for the two confirmed partial cases before publication.
-  These remain proposals; no further fetching, push or deployment requested.
+- Seven pipeline/guard tests and 63 mocked/offline script tests, UI normalization,
+  JS syntax and build pass. Only two intended Spotify objects change; prior three
+  Qobuz promotions remain intact.
+  No Qobuz/Spotify calls, push or deployment during this validation.
+- Next recommendation: audit Dvorak complete-cycle alternatives, cache first;
+  any new fetching remains proposed. No push, merge or deployment requested.
+- [Spotify safeguard](../plans/2026-11-13-spotify-programme-safeguard.md) records scope and checks.
+- Latest review: [four Qobuz leads](../plans/2026-11-13-qobuz-lead-validation.md).
 - Details: [refinement and Spotify audit](../plans/2026-11-13-query-credits-spotify-tracks.md),
   [comparison pilot](../plans/2026-11-13-service-comparison-pilot.md),
   [backlog](backlog.md), [decisions](decisions.md), [history](history.md).

@@ -32358,8 +32358,8 @@
    }
   ],
   "spotify": {
-   "status": "found",
-   "confidence": 0.972,
+   "status": "unchecked",
+   "confidence": null,
    "signals": {
     "confidence": 0.972,
     "p_in_artists": true,
@@ -32374,7 +32374,8 @@
     "num_agree": 1,
     "year_close": null
    },
-   "album": {
+   "album": null,
+   "best_candidate": {
     "id": "5arfXVZ6Cp45OVLB8EBf0E",
     "name": "Dvorák: Symphonies Nos.4-6",
     "artists": [
@@ -32389,7 +32390,6 @@
     "image": "https://i.scdn.co/image/ab67616d0000b273daa9dd9f45dae39aa55abf60",
     "label": null
    },
-   "best_candidate": null,
    "alternates": [
     {
      "id": "6ECe5dUoLAX7LCyYArKemo",
@@ -32430,7 +32430,19 @@
     "istvan kertesz dvorak",
     "dvorak symphony no 6 overture my home",
     "istvan kertesz dvorak symphony no 6 in d"
-   ]
+   ],
+   "programme_review": {
+    "status": "confirmed_partial_programme",
+    "reviewed_on": "2026-11-13",
+    "album_id": "5arfXVZ6Cp45OVLB8EBf0E",
+    "reason": "Symphony No.6 Op.60 present, but requested My Home Op.62 absent. Extras are In Nature's Realm Op.91, Carnival Op.92 and Scherzo capriccioso Op.66.",
+    "missing_programme": [
+     "My Home, Op. 62"
+    ],
+    "review_sha256": "a0e0047e9cac2ea0fa094dc1c315123d67b2a1630977f452b5d8bd59c79d09f4",
+    "track_archive_sha256": "199050acc341abf7fc5806f9053dc2f1c1920975e64b64cb53b575d0e6d4a0c4",
+    "limitation": "Only this reviewed album is known to be partial. Alternatives and recording identity remain unverified; no catalogue-absence claim."
+   }
   },
   "qobuz": {
    "status": "unchecked",
@@ -61279,8 +61291,8 @@
    }
   ],
   "spotify": {
-   "status": "probable",
-   "confidence": 0.86,
+   "status": "unchecked",
+   "confidence": null,
    "signals": {
     "confidence": 0.86,
     "p_in_artists": true,
@@ -61295,7 +61307,8 @@
     "num_agree": 0,
     "year_close": false
    },
-   "album": {
+   "album": null,
+   "best_candidate": {
     "id": "6dm8J92KYKdS6QBdmUGg2S",
     "name": "Karajan: Brahms Symphony No. 1",
     "artists": [
@@ -61310,7 +61323,6 @@
     "image": "https://i.scdn.co/image/ab67616d0000b2739affaabf6788a65f1e317a9c",
     "label": null
    },
-   "best_candidate": null,
    "alternates": [
     {
      "id": "3wRLJbTOBqEcnkAvIfCguB",
@@ -61349,7 +61361,22 @@
     "herbert von karajan brahms",
     "brahms die 4 symphonien das violinkonzert die haydn",
     "herbert von karajan brahms symphonie nr 1 c moll"
-   ]
+   ],
+   "programme_review": {
+    "status": "confirmed_partial_programme",
+    "reviewed_on": "2026-11-13",
+    "album_id": "6dm8J92KYKdS6QBdmUGg2S",
+    "reason": "All four tracks are Brahms Symphony No.1 Op.68 movements; requested symphonies 2–4, violin concerto, German Requiem and Haydn Variations absent from this album track list.",
+    "missing_programme": [
+     "Symphonies Nos. 2–4",
+     "Violin Concerto",
+     "Ein deutsches Requiem",
+     "Haydn Variations"
+    ],
+    "review_sha256": "a0e0047e9cac2ea0fa094dc1c315123d67b2a1630977f452b5d8bd59c79d09f4",
+    "track_archive_sha256": "199050acc341abf7fc5806f9053dc2f1c1920975e64b64cb53b575d0e6d4a0c4",
+    "limitation": "Only this reviewed album is known to be partial. Alternatives and recording identity remain unverified; no catalogue-absence claim."
+   }
   },
   "qobuz": {
    "status": "unchecked",

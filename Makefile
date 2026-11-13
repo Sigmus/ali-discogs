@@ -29,6 +29,6 @@ serve: build
 	cd dist && python3 -m http.server $(PORT) --bind $(HOST)
 
 test: install
-	$(UV) run python -m unittest tests.test_offline_match -v
+	$(UV) run python -m unittest discover -s tests -v
 	node explorer/test/normalize.test.js
 	$(UV) run --with 'requests>=2.32,<3' python -m unittest discover -s scripts/test -v

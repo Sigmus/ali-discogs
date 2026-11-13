@@ -12,7 +12,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'src'))
 from ali_discogs.text import tnorm, norm, ORCH_ALIASES, is_composer
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = 'qobuz-work-groups-v2+explicit-target-credits'
+VERSION = 'qobuz-work-groups-v2+explicit-target-credits+reviewed-leads'
 
 
 def credits_v1(track):
@@ -217,6 +217,9 @@ def generate():
     inventory = json.loads(inventory_path.read_text())
     if scope['schema_version'] != 1 or inventory['schema_version'] != 1:
         raise ValueError('Unsupported expansion evidence schema')
+    from qobuz_lead_review import load_reviews, reviewed_candidate, REVIEW, ARCHIVE
+    reviews, reviewed_albums = load_reviews()
+    lead_reviews = {r['discogs_id']: r for r in reviews}
     results = {}
     for entry in manifest['entries']:
         rid = entry['discogs_id']
@@ -234,6 +237,11 @@ def generate():
                 extra = expanded_candidate(rows[rid], snapshot['albums'][aid], inventory)
                 if extra:
                     candidates.append(extra)
+        review = lead_reviews.get(str(rid))
+        if review:
+            extra = reviewed_candidate(rows[rid], reviewed_albums[review['album_id']], review)
+            if extra and extra['id'] not in {c['id'] for c in candidates}:
+                candidates.append(extra)
         candidates.sort(key=lambda a: ({'found': 2, 'probable': 1, 'unchecked': 0}[a['status']], a['coverage'], a['confidence'] or 0), reverse=True)
         best = candidates[0] if candidates else None
         results[str(rid)] = {'status': best['status'] if best else 'unchecked',
@@ -249,6 +257,8 @@ def generate():
               'expansion_scope_fingerprint': hashlib.sha256(scope_path.read_bytes()).hexdigest(),
               'target_credits_fingerprint': hashlib.sha256(target_credits_path.read_bytes()).hexdigest(),
               'work_inventory_fingerprint': hashlib.sha256(inventory_path.read_bytes()).hexdigest(),
+              'lead_review_fingerprint': hashlib.sha256(REVIEW.read_bytes()).hexdigest(),
+              'comparison_evidence_fingerprint': hashlib.sha256(ARCHIVE.read_bytes()).hexdigest(),
               'releases': results}
     path = ROOT/'data/qobuz_matches.json'
     temp = path.with_suffix('.tmp')

@@ -1,14 +1,16 @@
 {
   "schema_version": 1,
-  "matcher_version": "qobuz-work-groups-v2+explicit-target-credits",
+  "matcher_version": "qobuz-work-groups-v2+explicit-target-credits+reviewed-leads",
   "score_kind": "heuristic",
   "metadata_completed_at": "2026-11-13T00:15:30.593902+00:00",
   "search_manifest_fingerprint": "72bfbc0de0c0d8ee65c624b6ebe07db7be6ef0f10b6ba5fd4f468d54f812e802",
   "metadata_manifest_fingerprint": "5c4a9f6b2bf19892aefcb01ad617d1584cada9f2ca34b56d32dade8ed444bf9d",
-  "collection_fingerprint": "568e740daa2510e838b392ddb3c68963f1dbf3c614f4347b8df0fb5e31babab8",
+  "collection_fingerprint": "688b77a757d1b61630925416aa07a2eb16850a29d279c8989b26f07b761393ef",
   "expansion_scope_fingerprint": "c70833f5e499ef56ff81e4f3f2cba985df6f0f59833dbb7a86a66eeb537a1f17",
   "target_credits_fingerprint": "0d62915c08feb0b282c88664d0c4e44721315769af06aa78146c4e2768c3029e",
   "work_inventory_fingerprint": "ac5b17039789d5e994c13492246e74dd62bd8194dd089f579668d98e82dfe3f9",
+  "lead_review_fingerprint": "bc731b95eadb23cb1a13d735a4e7410615ae06f260b2c4a381ed4a29e229265e",
+  "comparison_evidence_fingerprint": "c38df992ab44bbc892ffacafa19d74cc1495d7579d3d6da670653204dca25e57",
   "releases": {
     "15221307": {
       "status": "unchecked",
@@ -24650,14 +24652,108 @@
       ]
     },
     "37312800": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0002894824972",
+        "name": "Brahms : Symphonies Nos. 1–4 (Remastered)",
+        "artists": [
+          "Rafael Kubelik"
+        ],
+        "label": "Universal Music Australia Pty. Ltd.",
+        "release_date": "2017-06-01",
+        "image": "https://static.qobuz.com/images/covers/72/49/0002894824972_230.jpg",
+        "url": "https://www.qobuz.com/album/0002894824972"
+      },
+      "candidates": [
+        {
+          "id": "0002894824972",
+          "name": "Brahms : Symphonies Nos. 1–4 (Remastered)",
+          "artists": [
+            "Rafael Kubelik"
+          ],
+          "label": "Universal Music Australia Pty. Ltd.",
+          "release_date": "2017-06-01",
+          "image": "https://static.qobuz.com/images/covers/72/49/0002894824972_230.jpg",
+          "url": "https://www.qobuz.com/album/0002894824972",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 1,
+          "target_count": 1,
+          "required_performers": [
+            "Rafael Kubelik",
+            "Wiener Philharmoniker"
+          ],
+          "programme": [
+            {
+              "target": "Symphony Nr. IV E-Minor Opus 98\t",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                41419216,
+                41419218,
+                41419220,
+                41419222
+              ]
+            }
+          ],
+          "reasons": [
+            "Each target item has supporting work and performer credits.",
+            "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+            "Decca/Eloquence identifies Kubelik’s Vienna cycle and the Fourth’s March 1956 sessions; cached digital conductor/orchestra and production personnel agree with this cycle and the target Decca LP.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Publisher page describes physical companion catalogue 4824969, not an exact barcode match to digital 4824972.",
+            "Target mono LP and digital remaster are different editions; exact mastering/take identity is not independently verified."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Symphony Nr. IV E-Minor Opus 98\t",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "track_ids": [
+                  41419216,
+                  41419218,
+                  41419220,
+                  41419222
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "https://www.eloquenceclassics.com/releases-archive/brahms-symphonies-nos-1-4/",
+                "reason": "Reviewed against preserved nested target programme and candidate movement titles; all required production credits must still pass."
+              }
+            ],
+            "overlapping_target_tracks": false
+          },
+          "recording_review": "Decca/Eloquence identifies Kubelik’s Vienna cycle and the Fourth’s March 1956 sessions; cached digital conductor/orchestra and production personnel agree with this cycle and the target Decca LP.",
+          "review_sources": [
+            "https://www.discogs.com/release/37312800",
+            "https://www.eloquenceclassics.com/releases-archive/brahms-symphonies-nos-1-4/"
+          ]
+        }
+      ],
       "query": "rafael kubelik brahms symphonie nr iv e moll",
       "searched_at": "2026-11-12T15:10:48.664454+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Each target item has supporting work and performer credits.",
+        "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+        "Decca/Eloquence identifies Kubelik’s Vienna cycle and the Fourth’s March 1956 sessions; cached digital conductor/orchestra and production personnel agree with this cycle and the target Decca LP.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Publisher page describes physical companion catalogue 4824969, not an exact barcode match to digital 4824972.",
+        "Target mono LP and digital remaster are different editions; exact mastering/take identity is not independently verified."
       ]
     },
     "15282801": {
@@ -95348,14 +95444,136 @@
       ]
     },
     "12130939": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "hse4g44fcm6qb",
+        "name": "Mahler: Symphonies",
+        "artists": [
+          "Klaus Tennstedt"
+        ],
+        "label": "Warner Classics",
+        "release_date": "2025-05-02",
+        "image": "https://static.qobuz.com/images/covers/qb/m6/hse4g44fcm6qb_230.jpg",
+        "url": "https://www.qobuz.com/album/hse4g44fcm6qb"
+      },
+      "candidates": [
+        {
+          "id": "hse4g44fcm6qb",
+          "name": "Mahler: Symphonies",
+          "artists": [
+            "Klaus Tennstedt"
+          ],
+          "label": "Warner Classics",
+          "release_date": "2025-05-02",
+          "image": "https://static.qobuz.com/images/covers/qb/m6/hse4g44fcm6qb_230.jpg",
+          "url": "https://www.qobuz.com/album/hse4g44fcm6qb",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 2,
+          "target_count": 2,
+          "required_performers": [
+            "Klaus Tennstedt",
+            "London Philharmonic Orchestra"
+          ],
+          "programme": [
+            {
+              "target": "Symphony No. 5 In C Sharp Minor",
+              "work_tracks": 5,
+              "credited_tracks": 5,
+              "track_ids": [
+                332669191,
+                332669192,
+                332669193,
+                332669194,
+                332669195
+              ]
+            },
+            {
+              "target": "Symphony No. 10 In F Sharp Major",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                332669227
+              ]
+            }
+          ],
+          "reasons": [
+            "Each target item has supporting work and performer credits.",
+            "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+            "Warner identifies this exact barcode as the studio cycle, with Fifth and Tenth Adagio recorded in 1978 at Abbey Road; consistent with the 1979 EMI target, distinct from the 1988 live Fifth.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "The requested Tenth is only its Adagio; no complete Tenth Symphony claim.",
+            "Studio-cycle provenance supports Probable; exact LP mastering is not verified."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Symphony No. 5 In C Sharp Minor",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5
+                ],
+                "track_ids": [
+                  332669191,
+                  332669192,
+                  332669193,
+                  332669194,
+                  332669195
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "https://wmg.jp/klaus-tennstedt/discography/31233",
+                "reason": "Reviewed against preserved nested target programme and candidate movement titles; all required production credits must still pass."
+              },
+              {
+                "target": "Symphony No. 10 In F Sharp Major",
+                "status": "complete",
+                "expected_movements": [
+                  1
+                ],
+                "observed_movements": [
+                  1
+                ],
+                "track_ids": [
+                  332669227
+                ],
+                "scope": "listed-target-excerpt",
+                "source": "https://wmg.jp/klaus-tennstedt/discography/31233",
+                "reason": "Preserved raw target explicitly lists only Adagio; matches the credited candidate first movement, not the whole Tenth."
+              }
+            ],
+            "overlapping_target_tracks": false
+          },
+          "recording_review": "Warner identifies this exact barcode as the studio cycle, with Fifth and Tenth Adagio recorded in 1978 at Abbey Road; consistent with the 1979 EMI target, distinct from the 1988 live Fifth.",
+          "review_sources": [
+            "https://www.discogs.com/release/12130939",
+            "https://wmg.jp/klaus-tennstedt/discography/31233"
+          ]
+        }
+      ],
       "query": "klaus tennstedt mahler symphonie ndeg 5 symphonie ndeg 10 adagio",
       "searched_at": "2026-11-12T16:39:09.486395+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Each target item has supporting work and performer credits.",
+        "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+        "Warner identifies this exact barcode as the studio cycle, with Fifth and Tenth Adagio recorded in 1978 at Abbey Road; consistent with the 1979 EMI target, distinct from the 1988 live Fifth.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "The requested Tenth is only its Adagio; no complete Tenth Symphony claim.",
+        "Studio-cycle provenance supports Probable; exact LP mastering is not verified."
       ]
     },
     "12690141": {
@@ -124088,14 +124306,310 @@
       ]
     },
     "4429613": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0190295866983",
+        "name": "Beethoven: Complete Piano Sonatas (2016 Remaster)",
+        "artists": [
+          "Artur Schnabel"
+        ],
+        "label": "Warner Classics",
+        "release_date": "2016-08-26",
+        "image": "https://static.qobuz.com/images/covers/83/69/0190295866983_230.jpg",
+        "url": "https://www.qobuz.com/album/0190295866983"
+      },
+      "candidates": [
+        {
+          "id": "0190295866983",
+          "name": "Beethoven: Complete Piano Sonatas (2016 Remaster)",
+          "artists": [
+            "Artur Schnabel"
+          ],
+          "label": "Warner Classics",
+          "release_date": "2016-08-26",
+          "image": "https://static.qobuz.com/images/covers/83/69/0190295866983_230.jpg",
+          "url": "https://www.qobuz.com/album/0190295866983",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 7,
+          "target_count": 7,
+          "required_performers": [
+            "Artur Schnabel"
+          ],
+          "programme": [
+            {
+              "target": "Sonata No. 11 In B Flat, Op. 22",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                36924078,
+                36924079,
+                36924080,
+                36924081
+              ]
+            },
+            {
+              "target": "Sonata No. 12 In A Flat, Op. 26 (\"Funeral March\")",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                36924098,
+                36924099,
+                36924100,
+                36924101
+              ]
+            },
+            {
+              "target": "Sonata No. 13 In E Flat, Op. 27 No. 1",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                36924082,
+                36924083,
+                36924084
+              ]
+            },
+            {
+              "target": "Sonata No. 14 In C Sharp Minor, Op. 27 No. 2 (\"Moonlight\")",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                36924085,
+                36924086,
+                36924087
+              ]
+            },
+            {
+              "target": "Sonata No. 15 In D, Op. 28 (\"Pastoral\")",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                36924088,
+                36924089,
+                36924090,
+                36924091
+              ]
+            },
+            {
+              "target": "Sonata No. 16 In G, Op. 31 No. 1",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                36924102,
+                36924103,
+                36924104
+              ]
+            },
+            {
+              "target": "Sonata No. 17 In D Minor, Op. 31 No. 2 (\"Tempest\")",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                36924105,
+                36924106,
+                36924107
+              ]
+            }
+          ],
+          "reasons": [
+            "Each target item has supporting work and performer credits.",
+            "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+            "Warner identifies this exact digital barcode as Schnabel’s 1932–1938 cycle remastered from original 78RPM discs, consistent with the target Beethoven Society collection.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "A remastered programme superset, not the identical Seraphim LP edition.",
+            "Whole-work timings agree within 3%; Tempest first/second movement timings differ materially from LP annotations, so individual take/session identity remains qualified."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Sonata No. 11 In B Flat, Op. 22",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "track_ids": [
+                  36924078,
+                  36924079,
+                  36924080,
+                  36924081
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+                "reason": "Reviewed against preserved nested target programme and candidate movement titles; all required production credits must still pass."
+              },
+              {
+                "target": "Sonata No. 12 In A Flat, Op. 26 (\"Funeral March\")",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "track_ids": [
+                  36924098,
+                  36924099,
+                  36924100,
+                  36924101
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+                "reason": "Reviewed against preserved nested target programme and candidate movement titles; all required production credits must still pass."
+              },
+              {
+                "target": "Sonata No. 13 In E Flat, Op. 27 No. 1",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "track_ids": [
+                  36924082,
+                  36924083,
+                  36924084
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+                "reason": "Reviewed against preserved nested target programme and candidate movement titles; all required production credits must still pass."
+              },
+              {
+                "target": "Sonata No. 14 In C Sharp Minor, Op. 27 No. 2 (\"Moonlight\")",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "track_ids": [
+                  36924085,
+                  36924086,
+                  36924087
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+                "reason": "Reviewed against preserved nested target programme and candidate movement titles; all required production credits must still pass."
+              },
+              {
+                "target": "Sonata No. 15 In D, Op. 28 (\"Pastoral\")",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "track_ids": [
+                  36924088,
+                  36924089,
+                  36924090,
+                  36924091
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+                "reason": "Reviewed against preserved nested target programme and candidate movement titles; all required production credits must still pass."
+              },
+              {
+                "target": "Sonata No. 16 In G, Op. 31 No. 1",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "track_ids": [
+                  36924102,
+                  36924103,
+                  36924104
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+                "reason": "Reviewed against preserved nested target programme and candidate movement titles; all required production credits must still pass."
+              },
+              {
+                "target": "Sonata No. 17 In D Minor, Op. 31 No. 2 (\"Tempest\")",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "track_ids": [
+                  36924105,
+                  36924106,
+                  36924107
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+                "reason": "Reviewed against preserved nested target programme and candidate movement titles; all required production credits must still pass."
+              }
+            ],
+            "overlapping_target_tracks": false
+          },
+          "recording_review": "Warner identifies this exact digital barcode as Schnabel’s 1932–1938 cycle remastered from original 78RPM discs, consistent with the target Beethoven Society collection.",
+          "review_sources": [
+            "https://www.discogs.com/release/4429613",
+            "https://www.warnerclassics.com/release/beethoven-complete-piano-sonatas-3",
+            "https://dcmlab.github.io/beethoven_piano_sonatas/"
+          ]
+        }
+      ],
       "query": "artur schnabel beethoven the complete beethoven society recordings 1932 37 vol 2 sonatas",
       "searched_at": "2026-11-12T17:37:14.114729+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Each target item has supporting work and performer credits.",
+        "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+        "Warner identifies this exact digital barcode as Schnabel’s 1932–1938 cycle remastered from original 78RPM discs, consistent with the target Beethoven Society collection.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "A remastered programme superset, not the identical Seraphim LP edition.",
+        "Whole-work timings agree within 3%; Tempest first/second movement timings differ materially from LP annotations, so individual take/session identity remains qualified."
       ]
     },
     "4352998": {

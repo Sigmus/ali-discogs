@@ -11,9 +11,11 @@ agreed work only when the user requests it; record completion in [history](histo
 
 Status: user-authorized ten-album track caching/audit completed (227 tracks),
 using existing sp PKCE login. See [refinement and findings](../plans/2026-11-13-query-credits-spotify-tracks.md).
-Two partial programmes confirmed (1012732 and 6119238); eight recording validations
-remain unresolved. Proposed next: a full-programme warning/scoring safeguard and
-broader audit. No Spotify score changes or population error-rate claim yet.
+Two partial programmes confirmed (1012732 and 6119238); user-authorized
+[programme safeguard](../plans/2026-11-13-spotify-programme-safeguard.md) now withholds
+them as Unchecked with visible findings and no automatic alternate promotion.
+Eight recording validations remain unresolved. Proposed next: audit complete-cycle
+alternatives and a broader sample. No population error-rate claim.
 
 Review a bounded sample across found, probable, and not-found results, comparing
 the work and actual performers/recording identity. Identify false positives and
@@ -43,7 +45,10 @@ checks and a fixed candidate scope; alias/split-movement cases withheld. Baselin
 [audit and next recommendations](../plans/2026-11-13-qobuz-baseline-completeness-audit.md).
 Work-aware context/opus disambiguation and conservative role-aware groups are
 now implemented; see [implementation review](../plans/2026-11-13-qobuz-work-groups.md).
-All 76 reviewed statuses unchanged, five mappings improved. Next proposed work:
+Historical76 reviewed statuses unchanged, five mappings improved. Latest user-authorized
+[four-lead review](../plans/2026-11-13-qobuz-lead-validation.md) adds three Probable
+candidates with hash-bound programme/recording evidence and excludes Barenboim’s
+conflicting cycle. No further catalogue calls. Next proposed work:
 query relevance and explicit work/position credit handling implemented; see
 [refinement](../plans/2026-11-13-query-credits-spotify-tracks.md). Two corrected queries
 validated without warnings; target source archive covers 128 releases. Remaining

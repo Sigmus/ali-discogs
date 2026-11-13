@@ -202,6 +202,8 @@
       confidence: confidenceOf(v.confidence ?? v.score ?? v.probability),
       album: albumOf(albumSource),
       best_candidate: best,
+      programme_review: v.programme_review && typeof v.programme_review === "object"
+        ? { status: text(v.programme_review.status), reason: text(v.programme_review.reason), limitation: text(v.programme_review.limitation) } : null,
       search_url: safeUrl(v.search_url || v.searchUrl || v.search),
       alternates: alternatesOf(v.alternates || v.alternatives || v.candidates || v.others || [])
         .filter(a => !best || !a.id || a.id !== best.id)
@@ -639,7 +641,10 @@
     }
     function serviceHtml(name, svc) {
       let body = "";
-      if (svc.status === "not_found") {
+      if (svc.programme_review?.status === "confirmed_partial_programme") {
+        body = `<p class="match">Incomplete programme: ${esc(svc.programme_review.reason)}</p><p class="quiet">${esc(svc.programme_review.limitation)}</p>`;
+        if (svc.best_candidate) body += matchHtml(svc.best_candidate, `<span class="closest">Reviewed partial album</span> `);
+      } else if (svc.status === "not_found") {
         const guess = svc.best_candidate || svc.album;
         body = guess
           ? matchHtml(guess, `<span class="closest">Closest guess</span> `)

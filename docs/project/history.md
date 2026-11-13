@@ -569,3 +569,48 @@ or Pages publication is part of this push; active search is not restarted.
 - Recommend verifying the strongest Qobuz pilot leads for promotion before another
   search batch, plus a Spotify full-programme safeguard before publication.
   Recommendation does not authorize implementation or further fetching.
+
+## 2026-11-13 — Validate four Qobuz pilot leads
+
+- User approved the proposed next stage. Reviewed cached programmes, required
+  credits and public recording documentation. Three new Probable candidates:
+  Schnabel4429613, Tennstedt12130939 and Kubelik37312800. Barenboim3066447 excluded:
+  EMI1966–69 target versus later DG cycle. No new Qobuz/Spotify requests.
+- Added portable, hash-bound review ledger and reproducible offline audit, with
+  exact Schnabel joined-track handling and Tennstedt target-only Adagio scope.
+  Current matcher/complete movement checks still required; recording/edition
+  limitations appear in local details. Original66+10 review scope unchanged.
+- 63 offline/mocked tests pass; UI normalization/overlay/sort, JS syntax, static
+  build and diff checks pass. Repeated generation identical; only the three
+  intended labels change. Unique totals12Found/67Probable/661Unchecked; copies
+  12/67/662. Spotify labels unchanged. Local detail views verified.
+- Work remains uncommitted/unpushed; no merge/deployment. Next proposal: Spotify
+  full-programme safeguard for the two confirmed partial matches before publishing.
+  [Review and reproducible commands](../plans/2026-11-13-qobuz-lead-validation.md).
+
+## 2026-11-13 — Spotify partial-programme safeguard
+
+- User approved proceeding. Added portable candidate-specific negative review
+  ledger and source-hash checks to the normal matching pipeline. Confirmed partial
+  Brahms1012732 and Dvorak6119238 now Unchecked, with accepted album/confidence
+  cleared; raw similarity signals, partial album and alternatives preserved.
+  Details explain missing works. No unaudited replacement is silently accepted.
+- Seven pipeline/guard tests and63 offline/mocked script tests pass; UI tests,
+  syntax/build/diff checks pass. All741-copy comparison shows only the two intended
+  Spotify objects change:254Found/275Probable/210NotFound/2Unchecked. Qobuz prior
+  three promotions remain intact (12/67/662 copies). Local detail views verified.
+- Used cached portable evidence only; no service calls, commit, push or deployment.
+  Next proposal: examine Dvorak complete-cycle alternatives, cache first.
+  [Implementation/limits](../plans/2026-11-13-spotify-programme-safeguard.md).
+
+## 2026-11-13 — Commit validated leads and programme safeguard
+
+- User requested a commit and next-step briefing. Checkpoint contains the three
+  reviewed Qobuz Probable additions, rejected Barenboim cycle, Spotify partial-
+  programme guard, portable evidence ledgers, UI explanations, tests and docs.
+- Prior validation: seven pipeline/guard tests and63 offline/mocked script tests,
+  UI normalization, JS syntax/build and diff checks pass. No implementation change
+  since validation; no additional service calls needed for the commit.
+- Recommend reviewing Dvorak complete-cycle alternatives using existing caches
+  first, then a small broader Spotify programme audit. Further work, fetching,
+  push, merge and deployment are not authorized by this status request.
