@@ -33,11 +33,15 @@ documented in a linked plan. Implementation is a separate step.
 Status: user-authorized bounded offline pilot and integration complete. Further
 expansion proposed. See [pilot and review](../plans/2026-11-13-qobuz-coverage-pilot.md).
 Ten additional Probable releases integrated through recomputed credit/completeness
-checks and a fixed candidate scope; alias/split-movement cases withheld. Next
-recommended step is retrospective completeness review of the v1 baseline before
-another bounded offline discovery sample. AD-006 initial preparation is complete;
-see [audit](../plans/2026-11-13-qobuz-audit.md). User requested committing the bounded expansion checkpoint, then auditing the
-original 66 matches offline. No push, merge or deployment requested.
+checks and a fixed candidate scope; alias/split-movement cases withheld. Baseline completeness audit is now complete; see the
+[audit and next recommendations](../plans/2026-11-13-qobuz-baseline-completeness-audit.md).
+Work-aware context/opus disambiguation and conservative role-aware groups are
+now implemented; see [implementation review](../plans/2026-11-13-qobuz-work-groups.md).
+All 76 reviewed statuses unchanged, five mappings improved. Next proposed work:
+source completeness for the two withheld choral leads, then verify explicit
+performer aliases before more discovery. AD-006 initial preparation is complete;
+see [audit](../plans/2026-11-13-qobuz-audit.md). Bounded expansion checkpoint committed as c1857a7; subsequent audit/grouping work
+is included in the user-requested follow-up commit. No push, merge or deployment requested.
 
 Investigate verified catalogue aliases, multilingual works/performers, movement
 completeness and recording-session identity. Broaden the 370 empty first-pass

@@ -452,3 +452,50 @@ or Pages publication is part of this push; active search is not restarted.
 - This checkpoint includes the discovery/completeness scripts, research evidence,
   sourced inventories, bounded candidate scope, regenerated matches and docs.
   Audit follows separately; no push, merge or deployment requested.
+
+## 2026-11-13 — Audit original 66 matches after checkpoint
+
+- Committed the tested bounded expansion as c1857a7, then froze original 66
+  selections from 7ea8898 for reproducible offline auditing. No push requested.
+- All original statuses reproduce. Stricter checker supports seven, flags one
+  incomplete credit-evidence case and leaves 58 unresolved. In the flagged Mozart
+  case all six movements exist; four lack Mutter in track credits. This is not
+  evidence of missing music. All twelve original Found entries retain one-to-one
+  catalogue correspondence, not independent session/completeness verification.
+- Inspected all eleven diagnostic cases: abbreviated Berlioz work context, vocal
+  participation/missing credits, Kiril/Kirill spelling, and Grieg/Sibelius Op.46
+  track-assignment collision. Candidate albums often contain more relevant music
+  than the current evidence mappings show; no confirmed missing-music conclusion.
+- Added frozen audit scope/report, offline replay script, three regression tests
+  and complete 66-selection table. All 36 mocked/offline tests pass; replay is
+  byte-identical. Publication bytes unchanged from checkpoint (12/64/664 unique).
+- Proposed work-group/composer identity and role-aware credits before further
+  expansion. No matcher fix or reclassification implemented in this audit.
+  Audit files/docs remain uncommitted; no Qobuz calls, push, merge or deployment.
+
+## 2026-11-13 — Work-group and role-aware evidence
+
+- Implemented bounded movement-title context, shared multi-composer opus
+  disambiguation, explicit vocal/chorus credits and conservative contiguous
+  recording-group performer coverage. Unknown extra musical artists, changed
+  anchors/composers, disjoint/repeated runs and context-boundary changes block repair.
+- Preserved evaluate_v1/credits_v1 for historical audit replay. Added current
+  76-selection comparison: all statuses unchanged, five evidence mappings improved,
+  zero shared target-track assignments. Berlioz 1→5 movements, Winterreise 23→24
+  songs, Pergolesi 7→12 sections and Grieg/Sibelius 4/4/9 separate mappings.
+- Two new choral leads remain Unchecked pending completeness review. No general
+  name aliases enabled. All 740 classification labels match checkpoint c1857a7;
+  unique totals stay 12/64/664. No Qobuz calls or retrieval-data changes.
+- All 43 offline tests, UI tests, JS syntax/build and diff checks pass. Browser
+  verified group-credit and inherited-title evidence explanations. Updated docs
+  and added reproducible group comparison report. Work remains uncommitted and
+  unpushed; no merge or deployment.
+
+## 2026-11-13 — Commit audit and work-group improvements
+
+- User requested committing all pending changes: frozen baseline audit, current
+  group comparison, role/context/work identity implementation, regenerated match
+  evidence, UI explanations, regression tests and project/technical docs.
+- Existing validation: 43 offline Qobuz tests, UI normalization/overlay/sort,
+  JS syntax/build, browser evidence inspection and byte-identical regeneration.
+  All 740 classification labels remain unchanged. No push/deployment requested.

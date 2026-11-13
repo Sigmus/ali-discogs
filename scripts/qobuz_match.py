@@ -5,22 +5,33 @@ from pathlib import Path
 import re
 import sys
 from collections import Counter
+from functools import lru_cache
 from qobuz_snapshot import load_snapshot
 from rapidfuzz import fuzz
 sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'src'))
 from ali_discogs.text import tnorm, norm, ORCH_ALIASES, is_composer
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = 'qobuz-programme-v1+reviewed-expansion-v2'
+VERSION = 'qobuz-work-groups-v1+reviewed-expansion-v2'
 
 
-def credits(track):
+def credits_v1(track):
     result = []
     for part in (track.get('performers') or '').split(' - '):
         fields = [x.strip() for x in part.split(',')]
         roles = norm(' '.join(fields[1:])).split()
         if any(r in roles for r in ['conductor', 'orchestra', 'soloist', 'piano', 'violin', 'cello', 'performer', 'mainartist']) or 'main artist' in ' '.join(roles):
             result.append(fields[0])
+    return result
+
+
+def credits(track):
+    result = credits_v1(track)
+    for part in (track.get('performers') or '').split(' - '):
+        name, _, roles = part.partition(',')
+        if set(norm(roles).split()) & {'soprano', 'mezzo', 'tenor', 'baritone', 'bass', 'alto', 'contralto', 'choir', 'chorus'}:
+            if name.strip() not in result:
+                result.append(name.strip())
     return result
 
 
@@ -41,6 +52,7 @@ def catalogue(title):
         r'\b(op|bwv|k|d|hob|rv|hwv|sz|bb|wwv|l|woo)\s*(\d+[a-z]?)(?:\s+(?:no|nr)\s*(\d+))?', text))
 
 
+@lru_cache(maxsize=65536)
 def work_match(target, title):
     a, b = [re.sub(r'\bpart\b', 'pt', tnorm(t)) for t in (target, title)]
     part_a = re.search(r'\b(?:part|pt)\s+([ivx]+|\d+)(?:\s+([a-z]))?\b', a)
@@ -85,7 +97,7 @@ def units(row):
     return result
 
 
-def evaluate(row, album):
+def evaluate_v1(row, album):
     targets = units(row)
     tracks = album['tracks']['items']
     required = list(dict.fromkeys([*(row.get('key_performers') or []), *(row.get('performers') or []),
@@ -94,7 +106,7 @@ def evaluate(row, album):
     matches = []
     for target in targets:
         possible = [t for t in tracks if work_match(target, t.get('title', ''))]
-        compatible = [t for t in possible if required and all(agrees(p, credits(t)) for p in required)
+        compatible = [t for t in possible if required and all(agrees(p, credits_v1(t)) for p in required)
                       and (not row.get('composers') or any(
                           norm(c).split()[-1] in norm(t.get('performers', '')).split()
                           for c in row['composers'] if norm(c)))]
@@ -125,6 +137,30 @@ def evaluate(row, album):
     return {'status': status, 'confidence': confidence, 'coverage': coverage,
             'covered': covered, 'target_count': len(targets), 'required_performers': required,
             'programme': matches, 'reasons': reasons}
+
+
+def evaluate(row, album):
+    from qobuz_work_groups import evaluate_grouped
+    return evaluate_grouped(row, album)
+
+
+def publication_evidence(row, album, inventory):
+    from qobuz_work_groups import evaluate_grouped
+    legacy = evaluate_v1(row, album)
+    evidence = evaluate_grouped(row, album, legacy=legacy)
+    if legacy['status'] == 'unchecked' and evidence['status'] != 'unchecked':
+        from qobuz_completeness import check_programme
+        from qobuz_work_groups import contextual_tracks
+        contextual = {**album, 'tracks': {'items': contextual_tracks(row, album['tracks']['items'])}}
+        completeness = check_programme(row, contextual, evidence, inventory)
+        evidence['promotion_review'] = completeness
+        if completeness['status'] != 'complete':
+            evidence.update(status='unchecked', confidence=None)
+            evidence['reasons'] = [*evidence['reasons'],
+                'New work-group candidate withheld pending programme-completeness review.']
+        else:
+            evidence.update(status='probable', confidence=.85)
+    return evidence
 
 
 def public_album(album):
@@ -174,7 +210,7 @@ def generate():
             album = snapshot['albums'][str(item['id'])]
             if str(album['id']) != str(item['id']) or len(album['tracks']['items']) != album['tracks_count']:
                 raise ValueError('Incomplete or mismatched metadata')
-            evidence = evaluate(rows[rid], album)
+            evidence = publication_evidence(rows[rid], album, inventory)
             candidates.append({**public_album(album), **evidence})
         own_ids = {c['id'] for c in candidates}
         for aid in scope['releases'].get(str(rid), []):

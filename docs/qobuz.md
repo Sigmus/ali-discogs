@@ -292,3 +292,39 @@ numbered target child tracks and unique timed target-track correspondences
 movements stay unresolved. Track timing is supporting metadata, not an audio-cut
 or session guarantee. See the [pilot review](plans/2026-11-13-qobuz-coverage-pilot.md)
 for the selected cases, sources, limits and validation.
+
+## Reproduce the original-baseline audit
+
+`uv run python scripts/qobuz_baseline_audit.py` audits the frozen original 66
+selected albums from `data/qobuz_baseline_audit_scope.json` against shared evidence.
+It writes only `data/qobuz_baseline_audit.json`; publication matches are untouched.
+The scope excludes the ten bounded expansion releases. Audit input fingerprints
+make replay traceable; Git history and credentials are not needed to rerun it.
+
+The raw completeness checker measures **credited** movement coverage: an
+`incomplete` result can mean existing movements lack required performer metadata,
+not that the music is missing. The audit adds title-only movement evidence and
+separate supported/insufficient-credit/unresolved categories. Diagnostic flags
+are review leads, not automatic downgrades. See the [complete baseline audit](plans/2026-11-13-qobuz-baseline-completeness-audit.md)
+for findings, all 66 selections and proposed next work.
+
+## Work-aware performer evidence
+
+Current publication scoring uses `scripts/qobuz_work_groups.py`; historical
+`evaluate_v1`/`credits_v1` remain available solely for reproducible comparisons.
+Shared multi-composer opus collisions require distinctive work identity;
+abbreviated movements inherit context only across supported composer/anchor and
+sequence boundaries. Explicit vocal roles count as performance credits.
+
+Role-specific performers can be supported across a coherent contiguous work
+group with conductor/ensemble anchors on every track. Unknown additional main
+artists, restarts, disjoint runs and ambiguous composer identity block repair.
+No performer credits are copied from album membership or another recording.
+This remains heuristic programme evidence, not session verification.
+
+Newly qualifying candidates must pass the completeness gate before becoming
+Probable; otherwise evidence stays Unchecked with no score. Existing reviewed
+matches retain their previous statuses while their evidence mappings improve.
+`uv run python scripts/qobuz_group_audit.py` reproduces comparison of all 76
+reviewed selections. See [work-group implementation and review](plans/2026-11-13-qobuz-work-groups.md)
+for rules, controls, withheld cases and limitations.

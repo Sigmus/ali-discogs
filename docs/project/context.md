@@ -7,9 +7,10 @@ explorer. See [README](../../README.md) for setup and architecture.
 
 ## Current state
 
-- Branch `codex/qobuz-poc`; portable evidence/matcher/UI (`ad1d7fd`) and full
-  request-cache archive (`d7c3e98`) pushed to origin on 2026-11-13 at user request.
-  Ali can check out the branch. No merge or Pages deployment performed.
+- Branch `codex/qobuz-poc`: prior cache/UI work pushed. Bounded expansion
+  checkpoint committed as `c1857a7` at user request; not pushed. Audit artifacts
+  and work-group improvements are included in the user-requested follow-up commit.
+  No push, merge or Pages deployment requested.
 - Original dataset (2026-11-11): 741 copies, Spotify 255 found / 276 probable /
   210 not found. Pipeline JSON still has Qobuz unchecked; explorer overlays the
   separate generated `data/qobuz_matches.json` file so Spotify rescoring cannot
@@ -42,7 +43,7 @@ explorer. See [README](../../README.md) for setup and architecture.
 
 ## Offline matching and publication preparation
 
-- Implemented qobuz-programme-v1 plus bounded reviewed-expansion-v2; all original
+- Implemented qobuz-work-groups-v1 plus bounded reviewed-expansion-v2; all original
   1,217 candidate entries assessed offline, with ten additional matched releases.
   [Audit](../plans/2026-11-13-qobuz-audit.md) records rules, reviewed cases and limits.
 - Unique releases: 12 Found / 64 Probable / 664 unchecked. Copies: 12 / 64 / 665.
@@ -70,8 +71,8 @@ explorer. See [README](../../README.md) for setup and architecture.
 
 ## Validation and limitations
 
-- Current validation: 33 Qobuz mocked/offline tests, UI normalization/overlay/sort,
-  build and diff checks pass. Earlier full-suite Spotify tests also passed.
+- Current validation: 43 Qobuz mocked/offline tests, UI normalization/overlay/sort,
+  JS syntax, build and diff checks pass. Earlier Spotify tests also passed.
 - Low recall is intentional in v1. Translation/ensemble aliases, catalogue
   equivalences, movement completeness and recording/take identity need more work.
   This is a conservative deployable first pass, not complete catalogue validation.
@@ -79,12 +80,15 @@ explorer. See [README](../../README.md) for setup and architecture.
 
 ## Next action
 
-Bounded offline expansion integrated: ten new Probable releases, unchanged original
-66 matched entries. All 33 Qobuz offline tests, UI tests/build pass; browser verified.
-Twenty-four sourced work inventories, explicit child movements and timed target
-tracks support the fixed scope. Alias-dependent and ambiguous cases withheld.
-See [pilot](../plans/2026-11-13-qobuz-coverage-pilot.md). Next: retrospectively audit
-v1 completeness, then select a new bounded offline sample. No additional Qobuz
-calls or deployment. User requested committing this checkpoint, then auditing
-the original 66 matches offline; no push requested.
+Work-group/role-aware improvements implemented and reaudited across 66+10 reviewed
+selections. Five mappings improve (Berlioz, Grieg/Sibelius, Winterreise, Pergolesi,
+Gould title-hit filtering); no shared work-track assignments remain in this sample.
+All 740 statuses unchanged: 12 Found / 64 Probable / 664 unchecked. Two choral
+leads stay unchecked pending completeness. No fuzzy aliases or session certainty.
+Historical audit remains frozen to v1; 43 offline tests pass. See
+[work groups](../plans/2026-11-13-qobuz-work-groups.md) and
+[baseline audit](../plans/2026-11-13-qobuz-baseline-completeness-audit.md).
+Next proposed work: source completeness for the two withheld choral leads, then
+verify explicit name aliases. User requested committing all audit/grouping work;
+no push requested. No Qobuz calls, merge or deployment.
 See [backlog](backlog.md), [decisions](decisions.md) and [history](history.md).

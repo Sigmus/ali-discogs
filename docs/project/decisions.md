@@ -92,3 +92,16 @@ Do not enable experimental performer aliases or infer completeness from a sequen
 starting at I. Explicit target movements and timed standalone tracks describe the
 requested programme, not independently verified whole works or recording sessions.
 The existing v1 baseline remains unchanged pending a separate retrospective audit.
+
+## 2026-11-13 — Work-aware evidence without broad credit inheritance
+
+Status: adopted implementation of the user's request to improve audited grouping.
+
+Use explicit composer/work and contiguous movement context for the audited failure
+modes. Group-based soloist participation requires stable conductor/ensemble support,
+one explicit composer identity and no unknown extra musical main artists or mixed
+performance runs. Recognize explicit vocal/chorus roles; do not invent missing
+credits or enable general fuzzy aliases. Preserve the historical v1 evaluator for
+comparison. Newly qualifying candidates require independent programme-completeness
+evidence before promotion and are capped at Probable 85%. Metadata groups do not
+establish session identity; unresolved old structures remain documented limitations.
