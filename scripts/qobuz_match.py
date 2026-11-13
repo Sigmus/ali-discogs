@@ -278,6 +278,15 @@ def generate():
         if str(album['id']) != record['task']['album_id'] or len(tracks) != album['tracks_count'] or len({t['id'] for t in tracks}) != len(tracks):
             raise ValueError('Incomplete unmatched metadata')
         round2_albums[str(album['id'])] = album
+    empty_meta_path = ROOT/'data/qobuz_empty_search_metadata.json.gz'
+    empty_meta = json.loads(gzip.decompress(empty_meta_path.read_bytes()))
+    if empty_meta['schema_version'] != 1:
+        raise ValueError('Unsupported empty-search metadata schema')
+    for record in empty_meta['metadata']:
+        album = record['album']; tracks = album['tracks']['items']
+        if str(album['id']) != record['task']['album_id'] or len(tracks) != album['tracks_count'] or len({t['id'] for t in tracks}) != len(tracks):
+            raise ValueError('Incomplete empty-search metadata')
+        round2_albums[str(album['id'])] = album
     for review in unmatched_reviews['releases']:
         if review['discogs_id'] in round2_reviews:
             raise ValueError('Duplicate unmatched review')
@@ -383,6 +392,7 @@ def generate():
               'cached_half_review_fingerprint': hashlib.sha256(cached_review_path.read_bytes()).hexdigest(),
               'unmatched_review_fingerprint': hashlib.sha256(unmatched_review_path.read_bytes()).hexdigest(),
               'unmatched_metadata_fingerprint': hashlib.sha256(unmatched_metadata_path.read_bytes()).hexdigest(),
+              'empty_search_metadata_fingerprint': hashlib.sha256(empty_meta_path.read_bytes()).hexdigest(),
               'trial_review_fingerprint': hashlib.sha256(trial_review_path.read_bytes()).hexdigest(),
               'trial_metadata_fingerprint': hashlib.sha256(trial_metadata_path.read_bytes()).hexdigest(),
               'schnabel_late_review_fingerprint': hashlib.sha256(schnabel_path.read_bytes()).hexdigest(),

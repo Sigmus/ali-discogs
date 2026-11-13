@@ -1110,6 +1110,95 @@
         "The Merry Wives Of Windsor",
         "Oberon"
       ]
+    },
+    {
+      "discogs_id": "10757104",
+      "album_id": "3614591367922",
+      "review_kind": "bound-tracks",
+      "decision": "probable",
+      "target_sha256": "4d9c1ecd691ea06e2d3067138db5f0ffb79753e556783f31c7d2a02426d4e6e0",
+      "album_sha256": "057bd79a27d7e1af6a8118c0db0d9f6ad1c4d9e890dc48c7c14e5837d3724357",
+      "source_sha256": "6dd8789690226c3bd4556fcfa9e7af551001cb15abfae079f31fd09d12287c2a",
+      "pulls": [],
+      "adds": [
+        {
+          "track_id": 23379272,
+          "target": "Sinfonia N.4 In La Maggiore, Op. 90 \"Italiana\"",
+          "title_contains": "Op. 90",
+          "reason": "The file splits the Italian Symphony into four movements."
+        },
+        {
+          "track_id": 23379274,
+          "target": "Sinfonia N.4 In La Maggiore, Op. 90 \"Italiana\"",
+          "title_contains": "Op. 90",
+          "reason": "The file splits the Italian Symphony into four movements."
+        },
+        {
+          "track_id": 23379276,
+          "target": "Sinfonia N.4 In La Maggiore, Op. 90 \"Italiana\"",
+          "title_contains": "Op. 90",
+          "reason": "The file splits the Italian Symphony into four movements."
+        },
+        {
+          "track_id": 23379278,
+          "target": "Sinfonia N.4 In La Maggiore, Op. 90 \"Italiana\"",
+          "title_contains": "Op. 90",
+          "reason": "The file splits the Italian Symphony into four movements."
+        },
+        {
+          "track_id": 23379280,
+          "target": "Sinfonia N. 5 In Re Minore, Op. 107 \"Riforma\"",
+          "title_contains": "Op. 107",
+          "reason": "The file splits the Reformation Symphony into four movements."
+        },
+        {
+          "track_id": 23379282,
+          "target": "Sinfonia N. 5 In Re Minore, Op. 107 \"Riforma\"",
+          "title_contains": "Op. 107",
+          "reason": "The file splits the Reformation Symphony into four movements."
+        },
+        {
+          "track_id": 23379284,
+          "target": "Sinfonia N. 5 In Re Minore, Op. 107 \"Riforma\"",
+          "title_contains": "Op. 107",
+          "reason": "The file splits the Reformation Symphony into four movements."
+        },
+        {
+          "track_id": 23379286,
+          "target": "Sinfonia N. 5 In Re Minore, Op. 107 \"Riforma\"",
+          "title_contains": "Op. 107",
+          "reason": "The file splits the Reformation Symphony into four movements."
+        }
+      ],
+      "required_performers": [
+        "Arturo Toscanini",
+        "NBC Symphony Orchestra"
+      ],
+      "movement_runs": true,
+      "marks": [],
+      "sources": [
+        "https://www.qobuz.com/fr-fr/album/mendelssohn-symphonies-italienne-reformation-arturo-toscanini-nbc-symphony-orchestra/3614591367922"
+      ],
+      "limitations": [
+        "Italiana and Riforma are the file’s Italienne and Réformation.",
+        "This BNF file is not verified as the 1980 RCA Victrola VL 45809 pressing."
+      ],
+      "recording_review": "RCA Victrola VL 45809 is Toscanini and the NBC Symphony in Mendelssohn’s Italian and Reformation symphonies. This file has both, four movements each, with Toscanini and the NBC Symphony on every track.",
+      "extra_track_ids": [],
+      "expected": {
+        "Sinfonia N.4 In La Maggiore, Op. 90 \"Italiana\"": [
+          23379272,
+          23379274,
+          23379276,
+          23379278
+        ],
+        "Sinfonia N. 5 In Re Minore, Op. 107 \"Riforma\"": [
+          23379280,
+          23379282,
+          23379284,
+          23379286
+        ]
+      }
     }
   ]
 }

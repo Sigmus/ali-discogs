@@ -11,15 +11,16 @@
   "work_inventory_fingerprint": "ac5b17039789d5e994c13492246e74dd62bd8194dd089f579668d98e82dfe3f9",
   "lead_review_fingerprint": "bc731b95eadb23cb1a13d735a4e7410615ae06f260b2c4a381ed4a29e229265e",
   "comparison_evidence_fingerprint": "c38df992ab44bbc892ffacafa19d74cc1495d7579d3d6da670653204dca25e57",
-  "album_urls_fingerprint": "f7a6ad4aa323b46f8b3876ab558b41f2748e9b81b2b9d9c8a05fe020b600d8d7",
+  "album_urls_fingerprint": "4859e2e357a2322f4af30976d2e2a0467b40ee840a7006f7d7fd2a064919fae1",
   "opera_review_fingerprint": "11a52ad521b086b7c967327a0d01d0cee432d3cf8695754899a7f40aeb20839d",
   "pair_review_fingerprint": "7709aa57ef7815fda88766badd3064939bccb142bd0e97389a0f5f011c54cd84",
   "container_review_fingerprint": "aa8a8e530114e05869e1215561786073250faca3c9349b66059ea59ff3c535e0",
-  "binding_review_fingerprint": "dbf6723ed4bc56f8cb667fd17b50056f8adc1c42dd504b631462da73de5fa8c3",
+  "binding_review_fingerprint": "eedbe59d3cd12533c3c26433259a2ce27e3f343c68a86d4feb59b8f8e0a30fb8",
   "heading_review_fingerprint": "44c6333ec66aff9cbbf7a29ae8d00ef0005da4fb05dae7e65278f889e97fab8b",
   "cached_half_review_fingerprint": "51e57b6a2ed934ed1a91452a4a8c314099d6641b216c73740a3da7cda998dbcf",
   "unmatched_review_fingerprint": "21d025cd3fb58ad2087d5f859097c6c56d5ce4d79eabf61be52e3930ce1ebc30",
   "unmatched_metadata_fingerprint": "b9ee630308545a56700f5322dea82ebad2621bc20c5e76f7b8743aaa94ba3c9e",
+  "empty_search_metadata_fingerprint": "e2bd43978c93ab2b4e7b69c1242faf2c024bec7196741ddaed637a77dab77cf4",
   "trial_review_fingerprint": "29b152d71ab83c8be83049c16bdc43fd84fa485eefeca6bba69012aa90e3de07",
   "trial_metadata_fingerprint": "6bf5d6039af872d3362c56899455b470ad6cb4cb9dee2e4cdb8f7caeb9df7123",
   "schnabel_late_review_fingerprint": "e4f18bf648db61617d8fd3a4b2979fd23356050be95d618816e5e403fba41840",
@@ -126449,14 +126450,113 @@
       ]
     },
     "10757104": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "3614591367922",
+        "name": "Mendelssohn: Symphonies \"Italienne\" & \"Réformation\"",
+        "artists": [
+          "Arturo Toscanini"
+        ],
+        "label": "BNF Collection",
+        "release_date": "1955-01-01",
+        "image": "https://static.qobuz.com/images/covers/22/79/3614591367922_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/mendelssohn-symphonies-italienne-reformation-arturo-toscanini-nbc-symphony-orchestra/3614591367922"
+      },
+      "candidates": [
+        {
+          "id": "3614591367922",
+          "name": "Mendelssohn: Symphonies \"Italienne\" & \"Réformation\"",
+          "artists": [
+            "Arturo Toscanini"
+          ],
+          "label": "BNF Collection",
+          "release_date": "1955-01-01",
+          "image": "https://static.qobuz.com/images/covers/22/79/3614591367922_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/mendelssohn-symphonies-italienne-reformation-arturo-toscanini-nbc-symphony-orchestra/3614591367922",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 2,
+          "target_count": 2,
+          "required_performers": [
+            "Arturo Toscanini",
+            "NBC Symphony Orchestra"
+          ],
+          "programme": [
+            {
+              "target": "Sinfonia N.4 In La Maggiore, Op. 90 \"Italiana\"",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                23379272,
+                23379274,
+                23379276,
+                23379278
+              ]
+            },
+            {
+              "target": "Sinfonia N. 5 In Re Minore, Op. 107 \"Riforma\"",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                23379280,
+                23379282,
+                23379284,
+                23379286
+              ]
+            }
+          ],
+          "reasons": [
+            "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+            "RCA Victrola VL 45809 is Toscanini and the NBC Symphony in Mendelssohn’s Italian and Reformation symphonies. This file has both, four movements each, with Toscanini and the NBC Symphony on every track.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Italiana and Riforma are the file’s Italienne and Réformation.",
+            "This BNF file is not verified as the 1980 RCA Victrola VL 45809 pressing."
+          ],
+          "work_group_policy": "qobuz-work-groups-v1",
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Sinfonia N.4 In La Maggiore, Op. 90 \"Italiana\"",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  23379272,
+                  23379274,
+                  23379276,
+                  23379278
+                ]
+              },
+              {
+                "target": "Sinfonia N. 5 In Re Minore, Op. 107 \"Riforma\"",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  23379280,
+                  23379282,
+                  23379284,
+                  23379286
+                ]
+              }
+            ]
+          },
+          "recording_review": "RCA Victrola VL 45809 is Toscanini and the NBC Symphony in Mendelssohn’s Italian and Reformation symphonies. This file has both, four movements each, with Toscanini and the NBC Symphony on every track.",
+          "review_sources": [
+            "https://www.qobuz.com/fr-fr/album/mendelssohn-symphonies-italienne-reformation-arturo-toscanini-nbc-symphony-orchestra/3614591367922"
+          ]
+        }
+      ],
       "query": "arturo toscanini bartholdy sinfonia n 4 italiana sinfonia n 5 riforma",
       "searched_at": "2026-11-12T17:33:59.527138+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+        "RCA Victrola VL 45809 is Toscanini and the NBC Symphony in Mendelssohn’s Italian and Reformation symphonies. This file has both, four movements each, with Toscanini and the NBC Symphony on every track.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Italiana and Riforma are the file’s Italienne and Réformation.",
+        "This BNF file is not verified as the 1980 RCA Victrola VL 45809 pressing."
       ]
     },
     "16108064": {

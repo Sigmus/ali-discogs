@@ -956,3 +956,28 @@ unchecked. Bitches Brew stays parked. Copies 12/89/640, unique 12/89/639.
 Inventory of the 639 still unchecked: 324 no saved hits, 3 metadata-needed,
 304 work or credit gaps, 7 reviewed withholds, and the Barenboim completeness
 caution. Review tests and normalization passed. No API calls.
+
+## 2026-11-13 — Twenty searches for releases with no saved hit
+
+Forty paced queries, fifteen seconds apart, at most five albums each. Thirty-one
+queries returned something. Nineteen of the twenty releases now have hits, 126
+pairs in `data/qobuz_empty_searches.json.gz`. Sellheim’s complete cello-and-piano
+set, 7421796, came back empty; that is not confirmed absence. No album metadata
+was fetched and no match was published. Inventory of the 639 unchecked releases
+is now 305 no saved hits, 18 metadata-needed, 308 work or credit gaps, 7 reviewed
+withholds, and the Barenboim completeness caution.
+
+## 2026-11-13 — Five title-aligned albums downloaded
+
+Downloaded 37 tracks for BWV 201, Toscanini, Barbirolli’s Fifth, Barbirolli’s
+Ninth, and Cluytens Psyché. Harasiewicz’s 10-track hit was not the Philips box
+and was not downloaded. Toscanini 10757104 is Probable 85: both symphonies, four
+movements each, Toscanini and the NBC Symphony on every track. The BNF file is
+not verified as the 1980 Victrola pressing. BWV 201 has all 15 numbers and the
+named singers, and stays unpublished because the LP lists two side ranges.
+Barbirolli’s Fifth is the New Philharmonia and the Ninth is Berlin; neither file
+has both symphonies. Cluytens has Psyché and the Rédemption excerpt, not Le
+Chasseur maudit. Copies 12/90/639, unique 12/90/638. Inventory of the 638 still
+unchecked: 305 no saved hits, 14 metadata-needed, 311 work or credit gaps, 7
+reviewed withholds, and the Barenboim caution. Binding and URL tests passed.
+The explorer shows 85% and 2/2 for Toscanini. No further search.

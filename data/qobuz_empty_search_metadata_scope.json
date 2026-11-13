@@ -1,0 +1,38 @@
+{
+  "schema_version": 1,
+  "selected_on": "2026-11-13",
+  "purpose": "Album/get only for search hits whose title, performers and programme still look like the LP. No new search and no automatic acceptance.",
+  "not_fetched": [
+    {
+      "discogs_id": "6534486",
+      "reason": "Harasiewicz plays Chopin is a 10-track recital. The LP is the large Philips Chopin box."
+    }
+  ],
+  "entries": [
+    {
+      "discogs_id": "8176289",
+      "album_id": "3610154303352",
+      "reason": "BWV 201 with the Thomanerchor, Gewandhausorchester and Kurt Thomas, who conducts this LP."
+    },
+    {
+      "discogs_id": "10757104",
+      "album_id": "3614591367922",
+      "reason": "Toscanini and the NBC Symphony in the Italian and Reformation symphonies, eight tracks."
+    },
+    {
+      "discogs_id": "13872783",
+      "album_id": "5099943329052",
+      "reason": "Barbirolli Symphony No. 5, not the Houston or live files."
+    },
+    {
+      "discogs_id": "13872783",
+      "album_id": "5099991872555",
+      "reason": "Barbirolli Symphony No. 9, not the Turin or New York files."
+    },
+    {
+      "discogs_id": "22065910",
+      "album_id": "3614596892627",
+      "reason": "Cluytens and the Conservatoire orchestra in Psyché and Rédemption. Le Chasseur maudit is not on this file."
+    }
+  ]
+}

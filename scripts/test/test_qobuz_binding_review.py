@@ -1,4 +1,5 @@
 import copy
+import gzip
 import json
 from pathlib import Path
 import sys
@@ -13,7 +14,10 @@ class BindingReviewTests(unittest.TestCase):
     @classmethod
     def setUpClass(cls):
         cls.rows = {str(r['discogs_id']): r for r in json.loads((ROOT/'data/collection_matches.json').read_text())}
-        cls.albums = load_snapshot()['albums']
+        cls.albums = dict(load_snapshot()['albums'])
+        extra = json.loads(gzip.decompress((ROOT/'data/qobuz_empty_search_metadata.json.gz').read_bytes()))
+        for record in extra['metadata']:
+            cls.albums[str(record['album']['id'])] = record['album']
         cls.reviews = {r['discogs_id']: r for r in json.loads((ROOT/'data/qobuz_binding_reviews.json').read_text())['releases']}
 
     def review(self, discogs_id):
@@ -32,7 +36,7 @@ class BindingReviewTests(unittest.TestCase):
                 published.append(discogs_id)
             else:
                 self.assertIsNone(candidate)
-        self.assertEqual(published, ['11562013', '3475547', '11168177', '6029612', '5177097', '7525022', '4483876', '7119504', '6472687'])
+        self.assertEqual(published, ['11562013', '3475547', '11168177', '6029612', '5177097', '7525022', '4483876', '7119504', '6472687', '10757104'])
 
     def test_a_mislabelled_scherzo_or_a_wrong_koechel_number_cannot_be_forced(self):
         row, album, review = self.review('11562013')

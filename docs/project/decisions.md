@@ -311,3 +311,15 @@ number. The file may add the word major. Op. 30 No. 3 saying minor is recorded,
 not corrected. A movement label under a heading that already has those tracks
 is not a second work. A named piece that is absent stays withheld. Cap at
 Probable 85. A later digital file is not the LP pressing.
+
+## 2026-11-13 — One file must contain the LP’s works
+
+Status: adopted for the five albums downloaded after the twenty searches.
+
+Toscanini 10757104 is Probable 85 because one file has both symphonies, four
+movements each, with Toscanini and the NBC Symphony on every track. Two files
+that split Barbirolli’s Fifth and Ninth are not that one LP. A file that omits
+Le Chasseur maudit is not the Cluytens LP. A 10-track recital is not the
+Harasiewicz box and was not downloaded. BWV 201 is the cantata, but its two LP
+side ranges are not yet a review. Cap at Probable 85. The BNF file is not the
+1980 Victrola pressing.

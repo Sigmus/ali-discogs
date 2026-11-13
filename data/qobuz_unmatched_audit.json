@@ -11,20 +11,22 @@
     "qobuz_query_validation.json.gz": "53457cf526b5bbea733010f3b285ac456345e98b4b401c4f4494588e9895987f",
     "qobuz_unmatched_metadata.json.gz": "b9ee630308545a56700f5322dea82ebad2621bc20c5e76f7b8743aaa94ba3c9e",
     "qobuz_metadata_needed.json.gz": "251d740a4edc8bd4a8b4dc2dc0a173c19a4785b735de4af5de1d1839f3ba85a4",
+    "qobuz_empty_searches.json.gz": "1cf5cae0839048a2a6ad5f4a3e5220cb196e5b285985b5eee52bff7f9d28ddee",
+    "qobuz_empty_search_metadata.json.gz": "e2bd43978c93ab2b4e7b69c1242faf2c024bec7196741ddaed637a77dab77cf4",
     "collection_matches.json": "a214eee877d4749fa957b3d2a293c2925d7ba0621259f2742139a6cd86f928c8",
-    "qobuz_matches.json": "cf9a7e3161edc7c2052c7b9ff1808be505988d72d13bda0829b383534c5a0dce",
+    "qobuz_matches.json": "17c1ee1d7bfe8dfa945e50a4e327b60a6da0d69f98900a4498b106a2942c0776",
     "qobuz_work_inventory.json": "ac5b17039789d5e994c13492246e74dd62bd8194dd089f579668d98e82dfe3f9",
-    "qobuz_binding_reviews.json": "dbf6723ed4bc56f8cb667fd17b50056f8adc1c42dd504b631462da73de5fa8c3",
+    "qobuz_binding_reviews.json": "eedbe59d3cd12533c3c26433259a2ce27e3f343c68a86d4feb59b8f8e0a30fb8",
     "qobuz_opera_recording_reviews.json": "11a52ad521b086b7c967327a0d01d0cee432d3cf8695754899a7f40aeb20839d"
   },
   "summary": {
-    "work_or_credit_unresolved": 304,
-    "no_saved_hits": 324,
+    "work_or_credit_unresolved": 311,
+    "no_saved_hits": 305,
     "reviewed_withheld": 7,
-    "metadata_needed": 3,
+    "metadata_needed": 14,
     "completeness_review_needed": 1
   },
-  "unmatched_unique_releases": 639,
+  "unmatched_unique_releases": 638,
   "entries": [
     {
       "discogs_id": "594243",
@@ -1489,10 +1491,1668 @@
     {
       "discogs_id": "1216294",
       "title": "Die Walküre Act 3 / Todesverkündigung From Act 2",
-      "category": "no_saved_hits",
-      "saved_hits": 0,
-      "uncached_hits": 0,
-      "cached_candidates": []
+      "category": "work_or_credit_unresolved",
+      "saved_hits": 7,
+      "uncached_hits": 1,
+      "cached_candidates": [
+        {
+          "album_id": "phkjj6cnlzhva",
+          "title": "Wagner: Die Walküre; Götterdämmerung ; Tristan und Isolde – Excerpts",
+          "coverage": 0.16666666666666666,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Die Walküre - Act 3",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Georg Solti",
+                "Kirsten Flagstad",
+                "Wiener Philharmoniker"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            },
+            {
+              "target": "Pt. 1: Hojothoho! Hojotojo! (Ride Of The Valkyries) - Wo Ist Brunnhild'?",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Georg Solti",
+                "Kirsten Flagstad",
+                "Wiener Philharmoniker",
+                "Frieda Roesler",
+                "Claire Watson",
+                "Hetty Plümacher",
+                "Anny Delorie",
+                "Otto Edelmann",
+                "Grace Hoffman",
+                "Oda Balsborg",
+                "Margarethe Bence",
+                "Marianne Schech",
+                "Ilona Steingruber"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [
+                  "A"
+                ],
+                "performers": [
+                  {
+                    "name": "Frieda Roesler",
+                    "role": "Alto Vocals [Grimgerde]"
+                  },
+                  {
+                    "name": "Claire Watson",
+                    "role": "Alto Vocals [Helmwige]"
+                  },
+                  {
+                    "name": "Hetty Plümacher",
+                    "role": "Alto Vocals [Rossweisse]"
+                  },
+                  {
+                    "name": "Anny Delorie",
+                    "role": "Alto Vocals [Siegrune]"
+                  },
+                  {
+                    "name": "Otto Edelmann",
+                    "role": "Baritone Vocals [Wotan]"
+                  },
+                  {
+                    "name": "Grace Hoffman",
+                    "role": "Soprano Vocals [Grimgerde]"
+                  },
+                  {
+                    "name": "Oda Balsborg",
+                    "role": "Soprano Vocals [Helmwige]"
+                  },
+                  {
+                    "name": "Margarethe Bence",
+                    "role": "Soprano Vocals [Rossweisse]"
+                  },
+                  {
+                    "name": "Marianne Schech",
+                    "role": "Soprano Vocals [Sieglinde]"
+                  },
+                  {
+                    "name": "Ilona Steingruber",
+                    "role": "Soprano Vocals [Siegrune]"
+                  }
+                ]
+              }
+            },
+            {
+              "target": "Pt. 2: Hier Bin Ich, Vater; War Es So Schmählich (Brünhilde's Bitte)",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Georg Solti",
+                "Kirsten Flagstad",
+                "Wiener Philharmoniker",
+                "Frieda Roesler",
+                "Claire Watson",
+                "Hetty Plümacher",
+                "Anny Delorie",
+                "Otto Edelmann",
+                "Grace Hoffman",
+                "Oda Balsborg",
+                "Margarethe Bence",
+                "Marianne Schech",
+                "Ilona Steingruber"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [
+                  "B"
+                ],
+                "performers": [
+                  {
+                    "name": "Frieda Roesler",
+                    "role": "Alto Vocals [Grimgerde]"
+                  },
+                  {
+                    "name": "Claire Watson",
+                    "role": "Alto Vocals [Helmwige]"
+                  },
+                  {
+                    "name": "Hetty Plümacher",
+                    "role": "Alto Vocals [Rossweisse]"
+                  },
+                  {
+                    "name": "Anny Delorie",
+                    "role": "Alto Vocals [Siegrune]"
+                  },
+                  {
+                    "name": "Otto Edelmann",
+                    "role": "Baritone Vocals [Wotan]"
+                  },
+                  {
+                    "name": "Grace Hoffman",
+                    "role": "Soprano Vocals [Grimgerde]"
+                  },
+                  {
+                    "name": "Oda Balsborg",
+                    "role": "Soprano Vocals [Helmwige]"
+                  },
+                  {
+                    "name": "Margarethe Bence",
+                    "role": "Soprano Vocals [Rossweisse]"
+                  },
+                  {
+                    "name": "Marianne Schech",
+                    "role": "Soprano Vocals [Sieglinde]"
+                  },
+                  {
+                    "name": "Ilona Steingruber",
+                    "role": "Soprano Vocals [Siegrune]"
+                  }
+                ]
+              }
+            },
+            {
+              "target": "Pt. 3: Deinen Leichten Sinn Lass' Dich Denn Leiten; Leb' Wohl, Du Kühnes, Herrliches Kind! (Wotan's Farewell And Magic Fire Music)",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Georg Solti",
+                "Kirsten Flagstad",
+                "Wiener Philharmoniker",
+                "Frieda Roesler",
+                "Claire Watson",
+                "Hetty Plümacher",
+                "Anny Delorie",
+                "Otto Edelmann",
+                "Grace Hoffman",
+                "Oda Balsborg",
+                "Margarethe Bence",
+                "Marianne Schech",
+                "Ilona Steingruber"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [
+                  "C"
+                ],
+                "performers": [
+                  {
+                    "name": "Frieda Roesler",
+                    "role": "Alto Vocals [Grimgerde]"
+                  },
+                  {
+                    "name": "Claire Watson",
+                    "role": "Alto Vocals [Helmwige]"
+                  },
+                  {
+                    "name": "Hetty Plümacher",
+                    "role": "Alto Vocals [Rossweisse]"
+                  },
+                  {
+                    "name": "Anny Delorie",
+                    "role": "Alto Vocals [Siegrune]"
+                  },
+                  {
+                    "name": "Otto Edelmann",
+                    "role": "Baritone Vocals [Wotan]"
+                  },
+                  {
+                    "name": "Grace Hoffman",
+                    "role": "Soprano Vocals [Grimgerde]"
+                  },
+                  {
+                    "name": "Oda Balsborg",
+                    "role": "Soprano Vocals [Helmwige]"
+                  },
+                  {
+                    "name": "Margarethe Bence",
+                    "role": "Soprano Vocals [Rossweisse]"
+                  },
+                  {
+                    "name": "Marianne Schech",
+                    "role": "Soprano Vocals [Sieglinde]"
+                  },
+                  {
+                    "name": "Ilona Steingruber",
+                    "role": "Soprano Vocals [Siegrune]"
+                  }
+                ]
+              }
+            },
+            {
+              "target": "Die Walküre - Act 2",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                105215814
+              ],
+              "required_performers": [
+                "Georg Solti",
+                "Kirsten Flagstad",
+                "Wiener Philharmoniker"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            },
+            {
+              "target": "Siegmund! Sieh' Auf Mich! (Todesverkündigung)",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Georg Solti",
+                "Kirsten Flagstad",
+                "Wiener Philharmoniker",
+                "Set Svanholm"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [
+                  "D"
+                ],
+                "performers": [
+                  {
+                    "name": "Set Svanholm",
+                    "role": "Tenor Vocals [Siegmund]"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "album_id": "xuonqdu9tujba",
+          "title": "Wagner: Die Walküre (Act III) – Excerpts",
+          "coverage": 0.16666666666666666,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Die Walküre - Act 3",
+              "work_tracks": 15,
+              "credited_tracks": 10,
+              "track_ids": [
+                105215829,
+                105215830,
+                105215831,
+                105215832,
+                105215833,
+                105215834,
+                105215835,
+                105215836,
+                105215837,
+                105215838
+              ],
+              "required_performers": [
+                "Georg Solti",
+                "Kirsten Flagstad",
+                "Wiener Philharmoniker"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            },
+            {
+              "target": "Pt. 1: Hojothoho! Hojotojo! (Ride Of The Valkyries) - Wo Ist Brunnhild'?",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Georg Solti",
+                "Kirsten Flagstad",
+                "Wiener Philharmoniker",
+                "Frieda Roesler",
+                "Claire Watson",
+                "Hetty Plümacher",
+                "Anny Delorie",
+                "Otto Edelmann",
+                "Grace Hoffman",
+                "Oda Balsborg",
+                "Margarethe Bence",
+                "Marianne Schech",
+                "Ilona Steingruber"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [
+                  "A"
+                ],
+                "performers": [
+                  {
+                    "name": "Frieda Roesler",
+                    "role": "Alto Vocals [Grimgerde]"
+                  },
+                  {
+                    "name": "Claire Watson",
+                    "role": "Alto Vocals [Helmwige]"
+                  },
+                  {
+                    "name": "Hetty Plümacher",
+                    "role": "Alto Vocals [Rossweisse]"
+                  },
+                  {
+                    "name": "Anny Delorie",
+                    "role": "Alto Vocals [Siegrune]"
+                  },
+                  {
+                    "name": "Otto Edelmann",
+                    "role": "Baritone Vocals [Wotan]"
+                  },
+                  {
+                    "name": "Grace Hoffman",
+                    "role": "Soprano Vocals [Grimgerde]"
+                  },
+                  {
+                    "name": "Oda Balsborg",
+                    "role": "Soprano Vocals [Helmwige]"
+                  },
+                  {
+                    "name": "Margarethe Bence",
+                    "role": "Soprano Vocals [Rossweisse]"
+                  },
+                  {
+                    "name": "Marianne Schech",
+                    "role": "Soprano Vocals [Sieglinde]"
+                  },
+                  {
+                    "name": "Ilona Steingruber",
+                    "role": "Soprano Vocals [Siegrune]"
+                  }
+                ]
+              }
+            },
+            {
+              "target": "Pt. 2: Hier Bin Ich, Vater; War Es So Schmählich (Brünhilde's Bitte)",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Georg Solti",
+                "Kirsten Flagstad",
+                "Wiener Philharmoniker",
+                "Frieda Roesler",
+                "Claire Watson",
+                "Hetty Plümacher",
+                "Anny Delorie",
+                "Otto Edelmann",
+                "Grace Hoffman",
+                "Oda Balsborg",
+                "Margarethe Bence",
+                "Marianne Schech",
+                "Ilona Steingruber"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [
+                  "B"
+                ],
+                "performers": [
+                  {
+                    "name": "Frieda Roesler",
+                    "role": "Alto Vocals [Grimgerde]"
+                  },
+                  {
+                    "name": "Claire Watson",
+                    "role": "Alto Vocals [Helmwige]"
+                  },
+                  {
+                    "name": "Hetty Plümacher",
+                    "role": "Alto Vocals [Rossweisse]"
+                  },
+                  {
+                    "name": "Anny Delorie",
+                    "role": "Alto Vocals [Siegrune]"
+                  },
+                  {
+                    "name": "Otto Edelmann",
+                    "role": "Baritone Vocals [Wotan]"
+                  },
+                  {
+                    "name": "Grace Hoffman",
+                    "role": "Soprano Vocals [Grimgerde]"
+                  },
+                  {
+                    "name": "Oda Balsborg",
+                    "role": "Soprano Vocals [Helmwige]"
+                  },
+                  {
+                    "name": "Margarethe Bence",
+                    "role": "Soprano Vocals [Rossweisse]"
+                  },
+                  {
+                    "name": "Marianne Schech",
+                    "role": "Soprano Vocals [Sieglinde]"
+                  },
+                  {
+                    "name": "Ilona Steingruber",
+                    "role": "Soprano Vocals [Siegrune]"
+                  }
+                ]
+              }
+            },
+            {
+              "target": "Pt. 3: Deinen Leichten Sinn Lass' Dich Denn Leiten; Leb' Wohl, Du Kühnes, Herrliches Kind! (Wotan's Farewell And Magic Fire Music)",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Georg Solti",
+                "Kirsten Flagstad",
+                "Wiener Philharmoniker",
+                "Frieda Roesler",
+                "Claire Watson",
+                "Hetty Plümacher",
+                "Anny Delorie",
+                "Otto Edelmann",
+                "Grace Hoffman",
+                "Oda Balsborg",
+                "Margarethe Bence",
+                "Marianne Schech",
+                "Ilona Steingruber"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [
+                  "C"
+                ],
+                "performers": [
+                  {
+                    "name": "Frieda Roesler",
+                    "role": "Alto Vocals [Grimgerde]"
+                  },
+                  {
+                    "name": "Claire Watson",
+                    "role": "Alto Vocals [Helmwige]"
+                  },
+                  {
+                    "name": "Hetty Plümacher",
+                    "role": "Alto Vocals [Rossweisse]"
+                  },
+                  {
+                    "name": "Anny Delorie",
+                    "role": "Alto Vocals [Siegrune]"
+                  },
+                  {
+                    "name": "Otto Edelmann",
+                    "role": "Baritone Vocals [Wotan]"
+                  },
+                  {
+                    "name": "Grace Hoffman",
+                    "role": "Soprano Vocals [Grimgerde]"
+                  },
+                  {
+                    "name": "Oda Balsborg",
+                    "role": "Soprano Vocals [Helmwige]"
+                  },
+                  {
+                    "name": "Margarethe Bence",
+                    "role": "Soprano Vocals [Rossweisse]"
+                  },
+                  {
+                    "name": "Marianne Schech",
+                    "role": "Soprano Vocals [Sieglinde]"
+                  },
+                  {
+                    "name": "Ilona Steingruber",
+                    "role": "Soprano Vocals [Siegrune]"
+                  }
+                ]
+              }
+            },
+            {
+              "target": "Die Walküre - Act 2",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Georg Solti",
+                "Kirsten Flagstad",
+                "Wiener Philharmoniker"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            },
+            {
+              "target": "Siegmund! Sieh' Auf Mich! (Todesverkündigung)",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Georg Solti",
+                "Kirsten Flagstad",
+                "Wiener Philharmoniker",
+                "Set Svanholm"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [
+                  "D"
+                ],
+                "performers": [
+                  {
+                    "name": "Set Svanholm",
+                    "role": "Tenor Vocals [Siegmund]"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "album_id": "0002894786192",
+          "title": "Wagner: Die Walküre",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Die Walküre - Act 3",
+              "work_tracks": 15,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Georg Solti",
+                "Kirsten Flagstad",
+                "Wiener Philharmoniker"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            },
+            {
+              "target": "Pt. 1: Hojothoho! Hojotojo! (Ride Of The Valkyries) - Wo Ist Brunnhild'?",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Georg Solti",
+                "Kirsten Flagstad",
+                "Wiener Philharmoniker",
+                "Frieda Roesler",
+                "Claire Watson",
+                "Hetty Plümacher",
+                "Anny Delorie",
+                "Otto Edelmann",
+                "Grace Hoffman",
+                "Oda Balsborg",
+                "Margarethe Bence",
+                "Marianne Schech",
+                "Ilona Steingruber"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [
+                  "A"
+                ],
+                "performers": [
+                  {
+                    "name": "Frieda Roesler",
+                    "role": "Alto Vocals [Grimgerde]"
+                  },
+                  {
+                    "name": "Claire Watson",
+                    "role": "Alto Vocals [Helmwige]"
+                  },
+                  {
+                    "name": "Hetty Plümacher",
+                    "role": "Alto Vocals [Rossweisse]"
+                  },
+                  {
+                    "name": "Anny Delorie",
+                    "role": "Alto Vocals [Siegrune]"
+                  },
+                  {
+                    "name": "Otto Edelmann",
+                    "role": "Baritone Vocals [Wotan]"
+                  },
+                  {
+                    "name": "Grace Hoffman",
+                    "role": "Soprano Vocals [Grimgerde]"
+                  },
+                  {
+                    "name": "Oda Balsborg",
+                    "role": "Soprano Vocals [Helmwige]"
+                  },
+                  {
+                    "name": "Margarethe Bence",
+                    "role": "Soprano Vocals [Rossweisse]"
+                  },
+                  {
+                    "name": "Marianne Schech",
+                    "role": "Soprano Vocals [Sieglinde]"
+                  },
+                  {
+                    "name": "Ilona Steingruber",
+                    "role": "Soprano Vocals [Siegrune]"
+                  }
+                ]
+              }
+            },
+            {
+              "target": "Pt. 2: Hier Bin Ich, Vater; War Es So Schmählich (Brünhilde's Bitte)",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Georg Solti",
+                "Kirsten Flagstad",
+                "Wiener Philharmoniker",
+                "Frieda Roesler",
+                "Claire Watson",
+                "Hetty Plümacher",
+                "Anny Delorie",
+                "Otto Edelmann",
+                "Grace Hoffman",
+                "Oda Balsborg",
+                "Margarethe Bence",
+                "Marianne Schech",
+                "Ilona Steingruber"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [
+                  "B"
+                ],
+                "performers": [
+                  {
+                    "name": "Frieda Roesler",
+                    "role": "Alto Vocals [Grimgerde]"
+                  },
+                  {
+                    "name": "Claire Watson",
+                    "role": "Alto Vocals [Helmwige]"
+                  },
+                  {
+                    "name": "Hetty Plümacher",
+                    "role": "Alto Vocals [Rossweisse]"
+                  },
+                  {
+                    "name": "Anny Delorie",
+                    "role": "Alto Vocals [Siegrune]"
+                  },
+                  {
+                    "name": "Otto Edelmann",
+                    "role": "Baritone Vocals [Wotan]"
+                  },
+                  {
+                    "name": "Grace Hoffman",
+                    "role": "Soprano Vocals [Grimgerde]"
+                  },
+                  {
+                    "name": "Oda Balsborg",
+                    "role": "Soprano Vocals [Helmwige]"
+                  },
+                  {
+                    "name": "Margarethe Bence",
+                    "role": "Soprano Vocals [Rossweisse]"
+                  },
+                  {
+                    "name": "Marianne Schech",
+                    "role": "Soprano Vocals [Sieglinde]"
+                  },
+                  {
+                    "name": "Ilona Steingruber",
+                    "role": "Soprano Vocals [Siegrune]"
+                  }
+                ]
+              }
+            },
+            {
+              "target": "Pt. 3: Deinen Leichten Sinn Lass' Dich Denn Leiten; Leb' Wohl, Du Kühnes, Herrliches Kind! (Wotan's Farewell And Magic Fire Music)",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Georg Solti",
+                "Kirsten Flagstad",
+                "Wiener Philharmoniker",
+                "Frieda Roesler",
+                "Claire Watson",
+                "Hetty Plümacher",
+                "Anny Delorie",
+                "Otto Edelmann",
+                "Grace Hoffman",
+                "Oda Balsborg",
+                "Margarethe Bence",
+                "Marianne Schech",
+                "Ilona Steingruber"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [
+                  "C"
+                ],
+                "performers": [
+                  {
+                    "name": "Frieda Roesler",
+                    "role": "Alto Vocals [Grimgerde]"
+                  },
+                  {
+                    "name": "Claire Watson",
+                    "role": "Alto Vocals [Helmwige]"
+                  },
+                  {
+                    "name": "Hetty Plümacher",
+                    "role": "Alto Vocals [Rossweisse]"
+                  },
+                  {
+                    "name": "Anny Delorie",
+                    "role": "Alto Vocals [Siegrune]"
+                  },
+                  {
+                    "name": "Otto Edelmann",
+                    "role": "Baritone Vocals [Wotan]"
+                  },
+                  {
+                    "name": "Grace Hoffman",
+                    "role": "Soprano Vocals [Grimgerde]"
+                  },
+                  {
+                    "name": "Oda Balsborg",
+                    "role": "Soprano Vocals [Helmwige]"
+                  },
+                  {
+                    "name": "Margarethe Bence",
+                    "role": "Soprano Vocals [Rossweisse]"
+                  },
+                  {
+                    "name": "Marianne Schech",
+                    "role": "Soprano Vocals [Sieglinde]"
+                  },
+                  {
+                    "name": "Ilona Steingruber",
+                    "role": "Soprano Vocals [Siegrune]"
+                  }
+                ]
+              }
+            },
+            {
+              "target": "Die Walküre - Act 2",
+              "work_tracks": 10,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Georg Solti",
+                "Kirsten Flagstad",
+                "Wiener Philharmoniker"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            },
+            {
+              "target": "Siegmund! Sieh' Auf Mich! (Todesverkündigung)",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Georg Solti",
+                "Kirsten Flagstad",
+                "Wiener Philharmoniker",
+                "Set Svanholm"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [
+                  "D"
+                ],
+                "performers": [
+                  {
+                    "name": "Set Svanholm",
+                    "role": "Tenor Vocals [Siegmund]"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "album_id": "0002894787859",
+          "title": "Richard Wagner : Der Ring des Nibelungen",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Die Walküre - Act 3",
+              "work_tracks": 15,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Georg Solti",
+                "Kirsten Flagstad",
+                "Wiener Philharmoniker"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            },
+            {
+              "target": "Pt. 1: Hojothoho! Hojotojo! (Ride Of The Valkyries) - Wo Ist Brunnhild'?",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Georg Solti",
+                "Kirsten Flagstad",
+                "Wiener Philharmoniker",
+                "Frieda Roesler",
+                "Claire Watson",
+                "Hetty Plümacher",
+                "Anny Delorie",
+                "Otto Edelmann",
+                "Grace Hoffman",
+                "Oda Balsborg",
+                "Margarethe Bence",
+                "Marianne Schech",
+                "Ilona Steingruber"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [
+                  "A"
+                ],
+                "performers": [
+                  {
+                    "name": "Frieda Roesler",
+                    "role": "Alto Vocals [Grimgerde]"
+                  },
+                  {
+                    "name": "Claire Watson",
+                    "role": "Alto Vocals [Helmwige]"
+                  },
+                  {
+                    "name": "Hetty Plümacher",
+                    "role": "Alto Vocals [Rossweisse]"
+                  },
+                  {
+                    "name": "Anny Delorie",
+                    "role": "Alto Vocals [Siegrune]"
+                  },
+                  {
+                    "name": "Otto Edelmann",
+                    "role": "Baritone Vocals [Wotan]"
+                  },
+                  {
+                    "name": "Grace Hoffman",
+                    "role": "Soprano Vocals [Grimgerde]"
+                  },
+                  {
+                    "name": "Oda Balsborg",
+                    "role": "Soprano Vocals [Helmwige]"
+                  },
+                  {
+                    "name": "Margarethe Bence",
+                    "role": "Soprano Vocals [Rossweisse]"
+                  },
+                  {
+                    "name": "Marianne Schech",
+                    "role": "Soprano Vocals [Sieglinde]"
+                  },
+                  {
+                    "name": "Ilona Steingruber",
+                    "role": "Soprano Vocals [Siegrune]"
+                  }
+                ]
+              }
+            },
+            {
+              "target": "Pt. 2: Hier Bin Ich, Vater; War Es So Schmählich (Brünhilde's Bitte)",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Georg Solti",
+                "Kirsten Flagstad",
+                "Wiener Philharmoniker",
+                "Frieda Roesler",
+                "Claire Watson",
+                "Hetty Plümacher",
+                "Anny Delorie",
+                "Otto Edelmann",
+                "Grace Hoffman",
+                "Oda Balsborg",
+                "Margarethe Bence",
+                "Marianne Schech",
+                "Ilona Steingruber"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [
+                  "B"
+                ],
+                "performers": [
+                  {
+                    "name": "Frieda Roesler",
+                    "role": "Alto Vocals [Grimgerde]"
+                  },
+                  {
+                    "name": "Claire Watson",
+                    "role": "Alto Vocals [Helmwige]"
+                  },
+                  {
+                    "name": "Hetty Plümacher",
+                    "role": "Alto Vocals [Rossweisse]"
+                  },
+                  {
+                    "name": "Anny Delorie",
+                    "role": "Alto Vocals [Siegrune]"
+                  },
+                  {
+                    "name": "Otto Edelmann",
+                    "role": "Baritone Vocals [Wotan]"
+                  },
+                  {
+                    "name": "Grace Hoffman",
+                    "role": "Soprano Vocals [Grimgerde]"
+                  },
+                  {
+                    "name": "Oda Balsborg",
+                    "role": "Soprano Vocals [Helmwige]"
+                  },
+                  {
+                    "name": "Margarethe Bence",
+                    "role": "Soprano Vocals [Rossweisse]"
+                  },
+                  {
+                    "name": "Marianne Schech",
+                    "role": "Soprano Vocals [Sieglinde]"
+                  },
+                  {
+                    "name": "Ilona Steingruber",
+                    "role": "Soprano Vocals [Siegrune]"
+                  }
+                ]
+              }
+            },
+            {
+              "target": "Pt. 3: Deinen Leichten Sinn Lass' Dich Denn Leiten; Leb' Wohl, Du Kühnes, Herrliches Kind! (Wotan's Farewell And Magic Fire Music)",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Georg Solti",
+                "Kirsten Flagstad",
+                "Wiener Philharmoniker",
+                "Frieda Roesler",
+                "Claire Watson",
+                "Hetty Plümacher",
+                "Anny Delorie",
+                "Otto Edelmann",
+                "Grace Hoffman",
+                "Oda Balsborg",
+                "Margarethe Bence",
+                "Marianne Schech",
+                "Ilona Steingruber"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [
+                  "C"
+                ],
+                "performers": [
+                  {
+                    "name": "Frieda Roesler",
+                    "role": "Alto Vocals [Grimgerde]"
+                  },
+                  {
+                    "name": "Claire Watson",
+                    "role": "Alto Vocals [Helmwige]"
+                  },
+                  {
+                    "name": "Hetty Plümacher",
+                    "role": "Alto Vocals [Rossweisse]"
+                  },
+                  {
+                    "name": "Anny Delorie",
+                    "role": "Alto Vocals [Siegrune]"
+                  },
+                  {
+                    "name": "Otto Edelmann",
+                    "role": "Baritone Vocals [Wotan]"
+                  },
+                  {
+                    "name": "Grace Hoffman",
+                    "role": "Soprano Vocals [Grimgerde]"
+                  },
+                  {
+                    "name": "Oda Balsborg",
+                    "role": "Soprano Vocals [Helmwige]"
+                  },
+                  {
+                    "name": "Margarethe Bence",
+                    "role": "Soprano Vocals [Rossweisse]"
+                  },
+                  {
+                    "name": "Marianne Schech",
+                    "role": "Soprano Vocals [Sieglinde]"
+                  },
+                  {
+                    "name": "Ilona Steingruber",
+                    "role": "Soprano Vocals [Siegrune]"
+                  }
+                ]
+              }
+            },
+            {
+              "target": "Die Walküre - Act 2",
+              "work_tracks": 10,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Georg Solti",
+                "Kirsten Flagstad",
+                "Wiener Philharmoniker"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            },
+            {
+              "target": "Siegmund! Sieh' Auf Mich! (Todesverkündigung)",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Georg Solti",
+                "Kirsten Flagstad",
+                "Wiener Philharmoniker",
+                "Set Svanholm"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [
+                  "D"
+                ],
+                "performers": [
+                  {
+                    "name": "Set Svanholm",
+                    "role": "Tenor Vocals [Siegmund]"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "album_id": "3610155276082",
+          "title": "Wagner: Extracts of Das Rheingold & Die Walküre",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Die Walküre - Act 3",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Georg Solti",
+                "Kirsten Flagstad",
+                "Wiener Philharmoniker"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            },
+            {
+              "target": "Pt. 1: Hojothoho! Hojotojo! (Ride Of The Valkyries) - Wo Ist Brunnhild'?",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Georg Solti",
+                "Kirsten Flagstad",
+                "Wiener Philharmoniker",
+                "Frieda Roesler",
+                "Claire Watson",
+                "Hetty Plümacher",
+                "Anny Delorie",
+                "Otto Edelmann",
+                "Grace Hoffman",
+                "Oda Balsborg",
+                "Margarethe Bence",
+                "Marianne Schech",
+                "Ilona Steingruber"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [
+                  "A"
+                ],
+                "performers": [
+                  {
+                    "name": "Frieda Roesler",
+                    "role": "Alto Vocals [Grimgerde]"
+                  },
+                  {
+                    "name": "Claire Watson",
+                    "role": "Alto Vocals [Helmwige]"
+                  },
+                  {
+                    "name": "Hetty Plümacher",
+                    "role": "Alto Vocals [Rossweisse]"
+                  },
+                  {
+                    "name": "Anny Delorie",
+                    "role": "Alto Vocals [Siegrune]"
+                  },
+                  {
+                    "name": "Otto Edelmann",
+                    "role": "Baritone Vocals [Wotan]"
+                  },
+                  {
+                    "name": "Grace Hoffman",
+                    "role": "Soprano Vocals [Grimgerde]"
+                  },
+                  {
+                    "name": "Oda Balsborg",
+                    "role": "Soprano Vocals [Helmwige]"
+                  },
+                  {
+                    "name": "Margarethe Bence",
+                    "role": "Soprano Vocals [Rossweisse]"
+                  },
+                  {
+                    "name": "Marianne Schech",
+                    "role": "Soprano Vocals [Sieglinde]"
+                  },
+                  {
+                    "name": "Ilona Steingruber",
+                    "role": "Soprano Vocals [Siegrune]"
+                  }
+                ]
+              }
+            },
+            {
+              "target": "Pt. 2: Hier Bin Ich, Vater; War Es So Schmählich (Brünhilde's Bitte)",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Georg Solti",
+                "Kirsten Flagstad",
+                "Wiener Philharmoniker",
+                "Frieda Roesler",
+                "Claire Watson",
+                "Hetty Plümacher",
+                "Anny Delorie",
+                "Otto Edelmann",
+                "Grace Hoffman",
+                "Oda Balsborg",
+                "Margarethe Bence",
+                "Marianne Schech",
+                "Ilona Steingruber"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [
+                  "B"
+                ],
+                "performers": [
+                  {
+                    "name": "Frieda Roesler",
+                    "role": "Alto Vocals [Grimgerde]"
+                  },
+                  {
+                    "name": "Claire Watson",
+                    "role": "Alto Vocals [Helmwige]"
+                  },
+                  {
+                    "name": "Hetty Plümacher",
+                    "role": "Alto Vocals [Rossweisse]"
+                  },
+                  {
+                    "name": "Anny Delorie",
+                    "role": "Alto Vocals [Siegrune]"
+                  },
+                  {
+                    "name": "Otto Edelmann",
+                    "role": "Baritone Vocals [Wotan]"
+                  },
+                  {
+                    "name": "Grace Hoffman",
+                    "role": "Soprano Vocals [Grimgerde]"
+                  },
+                  {
+                    "name": "Oda Balsborg",
+                    "role": "Soprano Vocals [Helmwige]"
+                  },
+                  {
+                    "name": "Margarethe Bence",
+                    "role": "Soprano Vocals [Rossweisse]"
+                  },
+                  {
+                    "name": "Marianne Schech",
+                    "role": "Soprano Vocals [Sieglinde]"
+                  },
+                  {
+                    "name": "Ilona Steingruber",
+                    "role": "Soprano Vocals [Siegrune]"
+                  }
+                ]
+              }
+            },
+            {
+              "target": "Pt. 3: Deinen Leichten Sinn Lass' Dich Denn Leiten; Leb' Wohl, Du Kühnes, Herrliches Kind! (Wotan's Farewell And Magic Fire Music)",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Georg Solti",
+                "Kirsten Flagstad",
+                "Wiener Philharmoniker",
+                "Frieda Roesler",
+                "Claire Watson",
+                "Hetty Plümacher",
+                "Anny Delorie",
+                "Otto Edelmann",
+                "Grace Hoffman",
+                "Oda Balsborg",
+                "Margarethe Bence",
+                "Marianne Schech",
+                "Ilona Steingruber"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [
+                  "C"
+                ],
+                "performers": [
+                  {
+                    "name": "Frieda Roesler",
+                    "role": "Alto Vocals [Grimgerde]"
+                  },
+                  {
+                    "name": "Claire Watson",
+                    "role": "Alto Vocals [Helmwige]"
+                  },
+                  {
+                    "name": "Hetty Plümacher",
+                    "role": "Alto Vocals [Rossweisse]"
+                  },
+                  {
+                    "name": "Anny Delorie",
+                    "role": "Alto Vocals [Siegrune]"
+                  },
+                  {
+                    "name": "Otto Edelmann",
+                    "role": "Baritone Vocals [Wotan]"
+                  },
+                  {
+                    "name": "Grace Hoffman",
+                    "role": "Soprano Vocals [Grimgerde]"
+                  },
+                  {
+                    "name": "Oda Balsborg",
+                    "role": "Soprano Vocals [Helmwige]"
+                  },
+                  {
+                    "name": "Margarethe Bence",
+                    "role": "Soprano Vocals [Rossweisse]"
+                  },
+                  {
+                    "name": "Marianne Schech",
+                    "role": "Soprano Vocals [Sieglinde]"
+                  },
+                  {
+                    "name": "Ilona Steingruber",
+                    "role": "Soprano Vocals [Siegrune]"
+                  }
+                ]
+              }
+            },
+            {
+              "target": "Die Walküre - Act 2",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Georg Solti",
+                "Kirsten Flagstad",
+                "Wiener Philharmoniker"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            },
+            {
+              "target": "Siegmund! Sieh' Auf Mich! (Todesverkündigung)",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Georg Solti",
+                "Kirsten Flagstad",
+                "Wiener Philharmoniker",
+                "Set Svanholm"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [
+                  "D"
+                ],
+                "performers": [
+                  {
+                    "name": "Set Svanholm",
+                    "role": "Tenor Vocals [Siegmund]"
+                  }
+                ]
+              }
+            }
+          ]
+        },
+        {
+          "album_id": "tmt68re82e6rc",
+          "title": "Wagner: Die Walküre",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Die Walküre - Act 3",
+              "work_tracks": 15,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Georg Solti",
+                "Kirsten Flagstad",
+                "Wiener Philharmoniker"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            },
+            {
+              "target": "Pt. 1: Hojothoho! Hojotojo! (Ride Of The Valkyries) - Wo Ist Brunnhild'?",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Georg Solti",
+                "Kirsten Flagstad",
+                "Wiener Philharmoniker",
+                "Frieda Roesler",
+                "Claire Watson",
+                "Hetty Plümacher",
+                "Anny Delorie",
+                "Otto Edelmann",
+                "Grace Hoffman",
+                "Oda Balsborg",
+                "Margarethe Bence",
+                "Marianne Schech",
+                "Ilona Steingruber"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [
+                  "A"
+                ],
+                "performers": [
+                  {
+                    "name": "Frieda Roesler",
+                    "role": "Alto Vocals [Grimgerde]"
+                  },
+                  {
+                    "name": "Claire Watson",
+                    "role": "Alto Vocals [Helmwige]"
+                  },
+                  {
+                    "name": "Hetty Plümacher",
+                    "role": "Alto Vocals [Rossweisse]"
+                  },
+                  {
+                    "name": "Anny Delorie",
+                    "role": "Alto Vocals [Siegrune]"
+                  },
+                  {
+                    "name": "Otto Edelmann",
+                    "role": "Baritone Vocals [Wotan]"
+                  },
+                  {
+                    "name": "Grace Hoffman",
+                    "role": "Soprano Vocals [Grimgerde]"
+                  },
+                  {
+                    "name": "Oda Balsborg",
+                    "role": "Soprano Vocals [Helmwige]"
+                  },
+                  {
+                    "name": "Margarethe Bence",
+                    "role": "Soprano Vocals [Rossweisse]"
+                  },
+                  {
+                    "name": "Marianne Schech",
+                    "role": "Soprano Vocals [Sieglinde]"
+                  },
+                  {
+                    "name": "Ilona Steingruber",
+                    "role": "Soprano Vocals [Siegrune]"
+                  }
+                ]
+              }
+            },
+            {
+              "target": "Pt. 2: Hier Bin Ich, Vater; War Es So Schmählich (Brünhilde's Bitte)",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Georg Solti",
+                "Kirsten Flagstad",
+                "Wiener Philharmoniker",
+                "Frieda Roesler",
+                "Claire Watson",
+                "Hetty Plümacher",
+                "Anny Delorie",
+                "Otto Edelmann",
+                "Grace Hoffman",
+                "Oda Balsborg",
+                "Margarethe Bence",
+                "Marianne Schech",
+                "Ilona Steingruber"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [
+                  "B"
+                ],
+                "performers": [
+                  {
+                    "name": "Frieda Roesler",
+                    "role": "Alto Vocals [Grimgerde]"
+                  },
+                  {
+                    "name": "Claire Watson",
+                    "role": "Alto Vocals [Helmwige]"
+                  },
+                  {
+                    "name": "Hetty Plümacher",
+                    "role": "Alto Vocals [Rossweisse]"
+                  },
+                  {
+                    "name": "Anny Delorie",
+                    "role": "Alto Vocals [Siegrune]"
+                  },
+                  {
+                    "name": "Otto Edelmann",
+                    "role": "Baritone Vocals [Wotan]"
+                  },
+                  {
+                    "name": "Grace Hoffman",
+                    "role": "Soprano Vocals [Grimgerde]"
+                  },
+                  {
+                    "name": "Oda Balsborg",
+                    "role": "Soprano Vocals [Helmwige]"
+                  },
+                  {
+                    "name": "Margarethe Bence",
+                    "role": "Soprano Vocals [Rossweisse]"
+                  },
+                  {
+                    "name": "Marianne Schech",
+                    "role": "Soprano Vocals [Sieglinde]"
+                  },
+                  {
+                    "name": "Ilona Steingruber",
+                    "role": "Soprano Vocals [Siegrune]"
+                  }
+                ]
+              }
+            },
+            {
+              "target": "Pt. 3: Deinen Leichten Sinn Lass' Dich Denn Leiten; Leb' Wohl, Du Kühnes, Herrliches Kind! (Wotan's Farewell And Magic Fire Music)",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Georg Solti",
+                "Kirsten Flagstad",
+                "Wiener Philharmoniker",
+                "Frieda Roesler",
+                "Claire Watson",
+                "Hetty Plümacher",
+                "Anny Delorie",
+                "Otto Edelmann",
+                "Grace Hoffman",
+                "Oda Balsborg",
+                "Margarethe Bence",
+                "Marianne Schech",
+                "Ilona Steingruber"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [
+                  "C"
+                ],
+                "performers": [
+                  {
+                    "name": "Frieda Roesler",
+                    "role": "Alto Vocals [Grimgerde]"
+                  },
+                  {
+                    "name": "Claire Watson",
+                    "role": "Alto Vocals [Helmwige]"
+                  },
+                  {
+                    "name": "Hetty Plümacher",
+                    "role": "Alto Vocals [Rossweisse]"
+                  },
+                  {
+                    "name": "Anny Delorie",
+                    "role": "Alto Vocals [Siegrune]"
+                  },
+                  {
+                    "name": "Otto Edelmann",
+                    "role": "Baritone Vocals [Wotan]"
+                  },
+                  {
+                    "name": "Grace Hoffman",
+                    "role": "Soprano Vocals [Grimgerde]"
+                  },
+                  {
+                    "name": "Oda Balsborg",
+                    "role": "Soprano Vocals [Helmwige]"
+                  },
+                  {
+                    "name": "Margarethe Bence",
+                    "role": "Soprano Vocals [Rossweisse]"
+                  },
+                  {
+                    "name": "Marianne Schech",
+                    "role": "Soprano Vocals [Sieglinde]"
+                  },
+                  {
+                    "name": "Ilona Steingruber",
+                    "role": "Soprano Vocals [Siegrune]"
+                  }
+                ]
+              }
+            },
+            {
+              "target": "Die Walküre - Act 2",
+              "work_tracks": 11,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Georg Solti",
+                "Kirsten Flagstad",
+                "Wiener Philharmoniker"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            },
+            {
+              "target": "Siegmund! Sieh' Auf Mich! (Todesverkündigung)",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Georg Solti",
+                "Kirsten Flagstad",
+                "Wiener Philharmoniker",
+                "Set Svanholm"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [
+                  "D"
+                ],
+                "performers": [
+                  {
+                    "name": "Set Svanholm",
+                    "role": "Tenor Vocals [Siegmund]"
+                  }
+                ]
+              }
+            }
+          ]
+        }
+      ]
     },
     {
       "discogs_id": "1252193",
@@ -12411,10 +14071,186 @@
     {
       "discogs_id": "2452986",
       "title": "Années De Pèlerinage - Gesamt • Complete • Integrale",
-      "category": "no_saved_hits",
-      "saved_hits": 0,
+      "category": "work_or_credit_unresolved",
+      "saved_hits": 5,
       "uncached_hits": 0,
-      "cached_candidates": []
+      "cached_candidates": [
+        {
+          "album_id": "0002894745632",
+          "title": "Liszt: Piano Concertos Nos.1 & 2 · Les Préludes S.97 · Hungarian Rhapsody No.2",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Première Année: Suisse",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Deuxième Année: Italie",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Venezia E Napoli, Supplément Aux Années De Pèlerinage - Italie",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Troisiéme Année",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ]
+        },
+        {
+          "album_id": "0002894796347",
+          "title": "Liszt: Années de pèlerinage",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Première Année: Suisse",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Deuxième Année: Italie",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Venezia E Napoli, Supplément Aux Années De Pèlerinage - Italie",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Troisiéme Année",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ]
+        },
+        {
+          "album_id": "jg525e9xo69ca",
+          "title": "Berman Plays Liszt: Années de Pelerinage Book 1: Switzerland, Concerto No. 1",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Première Année: Suisse",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Deuxième Année: Italie",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Venezia E Napoli, Supplément Aux Années De Pèlerinage - Italie",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Troisiéme Année",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ]
+        },
+        {
+          "album_id": "k17f1wwj34zxc",
+          "title": "Berman Plays Shubert Sonata, Shubert and Liszt Song Transcriptions",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Première Année: Suisse",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Deuxième Année: Italie",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Venezia E Napoli, Supplément Aux Années De Pèlerinage - Italie",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Troisiéme Année",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ]
+        },
+        {
+          "album_id": "zhd8hpjbf6rnc",
+          "title": "Liszt: 12 Études d'Exécution Transcendante by Lazar Berman",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Première Année: Suisse",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Deuxième Année: Italie",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Venezia E Napoli, Supplément Aux Années De Pèlerinage - Italie",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Troisiéme Année",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ]
+        }
+      ]
     },
     {
       "discogs_id": "2463301",
@@ -16119,9 +17955,9 @@
     {
       "discogs_id": "3094204",
       "title": "Krönungsmesse - Exsultate, Jubilate - Et Incarnatus Est",
-      "category": "no_saved_hits",
-      "saved_hits": 0,
-      "uncached_hits": 0,
+      "category": "metadata_needed",
+      "saved_hits": 5,
+      "uncached_hits": 5,
       "cached_candidates": []
     },
     {
@@ -19370,9 +21206,9 @@
     {
       "discogs_id": "3670806",
       "title": "Isaac Stern 60th Anniversary Celebration From Lincoln Center",
-      "category": "no_saved_hits",
-      "saved_hits": 0,
-      "uncached_hits": 0,
+      "category": "metadata_needed",
+      "saved_hits": 8,
+      "uncached_hits": 8,
       "cached_candidates": []
     },
     {
@@ -31531,9 +33367,9 @@
     {
       "discogs_id": "4491358",
       "title": "Klavierkonzert No. 5 = \"Emperor\" Concerto",
-      "category": "no_saved_hits",
-      "saved_hits": 0,
-      "uncached_hits": 0,
+      "category": "metadata_needed",
+      "saved_hits": 9,
+      "uncached_hits": 9,
       "cached_candidates": []
     },
     {
@@ -32982,10 +34818,202 @@
     {
       "discogs_id": "5149154",
       "title": "Missa Symbolum Nicenum Sanctus Osanna, Benedictus, Agnus Dei Et Dona Nobis Pacem (Messe In H-Moll) BWV 232",
-      "category": "no_saved_hits",
-      "saved_hits": 0,
-      "uncached_hits": 0,
-      "cached_candidates": []
+      "category": "work_or_credit_unresolved",
+      "saved_hits": 5,
+      "uncached_hits": 4,
+      "cached_candidates": [
+        {
+          "album_id": "0002894637012",
+          "title": "Bach, J.S.: Sacred Masterpieces",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Kyrie",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Coro: Kyrie Eleison",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Duetto: Christie Eleison",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Coro: Kyrie Eleison",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Gloria",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Coro: Gloria In Excelsis / Et In Terra Pax",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Aria: Laudamus Te",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Coro: Gratias Agimus Tibi",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Duetto: Domine Deus",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Coro: Qui Tollis Peccata Mundi {Timing With C1}",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Aria: Qui Sedes Ad Dextram Patris",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Aria: Quoniam Tu Solus Sanctus",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Coro: Cum Sancto Spiritu {Timing With C4}",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Symbolum Nicenum (Credo)",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Coro: Credo In Unum Deum",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Coro: Credo In Unum Deum",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Duetto: Et In Unum Dominum Jesum Christum (Variante)",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Coro: Et Incarnatus Est",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Coro: Crucifixus",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Coro: Et Resurrexit",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Aria: Et In Spiritum Sanctum Dominum",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Coro: Confiteor",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Coro: Et Expecto Resurrectionem Mortuorum {Timing With E2}",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Sanctus",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Coro: Sanctus",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Coro Doppio: Osanna In Excelsis",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Aria: Benedictus",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Agnus Dei",
+              "work_tracks": 2,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Aria: Agnus Dei",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Soprano/Alto/Tenor/Basse: Dona Nobis Pacem",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ]
+        }
+      ]
     },
     {
       "discogs_id": "5163525",
@@ -35639,9 +37667,9 @@
     {
       "discogs_id": "5916574",
       "title": "Symphony No. 5 In B-flat (Original Version Of 1875-78)",
-      "category": "no_saved_hits",
-      "saved_hits": 0,
-      "uncached_hits": 0,
+      "category": "metadata_needed",
+      "saved_hits": 9,
+      "uncached_hits": 9,
       "cached_candidates": []
     },
     {
@@ -40606,9 +42634,9 @@
     {
       "discogs_id": "6534486",
       "title": "Adam Harasiewicz Spielt Chopin",
-      "category": "no_saved_hits",
-      "saved_hits": 0,
-      "uncached_hits": 0,
+      "category": "metadata_needed",
+      "saved_hits": 7,
+      "uncached_hits": 7,
       "cached_candidates": []
     },
     {
@@ -43257,9 +45285,9 @@
     {
       "discogs_id": "7002243",
       "title": "Sinfonia N. 3 \"Eroica\", Fidelio - Klemper",
-      "category": "no_saved_hits",
-      "saved_hits": 0,
-      "uncached_hits": 0,
+      "category": "metadata_needed",
+      "saved_hits": 10,
+      "uncached_hits": 10,
       "cached_candidates": []
     },
     {
@@ -52436,10 +54464,40 @@
     {
       "discogs_id": "8176289",
       "title": "Geschwinde, Geschwinde, Ihr Wirbelnden Winde -  Kantate, BWV 201",
-      "category": "no_saved_hits",
-      "saved_hits": 0,
+      "category": "work_or_credit_unresolved",
+      "saved_hits": 1,
       "uncached_hits": 0,
-      "cached_candidates": []
+      "cached_candidates": [
+        {
+          "album_id": "3610154303352",
+          "title": "Bach: Der Streit zwischen Phoebus und Pan, BWV 201",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Dramma Per Musica · Der Streit Zwischen Phoebus Und Pan",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Nr. 1–7",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Nr. 8–15",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ]
+        }
+      ]
     },
     {
       "discogs_id": "8182960",
@@ -64777,9 +66835,9 @@
     {
       "discogs_id": "8962178",
       "title": "Romanze Senza Parole (Lieder Ohne Worte)",
-      "category": "no_saved_hits",
-      "saved_hits": 0,
-      "uncached_hits": 0,
+      "category": "metadata_needed",
+      "saved_hits": 5,
+      "uncached_hits": 5,
       "cached_candidates": []
     },
     {
@@ -66371,9 +68429,9 @@
     {
       "discogs_id": "9792325",
       "title": "Sonatas / Rondo In A Minor / Country Dances",
-      "category": "no_saved_hits",
-      "saved_hits": 0,
-      "uncached_hits": 0,
+      "category": "metadata_needed",
+      "saved_hits": 5,
+      "uncached_hits": 5,
       "cached_candidates": []
     },
     {
@@ -70639,14 +72697,6 @@
       "cached_candidates": []
     },
     {
-      "discogs_id": "10757104",
-      "title": "Sinfonia N.4 \"Italiana\", Sinfonia N.5 \"Riforma\"",
-      "category": "no_saved_hits",
-      "saved_hits": 0,
-      "uncached_hits": 0,
-      "cached_candidates": []
-    },
-    {
       "discogs_id": "10757120",
       "title": "Sinfonia N. 6 \"Pastorale\"",
       "category": "no_saved_hits",
@@ -71633,10 +73683,45 @@
     {
       "discogs_id": "11584908",
       "title": "Symphonische Dichtungen",
-      "category": "no_saved_hits",
-      "saved_hits": 0,
-      "uncached_hits": 0,
-      "cached_candidates": []
+      "category": "work_or_credit_unresolved",
+      "saved_hits": 5,
+      "uncached_hits": 3,
+      "cached_candidates": [
+        {
+          "album_id": "0002894631582",
+          "title": "Dvorak : The 9 Symphonies",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Symphonische Dichtungen",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ]
+        },
+        {
+          "album_id": "0002894783378",
+          "title": "Dvorak: Symphony No.9 \"New World\"",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Symphonische Dichtungen",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ]
+        }
+      ]
     },
     {
       "discogs_id": "11599278",
@@ -73034,9 +75119,9 @@
     {
       "discogs_id": "12329947",
       "title": "Les Quatuors Pour Piano Et Cordes",
-      "category": "no_saved_hits",
-      "saved_hits": 0,
-      "uncached_hits": 0,
+      "category": "metadata_needed",
+      "saved_hits": 5,
+      "uncached_hits": 5,
       "cached_candidates": []
     },
     {
@@ -78672,10 +80757,57 @@
     {
       "discogs_id": "13872783",
       "title": "Symphonies No.5 & No.9",
-      "category": "no_saved_hits",
-      "saved_hits": 0,
-      "uncached_hits": 0,
-      "cached_candidates": []
+      "category": "work_or_credit_unresolved",
+      "saved_hits": 10,
+      "uncached_hits": 8,
+      "cached_candidates": [
+        {
+          "album_id": "5099943329052",
+          "title": "Mahler: Symphony No. 5",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Symphonie N°5 ",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Symphonie N°9",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ]
+        },
+        {
+          "album_id": "5099991872555",
+          "title": "Mahler: Symphony No. 9",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Symphonie N°5 ",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Symphonie N°9",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ]
+        }
+      ]
     },
     {
       "discogs_id": "13927062",
@@ -83350,9 +85482,9 @@
     {
       "discogs_id": "15980846",
       "title": "Quatuor En Ré Mineur op.76 N°2 \" Les Quintes\" / Quatuor En Ré Majeur op.64 N°5 \"L'Alouette\"",
-      "category": "no_saved_hits",
-      "saved_hits": 0,
-      "uncached_hits": 0,
+      "category": "metadata_needed",
+      "saved_hits": 7,
+      "uncached_hits": 7,
       "cached_candidates": []
     },
     {
@@ -86187,10 +88319,42 @@
     {
       "discogs_id": "22065910",
       "title": "Psyché / Le Chasseur Maudit / Rédemption",
-      "category": "no_saved_hits",
-      "saved_hits": 0,
-      "uncached_hits": 0,
-      "cached_candidates": []
+      "category": "work_or_credit_unresolved",
+      "saved_hits": 6,
+      "uncached_hits": 5,
+      "cached_candidates": [
+        {
+          "album_id": "3614596892627",
+          "title": "Franck: Psyché & Morceau symphonique de Rédemption",
+          "coverage": 0.3333333333333333,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Psyché",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                30280022
+              ]
+            },
+            {
+              "target": "Le Chasseur Maudit",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Rédemption",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ]
+        }
+      ]
     },
     {
       "discogs_id": "22222342",
@@ -89012,9 +91176,9 @@
     {
       "discogs_id": "34776194",
       "title": "Au Conservatoire De Moscou - Œuvres De Chopin, Mendelssohn, Schumann, Liszt, De Falla Et Prokofiev",
-      "category": "no_saved_hits",
-      "saved_hits": 0,
-      "uncached_hits": 0,
+      "category": "metadata_needed",
+      "saved_hits": 10,
+      "uncached_hits": 10,
       "cached_candidates": []
     },
     {
@@ -89129,8 +91293,7 @@
     }
   ],
   "limitations": [
-    "Offline triage after the cached half-coverage pass, not independent recording validation or catalogue absence.",
-    "No new searches, metadata fetches, publication changes or automatic acceptance.",
+    "Offline triage after five album downloads from the twenty searches. A downloaded album is not an accepted match, and an empty query is not confirmed absence.",
     "Recorded withholds stay in the inventory as reviewed_withheld and are not open leads.",
     "Categories prioritize available cached evidence; a release may also have uncached alternatives."
   ]
