@@ -69,7 +69,8 @@ withholds, and Barenboim9866861 as the one completeness caution. The Hungarian
 Quartet 15980846 and Brendel 4395895 are Probable 85. Klien 12329947 stays
 unpublished because Brainin, Schidlof, and Lovett are not named on the file.
 A started pass commits each verified publication and continues; it does not
-search or download on its own.
+search or download on its own. Trouard 8291074 is the current stop: the 1961
+file has the fourteen waltzes, and the printed N° is only a proposed exception.
 
 Status: user-authorized [round2](../plans/2026-11-13-qobuz-round2.md) complete:
 3new bounded Probables (Klemperer,Ancerl,deVito),40slow searches for20empty

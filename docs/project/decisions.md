@@ -357,3 +357,17 @@ pass continues. The pass stops when the next step needs a new search, a new
 download, a new review kind, or a decision that is still a proposal. It does
 not push, and it does not search the releases with no saved hit or download
 the metadata-needed albums on its own.
+
+## 2026-11-13 — A printed N° may be the file’s subnumber
+
+Status: proposal. Not a match rule.
+
+CBS 51 003, Discogs 8291074, lists fourteen Chopin waltzes. Qobuz
+3610154901657 has those fourteen in that order, with Raymond Trouard on every
+track. The LP prints “Op 34 N°2”. Normalization turns that into the single
+token “ndeg2”, so the source catalogue is only Op. 34, while the file has
+Op. 34 No. 2. The bare-subnumber exception looks for a separate digit and does
+not see this one. Op. 70 No. 2 is F minor on the file and A-flat on this LP
+label. Columbia FCX 30205, Discogs 4067901, calls that same waltz F minor.
+Do not publish 8291074 until this exception is adopted. The 1961 file is not
+verified as CBS 51 003.

@@ -82,19 +82,18 @@ plans preserve dated evidence and prior handoffs.
 
 ## Validation and next action
 
-- Probable 85 also includes Brendel 4395895, all nine late Liszt pieces.
-  N° 2 of the third year is Aux cyprès No. 1. The Decca file is not Philips
-  9500 775. The Hungarian Quartet 15980846 remains Probable 85.
-- Unpublished: Klien lacks Brainin, Schidlof, and Lovett. Carnaval 13671866
-  splits the LP bands, and Prêtre is absent from the piano-only numbers.
-  François 12419718 is the 176-track Chopin box, not Columbia FCX 30120.
-  Barbirolli, Cluytens, Wand, and the Klemperer Eroica files stay unpublished.
+- Probable 85 includes Brendel 4395895 and the Hungarian Quartet 15980846.
+- Unpublished: Klien lacks Brainin, Schidlof, and Lovett. Carnaval splits
+  the LP bands. François is the Chopin box. Barenboim 3066447 is the
+  102-track cycle, not the eight-sonata box. The Karajan anthology and the
+  1962-dated nine are not the 1982 box. Berman’s files are not that coupling.
+  Furtwängler’s Entracte III is not Entr’acte No. 2 in D major.
 - Inventory of the 635 still unchecked: 305 no saved hits, 12 metadata-needed,
   310 work or credit gaps, 7 reviewed withholds, and the Barenboim caution.
   Sellheim 7421796 stays an empty query, not confirmed absence.
-- Standing pass: commit each verified publication and review the next cached
-  candidate without another prompt. Stop for a new search, download, review
-  kind, or open proposal. No push. This pass stops: Carnaval needs per-track
-  credits, and François is the Chopin box. Bitches Brew stays a proposal.
+- Standing pass stops on Trouard 8291074. The 1961 file has the fourteen
+  waltzes in CBS 51 003 order, with Trouard on every track. “N°2” is glued
+  into one token, so the file’s “No. 2” still conflicts. That exception is
+  a proposal. No push. Bitches Brew stays a proposal.
 - [Unmatched audit](../plans/2026-11-13-qobuz-unmatched-audit.md). [Bitches Brew credits](../plans/2026-11-13-bitches-brew-credits.md).
 - [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).

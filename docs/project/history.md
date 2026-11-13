@@ -1029,3 +1029,16 @@ candidate in the same turn. A failed candidate is recorded and the pass
 continues. It stops when the next step needs a new search, a new download, a
 new review kind, or a decision that is still a proposal. No push. The current
 cached band is already judged, so this pass stops there.
+
+## 2026-11-13 — The next cached albums stay unpublished
+
+No new search or download. Barenboim 3066447 is the 102-track DG sonata cycle,
+not the eight-sonata box. Karajan 7860979’s 1970s anthology is not the 1982
+nine, and the 35-track file names the symphonies in the work field under a
+1962 date. Berman 15263974’s cached files are the Années, the concertos, or
+the etudes, not the sonata coupling. Furtwängler 3737065’s file says Entracte
+III and Ballet II, not Entr’acte No. 2 in D major and Ballet No. 2 in G major.
+Trouard 8291074 is the stop: Qobuz 3610154901657 has the fourteen waltzes in
+the CBS 51 003 order, with Trouard on every track, but “N°2” does not count as
+the file’s “No. 2”. That exception stays a proposal. Op. 70 No. 2 is F minor
+on the file and A-flat on the CBS label. Copies unchanged, 12/93/636.
