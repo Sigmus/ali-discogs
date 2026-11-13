@@ -1,0 +1,26 @@
+{
+  "schema_version": 1,
+  "entries": [
+    {
+      "discogs_id": "2996680",
+      "album_id": "0002894497722",
+      "reason": "Exact Tristan title and Bayreuth ensemble; verify1966cast/session."
+    },
+    {
+      "discogs_id": "4365080",
+      "album_id": "5099909655058",
+      "reason": "Tannhauser title and named target cast; verify full programme and Dresden version."
+    },
+    {
+      "discogs_id": "8970069",
+      "album_id": "a5x02z4qm3ana",
+      "reason": "Exact Alexander Nevsky work and Previn lead; verify choir/soloist and complete movements."
+    },
+    {
+      "discogs_id": "10738828",
+      "album_id": "0002894390212",
+      "reason": "Both advertised target works, Karajan/Berlin pairing; verify recording family."
+    }
+  ],
+  "policy": "Four fixed leads selected from saved hits; paced metadata only, no automatic acceptance."
+}

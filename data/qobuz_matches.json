@@ -11,7 +11,9 @@
   "work_inventory_fingerprint": "ac5b17039789d5e994c13492246e74dd62bd8194dd089f579668d98e82dfe3f9",
   "lead_review_fingerprint": "bc731b95eadb23cb1a13d735a4e7410615ae06f260b2c4a381ed4a29e229265e",
   "comparison_evidence_fingerprint": "c38df992ab44bbc892ffacafa19d74cc1495d7579d3d6da670653204dca25e57",
-  "album_urls_fingerprint": "1f1ab45fbbdf82cfe674165cd4a4a3b860a981229943b7d98b14846510a8e427",
+  "album_urls_fingerprint": "f7a6ad4aa323b46f8b3876ab558b41f2748e9b81b2b9d9c8a05fe020b600d8d7",
+  "unmatched_review_fingerprint": "21d025cd3fb58ad2087d5f859097c6c56d5ce4d79eabf61be52e3930ce1ebc30",
+  "unmatched_metadata_fingerprint": "b9ee630308545a56700f5322dea82ebad2621bc20c5e76f7b8743aaa94ba3c9e",
   "trial_review_fingerprint": "29b152d71ab83c8be83049c16bdc43fd84fa485eefeca6bba69012aa90e3de07",
   "trial_metadata_fingerprint": "6bf5d6039af872d3362c56899455b470ad6cb4cb9dee2e4cdb8f7caeb9df7123",
   "schnabel_late_review_fingerprint": "e4f18bf648db61617d8fd3a4b2979fd23356050be95d618816e5e403fba41840",
@@ -62555,14 +62557,147 @@
       ]
     },
     "10738828": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0002894390212",
+        "name": "Tchaikovsky: Romeo and Juliet (Fantasy Overture After Shakespeare); The Nutcracker, Op. 71a (Suite From The Ballet Op. 71)",
+        "artists": [
+          "Berliner Philharmoniker"
+        ],
+        "label": "Deutsche Grammophon (DG)",
+        "release_date": "1983-01-01",
+        "image": "https://static.qobuz.com/images/covers/12/02/0002894390212_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/tchaikovsky-romeo-and-juliet-fantasy-overture-after-shakespeare-the-nutcracker-op-71a-suite-from-the-ballet-op-71-berliner-philharmoniker-herbert-von-karajan/0002894390212"
+      },
+      "candidates": [
+        {
+          "id": "0002894390212",
+          "name": "Tchaikovsky: Romeo and Juliet (Fantasy Overture After Shakespeare); The Nutcracker, Op. 71a (Suite From The Ballet Op. 71)",
+          "artists": [
+            "Berliner Philharmoniker"
+          ],
+          "label": "Deutsche Grammophon (DG)",
+          "release_date": "1983-01-01",
+          "image": "https://static.qobuz.com/images/covers/12/02/0002894390212_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/tchaikovsky-romeo-and-juliet-fantasy-overture-after-shakespeare-the-nutcracker-op-71a-suite-from-the-ballet-op-71-berliner-philharmoniker-herbert-von-karajan/0002894390212",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 2,
+          "target_count": 2,
+          "required_performers": [
+            "Herbert von Karajan",
+            "Berliner Philharmoniker"
+          ],
+          "programme": [
+            {
+              "target": "Romeo Und Julia",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                532928
+              ]
+            },
+            {
+              "target": "Der Nußknacker Op. 71a. Suite Aus Dem Ballett Op. 71",
+              "work_tracks": 8,
+              "credited_tracks": 8,
+              "track_ids": [
+                532929,
+                532930,
+                532931,
+                532932,
+                532933,
+                532934,
+                532935,
+                532936
+              ]
+            }
+          ],
+          "reasons": [
+            "Each target item has supporting work and performer credits.",
+            "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+            "DG identifies this catalogue as Karajan/Berlin Romeo and Juliet plus NutcrackerSuite. Cached target1983 DG2532096/2561408 and candidate1983 reissue support the recording family; both named works and all eight suite sections carry the required orchestra/conductor.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Catalogue/programme and1983 provenance support recording family, not independent take or identical mastering verification.",
+            "LP/digital section timings differ; no timing identity guarantee is claimed."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Romeo Und Julia",
+                "status": "complete",
+                "expected_movements": [
+                  1
+                ],
+                "observed_movements": [
+                  1
+                ],
+                "track_ids": [
+                  532928
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "Cached source heading/position hierarchy and exact credited candidate sections",
+                "reason": "Romeo overture and eight suite sections separately supported; every source label belongs to one reviewed work."
+              },
+              {
+                "target": "Der Nußknacker Op. 71a. Suite Aus Dem Ballett Op. 71",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8
+                ],
+                "track_ids": [
+                  532929,
+                  532930,
+                  532931,
+                  532932,
+                  532933,
+                  532934,
+                  532935,
+                  532936
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "Cached source heading/position hierarchy and exact credited candidate sections",
+                "reason": "Romeo overture and eight suite sections separately supported; every source label belongs to one reviewed work."
+              }
+            ],
+            "overlapping_target_tracks": false
+          },
+          "recording_review": "DG identifies this catalogue as Karajan/Berlin Romeo and Juliet plus NutcrackerSuite. Cached target1983 DG2532096/2561408 and candidate1983 reissue support the recording family; both named works and all eight suite sections carry the required orchestra/conductor.",
+          "review_sources": [
+            "https://www.deutschegrammophon.com/en/catalogue/products/tchaikovsky-romeo-und-julia-karajan-3321"
+          ]
+        }
+      ],
       "query": "herbert von karajan tchaikovsky romeo und julia nussknacker suite 144 p photo book",
       "searched_at": "2026-11-12T15:56:51.849006+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Each target item has supporting work and performer credits.",
+        "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+        "DG identifies this catalogue as Karajan/Berlin Romeo and Juliet plus NutcrackerSuite. Cached target1983 DG2532096/2561408 and candidate1983 reissue support the recording family; both named works and all eight suite sections carry the required orchestra/conductor.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Catalogue/programme and1983 provenance support recording family, not independent take or identical mastering verification.",
+        "LP/digital section timings differ; no timing identity guarantee is claimed."
       ]
     },
     "2452986": {

@@ -1,0 +1,391 @@
+{
+  "schema_version": 1,
+  "metadata_sha256": "b9ee630308545a56700f5322dea82ebad2621bc20c5e76f7b8743aaa94ba3c9e",
+  "entries": [
+    {
+      "discogs_id": "2996680",
+      "album_id": "0002894497722",
+      "title": "Wagner : Tristan und Isolde",
+      "tracks": 29,
+      "assessment": {
+        "status": "unchecked",
+        "confidence": null,
+        "coverage": 0.0,
+        "covered": 0,
+        "target_count": 1,
+        "required_performers": [
+          "Karl Böhm",
+          "Chor Der Bayreuther Festspiele",
+          "Wilhelm Pitz",
+          "Orchester Der Bayreuther Festspiele",
+          "Christa Ludwig",
+          "Erwin Wohlfahrt",
+          "Peter Schreier",
+          "Gerd Nienstedt",
+          "Birgit Nilsson",
+          "Eberhard Wächter",
+          "Martti Talvela",
+          "Claude Heater",
+          "Wolfgang Windgassen"
+        ],
+        "programme": [
+          {
+            "target": "Tristan Und Isolde",
+            "work_tracks": 23,
+            "credited_tracks": 0,
+            "track_ids": []
+          }
+        ],
+        "reasons": [
+          "0/1 target items supported after composer/work grouping; unresolved."
+        ]
+      },
+      "completeness": {
+        "status": "unknown",
+        "works": [
+          {
+            "target": "Tristan Und Isolde",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "finding": "Opera title/track context and multilingual ensemble/individual cast requirements unresolved; not a confirmed missing or wrong recording."
+    },
+    {
+      "discogs_id": "4365080",
+      "album_id": "5099909655058",
+      "title": "Wagner: Tannhäuser",
+      "tracks": 27,
+      "assessment": {
+        "status": "unchecked",
+        "confidence": null,
+        "coverage": 0.0,
+        "covered": 0,
+        "target_count": 1,
+        "required_performers": [
+          "Franz Konwitschny",
+          "Elisabeth Grümmer",
+          "Hans Hopf",
+          "Dietrich Fischer-Dieskau",
+          "Gottlob Frick",
+          "Chor Der Staatsoper Berlin",
+          "Das Orchester Der Staatsoper Berlin",
+          "Karl Schmidt (2)",
+          "Lisa Otto",
+          "Marianne Schech",
+          "Gerhard Unger",
+          "Fritz Wunderlich"
+        ],
+        "programme": [
+          {
+            "target": "Tannhäuser Und Der Sängerkrieg Auf Wartburg (Gesamtaufnahme Der Dresdener Fassung)",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          }
+        ],
+        "reasons": [
+          "0/1 target items supported after composer/work grouping; unresolved."
+        ]
+      },
+      "completeness": {
+        "status": "unknown",
+        "works": [
+          {
+            "target": "Tannhäuser Und Der Sängerkrieg Auf Wartburg (Gesamtaufnahme Der Dresdener Fassung)",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "finding": "Dresden-version title and cast support need bounded review; target names include Karl Schmidt while candidate includes Reiner Suss/Rudolf Gonszar. Do not infer cast identity from title."
+    },
+    {
+      "discogs_id": "8970069",
+      "album_id": "a5x02z4qm3ana",
+      "title": "Prokofiev: Alexander Nevsky, Op. 78 & Lieutenant Kijé Suite, Op. 60",
+      "tracks": 12,
+      "assessment": {
+        "status": "unchecked",
+        "confidence": null,
+        "coverage": 0.0,
+        "covered": 0,
+        "target_count": 7,
+        "required_performers": [
+          "André Previn",
+          "London Symphony Orchestra",
+          "London Symphony Chorus",
+          "Anna Reynolds",
+          "Arthur Oldham"
+        ],
+        "programme": [
+          {
+            "target": "La Russie Sous Le Joug Mongol (Molto Andante)",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Chant Sur Alexandre Nevsky (Lento)",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Les Combattants Dans Pskov (Largo - Andante - Largo)",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Aux Armes, Peuple Russe (Allegro Risoluto)",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "La Bataille Sur la Glace (Adagio - Allegro Moderato - Allegro - Andante - Allegro - Adagio - Allegretto)",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Le Champ Des Morts (Adagio - Più Animato - Adagio)",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Entrée D'Alexandre à Pskov (Moderato - Allegro - Moderato)",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          }
+        ],
+        "reasons": [
+          "0/7 target items supported after composer/work grouping; unresolved."
+        ]
+      },
+      "completeness": {
+        "status": "unknown",
+        "works": [
+          {
+            "target": "La Russie Sous Le Joug Mongol (Molto Andante)",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Chant Sur Alexandre Nevsky (Lento)",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Les Combattants Dans Pskov (Largo - Andante - Largo)",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Aux Armes, Peuple Russe (Allegro Risoluto)",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "La Bataille Sur la Glace (Adagio - Allegro Moderato - Allegro - Andante - Allegro - Adagio - Allegretto)",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Le Champ Des Morts (Adagio - Più Animato - Adagio)",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Entrée D'Alexandre à Pskov (Moderato - Allegro - Moderato)",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "finding": "Wrong orchestra: target London Symphony Orchestra, candidate Los Angeles Philharmonic. Exclude this candidate from promotion; same conductor/work is insufficient."
+    },
+    {
+      "discogs_id": "10738828",
+      "album_id": "0002894390212",
+      "title": "Tchaikovsky: Romeo and Juliet (Fantasy Overture After Shakespeare); The Nutcracker, Op. 71a (Suite From The Ballet Op. 71)",
+      "tracks": 9,
+      "assessment": {
+        "status": "unchecked",
+        "confidence": null,
+        "coverage": 0.07692307692307693,
+        "covered": 1,
+        "target_count": 13,
+        "required_performers": [
+          "Herbert von Karajan",
+          "Berliner Philharmoniker"
+        ],
+        "programme": [
+          {
+            "target": "Romeo Und Julia",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Der Nußknacker Op. 71a. Suite Aus Dem Ballett Op. 71",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "I. Ouverture Miniature",
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              532929
+            ]
+          },
+          {
+            "target": "Allegro Guisto",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "II. Danses Caracteristiques",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Marche. Tempo Di Marcia Viva",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Danse De La Fee Dragee. Andante Non Troppo",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Danse Russe Trepak. Tempo Di Trepak",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Danse Arabe. Allegretto",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Danse Chinoise. Allegro Moderato",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Danse Des Mirlitons. Moderato Assai",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "III. Valse Des Fleurs",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Tempo Di Valse",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          }
+        ],
+        "reasons": [
+          "1/13 target items supported after composer/work grouping; unresolved."
+        ]
+      },
+      "completeness": {
+        "status": "unknown",
+        "works": [
+          {
+            "target": "Romeo Und Julia",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Der Nußknacker Op. 71a. Suite Aus Dem Ballett Op. 71",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "I. Ouverture Miniature",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Allegro Guisto",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "II. Danses Caracteristiques",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Marche. Tempo Di Marcia Viva",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Danse De La Fee Dragee. Andante Non Troppo",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Danse Russe Trepak. Tempo Di Trepak",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Danse Arabe. Allegretto",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Danse Chinoise. Allegro Moderato",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Danse Des Mirlitons. Moderato Assai",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "III. Valse Des Fleurs",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Tempo Di Valse",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "finding": "Source hierarchy produces13units from two works; Nutcracker heading carries Op71a/Op71 and movement-group headings. Needs bounded target-unit interpretation, not invented extra works."
+    }
+  ],
+  "policy": "Offline evidence only. Full recording/version review required before publication; no automatic promotion."
+}

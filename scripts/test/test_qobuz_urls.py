@@ -18,6 +18,13 @@ class CanonicalQobuzURLTests(unittest.TestCase):
         self.assertIn('/fr-fr/album/dvorak-complete-symphonies-', url)
         self.assertTrue(url.endswith('/'+aid))
 
+    def test_tristan_saved_route_overrides_plausible_but_guessed_slug(self):
+        aid='0002894497722'
+        guessed='https://www.qobuz.com/nl-en/album/wagner-tristan-und-isolde/'+aid
+        expected=load_urls()[aid]
+        self.assertIn('orchester-der-bayreuther-festspiele-karl-bohm', expected)
+        self.assertEqual(album_url({'id':aid,'url':guessed}),expected)
+
     def test_untrusted_or_missing_url_never_creates_bare_album_route(self):
         good='https://www.qobuz.com/nl-en/album/real-slug/abc123'
         self.assertEqual(album_url({'id':'abc123','url':good}, {}), good)

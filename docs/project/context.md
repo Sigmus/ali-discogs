@@ -8,13 +8,16 @@ plans preserve dated evidence and prior handoffs.
 
 ## Current state
 
-- Active branch `codex/qobuz-coverage-round2`, based on deployed main1735ab7.
-  User authorized cached near-match validation, then a slow20-release fallback
-  batch. Round2 committed877bc5a; follow-up validated; user requested commit/push of this branch.
+- Major limitation: Spotify legacy album-level labels and stricter Qobuz reviews
+  are not comparable coverage counts; [Tristan evidence](../plans/2026-11-13-cross-service-validation-gap.md).
+
+- Active branch `codex/qobuz-unmatched-audit`, based on deployed main8afd7dd.
+  PR3 deployed; unmatched audit/Karajan follow-up complete. User requested
+  commit, merge to main and push; no active enrichment worker.
 - Current collection:741 copies /740 unique releases. Spotify254Found /273Probable
   /210NotFound /4Unchecked copies. Retained labels are not independent full
   recording confirmations. Qobuz figures below are independent enrichment.
-- Qobuz overlay: 12 Found / 73 Probable / 656 unchecked copies; unique12/73/655 locally.
+- Qobuz overlay: 12 Found / 74 Probable / 655 unchecked copies; unique12/74/654 locally.
   Separate `data/qobuz_matches.json` survives Spotify rescoring; original pipeline
   Qobuz fields stay unchecked. Empty/inconclusive queries are not confirmed absence.
 - Sonoteque table/details, 80% main width, column sorting (Year ascending default),
@@ -79,12 +82,12 @@ plans preserve dated evidence and prior handoffs.
 
 ## Validation and next action
 
-- Current follow-up checks:9pipeline/guard +80script tests, offline audit/replay,
+- Current follow-up checks:9pipeline/guard +81script tests, offline audit/replay,
   canonical URLs, UI/JS/build pass. Prior fresh-checkout validation remains recorded.
   Credential scan/whitelist/build-boundary checks pass; browser UI verified.
-- Deployed main1735ab7 remains12/67/662Qobuz copies; round2 committed877bc5a.
+- Deployed main8afd7dd has12/73/656Qobuz copies; PR3 merged.
   Authorized follow-up: cached Richter review passes with publisher-supported
-  corrections; ten-release paired query trial complete. Branch commit/push authorized; no merge/deploy requested.
+  corrections; ten-release paired query trial complete and deployed.
 - Round2 complete: Klemperer Missa, Ancerl Requiem and deVito/Fischer Sonatas1/3
   now Probable85 with bounded evidence/source-title review. Search40queries:
   18/20releases have hits,107pairs;2selected albums15tracks fetched without warnings.
@@ -95,7 +98,18 @@ plans preserve dated evidence and prior handoffs.
   Klemperer1957 recording/programme review now Probable; Dvorak unresolved.
   Cumulative review passes; only3follow-up matches change since877bc5a.
   Next: inspect branch CI after push; no further API calls needed.
+- Unmatched audit655unique:324nohits/10metadata-needed/320work-credit/1completeness.
+- [Unmatched audit](../plans/2026-11-13-qobuz-unmatched-audit.md).
 - [Current query trial](../plans/2026-11-13-qobuz-query-strategy-trial.md).
 - [Active round2 scope and findings](../plans/2026-11-13-qobuz-round2.md).
 - [Follow-up findings and readiness](../plans/2026-11-13-spotify-followup-readiness.md).
 - [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).
+
+- Latest batch:4albums77tracks cached without warnings. Nevsky wrong orchestra;
+  opera cast/context and Karajan hierarchy unresolved. Accepted matches unchanged.
+
+- Chat Tristan404 fixed: guessed slug replaced with browser-verified canonical
+  route. Resolver prefers index; AGENTS mandates exact lookup for shared links.
+
+- Follow-up checkpoint: Karajan Probable, opera cast audit, canonical-link guard
+  and cross-service validation gap documented. Resume from unmatched audit plan.

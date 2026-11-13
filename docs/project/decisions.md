@@ -195,3 +195,15 @@ matches. Multi-composer mapping remains outside this trial. Preserve old query
 manifests. Richter's source catalogue/key corrections are supported by Warner's
 publisher documentation and hash-bound to one target/candidate pair; preserve
 original work-credit lookup and require all3+5 movements. Cap at Probable85.
+
+## 2026-11-13 — Cross-service validation standards must be disclosed
+
+Status: documented limitation; shared replacement status model remains proposed.
+
+Retained legacy Spotify album-level labels and stricter reviewed Qobuz labels
+are not directly comparable coverage or accuracy measurements. Do not explain
+count differences as catalogue/search superiority alone. Tristan2996680 shows a
+Spotify Probable without full-edition confirmation while Qobuz remains unchecked;
+raw target includes rehearsal material. Distinguish actual matcher blockers,
+review observations and unverified Spotify track coverage. See
+[validation gap](../plans/2026-11-13-cross-service-validation-gap.md).

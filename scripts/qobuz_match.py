@@ -267,6 +267,21 @@ def generate():
         if review['discogs_id'] in round2_reviews:
             raise ValueError('Duplicate trial review')
         round2_reviews[review['discogs_id']] = review
+    unmatched_review_path = ROOT/'data/qobuz_unmatched_recording_reviews.json'
+    unmatched_metadata_path = ROOT/'data/qobuz_unmatched_metadata.json.gz'
+    unmatched_reviews = json.loads(unmatched_review_path.read_text())
+    unmatched_metadata = json.loads(gzip.decompress(unmatched_metadata_path.read_bytes()))
+    if unmatched_reviews['schema_version'] != 1 or unmatched_metadata['schema_version'] != 1:
+        raise ValueError('Unsupported unmatched evidence')
+    for record in unmatched_metadata['metadata']:
+        album = record['album']; tracks = album['tracks']['items']
+        if str(album['id']) != record['task']['album_id'] or len(tracks) != album['tracks_count'] or len({t['id'] for t in tracks}) != len(tracks):
+            raise ValueError('Incomplete unmatched metadata')
+        round2_albums[str(album['id'])] = album
+    for review in unmatched_reviews['releases']:
+        if review['discogs_id'] in round2_reviews:
+            raise ValueError('Duplicate unmatched review')
+        round2_reviews[review['discogs_id']] = review
     results = {}
     for entry in manifest['entries']:
         rid = entry['discogs_id']
@@ -312,6 +327,8 @@ def generate():
               'lead_review_fingerprint': hashlib.sha256(REVIEW.read_bytes()).hexdigest(),
               'comparison_evidence_fingerprint': hashlib.sha256(ARCHIVE.read_bytes()).hexdigest(),
               'album_urls_fingerprint': hashlib.sha256(URL_INDEX.read_bytes()).hexdigest(),
+              'unmatched_review_fingerprint': hashlib.sha256(unmatched_review_path.read_bytes()).hexdigest(),
+              'unmatched_metadata_fingerprint': hashlib.sha256(unmatched_metadata_path.read_bytes()).hexdigest(),
               'trial_review_fingerprint': hashlib.sha256(trial_review_path.read_bytes()).hexdigest(),
               'trial_metadata_fingerprint': hashlib.sha256(trial_metadata_path.read_bytes()).hexdigest(),
               'schnabel_late_review_fingerprint': hashlib.sha256(schnabel_path.read_bytes()).hexdigest(),
