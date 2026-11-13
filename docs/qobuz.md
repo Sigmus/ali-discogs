@@ -1,9 +1,9 @@
 # Qobuz catalogue enrichment: setup and resume
 
-Status: working read-only catalogue PoC on `codex/qobuz-poc`. It retrieves
-candidate metadata; it does not automatically accept matches, update collection
-JSON, download audio or publish to GitHub Pages. Six-release findings are in
-[the sample report](plans/2026-11-12-qobuz-sample.md).
+Status: metadata retrieval complete and conservative offline matcher v1 prepared
+on `codex/qobuz-poc`. UI builds use versioned sanitized `data/qobuz_matches.json`;
+raw responses and credentials stay local. No audio or automatic deployment.
+See the [audit](plans/2026-11-13-qobuz-audit.md) for rules and limitations.
 
 ## One-time setup
 
@@ -87,17 +87,25 @@ access/rate limits before retrying. If app-ID discovery breaks after a web-playe
 change, inspect upstream and intentionally update the pinned revision in
 `scripts/qobuz_catalog.py`; do not silently use arbitrary newer code.
 
-## Continue toward a production matcher
+## Generate and preserve matching results
 
-1. Normalize Qobuz album/work/track metadata, including role-labelled credits,
-   orchestra aliases, catalogue IDs, ISRC, label and availability.
-2. Compare programme coverage and recording identity. Distinguish exact programmes
-   from recordings contained in larger compilations; verify ambiguous takes.
-3. Produce review candidates and retain manual decisions separately so later
-   enrichment/rescoring cannot overwrite them. Access errors remain unchecked.
-4. Only then design an explicit merge into collection JSON. The existing Spotify
-   pipeline currently rewrites Qobuz entries as unchecked: do not insert accepted
-   results there until preservation/override precedence is implemented.
+Run `uv run python scripts/qobuz_match.py` entirely offline using the portable
+evidence snapshot included in the repository. It writes atomic `data/qobuz_matches.json`, with schema/matcher versions,
+metadata completion date and source manifest/collection fingerprints. The source
+checkout/token is not used by matching or `make build`.
+
+The explorer overlays this separate file on collection rows by Discogs release
+ID; duplicate copies share evidence. Spotify rescoring cannot overwrite it.
+`summary.json` continues to describe the original pipeline output, not the overlay.
+Never edit generated match data expecting edits to survive regeneration. Future
+reviewed overrides must use a separate keyed file, take precedence over generated
+results and be validated; no manual overrides have been accepted in v1.
+
+Found (95%) and Probable (85%) are two heuristic evidence levels, not statistical
+probabilities. Found requires one-to-one programme/track mapping with required
+credits and equal track counts. Probable retains grouped/superset candidates for
+review. Unsupported catalogue aliases/performer names and empty queries remain
+unchecked. See the audit for false-negative limitations and remaining work.
 
 No download functionality is part of this PoC. `scripts/qobuz_poc.py` remains the
 older taschenb/python-qobuz comparison probe; it needs an independently issued
@@ -158,3 +166,67 @@ all albums were found. The runner writes no production data. Inspect progress
 and the process before starting another run; the launcher PID and actual worker
 PID differ. Eight mocked tests cover caching/errors plus pacing, stop markers
 and duplicate handling.
+
+## Review in the local explorer
+
+Run `make serve` and open localhost:8000. The Qobuz column sorts by status and
+confidence; table and detail use the same score/status format as Spotify. Details
+show candidate artwork, metadata, explanations and expandable programme evidence.
+Build copies the versioned publication file directly, so it works without local
+caches and without Qobuz requests. No auth token is needed to browse results.
+
+## Full candidate metadata retrieval
+
+`uv run scripts/qobuz_metadata_poc.py` retrieves each unique saved search candidate
+once, reusing album/get cache entries. Progress, manifest and per-album records
+live in `.qobuz-poc/metadata/`. Inspect progress.json/run.log; pause by creating
+STOP in that directory. Never resume a warning/error without user direction.
+No new searches, scores, production writes or audio requests. See the
+[ordered preparation plan](plans/2026-11-12-qobuz-deployment.md).
+
+Large albums are assembled from cached album/get pages (offset/limit), with
+strict total/offset and unique track checks. Requests remain >=15 seconds apart;
+rest 120 seconds per 50 HTTP requests including pagination. Partial page caches
+are preserved, and any API or pagination inconsistency pauses for user direction.
+
+## Portable evidence for collaborators
+
+`data/qobuz_evidence.json.gz` is a deterministic, gzip-compressed JSON snapshot
+(schema 1). It preserves all 740 release searches (including empty responses),
+search and metadata manifests, all 1,036 complete albums / 27,770 track entries,
+work/catalogue titles, role-labelled credits, composer/artist identities, ISRC,
+UPC, durations, track/disc numbers, relevant release metadata, source revision
+and completion date. It is about 1.8 MB compressed. Catalogue availability flags
+are dated observations from the fetching account/territory, not universal access.
+
+Ali can clone/checkout this branch, run `uv sync`, then:
+
+```sh
+uv run python scripts/qobuz_match.py  # offline; uses the committed snapshot
+make serve                          # browse http://127.0.0.1:8000/
+```
+
+Initial dependency installation may need internet; matching itself does not.
+No `.env`, Qobuz account or upstream source checkout is required for offline work.
+The snapshot is not copied into the Pages artifact; only sanitized UI results are.
+
+Inspect it without extracting thousands of files:
+
+```sh
+python3 - <<'PYTHON'
+import gzip, json
+with gzip.open('data/qobuz_evidence.json.gz', 'rt') as f:
+    evidence = json.load(f)
+print(evidence['albums']['0886445075762']['tracks']['items'][0])
+PYTHON
+```
+
+For future authorized collection: preserve the local caches, run the resumable
+fetchers as documented, then `python3 scripts/qobuz_snapshot.py` to export a new
+whitelisted snapshot after metadata completion. Rerun the matcher, review the
+diff/audit and commit snapshot plus generated results together. Export is atomic
+and excludes unknown fields. Gzip timestamps are fixed for reproducible exports.
+
+Local `.qobuz-poc/` still contains raw response duplicates, progress/logs, locks,
+STOP markers and third-party source; it remains ignored. Credentials stay in
+ignored `.env`. Re-fetch only new queries/albums or explicitly stale data.

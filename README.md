@@ -102,14 +102,14 @@ The package layout:
 
 ## Explorer
 
-`explorer/index.html`, `app.js`, and `style.css` are the page. Paths are relative (`style.css`, `app.js`, `data/collection_matches.json`), so the same files work at the site root and under the `/ali-discogs/` prefix GitHub Pages uses for this repo. The UI uses a compact Sonoteque-style album table with Spotify status/confidence,
+`explorer/index.html`, `app.js`, and `style.css` are the page. Paths are relative (`style.css`, `app.js`, `data/collection_matches.json`), so the same files work at the site root and under the `/ali-discogs/` prefix GitHub Pages uses for this repo. The UI uses a compact Sonoteque-style album table with Spotify and Qobuz status/confidence,
 search, composer, label, genre/style, decade and sorting controls. Album links open
-dedicated details with the full track list, Spotify match and alternate candidates,
+dedicated details with the full track list, service matches, evidence and alternate candidates,
 and Discogs/Qobuz links. Filters survive navigation to details and back.
 
 `?data=fixture` loads eight invented rows from `explorer/data/fixture.json`.
 
-`make build` writes `dist/` with the page, the fixture, `collection_matches.json`, and `summary.json`. `make serve` builds and serves that directory. The loader test is `node explorer/test/normalize.test.js`.
+`make build` writes `dist/` with the page, the fixture, `collection_matches.json`, `summary.json`, and the separate `qobuz_matches.json` overlay. `make serve` builds and serves that directory. The loader test is `node explorer/test/normalize.test.js`.
 
 ## GitHub Pages
 
@@ -118,3 +118,15 @@ and Discogs/Qobuz links. Filters survive navigation to details and back.
 <https://sigmus.github.io/ali-discogs/>
 
 The workflow can only publish once the repository’s Pages source is **GitHub Actions**. If that is not set yet: **Settings → Pages → Build and deployment → Source → GitHub Actions**. Nothing else (no branch, no custom domain) is required. The test workflow (`.github/workflows/test.yml`) reruns the offline matcher on pull requests and checks that the counts stay 255 / 276 / 210.
+
+Qobuz scores are conservative programme/performer evidence levels, with unresolved
+cases left unchecked. The checked-in sanitized overlay survives Spotify rescoring;
+`make build` needs no local Qobuz cache, credentials or network access. To regenerate
+from completed local evidence, run `uv run python scripts/qobuz_match.py`.
+See [Qobuz setup and resume](docs/qobuz.md) and the
+[matching audit](docs/plans/2026-11-13-qobuz-audit.md) before interpreting scores.
+
+Portable Qobuz evidence is included in `data/qobuz_evidence.json.gz` (about 1.8 MB).
+After checkout, run `uv sync` and `uv run python scripts/qobuz_match.py` to regenerate
+matches offline: no token, local `.qobuz-poc/` folder or upstream checkout required.
+To inspect it, use Python's `gzip`/`json` modules; see [Qobuz docs](docs/qobuz.md).

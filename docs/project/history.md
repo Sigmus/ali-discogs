@@ -243,3 +243,112 @@ User requested commit/push of current work on codex/qobuz-poc: frequency-order
 toggle, resumable slow full-collection runner, pacing/stop tests and updated docs.
 Credentials, upstream checkout and candidate caches stay ignored. No main merge
 or Pages publication is part of this push; active search is not restarted.
+
+## 2026-11-12 — Full Qobuz search completed (AD-007)
+
+- Finished at 18:46:59 Europe/Amsterdam after about 3h24m; final worker status
+  complete, with no reported API/network errors.
+- Independently verified saved responses for all 740 manifest releases covering
+  741 copies: 370 with candidates, 370 with zero results, 1,217 candidate entries.
+- All results remain unreviewed in ignored local caches. Empty first-pass queries
+  do not establish catalogue absence; no production data or match statuses changed.
+- Completed hourly monitoring and removed its heartbeat. Next proposed work is
+  AD-006 candidate normalization/review, coordinated with AD-004 persistence.
+
+## 2026-11-12 — Connect cached Qobuz evidence to local explorer
+
+- Added a sortable Qobuz candidate-count column and detail candidate list with
+  artwork, metadata, query/date and album links, with explicit unreviewed wording.
+- Build exports only selected catalogue fields from ignored cached responses;
+  collection match JSON and credentials remain unchanged. No new API requests.
+- Verified 740 exported releases, 1,217 candidates and 370 empty searches;
+  browser verified 741 table rows and a five-candidate detail view. JS syntax,
+  existing normalization tests, static build and diff checks pass.
+- Cache is local: clean remote builds show Not searched. Publishing review data
+  remains a separate decision. No commit or push requested for this change.
+
+## 2026-11-12 — Small Qobuz validation pass
+
+- User authorized starting small. Fetched four existing search candidates with
+  >=15-second spacing and shared cache reuse; no repeated searches or warnings.
+  All four full track lists match advertised counts (8/10/20/50).
+- Reviewed programme and track credits plus two cached controls: three strong
+  programme candidates, two candidate rejections, one unresolved L./K. numbering
+  case. Detailed evidence in plans/2026-11-12-qobuz-validation.md.
+- No fabricated confidence percentages, accepted matches or production writes.
+  Retrieval script is bounded/resumable and stops on its first catalogue error.
+
+## 2026-11-12 — Begin full Qobuz metadata retrieval
+
+- User approved the ordered validation/deployment-preparation plan. Started
+  detached caffeinate metadata worker for 1,036 deduplicated candidate albums;
+  23 cached / 1,013 missing at launch. No repeated searches.
+- Added fingerprinted manifest, exclusive lock, atomic checkpoints, complete-track
+  validation, 15-second pacing, 120-second rests per 50 fetches and error STOP.
+- Ten Qobuz tests pass, including candidate deduplication and incomplete metadata
+  rejection. Hourly progress/ETA automation qobuz-metadata-progress enabled.
+- Recorded matching/audit and clean-checkout publication readiness criteria in
+  plans/2026-11-12-qobuz-deployment.md. Initial retrieval estimate 5–6 hours;
+  no production statuses, commits, remote changes or deployment performed.
+
+## 2026-11-12 — Metadata retrieval paused for incomplete large album
+
+- Worker stopped at 20:29 Europe/Amsterdam after 131/1,036 albums (127 fetched,
+  four reused). STOP confirmed at hourly check; no retry or resume performed.
+- Offline inspection of cached album 0002894778167, “111 Years of Deutsche
+  Grammophon”: returned ID agrees, advertised/total 730 tracks, returned 500,
+  limit 500 and offset zero. Pagination is the apparent cause, not evidence of
+  throttling or authentication failure. Incomplete metadata was not accepted.
+- Await user direction to add slow resumable pagination handling and continue,
+  or skip this album as unresolved. No running ETA while paused.
+
+## 2026-11-12 — Authorized pagination support and metadata resume
+
+- User approved adding slow/resumable pagination and continuing retrieval.
+  Added cached album page assembly with ID/total/offset, progress and duplicate
+  track validation. Original first-page caches are preserved; partial pages can
+  be reused after interruption. No retry on access/network/API warnings.
+- Thirteen offline Qobuz tests pass, covering assembly, overlapping/empty pages,
+  incorrect offsets and failure propagation without retries.
+- Resumed detached worker from 131 saved albums. Batch rests now count every
+  HTTP request, including discovery/extra pages, with >=15-second spacing.
+  Previous-run progress checkpoint preserved locally for pause-aware ETA.
+- Live recovery verified: album 0002894778167 now has all 730 tracks with 730
+  unique track IDs; worker advanced beyond it (133/1,036 at observation).
+
+## 2026-11-13 — Metadata complete; conservative matching prepared (AD-006)
+
+- Metadata finished 01:15:30 Europe/Amsterdam. Verified 1,036 album IDs, complete
+  track counts, unique per-album track IDs and 27,770 track entries. Deleted
+  hourly metadata monitor. No further API calls during matching/preparation.
+- Assessed all 1,217 candidate entries offline. Final unique-release overlay:
+  12 Found, 54 Probable, 674 unchecked; copy counts 12/54/675. No Not found
+  inferred from absence, no 100% scores or statistical calibration claims.
+- Broader catalogue audit includes all final Found correspondences, 15 spread
+  Probable mappings and negative/uncertain controls. Fixed standalone item
+  omission and Part II A/B/C confusion; added meaningful regression checks.
+- Prepared separate sanitized, versioned match overlay with provenance, consumed
+  directly by build and merged in UI by release ID; survives Spotify rescoring.
+  Table/detail show consistent status/confidence, linked candidates and evidence.
+- `make test` passes (two offline matcher tests, UI checks, 18 Qobuz tests), build
+  and JS syntax pass. Browser verified table sorting, Gould detail, responsive
+  horizontal containment. Clean-copy build without local caches preserves output;
+  sensitive-field/token scan passed. No commit, merge, push or deployment.
+- Limit: low recall and uncertain recording identity remain explicit. AD-008 is
+  proposed for broader queries/aliases and movement/session validation.
+
+## 2026-11-13 — Portable offline evidence for Ali
+
+- User requested committing cached evidence for collaborator checkout. Exported
+  deterministic whitelisted data/qobuz_evidence.json.gz (~1.8 MB): 740 searches,
+  including empty responses, 1,036 complete albums and 27,770 track entries.
+- Matcher now reads portable snapshot by default. Clean-copy run with no .env,
+  Qobuz variables, raw cache or upstream checkout reproduces exact match output;
+  static build succeeds. Updated README/setup and snapshot inspection/export docs.
+- Twenty Qobuz tests pass, including snapshot field exclusion and complete
+  candidate coverage; UI normalization/overlay/sorting checks pass. Deterministic
+  re-export and decompressed snapshot credential/sensitive-field scans pass.
+- Raw duplicate responses, logs, locks, STOP markers, third-party source and .env
+  remain ignored. Snapshot is excluded from Pages build; only UI match data ships.
+- Included portable evidence with the related matcher/UI/retrieval/docs work in
+  the requested local commit. No push, merge or deployment authorized/performed.

@@ -22,6 +22,7 @@ build:
 	cp explorer/index.html explorer/app.js explorer/style.css dist/
 	cp explorer/data/fixture.json dist/data/
 	cp data/collection_matches.json data/summary.json dist/data/
+	cp data/qobuz_matches.json dist/data/
 	touch dist/.nojekyll
 
 serve: build

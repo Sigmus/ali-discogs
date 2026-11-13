@@ -226,3 +226,18 @@ assert.deepEqual(sortedIds("title"), [2, 3, 1]);
 assert.deepEqual(sortedIds("title", "desc"), [1, 3, 2]);
 
 console.log("normalize tests ok", collection.length, "releases");
+
+// Separate publication evidence survives replacement of generated Spotify data.
+const { applyQobuz } = require('../app.js');
+const qobuzData = JSON.parse(fs.readFileSync(path.join(root, '..', 'data', 'qobuz_matches.json'), 'utf8'));
+const withQobuz = enrichAll(applyQobuz(collectionFrom(real), qobuzData.releases));
+const gould = withQobuz.find(it => it.discogs.id === 1445439);
+assert.equal(gould.qobuz.status, 'found');
+assert.equal(gould.qobuz.confidence, .95);
+assert.equal(gould.qobuz.alternates.length, 1);
+assert.equal(collectionFrom(real).find(it => it.discogs.id === 1445439).qobuz.status, 'unchecked');
+const sortedQobuz = query(withQobuz, {...empty, sort: 'qobuz'});
+assert.equal(sortedQobuz[0].qobuz.status, 'found');
+assert.equal(sortedQobuz.at(-1).qobuz.status, 'unchecked');
+assert.equal(withQobuz.length, 741);
+console.log('Qobuz sidecar merge and sorting ok');

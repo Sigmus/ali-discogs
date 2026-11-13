@@ -483,3 +483,12 @@ th.sortable button {
 @media(prefers-reduced-motion:reduce) {
   .frequency-toggle input::before { transition:none; }
 }
+
+.qobuz-candidates { list-style:none; padding:0; }
+.qobuz-candidates li { display:flex; align-items:flex-start; gap:16px; padding:14px 0; border-bottom:1px solid var(--c-border); }
+.qobuz-candidates img { width:64px; height:64px; object-fit:cover; border-radius:3px; }
+.qobuz-candidates p { margin:0 0 6px; }
+.album-table { min-width:850px; }
+
+.qobuz-candidates details li { display:list-item; border:0; padding:3px 0; }
+.qobuz-candidates details ul { padding-left:20px; }
