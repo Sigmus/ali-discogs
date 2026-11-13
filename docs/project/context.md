@@ -56,6 +56,11 @@ explorer. See [README](../../README.md) for setup and architecture.
 - `data/qobuz_matches.json` contains selected public metadata, explanations,
   programme evidence and provenance fingerprints, no token/headers/audio URLs.
   Build copies it directly; clean-copy build without ignored caches verified.
+- Removed the Sort dropdown; table headers control sorting. Added Qobuz match
+  immediately after Spotify, with counts/frequency ordering and URL persistence.
+  Browser verified 12 Found / 54 Probable filters, header sorting and Clear.
+  User requested committing/pushing this filter UI edit on codex/qobuz-poc;
+  inspect Git for resulting commit. No merge or deployment requested.
 - UI shows Qobuz status/confidence in table/details, sortable status column,
   linked candidates and expandable programme evidence. Browser verified desktop
   table/detail and narrow-screen horizontal table containment.

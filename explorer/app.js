@@ -445,7 +445,7 @@
     const composer = $("composer");
     const label = $("label");
     const decade = $("decade");
-    const sort = $("sort");
+    const qb = $("qb");
     const reset = $("reset");
     const frequency = $("frequency");
     const showing = $("showing");
@@ -465,6 +465,7 @@
       const next = defaultState();
       next.q = params.get("q") || "";
       next.sp = params.get("sp") || "";
+      next.qb = params.get("qb") || "";
       next.genre = params.get("genre") || "";
       next.composer = params.get("composer") || "";
       next.label = params.get("label") || "";
@@ -499,21 +500,21 @@
     function syncControls() {
       q.value = state.q;
       sp.value = state.sp;
+      qb.value = state.qb;
       if ([...genre.options].some(o => o.value === state.genre)) genre.value = state.genre;
       if ([...composer.options].some(o => o.value === state.composer)) composer.value = state.composer;
       if ([...label.options].some(o => o.value === state.label)) label.value = state.label;
       if ([...decade.options].some(o => o.value === state.decade)) decade.value = state.decade;
-      sort.value = state.sort;
       reset.disabled = isDefault();
     }
     function readControls() {
       state.q = q.value;
       state.sp = sp.value;
+      state.qb = qb.value;
       state.genre = genre.value;
       state.composer = composer.value;
       state.label = label.value;
       state.decade = decade.value;
-      state.sort = SORTS.includes(sort.value) ? sort.value : "year";
     }
     function commit() {
       writeHash();
@@ -580,9 +581,11 @@
       const byName = (a, b) => cmpStr(a[2] || a[0], b[2] || b[0]);
       const order = pairs => pairs.sort((a, b) =>
         (frequency.checked ? b[1] - a[1] : 0) || byName(a, b));
-      const statuses = tally(items).spotify;
-      sp.innerHTML = optionList(order(Object.entries(statuses).map(([key, count]) =>
-        [key, count, STATUS_LABEL[key]])), "All statuses");
+      const statuses = tally(items);
+      [[sp, statuses.spotify], [qb, statuses.qobuz]].forEach(([control, counts]) => {
+        control.innerHTML = optionList(order(Object.entries(counts).map(([key, count]) =>
+          [key, count, STATUS_LABEL[key]])), "All statuses");
+      });
       genre.innerHTML = optionList(order([...genres.entries()]), "Any");
       composer.innerHTML = optionList(order([...composers.values()].map(row => [row.name, row.count])), "Any");
       label.innerHTML = optionList(order([...labels.entries()]), "Any");
@@ -762,7 +765,7 @@
       clearTimeout(timer);
       timer = setTimeout(fromForm, 80);
     });
-    [sp, genre, composer, label, decade, sort].forEach(el => el.addEventListener("change", fromForm));
+    [sp, qb, genre, composer, label, decade].forEach(el => el.addEventListener("change", fromForm));
     reset.addEventListener("click", clearFilters);
     frequency.addEventListener("change", () => {
       if (!ready) return;

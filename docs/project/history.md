@@ -371,3 +371,19 @@ or Pages publication is part of this push; active search is not restarted.
 - User requested push. Successfully pushed ad1d7fd and d7c3e98 to
   origin/codex/qobuz-poc, including portable evidence and request caches.
 - No merge to main or Pages deployment; collaborator checkout is now available.
+
+## 2026-11-13 — Simplify sorting and add Qobuz match filter
+
+- User requested removing Sort dropdown and placing Qobuz match after Spotify.
+  Kept header sorting and URL sort state; wired Qobuz control to filtering,
+  count/frequency ordering, hash restoration, detail navigation and Clear.
+- Browser verified URL-restored Found (12), selecting Probable (54), sorting via
+  Qobuz header with filter preserved, and Clear back to 741 releases/Year default.
+- UI normalization/overlay tests, JS syntax, build and diff checks pass. Restarted
+  local server on localhost:8000 for preview. No commit/push/deployment requested.
+
+## 2026-11-13 — Commit and share service filter UI
+
+- User requested committing/pushing the Sort-dropdown removal and Qobuz match
+  filter addition with related docs on codex/qobuz-poc. Prior browser, build,
+  normalization, syntax and diff validation passed; no additional code changes.
