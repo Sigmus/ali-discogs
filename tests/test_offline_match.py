@@ -20,7 +20,7 @@ class OfflineMatchTest(unittest.TestCase):
         with open(os.path.join(data_dir(), "collection_matches.json"), encoding="utf-8") as fh:
             committed = json.load(fh)
         self.assertEqual(len(rows), 741)
-        self.assertEqual(summary["spotify"], {"not_found": 210, "found": 254, "probable": 275, "unchecked": 2})
+        self.assertEqual(summary["spotify"], {"not_found": 210, "found": 254, "probable": 273, "unchecked": 4})
         self.assertEqual(summary["qobuz"], {"unchecked": 741})
         self.assertEqual(rows, committed)
 

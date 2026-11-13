@@ -26,7 +26,7 @@ class SpotifyProgrammeTests(unittest.TestCase):
         for review in self.ledger['entries']:
             item = self.rows[review['discogs_id']]
             album = self.candidate(review)
-            self.assertEqual(programme_review(item, album)['status'], 'confirmed_partial_programme')
+            self.assertEqual(programme_review(item, album)['status'], review['decision'])
             runner_up = dict(album, id='unreviewed-alternative')
             with patch('ali_discogs.pipeline.queries', return_value=['test']), \
                     patch('ali_discogs.pipeline.score', side_effect=lambda it,a: {'confidence': .99 if a['id']==album['id'] else .98}), \
@@ -66,3 +66,32 @@ class SpotifyProgrammeTests(unittest.TestCase):
         review = self.ledger['entries'][0]; item = copy.deepcopy(self.rows[review['discogs_id']])
         item['spotify'] = {}; item['qobuz'] = {}
         self.assertEqual(target_fingerprint(item), review['target_sha256'])
+
+    def test_reviewed_dvorak_replacement_and_source_guards(self):
+        from ali_discogs.spotify_programme import reviewed_replacement
+        ledger = json.loads((Path(data_dir())/'spotify_replacement_reviews.json').read_text())
+        review = ledger['entries'][0]; item = self.rows[review['discogs_id']]
+        album = self.candidate(review)
+        result = reviewed_replacement(item, [({'confidence': .99}, album)])
+        self.assertEqual(result[2]['status'], 'reviewed_programme_supported')
+        self.assertEqual(result[1]['id'], review['album_id'])
+        self.assertIsNone(reviewed_replacement(item, []))
+        changed = copy.deepcopy(item); changed['performers'] = ['Wrong Orchestra']
+        with self.assertRaises(ValueError): reviewed_replacement(changed, [({}, album)])
+        with self.assertRaises(ValueError): reviewed_replacement(item, [({}, dict(album, total_tracks=999))])
+        with patch('ali_discogs.spotify_programme.gzip.decompress', return_value=b'{"schema_version":1,"albums":[]}'):
+            with self.assertRaises(ValueError): reviewed_replacement(item, [({}, album)])
+
+    def test_pipeline_positive_review_caps_and_preserves_rejection(self):
+        review = json.loads((Path(data_dir())/'spotify_replacement_reviews.json').read_text())['entries'][0]
+        item = self.rows[review['discogs_id']]
+        negative = next(r for r in self.ledger['entries'] if r['discogs_id']==review['discogs_id'])
+        bad = self.candidate(negative); good = self.candidate(review)
+        with patch('ali_discogs.pipeline.queries', return_value=['test']), \
+                patch('ali_discogs.pipeline.score', side_effect=lambda it,a: {'confidence': .99 if a['id']==bad['id'] else .98}), \
+                patch('ali_discogs.pipeline.classify', return_value='found'):
+            result = match_spotify(item, lambda q: {'albums': {'items': [bad, good]}})
+        self.assertEqual((result['status'],result['confidence']), ('probable', .85))
+        self.assertEqual(result['album']['id'], good['id'])
+        self.assertEqual(result['rejected_candidates'][0]['album']['id'], bad['id'])
+        self.assertNotIn(good['id'], [a['id'] for a in result['alternates']])

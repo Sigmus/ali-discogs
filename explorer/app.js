@@ -641,9 +641,11 @@
     }
     function serviceHtml(name, svc) {
       let body = "";
-      if (svc.programme_review?.status === "confirmed_partial_programme") {
-        body = `<p class="match">Incomplete programme: ${esc(svc.programme_review.reason)}</p><p class="quiet">${esc(svc.programme_review.limitation)}</p>`;
-        if (svc.best_candidate) body += matchHtml(svc.best_candidate, `<span class="closest">Reviewed partial album</span> `);
+      if (["confirmed_partial_programme", "confirmed_programme_mismatch"].includes(svc.programme_review?.status)) {
+        body = `<p class="match">${svc.programme_review.status === "confirmed_programme_mismatch" ? "Programme mismatch" : "Incomplete programme"}: ${esc(svc.programme_review.reason)}</p><p class="quiet">${esc(svc.programme_review.limitation)}</p>`;
+        if (svc.best_candidate) body += matchHtml(svc.best_candidate, `<span class="closest">Rejected programme match</span> `);
+      } else if (svc.programme_review?.status === "reviewed_programme_supported") {
+        body = matchHtml(svc.album, "") + `<p class="quiet">${esc(svc.programme_review.reason)}</p><p class="quiet">${esc(svc.programme_review.limitation)}</p>`;
       } else if (svc.status === "not_found") {
         const guess = svc.best_candidate || svc.album;
         body = guess

@@ -32,3 +32,4 @@ test: install
 	$(UV) run python -m unittest discover -s tests -v
 	node explorer/test/normalize.test.js
 	$(UV) run --with 'requests>=2.32,<3' python -m unittest discover -s scripts/test -v
+	$(UV) run python scripts/spotify_followup_verify.py

@@ -32358,10 +32358,10 @@
    }
   ],
   "spotify": {
-   "status": "unchecked",
-   "confidence": null,
+   "status": "probable",
+   "confidence": 0.85,
    "signals": {
-    "confidence": 0.972,
+    "confidence": 0.859,
     "p_in_artists": true,
     "cond_hit": true,
     "orch_hit": true,
@@ -32369,44 +32369,28 @@
     "p_primary": true,
     "p_frac": 1.0,
     "c_frac": 1.0,
-    "title_score": 80.7,
-    "title_sort": 56.5,
-    "num_agree": 1,
+    "title_score": 69.5,
+    "title_sort": 65.4,
+    "num_agree": null,
     "year_close": null
    },
-   "album": null,
-   "best_candidate": {
-    "id": "5arfXVZ6Cp45OVLB8EBf0E",
-    "name": "Dvorák: Symphonies Nos.4-6",
+   "album": {
+    "id": "6ECe5dUoLAX7LCyYArKemo",
+    "name": "Dvorák: The Symphonies/Overtures",
     "artists": [
      "Antonín Dvořák",
      "London Symphony Orchestra",
      "István Kertész"
     ],
-    "release_date": "2003-01-01",
-    "total_tracks": 15,
+    "release_date": "1991-01-01",
+    "total_tracks": 39,
     "album_type": "compilation",
-    "url": "https://open.spotify.com/album/5arfXVZ6Cp45OVLB8EBf0E",
-    "image": "https://i.scdn.co/image/ab67616d0000b273daa9dd9f45dae39aa55abf60",
+    "url": "https://open.spotify.com/album/6ECe5dUoLAX7LCyYArKemo",
+    "image": "https://i.scdn.co/image/ab67616d0000b2736a5d673ddd615de7fb3d1d9c",
     "label": null
    },
+   "best_candidate": null,
    "alternates": [
-    {
-     "id": "6ECe5dUoLAX7LCyYArKemo",
-     "name": "Dvorák: The Symphonies/Overtures",
-     "artists": [
-      "Antonín Dvořák",
-      "London Symphony Orchestra",
-      "István Kertész"
-     ],
-     "release_date": "1991-01-01",
-     "total_tracks": 39,
-     "album_type": "compilation",
-     "url": "https://open.spotify.com/album/6ECe5dUoLAX7LCyYArKemo",
-     "image": "https://i.scdn.co/image/ab67616d0000b2736a5d673ddd615de7fb3d1d9c",
-     "label": null,
-     "confidence": 0.859
-    },
     {
      "id": "2Jkm0g7cumZrTnQBAJVtHY",
      "name": "Dvořák: Complete Symphonies; Tone Poems; Overtures; Requiem",
@@ -32432,17 +32416,45 @@
     "istvan kertesz dvorak symphony no 6 in d"
    ],
    "programme_review": {
-    "status": "confirmed_partial_programme",
+    "status": "reviewed_programme_supported",
     "reviewed_on": "2026-11-13",
-    "album_id": "5arfXVZ6Cp45OVLB8EBf0E",
-    "reason": "Symphony No.6 Op.60 present, but requested My Home Op.62 absent. Extras are In Nature's Realm Op.91, Carnival Op.92 and Scherzo capriccioso Op.66.",
-    "missing_programme": [
-     "My Home, Op. 62"
-    ],
-    "review_sha256": "a0e0047e9cac2ea0fa094dc1c315123d67b2a1630977f452b5d8bd59c79d09f4",
-    "track_archive_sha256": "199050acc341abf7fc5806f9053dc2f1c1920975e64b64cb53b575d0e6d4a0c4",
-    "limitation": "Only this reviewed album is known to be partial. Alternatives and recording identity remain unverified; no catalogue-absence claim."
-   }
+    "album_id": "6ECe5dUoLAX7LCyYArKemo",
+    "reason": "Reviewed replacement contains the complete Sixth (four movements) and My Home, with Dvořák, Kertész and the LSO listed on every selected track. My Home is 9:36.9 versus the LP’s 9:35. The incomplete prior album is excluded.",
+    "limitation": "Probable programme and performer correspondence within the Decca cycle; artist lists do not establish instrument roles, exact take or LP mastering. 85% is heuristic.",
+    "review_sha256": "15ac30377b9bf99e1576cc9a180e0386b5e13fc1992e9aa78b6aaabd536c2856",
+    "track_archive_sha256": "ae2c72e6be9c0649b45ed1350790da539ab275b4a9da1fdd62295d8597c2abc2"
+   },
+   "rejected_candidates": [
+    {
+     "album": {
+      "id": "5arfXVZ6Cp45OVLB8EBf0E",
+      "name": "Dvorák: Symphonies Nos.4-6",
+      "artists": [
+       "Antonín Dvořák",
+       "London Symphony Orchestra",
+       "István Kertész"
+      ],
+      "release_date": "2003-01-01",
+      "total_tracks": 15,
+      "album_type": "compilation",
+      "url": "https://open.spotify.com/album/5arfXVZ6Cp45OVLB8EBf0E",
+      "image": "https://i.scdn.co/image/ab67616d0000b273daa9dd9f45dae39aa55abf60",
+      "label": null
+     },
+     "review": {
+      "status": "confirmed_partial_programme",
+      "reviewed_on": "2026-11-13",
+      "album_id": "5arfXVZ6Cp45OVLB8EBf0E",
+      "reason": "Symphony No.6 Op.60 present, but requested My Home Op.62 absent. Extras are In Nature's Realm Op.91, Carnival Op.92 and Scherzo capriccioso Op.66.",
+      "missing_programme": [
+       "My Home, Op. 62"
+      ],
+      "review_sha256": "b4ea73504e209b4e6951a4799338849de646a7c497bb450f2ab79877cd12746e",
+      "track_archive_sha256": "199050acc341abf7fc5806f9053dc2f1c1920975e64b64cb53b575d0e6d4a0c4",
+      "limitation": "This album does not contain the requested programme. Other candidates still need a full programme and recording review."
+     }
+    }
+   ]
   },
   "qobuz": {
    "status": "unchecked",
@@ -43194,8 +43206,8 @@
    }
   ],
   "spotify": {
-   "status": "probable",
-   "confidence": 0.896,
+   "status": "unchecked",
+   "confidence": null,
    "signals": {
     "confidence": 0.896,
     "p_in_artists": true,
@@ -43210,7 +43222,8 @@
     "num_agree": 0,
     "year_close": null
    },
-   "album": {
+   "album": null,
+   "best_candidate": {
     "id": "3j6WUDThx2oosV3K4Q4reO",
     "name": "Mendelssohn: Symphonies Nos.4 \"Italian\" & 5 \"Reformation\"",
     "artists": [
@@ -43225,7 +43238,6 @@
     "image": "https://i.scdn.co/image/ab67616d0000b2735956d0a06e10b3a91a37317f",
     "label": null
    },
-   "best_candidate": null,
    "alternates": [
     {
      "id": "6IULmhNsnliLBqWqqt25J0",
@@ -43266,7 +43278,19 @@
     "claudio abbado bartholdy",
     "bartholdy scotch symphony italian symphony",
     "claudio abbado bartholdy symphony no 3 in a"
-   ]
+   ],
+   "programme_review": {
+    "status": "confirmed_partial_programme",
+    "reviewed_on": "2026-11-13",
+    "album_id": "3j6WUDThx2oosV3K4Q4reO",
+    "reason": "Italian Symphony4 is present in four movements, but requested Scottish Symphony3 Op.56 is absent. The other four tracks are Reformation Symphony5 Op.107.",
+    "missing_programme": [
+     "Scottish Symphony No.3, Op.56"
+    ],
+    "review_sha256": "b4ea73504e209b4e6951a4799338849de646a7c497bb450f2ab79877cd12746e",
+    "track_archive_sha256": "1c51348e533654f44c476b0281f6638970066bc39062382fe3747894870e9ee9",
+    "limitation": "This album does not contain the requested programme. Other candidates still need a full programme and recording review."
+   }
   },
   "qobuz": {
    "status": "unchecked",
@@ -61373,9 +61397,9 @@
      "Ein deutsches Requiem",
      "Haydn Variations"
     ],
-    "review_sha256": "a0e0047e9cac2ea0fa094dc1c315123d67b2a1630977f452b5d8bd59c79d09f4",
+    "review_sha256": "b4ea73504e209b4e6951a4799338849de646a7c497bb450f2ab79877cd12746e",
     "track_archive_sha256": "199050acc341abf7fc5806f9053dc2f1c1920975e64b64cb53b575d0e6d4a0c4",
-    "limitation": "Only this reviewed album is known to be partial. Alternatives and recording identity remain unverified; no catalogue-absence claim."
+    "limitation": "This album does not contain the requested programme. Other candidates still need a full programme and recording review."
    }
   },
   "qobuz": {
@@ -103420,8 +103444,8 @@
    }
   ],
   "spotify": {
-   "status": "probable",
-   "confidence": 0.876,
+   "status": "unchecked",
+   "confidence": null,
    "signals": {
     "confidence": 0.876,
     "p_in_artists": true,
@@ -103436,7 +103460,8 @@
     "num_agree": 1,
     "year_close": false
    },
-   "album": {
+   "album": null,
+   "best_candidate": {
     "id": "6vpFLMK4oDZ2wgB34RI7Jz",
     "name": "Debussy: Nocturnes; Ravel: Daphnis et Chloé Suite No. 2 (Paul Paray: The Mercury Masters II, Volume 17)",
     "artists": [
@@ -103450,7 +103475,6 @@
     "image": "https://i.scdn.co/image/ab67616d0000b273cfb8b71d20318b837a56940f",
     "label": null
    },
-   "best_candidate": null,
    "alternates": [
     {
      "id": "2RBxm6Q1BgjbwJr49bm7Pr",
@@ -103492,7 +103516,21 @@
     "paul paray debussy",
     "debussy iberia la mer prelude to the afternoon",
     "paul paray debussy iberia images for orchestra no"
-   ]
+   ],
+   "programme_review": {
+    "status": "confirmed_programme_mismatch",
+    "reviewed_on": "2026-11-13",
+    "album_id": "6vpFLMK4oDZ2wgB34RI7Jz",
+    "reason": "All six tracks are Debussy Nocturnes and Ravel Daphnis Suite2; requested Iberia, La Mer and Prelude to the Afternoon of a Faun are absent.",
+    "missing_programme": [
+     "Iberia",
+     "La Mer",
+     "Prelude to the Afternoon of a Faun"
+    ],
+    "review_sha256": "b4ea73504e209b4e6951a4799338849de646a7c497bb450f2ab79877cd12746e",
+    "track_archive_sha256": "1c51348e533654f44c476b0281f6638970066bc39062382fe3747894870e9ee9",
+    "limitation": "This album does not contain the requested programme. Other candidates still need a full programme and recording review."
+   }
   },
   "qobuz": {
    "status": "unchecked",
@@ -116806,8 +116844,8 @@
    }
   ],
   "spotify": {
-   "status": "probable",
-   "confidence": 0.741,
+   "status": "unchecked",
+   "confidence": null,
    "signals": {
     "confidence": 0.741,
     "p_in_artists": false,
@@ -116822,7 +116860,8 @@
     "num_agree": null,
     "year_close": false
    },
-   "album": {
+   "album": null,
+   "best_candidate": {
     "id": "0GxMH1Xgx3pMzN37aoTGaJ",
     "name": "Concert of the Century - A Tribute to Charlie Parker",
     "artists": [
@@ -116835,7 +116874,6 @@
     "image": "https://i.scdn.co/image/ab67616d0000b2737ca53d8012490eebfe1192c4",
     "label": null
    },
-   "best_candidate": null,
    "alternates": [
     {
      "id": "2jgWsNu1Nq8H8ZpPgHhYw8",
@@ -116872,7 +116910,34 @@
     "charlie parker dizzy gillespie the greatest jazz concert",
     "charlie parker the greatest jazz concert",
     "the greatest jazz concert ever"
-   ]
+   ],
+   "programme_review": {
+    "status": "confirmed_programme_mismatch",
+    "reviewed_on": "2026-11-13",
+    "album_id": "0GxMH1Xgx3pMzN37aoTGaJ",
+    "reason": "The eight tracks belong to Concert of the Century, a different concert programme. None of the sixteen requested titles is present; this is not The Greatest Jazz Concert Ever.",
+    "missing_programme": [
+     "Perdido",
+     "Salt Peanuts",
+     "All The Things You Are",
+     "Wee",
+     "Hot House",
+     "A Night In Tunisia",
+     "Embraceable You",
+     "Sure Thing",
+     "My Devotion",
+     "Polka Dots And Moonbeams",
+     "Cherokee",
+     "Jubilee",
+     "I've Got You Under My Skin",
+     "My Heart Stood Still",
+     "I Want To Be Happy",
+     "Lullaby Of Birdand"
+    ],
+    "review_sha256": "b4ea73504e209b4e6951a4799338849de646a7c497bb450f2ab79877cd12746e",
+    "track_archive_sha256": "1c51348e533654f44c476b0281f6638970066bc39062382fe3747894870e9ee9",
+    "limitation": "This album does not contain the requested programme. Other candidates still need a full programme and recording review."
+   }
   },
   "qobuz": {
    "status": "unchecked",

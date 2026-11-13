@@ -147,3 +147,18 @@ silently promote an unaudited replacement or interpret this as catalogue absence
 Scope is the exact reviewed target/candidate pair; absence of a negative review
 is not completeness approval. Changed evidence requires re-review. This supersedes
 the earlier decision to leave the two pilot findings outside scoring.
+
+## 2026-11-13 — Explicit replacements, broader negative reviews and Pages gate
+
+Status: adopted in the user-authorized follow-up/readiness review.
+
+A rejected Spotify candidate can be replaced only by a separate explicit positive
+review with full portable track/source hashes and required-artist checks; cap
+Dvorak's reviewed replacement at Probable85, with recording limitations. Negative
+reviews may bind a separate bounded archive; never overwrite the original pilot
+or infer programme absence from parser misses. Distinguish wrong programme from
+partial programme in details. Unreviewed alternatives remain unaccepted.
+
+Include programme-guard tests and portable follow-up verification in CI. Pages
+must run local validation successfully before artifact upload and deployment;
+separate test workflows alone do not gate its deploy job.

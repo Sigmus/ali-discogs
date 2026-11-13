@@ -8,12 +8,12 @@ plans preserve dated evidence and prior handoffs.
 
 ## Current state
 
-- Branch `codex/qobuz-poc`; user requested committing the four-lead Qobuz
-  validation and Spotify programme safeguard checkpoint. Prior three commits are
-  local/unpushed. No push, merge or deployment requested.
-- Current collection: 741 copies / 740 unique releases. Spotify labels now
-  254 Found / 275 Probable / 210 Not found / 2 Unchecked copies. The two reviewed
-  partial programmes are withheld; other labels are not independently verified.
+- Branch `codex/qobuz-poc`; checkpoint3f5a2c6 and three earlier commits unpushed.
+  User requested committing the completed Dvorak review, eight-case Spotify
+  audit and readiness checkpoint. No push, merge or deployment requested.
+- Current collection:741 copies /740 unique releases. Spotify254Found /273Probable
+  /210NotFound /4Unchecked copies. Retained labels are not independent full
+  recording confirmations. Qobuz figures below are independent enrichment.
 - Qobuz overlay: 12 Found / 67 Probable / 662 unchecked copies; unique 12/67/661.
   Separate `data/qobuz_matches.json` survives Spotify rescoring; original pipeline
   Qobuz fields stay unchecked. Empty/inconclusive queries are not confirmed absence.
@@ -66,28 +66,32 @@ plans preserve dated evidence and prior handoffs.
 
 ## Spotify track evidence
 
-- User requested .env placeholders; added without exposing/overwriting Qobuz
-  settings. Existing sp PKCE login was reused instead: config/client ID and tokens
-  remain under ~/.config/sp; no client secret required or copied into the repo.
-- Ten selected albums cached successfully (227 tracks), with slow spacing,
-  pagination and first-warning STOP/no retry. Shared whitelisted archive restores
-  offline; local state ignored under `.spotify-poc/`. No playback/library calls.
-- Two confirmed partial programmes: 1012732 Brahms whole collection maps to only
-  Symphony No.1; 6119238 Dvorak Sixth/My Home maps to an album missing My Home.
-  Other eight recording validations unresolved; artist lists lack role credits.
-- User-authorized candidate-specific guard now withholds those two partial albums
-  as Unchecked, preserves similarity signals/candidates and explains missing works
-  in details. No silent alternate promotion. Hash changes require re-review.
-  No population accuracy/catalogue-size claim from this selected sample.
+- Existing sp PKCE login reused; tokens stay outside the repo. Original ten albums
+  (227tracks) are shared portably; local state ignored, no playback/library calls.
+- Five negative candidate reviews: original Brahms whole collection/Symphony1
+  and Dvorak Sixth/MyHome, plus new wrong jazz concert, unrelated Debussy/Ravel
+  programme and Mendelssohn missing Scottish3. Known bad albums cannot be accepted
+  by similarity scores; preserve candidates and explain missing/mismatched works.
+- Dvorak replacement explicitly reviewed: both alternatives cover Sixth I–IV and
+  MyHome with required artists; selected39-track set Probable85. Original partial
+  remains rejected. Positive review has source hashes; exact take/mastering unverified.
+- Eight new risk-selected albums cached (140tracks); two Dvorak alternatives add
+  101tracks. Shared separate archives; original227-track archive unchanged.
+  Broader audit:2programme mismatches,1partial,3listed-programme supports and
+  2opera act-heading supports. Five retained labels still recording-unverified.
+  No population accuracy estimate; no title-gap-to-absence inference.
 
 ## Validation and next action
 
-- Seven pipeline/guard tests and 63 mocked/offline script tests, UI normalization,
-  JS syntax and build pass. Only two intended Spotify objects change; prior three
-  Qobuz promotions remain intact.
-  No Qobuz/Spotify calls, push or deployment during this validation.
-- Next recommendation: audit Dvorak complete-cycle alternatives, cache first;
-  any new fetching remains proposed. No push, merge or deployment requested.
+- Fresh checkout simulation passes9pipeline/guard +66script tests, portable audit,
+  byte-identical Qobuz replay, UI/JS/build. No local credentials/caches required.
+  Credential scan/whitelist/build-boundary checks pass; browser UI verified.
+- Readiness review: fetched origin/main0847175 is an ancestor; no conflict expected.
+  CI includes all guards; Pages now validates before publishing. Remote CI has not
+  run for the follow-up checkpoint. No actual merge/push/deployment performed.
+- Next action: push the committed follow-up and open a PR when requested; require green
+  remote checks before merge, then verify deployed page. Quality caveats remain.
+- [Follow-up findings and readiness](../plans/2026-11-13-spotify-followup-readiness.md).
 - [Spotify safeguard](../plans/2026-11-13-spotify-programme-safeguard.md) records scope and checks.
 - Latest review: [four Qobuz leads](../plans/2026-11-13-qobuz-lead-validation.md).
 - Details: [refinement and Spotify audit](../plans/2026-11-13-query-credits-spotify-tracks.md),

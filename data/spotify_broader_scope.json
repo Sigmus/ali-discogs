@@ -1,0 +1,73 @@
+{
+  "schema_version": 1,
+  "selected_on": "2026-11-13",
+  "selection": "Four Found and four Probable unique releases, evenly spaced by numeric Discogs ID within each status among targets with at least two current work units and selected albums of 2–40 tracks. Excludes the original ten-case pilot. Purposive multi-item risk sample, not representative or random.",
+  "original_statuses": {
+    "1010200": "found",
+    "4067901": "found",
+    "7577224": "found",
+    "24278222": "found",
+    "1252193": "probable",
+    "5249935": "probable",
+    "9458258": "probable",
+    "29719858": "probable"
+  },
+  "entries": [
+    {
+      "discogs_id": "1010200",
+      "album_id": "2H0pZpcCXADx7s2mWpZA1s",
+      "album_name": "Bach: die Brandenburgischen Konzerte",
+      "total_tracks": 19,
+      "market": "NL"
+    },
+    {
+      "discogs_id": "4067901",
+      "album_id": "2tqj5U25MXjOG4dgKRPb4S",
+      "album_name": "Chopin: Les 14 Valses",
+      "total_tracks": 14,
+      "market": "NL"
+    },
+    {
+      "discogs_id": "7577224",
+      "album_id": "7hOaI2sQ0tJ233JKPT77js",
+      "album_name": "Debussy: Pelléas et Mélisande",
+      "total_tracks": 37,
+      "market": "NL"
+    },
+    {
+      "discogs_id": "24278222",
+      "album_id": "2AwilJPMXI7zNpTtN9cYcG",
+      "album_name": "Purcell: Dido and Aeneas",
+      "total_tracks": 40,
+      "market": "NL"
+    },
+    {
+      "discogs_id": "1252193",
+      "album_id": "0GxMH1Xgx3pMzN37aoTGaJ",
+      "album_name": "Concert of the Century - A Tribute to Charlie Parker",
+      "total_tracks": 8,
+      "market": "NL"
+    },
+    {
+      "discogs_id": "5249935",
+      "album_id": "6vpFLMK4oDZ2wgB34RI7Jz",
+      "album_name": "Debussy: Nocturnes; Ravel: Daphnis et Chloé Suite No. 2 (Paul Paray: The Mercury Masters II, Volume 17)",
+      "total_tracks": 6,
+      "market": "NL"
+    },
+    {
+      "discogs_id": "9458258",
+      "album_id": "3j6WUDThx2oosV3K4Q4reO",
+      "album_name": "Mendelssohn: Symphonies Nos.4 \"Italian\" & 5 \"Reformation\"",
+      "total_tracks": 8,
+      "market": "NL"
+    },
+    {
+      "discogs_id": "29719858",
+      "album_id": "2DkUvnxlZmEMBmPOmzC4lE",
+      "album_name": "Dvořák: Cello Concerto",
+      "total_tracks": 8,
+      "market": "NL"
+    }
+  ]
+}

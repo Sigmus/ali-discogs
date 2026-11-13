@@ -73,7 +73,7 @@ def fetch_album(task,get):
             raise PilotError('Spotify pagination/track count differs; review before resuming.')
         tracks.extend(clean_track(t) for t in items)
         positions=[(t['disc_number'],t['track_number']) for t in tracks]
-        if len(set(positions))!=len(positions):raise PilotError('Repeated Spotify track positions/page.')
+        if len(set(positions))!=len(positions) or len({t['id'] for t in tracks})!=len(tracks):raise PilotError('Repeated Spotify track ID/position/page.')
         offset=len(tracks)
     return {**task,'tracks':tracks,'saved_at':now(),'limitation':'Artist lists have no explicit composer/conductor/instrument roles; programme audit is not recording-session verification.'}
 
@@ -83,7 +83,8 @@ def restore_portable(path, output):
     if data.get('schema_version')!=1:raise PilotError('Unsupported portable Spotify schema.')
     albums=data['albums']
     for album in albums:
-        if not re.fullmatch('[A-Za-z0-9]{22}',album['album_id']) or len(album['tracks'])!=album['total_tracks']:
+        if (not re.fullmatch('[A-Za-z0-9]{22}',album['album_id']) or len(album['tracks'])!=album['total_tracks']
+                or len({t['id'] for t in album['tracks']})!=len(album['tracks'])):
             raise PilotError('Invalid portable Spotify album.')
         target=output/f"{album['album_id']}.json"
         if target.exists() and json.loads(target.read_text())!=album:
@@ -97,24 +98,47 @@ def restore_portable(path, output):
 
 def main():
     parser=argparse.ArgumentParser(description=__doc__);modes=parser.add_mutually_exclusive_group();modes.add_argument('--fetch',action='store_true');modes.add_argument('--restore',action='store_true')
-    parser.add_argument('--sp-python',type=Path,default=ROOT.parent/'SP/.venv/bin/python');args=parser.parse_args()
-    review=json.loads((ROOT/'data/qobuz_comparison_offline.json').read_text())['entries']
-    plan=[{'discogs_id':e['discogs_id'],'album_id':e['spotify_album']['id'],'album_name':e['spotify_album']['name'],'total_tracks':e['cached_album']['total_tracks'],'market':'NL'} for e in review if e['category']=='spotify_review']
-    if len(plan)!=10 or any(not re.fullmatch('[A-Za-z0-9]{22}',e['album_id']) for e in plan):raise PilotError('Invalid fixed Spotify pilot scope.')
-    OUTPUT.mkdir(parents=True,exist_ok=True)
-    lock=(OUTPUT/'run.lock').open('w');fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
-    manifest=OUTPUT/'manifest.json'
+    parser.add_argument('--sp-python',type=Path,default=ROOT.parent/'SP/.venv/bin/python')
+    parser.add_argument('--scope', type=Path, help='Explicit bounded review scope with entries; max 12 albums.')
+    parser.add_argument('--output', type=Path)
+    parser.add_argument('--archive', type=Path)
+    args=parser.parse_args()
+    if args.scope:
+        if not args.output or not args.archive:parser.error('--scope requires separate --output and --archive')
+        scope=json.loads(args.scope.read_text())
+        plan=scope['entries']
+        if scope.get('schema_version')!=1 or not 1<=len(plan)<=12:raise PilotError('Invalid bounded Spotify review scope.')
+        if len({e['album_id'] for e in plan})!=len(plan):raise PilotError('Duplicate scoped Spotify album.')
+        for e in plan:
+            if (set(e)!=set(['discogs_id','album_id','album_name','total_tracks','market']) or
+                    not re.fullmatch('[A-Za-z0-9]{22}',e['album_id']) or
+                    not isinstance(e['total_tracks'],int) or e['total_tracks']<1 or e['market']!='NL'):
+                raise PilotError('Invalid scoped Spotify task.')
+        output=args.output
+        archive_path=args.archive
+        if output.resolve()==OUTPUT.resolve() or archive_path.resolve()==(ROOT/'data/spotify_pilot_tracks.json.gz').resolve():
+            raise PilotError('Bounded review must preserve original pilot outputs.')
+    else:
+        if args.output or args.archive:parser.error('Custom outputs require --scope')
+        review=json.loads((ROOT/'data/qobuz_comparison_offline.json').read_text())['entries']
+        plan=[{'discogs_id':e['discogs_id'],'album_id':e['spotify_album']['id'],'album_name':e['spotify_album']['name'],'total_tracks':e['cached_album']['total_tracks'],'market':'NL'} for e in review if e['category']=='spotify_review']
+        if len(plan)!=10 or any(not re.fullmatch('[A-Za-z0-9]{22}',e['album_id']) for e in plan):raise PilotError('Invalid fixed Spotify pilot scope.')
+        output=OUTPUT
+        archive_path=ROOT/'data/spotify_pilot_tracks.json.gz'
+    output.mkdir(parents=True,exist_ok=True)
+    lock=(output/'run.lock').open('w');fcntl.flock(lock,fcntl.LOCK_EX|fcntl.LOCK_NB)
+    manifest=output/'manifest.json'
     if manifest.exists() and json.loads(manifest.read_text())!=plan:raise PilotError('Spotify pilot scope changed; review before retrieval.')
     save(manifest,plan)
-    stop=OUTPUT/'STOP'
+    stop=output/'STOP'
     if stop.exists():print('Spotify pilot STOP exists; await user direction.');lock.close();return 1
     if args.restore:
-        print(f'Restored/reused {restore_portable(ROOT/"data/spotify_pilot_tracks.json.gz",OUTPUT)} portable Spotify albums; no API calls.')
-    prior=json.loads((OUTPUT/'progress.json').read_text()) if (OUTPUT/'progress.json').exists() else {}
-    state={'status':'running' if args.fetch else 'offline','completed':0,'total':10,'started_at':now(),'last_http_epoch':prior.get('last_http_epoch',0),'network_attempts':0}
+        print(f'Restored/reused {restore_portable(archive_path,output)} portable Spotify albums; no API calls.')
+    prior=json.loads((output/'progress.json').read_text()) if (output/'progress.json').exists() else {}
+    state={'status':'running' if args.fetch else 'offline','completed':0,'total':len(plan),'started_at':now(),'last_http_epoch':prior.get('last_http_epoch',0),'network_attempts':0}
     pace=Pace(15,stop)
     for sig in [signal.SIGINT,signal.SIGTERM]:signal.signal(sig,lambda *_:setattr(pace,'stopping',True))
-    def checkpoint():state['updated_at']=now();save(OUTPUT/'progress.json',state)
+    def checkpoint():state['updated_at']=now();save(output/'progress.json',state)
     def request(operation):
         pace.check()
         if pace.requests and pace.requests%50==0:
@@ -126,7 +150,7 @@ def main():
     try:
         for task in plan:
             pace.check();state['current_release']=task['discogs_id'];checkpoint()
-            path=OUTPUT/f"{task['album_id']}.json"
+            path=output/f"{task['album_id']}.json"
             if path.exists():
                 album=json.loads(path.read_text())
                 if any(album.get(k)!=v for k,v in task.items()) or len(album['tracks'])!=task['total_tracks']:raise PilotError('Saved Spotify album differs from fixed scope.')
@@ -134,7 +158,7 @@ def main():
                 if not args.fetch:raise PilotError('Offline Spotify cache incomplete; no API requests made.')
                 if not ready:request('refresh');ready=True
                 def get(offset):
-                    page_path=OUTPUT/f"{task['album_id']}-page-{offset}.json"
+                    page_path=output/f"{task['album_id']}-page-{offset}.json"
                     if page_path.exists():return json.loads(page_path.read_text())
                     page=request(f"/albums/{task['album_id']}/tracks?market=NL&limit=50&offset={offset}")
                     safe={'total':page.get('total'),'offset':page.get('offset'),'items':[clean_track(t) for t in page.get('items',[])]}
@@ -145,9 +169,9 @@ def main():
                     page=get(offset)
                     return {**page,'items':[{**t,'external_urls':{'spotify':t.get('url')},'artists':[{**a,'external_urls':{'spotify':a.get('url')}} for a in t['artists']]} for t in page['items']]}
                 album=fetch_album(task,adapted);save(path,album)
-            albums.append(album);state['completed']+=1;checkpoint();print(f"{state['completed']}/10 release={task['discogs_id']} tracks={len(album['tracks'])}",flush=True)
-        output={'schema_version':1,'source':'Spotify album-tracks API via local sp PKCE login; no credentials/audio','albums':albums}
-        (ROOT/'data/spotify_pilot_tracks.json.gz').write_bytes(gzip.compress(json.dumps(output,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode(),mtime=0))
+            albums.append(album);state['completed']+=1;checkpoint();print(f"{state['completed']}/{len(plan)} release={task['discogs_id']} tracks={len(album['tracks'])}",flush=True)
+        payload={'schema_version':1,'source':'Spotify album-tracks API via local sp PKCE login; no credentials/audio','albums':albums}
+        archive_path.write_bytes(gzip.compress(json.dumps(payload,ensure_ascii=False,sort_keys=True,separators=(',',':')).encode(),mtime=0))
         state['status']='complete';state.pop('current_release',None)
     except StopRequested:state['status']='stopped';state['reason']='User stop; no automatic resume.'
     except Exception as exc:

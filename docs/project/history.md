@@ -614,3 +614,37 @@ or Pages publication is part of this push; active search is not restarted.
 - Recommend reviewing Dvorak complete-cycle alternatives using existing caches
   first, then a small broader Spotify programme audit. Further work, fetching,
   push, merge and deployment are not authorized by this status request.
+
+## 2026-11-13 — Dvorak replacement, broader Spotify audit and readiness review
+
+- User requested all three recommended stages in order. Reviewed two Dvorak
+  alternatives (101tracks); selected39-track set supplies Sixth I–IV +MyHome with
+  required artists, becomes explicitly reviewed Probable85. Original bad album
+  preserved as rejected. Exact take/mastering remains unverified.
+- Eight new multi-work risk cases (4Found/4Probable,140tracks) reviewed: wrong jazz
+  concert1252193, unrelated Debussy/Ravel5249935 and Mendelssohn missing Scottish
+  9458258 now Unchecked. Three listed-programme and two opera act-heading supports
+  retained, recording identity unresolved. No population accuracy claim.
+- Fetching slow/resumable, no API warnings/retries. Fixed local export/checkpoint
+  variable bug; Dvorak finalized offline without re-fetching. Shared separate
+  archives/scopes/audit; original pilot and Qobuz archives byte-identical.
+- Fresh prospective checkout without .env/ignored caches passes9pipeline/guard
+  +66script tests, audit verification, identical Qobuz replay, UI/JS/build. Secret
+  scan, whitelist/build-boundary and local browser checks pass. Spotify copies
+  254Found/273Probable/210NotFound/4Unchecked; Qobuz unchanged12/67/662.
+- Readiness review fetched origin/main0847175 (ancestor; no conflict expected).
+  Fixed CI test discovery, added portable evidence verification and Pages test
+  gate. Locally ready for PR with documented match-quality limitations; remote CI
+  not run for uncommitted follow-up. No commit/push/merge/deployment in this task.
+  [Findings, scope and release handoff](../plans/2026-11-13-spotify-followup-readiness.md).
+
+## 2026-11-13 — Commit Spotify follow-up and readiness checkpoint
+
+- User requested committing completed follow-up work: Dvorak replacement, eight-
+  album audit and three new programme rejections, shared evidence/reviews, worker
+  scope support, UI findings and CI/Pages validation gate. Credentials/state excluded.
+- Prior fresh-checkout validation:75Python tests, portable audit, identical Qobuz
+  replay, UI/JS/build and credential/build-boundary checks passed. No code changes
+  since those checks; no service calls required for this commit.
+- No push, merge or deployment requested. Next release action remains push/PR
+  when authorized, with green remote checks before merge.

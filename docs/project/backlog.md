@@ -14,8 +14,13 @@ using existing sp PKCE login. See [refinement and findings](../plans/2026-11-13-
 Two partial programmes confirmed (1012732 and 6119238); user-authorized
 [programme safeguard](../plans/2026-11-13-spotify-programme-safeguard.md) now withholds
 them as Unchecked with visible findings and no automatic alternate promotion.
-Eight recording validations remain unresolved. Proposed next: audit complete-cycle
-alternatives and a broader sample. No population error-rate claim.
+User-authorized [Dvorak alternatives, eight-album broader audit and branch
+readiness review](../plans/2026-11-13-spotify-followup-readiness.md) completed in order.
+Dvorak recovered as Probable85; three additional bad programmes withheld.
+Five broader labels retained with programme/act-heading support but recording
+identity unresolved. Original eight recording validations also remain unresolved.
+No population error-rate claim. Proposed next: a broader independently reviewed
+sample and further bounded replacement checks; no automatic collection-wide run.
 
 Review a bounded sample across found, probable, and not-found results, comparing
 the work and actual performers/recording identity. Identify false positives and

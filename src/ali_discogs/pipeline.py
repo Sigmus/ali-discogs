@@ -11,7 +11,7 @@ from ali_discogs.model import build_item, queries
 from ali_discogs.paths import data_dir
 from ali_discogs.score import FOUND_MIN, PROB_MIN, classify, score, sp_album
 from ali_discogs.spotify import SpotifySearch
-from ali_discogs.spotify_programme import programme_review
+from ali_discogs.spotify_programme import programme_review, reviewed_replacement
 from ali_discogs.text import norm, short_title
 
 QOBUZ_STATUS = "unchecked"
@@ -51,6 +51,14 @@ def match_spotify(it, search):
     alternates = [dict(sp_album(album), confidence=signals["confidence"]) for signals, album in scored[1:3]]
     review = programme_review(it, best)
     if review:
+        replacement = reviewed_replacement(it, scored)
+        if replacement:
+            signals, album, positive = replacement
+            return {"status": "probable", "confidence": .85, "signals": signals,
+                    "album": dict(sp_album(album)), "best_candidate": None,
+                    "alternates": [a for a in alternates if a['id'] != album['id']],
+                    "queries": qs, "programme_review": positive,
+                    "rejected_candidates": [{"album": dict(sp_album(best)), "review": review}]}
         # Preserve similarity evidence for inspection, but do not present a
         # known partial album or an unaudited runner-up as a complete match.
         return {"status": "unchecked", "confidence": None, "signals": best_signals,

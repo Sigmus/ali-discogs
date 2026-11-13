@@ -160,3 +160,28 @@ Spotify matching also requires `data/spotify_programme_reviews.json` and the por
 track archive above. Two explicitly reviewed partial albums are withheld as Unchecked,
 with missing-work explanations in details. Source changes require re-review; unreviewed
 alternatives are not automatically promoted. See [safeguard scope and tests](docs/plans/2026-11-13-spotify-programme-safeguard.md).
+
+Spotify follow-up evidence is shared separately in
+`data/spotify_dvorak_tracks.json.gz` and `data/spotify_broader_tracks.json.gz`.
+`uv run python scripts/spotify_followup_verify.py` verifies the two fixed scopes
+and reviewed findings offline. Dvorak's explicit positive replacement also requires
+`data/spotify_replacement_reviews.json`; negative reviews can reference a specific
+portable archive without overwriting the original pilot evidence.
+
+To restore the follow-up locally without credentials:
+
+```sh
+uv run --with requests python scripts/spotify_pilot_tracks.py \
+  --scope data/spotify_dvorak_scope.json --output .spotify-poc/dvorak \
+  --archive data/spotify_dvorak_tracks.json.gz --restore
+uv run --with requests python scripts/spotify_pilot_tracks.py \
+  --scope data/spotify_broader_scope.json --output .spotify-poc/broader \
+  --archive data/spotify_broader_tracks.json.gz --restore
+```
+
+A separately authorized `--fetch` uses an existing sp login (override `--sp-python`
+if needed), at least15-second spacing, persisted pages, STOP/lock and first-warning
+pause/no retry. Custom scopes are limited to12 albums and require separate output
+and archive paths. Ordinary invocation is offline. See the
+[follow-up and readiness review](docs/plans/2026-11-13-spotify-followup-readiness.md).
+Pages runs `make test` before publishing; PR CI includes all programme guard tests.
