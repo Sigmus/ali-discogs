@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "source": "Canonical album URLs from successful cached album/get metadata; no API calls.",
-  "request_archive_sha256": "879f7d8ccc93db81d09fd4a6566ebba0507f0e92e6906a217623b486f8aa810c",
+  "request_archive_sha256": "30ceb993092e7b358c8a5b15da085ec1a314416d35231743174fdba43d298e7f",
   "albums": {
     "0002521867172": "https://www.qobuz.com/fr-fr/album/the-pianist-duke-ellington/0002521867172",
     "0002894100262": "https://www.qobuz.com/fr-fr/album/grieg-peer-gynt-suites-sibelius-pelleas-melisande-berliner-philharmoniker-herbert-von-karajan/0002894100262",
@@ -78,6 +78,7 @@
     "0002894630882": "https://www.qobuz.com/fr-fr/album/beethoven-the-9-symphonies-1963-berliner-philharmoniker-herbert-von-karajan/0002894630882",
     "0002894631272": "https://www.qobuz.com/fr-fr/album/beethoven-the-piano-sonatas-daniel-barenboim/0002894631272",
     "0002894631582": "https://www.qobuz.com/fr-fr/album/dvorak-the-9-symphonies-berliner-philharmoniker-rafael-kubelik/0002894631582",
+    "0002894631652": "https://www.qobuz.com/fr-fr/album/dvorak-the-string-quartets-prague-string-quartet/0002894631652",
     "0002894634522": "https://www.qobuz.com/fr-fr/album/js-bach-gloria-in-excelsis-deo-munchener-bach-chor/0002894634522",
     "0002894636522": "https://www.qobuz.com/fr-fr/album/mozart-piano-concerto-k595-concerto-for-2-pianos-k365-schubert-fantasy-d940-wiener-philharmoniker-emil-gilels-karl-bohm-elena-gilels/0002894636522",
     "0002894637382": "https://www.qobuz.com/fr-fr/album/mahler-10-symphonies-symphonieorchester-des-bayerischen-rundfunks-rafael-kubelik/0002894637382",
@@ -600,6 +601,7 @@
     "5099990581953": "https://www.qobuz.com/fr-fr/album/les-stars-du-classique-daniel-barenboim-daniel-barenboim/5099990581953",
     "5099991845955": "https://www.qobuz.com/fr-fr/album/perfect-prima-donna-elisabeth-schwarzkopf/5099991845955",
     "5099991869456": "https://www.qobuz.com/fr-fr/album/bach-mass-in-b-minor-otto-klemperer/5099991869456",
+    "5099992803350": "https://www.qobuz.com/fr-fr/album/beethoven-symphony-no-6-leonore-overture-no-1-otto-klemperer/5099992803350",
     "5099996593356": "https://www.qobuz.com/fr-fr/album/faure-requiem-andre-cluytens/5099996593356",
     "5099998471751": "https://www.qobuz.com/fr-fr/album/chopin-piano-works-samson-francois/5099998471751",
     "5709499667682": "https://www.qobuz.com/fr-fr/album/tagen-letter-the-most-beautiful-music-for-flute-harp-cello-and-organ-mikael-beier-vibeke-franck-gert-von-bulow-flemming-dreisig-/5709499667682",

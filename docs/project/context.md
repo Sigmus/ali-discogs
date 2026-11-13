@@ -10,11 +10,11 @@ plans preserve dated evidence and prior handoffs.
 
 - Active branch `codex/qobuz-coverage-round2`, based on deployed main1735ab7.
   User authorized cached near-match validation, then a slow20-release fallback
-  batch. Local changes uncommitted; no push/merge/deploy requested.
+  batch. Round2 committed877bc5a; follow-up validated; user requested commit/push of this branch.
 - Current collection:741 copies /740 unique releases. Spotify254Found /273Probable
   /210NotFound /4Unchecked copies. Retained labels are not independent full
   recording confirmations. Qobuz figures below are independent enrichment.
-- Qobuz overlay: 12 Found / 70 Probable / 659 unchecked copies; unique12/70/658 locally.
+- Qobuz overlay: 12 Found / 73 Probable / 656 unchecked copies; unique12/73/655 locally.
   Separate `data/qobuz_matches.json` survives Spotify rescoring; original pipeline
   Qobuz fields stay unchecked. Empty/inconclusive queries are not confirmed absence.
 - Sonoteque table/details, 80% main width, column sorting (Year ascending default),
@@ -29,7 +29,7 @@ plans preserve dated evidence and prior handoffs.
   27,770 tracks, album IDs/counts/unique track IDs verified. One 500/730-track
   response was recovered with user-authorized strict pagination. Monitors deleted.
 - Shared `data/qobuz_evidence.json.gz` preserves original whitelisted evidence.
-  Raw request archive now has1,829 responses (41 added in round2);
+  Raw request archive now has1,847 responses (2 added in scoped metadata fetch);
   original member payloads preserved. Credentials/run state remain ignored.
 - Comparison pilot adds portable `data/qobuz_comparison_evidence.json.gz`: twenty
   fallback queries and eight complete selected albums (seven new/one reused).
@@ -43,10 +43,6 @@ plans preserve dated evidence and prior handoffs.
   vocal roles, conservative recording-group support and shared-opus work guards.
   Found 95% / Probable 85% are heuristic levels, not calibrated probabilities or
   independent recording-session verification. Ambiguous aliases remain unresolved.
-- Original-66 audit reproduced v1 scores: seven strict-coverage supports, one
-  incomplete-credit case with music present and 58 unresolved. Later comparison
-  across 66+10 selected matches fixes five evidence mappings, no shared track
-  assignments. All existing publication status labels remain unchanged.
 - Explicit target-credit archive derives positive work/position assignments for
   128 releases from cached Discogs, with source hashes. Unknown/unscoped actors
   stay required globally; cross-side ranges and parent/child units handled with
@@ -83,18 +79,23 @@ plans preserve dated evidence and prior handoffs.
 
 ## Validation and next action
 
-- Current round2 checks:9pipeline/guard +75script tests, offline audit/replay,
+- Current follow-up checks:9pipeline/guard +80script tests, offline audit/replay,
   canonical URLs, UI/JS/build pass. Prior fresh-checkout validation remains recorded.
   Credential scan/whitelist/build-boundary checks pass; browser UI verified.
-- Deployed main1735ab7 remains12/67/662Qobuz copies; round2 is local/uncommitted.
-  Next proposal: verify Richter catalogue conflicts, then shorter work queries
-  and explicit role/composer normalization. No further batch/publication authorized.
+- Deployed main1735ab7 remains12/67/662Qobuz copies; round2 committed877bc5a.
+  Authorized follow-up: cached Richter review passes with publisher-supported
+  corrections; ten-release paired query trial complete. Branch commit/push authorized; no merge/deploy requested.
 - Round2 complete: Klemperer Missa, Ancerl Requiem and deVito/Fischer Sonatas1/3
   now Probable85 with bounded evidence/source-title review. Search40queries:
   18/20releases have hits,107pairs;2selected albums15tracks fetched without warnings.
-  Richter pair withheld for source catalogue/key conflicts. No active retrieval.
+  Richter now Probable after source-bound review; no active retrieval.
+- Offline screen complete:81pairs,19cached/62uncached; zero pass all current guards.
+  Cached Schnabel late sonatas now Probable after complete5-work review.
+  Two scoped metadata fetches complete77tracks, no warnings; no active API work.
+  Klemperer1957 recording/programme review now Probable; Dvorak unresolved.
+  Cumulative review passes; only3follow-up matches change since877bc5a.
+  Next: inspect branch CI after push; no further API calls needed.
+- [Current query trial](../plans/2026-11-13-qobuz-query-strategy-trial.md).
 - [Active round2 scope and findings](../plans/2026-11-13-qobuz-round2.md).
 - [Follow-up findings and readiness](../plans/2026-11-13-spotify-followup-readiness.md).
-- [Spotify safeguard](../plans/2026-11-13-spotify-programme-safeguard.md) records scope and checks.
-- Latest review: [four Qobuz leads](../plans/2026-11-13-qobuz-lead-validation.md).
 - [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).

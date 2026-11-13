@@ -183,3 +183,15 @@ original text and original work-credit assignment keys. Recompute all required
 performers and complete non-overlapping sections; cap additions at Probable85.
 Conflicting catalogue/key information remains unresolved until specifically
 reviewed; search recovery and correct musicians alone do not authorize a match.
+
+## 2026-11-13 — Compare query strategies before broad expansion
+
+Status: adopted for the authorized ten-release trial.
+
+Use headline ensemble credits ahead of supporting individual players in new
+queries. Compare paired performer/composer and catalogue-qualified queries on a
+fixed disjoint scope; measure top-five search yield separately from validated
+matches. Multi-composer mapping remains outside this trial. Preserve old query
+manifests. Richter's source catalogue/key corrections are supported by Warner's
+publisher documentation and hash-bound to one target/candidate pair; preserve
+original work-credit lookup and require all3+5 movements. Cap at Probable85.

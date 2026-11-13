@@ -1,0 +1,171 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-13",
+  "releases": [
+    {
+      "discogs_id": "14934969",
+      "album_id": "5099992803350",
+      "target_sha256": "062dbedd5cc67a2d3ffae48dce09fc5f6123dd13c42a15fb5f732fed01b19def",
+      "album_sha256": "e7872481936c7170885236fd6460df3b6f66e7ba1b5315005c19dfd117724117",
+      "decision": "probable",
+      "recording_review": "All five Pastoral movements and the complete listed Leonore No.1 track have Klemperer/Philharmonia credits. Warner documents the October1957 Pastoral recording, consistent with target notes and this EMI/Warner reissue family.",
+      "sources": [
+        "https://wmg.jp/otto-klemperer/discography/16392",
+        "https://www.qobuz.com/ie-en/album/beethoven-symphony-no-6-leonore-overture-no-1-otto-klemperer/5099992803350"
+      ],
+      "limitations": [
+        "Publisher date evidence concerns the symphony; the overture session date and exact takes are not independently verified.",
+        "Matching programme and recording-family support do not establish identical LP/digital mastering."
+      ],
+      "target_source": {
+        "sha256": "8f1dc36428b80567c8e400618eca01b4b1f140976d7c2feeeb523db5543ad8ed",
+        "notes": "Recorded in october 1957.\nItalian EMI Studio 1980 reissue",
+        "tracklist": [
+          {
+            "position": "",
+            "type_": "index",
+            "title": "Sinfonia No. 6 In Fa Maggiore Op. 68 <<Pastorale>> ",
+            "duration": "",
+            "sub_tracks": [
+              {
+                "position": "A1",
+                "type_": "track",
+                "title": "1° Mov.: Risveglio Di Gradevoli Sensazioni All'Arrivo In Campagna (Allegro Ma Non Troppo)",
+                "duration": ""
+              },
+              {
+                "position": "A2",
+                "type_": "track",
+                "title": "2° Mov.: Scena Del Ruscello (Andante Molto Mosso)",
+                "duration": ""
+              },
+              {
+                "position": "B1",
+                "type_": "track",
+                "title": "3° Mov.: Festa Dei Contadini (Allegro)",
+                "duration": ""
+              },
+              {
+                "position": "B2",
+                "type_": "track",
+                "title": "4° Mov.: La Tempesta (Allegro)",
+                "duration": ""
+              },
+              {
+                "position": "B3",
+                "type_": "track",
+                "title": "5° Mov.: Inno Del Pastore Dopo La Tempesta (Allegretto)",
+                "duration": ""
+              }
+            ]
+          },
+          {
+            "position": "B4",
+            "type_": "track",
+            "title": "<<Leonore>> Ouverture No. 1, Op. 138",
+            "duration": ""
+          }
+        ]
+      },
+      "works": [
+        {
+          "target": "Sinfonia No. 6 In Fa Maggiore Op. 68 <<Pastorale>> ",
+          "movements": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Cached target five numbered movements and separately listed overture; full credited candidate track list",
+          "reason": "Complete ordered symphony movements or single titled overture; no shared tracks."
+        },
+        {
+          "target": "<<Leonore>> Ouverture No. 1, Op. 138",
+          "movements": [
+            1
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Cached target five numbered movements and separately listed overture; full credited candidate track list",
+          "reason": "Complete ordered symphony movements or single titled overture; no shared tracks.",
+          "reviewed_sections": {
+            "8428959": {
+              "track_sha256": "e67d2ea904e74f05ffaeacea770c72296f0097a1d4fec345700081601622638c",
+              "movements": [
+                1
+              ]
+            }
+          }
+        }
+      ]
+    }
+  ],
+  "audits": [
+    {
+      "discogs_id": "14934969",
+      "album_id": "5099992803350",
+      "decision": "probable",
+      "recording_review": "All five Pastoral movements and the complete listed Leonore No.1 track have Klemperer/Philharmonia credits. Warner documents the October1957 Pastoral recording, consistent with target notes and this EMI/Warner reissue family.",
+      "sources": [
+        "https://wmg.jp/otto-klemperer/discography/16392",
+        "https://www.qobuz.com/ie-en/album/beethoven-symphony-no-6-leonore-overture-no-1-otto-klemperer/5099992803350"
+      ],
+      "limitations": [
+        "Publisher date evidence concerns the symphony; the overture session date and exact takes are not independently verified.",
+        "Matching programme and recording-family support do not establish identical LP/digital mastering."
+      ],
+      "eligible": true,
+      "completeness": {
+        "status": "complete",
+        "works": [
+          {
+            "target": "Sinfonia No. 6 In Fa Maggiore Op. 68 <<Pastorale>> ",
+            "status": "complete",
+            "expected_movements": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "observed_movements": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "track_ids": [
+              8428954,
+              8428955,
+              8428956,
+              8428957,
+              8428958
+            ],
+            "scope": "reviewed-whole-work",
+            "source": "Cached target five numbered movements and separately listed overture; full credited candidate track list",
+            "reason": "Complete ordered symphony movements or single titled overture; no shared tracks."
+          },
+          {
+            "target": "<<Leonore>> Ouverture No. 1, Op. 138",
+            "status": "complete",
+            "expected_movements": [
+              1
+            ],
+            "observed_movements": [
+              1
+            ],
+            "track_ids": [
+              8428959
+            ],
+            "scope": "reviewed-whole-work",
+            "source": "Cached target five numbered movements and separately listed overture; full credited candidate track list",
+            "reason": "Complete ordered symphony movements or single titled overture; no shared tracks."
+          }
+        ],
+        "overlapping_target_tracks": false
+      }
+    }
+  ]
+}

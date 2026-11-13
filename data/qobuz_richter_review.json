@@ -1,0 +1,117 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-13",
+  "review": {
+    "discogs_id": "3667210",
+    "album_id": "m5in5vzcm30pa",
+    "target_sha256": "ecf20d863a62c5e565e6def56bb5bdfdecf105dc7bf7e58b9aca7f0ecb3f6d74",
+    "album_sha256": "b10be8c7109f14b0fd823f50368c1895a5dcfcaf187c4560b05a4863c9a98fc5",
+    "decision": "probable",
+    "recording_review": "Warner documents Richter/Maazel with Orchestre de Paris for Bartok No.2, Sz95 (1969) and London Symphony Orchestra for Prokofiev No.5, Op55 in G major (1970). All three plus five movements and work-specific credits are supported. Source Sz83 and G minor headings are interpreted only within this reviewed pair.",
+    "sources": [
+      "https://wmg.jp/richter/discography/33795"
+    ],
+    "limitations": [
+      "Publisher documentation supports this recording family, not exact LP mastering or independent take verification. Original Discogs catalogue/key text is preserved."
+    ],
+    "target_title_corrections": {
+      "Piano Concerto No.2, Sz83#": "Piano Concerto No.2, Sz95",
+      "Piano Concerto No.5 In G Minor, Op.55": "Piano Concerto No.5 In G Major, Op.55"
+    },
+    "works": [
+      {
+        "target": "Piano Concerto No.2, Sz83#",
+        "movements": [
+          1,
+          2,
+          3
+        ],
+        "scope": "reviewed-whole-work",
+        "source": "Warner publisher catalogue and cached target/candidate movement lists",
+        "reason": "Complete ordered movements; original per-work orchestra assignments retained. LP joins final Prokofiev movements; digital has separate IV and V."
+      },
+      {
+        "target": "Piano Concerto No.5 In G Minor, Op.55",
+        "movements": [
+          1,
+          2,
+          3,
+          4,
+          5
+        ],
+        "scope": "reviewed-whole-work",
+        "source": "Warner publisher catalogue and cached target/candidate movement lists",
+        "reason": "Complete ordered movements; original per-work orchestra assignments retained. LP joins final Prokofiev movements; digital has separate IV and V."
+      }
+    ]
+  },
+  "audit": {
+    "discogs_id": "3667210",
+    "album_id": "m5in5vzcm30pa",
+    "decision": "probable",
+    "recording_review": "Warner documents Richter/Maazel with Orchestre de Paris for Bartok No.2, Sz95 (1969) and London Symphony Orchestra for Prokofiev No.5, Op55 in G major (1970). All three plus five movements and work-specific credits are supported. Source Sz83 and G minor headings are interpreted only within this reviewed pair.",
+    "sources": [
+      "https://wmg.jp/richter/discography/33795"
+    ],
+    "limitations": [
+      "Publisher documentation supports this recording family, not exact LP mastering or independent take verification. Original Discogs catalogue/key text is preserved."
+    ],
+    "eligible": true,
+    "completeness": {
+      "status": "complete",
+      "works": [
+        {
+          "target": "Piano Concerto No.2, Sz83#",
+          "status": "complete",
+          "expected_movements": [
+            1,
+            2,
+            3
+          ],
+          "observed_movements": [
+            1,
+            2,
+            3
+          ],
+          "track_ids": [
+            455299210,
+            455299211,
+            455299212
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Warner publisher catalogue and cached target/candidate movement lists",
+          "reason": "Complete ordered movements; original per-work orchestra assignments retained. LP joins final Prokofiev movements; digital has separate IV and V."
+        },
+        {
+          "target": "Piano Concerto No.5 In G Minor, Op.55",
+          "status": "complete",
+          "expected_movements": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "observed_movements": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ],
+          "track_ids": [
+            455299213,
+            455299214,
+            455299215,
+            455299216,
+            455299217
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Warner publisher catalogue and cached target/candidate movement lists",
+          "reason": "Complete ordered movements; original per-work orchestra assignments retained. LP joins final Prokofiev movements; digital has separate IV and V."
+        }
+      ],
+      "overlapping_target_tracks": false
+    }
+  }
+}

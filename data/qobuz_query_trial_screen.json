@@ -1,0 +1,2339 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-13",
+  "evidence_sha256": "a875444fce1a5e7674180ef4cfb66ba8855cd36ee052fba0a8a6a4f2216d90bf",
+  "summary": {
+    "release_candidate_pairs": 81,
+    "cached_metadata_pairs": 19,
+    "uncached_pairs": 62,
+    "complete_work_credit_leads": 0,
+    "selected_uncached_leads": 2
+  },
+  "entries": [
+    {
+      "discogs_id": "1132104",
+      "target_title": "Streichquartette No. 8 & No. 10",
+      "album_id": "0002894631652",
+      "candidate_title": "Dvorák: The String Quartets",
+      "candidate_artist": "Prague String Quartet",
+      "queries": [
+        "prague string quartet dvorak"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "1132104",
+      "target_title": "Streichquartette No. 8 & No. 10",
+      "album_id": "ea8il96kf0fhc",
+      "candidate_title": "Dvorak, A.: String Quartets, Vol. 5 (Vlach Quartet) - Cypresses / String Quartet Movement in F Major / 2 Waltzes / Gavotte",
+      "candidate_artist": "Vlach Quartet Prague",
+      "queries": [
+        "prague string quartet dvorak"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "1132104",
+      "target_title": "Streichquartette No. 8 & No. 10",
+      "album_id": "m7x6r8rp2gccc",
+      "candidate_title": "Dvorak, A.: String Quartets, Vol. 6 (Vlach Quartet) - Nos. 5, 7",
+      "candidate_artist": "Vlach Quartet Prague",
+      "queries": [
+        "prague string quartet dvorak"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "1132104",
+      "target_title": "Streichquartette No. 8 & No. 10",
+      "album_id": "a7qcngmeocuqb",
+      "candidate_title": "Dvořák: String Quartets Op. 96 \"American\" & Op. 106",
+      "candidate_artist": "Vlach Quartet Prague",
+      "queries": [
+        "prague string quartet dvorak"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "1132104",
+      "target_title": "Streichquartette No. 8 & No. 10",
+      "album_id": "wkdg7ixn6cd6a",
+      "candidate_title": "Smetana, Dvořák & Suk: String Quartets",
+      "candidate_artist": "The Bohemian Quartet",
+      "queries": [
+        "prague string quartet dvorak"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "1132104",
+      "target_title": "Streichquartette No. 8 & No. 10",
+      "album_id": "0730099437424",
+      "candidate_title": "String Quartets No. 10, Op. 51 and No. 14, Op. 105",
+      "candidate_artist": "Vlach Quartet Prague",
+      "queries": [
+        "prague string quartet dvorak op 51"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "1132104",
+      "target_title": "Streichquartette No. 8 & No. 10",
+      "album_id": "xwxtelv4deuoa",
+      "candidate_title": "Dvořák: Chamber Works II",
+      "candidate_artist": "Pavel Šporcl, Petr Jiříkovský, Josef Suk, Josef Hála, Alfréd Holeček, Michal Kaňka, Jaromír Klepáč, Miroslav Ambroš, Jiří Bárta, Jan Simon, Karel Unte",
+      "queries": [
+        "prague string quartet dvorak op 51"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "2966855",
+      "target_title": "The Complete Beethoven Society Recordings, 1932–37 / Vol. 4: Sonatas, Nos. 28–32",
+      "album_id": "evmb3lj8sm3la",
+      "candidate_title": "Beethoven: Piano Sonatas Nos. 27-29 (Schnabel) (1932-1935)",
+      "candidate_artist": "Artur Schnabel",
+      "queries": [
+        "artur schnabel beethoven"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "2966855",
+      "target_title": "The Complete Beethoven Society Recordings, 1932–37 / Vol. 4: Sonatas, Nos. 28–32",
+      "album_id": "0190295866983",
+      "candidate_title": "Beethoven: Complete Piano Sonatas (2016 Remaster)",
+      "candidate_artist": "Artur Schnabel",
+      "queries": [
+        "artur schnabel beethoven"
+      ],
+      "cached_complete_metadata": true,
+      "assessment": {
+        "status": "probable",
+        "confidence": 0.85,
+        "coverage": 1.0,
+        "covered": 5,
+        "target_count": 5,
+        "required_performers": [
+          "Artur Schnabel"
+        ],
+        "programme": [
+          {
+            "target": "Piano Sonata No. 29 In B-Flat Major, Op. 106 (\"Hammerklavier\")",
+            "work_tracks": 4,
+            "credited_tracks": 4,
+            "track_ids": [
+              36924129,
+              36924130,
+              36924131,
+              36924132
+            ]
+          },
+          {
+            "target": "Piano Sonata No. 28 In A Major, Op. 101",
+            "work_tracks": 3,
+            "credited_tracks": 3,
+            "track_ids": [
+              36924126,
+              36924127,
+              36924128
+            ]
+          },
+          {
+            "target": "Piano Sonata No. 30 In E Major, Op. 109",
+            "work_tracks": 3,
+            "credited_tracks": 3,
+            "track_ids": [
+              36924135,
+              36924136,
+              36924137
+            ]
+          },
+          {
+            "target": "Piano Sonata No. 31 In A-Flat Major, Op. 110",
+            "work_tracks": 3,
+            "credited_tracks": 3,
+            "track_ids": [
+              36924138,
+              36924139,
+              36924140
+            ]
+          },
+          {
+            "target": "Piano Sonata No. 32 In C Minor, Op. 111",
+            "work_tracks": 2,
+            "credited_tracks": 2,
+            "track_ids": [
+              36924141,
+              36924142
+            ]
+          }
+        ],
+        "reasons": [
+          "Each target item has explicit work and performer-role credits; recording identity requires review.",
+          "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
+        ],
+        "work_group_policy": "qobuz-work-groups-v1"
+      },
+      "completeness": {
+        "status": "unknown",
+        "works": [
+          {
+            "target": "Piano Sonata No. 29 In B-Flat Major, Op. 106 (\"Hammerklavier\")",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Piano Sonata No. 28 In A Major, Op. 101",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Piano Sonata No. 30 In E Major, Op. 109",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Piano Sonata No. 31 In A-Flat Major, Op. 110",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Piano Sonata No. 32 In C Minor, Op. 111",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "finding": "unresolved_work_credit_or_completeness"
+    },
+    {
+      "discogs_id": "2966855",
+      "target_title": "The Complete Beethoven Society Recordings, 1932–37 / Vol. 4: Sonatas, Nos. 28–32",
+      "album_id": "ldki24bpeid2a",
+      "candidate_title": "Beethoven: Piano Sonatas Nos 26 \"Les Adieux\", 28 & 29 \"Hammerklavier\"",
+      "candidate_artist": "Artur Schnabel",
+      "queries": [
+        "artur schnabel beethoven"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "2966855",
+      "target_title": "The Complete Beethoven Society Recordings, 1932–37 / Vol. 4: Sonatas, Nos. 28–32",
+      "album_id": "0884385808242",
+      "candidate_title": "The Beethoven Piano Sonatas",
+      "candidate_artist": "Ludwig van Beethoven",
+      "queries": [
+        "artur schnabel beethoven"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "2966855",
+      "target_title": "The Complete Beethoven Society Recordings, 1932–37 / Vol. 4: Sonatas, Nos. 28–32",
+      "album_id": "0724356288058",
+      "candidate_title": "Beethoven: Piano Sonatas, Nos. 21 \"Waldstein\", 22, 23 \"Appassionata\", 24, 25, 27 & 30 - 32",
+      "candidate_artist": "Artur Schnabel",
+      "queries": [
+        "artur schnabel beethoven"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "2966855",
+      "target_title": "The Complete Beethoven Society Recordings, 1932–37 / Vol. 4: Sonatas, Nos. 28–32",
+      "album_id": "jfa1q4i2ojafa",
+      "candidate_title": "BEETHOVEN: PIANO SONATA No.4 \"GRAND SONATA\", No.9, No.10, No.28",
+      "candidate_artist": "Artur Schnabel",
+      "queries": [
+        "artur schnabel beethoven op 101"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "4469662",
+      "target_title": "Klavierkonzert Nr.2 C-Moll / Etudes Tableaux",
+      "album_id": "sndzorrexm26b",
+      "candidate_title": "Rachmaninoff: 24 Preludes",
+      "candidate_artist": "Vladimir Ashkenazy",
+      "queries": [
+        "vladimir ashkenazy rachmaninoff"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "4469662",
+      "target_title": "Klavierkonzert Nr.2 C-Moll / Etudes Tableaux",
+      "album_id": "0002894786978",
+      "candidate_title": "Sergei Rachmaninoff : Complete Works For Piano",
+      "candidate_artist": "Vladimir Ashkenazy",
+      "queries": [
+        "vladimir ashkenazy rachmaninoff"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "4469662",
+      "target_title": "Klavierkonzert Nr.2 C-Moll / Etudes Tableaux",
+      "album_id": "t36l19q7sfitp",
+      "candidate_title": "Rimsky-Korsakov: Scheherazade; Rachmaninoff: Paganini Rhapsody",
+      "candidate_artist": "Vladimir Ashkenazy",
+      "queries": [
+        "vladimir ashkenazy rachmaninoff"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "4469662",
+      "target_title": "Klavierkonzert Nr.2 C-Moll / Etudes Tableaux",
+      "album_id": "0002894830036",
+      "candidate_title": "Rachmaninoff: The Isle of the Dead; Symphonic Dances",
+      "candidate_artist": "Royal Concertgebouw Orchestra",
+      "queries": [
+        "vladimir ashkenazy rachmaninoff"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "4469662",
+      "target_title": "Klavierkonzert Nr.2 C-Moll / Etudes Tableaux",
+      "album_id": "0002894830271",
+      "candidate_title": "Rachmaninoff: Symphony No. 2",
+      "candidate_artist": "Vladimir Ashkenazy",
+      "queries": [
+        "vladimir ashkenazy rachmaninoff"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "4469662",
+      "target_title": "Klavierkonzert Nr.2 C-Moll / Etudes Tableaux",
+      "album_id": "0002894667272",
+      "candidate_title": "Rachmaninoff: Klavierkonzerte Nr.2 & 4",
+      "candidate_artist": "Vladimir Ashkenazy",
+      "queries": [
+        "vladimir ashkenazy rachmaninoff op 18"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "4469662",
+      "target_title": "Klavierkonzert Nr.2 C-Moll / Etudes Tableaux",
+      "album_id": "0002894787358",
+      "candidate_title": "Rachmaninov: Piano Concertos Nos. 1-4, Rhapsody on a Theme of Paganini",
+      "candidate_artist": "Vladimir Ashkenazy",
+      "queries": [
+        "vladimir ashkenazy rachmaninoff op 18"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "4469662",
+      "target_title": "Klavierkonzert Nr.2 C-Moll / Etudes Tableaux",
+      "album_id": "0002894215902",
+      "candidate_title": "Rachmaninov: Piano Concertos Nos. 1-4",
+      "candidate_artist": "Vladimir Ashkenazy",
+      "queries": [
+        "vladimir ashkenazy rachmaninoff op 18"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "4469662",
+      "target_title": "Klavierkonzert Nr.2 C-Moll / Etudes Tableaux",
+      "album_id": "0002894664622",
+      "candidate_title": "The Art of Ashkenazy",
+      "candidate_artist": "Vladimir Ashkenazy",
+      "queries": [
+        "vladimir ashkenazy rachmaninoff op 18"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "4469662",
+      "target_title": "Klavierkonzert Nr.2 C-Moll / Etudes Tableaux",
+      "album_id": "0002894144752",
+      "candidate_title": "Rachmaninov: Piano Concertos Nos.2 & 4",
+      "candidate_artist": "Vladimir Ashkenazy",
+      "queries": [
+        "vladimir ashkenazy rachmaninoff op 18"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "6105272",
+      "target_title": "Streichquartette 1–15 · Klavierquintett G-Moll Op. 57",
+      "album_id": "g4nhgjv3d6wbc",
+      "candidate_title": "Shostakovich : Complete String Quartets",
+      "candidate_artist": "Borodin Quartet",
+      "queries": [
+        "borodin string quartet shostakovich",
+        "borodin string quartet shostakovich op 101"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "6105272",
+      "target_title": "Streichquartette 1–15 · Klavierquintett G-Moll Op. 57",
+      "album_id": "0002894788209",
+      "candidate_title": "Shostakovich: String Quartets Nos. 1, 8 & 14",
+      "candidate_artist": "Borodin Quartet",
+      "queries": [
+        "borodin string quartet shostakovich"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "6105272",
+      "target_title": "Streichquartette 1–15 · Klavierquintett G-Moll Op. 57",
+      "album_id": "awbcbvuv8x90b",
+      "candidate_title": "Shostakovich: Complete Quartets",
+      "candidate_artist": "Borodin Quartet",
+      "queries": [
+        "borodin string quartet shostakovich"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "6105272",
+      "target_title": "Streichquartette 1–15 · Klavierquintett G-Moll Op. 57",
+      "album_id": "0884977565164",
+      "candidate_title": "Borodin, Dvorak & Shostakovich String Quartets",
+      "candidate_artist": "Chilingirian String Quartet",
+      "queries": [
+        "borodin string quartet shostakovich"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "6105272",
+      "target_title": "Streichquartette 1–15 · Klavierquintett G-Moll Op. 57",
+      "album_id": "0002894255412",
+      "candidate_title": "Tchaikovsky: String Quartet No. 1 – Borodin: String Quartet No. 2 – Shostakovich: String Quartet No. 8",
+      "candidate_artist": "Gabrieli String Quartet",
+      "queries": [
+        "borodin string quartet shostakovich"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "6105272",
+      "target_title": "Streichquartette 1–15 · Klavierquintett G-Moll Op. 57",
+      "album_id": "e4i336bjck6sb",
+      "candidate_title": "Dmitri Shostakovich: String Quartets Nos. 4, 6 & 9",
+      "candidate_artist": "Borodin Quartet",
+      "queries": [
+        "borodin string quartet shostakovich op 101"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "6105272",
+      "target_title": "Streichquartette 1–15 · Klavierquintett G-Moll Op. 57",
+      "album_id": "m6v3wmv6p8r5b",
+      "candidate_title": "Pennies from Heaven",
+      "candidate_artist": "Mandelring Quartett",
+      "queries": [
+        "borodin string quartet shostakovich op 101"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "6837646",
+      "target_title": "Les 6 Dernières Symphonies",
+      "album_id": "3614591716737",
+      "candidate_title": "Mozart: Symphonies Nos. 25 & 28",
+      "candidate_artist": "Bruno Walter",
+      "queries": [
+        "columbia symphony orchestra mozart"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "6837646",
+      "target_title": "Les 6 Dernières Symphonies",
+      "album_id": "uw2kg61xnxzxc",
+      "candidate_title": "Bruno Walter conducts Mozart & Haydn - The Remastered Stereo Recordings",
+      "candidate_artist": "Bruno Walter",
+      "queries": [
+        "columbia symphony orchestra mozart"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "6837646",
+      "target_title": "Les 6 Dernières Symphonies",
+      "album_id": "zhjirs0dq8nia",
+      "candidate_title": "Wolfgang Amadeus Mozart: Piano Concertos Nos. 12 & 27 - Béla Bartók: Piano Concerto No. 1",
+      "candidate_artist": "Rudolf Serkin",
+      "queries": [
+        "columbia symphony orchestra mozart",
+        "columbia symphony orchestra mozart k 385"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "6837646",
+      "target_title": "Les 6 Dernières Symphonies",
+      "album_id": "zs7bxlgxh6aia",
+      "candidate_title": "Mozart: Piano Concertos Nos. 22 & 23",
+      "candidate_artist": "George Szell",
+      "queries": [
+        "columbia symphony orchestra mozart"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "6837646",
+      "target_title": "Les 6 Dernières Symphonies",
+      "album_id": "c6fcvaaa5hpta",
+      "candidate_title": "Mozart: Symphonies 25, 28 & 29",
+      "candidate_artist": "Bruno Walter",
+      "queries": [
+        "columbia symphony orchestra mozart"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "6837646",
+      "target_title": "Les 6 Dernières Symphonies",
+      "album_id": "kh5oyvmi71g0b",
+      "candidate_title": "Mozart: Symphonies Nos. 25, 28, 29 & 35 \"Haffner\"",
+      "candidate_artist": "Bruno Walter",
+      "queries": [
+        "columbia symphony orchestra mozart k 385"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "6837646",
+      "target_title": "Les 6 Dernières Symphonies",
+      "album_id": "0886445221237",
+      "candidate_title": "Glenn Gould. The Complete Columbia Album Collection",
+      "candidate_artist": "Glenn Gould",
+      "queries": [
+        "columbia symphony orchestra mozart k 385"
+      ],
+      "cached_complete_metadata": true,
+      "assessment": {
+        "status": "unchecked",
+        "confidence": null,
+        "coverage": 0.0,
+        "covered": 0,
+        "target_count": 6,
+        "required_performers": [
+          "Bruno Walter",
+          "Columbia Symphony Orchestra"
+        ],
+        "programme": [
+          {
+            "target": "Symphonie N° 41 En Ut, K. 551 \"Jupiter\"",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Symphonie N° 35 En Ré, K. 385 \"Haffner\"",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Symphonie N° 36, En Ut, K. 425 \"Linz\"",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Symphonie N° 39 En Mi Bémol, K. 543",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Symphonie N° 40 En Sol Mineur, K. 550",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Symphonie N° 38 En Ré Mineur, K. 504 \"Prague\"",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          }
+        ],
+        "reasons": [
+          "0/6 target items supported after composer/work grouping; unresolved."
+        ]
+      },
+      "completeness": {
+        "status": "unknown",
+        "works": [
+          {
+            "target": "Symphonie N° 41 En Ut, K. 551 \"Jupiter\"",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Symphonie N° 35 En Ré, K. 385 \"Haffner\"",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Symphonie N° 36, En Ut, K. 425 \"Linz\"",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Symphonie N° 39 En Mi Bémol, K. 543",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Symphonie N° 40 En Sol Mineur, K. 550",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Symphonie N° 38 En Ré Mineur, K. 504 \"Prague\"",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "finding": "unresolved_work_credit_or_completeness"
+    },
+    {
+      "discogs_id": "6837646",
+      "target_title": "Les 6 Dernières Symphonies",
+      "album_id": "0887396449671",
+      "candidate_title": "Mozart - Symphony No. 35 in D Major, K. 385",
+      "candidate_artist": "Wolfgang Amadeus Mozart",
+      "queries": [
+        "columbia symphony orchestra mozart k 385"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "7975379",
+      "target_title": "BWV 149 Man Singet Mit Freuden Vom Sieg / BWV 188 Ich Habe Meine Zuversicht.",
+      "album_id": "zklxml4pykuib",
+      "candidate_title": "The Bach Family",
+      "candidate_artist": "Helmuth Rilling",
+      "queries": [
+        "bach ensemble helmuth rilling bach"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "7975379",
+      "target_title": "BWV 149 Man Singet Mit Freuden Vom Sieg / BWV 188 Ich Habe Meine Zuversicht.",
+      "album_id": "a6g9640whj71a",
+      "candidate_title": "J.S. Bach: Cantatas",
+      "candidate_artist": "Bach-Collegium Stuttgart",
+      "queries": [
+        "bach ensemble helmuth rilling bach"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "7975379",
+      "target_title": "BWV 149 Man Singet Mit Freuden Vom Sieg / BWV 188 Ich Habe Meine Zuversicht.",
+      "album_id": "iqbs0nrzapw1b",
+      "candidate_title": "Bach Family",
+      "candidate_artist": "Helmuth Rilling",
+      "queries": [
+        "bach ensemble helmuth rilling bach"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "7975379",
+      "target_title": "BWV 149 Man Singet Mit Freuden Vom Sieg / BWV 188 Ich Habe Meine Zuversicht.",
+      "album_id": "3260050774659",
+      "candidate_title": "La magie des plus beaux Adagios, Vol. 2",
+      "candidate_artist": "Various Artists",
+      "queries": [
+        "bach ensemble helmuth rilling bach"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "7975379",
+      "target_title": "BWV 149 Man Singet Mit Freuden Vom Sieg / BWV 188 Ich Habe Meine Zuversicht.",
+      "album_id": "r0rhoezalx05a",
+      "candidate_title": "Best of J.S. Bach",
+      "candidate_artist": "Various Artists",
+      "queries": [
+        "bach ensemble helmuth rilling bach"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "9866861",
+      "target_title": "Tutte Le Sonate Per Pianoforte - Vol. 11: Sonate N. 11 Op. 22 - N. 13 Op. 27 N. 1 - N. 27 Op. 90",
+      "album_id": "0002894196022",
+      "candidate_title": "Beethoven: Piano Sonatas Nos.8 \"Moonlight\", 14 \"Appassionata\" & 23 \"Pathétique\"",
+      "candidate_artist": "Daniel Barenboim",
+      "queries": [
+        "daniel barenboim beethoven"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "9866861",
+      "target_title": "Tutte Le Sonate Per Pianoforte - Vol. 11: Sonate N. 11 Op. 22 - N. 13 Op. 27 N. 1 - N. 27 Op. 90",
+      "album_id": "bl0292og4t3pc",
+      "candidate_title": "Beethoven: Piano Sonatas Nos. 27-32",
+      "candidate_artist": "Daniel Barenboim",
+      "queries": [
+        "daniel barenboim beethoven"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "9866861",
+      "target_title": "Tutte Le Sonate Per Pianoforte - Vol. 11: Sonate N. 11 Op. 22 - N. 13 Op. 27 N. 1 - N. 27 Op. 90",
+      "album_id": "0002894631272",
+      "candidate_title": "Beethoven: The Piano Sonatas",
+      "candidate_artist": "Daniel Barenboim",
+      "queries": [
+        "daniel barenboim beethoven",
+        "daniel barenboim beethoven op 22"
+      ],
+      "cached_complete_metadata": true,
+      "assessment": {
+        "status": "probable",
+        "confidence": 0.85,
+        "coverage": 1.0,
+        "covered": 3,
+        "target_count": 3,
+        "required_performers": [
+          "Daniel Barenboim"
+        ],
+        "programme": [
+          {
+            "target": "Sonata N. 11 In Si Bemolle Maggiore, Op. 22",
+            "work_tracks": 4,
+            "credited_tracks": 4,
+            "track_ids": [
+              560745,
+              560754,
+              560763,
+              560772
+            ]
+          },
+          {
+            "target": "Sonata N. 13 In Mi Bemolle Maggiore, Op. 27 N. 1",
+            "work_tracks": 4,
+            "credited_tracks": 4,
+            "track_ids": [
+              560830,
+              560836,
+              560840,
+              560843
+            ]
+          },
+          {
+            "target": "Sonata N. 27 In Mi Minore, Op. 90",
+            "work_tracks": 2,
+            "credited_tracks": 2,
+            "track_ids": [
+              560837,
+              560841
+            ]
+          }
+        ],
+        "reasons": [
+          "Each target item has supporting work and performer credits.",
+          "Grouped movements or extra recordings require review; recording identity is not confirmed."
+        ]
+      },
+      "completeness": {
+        "status": "unknown",
+        "works": [
+          {
+            "target": "Sonata N. 11 In Si Bemolle Maggiore, Op. 22",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Sonata N. 13 In Mi Bemolle Maggiore, Op. 27 N. 1",
+            "status": "complete",
+            "expected_movements": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "observed_movements": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "missing_movements": [],
+            "track_ids": [
+              560830,
+              560836,
+              560840,
+              560843
+            ],
+            "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+          },
+          {
+            "target": "Sonata N. 27 In Mi Minore, Op. 90",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "finding": "unresolved_work_credit_or_completeness"
+    },
+    {
+      "discogs_id": "9866861",
+      "target_title": "Tutte Le Sonate Per Pianoforte - Vol. 11: Sonate N. 11 Op. 22 - N. 13 Op. 27 N. 1 - N. 27 Op. 90",
+      "album_id": "zbnl88r4plrba",
+      "candidate_title": "Beethoven: Symphony No. 7, Op. 92",
+      "candidate_artist": "Daniel Barenboim",
+      "queries": [
+        "daniel barenboim beethoven"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "9866861",
+      "target_title": "Tutte Le Sonate Per Pianoforte - Vol. 11: Sonate N. 11 Op. 22 - N. 13 Op. 27 N. 1 - N. 27 Op. 90",
+      "album_id": "bn4naurb578zb",
+      "candidate_title": "Beethoven Trios",
+      "candidate_artist": "Daniel Barenboim",
+      "queries": [
+        "daniel barenboim beethoven"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "9866861",
+      "target_title": "Tutte Le Sonate Per Pianoforte - Vol. 11: Sonate N. 11 Op. 22 - N. 13 Op. 27 N. 1 - N. 27 Op. 90",
+      "album_id": "hdzghotfvyyya",
+      "candidate_title": "Beethoven: Piano Sonatas Nos. 5, 6, 7, Op. 10 & 22, Op. 54",
+      "candidate_artist": "Daniel Barenboim",
+      "queries": [
+        "daniel barenboim beethoven op 22"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "9866861",
+      "target_title": "Tutte Le Sonate Per Pianoforte - Vol. 11: Sonate N. 11 Op. 22 - N. 13 Op. 27 N. 1 - N. 27 Op. 90",
+      "album_id": "5099970442151",
+      "candidate_title": "Beethoven: Complete Piano Sonatas",
+      "candidate_artist": "Daniel Barenboim",
+      "queries": [
+        "daniel barenboim beethoven op 22"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "9866861",
+      "target_title": "Tutte Le Sonate Per Pianoforte - Vol. 11: Sonate N. 11 Op. 22 - N. 13 Op. 27 N. 1 - N. 27 Op. 90",
+      "album_id": "fstv6cjkgurtc",
+      "candidate_title": "Beethoven For All - The Piano Sonatas",
+      "candidate_artist": "Daniel Barenboim",
+      "queries": [
+        "daniel barenboim beethoven op 22"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "11887204",
+      "target_title": "Sinfonia N°4  - Sinfonia N°5",
+      "album_id": "0886446344348",
+      "candidate_title": "Beethoven: Symphony No. 7 in A Major, Op. 92, Symphony No. 2 in D Major, Op. 36 & Egmont Overture, Op. 84",
+      "candidate_artist": "Arturo Toscanini",
+      "queries": [
+        "arturo toscanini beethoven"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "11887204",
+      "target_title": "Sinfonia N°4  - Sinfonia N°5",
+      "album_id": "0888880782755",
+      "candidate_title": "Beethoven: Symphonies 1-9",
+      "candidate_artist": "Arturo Toscanini",
+      "queries": [
+        "arturo toscanini beethoven"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "11887204",
+      "target_title": "Sinfonia N°4  - Sinfonia N°5",
+      "album_id": "0886446346205",
+      "candidate_title": "Beethoven: Missa Solemnis, Op. 123 - Cherubini: Requiem Mass No. 1 in C Minor",
+      "candidate_artist": "Arturo Toscanini",
+      "queries": [
+        "arturo toscanini beethoven"
+      ],
+      "cached_complete_metadata": true,
+      "assessment": {
+        "status": "unchecked",
+        "confidence": null,
+        "coverage": 0.0,
+        "covered": 0,
+        "target_count": 2,
+        "required_performers": [
+          "Arturo Toscanini",
+          "NBC Symphony Orchestra"
+        ],
+        "programme": [
+          {
+            "target": "Sinfonia N. 4 In Si Bemolle Maggiore, Op. 60",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Sinfornia N. 5 In Do Minore, Op. 67",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          }
+        ],
+        "reasons": [
+          "0/2 target items supported after composer/work grouping; unresolved."
+        ]
+      },
+      "completeness": {
+        "status": "incomplete",
+        "works": [
+          {
+            "target": "Sinfonia N. 4 In Si Bemolle Maggiore, Op. 60",
+            "status": "incomplete",
+            "expected_movements": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "observed_movements": [],
+            "missing_movements": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "track_ids": [],
+            "source": "https://www.esm.rochester.edu/beethoven/symphony-no-4/",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+          },
+          {
+            "target": "Sinfornia N. 5 In Do Minore, Op. 67",
+            "status": "incomplete",
+            "expected_movements": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "observed_movements": [],
+            "missing_movements": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "track_ids": [],
+            "source": "https://www.laphil.com/works/symphony-no-5-in-c-minor-op-67",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "finding": "unresolved_work_credit_or_completeness"
+    },
+    {
+      "discogs_id": "11887204",
+      "target_title": "Sinfonia N°4  - Sinfonia N°5",
+      "album_id": "o4kob3b17kiec",
+      "candidate_title": "Ludwig van Beethoven: Complete Symphonies & Selected Overtures (1939)",
+      "candidate_artist": "Arturo Toscanini",
+      "queries": [
+        "arturo toscanini beethoven"
+      ],
+      "cached_complete_metadata": true,
+      "assessment": {
+        "status": "unchecked",
+        "confidence": null,
+        "coverage": 0.0,
+        "covered": 0,
+        "target_count": 2,
+        "required_performers": [
+          "Arturo Toscanini",
+          "NBC Symphony Orchestra"
+        ],
+        "programme": [
+          {
+            "target": "Sinfonia N. 4 In Si Bemolle Maggiore, Op. 60",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Sinfornia N. 5 In Do Minore, Op. 67",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          }
+        ],
+        "reasons": [
+          "0/2 target items supported after composer/work grouping; unresolved."
+        ]
+      },
+      "completeness": {
+        "status": "incomplete",
+        "works": [
+          {
+            "target": "Sinfonia N. 4 In Si Bemolle Maggiore, Op. 60",
+            "status": "incomplete",
+            "expected_movements": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "observed_movements": [],
+            "missing_movements": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "track_ids": [],
+            "source": "https://www.esm.rochester.edu/beethoven/symphony-no-4/",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+          },
+          {
+            "target": "Sinfornia N. 5 In Do Minore, Op. 67",
+            "status": "incomplete",
+            "expected_movements": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "observed_movements": [],
+            "missing_movements": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "track_ids": [],
+            "source": "https://www.laphil.com/works/symphony-no-5-in-c-minor-op-67",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "finding": "unresolved_work_credit_or_completeness"
+    },
+    {
+      "discogs_id": "11887204",
+      "target_title": "Sinfonia N°4  - Sinfonia N°5",
+      "album_id": "0886446345741",
+      "candidate_title": "Beethoven: Violin Concerto in D Major, Op. 61 & Piano Concerto No. 3 in C Minor, Op. 37",
+      "candidate_artist": "Arturo Toscanini",
+      "queries": [
+        "arturo toscanini beethoven"
+      ],
+      "cached_complete_metadata": true,
+      "assessment": {
+        "status": "unchecked",
+        "confidence": null,
+        "coverage": 0.0,
+        "covered": 0,
+        "target_count": 2,
+        "required_performers": [
+          "Arturo Toscanini",
+          "NBC Symphony Orchestra"
+        ],
+        "programme": [
+          {
+            "target": "Sinfonia N. 4 In Si Bemolle Maggiore, Op. 60",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Sinfornia N. 5 In Do Minore, Op. 67",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          }
+        ],
+        "reasons": [
+          "0/2 target items supported after composer/work grouping; unresolved."
+        ]
+      },
+      "completeness": {
+        "status": "incomplete",
+        "works": [
+          {
+            "target": "Sinfonia N. 4 In Si Bemolle Maggiore, Op. 60",
+            "status": "incomplete",
+            "expected_movements": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "observed_movements": [],
+            "missing_movements": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "track_ids": [],
+            "source": "https://www.esm.rochester.edu/beethoven/symphony-no-4/",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+          },
+          {
+            "target": "Sinfornia N. 5 In Do Minore, Op. 67",
+            "status": "incomplete",
+            "expected_movements": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "observed_movements": [],
+            "missing_movements": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "track_ids": [],
+            "source": "https://www.laphil.com/works/symphony-no-5-in-c-minor-op-67",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "finding": "unresolved_work_credit_or_completeness"
+    },
+    {
+      "discogs_id": "11887204",
+      "target_title": "Sinfonia N°4  - Sinfonia N°5",
+      "album_id": "0828765570220",
+      "candidate_title": "Beethoven: Symphonies 1-9",
+      "candidate_artist": "Arturo Toscanini",
+      "queries": [
+        "arturo toscanini beethoven op 60"
+      ],
+      "cached_complete_metadata": true,
+      "assessment": {
+        "status": "unchecked",
+        "confidence": null,
+        "coverage": 0.0,
+        "covered": 0,
+        "target_count": 2,
+        "required_performers": [
+          "Arturo Toscanini",
+          "NBC Symphony Orchestra"
+        ],
+        "programme": [
+          {
+            "target": "Sinfonia N. 4 In Si Bemolle Maggiore, Op. 60",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Sinfornia N. 5 In Do Minore, Op. 67",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          }
+        ],
+        "reasons": [
+          "0/2 target items supported after composer/work grouping; unresolved."
+        ]
+      },
+      "completeness": {
+        "status": "incomplete",
+        "works": [
+          {
+            "target": "Sinfonia N. 4 In Si Bemolle Maggiore, Op. 60",
+            "status": "incomplete",
+            "expected_movements": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "observed_movements": [],
+            "missing_movements": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "track_ids": [],
+            "source": "https://www.esm.rochester.edu/beethoven/symphony-no-4/",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+          },
+          {
+            "target": "Sinfornia N. 5 In Do Minore, Op. 67",
+            "status": "incomplete",
+            "expected_movements": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "observed_movements": [],
+            "missing_movements": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "track_ids": [],
+            "source": "https://www.laphil.com/works/symphony-no-5-in-c-minor-op-67",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "finding": "unresolved_work_credit_or_completeness"
+    },
+    {
+      "discogs_id": "11887204",
+      "target_title": "Sinfonia N°4  - Sinfonia N°5",
+      "album_id": "0017685120329",
+      "candidate_title": "Ludwig van Beethoven: Complete Symphonies & Selected Overtures (1939)",
+      "candidate_artist": "Arturo Toscanini",
+      "queries": [
+        "arturo toscanini beethoven op 60"
+      ],
+      "cached_complete_metadata": true,
+      "assessment": {
+        "status": "unchecked",
+        "confidence": null,
+        "coverage": 0.0,
+        "covered": 0,
+        "target_count": 2,
+        "required_performers": [
+          "Arturo Toscanini",
+          "NBC Symphony Orchestra"
+        ],
+        "programme": [
+          {
+            "target": "Sinfonia N. 4 In Si Bemolle Maggiore, Op. 60",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Sinfornia N. 5 In Do Minore, Op. 67",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          }
+        ],
+        "reasons": [
+          "0/2 target items supported after composer/work grouping; unresolved."
+        ]
+      },
+      "completeness": {
+        "status": "incomplete",
+        "works": [
+          {
+            "target": "Sinfonia N. 4 In Si Bemolle Maggiore, Op. 60",
+            "status": "incomplete",
+            "expected_movements": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "observed_movements": [],
+            "missing_movements": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "track_ids": [],
+            "source": "https://www.esm.rochester.edu/beethoven/symphony-no-4/",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+          },
+          {
+            "target": "Sinfornia N. 5 In Do Minore, Op. 67",
+            "status": "incomplete",
+            "expected_movements": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "observed_movements": [],
+            "missing_movements": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "track_ids": [],
+            "source": "https://www.laphil.com/works/symphony-no-5-in-c-minor-op-67",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "finding": "unresolved_work_credit_or_completeness"
+    },
+    {
+      "discogs_id": "11887204",
+      "target_title": "Sinfonia N°4  - Sinfonia N°5",
+      "album_id": "0743216665624",
+      "candidate_title": "Beethoven: Symphonies 1-9",
+      "candidate_artist": "Arturo Toscanini",
+      "queries": [
+        "arturo toscanini beethoven op 60"
+      ],
+      "cached_complete_metadata": true,
+      "assessment": {
+        "status": "unchecked",
+        "confidence": null,
+        "coverage": 0.0,
+        "covered": 0,
+        "target_count": 2,
+        "required_performers": [
+          "Arturo Toscanini",
+          "NBC Symphony Orchestra"
+        ],
+        "programme": [
+          {
+            "target": "Sinfonia N. 4 In Si Bemolle Maggiore, Op. 60",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Sinfornia N. 5 In Do Minore, Op. 67",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          }
+        ],
+        "reasons": [
+          "0/2 target items supported after composer/work grouping; unresolved."
+        ]
+      },
+      "completeness": {
+        "status": "incomplete",
+        "works": [
+          {
+            "target": "Sinfonia N. 4 In Si Bemolle Maggiore, Op. 60",
+            "status": "incomplete",
+            "expected_movements": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "observed_movements": [],
+            "missing_movements": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "track_ids": [],
+            "source": "https://www.esm.rochester.edu/beethoven/symphony-no-4/",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+          },
+          {
+            "target": "Sinfornia N. 5 In Do Minore, Op. 67",
+            "status": "incomplete",
+            "expected_movements": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "observed_movements": [],
+            "missing_movements": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "track_ids": [],
+            "source": "https://www.laphil.com/works/symphony-no-5-in-c-minor-op-67",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "finding": "unresolved_work_credit_or_completeness"
+    },
+    {
+      "discogs_id": "11887204",
+      "target_title": "Sinfonia N°4  - Sinfonia N°5",
+      "album_id": "0886446344379",
+      "candidate_title": "Beethoven: Symphony No. 6 in F Major, Op. 68 \"Pastorale\" & Symphony No. 4 in B-Flat Major, Op. 60",
+      "candidate_artist": "Arturo Toscanini",
+      "queries": [
+        "arturo toscanini beethoven op 60"
+      ],
+      "cached_complete_metadata": true,
+      "assessment": {
+        "status": "unchecked",
+        "confidence": null,
+        "coverage": 0.0,
+        "covered": 0,
+        "target_count": 2,
+        "required_performers": [
+          "Arturo Toscanini",
+          "NBC Symphony Orchestra"
+        ],
+        "programme": [
+          {
+            "target": "Sinfonia N. 4 In Si Bemolle Maggiore, Op. 60",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Sinfornia N. 5 In Do Minore, Op. 67",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          }
+        ],
+        "reasons": [
+          "0/2 target items supported after composer/work grouping; unresolved."
+        ]
+      },
+      "completeness": {
+        "status": "incomplete",
+        "works": [
+          {
+            "target": "Sinfonia N. 4 In Si Bemolle Maggiore, Op. 60",
+            "status": "incomplete",
+            "expected_movements": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "observed_movements": [],
+            "missing_movements": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "track_ids": [],
+            "source": "https://www.esm.rochester.edu/beethoven/symphony-no-4/",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+          },
+          {
+            "target": "Sinfornia N. 5 In Do Minore, Op. 67",
+            "status": "incomplete",
+            "expected_movements": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "observed_movements": [],
+            "missing_movements": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "track_ids": [],
+            "source": "https://www.laphil.com/works/symphony-no-5-in-c-minor-op-67",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "finding": "unresolved_work_credit_or_completeness"
+    },
+    {
+      "discogs_id": "11887204",
+      "target_title": "Sinfonia N°4  - Sinfonia N°5",
+      "album_id": "fnguaqnvtv9ic",
+      "candidate_title": "Ludwig Van Beethoven: Symphony No. 2 in D Major, Op. 36 - Symphony No.4 in B-Flat Major, Op. 60",
+      "candidate_artist": "Arturo Toscanini",
+      "queries": [
+        "arturo toscanini beethoven op 60"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "14934969",
+      "target_title": "Sinfonia No. 6 In Fa Maggiore Op. 68 <<Pastorale>> / Ouverture Leonora No. 1, Op. 138",
+      "album_id": "vrg5q0y8vzvaa",
+      "candidate_title": "Beethoven: The 9 Symphonies & Overtures (Remastered)",
+      "candidate_artist": "Otto Klemperer",
+      "queries": [
+        "otto klemperer beethoven"
+      ],
+      "cached_complete_metadata": true,
+      "assessment": {
+        "status": "probable",
+        "confidence": 0.85,
+        "coverage": 1.0,
+        "covered": 2,
+        "target_count": 2,
+        "required_performers": [
+          "Otto Klemperer",
+          "Philharmonia Orchestra"
+        ],
+        "programme": [
+          {
+            "target": "Sinfonia No. 6 In Fa Maggiore Op. 68 <<Pastorale>> ",
+            "work_tracks": 5,
+            "credited_tracks": 5,
+            "track_ids": [
+              353969785,
+              353969786,
+              353969787,
+              353969788,
+              353969789
+            ]
+          },
+          {
+            "target": "<<Leonore>> Ouverture No. 1, Op. 138",
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              353969810
+            ]
+          }
+        ],
+        "reasons": [
+          "Each target item has supporting work and performer credits.",
+          "Grouped movements or extra recordings require review; recording identity is not confirmed."
+        ]
+      },
+      "completeness": {
+        "status": "unknown",
+        "works": [
+          {
+            "target": "Sinfonia No. 6 In Fa Maggiore Op. 68 <<Pastorale>> ",
+            "status": "complete",
+            "expected_movements": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "observed_movements": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "missing_movements": [],
+            "track_ids": [
+              353969785,
+              353969786,
+              353969787,
+              353969788,
+              353969789
+            ],
+            "source": "https://www.esm.rochester.edu/beethoven/symphony-no-6/",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+          },
+          {
+            "target": "<<Leonore>> Ouverture No. 1, Op. 138",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "finding": "unresolved_work_credit_or_completeness"
+    },
+    {
+      "discogs_id": "14934969",
+      "target_title": "Sinfonia No. 6 In Fa Maggiore Op. 68 <<Pastorale>> / Ouverture Leonora No. 1, Op. 138",
+      "album_id": "j36029gm33qya",
+      "candidate_title": "Beethoven: Symphonies Nos. 7 & 8, Leonore Overtures Nos. 1 - 3 & Fidelio's Overture (Remastered)",
+      "candidate_artist": "Otto Klemperer",
+      "queries": [
+        "otto klemperer beethoven"
+      ],
+      "cached_complete_metadata": true,
+      "assessment": {
+        "status": "unchecked",
+        "confidence": null,
+        "coverage": 0.5,
+        "covered": 1,
+        "target_count": 2,
+        "required_performers": [
+          "Otto Klemperer",
+          "Philharmonia Orchestra"
+        ],
+        "programme": [
+          {
+            "target": "Sinfonia No. 6 In Fa Maggiore Op. 68 <<Pastorale>> ",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "<<Leonore>> Ouverture No. 1, Op. 138",
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              360188013
+            ]
+          }
+        ],
+        "reasons": [
+          "1/2 target items supported after composer/work grouping; unresolved."
+        ]
+      },
+      "completeness": {
+        "status": "incomplete",
+        "works": [
+          {
+            "target": "Sinfonia No. 6 In Fa Maggiore Op. 68 <<Pastorale>> ",
+            "status": "incomplete",
+            "expected_movements": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "observed_movements": [],
+            "missing_movements": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "track_ids": [],
+            "source": "https://www.esm.rochester.edu/beethoven/symphony-no-6/",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+          },
+          {
+            "target": "<<Leonore>> Ouverture No. 1, Op. 138",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "finding": "unresolved_work_credit_or_completeness"
+    },
+    {
+      "discogs_id": "14934969",
+      "target_title": "Sinfonia No. 6 In Fa Maggiore Op. 68 <<Pastorale>> / Ouverture Leonora No. 1, Op. 138",
+      "album_id": "m9u4tuh82pbqa",
+      "candidate_title": "Wagner Ride of the Valkyries - Mozart, Beethoven, Bach, Mendelssohn",
+      "candidate_artist": "Otto Klemperer",
+      "queries": [
+        "otto klemperer beethoven"
+      ],
+      "cached_complete_metadata": true,
+      "assessment": {
+        "status": "unchecked",
+        "confidence": null,
+        "coverage": 0.0,
+        "covered": 0,
+        "target_count": 2,
+        "required_performers": [
+          "Otto Klemperer",
+          "Philharmonia Orchestra"
+        ],
+        "programme": [
+          {
+            "target": "Sinfonia No. 6 In Fa Maggiore Op. 68 <<Pastorale>> ",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "<<Leonore>> Ouverture No. 1, Op. 138",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          }
+        ],
+        "reasons": [
+          "0/2 target items supported after composer/work grouping; unresolved."
+        ]
+      },
+      "completeness": {
+        "status": "incomplete",
+        "works": [
+          {
+            "target": "Sinfonia No. 6 In Fa Maggiore Op. 68 <<Pastorale>> ",
+            "status": "incomplete",
+            "expected_movements": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "observed_movements": [],
+            "missing_movements": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "track_ids": [],
+            "source": "https://www.esm.rochester.edu/beethoven/symphony-no-6/",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+          },
+          {
+            "target": "<<Leonore>> Ouverture No. 1, Op. 138",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "finding": "unresolved_work_credit_or_completeness"
+    },
+    {
+      "discogs_id": "14934969",
+      "target_title": "Sinfonia No. 6 In Fa Maggiore Op. 68 <<Pastorale>> / Ouverture Leonora No. 1, Op. 138",
+      "album_id": "q5fidlie65aic",
+      "candidate_title": "Beethoven: Fidelio, Op. 72",
+      "candidate_artist": "Christa Ludwig",
+      "queries": [
+        "otto klemperer beethoven"
+      ],
+      "cached_complete_metadata": true,
+      "assessment": {
+        "status": "unchecked",
+        "confidence": null,
+        "coverage": 0.5,
+        "covered": 1,
+        "target_count": 2,
+        "required_performers": [
+          "Otto Klemperer",
+          "Philharmonia Orchestra"
+        ],
+        "programme": [
+          {
+            "target": "Sinfonia No. 6 In Fa Maggiore Op. 68 <<Pastorale>> ",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "<<Leonore>> Ouverture No. 1, Op. 138",
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              236487062
+            ]
+          }
+        ],
+        "reasons": [
+          "1/2 target items supported after composer/work grouping; unresolved."
+        ]
+      },
+      "completeness": {
+        "status": "incomplete",
+        "works": [
+          {
+            "target": "Sinfonia No. 6 In Fa Maggiore Op. 68 <<Pastorale>> ",
+            "status": "incomplete",
+            "expected_movements": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "observed_movements": [],
+            "missing_movements": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "track_ids": [],
+            "source": "https://www.esm.rochester.edu/beethoven/symphony-no-6/",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+          },
+          {
+            "target": "<<Leonore>> Ouverture No. 1, Op. 138",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "finding": "unresolved_work_credit_or_completeness"
+    },
+    {
+      "discogs_id": "14934969",
+      "target_title": "Sinfonia No. 6 In Fa Maggiore Op. 68 <<Pastorale>> / Ouverture Leonora No. 1, Op. 138",
+      "album_id": "bo905xkdctroc",
+      "candidate_title": "Beethoven: Piano Concertos Nos. 2 & 5 \"Emperor\"",
+      "candidate_artist": "Daniel Barenboim",
+      "queries": [
+        "otto klemperer beethoven"
+      ],
+      "cached_complete_metadata": true,
+      "assessment": {
+        "status": "unchecked",
+        "confidence": null,
+        "coverage": 0.0,
+        "covered": 0,
+        "target_count": 2,
+        "required_performers": [
+          "Otto Klemperer",
+          "Philharmonia Orchestra"
+        ],
+        "programme": [
+          {
+            "target": "Sinfonia No. 6 In Fa Maggiore Op. 68 <<Pastorale>> ",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "<<Leonore>> Ouverture No. 1, Op. 138",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          }
+        ],
+        "reasons": [
+          "0/2 target items supported after composer/work grouping; unresolved."
+        ]
+      },
+      "completeness": {
+        "status": "incomplete",
+        "works": [
+          {
+            "target": "Sinfonia No. 6 In Fa Maggiore Op. 68 <<Pastorale>> ",
+            "status": "incomplete",
+            "expected_movements": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "observed_movements": [],
+            "missing_movements": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "track_ids": [],
+            "source": "https://www.esm.rochester.edu/beethoven/symphony-no-6/",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+          },
+          {
+            "target": "<<Leonore>> Ouverture No. 1, Op. 138",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "finding": "unresolved_work_credit_or_completeness"
+    },
+    {
+      "discogs_id": "14934969",
+      "target_title": "Sinfonia No. 6 In Fa Maggiore Op. 68 <<Pastorale>> / Ouverture Leonora No. 1, Op. 138",
+      "album_id": "5099992803350",
+      "candidate_title": "Beethoven: Symphony No. 6, Leonore Overture No. 1",
+      "candidate_artist": "Otto Klemperer",
+      "queries": [
+        "otto klemperer beethoven op 138"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "14934969",
+      "target_title": "Sinfonia No. 6 In Fa Maggiore Op. 68 <<Pastorale>> / Ouverture Leonora No. 1, Op. 138",
+      "album_id": "0724356774056",
+      "candidate_title": "Beethoven: Symphony No. 3 \"Eroica\" - Overtures: \"Leonore\" Nos. 1 & 2",
+      "candidate_artist": "Otto Klemperer",
+      "queries": [
+        "otto klemperer beethoven op 138"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "14934969",
+      "target_title": "Sinfonia No. 6 In Fa Maggiore Op. 68 <<Pastorale>> / Ouverture Leonora No. 1, Op. 138",
+      "album_id": "qmle032m05vsc",
+      "candidate_title": "Beethoven: Fidelio Overture, Op. 72b & Leonore Overtures Nos. 1, 2 & 3, Op. 138",
+      "candidate_artist": "Otto Klemperer",
+      "queries": [
+        "otto klemperer beethoven op 138"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "14934969",
+      "target_title": "Sinfonia No. 6 In Fa Maggiore Op. 68 <<Pastorale>> / Ouverture Leonora No. 1, Op. 138",
+      "album_id": "z9oezcxflr8ia",
+      "candidate_title": "Beethoven: Leonore Overture No. 2 in C Major, Op. 138",
+      "candidate_artist": "Otto Klemperer",
+      "queries": [
+        "otto klemperer beethoven op 138"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "14934969",
+      "target_title": "Sinfonia No. 6 In Fa Maggiore Op. 68 <<Pastorale>> / Ouverture Leonora No. 1, Op. 138",
+      "album_id": "y57syjf64muya",
+      "candidate_title": "Beethoven: Leonore Overture No. 1 in C Major, Op. 138",
+      "candidate_artist": "Otto Klemperer",
+      "queries": [
+        "otto klemperer beethoven op 138"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "31515947",
+      "target_title": "Sinfonia N. 9 In Re Minore, Op. 125, \"Corale\"",
+      "album_id": "u2gtrj05aqv5a",
+      "candidate_title": "Beethoven: Symphony No. 9 \"Choral\" (Live)",
+      "candidate_artist": "Wilhelm Furtwängler",
+      "queries": [
+        "wilhelm furtwangler beethoven"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "31515947",
+      "target_title": "Sinfonia N. 9 In Re Minore, Op. 125, \"Corale\"",
+      "album_id": "x18f607es44qa",
+      "candidate_title": "Beethoven: Symphonies Nos. 4 & 7",
+      "candidate_artist": "Wilhelm Furtwängler",
+      "queries": [
+        "wilhelm furtwangler beethoven"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "31515947",
+      "target_title": "Sinfonia N. 9 In Re Minore, Op. 125, \"Corale\"",
+      "album_id": "tfgtrk2rlz5lb",
+      "candidate_title": "Beethoven: Symphonies Nos. 3 \"Eroica\", 5 & 6 \"Pastoral\"",
+      "candidate_artist": "Wilhelm Furtwängler",
+      "queries": [
+        "wilhelm furtwangler beethoven"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "31515947",
+      "target_title": "Sinfonia N. 9 In Re Minore, Op. 125, \"Corale\"",
+      "album_id": "xy83gy5hg20sa",
+      "candidate_title": "Franz Schubert: Symphony No. 9 - Ludwig van Beethoven: Symphony No. 9 (Finale)",
+      "candidate_artist": "Wilhelm Furtwängler",
+      "queries": [
+        "wilhelm furtwangler beethoven"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "31515947",
+      "target_title": "Sinfonia N. 9 In Re Minore, Op. 125, \"Corale\"",
+      "album_id": "t8n76q1dfe8ub",
+      "candidate_title": "Furtwängler Remastered: Beethoven, Wagner, Mozart, Strauss, Brahms",
+      "candidate_artist": "Wilhelm Furtwängler",
+      "queries": [
+        "wilhelm furtwangler beethoven"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "31515947",
+      "target_title": "Sinfonia N. 9 In Re Minore, Op. 125, \"Corale\"",
+      "album_id": "q8ou90nhxf7ac",
+      "candidate_title": "Beethoven: Symphony No. 9 in D Minor, Op. 125 \"Choral\" ",
+      "candidate_artist": "Bayreuth Festival Orchestra",
+      "queries": [
+        "wilhelm furtwangler beethoven op 125"
+      ],
+      "cached_complete_metadata": true,
+      "assessment": {
+        "status": "unchecked",
+        "confidence": null,
+        "coverage": 0.0,
+        "covered": 0,
+        "target_count": 1,
+        "required_performers": [
+          "Wilhelm Furtwängler",
+          "Orchester der Bayreuther Festspiele",
+          "Chor der Bayreuther Festspiele",
+          "Elisabeth Schwarzkopf",
+          "Hans Hopf"
+        ],
+        "programme": [
+          {
+            "target": "Sinfonia N. 9 In Re Minore Op. 125 - \"Corale\"",
+            "work_tracks": 4,
+            "credited_tracks": 0,
+            "track_ids": []
+          }
+        ],
+        "reasons": [
+          "0/1 target items supported after composer/work grouping; unresolved."
+        ]
+      },
+      "completeness": {
+        "status": "incomplete",
+        "works": [
+          {
+            "target": "Sinfonia N. 9 In Re Minore Op. 125 - \"Corale\"",
+            "status": "incomplete",
+            "expected_movements": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "observed_movements": [],
+            "missing_movements": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "track_ids": [],
+            "source": "https://www.esm.rochester.edu/beethoven/symphony-no-9/",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "finding": "unresolved_work_credit_or_completeness"
+    },
+    {
+      "discogs_id": "31515947",
+      "target_title": "Sinfonia N. 9 In Re Minore, Op. 125, \"Corale\"",
+      "album_id": "0724356690158",
+      "candidate_title": "Beethoven: Symphony No. 9, Op. 125 \"Choral\"",
+      "candidate_artist": "Wilhelm Furtwängler",
+      "queries": [
+        "wilhelm furtwangler beethoven op 125"
+      ],
+      "cached_complete_metadata": false,
+      "finding": "metadata_not_available"
+    },
+    {
+      "discogs_id": "31515947",
+      "target_title": "Sinfonia N. 9 In Re Minore, Op. 125, \"Corale\"",
+      "album_id": "q4jnzvdu2cxzb",
+      "candidate_title": "Beethoven: Symphony No. 9 in D Minor, Op. 125 \"Choral\"",
+      "candidate_artist": "Elisabeth Schwarzkopf",
+      "queries": [
+        "wilhelm furtwangler beethoven op 125"
+      ],
+      "cached_complete_metadata": true,
+      "assessment": {
+        "status": "unchecked",
+        "confidence": null,
+        "coverage": 0.0,
+        "covered": 0,
+        "target_count": 1,
+        "required_performers": [
+          "Wilhelm Furtwängler",
+          "Orchester der Bayreuther Festspiele",
+          "Chor der Bayreuther Festspiele",
+          "Elisabeth Schwarzkopf",
+          "Hans Hopf"
+        ],
+        "programme": [
+          {
+            "target": "Sinfonia N. 9 In Re Minore Op. 125 - \"Corale\"",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          }
+        ],
+        "reasons": [
+          "0/1 target items supported after composer/work grouping; unresolved."
+        ]
+      },
+      "completeness": {
+        "status": "incomplete",
+        "works": [
+          {
+            "target": "Sinfonia N. 9 In Re Minore Op. 125 - \"Corale\"",
+            "status": "incomplete",
+            "expected_movements": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "observed_movements": [],
+            "missing_movements": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "track_ids": [],
+            "source": "https://www.esm.rochester.edu/beethoven/symphony-no-9/",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "finding": "unresolved_work_credit_or_completeness"
+    },
+    {
+      "discogs_id": "31515947",
+      "target_title": "Sinfonia N. 9 In Re Minore, Op. 125, \"Corale\"",
+      "album_id": "ny2volmophw9a",
+      "candidate_title": "Beethoven: Symphony No. 9 in D Minor, Op. 125 \"Choral\" (Live)",
+      "candidate_artist": "Berliner Philharmoniker",
+      "queries": [
+        "wilhelm furtwangler beethoven op 125"
+      ],
+      "cached_complete_metadata": true,
+      "assessment": {
+        "status": "unchecked",
+        "confidence": null,
+        "coverage": 0.0,
+        "covered": 0,
+        "target_count": 1,
+        "required_performers": [
+          "Wilhelm Furtwängler",
+          "Orchester der Bayreuther Festspiele",
+          "Chor der Bayreuther Festspiele",
+          "Elisabeth Schwarzkopf",
+          "Hans Hopf"
+        ],
+        "programme": [
+          {
+            "target": "Sinfonia N. 9 In Re Minore Op. 125 - \"Corale\"",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          }
+        ],
+        "reasons": [
+          "0/1 target items supported after composer/work grouping; unresolved."
+        ]
+      },
+      "completeness": {
+        "status": "incomplete",
+        "works": [
+          {
+            "target": "Sinfonia N. 9 In Re Minore Op. 125 - \"Corale\"",
+            "status": "incomplete",
+            "expected_movements": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "observed_movements": [],
+            "missing_movements": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "track_ids": [],
+            "source": "https://www.esm.rochester.edu/beethoven/symphony-no-9/",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "finding": "unresolved_work_credit_or_completeness"
+    },
+    {
+      "discogs_id": "31515947",
+      "target_title": "Sinfonia N. 9 In Re Minore, Op. 125, \"Corale\"",
+      "album_id": "jeynb4mo98pgc",
+      "candidate_title": "Beethoven: Symphony No. 9 in D Minor, Op. 125 \"Choral\" (Live)",
+      "candidate_artist": "Wiener Philharmonic Orchestra",
+      "queries": [
+        "wilhelm furtwangler beethoven op 125"
+      ],
+      "cached_complete_metadata": true,
+      "assessment": {
+        "status": "unchecked",
+        "confidence": null,
+        "coverage": 0.0,
+        "covered": 0,
+        "target_count": 1,
+        "required_performers": [
+          "Wilhelm Furtwängler",
+          "Orchester der Bayreuther Festspiele",
+          "Chor der Bayreuther Festspiele",
+          "Elisabeth Schwarzkopf",
+          "Hans Hopf"
+        ],
+        "programme": [
+          {
+            "target": "Sinfonia N. 9 In Re Minore Op. 125 - \"Corale\"",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          }
+        ],
+        "reasons": [
+          "0/1 target items supported after composer/work grouping; unresolved."
+        ]
+      },
+      "completeness": {
+        "status": "incomplete",
+        "works": [
+          {
+            "target": "Sinfonia N. 9 In Re Minore Op. 125 - \"Corale\"",
+            "status": "incomplete",
+            "expected_movements": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "observed_movements": [],
+            "missing_movements": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "track_ids": [],
+            "source": "https://www.esm.rochester.edu/beethoven/symphony-no-9/",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "finding": "unresolved_work_credit_or_completeness"
+    }
+  ],
+  "limitations": [
+    "Offline screen only; no new metadata calls or publication changes.",
+    "Parser/credit/completeness failures are unresolved, not confirmed wrong recordings or catalogue absence.",
+    "Relevance scores do not validate recording identity; current trial reporting uses the queried headline artist.",
+    "Selected leads need full movement/credit and recording-family review before acceptance."
+  ]
+}

@@ -1,0 +1,142 @@
+{
+  "schema_version": 1,
+  "metadata_sha256": "6bf5d6039af872d3362c56899455b470ad6cb4cb9dee2e4cdb8f7caeb9df7123",
+  "entries": [
+    {
+      "discogs_id": "1132104",
+      "album_id": "0002894631652",
+      "tracks": 71,
+      "assessment": {
+        "status": "unchecked",
+        "confidence": null,
+        "coverage": 0.0,
+        "covered": 0,
+        "target_count": 2,
+        "required_performers": [
+          "Jan Šírc",
+          "Prague String Quartet",
+          "Břetislav Novotný",
+          "Karel Přibyl"
+        ],
+        "programme": [
+          {
+            "target": "Streichquartett Nr. 10 Es-Dur Op.51",
+            "work_tracks": 4,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Streichquartett Nr. 8 E-Dur",
+            "work_tracks": 8,
+            "credited_tracks": 0,
+            "track_ids": []
+          }
+        ],
+        "reasons": [
+          "0/2 target items supported after composer/work grouping; unresolved."
+        ]
+      },
+      "completeness": {
+        "status": "unknown",
+        "works": [
+          {
+            "target": "Streichquartett Nr. 10 Es-Dur Op.51",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Streichquartett Nr. 8 E-Dur",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "finding": "Named individual quartet members remain unsupported by current candidate credits; unnamed No.8 heading also needs disambiguation. Not a confirmed wrong recording."
+    },
+    {
+      "discogs_id": "14934969",
+      "album_id": "5099992803350",
+      "tracks": 6,
+      "assessment": {
+        "status": "probable",
+        "confidence": 0.85,
+        "coverage": 1.0,
+        "covered": 2,
+        "target_count": 2,
+        "required_performers": [
+          "Otto Klemperer",
+          "Philharmonia Orchestra"
+        ],
+        "programme": [
+          {
+            "target": "Sinfonia No. 6 In Fa Maggiore Op. 68 <<Pastorale>> ",
+            "work_tracks": 5,
+            "credited_tracks": 5,
+            "track_ids": [
+              8428954,
+              8428955,
+              8428956,
+              8428957,
+              8428958
+            ]
+          },
+          {
+            "target": "<<Leonore>> Ouverture No. 1, Op. 138",
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              8428959
+            ]
+          }
+        ],
+        "reasons": [
+          "Each target item has supporting work and performer credits.",
+          "Grouped movements or extra recordings require review; recording identity is not confirmed."
+        ]
+      },
+      "completeness": {
+        "status": "unknown",
+        "works": [
+          {
+            "target": "Sinfonia No. 6 In Fa Maggiore Op. 68 <<Pastorale>> ",
+            "status": "complete",
+            "expected_movements": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "observed_movements": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "missing_movements": [],
+            "track_ids": [
+              8428954,
+              8428955,
+              8428956,
+              8428957,
+              8428958
+            ],
+            "source": "https://www.esm.rochester.edu/beethoven/symphony-no-6/",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+          },
+          {
+            "target": "<<Leonore>> Ouverture No. 1, Op. 138",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "finding": "All five Symphony6 movements and Leonore1 carry required credits. Overture completeness and 1957 source recording identity require bounded review before publication."
+    }
+  ],
+  "policy": "Offline findings only; no automatic publication. Exact recording identity remains to be reviewed."
+}

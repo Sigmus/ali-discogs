@@ -44,9 +44,15 @@ documented in a linked plan. Implementation is a separate step.
 Status: user-authorized [round2](../plans/2026-11-13-qobuz-round2.md) complete:
 3new bounded Probables (Klemperer,Ancerl,deVito),40slow searches for20empty
 releases recover hits for18;2selected metadata fetches (15tracks), no warnings.
-Richter pair remains unresolved for source catalogue/key conflicts. Further work
-is proposed: verify that bounded correction, shorten title queries and improve
-explicit role/composer normalization. No broad run, push or deployment authorized. Prior bounded offline improvement and30-release comparison complete,
+Round2 committed877bc5a. Follow-up authorized: Richter publisher/credit audit passes
+with bounded source correction; [ten-release query trial](../plans/2026-11-13-qobuz-query-strategy-trial.md)
+compares short performer/composer versus catalogue queries, preserving headline
+ensembles. Trial complete:10/10broad,9/10catalogue queries nonempty;31additional
+candidate pairs, no automatic acceptance. Offline screening completed81pairs:19cached/62uncached, none fully verified.
+Cached Schnabel late-sonata review complete: one Probable with bounded joined
+sections and recording-family evidence. Two-album metadata fetch complete77tracks without warnings. Klemperer programme/
+credits and bounded recording/overture review complete: one new Probable. Dvorak individual
+member credits and No.8 work disambiguation unresolved; no promotion. No broad run, push or deployment authorized. Prior bounded offline improvement and30-release comparison complete,
 including twenty slow Qobuz fallback queries and eight album metadata inspections. See
 [comparison plan](../plans/2026-11-13-service-comparison-pilot.md). Further expansion
 remains proposed. See [pilot and review](../plans/2026-11-13-qobuz-coverage-pilot.md).

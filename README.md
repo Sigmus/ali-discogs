@@ -200,3 +200,13 @@ Run `uv run --with requests python scripts/qobuz_round2.py --audit` for offline
 review reports. `--search` and `--metadata` explicitly use fixed saved scopes and
 the slow STOP/no-retry worker; default mode only prepares offline. See the
 [round-two findings](docs/plans/2026-11-13-qobuz-round2.md). No background refresh.
+
+The bounded query-strategy experiment and cached Richter review are documented in
+[the trial plan](docs/plans/2026-11-13-qobuz-query-strategy-trial.md).
+`data/qobuz_richter_review.json` is a required portable matching input.
+
+`data/qobuz_schnabel_late_review.json` preserves the bounded five-sonata review
+and is a required offline matcher input alongside the comparison archive.
+
+`data/qobuz_trial_recording_reviews.json` and `data/qobuz_query_trial_metadata.json.gz`
+are required portable inputs for the bounded Klemperer follow-up review.

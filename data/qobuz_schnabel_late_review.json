@@ -1,0 +1,369 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-13",
+  "review": {
+    "discogs_id": "2966855",
+    "album_id": "0190295866983",
+    "target_sha256": "8081c1864b17c89dee2a6b75711b6306b99f518149fc71f4829f8f820e578238",
+    "album_sha256": "97f88cb739a80256c19fc8a521ded2d3e8c779121df51be71cbf927d7d74335c",
+    "decision": "probable",
+    "recording_review": "All five requested late sonatas have complete, ordered movement support with Artur Schnabel credited. Warner identifies this barcode as the 1932–1938 cycle, consistent with the target notes dating these five sonatas to 1932–1935.",
+    "sources": [
+      "https://www.warnerclassics.com/release/beethoven-complete-piano-sonatas-3"
+    ],
+    "limitations": [
+      "Recording-family support, not independent take verification or the same LP transfer/mastering.",
+      "The target dates individual sonatas to 1932–1935; publisher documentation dates the complete cycle rather than each selected take."
+    ],
+    "works": [
+      {
+        "target": "Piano Sonata No. 29 In B-Flat Major, Op. 106 (\"Hammerklavier\")",
+        "movements": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "scope": "reviewed-whole-work",
+        "source": "Cached target heading and numbered LP movement list; exact candidate track titles",
+        "reason": "All listed movements with required pianist; joined sections reviewed only for this exact track."
+      },
+      {
+        "target": "Piano Sonata No. 28 In A Major, Op. 101",
+        "movements": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "scope": "reviewed-whole-work",
+        "source": "Cached target heading and numbered LP movement list; exact candidate track titles",
+        "reason": "All listed movements with required pianist; joined sections reviewed only for this exact track.",
+        "joined_tracks": {
+          "36924128": {
+            "track_sha256": "afc3e109f54fe4d4941d4832b1c6681f36acc81bdb041c6f9659751fe4918cb7",
+            "movements": [
+              3,
+              4
+            ]
+          }
+        }
+      },
+      {
+        "target": "Piano Sonata No. 30 In E Major, Op. 109",
+        "movements": [
+          1,
+          2,
+          3
+        ],
+        "scope": "reviewed-whole-work",
+        "source": "Cached target heading and numbered LP movement list; exact candidate track titles",
+        "reason": "All listed movements with required pianist; joined sections reviewed only for this exact track."
+      },
+      {
+        "target": "Piano Sonata No. 31 In A-Flat Major, Op. 110",
+        "movements": [
+          1,
+          2,
+          3,
+          4
+        ],
+        "scope": "reviewed-whole-work",
+        "source": "Cached target heading and numbered LP movement list; exact candidate track titles",
+        "reason": "All listed movements with required pianist; joined sections reviewed only for this exact track.",
+        "joined_tracks": {
+          "36924140": {
+            "track_sha256": "0fffac6408b6c71a563beb300298a7498b6925911dd7c211373e3a95dfcdf4d4",
+            "movements": [
+              3,
+              4
+            ]
+          }
+        }
+      },
+      {
+        "target": "Piano Sonata No. 32 In C Minor, Op. 111",
+        "movements": [
+          1,
+          2
+        ],
+        "scope": "reviewed-whole-work",
+        "source": "Cached target heading and numbered LP movement list; exact candidate track titles",
+        "reason": "All listed movements with required pianist; joined sections reviewed only for this exact track."
+      }
+    ],
+    "target_source": {
+      "sha256": "ff4aa253cf788164251d4384bbadbb1a30a72b55ca12551619d215467a533a4a",
+      "title": "The Complete Beethoven Society Recordings, 1932–37 / Vol. 4: Sonatas, Nos. 28–32",
+      "notes": "——Center labels info—— \r\nCherub photo on tan labels\r\n\r\n——Sleeve info—— \r\n3-LP set in hinged box\r\nTracklisting and timings on box back\r\nIncludes 12-page booklet with liner notes in English\r\nIncludes factory printed advertising inner sleeves\r\nRecorded in London, England (Op. 101 recorded 1934, Op. 106 recorded 1935, Op. 109 recorded 1932, Op. 110 recorded 1932, Op. 111 recorded 1932)\r\nManufactured by Capitol Records, Inc.\n",
+      "tracklist": [
+        {
+          "position": "",
+          "type_": "heading",
+          "title": "Piano Sonata No. 29 In B-Flat Major, Op. 106 (\"Hammerklavier\")",
+          "duration": ""
+        },
+        {
+          "position": "A1",
+          "type_": "track",
+          "title": "I. Allegro",
+          "duration": "8:45"
+        },
+        {
+          "position": "A2",
+          "type_": "track",
+          "title": "II. Scherzo (Assai Vivace)",
+          "duration": "2:45"
+        },
+        {
+          "position": "B1a",
+          "type_": "track",
+          "title": "III. Adagio Sostenuto",
+          "duration": ""
+        },
+        {
+          "position": "B1b",
+          "type_": "track",
+          "title": "IV. Introduzione (Largo) – Fuga (Allegro Risoluto)",
+          "duration": "29:15"
+        },
+        {
+          "position": "",
+          "type_": "heading",
+          "title": "Piano Sonata No. 28 In A Major, Op. 101",
+          "duration": ""
+        },
+        {
+          "position": "C1",
+          "type_": "track",
+          "title": "I. Allegretto, Ma Non Troppo",
+          "duration": "3:55"
+        },
+        {
+          "position": "C2",
+          "type_": "track",
+          "title": "II. Vivace Alla Marcia",
+          "duration": "5:30"
+        },
+        {
+          "position": "C3a",
+          "type_": "track",
+          "title": "III. Adagio, Ma Non Troppo, Con Affetto",
+          "duration": ""
+        },
+        {
+          "position": "C3b",
+          "type_": "track",
+          "title": "IV. Allegro",
+          "duration": "10:10"
+        },
+        {
+          "position": "",
+          "type_": "heading",
+          "title": "Piano Sonata No. 30 In E Major, Op. 109",
+          "duration": ""
+        },
+        {
+          "position": "D1a",
+          "type_": "track",
+          "title": "I. Vivace Ma Non Troppo – Adagio Espressivo",
+          "duration": ""
+        },
+        {
+          "position": "D1b",
+          "type_": "track",
+          "title": "II. Prestissimo",
+          "duration": "6:00"
+        },
+        {
+          "position": "D2",
+          "type_": "track",
+          "title": "III. Tema (Andante Molto Cantabile Ed Espressivo) & Variazioni",
+          "duration": "14:00"
+        },
+        {
+          "position": "",
+          "type_": "heading",
+          "title": "Piano Sonata No. 31 In A-Flat Major, Op. 110",
+          "duration": ""
+        },
+        {
+          "position": "E1",
+          "type_": "track",
+          "title": "I. Moderato Cantabile Molto Espressivo",
+          "duration": "6:30"
+        },
+        {
+          "position": "E2a",
+          "type_": "track",
+          "title": "II. Allegro Molto",
+          "duration": ""
+        },
+        {
+          "position": "E2b",
+          "type_": "track",
+          "title": "III. Adagio, Ma Non Troppo",
+          "duration": ""
+        },
+        {
+          "position": "E2c",
+          "type_": "track",
+          "title": "IV. Allegro, Ma Non Troppo",
+          "duration": "11:50"
+        },
+        {
+          "position": "",
+          "type_": "heading",
+          "title": "Piano Sonata No. 32 In C Minor, Op. 111",
+          "duration": ""
+        },
+        {
+          "position": "F1",
+          "type_": "track",
+          "title": "I. Maestoso – Allegro Con Brio Ed Appassionato",
+          "duration": "8:03"
+        },
+        {
+          "position": "F2",
+          "type_": "track",
+          "title": "II. Arietta (Adagio Molto, Semplice E Cantabile) & Variazioni",
+          "duration": "17:57"
+        }
+      ]
+    }
+  },
+  "audit": {
+    "discogs_id": "2966855",
+    "album_id": "0190295866983",
+    "decision": "probable",
+    "recording_review": "All five requested late sonatas have complete, ordered movement support with Artur Schnabel credited. Warner identifies this barcode as the 1932–1938 cycle, consistent with the target notes dating these five sonatas to 1932–1935.",
+    "sources": [
+      "https://www.warnerclassics.com/release/beethoven-complete-piano-sonatas-3"
+    ],
+    "limitations": [
+      "Recording-family support, not independent take verification or the same LP transfer/mastering.",
+      "The target dates individual sonatas to 1932–1935; publisher documentation dates the complete cycle rather than each selected take."
+    ],
+    "eligible": true,
+    "completeness": {
+      "status": "complete",
+      "works": [
+        {
+          "target": "Piano Sonata No. 29 In B-Flat Major, Op. 106 (\"Hammerklavier\")",
+          "status": "complete",
+          "expected_movements": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "observed_movements": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "track_ids": [
+            36924129,
+            36924130,
+            36924131,
+            36924132
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Cached target heading and numbered LP movement list; exact candidate track titles",
+          "reason": "All listed movements with required pianist; joined sections reviewed only for this exact track."
+        },
+        {
+          "target": "Piano Sonata No. 28 In A Major, Op. 101",
+          "status": "complete",
+          "expected_movements": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "observed_movements": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "track_ids": [
+            36924126,
+            36924127,
+            36924128
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Cached target heading and numbered LP movement list; exact candidate track titles",
+          "reason": "All listed movements with required pianist; joined sections reviewed only for this exact track."
+        },
+        {
+          "target": "Piano Sonata No. 30 In E Major, Op. 109",
+          "status": "complete",
+          "expected_movements": [
+            1,
+            2,
+            3
+          ],
+          "observed_movements": [
+            1,
+            2,
+            3
+          ],
+          "track_ids": [
+            36924135,
+            36924136,
+            36924137
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Cached target heading and numbered LP movement list; exact candidate track titles",
+          "reason": "All listed movements with required pianist; joined sections reviewed only for this exact track."
+        },
+        {
+          "target": "Piano Sonata No. 31 In A-Flat Major, Op. 110",
+          "status": "complete",
+          "expected_movements": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "observed_movements": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "track_ids": [
+            36924138,
+            36924139,
+            36924140
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Cached target heading and numbered LP movement list; exact candidate track titles",
+          "reason": "All listed movements with required pianist; joined sections reviewed only for this exact track."
+        },
+        {
+          "target": "Piano Sonata No. 32 In C Minor, Op. 111",
+          "status": "complete",
+          "expected_movements": [
+            1,
+            2
+          ],
+          "observed_movements": [
+            1,
+            2
+          ],
+          "track_ids": [
+            36924141,
+            36924142
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Cached target heading and numbered LP movement list; exact candidate track titles",
+          "reason": "All listed movements with required pianist; joined sections reviewed only for this exact track."
+        }
+      ],
+      "overlapping_target_tracks": false
+    }
+  }
+}
