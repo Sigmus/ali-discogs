@@ -345,3 +345,15 @@ records that file name and a recording-specific reason. The Hungarian Quartet
 is the file’s Hungarian String Quartet. Naming the Amadeus Quartet does not
 supply Norbert Brainin, Peter Schidlof, or Martin Lovett. Klien 12329947 stays
 unpublished. Cap at Probable 85. A later digital file is not the LP pressing.
+
+## 2026-11-13 — A verified publication continues without another prompt
+
+Status: adopted for the fail-closed Qobuz enrichment pass.
+
+Once that pass is started, each publication that passes its tests, the build,
+and the explorer check is committed locally, and the next cached candidate is
+reviewed in the same turn. A candidate that fails closed is recorded and the
+pass continues. The pass stops when the next step needs a new search, a new
+download, a new review kind, or a decision that is still a proposal. It does
+not push, and it does not search the releases with no saved hit or download
+the metadata-needed albums on its own.

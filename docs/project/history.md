@@ -1019,4 +1019,13 @@ file splits, and Prêtre is not credited on the piano-only numbers. François
 Columbia FCX 30120. Copies 12/93/636, unique 12/93/635. Inventory of the 635
 still unchecked: 305 no saved hits, 12 metadata-needed, 310 work or credit
 gaps, 7 reviewed withholds, and the Barenboim caution. The explorer shows 85%
-and 9/9.
+and 9/9. Commit 8e38da9.
+
+## 2026-11-13 — A verified publication continues without another prompt
+
+A started fail-closed Qobuz pass now commits each publication that passes its
+tests, the build, and the explorer check, then reviews the next cached
+candidate in the same turn. A failed candidate is recorded and the pass
+continues. It stops when the next step needs a new search, a new download, a
+new review kind, or a decision that is still a proposal. No push. The current
+cached band is already judged, so this pass stops there.

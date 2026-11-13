@@ -28,7 +28,10 @@ them in project context.
 Routine documentation upkeep is part of authorized work. A proposed backlog
 item does not authorize implementation. Status or “what's next?” requests call
 for a briefing and recommendation unless execution is also requested. These
-instructions do not authorize automatic commits, pushes, or external changes.
+instructions do not authorize automatic pushes or external changes. A started
+fail-closed Qobuz enrichment pass may commit each verified publication and
+continue to the next cached candidate until it needs a new search, download,
+review kind, or an open proposal.
 
 When the user asks to use WhatsApp, use the native WhatsApp desktop app through
 Computer Use by default.

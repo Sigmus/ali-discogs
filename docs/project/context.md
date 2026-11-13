@@ -92,7 +92,9 @@ plans preserve dated evidence and prior handoffs.
 - Inventory of the 635 still unchecked: 305 no saved hits, 12 metadata-needed,
   310 work or credit gaps, 7 reviewed withholds, and the Barenboim caution.
   Sellheim 7421796 stays an empty query, not confirmed absence.
-- Bitches Brew stays an open proposal. The split Mahler files and the incomplete
-  Franck album stay unpublished. [Bitches Brew credits](../plans/2026-11-13-bitches-brew-credits.md).
-- [Unmatched audit](../plans/2026-11-13-qobuz-unmatched-audit.md).
+- Standing pass: commit each verified publication and review the next cached
+  candidate without another prompt. Stop for a new search, download, review
+  kind, or open proposal. No push. This pass stops: Carnaval needs per-track
+  credits, and François is the Chopin box. Bitches Brew stays a proposal.
+- [Unmatched audit](../plans/2026-11-13-qobuz-unmatched-audit.md). [Bitches Brew credits](../plans/2026-11-13-bitches-brew-credits.md).
 - [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).

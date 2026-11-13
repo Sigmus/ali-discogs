@@ -1,0 +1,23 @@
+---
+description: Continue a started fail-closed Qobuz review without another commit or continue prompt
+alwaysApply: true
+---
+
+# Qobuz enrichment pass
+
+A user message that starts or continues the fail-closed Qobuz enrichment (including “continue” and “commit and continue”) authorizes the rest of that pass. Do not ask for another continue or commit while the pass is running. Do not push.
+
+After a publication passes its tests, `make build`, and the explorer check:
+
+- Commit that batch locally, in the existing message style. One publication per commit. Unpublished judgments from the same pass may share that commit.
+- Review the next cached candidate in the same turn.
+
+Record a candidate that fails closed, then move to the next cached candidate. Do not commit a withhold by itself. Do not drop a named singer, player, or credit to force a match.
+
+Stop and report, without starting new work, when:
+
+- The next step needs a new search, a new album download, a new review kind, or a decision that is still a proposal. That includes the releases with no saved hit, the metadata-needed downloads, Bitches Brew, Barenboim, and the parked half-coverage albums.
+- Tests, the build, or the explorer check fail.
+- The working tree has changes that are not part of this pass.
+
+Say what was published, what was left unpublished, and which stop condition ended the pass.
