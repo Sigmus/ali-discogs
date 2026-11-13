@@ -365,3 +365,9 @@ or Pages publication is part of this push; active search is not restarted.
   compared byte-for-byte with all original responses.
 - Documented collaborator restore/offline sample commands. Included in requested
   local cache-sharing commit; no push, merge, refresh or deployment performed.
+
+## 2026-11-13 — Share Qobuz branch on GitHub
+
+- User requested push. Successfully pushed ad1d7fd and d7c3e98 to
+  origin/codex/qobuz-poc, including portable evidence and request caches.
+- No merge to main or Pages deployment; collaborator checkout is now available.

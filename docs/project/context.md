@@ -7,9 +7,9 @@ explorer. See [README](../../README.md) for setup and architecture.
 
 ## Current state
 
-- Branch `codex/qobuz-poc`; user requested committing portable evidence and
-  related work for Ali. Inspect Git for resulting commit.
-  No merge, push or deployment performed for Qobuz preparation.
+- Branch `codex/qobuz-poc`; portable evidence/matcher/UI (`ad1d7fd`) and full
+  request-cache archive (`d7c3e98`) pushed to origin on 2026-11-13 at user request.
+  Ali can check out the branch. No merge or Pages deployment performed.
 - Original dataset (2026-11-11): 741 copies, Spotify 255 found / 276 probable /
   210 not found. Pipeline JSON still has Qobuz unchecked; explorer overlays the
   separate generated `data/qobuz_matches.json` file so Spotify rescoring cannot
