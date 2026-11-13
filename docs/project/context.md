@@ -12,8 +12,8 @@ plans preserve dated evidence and prior handoffs.
   are not comparable coverage counts; [Tristan evidence](../plans/2026-11-13-cross-service-validation-gap.md).
 
 - Active branch `main`; unmatched audit merged via PR4 as20dc0e8.
-  The eight-album pass is included in the enrichment commits. The live site
-  still shows the previous Qobuz counts until Pages publishes this push.
+  Eight-album pass is d0afc9a. Test run43500811900 and Pages run43500811981
+  succeeded.
 - Current collection:741 copies /740 unique releases. Spotify254Found /273Probable
   /210NotFound /4Unchecked copies. Retained labels are not independent full
   recording confirmations. Qobuz figures below are independent enrichment.
@@ -89,6 +89,8 @@ plans preserve dated evidence and prior handoffs.
 - Michelangeli, Gould and Tristan remain Probable85. Tannhäuser and the later
   Barenboim cycle stay unpublished. Binding tests and normalization passed.
 - Stored unmatched-audit JSON still describes the earlier inventory.
-  Next: no further cached album is within two pieces. Broader coverage stays proposed.
+  Next: refresh that offline inventory. 645 unique releases remain unchecked:
+  3 decided gaps, 46 partial albums below 75%, 243 with no programme overlap,
+  and 353 with no cached candidate. A new band or new searches need a new scope.
 - [Unmatched audit](../plans/2026-11-13-qobuz-unmatched-audit.md).
 - [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).
