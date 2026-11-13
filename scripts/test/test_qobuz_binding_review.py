@@ -18,6 +18,9 @@ class BindingReviewTests(unittest.TestCase):
         extra = json.loads(gzip.decompress((ROOT/'data/qobuz_empty_search_metadata.json.gz').read_bytes()))
         for record in extra['metadata']:
             cls.albums[str(record['album']['id'])] = record['album']
+        follow = json.loads(gzip.decompress((ROOT/'data/qobuz_empty_search_follow_metadata.json.gz').read_bytes()))
+        for record in follow['metadata']:
+            cls.albums[str(record['album']['id'])] = record['album']
         cls.reviews = {r['discogs_id']: r for r in json.loads((ROOT/'data/qobuz_binding_reviews.json').read_text())['releases']}
 
     def review(self, discogs_id):
@@ -36,7 +39,19 @@ class BindingReviewTests(unittest.TestCase):
                 published.append(discogs_id)
             else:
                 self.assertIsNone(candidate)
-        self.assertEqual(published, ['11562013', '3475547', '11168177', '6029612', '5177097', '7525022', '4483876', '7119504', '6472687', '10757104'])
+        self.assertEqual(published, ['11562013', '3475547', '11168177', '6029612', '5177097', '7525022', '4483876', '7119504', '6472687', '10757104', '15980846'])
+
+    def test_an_ensemble_alias_needs_a_reason_and_still_names_the_source_ensemble(self):
+        row, album, review = self.review('15980846')
+        short = copy.deepcopy(review)
+        short['performer_aliases'][0]['reason'] = 'same group'
+        with self.assertRaises(ValueError):
+            assess_bindings(row, album, short)
+        plain = copy.deepcopy(review)
+        plain['performer_aliases'] = []
+        result, _ = assess_bindings(row, album, plain)
+        self.assertFalse(result['eligible'])
+        self.assertIn('performer', result['blockers'])
 
     def test_a_mislabelled_scherzo_or_a_wrong_koechel_number_cannot_be_forced(self):
         row, album, review = self.review('11562013')

@@ -287,6 +287,15 @@ def generate():
         if str(album['id']) != record['task']['album_id'] or len(tracks) != album['tracks_count'] or len({t['id'] for t in tracks}) != len(tracks):
             raise ValueError('Incomplete empty-search metadata')
         round2_albums[str(album['id'])] = album
+    follow_meta_path = ROOT/'data/qobuz_empty_search_follow_metadata.json.gz'
+    follow_meta = json.loads(gzip.decompress(follow_meta_path.read_bytes()))
+    if follow_meta['schema_version'] != 1:
+        raise ValueError('Unsupported follow-up metadata schema')
+    for record in follow_meta['metadata']:
+        album = record['album']; tracks = album['tracks']['items']
+        if str(album['id']) != record['task']['album_id'] or len(tracks) != album['tracks_count'] or len({t['id'] for t in tracks}) != len(tracks):
+            raise ValueError('Incomplete follow-up metadata')
+        round2_albums[str(album['id'])] = album
     for review in unmatched_reviews['releases']:
         if review['discogs_id'] in round2_reviews:
             raise ValueError('Duplicate unmatched review')
@@ -402,6 +411,7 @@ def generate():
               'unmatched_review_fingerprint': hashlib.sha256(unmatched_review_path.read_bytes()).hexdigest(),
               'unmatched_metadata_fingerprint': hashlib.sha256(unmatched_metadata_path.read_bytes()).hexdigest(),
               'empty_search_metadata_fingerprint': hashlib.sha256(empty_meta_path.read_bytes()).hexdigest(),
+              'empty_search_follow_metadata_fingerprint': hashlib.sha256(follow_meta_path.read_bytes()).hexdigest(),
               'trial_review_fingerprint': hashlib.sha256(trial_review_path.read_bytes()).hexdigest(),
               'trial_metadata_fingerprint': hashlib.sha256(trial_metadata_path.read_bytes()).hexdigest(),
               'schnabel_late_review_fingerprint': hashlib.sha256(schnabel_path.read_bytes()).hexdigest(),

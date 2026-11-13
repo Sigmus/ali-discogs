@@ -3,7 +3,7 @@ import hashlib
 import json
 import re
 from qobuz_lead_review import ROOT
-from qobuz_match import agrees, catalogue, credits, norm
+from qobuz_match import agrees, catalogue, credits, norm, person_key
 
 
 def sonata_no(title):
@@ -114,11 +114,19 @@ def assess_bindings(row, album, review):
     tracks = {t['id']: t for t in album['tracks']['items']}
     if missing or {target: ids for target, ids in assigned.items()} != review['expected']:
         raise ValueError('Bound assignment changed')
+    aliases = review.get('performer_aliases') or []
+    for alias in aliases:
+        if (person_key(alias['source']) == person_key(alias['file']) or len(alias.get('reason', '')) < 20
+                or alias['source'] not in review['required_performers']):
+            raise ValueError('A differing performer name needs a recording-specific reason')
     blockers = []
     for ids in assigned.values():
         for track_id in ids:
-            if any(not agrees(name, credits(tracks[track_id])) for name in review['required_performers']):
-                blockers.append('performer')
+            found = credits(tracks[track_id])
+            for name in review['required_performers']:
+                aliased = any(person_key(alias['source']) == person_key(name) and agrees(alias['file'], found) for alias in aliases)
+                if not agrees(name, found) and not aliased:
+                    blockers.append('performer')
     if review.get('movement_runs'):
         for ids in assigned.values():
             labels = []

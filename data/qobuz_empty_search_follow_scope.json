@@ -1,0 +1,27 @@
+{
+  "schema_version": 1,
+  "selected_on": "2026-11-13",
+  "purpose": "Album/get only for two saved hits whose title and performers still match the LP. No new search and no automatic acceptance.",
+  "not_fetched": [
+    {
+      "discogs_id": "5916574",
+      "reason": "The Bruckner 5 hit is Wand with the Berlin Philharmonic in 1996. This LP is the Cologne Radio Symphony in 1977."
+    },
+    {
+      "discogs_id": "7002243",
+      "reason": "The Klemperer Eroica files omit the Fidelio overture or replace it with Leonore overtures."
+    }
+  ],
+  "entries": [
+    {
+      "discogs_id": "12329947",
+      "album_id": "0002894798675",
+      "reason": "DG 1982 file of K. 478 and K. 493 with Walter Klien and the Amadeus Quartet."
+    },
+    {
+      "discogs_id": "15980846",
+      "album_id": "4053166965917",
+      "reason": "Hungarian Quartet in Op. 76 No. 2 and Op. 64 No. 5, eight tracks."
+    }
+  ]
+}

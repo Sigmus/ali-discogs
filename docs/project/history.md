@@ -993,3 +993,17 @@ Copies 12/91/638, unique 12/91/637. Inventory of the 637 still unchecked: 305
 no saved hits, 14 metadata-needed, 310 work or credit gaps, 7 reviewed
 withholds, and the Barenboim caution. The explorer shows 85% and 2/2. The BNF
 file is not verified as that LP. Barbirolli and Cluytens stay unpublished.
+
+## 2026-11-13 — Hungarian Quartet published; Klien stays unpublished
+
+Downloaded the DG Klien/Amadeus file and the Hungarian Quartet Fifths and Lark
+file, 14 tracks. The quartet file has both works, four movements each, and
+credits the Hungarian String Quartet on every track. Probable 85 for 15980846.
+The 2015 file is not the 1958 Columbia pressing. Klien 12329947 has K. 478 and
+K. 493 with Klien and the Amadeus Quartet, but Norbert Brainin, Peter Schidlof,
+and Martin Lovett are not named, so it stays unpublished. Wand’s Bruckner 5
+hit is the Berlin Philharmonic, not Cologne. The Klemperer Eroica files omit
+Fidelio or substitute Leonore overtures, so neither was downloaded. Copies
+12/92/637, unique 12/92/636. Inventory of the 636 still unchecked: 305 no saved
+hits, 12 metadata-needed, 311 work or credit gaps, 7 reviewed withholds, and
+the Barenboim caution. The explorer shows 85% and 2/2.

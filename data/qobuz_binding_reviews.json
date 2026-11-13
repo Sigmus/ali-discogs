@@ -1199,6 +1199,135 @@
           23379286
         ]
       }
+    },
+    {
+      "discogs_id": "15980846",
+      "album_id": "4053166965917",
+      "review_kind": "bound-tracks",
+      "decision": "probable",
+      "target_sha256": "064d499cca1ff4ef93ee3dda0ac0ee94657f03f357c85850f756c85dd7a645a7",
+      "album_sha256": "6061ce3427fa447b9af89999facdb8094e0f9b5539af435971117e8437b692ae",
+      "source_sha256": "6b54b3e4be67692900d8cea38afd004a2e407b3d9d6853d8483fda32e9a682db",
+      "pulls": [],
+      "adds": [
+        {
+          "track_id": 23693718,
+          "target": "Quatuor En Ré Mineur op.76 N°2 \" Les Quintes\"",
+          "title_contains": "Fifths",
+          "reason": "Op. 76 No. 2 is the Fifths quartet."
+        },
+        {
+          "track_id": 23693721,
+          "target": "Quatuor En Ré Mineur op.76 N°2 \" Les Quintes\"",
+          "title_contains": "Fifths",
+          "reason": "Op. 76 No. 2 is the Fifths quartet."
+        },
+        {
+          "track_id": 23693723,
+          "target": "Quatuor En Ré Mineur op.76 N°2 \" Les Quintes\"",
+          "title_contains": "Fifths",
+          "reason": "Op. 76 No. 2 is the Fifths quartet."
+        },
+        {
+          "track_id": 23693725,
+          "target": "Quatuor En Ré Mineur op.76 N°2 \" Les Quintes\"",
+          "title_contains": "Fifths",
+          "reason": "Op. 76 No. 2 is the Fifths quartet."
+        },
+        {
+          "track_id": 23693727,
+          "target": "Quatuor En Ré Majeur op.64 N°5 \"L'Alouette\"",
+          "title_contains": "Lark",
+          "reason": "Op. 64 No. 5 is the Lark quartet."
+        },
+        {
+          "track_id": 23693729,
+          "target": "Quatuor En Ré Majeur op.64 N°5 \"L'Alouette\"",
+          "title_contains": "Lark",
+          "reason": "Op. 64 No. 5 is the Lark quartet."
+        },
+        {
+          "track_id": 23693731,
+          "target": "Quatuor En Ré Majeur op.64 N°5 \"L'Alouette\"",
+          "title_contains": "Lark",
+          "reason": "Op. 64 No. 5 is the Lark quartet."
+        },
+        {
+          "track_id": 23693733,
+          "target": "Quatuor En Ré Majeur op.64 N°5 \"L'Alouette\"",
+          "title_contains": "Lark",
+          "reason": "Op. 64 No. 5 is the Lark quartet."
+        }
+      ],
+      "required_performers": [
+        "The Hungarian Quartet"
+      ],
+      "performer_aliases": [
+        {
+          "source": "The Hungarian Quartet",
+          "file": "Hungarian String Quartet",
+          "reason": "The file uses the English name Hungarian String Quartet for this ensemble."
+        }
+      ],
+      "movement_runs": false,
+      "marks": [
+        {
+          "track_id": 23693718,
+          "text": "Allegro"
+        },
+        {
+          "track_id": 23693721,
+          "text": "Andante o più tosto"
+        },
+        {
+          "track_id": 23693723,
+          "text": "Menuetto (Allegro ma non troppo)"
+        },
+        {
+          "track_id": 23693725,
+          "text": "Vivace assai"
+        },
+        {
+          "track_id": 23693727,
+          "text": "Allegro moderato"
+        },
+        {
+          "track_id": 23693729,
+          "text": "Adagio cantabile"
+        },
+        {
+          "track_id": 23693731,
+          "text": "Menuetto (Allegretto)"
+        },
+        {
+          "track_id": 23693733,
+          "text": "Finale (Vivace)"
+        }
+      ],
+      "sources": [
+        "https://www.qobuz.com/fr-fr/album/hungarian-string-quartet-play-joseph-haydn-string-quartet-op-76-no-2-fifths-hob-iii76-string-quartet-op-64-no-5-lark-hob-iii63-hungarian-string-quartet-zoltan-szekely-alexandre-moskowsky-denes-koromzay-vilmos-palotai/4053166965917"
+      ],
+      "limitations": [
+        "Quintes and L’Alouette are the file’s Fifths and Lark.",
+        "The LP says The Hungarian Quartet. The file says Hungarian String Quartet.",
+        "This 2015 file is not verified as the 1958 Columbia FCX 465 pressing."
+      ],
+      "recording_review": "Columbia FCX 465 is the Hungarian Quartet in Haydn’s Fifths and Lark quartets. This file has both, four movements each, and names the Hungarian String Quartet on every track.",
+      "extra_track_ids": [],
+      "expected": {
+        "Quatuor En Ré Mineur op.76 N°2 \" Les Quintes\"": [
+          23693718,
+          23693721,
+          23693723,
+          23693725
+        ],
+        "Quatuor En Ré Majeur op.64 N°5 \"L'Alouette\"": [
+          23693727,
+          23693729,
+          23693731,
+          23693733
+        ]
+      }
     }
   ]
 }

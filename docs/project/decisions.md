@@ -335,3 +335,13 @@ the orchestra from the raw release stay required. A singer must appear
 somewhere in the cantata, not on every number. The conductor and orchestra
 must be on every track when the review says so. Dropping Theo Adam or Eva
 Fleischer fails. Cap at Probable 85. The BNF file is not Musique Royale 199 021.
+
+## 2026-11-13 — An ensemble alias does not cover a missing member
+
+Status: adopted for the Hungarian Quartet and Klien downloads.
+
+A required ensemble may be credited under a different name when the review
+records that file name and a recording-specific reason. The Hungarian Quartet
+is the file’s Hungarian String Quartet. Naming the Amadeus Quartet does not
+supply Norbert Brainin, Peter Schidlof, or Martin Lovett. Klien 12329947 stays
+unpublished. Cap at Probable 85. A later digital file is not the LP pressing.

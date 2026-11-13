@@ -13,20 +13,21 @@
     "qobuz_metadata_needed.json.gz": "251d740a4edc8bd4a8b4dc2dc0a173c19a4785b735de4af5de1d1839f3ba85a4",
     "qobuz_empty_searches.json.gz": "1cf5cae0839048a2a6ad5f4a3e5220cb196e5b285985b5eee52bff7f9d28ddee",
     "qobuz_empty_search_metadata.json.gz": "e2bd43978c93ab2b4e7b69c1242faf2c024bec7196741ddaed637a77dab77cf4",
+    "qobuz_empty_search_follow_metadata.json.gz": "a9fd10bc41ce74dcd28734eaada12dc06b8bfa87084f18f6a46d7978740a9e84",
     "collection_matches.json": "a214eee877d4749fa957b3d2a293c2925d7ba0621259f2742139a6cd86f928c8",
-    "qobuz_matches.json": "2f881e600406b6f84900a7a55fcb24a913413addeba51d283a03d8afdd6e2ffc",
+    "qobuz_matches.json": "18a0b2796c317b21088064a6e0c7c6e93de447949bc9a01bdc0f2b655b20f8b3",
     "qobuz_work_inventory.json": "ac5b17039789d5e994c13492246e74dd62bd8194dd089f579668d98e82dfe3f9",
-    "qobuz_binding_reviews.json": "eedbe59d3cd12533c3c26433259a2ce27e3f343c68a86d4feb59b8f8e0a30fb8",
+    "qobuz_binding_reviews.json": "e651b584c30e58065339a06457a9e1d6a2d392eda4d55b931f21f013fb4be9da",
     "qobuz_opera_recording_reviews.json": "11a52ad521b086b7c967327a0d01d0cee432d3cf8695754899a7f40aeb20839d"
   },
   "summary": {
-    "work_or_credit_unresolved": 310,
+    "work_or_credit_unresolved": 311,
     "no_saved_hits": 305,
     "reviewed_withheld": 7,
-    "metadata_needed": 14,
+    "metadata_needed": 12,
     "completeness_review_needed": 1
   },
-  "unmatched_unique_releases": 637,
+  "unmatched_unique_releases": 636,
   "entries": [
     {
       "discogs_id": "594243",
@@ -75081,10 +75082,34 @@
     {
       "discogs_id": "12329947",
       "title": "Les Quatuors Pour Piano Et Cordes",
-      "category": "metadata_needed",
+      "category": "work_or_credit_unresolved",
       "saved_hits": 5,
-      "uncached_hits": 5,
-      "cached_candidates": []
+      "uncached_hits": 4,
+      "cached_candidates": [
+        {
+          "album_id": "0002894798675",
+          "title": "Mozart: Piano Quartet No. 1 in G Minor, K. 478; Piano Quartet No. 2 in E-Flat, K. 493",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Quatuor Pour Piano Et Cordes En Sol Mineur, K. 478",
+              "work_tracks": 3,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Quatuor Pour Piano Et Cordes En Mi Bémol Majeur, K. 493",
+              "work_tracks": 3,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ]
+        }
+      ]
     },
     {
       "discogs_id": "12419639",
@@ -85442,14 +85467,6 @@
       ]
     },
     {
-      "discogs_id": "15980846",
-      "title": "Quatuor En Ré Mineur op.76 N°2 \" Les Quintes\" / Quatuor En Ré Majeur op.64 N°5 \"L'Alouette\"",
-      "category": "metadata_needed",
-      "saved_hits": 7,
-      "uncached_hits": 7,
-      "cached_candidates": []
-    },
-    {
       "discogs_id": "16108064",
       "title": "Sinfonia N.1 - Sinfonia N°2",
       "category": "work_or_credit_unresolved",
@@ -91255,7 +91272,7 @@
     }
   ],
   "limitations": [
-    "Offline triage after five album downloads from the twenty searches. A downloaded album is not an accepted match, and an empty query is not confirmed absence.",
+    "Offline triage after the Hungarian Quartet and Klien downloads. A downloaded album is not an accepted match, and an empty query is not confirmed absence.",
     "Recorded withholds stay in the inventory as reviewed_withheld and are not open leads.",
     "Categories prioritize available cached evidence; a release may also have uncached alternatives."
   ]

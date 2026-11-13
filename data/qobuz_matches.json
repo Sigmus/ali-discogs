@@ -11,17 +11,18 @@
   "work_inventory_fingerprint": "ac5b17039789d5e994c13492246e74dd62bd8194dd089f579668d98e82dfe3f9",
   "lead_review_fingerprint": "bc731b95eadb23cb1a13d735a4e7410615ae06f260b2c4a381ed4a29e229265e",
   "comparison_evidence_fingerprint": "c38df992ab44bbc892ffacafa19d74cc1495d7579d3d6da670653204dca25e57",
-  "album_urls_fingerprint": "4859e2e357a2322f4af30976d2e2a0467b40ee840a7006f7d7fd2a064919fae1",
+  "album_urls_fingerprint": "b05457f9eafe5269fc509777e23655a86f72d69dfe57d263654b24c07b07d768",
   "opera_review_fingerprint": "11a52ad521b086b7c967327a0d01d0cee432d3cf8695754899a7f40aeb20839d",
   "pair_review_fingerprint": "7709aa57ef7815fda88766badd3064939bccb142bd0e97389a0f5f011c54cd84",
   "container_review_fingerprint": "aa8a8e530114e05869e1215561786073250faca3c9349b66059ea59ff3c535e0",
-  "binding_review_fingerprint": "eedbe59d3cd12533c3c26433259a2ce27e3f343c68a86d4feb59b8f8e0a30fb8",
+  "binding_review_fingerprint": "e651b584c30e58065339a06457a9e1d6a2d392eda4d55b931f21f013fb4be9da",
   "heading_review_fingerprint": "44c6333ec66aff9cbbf7a29ae8d00ef0005da4fb05dae7e65278f889e97fab8b",
   "cached_half_review_fingerprint": "51e57b6a2ed934ed1a91452a4a8c314099d6641b216c73740a3da7cda998dbcf",
   "side_range_review_fingerprint": "4434bf0427e75aae1b891957d05cd4175f6b01d7b2f6a8e352238c3a297c44f7",
   "unmatched_review_fingerprint": "21d025cd3fb58ad2087d5f859097c6c56d5ce4d79eabf61be52e3930ce1ebc30",
   "unmatched_metadata_fingerprint": "b9ee630308545a56700f5322dea82ebad2621bc20c5e76f7b8743aaa94ba3c9e",
   "empty_search_metadata_fingerprint": "e2bd43978c93ab2b4e7b69c1242faf2c024bec7196741ddaed637a77dab77cf4",
+  "empty_search_follow_metadata_fingerprint": "a9fd10bc41ce74dcd28734eaada12dc06b8bfa87084f18f6a46d7978740a9e84",
   "trial_review_fingerprint": "29b152d71ab83c8be83049c16bdc43fd84fa485eefeca6bba69012aa90e3de07",
   "trial_metadata_fingerprint": "6bf5d6039af872d3362c56899455b470ad6cb4cb9dee2e4cdb8f7caeb9df7123",
   "schnabel_late_review_fingerprint": "e4f18bf648db61617d8fd3a4b2979fd23356050be95d618816e5e403fba41840",
@@ -21193,14 +21194,113 @@
       ]
     },
     "15980846": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "4053166965917",
+        "name": "Hungarian String Quartet play: Joseph Haydn: String Quartet, op. 76 no. 2 - \"Fifths\", Hob. III:76 / String Quartet, op. 64 no. 5 - \"Lark\", Hob III:63",
+        "artists": [
+          "Ungarisches Streichquartett"
+        ],
+        "label": "Classico Ivano",
+        "release_date": "2015-04-17",
+        "image": "https://static.qobuz.com/images/covers/17/59/4053166965917_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/hungarian-string-quartet-play-joseph-haydn-string-quartet-op-76-no-2-fifths-hob-iii76-string-quartet-op-64-no-5-lark-hob-iii63-hungarian-string-quartet-zoltan-szekely-alexandre-moskowsky-denes-koromzay-vilmos-palotai/4053166965917"
+      },
+      "candidates": [
+        {
+          "id": "4053166965917",
+          "name": "Hungarian String Quartet play: Joseph Haydn: String Quartet, op. 76 no. 2 - \"Fifths\", Hob. III:76 / String Quartet, op. 64 no. 5 - \"Lark\", Hob III:63",
+          "artists": [
+            "Ungarisches Streichquartett"
+          ],
+          "label": "Classico Ivano",
+          "release_date": "2015-04-17",
+          "image": "https://static.qobuz.com/images/covers/17/59/4053166965917_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/hungarian-string-quartet-play-joseph-haydn-string-quartet-op-76-no-2-fifths-hob-iii76-string-quartet-op-64-no-5-lark-hob-iii63-hungarian-string-quartet-zoltan-szekely-alexandre-moskowsky-denes-koromzay-vilmos-palotai/4053166965917",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 2,
+          "target_count": 2,
+          "required_performers": [
+            "The Hungarian Quartet"
+          ],
+          "programme": [
+            {
+              "target": "Quatuor En Ré Mineur op.76 N°2 \" Les Quintes\"",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                23693718,
+                23693721,
+                23693723,
+                23693725
+              ]
+            },
+            {
+              "target": "Quatuor En Ré Majeur op.64 N°5 \"L'Alouette\"",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                23693727,
+                23693729,
+                23693731,
+                23693733
+              ]
+            }
+          ],
+          "reasons": [
+            "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+            "Columbia FCX 465 is the Hungarian Quartet in Haydn’s Fifths and Lark quartets. This file has both, four movements each, and names the Hungarian String Quartet on every track.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Quintes and L’Alouette are the file’s Fifths and Lark.",
+            "The LP says The Hungarian Quartet. The file says Hungarian String Quartet.",
+            "This 2015 file is not verified as the 1958 Columbia FCX 465 pressing."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Quatuor En Ré Mineur op.76 N°2 \" Les Quintes\"",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  23693718,
+                  23693721,
+                  23693723,
+                  23693725
+                ]
+              },
+              {
+                "target": "Quatuor En Ré Majeur op.64 N°5 \"L'Alouette\"",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  23693727,
+                  23693729,
+                  23693731,
+                  23693733
+                ]
+              }
+            ]
+          },
+          "recording_review": "Columbia FCX 465 is the Hungarian Quartet in Haydn’s Fifths and Lark quartets. This file has both, four movements each, and names the Hungarian String Quartet on every track.",
+          "review_sources": [
+            "https://www.qobuz.com/fr-fr/album/hungarian-string-quartet-play-joseph-haydn-string-quartet-op-76-no-2-fifths-hob-iii76-string-quartet-op-64-no-5-lark-hob-iii63-hungarian-string-quartet-zoltan-szekely-alexandre-moskowsky-denes-koromzay-vilmos-palotai/4053166965917"
+          ]
+        }
+      ],
       "query": "the hungarian quartet haydn quatuor en re mineur op 76 ndeg2 les quintes quatuor",
       "searched_at": "2026-11-12T15:03:17.395450+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+        "Columbia FCX 465 is the Hungarian Quartet in Haydn’s Fifths and Lark quartets. This file has both, four movements each, and names the Hungarian String Quartet on every track.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Quintes and L’Alouette are the file’s Fifths and Lark.",
+        "The LP says The Hungarian Quartet. The file says Hungarian String Quartet.",
+        "This 2015 file is not verified as the 1958 Columbia FCX 465 pressing."
       ]
     },
     "22065910": {
