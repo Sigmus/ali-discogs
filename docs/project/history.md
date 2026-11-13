@@ -648,3 +648,19 @@ or Pages publication is part of this push; active search is not restarted.
   since those checks; no service calls required for this commit.
 - No push, merge or deployment requested. Next release action remains push/PR
   when authorized, with green remote checks before merge.
+
+## 2026-11-13 — Merge and verify Qobuz/Spotify release
+
+- User authorized push, PR, green-check merge and live Pages verification. Pushed
+  feature, opened [PR2](https://github.com/Sigmus/ali-discogs/pull/2), PR test run
+  [43452252865](https://github.com/Sigmus/ali-discogs/actions/runs/43452252865) passed;
+  merged expected feature headb0c93bc as02ec297. Local main fast-forwarded.
+- Main test43452407943 and Pages43452407863 both succeeded. Verified live HTML,
+  JS, CSS, collection/summary/Qobuz JSON byte-identical to release. Deployed browser
+  Dvorak detail shows explicit85%Probable replacement and independent Qobuz result.
+  Live figures: Spotify254Found/273Probable/210NotFound/4Unchecked copies;
+  Qobuz12Found/67Probable/662Unchecked. Four withheld programmes preserved.
+- [Live collection](https://sigmus.github.io/ali-discogs/). No new Spotify/Qobuz
+  catalogue calls; matched scores retain previously documented limitations.
+- Release documentation updated separately on main; no product/data changes.
+  Further matching work remains proposed, not part of this completed release.

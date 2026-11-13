@@ -8,9 +8,9 @@ plans preserve dated evidence and prior handoffs.
 
 ## Current state
 
-- Branch `codex/qobuz-poc`; checkpoint3f5a2c6 and three earlier commits unpushed.
-  User requested committing the completed Dvorak review, eight-case Spotify
-  audit and readiness checkpoint. No push, merge or deployment requested.
+- On `main`; feature merged through [PR2](https://github.com/Sigmus/ali-discogs/pull/2)
+  as02ec297 after remote CI passed. User authorized push/PR/merge/deploy.
+  GitHub Pages deployed and live assets/browser verified on2026-11-13.
 - Current collection:741 copies /740 unique releases. Spotify254Found /273Probable
   /210NotFound /4Unchecked copies. Retained labels are not independent full
   recording confirmations. Qobuz figures below are independent enrichment.
@@ -19,8 +19,8 @@ plans preserve dated evidence and prior handoffs.
   Qobuz fields stay unchecked. Empty/inconclusive queries are not confirmed absence.
 - Sonoteque table/details, 80% main width, column sorting (Year ascending default),
   Spotify/Qobuz filters and frequency-order switch. Qobuz details show evidence.
-- Pages uses Actions on main. Last recorded live verification was 2026-11-12;
-  inspect current Actions/live page before claiming subsequent deployment status.
+- Live site: https://sigmus.github.io/ali-discogs/ . Main Pages workflow validates
+  before publishing. Release02ec297 test/Pages runs passed; live asset bytes match.
 
 ## Preserved catalogue evidence
 
@@ -86,11 +86,12 @@ plans preserve dated evidence and prior handoffs.
 - Fresh checkout simulation passes9pipeline/guard +66script tests, portable audit,
   byte-identical Qobuz replay, UI/JS/build. No local credentials/caches required.
   Credential scan/whitelist/build-boundary checks pass; browser UI verified.
-- Readiness review: fetched origin/main0847175 is an ancestor; no conflict expected.
-  CI includes all guards; Pages now validates before publishing. Remote CI has not
-  run for the follow-up checkpoint. No actual merge/push/deployment performed.
-- Next action: push the committed follow-up and open a PR when requested; require green
-  remote checks before merge, then verify deployed page. Quality caveats remain.
+- PR CI and merged-main test/Pages runs passed. Live index/app/style/collection/
+  summary/Qobuz JSON match the release; deployed Dvorak detail renders correctly.
+  Publication figures and four withheld programmes verified from live data.
+- Next proposal: review replacement leads for four remaining Unchecked Spotify
+  releases, cache first, then another bounded audit. No new fetching authorized
+  by this completed release. Preserve documented recording-quality limitations.
 - [Follow-up findings and readiness](../plans/2026-11-13-spotify-followup-readiness.md).
 - [Spotify safeguard](../plans/2026-11-13-spotify-programme-safeguard.md) records scope and checks.
 - Latest review: [four Qobuz leads](../plans/2026-11-13-qobuz-lead-validation.md).

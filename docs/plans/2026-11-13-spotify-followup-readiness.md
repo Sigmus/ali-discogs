@@ -106,3 +106,12 @@ branch has four local commits plus this uncommitted follow-up; nothing pushed,
 merged or deployed in this task. Next release action is commit/push and PR review,
 then require green remote checks before merging. Main pushes trigger Pages with
 its new validation gate; verify the live page after deployment, not before.
+
+## Subsequent authorized release
+
+User later authorized publication. PR2 passed remote tests and merged as02ec297
+on2026-11-13. Merged-main tests and Pages deployment succeeded. Live static assets
+and three publication JSON files match byte-for-byte; deployed Dvorak detail
+verified. See [release history](../project/history.md) and
+[live collection](https://sigmus.github.io/ali-discogs/). Earlier uncommitted/
+unpublished statements above describe the readiness-stage checkpoint.
