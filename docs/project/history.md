@@ -847,3 +847,7 @@ User requested commit everything, merge to main and push. Includes bounded
 Karajan Probable, four-album portable metadata/cache, opera cast audit, canonical
 URL precedence/CLI/regression guard, and major Spotify/Qobuz validation-gap docs.
 No credential files or ignored run state included.
+
+PR4 merged as20dc0e8 after GitHub CI passed (run43475914824). All work saved
+in f64bb7f and merged/pushed to main; local full checks91Python tests plus
+Node/Spotify checks passed. Deployment completion not yet verified.

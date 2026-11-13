@@ -11,9 +11,9 @@ plans preserve dated evidence and prior handoffs.
 - Major limitation: Spotify legacy album-level labels and stricter Qobuz reviews
   are not comparable coverage counts; [Tristan evidence](../plans/2026-11-13-cross-service-validation-gap.md).
 
-- Active branch `codex/qobuz-unmatched-audit`, based on deployed main8afd7dd.
+- Active branch `main`; unmatched audit merged via PR4 as20dc0e8.
   PR3 deployed; unmatched audit/Karajan follow-up complete. User requested
-  commit, merge to main and push; no active enrichment worker.
+  commit/merge/push completed after CI; no active enrichment worker.
 - Current collection:741 copies /740 unique releases. Spotify254Found /273Probable
   /210NotFound /4Unchecked copies. Retained labels are not independent full
   recording confirmations. Qobuz figures below are independent enrichment.
@@ -85,7 +85,7 @@ plans preserve dated evidence and prior handoffs.
 - Current follow-up checks:9pipeline/guard +81script tests, offline audit/replay,
   canonical URLs, UI/JS/build pass. Prior fresh-checkout validation remains recorded.
   Credential scan/whitelist/build-boundary checks pass; browser UI verified.
-- Deployed main8afd7dd has12/73/656Qobuz copies; PR3 merged.
+- Main20dc0e8 has12/74/655Qobuz copies; PR4 merged, deployment not yet verified.
   Authorized follow-up: cached Richter review passes with publisher-supported
   corrections; ten-release paired query trial complete and deployed.
 - Round2 complete: Klemperer Missa, Ancerl Requiem and deVito/Fischer Sonatas1/3
