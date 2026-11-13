@@ -69,6 +69,9 @@ def assess(row, album, review):
     if review.get('review_kind') == 'opus-pieces':
         from qobuz_cached_review import assess_opus_pieces
         return assess_opus_pieces(row, album, review)
+    if review.get('review_kind') == 'side-ranges':
+        from qobuz_side_range_review import assess_ranges
+        return assess_ranges(row, album, review)
     corrections = review.get('target_title_corrections', {})
     groups = review.get('target_unit_groups', [])
     if groups:

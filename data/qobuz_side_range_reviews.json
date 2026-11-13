@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "releases": [
+    {
+      "discogs_id": "8176289",
+      "album_id": "3610154303352",
+      "review_kind": "side-ranges",
+      "decision": "probable",
+      "target_sha256": "8d42d73c8b487cc56dac7c0339e694e4ee4f53b4894c4ce32def43efc5c96f83",
+      "album_sha256": "ea9a00974149b4de7582b5904ac4aaf391ab9d53cb309dd0e5d6da937a320169",
+      "source_sha256": "14cb17f3c63f16186c5730e5acc24743b356cc445d84cc1ae79c770909883ab3",
+      "container_titles": [
+        "Dramma Per Musica · Der Streit Zwischen Phoebus Und Pan"
+      ],
+      "on_every_track": [
+        "Kurt Thomas",
+        "Gewandhausorchester Leipzig"
+      ],
+      "in_each_range": [
+        "Thomanerchor"
+      ],
+      "somewhere": [
+        "Günther Leib",
+        "Theo Adam",
+        "Eva Fleischer",
+        "Adele Stolte",
+        "Rolf Apreck",
+        "Hans-Joachim Rotzsch"
+      ],
+      "ranges": [
+        {
+          "target": "Nr. 1–7",
+          "tracks": [
+            {
+              "track_id": 14155662,
+              "title_contains": "Geschwinde, ihr wirbelnden Winde"
+            },
+            {
+              "track_id": 14155664,
+              "title_contains": "so unverschamt und frei"
+            },
+            {
+              "track_id": 14155666,
+              "title_contains": "Patron, das macht der Wind"
+            },
+            {
+              "track_id": 14155668,
+              "title_contains": "Was braucht ihr euch zu zanken"
+            },
+            {
+              "track_id": 14155670,
+              "title_contains": "Mit Verlangen druck' ich deine zarten Wangen"
+            },
+            {
+              "track_id": 14155672,
+              "title_contains": "Pan, ruck deine Kehle"
+            },
+            {
+              "track_id": 14155674,
+              "title_contains": "Zu Tanze, zu Sprunge"
+            }
+          ]
+        },
+        {
+          "target": "Nr. 8–15",
+          "tracks": [
+            {
+              "track_id": 14155676,
+              "title_contains": "Nunmehro Richter her"
+            },
+            {
+              "track_id": 14155678,
+              "title_contains": "Phoebus, deine Melodei"
+            },
+            {
+              "track_id": 14155680,
+              "title_contains": "Komm, Mydas, sage du nun an"
+            },
+            {
+              "track_id": 14155682,
+              "title_contains": "Pan ist Meister, lasst ihn gehn"
+            },
+            {
+              "track_id": 14155684,
+              "title_contains": "Wie, Mydas, bist du toll"
+            },
+            {
+              "track_id": 14155686,
+              "title_contains": "Aufgeblas'ne Hitze"
+            },
+            {
+              "track_id": 14155688,
+              "title_contains": "Du guter Mydas, geh' nun hin"
+            },
+            {
+              "track_id": 14155690,
+              "title_contains": "Labt das Herz, ihr holden Saiten"
+            }
+          ]
+        }
+      ],
+      "extra_track_ids": [],
+      "sources": [
+        "https://www.qobuz.com/fr-fr/album/bach-der-streit-zwischen-phoebus-und-pan-bwv-201-gewandhausorchester-leipzig-thomanerchor-kurt-thomas/3610154303352"
+      ],
+      "limitations": [
+        "The heading names the cantata. It is not a third work.",
+        "The LP prints Nr. 1–7 and Nr. 8–15, not the fifteen movement titles.",
+        "This BNF file is not verified as Musique Royale 199 021."
+      ],
+      "recording_review": "Musique Royale 199 021 is Kurt Thomas’s Archiv edition of BWV 201, with the Thomanerchor and the Gewandhausorchester. This file has all fifteen numbers. Thomas and the orchestra are on every track, the choir is on both sides, and each named singer appears."
+    }
+  ]
+}

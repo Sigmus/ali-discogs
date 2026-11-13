@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "matcher_version": "qobuz-work-groups-v2+explicit-target-credits+reviewed-leads+opera-source-roles+prelude-fugue-pairs+container-headings+bound-tracks+heading-over-groups+cached-half",
+  "matcher_version": "qobuz-work-groups-v2+explicit-target-credits+reviewed-leads+opera-source-roles+prelude-fugue-pairs+container-headings+bound-tracks+heading-over-groups+cached-half+side-ranges",
   "score_kind": "heuristic",
   "metadata_completed_at": "2026-11-13T00:15:30.593902+00:00",
   "search_manifest_fingerprint": "72bfbc0de0c0d8ee65c624b6ebe07db7be6ef0f10b6ba5fd4f468d54f812e802",
@@ -18,6 +18,7 @@
   "binding_review_fingerprint": "eedbe59d3cd12533c3c26433259a2ce27e3f343c68a86d4feb59b8f8e0a30fb8",
   "heading_review_fingerprint": "44c6333ec66aff9cbbf7a29ae8d00ef0005da4fb05dae7e65278f889e97fab8b",
   "cached_half_review_fingerprint": "51e57b6a2ed934ed1a91452a4a8c314099d6641b216c73740a3da7cda998dbcf",
+  "side_range_review_fingerprint": "4434bf0427e75aae1b891957d05cd4175f6b01d7b2f6a8e352238c3a297c44f7",
   "unmatched_review_fingerprint": "21d025cd3fb58ad2087d5f859097c6c56d5ce4d79eabf61be52e3930ce1ebc30",
   "unmatched_metadata_fingerprint": "b9ee630308545a56700f5322dea82ebad2621bc20c5e76f7b8743aaa94ba3c9e",
   "empty_search_metadata_fingerprint": "e2bd43978c93ab2b4e7b69c1242faf2c024bec7196741ddaed637a77dab77cf4",
@@ -104937,14 +104938,132 @@
       ]
     },
     "8176289": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "3610154303352",
+        "name": "Bach: Der Streit zwischen Phoebus und Pan, BWV 201",
+        "artists": [
+          "Gewandhausorchester Leipzig"
+        ],
+        "label": "BNF Collection",
+        "release_date": "1961-01-01",
+        "image": "https://static.qobuz.com/images/covers/52/33/3610154303352_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/bach-der-streit-zwischen-phoebus-und-pan-bwv-201-gewandhausorchester-leipzig-thomanerchor-kurt-thomas/3610154303352"
+      },
+      "candidates": [
+        {
+          "id": "3610154303352",
+          "name": "Bach: Der Streit zwischen Phoebus und Pan, BWV 201",
+          "artists": [
+            "Gewandhausorchester Leipzig"
+          ],
+          "label": "BNF Collection",
+          "release_date": "1961-01-01",
+          "image": "https://static.qobuz.com/images/covers/52/33/3610154303352_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/bach-der-streit-zwischen-phoebus-und-pan-bwv-201-gewandhausorchester-leipzig-thomanerchor-kurt-thomas/3610154303352",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 2,
+          "target_count": 2,
+          "required_performers": [
+            "Günther Leib",
+            "Thomanerchor",
+            "Gewandhausorchester Leipzig",
+            "Adele Stolte",
+            "Rolf Apreck",
+            "Hans-Joachim Rotzsch"
+          ],
+          "programme": [
+            {
+              "target": "Nr. 1–7",
+              "work_tracks": 7,
+              "credited_tracks": 7,
+              "track_ids": [
+                14155662,
+                14155664,
+                14155666,
+                14155668,
+                14155670,
+                14155672,
+                14155674
+              ]
+            },
+            {
+              "target": "Nr. 8–15",
+              "work_tracks": 8,
+              "credited_tracks": 8,
+              "track_ids": [
+                14155676,
+                14155678,
+                14155680,
+                14155682,
+                14155684,
+                14155686,
+                14155688,
+                14155690
+              ]
+            }
+          ],
+          "reasons": [
+            "The heading names the cantata. Each LP side keeps its numbered movements.",
+            "Musique Royale 199 021 is Kurt Thomas’s Archiv edition of BWV 201, with the Thomanerchor and the Gewandhausorchester. This file has all fifteen numbers. Thomas and the orchestra are on every track, the choir is on both sides, and each named singer appears.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "The heading names the cantata. It is not a third work.",
+            "The LP prints Nr. 1–7 and Nr. 8–15, not the fifteen movement titles.",
+            "This BNF file is not verified as Musique Royale 199 021."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Nr. 1–7",
+                "status": "complete",
+                "scope": "reviewed-side-range",
+                "track_ids": [
+                  14155662,
+                  14155664,
+                  14155666,
+                  14155668,
+                  14155670,
+                  14155672,
+                  14155674
+                ]
+              },
+              {
+                "target": "Nr. 8–15",
+                "status": "complete",
+                "scope": "reviewed-side-range",
+                "track_ids": [
+                  14155676,
+                  14155678,
+                  14155680,
+                  14155682,
+                  14155684,
+                  14155686,
+                  14155688,
+                  14155690
+                ]
+              }
+            ]
+          },
+          "recording_review": "Musique Royale 199 021 is Kurt Thomas’s Archiv edition of BWV 201, with the Thomanerchor and the Gewandhausorchester. This file has all fifteen numbers. Thomas and the orchestra are on every track, the choir is on both sides, and each named singer appears.",
+          "review_sources": [
+            "https://www.qobuz.com/fr-fr/album/bach-der-streit-zwischen-phoebus-und-pan-bwv-201-gewandhausorchester-leipzig-thomanerchor-kurt-thomas/3610154303352"
+          ]
+        }
+      ],
       "query": "gunther leib bach geschwinde geschwinde ihr wirbelnden winde kantate bwv 201",
       "searched_at": "2026-11-12T16:56:55.045771+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "The heading names the cantata. Each LP side keeps its numbered movements.",
+        "Musique Royale 199 021 is Kurt Thomas’s Archiv edition of BWV 201, with the Thomanerchor and the Gewandhausorchester. This file has all fifteen numbers. Thomas and the orchestra are on every track, the choir is on both sides, and each named singer appears.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "The heading names the cantata. It is not a third work.",
+        "The LP prints Nr. 1–7 and Nr. 8–15, not the fifteen movement titles.",
+        "This BNF file is not verified as Musique Royale 199 021."
       ]
     },
     "6623341": {

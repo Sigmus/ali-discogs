@@ -17,7 +17,7 @@ plans preserve dated evidence and prior handoffs.
 - Current collection:741 copies /740 unique releases. Spotify254Found /273Probable
   /210NotFound /4Unchecked copies. Retained labels are not independent full
   recording confirmations. Qobuz figures below are independent enrichment.
-- Qobuz overlay: 12 Found / 90 Probable / 639 unchecked copies; unique 12/90/638.
+- Qobuz overlay: 12 Found / 91 Probable / 638 unchecked copies; unique 12/91/637.
   Separate `data/qobuz_matches.json` survives Spotify rescoring; original pipeline
   Qobuz fields stay unchecked. Empty/inconclusive queries are not confirmed absence.
 - Sonoteque table/details, 80% main width, column sorting (Year ascending default),
@@ -82,18 +82,18 @@ plans preserve dated evidence and prior handoffs.
 
 ## Validation and next action
 
-- Five album downloads from the twenty searches, 37 tracks. Probable 85:
-  Toscanini 10757104, Italian and Reformation, four movements each, NBC on
-  every track. The BNF file is not the 1980 Victrola pressing.
-- Unpublished: BWV 201 8176289 has all 15 numbers and the named singers, but
-  the LP lists two side ranges. Barbirolli 13872783 is two files, Fifth with
-  the New Philharmonia and Ninth with Berlin, and neither file has both.
-  Cluytens 22065910 has Psyché and the Rédemption excerpt, not Le Chasseur
-  maudit. Harasiewicz 6534486 was not downloaded: the hit is a 10-track recital.
-- Inventory of the 638 still unchecked: 305 no saved hits, 14 metadata-needed,
-  311 work or credit gaps, 7 reviewed withholds, and the Barenboim caution.
+- Probable 85 from the five downloads: Toscanini 10757104, both symphonies,
+  and BWV 201 8176289. The cantata heading is not a third work. Nr. 1–7 and
+  Nr. 8–15 are the fifteen movements. Thomas, the orchestra, the choir, and
+  every named singer stay required. Neither BNF file is the LP pressing.
+- Unpublished: Barbirolli 13872783 is two files, Fifth with the New Philharmonia
+  and Ninth with Berlin, and neither file has both. Cluytens 22065910 has
+  Psyché and the Rédemption excerpt, not Le Chasseur maudit. Harasiewicz
+  6534486 was not downloaded: the hit is a 10-track recital.
+- Inventory of the 637 still unchecked: 305 no saved hits, 14 metadata-needed,
+  310 work or credit gaps, 7 reviewed withholds, and the Barenboim caution.
   Sellheim 7421796 stays an empty query, not confirmed absence.
-- Bitches Brew stays an open proposal. Next is a side-range review for BWV 201.
-  [Bitches Brew credits](../plans/2026-11-13-bitches-brew-credits.md). [Empty search](../plans/2026-11-13-qobuz-empty-search.md).
+- Bitches Brew stays an open proposal. The split Mahler files and the incomplete
+  Franck album stay unpublished. [Bitches Brew credits](../plans/2026-11-13-bitches-brew-credits.md).
 - [Unmatched audit](../plans/2026-11-13-qobuz-unmatched-audit.md).
 - [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).

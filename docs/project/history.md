@@ -981,3 +981,15 @@ Chasseur maudit. Copies 12/90/639, unique 12/90/638. Inventory of the 638 still
 unchecked: 305 no saved hits, 14 metadata-needed, 311 work or credit gaps, 7
 reviewed withholds, and the Barenboim caution. Binding and URL tests passed.
 The explorer shows 85% and 2/2 for Toscanini. No further search.
+
+## 2026-11-13 — BWV 201 side ranges published
+
+Musique Royale 199 021 lists the cantata as Nr. 1–7 and Nr. 8–15. The BNF file
+has those fifteen movements in order. The heading is not a third work. Kurt
+Thomas and the Gewandhaus are on every track, the Thomanerchor is on both sides,
+and Leib, Adam, Fleischer, Stolte, Apreck, and Rotzsch each appear. Probable 85.
+Dropping a singer or moving a movement onto the other side fails the review.
+Copies 12/91/638, unique 12/91/637. Inventory of the 637 still unchecked: 305
+no saved hits, 14 metadata-needed, 310 work or credit gaps, 7 reviewed
+withholds, and the Barenboim caution. The explorer shows 85% and 2/2. The BNF
+file is not verified as that LP. Barbirolli and Cluytens stay unpublished.

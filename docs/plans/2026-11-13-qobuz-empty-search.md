@@ -27,9 +27,13 @@ movements, and Toscanini and the NBC Symphony are on every track. The link is
 `https://www.qobuz.com/fr-fr/album/mendelssohn-symphonies-italienne-reformation-arturo-toscanini-nbc-symphony-orchestra/3614591367922`.
 The BNF file is not verified as the 1980 RCA Victrola pressing.
 
-BWV 201 `3610154303352` has all 15 numbers, with Kurt Thomas, the Thomanerchor,
-the Gewandhaus, and the named singers. The LP lists those numbers as two side
-ranges, so it is not published. Barbirolli `5099943329052` is the Fifth with the
+BWV 201 `3610154303352` is Probable 85. The heading is not a third work.
+Nr. 1–7 and Nr. 8–15 are the fifteen movements, in order. Kurt Thomas and the
+Gewandhaus are on every track, the Thomanerchor is on both sides, and Günther
+Leib, Theo Adam, Eva Fleischer, Adele Stolte, Rolf Apreck, and Hans-Joachim
+Rotzsch each appear. The link is
+`https://www.qobuz.com/fr-fr/album/bach-der-streit-zwischen-phoebus-und-pan-bwv-201-gewandhausorchester-leipzig-thomanerchor-kurt-thomas/3610154303352`.
+The BNF file is not verified as Musique Royale 199 021. Barbirolli `5099943329052` is the Fifth with the
 New Philharmonia, and `5099991872555` is the Ninth with the Berliner
 Philharmoniker. Neither file contains both symphonies. Cluytens
 `3614596892627` has Psyché and the Rédemption excerpt, and not Le Chasseur

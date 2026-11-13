@@ -320,6 +320,18 @@ Toscanini 10757104 is Probable 85 because one file has both symphonies, four
 movements each, with Toscanini and the NBC Symphony on every track. Two files
 that split Barbirolli’s Fifth and Ninth are not that one LP. A file that omits
 Le Chasseur maudit is not the Cluytens LP. A 10-track recital is not the
-Harasiewicz box and was not downloaded. BWV 201 is the cantata, but its two LP
-side ranges are not yet a review. Cap at Probable 85. The BNF file is not the
+Harasiewicz box and was not downloaded. BWV 201 is Probable 85 under the
+side-range review below. Cap at Probable 85. The BNF file is not the
 1980 Victrola pressing.
+
+## 2026-11-13 — An LP side range may cover that many consecutive tracks
+
+Status: adopted for BWV 201.
+
+A heading with no catalogue number is not a separate work. A unit whose title
+is only “Nr. A–B” may take the next B−A+1 tracks, in album order, when those
+ranges begin at 1 and meet without a gap. Every named singer, the choir, and
+the orchestra from the raw release stay required. A singer must appear
+somewhere in the cantata, not on every number. The conductor and orchestra
+must be on every track when the review says so. Dropping Theo Adam or Eva
+Fleischer fails. Cap at Probable 85. The BNF file is not Musique Royale 199 021.
