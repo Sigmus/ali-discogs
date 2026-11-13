@@ -46,8 +46,10 @@ documented in a linked plan. Implementation is a separate step.
 
 ## AD-008 — Improve Qobuz coverage beyond conservative v1
 
-Current authorized work: [eight cached near-misses](../plans/2026-11-13-qobuz-eight-cached.md),
-reviewed in one pass and reported together. Prior triage:
+The [eight cached near-misses](../plans/2026-11-13-qobuz-eight-cached.md) are
+reviewed. Probable85: Kempff, both Rubinstein nocturne releases, Davis/Sibelius,
+Jazz Samba and Ellington. Withheld: Haebler’s two F-major titles, Time Out’s
+Audrey and Saint-Saëns Op. 50. Prior triage:
 [remaining-release offline triage](../plans/2026-11-13-qobuz-unmatched-audit.md).
 Source-role, ensemble-alias and act review is implemented and hash-bound.
 Tristan2996680 is Probable85 for the main three acts, with the rehearsal side

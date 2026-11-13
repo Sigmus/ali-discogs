@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "matcher_version": "qobuz-work-groups-v2+explicit-target-credits+reviewed-leads+opera-source-roles+prelude-fugue-pairs+container-headings",
+  "matcher_version": "qobuz-work-groups-v2+explicit-target-credits+reviewed-leads+opera-source-roles+prelude-fugue-pairs+container-headings+bound-tracks",
   "score_kind": "heuristic",
   "metadata_completed_at": "2026-11-13T00:15:30.593902+00:00",
   "search_manifest_fingerprint": "72bfbc0de0c0d8ee65c624b6ebe07db7be6ef0f10b6ba5fd4f468d54f812e802",
@@ -15,6 +15,7 @@
   "opera_review_fingerprint": "11a52ad521b086b7c967327a0d01d0cee432d3cf8695754899a7f40aeb20839d",
   "pair_review_fingerprint": "7709aa57ef7815fda88766badd3064939bccb142bd0e97389a0f5f011c54cd84",
   "container_review_fingerprint": "aa8a8e530114e05869e1215561786073250faca3c9349b66059ea59ff3c535e0",
+  "binding_review_fingerprint": "7617a5f8c1854bb735bf3aed12f7ebddabc249dc608b23aec8b9ae71839ac25a",
   "unmatched_review_fingerprint": "21d025cd3fb58ad2087d5f859097c6c56d5ce4d79eabf61be52e3930ce1ebc30",
   "unmatched_metadata_fingerprint": "b9ee630308545a56700f5322dea82ebad2621bc20c5e76f7b8743aaa94ba3c9e",
   "trial_review_fingerprint": "29b152d71ab83c8be83049c16bdc43fd84fa485eefeca6bba69012aa90e3de07",
@@ -61628,9 +61629,19 @@
       ]
     },
     "11562013": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "nrkspj3p5zasa",
+        "name": "Beethoven: Complete Piano Sonatas",
+        "artists": [
+          "Wilhelm Kempff"
+        ],
+        "label": "Heritage Records",
+        "release_date": "2018-10-31",
+        "image": "https://static.qobuz.com/images/covers/sa/za/nrkspj3p5zasa_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/beethoven-complete-piano-sonatas-wilhelm-kempff/nrkspj3p5zasa"
+      },
       "candidates": [
         {
           "id": "nrkspj3p5zasa",
@@ -61642,10 +61653,10 @@
           "release_date": "2018-10-31",
           "image": "https://static.qobuz.com/images/covers/sa/za/nrkspj3p5zasa_230.jpg",
           "url": "https://www.qobuz.com/fr-fr/album/beethoven-complete-piano-sonatas-wilhelm-kempff/nrkspj3p5zasa",
-          "status": "unchecked",
-          "confidence": null,
-          "coverage": 0.96875,
-          "covered": 31,
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 32,
           "target_count": 32,
           "required_performers": [
             "Wilhelm Kempff"
@@ -61827,20 +61838,23 @@
             },
             {
               "target": "Sonata No. 26 In E Flat Major, Op. 81 A",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                93721051,
+                93721052,
+                93721053
+              ]
             },
             {
               "target": "Sonata No. 11 In B Flat Major, Op. 22",
-              "work_tracks": 5,
-              "credited_tracks": 5,
+              "work_tracks": 4,
+              "credited_tracks": 4,
               "track_ids": [
                 93721006,
                 93721007,
                 93721008,
-                93721009,
-                93721011
+                93721009
               ]
             },
             {
@@ -61875,10 +61889,11 @@
             },
             {
               "target": "Sonata No. 12 In A Flat Major, Op. 26",
-              "work_tracks": 3,
-              "credited_tracks": 3,
+              "work_tracks": 4,
+              "credited_tracks": 4,
               "track_ids": [
                 93721010,
+                93721011,
                 93721012,
                 93721013
               ]
@@ -61974,7 +61989,348 @@
             }
           ],
           "reasons": [
-            "31/32 target items supported after composer/work grouping; unresolved."
+            "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+            "DG KL 42/51 is Kempff’s 1964 mono sonata box. This Heritage digital edition has all 32 sonatas, with Kempff on every track. It identifies the cycle, not that mono mastering.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "The 2018 Heritage file is not verified as the 1964 mono DG box.",
+            "Sonata No. 12’s scherzo is tagged Op. 22; the sonata number and its place between the Op. 26 movements identify it.",
+            "Op. 81 A is the Les Adieux sonata, Op. 81a, in three movements.",
+            "The Waldstein introduction is joined to the rondo on one track."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Sonata No. 1 In F Minor, Op. 2 No. 1",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  93720971,
+                  93720972,
+                  93720973,
+                  93720974
+                ]
+              },
+              {
+                "target": "Sonata No. 27 In E Minor, Op. 90",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  93721054,
+                  93721055
+                ]
+              },
+              {
+                "target": "Sonata No. 2 In A Major, Op. 2, No. 2",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  93720975,
+                  93720976,
+                  93720977,
+                  93720978
+                ]
+              },
+              {
+                "target": "Sonate No. 8 In C Minor, Op. 13",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  93720997,
+                  93720998,
+                  93720999
+                ]
+              },
+              {
+                "target": "Sonata No. 13 In E Flat Major, Op. 27 No. 1",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  93721014,
+                  93721015,
+                  93721016,
+                  93721017
+                ]
+              },
+              {
+                "target": "Sonata No. 3 In C Major, Op. 2 No. 3",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  93720979,
+                  93720980,
+                  93720981,
+                  93720982
+                ]
+              },
+              {
+                "target": "Sonata No. 5 In C Minor, Op. 10 No. 1",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  93720987,
+                  93720988,
+                  93720989
+                ]
+              },
+              {
+                "target": "Sonata No. 6 In F Major, Op. 10 No. 2",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  93720990,
+                  93720991,
+                  93720992
+                ]
+              },
+              {
+                "target": "Sonata No. 4 In E Flat Major, Op. 7",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  93720983,
+                  93720984,
+                  93720985,
+                  93720986
+                ]
+              },
+              {
+                "target": "Sonata No. 7 In D Major, Op. 10 No. 3",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  93720993,
+                  93720994,
+                  93720995,
+                  93720996
+                ]
+              },
+              {
+                "target": "Sonata No. 20 In G Major, Op. 49 Nr. 2",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  93721037,
+                  93721038
+                ]
+              },
+              {
+                "target": "Sonata No. 9 In E Major, Op. 14 No. 1",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  93721000,
+                  93721001,
+                  93721002
+                ]
+              },
+              {
+                "target": "Sonata No. 30 In E Major, Op. 109",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  93721064,
+                  93721065,
+                  93721066
+                ]
+              },
+              {
+                "target": "Sonata No. 14 In C Sharp Minor, Op. 27 No. 2 \"Moonlight\"",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  93721018,
+                  93721019,
+                  93721020
+                ]
+              },
+              {
+                "target": "Sonata No. 10 In G Major, Op. 14, No. 2",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  93721003,
+                  93721004,
+                  93721005
+                ]
+              },
+              {
+                "target": "Sonata No. 18 In E Flat Major, Op. 31 No. 3",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  93721031,
+                  93721032,
+                  93721033,
+                  93721034
+                ]
+              },
+              {
+                "target": "Sonata No. 19 In G Minor, Op. 49 No. 1",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  93721035,
+                  93721036
+                ]
+              },
+              {
+                "target": "Sonata No. 26 In E Flat Major, Op. 81 A",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  93721051,
+                  93721052,
+                  93721053
+                ]
+              },
+              {
+                "target": "Sonata No. 11 In B Flat Major, Op. 22",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  93721006,
+                  93721007,
+                  93721008,
+                  93721009
+                ]
+              },
+              {
+                "target": "Sonata No. 32 In C Minor, Op. 111",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  93721070,
+                  93721071
+                ]
+              },
+              {
+                "target": "Sonata No. 17 In D Minor, Op. 31 No. 2 \"Tempest\"",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  93721028,
+                  93721029,
+                  93721030
+                ]
+              },
+              {
+                "target": "Sonata No. 28 In A Major, Op. 101",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  93721056,
+                  93721057,
+                  93721058,
+                  93721059
+                ]
+              },
+              {
+                "target": "Sonata No. 12 In A Flat Major, Op. 26",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  93721010,
+                  93721011,
+                  93721012,
+                  93721013
+                ]
+              },
+              {
+                "target": "Sonata No. 23 In F Minor, Op. 57",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  93721043,
+                  93721044,
+                  93721045
+                ]
+              },
+              {
+                "target": "Sonata No. 24 In F Sharp Major, Op. 78",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  93721046,
+                  93721047
+                ]
+              },
+              {
+                "target": "Sonata No. 15 In D Major, Op. 28",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  93721021,
+                  93721022,
+                  93721023,
+                  93721024
+                ]
+              },
+              {
+                "target": "Sonata No. 25 In G Major, Op. 79",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  93721048,
+                  93721049,
+                  93721050
+                ]
+              },
+              {
+                "target": "Sonata No. 21 In C Major, Op. 53 \"Waldstein\"",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  93721039,
+                  93721040
+                ]
+              },
+              {
+                "target": "Sonata No. 22 In F Major, Op. 54",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  93721041,
+                  93721042
+                ]
+              },
+              {
+                "target": "Sonata No. 16 In G Major, Op. 31 No. 1",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  93721025,
+                  93721026,
+                  93721027
+                ]
+              },
+              {
+                "target": "Sonata No. 31 In A Flat Major, Op. 110",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  93721067,
+                  93721068,
+                  93721069
+                ]
+              },
+              {
+                "target": "Sonata No. 29 In B Flat Major, Op. 106",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  93721060,
+                  93721061,
+                  93721062,
+                  93721063
+                ]
+              }
+            ]
+          },
+          "recording_review": "DG KL 42/51 is Kempff’s 1964 mono sonata box. This Heritage digital edition has all 32 sonatas, with Kempff on every track. It identifies the cycle, not that mono mastering.",
+          "review_sources": [
+            "https://www.qobuz.com/fr-fr/album/beethoven-complete-piano-sonatas-wilhelm-kempff/nrkspj3p5zasa"
           ]
         },
         {
@@ -62197,7 +62553,13 @@
       "query": "wilhelm kempff beethoven the complete piano sonatas",
       "searched_at": "2026-11-12T15:53:20.905968+00:00",
       "reasons": [
-        "31/32 target items supported after composer/work grouping; unresolved."
+        "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+        "DG KL 42/51 is Kempff’s 1964 mono sonata box. This Heritage digital edition has all 32 sonatas, with Kempff on every track. It identifies the cycle, not that mono mastering.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "The 2018 Heritage file is not verified as the 1964 mono DG box.",
+        "Sonata No. 12’s scherzo is tagged Op. 22; the sonata number and its place between the Op. 26 movements identify it.",
+        "Op. 81 A is the Les Adieux sonata, Op. 81a, in three movements.",
+        "The Waldstein introduction is joined to the rondo on one track."
       ]
     },
     "8923241": {
@@ -82616,9 +82978,19 @@
       ]
     },
     "7525022": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0002521867172",
+        "name": "The Pianist",
+        "artists": [
+          "Duke Ellington"
+        ],
+        "label": "Original Jazz Classics",
+        "release_date": "1974-01-01",
+        "image": "https://static.qobuz.com/images/covers/72/71/0002521867172_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/the-pianist-duke-ellington/0002521867172"
+      },
       "candidates": [
         {
           "id": "0002521867172",
@@ -82630,10 +83002,10 @@
           "release_date": "1974-01-01",
           "image": "https://static.qobuz.com/images/covers/72/71/0002521867172_230.jpg",
           "url": "https://www.qobuz.com/fr-fr/album/the-pianist-duke-ellington/0002521867172",
-          "status": "unchecked",
-          "confidence": null,
-          "coverage": 0.8,
-          "covered": 8,
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 10,
           "target_count": 10,
           "required_performers": [
             "Duke Ellington"
@@ -82665,15 +83037,19 @@
             },
             {
               "target": "The Shepherd/Take 1",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                24259621
+              ]
             },
             {
               "target": "The Shepherd/Take 2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                24259623
+              ]
             },
             {
               "target": "Tap Dancer's Blues",
@@ -82717,7 +83093,101 @@
             }
           ],
           "reasons": [
-            "8/10 target items supported after composer/work grouping; unresolved."
+            "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+            "Fantasy 5999 lists The Shepherd as take 1 (5:48) and take 2 (6:32). The Original Jazz Classics file has two consecutive tracks titled The Shepherd, at 5:47 and 6:32, in that order, with Ellington on both.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "The digital titles do not print the take numbers. Order and duration bind take 1 to the shorter track and take 2 to the longer one.",
+            "The Original Jazz Classics issue is not verified as the Fantasy brown-label mastering."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Don Juan",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  24259615
+                ]
+              },
+              {
+                "target": "Slow Blues",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  24259617
+                ]
+              },
+              {
+                "target": "Looking Glass",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  24259619
+                ]
+              },
+              {
+                "target": "The Shepherd/Take 1",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  24259621
+                ]
+              },
+              {
+                "target": "The Shepherd/Take 2",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  24259623
+                ]
+              },
+              {
+                "target": "Tap Dancer's Blues",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  24259625
+                ]
+              },
+              {
+                "target": "Sam Woodyard's Blues",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  24259627
+                ]
+              },
+              {
+                "target": "Duck Amok",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  24259628
+                ]
+              },
+              {
+                "target": "Never Stop Remembering Bill",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  24259629
+                ]
+              },
+              {
+                "target": "Fat Mess",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  24259630
+                ]
+              }
+            ]
+          },
+          "recording_review": "Fantasy 5999 lists The Shepherd as take 1 (5:48) and take 2 (6:32). The Original Jazz Classics file has two consecutive tracks titled The Shepherd, at 5:47 and 6:32, in that order, with Ellington on both.",
+          "review_sources": [
+            "https://www.qobuz.com/fr-fr/album/the-pianist-duke-ellington/0002521867172"
           ]
         },
         {
@@ -82808,7 +83278,11 @@
       "query": "duke ellington ellington the pianist",
       "searched_at": "2026-11-12T16:11:37.708038+00:00",
       "reasons": [
-        "8/10 target items supported after composer/work grouping; unresolved."
+        "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+        "Fantasy 5999 lists The Shepherd as take 1 (5:48) and take 2 (6:32). The Original Jazz Classics file has two consecutive tracks titled The Shepherd, at 5:47 and 6:32, in that order, with Ellington on both.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "The digital titles do not print the take numbers. Order and duration bind take 1 to the shorter track and take 2 to the longer one.",
+        "The Original Jazz Classics issue is not verified as the Fantasy brown-label mastering."
       ]
     },
     "2329424": {
@@ -104712,9 +105186,19 @@
       ]
     },
     "6029612": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0002894783696",
+        "name": "Jean Sibelius : Complete Symphonies - Tone Poems",
+        "artists": [
+          "Boston Symphony Orchestra"
+        ],
+        "label": "Decca Music Group Ltd.",
+        "release_date": "2012-01-01",
+        "image": "https://static.qobuz.com/images/covers/96/36/0002894783696_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/jean-sibelius-complete-symphonies-tone-poems-boston-symphony-orchestra-sir-colin-davis/0002894783696"
+      },
       "candidates": [
         {
           "id": "0002894783696",
@@ -104726,10 +105210,10 @@
           "release_date": "2012-01-01",
           "image": "https://static.qobuz.com/images/covers/96/36/0002894783696_230.jpg",
           "url": "https://www.qobuz.com/fr-fr/album/jean-sibelius-complete-symphonies-tone-poems-boston-symphony-orchestra-sir-colin-davis/0002894783696",
-          "status": "unchecked",
-          "confidence": null,
-          "coverage": 0.9,
-          "covered": 9,
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 10,
           "target_count": 10,
           "required_performers": [
             "Sir Colin Davis",
@@ -104768,9 +105252,11 @@
             },
             {
               "target": "Der Schwan Von Tuonela, Op. 22, 2 (Legende) (1893)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                5190544
+              ]
             },
             {
               "target": "Sinfonie Nr. 3 C-Dur, Op. 52 (1904-07)",
@@ -104836,7 +105322,123 @@
             }
           ],
           "reasons": [
-            "9/10 target items supported after composer/work grouping; unresolved."
+            "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+            "Philips 6709 011 is Davis and the Boston Symphony in the seven symphonies, Finlandia, The Swan of Tuonela and Tapiola. Those works are on this Decca set with the same artists. The set also contains other pieces.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "The Swan of Tuonela is titled in English as Op. 22, No. 2. The source lists the same work in German as Op. 22, 2.",
+            "Symphony No. 7 is one movement split into five tracks.",
+            "The album also contains other Boston/Davis tone poems and a violin concerto with the London Symphony and Salvatore Accardo. Those tracks are not the Philips box.",
+            "The 2012 digital issue is not verified as the 1975–77 Philips mastering."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Sinfonie Nr. 1 E-Moll, Op. 39 (1898-99)",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  5190514,
+                  5190515,
+                  5190516,
+                  5190517
+                ]
+              },
+              {
+                "target": "Finlandia, Op. 26 (1899)",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  5190518
+                ]
+              },
+              {
+                "target": "Sinfonie Nr. 2 D-Dur, Op. 43 (1901-02)",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  5190521,
+                  5190522,
+                  5190523,
+                  5190524
+                ]
+              },
+              {
+                "target": "Der Schwan Von Tuonela, Op. 22, 2 (Legende) (1893)",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  5190544
+                ]
+              },
+              {
+                "target": "Sinfonie Nr. 3 C-Dur, Op. 52 (1904-07)",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  5190530,
+                  5190531,
+                  5190532
+                ]
+              },
+              {
+                "target": "Sinfonie Nr. 6 D-Moll, Op. 104 (1923)",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  5190540,
+                  5190541,
+                  5190542,
+                  5190543
+                ]
+              },
+              {
+                "target": "Sinfonie Nr. 4 A-Moll, Op. 63 (1910-11)",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  5190533,
+                  5190534,
+                  5190535,
+                  5190536
+                ]
+              },
+              {
+                "target": "Tapiola, Op. 112 (Tondichtung Für Großes Orchester) (1926)",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  5190520
+                ]
+              },
+              {
+                "target": "Sinfonie Nr. 5 Es-Dur, Op. 82 (1910-15)",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  5190537,
+                  5190538,
+                  5190539
+                ]
+              },
+              {
+                "target": "Sinfonie Nr. 7 C-Dur, Op. 105 (1925)",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  5190525,
+                  5190526,
+                  5190527,
+                  5190528,
+                  5190529
+                ]
+              }
+            ]
+          },
+          "recording_review": "Philips 6709 011 is Davis and the Boston Symphony in the seven symphonies, Finlandia, The Swan of Tuonela and Tapiola. Those works are on this Decca set with the same artists. The set also contains other pieces.",
+          "review_sources": [
+            "https://www.qobuz.com/fr-fr/album/jean-sibelius-complete-symphonies-tone-poems-boston-symphony-orchestra-sir-colin-davis/0002894783696"
           ]
         },
         {
@@ -104947,7 +105549,13 @@
       "query": "sir colin davis sibelius the 7 symphonies finlandia the swan of tuonela tapiola",
       "searched_at": "2026-11-12T17:02:11.296590+00:00",
       "reasons": [
-        "9/10 target items supported after composer/work grouping; unresolved."
+        "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+        "Philips 6709 011 is Davis and the Boston Symphony in the seven symphonies, Finlandia, The Swan of Tuonela and Tapiola. Those works are on this Decca set with the same artists. The set also contains other pieces.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "The Swan of Tuonela is titled in English as Op. 22, No. 2. The source lists the same work in German as Op. 22, 2.",
+        "Symphony No. 7 is one movement split into five tracks.",
+        "The album also contains other Boston/Davis tone poems and a violin concerto with the London Symphony and Salvatore Accardo. Those tracks are not the Philips box.",
+        "The 2012 digital issue is not verified as the 1975–77 Philips mastering."
       ]
     },
     "15926362": {
@@ -117292,9 +117900,19 @@
       ]
     },
     "11168177": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "5099973025054",
+        "name": "Legendary Rubinstein! Chopin: Complete Nocturnes & Mazurkas",
+        "artists": [
+          "Arthur Rubinstein"
+        ],
+        "label": "Warner Classics",
+        "release_date": "2013-05-03",
+        "image": "https://static.qobuz.com/images/covers/54/50/5099973025054_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/legendary-rubinstein-chopin-complete-nocturnes-mazurkas-arthur-rubinstein/5099973025054"
+      },
       "candidates": [
         {
           "id": "5099973025054",
@@ -117306,10 +117924,10 @@
           "release_date": "2013-05-03",
           "image": "https://static.qobuz.com/images/covers/54/50/5099973025054_230.jpg",
           "url": "https://www.qobuz.com/fr-fr/album/legendary-rubinstein-chopin-complete-nocturnes-mazurkas-arthur-rubinstein/5099973025054",
-          "status": "unchecked",
-          "confidence": null,
-          "coverage": 0.9473684210526315,
-          "covered": 18,
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 19,
           "target_count": 19,
           "required_performers": [
             "Arthur Rubinstein"
@@ -117461,13 +118079,182 @@
             },
             {
               "target": "Op. 72, No. 1 (Posth.)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                8721704
+              ]
             }
           ],
           "reasons": [
-            "18/19 target items supported after composer/work grouping; unresolved."
+            "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+            "RCA LSC-7050 is Rubinstein’s nocturnes. The Warner set has all 19, including the posthumous Op. 72 No. 1, and adds the mazurkas. It is a superset, not the LP alone.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "The Warner album adds the mazurkas. Those tracks are not part of the nocturne LP.",
+            "Op. Posth. 72 No. 1 is the same nocturne as Op. 72, No. 1 (Posth.).",
+            "This digital set is not verified as a particular RCA pressing or mastering."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Op. 9, No. 1",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  8721686
+                ]
+              },
+              {
+                "target": "Op. 9, No. 2",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  8721687
+                ]
+              },
+              {
+                "target": "Op. 9, No. 3",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  8721688
+                ]
+              },
+              {
+                "target": "Op. 15, No. 1",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  8721689
+                ]
+              },
+              {
+                "target": "Op. 15, No. 2",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  8721690
+                ]
+              },
+              {
+                "target": "Op. 15, No. 3",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  8721691
+                ]
+              },
+              {
+                "target": "Op. 27, No. 1",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  8721692
+                ]
+              },
+              {
+                "target": "Op. 27, No. 2",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  8721693
+                ]
+              },
+              {
+                "target": "Op. 32, No. 1",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  8721694
+                ]
+              },
+              {
+                "target": "Op. 32, No. 2",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  8721695
+                ]
+              },
+              {
+                "target": "Op. 37, No. 1",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  8721696
+                ]
+              },
+              {
+                "target": "Op. 37, No. 2",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  8721697
+                ]
+              },
+              {
+                "target": "Op. 48, No. 1",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  8721698
+                ]
+              },
+              {
+                "target": "Op. 48, No. 2",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  8721699
+                ]
+              },
+              {
+                "target": "Op. 55, No. 1",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  8721700
+                ]
+              },
+              {
+                "target": "Op. 55, No. 2",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  8721701
+                ]
+              },
+              {
+                "target": "Op. 62, No. 1",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  8721702
+                ]
+              },
+              {
+                "target": "Op. 62, No. 2",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  8721703
+                ]
+              },
+              {
+                "target": "Op. 72, No. 1 (Posth.)",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  8721704
+                ]
+              }
+            ]
+          },
+          "recording_review": "RCA LSC-7050 is Rubinstein’s nocturnes. The Warner set has all 19, including the posthumous Op. 72 No. 1, and adds the mazurkas. It is a superset, not the LP alone.",
+          "review_sources": [
+            "https://www.qobuz.com/fr-fr/album/legendary-rubinstein-chopin-complete-nocturnes-mazurkas-arthur-rubinstein/5099973025054"
           ]
         },
         {
@@ -118038,7 +118825,12 @@
       "query": "arthur rubinstein chopin the nocturnes",
       "searched_at": "2026-11-12T17:24:43.318339+00:00",
       "reasons": [
-        "18/19 target items supported after composer/work grouping; unresolved."
+        "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+        "RCA LSC-7050 is Rubinstein’s nocturnes. The Warner set has all 19, including the posthumous Op. 72 No. 1, and adds the mazurkas. It is a superset, not the LP alone.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "The Warner album adds the mazurkas. Those tracks are not part of the nocturne LP.",
+        "Op. Posth. 72 No. 1 is the same nocturne as Op. 72, No. 1 (Posth.).",
+        "This digital set is not verified as a particular RCA pressing or mastering."
       ]
     },
     "3275173": {
@@ -122254,9 +123046,19 @@
       ]
     },
     "3475547": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "5099973025054",
+        "name": "Legendary Rubinstein! Chopin: Complete Nocturnes & Mazurkas",
+        "artists": [
+          "Arthur Rubinstein"
+        ],
+        "label": "Warner Classics",
+        "release_date": "2013-05-03",
+        "image": "https://static.qobuz.com/images/covers/54/50/5099973025054_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/legendary-rubinstein-chopin-complete-nocturnes-mazurkas-arthur-rubinstein/5099973025054"
+      },
       "candidates": [
         {
           "id": "5099973025054",
@@ -122268,10 +123070,10 @@
           "release_date": "2013-05-03",
           "image": "https://static.qobuz.com/images/covers/54/50/5099973025054_230.jpg",
           "url": "https://www.qobuz.com/fr-fr/album/legendary-rubinstein-chopin-complete-nocturnes-mazurkas-arthur-rubinstein/5099973025054",
-          "status": "unchecked",
-          "confidence": null,
-          "coverage": 0.9473684210526315,
-          "covered": 18,
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 19,
           "target_count": 19,
           "required_performers": [
             "Arthur Rubinstein"
@@ -122423,13 +123225,182 @@
             },
             {
               "target": "Op. 72, No. 1 (Posth.)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                8721704
+              ]
             }
           ],
           "reasons": [
-            "18/19 target items supported after composer/work grouping; unresolved."
+            "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+            "RCA LSC-7050 is Rubinstein’s nocturnes. The Warner set has all 19, including the posthumous Op. 72 No. 1, and adds the mazurkas. It is a superset, not the LP alone.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "The Warner album adds the mazurkas. Those tracks are not part of the nocturne LP.",
+            "Op. Posth. 72 No. 1 is the same nocturne as Op. 72, No. 1 (Posth.).",
+            "This digital set is not verified as a particular RCA pressing or mastering."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Op. 9, No. 1",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  8721686
+                ]
+              },
+              {
+                "target": "Op. 9, No. 2",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  8721687
+                ]
+              },
+              {
+                "target": "Op. 9, No. 3",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  8721688
+                ]
+              },
+              {
+                "target": "Op. 15, No. 1",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  8721689
+                ]
+              },
+              {
+                "target": "Op. 15, No. 2",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  8721690
+                ]
+              },
+              {
+                "target": "Op. 15, No. 3",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  8721691
+                ]
+              },
+              {
+                "target": "Op. 27, No. 1",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  8721692
+                ]
+              },
+              {
+                "target": "Op. 27, No. 2",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  8721693
+                ]
+              },
+              {
+                "target": "Op. 32, No. 1",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  8721694
+                ]
+              },
+              {
+                "target": "Op. 32, No. 2",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  8721695
+                ]
+              },
+              {
+                "target": "Op. 37, No. 1",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  8721696
+                ]
+              },
+              {
+                "target": "Op. 37, No. 2",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  8721697
+                ]
+              },
+              {
+                "target": "Op. 48, No. 1",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  8721698
+                ]
+              },
+              {
+                "target": "Op. 48, No. 2",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  8721699
+                ]
+              },
+              {
+                "target": "Op. 55, No. 1",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  8721700
+                ]
+              },
+              {
+                "target": "Op. 55, No. 2",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  8721701
+                ]
+              },
+              {
+                "target": "Op. 62, No. 1",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  8721702
+                ]
+              },
+              {
+                "target": "Op. 62, No. 2",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  8721703
+                ]
+              },
+              {
+                "target": "Op. 72, No. 1 (Posth.)",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  8721704
+                ]
+              }
+            ]
+          },
+          "recording_review": "RCA LSC-7050 is Rubinstein’s nocturnes. The Warner set has all 19, including the posthumous Op. 72 No. 1, and adds the mazurkas. It is a superset, not the LP alone.",
+          "review_sources": [
+            "https://www.qobuz.com/fr-fr/album/legendary-rubinstein-chopin-complete-nocturnes-mazurkas-arthur-rubinstein/5099973025054"
           ]
         },
         {
@@ -123000,7 +123971,12 @@
       "query": "arthur rubinstein chopin the nocturnes",
       "searched_at": "2026-11-12T17:30:13.877336+00:00",
       "reasons": [
-        "18/19 target items supported after composer/work grouping; unresolved."
+        "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+        "RCA LSC-7050 is Rubinstein’s nocturnes. The Warner set has all 19, including the posthumous Op. 72 No. 1, and adds the mazurkas. It is a superset, not the LP alone.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "The Warner album adds the mazurkas. Those tracks are not part of the nocturne LP.",
+        "Op. Posth. 72 No. 1 is the same nocturne as Op. 72, No. 1 (Posth.).",
+        "This digital set is not verified as a particular RCA pressing or mastering."
       ]
     },
     "7844349": {
@@ -128880,9 +129856,19 @@
       ]
     },
     "5177097": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "xw3ecebytz0xa",
+        "name": "Jazz Samba",
+        "artists": [
+          "Stan Getz"
+        ],
+        "label": "Verve Reissues",
+        "release_date": "1962-02-13",
+        "image": "https://static.qobuz.com/images/covers/xa/z0/xw3ecebytz0xa_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/jazz-samba-stan-getz-charlie-byrd/xw3ecebytz0xa"
+      },
       "candidates": [
         {
           "id": "xw3ecebytz0xa",
@@ -128894,10 +129880,10 @@
           "release_date": "1962-02-13",
           "image": "https://static.qobuz.com/images/covers/xa/z0/xw3ecebytz0xa_230.jpg",
           "url": "https://www.qobuz.com/fr-fr/album/jazz-samba-stan-getz-charlie-byrd/xw3ecebytz0xa",
-          "status": "unchecked",
-          "confidence": null,
-          "coverage": 0.8571428571428571,
-          "covered": 6,
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 7,
           "target_count": 7,
           "required_performers": [
             "Stan Getz"
@@ -128905,11 +129891,10 @@
           "programme": [
             {
               "target": "Desafinado",
-              "work_tracks": 2,
-              "credited_tracks": 2,
+              "work_tracks": 1,
+              "credited_tracks": 1,
               "track_ids": [
-                77510719,
-                77510726
+                77510719
               ]
             },
             {
@@ -128954,13 +129939,87 @@
             },
             {
               "target": "Baia",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                77510725
+              ]
             }
           ],
           "reasons": [
-            "6/7 target items supported after composer/work grouping; unresolved."
+            "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+            "Verve SGVL 51.021 lists Baia. The cached album spells that same closing tune Bahia and follows the other six titles in order. A short second Desafinado is extra.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Baia and Bahia are the two spellings of this tune on these editions.",
+            "The second Desafinado lasts 2:03 and is not one of the seven LP tracks.",
+            "Bahia runs 6:52 against the LP’s 6:35. The take is not verified.",
+            "The 1962 Verve reissue is not verified as the 1969 gold-label mastering."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Desafinado",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  77510719
+                ]
+              },
+              {
+                "target": "Samba Dees Days",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  77510720
+                ]
+              },
+              {
+                "target": "O Pato",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  77510721
+                ]
+              },
+              {
+                "target": "Samba Triste",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  77510722
+                ]
+              },
+              {
+                "target": "Samba De Uma Nota So",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  77510723
+                ]
+              },
+              {
+                "target": "E Luxo So",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  77510724
+                ]
+              },
+              {
+                "target": "Baia",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  77510725
+                ]
+              }
+            ]
+          },
+          "recording_review": "Verve SGVL 51.021 lists Baia. The cached album spells that same closing tune Bahia and follows the other six titles in order. A short second Desafinado is extra.",
+          "review_sources": [
+            "https://www.qobuz.com/fr-fr/album/jazz-samba-stan-getz-charlie-byrd/xw3ecebytz0xa"
           ]
         },
         {
@@ -129255,7 +130314,13 @@
       "query": "stan getz byrd jazz samba",
       "searched_at": "2026-11-12T17:44:44.869414+00:00",
       "reasons": [
-        "6/7 target items supported after composer/work grouping; unresolved."
+        "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+        "Verve SGVL 51.021 lists Baia. The cached album spells that same closing tune Bahia and follows the other six titles in order. A short second Desafinado is extra.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Baia and Bahia are the two spellings of this tune on these editions.",
+        "The second Desafinado lasts 2:03 and is not one of the seven LP tracks.",
+        "Bahia runs 6:52 against the LP’s 6:35. The take is not verified.",
+        "The 1962 Verve reissue is not verified as the 1969 gold-label mastering."
       ]
     },
     "1477603": {

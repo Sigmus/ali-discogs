@@ -890,3 +890,14 @@ No. 1 on two Discogs releases, Davis’s Swan of Tuonela, Haebler’s two F-majo
 sonatas, Time Out’s Audrey, Jazz Samba’s Baia, Dutoit’s *La Jeunesse d’Hercule*
 and Ellington’s two Shepherd takes. The pass reviews all eight before reporting.
 A missing named piece stays unpublished. No implementation in this step.
+
+## 2026-11-13 — Eight cached near-misses reviewed together
+
+Probable85: Kempff11562013, all 32 sonatas, including Op. 81a and the mis-tagged
+Op. 26 scherzo; Rubinstein3475547 and11168177, all 19 nocturnes on the Warner
+superset; Davis/Sibelius6029612, the Boston box works including the English
+Swan title; Jazz Samba5177097, Baia spelled Bahia, with the short second
+Desafinado left out; Ellington7525022, both Shepherd takes bound by order and
+duration. Withheld: Haebler4641786, Time Out2383925 and Saint-Saëns10102576.
+Copies 12/83/646, unique 12/83/645. No API calls. Binding tests and
+normalization passed.

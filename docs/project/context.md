@@ -12,12 +12,12 @@ plans preserve dated evidence and prior handoffs.
   are not comparable coverage counts; [Tristan evidence](../plans/2026-11-13-cross-service-validation-gap.md).
 
 - Active branch `main`; unmatched audit merged via PR4 as20dc0e8.
-  Local opera-role review is uncommitted. Deployed site still has the prior
-  12/74/655 Qobuz counts.
+  The eight-album pass is included in the enrichment commits. The live site
+  still shows the previous Qobuz counts until Pages publishes this push.
 - Current collection:741 copies /740 unique releases. Spotify254Found /273Probable
   /210NotFound /4Unchecked copies. Retained labels are not independent full
   recording confirmations. Qobuz figures below are independent enrichment.
-- Qobuz overlay: 12 Found / 77 Probable / 652 unchecked copies; unique 12/77/651 locally.
+- Qobuz overlay: 12 Found / 83 Probable / 646 unchecked copies; unique 12/83/645 locally.
   Separate `data/qobuz_matches.json` survives Spotify rescoring; original pipeline
   Qobuz fields stay unchecked. Empty/inconclusive queries are not confirmed absence.
 - Sonoteque table/details, 80% main width, column sorting (Year ascending default),
@@ -82,15 +82,13 @@ plans preserve dated evidence and prior handoffs.
 
 ## Validation and next action
 
-- No new catalogue calls. Container, pair and opera reviews pass, as does
-  normalization. Michelangeli6678433 is Probable85: ten mazurkas plus Prelude
-  Op. 45, Ballade Op. 23 and Scherzo Op. 31, each on its own track. The heading
-  Mazurkas is a container. The 2018 DG file is not the verified 1972 mastering.
-- Gould2175684 remains Probable85 for BWV 846–893. Tristan2996680 remains
-  Probable85 for the three acts. Tannhäuser4365080 and Barenboim9866861 stay
-  unpublished.
+- No new catalogue calls. The [eight cached near-misses](../plans/2026-11-13-qobuz-eight-cached.md)
+  are reviewed. Probable85: Kempff11562013, both Rubinstein nocturne releases,
+  Davis/Sibelius6029612, Jazz Samba5177097 and Ellington7525022. Withheld:
+  Haebler4641786, Time Out2383925 and Saint-Saëns10102576.
+- Michelangeli, Gould and Tristan remain Probable85. Tannhäuser and the later
+  Barenboim cycle stay unpublished. Binding tests and normalization passed.
 - Stored unmatched-audit JSON still describes the earlier inventory.
-  Next: the [eight cached near-misses](../plans/2026-11-13-qobuz-eight-cached.md)
-  in one pass. A named piece that is absent from the cached album stays absent.
+  Next: no further cached album is within two pieces. Broader coverage stays proposed.
 - [Unmatched audit](../plans/2026-11-13-qobuz-unmatched-audit.md).
 - [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).

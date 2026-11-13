@@ -253,3 +253,13 @@ Review Kempff, Rubinstein, Davis/Sibelius, Haebler, Time Out, Jazz Samba,
 Dutoit and Ellington before reporting. A title pairing is per review. A named
 piece absent from the cached album stays unpublished. See
 [eight cached near-misses](../plans/2026-11-13-qobuz-eight-cached.md).
+
+## 2026-11-13 — Bound tracks need an explicit catalogue exception
+
+Status: adopted for the eight-album pass.
+
+A review may move or add a track only when the title still contains the cited
+text. A conflicting catalogue number is accepted only as a suffix letter, a
+posthumous token, a bare subnumber already present in the source title, or the
+same stated sonata number. KV 322 is not another Köchel number. Extra tracks,
+including a short bonus take, stay outside the programme. Cap at Probable85.

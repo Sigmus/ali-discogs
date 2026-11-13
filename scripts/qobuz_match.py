@@ -13,7 +13,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'src'))
 from ali_discogs.text import tnorm, norm, ORCH_ALIASES, is_composer
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = 'qobuz-work-groups-v2+explicit-target-credits+reviewed-leads+opera-source-roles+prelude-fugue-pairs+container-headings'
+VERSION = 'qobuz-work-groups-v2+explicit-target-credits+reviewed-leads+opera-source-roles+prelude-fugue-pairs+container-headings+bound-tracks'
 
 
 def credits_v1(track):
@@ -306,6 +306,14 @@ def generate():
         if review['review_kind'] != 'container-headings' or review['discogs_id'] in round2_reviews:
             raise ValueError('Invalid or duplicate container review')
         round2_reviews[review['discogs_id']] = review
+    binding_review_path = ROOT/'data/qobuz_binding_reviews.json'
+    binding_reviews = json.loads(binding_review_path.read_text())
+    if binding_reviews['schema_version'] != 1:
+        raise ValueError('Unsupported binding review schema')
+    for review in binding_reviews['releases']:
+        if review['review_kind'] != 'bound-tracks' or review['discogs_id'] in round2_reviews:
+            raise ValueError('Invalid or duplicate binding review')
+        round2_reviews[review['discogs_id']] = review
     results = {}
     for entry in manifest['entries']:
         rid = entry['discogs_id']
@@ -354,6 +362,7 @@ def generate():
               'opera_review_fingerprint': hashlib.sha256(opera_review_path.read_bytes()).hexdigest(),
               'pair_review_fingerprint': hashlib.sha256(pair_review_path.read_bytes()).hexdigest(),
               'container_review_fingerprint': hashlib.sha256(container_review_path.read_bytes()).hexdigest(),
+              'binding_review_fingerprint': hashlib.sha256(binding_review_path.read_bytes()).hexdigest(),
               'unmatched_review_fingerprint': hashlib.sha256(unmatched_review_path.read_bytes()).hexdigest(),
               'unmatched_metadata_fingerprint': hashlib.sha256(unmatched_metadata_path.read_bytes()).hexdigest(),
               'trial_review_fingerprint': hashlib.sha256(trial_review_path.read_bytes()).hexdigest(),

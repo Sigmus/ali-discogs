@@ -1,0 +1,855 @@
+{
+  "schema_version": 1,
+  "releases": [
+    {
+      "discogs_id": "11562013",
+      "album_id": "nrkspj3p5zasa",
+      "review_kind": "bound-tracks",
+      "decision": "probable",
+      "target_sha256": "9898e408727ea1cb025cbd400b236d4e92254d778f41a2a956705ca550da689b",
+      "album_sha256": "ffd2f484882d5710430f7e33d0b472b6aebb2fd0551ae68cc8998cb6cc348b30",
+      "source_sha256": "d2ead83ddaa4d8784d60daa68bb354e96abbbe764412ea521197c7814320af75",
+      "pulls": [
+        {
+          "track_id": 93721011,
+          "from_target": "Sonata No. 11 In B Flat Major, Op. 22",
+          "to_target": "Sonata No. 12 In A Flat Major, Op. 26",
+          "title_contains": "Sonata No. 12",
+          "catalogue_exception": "stated-sonata-number",
+          "reason": "The scherzo title names Sonata No. 12, which is Op. 26, while its opus token says Op. 22."
+        }
+      ],
+      "adds": [
+        {
+          "track_id": 93721051,
+          "target": "Sonata No. 26 In E Flat Major, Op. 81 A",
+          "title_contains": "Op. 81a",
+          "catalogue_exception": "suffix-letter",
+          "reason": "Op. 81 A is the Les Adieux sonata. The cached title uses Op. 81a for that same work."
+        },
+        {
+          "track_id": 93721052,
+          "target": "Sonata No. 26 In E Flat Major, Op. 81 A",
+          "title_contains": "Op. 81a",
+          "catalogue_exception": "suffix-letter",
+          "reason": "Op. 81 A is the Les Adieux sonata. The cached title uses Op. 81a for that same work."
+        },
+        {
+          "track_id": 93721053,
+          "target": "Sonata No. 26 In E Flat Major, Op. 81 A",
+          "title_contains": "Op. 81a",
+          "catalogue_exception": "suffix-letter",
+          "reason": "Op. 81 A is the Les Adieux sonata. The cached title uses Op. 81a for that same work."
+        }
+      ],
+      "sources": [
+        "https://www.qobuz.com/fr-fr/album/beethoven-complete-piano-sonatas-wilhelm-kempff/nrkspj3p5zasa"
+      ],
+      "limitations": [
+        "The 2018 Heritage file is not verified as the 1964 mono DG box.",
+        "Sonata No. 12’s scherzo is tagged Op. 22; the sonata number and its place between the Op. 26 movements identify it.",
+        "Op. 81 A is the Les Adieux sonata, Op. 81a, in three movements.",
+        "The Waldstein introduction is joined to the rondo on one track."
+      ],
+      "recording_review": "DG KL 42/51 is Kempff’s 1964 mono sonata box. This Heritage digital edition has all 32 sonatas, with Kempff on every track. It identifies the cycle, not that mono mastering.",
+      "required_performers": [
+        "Wilhelm Kempff"
+      ],
+      "movement_runs": true,
+      "marks": [
+        {
+          "track_id": 93721040,
+          "text": "Introduzione and Rondo"
+        }
+      ],
+      "extra_track_ids": [],
+      "expected": {
+        "Sonata No. 1 In F Minor, Op. 2 No. 1": [
+          93720971,
+          93720972,
+          93720973,
+          93720974
+        ],
+        "Sonata No. 27 In E Minor, Op. 90": [
+          93721054,
+          93721055
+        ],
+        "Sonata No. 2 In A Major, Op. 2, No. 2": [
+          93720975,
+          93720976,
+          93720977,
+          93720978
+        ],
+        "Sonate No. 8 In C Minor, Op. 13": [
+          93720997,
+          93720998,
+          93720999
+        ],
+        "Sonata No. 13 In E Flat Major, Op. 27 No. 1": [
+          93721014,
+          93721015,
+          93721016,
+          93721017
+        ],
+        "Sonata No. 3 In C Major, Op. 2 No. 3": [
+          93720979,
+          93720980,
+          93720981,
+          93720982
+        ],
+        "Sonata No. 5 In C Minor, Op. 10 No. 1": [
+          93720987,
+          93720988,
+          93720989
+        ],
+        "Sonata No. 6 In F Major, Op. 10 No. 2": [
+          93720990,
+          93720991,
+          93720992
+        ],
+        "Sonata No. 4 In E Flat Major, Op. 7": [
+          93720983,
+          93720984,
+          93720985,
+          93720986
+        ],
+        "Sonata No. 7 In D Major, Op. 10 No. 3": [
+          93720993,
+          93720994,
+          93720995,
+          93720996
+        ],
+        "Sonata No. 20 In G Major, Op. 49 Nr. 2": [
+          93721037,
+          93721038
+        ],
+        "Sonata No. 9 In E Major, Op. 14 No. 1": [
+          93721000,
+          93721001,
+          93721002
+        ],
+        "Sonata No. 30 In E Major, Op. 109": [
+          93721064,
+          93721065,
+          93721066
+        ],
+        "Sonata No. 14 In C Sharp Minor, Op. 27 No. 2 \"Moonlight\"": [
+          93721018,
+          93721019,
+          93721020
+        ],
+        "Sonata No. 10 In G Major, Op. 14, No. 2": [
+          93721003,
+          93721004,
+          93721005
+        ],
+        "Sonata No. 18 In E Flat Major, Op. 31 No. 3": [
+          93721031,
+          93721032,
+          93721033,
+          93721034
+        ],
+        "Sonata No. 19 In G Minor, Op. 49 No. 1": [
+          93721035,
+          93721036
+        ],
+        "Sonata No. 26 In E Flat Major, Op. 81 A": [
+          93721051,
+          93721052,
+          93721053
+        ],
+        "Sonata No. 11 In B Flat Major, Op. 22": [
+          93721006,
+          93721007,
+          93721008,
+          93721009
+        ],
+        "Sonata No. 32 In C Minor, Op. 111": [
+          93721070,
+          93721071
+        ],
+        "Sonata No. 17 In D Minor, Op. 31 No. 2 \"Tempest\"": [
+          93721028,
+          93721029,
+          93721030
+        ],
+        "Sonata No. 28 In A Major, Op. 101": [
+          93721056,
+          93721057,
+          93721058,
+          93721059
+        ],
+        "Sonata No. 12 In A Flat Major, Op. 26": [
+          93721010,
+          93721011,
+          93721012,
+          93721013
+        ],
+        "Sonata No. 23 In F Minor, Op. 57": [
+          93721043,
+          93721044,
+          93721045
+        ],
+        "Sonata No. 24 In F Sharp Major, Op. 78": [
+          93721046,
+          93721047
+        ],
+        "Sonata No. 15 In D Major, Op. 28": [
+          93721021,
+          93721022,
+          93721023,
+          93721024
+        ],
+        "Sonata No. 25 In G Major, Op. 79": [
+          93721048,
+          93721049,
+          93721050
+        ],
+        "Sonata No. 21 In C Major, Op. 53 \"Waldstein\"": [
+          93721039,
+          93721040
+        ],
+        "Sonata No. 22 In F Major, Op. 54": [
+          93721041,
+          93721042
+        ],
+        "Sonata No. 16 In G Major, Op. 31 No. 1": [
+          93721025,
+          93721026,
+          93721027
+        ],
+        "Sonata No. 31 In A Flat Major, Op. 110": [
+          93721067,
+          93721068,
+          93721069
+        ],
+        "Sonata No. 29 In B Flat Major, Op. 106": [
+          93721060,
+          93721061,
+          93721062,
+          93721063
+        ]
+      }
+    },
+    {
+      "discogs_id": "3475547",
+      "album_id": "5099973025054",
+      "review_kind": "bound-tracks",
+      "decision": "probable",
+      "target_sha256": "0b606ddd592fa3b8389a54b2c40bd7f540da3098c82ebee2cdc6b90a440b989d",
+      "album_sha256": "07049d909701d53d6373fd02d76fb077951be85c5b64bba2c4093126c6cd2416",
+      "source_sha256": "514ef4bef28076fa85c786ddd617125eb1ab5b658530849d7d78be7699c9223b",
+      "pulls": [],
+      "adds": [
+        {
+          "track_id": 8721704,
+          "target": "Op. 72, No. 1 (Posth.)",
+          "title_contains": "Op. Posth. 72 No. 1",
+          "catalogue_exception": "posthumous-token",
+          "reason": "The cached title places Posth. between Op. and 72, so the usual opus parser misses No. 1."
+        }
+      ],
+      "sources": [
+        "https://www.qobuz.com/fr-fr/album/legendary-rubinstein-chopin-complete-nocturnes-mazurkas-arthur-rubinstein/5099973025054"
+      ],
+      "limitations": [
+        "The Warner album adds the mazurkas. Those tracks are not part of the nocturne LP.",
+        "Op. Posth. 72 No. 1 is the same nocturne as Op. 72, No. 1 (Posth.).",
+        "This digital set is not verified as a particular RCA pressing or mastering."
+      ],
+      "recording_review": "RCA LSC-7050 is Rubinstein’s nocturnes. The Warner set has all 19, including the posthumous Op. 72 No. 1, and adds the mazurkas. It is a superset, not the LP alone.",
+      "required_performers": [
+        "Arthur Rubinstein"
+      ],
+      "extra_track_ids": [
+        8721705,
+        8721706,
+        8721707,
+        8721708,
+        8721709,
+        8721710,
+        8721711,
+        8721712,
+        8721713,
+        8721714,
+        8721715,
+        8721716,
+        8721717,
+        8721718,
+        8721719,
+        8721720,
+        8721721,
+        8721722,
+        8721723,
+        8721724,
+        8721725,
+        8721726,
+        8721727,
+        8721728,
+        8721729,
+        8721730,
+        8721731,
+        8721732,
+        8721733,
+        8721734,
+        8721735,
+        8721736,
+        8721737,
+        8721738,
+        8721739,
+        8721740,
+        8721741,
+        8721742,
+        8721743,
+        8721744,
+        8721745,
+        8721746,
+        8721747,
+        8721748,
+        8721749,
+        8721750,
+        8721751,
+        8721752,
+        8721753,
+        8721754,
+        8721755
+      ],
+      "expected": {
+        "Op. 9, No. 1": [
+          8721686
+        ],
+        "Op. 9, No. 2": [
+          8721687
+        ],
+        "Op. 9, No. 3": [
+          8721688
+        ],
+        "Op. 15, No. 1": [
+          8721689
+        ],
+        "Op. 15, No. 2": [
+          8721690
+        ],
+        "Op. 15, No. 3": [
+          8721691
+        ],
+        "Op. 27, No. 1": [
+          8721692
+        ],
+        "Op. 27, No. 2": [
+          8721693
+        ],
+        "Op. 32, No. 1": [
+          8721694
+        ],
+        "Op. 32, No. 2": [
+          8721695
+        ],
+        "Op. 37, No. 1": [
+          8721696
+        ],
+        "Op. 37, No. 2": [
+          8721697
+        ],
+        "Op. 48, No. 1": [
+          8721698
+        ],
+        "Op. 48, No. 2": [
+          8721699
+        ],
+        "Op. 55, No. 1": [
+          8721700
+        ],
+        "Op. 55, No. 2": [
+          8721701
+        ],
+        "Op. 62, No. 1": [
+          8721702
+        ],
+        "Op. 62, No. 2": [
+          8721703
+        ],
+        "Op. 72, No. 1 (Posth.)": [
+          8721704
+        ]
+      }
+    },
+    {
+      "discogs_id": "11168177",
+      "album_id": "5099973025054",
+      "review_kind": "bound-tracks",
+      "decision": "probable",
+      "target_sha256": "1b99678f6e0fc5c4f53d250a5916559f0b7a44c9ecceabc2064fb80a7028a063",
+      "album_sha256": "07049d909701d53d6373fd02d76fb077951be85c5b64bba2c4093126c6cd2416",
+      "source_sha256": "e0c575a9a18d3ea1c702046a39c37e0d92339f2bce6eee231962d8c5e1e16aeb",
+      "pulls": [],
+      "adds": [
+        {
+          "track_id": 8721704,
+          "target": "Op. 72, No. 1 (Posth.)",
+          "title_contains": "Op. Posth. 72 No. 1",
+          "catalogue_exception": "posthumous-token",
+          "reason": "The cached title places Posth. between Op. and 72, so the usual opus parser misses No. 1."
+        }
+      ],
+      "sources": [
+        "https://www.qobuz.com/fr-fr/album/legendary-rubinstein-chopin-complete-nocturnes-mazurkas-arthur-rubinstein/5099973025054"
+      ],
+      "limitations": [
+        "The Warner album adds the mazurkas. Those tracks are not part of the nocturne LP.",
+        "Op. Posth. 72 No. 1 is the same nocturne as Op. 72, No. 1 (Posth.).",
+        "This digital set is not verified as a particular RCA pressing or mastering."
+      ],
+      "recording_review": "RCA LSC-7050 is Rubinstein’s nocturnes. The Warner set has all 19, including the posthumous Op. 72 No. 1, and adds the mazurkas. It is a superset, not the LP alone.",
+      "required_performers": [
+        "Arthur Rubinstein"
+      ],
+      "extra_track_ids": [
+        8721705,
+        8721706,
+        8721707,
+        8721708,
+        8721709,
+        8721710,
+        8721711,
+        8721712,
+        8721713,
+        8721714,
+        8721715,
+        8721716,
+        8721717,
+        8721718,
+        8721719,
+        8721720,
+        8721721,
+        8721722,
+        8721723,
+        8721724,
+        8721725,
+        8721726,
+        8721727,
+        8721728,
+        8721729,
+        8721730,
+        8721731,
+        8721732,
+        8721733,
+        8721734,
+        8721735,
+        8721736,
+        8721737,
+        8721738,
+        8721739,
+        8721740,
+        8721741,
+        8721742,
+        8721743,
+        8721744,
+        8721745,
+        8721746,
+        8721747,
+        8721748,
+        8721749,
+        8721750,
+        8721751,
+        8721752,
+        8721753,
+        8721754,
+        8721755
+      ],
+      "expected": {
+        "Op. 9, No. 1": [
+          8721686
+        ],
+        "Op. 9, No. 2": [
+          8721687
+        ],
+        "Op. 9, No. 3": [
+          8721688
+        ],
+        "Op. 15, No. 1": [
+          8721689
+        ],
+        "Op. 15, No. 2": [
+          8721690
+        ],
+        "Op. 15, No. 3": [
+          8721691
+        ],
+        "Op. 27, No. 1": [
+          8721692
+        ],
+        "Op. 27, No. 2": [
+          8721693
+        ],
+        "Op. 32, No. 1": [
+          8721694
+        ],
+        "Op. 32, No. 2": [
+          8721695
+        ],
+        "Op. 37, No. 1": [
+          8721696
+        ],
+        "Op. 37, No. 2": [
+          8721697
+        ],
+        "Op. 48, No. 1": [
+          8721698
+        ],
+        "Op. 48, No. 2": [
+          8721699
+        ],
+        "Op. 55, No. 1": [
+          8721700
+        ],
+        "Op. 55, No. 2": [
+          8721701
+        ],
+        "Op. 62, No. 1": [
+          8721702
+        ],
+        "Op. 62, No. 2": [
+          8721703
+        ],
+        "Op. 72, No. 1 (Posth.)": [
+          8721704
+        ]
+      }
+    },
+    {
+      "discogs_id": "6029612",
+      "album_id": "0002894783696",
+      "review_kind": "bound-tracks",
+      "decision": "probable",
+      "target_sha256": "7fe0632ed2f070f1e853d76647ed1c2b7181e192ed138eb353606c277b8d1dc7",
+      "album_sha256": "b7daaedd5bb3cf1fb998cedcd66382f06136448f8f1060e909eb733b1ee50a29",
+      "source_sha256": "a9375132a40f82948c8685e8f719fb5e52f87d7c218c1856cbb8f7e779a1602e",
+      "pulls": [],
+      "adds": [
+        {
+          "track_id": 5190544,
+          "target": "Der Schwan Von Tuonela, Op. 22, 2 (Legende) (1893)",
+          "title_contains": "The Swan of Tuonela, Op. 22, No. 2",
+          "catalogue_exception": "bare-subnumber",
+          "reason": "The source writes Op. 22, 2 without the word No. The track is Op. 22, No. 2, The Swan of Tuonela."
+        }
+      ],
+      "sources": [
+        "https://www.qobuz.com/fr-fr/album/jean-sibelius-complete-symphonies-tone-poems-boston-symphony-orchestra-sir-colin-davis/0002894783696"
+      ],
+      "limitations": [
+        "The Swan of Tuonela is titled in English as Op. 22, No. 2. The source lists the same work in German as Op. 22, 2.",
+        "Symphony No. 7 is one movement split into five tracks.",
+        "The album also contains other Boston/Davis tone poems and a violin concerto with the London Symphony and Salvatore Accardo. Those tracks are not the Philips box.",
+        "The 2012 digital issue is not verified as the 1975–77 Philips mastering."
+      ],
+      "recording_review": "Philips 6709 011 is Davis and the Boston Symphony in the seven symphonies, Finlandia, The Swan of Tuonela and Tapiola. Those works are on this Decca set with the same artists. The set also contains other pieces.",
+      "required_performers": [
+        "Sir Colin Davis",
+        "Boston Symphony Orchestra"
+      ],
+      "extra_track_ids": [
+        5190519,
+        5190545,
+        5190546,
+        5190547,
+        5190548,
+        5190549,
+        5190550,
+        5190551,
+        5190552
+      ],
+      "expected": {
+        "Sinfonie Nr. 1 E-Moll, Op. 39 (1898-99)": [
+          5190514,
+          5190515,
+          5190516,
+          5190517
+        ],
+        "Finlandia, Op. 26 (1899)": [
+          5190518
+        ],
+        "Sinfonie Nr. 2 D-Dur, Op. 43 (1901-02)": [
+          5190521,
+          5190522,
+          5190523,
+          5190524
+        ],
+        "Der Schwan Von Tuonela, Op. 22, 2 (Legende) (1893)": [
+          5190544
+        ],
+        "Sinfonie Nr. 3 C-Dur, Op. 52 (1904-07)": [
+          5190530,
+          5190531,
+          5190532
+        ],
+        "Sinfonie Nr. 6 D-Moll, Op. 104 (1923)": [
+          5190540,
+          5190541,
+          5190542,
+          5190543
+        ],
+        "Sinfonie Nr. 4 A-Moll, Op. 63 (1910-11)": [
+          5190533,
+          5190534,
+          5190535,
+          5190536
+        ],
+        "Tapiola, Op. 112 (Tondichtung Für Großes Orchester) (1926)": [
+          5190520
+        ],
+        "Sinfonie Nr. 5 Es-Dur, Op. 82 (1910-15)": [
+          5190537,
+          5190538,
+          5190539
+        ],
+        "Sinfonie Nr. 7 C-Dur, Op. 105 (1925)": [
+          5190525,
+          5190526,
+          5190527,
+          5190528,
+          5190529
+        ]
+      }
+    },
+    {
+      "discogs_id": "4641786",
+      "album_id": "zcagbe356rypb",
+      "review_kind": "bound-tracks",
+      "decision": "withhold",
+      "target_sha256": "1355cbc1a0902b245199cb4d4fa170f3397e1cdd35cc6c28a6285f66ba6910d2",
+      "album_sha256": "04f684aacb58e6b4129e6cdb923fd7f4a92b81f2a143606637b79a294bb80a85",
+      "source_sha256": "d8ddeecb7d5b8c26710a520a554fff0363bbf35daa3dbbd057837f199ebfd13f",
+      "pulls": [],
+      "adds": [],
+      "sources": [],
+      "limitations": [
+        "KV 322 is not relabelled to another F-major sonata."
+      ],
+      "recording_review": "Two F-major sonatas stay unmatched. One has no Köchel number. The other is labelled KV 322, which is not a piano sonata. K. 332 and K. 533/494 are present and are not assigned to either title.",
+      "absent_tokens": [],
+      "extra_track_ids": [
+        179323449,
+        179323459,
+        179323460,
+        179323470,
+        179323471,
+        179323472,
+        179323473,
+        179323490,
+        179323491,
+        179323492,
+        179323493,
+        179323494,
+        179323495,
+        179323496,
+        179323497,
+        179323498,
+        179323499,
+        179323500,
+        179323501,
+        179323502,
+        179323503,
+        179323504,
+        179323505,
+        179323506
+      ],
+      "missing_targets": [
+        "Sonate F-Dur",
+        "Sonate F-Dur, KV 322"
+      ]
+    },
+    {
+      "discogs_id": "2383925",
+      "album_id": "0884977171662",
+      "review_kind": "bound-tracks",
+      "decision": "withhold",
+      "target_sha256": "1a831e2ccf3276ffe79c9c229eae8a634f9b8e4a9902122fd4efa38f28f8c8e5",
+      "album_sha256": "b91815c90b01ba000f06829a1c16f4e05262fe0831e75fc9d59a444f64c0efd0",
+      "source_sha256": "7fce8d9905946ac27ed7e4b76f3b5c217beecb7fe943acaa19f631df3f84bb7b",
+      "pulls": [],
+      "adds": [],
+      "sources": [],
+      "limitations": [
+        "The seven 1959 pieces do not make the bonus track present."
+      ],
+      "recording_review": "Audrey is a bonus track on this Discogs edition, from a 1954 session with different personnel. The Legacy Edition has the seven 1959 pieces and other bonuses, and it does not contain Audrey.",
+      "absent_tokens": [
+        "audrey"
+      ],
+      "extra_track_ids": [
+        458307,
+        458308,
+        458309,
+        458310,
+        458311,
+        458312,
+        458313,
+        458314
+      ],
+      "missing_targets": [
+        "Audrey"
+      ]
+    },
+    {
+      "discogs_id": "5177097",
+      "album_id": "xw3ecebytz0xa",
+      "review_kind": "bound-tracks",
+      "decision": "probable",
+      "target_sha256": "caef720ce4498c91ca83fa196c6e4b0ccc01bf266c6a1897e0f0b3388ecc0747",
+      "album_sha256": "4b09b1c57aa66ba5831c6d538bff67a52baec21710db78402024de758a21a4ec",
+      "source_sha256": "b2278496ae22b753270f9d4c1ff8c9def5040dd6b33988ea848b22fa4eb7dbfb",
+      "pulls": [],
+      "adds": [
+        {
+          "track_id": 77510725,
+          "target": "Baia",
+          "title_contains": "Bahia",
+          "reason": "Baia and Bahia are spellings of the same Jazz Samba track, placed after E Luxo So."
+        }
+      ],
+      "sources": [
+        "https://www.qobuz.com/fr-fr/album/jazz-samba-stan-getz-charlie-byrd/xw3ecebytz0xa"
+      ],
+      "limitations": [
+        "Baia and Bahia are the two spellings of this tune on these editions.",
+        "The second Desafinado lasts 2:03 and is not one of the seven LP tracks.",
+        "Bahia runs 6:52 against the LP’s 6:35. The take is not verified.",
+        "The 1962 Verve reissue is not verified as the 1969 gold-label mastering."
+      ],
+      "recording_review": "Verve SGVL 51.021 lists Baia. The cached album spells that same closing tune Bahia and follows the other six titles in order. A short second Desafinado is extra.",
+      "required_performers": [
+        "Stan Getz"
+      ],
+      "extra_track_ids": [
+        77510726
+      ],
+      "expected": {
+        "Desafinado": [
+          77510719
+        ],
+        "Samba Dees Days": [
+          77510720
+        ],
+        "O Pato": [
+          77510721
+        ],
+        "Samba Triste": [
+          77510722
+        ],
+        "Samba De Uma Nota So": [
+          77510723
+        ],
+        "E Luxo So": [
+          77510724
+        ],
+        "Baia": [
+          77510725
+        ]
+      },
+      "exclusions": [
+        {
+          "track_id": 77510726,
+          "target": "Desafinado",
+          "title_contains": "Desafinado",
+          "duration_seconds": 123,
+          "reason": "This second Desafinado lasts 2:03. The LP track is the 5:47 performance."
+        }
+      ]
+    },
+    {
+      "discogs_id": "10102576",
+      "album_id": "x8we8ykf2exc9",
+      "review_kind": "bound-tracks",
+      "decision": "withhold",
+      "target_sha256": "8e8232ef5de033ba30694d7c9d35f2cf62c5519f2b5a98493b6b35cc9bfa136d",
+      "album_sha256": "ca1dc7fe02081595fc76203520a78d4a0e35bac638a534a90aa5bce869ed13a1",
+      "source_sha256": "df725bb8bf430c5ef0018b735a151dffa8a14ad392987b717fc5a00ac3bfb77e",
+      "pulls": [],
+      "adds": [],
+      "sources": [],
+      "limitations": [
+        "The five concertos do not make the symphonic poem present."
+      ],
+      "recording_review": "La Jeunesse d’Hercule, Op. 50, is a 16:58 filler on Decca D244D3. The cached album contains only the five piano concertos and has no Op. 50.",
+      "absent_tokens": [
+        "hercule"
+      ],
+      "extra_track_ids": [],
+      "missing_targets": [
+        "La Jeunesse D'Hercule (Poème Symphonique), Op. 50"
+      ]
+    },
+    {
+      "discogs_id": "7525022",
+      "album_id": "0002521867172",
+      "review_kind": "bound-tracks",
+      "decision": "probable",
+      "target_sha256": "702eb884638f296064f97cab0d6d54e9c071be392b7c234cf317611f195cd852",
+      "album_sha256": "294be601c303a2e3eb3a825d4a7bb711dc405e3a48e696d85d0431ad3ad14b03",
+      "source_sha256": "65e920c930fa16aa2787d792fdcffab39db50ba178a666bf6a7fb061776328dd",
+      "pulls": [],
+      "adds": [
+        {
+          "track_id": 24259621,
+          "target": "The Shepherd/Take 1",
+          "title_contains": "The Shepherd",
+          "duration_seconds": 348,
+          "reason": "Take 1 is 5:48 on the LP. This first Shepherd track runs 5:47."
+        },
+        {
+          "track_id": 24259623,
+          "target": "The Shepherd/Take 2",
+          "title_contains": "The Shepherd",
+          "duration_seconds": 392,
+          "reason": "Take 2 is 6:32 on the LP. This second Shepherd track runs 6:32."
+        }
+      ],
+      "sources": [
+        "https://www.qobuz.com/fr-fr/album/the-pianist-duke-ellington/0002521867172"
+      ],
+      "limitations": [
+        "The digital titles do not print the take numbers. Order and duration bind take 1 to the shorter track and take 2 to the longer one.",
+        "The Original Jazz Classics issue is not verified as the Fantasy brown-label mastering."
+      ],
+      "recording_review": "Fantasy 5999 lists The Shepherd as take 1 (5:48) and take 2 (6:32). The Original Jazz Classics file has two consecutive tracks titled The Shepherd, at 5:47 and 6:32, in that order, with Ellington on both.",
+      "required_performers": [
+        "Duke Ellington"
+      ],
+      "extra_track_ids": [],
+      "expected": {
+        "Don Juan": [
+          24259615
+        ],
+        "Slow Blues": [
+          24259617
+        ],
+        "Looking Glass": [
+          24259619
+        ],
+        "The Shepherd/Take 1": [
+          24259621
+        ],
+        "The Shepherd/Take 2": [
+          24259623
+        ],
+        "Tap Dancer's Blues": [
+          24259625
+        ],
+        "Sam Woodyard's Blues": [
+          24259627
+        ],
+        "Duck Amok": [
+          24259628
+        ],
+        "Never Stop Remembering Bill": [
+          24259629
+        ],
+        "Fat Mess": [
+          24259630
+        ]
+      }
+    }
+  ]
+}

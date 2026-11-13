@@ -45,7 +45,31 @@ a missing nocturne.
 - Verify any newly published detail in the local explorer. Do not commit the
   implementation as part of this plan.
 
-## Done when
+## Result
 
-All eight albums have a recorded decision, the match file is regenerated, and
-the eight results are reported together.
+Reviewed together on 13 November 2026. No new catalogue calls. Copies are now
+12 Found / 83 Probable / 646 Unchecked; unique 12/83/645.
+
+Probable 85:
+
+- Kempff11562013. All 32 sonatas. Op. 81 A is Op. 81a. The Sonata No. 12 scherzo
+  is tagged Op. 22 and is pulled back by its sonata number. The Waldstein
+  introduction shares the rondo track. Heritage 2018 is not the 1964 mono box.
+- Rubinstein3475547 and11168177. All 19 nocturnes. Op. Posth. 72 No. 1 is the
+  posthumous nocturne. The 51 mazurka tracks stay outside the LP.
+- Davis/Sibelius6029612. The seven symphonies, Finlandia, Swan of Tuonela and
+  Tapiola, with Davis and Boston on those tracks. Symphony 7 is split into five
+  tracks. Nine other tracks stay outside, including the London Symphony violin
+  concerto.
+- Jazz Samba5177097. Baia is the track spelled Bahia. The 2:03 second
+  Desafinado stays outside. Bahia’s duration differs from the LP.
+- Ellington7525022. Take 1 is the 5:47 Shepherd track and take 2 is the 6:32
+  track. The digital titles do not print the take numbers.
+
+Withheld:
+
+- Haebler4641786. “Sonate F-Dur” and “Sonate F-Dur, KV 322” do not identify
+  K. 332 or K. 533/494. KV 322 is not relabelled.
+- Time Out2383925. Audrey, the 1954 bonus, is absent from the Legacy Edition.
+- Saint-Saëns10102576. *La Jeunesse d’Hercule*, Op. 50, is absent. The five
+  concertos do not replace it.
