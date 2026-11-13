@@ -88,9 +88,11 @@ plans preserve dated evidence and prior handoffs.
   Haebler4641786, Time Out2383925 and Saint-Saëns10102576.
 - Michelangeli, Gould and Tristan remain Probable85. Tannhäuser and the later
   Barenboim cycle stay unpublished. Binding tests and normalization passed.
-- Stored unmatched-audit JSON still describes the earlier inventory.
-  Next: refresh that offline inventory. 645 unique releases remain unchecked:
-  3 decided gaps, 46 partial albums below 75%, 243 with no programme overlap,
-  and 353 with no cached candidate. A new band or new searches need a new scope.
+- Unmatched inventory refreshed 2026-11-13 after the eight-album pass:
+  324 no saved hits, 10 metadata-needed, 306 work/credit unresolved,
+  4 reviewed withholds, 1 completeness caution. That caution is Barenboim
+  9866861 against the later DG cycle, already kept unpublished.
+- Next: the 10 metadata-needed releases have saved hits and no cached album.
+  Fetching them, or opening the 306 unresolved credits, needs a new scope.
 - [Unmatched audit](../plans/2026-11-13-qobuz-unmatched-audit.md).
 - [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).

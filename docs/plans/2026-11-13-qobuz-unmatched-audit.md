@@ -167,3 +167,26 @@ page/29tracks. Resolver now prefers canonical index over plausible supplied URL;
 --album-id prints safe links offline. Regression for reported slug passes; all
 publication Qobuz links match index. AGENTS requires exact resolver use in chat
 as well as code/docs. Five URL tests pass. No commit/push requested.
+
+## Inventory after the eight-album pass
+
+13 November 2026, Europe/Amsterdam. Rebuilt with
+`PYTHONPATH=scripts uv run python scripts/qobuz_unmatched_audit.py` after
+`d0afc9a`. No new searches, metadata fetches, or publication changes. Recorded
+withholds are a separate category.
+
+645 unique unchecked releases:
+
+- 324 have no hits in the included saved searches.
+- 10 have saved hits and no cached album among those hits.
+- 306 have cached metadata whose work or credit evidence is unresolved.
+- 4 are recorded withholds: Tannhäuser4365080, Haebler4641786, Time Out2383925,
+  and Saint-Saëns10102576. They stay unmatched.
+- 1 has programme support and unknown completeness: Barenboim9866861 versus
+  DG 0002894631272. That is the later Paris cycle already kept unpublished.
+
+The 10 metadata-needed releases are A Love Supreme594243, Rachmaninoff4469662,
+St Matthew Passion5140330, Schütz6091545, Shostakovich6105272, Bach cantatas
+6465567, Bach three-piano concertos6907296, Bach cantatas7975379, Duparc9850479,
+and Chopin12419639. Every saved hit for those ten is still uncached. Fetching
+them is a new scope.

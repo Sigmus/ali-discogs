@@ -263,3 +263,13 @@ text. A conflicting catalogue number is accepted only as a suffix letter, a
 posthumous token, a bare subnumber already present in the source title, or the
 same stated sonata number. KV 322 is not another Köchel number. Extra tracks,
 including a short bonus take, stay outside the programme. Cap at Probable85.
+
+## 2026-11-13 — A recorded withhold is not an open inventory lead
+
+Status: adopted.
+
+The unmatched inventory follows the published matches. A release whose cached
+album has a withhold decision is `reviewed_withheld`, including Tannhäuser,
+Haebler, Time Out and Saint-Saëns Op. 50. That category does not publish a
+match and does not queue the same gap again. Barenboim9866861 remains the one
+completeness caution and stays unpublished against DG 4631272.

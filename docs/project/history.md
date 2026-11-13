@@ -901,3 +901,12 @@ Desafinado left out; Ellington7525022, both Shepherd takes bound by order and
 duration. Withheld: Haebler4641786, Time Out2383925 and Saint-Saëns10102576.
 Copies 12/83/646, unique 12/83/645. No API calls. Binding tests and
 normalization passed.
+
+## 2026-11-13 — Unmatched inventory refreshed after publication
+
+Offline audit now follows the published matches. 645 unique unchecked releases:
+324 no saved hits, 10 metadata-needed, 306 work/credit unresolved, 4 reviewed
+withholds (Tannhäuser4365080, Haebler4641786, Time Out2383925,
+Saint-Saëns10102576), and one completeness caution, Barenboim9866861 against
+the later DG cycle. No new searches, fetches, or promotions. The audit script
+completed and wrote `data/qobuz_unmatched_audit.json`.
