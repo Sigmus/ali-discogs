@@ -95,6 +95,6 @@ plans preserve dated evidence and prior handoffs.
 - Next stop: Salome 7657012. The file names Behrens and Karajan, but the
   LP’s four scene-sides are not the act review. Munrow’s file has 61 tracks
   against 79. The Four Seasons hits are compilations. Bitches Brew stays a
-  proposal. No push.
+  proposal. Pushed through c12ce9d. Live Pages result not confirmed.
 - [Unmatched audit](../plans/2026-11-13-qobuz-unmatched-audit.md). [Bitches Brew credits](../plans/2026-11-13-bitches-brew-credits.md).
 - [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).
