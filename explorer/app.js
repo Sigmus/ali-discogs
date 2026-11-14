@@ -456,6 +456,23 @@
     const shelf = $("shelf");
     const themeBtn = $("theme");
     const form = $("filters");
+    const pinFilters = $("pin-filters");
+    pinFilters.addEventListener("click", () => {
+      const pinned = pinFilters.getAttribute("aria-pressed") !== "true";
+      pinFilters.setAttribute("aria-pressed", String(pinned));
+      pinFilters.title = pinned ? "Unpin filters" : "Pin filters while scrolling";
+      pinFilters.setAttribute("aria-label", pinFilters.title);
+      form.classList.toggle("is-pinned", pinned);
+      updateStickyOffsets();
+    });
+    const header = document.querySelector(".app-header");
+    function updateStickyOffsets() {
+      document.documentElement.style.setProperty("--header-height", header.getBoundingClientRect().height + "px");
+      document.documentElement.style.setProperty("--pinned-filter-height", form.classList.contains("is-pinned") ? form.getBoundingClientRect().height + "px" : "0px");
+    }
+    const stickyObserver = new ResizeObserver(updateStickyOffsets);
+    stickyObserver.observe(header);
+    stickyObserver.observe(form);
     let items = [];
     let sample = false;
     let ready = false;
@@ -709,6 +726,7 @@
       $("collection-view").hidden = id !== null;
       const detail = $("detail-view");
       detail.hidden = id === null;
+      pinFilters.hidden = id !== null;
       if (id === null) { document.title = "ajozi vinyl"; return; }
       params.delete("album");
       const back = params.toString() ? "#" + params.toString() : "#";

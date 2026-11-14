@@ -412,3 +412,10 @@ on the left; artist/title, tracklist, saved credit categories and existing
 Spotify/Qobuz evidence sit on the right. Stack on small screens. Remove Albums
 back button; header remains collection navigation. Do not invent missing source
 movements, instrument roles or notes.
+
+## 2026-11-14 — Filter band and optional pin
+
+Status: adopted, user selected A. Slightly raised neutral background and bottom
+border separate filters from results. A pin icon before theme toggles sticky
+filters below the header; default off, current page lifetime. Hide control in
+details. Measure header height so pin offset follows responsive sizing.

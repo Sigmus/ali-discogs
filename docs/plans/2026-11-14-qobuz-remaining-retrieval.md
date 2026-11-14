@@ -61,3 +61,10 @@ After retrieval, in order:
 Status and confidence are saved outputs, not UI thresholds. Qobuz85/95 are
 heuristic evidence levels; Spotify’s legacy similarity score is not comparable.
 Higher reliable coverage is the aim, not a larger accepted count at any cost.
+
+Hourly checkpoint14:21Amsterdam: metadata83/83 complete; search160/603 in
+planned120second rest until14:21:55. Search142nonempty/18empty;82releases
+seen so far all have at least one hit (not validated matches).150fresh search
+HTTP attempts/10cache reuses; metadata85HTTP attempts incl overhead. Search
+throughput about3.7fresh requests/minute including rests. Rough remaining
+2–2.3hours; finish16:20–16:45Amsterdam, conditional on no pauses/errors.

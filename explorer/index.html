@@ -13,12 +13,12 @@ try {
   document.documentElement.setAttribute("data-theme", t);
 } catch (e) {}
 </script>
-<link rel="stylesheet" href="style.css?v=20261114-picker-order">
+<link rel="stylesheet" href="style.css?v=20261114-filter-pin">
 
 </head>
 <body>
 <a class="skip" href="#shelf">Skip to releases</a>
-<header class="app-header"><div class="brand-line"><a class="brand" href="./">ajozi vinyl</a><a class="discogs-brand-link" href="https://www.discogs.com/user/ajozi/collection" target="_blank" rel="noopener noreferrer">on Discogs</a></div><button id="theme" aria-label="Switch theme"><span class="icon-moon">☽</span><span class="icon-sun">☀</span></button></header>
+<header class="app-header"><div class="brand-line"><a class="brand" href="./">ajozi vinyl</a><a class="discogs-brand-link" href="https://www.discogs.com/user/ajozi/collection" target="_blank" rel="noopener noreferrer">on Discogs</a></div><div class="header-actions"><button id="pin-filters" type="button" aria-label="Pin filters while scrolling" title="Pin filters while scrolling" aria-pressed="false"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M8 3h8M9 3v6l-3 4v2h12v-2l-3-4V3M12 15v6"/></svg></button><button id="theme" aria-label="Switch theme"><span class="icon-moon">☽</span><span class="icon-sun">☀</span></button></div></header>
 <main class="page-shell">
 <section id="collection-view">
 <form id="filters" class="filters">
@@ -36,6 +36,6 @@ try {
 <p id="notice" class="notice" hidden></p>
 </main>
 <noscript>This page needs JavaScript to load the collection.</noscript>
-<script src="multi-picker.js?v=20261114-picker-order"></script>
-<script src="app.js?v=20261114-picker-order"></script>
+<script src="multi-picker.js?v=20261114-filter-pin"></script>
+<script src="app.js?v=20261114-filter-pin"></script>
 </body></html>

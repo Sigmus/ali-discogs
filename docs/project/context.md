@@ -8,8 +8,8 @@ explorer. [README](../../README.md) owns setup and architecture;
 
 ## Current state
 
-- Branch `main`; UI changes pushed through `749ba61`. Retrieval code, fixed scope, completed metadata export and planning docs are
-  committed in5545435; search remains in progress. Check Git before continuing.
+- Branch `main`; pushed through `66b35d4` (retrieval setup/evidence and detail
+  layout C). Latest retrieval checkpoint notes remain local. Search in progress.
 - Collection: 741 copies / 740 unique releases. Current saved labels: Spotify
   254 Found / 273 Probable / 210 Not found / 4 Unchecked; Qobuz
   12 Found / 98 Probable / 631 Unchecked copies (14 November snapshot).
@@ -28,6 +28,13 @@ explorer. [README](../../README.md) owns setup and architecture;
 - Local server: http://127.0.0.1:8000/ . Live site:
   https://sigmus.github.io/ali-discogs/ . Latest deployment not checked here.
 
+## Filter surface and pin
+
+- User selected A: lighter full-width filter band with bottom border implemented.
+  Header pin button before theme toggles sticky filters below measured header;
+  default unpinned, page-lifetime preference, hidden on detail pages. Table
+  column headers always stick below the header/optional pinned filters.
+
 ## Detail UI
 
 - User chose C: catalogue sidebar implemented locally. Cover/facts left;
@@ -42,7 +49,8 @@ explorer. [README](../../README.md) owns setup and architecture;
   83 distinct candidate albums, then 603 new queries. See
   [run plan](../plans/2026-11-14-qobuz-remaining-retrieval.md).
 - Run state/log: `.qobuz-poc/remaining-2026-11-14/`; metadata complete 83/83.
-  Search checkpoint at 14:11 Amsterdam: 124/603, running, no warning in log tail.
+  Search checkpoint at 14:21 Amsterdam: 160/603, planned batch rest;
+  142 nonempty /18 empty queries, no warning observed.
   These are dated observations; read progress files for current status.
 - Hourly ETA monitor: `qobuz-remaining-retrieval-progress`; idle-sleep assertion
   attached to worker. Preserve checkpoints, caches and credentials.

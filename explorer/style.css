@@ -656,3 +656,20 @@ th.sortable button {
  .release-sidebar .detail-cover {max-width:200px}
  .release-content h1 {font-size:20px}
 }
+
+/* Filter band and optional pin below the persistent header. */
+.page-shell {padding-top:0}
+#detail-view {padding-top:16px}
+.filters {padding:18px 16px 20px;margin:0 -16px 18px;background:color-mix(in srgb,var(--c-text) 2%,var(--c-bg));border-bottom:1px solid var(--c-border)}
+.filters input,.filters .multi-trigger {background:var(--c-bg)}
+.filters.is-pinned {position:sticky;top:var(--header-height,49px);z-index:9}
+.header-actions {display:flex;align-items:center;gap:8px}
+#pin-filters {display:grid;place-items:center;width:30px;height:30px;padding:5px;border:0;background:none;color:var(--c-muted)}
+#pin-filters svg {width:19px;height:19px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round;transform:rotate(35deg);transition:transform .15s ease}
+#pin-filters[aria-pressed="true"] {color:var(--c-accent);background:color-mix(in srgb,var(--c-accent) 12%,transparent)}
+#pin-filters[aria-pressed="true"] svg {transform:rotate(0deg)}
+
+/* Keep column sorting visible in the document scroll, below pinned controls. */
+.table-wrap {overflow:visible}
+.album-table {min-width:0}
+.album-table thead th {position:sticky;top:calc(var(--header-height,49px) + var(--pinned-filter-height,0px));z-index:8;background:var(--c-bg);box-shadow:0 1px 0 var(--c-border)}

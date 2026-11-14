@@ -1279,3 +1279,34 @@ source track positions/types/durations and country/released for display without
 changing matching inputs. Responsive single-column layout. Browser inspected
 Schumann7946604 with facts, heading, credits and service candidates populated;
 JS syntax, normalization regressions and build pass. Not committed or pushed.
+
+## 2026-11-14 — Retrieval setup and detail layout pushed
+
+User-requested push succeeded: main749ba61 →66b35d4, including5545435.
+Latest checkpoint notes remain local; deployment not verified. Worker untouched.
+
+## 2026-11-14 — Filter surface options prototyped
+
+Four switchable treatments around the real interactive collection: soft raised
+band/bottom border, dark band/border, violet tint/border, inset outlined panel.
+Light/dark comparison included. Browser loaded all741 releases and working
+picker controls; build/diff checks pass. Main styles unchanged; choice pending.
+
+## 2026-11-14 — Filter band A and header pin implemented
+
+Applied soft raised band/bottom border; inputs retain collection background.
+Added accessible pressed-state pin button before theme, sticky below dynamically
+measured header, hidden in details. Browser verified toggled static/sticky state
+and matching54.9px header offset. JS/normalization/build/diff checks pass.
+Retrieval unaffected; no commit/push.
+
+Filter band refinement: reduced text-colour mix from4% to2% at user request
+for a quieter background; bottom border retained. Local build passes.
+
+## 2026-11-14 — Sticky table column headers
+
+Column labels/sort buttons stay below the header and optional pinned filters.
+ResizeObserver measures filter/header height, including multi-select chip wraps.
+Removed nested horizontal scroll container so document-sticky headers can work;
+table uses available width with existing mobile column rules. Build and Node
+normalization checks pass.
