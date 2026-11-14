@@ -1,0 +1,125 @@
+{
+  "discogs_id": "3167056",
+  "album_id": "0002894133212",
+  "target_sha256": "251d1f79db137461a36cdfa4988385a6f1ac6bc7f8957d1ac1a4c363a92251b6",
+  "album_sha256": "184ab2d09b742de9dedb9b38c66ea98f3f1e0f2695f26519a9436c952c57f64c",
+  "source_sha256": "2e98f814068e86fb1e43ae832adb58bc67054efc3281a21729dd97c74f33732d",
+  "source_track_count": 11,
+  "source_container_headings": [
+    "Erster Teil: Jerusalem",
+    "Zweiter Teil: Der Frevler",
+    "Dritter Teil: Die Prophezeihung",
+    "Vierter Teil: Das Zerbrochene Götzenbild"
+  ],
+  "candidate_tracks": 11,
+  "publication_changed": false,
+  "decision": "withhold",
+  "findings": [
+    "The source has11played bands and4part headings;15flattened units is not15required audio tracks.",
+    "All11candidate tracks lack explicit Sinopoli and Berlin orchestra/chorus track credits. Album artist roles do not automatically fill those gaps.",
+    "Vocalists vary by scene; requiring every global singer on every track is inappropriate, but explicit source scene roles need a bounded review before altering requirements.",
+    "Same11track count and plausible order alone do not prove recording identity."
+  ],
+  "track_credit_gaps": [
+    {
+      "track_id": 516622,
+      "title": "Verdi: Nabucco: Overture",
+      "missing": [
+        "Giuseppe Sinopoli",
+        "Orchester Der Deutschen Oper Berlin",
+        "Chor der Deutschen Oper Berlin"
+      ]
+    },
+    {
+      "track_id": 516623,
+      "title": "Verdi: Nabucco / Act I: Gli arredi festivi giù cadano infranti",
+      "missing": [
+        "Giuseppe Sinopoli",
+        "Orchester Der Deutschen Oper Berlin",
+        "Chor der Deutschen Oper Berlin"
+      ]
+    },
+    {
+      "track_id": 516624,
+      "title": "Verdi: Nabucco / Act 1: \"Qual rumore?\"/\"Come notte a sol fulgente\"",
+      "missing": [
+        "Giuseppe Sinopoli",
+        "Orchester Der Deutschen Oper Berlin",
+        "Chor der Deutschen Oper Berlin"
+      ]
+    },
+    {
+      "track_id": 516625,
+      "title": "Verdi: Nabucco / Act 1: Recitativo e terzettino: \"Fenena! O mia diletta\" - \"Guerrieri, è preso il Tempio...\" - \"Io t'amava\"",
+      "missing": [
+        "Giuseppe Sinopoli",
+        "Orchester Der Deutschen Oper Berlin",
+        "Chor der Deutschen Oper Berlin"
+      ]
+    },
+    {
+      "track_id": 516626,
+      "title": "Verdi: Nabucco / Act 2: Chi s'avanza?/Salgo già del trono aurato",
+      "missing": [
+        "Giuseppe Sinopoli",
+        "Orchester Der Deutschen Oper Berlin",
+        "Chor der Deutschen Oper Berlin"
+      ]
+    },
+    {
+      "track_id": 516627,
+      "title": "Verdi: Nabucco, Act II: Che si vuol? – Il maledetto non ha fratelli",
+      "missing": [
+        "Giuseppe Sinopoli",
+        "Orchester Der Deutschen Oper Berlin",
+        "Chor der Deutschen Oper Berlin"
+      ]
+    },
+    {
+      "track_id": 516628,
+      "title": "Verdi: Nabucco / Act 2: \"S'appressan gl'istanti\" - \"S'oda or me!\" - \" Chi mi toglie il regio scettro?\"",
+      "missing": [
+        "Giuseppe Sinopoli",
+        "Orchester Der Deutschen Oper Berlin",
+        "Chor der Deutschen Oper Berlin"
+      ]
+    },
+    {
+      "track_id": 516629,
+      "title": "Verdi: Nabucco / Act 3: \"Ah qual suon!\"/\"Deh, perdona\"",
+      "missing": [
+        "Giuseppe Sinopoli",
+        "Orchester Der Deutschen Oper Berlin",
+        "Chor der Deutschen Oper Berlin"
+      ]
+    },
+    {
+      "track_id": 516630,
+      "title": "Verdi: Nabucco, Act III: Va, pensiero \"Chorus of the Hebrew Slaves\"",
+      "missing": [
+        "Giuseppe Sinopoli",
+        "Orchester Der Deutschen Oper Berlin",
+        "Chor der Deutschen Oper Berlin"
+      ]
+    },
+    {
+      "track_id": 516631,
+      "title": "Verdi: Nabucco / Act 4: \"Dio di Giuda!\"/\"Cadran, cadranno i perfidi..\"",
+      "missing": [
+        "Giuseppe Sinopoli",
+        "Orchester Der Deutschen Oper Berlin",
+        "Chor der Deutschen Oper Berlin"
+      ]
+    },
+    {
+      "track_id": 516632,
+      "title": "Verdi: Nabucco / Act 4: \"Oh! chi vegg'io?\" - \"Su me .. morente ...esanime\"",
+      "missing": [
+        "Giuseppe Sinopoli",
+        "Orchester Der Deutschen Oper Berlin",
+        "Chor der Deutschen Oper Berlin"
+      ]
+    }
+  ],
+  "next_action": "Find primary publisher recording/cast/ensemble evidence, then scope source-role/part-heading review; no new Qobuz retrieval authorized."
+}

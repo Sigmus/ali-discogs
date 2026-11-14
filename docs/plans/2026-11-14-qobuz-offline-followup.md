@@ -258,3 +258,15 @@ Digital files name London Wind Soloists/Brymer, not those individuals. Matching
 ensemble names cannot substitute for that evidence. KA.226 is also unresolved;
 no catalogue alias introduced. Keep5254294unchecked. Next audit Nabucco saved
 part headings and track roles before proposing any review treatment.
+
+
+## Nabucco cached audit
+
+Continued after Katchen commit: `data/qobuz_nabucco_followup_audit.json` binds raw
+source/normalized target/album hashes. Source3167056 contains11played bands and
+4part headings; candidate0002894133212 has11tracks. Every saved track lacks
+explicit Sinopoli and Berlin orchestra/chorus credits. Scene-specific singers
+also invalidate a naive every-singer-on-every-track requirement. No label changed.
+Next: primary publisher recording/cast/ensemble evidence, then a bounded source-role
+and part-heading treatment. No generic credit inheritance, deletion of named
+artists, new retrieval or unsupported recording-family claim.

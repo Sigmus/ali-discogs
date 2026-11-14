@@ -1492,3 +1492,12 @@ named source wind players; catalogue KA.226 also unresolved. No credit weakening
 Validation checkpoint:138script tests passed; no new provider warnings (429/STOP
 messages in suite output are mocked fixtures). Only the3Katchen status changes
 follow the prior Gould commit.
+
+
+### 2026-11-14 — Nabucco cached follow-up checkpoint
+
+Continued after Katchen: source3167056has11audio bands plus4part headings,
+matching candidate track count. Report binds source/target/album hashes and records
+all11track-level conductor/orchestra/chorus credit gaps. Scene roles need scoped
+requirements; neither equal counts nor album artists replace evidence. Kept
+unchecked, no provider calls. Next primary publisher cast/recording evidence.

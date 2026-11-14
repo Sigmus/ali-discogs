@@ -91,7 +91,8 @@ new-hit downloads, automatic promotions, pushes or deployment. Bitches Brew’s
 credit exception remains a proposal. Preserve source/hash-bound review safeguards;
 never loosen credits or invent recording identity to improve a count.
 
-Next action: audit the cached Nabucco part headings/track-role requirements.
+Next action: find primary publisher Nabucco cast/ensemble evidence, then scope
+its part-heading/scene-role review; cached audit saved, no promotion.
 Gould1458083 and Katchen6264736/7291398/6347314 now Probable via bounded
 nested/work-field reviews; generic matcher/credit policy remains unchanged.
 Mozart5254294 withheld: named source wind players absent from digital credits,
