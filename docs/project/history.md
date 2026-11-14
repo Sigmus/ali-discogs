@@ -1473,3 +1473,22 @@ full sequence. New frozen nested-pair review preserves nested source programme;
 wrong BWV/pianist, incomplete/swapped tracks and source changes reject. Only1458083
 becomes Probable85; exact takes/mastering unverified. UI normalization/build pass.
 No Qobuz API calls or push. User's autonomous continuation preference recorded.
+
+
+### 2026-11-14 — Three Katchen programmes reviewed
+
+6264736 (Op.5 plus Scherzo),7291398 (Op.1/2) and6347314 (Op.39/79/10) become
+Probable85. Existing bound-track review now checks optional exact work-field
+bindings and numbered movement runs. Narrow exceptions preserve explicit named
+Rhapsody numbers and only Op.10Ballades1–4. Complete source programmes, Katchen
+credits, exact album/raw-source hashes and excluded compilation extras retained.
+Decca Eloquence supports stereo recording family; Henle corroborates16waltzes and
+four Ballades. Exact takes/mastering unverified. UI normalization/build pass.
+Diagnostic/test evidence committed alongside publication; no global work-field
+matching change or Qobuz calls. Copies12Found/113Probable/616Unchecked.
+Mozart5254294 inspected: digital ensemble/conductor credits do not evidence all
+named source wind players; catalogue KA.226 also unresolved. No credit weakening.
+
+Validation checkpoint:138script tests passed; no new provider warnings (429/STOP
+messages in suite output are mocked fixtures). Only the3Katchen status changes
+follow the prior Gould commit.

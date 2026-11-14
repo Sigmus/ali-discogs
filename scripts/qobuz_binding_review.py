@@ -15,6 +15,17 @@ def allowed(kind, target, title):
     left, right = catalogue(target), catalogue(title)
     if kind is None:
         return not left or not right or left.issubset(right)
+    if kind == 'brahms-ballade-member':
+        return (left == {('op', '10', '')} and len(right) == 1
+                and next(iter(right)) in {('op', '10', str(i)) for i in range(1, 5)}
+                and 'ballades' in norm(target).split() and 'ballades' in norm(title).split())
+    if kind == 'stated-rhapsody-number' and len(left) == len(right) == 1:
+        kind_a, number_a, sub_a = next(iter(left))
+        kind_b, number_b, sub_b = next(iter(right))
+        stated = re.search(r'\brhapsody no\s+(\d+)\b', norm(title))
+        return (kind_a == kind_b == 'op' and number_a == number_b and bool(sub_a)
+                and sub_b == '' and 'rhapsody' in norm(target).split()
+                and stated is not None and stated.group(1) == sub_a)
     if kind == 'suffix-letter' and len(left) == 1 and len(right) == 1:
         (kind_a, number_a, sub_a), (kind_b, number_b, sub_b) = next(iter(left)), next(iter(right))
         return (kind_a == kind_b and sub_a == sub_b == '' and number_b.startswith(number_a)
@@ -77,6 +88,8 @@ def assign(row, album, review):
         track = tracks.get(add['track_id'])
         if track is None or any(add['track_id'] in ids for ids in assigned.values()):
             raise ValueError('Added track is missing or already used')
+        if add.get('work_equals') is not None and track.get('work') != add['work_equals']:
+            raise ValueError('Explicit work-field binding changed')
         if add['title_contains'] not in track['title']:
             raise ValueError('Added track title changed')
         if not allowed(add.get('catalogue_exception'), add['target'], track['title']):
@@ -135,6 +148,10 @@ def assess_bindings(row, album, review):
                 labels.extend(romans(tracks[track_id]['title']))
             if labels != list(range(1, len(labels) + 1)):
                 blockers.append('movements')
+    for spec in review.get('numbered_movement_runs') or []:
+        from qobuz_work_groups import ordinal
+        if [ordinal(tracks[i]['title']) for i in assigned[spec['target']]] != spec['movements']:
+            blockers.append('numbered-movements')
     for mark in review.get('marks') or []:
         if mark['text'] not in tracks[mark['track_id']]['title']:
             blockers.append('mark')

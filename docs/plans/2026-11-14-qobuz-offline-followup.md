@@ -223,3 +223,38 @@ Three regression tests reject wrong BWV/pianist, missing/swapped tracks and stal
 source binding. Exact takes/mastering remain unverified; publication is Probable85.
 Next cached lead: Katchen’s bare movement titles have explicit saved `work` fields;
 inspect a reusable guarded work-field context rule before considering publication.
+
+## Katchen work-field and bounded programme reviews
+
+Continued autonomously through the next cached leads. Diagnostic
+`qobuz_work_field_audit.py` exposes explicit saved `work` fields on bare sonata
+movements: work support becomes100% for6264736/7291398, but independent generic
+completeness remains unknown. No global work-context matching rule was enabled.
+The diagnostic is structural pre-review evidence, not current publication status.
+
+Existing bound-track review extended with optional exact `work_equals` and
+numbered movement-run checks.6264736 has all five Op.5 movements plus Op.4;
+7291398 has all four movements of each Op.1/2, retaining source bands combining
+movements2/3. Each has exact source/album hashes, explicit work-field bindings,
+Katchen credits and compilation extras excluded.
+
+6347314 has two explicit waltz ranges1–8/9–16, both Op.79Rhapsodies and four
+Op.10Ballades. Source-bound exceptions require identical opus plus explicit named
+Rhapsody number, or Op.10Ballades members1–4; they do not alias other opus works.
+Henle corroborates16solo waltzes and four Ballades. Decca Eloquence documents the
+stereo solo cycle,1964Third Sonata and1964Rhapsodies distinct from earlier
+versions; saved Op.5/No.2Rhapsody version markers agree. Exact LP takes/mastering
+remain unverified. New reviews use Probable85 only, never Found.
+
+Four Katchen regressions plus two diagnostic regressions cover changed work field,
+missing movements, wrong pianist, wrong opus/piece number and preservation of the
+source. No Qobuz catalogue calls. Next cached case: Mozart5254294, where missing
+named artists/catalogue ambiguity remain; do not inherit album credits silently.
+
+
+Mozart checkpoint: saved target work-scoped requirements include named bassoon,
+oboe, horn and basset-horn players (including a retained Ronald Waller requirement).
+Digital files name London Wind Soloists/Brymer, not those individuals. Matching
+ensemble names cannot substitute for that evidence. KA.226 is also unresolved;
+no catalogue alias introduced. Keep5254294unchecked. Next audit Nabucco saved
+part headings and track roles before proposing any review treatment.

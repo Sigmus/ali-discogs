@@ -29,7 +29,7 @@
   "richter_review_fingerprint": "a14865f86e46150593e39bfa285fa6c7c61c8f46147b8094c0cb048fd02118ab",
   "round2_review_fingerprint": "be60742c3d35f5a9aa67f200642f7fcde98a52562a46130e043db8f4aa7c851e",
   "round2_metadata_fingerprint": "9db62d7bf62d4b77f5acf422dfde77959f845f4dc00b2ac0e10c02ccea295860",
-  "remaining_review_fingerprint": "3b08e3545fa82bf756f8164bbe439093c122841614669f9bff39c882be9703d9",
+  "remaining_review_fingerprint": "2a08e2d5262f6950217435831e432bf359ad31674ba667fe63067e5ceff077f4",
   "remaining_metadata_fingerprint": "393b2d12e176160ab311b65267b38bdc8c205222e12f792bf07eba5c1fcfafbf",
   "remaining_followup_metadata_fingerprint": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
   "remaining_followup_scope_fingerprint": "41780b365b45dcd74f5ffd053bfe546c3c873eae535dd66250297799f48c2daa",
@@ -430,14 +430,112 @@
       ]
     },
     "7291398": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0002894552472",
+        "name": "Brahms: Works for Solo Piano",
+        "artists": [
+          "Julius Katchen"
+        ],
+        "label": "Decca Music Group Ltd.",
+        "release_date": "1990-01-01",
+        "image": "https://static.qobuz.com/images/covers/72/24/0002894552472_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/brahms-works-for-solo-piano-julius-katchen/0002894552472"
+      },
+      "candidates": [
+        {
+          "id": "0002894552472",
+          "name": "Brahms: Works for Solo Piano",
+          "artists": [
+            "Julius Katchen"
+          ],
+          "label": "Decca Music Group Ltd.",
+          "release_date": "1990-01-01",
+          "image": "https://static.qobuz.com/images/covers/72/24/0002894552472_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/brahms-works-for-solo-piano-julius-katchen/0002894552472",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 2,
+          "target_count": 2,
+          "required_performers": [
+            "Julius Katchen"
+          ],
+          "programme": [
+            {
+              "target": "Sonata In C Major, Op. 1",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                551960,
+                551966,
+                551972,
+                551978
+              ]
+            },
+            {
+              "target": "Sonata In F Sharp Minor, Op. 2",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                551984,
+                551990,
+                551995,
+                551999
+              ]
+            }
+          ],
+          "reasons": [
+            "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+            "Decca Eloquence documents Katchen’s1961–65 stereo solo-piano cycle and distinguishes his earlier Third Sonata. Saved Decca tracks explicitly identify each sonata in work metadata; all source movements and Katchen credits are present. The Op.5 tracks explicitly say1964 Recording. The LP/decca-cycle relationship supports Probable, not exact transfer identity.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Exact source LP pressing, takes and digital mastering are unverified.",
+            "Raw source bands sometimes combine movements; reviewed assignments retain every numbered movement, with compilation extras excluded."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Sonata In C Major, Op. 1",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  551960,
+                  551966,
+                  551972,
+                  551978
+                ]
+              },
+              {
+                "target": "Sonata In F Sharp Minor, Op. 2",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  551984,
+                  551990,
+                  551995,
+                  551999
+                ]
+              }
+            ]
+          },
+          "recording_review": "Decca Eloquence documents Katchen’s1961–65 stereo solo-piano cycle and distinguishes his earlier Third Sonata. Saved Decca tracks explicitly identify each sonata in work metadata; all source movements and Katchen credits are present. The Op.5 tracks explicitly say1964 Recording. The LP/decca-cycle relationship supports Probable, not exact transfer identity.",
+          "review_sources": [
+            "https://www.eloquenceclassics.com/releases-archive/julius-katchen-the-brahms-recordings/",
+            "https://www.discogs.com/release/7291398"
+          ]
+        }
+      ],
       "query": "julius katchen brahms brahms piano works vol 3",
       "searched_at": "2026-11-12T14:25:15.474310+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+        "Decca Eloquence documents Katchen’s1961–65 stereo solo-piano cycle and distinguishes his earlier Third Sonata. Saved Decca tracks explicitly identify each sonata in work metadata; all source movements and Katchen credits are present. The Op.5 tracks explicitly say1964 Recording. The LP/decca-cycle relationship supports Probable, not exact transfer identity.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Exact source LP pressing, takes and digital mastering are unverified.",
+        "Raw source bands sometimes combine movements; reviewed assignments retain every numbered movement, with compilation extras excluded."
       ]
     },
     "7291425": {
@@ -463,14 +561,108 @@
       ]
     },
     "6264736": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0002894552472",
+        "name": "Brahms: Works for Solo Piano",
+        "artists": [
+          "Julius Katchen"
+        ],
+        "label": "Decca Music Group Ltd.",
+        "release_date": "1990-01-01",
+        "image": "https://static.qobuz.com/images/covers/72/24/0002894552472_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/brahms-works-for-solo-piano-julius-katchen/0002894552472"
+      },
+      "candidates": [
+        {
+          "id": "0002894552472",
+          "name": "Brahms: Works for Solo Piano",
+          "artists": [
+            "Julius Katchen"
+          ],
+          "label": "Decca Music Group Ltd.",
+          "release_date": "1990-01-01",
+          "image": "https://static.qobuz.com/images/covers/72/24/0002894552472_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/brahms-works-for-solo-piano-julius-katchen/0002894552472",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 2,
+          "target_count": 2,
+          "required_performers": [
+            "Julius Katchen"
+          ],
+          "programme": [
+            {
+              "target": "Sonata In F Minor, Op. 5",
+              "work_tracks": 5,
+              "credited_tracks": 5,
+              "track_ids": [
+                551961,
+                551967,
+                551973,
+                551979,
+                551985
+              ]
+            },
+            {
+              "target": "Scherzo In E Flat Minor, Op. 4",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                551989
+              ]
+            }
+          ],
+          "reasons": [
+            "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+            "Decca Eloquence documents Katchen’s1961–65 stereo solo-piano cycle and distinguishes his earlier Third Sonata. Saved Decca tracks explicitly identify each sonata in work metadata; all source movements and Katchen credits are present. The Op.5 tracks explicitly say1964 Recording. The LP/decca-cycle relationship supports Probable, not exact transfer identity.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Exact source LP pressing, takes and digital mastering are unverified.",
+            "Raw source bands sometimes combine movements; reviewed assignments retain every numbered movement, with compilation extras excluded."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Sonata In F Minor, Op. 5",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  551961,
+                  551967,
+                  551973,
+                  551979,
+                  551985
+                ]
+              },
+              {
+                "target": "Scherzo In E Flat Minor, Op. 4",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  551989
+                ]
+              }
+            ]
+          },
+          "recording_review": "Decca Eloquence documents Katchen’s1961–65 stereo solo-piano cycle and distinguishes his earlier Third Sonata. Saved Decca tracks explicitly identify each sonata in work metadata; all source movements and Katchen credits are present. The Op.5 tracks explicitly say1964 Recording. The LP/decca-cycle relationship supports Probable, not exact transfer identity.",
+          "review_sources": [
+            "https://www.eloquenceclassics.com/releases-archive/julius-katchen-the-brahms-recordings/",
+            "https://www.discogs.com/release/6264736"
+          ]
+        }
+      ],
       "query": "julius katchen brahms brahms piano works vol 8",
       "searched_at": "2026-11-12T14:26:00.443858+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+        "Decca Eloquence documents Katchen’s1961–65 stereo solo-piano cycle and distinguishes his earlier Third Sonata. Saved Decca tracks explicitly identify each sonata in work metadata; all source movements and Katchen credits are present. The Op.5 tracks explicitly say1964 Recording. The LP/decca-cycle relationship supports Probable, not exact transfer identity.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Exact source LP pressing, takes and digital mastering are unverified.",
+        "Raw source bands sometimes combine movements; reviewed assignments retain every numbered movement, with compilation extras excluded."
       ]
     },
     "8901812": {
@@ -485,14 +677,142 @@
       ]
     },
     "6347314": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0002894552472",
+        "name": "Brahms: Works for Solo Piano",
+        "artists": [
+          "Julius Katchen"
+        ],
+        "label": "Decca Music Group Ltd.",
+        "release_date": "1990-01-01",
+        "image": "https://static.qobuz.com/images/covers/72/24/0002894552472_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/brahms-works-for-solo-piano-julius-katchen/0002894552472"
+      },
+      "candidates": [
+        {
+          "id": "0002894552472",
+          "name": "Brahms: Works for Solo Piano",
+          "artists": [
+            "Julius Katchen"
+          ],
+          "label": "Decca Music Group Ltd.",
+          "release_date": "1990-01-01",
+          "image": "https://static.qobuz.com/images/covers/72/24/0002894552472_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/brahms-works-for-solo-piano-julius-katchen/0002894552472",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 4,
+          "target_count": 4,
+          "required_performers": [
+            "Julius Katchen"
+          ],
+          "programme": [
+            {
+              "target": "Waltzes, Op. 39",
+              "work_tracks": 2,
+              "credited_tracks": 2,
+              "track_ids": [
+                551977,
+                551983
+              ]
+            },
+            {
+              "target": "Rhapsody, Op. 79, No. 1",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                552003
+              ]
+            },
+            {
+              "target": "Rhapsody, Op. 79, No. 2",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                552007
+              ]
+            },
+            {
+              "target": "Ballades, Op. 10",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                551976,
+                551982,
+                551988,
+                551994
+              ]
+            }
+          ],
+          "reasons": [
+            "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+            "Decca Eloquence documents the stereo solo cycle and1964 Rhapsodies, distinguishing an earlier1961 No.2. Saved No.2 explicitly says1964 Recording. Both Rhapsodies, all four source Ballades and explicit waltz ranges1–8/9–16 are present with Katchen credits. Henle corroborates16waltzes and four Ballades. This supports a Probable Decca-cycle lead.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Exact takes, LP pressing and digital mastering are unverified.",
+            "Waltz completeness uses explicit two-track ranges, not audio inspection; no arrangement equivalence is inferred beyond this reviewed recording family."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Waltzes, Op. 39",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  551977,
+                  551983
+                ]
+              },
+              {
+                "target": "Rhapsody, Op. 79, No. 1",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  552003
+                ]
+              },
+              {
+                "target": "Rhapsody, Op. 79, No. 2",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  552007
+                ]
+              },
+              {
+                "target": "Ballades, Op. 10",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  551976,
+                  551982,
+                  551988,
+                  551994
+                ]
+              }
+            ]
+          },
+          "recording_review": "Decca Eloquence documents the stereo solo cycle and1964 Rhapsodies, distinguishing an earlier1961 No.2. Saved No.2 explicitly says1964 Recording. Both Rhapsodies, all four source Ballades and explicit waltz ranges1–8/9–16 are present with Katchen credits. Henle corroborates16waltzes and four Ballades. This supports a Probable Decca-cycle lead.",
+          "review_sources": [
+            "https://www.eloquenceclassics.com/releases-archive/julius-katchen-the-brahms-recordings/",
+            "https://www.henle.de/Waltzes-op.-39/HN-1286",
+            "https://www.henle.de/Ballades-op.-10/HN-935",
+            "https://www.discogs.com/release/6347314"
+          ]
+        }
+      ],
       "query": "julius katchen brahms brahms piano works vol 4",
       "searched_at": "2026-11-12T14:26:30.389368+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+        "Decca Eloquence documents the stereo solo cycle and1964 Rhapsodies, distinguishing an earlier1961 No.2. Saved No.2 explicitly says1964 Recording. Both Rhapsodies, all four source Ballades and explicit waltz ranges1–8/9–16 are present with Katchen credits. Henle corroborates16waltzes and four Ballades. This supports a Probable Decca-cycle lead.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Exact takes, LP pressing and digital mastering are unverified.",
+        "Waltz completeness uses explicit two-track ranges, not audio inspection; no arrangement equivalence is inferred beyond this reviewed recording family."
       ]
     },
     "3729749": {

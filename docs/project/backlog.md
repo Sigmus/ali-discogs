@@ -12,8 +12,9 @@ Status: agreed priority; retrieval and first offline screen/audit complete.
 [Offline follow-up](../plans/2026-11-14-qobuz-offline-followup.md): recording review
 now includes ten new Probables and shared inventory/parser fixes. Nine-album
 follow-up complete216tracks:2Probables/9withheld release leads. Next: scope
-Katchen explicit saved work-field context audit. Nielsen position-bound and Gould
-nested-pair reviews implemented and Probable;132script tests pass.170remaining metadata-needed releases are not a fetch mandate. Follow the
+Nabucco part-heading/track-role audit using saved evidence. Nielsen/Gould and
+three Katchen programmes now Probable;138script tests pass. Mozart remains
+withheld for named-player credit gaps and catalogue ambiguity.170remaining metadata-needed releases are not a fetch mandate. Follow the
 [retrieval and follow-up plan](../plans/2026-11-14-qobuz-remaining-retrieval.md).
 
 Order: finish/validate/export 83 metadata albums and 603 searches across the

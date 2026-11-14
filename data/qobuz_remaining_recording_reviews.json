@@ -1109,6 +1109,545 @@
         "Exact recording dates, takes and digital mastering are not independently established by the official discography page.",
         "The LP groups two works per band; digital tracks separate each Invention and Sinfonia."
       ]
+    },
+    {
+      "discogs_id": "6264736",
+      "album_id": "0002894552472",
+      "review_kind": "bound-tracks",
+      "decision": "probable",
+      "target_sha256": "d329ac63c046f8946720b870c752a5aae5b7012a28ea6839b2197c7f0c232767",
+      "album_sha256": "f54c17d99ad82fbef7878f6cd97b3bf0dab94660f64da0a2e574fd9c8533d222",
+      "source_sha256": "34c6cf69438f8339a6530a6275a1ca691bd87f8628a8f8dc927b1a9b7d543186",
+      "pulls": [],
+      "adds": [
+        {
+          "track_id": 551961,
+          "target": "Sonata In F Minor, Op. 5",
+          "title_contains": "1. Allegro maestoso",
+          "work_equals": "Piano Sonata No.3 in F minor, Op.5",
+          "reason": "Exact saved work field supplies the opus for the bare numbered movement; raw source movement programme reviewed."
+        },
+        {
+          "track_id": 551967,
+          "target": "Sonata In F Minor, Op. 5",
+          "title_contains": "2. Andante espressivo",
+          "work_equals": "Piano Sonata No.3 in F minor, Op.5",
+          "reason": "Exact saved work field supplies the opus for the bare numbered movement; raw source movement programme reviewed."
+        },
+        {
+          "track_id": 551973,
+          "target": "Sonata In F Minor, Op. 5",
+          "title_contains": "3. Scherzo (Allegro energico)",
+          "work_equals": "Piano Sonata No.3 in F minor, Op.5",
+          "reason": "Exact saved work field supplies the opus for the bare numbered movement; raw source movement programme reviewed."
+        },
+        {
+          "track_id": 551979,
+          "target": "Sonata In F Minor, Op. 5",
+          "title_contains": "4. Intermezzo (Andante molto)",
+          "work_equals": "Piano Sonata No.3 in F minor, Op.5",
+          "reason": "Exact saved work field supplies the opus for the bare numbered movement; raw source movement programme reviewed."
+        },
+        {
+          "track_id": 551985,
+          "target": "Sonata In F Minor, Op. 5",
+          "title_contains": "5. Finale (Allegro moderato ma rubato)",
+          "work_equals": "Piano Sonata No.3 in F minor, Op.5",
+          "reason": "Exact saved work field supplies the opus for the bare numbered movement; raw source movement programme reviewed."
+        }
+      ],
+      "expected": {
+        "Sonata In F Minor, Op. 5": [
+          551961,
+          551967,
+          551973,
+          551979,
+          551985
+        ],
+        "Scherzo In E Flat Minor, Op. 4": [
+          551989
+        ]
+      },
+      "extra_track_ids": [
+        551958,
+        551964,
+        551970,
+        551976,
+        551982,
+        551988,
+        551994,
+        551959,
+        551965,
+        551971,
+        551977,
+        551983,
+        551960,
+        551966,
+        551972,
+        551978,
+        551984,
+        551990,
+        551995,
+        551999,
+        552003,
+        552007,
+        551991,
+        551996,
+        552000,
+        552004,
+        552008,
+        552011,
+        552014,
+        551962,
+        551968,
+        551974,
+        551980,
+        551986,
+        551992,
+        551997,
+        552001,
+        552005,
+        552009,
+        552012,
+        552015,
+        552017,
+        552019,
+        552021,
+        552023,
+        552025,
+        552027,
+        551963,
+        551969,
+        551975,
+        551981,
+        551987,
+        551993,
+        551998,
+        552002,
+        552006,
+        552010,
+        552013,
+        552016,
+        552018,
+        552020,
+        552022,
+        552024,
+        552026,
+        552028,
+        552029,
+        552030,
+        552031,
+        552032,
+        552033,
+        552034
+      ],
+      "required_performers": [
+        "Julius Katchen"
+      ],
+      "numbered_movement_runs": [
+        {
+          "target": "Sonata In F Minor, Op. 5",
+          "movements": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.eloquenceclassics.com/releases-archive/julius-katchen-the-brahms-recordings/",
+        "https://www.discogs.com/release/6264736"
+      ],
+      "recording_review": "Decca Eloquence documents Katchen’s1961–65 stereo solo-piano cycle and distinguishes his earlier Third Sonata. Saved Decca tracks explicitly identify each sonata in work metadata; all source movements and Katchen credits are present. The Op.5 tracks explicitly say1964 Recording. The LP/decca-cycle relationship supports Probable, not exact transfer identity.",
+      "limitations": [
+        "Exact source LP pressing, takes and digital mastering are unverified.",
+        "Raw source bands sometimes combine movements; reviewed assignments retain every numbered movement, with compilation extras excluded."
+      ]
+    },
+    {
+      "discogs_id": "7291398",
+      "album_id": "0002894552472",
+      "review_kind": "bound-tracks",
+      "decision": "probable",
+      "target_sha256": "ce6eb1105234f128a87f2304b0a220992ffda1f8e634dc8ea4116fa42469ccad",
+      "album_sha256": "f54c17d99ad82fbef7878f6cd97b3bf0dab94660f64da0a2e574fd9c8533d222",
+      "source_sha256": "7ae0e09dff653c229238731daf9ed7787f2d474d11ccf655684618abdffe0d12",
+      "pulls": [],
+      "adds": [
+        {
+          "track_id": 551960,
+          "target": "Sonata In C Major, Op. 1",
+          "title_contains": "1. Allegro",
+          "work_equals": "Piano Sonata No. 1 in C Major, Op. 1",
+          "reason": "Exact saved work field supplies the opus for the bare numbered movement; raw source movement programme reviewed."
+        },
+        {
+          "track_id": 551966,
+          "target": "Sonata In C Major, Op. 1",
+          "title_contains": "2. Andante",
+          "work_equals": "Piano Sonata No. 1 in C Major, op. 1",
+          "reason": "Exact saved work field supplies the opus for the bare numbered movement; raw source movement programme reviewed."
+        },
+        {
+          "track_id": 551972,
+          "target": "Sonata In C Major, Op. 1",
+          "title_contains": "3. Scherzo (Allegro molto e con fuoco)",
+          "work_equals": "Piano Sonata No. 1 in C Major, op. 1",
+          "reason": "Exact saved work field supplies the opus for the bare numbered movement; raw source movement programme reviewed."
+        },
+        {
+          "track_id": 551978,
+          "target": "Sonata In C Major, Op. 1",
+          "title_contains": "4. Finale (Allegro con fuoco)",
+          "work_equals": "Piano Sonata No. 1 in C Major, op. 1",
+          "reason": "Exact saved work field supplies the opus for the bare numbered movement; raw source movement programme reviewed."
+        },
+        {
+          "track_id": 551984,
+          "target": "Sonata In F Sharp Minor, Op. 2",
+          "title_contains": "1. Allegro non troppo, ma energico",
+          "work_equals": "Piano Sonata No. 2 in F-Sharp Minor, Op. 2",
+          "reason": "Exact saved work field supplies the opus for the bare numbered movement; raw source movement programme reviewed."
+        },
+        {
+          "track_id": 551990,
+          "target": "Sonata In F Sharp Minor, Op. 2",
+          "title_contains": "2. Andante con espressione",
+          "work_equals": "Piano Sonata No. 2 in F-Sharp Minor, Op. 2",
+          "reason": "Exact saved work field supplies the opus for the bare numbered movement; raw source movement programme reviewed."
+        },
+        {
+          "track_id": 551995,
+          "target": "Sonata In F Sharp Minor, Op. 2",
+          "title_contains": "3. Scherzo. Allegro",
+          "work_equals": "Piano Sonata No. 2 in F-Sharp Minor, Op. 2",
+          "reason": "Exact saved work field supplies the opus for the bare numbered movement; raw source movement programme reviewed."
+        },
+        {
+          "track_id": 551999,
+          "target": "Sonata In F Sharp Minor, Op. 2",
+          "title_contains": "4. Finale (Introduzione. Sostenuto - Allegro non troppo e rubato)",
+          "work_equals": "Piano Sonata No. 2 in F-Sharp Minor, Op. 2",
+          "reason": "Exact saved work field supplies the opus for the bare numbered movement; raw source movement programme reviewed."
+        }
+      ],
+      "expected": {
+        "Sonata In C Major, Op. 1": [
+          551960,
+          551966,
+          551972,
+          551978
+        ],
+        "Sonata In F Sharp Minor, Op. 2": [
+          551984,
+          551990,
+          551995,
+          551999
+        ]
+      },
+      "extra_track_ids": [
+        551958,
+        551964,
+        551970,
+        551976,
+        551982,
+        551988,
+        551994,
+        551959,
+        551965,
+        551971,
+        551977,
+        551983,
+        551989,
+        552003,
+        552007,
+        551961,
+        551967,
+        551973,
+        551979,
+        551985,
+        551991,
+        551996,
+        552000,
+        552004,
+        552008,
+        552011,
+        552014,
+        551962,
+        551968,
+        551974,
+        551980,
+        551986,
+        551992,
+        551997,
+        552001,
+        552005,
+        552009,
+        552012,
+        552015,
+        552017,
+        552019,
+        552021,
+        552023,
+        552025,
+        552027,
+        551963,
+        551969,
+        551975,
+        551981,
+        551987,
+        551993,
+        551998,
+        552002,
+        552006,
+        552010,
+        552013,
+        552016,
+        552018,
+        552020,
+        552022,
+        552024,
+        552026,
+        552028,
+        552029,
+        552030,
+        552031,
+        552032,
+        552033,
+        552034
+      ],
+      "required_performers": [
+        "Julius Katchen"
+      ],
+      "numbered_movement_runs": [
+        {
+          "target": "Sonata In C Major, Op. 1",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "target": "Sonata In F Sharp Minor, Op. 2",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "sources": [
+        "https://www.eloquenceclassics.com/releases-archive/julius-katchen-the-brahms-recordings/",
+        "https://www.discogs.com/release/7291398"
+      ],
+      "recording_review": "Decca Eloquence documents Katchen’s1961–65 stereo solo-piano cycle and distinguishes his earlier Third Sonata. Saved Decca tracks explicitly identify each sonata in work metadata; all source movements and Katchen credits are present. The Op.5 tracks explicitly say1964 Recording. The LP/decca-cycle relationship supports Probable, not exact transfer identity.",
+      "limitations": [
+        "Exact source LP pressing, takes and digital mastering are unverified.",
+        "Raw source bands sometimes combine movements; reviewed assignments retain every numbered movement, with compilation extras excluded."
+      ]
+    },
+    {
+      "discogs_id": "6347314",
+      "album_id": "0002894552472",
+      "review_kind": "bound-tracks",
+      "decision": "probable",
+      "target_sha256": "882956b812fa5442f85a9c38a0848866a78f3b32ce8f940adeab37afbc2d06fd",
+      "album_sha256": "f54c17d99ad82fbef7878f6cd97b3bf0dab94660f64da0a2e574fd9c8533d222",
+      "source_sha256": "66f9951bebaabe1f32cd2e3742d0dd7657a4981e6e43cc833cd7bfd1ccb82788",
+      "pulls": [],
+      "adds": [
+        {
+          "target": "Rhapsody, Op. 79, No. 1",
+          "track_id": 552003,
+          "title_contains": "Rhapsody No. 1 in B Minor, Op. 79",
+          "work_equals": "Rhapsody No. 1 in B Minor, Op. 79",
+          "catalogue_exception": "stated-rhapsody-number",
+          "reason": "Explicit named opus/piece number; all four source Ballades separately accounted for."
+        },
+        {
+          "target": "Rhapsody, Op. 79, No. 2",
+          "track_id": 552007,
+          "title_contains": "Rhapsody No. 2 in G Minor, Op. 79",
+          "work_equals": "Rhapsody No. 2 in G Minor, Op. 79",
+          "catalogue_exception": "stated-rhapsody-number",
+          "reason": "Explicit named opus/piece number; all four source Ballades separately accounted for."
+        },
+        {
+          "target": "Ballades, Op. 10",
+          "track_id": 551976,
+          "title_contains": "Brahms: 4 Ballades, Op. 10: No. 1 in D Minor",
+          "work_equals": "4 Ballades, Op. 10",
+          "catalogue_exception": "brahms-ballade-member",
+          "reason": "Explicit named opus/piece number; all four source Ballades separately accounted for."
+        },
+        {
+          "target": "Ballades, Op. 10",
+          "track_id": 551982,
+          "title_contains": "Brahms: 4 Ballades, Op. 10: No. 2 in D Major",
+          "work_equals": "4 Ballades, Op. 10",
+          "catalogue_exception": "brahms-ballade-member",
+          "reason": "Explicit named opus/piece number; all four source Ballades separately accounted for."
+        },
+        {
+          "target": "Ballades, Op. 10",
+          "track_id": 551988,
+          "title_contains": "Brahms: 4 Ballades, Op. 10: No. 3 in B Minor",
+          "work_equals": "4 Ballades, Op. 10",
+          "catalogue_exception": "brahms-ballade-member",
+          "reason": "Explicit named opus/piece number; all four source Ballades separately accounted for."
+        },
+        {
+          "target": "Ballades, Op. 10",
+          "track_id": 551994,
+          "title_contains": "Brahms: 4 Ballades, Op. 10: No. 4 in B Major",
+          "work_equals": "4 Ballades, Op. 10",
+          "catalogue_exception": "brahms-ballade-member",
+          "reason": "Explicit named opus/piece number; all four source Ballades separately accounted for."
+        }
+      ],
+      "expected": {
+        "Waltzes, Op. 39": [
+          551977,
+          551983
+        ],
+        "Rhapsody, Op. 79, No. 1": [
+          552003
+        ],
+        "Rhapsody, Op. 79, No. 2": [
+          552007
+        ],
+        "Ballades, Op. 10": [
+          551976,
+          551982,
+          551988,
+          551994
+        ]
+      },
+      "extra_track_ids": [
+        551958,
+        551964,
+        551970,
+        551959,
+        551965,
+        551971,
+        551989,
+        551960,
+        551966,
+        551972,
+        551978,
+        551984,
+        551990,
+        551995,
+        551999,
+        551961,
+        551967,
+        551973,
+        551979,
+        551985,
+        551991,
+        551996,
+        552000,
+        552004,
+        552008,
+        552011,
+        552014,
+        551962,
+        551968,
+        551974,
+        551980,
+        551986,
+        551992,
+        551997,
+        552001,
+        552005,
+        552009,
+        552012,
+        552015,
+        552017,
+        552019,
+        552021,
+        552023,
+        552025,
+        552027,
+        551963,
+        551969,
+        551975,
+        551981,
+        551987,
+        551993,
+        551998,
+        552002,
+        552006,
+        552010,
+        552013,
+        552016,
+        552018,
+        552020,
+        552022,
+        552024,
+        552026,
+        552028,
+        552029,
+        552030,
+        552031,
+        552032,
+        552033,
+        552034
+      ],
+      "required_performers": [
+        "Julius Katchen"
+      ],
+      "numbered_movement_runs": [],
+      "sources": [
+        "https://www.eloquenceclassics.com/releases-archive/julius-katchen-the-brahms-recordings/",
+        "https://www.henle.de/Waltzes-op.-39/HN-1286",
+        "https://www.henle.de/Ballades-op.-10/HN-935",
+        "https://www.discogs.com/release/6347314"
+      ],
+      "recording_review": "Decca Eloquence documents the stereo solo cycle and1964 Rhapsodies, distinguishing an earlier1961 No.2. Saved No.2 explicitly says1964 Recording. Both Rhapsodies, all four source Ballades and explicit waltz ranges1–8/9–16 are present with Katchen credits. Henle corroborates16waltzes and four Ballades. This supports a Probable Decca-cycle lead.",
+      "limitations": [
+        "Exact takes, LP pressing and digital mastering are unverified.",
+        "Waltz completeness uses explicit two-track ranges, not audio inspection; no arrangement equivalence is inferred beyond this reviewed recording family."
+      ],
+      "marks": [
+        {
+          "track_id": 551976,
+          "text": "Brahms: 4 Ballades, Op. 10: No. 1 in D Minor"
+        },
+        {
+          "track_id": 551977,
+          "text": "Brahms: 16 Waltzes, Op. 39: Nos.1-8"
+        },
+        {
+          "track_id": 551982,
+          "text": "Brahms: 4 Ballades, Op. 10: No. 2 in D Major"
+        },
+        {
+          "track_id": 551983,
+          "text": "Brahms: 16 Waltzes, Op. 39: Nos.9-16"
+        },
+        {
+          "track_id": 551988,
+          "text": "Brahms: 4 Ballades, Op. 10: No. 3 in B Minor"
+        },
+        {
+          "track_id": 551994,
+          "text": "Brahms: 4 Ballades, Op. 10: No. 4 in B Major"
+        },
+        {
+          "track_id": 552003,
+          "text": "Rhapsody No. 1 in B Minor, Op. 79"
+        },
+        {
+          "track_id": 552007,
+          "text": "Rhapsody No. 2 in G Minor, Op. 79"
+        }
+      ]
     }
   ]
 }

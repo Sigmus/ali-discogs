@@ -12,7 +12,7 @@ explorer. [README](../../README.md) owns setup and architecture;
   table headers). Retrieval complete; first offline screen/audit complete. Deployment not verified.
 - Collection: 741 copies / 740 unique releases. Current saved labels: Spotify
   254 Found / 273 Probable / 210 Not found / 4 Unchecked; Qobuz
-  12 Found / 110 Probable / 619 Unchecked copies (14 November snapshot).
+  12 Found / 113 Probable / 616 Unchecked copies (14 November snapshot).
 - Spotify’s legacy album-level labels and stricter Qobuz evidence levels are
   not comparable accuracy or catalogue-coverage measurements. Both status and
   score are saved data. Qobuz 95/85 are heuristic levels, not probabilities.
@@ -67,10 +67,10 @@ explorer. [README](../../README.md) owns setup and architecture;
 ## Offline follow-up checkpoint
 
 - Screened2,227pairs:14complete programme/credit leads,
-  345cached unresolved pairs,1,868pairs missing full metadata. Twelve new
+  345cached unresolved pairs,1,868pairs missing full metadata. Fifteen new
   Probable releases now published locally after bounded reviews.
 - Michelangeli sonata3285095/Concerto1 3672809 and Gilels7914875 completed.
-  Nine Beethoven plus Chopin Op.11 inventory additions;132script tests pass.
+  Nine Beethoven plus Chopin Op.11 inventory additions;138script tests pass.
 - [Offline plan](../plans/2026-11-14-qobuz-offline-followup.md) owns findings and
   exact next steps. Two network-forbidden/fail-closed regression tests pass.
 
@@ -91,10 +91,10 @@ new-hit downloads, automatic promotions, pushes or deployment. Bitches Brew’s
 credit exception remains a proposal. Preserve source/hash-bound review safeguards;
 never loosen credits or invent recording identity to improve a count.
 
-Next action: audit explicit saved work fields on Katchen’s bare movement tracks.
-Nielsen11412875 now Probable via hash-bound source positions; both Allegros
-remain distinct.132script tests/UI normalization/build pass; no API calls.
-Gould1458083 now Probable: all15nested pairs/30tracks source-bound.
-Current618unchecked unique releases; unmatched inventory refreshed. Further
-metadata retrieval remains unscoped. No push/deployment performed.
+Next action: audit the cached Nabucco part headings/track-role requirements.
+Gould1458083 and Katchen6264736/7291398/6347314 now Probable via bounded
+nested/work-field reviews; generic matcher/credit policy remains unchanged.
+Mozart5254294 withheld: named source wind players absent from digital credits,
+plus KA.226 identity unresolved. Current615unchecked unique releases.
+No new Qobuz calls, pushes or deployment. Full details in offline plan/history.
 [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).
