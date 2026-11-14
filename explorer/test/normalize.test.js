@@ -278,3 +278,16 @@ for (const item of withQobuz) {
   }
 }
 console.log('Canonical Qobuz links preserved in albums and alternatives');
+
+// Multiple choices are OR within one field and AND between fields; legacy strings still work.
+const multiBase = { q: '', sort: 'year', dir: 'asc' };
+const foundIds = new Set(query(items, {...multiBase, sp: 'found'}).map(it => it.discogs.id));
+const probableIds = new Set(query(items, {...multiBase, sp: 'probable'}).map(it => it.discogs.id));
+const combinedIds = new Set(query(items, {...multiBase, sp: ['found', 'probable']}).map(it => it.discogs.id));
+assert.deepEqual(combinedIds, new Set([...foundIds, ...probableIds]));
+assert.equal(query(items, {...multiBase, sp: [], qb: [], genre: [], composer: [], label: [], decade: []}).length, items.length);
+const one = collection.find(it => it.discogs.composers.length && it.discogs.labels.length && it.discogs.year);
+assert.ok(one);
+assert.ok(query(collection, {...multiBase, composer: [one.discogs.composers[0], 'No such composer'], label: [one.discogs.labels[0].name], decade: [String(Math.floor(one.discogs.year / 10) * 10)]}).includes(one));
+assert.equal(query(collection, {...multiBase, composer: [one.discogs.composers[0]], label: ['No such label']}).length, 0);
+console.log('Multi-select OR/AND and legacy filter compatibility ok');

@@ -1170,3 +1170,26 @@ count above the table remains. The space above the filters is the same 16px
 as the side inset. Shelf and Captions sit beside the table as a prototype.
 Covers was dropped. The layout switch uses the line icons, ordered table,
 captions, then the hover shelf. Long titles stay on the sleeve.
+
+## 2026-11-14 — Reviewed Cursor changes and restarted local UI
+
+Reviewed commits since66ba56a, current matching integration/review decisions and
+latest full-width/Shelf/Captions UI changes. Main is ahead of origin by two local
+UI commits (6bccef0,e5ea3bd); no push requested. Node normalization and JavaScript
+syntax checks pass. Rebuilt dist and restarted local server127.0.0.1:8000.
+No enrichment, status changes, commits or deployment actions performed.
+
+## 2026-11-14 — Multi-select UI options prototyped
+
+Separate real-data comparison for six filters: compact checklist, searchable
+chips, draft/apply panel. OR within/AND across; main collection unchanged. Browser
+verified527SpotifyFound+Probable,43Brahms,254panelFound; build/JS/normalization pass.
+No design chosen or main-filter implementation yet. Qobuz retrieval continues.
+
+## 2026-11-14 — Searchable multi-select filters implemented
+
+User selected B. Six native selects now backed by searchable checkbox menus and
+removable chips; repeated URL params preserve old single-value links. Scoped
+checkbox/menu styles fix prototype collision/clipping. Browser527status union,
+29withBrahms,527afterchip removal; Escape/search/reload checked. Node filter
+regressions, syntax and build pass. Qobuz worker unaffected; no commit/push.

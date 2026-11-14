@@ -371,20 +371,16 @@
       const flat = q.replace(/[^a-z0-9]+/g, "");
       if (!it._blob.includes(q) && !(flat.length >= 3 && it._flat.includes(flat))) return false;
     }
-    if (state.sp && it.spotify.status !== state.sp) return false;
-    if (state.qb && it.qobuz.status !== state.qb) return false;
-    if (state.genre) {
-      const g = state.genre.toLowerCase();
-      const has = it.discogs.genres.some(x => x.toLowerCase() === g) || it.discogs.styles.some(x => x.toLowerCase() === g);
-      if (!has) return false;
-    }
-    if (state.composer && !(it.discogs.composers || []).some(c => c.toLowerCase() === state.composer.toLowerCase())) return false;
-    if (state.label && !it.discogs.labels.some(l => l.name === state.label)) return false;
-    if (state.decade === "undated") {
-      if (it.discogs.year) return false;
-    } else if (state.decade) {
-      if (Math.floor((it.discogs.year || 0) / 10) * 10 !== Number(state.decade)) return false;
-    }
+    const any = (key, candidates, insensitive = false) => {
+      const selected = filterValues(state[key]);
+      const normalize = x => insensitive ? String(x).toLowerCase() : String(x);
+      return !selected.length || selected.some(v => candidates.some(c => normalize(c) === normalize(v)));
+    };
+    if (!any("sp", [it.spotify.status]) || !any("qb", [it.qobuz.status])) return false;
+    if (!any("genre", [...it.discogs.genres, ...it.discogs.styles], true)) return false;
+    if (!any("composer", it.discogs.composers || [], true)) return false;
+    if (!any("label", it.discogs.labels.map(l => l.name))) return false;
+    if (!any("decade", [it.discogs.year ? String(Math.floor(it.discogs.year / 10) * 10) : "undated"])) return false;
     return true;
   }
   function compare(a, b, state) {
@@ -433,8 +429,11 @@
     return out;
   }
 
+  const FILTER_KEYS = ["sp", "qb", "genre", "composer", "label", "decade"];
+  function filterValues(value) { return Array.isArray(value) ? [...new Set(value.filter(Boolean))] : value ? [value] : []; }
+
   function defaultState() {
-    return { q: "", sp: "", qb: "", genre: "", composer: "", label: "", decade: "", sort: "year", dir: "asc", view: "" };
+    return { q: "", sp: [], qb: [], genre: [], composer: [], label: [], decade: [], sort: "year", dir: "asc", view: "" };
   }
 
   function boot() {
@@ -459,37 +458,38 @@
     let sample = false;
     let ready = false;
     const state = defaultState();
+    const pickers = Object.fromEntries(FILTER_KEYS.map(key => [key, new window.MultiPicker($(key))]));
     readHash();
 
     function readHash() {
       const params = new URLSearchParams((location.hash || "").replace(/^#/, ""));
       const next = defaultState();
       next.q = params.get("q") || "";
-      next.sp = params.get("sp") || "";
-      next.qb = params.get("qb") || "";
-      next.genre = params.get("genre") || "";
-      next.composer = params.get("composer") || "";
-      next.label = params.get("label") || "";
-      next.decade = params.get("decade") || "";
+      next.sp = [...new Set(params.getAll("sp").filter(Boolean))];
+      next.qb = [...new Set(params.getAll("qb").filter(Boolean))];
+      next.genre = [...new Set(params.getAll("genre").filter(Boolean))];
+      next.composer = [...new Set(params.getAll("composer").filter(Boolean))];
+      next.label = [...new Set(params.getAll("label").filter(Boolean))];
+      next.decade = [...new Set(params.getAll("decade").filter(Boolean))];
       const sortBy = params.get("sort") || "year";
       next.sort = SORTS.includes(sortBy) ? sortBy : "year";
       next.dir = params.get("dir") === "desc" ? "desc" : "asc";
       const view = params.get("view") || "";
       next.view = view === "covers" || view === "captions" ? "captions" : view === "shelf" ? "shelf" : "";
       const statuses = ["", "found", "probable", "not_found", "pending", "unchecked"];
-      if (!statuses.includes(next.sp)) next.sp = "";
-      if (!statuses.includes(next.qb)) next.qb = "";
+      next.sp = next.sp.filter(value => statuses.includes(value));
+      next.qb = next.qb.filter(value => statuses.includes(value));
       Object.assign(state, next);
     }
     function writeHash() {
       const params = new URLSearchParams();
       if (state.q) params.set("q", state.q);
-      if (state.sp) params.set("sp", state.sp);
-      if (state.qb) params.set("qb", state.qb);
-      if (state.genre) params.set("genre", state.genre);
-      if (state.composer) params.set("composer", state.composer);
-      if (state.label) params.set("label", state.label);
-      if (state.decade) params.set("decade", state.decade);
+      filterValues(state.sp).forEach(value => params.append("sp", value));
+      filterValues(state.qb).forEach(value => params.append("qb", value));
+      filterValues(state.genre).forEach(value => params.append("genre", value));
+      filterValues(state.composer).forEach(value => params.append("composer", value));
+      filterValues(state.label).forEach(value => params.append("label", value));
+      filterValues(state.decade).forEach(value => params.append("decade", value));
       if (state.sort !== "year") params.set("sort", state.sort);
       if (state.dir === "desc") params.set("dir", "desc");
       if (state.view) params.set("view", state.view);
@@ -499,16 +499,19 @@
       history.replaceState(null, "", s ? "#" + s : location.pathname + location.search);
     }
     function isDefault() {
-      return !state.q && !state.sp && !state.qb && !state.genre && !state.composer && !state.label && !state.decade && state.sort === "year" && state.dir !== "desc";
+      return !state.q && FILTER_KEYS.every(key => !filterValues(state[key]).length) && state.sort === "year" && state.dir !== "desc";
     }
     function syncControls() {
       q.value = state.q;
-      sp.value = state.sp;
-      qb.value = state.qb;
-      if ([...genre.options].some(o => o.value === state.genre)) genre.value = state.genre;
-      if ([...composer.options].some(o => o.value === state.composer)) composer.value = state.composer;
-      if ([...label.options].some(o => o.value === state.label)) label.value = state.label;
-      if ([...decade.options].some(o => o.value === state.decade)) decade.value = state.decade;
+      FILTER_KEYS.forEach(key => {
+        const selected = filterValues(state[key]);
+        const control = $(key);
+        selected.forEach(value => {
+          if (![...control.options].some(o => o.value === value)) control.add(new Option(value, value));
+        });
+        [...control.options].forEach(o => o.selected = selected.includes(o.value));
+        pickers[key].refresh();
+      });
       document.querySelectorAll("[data-view]").forEach(button => {
         button.setAttribute("aria-pressed", button.dataset.view === (state.view || "table") ? "true" : "false");
       });
@@ -516,12 +519,12 @@
     }
     function readControls() {
       state.q = q.value;
-      state.sp = sp.value;
-      state.qb = qb.value;
-      state.genre = genre.value;
-      state.composer = composer.value;
-      state.label = label.value;
-      state.decade = decade.value;
+      state.sp = [...sp.selectedOptions].map(o => o.value).filter(Boolean);
+      state.qb = [...qb.selectedOptions].map(o => o.value).filter(Boolean);
+      state.genre = [...genre.selectedOptions].map(o => o.value).filter(Boolean);
+      state.composer = [...composer.selectedOptions].map(o => o.value).filter(Boolean);
+      state.label = [...label.selectedOptions].map(o => o.value).filter(Boolean);
+      state.decade = [...decade.selectedOptions].map(o => o.value).filter(Boolean);
     }
     function commit() {
       writeHash();

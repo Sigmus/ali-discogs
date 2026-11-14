@@ -379,3 +379,10 @@ tracks are those scene numbers, in order, from 1 with no gap. A side that says
 Every named singer stays required. A voice-type difference stays visible.
 Conductor and orchestra must be on every track. Cap at Probable 85. His
 Master’s Voice SLS 5139 is not verified as the 2026 file.
+
+## 2026-11-14 — Searchable multi-select pickers
+
+Status: adopted by user selection of prototypeB. Use searchable checkboxes and
+removable chips for six categorical filters, OR within/AND across. Serialize
+multiple values as repeated URL params; keep existing scalar links compatible.
+Keep sorting/search single-purpose; show global frequency counts consistently.
