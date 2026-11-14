@@ -1536,3 +1536,13 @@ Continued inspection:6265501has13listed pieces (Op.117/119/118) with cached
 correspondences.8836514source Op.116has only6children and an E-key conflict;
 1697514saved Paganini version1965 versus publisher1966 requires reconciliation.
 Do not silently invent missing source tracks or conflate alternate recordings.
+
+
+### 2026-11-14 — Further Katchen source discrepancies preserved
+
+Hash-bound offline source audit saved for6265501/8836514/1697514.6265501Op.119
+third piece is G in source versus C in candidate; no promotion from counts alone.
+8836514B4may join two Intermezzi, so earlier six-child observation is not evidence
+of a missing work.1697514Paganini1965saved label versus1966publisher narrative
+unresolved; multiple recordings noted. No labels/source text changed or API calls.
+Next independent publisher/score verification of6265501key discrepancy.

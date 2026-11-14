@@ -315,3 +315,17 @@ conflict, not a global key equivalence or interchange with Op.49No.2. Cycle date
 ranges differ across references; no precise session date is inferred. Probable85
 recording family, no exact LP transfer/take/mastering claim. Three regressions
 cover side disjointness, missing conclusion, wrong pianist and movement order.
+
+
+## Further Katchen source discrepancies
+
+After Schnabel publication, audited6265501/8836514/1697514against the saved77track
+album; hash-bound checkpoint `data/qobuz_katchen_source_audit.json`. No promotions.
+6265501has13group correspondences, but source Op.119third piece says G versus
+candidate C Major. Group counts/opus/pianist do not resolve that key conflict.
+8836514’s six Op.116bands may include a joined B4: its source text repeats
+Intermezzo In E / Intermezzo In E Minor. Earlier omission wording was provisional;
+this is ambiguous band grouping, not proof a work is absent.1697514Paganini files
+say1965Recording versus Decca narrative1966; multiple recordings require review.
+Next: independent Henle/source-image check of6265501 Op.119No.3, preserving raw
+text and recording-family limits. No API expansion or automatic source correction.

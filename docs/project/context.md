@@ -91,11 +91,12 @@ new-hit downloads, automatic promotions, pushes or deployment. Bitches Brew’s
 credit exception remains a proposal. Preserve source/hash-bound review safeguards;
 never loosen credits or invent recording identity to improve a count.
 
-Next action: review Katchen6265501’s13listed pieces using cached source.
+Next action: verify Katchen6265501 Op.119No.3 source G versus candidate C
+against an independent score/publisher; source audit saved, no promotion.
 Schnabel4352998 now Probable: Op.54 partitioned by side, no reused movement;
 source Op.49No.1 G-major discrepancy disclosed against Henle G minor.
-Katchen8836514 source lists only6Op.116pieces and has key/text conflicts;
-1697514 saved Paganini says1965 versus publisher1966: audit before promotion.
+Katchen8836514 has6Op.116bands; B4may join two pieces (not proven missing).
+1697514 Paganini says1965 versus publisher1966; review before promotion.
 Current612unchecked unique.145script tests/UI normalization/build pass.
 No Qobuz calls, push or deployment. Nabucco/Mozart credit gaps remain.
 [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).

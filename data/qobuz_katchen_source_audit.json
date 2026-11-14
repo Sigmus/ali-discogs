@@ -1,0 +1,345 @@
+{
+  "album_id": "0002894552472",
+  "album_sha256": "f54c17d99ad82fbef7878f6cd97b3bf0dab94660f64da0a2e574fd9c8533d222",
+  "publication_changed": false,
+  "entries": [
+    {
+      "discogs_id": "6265501",
+      "source_sha256": "d1ec970fb8e2224be1717c2d13cae5ad83e20cfdf91a6965d65bb7b5b87fd12e",
+      "source_programme": [
+        {
+          "position": "",
+          "type_": "index",
+          "title": "Three Intermezzi, Op. 117",
+          "duration": "14:55",
+          "sub_tracks": [
+            {
+              "position": "A1.a",
+              "type_": "track",
+              "title": "No. 1 In E Flat",
+              "duration": ""
+            },
+            {
+              "position": "A1.b",
+              "type_": "track",
+              "title": "No. 2 In B Flat Minor",
+              "duration": ""
+            },
+            {
+              "position": "A1.c",
+              "type_": "track",
+              "title": "No. 3 In C Sharp Minor\t ",
+              "duration": ""
+            }
+          ]
+        },
+        {
+          "position": "",
+          "type_": "index",
+          "title": "Piano Pieces, Op. 119",
+          "duration": "13:45",
+          "sub_tracks": [
+            {
+              "position": "A2.a",
+              "type_": "track",
+              "title": "Intermezzo In B Minor",
+              "duration": ""
+            },
+            {
+              "position": "A2.b",
+              "type_": "track",
+              "title": "Intermezzo In E Minor",
+              "duration": ""
+            },
+            {
+              "position": "A2.c",
+              "type_": "track",
+              "title": "Intermezzo In G",
+              "duration": ""
+            },
+            {
+              "position": "A2.d",
+              "type_": "track",
+              "title": "Rhapsody In E Flat",
+              "duration": ""
+            }
+          ]
+        },
+        {
+          "position": "",
+          "type_": "index",
+          "title": "Piano Pieces, Op. 118",
+          "duration": "",
+          "sub_tracks": [
+            {
+              "position": "B1",
+              "type_": "track",
+              "title": "Intermezzo In A Minor",
+              "duration": "1:50"
+            },
+            {
+              "position": "B2",
+              "type_": "track",
+              "title": "Intermezzo In A",
+              "duration": "6:05"
+            },
+            {
+              "position": "B3",
+              "type_": "track",
+              "title": "Ballade In G Minor",
+              "duration": "3:05"
+            },
+            {
+              "position": "B4",
+              "type_": "track",
+              "title": "Intermezzo In F Minor",
+              "duration": "2:30"
+            },
+            {
+              "position": "B5",
+              "type_": "track",
+              "title": "Romanze In F",
+              "duration": "4:10"
+            },
+            {
+              "position": "B6",
+              "type_": "track",
+              "title": "Intermezzo In E Flat Minor",
+              "duration": "5:00"
+            }
+          ]
+        }
+      ],
+      "source_notes": "℗1964 ©1978 The Decca Record Company Limited, London.\nSleeve printed in England by Senol Printing Limited\nCover: Flowers in a vase by Paulus Theodorus van Brussel\nReproduced by kind permission of the National Gallery , London\n\nWhite Ace Of Diamonds labels\n‘Made in England’ and ‘The Decca Record Co. Ltd.’ printed on either side of the spindle hole\n‘℗ 1964’ at 3 o’clock",
+      "candidate_programme": [
+        {
+          "target": "Three Intermezzi, Op. 117",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            551963,
+            551969,
+            551975
+          ]
+        },
+        {
+          "target": "Piano Pieces, Op. 119",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            552021,
+            552023,
+            552025,
+            552027
+          ]
+        },
+        {
+          "target": "Piano Pieces, Op. 118",
+          "work_tracks": 6,
+          "credited_tracks": 6,
+          "track_ids": [
+            552005,
+            552009,
+            552012,
+            552015,
+            552017,
+            552019
+          ]
+        }
+      ],
+      "findings": [
+        "All13source children have candidate group correspondences, but Op.119third source piece says Intermezzo In G whereas candidate says C Major. Do not accept grouped title/count agreement as resolving that conflict.",
+        "Op.118individual durations are close; Op.117/119totals differ modestly. Timing supports a lead, not identity."
+      ],
+      "decision": "withhold_pending_source_discrepancy_review"
+    },
+    {
+      "discogs_id": "8836514",
+      "source_sha256": "90a2240a0a65b7d481e7f701b34862428c34f42ab5b5e700f33a62ca1ac33d37",
+      "source_programme": [
+        {
+          "position": "",
+          "type_": "index",
+          "title": "Piano Pieces, Op. 76",
+          "duration": "",
+          "sub_tracks": [
+            {
+              "position": "A1",
+              "type_": "track",
+              "title": "Capriccio In F Sharp Minor",
+              "duration": "3:25"
+            },
+            {
+              "position": "A2",
+              "type_": "track",
+              "title": "Capriccio In B Minor",
+              "duration": "3:20"
+            },
+            {
+              "position": "A3",
+              "type_": "track",
+              "title": "Intermezzo In A Flat",
+              "duration": "2:15"
+            },
+            {
+              "position": "A4",
+              "type_": "track",
+              "title": "Intermezzo In B Flat",
+              "duration": "2:20"
+            },
+            {
+              "position": "A5",
+              "type_": "track",
+              "title": "Capriccio In C Sharp Minor",
+              "duration": "3:10"
+            },
+            {
+              "position": "A6",
+              "type_": "track",
+              "title": "Intermezzo In A",
+              "duration": "3:50"
+            },
+            {
+              "position": "A7",
+              "type_": "track",
+              "title": "Intermezzo In A Minor",
+              "duration": "2:30"
+            },
+            {
+              "position": "A8",
+              "type_": "track",
+              "title": "Capriccio In C",
+              "duration": "3:30"
+            }
+          ]
+        },
+        {
+          "position": "",
+          "type_": "index",
+          "title": "Fantasias, Op. 116",
+          "duration": "",
+          "sub_tracks": [
+            {
+              "position": "B1",
+              "type_": "track",
+              "title": "Capriccio In D Minor",
+              "duration": "1:45"
+            },
+            {
+              "position": "B2",
+              "type_": "track",
+              "title": "Intermezzo In A Minor",
+              "duration": "3:55"
+            },
+            {
+              "position": "B3",
+              "type_": "track",
+              "title": "Capriccio In G Minor",
+              "duration": "2:40"
+            },
+            {
+              "position": "B4",
+              "type_": "track",
+              "title": "Intermezzo In E  Intermezzo In E Minor",
+              "duration": "7:55"
+            },
+            {
+              "position": "B5",
+              "type_": "track",
+              "title": "Intermezzo In E",
+              "duration": "4:05"
+            },
+            {
+              "position": "B6",
+              "type_": "track",
+              "title": "Capriccio In D Minor",
+              "duration": "2:05"
+            }
+          ]
+        }
+      ],
+      "source_notes": "℗ 1964 © 1978 The Decca Record Company Limited, London\nSleeve printed in England by Senol Printing Limited \nCover: Flowers in a Vase by Paulus Theodorus van Brussel\n\nWhite Ace of Diamonds labels\nMade in England",
+      "candidate_programme": [
+        {
+          "target": "Piano Pieces, Op. 76",
+          "work_tracks": 8,
+          "credited_tracks": 8,
+          "track_ids": [
+            551962,
+            551968,
+            551974,
+            551980,
+            551986,
+            551992,
+            551997,
+            552001
+          ]
+        },
+        {
+          "target": "Fantasias, Op. 116",
+          "work_tracks": 7,
+          "credited_tracks": 7,
+          "track_ids": [
+            551991,
+            551996,
+            552000,
+            552004,
+            552008,
+            552011,
+            552014
+          ]
+        }
+      ],
+      "findings": [
+        "Op.116has six source bands versus seven candidate pieces. B4contains duplicated wording: Intermezzo In E Intermezzo In E Minor. This may be a joined band, not an absent piece. Do not invent a missing work or silently split it.",
+        "Resolve source B4/B5piece identity and key labels against source images or independent publisher programme before assigning tracks."
+      ],
+      "decision": "withhold_pending_source_discrepancy_review"
+    },
+    {
+      "discogs_id": "1697514",
+      "source_sha256": "9a4dfa050e31910a51937bcdfae21a843f3711b4b93cf5efdad4f3df13ea98a7",
+      "source_programme": [
+        {
+          "position": "A",
+          "type_": "track",
+          "title": "Variations And Fugue On A Theme By Handel, Op. 24",
+          "duration": "26:15"
+        },
+        {
+          "position": "B",
+          "type_": "track",
+          "title": "Variations On A Theme Of Paganini, Op. 35 (Books 1 & 2)",
+          "duration": "21:25"
+        }
+      ],
+      "source_notes": "—Sleeve info—\r\nCover: A bowl of flowers by Marie Blancour. Reproduced by kind permission of the National Gallery, London.\r\n℗ 1965, © 1979 The Decca Record Company Limited, London\r\nSleeve printed in England by Clout & Baker Ltd.\r\nMade in England\r\n—\r\nLiner notes in English translated in French and German\r\nSpine: Brahms : Piano Works Vol. 7   Julius Katchen   Ace Of Diamonds Ⓢ SDD 538\r\n \r\n—Center labels info—\r\nOriginal Recording By The Decca Record Co. Ltd.\r\n℗ 1965\r\nMade In England\r\n",
+      "candidate_programme": [
+        {
+          "target": "Variations And Fugue On A Theme By Handel, Op. 24",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            551970
+          ]
+        },
+        {
+          "target": "Variations On A Theme Of Paganini, Op. 35 (Books 1 & 2)",
+          "work_tracks": 2,
+          "credited_tracks": 2,
+          "track_ids": [
+            551958,
+            551964
+          ]
+        }
+      ],
+      "findings": [
+        "Saved Paganini Books1/2explicitly say1965 Recording, consistent with LP copyright1965, whereas the Decca Eloquence narrative says1966for the later version. This date discrepancy is unresolved.",
+        "Decca documents multiple Handel and Paganini recordings. Matching opus/pianist alone does not establish which transfer/take family is present."
+      ],
+      "decision": "withhold_pending_source_discrepancy_review"
+    }
+  ],
+  "publisher_source": "https://www.eloquenceclassics.com/releases-archive/julius-katchen-the-brahms-recordings/",
+  "limitation": "Offline diagnostic; no claims of catalogue absence, corrected source text or exact recording identity."
+}

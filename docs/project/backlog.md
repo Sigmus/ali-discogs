@@ -13,8 +13,8 @@ Status: agreed priority; retrieval and first offline screen/audit complete.
 now includes eighteen new Probables and shared inventory/parser fixes. Nine-album
 follow-up complete216tracks:7Probables/4withheld release leads after further
 reviews. Next:
-Katchen6265501 complete listed-piece review;8836514 source omissions/key
-conflicts and1697514 recording-date discrepancy need audit. Nielsen/Gould, three Katchen
+Katchen6265501 Op.119No.3 source-key verification;8836514 ambiguous joined
+band and1697514 recording-date discrepancy need review. Nielsen/Gould, three Katchen
 programmes and two Klemperer Ninth LPs now Probable;145script tests pass.
 Nabucco publisher evidence saved but track credits remain insufficient. Mozart
 remains withheld for named-player credit gaps and catalogue ambiguity.
