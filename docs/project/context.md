@@ -2,103 +2,64 @@
 
 Updated: 2026-11-14, Europe/Amsterdam
 
-Match Ali's Discogs collection (`ajozi`) against Spotify and browse a static
-explorer. [README](../../README.md) owns setup/architecture; project history and
-plans preserve dated evidence and prior handoffs.
+Browse ajozi’s Discogs collection and review Spotify/Qobuz matches in a static
+explorer. [README](../../README.md) owns setup and architecture;
+[Qobuz guide](../qobuz.md) owns evidence/cache commands.
 
 ## Current state
 
-- Option B multi-select implemented for all six filters: search + removable chips,
-  repeated URL parameters, OR within/AND across. Pushed6a48d70; matching unchanged.
-  Per-picker Alphabetical checkbox in footer implemented locally; general
-  frequency toggle removed, frequency default, independent order per picker.
+- Branch `main`; UI changes pushed through `749ba61`. Retrieval code, fixed scope, completed metadata export and planning docs are
+  included in the next local commit; search remains in progress. Check Git before continuing.
+- Collection: 741 copies / 740 unique releases. Current saved labels: Spotify
+  254 Found / 273 Probable / 210 Not found / 4 Unchecked; Qobuz
+  12 Found / 98 Probable / 631 Unchecked copies (14 November snapshot).
+- Spotify’s legacy album-level labels and stricter Qobuz evidence levels are
+  not comparable accuracy or catalogue-coverage measurements. Both status and
+  score are saved data. Qobuz 95/85 are heuristic levels, not probabilities.
+  [Validation gap](../plans/2026-11-13-cross-service-validation-gap.md).
+- Qobuz publication is separate: `data/qobuz_matches.json`; Spotify results live
+  in `data/collection_matches.json`. Portable evidence and successful request
+  archives support offline work; credentials and live run state stay ignored.
+- UI: ajozi vinyl + small on Discogs link; Table, Captions and Shelf views.
+  Six searchable multi-select filters use OR within a field / AND across fields.
+  Each picker defaults to frequency order with its own Alphabetical checkbox.
+  Search follows Decade; Clear follows Search. Table sorts all columns;
+  Captions/Shelf offer Year and Composer beside the result count.
+- Local server: http://127.0.0.1:8000/ . Live site:
+  https://sigmus.github.io/ali-discogs/ . Latest deployment not checked here.
 
-- Major limitation: Spotify legacy album-level labels and stricter Qobuz reviews
-  are not comparable coverage counts; [Tristan evidence](../plans/2026-11-13-cross-service-validation-gap.md).
+## Active retrieval — do not restart or speed up
 
-- Active branch `main`; unmatched audit merged via PR4 as20dc0e8.
-  Eight-album pass is d0afc9a. Test run43500811900 and Pages run43500811981
-  succeeded.
-- Current collection:741 copies /740 unique releases. Spotify254Found /273Probable
-  /210NotFound /4Unchecked copies. Retained labels are not independent full
-  recording confirmations. Qobuz figures below are independent enrichment.
-- Qobuz overlay: 12 Found / 98 Probable / 631 unchecked copies; unique 12/98/630.
-  Separate `data/qobuz_matches.json` survives Spotify rescoring; original pipeline
-  Qobuz fields stay unchecked. Empty/inconclusive queries are not confirmed absence.
-- Sonoteque table/details, full width with the header’s 16px side inset.
-  Shelf and Captions are an unchosen prototype beside the table. Covers is gone.
-  The layout switch uses line icons, ordered table, captions, then shelf.
-  Spotify/Qobuz filters and frequency-order switch. Qobuz details show evidence.
-- Live site: https://sigmus.github.io/ali-discogs/ . Main Pages workflow validates
-  before publishing. Release02ec297 test/Pages runs passed; live asset bytes match.
+- User authorized 12 metadata-needed releases + 305 previously empty releases:
+  83 distinct candidate albums, then 603 new queries. See
+  [run plan](../plans/2026-11-14-qobuz-remaining-retrieval.md).
+- Run state/log: `.qobuz-poc/remaining-2026-11-14/`; metadata complete 83/83.
+  Search checkpoint at 14:11 Amsterdam: 124/603, running, no warning in log tail.
+  These are dated observations; read progress files for current status.
+- Hourly ETA monitor: `qobuz-remaining-retrieval-progress`; idle-sleep assertion
+  attached to worker. Preserve checkpoints, caches and credentials.
+- On API/auth/rate-limit/network/pagination warning or unexplained stall >5min
+  outside a planned rest: root and active-phase STOP, report evidence and ask.
+  Never retry/resume after a warning without the user’s answer.
 
-## Preserved catalogue evidence
+## Agreed next sequence
 
-- Original search: 740 queries, 370 nonempty / 370 empty, 1,217 candidate entries /
-  1,036 unique Qobuz albums. Full metadata completed 2026-11-13 01:15 Amsterdam:
-  27,770 tracks, album IDs/counts/unique track IDs verified. One 500/730-track
-  response was recovered with user-authorized strict pagination. Monitors deleted.
-- Shared `data/qobuz_evidence.json.gz` preserves original whitelisted evidence.
-  Raw request archive now has1,847 responses (2 added in scoped metadata fetch);
-  original member payloads preserved. Credentials/run state remain ignored.
-- Comparison pilot adds portable `data/qobuz_comparison_evidence.json.gz`: twenty
-  fallback queries and eight complete selected albums (seven new/one reused).
-  Two corrected-query validations are separately preserved. No audio requested.
-- Shared evidence supports offline collaboration; [Qobuz guide](../qobuz.md) owns
-  export/restore/replay commands. No automatic refresh or warning retry permitted.
+1. Finish retrieval; verify all outputs/counts/track completeness and export
+   portable evidence plus validated request archive/canonical URL index.
+2. Rank and rerun Qobuz matching offline using available evidence. New search
+   hits without full metadata remain leads, not accepted matches.
+3. Audit promising and uncertain cases. Improve reusable rules where evidence
+   supports them; add meaningful regressions against known false positives.
+4. Regenerate publication data, inspect details/status consistency and build.
+   Preserve unresolved cases and visible edition/recording limitations.
+5. Then plan comparable evidence checks for Spotify; broader Spotify retrieval
+   and any collection-wide relabelling need a concrete bounded scope first.
 
-## Matching, audits and refinement
+Prefer reliable matches to higher counts. Retrieval does not authorize unbounded
+new-hit downloads, automatic promotions, pushes or deployment. Bitches Brew’s
+credit exception remains a proposal. Preserve source/hash-bound review safeguards;
+never loosen credits or invent recording identity to improve a count.
 
-- Current work-group-v2 matcher uses bounded inherited movement titles, explicit
-  vocal roles, conservative recording-group support and shared-opus work guards.
-  Found 95% / Probable 85% are heuristic levels, not calibrated probabilities or
-  independent recording-session verification. Ambiguous aliases remain unresolved.
-- Explicit target-credit archive derives positive work/position assignments for
-  128 releases from cached Discogs, with source hashes. Unknown/unscoped actors
-  stay required globally; cross-side ranges and parent/child units handled with
-  fail-closed guards. Candidate credits do not determine target requirements.
-- Query planner selects album leads instead of supporting players and fixes
-  compound composer query names. Relevance ranking is not match confidence.
-  Corrected Coltrane query finds actual A Love Supreme editions; live variant
-  flagged. Only two validation queries run, not a collection-wide expansion.
-- Thirty-release pilot: fallback hits for all ten originally empty releases,
-  three initial programme/performer leads. Credit/hierarchy changes
-  improve Barenboim target mapping from 23/31 flattened items to 8/8 work units.
-  Subsequent bounded review promotes Schnabel, Tennstedt and Kubelik to Probable,
-  with complete movement/credit checks and documented recording-cycle support.
-  Barenboim is excluded: target EMI1966–69 versus later DG cycle. Hash-bound
-  review permits one exact Schnabel joined track and Tennstedt Adagio excerpt.
-  Blank source credit assignments and other completeness/session gaps remain open.
-
-## Spotify track evidence
-
-- Existing sp PKCE login reused; tokens stay outside the repo. Original ten albums
-  (227tracks) are shared portably; local state ignored, no playback/library calls.
-- Five negative candidate reviews: original Brahms whole collection/Symphony1
-  and Dvorak Sixth/MyHome, plus new wrong jazz concert, unrelated Debussy/Ravel
-  programme and Mendelssohn missing Scottish3. Known bad albums cannot be accepted
-  by similarity scores; preserve candidates and explain missing/mismatched works.
-- Dvorak replacement explicitly reviewed: both alternatives cover Sixth I–IV and
-  MyHome with required artists; selected39-track set Probable85. Original partial
-  remains rejected. Positive review has source hashes; exact take/mastering unverified.
-- Eight new risk-selected albums cached (140tracks); two Dvorak alternatives add
-  101tracks. Shared separate archives; original227-track archive unchanged.
-  Broader audit:2programme mismatches,1partial,3listed-programme supports and
-  2opera act-heading supports. Five retained labels still recording-unverified.
-  No population accuracy estimate; no title-gap-to-absence inference.
-
-## Validation and next action
-
-- Probable 85 includes Fasano’s four Vivaldi concertos 9343746. The LP names
-  the keys and the storm. It does not print the RV numbers. The file names
-  I Virtuosi Di Roma. It is not FALP 428. Kondrashin’s New World remains.
-- Inventory of the 630 still unchecked: 305 no saved hits, 12 metadata-needed,
-  305 work or credit gaps, 7 reviewed withholds, and the Barenboim caution.
-  Sellheim 7421796 stays an empty query, not confirmed absence.
-- Harmoniemesse stays unpublished: Neville Marriner is not named. Maazel’s
-  file is Pittsburgh, and it adds Antar. Ella and Louis omits Peterson, Rich
-  and Ellis. The next file is Solti’s Götterdämmerung 8982341, fourteen Teil
-  sides against 54 cues. Bitches Brew stays a proposal. Pushed through
-  1ef2bb8. Live Pages result not confirmed.
-- [Unmatched audit](../plans/2026-11-13-qobuz-unmatched-audit.md). [Bitches Brew credits](../plans/2026-11-13-bitches-brew-credits.md).
-- [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).
+Next action: monitor the existing worker, then validate/export its completed
+outputs before the offline audit. [Backlog](backlog.md), [decisions](decisions.md),
+[history](history.md) preserve priorities, policy and completed work.

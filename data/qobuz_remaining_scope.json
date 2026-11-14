@@ -1,0 +1,3158 @@
+{
+  "schema_version": 1,
+  "created_on": "2026-11-14",
+  "collection_sha256": "a214eee877d4749fa957b3d2a293c2925d7ba0621259f2742139a6cd86f928c8",
+  "metadata_release_ids": [
+    "3094204",
+    "3670806",
+    "4491358",
+    "5140330",
+    "5916574",
+    "6091545",
+    "6534486",
+    "7002243",
+    "8962178",
+    "9792325",
+    "12419639",
+    "34776194"
+  ],
+  "empty_release_ids": [
+    "1012732",
+    "1252193",
+    "1458083",
+    "1660485",
+    "1662708",
+    "1665223",
+    "1697514",
+    "1730282",
+    "1846030",
+    "2085106",
+    "2094583",
+    "2170750",
+    "2221315",
+    "2236260",
+    "2268139",
+    "2329424",
+    "2349914",
+    "2526032",
+    "2636984",
+    "2666680",
+    "2671188",
+    "2681944",
+    "2712284",
+    "2725003",
+    "2772163",
+    "2808874",
+    "2819374",
+    "2831179",
+    "2857544",
+    "2861399",
+    "2930473",
+    "2961241",
+    "3074016",
+    "3130380",
+    "3144336",
+    "3158136",
+    "3167056",
+    "3179229",
+    "3217466",
+    "3285095",
+    "3290970",
+    "3347307",
+    "3406649",
+    "3441916",
+    "3470778",
+    "3476755",
+    "3510156",
+    "3569461",
+    "3598439",
+    "3614511",
+    "3672809",
+    "3675625",
+    "3729749",
+    "3849153",
+    "3893557",
+    "3908329",
+    "3949380",
+    "3956949",
+    "3972653",
+    "4021412",
+    "4031075",
+    "4035824",
+    "4082656",
+    "4101347",
+    "4191410",
+    "4219540",
+    "4352998",
+    "4497766",
+    "4553901",
+    "4575174",
+    "4694861",
+    "4694929",
+    "4726971",
+    "4755030",
+    "4761823",
+    "4932429",
+    "5032079",
+    "5065978",
+    "5066017",
+    "5089404",
+    "5098869",
+    "5133001",
+    "5254294",
+    "5267091",
+    "5312413",
+    "5328276",
+    "5403356",
+    "5501768",
+    "5512870",
+    "5519819",
+    "5603972",
+    "5621343",
+    "5634634",
+    "5800193",
+    "5832068",
+    "5838140",
+    "5883743",
+    "5940193",
+    "5940478",
+    "5980586",
+    "6113868",
+    "6119375",
+    "6157602",
+    "6181503",
+    "6203854",
+    "6210807",
+    "6232111",
+    "6264736",
+    "6265501",
+    "6347314",
+    "6371624",
+    "6387921",
+    "6541771",
+    "6544574",
+    "6591890",
+    "6623341",
+    "6628473",
+    "6651774",
+    "6652276",
+    "6711178",
+    "6748142",
+    "6781135",
+    "6798013",
+    "6807083",
+    "6810640",
+    "6831914",
+    "6848787",
+    "6993029",
+    "7057910",
+    "7065721",
+    "7070218",
+    "7077802",
+    "7085159",
+    "7118750",
+    "7185862",
+    "7186111",
+    "7194998",
+    "7213530",
+    "7248321",
+    "7278935",
+    "7291398",
+    "7291425",
+    "7309632",
+    "7334505",
+    "7358646",
+    "7421796",
+    "7467218",
+    "7506575",
+    "7597643",
+    "7708298",
+    "7735287",
+    "7752066",
+    "7801996",
+    "7809198",
+    "7830338",
+    "7864758",
+    "7914875",
+    "7971104",
+    "7974483",
+    "8057461",
+    "8072753",
+    "8182960",
+    "8253419",
+    "8264477",
+    "8264568",
+    "8274997",
+    "8357595",
+    "8373111",
+    "8392283",
+    "8606394",
+    "8807550",
+    "8827360",
+    "8836514",
+    "8860718",
+    "8901812",
+    "8923384",
+    "8930472",
+    "8999534",
+    "9070830",
+    "9093524",
+    "9104884",
+    "9110965",
+    "9280880",
+    "9283162",
+    "9297226",
+    "9297425",
+    "9298124",
+    "9300671",
+    "9350033",
+    "9384678",
+    "9458258",
+    "9707819",
+    "9769609",
+    "9855113",
+    "9861630",
+    "9866788",
+    "9876105",
+    "9876728",
+    "9932691",
+    "9932960",
+    "10046721",
+    "10146327",
+    "10175959",
+    "10423743",
+    "10552903",
+    "10583401",
+    "10676527",
+    "10707559",
+    "10757120",
+    "10798025",
+    "10810695",
+    "10867313",
+    "10868192",
+    "10872447",
+    "10882259",
+    "10899046",
+    "11002007",
+    "11059547",
+    "11291879",
+    "11295304",
+    "11410740",
+    "11412875",
+    "11452132",
+    "11553633",
+    "11629381",
+    "11647374",
+    "11704409",
+    "11765180",
+    "11883662",
+    "11885637",
+    "11885669",
+    "11890675",
+    "11923741",
+    "11938919",
+    "11971084",
+    "12004072",
+    "12007683",
+    "12159256",
+    "12214914",
+    "12690141",
+    "12769125",
+    "12780507",
+    "12795534",
+    "12803844",
+    "12851527",
+    "12872526",
+    "13166114",
+    "13406445",
+    "13434172",
+    "13518279",
+    "13655367",
+    "13698592",
+    "13708354",
+    "13792797",
+    "13847676",
+    "13947426",
+    "14073855",
+    "14113741",
+    "14123645",
+    "14134908",
+    "14157833",
+    "14669582",
+    "14704151",
+    "14782388",
+    "14829435",
+    "15221307",
+    "15293035",
+    "15587453",
+    "15660391",
+    "15714625",
+    "15926327",
+    "16349973",
+    "16423914",
+    "16463043",
+    "17256520",
+    "17470435",
+    "17748481",
+    "18195607",
+    "18963583",
+    "19183792",
+    "20282824",
+    "20451211",
+    "20521609",
+    "20588539",
+    "20901739",
+    "21490438",
+    "21794359",
+    "22645613",
+    "23950082",
+    "24963823",
+    "24964822",
+    "24965038",
+    "25538239",
+    "26149643",
+    "26149832",
+    "26346215",
+    "26797586",
+    "28108858",
+    "29097343",
+    "30872649",
+    "33198774",
+    "33352196",
+    "33491129",
+    "36122362",
+    "36163426"
+  ],
+  "metadata": [
+    {
+      "discogs_id": "3094204",
+      "album_id": "3610156118138",
+      "title": "Mozart: Concertos pour piano Nos. 20 & 24"
+    },
+    {
+      "discogs_id": "3094204",
+      "album_id": "3614590637286",
+      "title": "Mozart: Concertos pour piano Nos. 20 & 24 "
+    },
+    {
+      "discogs_id": "3094204",
+      "album_id": "4040343173081",
+      "title": "Wolfgang Amadeus Mozart - Klavierkonzert Nr. 20 d-moll KV 466"
+    },
+    {
+      "discogs_id": "3094204",
+      "album_id": "4040343173111",
+      "title": "Wolfgang Amadeus Mozart - Klavierkonzert Nr. 24 c-moll KV 491 (Piano concerto no. 24 kv 491)"
+    },
+    {
+      "discogs_id": "3094204",
+      "album_id": "nsan43h7565bb",
+      "title": "Mozart: Piano Concerto No. 20; Piano Concerto No. 24"
+    },
+    {
+      "discogs_id": "3670806",
+      "album_id": "0002894192142",
+      "title": "Vivaldi: Le quattro stagioni"
+    },
+    {
+      "discogs_id": "3670806",
+      "album_id": "0074646450925",
+      "title": "Trio Sonatas of Telemann & The Bach Family"
+    },
+    {
+      "discogs_id": "3670806",
+      "album_id": "0074646647226",
+      "title": "Vivaldi: The Four Seasons; Concertos for Two and Three Violins"
+    },
+    {
+      "discogs_id": "3670806",
+      "album_id": "0887396203419",
+      "title": "Isaac Stern: Vivaldi / Bach / Haydn / Mozart - 4 Conciertos para Violín"
+    },
+    {
+      "discogs_id": "3670806",
+      "album_id": "3614594642842",
+      "title": "Vivaldi: Concerto pour deux violons, RV 522 & Bach: Concertos pour violon "
+    },
+    {
+      "discogs_id": "3670806",
+      "album_id": "5099706647126",
+      "title": "Bach: Violin Concertos BWV 1041, 1042, 1043, 1060"
+    },
+    {
+      "discogs_id": "3670806",
+      "album_id": "g1zzmzfs3c04b",
+      "title": "Sonatas of Johann Sebastian Bach and Sons"
+    },
+    {
+      "discogs_id": "3670806",
+      "album_id": "h1cw4tcmctvca",
+      "title": "Vivaldi: 6 Double Concertos"
+    },
+    {
+      "discogs_id": "4491358",
+      "album_id": "0002894192492",
+      "title": "Beethoven: Piano Concerto No.5"
+    },
+    {
+      "discogs_id": "4491358",
+      "album_id": "0002894497572",
+      "title": "Beethoven: Piano Concertos Nos. 1 & 3"
+    },
+    {
+      "discogs_id": "4491358",
+      "album_id": "0002894577622",
+      "title": "Brahms: Ballades - Schubert & Beethoven : Sonatas"
+    },
+    {
+      "discogs_id": "4491358",
+      "album_id": "3504129068516",
+      "title": "Haydn, Beethoven"
+    },
+    {
+      "discogs_id": "4491358",
+      "album_id": "e8o2a3o4doxua",
+      "title": "Beethoven: Piano Concerto No. 5 \"Emperor\", Piano Sonata No. 32 - Claude Debussy: Images"
+    },
+    {
+      "discogs_id": "4491358",
+      "album_id": "em5xnhyyjy2zb",
+      "title": "The Art of Arturo Benedetti Michelangeli - Beethoven: Piano Sonata No. 32 / Galuppi: Sonata No. 5 / Scarlatti: Sonatas, K 11, 159 & 322"
+    },
+    {
+      "discogs_id": "4491358",
+      "album_id": "g844jwmjmn7vb",
+      "title": "Beethoven: Piano Concerto No.5 in E-Flat Major, Op.  73"
+    },
+    {
+      "discogs_id": "4491358",
+      "album_id": "hdqereegrnnec",
+      "title": "Historical Beethoven: Piano Concerto No. 5 in E-Flat Major, Op. 73 \"Emperor\""
+    },
+    {
+      "discogs_id": "4491358",
+      "album_id": "i4ztk0dz6n6gc",
+      "title": "Beethoven: Piano Concertos Nos.1, 3 & 5 / Piano Sonata No. 4"
+    },
+    {
+      "discogs_id": "5140330",
+      "album_id": "0002894497562",
+      "title": "Bach, J.S.: Cantatas \"Christ lag in Todesbanden\", \"Ich will den Kreuzstab gerne tragen\" & \"Ich habe genug\""
+    },
+    {
+      "discogs_id": "5140330",
+      "album_id": "0002894827641",
+      "title": "Bach : Christmas Oratorio"
+    },
+    {
+      "discogs_id": "5140330",
+      "album_id": "3610150259714",
+      "title": "Bach : Weihnachtsoratorium "
+    },
+    {
+      "discogs_id": "5140330",
+      "album_id": "3610156240440",
+      "title": "Bach: Cantate, BWV 105"
+    },
+    {
+      "discogs_id": "5140330",
+      "album_id": "bemrk583z766a",
+      "title": "Bach: Nine Sacred Cantatas"
+    },
+    {
+      "discogs_id": "5916574",
+      "album_id": "0090266394029",
+      "title": "Schubert: Symphonies Nos. 1-9"
+    },
+    {
+      "discogs_id": "5916574",
+      "album_id": "0090266804726",
+      "title": "Bruckner: Symphony No. 8"
+    },
+    {
+      "discogs_id": "5916574",
+      "album_id": "0090266850327",
+      "title": "Anton Bruckner: Symphonie No. 5"
+    },
+    {
+      "discogs_id": "5916574",
+      "album_id": "0090266883929",
+      "title": "Anton Bruckner: Symphonie Nr. 4"
+    },
+    {
+      "discogs_id": "5916574",
+      "album_id": "0743218459023",
+      "title": "Bruckner: Symphonies 5 & 9"
+    },
+    {
+      "discogs_id": "5916574",
+      "album_id": "0743219304124",
+      "title": "The Last Recording - The Last Interview"
+    },
+    {
+      "discogs_id": "5916574",
+      "album_id": "0886443300057",
+      "title": "Bruckner: Sinfonien"
+    },
+    {
+      "discogs_id": "5916574",
+      "album_id": "osleqym72fyvc",
+      "title": "Bruckner: Symphonies 3-9"
+    },
+    {
+      "discogs_id": "5916574",
+      "album_id": "txvfokwirrmna",
+      "title": "Mozart: Symphony No. 40 - Schubert: Symphony No. 5 (Live)"
+    },
+    {
+      "discogs_id": "6091545",
+      "album_id": "btchqd447im7b",
+      "title": "Schütz: Kleine geistliche Konzerte, vol. 2"
+    },
+    {
+      "discogs_id": "6091545",
+      "album_id": "qgcbaft6pbgob",
+      "title": "Schütz: Weihnachtshistorie / Weihnachtsmotetten"
+    },
+    {
+      "discogs_id": "6091545",
+      "album_id": "svqciaw36mwvc",
+      "title": "Schütz: Kleine geistliche Konzerte, vol. 1"
+    },
+    {
+      "discogs_id": "6091545",
+      "album_id": "sx5t3srv3jgac",
+      "title": "Schütz: Kleine geistliche Konzerte, vol. 3"
+    },
+    {
+      "discogs_id": "6091545",
+      "album_id": "v9prgt1zbyfwa",
+      "title": "Schütz: Geistliche Chormusik 1648"
+    },
+    {
+      "discogs_id": "6534486",
+      "album_id": "0002894628742",
+      "title": "Chopin: The Polonaises/17 Waltzes"
+    },
+    {
+      "discogs_id": "6534486",
+      "album_id": "0002894632942",
+      "title": "Harasiewicz plays Chopin"
+    },
+    {
+      "discogs_id": "6534486",
+      "album_id": "0002894783352",
+      "title": "Chopin: Piano Encores"
+    },
+    {
+      "discogs_id": "6534486",
+      "album_id": "0002894800514",
+      "title": "Chopin: Etüden"
+    },
+    {
+      "discogs_id": "6534486",
+      "album_id": "br8tr8tnwpluc",
+      "title": "Chopin - Preludes, Etudes, Other Works"
+    },
+    {
+      "discogs_id": "6534486",
+      "album_id": "jyo4rr0yhlz9b",
+      "title": "Chopin: 19 Nocturnes by Adam Harasiewicz"
+    },
+    {
+      "discogs_id": "6534486",
+      "album_id": "spzhuh55h3zcc",
+      "title": "Chopin: 4 Impromptus, 4 Scherzos by Adam Harasiewicz"
+    },
+    {
+      "discogs_id": "7002243",
+      "album_id": "0724356774056",
+      "title": "Beethoven: Symphony No. 3 \"Eroica\" - Overtures: \"Leonore\" Nos. 1 & 2"
+    },
+    {
+      "discogs_id": "7002243",
+      "album_id": "3610155313794",
+      "title": "Beethoven: Symphonie No. 3, Op. 55 \"Héroïque\""
+    },
+    {
+      "discogs_id": "7002243",
+      "album_id": "3610155779583",
+      "title": "Beethoven: Symphonie No. 3, Op. 55 \"Héroïque\" "
+    },
+    {
+      "discogs_id": "7002243",
+      "album_id": "5099951586355",
+      "title": "Beethoven : Symphonies Nos. 1-9 "
+    },
+    {
+      "discogs_id": "7002243",
+      "album_id": "a66byhbf6px6b",
+      "title": "Beethoven, L. Van: Symphony No. 3, \"Eroica\" / Leonore Overtures Nos. 1, 3 (Philharmonia Orchestra, Klemperer) (1954-1955)"
+    },
+    {
+      "discogs_id": "7002243",
+      "album_id": "d859kivo5v2ta",
+      "title": "BEETHOVEN: SYMPHONY No. 3 \"EROICA\", SYMPHONY No. 1; BRUCKNER: SYMPHONY No. 4 \"ROMANTIC\""
+    },
+    {
+      "discogs_id": "7002243",
+      "album_id": "elolizhit6rma",
+      "title": "Ludwig van Beethoven: Symphony No. 3 in E-Flat Major, Op. 55 'Eroica' (1961)"
+    },
+    {
+      "discogs_id": "7002243",
+      "album_id": "isfqpdvmt19ib",
+      "title": "BEETHOVEN: SYMPHONY No. 1; SYMPHONY No. 3 \"EROICA\""
+    },
+    {
+      "discogs_id": "7002243",
+      "album_id": "lcxf8rraxxmyb",
+      "title": "Beethoven - Sympony No.3 in E-Flat Major, Op. 55 \"Eroica\""
+    },
+    {
+      "discogs_id": "7002243",
+      "album_id": "sntro0ghe5t1b",
+      "title": "Beethoven: Symphonies Nos. 1 & 3 \"Eroica\" (Remastered 2023)"
+    },
+    {
+      "discogs_id": "8962178",
+      "album_id": "3610153935486",
+      "title": "Mendelssohn: 17 Romances sans paroles"
+    },
+    {
+      "discogs_id": "8962178",
+      "album_id": "5099970560152",
+      "title": "Mendelssohn: 17 Songs without Words (2011 - Remaster)"
+    },
+    {
+      "discogs_id": "8962178",
+      "album_id": "f61mtlvi8bhla",
+      "title": "Walter Gieseking Plays Chopin, Mendelssohn, Schumann & Grieg"
+    },
+    {
+      "discogs_id": "8962178",
+      "album_id": "q03q0vssupatb",
+      "title": "Mendelssohn: Songs Without Words"
+    },
+    {
+      "discogs_id": "8962178",
+      "album_id": "t7sdve00kzmia",
+      "title": "Mendelssohn: 17 Songs without Words by Walter Gieseking"
+    },
+    {
+      "discogs_id": "9792325",
+      "album_id": "3770003441113",
+      "title": "Mozart : Rondo, Sonate pour piano & Concerto pour piano et orchestre (Diapason n°572)"
+    },
+    {
+      "discogs_id": "9792325",
+      "album_id": "e1lsj7ytcfa8b",
+      "title": "Mozart Piano Sonatas Nos. 4, 5 and 9 - Wanda Landowska"
+    },
+    {
+      "discogs_id": "9792325",
+      "album_id": "oj6wejbpxsuxa",
+      "title": "Wolfgang Amadeus Mozart: Sonata No. 13 In B Flat Major / Sonata No. 5 In G Major / Rondo In A Minor"
+    },
+    {
+      "discogs_id": "9792325",
+      "album_id": "ql9qig12pschc",
+      "title": "Mozart: Piano Concerto No. 26, Piano Sonatas Nos. 12 & 18 & Fantasia No. 3"
+    },
+    {
+      "discogs_id": "9792325",
+      "album_id": "zunlu85bxwshb",
+      "title": "Wanda Landowska and Artur Rodzinsky live Mozart Piano Concertos 13 and 22"
+    },
+    {
+      "discogs_id": "12419639",
+      "album_id": "0884385427788",
+      "title": "Fryderyk Franciszek Chopin, Waltz In E Flat, Op. 18"
+    },
+    {
+      "discogs_id": "12419639",
+      "album_id": "5099964624358",
+      "title": "Chopin: Les Nocturnes"
+    },
+    {
+      "discogs_id": "12419639",
+      "album_id": "pczrftjhgb44a",
+      "title": "Chopin : Nocturnes"
+    },
+    {
+      "discogs_id": "12419639",
+      "album_id": "yrdkwzl6rmswc",
+      "title": "Chopin: Piano Concertos Nos. 1 & 2"
+    },
+    {
+      "discogs_id": "12419639",
+      "album_id": "yxfk8tyousc5b",
+      "title": "World Famous Series: Chopin Waltzes"
+    },
+    {
+      "discogs_id": "34776194",
+      "album_id": "0002894787235",
+      "title": "Prokofiev: Piano Concerto No.3; Rachmaninov: Piano Concerto No.1"
+    },
+    {
+      "discogs_id": "34776194",
+      "album_id": "0002894788298",
+      "title": "Byron Janis Plays Moussorgsky: Pictures At An Exhibition"
+    },
+    {
+      "discogs_id": "34776194",
+      "album_id": "0886443822764",
+      "title": "Byron Janis Plays Chopin"
+    },
+    {
+      "discogs_id": "34776194",
+      "album_id": "0886443822917",
+      "title": "Schumann: Piano Concerto, Op.54 - Liszt: Totentanz"
+    },
+    {
+      "discogs_id": "34776194",
+      "album_id": "3614592787545",
+      "title": "The Show Must Go On with Frédéric Chopin"
+    },
+    {
+      "discogs_id": "34776194",
+      "album_id": "3614594881128",
+      "title": "Récital Chopin"
+    },
+    {
+      "discogs_id": "34776194",
+      "album_id": "3614979172957",
+      "title": "Liszt Piano Concerto Nos. 1 & 2, Hungarian Rhapsody No. 6, Valse oubilée and Sonetto del Petrarco CIV, Schumann Romance in F Sharp and Novellette in F, De Falla The Miller's Dance and Guion The Harmonica Player"
+    },
+    {
+      "discogs_id": "34776194",
+      "album_id": "dmlmfz2dj2z3a",
+      "title": "Encore - The Mercury Masters, Vol. 5"
+    },
+    {
+      "discogs_id": "34776194",
+      "album_id": "gcbz4dmcg4rqc",
+      "title": "Schumann: Piano Concerto - The Mercury Masters, Vol. 7"
+    },
+    {
+      "discogs_id": "34776194",
+      "album_id": "mnyvgcelpwnxc",
+      "title": "Byron Janis Plays Frédéric Chopin"
+    }
+  ],
+  "search": [
+    {
+      "discogs_id": "1012732",
+      "query": "herbert von karajan brahms"
+    },
+    {
+      "discogs_id": "1012732",
+      "query": "herbert von karajan brahms op 45"
+    },
+    {
+      "discogs_id": "1252193",
+      "query": "charlie parker"
+    },
+    {
+      "discogs_id": "1458083",
+      "query": "glenn gould bach"
+    },
+    {
+      "discogs_id": "1458083",
+      "query": "glenn gould two and three part inventions zwei"
+    },
+    {
+      "discogs_id": "1660485",
+      "query": "nathan milstein tchaikovsky"
+    },
+    {
+      "discogs_id": "1660485",
+      "query": "nathan milstein mendelssohn"
+    },
+    {
+      "discogs_id": "1662708",
+      "query": "alexis weissenberg tchaikovsky"
+    },
+    {
+      "discogs_id": "1662708",
+      "query": "alexis weissenberg tchaikovsky op 23"
+    },
+    {
+      "discogs_id": "1665223",
+      "query": "camille saint saens saens"
+    },
+    {
+      "discogs_id": "1665223",
+      "query": "camille saint saens"
+    },
+    {
+      "discogs_id": "1697514",
+      "query": "julius katchen brahms"
+    },
+    {
+      "discogs_id": "1697514",
+      "query": "julius katchen brahms op 24"
+    },
+    {
+      "discogs_id": "1730282",
+      "query": "otto klemperer bach"
+    },
+    {
+      "discogs_id": "1730282",
+      "query": "otto klemperer bach bwv 1050"
+    },
+    {
+      "discogs_id": "1846030",
+      "query": "david oistrach beethoven"
+    },
+    {
+      "discogs_id": "1846030",
+      "query": "david oistrach beethoven op 56"
+    },
+    {
+      "discogs_id": "2085106",
+      "query": "prague string quartet dvorak"
+    },
+    {
+      "discogs_id": "2085106",
+      "query": "jan sirc dvorak"
+    },
+    {
+      "discogs_id": "2094583",
+      "query": "boston symphony chamber players dvorak"
+    },
+    {
+      "discogs_id": "2094583",
+      "query": "jules eskin dvorak"
+    },
+    {
+      "discogs_id": "2170750",
+      "query": "claudio arrau chopin"
+    },
+    {
+      "discogs_id": "2170750",
+      "query": "claudio arrau chopin op 15"
+    },
+    {
+      "discogs_id": "2221315",
+      "query": "django reinhardt reinhardt"
+    },
+    {
+      "discogs_id": "2221315",
+      "query": "django reinhardt"
+    },
+    {
+      "discogs_id": "2236260",
+      "query": "aldo ciccolini tchaikovsky"
+    },
+    {
+      "discogs_id": "2236260",
+      "query": "aldo ciccolini rachmaninoff"
+    },
+    {
+      "discogs_id": "2268139",
+      "query": "the academy of st martin in the fields mendelssohn"
+    },
+    {
+      "discogs_id": "2268139",
+      "query": "sir neville marriner mendelssohn"
+    },
+    {
+      "discogs_id": "2329424",
+      "query": "alexander uninsky chopin"
+    },
+    {
+      "discogs_id": "2329424",
+      "query": "alexander uninsky chopin op 10"
+    },
+    {
+      "discogs_id": "2349914",
+      "query": "the academy of st martin in the fields bach"
+    },
+    {
+      "discogs_id": "2349914",
+      "query": "sir neville marriner bach"
+    },
+    {
+      "discogs_id": "2526032",
+      "query": "nikolaus harnoncourt bach"
+    },
+    {
+      "discogs_id": "2526032",
+      "query": "nikolaus harnoncourt bach bwv 244"
+    },
+    {
+      "discogs_id": "2636984",
+      "query": "glenn gould beethoven"
+    },
+    {
+      "discogs_id": "2636984",
+      "query": "glenn gould beethoven op 73"
+    },
+    {
+      "discogs_id": "2666680",
+      "query": "daniel barenboim mozart"
+    },
+    {
+      "discogs_id": "2666680",
+      "query": "daniel barenboim mozart k 467"
+    },
+    {
+      "discogs_id": "2671188",
+      "query": "philharmonia orchestra brahms"
+    },
+    {
+      "discogs_id": "2671188",
+      "query": "otto klemperer brahms"
+    },
+    {
+      "discogs_id": "2681944",
+      "query": "lazar berman prokofiev"
+    },
+    {
+      "discogs_id": "2681944",
+      "query": "lazar berman rachmaninoff"
+    },
+    {
+      "discogs_id": "2712284",
+      "query": "eugene ormandy shostakovich"
+    },
+    {
+      "discogs_id": "2712284",
+      "query": "eugene ormandy symphony n1 cello concertos n1"
+    },
+    {
+      "discogs_id": "2725003",
+      "query": "christa ludwig mahler"
+    },
+    {
+      "discogs_id": "2725003",
+      "query": "christa ludwig 5 symphonie kindertotenlieder"
+    },
+    {
+      "discogs_id": "2772163",
+      "query": "wiener mozart ensemble mozart"
+    },
+    {
+      "discogs_id": "2772163",
+      "query": "willi boskovsky mozart"
+    },
+    {
+      "discogs_id": "2808874",
+      "query": "otto klemperer wagner"
+    },
+    {
+      "discogs_id": "2808874",
+      "query": "otto klemperer album ii"
+    },
+    {
+      "discogs_id": "2819374",
+      "query": "tamas vasary chopin"
+    },
+    {
+      "discogs_id": "2819374",
+      "query": "tamas vasary chopin op 11"
+    },
+    {
+      "discogs_id": "2831179",
+      "query": "gundula janowitz mozart"
+    },
+    {
+      "discogs_id": "2831179",
+      "query": "gundula janowitz mozart k 139"
+    },
+    {
+      "discogs_id": "2857544",
+      "query": "narciso yepes bach"
+    },
+    {
+      "discogs_id": "2857544",
+      "query": "narciso yepes bach bwv 1000"
+    },
+    {
+      "discogs_id": "2861399",
+      "query": "nina simone"
+    },
+    {
+      "discogs_id": "2930473",
+      "query": "leon fleisher beethoven"
+    },
+    {
+      "discogs_id": "2930473",
+      "query": "leon fleisher beethoven op 15"
+    },
+    {
+      "discogs_id": "2961241",
+      "query": "english chamber orchestra bartok"
+    },
+    {
+      "discogs_id": "2961241",
+      "query": "daniel barenboim bartok"
+    },
+    {
+      "discogs_id": "3074016",
+      "query": "emil gilels beethoven"
+    },
+    {
+      "discogs_id": "3074016",
+      "query": "emil gilels beethoven op 37"
+    },
+    {
+      "discogs_id": "3130380",
+      "query": "prague string quartet dvorak"
+    },
+    {
+      "discogs_id": "3130380",
+      "query": "jan sirc dvorak"
+    },
+    {
+      "discogs_id": "3144336",
+      "query": "herman krebbers beethoven"
+    },
+    {
+      "discogs_id": "3144336",
+      "query": "herman krebbers beethoven op 61"
+    },
+    {
+      "discogs_id": "3158136",
+      "query": "burton greene quartet"
+    },
+    {
+      "discogs_id": "3158136",
+      "query": "burton greene"
+    },
+    {
+      "discogs_id": "3167056",
+      "query": "piero cappuccilli verdi"
+    },
+    {
+      "discogs_id": "3167056",
+      "query": "piero cappuccilli verdi nabucco highlights querschnitt"
+    },
+    {
+      "discogs_id": "3179229",
+      "query": "wiener mozart ensemble mozart"
+    },
+    {
+      "discogs_id": "3179229",
+      "query": "willi boskovsky mozart"
+    },
+    {
+      "discogs_id": "3217466",
+      "query": "gustav leonhardt bach"
+    },
+    {
+      "discogs_id": "3217466",
+      "query": "gustav leonhardt bach bwv 846"
+    },
+    {
+      "discogs_id": "3285095",
+      "query": "arturo benedetti michelangeli beethoven"
+    },
+    {
+      "discogs_id": "3285095",
+      "query": "arturo benedetti michelangeli beethoven op 7"
+    },
+    {
+      "discogs_id": "3290970",
+      "query": "die 12 cellisten der berliner philharmoniker lobos"
+    },
+    {
+      "discogs_id": "3290970",
+      "query": "alexander wedow lobos"
+    },
+    {
+      "discogs_id": "3347307",
+      "query": "romy gundermann buxtehude"
+    },
+    {
+      "discogs_id": "3347307",
+      "query": "romy gundermann bach"
+    },
+    {
+      "discogs_id": "3406649",
+      "query": "karl richter bach"
+    },
+    {
+      "discogs_id": "3406649",
+      "query": "karl richter chor"
+    },
+    {
+      "discogs_id": "3441916",
+      "query": "wilhelm furtwangler wagner"
+    },
+    {
+      "discogs_id": "3441916",
+      "query": "wilhelm furtwangler tristan and isolde complete"
+    },
+    {
+      "discogs_id": "3470778",
+      "query": "ingrid haebler mozart"
+    },
+    {
+      "discogs_id": "3470778",
+      "query": "ingrid haebler mozart k 175"
+    },
+    {
+      "discogs_id": "3476755",
+      "query": "otto klemperer mendelssohn"
+    },
+    {
+      "discogs_id": "3476755",
+      "query": "otto klemperer mendelssohn op 26"
+    },
+    {
+      "discogs_id": "3510156",
+      "query": "feodor chaliapin moussorgksy"
+    },
+    {
+      "discogs_id": "3510156",
+      "query": "feodor chaliapin mussorgsky"
+    },
+    {
+      "discogs_id": "3569461",
+      "query": "det kongelige kapel nielsen"
+    },
+    {
+      "discogs_id": "3569461",
+      "query": "det kongelige kapel nielsen op 27"
+    },
+    {
+      "discogs_id": "3598439",
+      "query": "johann strauss jr strauss"
+    },
+    {
+      "discogs_id": "3598439",
+      "query": "johann strauss jr"
+    },
+    {
+      "discogs_id": "3614511",
+      "query": "david willcocks bach"
+    },
+    {
+      "discogs_id": "3614511",
+      "query": "david willcocks bach bwv 226"
+    },
+    {
+      "discogs_id": "3672809",
+      "query": "arturo benedetti michelangeli beethoven"
+    },
+    {
+      "discogs_id": "3672809",
+      "query": "arturo benedetti michelangeli beethoven op 15"
+    },
+    {
+      "discogs_id": "3675625",
+      "query": "kathleen battle strauss"
+    },
+    {
+      "discogs_id": "3675625",
+      "query": "kathleen battle strauss op 117"
+    },
+    {
+      "discogs_id": "3729749",
+      "query": "walter gieseking debussy"
+    },
+    {
+      "discogs_id": "3729749",
+      "query": "walter gieseking preludes 2eme livre"
+    },
+    {
+      "discogs_id": "3849153",
+      "query": "leonard bernstein stravinsky"
+    },
+    {
+      "discogs_id": "3849153",
+      "query": "leonard bernstein les noces messe mass"
+    },
+    {
+      "discogs_id": "3893557",
+      "query": "john coltrane"
+    },
+    {
+      "discogs_id": "3908329",
+      "query": "veronika kincses haydn"
+    },
+    {
+      "discogs_id": "3908329",
+      "query": "veronika kincses the seven last words of christ"
+    },
+    {
+      "discogs_id": "3949380",
+      "query": "david oistrach brahms"
+    },
+    {
+      "discogs_id": "3949380",
+      "query": "david oistrach prokofiev"
+    },
+    {
+      "discogs_id": "3956949",
+      "query": "israel philharmonic orchestra mendelssohn"
+    },
+    {
+      "discogs_id": "3956949",
+      "query": "leonard bernstein mendelssohn"
+    },
+    {
+      "discogs_id": "3972653",
+      "query": "agnes giebel bach"
+    },
+    {
+      "discogs_id": "3972653",
+      "query": "agnes giebel bach bwv 140"
+    },
+    {
+      "discogs_id": "4021412",
+      "query": "david oistrach mozart"
+    },
+    {
+      "discogs_id": "4021412",
+      "query": "david oistrach mozart k 219"
+    },
+    {
+      "discogs_id": "4031075",
+      "query": "maurizio pollini stravinsky"
+    },
+    {
+      "discogs_id": "4031075",
+      "query": "maurizio pollini prokofiev"
+    },
+    {
+      "discogs_id": "4035824",
+      "query": "eugen jochum bruckner"
+    },
+    {
+      "discogs_id": "4035824",
+      "query": "eugen jochum te deum gloria aus der f"
+    },
+    {
+      "discogs_id": "4082656",
+      "query": "friedrich gulda bach"
+    },
+    {
+      "discogs_id": "4082656",
+      "query": "friedrich gulda das wohltemperierte klavier zweiter teil"
+    },
+    {
+      "discogs_id": "4101347",
+      "query": "maurizio pollini brahms"
+    },
+    {
+      "discogs_id": "4101347",
+      "query": "maurizio pollini brahms op 34"
+    },
+    {
+      "discogs_id": "4191410",
+      "query": "nicanor zabaleta bach"
+    },
+    {
+      "discogs_id": "4191410",
+      "query": "nicanor zabaleta handel"
+    },
+    {
+      "discogs_id": "4219540",
+      "query": "clara haskil mozart"
+    },
+    {
+      "discogs_id": "4219540",
+      "query": "clara haskil beethoven"
+    },
+    {
+      "discogs_id": "4352998",
+      "query": "artur schnabel beethoven"
+    },
+    {
+      "discogs_id": "4352998",
+      "query": "artur schnabel beethoven op 31 3"
+    },
+    {
+      "discogs_id": "4497766",
+      "query": "carmel kaine vivaldi"
+    },
+    {
+      "discogs_id": "4497766",
+      "query": "carmel kaine la stravaganza 12 concerti opus 4"
+    },
+    {
+      "discogs_id": "4553901",
+      "query": "arthur rubinstein grieg"
+    },
+    {
+      "discogs_id": "4553901",
+      "query": "arthur rubinstein schumann"
+    },
+    {
+      "discogs_id": "4575174",
+      "query": "stravinsky"
+    },
+    {
+      "discogs_id": "4575174",
+      "query": "stravinsky op 1"
+    },
+    {
+      "discogs_id": "4694861",
+      "query": "artur schnabel beethoven"
+    },
+    {
+      "discogs_id": "4694861",
+      "query": "artur schnabel beethoven op 10 1"
+    },
+    {
+      "discogs_id": "4694929",
+      "query": "artur schnabel beethoven"
+    },
+    {
+      "discogs_id": "4694929",
+      "query": "artur schnabel beethoven op 120"
+    },
+    {
+      "discogs_id": "4726971",
+      "query": "georg solti wagner"
+    },
+    {
+      "discogs_id": "4726971",
+      "query": "georg solti highlights from das rheingold and die"
+    },
+    {
+      "discogs_id": "4755030",
+      "query": "alban berg quartett beethoven"
+    },
+    {
+      "discogs_id": "4755030",
+      "query": "valentin erben beethoven"
+    },
+    {
+      "discogs_id": "4761823",
+      "query": "israel philharmonic orchestra dvorak"
+    },
+    {
+      "discogs_id": "4761823",
+      "query": "georg solti dvorak"
+    },
+    {
+      "discogs_id": "4932429",
+      "query": "concentus musicus wien bach"
+    },
+    {
+      "discogs_id": "4932429",
+      "query": "concentus musicus wien bach bwv 211"
+    },
+    {
+      "discogs_id": "5032079",
+      "query": "jean pierre rampal bach"
+    },
+    {
+      "discogs_id": "5032079",
+      "query": "jean pierre rampal bach bwv 1059"
+    },
+    {
+      "discogs_id": "5065978",
+      "query": "karl bohm mozart"
+    },
+    {
+      "discogs_id": "5065978",
+      "query": "karl bohm mozart k 550"
+    },
+    {
+      "discogs_id": "5066017",
+      "query": "lazar berman scriabin"
+    },
+    {
+      "discogs_id": "5066017",
+      "query": "lazar berman scriabin op 23"
+    },
+    {
+      "discogs_id": "5089404",
+      "query": "budapest symphony orchestra grieg"
+    },
+    {
+      "discogs_id": "5089404",
+      "query": "gyorgy cziffra grieg"
+    },
+    {
+      "discogs_id": "5098869",
+      "query": "david oistrach shostakovich"
+    },
+    {
+      "discogs_id": "5098869",
+      "query": "david oistrach shostakovich op 99"
+    },
+    {
+      "discogs_id": "5133001",
+      "query": "statsradiofoniens symfoniorkester nielsen"
+    },
+    {
+      "discogs_id": "5133001",
+      "query": "statsradiofoniens symfoniorkester nielsen op 50"
+    },
+    {
+      "discogs_id": "5254294",
+      "query": "london wind soloists mozart"
+    },
+    {
+      "discogs_id": "5254294",
+      "query": "london wind soloists mozart k 240"
+    },
+    {
+      "discogs_id": "5267091",
+      "query": "georges pretre dvorak"
+    },
+    {
+      "discogs_id": "5267091",
+      "query": "georges pretre symphonie en mi mineur op 95"
+    },
+    {
+      "discogs_id": "5312413",
+      "query": "alfred cortot haydn"
+    },
+    {
+      "discogs_id": "5312413",
+      "query": "alfred cortot schubert"
+    },
+    {
+      "discogs_id": "5328276",
+      "query": "kathleen ferrier bach"
+    },
+    {
+      "discogs_id": "5328276",
+      "query": "kathleen ferrier st matthew passion complete recording"
+    },
+    {
+      "discogs_id": "5403356",
+      "query": "alfred brendel beethoven"
+    },
+    {
+      "discogs_id": "5403356",
+      "query": "alfred brendel beethoven op 10"
+    },
+    {
+      "discogs_id": "5501768",
+      "query": "amadeus quartett mozart"
+    },
+    {
+      "discogs_id": "5501768",
+      "query": "cecil aronowitz mozart"
+    },
+    {
+      "discogs_id": "5512870",
+      "query": "otto klemperer bach"
+    },
+    {
+      "discogs_id": "5512870",
+      "query": "otto klemperer messa in si minore"
+    },
+    {
+      "discogs_id": "5519819",
+      "query": "bach"
+    },
+    {
+      "discogs_id": "5519819",
+      "query": "bach bwv 831"
+    },
+    {
+      "discogs_id": "5603972",
+      "query": "evgeni svetlanov scriabin"
+    },
+    {
+      "discogs_id": "5603972",
+      "query": "evgeni svetlanov rachmaninoff"
+    },
+    {
+      "discogs_id": "5621343",
+      "query": "the columbia chamber symphony stravinsky"
+    },
+    {
+      "discogs_id": "5621343",
+      "query": "igor stravinsky"
+    },
+    {
+      "discogs_id": "5634634",
+      "query": "ingrid haebler mozart"
+    },
+    {
+      "discogs_id": "5634634",
+      "query": "ingrid haebler mozart k 413"
+    },
+    {
+      "discogs_id": "5800193",
+      "query": "wiener philharmoniker wagner"
+    },
+    {
+      "discogs_id": "5800193",
+      "query": "georg solti wagner"
+    },
+    {
+      "discogs_id": "5832068",
+      "query": "arturo toscanini beethoven"
+    },
+    {
+      "discogs_id": "5832068",
+      "query": "arturo toscanini mozart"
+    },
+    {
+      "discogs_id": "5838140",
+      "query": "pablo casals bach"
+    },
+    {
+      "discogs_id": "5838140",
+      "query": "pablo casals bach bwv 1007"
+    },
+    {
+      "discogs_id": "5883743",
+      "query": "maria joao pires chopin"
+    },
+    {
+      "discogs_id": "5883743",
+      "query": "maria joao pires chopin op 11 1"
+    },
+    {
+      "discogs_id": "5940193",
+      "query": "wiener philharmoniker strauss"
+    },
+    {
+      "discogs_id": "5940193",
+      "query": "willi boskovsky strauss"
+    },
+    {
+      "discogs_id": "5940478",
+      "query": "orchestre de chambre jean francois paillard mozart"
+    },
+    {
+      "discogs_id": "5940478",
+      "query": "jean francois paillard mozart"
+    },
+    {
+      "discogs_id": "5980586",
+      "query": "maria joao pires schumann"
+    },
+    {
+      "discogs_id": "5980586",
+      "query": "maria joao pires schumann op 15"
+    },
+    {
+      "discogs_id": "6113868",
+      "query": "otto klemperer beethoven"
+    },
+    {
+      "discogs_id": "6113868",
+      "query": "otto klemperer beethoven op 117"
+    },
+    {
+      "discogs_id": "6119375",
+      "query": "otto klemperer beethoven"
+    },
+    {
+      "discogs_id": "6119375",
+      "query": "otto klemperer beethoven op 117"
+    },
+    {
+      "discogs_id": "6157602",
+      "query": "alexis weissenberg schumann"
+    },
+    {
+      "discogs_id": "6157602",
+      "query": "alexis weissenberg schumann op 15"
+    },
+    {
+      "discogs_id": "6181503",
+      "query": "yehudi menuhin beethoven"
+    },
+    {
+      "discogs_id": "6181503",
+      "query": "yehudi menuhin beethoven op 24"
+    },
+    {
+      "discogs_id": "6203854",
+      "query": "erna spoorenberg haydn"
+    },
+    {
+      "discogs_id": "6203854",
+      "query": "erna spoorenberg theresa mass"
+    },
+    {
+      "discogs_id": "6210807",
+      "query": "ferenc fricsay beethoven"
+    },
+    {
+      "discogs_id": "6210807",
+      "query": "ferenc fricsay beethoven op 125"
+    },
+    {
+      "discogs_id": "6232111",
+      "query": "jean pierre rampal mercadante"
+    },
+    {
+      "discogs_id": "6232111",
+      "query": "jean pierre rampal cimarosa"
+    },
+    {
+      "discogs_id": "6264736",
+      "query": "julius katchen brahms"
+    },
+    {
+      "discogs_id": "6264736",
+      "query": "julius katchen brahms op 4"
+    },
+    {
+      "discogs_id": "6265501",
+      "query": "julius katchen brahms"
+    },
+    {
+      "discogs_id": "6265501",
+      "query": "julius katchen brahms op 117"
+    },
+    {
+      "discogs_id": "6347314",
+      "query": "julius katchen brahms"
+    },
+    {
+      "discogs_id": "6347314",
+      "query": "julius katchen brahms op 10"
+    },
+    {
+      "discogs_id": "6371624",
+      "query": "emil gilels scriabin"
+    },
+    {
+      "discogs_id": "6371624",
+      "query": "emil gilels prokofiev"
+    },
+    {
+      "discogs_id": "6387921",
+      "query": "daniel barenboim beethoven"
+    },
+    {
+      "discogs_id": "6387921",
+      "query": "daniel barenboim beethoven concerto n 4 en sol"
+    },
+    {
+      "discogs_id": "6541771",
+      "query": "yehudi menuhin mendelssohn"
+    },
+    {
+      "discogs_id": "6541771",
+      "query": "yehudi menuhin mendelssohn op 64"
+    },
+    {
+      "discogs_id": "6544574",
+      "query": "dimitri mitropoulos prokofiev"
+    },
+    {
+      "discogs_id": "6544574",
+      "query": "dimitri mitropoulos romeo and juliet excerpts auszuge extraits"
+    },
+    {
+      "discogs_id": "6591890",
+      "query": "georg donderer brahms"
+    },
+    {
+      "discogs_id": "6591890",
+      "query": "georg donderer brahms op 100"
+    },
+    {
+      "discogs_id": "6623341",
+      "query": "maria stader bach"
+    },
+    {
+      "discogs_id": "6623341",
+      "query": "maria stader bach bwv 199"
+    },
+    {
+      "discogs_id": "6628473",
+      "query": "pablo casals bach"
+    },
+    {
+      "discogs_id": "6628473",
+      "query": "pablo casals bach bwv 1008"
+    },
+    {
+      "discogs_id": "6651774",
+      "query": "arthur rubinstein chopin"
+    },
+    {
+      "discogs_id": "6651774",
+      "query": "arthur rubinstein chopin op 21"
+    },
+    {
+      "discogs_id": "6652276",
+      "query": "stanley black dvorak"
+    },
+    {
+      "discogs_id": "6652276",
+      "query": "stanley black smetana"
+    },
+    {
+      "discogs_id": "6711178",
+      "query": "dino ciani bach"
+    },
+    {
+      "discogs_id": "6711178",
+      "query": "dino ciani bach bwv 830"
+    },
+    {
+      "discogs_id": "6748142",
+      "query": "sir john barbirolli mahler"
+    },
+    {
+      "discogs_id": "6748142",
+      "query": "sir john barbirolli symphony no 5 with five ruckert"
+    },
+    {
+      "discogs_id": "6781135",
+      "query": "kid ory and his creole jazz band"
+    },
+    {
+      "discogs_id": "6781135",
+      "query": "buster wilson"
+    },
+    {
+      "discogs_id": "6798013",
+      "query": "yehudi menuhin brahms"
+    },
+    {
+      "discogs_id": "6798013",
+      "query": "yehudi menuhin brahms op 77"
+    },
+    {
+      "discogs_id": "6807083",
+      "query": "the boyd neel string orchestra handel"
+    },
+    {
+      "discogs_id": "6807083",
+      "query": "boyd neel handel"
+    },
+    {
+      "discogs_id": "6810640",
+      "query": "karl bohm schubert"
+    },
+    {
+      "discogs_id": "6810640",
+      "query": "karl bohm schubert d 485"
+    },
+    {
+      "discogs_id": "6831914",
+      "query": "rudolf serkin beethoven"
+    },
+    {
+      "discogs_id": "6831914",
+      "query": "rudolf serkin beethoven op 106"
+    },
+    {
+      "discogs_id": "6848787",
+      "query": "pablo casals beethoven"
+    },
+    {
+      "discogs_id": "6848787",
+      "query": "pablo casals beethoven op 102 1"
+    },
+    {
+      "discogs_id": "6993029",
+      "query": "andre previn shostakovich"
+    },
+    {
+      "discogs_id": "6993029",
+      "query": "andre previn shostakovich op 43"
+    },
+    {
+      "discogs_id": "7057910",
+      "query": "daniel barenboim mozart"
+    },
+    {
+      "discogs_id": "7057910",
+      "query": "daniel barenboim mozart k 238"
+    },
+    {
+      "discogs_id": "7065721",
+      "query": "jascha heifetz mozart"
+    },
+    {
+      "discogs_id": "7065721",
+      "query": "jascha heifetz mozart k 378"
+    },
+    {
+      "discogs_id": "7070218",
+      "query": "arturo benedetti michelangeli galuppi"
+    },
+    {
+      "discogs_id": "7070218",
+      "query": "arturo benedetti michelangeli scarlatti"
+    },
+    {
+      "discogs_id": "7077802",
+      "query": "gustav leonhardt bach"
+    },
+    {
+      "discogs_id": "7077802",
+      "query": "gustav leonhardt bach bwv 825"
+    },
+    {
+      "discogs_id": "7085159",
+      "query": "claudio arrau chopin"
+    },
+    {
+      "discogs_id": "7085159",
+      "query": "claudio arrau mozart"
+    },
+    {
+      "discogs_id": "7118750",
+      "query": "jascha heifetz mozart"
+    },
+    {
+      "discogs_id": "7118750",
+      "query": "jascha heifetz beethoven"
+    },
+    {
+      "discogs_id": "7185862",
+      "query": "david oistrach tartini"
+    },
+    {
+      "discogs_id": "7185862",
+      "query": "david oistrach brahms"
+    },
+    {
+      "discogs_id": "7186111",
+      "query": "mstislav rostropovich schumann"
+    },
+    {
+      "discogs_id": "7186111",
+      "query": "mstislav rostropovich chopin"
+    },
+    {
+      "discogs_id": "7194998",
+      "query": "dinu lipatti chopin"
+    },
+    {
+      "discogs_id": "7194998",
+      "query": "dinu lipatti chopin op 18"
+    },
+    {
+      "discogs_id": "7213530",
+      "query": "david oistrach beethoven"
+    },
+    {
+      "discogs_id": "7213530",
+      "query": "david oistrach beethoven op 61"
+    },
+    {
+      "discogs_id": "7248321",
+      "query": "daniel barenboim mozart"
+    },
+    {
+      "discogs_id": "7248321",
+      "query": "daniel barenboim mozart k 467"
+    },
+    {
+      "discogs_id": "7278935",
+      "query": "wilhelm furtwangler tchaikovsky"
+    },
+    {
+      "discogs_id": "7278935",
+      "query": "wilhelm furtwangler tchaikovsky op 74"
+    },
+    {
+      "discogs_id": "7291398",
+      "query": "julius katchen brahms"
+    },
+    {
+      "discogs_id": "7291398",
+      "query": "julius katchen brahms op 1"
+    },
+    {
+      "discogs_id": "7291425",
+      "query": "julius katchen brahms"
+    },
+    {
+      "discogs_id": "7291425",
+      "query": "julius katchen brahms piano works vol 5 hungarian"
+    },
+    {
+      "discogs_id": "7309632",
+      "query": "l orchestre de la suisse romande sibelius"
+    },
+    {
+      "discogs_id": "7309632",
+      "query": "ernest ansermet sibelius"
+    },
+    {
+      "discogs_id": "7334505",
+      "query": "bach ensemble helmuth rilling bach"
+    },
+    {
+      "discogs_id": "7334505",
+      "query": "hannelore michel bach"
+    },
+    {
+      "discogs_id": "7358646",
+      "query": "werner haas mendelssohn"
+    },
+    {
+      "discogs_id": "7358646",
+      "query": "werner haas mendelssohn op 14"
+    },
+    {
+      "discogs_id": "7421796",
+      "query": "friedrich jurgen sellheim complete music for cello piano"
+    },
+    {
+      "discogs_id": "7467218",
+      "query": "gustav leonhardt bach"
+    },
+    {
+      "discogs_id": "7467218",
+      "query": "gustav leonhardt bach bwv 825"
+    },
+    {
+      "discogs_id": "7506575",
+      "query": "berliner philharmoniker sibelius"
+    },
+    {
+      "discogs_id": "7506575",
+      "query": "herbert von karajan sibelius"
+    },
+    {
+      "discogs_id": "7597643",
+      "query": "concertgebouworkest bruckner"
+    },
+    {
+      "discogs_id": "7597643",
+      "query": "bernard haitink bruckner"
+    },
+    {
+      "discogs_id": "7708298",
+      "query": "dietrich fischer dieskau mahler"
+    },
+    {
+      "discogs_id": "7708298",
+      "query": "dietrich fischer dieskau kindertotenlieder songs of a wayfarer"
+    },
+    {
+      "discogs_id": "7735287",
+      "query": "elisabeth speiser haydn"
+    },
+    {
+      "discogs_id": "7735287",
+      "query": "elisabeth speiser theresienmesse mass no 10 in b"
+    },
+    {
+      "discogs_id": "7752066",
+      "query": "alfred brendel schubert"
+    },
+    {
+      "discogs_id": "7752066",
+      "query": "alfred brendel schubert d 781"
+    },
+    {
+      "discogs_id": "7801996",
+      "query": "judith raskin pergolesi"
+    },
+    {
+      "discogs_id": "7801996",
+      "query": "judith raskin stabat mater"
+    },
+    {
+      "discogs_id": "7809198",
+      "query": "wiener philharmoniker brahms"
+    },
+    {
+      "discogs_id": "7809198",
+      "query": "herbert von karajan brahms"
+    },
+    {
+      "discogs_id": "7830338",
+      "query": "bruno walter bruckner"
+    },
+    {
+      "discogs_id": "7830338",
+      "query": "bruno walter wagner"
+    },
+    {
+      "discogs_id": "7864758",
+      "query": "daniel barenboim beethoven"
+    },
+    {
+      "discogs_id": "7864758",
+      "query": "daniel barenboim beethoven op 31 1"
+    },
+    {
+      "discogs_id": "7914875",
+      "query": "emil gilels beethoven"
+    },
+    {
+      "discogs_id": "7914875",
+      "query": "emil gilels beethoven op 79"
+    },
+    {
+      "discogs_id": "7971104",
+      "query": "arthur rubinstein"
+    },
+    {
+      "discogs_id": "7971104",
+      "query": "arthur rubinstein op 9 2"
+    },
+    {
+      "discogs_id": "7974483",
+      "query": "symphonie orchester des bayerischen rundfunks dvorak"
+    },
+    {
+      "discogs_id": "7974483",
+      "query": "rafael kubelik dvorak"
+    },
+    {
+      "discogs_id": "8057461",
+      "query": "luciano sgrizzi handel"
+    },
+    {
+      "discogs_id": "8057461",
+      "query": "luciano sgrizzi chaconnes et suites pour clavecin"
+    },
+    {
+      "discogs_id": "8072753",
+      "query": "prague string quartet dvorak"
+    },
+    {
+      "discogs_id": "8072753",
+      "query": "jan sirc dvorak"
+    },
+    {
+      "discogs_id": "8182960",
+      "query": "louis auriacombe bach"
+    },
+    {
+      "discogs_id": "8182960",
+      "query": "louis auriacombe bach bwv 1048"
+    },
+    {
+      "discogs_id": "8253419",
+      "query": "wanda landowska bach"
+    },
+    {
+      "discogs_id": "8253419",
+      "query": "wanda landowska fischer"
+    },
+    {
+      "discogs_id": "8264477",
+      "query": "mady mesple gounod"
+    },
+    {
+      "discogs_id": "8264477",
+      "query": "mady mesple delibes"
+    },
+    {
+      "discogs_id": "8264568",
+      "query": "samson francois chopin"
+    },
+    {
+      "discogs_id": "8264568",
+      "query": "samson francois chopin op 11"
+    },
+    {
+      "discogs_id": "8274997",
+      "query": "daniel barenboim mozart"
+    },
+    {
+      "discogs_id": "8274997",
+      "query": "daniel barenboim mozart k 466"
+    },
+    {
+      "discogs_id": "8357595",
+      "query": "edwin fischer bach"
+    },
+    {
+      "discogs_id": "8357595",
+      "query": "edwin fischer bach bwv 1052"
+    },
+    {
+      "discogs_id": "8373111",
+      "query": "ludovic vaillant alberti"
+    },
+    {
+      "discogs_id": "8373111",
+      "query": "ludovic vaillant bononcini"
+    },
+    {
+      "discogs_id": "8392283",
+      "query": "orchestre de chambre de lausanne haydn"
+    },
+    {
+      "discogs_id": "8392283",
+      "query": "armin jordan haydn"
+    },
+    {
+      "discogs_id": "8606394",
+      "query": "nikolai rimsky korsakov khachaturian"
+    },
+    {
+      "discogs_id": "8606394",
+      "query": "nikolai rimsky korsakov"
+    },
+    {
+      "discogs_id": "8807550",
+      "query": "wilhelm furtwangler"
+    },
+    {
+      "discogs_id": "8827360",
+      "query": "heinrich schutz chor heilbronn bach"
+    },
+    {
+      "discogs_id": "8827360",
+      "query": "heinrich schutz chor heilbronn oratorio de paques"
+    },
+    {
+      "discogs_id": "8836514",
+      "query": "julius katchen brahms"
+    },
+    {
+      "discogs_id": "8836514",
+      "query": "julius katchen brahms op 116"
+    },
+    {
+      "discogs_id": "8860718",
+      "query": "arturo toscanini beethoven"
+    },
+    {
+      "discogs_id": "8860718",
+      "query": "arturo toscanini beethoven op 92"
+    },
+    {
+      "discogs_id": "8901812",
+      "query": "mitglieder des wiener oktetts borodin"
+    },
+    {
+      "discogs_id": "8901812",
+      "query": "mitglieder des wiener oktetts mendelssohn"
+    },
+    {
+      "discogs_id": "8923384",
+      "query": "jascha heifetz beethoven"
+    },
+    {
+      "discogs_id": "8923384",
+      "query": "jascha heifetz beethoven op 12 3"
+    },
+    {
+      "discogs_id": "8930472",
+      "query": "duke ellington"
+    },
+    {
+      "discogs_id": "8930472",
+      "query": "duke ellington duke ellington s concert of sacred"
+    },
+    {
+      "discogs_id": "8999534",
+      "query": "bruno walter mahler"
+    },
+    {
+      "discogs_id": "8999534",
+      "query": "bruno walter symphonies nos i ii iv edition"
+    },
+    {
+      "discogs_id": "9070830",
+      "query": "josef suk"
+    },
+    {
+      "discogs_id": "9070830",
+      "query": "josef suk k 216"
+    },
+    {
+      "discogs_id": "9093524",
+      "query": "sir adrian boult williams"
+    },
+    {
+      "discogs_id": "9093524",
+      "query": "sir adrian boult symphony no 6 the lark ascending"
+    },
+    {
+      "discogs_id": "9104884",
+      "query": "witold malcuzynsky chopin"
+    },
+    {
+      "discogs_id": "9104884",
+      "query": "witold malcuzynsky chopin op 18"
+    },
+    {
+      "discogs_id": "9110965",
+      "query": "otto klemperer bruckner"
+    },
+    {
+      "discogs_id": "9110965",
+      "query": "otto klemperer symphonie n9 en re mineur"
+    },
+    {
+      "discogs_id": "9280880",
+      "query": "walter gieseking"
+    },
+    {
+      "discogs_id": "9280880",
+      "query": "walter gieseking k 271"
+    },
+    {
+      "discogs_id": "9283162",
+      "query": "istvan kertesz schubert"
+    },
+    {
+      "discogs_id": "9283162",
+      "query": "istvan kertesz symphony no 8 in b minor"
+    },
+    {
+      "discogs_id": "9297226",
+      "query": "istvan kertesz schubert"
+    },
+    {
+      "discogs_id": "9297226",
+      "query": "istvan kertesz sinfonia no 9 la grande en"
+    },
+    {
+      "discogs_id": "9297425",
+      "query": "wiener mozart ensemble mozart"
+    },
+    {
+      "discogs_id": "9297425",
+      "query": "willi boskovsky mozart"
+    },
+    {
+      "discogs_id": "9298124",
+      "query": "david oistrach bruch"
+    },
+    {
+      "discogs_id": "9298124",
+      "query": "david oistrach hindemith"
+    },
+    {
+      "discogs_id": "9300671",
+      "query": "bartholdy quartett mendelssohn"
+    },
+    {
+      "discogs_id": "9300671",
+      "query": "annemarie dengler mendelssohn"
+    },
+    {
+      "discogs_id": "9350033",
+      "query": "wiener philharmoniker beethoven"
+    },
+    {
+      "discogs_id": "9350033",
+      "query": "maurizio pollini beethoven"
+    },
+    {
+      "discogs_id": "9384678",
+      "query": "daniel barenboim mozart"
+    },
+    {
+      "discogs_id": "9384678",
+      "query": "daniel barenboim weber"
+    },
+    {
+      "discogs_id": "9458258",
+      "query": "london symphony orchestra mendelssohn"
+    },
+    {
+      "discogs_id": "9458258",
+      "query": "claudio abbado mendelssohn"
+    },
+    {
+      "discogs_id": "9707819",
+      "query": "alfred cortot chopin"
+    },
+    {
+      "discogs_id": "9707819",
+      "query": "alfred cortot liszt"
+    },
+    {
+      "discogs_id": "9769609",
+      "query": "daniel barenboim beethoven"
+    },
+    {
+      "discogs_id": "9769609",
+      "query": "daniel barenboim beethoven op 106"
+    },
+    {
+      "discogs_id": "9855113",
+      "query": "new philharmonia orchestra bruckner"
+    },
+    {
+      "discogs_id": "9855113",
+      "query": "otto klemperer bruckner"
+    },
+    {
+      "discogs_id": "9861630",
+      "query": "daniel barenboim beethoven"
+    },
+    {
+      "discogs_id": "9861630",
+      "query": "daniel barenboim beethoven op 2 3"
+    },
+    {
+      "discogs_id": "9866788",
+      "query": "daniel barenboim beethoven"
+    },
+    {
+      "discogs_id": "9866788",
+      "query": "daniel barenboim beethoven op 109"
+    },
+    {
+      "discogs_id": "9876105",
+      "query": "wolfgang windgassen wagner"
+    },
+    {
+      "discogs_id": "9876105",
+      "query": "wolfgang windgassen weber"
+    },
+    {
+      "discogs_id": "9876728",
+      "query": "daniel barenboim beethoven"
+    },
+    {
+      "discogs_id": "9876728",
+      "query": "daniel barenboim beethoven op 10 1"
+    },
+    {
+      "discogs_id": "9932691",
+      "query": "london philharmonic orchestra haydn"
+    },
+    {
+      "discogs_id": "9932691",
+      "query": "eugen jochum haydn"
+    },
+    {
+      "discogs_id": "9932960",
+      "query": "yehudi menuhin mozart"
+    },
+    {
+      "discogs_id": "9932960",
+      "query": "yehudi menuhin mozart k 216"
+    },
+    {
+      "discogs_id": "10046721",
+      "query": "rudolf serkin beethoven"
+    },
+    {
+      "discogs_id": "10046721",
+      "query": "rudolf serkin beethoven op 73"
+    },
+    {
+      "discogs_id": "10146327",
+      "query": "jascha heifetz dvorak"
+    },
+    {
+      "discogs_id": "10146327",
+      "query": "jascha heifetz stravinsky"
+    },
+    {
+      "discogs_id": "10175959",
+      "query": "fritz kreisler brahms"
+    },
+    {
+      "discogs_id": "10175959",
+      "query": "fritz kreisler brahms op 77"
+    },
+    {
+      "discogs_id": "10423743",
+      "query": "wiener mozart ensemble mozart"
+    },
+    {
+      "discogs_id": "10423743",
+      "query": "willi boskovsky mozart"
+    },
+    {
+      "discogs_id": "10552903",
+      "query": "josef krips mozart"
+    },
+    {
+      "discogs_id": "10552903",
+      "query": "josef krips mozart k 134"
+    },
+    {
+      "discogs_id": "10583401",
+      "query": "wilhelm kempff beethoven"
+    },
+    {
+      "discogs_id": "10583401",
+      "query": "wilhelm kempff beethoven op 19"
+    },
+    {
+      "discogs_id": "10676527",
+      "query": "david oistrach bartok"
+    },
+    {
+      "discogs_id": "10676527",
+      "query": "david oistrach hindemith"
+    },
+    {
+      "discogs_id": "10707559",
+      "query": "herbert von karajan smetana"
+    },
+    {
+      "discogs_id": "10707559",
+      "query": "herbert von karajan liszt"
+    },
+    {
+      "discogs_id": "10757120",
+      "query": "arturo toscanini beethoven"
+    },
+    {
+      "discogs_id": "10757120",
+      "query": "arturo toscanini beethoven op 68"
+    },
+    {
+      "discogs_id": "10798025",
+      "query": "wilhelm furtwangler brahms"
+    },
+    {
+      "discogs_id": "10798025",
+      "query": "wilhelm furtwangler brahms op 68"
+    },
+    {
+      "discogs_id": "10810695",
+      "query": "wanda landowska bach"
+    },
+    {
+      "discogs_id": "10810695",
+      "query": "wanda landowska il clavicembalo ben temperato"
+    },
+    {
+      "discogs_id": "10867313",
+      "query": "evgeni svetlanov scriabin"
+    },
+    {
+      "discogs_id": "10867313",
+      "query": "evgeni svetlanov the divine poem symphony n3"
+    },
+    {
+      "discogs_id": "10868192",
+      "query": "walter gieseking bach"
+    },
+    {
+      "discogs_id": "10868192",
+      "query": "walter gieseking handel"
+    },
+    {
+      "discogs_id": "10872447",
+      "query": "janos sebestyen bach"
+    },
+    {
+      "discogs_id": "10872447",
+      "query": "janos sebestyen bach bwv 974"
+    },
+    {
+      "discogs_id": "10882259",
+      "query": "camille saint saens"
+    },
+    {
+      "discogs_id": "10882259",
+      "query": "camille saint saens op 135"
+    },
+    {
+      "discogs_id": "10899046",
+      "query": "sigiswald kuijken bach"
+    },
+    {
+      "discogs_id": "10899046",
+      "query": "sigiswald kuijken bach bwv 1014"
+    },
+    {
+      "discogs_id": "11002007",
+      "query": "leningrad chamber orchestra shostakovich"
+    },
+    {
+      "discogs_id": "11002007",
+      "query": "lazar gosman shostakovich"
+    },
+    {
+      "discogs_id": "11059547",
+      "query": "the czech philharmonic orchestra dvorak"
+    },
+    {
+      "discogs_id": "11059547",
+      "query": "vaclav neumann dvorak"
+    },
+    {
+      "discogs_id": "11291879",
+      "query": "gyorgy cziffra liszt"
+    },
+    {
+      "discogs_id": "11291879",
+      "query": "gyorgy cziffra rapsodies 2 6 12 15"
+    },
+    {
+      "discogs_id": "11295304",
+      "query": "lily laskine mozart"
+    },
+    {
+      "discogs_id": "11295304",
+      "query": "lily laskine mozart k 299"
+    },
+    {
+      "discogs_id": "11410740",
+      "query": "new philharmonia orchestra mendelssohn"
+    },
+    {
+      "discogs_id": "11410740",
+      "query": "new philharmonia orchestra bizet"
+    },
+    {
+      "discogs_id": "11412875",
+      "query": "sir john barbirolli nielsen"
+    },
+    {
+      "discogs_id": "11412875",
+      "query": "sir john barbirolli symphony no 4 opus 29 the"
+    },
+    {
+      "discogs_id": "11452132",
+      "query": "helmuth rilling bach"
+    },
+    {
+      "discogs_id": "11452132",
+      "query": "helmuth rilling bach bwv 206"
+    },
+    {
+      "discogs_id": "11553633",
+      "query": "wanda landowska scarlatti"
+    },
+    {
+      "discogs_id": "11553633",
+      "query": "wanda landowska scarlatti l 102"
+    },
+    {
+      "discogs_id": "11629381",
+      "query": "kirsten flagstad wagner"
+    },
+    {
+      "discogs_id": "11629381",
+      "query": "kirsten flagstad bach"
+    },
+    {
+      "discogs_id": "11647374",
+      "query": "riccardo muti schumann"
+    },
+    {
+      "discogs_id": "11647374",
+      "query": "riccardo muti mendelssohn"
+    },
+    {
+      "discogs_id": "11704409",
+      "query": "april cantelo haydn"
+    },
+    {
+      "discogs_id": "11704409",
+      "query": "april cantelo heiligmesse missa sancti bernardi de offida"
+    },
+    {
+      "discogs_id": "11765180",
+      "query": "angel romero torroba"
+    },
+    {
+      "discogs_id": "11765180",
+      "query": "angel romero albeniz"
+    },
+    {
+      "discogs_id": "11883662",
+      "query": "arturo toscanini beethoven"
+    },
+    {
+      "discogs_id": "11883662",
+      "query": "arturo toscanini beethoven op 125"
+    },
+    {
+      "discogs_id": "11885637",
+      "query": "arturo toscanini beethoven"
+    },
+    {
+      "discogs_id": "11885637",
+      "query": "arturo toscanini beethoven op 125"
+    },
+    {
+      "discogs_id": "11885669",
+      "query": "arturo toscanini beethoven"
+    },
+    {
+      "discogs_id": "11885669",
+      "query": "arturo toscanini sinfonia n7"
+    },
+    {
+      "discogs_id": "11890675",
+      "query": "artur schnabel mozart"
+    },
+    {
+      "discogs_id": "11890675",
+      "query": "artur schnabel mozart k 478"
+    },
+    {
+      "discogs_id": "11923741",
+      "query": "hephzibah menuhin mendelssohn"
+    },
+    {
+      "discogs_id": "11923741",
+      "query": "hephzibah menuhin concerto for violin piano and strings"
+    },
+    {
+      "discogs_id": "11938919",
+      "query": "dinu lipatti chopin"
+    },
+    {
+      "discogs_id": "11938919",
+      "query": "dinu lipatti chopin op 27 2"
+    },
+    {
+      "discogs_id": "11971084",
+      "query": "jascha heifetz sibelius"
+    },
+    {
+      "discogs_id": "11971084",
+      "query": "jascha heifetz tchaikovsky"
+    },
+    {
+      "discogs_id": "12004072",
+      "query": "otto klemperer beethoven"
+    },
+    {
+      "discogs_id": "12004072",
+      "query": "otto klemperer beethoven op 21"
+    },
+    {
+      "discogs_id": "12007683",
+      "query": "teresa stich randall mozart"
+    },
+    {
+      "discogs_id": "12007683",
+      "query": "teresa stich randall don giovanni festival d aix en"
+    },
+    {
+      "discogs_id": "12159256",
+      "query": "geza anda schumann"
+    },
+    {
+      "discogs_id": "12159256",
+      "query": "geza anda grieg"
+    },
+    {
+      "discogs_id": "12214914",
+      "query": "basler sinfonie orchester bruckner"
+    },
+    {
+      "discogs_id": "12214914",
+      "query": "moshe atzmon bruckner"
+    },
+    {
+      "discogs_id": "12690141",
+      "query": "philharmonia orchestra beethoven"
+    },
+    {
+      "discogs_id": "12690141",
+      "query": "philharmonia orchestra beethoven op 43"
+    },
+    {
+      "discogs_id": "12769125",
+      "query": "rafael fruhbeck de burgos mendelssohn"
+    },
+    {
+      "discogs_id": "12769125",
+      "query": "rafael fruhbeck de burgos schumann"
+    },
+    {
+      "discogs_id": "12780507",
+      "query": "ferenc fricsay beethoven"
+    },
+    {
+      "discogs_id": "12780507",
+      "query": "ferenc fricsay beethoven op 125"
+    },
+    {
+      "discogs_id": "12795534",
+      "query": "gyorgy cziffra liszt"
+    },
+    {
+      "discogs_id": "12795534",
+      "query": "gyorgy cziffra concertos pour piano et orchestre nos"
+    },
+    {
+      "discogs_id": "12803844",
+      "query": "christian ferras brahms"
+    },
+    {
+      "discogs_id": "12803844",
+      "query": "christian ferras brahms op 77"
+    },
+    {
+      "discogs_id": "12851527",
+      "query": "elisabeth speiser bach"
+    },
+    {
+      "discogs_id": "12851527",
+      "query": "elisabeth speiser bach bwv 439"
+    },
+    {
+      "discogs_id": "12872526",
+      "query": "busch chamber players bach"
+    },
+    {
+      "discogs_id": "12872526",
+      "query": "adolf busch bach"
+    },
+    {
+      "discogs_id": "13166114",
+      "query": "arturo toscanini beethoven"
+    },
+    {
+      "discogs_id": "13166114",
+      "query": "arturo toscanini beethoven op 55"
+    },
+    {
+      "discogs_id": "13406445",
+      "query": "busch chamber players bach"
+    },
+    {
+      "discogs_id": "13406445",
+      "query": "adolf busch bach"
+    },
+    {
+      "discogs_id": "13434172",
+      "query": "karl richter bach"
+    },
+    {
+      "discogs_id": "13434172",
+      "query": "karl richter passio secundum joannem johannes passion"
+    },
+    {
+      "discogs_id": "13518279",
+      "query": "stuttgarter kammerorchester bach"
+    },
+    {
+      "discogs_id": "13518279",
+      "query": "karl munchinger bach"
+    },
+    {
+      "discogs_id": "13655367",
+      "query": "emil gilels beethoven"
+    },
+    {
+      "discogs_id": "13655367",
+      "query": "emil gilels beethoven op 101"
+    },
+    {
+      "discogs_id": "13698592",
+      "query": "bol shoi simfonicheskii orkestr vsesoiuznogo radio liszt"
+    },
+    {
+      "discogs_id": "13698592",
+      "query": "bol shoi simfonicheskii orkestr vsesoiuznogo radio symphonic poems no 10 hamlet no"
+    },
+    {
+      "discogs_id": "13708354",
+      "query": "artur schnabel schubert"
+    },
+    {
+      "discogs_id": "13708354",
+      "query": "artur schnabel schubert d 915"
+    },
+    {
+      "discogs_id": "13792797",
+      "query": "sviatoslav richter beethoven"
+    },
+    {
+      "discogs_id": "13792797",
+      "query": "sviatoslav richter beethoven op 37"
+    },
+    {
+      "discogs_id": "13847676",
+      "query": "guillaume dufay dufay"
+    },
+    {
+      "discogs_id": "13847676",
+      "query": "guillaume dufay"
+    },
+    {
+      "discogs_id": "13947426",
+      "query": "bruno walter mahler"
+    },
+    {
+      "discogs_id": "13947426",
+      "query": "bruno walter edition du centenaire symphonies n5 9"
+    },
+    {
+      "discogs_id": "14073855",
+      "query": "orchestra sinfonica di roma della rai"
+    },
+    {
+      "discogs_id": "14113741",
+      "query": "marcel couraud bach"
+    },
+    {
+      "discogs_id": "14113741",
+      "query": "marcel couraud vivaldi"
+    },
+    {
+      "discogs_id": "14123645",
+      "query": "herbert von karajan beethoven"
+    },
+    {
+      "discogs_id": "14123645",
+      "query": "herbert von karajan beethoven op 21"
+    },
+    {
+      "discogs_id": "14134908",
+      "query": "ingrid haebler chopin"
+    },
+    {
+      "discogs_id": "14134908",
+      "query": "ingrid haebler chopin op 18"
+    },
+    {
+      "discogs_id": "14157833",
+      "query": "solistengemeinschaft der bachwoche ansbach bach"
+    },
+    {
+      "discogs_id": "14157833",
+      "query": "solistengemeinschaft der bachwoche ansbach die neue bach edition kantaten ii"
+    },
+    {
+      "discogs_id": "14669582",
+      "query": "gerhard schmidt gaden bach"
+    },
+    {
+      "discogs_id": "14669582",
+      "query": "gerhard schmidt gaden bach bwv 128"
+    },
+    {
+      "discogs_id": "14704151",
+      "query": "armin jordan haydn"
+    },
+    {
+      "discogs_id": "14704151",
+      "query": "armin jordan quatre symphonies"
+    },
+    {
+      "discogs_id": "14782388",
+      "query": "edouard commette bach"
+    },
+    {
+      "discogs_id": "14782388",
+      "query": "edouard commette bach bwv 532"
+    },
+    {
+      "discogs_id": "14829435",
+      "query": "friedrich jurgen sellheim schubert"
+    },
+    {
+      "discogs_id": "14829435",
+      "query": "friedrich jurgen sellheim brahms"
+    },
+    {
+      "discogs_id": "15221307",
+      "query": "emil gilels"
+    },
+    {
+      "discogs_id": "15221307",
+      "query": "emil gilels op 2 3"
+    },
+    {
+      "discogs_id": "15293035",
+      "query": "chor von st augustin wien haydn"
+    },
+    {
+      "discogs_id": "15293035",
+      "query": "chor von st augustin wien mariazeller messe missa cellensis"
+    },
+    {
+      "discogs_id": "15587453",
+      "query": "bach"
+    },
+    {
+      "discogs_id": "15587453",
+      "query": "bach bwv 802"
+    },
+    {
+      "discogs_id": "15660391",
+      "query": "daniel barenboim mozart"
+    },
+    {
+      "discogs_id": "15660391",
+      "query": "daniel barenboim mozart k 466"
+    },
+    {
+      "discogs_id": "15714625",
+      "query": "camille saint saens bruch"
+    },
+    {
+      "discogs_id": "15714625",
+      "query": "camille saint saens"
+    },
+    {
+      "discogs_id": "15926327",
+      "query": "bernard haitink mahler"
+    },
+    {
+      "discogs_id": "15926327",
+      "query": "bernard haitink symphonies nos 5 10"
+    },
+    {
+      "discogs_id": "16349973",
+      "query": "antonio pedrotti mussorgsky"
+    },
+    {
+      "discogs_id": "16349973",
+      "query": "antonio pedrotti quadri di una esposizione"
+    },
+    {
+      "discogs_id": "16423914",
+      "query": "dinu lipatti bach"
+    },
+    {
+      "discogs_id": "16423914",
+      "query": "dinu lipatti mozart"
+    },
+    {
+      "discogs_id": "16463043",
+      "query": "sviatoslav richter bach"
+    },
+    {
+      "discogs_id": "16463043",
+      "query": "sviatoslav richter bach bwv 870"
+    },
+    {
+      "discogs_id": "17256520",
+      "query": "quartetto italiano beethoven"
+    },
+    {
+      "discogs_id": "17256520",
+      "query": "franco rossi beethoven"
+    },
+    {
+      "discogs_id": "17470435",
+      "query": "zino francescatti paganini"
+    },
+    {
+      "discogs_id": "17470435",
+      "query": "zino francescatti paganini op 6"
+    },
+    {
+      "discogs_id": "17748481",
+      "query": "emil gilels brahms"
+    },
+    {
+      "discogs_id": "17748481",
+      "query": "emil gilels klavierkonzert nr 2 b dur opus"
+    },
+    {
+      "discogs_id": "18195607",
+      "query": "arturo toscanini"
+    },
+    {
+      "discogs_id": "18963583",
+      "query": "bruno walter dvorak"
+    },
+    {
+      "discogs_id": "18963583",
+      "query": "bruno walter brahms"
+    },
+    {
+      "discogs_id": "19183792",
+      "query": "new philharmonia orchestra mendelssohn"
+    },
+    {
+      "discogs_id": "19183792",
+      "query": "wolfgang sawallisch mendelssohn"
+    },
+    {
+      "discogs_id": "20282824",
+      "query": "maria joao pires chopin"
+    },
+    {
+      "discogs_id": "20282824",
+      "query": "maria joao pires chopin op 28"
+    },
+    {
+      "discogs_id": "20451211",
+      "query": "borodin string quartet shostakovich"
+    },
+    {
+      "discogs_id": "20451211",
+      "query": "luba edlina shostakovich"
+    },
+    {
+      "discogs_id": "20521609",
+      "query": "john coltrane coltrane"
+    },
+    {
+      "discogs_id": "20521609",
+      "query": "john coltrane"
+    },
+    {
+      "discogs_id": "20588539",
+      "query": "otto klemperer beethoven"
+    },
+    {
+      "discogs_id": "20588539",
+      "query": "otto klemperer beethoven op 60"
+    },
+    {
+      "discogs_id": "20901739",
+      "query": "josef suk handel"
+    },
+    {
+      "discogs_id": "20901739",
+      "query": "josef suk handel op 1 10"
+    },
+    {
+      "discogs_id": "21490438",
+      "query": "wilhelm furtwangler beethoven"
+    },
+    {
+      "discogs_id": "21490438",
+      "query": "wilhelm furtwangler beethoven op 73"
+    },
+    {
+      "discogs_id": "21794359",
+      "query": "sviatoslav richter bach"
+    },
+    {
+      "discogs_id": "21794359",
+      "query": "sviatoslav richter il clavicembalo ben temperato libro i"
+    },
+    {
+      "discogs_id": "22645613",
+      "query": "julius katchen mozart"
+    },
+    {
+      "discogs_id": "22645613",
+      "query": "julius katchen mozart k 466"
+    },
+    {
+      "discogs_id": "23950082",
+      "query": "pablo casals bach"
+    },
+    {
+      "discogs_id": "23950082",
+      "query": "pablo casals suites for cello unaccompanied no 5"
+    },
+    {
+      "discogs_id": "24963823",
+      "query": "otto klemperer beethoven"
+    },
+    {
+      "discogs_id": "24963823",
+      "query": "otto klemperer beethoven op 64"
+    },
+    {
+      "discogs_id": "24964822",
+      "query": "otto klemperer beethoven"
+    },
+    {
+      "discogs_id": "24964822",
+      "query": "otto klemperer beethoven op 36"
+    },
+    {
+      "discogs_id": "24965038",
+      "query": "otto klemperer beethoven"
+    },
+    {
+      "discogs_id": "24965038",
+      "query": "otto klemperer beethoven op 21"
+    },
+    {
+      "discogs_id": "25538239",
+      "query": "stephen bishop kovacevich beethoven"
+    },
+    {
+      "discogs_id": "25538239",
+      "query": "stephen bishop kovacevich beethoven op 101"
+    },
+    {
+      "discogs_id": "26149643",
+      "query": "otto klemperer beethoven"
+    },
+    {
+      "discogs_id": "26149643",
+      "query": "otto klemperer beethoven op 124"
+    },
+    {
+      "discogs_id": "26149832",
+      "query": "otto klemperer beethoven"
+    },
+    {
+      "discogs_id": "26149832",
+      "query": "otto klemperer beethoven op 62"
+    },
+    {
+      "discogs_id": "26346215",
+      "query": "emil gilels schubert"
+    },
+    {
+      "discogs_id": "26346215",
+      "query": "emil gilels schumann"
+    },
+    {
+      "discogs_id": "26797586",
+      "query": "helen donath mendelssohn"
+    },
+    {
+      "discogs_id": "26797586",
+      "query": "helen donath mendelssohn op 11"
+    },
+    {
+      "discogs_id": "28108858",
+      "query": "andre previn rachmaninoff"
+    },
+    {
+      "discogs_id": "28108858",
+      "query": "andre previn sinfonia n 3 in la minore"
+    },
+    {
+      "discogs_id": "29097343",
+      "query": "wilhelm backhaus beethoven"
+    },
+    {
+      "discogs_id": "29097343",
+      "query": "wilhelm backhaus beethoven op 15"
+    },
+    {
+      "discogs_id": "30872649",
+      "query": "franco gulli mendelssohn"
+    },
+    {
+      "discogs_id": "30872649",
+      "query": "franco gulli concerto in re minore per violino"
+    },
+    {
+      "discogs_id": "33198774",
+      "query": "walter gieseking"
+    },
+    {
+      "discogs_id": "33198774",
+      "query": "walter gieseking k 452"
+    },
+    {
+      "discogs_id": "33352196",
+      "query": "lily laskine debussy"
+    },
+    {
+      "discogs_id": "33352196",
+      "query": "lily laskine pierne"
+    },
+    {
+      "discogs_id": "33491129",
+      "query": "michel colombier handel"
+    },
+    {
+      "discogs_id": "33491129",
+      "query": "michel colombier bach"
+    },
+    {
+      "discogs_id": "36122362",
+      "query": "alan titus haydn"
+    },
+    {
+      "discogs_id": "36122362",
+      "query": "alan titus bernstein"
+    },
+    {
+      "discogs_id": "36163426",
+      "query": "wiener philharmoniker bruckner"
+    },
+    {
+      "discogs_id": "36163426",
+      "query": "carl schuricht bruckner"
+    }
+  ],
+  "policy": "All uncached saved candidate albums for12metadata-needed releases, deduplicated by albumID; up to2new short queries for each305empty release. Metadata/search only, no automatic acceptance or new-hit metadata expansion."
+}

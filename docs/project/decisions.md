@@ -392,3 +392,15 @@ Keep sorting/search single-purpose; show global frequency counts consistently.
 Status: adopted, optionB. Place Alphabetical checkbox in footer between selected
 count and Clear selection. Frequency is default. Order preference is independent
 per picker for the current page lifetime; reordering never changes selections.
+
+## 2026-11-14 — Evidence-first follow-up order
+
+Status: agreed planning direction; see active backlog AD-008 and AD-001.
+
+Finish and validate the existing fixed-scope Qobuz retrieval before offline
+matching, candidate audits and tested reusable rule refinements. Publish only
+supported outcomes; preserve uncertainty and edition/recording limitations.
+Then scope comparable Spotify evidence checks. Legacy Spotify Found labels may
+be demoted when stronger evidence warrants it; similarity and evidence levels
+are not interchangeable probabilities. New-hit metadata expansion, broad Spotify
+retrieval, commits, pushes and deployment are not authorized by this plan alone.

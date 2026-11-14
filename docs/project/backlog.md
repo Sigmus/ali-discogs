@@ -1,140 +1,55 @@
 # Backlog
 
-Updated: 2026-11-13, Europe/Amsterdam
+Updated: 2026-11-14, Europe/Amsterdam
 
-AD-005 (UI redesign), AD-002 (Qobuz investigation) and AD-003 (deployment
-verification), AD-006 (initial Qobuz matching preparation) and AD-007 (full Qobuz candidate search) are complete; see history and context.
-The entries below remain proposals. IDs remain stable when reordered. Promote an entry to
-agreed work only when the user requests it; record completion in [history](history.md).
+Only active work and proposals belong here. IDs stay stable. Completed work is
+in [history](history.md); previous detailed case notes and plan links are preserved
+in the [14 November archive](../plans/2026-11-14-backlog-detail-archive.md).
 
-## AD-001 — Audit Spotify match quality
+## AD-008 — Qobuz evidence and matching refinement
 
-Major documented gap: [cross-service validation standards](../plans/2026-11-13-cross-service-validation-gap.md).
-Proposed next paired audit: Tristan2996680 main opera versus rehearsal-side
-coverage on both services; then shared evidence/status semantics. Documentation
-requested; implementation and Spotify retrieval are separate work.
+Status: agreed priority; retrieval running. Follow the
+[retrieval and follow-up plan](../plans/2026-11-14-qobuz-remaining-retrieval.md).
 
-Status: user-authorized ten-album track caching/audit completed (227 tracks),
-using existing sp PKCE login. See [refinement and findings](../plans/2026-11-13-query-credits-spotify-tracks.md).
-Two partial programmes confirmed (1012732 and 6119238); user-authorized
-[programme safeguard](../plans/2026-11-13-spotify-programme-safeguard.md) now withholds
-them as Unchecked with visible findings and no automatic alternate promotion.
-User-authorized [Dvorak alternatives, eight-album broader audit and branch
-readiness review](../plans/2026-11-13-spotify-followup-readiness.md) completed in order.
-Dvorak recovered as Probable85; three additional bad programmes withheld.
-Five broader labels retained with programme/act-heading support but recording
-identity unresolved. Original eight recording validations also remain unresolved.
-No population error-rate claim. Proposed next: a broader independently reviewed
-sample and further bounded replacement checks; no automatic collection-wide run.
+Order: finish/validate/export 83 metadata albums and 603 searches across the
+12 + 305 release groups; rank and match offline; audit promising/uncertain cases;
+improve reusable rules with false-positive regressions; regenerate UI data and
+verify details/build. Fetching search results is discovery, not match acceptance.
+Additional full metadata for new hits needs a bounded follow-up scope.
 
-Review a bounded sample across found, probable, and not-found results, comparing
-the work and actual performers/recording identity. Identify false positives and
-missed matches before proposing scoring changes.
+Done when: fixed-scope retrieval is validated and shared portably, follow-up audit
+findings are recorded, justified rules/data pass checks, and unresolved gaps have
+an explicit next action. No automatic push/deployment or warning retry.
 
-Done when: sample scope, evidence, error types, and recommended follow-ups are
-documented. This investigation does not require changing thresholds or data.
+## AD-001 — Comparable Spotify evidence checks
 
-## AD-004 — Define collection refresh and manual corrections
+Status: agreed direction after Qobuz; broader execution scope still to define.
 
-Status: proposed.
+Existing bounded track audits and programme safeguards are complete. Next, design
+a risk-based sample using comparable programme/performer checks and document
+status changes, including possible Found → Probable/Unchecked demotions. Do not
+interpret missing metadata as proof of catalogue absence or claim a population
+accuracy rate. [Validation gap](../plans/2026-11-13-cross-service-validation-gap.md).
 
-Design how new/removed collection copies are reconciled and how reviewed match
-corrections survive rescoring. Account for duplicate copies and cache freshness.
+Done when: bounded scope, evidence requirements and review outcomes are documented;
+any wider retrieval/reclassification is explicitly scoped before execution.
 
-Done when: identity, refresh, correction precedence, and validation rules are
-documented in a linked plan. Implementation is a separate step.
+## AD-004 — Collection refresh and manual corrections
 
-## AD-008 — Improve Qobuz coverage beyond conservative v1
+Status: proposed, not active.
 
-The [eight cached near-misses](../plans/2026-11-13-qobuz-eight-cached.md) are
-reviewed. Probable85: Kempff, both Rubinstein nocturne releases, Davis/Sibelius,
-Jazz Samba and Ellington. Withheld: Haebler’s two F-major titles, Time Out’s
-Audrey and Saint-Saëns Op. 50. Prior triage:
-[remaining-release offline triage](../plans/2026-11-13-qobuz-unmatched-audit.md).
-Source-role, ensemble-alias and act review is implemented and hash-bound.
-Tristan2996680 is Probable85 for the main three acts, with the rehearsal side
-kept visible. Gould2175684 is Probable85 for BWV 846–893 prelude/fugue pairs.
-Michelangeli6678433 is Probable85: the heading Mazurkas is a container and the
-13 numbered pieces each have one track. Menuhin2527568 is Probable85: the
-heading covers both Paganini concertos, and each concerto keeps its three
-movements. The half-coverage cache pass adds Bach4483876, Ravel7119504,
-Stern6472687, Busch8165012 and Rubinstein mazurkas5939010 at Probable85.
-Ciccolini2486104, Francescatti3584044 and Furtwängler7844349 are withheld.
-Tannhäuser4365080 stays withheld.
-Barenboim9866861 stays unmatched to the later DG cycle.
-Wrong-orchestra Nevsky stays excluded. The stored triage file now includes
-the seven fetched albums, twenty later searches, and five album downloads:
-305 no saved hits, 12 metadata-needed, 306 work/credit unresolved, 7 reviewed
-withholds, and Barenboim9866861 as the one completeness caution. The Hungarian
-Quartet 15980846 and Brendel 4395895 are Probable 85. Klien 12329947 stays
-unpublished because Brainin, Schidlof, and Lovett are not named on the file.
-A started pass commits each verified publication and continues; it does not
-search or download on its own. Trouard 8291074 and Salome 7657012 are
-Probable 85. Columbia FCX 30205 and FCX 30097 stay unpublished because their
-waltz order is not a cached file. Schwarzkopf 6257908, Otello 7095769 and
-Rubinstein 13927062 stay unpublished. The Ring file does not number
-Siegfried’s Act 1 Scene 3. Getz/Gilberto does not name Milton Banana. The
-Moldau file has no Tábor. Klemperer’s file counts to 68 where the LP runs to
-78. The Pink Panther 11938972 and Kondrashin’s New World 9739139 are Probable 85.
-Solti’s Rheingold files name Paul Kuentz, not Paul Kuen. Kondrashin’s New
-World 9739139 and Fasano’s four Vivaldi concertos 9343746 are Probable 85.
-Harmoniemesse stays unpublished because Neville Marriner is not named.
-Maazel’s Little Russian file is the Pittsburgh Symphony and adds Antar.
-Ella and Louis does not name Oscar Peterson, Buddy Rich or Herb Ellis. The
-next file is Solti’s Götterdämmerung 8982341. The LP has fourteen Teil sides
-and the cached file has 54 cues.
+Define copy/release identity, new/removed items, cache freshness and reviewed
+correction precedence so rescoring cannot erase decisions.
 
-Status: user-authorized [round2](../plans/2026-11-13-qobuz-round2.md) complete:
-3new bounded Probables (Klemperer,Ancerl,deVito),40slow searches for20empty
-releases recover hits for18;2selected metadata fetches (15tracks), no warnings.
-Round2 committed877bc5a. Follow-up authorized: Richter publisher/credit audit passes
-with bounded source correction; [ten-release query trial](../plans/2026-11-13-qobuz-query-strategy-trial.md)
-compares short performer/composer versus catalogue queries, preserving headline
-ensembles. Trial complete:10/10broad,9/10catalogue queries nonempty;31additional
-candidate pairs, no automatic acceptance. Offline screening completed81pairs:19cached/62uncached, none fully verified.
-Cached Schnabel late-sonata review complete: one Probable with bounded joined
-sections and recording-family evidence. Two-album metadata fetch complete77tracks without warnings. Klemperer programme/
-credits and bounded recording/overture review complete: one new Probable. Dvorak individual
-member credits and No.8 work disambiguation unresolved; no promotion. No broad run, push or deployment authorized. Prior bounded offline improvement and30-release comparison complete,
-including twenty slow Qobuz fallback queries and eight album metadata inspections. See
-[comparison plan](../plans/2026-11-13-service-comparison-pilot.md). Further expansion
-remains proposed. See [pilot and review](../plans/2026-11-13-qobuz-coverage-pilot.md).
-Ten additional Probable releases integrated through recomputed credit/completeness
-checks and a fixed candidate scope; alias/split-movement cases withheld. Baseline completeness audit is now complete; see the
-[audit and next recommendations](../plans/2026-11-13-qobuz-baseline-completeness-audit.md).
-Work-aware context/opus disambiguation and conservative role-aware groups are
-now implemented; see [implementation review](../plans/2026-11-13-qobuz-work-groups.md).
-Historical76 reviewed statuses unchanged, five mappings improved. Latest user-authorized
-[four-lead review](../plans/2026-11-13-qobuz-lead-validation.md) adds three Probable
-candidates with hash-bound programme/recording evidence and excludes Barenboim’s
-conflicting cycle. No further catalogue calls. Next proposed work:
-query relevance and explicit work/position credit handling implemented; see
-[refinement](../plans/2026-11-13-query-credits-spotify-tracks.md). Two corrected queries
-validated without warnings; target source archive covers 128 releases. Remaining
-proposals: source completeness and verify aliases in bounded reviewed cases. No collection-wide
-fallback run is authorized by the completed pilot. AD-006 initial preparation is complete;
-see [audit](../plans/2026-11-13-qobuz-audit.md). Bounded expansion checkpoint committed as c1857a7; subsequent audit/grouping work
-is included in the user-requested follow-up commit. No push, merge or deployment requested.
+Done when: a linked design specifies reconciliation and validation; implementation
+is a separate step.
 
-Investigate verified catalogue aliases, multilingual works/performers, movement
-completeness and recording-session identity. Broaden the 370 empty first-pass
-queries in separately authorized slow batches. Keep unresolved cases distinct
-from confirmed absence and preserve independent reviewed overrides.
+## AD-009 — Bitches Brew credit gap
 
-Done when: a broader independently labelled sample supports improved rules and
-coverage without regressing known wrong-orchestra/incomplete-programme controls.
+Status: proposed; no exception or UI change authorized.
 
-## AD-009 — Decide the Bitches Brew credit gap
+Decide whether missing named credits permit any hash-bound Probable and how to
+present the limitation. Keep the release unchecked meanwhile.
+[Case evidence](../plans/2026-11-13-bitches-brew-credits.md).
 
-Status: proposed. Recording the case does not authorize a match or a UI change.
-
-Discogs 7609610 is unchecked at 4/6 against Columbia/Legacy files
-0886443874428 and 0074646577424. The six titles are *Bitches Brew*. Larry Young
-is missing on John McLaughlin and Miles Runs the Voodoo Down, the six-track
-file names Zawinul on John McLaughlin, and Feio is extra on the seven-track
-file. Decide whether any of that can become a hash-bound Probable, and which
-facts belong on the album row, in programme evidence, or nowhere in the
-explorer. See [Bitches Brew credits](../plans/2026-11-13-bitches-brew-credits.md).
-
-Done when: the matching exception and the UI wording are accepted or rejected
-in a decision. Implementation follows only if that decision asks for it.
+Done when: the exception and wording are accepted or rejected in a decision.

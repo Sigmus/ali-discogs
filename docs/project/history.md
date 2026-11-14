@@ -1179,6 +1179,16 @@ UI commits (6bccef0,e5ea3bd); no push requested. Node normalization and JavaScri
 syntax checks pass. Rebuilt dist and restarted local server127.0.0.1:8000.
 No enrichment, status changes, commits or deployment actions performed.
 
+## 2026-11-14 — Remaining12+305 retrieval prepared
+
+User authorized both groups and progress tracking. Frozen83deduplicated uncached
+metadata albums and603new queries for305empty releases; phase checkpoints and
+STOP guards, whitelisted exports. No automatic matches or new-hit downloads.
+
+Started13:16Amsterdam;2/83metadata outputs saved initially without warnings.
+Hourly monitor qobuz-remaining-retrieval-progress active; idle-sleep assertion tied
+to worker. Fixed-scope/resume test passes; no API warning retries authorized.
+
 ## 2026-11-14 — Multi-select UI options prototyped
 
 Separate real-data comparison for six filters: compact checklist, searchable
@@ -1235,3 +1245,18 @@ column sorts unchanged; sorting event handling covers the count row as well.
 
 Non-table sort refinement: removed Spotify/Qobuz buttons; Captions/Shelf offer
 Year and Composer only. Table sorting remains available on all columns.
+
+## 2026-11-14 — Active documentation simplified and next sequence agreed
+
+Replaced accumulated context/backlog handoffs with current state, explicit work
+status and one ordered follow-up. Preserved previous backlog detail in a dated
+archive and linked existing case plans. Recorded retrieval → validation/export →
+offline Qobuz audit/rule refinement → UI checks → scoped Spotify evidence audit.
+Clarified saved statuses, heuristic scores and possible Spotify demotions.
+Metadata checkpoint83/83 complete; search124/603 running at14:11 Amsterdam,
+with no warning in inspected tail. UI changes through749ba61 pushed to main;
+retrieval changes remain local. Documentation-only cleanup; no matcher changes.
+
+Commit preparation: offline fixed-scope/resume regression passes using uv with
+requests; diff whitespace check passes. Includes the completed83-album sanitized
+metadata export, frozen scope and worker/test. Live credentials/state excluded.
