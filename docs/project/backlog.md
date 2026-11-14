@@ -64,7 +64,7 @@ Tannhäuser4365080 stays withheld.
 Barenboim9866861 stays unmatched to the later DG cycle.
 Wrong-orchestra Nevsky stays excluded. The stored triage file now includes
 the seven fetched albums, twenty later searches, and five album downloads:
-305 no saved hits, 12 metadata-needed, 307 work/credit unresolved, 7 reviewed
+305 no saved hits, 12 metadata-needed, 306 work/credit unresolved, 7 reviewed
 withholds, and Barenboim9866861 as the one completeness caution. The Hungarian
 Quartet 15980846 and Brendel 4395895 are Probable 85. Klien 12329947 stays
 unpublished because Brainin, Schidlof, and Lovett are not named on the file.
@@ -75,8 +75,9 @@ waltz order is not a cached file. Schwarzkopf 6257908, Otello 7095769 and
 Rubinstein 13927062 stay unpublished. The Ring file does not number
 Siegfried’s Act 1 Scene 3. Getz/Gilberto does not name Milton Banana. The
 Moldau file has no Tábor. Klemperer’s file counts to 68 where the LP runs to
-78. The Pink Panther 11938972 is Probable 85. Gieseking’s Volume 1 is a short
-compilation. Solti’s Rheingold 1989694 is the next stop.
+78. The Pink Panther 11938972 and Kondrashin’s New World 9739139 are Probable 85.
+Solti’s Rheingold files name Paul Kuentz, not Paul Kuen. The next file is
+Haydn’s Harmoniemesse 9398840.
 
 Status: user-authorized [round2](../plans/2026-11-13-qobuz-round2.md) complete:
 3new bounded Probables (Klemperer,Ancerl,deVito),40slow searches for20empty

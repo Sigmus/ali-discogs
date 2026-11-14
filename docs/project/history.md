@@ -1116,3 +1116,23 @@ tracks, not the box. Copies 12/96/633, unique 12/96/632. Inventory of the 632
 still unchecked: 305 no saved hits, 12 metadata-needed, 307 work or credit
 gaps, 7 reviewed withholds, and the Barenboim caution. Binding tests passed.
 The explorer shows 85% and 12/12.
+
+## 2026-11-14 — Kondrashin’s New World published
+
+Decca LXT 5495-6-7 and SXL 2101/03 name Paul Kuen. The cached Rheingold files
+name Paul Kuentz, so 1989694 and 4268630 stay unpublished. The notes do say
+the mono set is auto-coupled. Abbado’s Brahms file is the Berlin
+Philharmonic throughout and adds other works; the LP also names Vienna,
+Dresden, and the London Symphony. Tilson Thomas’s Tchaikovsky file is another
+set of orchestras. Paukenmesse’s files are other masses. The Duparc file is a
+mixed recital. The cantata file is C.P.E. Bach. The cello-sonata file is
+Chopin. Karajan’s file is the Eroica, not the Seventh.
+
+Decca SXDL 7510 is Kondrashin’s New World with the Wiener Philharmoniker.
+The file has the four movements, in order, with both names on every track.
+Probable 85 for 9739139. The LP prints Kiril and the file spells Kirill. The
+1980 file is not verified as that pressing. Copies 12/97/632, unique
+12/97/631. Inventory of the 631 still unchecked: 305 no saved hits, 12
+metadata-needed, 306 work or credit gaps, 7 reviewed withholds, and the
+Barenboim caution. Binding tests passed. The explorer shows 85% and the
+four movements under the one symphony.

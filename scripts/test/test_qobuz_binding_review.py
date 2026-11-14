@@ -39,7 +39,7 @@ class BindingReviewTests(unittest.TestCase):
                 published.append(discogs_id)
             else:
                 self.assertIsNone(candidate)
-        self.assertEqual(published, ['11562013', '3475547', '11168177', '6029612', '5177097', '7525022', '4483876', '7119504', '6472687', '10757104', '15980846', '4395895', '8291074', '11938972'])
+        self.assertEqual(published, ['11562013', '3475547', '11168177', '6029612', '5177097', '7525022', '4483876', '7119504', '6472687', '10757104', '15980846', '4395895', '8291074', '11938972', '9739139'])
 
     def test_an_ensemble_alias_needs_a_reason_and_still_names_the_source_ensemble(self):
         row, album, review = self.review('15980846')
@@ -93,6 +93,18 @@ class BindingReviewTests(unittest.TestCase):
         dropped = copy.deepcopy(review)
         dropped['performer_aliases'] = [a for a in dropped['performer_aliases'] if 'Chorus' not in a['file']]
         result, _ = assess_bindings(row, album, dropped)
+        self.assertFalse(result['eligible'])
+        self.assertIn('performer', result['blockers'])
+
+    def test_new_world_keeps_kondrashin_under_the_file_spelling(self):
+        row, album, review = self.review('9739139')
+        candidate = reviewed_candidate(row, album, review)
+        self.assertEqual(len(candidate['programme'][0]['track_ids']), 4)
+        self.assertIn('Kirill', ' '.join(candidate['reasons']))
+        self.assertIn('jox1pt5atqcga', candidate['url'])
+        plain = copy.deepcopy(review)
+        plain['performer_aliases'] = []
+        result, _ = assess_bindings(row, album, plain)
         self.assertFalse(result['eligible'])
         self.assertIn('performer', result['blockers'])
 

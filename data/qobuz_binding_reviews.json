@@ -1638,6 +1638,43 @@
         "Piano And Strings": [21590195],
         "Shades Of Sennett": [21590196]
       }
+    },
+    {
+      "discogs_id": "9739139",
+      "album_id": "jox1pt5atqcga",
+      "review_kind": "bound-tracks",
+      "decision": "probable",
+      "target_sha256": "7fafb5c75f2b9e7df50b1b38aaeefa8c948cfabf2e27bc7f3d5dfcebe4d4d73b",
+      "album_sha256": "6fc9c99050253d14b4462a1302792d7a52eb0c8ca467e8547f8bc368f3be3234",
+      "source_sha256": "ca6b00aed62e7ea9801e510b7103c42de3571278f2da7609c3ec6aab1a5156c9",
+      "adds": [
+        {"track_id": 50754288, "target": "Symphony No. 9 \"From The New World\" In E Minor, Op. 95", "title_contains": "I. Adagio"},
+        {"track_id": 50754289, "target": "Symphony No. 9 \"From The New World\" In E Minor, Op. 95", "title_contains": "II. Largo"},
+        {"track_id": 50754290, "target": "Symphony No. 9 \"From The New World\" In E Minor, Op. 95", "title_contains": "III. Scherzo"},
+        {"track_id": 50754291, "target": "Symphony No. 9 \"From The New World\" In E Minor, Op. 95", "title_contains": "IV. Allegro con fuoco"}
+      ],
+      "sources": [
+        "https://www.qobuz.com/fr-fr/album/dvorak-symphony-no-9-from-the-new-world-wiener-philharmoniker-kirill-kondrashin/jox1pt5atqcga"
+      ],
+      "limitations": [
+        "The LP lists the symphony as one title. The file gives its four movements, in order.",
+        "The file spells Kirill Kondrashin where the LP prints Kiril.",
+        "This 1980 file is not verified as Decca SXDL 7510."
+      ],
+      "recording_review": "Decca SXDL 7510 is Kondrashin’s New World symphony with the Wiener Philharmoniker. This file has the four movements, with Kondrashin and the orchestra on every track.",
+      "required_performers": ["Kiril Kondrashin", "Wiener Philharmoniker"],
+      "performer_aliases": [
+        {
+          "source": "Kiril Kondrashin",
+          "file": "Kirill Kondrashin",
+          "reason": "This Decca file spells Kirill Kondrashin where the LP prints Kiril Kondrashin."
+        }
+      ],
+      "movement_runs": true,
+      "extra_track_ids": [],
+      "expected": {
+        "Symphony No. 9 \"From The New World\" In E Minor, Op. 95": [50754288, 50754289, 50754290, 50754291]
+      }
     }
   ]
 }

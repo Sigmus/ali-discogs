@@ -17,7 +17,7 @@ plans preserve dated evidence and prior handoffs.
 - Current collection:741 copies /740 unique releases. Spotify254Found /273Probable
   /210NotFound /4Unchecked copies. Retained labels are not independent full
   recording confirmations. Qobuz figures below are independent enrichment.
-- Qobuz overlay: 12 Found / 96 Probable / 633 unchecked copies; unique 12/96/632.
+- Qobuz overlay: 12 Found / 97 Probable / 632 unchecked copies; unique 12/97/631.
   Separate `data/qobuz_matches.json` survives Spotify rescoring; original pipeline
   Qobuz fields stay unchecked. Empty/inconclusive queries are not confirmed absence.
 - Sonoteque table/details, 80% main width, column sorting (Year ascending default),
@@ -82,15 +82,14 @@ plans preserve dated evidence and prior handoffs.
 
 ## Validation and next action
 
-- Probable 85 includes the Pink Panther 11938972, twelve film cues in order.
-  The file does not mark the vocal cue. Galway’s track stays outside. It is
-  not DOL DOL996HG. Salome 7657012 remains.
-- Inventory of the 632 still unchecked: 305 no saved hits, 12 metadata-needed,
-  307 work or credit gaps, 7 reviewed withholds, and the Barenboim caution.
+- Probable 85 includes Kondrashin’s New World 9739139, four movements with
+  the Wiener Philharmoniker. The file spells Kirill. It is not Decca SXDL
+  7510. The Pink Panther 11938972 remains.
+- Inventory of the 631 still unchecked: 305 no saved hits, 12 metadata-needed,
+  306 work or credit gaps, 7 reviewed withholds, and the Barenboim caution.
   Sellheim 7421796 stays an empty query, not confirmed absence.
-- Next stop: Solti’s Rheingold 1989694. The file has Solti, the Wiener
-  Philharmoniker, and the named principals. The LP’s scene sides are headings
-  over incipits. Gieseking’s Volume 1 is a short compilation. Bitches Brew
+- Solti’s Rheingold files name Paul Kuentz, not Paul Kuen. The Brahms file is
+  Berlin only. The next file is Haydn’s Harmoniemesse 9398840. Bitches Brew
   stays a proposal. Pushed through c12ce9d. Live Pages result not confirmed.
 - [Unmatched audit](../plans/2026-11-13-qobuz-unmatched-audit.md). [Bitches Brew credits](../plans/2026-11-13-bitches-brew-credits.md).
 - [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).
