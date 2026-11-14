@@ -1570,6 +1570,74 @@
           15039598
         ]
       }
+    },
+    {
+      "discogs_id": "11938972",
+      "album_id": "0886445007398",
+      "review_kind": "bound-tracks",
+      "decision": "probable",
+      "target_sha256": "54d9cfae375e0391230c8f4626f58dbc717d48a572619f7b7be8b95265bcc6cb",
+      "album_sha256": "b4a989699dbc3aaaa84c8ede7728583dc1e50c1933df2086034c880bc1edc169",
+      "source_sha256": "9c2a82a7c1d271e7ecbad259d8b32c3cd5b7dfea3612e7fcffd02c7bd267d5b7",
+      "exclusions": [
+        {
+          "track_id": 21590198,
+          "target": "The Pink Panther Theme",
+          "title_contains": "The Pink Panther"
+        }
+      ],
+      "adds": [
+        {"track_id": 21590184, "target": "The Pink Panther Theme", "title_contains": "The Pink Panther Theme"},
+        {"track_id": 21590186, "target": "It Had Better Be Tonight (Meglio Stasera) (Instrumental)", "title_contains": "It Had Better Be Tonight"},
+        {"track_id": 21590187, "target": "Royal Blue", "title_contains": "Royal Blue"},
+        {"track_id": 21590188, "target": "Champagne And Quail", "title_contains": "Champagne and Quail"},
+        {"track_id": 21590189, "target": "The Village Inn", "title_contains": "The Village Inn"},
+        {"track_id": 21590190, "target": "The Tiber Twist", "title_contains": "The Tiber Twist"},
+        {"track_id": 21590191, "target": "It Had Better Be Tonight (Meglio Stasera) (Vocal)", "title_contains": "It Had Better Be Tonight"},
+        {"track_id": 21590192, "target": "Cortina", "title_contains": "Cortina"},
+        {"track_id": 21590193, "target": "The Lonely Princess", "title_contains": "The Lonely Princess"},
+        {"track_id": 21590194, "target": "Something For Sellers", "title_contains": "Something for Sellers"},
+        {"track_id": 21590195, "target": "Piano And Strings", "title_contains": "Piano and Strings"},
+        {"track_id": 21590196, "target": "Shades Of Sennett", "title_contains": "Shades of Sennett"}
+      ],
+      "sources": [
+        "https://www.qobuz.com/fr-fr/album/the-pink-panther-music-from-the-film-score-composed-and-conducted-by-henry-mancini-henry-mancini/0886445007398"
+      ],
+      "limitations": [
+        "The file does not mark which It Had Better Be Tonight is instrumental and which is vocal. They stay in the LP order.",
+        "No singer is named on the vocal cue.",
+        "James Galway’s The Pink Panther and the uncredited Meglio Stasera stay outside the twelve film cues.",
+        "This 2014 file is not verified as DOL DOL996HG."
+      ],
+      "recording_review": "DOL DOL996HG is Henry Mancini’s Pink Panther film score, twelve cues. This file has those twelve in that order. The performer credit is Henry Mancini & His Orchestra, and the theme adds the chorus.",
+      "required_performers": ["Henry Mancini"],
+      "performer_aliases": [
+        {
+          "source": "Henry Mancini",
+          "file": "Henry Mancini & His Orchestra",
+          "reason": "This film-score file credits Henry Mancini & His Orchestra as the performer where the LP names Henry Mancini."
+        },
+        {
+          "source": "Henry Mancini",
+          "file": "Henry Mancini & His Orchestra And Chorus",
+          "reason": "The theme credits Henry Mancini & His Orchestra And Chorus as the performer where the LP names Henry Mancini."
+        }
+      ],
+      "extra_track_ids": [21590197, 21590198],
+      "expected": {
+        "The Pink Panther Theme": [21590184],
+        "It Had Better Be Tonight (Meglio Stasera) (Instrumental)": [21590186],
+        "Royal Blue": [21590187],
+        "Champagne And Quail": [21590188],
+        "The Village Inn": [21590189],
+        "The Tiber Twist": [21590190],
+        "It Had Better Be Tonight (Meglio Stasera) (Vocal)": [21590191],
+        "Cortina": [21590192],
+        "The Lonely Princess": [21590193],
+        "Something For Sellers": [21590194],
+        "Piano And Strings": [21590195],
+        "Shades Of Sennett": [21590196]
+      }
     }
   ]
 }

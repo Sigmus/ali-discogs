@@ -1102,3 +1102,17 @@ stop. Columbia SAXF 243 / 7 lists Nos. 1 to 78. The file’s numbers run
 through 68, and some of those numbers are split into lettered tracks. That
 is a different count, so it is not this side scheme. No publication. Counts
 unchanged.
+
+## 2026-11-14 — Mancini’s Pink Panther score published
+
+DOL DOL996HG has twelve film cues. Qobuz 0886445007398 has those twelve in
+that order. The performer credit is Henry Mancini & His Orchestra, and the
+theme adds the chorus. Probable 85 for 11938972. The file does not mark which
+It Had Better Be Tonight is instrumental and which is vocal. No singer is
+named on the vocal cue. James Galway’s track and the uncredited Meglio Stasera
+stay outside the twelve cues. The 2014 file is not that DOL pressing.
+Gieseking 12977198 stays unpublished: Absolutely Classical Volume 122 is 17
+tracks, not the box. Copies 12/96/633, unique 12/96/632. Inventory of the 632
+still unchecked: 305 no saved hits, 12 metadata-needed, 307 work or credit
+gaps, 7 reviewed withholds, and the Barenboim caution. Binding tests passed.
+The explorer shows 85% and 12/12.

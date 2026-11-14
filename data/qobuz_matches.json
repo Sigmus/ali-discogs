@@ -15,7 +15,7 @@
   "opera_review_fingerprint": "6e26d528eb7de78d372635218404a57534332ea1cd3d92e89e90e7a18066f85b",
   "pair_review_fingerprint": "7709aa57ef7815fda88766badd3064939bccb142bd0e97389a0f5f011c54cd84",
   "container_review_fingerprint": "aa8a8e530114e05869e1215561786073250faca3c9349b66059ea59ff3c535e0",
-  "binding_review_fingerprint": "43de9aab048acbb5ab1541c6e6290ea561a480bf6848fa22bfe62a40e899c6b4",
+  "binding_review_fingerprint": "ee6f25af69dc71cff41b418a0a3fd5a1468ee3051d11716ea67ff57b9a9cbab1",
   "heading_review_fingerprint": "44c6333ec66aff9cbbf7a29ae8d00ef0005da4fb05dae7e65278f889e97fab8b",
   "cached_half_review_fingerprint": "51e57b6a2ed934ed1a91452a4a8c314099d6641b216c73740a3da7cda998dbcf",
   "side_range_review_fingerprint": "4434bf0427e75aae1b891957d05cd4175f6b01d7b2f6a8e352238c3a297c44f7",
@@ -67410,9 +67410,19 @@
       ]
     },
     "11938972": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0886445007398",
+        "name": "The Pink Panther: Music from the Film Score Composed and Conducted by Henry Mancini",
+        "artists": [
+          "Henry Mancini"
+        ],
+        "label": "RCA Victor/Legacy",
+        "release_date": "2014-12-09",
+        "image": "https://static.qobuz.com/images/covers/98/73/0886445007398_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/the-pink-panther-music-from-the-film-score-composed-and-conducted-by-henry-mancini-henry-mancini/0886445007398"
+      },
       "candidates": [
         {
           "id": "0886445007398",
@@ -67424,10 +67434,10 @@
           "release_date": "2014-12-09",
           "image": "https://static.qobuz.com/images/covers/98/73/0886445007398_230.jpg",
           "url": "https://www.qobuz.com/fr-fr/album/the-pink-panther-music-from-the-film-score-composed-and-conducted-by-henry-mancini-henry-mancini/0886445007398",
-          "status": "unchecked",
-          "confidence": null,
-          "coverage": 0.08333333333333333,
-          "covered": 1,
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 12,
           "target_count": 12,
           "required_performers": [
             "Henry Mancini"
@@ -67435,81 +67445,215 @@
           "programme": [
             {
               "target": "The Pink Panther Theme",
-              "work_tracks": 2,
+              "work_tracks": 1,
               "credited_tracks": 1,
               "track_ids": [
-                21590198
+                21590184
               ]
             },
             {
               "target": "It Had Better Be Tonight (Meglio Stasera) (Instrumental)",
-              "work_tracks": 3,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                21590186
+              ]
             },
             {
               "target": "Royal Blue",
               "work_tracks": 1,
-              "credited_tracks": 0,
-              "track_ids": []
+              "credited_tracks": 1,
+              "track_ids": [
+                21590187
+              ]
             },
             {
               "target": "Champagne And Quail",
               "work_tracks": 1,
-              "credited_tracks": 0,
-              "track_ids": []
+              "credited_tracks": 1,
+              "track_ids": [
+                21590188
+              ]
             },
             {
               "target": "The Village Inn",
               "work_tracks": 1,
-              "credited_tracks": 0,
-              "track_ids": []
+              "credited_tracks": 1,
+              "track_ids": [
+                21590189
+              ]
             },
             {
               "target": "The Tiber Twist",
               "work_tracks": 1,
-              "credited_tracks": 0,
-              "track_ids": []
+              "credited_tracks": 1,
+              "track_ids": [
+                21590190
+              ]
             },
             {
               "target": "It Had Better Be Tonight (Meglio Stasera) (Vocal)",
-              "work_tracks": 3,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                21590191
+              ]
             },
             {
               "target": "Cortina",
               "work_tracks": 1,
-              "credited_tracks": 0,
-              "track_ids": []
+              "credited_tracks": 1,
+              "track_ids": [
+                21590192
+              ]
             },
             {
               "target": "The Lonely Princess",
               "work_tracks": 1,
-              "credited_tracks": 0,
-              "track_ids": []
+              "credited_tracks": 1,
+              "track_ids": [
+                21590193
+              ]
             },
             {
               "target": "Something For Sellers",
               "work_tracks": 1,
-              "credited_tracks": 0,
-              "track_ids": []
+              "credited_tracks": 1,
+              "track_ids": [
+                21590194
+              ]
             },
             {
               "target": "Piano And Strings",
               "work_tracks": 1,
-              "credited_tracks": 0,
-              "track_ids": []
+              "credited_tracks": 1,
+              "track_ids": [
+                21590195
+              ]
             },
             {
               "target": "Shades Of Sennett",
               "work_tracks": 1,
-              "credited_tracks": 0,
-              "track_ids": []
+              "credited_tracks": 1,
+              "track_ids": [
+                21590196
+              ]
             }
           ],
           "reasons": [
-            "1/12 target items supported after composer/work grouping; unresolved."
+            "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+            "DOL DOL996HG is Henry Mancini’s Pink Panther film score, twelve cues. This file has those twelve in that order. The performer credit is Henry Mancini & His Orchestra, and the theme adds the chorus.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "The file does not mark which It Had Better Be Tonight is instrumental and which is vocal. They stay in the LP order.",
+            "No singer is named on the vocal cue.",
+            "James Galway’s The Pink Panther and the uncredited Meglio Stasera stay outside the twelve film cues.",
+            "This 2014 file is not verified as DOL DOL996HG."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "The Pink Panther Theme",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  21590184
+                ]
+              },
+              {
+                "target": "It Had Better Be Tonight (Meglio Stasera) (Instrumental)",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  21590186
+                ]
+              },
+              {
+                "target": "Royal Blue",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  21590187
+                ]
+              },
+              {
+                "target": "Champagne And Quail",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  21590188
+                ]
+              },
+              {
+                "target": "The Village Inn",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  21590189
+                ]
+              },
+              {
+                "target": "The Tiber Twist",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  21590190
+                ]
+              },
+              {
+                "target": "It Had Better Be Tonight (Meglio Stasera) (Vocal)",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  21590191
+                ]
+              },
+              {
+                "target": "Cortina",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  21590192
+                ]
+              },
+              {
+                "target": "The Lonely Princess",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  21590193
+                ]
+              },
+              {
+                "target": "Something For Sellers",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  21590194
+                ]
+              },
+              {
+                "target": "Piano And Strings",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  21590195
+                ]
+              },
+              {
+                "target": "Shades Of Sennett",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  21590196
+                ]
+              }
+            ]
+          },
+          "recording_review": "DOL DOL996HG is Henry Mancini’s Pink Panther film score, twelve cues. This file has those twelve in that order. The performer credit is Henry Mancini & His Orchestra, and the theme adds the chorus.",
+          "review_sources": [
+            "https://www.qobuz.com/fr-fr/album/the-pink-panther-music-from-the-film-score-composed-and-conducted-by-henry-mancini-henry-mancini/0886445007398"
           ]
         },
         {
@@ -67904,7 +68048,13 @@
       "query": "henry mancini the pink panther music from the film score",
       "searched_at": "2026-11-12T16:00:21.533131+00:00",
       "reasons": [
-        "1/12 target items supported after composer/work grouping; unresolved."
+        "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+        "DOL DOL996HG is Henry Mancini’s Pink Panther film score, twelve cues. This file has those twelve in that order. The performer credit is Henry Mancini & His Orchestra, and the theme adds the chorus.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "The file does not mark which It Had Better Be Tonight is instrumental and which is vocal. They stay in the LP order.",
+        "No singer is named on the vocal cue.",
+        "James Galway’s The Pink Panther and the uncredited Meglio Stasera stay outside the twelve film cues.",
+        "This 2014 file is not verified as DOL DOL996HG."
       ]
     },
     "3893557": {

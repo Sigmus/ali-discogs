@@ -39,7 +39,7 @@ class BindingReviewTests(unittest.TestCase):
                 published.append(discogs_id)
             else:
                 self.assertIsNone(candidate)
-        self.assertEqual(published, ['11562013', '3475547', '11168177', '6029612', '5177097', '7525022', '4483876', '7119504', '6472687', '10757104', '15980846', '4395895', '8291074'])
+        self.assertEqual(published, ['11562013', '3475547', '11168177', '6029612', '5177097', '7525022', '4483876', '7119504', '6472687', '10757104', '15980846', '4395895', '8291074', '11938972'])
 
     def test_an_ensemble_alias_needs_a_reason_and_still_names_the_source_ensemble(self):
         row, album, review = self.review('15980846')
@@ -81,6 +81,20 @@ class BindingReviewTests(unittest.TestCase):
         kept['exclusions'] = []
         with self.assertRaises(ValueError):
             assess_bindings(row, album, kept)
+
+    def test_pink_panther_keeps_the_twelve_cues_and_leaves_galway_out(self):
+        row, album, review = self.review('11938972')
+        candidate = reviewed_candidate(row, album, review)
+        ids = [track_id for item in candidate['programme'] for track_id in item['track_ids']]
+        self.assertEqual(len(ids), 12)
+        self.assertNotIn(21590198, ids)
+        self.assertIn('instrumental', ' '.join(candidate['reasons']))
+        self.assertIn('0886445007398', candidate['url'])
+        dropped = copy.deepcopy(review)
+        dropped['performer_aliases'] = [a for a in dropped['performer_aliases'] if 'Chorus' not in a['file']]
+        result, _ = assess_bindings(row, album, dropped)
+        self.assertFalse(result['eligible'])
+        self.assertIn('performer', result['blockers'])
 
     def test_a_printed_numero_counts_as_that_subnumber_only(self):
         target = 'Valse En La Mineur Op 34 N°2'
