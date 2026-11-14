@@ -18,20 +18,20 @@
     "qobuz_remaining_search.json.gz": "ec5e39bf4c226fc7bf33bc21065d1213df11fb6e87731747a3cabadb8ae7eb96",
     "qobuz_remaining_followup_metadata.json.gz": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
     "collection_matches.json": "a214eee877d4749fa957b3d2a293c2925d7ba0621259f2742139a6cd86f928c8",
-    "qobuz_matches.json": "2666baf8a96c8652ef08345a3a0d8b2d549b374a1b8a67b3f19653faa57635a0",
+    "qobuz_matches.json": "1088aa66536a71b66cba2ee742d09a04626c23a08ebadba0158d2c13b06f848f",
     "qobuz_work_inventory.json": "47b8e955b99c37b132e66daea61590490d249f94a520740d702bec5caa5019ce",
     "qobuz_binding_reviews.json": "8e9290c053caf91b49e9cd32384be458d97e17d03c454e933a8648efadaeecd3",
     "qobuz_opera_recording_reviews.json": "6e26d528eb7de78d372635218404a57534332ea1cd3d92e89e90e7a18066f85b"
   },
   "summary": {
-    "work_or_credit_unresolved": 422,
+    "work_or_credit_unresolved": 421,
     "metadata_needed": 170,
     "completeness_review_needed": 12,
     "reviewed_withheld": 7,
     "no_saved_hits": 6,
     "recording_review_needed": 3
   },
-  "unmatched_unique_releases": 620,
+  "unmatched_unique_releases": 619,
   "entries": [
     {
       "discogs_id": "594243",
@@ -100146,54 +100146,6 @@
             },
             {
               "target": "Songe D'une Nuit D'été (Sample) : Scherzo",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "discogs_id": "11412875",
-      "title": "Symphony No. 4 Opus 29 (The Inextinguishable)",
-      "category": "work_or_credit_unresolved",
-      "saved_hits": 3,
-      "uncached_hits": 2,
-      "cached_candidates": [
-        {
-          "album_id": "v96ulyegxutlc",
-          "title": "Nielsen: Symphony No. 4, Op. 29 \"The Inextinguishable\"",
-          "coverage": 0.5,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Allegro",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Poco Allegretto",
-              "work_tracks": 1,
-              "credited_tracks": 1,
-              "track_ids": [
-                100489957
-              ]
-            },
-            {
-              "target": "Poco Adagio Quasi Andante",
-              "work_tracks": 1,
-              "credited_tracks": 1,
-              "track_ids": [
-                100489958
-              ]
-            },
-            {
-              "target": "Allegro",
               "work_tracks": 0,
               "credited_tracks": 0,
               "track_ids": []

@@ -29,7 +29,7 @@
   "richter_review_fingerprint": "a14865f86e46150593e39bfa285fa6c7c61c8f46147b8094c0cb048fd02118ab",
   "round2_review_fingerprint": "be60742c3d35f5a9aa67f200642f7fcde98a52562a46130e043db8f4aa7c851e",
   "round2_metadata_fingerprint": "9db62d7bf62d4b77f5acf422dfde77959f845f4dc00b2ac0e10c02ccea295860",
-  "remaining_review_fingerprint": "49084814dc84b3775ee64e63430f6e96858e671349cc59a2c534ba54f626a4da",
+  "remaining_review_fingerprint": "2004b1be547ace4dc305ee504cf5d413b2c5bf38d5649d247bf9b480cb96f161",
   "remaining_metadata_fingerprint": "393b2d12e176160ab311b65267b38bdc8c205222e12f792bf07eba5c1fcfafbf",
   "remaining_followup_metadata_fingerprint": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
   "remaining_followup_scope_fingerprint": "41780b365b45dcd74f5ffd053bfe546c3c873eae535dd66250297799f48c2daa",
@@ -113650,14 +113650,174 @@
       ]
     },
     "11412875": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "v96ulyegxutlc",
+        "name": "Nielsen: Symphony No. 4, Op. 29 \"The Inextinguishable\"",
+        "artists": [
+          "Sir John Barbirolli"
+        ],
+        "label": "Warner Classics",
+        "release_date": "1963-01-01",
+        "image": "https://static.qobuz.com/images/covers/lc/ut/v96ulyegxutlc_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/nielsen-symphony-no-4-op-29-the-inextinguishable-sir-john-barbirolli/v96ulyegxutlc"
+      },
+      "candidates": [
+        {
+          "id": "v96ulyegxutlc",
+          "name": "Nielsen: Symphony No. 4, Op. 29 \"The Inextinguishable\"",
+          "artists": [
+            "Sir John Barbirolli"
+          ],
+          "label": "Warner Classics",
+          "release_date": "1963-01-01",
+          "image": "https://static.qobuz.com/images/covers/lc/ut/v96ulyegxutlc_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/nielsen-symphony-no-4-op-29-the-inextinguishable-sir-john-barbirolli/v96ulyegxutlc",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 4,
+          "target_count": 4,
+          "required_performers": [
+            "Sir John Barbirolli",
+            "Hallé Orchestra"
+          ],
+          "programme": [
+            {
+              "target": "Aa: Allegro",
+              "source_position": "Aa",
+              "track_ids": [
+                100489956
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "Ab: Poco Allegretto",
+              "source_position": "Ab",
+              "track_ids": [
+                100489957
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "Ba: Poco Adagio Quasi Andante",
+              "source_position": "Ba",
+              "track_ids": [
+                100489958
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "Bb: Allegro",
+              "source_position": "Bb",
+              "track_ids": [
+                100489959
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
+            }
+          ],
+          "reasons": [
+            "2/4 target items supported after composer/work grouping; unresolved.",
+            "Warner identifies Barbirolli and Hallé for this Nielsen Fourth. The saved Warner album has four explicit Op.29 movements with those artists and a1963 original release year, consistent with the LP source notes. Separate source positions preserve both Allegro movements. This supports a Probable recording-family lead.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Publisher artist/work support and matching release year do not independently establish exact session dates or takes.",
+            "Exact Golden Guinea LP pressing, transfer and digital mastering remain unverified."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Aa: Allegro",
+                "source_position": "Aa",
+                "status": "complete",
+                "track_ids": [
+                  100489956
+                ],
+                "scope": "source-position-bound-movement",
+                "expected_movements": [
+                  1
+                ],
+                "observed_movements": [
+                  1
+                ],
+                "source": "https://www.warnerclassics.com/release/nielsen-4-barbirolli",
+                "reason": "Exact source position/title and distinct ordered track hash; explicit work and artist checks."
+              },
+              {
+                "target": "Ab: Poco Allegretto",
+                "source_position": "Ab",
+                "status": "complete",
+                "track_ids": [
+                  100489957
+                ],
+                "scope": "source-position-bound-movement",
+                "expected_movements": [
+                  2
+                ],
+                "observed_movements": [
+                  2
+                ],
+                "source": "https://www.warnerclassics.com/release/nielsen-4-barbirolli",
+                "reason": "Exact source position/title and distinct ordered track hash; explicit work and artist checks."
+              },
+              {
+                "target": "Ba: Poco Adagio Quasi Andante",
+                "source_position": "Ba",
+                "status": "complete",
+                "track_ids": [
+                  100489958
+                ],
+                "scope": "source-position-bound-movement",
+                "expected_movements": [
+                  3
+                ],
+                "observed_movements": [
+                  3
+                ],
+                "source": "https://www.warnerclassics.com/release/nielsen-4-barbirolli",
+                "reason": "Exact source position/title and distinct ordered track hash; explicit work and artist checks."
+              },
+              {
+                "target": "Bb: Allegro",
+                "source_position": "Bb",
+                "status": "complete",
+                "track_ids": [
+                  100489959
+                ],
+                "scope": "source-position-bound-movement",
+                "expected_movements": [
+                  4
+                ],
+                "observed_movements": [
+                  4
+                ],
+                "source": "https://www.warnerclassics.com/release/nielsen-4-barbirolli",
+                "reason": "Exact source position/title and distinct ordered track hash; explicit work and artist checks."
+              }
+            ],
+            "overlapping_target_tracks": false
+          },
+          "recording_review": "Warner identifies Barbirolli and Hallé for this Nielsen Fourth. The saved Warner album has four explicit Op.29 movements with those artists and a1963 original release year, consistent with the LP source notes. Separate source positions preserve both Allegro movements. This supports a Probable recording-family lead.",
+          "review_sources": [
+            "https://www.warnerclassics.com/release/nielsen-4-barbirolli",
+            "https://www.discogs.com/release/11412875"
+          ]
+        }
+      ],
       "query": "sir john barbirolli nielsen symphony no 4 opus 29 the inextinguishable",
       "searched_at": "2026-11-12T17:12:26.665614+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "2/4 target items supported after composer/work grouping; unresolved.",
+        "Warner identifies Barbirolli and Hallé for this Nielsen Fourth. The saved Warner album has four explicit Op.29 movements with those artists and a1963 original release year, consistent with the LP source notes. Separate source positions preserve both Allegro movements. This supports a Probable recording-family lead.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Publisher artist/work support and matching release year do not independently establish exact session dates or takes.",
+        "Exact Golden Guinea LP pressing, transfer and digital mastering remain unverified."
       ]
     },
     "7735287": {

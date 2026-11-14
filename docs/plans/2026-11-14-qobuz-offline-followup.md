@@ -170,3 +170,38 @@ UI normalization/build/browser details pass. Publication diff exactly2new
 Probables. Global unmatched inventory now uses all new archives:620unique
 unchecked =422work/credit +170metadata-needed +12completeness +7withheld
 +6no-hits +3recording-review. Broader retrieval remains unscoped.
+
+## Nielsen position audit
+
+Continued offline after user request. `scripts/qobuz_position_audit.py` writes
+`data/qobuz_position_audit.json`: exact target11412875 / albumv96ulyegxutlc,
+Aa/Ab/Ba/Bb map to four distinct I/II/III/IV track IDs. Each explicitly names
+Op.29, Nielsen, Barbirolli and Hallé. This is structural evidence, not a new
+recording-identity finding or publication promotion. Existing title-keyed review
+dictionaries cannot distinguish the two source Allegro entries safely.
+
+Diagnostic rejects reordered/missing/duplicate tracks, wrong opus or artist and
+changed side positions;3regression tests pass. No catalogue calls or labels changed.
+Proposed next bounded implementation: position-keyed review entries containing
+source position+title, exact track IDs/hashes, required artists, explicit ordered
+movement inventory, target/album/source hashes and recording-family evidence.
+Keep generic title matching unchanged; reject duplicate source positions, reused
+tracks, changed source data and silent ordinal pairing. Requires a new review
+kind, so publication implementation remains outside this continuation.
+
+## Nielsen position review implemented
+
+User authorized continuation of the scoped implementation. New `position-bound`
+review delegates to the frozen Nielsen diagnostic and checks raw source SHA,
+complete ordered mapping/track hashes and unchanged required artists. It publishes
+position-qualified target names, so Aa Allegro and Bb Allegro remain separate.
+No generic ordinal matching or other target scope is enabled.
+
+[Warner](https://www.warnerclassics.com/release/nielsen-4-barbirolli) independently
+identifies the work, Barbirolli and Hallé. Cached digital original-release1963 is
+consistent with source LP notes, supporting Probable85, not exact take/mastering
+identity. Only11412875 changes status.129script tests pass (including4positional
+regressions), UI normalization and static build pass. The initial bare-venv full
+suite lacked requests; rerun with the documented uv dependency environment passed.
+No Qobuz API calls, push or deployment. Diagnostic report remains the pre-publication
+structural checkpoint; the current review ledger/publication supersede its hold.

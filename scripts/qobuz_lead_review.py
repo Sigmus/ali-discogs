@@ -48,6 +48,9 @@ def assess(row, album, review):
             target_fingerprint(row) != review['target_sha256'] or
             fingerprint(album) != review['album_sha256']):
         raise ValueError('Reviewed evidence changed; review again before publication')
+    if review.get('review_kind') == 'position-bound':
+        from qobuz_position_review import assess_positions
+        return assess_positions(row, album, review)
     if review.get('review_kind') == 'source-role-ensemble':
         from qobuz_opera_review import assess_opera
         return assess_opera(row, album, review)

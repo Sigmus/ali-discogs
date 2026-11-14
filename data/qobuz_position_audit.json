@@ -1,0 +1,93 @@
+{
+  "discogs_id": "11412875",
+  "album_id": "v96ulyegxutlc",
+  "target_sha256": "fdd19f75e1cd945fdae85e403a551733ac74a106532f0e17ccd115a1f656668e",
+  "album_sha256": "b444730fa0e3250e948f8797d0d5ea92be6d194bea225f94e1aa0ae324d803b1",
+  "base_evidence": {
+    "status": "unchecked",
+    "confidence": null,
+    "coverage": 0.5,
+    "covered": 2,
+    "target_count": 4,
+    "required_performers": [
+      "Sir John Barbirolli",
+      "Hallé Orchestra"
+    ],
+    "programme": [
+      {
+        "target": "Allegro",
+        "work_tracks": 0,
+        "credited_tracks": 0,
+        "track_ids": []
+      },
+      {
+        "target": "Poco Allegretto",
+        "work_tracks": 1,
+        "credited_tracks": 1,
+        "track_ids": [
+          100489957
+        ]
+      },
+      {
+        "target": "Poco Adagio Quasi Andante",
+        "work_tracks": 1,
+        "credited_tracks": 1,
+        "track_ids": [
+          100489958
+        ]
+      },
+      {
+        "target": "Allegro",
+        "work_tracks": 0,
+        "credited_tracks": 0,
+        "track_ids": []
+      }
+    ],
+    "reasons": [
+      "2/4 target items supported after composer/work grouping; unresolved."
+    ]
+  },
+  "positional_mapping": [
+    {
+      "source_position": "Aa",
+      "source_title": "Allegro",
+      "movement": 1,
+      "track_id": 100489956,
+      "track_sha256": "e4d15a2d63fec62997403ca27ae39e13d07d5306e3ef3ed3fb08c65ab3e042eb",
+      "track_title": "Symphony No. 4, Op. 29 \"The Inextinguishable\": I. Allegro"
+    },
+    {
+      "source_position": "Ab",
+      "source_title": "Poco Allegretto",
+      "movement": 2,
+      "track_id": 100489957,
+      "track_sha256": "7ca9c40b615330baff7fdb6f75fadec57321d07fa3e2d02645c3fcfb3321071e",
+      "track_title": "Symphony No. 4, Op. 29 \"The Inextinguishable\": II. Poco allegretto"
+    },
+    {
+      "source_position": "Ba",
+      "source_title": "Poco Adagio Quasi Andante",
+      "movement": 3,
+      "track_id": 100489958,
+      "track_sha256": "9b5010cea3e73668ff31ba8ed44e85ae6f4cbaf704ba7644ec6f514d7f5c19eb",
+      "track_title": "Symphony No. 4, Op. 29 \"The Inextinguishable\": III. Poco adagio quasi andante"
+    },
+    {
+      "source_position": "Bb",
+      "source_title": "Allegro",
+      "movement": 4,
+      "track_id": 100489959,
+      "track_sha256": "9611480ebffeab65c0d5dbcaa8172cfc161c96e3747281090abe9f4bc14b2199",
+      "track_title": "Symphony No. 4, Op. 29 \"The Inextinguishable\": IV. Allegro"
+    }
+  ],
+  "structurally_supported": true,
+  "publication_changed": false,
+  "decision": "withheld_pending_position_keyed_publication_review",
+  "limitations": [
+    "Ordered programme and artist agreement do not establish exact takes or mastering.",
+    "Title-keyed review dictionaries cannot represent Aa and Bb as separate Allegro units.",
+    "No generic ordinal pairing rule or new publication review kind is enabled."
+  ],
+  "metadata_archive_sha256": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7"
+}

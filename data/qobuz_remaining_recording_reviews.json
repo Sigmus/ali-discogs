@@ -911,6 +911,62 @@
           "reason": "All three ordered movements with Kreisler, Barbirolli and London Philharmonic Orchestra."
         }
       ]
+    },
+    {
+      "discogs_id": "11412875",
+      "album_id": "v96ulyegxutlc",
+      "review_kind": "position-bound",
+      "decision": "probable",
+      "target_sha256": "fdd19f75e1cd945fdae85e403a551733ac74a106532f0e17ccd115a1f656668e",
+      "album_sha256": "b444730fa0e3250e948f8797d0d5ea92be6d194bea225f94e1aa0ae324d803b1",
+      "source_sha256": "6da4e3f2505379a911fe323627601193b2093473e11509c4ccf2485f4fd3f112",
+      "mapping": [
+        {
+          "source_position": "Aa",
+          "source_title": "Allegro",
+          "movement": 1,
+          "track_id": 100489956,
+          "track_sha256": "e4d15a2d63fec62997403ca27ae39e13d07d5306e3ef3ed3fb08c65ab3e042eb",
+          "track_title": "Symphony No. 4, Op. 29 \"The Inextinguishable\": I. Allegro"
+        },
+        {
+          "source_position": "Ab",
+          "source_title": "Poco Allegretto",
+          "movement": 2,
+          "track_id": 100489957,
+          "track_sha256": "7ca9c40b615330baff7fdb6f75fadec57321d07fa3e2d02645c3fcfb3321071e",
+          "track_title": "Symphony No. 4, Op. 29 \"The Inextinguishable\": II. Poco allegretto"
+        },
+        {
+          "source_position": "Ba",
+          "source_title": "Poco Adagio Quasi Andante",
+          "movement": 3,
+          "track_id": 100489958,
+          "track_sha256": "9b5010cea3e73668ff31ba8ed44e85ae6f4cbaf704ba7644ec6f514d7f5c19eb",
+          "track_title": "Symphony No. 4, Op. 29 \"The Inextinguishable\": III. Poco adagio quasi andante"
+        },
+        {
+          "source_position": "Bb",
+          "source_title": "Allegro",
+          "movement": 4,
+          "track_id": 100489959,
+          "track_sha256": "9611480ebffeab65c0d5dbcaa8172cfc161c96e3747281090abe9f4bc14b2199",
+          "track_title": "Symphony No. 4, Op. 29 \"The Inextinguishable\": IV. Allegro"
+        }
+      ],
+      "required_performers": [
+        "Sir John Barbirolli",
+        "Hallé Orchestra"
+      ],
+      "sources": [
+        "https://www.warnerclassics.com/release/nielsen-4-barbirolli",
+        "https://www.discogs.com/release/11412875"
+      ],
+      "recording_review": "Warner identifies Barbirolli and Hallé for this Nielsen Fourth. The saved Warner album has four explicit Op.29 movements with those artists and a1963 original release year, consistent with the LP source notes. Separate source positions preserve both Allegro movements. This supports a Probable recording-family lead.",
+      "limitations": [
+        "Publisher artist/work support and matching release year do not independently establish exact session dates or takes.",
+        "Exact Golden Guinea LP pressing, transfer and digital mastering remain unverified."
+      ]
     }
   ]
 }

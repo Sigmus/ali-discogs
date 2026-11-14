@@ -1443,3 +1443,23 @@ concerto Probable85;9withheld with explicit blockers.125script tests, UI/build/
 browser checks pass. Brahms inventory adds one structurally supported historical
 baseline case, retaining original labels. Global unmatched inventory updated to
 all retrieval evidence:620unique unchecked, only6with no saved hits. No push.
+
+
+### 2026-11-14 — Nielsen positional audit
+
+Offline audit binds target11412875 Aa/Ab/Ba/Bb to four distinct saved Op.29
+movements, retaining Barbirolli/Hallé track credits. Repeated Allegro labels expose
+title-keyed review limitations. Added reproducible diagnostic/report and3passing
+regressions covering wrong opus/artist, reorder, missing/duplicate tracks and
+source positions. Publication unchanged; no API requests. Scoped a position-keyed
+review in the follow-up plan; new review kind not implemented automatically.
+
+
+### 2026-11-14 — Nielsen position-bound publication
+
+User-authorized implementation retains separate Aa/Bb Allegro identities, full
+ordered track hashes, target/album/raw-source hashes and required artists. Warner
+supports work/artists; exact sessions/mastering remain unverified. Only11412875
+becomes Probable85. Qobuz copies12Found/109Probable/620Unchecked.129script tests,
+UI normalization and static build pass; dependency-complete uv run resolves the
+initial requests import failures. No Qobuz API calls or push/deployment.
