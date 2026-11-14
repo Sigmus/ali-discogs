@@ -92,6 +92,6 @@ plans preserve dated evidence and prior handoffs.
   file is Pittsburgh, and it adds Antar. Ella and Louis omits Peterson, Rich
   and Ellis. The next file is Solti’s Götterdämmerung 8982341, fourteen Teil
   sides against 54 cues. Bitches Brew stays a proposal. Pushed through
-  c12ce9d. Live Pages result not confirmed.
+  1ef2bb8. Live Pages result not confirmed.
 - [Unmatched audit](../plans/2026-11-13-qobuz-unmatched-audit.md). [Bitches Brew credits](../plans/2026-11-13-bitches-brew-credits.md).
 - [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).
