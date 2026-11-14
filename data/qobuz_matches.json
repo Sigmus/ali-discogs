@@ -29,7 +29,7 @@
   "richter_review_fingerprint": "a14865f86e46150593e39bfa285fa6c7c61c8f46147b8094c0cb048fd02118ab",
   "round2_review_fingerprint": "be60742c3d35f5a9aa67f200642f7fcde98a52562a46130e043db8f4aa7c851e",
   "round2_metadata_fingerprint": "9db62d7bf62d4b77f5acf422dfde77959f845f4dc00b2ac0e10c02ccea295860",
-  "remaining_review_fingerprint": "15753c0b79b6a40736cd7ea6bc73545a922bb2660ab44128ce740c6997e4e726",
+  "remaining_review_fingerprint": "4a6dd5fd1849d15281ab9df106235ca0a6ff27b66ef5fac81fed72df2d698220",
   "remaining_metadata_fingerprint": "393b2d12e176160ab311b65267b38bdc8c205222e12f792bf07eba5c1fcfafbf",
   "releases": {
     "15221307": {
@@ -95310,14 +95310,145 @@
       ]
     },
     "24965038": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "vrg5q0y8vzvaa",
+        "name": "Beethoven: The 9 Symphonies & Overtures (Remastered)",
+        "artists": [
+          "Otto Klemperer"
+        ],
+        "label": "Warner Classics",
+        "release_date": "2025-09-22",
+        "image": "https://static.qobuz.com/images/covers/aa/zv/vrg5q0y8vzvaa_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/beethoven-the-9-symphonies-overtures-remastered-otto-klemperer/vrg5q0y8vzvaa"
+      },
+      "candidates": [
+        {
+          "id": "vrg5q0y8vzvaa",
+          "name": "Beethoven: The 9 Symphonies & Overtures (Remastered)",
+          "artists": [
+            "Otto Klemperer"
+          ],
+          "label": "Warner Classics",
+          "release_date": "2025-09-22",
+          "image": "https://static.qobuz.com/images/covers/aa/zv/vrg5q0y8vzvaa_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/beethoven-the-9-symphonies-overtures-remastered-otto-klemperer/vrg5q0y8vzvaa",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 2,
+          "target_count": 2,
+          "required_performers": [
+            "Otto Klemperer",
+            "Philharmonia Orchestra"
+          ],
+          "programme": [
+            {
+              "target": "Sinfonia N. 1 In Do Maggiore, Op. 21",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                353969761,
+                353969762,
+                353969763,
+                353969764
+              ]
+            },
+            {
+              "target": "Sinfonia N. 8 In Fa Maggiore, Op. 93",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                353969794,
+                353969795,
+                353969796,
+                353969797
+              ]
+            }
+          ],
+          "reasons": [
+            "Each target item has supporting work and performer credits.",
+            "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+            "Warner identifies the saved 2025 collection as Klemperer/Philharmonia stereo symphonies. Warner Japan documents Symphonies1 and8 in October1957 with Philharmonia, supporting this EMI/HMV recording family; all target movements and required credits match.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Later compilation contains additional works outside the target LP.",
+            "Publisher recording-family documentation is not exact LP pressing, take or digital mastering verification."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Sinfonia N. 1 In Do Maggiore, Op. 21",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "track_ids": [
+                  353969761,
+                  353969762,
+                  353969763,
+                  353969764
+                ],
+                "scope": "whole-work-inventory",
+                "source": "https://www.esm.rochester.edu/beethoven/symphony-no-1/",
+                "reason": "Full ordered credited symphony movements; a separately listed timed overture retains its single source-bound track."
+              },
+              {
+                "target": "Sinfonia N. 8 In Fa Maggiore, Op. 93",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "track_ids": [
+                  353969794,
+                  353969795,
+                  353969796,
+                  353969797
+                ],
+                "scope": "whole-work-inventory",
+                "source": "https://www.esm.rochester.edu/beethoven/symphony-no-8/",
+                "reason": "Full ordered credited symphony movements; a separately listed timed overture retains its single source-bound track."
+              }
+            ],
+            "overlapping_target_tracks": false
+          },
+          "recording_review": "Warner identifies the saved 2025 collection as Klemperer/Philharmonia stereo symphonies. Warner Japan documents Symphonies1 and8 in October1957 with Philharmonia, supporting this EMI/HMV recording family; all target movements and required credits match.",
+          "review_sources": [
+            "https://www.warnerclassics.com/release/beethoven-9-symphonies-overtures-remastered",
+            "https://wmg.jp/otto-klemperer/discography/23673",
+            "https://www.discogs.com/release/24965038"
+          ]
+        }
+      ],
       "query": "otto klemperer beethoven sinfonie nn 1 e 8",
       "searched_at": "2026-11-12T16:25:38.626343+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Each target item has supporting work and performer credits.",
+        "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+        "Warner identifies the saved 2025 collection as Klemperer/Philharmonia stereo symphonies. Warner Japan documents Symphonies1 and8 in October1957 with Philharmonia, supporting this EMI/HMV recording family; all target movements and required credits match.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Later compilation contains additional works outside the target LP.",
+        "Publisher recording-family documentation is not exact LP pressing, take or digital mastering verification."
       ]
     },
     "24964822": {
@@ -95343,14 +95474,133 @@
       ]
     },
     "26149832": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "vrg5q0y8vzvaa",
+        "name": "Beethoven: The 9 Symphonies & Overtures (Remastered)",
+        "artists": [
+          "Otto Klemperer"
+        ],
+        "label": "Warner Classics",
+        "release_date": "2025-09-22",
+        "image": "https://static.qobuz.com/images/covers/aa/zv/vrg5q0y8vzvaa_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/beethoven-the-9-symphonies-overtures-remastered-otto-klemperer/vrg5q0y8vzvaa"
+      },
+      "candidates": [
+        {
+          "id": "vrg5q0y8vzvaa",
+          "name": "Beethoven: The 9 Symphonies & Overtures (Remastered)",
+          "artists": [
+            "Otto Klemperer"
+          ],
+          "label": "Warner Classics",
+          "release_date": "2025-09-22",
+          "image": "https://static.qobuz.com/images/covers/aa/zv/vrg5q0y8vzvaa_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/beethoven-the-9-symphonies-overtures-remastered-otto-klemperer/vrg5q0y8vzvaa",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 2,
+          "target_count": 2,
+          "required_performers": [
+            "Otto Klemperer",
+            "Philharmonia Orchestra"
+          ],
+          "programme": [
+            {
+              "target": "Sinfonia N°5 In Do Minore, Op.67",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                353969780,
+                353969781,
+                353969782,
+                353969783
+              ]
+            },
+            {
+              "target": "Coriolano - Ouverture Op.62",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                353969769
+              ]
+            }
+          ],
+          "reasons": [
+            "Each target item has supporting work and performer credits.",
+            "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+            "Target LP explicitly says Stereo. Warner identifies the saved collection as the stereo cycle; Warner Japan distinguishes the October1959 stereo Fifth from the 1955 mono Fifth, and documents the October1957 Philharmonia Coriolan. Both target works have complete required credits; this supports the recording family, not exact mastering.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Later compilation contains additional works outside the target LP.",
+            "Publisher recording-family documentation is not exact LP pressing, take or digital mastering verification."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Sinfonia N°5 In Do Minore, Op.67",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "track_ids": [
+                  353969780,
+                  353969781,
+                  353969782,
+                  353969783
+                ],
+                "scope": "whole-work-inventory",
+                "source": "https://www.laphil.com/works/symphony-no-5-in-c-minor-op-67",
+                "reason": "Full ordered credited symphony movements; a separately listed timed overture retains its single source-bound track."
+              },
+              {
+                "target": "Coriolano - Ouverture Op.62",
+                "status": "complete",
+                "expected_movements": [
+                  1
+                ],
+                "observed_movements": [
+                  1
+                ],
+                "track_ids": [
+                  353969769
+                ],
+                "scope": "listed-target-track",
+                "source": "collection tracklist",
+                "reason": "Full ordered credited symphony movements; a separately listed timed overture retains its single source-bound track."
+              }
+            ],
+            "overlapping_target_tracks": false
+          },
+          "recording_review": "Target LP explicitly says Stereo. Warner identifies the saved collection as the stereo cycle; Warner Japan distinguishes the October1959 stereo Fifth from the 1955 mono Fifth, and documents the October1957 Philharmonia Coriolan. Both target works have complete required credits; this supports the recording family, not exact mastering.",
+          "review_sources": [
+            "https://www.warnerclassics.com/release/beethoven-9-symphonies-overtures-remastered",
+            "https://wmg.jp/otto-klemperer/discography/23673",
+            "https://www.discogs.com/release/26149832"
+          ]
+        }
+      ],
       "query": "otto klemperer beethoven sinfonia ndeg5 coriolano",
       "searched_at": "2026-11-12T16:26:23.576299+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Each target item has supporting work and performer credits.",
+        "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+        "Target LP explicitly says Stereo. Warner identifies the saved collection as the stereo cycle; Warner Japan distinguishes the October1959 stereo Fifth from the 1955 mono Fifth, and documents the October1957 Philharmonia Coriolan. Both target works have complete required credits; this supports the recording family, not exact mastering.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Later compilation contains additional works outside the target LP.",
+        "Publisher recording-family documentation is not exact LP pressing, take or digital mastering verification."
       ]
     },
     "14934969": {
@@ -99823,14 +100073,145 @@
       ]
     },
     "12004072": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "vrg5q0y8vzvaa",
+        "name": "Beethoven: The 9 Symphonies & Overtures (Remastered)",
+        "artists": [
+          "Otto Klemperer"
+        ],
+        "label": "Warner Classics",
+        "release_date": "2025-09-22",
+        "image": "https://static.qobuz.com/images/covers/aa/zv/vrg5q0y8vzvaa_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/beethoven-the-9-symphonies-overtures-remastered-otto-klemperer/vrg5q0y8vzvaa"
+      },
+      "candidates": [
+        {
+          "id": "vrg5q0y8vzvaa",
+          "name": "Beethoven: The 9 Symphonies & Overtures (Remastered)",
+          "artists": [
+            "Otto Klemperer"
+          ],
+          "label": "Warner Classics",
+          "release_date": "2025-09-22",
+          "image": "https://static.qobuz.com/images/covers/aa/zv/vrg5q0y8vzvaa_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/beethoven-the-9-symphonies-overtures-remastered-otto-klemperer/vrg5q0y8vzvaa",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 2,
+          "target_count": 2,
+          "required_performers": [
+            "Otto Klemperer",
+            "Philharmonia Orchestra"
+          ],
+          "programme": [
+            {
+              "target": "Symphonie N° 1 En Ut Majeur, Op. 21",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                353969761,
+                353969762,
+                353969763,
+                353969764
+              ]
+            },
+            {
+              "target": "Symphonie N° 8 En Fa Majeur, Op. 93",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                353969794,
+                353969795,
+                353969796,
+                353969797
+              ]
+            }
+          ],
+          "reasons": [
+            "Each target item has supporting work and performer credits.",
+            "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+            "Warner identifies the saved 2025 collection as Klemperer/Philharmonia stereo symphonies. Warner Japan documents Symphonies1 and8 in October1957 with Philharmonia, supporting this EMI/HMV recording family; all target movements and required credits match.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Later compilation contains additional works outside the target LP.",
+            "Publisher recording-family documentation is not exact LP pressing, take or digital mastering verification."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Symphonie N° 1 En Ut Majeur, Op. 21",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "track_ids": [
+                  353969761,
+                  353969762,
+                  353969763,
+                  353969764
+                ],
+                "scope": "whole-work-inventory",
+                "source": "https://www.esm.rochester.edu/beethoven/symphony-no-1/",
+                "reason": "Full ordered credited symphony movements; a separately listed timed overture retains its single source-bound track."
+              },
+              {
+                "target": "Symphonie N° 8 En Fa Majeur, Op. 93",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "track_ids": [
+                  353969794,
+                  353969795,
+                  353969796,
+                  353969797
+                ],
+                "scope": "whole-work-inventory",
+                "source": "https://www.esm.rochester.edu/beethoven/symphony-no-8/",
+                "reason": "Full ordered credited symphony movements; a separately listed timed overture retains its single source-bound track."
+              }
+            ],
+            "overlapping_target_tracks": false
+          },
+          "recording_review": "Warner identifies the saved 2025 collection as Klemperer/Philharmonia stereo symphonies. Warner Japan documents Symphonies1 and8 in October1957 with Philharmonia, supporting this EMI/HMV recording family; all target movements and required credits match.",
+          "review_sources": [
+            "https://www.warnerclassics.com/release/beethoven-9-symphonies-overtures-remastered",
+            "https://wmg.jp/otto-klemperer/discography/23673",
+            "https://www.discogs.com/release/12004072"
+          ]
+        }
+      ],
       "query": "otto klemperer beethoven symphonies ndeg1 en ut majeur ndeg8 en fa majeur op",
       "searched_at": "2026-11-12T16:43:54.466700+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Each target item has supporting work and performer credits.",
+        "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+        "Warner identifies the saved 2025 collection as Klemperer/Philharmonia stereo symphonies. Warner Japan documents Symphonies1 and8 in October1957 with Philharmonia, supporting this EMI/HMV recording family; all target movements and required credits match.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Later compilation contains additional works outside the target LP.",
+        "Publisher recording-family documentation is not exact LP pressing, take or digital mastering verification."
       ]
     },
     "8970069": {

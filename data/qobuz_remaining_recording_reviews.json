@@ -63,6 +63,355 @@
           "reason": "All three ordered movements carry Michelangeli, Giulini and Wiener Symphoniker credits; no overlap or omitted movement."
         }
       ]
+    },
+    {
+      "discogs_id": "12004072",
+      "album_id": "vrg5q0y8vzvaa",
+      "target_sha256": "92bfa5a735d6132b66b420b4dddb8329f45c812a59a6e691fd10f8c5a08ca67d",
+      "album_sha256": "5a5fd43cf348d1644ea86c314ca21d91975d5b9e06ee29642a5ed9de3bcccee9",
+      "decision": "probable",
+      "recording_review": "Warner identifies the saved 2025 collection as Klemperer/Philharmonia stereo symphonies. Warner Japan documents Symphonies1 and8 in October1957 with Philharmonia, supporting this EMI/HMV recording family; all target movements and required credits match.",
+      "sources": [
+        "https://www.warnerclassics.com/release/beethoven-9-symphonies-overtures-remastered",
+        "https://wmg.jp/otto-klemperer/discography/23673",
+        "https://www.discogs.com/release/12004072"
+      ],
+      "limitations": [
+        "Later compilation contains additional works outside the target LP.",
+        "Publisher recording-family documentation is not exact LP pressing, take or digital mastering verification."
+      ],
+      "target_source": {
+        "sha256": "46744fa6f4c05919bd3ac3c70cc799f1fdc90368e2633ac982307ff56c13556c",
+        "notes": "Gatefold sleeve with notes printed Inside.",
+        "formats": [
+          {
+            "name": "Vinyl",
+            "qty": "1",
+            "descriptions": [
+              "LP"
+            ]
+          }
+        ],
+        "tracklist": [
+          {
+            "position": "",
+            "type_": "index",
+            "title": "Symphonie N° 1 En Ut Majeur, Op. 21",
+            "duration": "",
+            "sub_tracks": [
+              {
+                "position": "A1",
+                "type_": "track",
+                "title": "I. Adagio Molto - Allegro Con Brio",
+                "duration": ""
+              },
+              {
+                "position": "A2",
+                "type_": "track",
+                "title": "II. Andante Cantabile Con Moto",
+                "duration": ""
+              },
+              {
+                "position": "A3",
+                "type_": "track",
+                "title": "III. Menuet (Allegro Molto E Vivace) Et Trio",
+                "duration": ""
+              },
+              {
+                "position": "A4",
+                "type_": "track",
+                "title": "IV. Finale : Allegro Molto Vivace",
+                "duration": ""
+              }
+            ]
+          },
+          {
+            "position": "",
+            "type_": "index",
+            "title": "Symphonie N° 8 En Fa Majeur, Op. 93",
+            "duration": "",
+            "sub_tracks": [
+              {
+                "position": "B1",
+                "type_": "track",
+                "title": "I. Allegro Vivace E Con Brio",
+                "duration": ""
+              },
+              {
+                "position": "B2",
+                "type_": "track",
+                "title": "II. Allegretto Scherzando",
+                "duration": ""
+              },
+              {
+                "position": "B3",
+                "type_": "track",
+                "title": "III. Tempo Di Minuetto",
+                "duration": ""
+              },
+              {
+                "position": "B4",
+                "type_": "track",
+                "title": "IV. Finale : Allegro Vivace",
+                "duration": ""
+              }
+            ]
+          }
+        ]
+      },
+      "works": [
+        {
+          "target": "Symphonie N° 1 En Ut Majeur, Op. 21",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "scope": "whole-work-inventory",
+          "source": "https://www.esm.rochester.edu/beethoven/symphony-no-1/",
+          "reason": "Full ordered credited symphony movements; a separately listed timed overture retains its single source-bound track."
+        },
+        {
+          "target": "Symphonie N° 8 En Fa Majeur, Op. 93",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "scope": "whole-work-inventory",
+          "source": "https://www.esm.rochester.edu/beethoven/symphony-no-8/",
+          "reason": "Full ordered credited symphony movements; a separately listed timed overture retains its single source-bound track."
+        }
+      ]
+    },
+    {
+      "discogs_id": "24965038",
+      "album_id": "vrg5q0y8vzvaa",
+      "target_sha256": "ffeac498efc89d4ec2a86ac917d55df532a4d601cc52e461fe8505b7ec9f6b07",
+      "album_sha256": "5a5fd43cf348d1644ea86c314ca21d91975d5b9e06ee29642a5ed9de3bcccee9",
+      "decision": "probable",
+      "recording_review": "Warner identifies the saved 2025 collection as Klemperer/Philharmonia stereo symphonies. Warner Japan documents Symphonies1 and8 in October1957 with Philharmonia, supporting this EMI/HMV recording family; all target movements and required credits match.",
+      "sources": [
+        "https://www.warnerclassics.com/release/beethoven-9-symphonies-overtures-remastered",
+        "https://wmg.jp/otto-klemperer/discography/23673",
+        "https://www.discogs.com/release/24965038"
+      ],
+      "limitations": [
+        "Later compilation contains additional works outside the target LP.",
+        "Publisher recording-family documentation is not exact LP pressing, take or digital mastering verification."
+      ],
+      "target_source": {
+        "sha256": "f99b994465e3000de9a440a327e33136ffe2a47ffbf53513264b8771e706ed0d",
+        "notes": "Made in Italy\nGrafiche Dotti Cernobbio",
+        "formats": [
+          {
+            "name": "Vinyl",
+            "qty": "1",
+            "descriptions": [
+              "LP",
+              "Album",
+              "Reissue"
+            ]
+          }
+        ],
+        "tracklist": [
+          {
+            "position": "",
+            "type_": "index",
+            "title": "Sinfonia N. 1 In Do Maggiore, Op. 21",
+            "duration": "",
+            "sub_tracks": [
+              {
+                "position": "A1",
+                "type_": "track",
+                "title": "Primo Movimento: Adagio Molto - Allegro Con Brio",
+                "duration": ""
+              },
+              {
+                "position": "A2",
+                "type_": "track",
+                "title": "Secondo Movimento: Andante Cantabile Con Moto",
+                "duration": ""
+              },
+              {
+                "position": "A3",
+                "type_": "track",
+                "title": "Terzo Movimento: Minuetto (Allegro Molto E Vivace) E Trio",
+                "duration": ""
+              },
+              {
+                "position": "A4",
+                "type_": "track",
+                "title": "Quarto Movimento: Finale (Adagio) - Allegro Molto E Vivace",
+                "duration": ""
+              }
+            ]
+          },
+          {
+            "position": "",
+            "type_": "index",
+            "title": "Sinfonia N. 8 In Fa Maggiore, Op. 93",
+            "duration": "",
+            "sub_tracks": [
+              {
+                "position": "B1",
+                "type_": "track",
+                "title": "Primo Movimento: Allegro Vivace E Con Brio",
+                "duration": ""
+              },
+              {
+                "position": "B2",
+                "type_": "track",
+                "title": "Secondo Movimento: Allegretto Scherzando",
+                "duration": ""
+              },
+              {
+                "position": "B3",
+                "type_": "track",
+                "title": "Terzo Movimento: Tempo Di Minuetto",
+                "duration": ""
+              },
+              {
+                "position": "B4",
+                "type_": "track",
+                "title": "Quarto Movimento: Finale (Allegro Vivace)",
+                "duration": ""
+              }
+            ]
+          }
+        ]
+      },
+      "works": [
+        {
+          "target": "Sinfonia N. 1 In Do Maggiore, Op. 21",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "scope": "whole-work-inventory",
+          "source": "https://www.esm.rochester.edu/beethoven/symphony-no-1/",
+          "reason": "Full ordered credited symphony movements; a separately listed timed overture retains its single source-bound track."
+        },
+        {
+          "target": "Sinfonia N. 8 In Fa Maggiore, Op. 93",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "scope": "whole-work-inventory",
+          "source": "https://www.esm.rochester.edu/beethoven/symphony-no-8/",
+          "reason": "Full ordered credited symphony movements; a separately listed timed overture retains its single source-bound track."
+        }
+      ]
+    },
+    {
+      "discogs_id": "26149832",
+      "album_id": "vrg5q0y8vzvaa",
+      "target_sha256": "592b5290c8aab9791e9cb77ba9f4f07bbd87fdfeab9d9777a93138211ad5c1e3",
+      "album_sha256": "5a5fd43cf348d1644ea86c314ca21d91975d5b9e06ee29642a5ed9de3bcccee9",
+      "decision": "probable",
+      "recording_review": "Target LP explicitly says Stereo. Warner identifies the saved collection as the stereo cycle; Warner Japan distinguishes the October1959 stereo Fifth from the 1955 mono Fifth, and documents the October1957 Philharmonia Coriolan. Both target works have complete required credits; this supports the recording family, not exact mastering.",
+      "sources": [
+        "https://www.warnerclassics.com/release/beethoven-9-symphonies-overtures-remastered",
+        "https://wmg.jp/otto-klemperer/discography/23673",
+        "https://www.discogs.com/release/26149832"
+      ],
+      "limitations": [
+        "Later compilation contains additional works outside the target LP.",
+        "Publisher recording-family documentation is not exact LP pressing, take or digital mastering verification."
+      ],
+      "target_source": {
+        "sha256": "b36534141e1fd5cdb2647d338651725fa74bfa8e93ea9e41a62108dfb6a3a17a",
+        "notes": "Made in Italy\nGrafiche Dotti, Cernobbio",
+        "formats": [
+          {
+            "name": "Vinyl",
+            "qty": "1",
+            "descriptions": [
+              "LP",
+              "Reissue",
+              "Stereo"
+            ]
+          }
+        ],
+        "tracklist": [
+          {
+            "position": "",
+            "type_": "index",
+            "title": "Sinfonia N°5 In Do Minore, Op.67",
+            "duration": "",
+            "sub_tracks": [
+              {
+                "position": "A1",
+                "type_": "track",
+                "title": "Primo Movimento : Allegro Con Brio",
+                "duration": "8:46"
+              },
+              {
+                "position": "A2",
+                "type_": "track",
+                "title": "Secondo Movimento : Andante Con Moto - Più Mosso - Tempo I ",
+                "duration": "11:06"
+              },
+              {
+                "position": "B1a",
+                "type_": "track",
+                "title": "Terzo Movimento:  Allegro",
+                "duration": ""
+              },
+              {
+                "position": "B1b",
+                "type_": "track",
+                "title": "Quarto Movimento :  Allegro - Presto",
+                "duration": "19:25"
+              }
+            ]
+          },
+          {
+            "position": "B2",
+            "type_": "track",
+            "title": "Coriolano - Ouverture Op.62",
+            "duration": "7:51"
+          }
+        ]
+      },
+      "works": [
+        {
+          "target": "Sinfonia N°5 In Do Minore, Op.67",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "scope": "whole-work-inventory",
+          "source": "https://www.laphil.com/works/symphony-no-5-in-c-minor-op-67",
+          "reason": "Full ordered credited symphony movements; a separately listed timed overture retains its single source-bound track."
+        },
+        {
+          "target": "Coriolano - Ouverture Op.62",
+          "movements": [
+            1
+          ],
+          "scope": "listed-target-track",
+          "source": "collection tracklist",
+          "reason": "Full ordered credited symphony movements; a separately listed timed overture retains its single source-bound track.",
+          "reviewed_sections": {
+            "353969769": {
+              "track_sha256": "ebe2e8d3c98e682573ca0f625235c6de3e4d603cb8bc70139c8816fb7bec9ff3",
+              "movements": [
+                1
+              ]
+            }
+          }
+        }
+      ]
     }
   ]
 }

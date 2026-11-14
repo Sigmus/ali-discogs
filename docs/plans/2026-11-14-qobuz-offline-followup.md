@@ -67,3 +67,13 @@ visible. Added six DCML-supported movement inventories (Op.31/3,49/1,49/2,53,78,
 Only one published status changes; inventories do not auto-promote any other case.
 113script tests pass, browser details/build/UI normalization pass. Next cached
 work: Klemperer recording-family sources for the five listed leads.
+
+Klemperer continuation:12004072,24965038 and26149832 accepted Probable85.
+Exact publisher2025page identifies stereo cycle; Warner Japan distinguishes
+stereo Fifth1959 from mono1955 and supplies1957Symphonies1/8/Coriolan context.
+Generic hash-bound reviews retain complete expected movements/current credits;
+Coriolan uses an exact hashed single-section binding as in existing overture
+reviews.24964822 and26149643 remain withheld because version selection is not
+resolved.3285095 remains unpublished pending stronger provenance. Four review
+regressions and browser/UI/build checks pass. Total four new Probable releases
+this continuation; unique12Found/102Probable/626Unchecked,741copy counts12/102/627.

@@ -1384,3 +1384,14 @@ from DCML overview. Replay changes only4491358; all previous statuses retained.
 Qobuz12Found/99Probable/630Unchecked copies.113script tests, UI normalization,
 build and browser detail inspection pass. Test429/STOP messages are mocked
 fixtures, not new provider warnings. No Qobuz calls or push.
+
+## 2026-11-14 — Three Klemperer recording-family reviews published
+
+Warner describes the exact2025collection as the stereo cycle; Warner Japan
+documents1957Symphonies1/8,1959stereo Fifth versus1955mono Fifth, and1957Coriolan.
+12004072/24965038 and26149832 now Probable85, with complete movement/credit
+checks and exact hash-bound overture section.24964822 and26149643 withheld:
+multiple versions remain plausible from target evidence.3285095 remains pending
+stronger recording provenance. Qobuz12Found/102Probable/627Unchecked copies;
+other status changes limited to the prior Michelangeli lead. Four review tests
+pass, UI/build and browser details pass. No Qobuz calls or push.

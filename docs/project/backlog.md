@@ -10,7 +10,8 @@ in the [14 November archive](../plans/2026-11-14-backlog-detail-archive.md).
 
 Status: agreed priority; retrieval and first offline screen/audit complete.
 [Offline follow-up](../plans/2026-11-14-qobuz-offline-followup.md): recording review
-of4491358, then shared movement-inventory gaps; no automatic promotions. Follow the
+of4491358 complete plus three Klemperer promotions; shared inventory entries
+added. Next: remaining recording-version/provenance and movement-inventory gaps. Follow the
 [retrieval and follow-up plan](../plans/2026-11-14-qobuz-remaining-retrieval.md).
 
 Order: finish/validate/export 83 metadata albums and 603 searches across the

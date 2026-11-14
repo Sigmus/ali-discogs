@@ -40,3 +40,18 @@ class RemainingReviewTests(unittest.TestCase):
         self.assertIsNone(inventory_work(row,'Sonata Op.49 No.3',self.inventory))
         self.assertIsNone(inventory_work(row,'Sonata Op.81',self.inventory))
         self.assertEqual(inventory_work(row,'Sonata Op.81a',self.inventory)['movements'],[1,2,3])
+
+    def test_klemperer_reviews_remain_complete_and_ambiguous_versions_unreviewed(self):
+        from qobuz_snapshot import load_snapshot
+        rows={str(r['discogs_id']):r for r in json.loads((ROOT/'data/collection_matches.json').read_text())}
+        reviews=json.loads((ROOT/'data/qobuz_remaining_recording_reviews.json').read_text())['releases']
+        album=load_snapshot()['albums']['vrg5q0y8vzvaa']
+        self.assertFalse({'24964822','26149643'} & {r['discogs_id'] for r in reviews})
+        for review in reviews:
+            if review['album_id'] != album['id']:continue
+            self.assertTrue(assess(rows[review['discogs_id']],album,review)[0]['eligible'])
+            altered=copy.deepcopy(album)
+            used=assess(rows[review['discogs_id']],album,review)[0]['completeness']['works'][0]['track_ids'][0]
+            altered['tracks']['items']=[t for t in altered['tracks']['items'] if t['id']!=used]
+            changed={**review,'album_sha256':fingerprint(altered)}
+            self.assertFalse(assess(rows[review['discogs_id']],altered,changed)[0]['eligible'])
