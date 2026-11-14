@@ -121,5 +121,13 @@
       ]
     }
   ],
-  "next_action": "Find primary publisher recording/cast/ensemble evidence, then scope source-role/part-heading review; no new Qobuz retrieval authorized."
+  "next_action": "Keep unchecked under current credit policy; revisit only with exact highlights edition credits or an explicitly adopted external-ensemble evidence policy.",
+  "publisher_research": {
+    "sources": [
+      "https://www.deutschegrammophon.com/en/catalogue/products/verdi-nabucco-sinopoli-12304",
+      "https://www.deutschegrammophon.com/de/kuenstler-innen/giuseppesinopoli/neuigkeiten/zum-tode-von-giuseppe-sinopoli-65333"
+    ],
+    "finding": "DG independently identifies Sinopoli, the Berlin chorus/orchestra and the named cast for the recording family. The publisher page concerns a later complete-opera reissue, not this exact11track highlights edition.",
+    "limitation": "Publisher recording-family evidence is not stored track-level conductor/ensemble evidence. Existing strict opera adapter cannot fill those gaps; no new inheritance policy enabled."
+  }
 }

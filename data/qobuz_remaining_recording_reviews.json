@@ -1648,6 +1648,201 @@
           "text": "Rhapsody No. 2 in G Minor, Op. 79"
         }
       ]
+    },
+    {
+      "discogs_id": "6113868",
+      "album_id": "vrg5q0y8vzvaa",
+      "review_kind": "source-split-finale",
+      "decision": "probable",
+      "target_sha256": "5f69747ca7547cd7f173272509901a53c49d355e4db7db0538d0ce5f993d9e2e",
+      "album_sha256": "5a5fd43cf348d1644ea86c314ca21d91975d5b9e06ee29642a5ed9de3bcccee9",
+      "source_sha256": "b95e3baf4f5c024abd9d4584d8492f133c6423d8a926d2337fdca21b4a359310",
+      "source_programme": [
+        {
+          "position": "",
+          "type_": "index",
+          "title": "Sinfonia N. 9 In Re Minore, Op. 125 \"Corale\"",
+          "duration": "",
+          "sub_tracks": [
+            {
+              "position": "A",
+              "type_": "track",
+              "title": "Primo Movimento: Allegro Ma Non Troppo, Un Poco Maestoso",
+              "duration": "16:48"
+            },
+            {
+              "position": "B1",
+              "type_": "track",
+              "title": "Secondo Movimento: Molto Vivace",
+              "duration": "15:29"
+            },
+            {
+              "position": "B2",
+              "type_": "track",
+              "title": "Terzo Movimento: Adagio Molto E Cantabile - Andante Moderato - Adagio",
+              "duration": "14:49"
+            },
+            {
+              "position": "C",
+              "type_": "track",
+              "title": "Quarto Movimento: Presto - Allegro",
+              "duration": "24:15"
+            }
+          ]
+        },
+        {
+          "position": "D1",
+          "type_": "track",
+          "title": "Leonore N. 3 Ouverture, Op. 72a In Do Maggiore",
+          "duration": "14:26"
+        },
+        {
+          "position": "D2",
+          "type_": "track",
+          "title": "Il Re Stefano Ouverture, Op. 117",
+          "duration": "7:59"
+        }
+      ],
+      "selected_track_ids": [
+        353969798,
+        353969799,
+        353969800,
+        353969801,
+        353969802,
+        353969803,
+        353969804,
+        353969805,
+        353969813,
+        353969784
+      ],
+      "track_sha256": [
+        "353e40b298c46a7573f89e1d4c14e8f0ec2e4bdd9130e51ef3b7dc86e3d2878a",
+        "5a53fabec85ce202684f95920fdb4fb896b9944411de3742f08f18aad0597481",
+        "543ca685564d42efa6517ff2b423eda94cfa16bc5c3f87563b116f5cee68ef0a",
+        "1d9f7284534cd5f26b2b4f76656713a307ae27d5bb64732961e33892f5d076ee",
+        "bff2fdef174ed46cb94db15d095c41cc2c422495fa87b8a246d63a7abb313b58",
+        "feb22411c13e8e349f4bb5255e5ed40988302bcebf583eaa5b194478048f2086",
+        "e54be97c8ab216d964f3e9aa2590ab668eb8b59081137d39143d8c06c6be817f",
+        "4d887a8d548e9c6775ec4b9e64ad69638dab37ca822b656fd22e100717f96162",
+        "629d05073b4112acefecf54ef5cd0ee335027d7188aaaf1b7df574027abec606",
+        "58aa44d87676e48f28ddd120dfb501e440f62a07328427ecf0f8edd168f9cf92"
+      ],
+      "voice_metadata_discrepancy": {
+        "track_id": 353969805,
+        "artist": "Hans Hotter",
+        "saved_role": "Contralto Vocals",
+        "other_section_role": "Bass Vocals"
+      },
+      "sources": [
+        "https://www.warnerclassics.com/release/beethoven-9-symphonies-overtures-remastered",
+        "https://www.philharmoniachorus.co.uk/events?year=1957",
+        "https://www.breitkopf.com/en/work/8550/leonore-op.-72",
+        "https://www.discogs.com/release/6113868"
+      ],
+      "recording_review": "Warner documents Klemperer’s Philharmonia Beethoven cycle. All four Ninth movements, including explicit finale sections(a)–(e), and both named overtures occur in the saved Warner compilation with Klemperer/Philharmonia on every track. All four named soloists and Philharmonia Chorus are positively credited within sung finale sections; none is required on instrumental movements. This supports a Probable EMI/Warner recording-family lead.",
+      "limitations": [
+        "Exact LP pressing, session/take and digital mastering remain unverified; the same cast also performed live, so cast agreement alone is not session proof.",
+        "Source calls Leonore No.3 Op.72a; digital file calls No.3 Op.72b. Bound by explicit No.3 identity, not a global opus-suffix alias.",
+        "Finale last section incorrectly labels Hans Hotter Contralto; an earlier section credits the same artist Bass. Discrepancy retained, not silently corrected."
+      ]
+    },
+    {
+      "discogs_id": "6119375",
+      "album_id": "vrg5q0y8vzvaa",
+      "review_kind": "source-split-finale",
+      "decision": "probable",
+      "target_sha256": "6ec6d4bff290bee2cf89b997806fb9426ac5006ddd853191fea692114986d32e",
+      "album_sha256": "5a5fd43cf348d1644ea86c314ca21d91975d5b9e06ee29642a5ed9de3bcccee9",
+      "source_sha256": "32223ef1988a4e96dc98718939ade3838c8a470f2b659f89de063748037703ff",
+      "source_programme": [
+        {
+          "position": "",
+          "type_": "index",
+          "title": "Symphonie N°9 En Ré Mineur, Op.125 \"Avec Chœurs\"",
+          "duration": "",
+          "sub_tracks": [
+            {
+              "position": "A",
+              "type_": "track",
+              "title": "1er Mouvement: Allegro Ma Non Troppo, Un Poco Maestoso",
+              "duration": "17:05"
+            },
+            {
+              "position": "B1",
+              "type_": "track",
+              "title": "2me Mouvement: Molto Vivace",
+              "duration": "15:40"
+            },
+            {
+              "position": "B2",
+              "type_": "track",
+              "title": "3me Mouvement: Adagio Molto E Cantabile - Andante Moderato - Adagio",
+              "duration": "14:50"
+            },
+            {
+              "position": "C",
+              "type_": "track",
+              "title": "4me Mouvement: Presto - Allegro ",
+              "duration": "24:20"
+            }
+          ]
+        },
+        {
+          "position": "D1",
+          "type_": "track",
+          "title": "Léonore - Ouverture N°3, Op.72a",
+          "duration": "14:34"
+        },
+        {
+          "position": "D2",
+          "type_": "track",
+          "title": "\"König Stephan\" - Ouverture, Op.117",
+          "duration": "14:42"
+        }
+      ],
+      "selected_track_ids": [
+        353969798,
+        353969799,
+        353969800,
+        353969801,
+        353969802,
+        353969803,
+        353969804,
+        353969805,
+        353969813,
+        353969784
+      ],
+      "track_sha256": [
+        "353e40b298c46a7573f89e1d4c14e8f0ec2e4bdd9130e51ef3b7dc86e3d2878a",
+        "5a53fabec85ce202684f95920fdb4fb896b9944411de3742f08f18aad0597481",
+        "543ca685564d42efa6517ff2b423eda94cfa16bc5c3f87563b116f5cee68ef0a",
+        "1d9f7284534cd5f26b2b4f76656713a307ae27d5bb64732961e33892f5d076ee",
+        "bff2fdef174ed46cb94db15d095c41cc2c422495fa87b8a246d63a7abb313b58",
+        "feb22411c13e8e349f4bb5255e5ed40988302bcebf583eaa5b194478048f2086",
+        "e54be97c8ab216d964f3e9aa2590ab668eb8b59081137d39143d8c06c6be817f",
+        "4d887a8d548e9c6775ec4b9e64ad69638dab37ca822b656fd22e100717f96162",
+        "629d05073b4112acefecf54ef5cd0ee335027d7188aaaf1b7df574027abec606",
+        "58aa44d87676e48f28ddd120dfb501e440f62a07328427ecf0f8edd168f9cf92"
+      ],
+      "voice_metadata_discrepancy": {
+        "track_id": 353969805,
+        "artist": "Hans Hotter",
+        "saved_role": "Contralto Vocals",
+        "other_section_role": "Bass Vocals"
+      },
+      "sources": [
+        "https://www.warnerclassics.com/release/beethoven-9-symphonies-overtures-remastered",
+        "https://www.philharmoniachorus.co.uk/events?year=1957",
+        "https://www.breitkopf.com/en/work/8550/leonore-op.-72",
+        "https://www.discogs.com/release/6119375"
+      ],
+      "recording_review": "Warner documents Klemperer’s Philharmonia Beethoven cycle. All four Ninth movements, including explicit finale sections(a)–(e), and both named overtures occur in the saved Warner compilation with Klemperer/Philharmonia on every track. All four named soloists and Philharmonia Chorus are positively credited within sung finale sections; none is required on instrumental movements. This supports a Probable EMI/Warner recording-family lead.",
+      "limitations": [
+        "Exact LP pressing, session/take and digital mastering remain unverified; the same cast also performed live, so cast agreement alone is not session proof.",
+        "Source calls Leonore No.3 Op.72a; digital file calls No.3 Op.72b. Bound by explicit No.3 identity, not a global opus-suffix alias.",
+        "Finale last section incorrectly labels Hans Hotter Contralto; an earlier section credits the same artist Bass. Discrepancy retained, not silently corrected.",
+        "Source prints König Stephan14:42; saved track8:09. Title/opus identity supports the lead, but duration discrepancy remains unresolved."
+      ]
     }
   ]
 }

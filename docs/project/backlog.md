@@ -10,11 +10,14 @@ in the [14 November archive](../plans/2026-11-14-backlog-detail-archive.md).
 
 Status: agreed priority; retrieval and first offline screen/audit complete.
 [Offline follow-up](../plans/2026-11-14-qobuz-offline-followup.md): recording review
-now includes ten new Probables and shared inventory/parser fixes. Nine-album
-follow-up complete216tracks:2Probables/9withheld release leads. Next: scope
-Nabucco primary publisher cast/ensemble research after cached part-heading audit. Nielsen/Gould and
-three Katchen programmes now Probable;138script tests pass. Mozart remains
-withheld for named-player credit gaps and catalogue ambiguity.170remaining metadata-needed releases are not a fetch mandate. Follow the
+now includes seventeen new Probables and shared inventory/parser fixes. Nine-album
+follow-up complete216tracks:7Probables/4withheld release leads after further
+reviews. Next:
+Schnabel4352998 source-side partition/key audit. Nielsen/Gould, three Katchen
+programmes and two Klemperer Ninth LPs now Probable;142script tests pass.
+Nabucco publisher evidence saved but track credits remain insufficient. Mozart
+remains withheld for named-player credit gaps and catalogue ambiguity.
+170remaining metadata-needed releases are not a fetch mandate. Follow the
 [retrieval and follow-up plan](../plans/2026-11-14-qobuz-remaining-retrieval.md).
 
 Order: finish/validate/export 83 metadata albums and 603 searches across the

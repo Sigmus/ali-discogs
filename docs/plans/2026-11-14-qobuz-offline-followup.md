@@ -270,3 +270,30 @@ also invalidate a naive every-singer-on-every-track requirement. No label change
 Next: primary publisher recording/cast/ensemble evidence, then a bounded source-role
 and part-heading treatment. No generic credit inheritance, deletion of named
 artists, new retrieval or unsupported recording-family claim.
+
+
+## Nabucco publisher research and Klemperer split finale
+
+DG’s Nabucco reissue page and Sinopoli obituary independently identify the cast,
+conductor and Berlin chorus/orchestra. These support the recording family but
+concern the complete opera, not the saved11track highlights edition. Existing
+strict opera adapter requires track ensemble/conductor evidence. No external
+ensemble-inheritance policy adopted; Nabucco stays unchecked. Audit report updated.
+
+Continued to cached Klemperer6113868/6119375. New frozen `source-split-finale`
+review binds exact source programmes/album/track hashes and ten selected IDs:
+Ninth movementsI/II/III plusIV(a)–(e), Leonore3 and König Stephan. Requires
+Klemperer/Philharmonia and Beethoven on every selected track; all four named
+soloists and chorus remain positively required within the sung finale. Never
+require singers on instrumental movements, or borrow album-level missing credits.
+
+Warner documents the Philharmonia cycle; chorus archive documents the cast but
+also its live performances, so cast agreement is explicitly not exact session
+proof. LeonoreNo.3 printed72a versus saved72b is bound by the named overture,
+not globally aliased (primary cataloguing conventions differ). Last finale track
+mislabels Hotter Contralto, while an earlier section says Bass; discrepancy stays
+visible. French LP prints König Stephan14:42 versus saved8:09; unresolved duration
+retained. Recording-family Probable85 only; exact LP pressing/takes/mastering not
+claimed. Four regressions reject missing/reordered/repeated finale sections,
+missing named voice/chorus or wrong conductor/orchestra, stale source and hidden
+voice discrepancy. No Qobuz requests or automatic push/deployment.

@@ -48,6 +48,9 @@ def assess(row, album, review):
             target_fingerprint(row) != review['target_sha256'] or
             fingerprint(album) != review['album_sha256']):
         raise ValueError('Reviewed evidence changed; review again before publication')
+    if review.get('review_kind') == 'source-split-finale':
+        from qobuz_choral_finale_review import assess_finale
+        return assess_finale(row, album, review)
     if review.get('review_kind') == 'nested-bwv-pairs':
         from qobuz_nested_pair_review import assess_nested_pairs
         return assess_nested_pairs(row, album, review)

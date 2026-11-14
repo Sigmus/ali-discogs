@@ -29,7 +29,7 @@
   "richter_review_fingerprint": "a14865f86e46150593e39bfa285fa6c7c61c8f46147b8094c0cb048fd02118ab",
   "round2_review_fingerprint": "be60742c3d35f5a9aa67f200642f7fcde98a52562a46130e043db8f4aa7c851e",
   "round2_metadata_fingerprint": "9db62d7bf62d4b77f5acf422dfde77959f845f4dc00b2ac0e10c02ccea295860",
-  "remaining_review_fingerprint": "2a08e2d5262f6950217435831e432bf359ad31674ba667fe63067e5ceff077f4",
+  "remaining_review_fingerprint": "8e34d818b85f87a1dd8174c6b50bb73a76f1870594ca239119756950cb4f2dd4",
   "remaining_metadata_fingerprint": "393b2d12e176160ab311b65267b38bdc8c205222e12f792bf07eba5c1fcfafbf",
   "remaining_followup_metadata_fingerprint": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
   "remaining_followup_scope_fingerprint": "41780b365b45dcd74f5ffd053bfe546c3c873eae535dd66250297799f48c2daa",
@@ -97345,14 +97345,167 @@
       ]
     },
     "6113868": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "vrg5q0y8vzvaa",
+        "name": "Beethoven: The 9 Symphonies & Overtures (Remastered)",
+        "artists": [
+          "Otto Klemperer"
+        ],
+        "label": "Warner Classics",
+        "release_date": "2025-09-22",
+        "image": "https://static.qobuz.com/images/covers/aa/zv/vrg5q0y8vzvaa_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/beethoven-the-9-symphonies-overtures-remastered-otto-klemperer/vrg5q0y8vzvaa"
+      },
+      "candidates": [
+        {
+          "id": "vrg5q0y8vzvaa",
+          "name": "Beethoven: The 9 Symphonies & Overtures (Remastered)",
+          "artists": [
+            "Otto Klemperer"
+          ],
+          "label": "Warner Classics",
+          "release_date": "2025-09-22",
+          "image": "https://static.qobuz.com/images/covers/aa/zv/vrg5q0y8vzvaa_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/beethoven-the-9-symphonies-overtures-remastered-otto-klemperer/vrg5q0y8vzvaa",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 3,
+          "target_count": 3,
+          "required_performers": [
+            "Otto Klemperer",
+            "Philharmonia Orchestra"
+          ],
+          "programme": [
+            {
+              "target": "Sinfonia N. 9 In Re Minore, Op. 125 \"Corale\"",
+              "track_ids": [
+                353969798,
+                353969799,
+                353969800,
+                353969801,
+                353969802,
+                353969803,
+                353969804,
+                353969805
+              ],
+              "work_tracks": 8,
+              "credited_tracks": 8,
+              "credit_policy": "Conductor/orchestra on every track; all named singers/chorus evidenced within sung finale."
+            },
+            {
+              "target": "Leonore N. 3 Ouverture, Op. 72a In Do Maggiore",
+              "track_ids": [
+                353969813
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "Il Re Stefano Ouverture, Op. 117",
+              "track_ids": [
+                353969784
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
+            }
+          ],
+          "reasons": [
+            "Four complete reviewed movements; IV explicitly contains sections(a)–(e), with scoped positive voice/chorus evidence.",
+            "Warner documents Klemperer’s Philharmonia Beethoven cycle. All four Ninth movements, including explicit finale sections(a)–(e), and both named overtures occur in the saved Warner compilation with Klemperer/Philharmonia on every track. All four named soloists and Philharmonia Chorus are positively credited within sung finale sections; none is required on instrumental movements. This supports a Probable EMI/Warner recording-family lead.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Exact LP pressing, session/take and digital mastering remain unverified; the same cast also performed live, so cast agreement alone is not session proof.",
+            "Source calls Leonore No.3 Op.72a; digital file calls No.3 Op.72b. Bound by explicit No.3 identity, not a global opus-suffix alias.",
+            "Finale last section incorrectly labels Hans Hotter Contralto; an earlier section credits the same artist Bass. Discrepancy retained, not silently corrected."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Sinfonia N. 9 In Re Minore, Op. 125 \"Corale\"",
+                "status": "complete",
+                "scope": "source-bound-split-finale",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "movement_track_ids": [
+                  [
+                    353969798
+                  ],
+                  [
+                    353969799
+                  ],
+                  [
+                    353969800
+                  ],
+                  [
+                    353969801,
+                    353969802,
+                    353969803,
+                    353969804,
+                    353969805
+                  ]
+                ],
+                "track_ids": [
+                  353969798,
+                  353969799,
+                  353969800,
+                  353969801,
+                  353969802,
+                  353969803,
+                  353969804,
+                  353969805
+                ]
+              },
+              {
+                "target": "Leonore N. 3 Ouverture, Op. 72a In Do Maggiore",
+                "status": "complete",
+                "scope": "source-bound-overture",
+                "track_ids": [
+                  353969813
+                ]
+              },
+              {
+                "target": "Il Re Stefano Ouverture, Op. 117",
+                "status": "complete",
+                "scope": "source-bound-overture",
+                "track_ids": [
+                  353969784
+                ]
+              }
+            ],
+            "overlapping_target_tracks": false
+          },
+          "recording_review": "Warner documents Klemperer’s Philharmonia Beethoven cycle. All four Ninth movements, including explicit finale sections(a)–(e), and both named overtures occur in the saved Warner compilation with Klemperer/Philharmonia on every track. All four named soloists and Philharmonia Chorus are positively credited within sung finale sections; none is required on instrumental movements. This supports a Probable EMI/Warner recording-family lead.",
+          "review_sources": [
+            "https://www.warnerclassics.com/release/beethoven-9-symphonies-overtures-remastered",
+            "https://www.philharmoniachorus.co.uk/events?year=1957",
+            "https://www.breitkopf.com/en/work/8550/leonore-op.-72",
+            "https://www.discogs.com/release/6113868"
+          ]
+        }
+      ],
       "query": "otto klemperer beethoven sinfonia n 9 corale leonore n 3 il re stefano",
       "searched_at": "2026-11-12T16:28:08.273489+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Four complete reviewed movements; IV explicitly contains sections(a)–(e), with scoped positive voice/chorus evidence.",
+        "Warner documents Klemperer’s Philharmonia Beethoven cycle. All four Ninth movements, including explicit finale sections(a)–(e), and both named overtures occur in the saved Warner compilation with Klemperer/Philharmonia on every track. All four named soloists and Philharmonia Chorus are positively credited within sung finale sections; none is required on instrumental movements. This supports a Probable EMI/Warner recording-family lead.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Exact LP pressing, session/take and digital mastering remain unverified; the same cast also performed live, so cast agreement alone is not session proof.",
+        "Source calls Leonore No.3 Op.72a; digital file calls No.3 Op.72b. Bound by explicit No.3 identity, not a global opus-suffix alias.",
+        "Finale last section incorrectly labels Hans Hotter Contralto; an earlier section credits the same artist Bass. Discrepancy retained, not silently corrected."
       ]
     },
     "8962178": {
@@ -99180,14 +99333,175 @@
       ]
     },
     "6119375": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "vrg5q0y8vzvaa",
+        "name": "Beethoven: The 9 Symphonies & Overtures (Remastered)",
+        "artists": [
+          "Otto Klemperer"
+        ],
+        "label": "Warner Classics",
+        "release_date": "2025-09-22",
+        "image": "https://static.qobuz.com/images/covers/aa/zv/vrg5q0y8vzvaa_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/beethoven-the-9-symphonies-overtures-remastered-otto-klemperer/vrg5q0y8vzvaa"
+      },
+      "candidates": [
+        {
+          "id": "vrg5q0y8vzvaa",
+          "name": "Beethoven: The 9 Symphonies & Overtures (Remastered)",
+          "artists": [
+            "Otto Klemperer"
+          ],
+          "label": "Warner Classics",
+          "release_date": "2025-09-22",
+          "image": "https://static.qobuz.com/images/covers/aa/zv/vrg5q0y8vzvaa_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/beethoven-the-9-symphonies-overtures-remastered-otto-klemperer/vrg5q0y8vzvaa",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 3,
+          "target_count": 3,
+          "required_performers": [
+            "Otto Klemperer",
+            "Philharmonia Orchestra",
+            "Philharmonia Chorus",
+            "Aase Nordmo Løvberg",
+            "Christa Ludwig",
+            "Waldemar Kmentt",
+            "Hans Hotter"
+          ],
+          "programme": [
+            {
+              "target": "Symphonie N°9 En Ré Mineur, Op.125 \"Avec Chœurs\"",
+              "track_ids": [
+                353969798,
+                353969799,
+                353969800,
+                353969801,
+                353969802,
+                353969803,
+                353969804,
+                353969805
+              ],
+              "work_tracks": 8,
+              "credited_tracks": 8,
+              "credit_policy": "Conductor/orchestra on every track; all named singers/chorus evidenced within sung finale."
+            },
+            {
+              "target": "Léonore - Ouverture N°3, Op.72a",
+              "track_ids": [
+                353969813
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
+            },
+            {
+              "target": "\"König Stephan\" - Ouverture, Op.117",
+              "track_ids": [
+                353969784
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1
+            }
+          ],
+          "reasons": [
+            "Four complete reviewed movements; IV explicitly contains sections(a)–(e), with scoped positive voice/chorus evidence.",
+            "Warner documents Klemperer’s Philharmonia Beethoven cycle. All four Ninth movements, including explicit finale sections(a)–(e), and both named overtures occur in the saved Warner compilation with Klemperer/Philharmonia on every track. All four named soloists and Philharmonia Chorus are positively credited within sung finale sections; none is required on instrumental movements. This supports a Probable EMI/Warner recording-family lead.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Exact LP pressing, session/take and digital mastering remain unverified; the same cast also performed live, so cast agreement alone is not session proof.",
+            "Source calls Leonore No.3 Op.72a; digital file calls No.3 Op.72b. Bound by explicit No.3 identity, not a global opus-suffix alias.",
+            "Finale last section incorrectly labels Hans Hotter Contralto; an earlier section credits the same artist Bass. Discrepancy retained, not silently corrected.",
+            "Source prints König Stephan14:42; saved track8:09. Title/opus identity supports the lead, but duration discrepancy remains unresolved."
+          ],
+          "work_group_policy": "qobuz-work-groups-v1",
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Symphonie N°9 En Ré Mineur, Op.125 \"Avec Chœurs\"",
+                "status": "complete",
+                "scope": "source-bound-split-finale",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "movement_track_ids": [
+                  [
+                    353969798
+                  ],
+                  [
+                    353969799
+                  ],
+                  [
+                    353969800
+                  ],
+                  [
+                    353969801,
+                    353969802,
+                    353969803,
+                    353969804,
+                    353969805
+                  ]
+                ],
+                "track_ids": [
+                  353969798,
+                  353969799,
+                  353969800,
+                  353969801,
+                  353969802,
+                  353969803,
+                  353969804,
+                  353969805
+                ]
+              },
+              {
+                "target": "Léonore - Ouverture N°3, Op.72a",
+                "status": "complete",
+                "scope": "source-bound-overture",
+                "track_ids": [
+                  353969813
+                ]
+              },
+              {
+                "target": "\"König Stephan\" - Ouverture, Op.117",
+                "status": "complete",
+                "scope": "source-bound-overture",
+                "track_ids": [
+                  353969784
+                ]
+              }
+            ],
+            "overlapping_target_tracks": false
+          },
+          "recording_review": "Warner documents Klemperer’s Philharmonia Beethoven cycle. All four Ninth movements, including explicit finale sections(a)–(e), and both named overtures occur in the saved Warner compilation with Klemperer/Philharmonia on every track. All four named soloists and Philharmonia Chorus are positively credited within sung finale sections; none is required on instrumental movements. This supports a Probable EMI/Warner recording-family lead.",
+          "review_sources": [
+            "https://www.warnerclassics.com/release/beethoven-9-symphonies-overtures-remastered",
+            "https://www.philharmoniachorus.co.uk/events?year=1957",
+            "https://www.breitkopf.com/en/work/8550/leonore-op.-72",
+            "https://www.discogs.com/release/6119375"
+          ]
+        }
+      ],
       "query": "otto klemperer beethoven symphonie ndeg9 ouvertures leonore iii konig stephan",
       "searched_at": "2026-11-12T16:38:39.391356+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Four complete reviewed movements; IV explicitly contains sections(a)–(e), with scoped positive voice/chorus evidence.",
+        "Warner documents Klemperer’s Philharmonia Beethoven cycle. All four Ninth movements, including explicit finale sections(a)–(e), and both named overtures occur in the saved Warner compilation with Klemperer/Philharmonia on every track. All four named soloists and Philharmonia Chorus are positively credited within sung finale sections; none is required on instrumental movements. This supports a Probable EMI/Warner recording-family lead.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Exact LP pressing, session/take and digital mastering remain unverified; the same cast also performed live, so cast agreement alone is not session proof.",
+        "Source calls Leonore No.3 Op.72a; digital file calls No.3 Op.72b. Bound by explicit No.3 identity, not a global opus-suffix alias.",
+        "Finale last section incorrectly labels Hans Hotter Contralto; an earlier section credits the same artist Bass. Discrepancy retained, not silently corrected.",
+        "Source prints König Stephan14:42; saved track8:09. Title/opus identity supports the lead, but duration discrepancy remains unresolved."
       ]
     },
     "12498594": {

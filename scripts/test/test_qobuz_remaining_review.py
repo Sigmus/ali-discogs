@@ -54,7 +54,12 @@ class RemainingReviewTests(unittest.TestCase):
             used=assess(rows[review['discogs_id']],album,review)[0]['completeness']['works'][0]['track_ids'][0]
             altered['tracks']['items']=[t for t in altered['tracks']['items'] if t['id']!=used]
             changed={**review,'album_sha256':fingerprint(altered)}
-            self.assertFalse(assess(rows[review['discogs_id']],altered,changed)[0]['eligible'])
+            if review.get('review_kind') == 'source-split-finale':
+                # Frozen section reviews reject changed track inventories outright.
+                with self.assertRaises(ValueError):
+                    assess(rows[review['discogs_id']],altered,changed)
+            else:
+                self.assertFalse(assess(rows[review['discogs_id']],altered,changed)[0]['eligible'])
 
     def test_concerto_inventory_rejects_missing_movement_and_bad_credit(self):
         rows=json.loads((ROOT/'data/collection_matches.json').read_text())

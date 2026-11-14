@@ -1501,3 +1501,23 @@ matching candidate track count. Report binds source/target/album hashes and reco
 all11track-level conductor/orchestra/chorus credit gaps. Scene roles need scoped
 requirements; neither equal counts nor album artists replace evidence. Kept
 unchecked, no provider calls. Next primary publisher cast/recording evidence.
+
+
+### 2026-11-14 — Nabucco publisher evidence and Klemperer finale review
+
+DG confirms Nabucco recording family/cast/ensembles, but later complete-opera
+reissue evidence does not fill saved highlights track credits. Report updated;
+kept3167056unchecked and continued to cached Klemperer leads.
+
+6113868/6119375 become Probable85 via frozen source-split-finale review:8Ninth
+tracks account for four movements including all5finale sections, plus two named
+overtures. All source voices/chorus positively present within sung finale;
+conductor/orchestra/Beethoven required on every selected track. No credit borrowing.
+Warner cycle/chorus archive support recording family; no exact session claim.
+Leonore suffix conventions, Hotter Contralto label and French printed overture
+duration mismatch remain explicit. Only these2labels changed; UI normalization
+and static build pass. Copies12Found/115Probable/614Unchecked. No Qobuz calls,
+push/deployment. Next source-bound Schnabel side partition/key audit.
+
+Validation:142script tests pass after the older Klemperer missing-track test was
+updated to expect the new frozen adapter’s explicit ValueError rejection.
