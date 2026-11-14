@@ -13,7 +13,7 @@ try {
   document.documentElement.setAttribute("data-theme", t);
 } catch (e) {}
 </script>
-<link rel="stylesheet" href="style.css?v=20261113-followup-review">
+<link rel="stylesheet" href="style.css?v=20261114-header-gap">
 
 </head>
 <body>
@@ -21,7 +21,6 @@ try {
 <header class="app-header"><a class="brand" href="./">Ali’s collection</a><button id="theme" aria-label="Switch theme"><span class="icon-moon">☽</span><span class="icon-sun">☀</span></button></header>
 <main class="page-shell">
 <section id="collection-view">
-<h1>Albums</h1><p id="lede" class="quiet">Loading the collection…</p>
 <form id="filters" class="filters">
 <label class="search">Search<input id="q" type="search" placeholder="Title, composer, performer" autocomplete="off"></label>
 <label>Spotify match<select class="view-select" id="sp"><option value="">All statuses</option><option value="found">Found</option><option value="probable">Probable</option><option value="not_found">Not found</option><option value="pending">Pending</option><option value="unchecked">Unchecked</option></select></label>
@@ -37,5 +36,5 @@ try {
 <footer><span id="foot"></span><a href="https://www.discogs.com/user/ajozi/collection">ajozi on Discogs</a><a id="sample-link" href="?data=fixture">Sample data</a></footer>
 </main>
 <noscript>This page needs JavaScript to load the collection.</noscript>
-<script src="app.js?v=20261113-followup-review"></script>
+<script src="app.js?v=20261114-no-lede"></script>
 </body></html>

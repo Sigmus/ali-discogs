@@ -439,7 +439,6 @@
 
   function boot() {
     const $ = id => document.getElementById(id);
-    const lede = $("lede");
     const notice = $("notice");
     const q = $("q");
     const sp = $("sp");
@@ -876,10 +875,6 @@
         ready = true;
         fillFilters();
         syncControls();
-        const who = meta.user && meta.user !== "sample" ? meta.user : "ajozi";
-        lede.textContent = sample
-          ? `${items.length.toLocaleString()} sample releases with invented matches, for checking badges. Not Ali’s collection.`
-          : `${items.length.toLocaleString()} releases · Discogs collection of ${who}`;
         showNotice(meta);
         const when = meta.fetched_at ? addedLabel(meta.fetched_at) : "";
         foot.textContent = when

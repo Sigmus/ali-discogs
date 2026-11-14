@@ -20,7 +20,7 @@ plans preserve dated evidence and prior handoffs.
 - Qobuz overlay: 12 Found / 98 Probable / 631 unchecked copies; unique 12/98/630.
   Separate `data/qobuz_matches.json` survives Spotify rescoring; original pipeline
   Qobuz fields stay unchecked. Empty/inconclusive queries are not confirmed absence.
-- Sonoteque table/details, 80% main width, column sorting (Year ascending default),
+- Sonoteque table/details, full width with the header’s 16px side inset,
   Spotify/Qobuz filters and frequency-order switch. Qobuz details show evidence.
 - Live site: https://sigmus.github.io/ali-discogs/ . Main Pages workflow validates
   before publishing. Release02ec297 test/Pages runs passed; live asset bytes match.

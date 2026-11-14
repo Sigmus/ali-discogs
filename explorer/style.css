@@ -74,9 +74,8 @@ button,a,input,select,summary {
   display:none;
 }
 .page-shell {
-  max-width:80%;
-  margin:auto;
-  padding:32px 24px;
+  margin:0;
+  padding:16px;
 }
 h1 {
   font-size:24px;
@@ -359,9 +358,6 @@ footer {
   background:var(--c-surface);
 }
 @media(max-width:640px) {
-  .page-shell {
-    padding:24px 16px;
-  }
   .detail-head {
     grid-template-columns:96px minmax(0,1fr);
     gap:16px;
