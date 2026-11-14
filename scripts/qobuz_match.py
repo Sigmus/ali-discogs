@@ -356,6 +356,24 @@ def generate():
         if review['review_kind'] != 'side-ranges' or review['discogs_id'] in round2_reviews:
             raise ValueError('Invalid or duplicate side-range review')
         round2_reviews[review['discogs_id']] = review
+    remaining_meta_path = ROOT/'data/qobuz_remaining_metadata.json.gz'
+    remaining_review_path = ROOT/'data/qobuz_remaining_recording_reviews.json'
+    remaining_meta = json.loads(gzip.decompress(remaining_meta_path.read_bytes()))
+    remaining_reviews = json.loads(remaining_review_path.read_text())
+    if remaining_meta['schema_version'] != 1 or remaining_reviews['schema_version'] != 1:
+        raise ValueError('Unsupported remaining evidence')
+    for record in remaining_meta['metadata']:
+        album = record['album']; tracks = album['tracks']['items']
+        if str(album['id']) != record['task']['album_id'] or len(tracks) != album['tracks_count'] or len({t['id'] for t in tracks}) != len(tracks):
+            raise ValueError('Incomplete remaining metadata')
+        aid = str(album['id'])
+        if aid in round2_albums and round2_albums[aid] != album:
+            raise ValueError('Conflicting remaining metadata')
+        round2_albums[aid] = album
+    for review in remaining_reviews['releases']:
+        if review['discogs_id'] in round2_reviews:
+            raise ValueError('Duplicate remaining review')
+        round2_reviews[review['discogs_id']] = review
     results = {}
     for entry in manifest['entries']:
         rid = entry['discogs_id']
@@ -418,6 +436,8 @@ def generate():
               'richter_review_fingerprint': hashlib.sha256(richter_path.read_bytes()).hexdigest(),
               'round2_review_fingerprint': hashlib.sha256(round2_path.read_bytes()).hexdigest(),
               'round2_metadata_fingerprint': hashlib.sha256(round2_meta_path.read_bytes()).hexdigest(),
+              'remaining_review_fingerprint': hashlib.sha256(remaining_review_path.read_bytes()).hexdigest(),
+              'remaining_metadata_fingerprint': hashlib.sha256(remaining_meta_path.read_bytes()).hexdigest(),
               'releases': results}
     path = ROOT/'data/qobuz_matches.json'
     temp = path.with_suffix('.tmp')

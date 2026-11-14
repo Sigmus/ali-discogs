@@ -1,0 +1,361 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-14",
+  "screen_sha256": "7d70b6f12f48d7c535d9d6bce736ee37ae0e4f96233d14c46bc7bc3fe3a2b17d",
+  "entries": [
+    {
+      "discogs_id": "3285095",
+      "album_id": "i4ztk0dz6n6gc",
+      "target_sha256": "cf2f9a1d50a0c9f85f1de69ab16f5ddfc38cea81f8d0b577545028ad1137fe86",
+      "album_sha256": "8a7af97fe692781973aaf5f0a25c367040eb6b62c2a8c9d17e58843b49aefbec",
+      "target_title": "Sonate Pour Piano N° 4 En Mi Bémol Majeur",
+      "candidate_title": "Beethoven: Piano Concertos Nos.1, 3 & 5 / Piano Sonata No. 4",
+      "supported_track_ids": [
+        189440396,
+        189440397,
+        189440398,
+        189440399
+      ],
+      "decision": "withhold_pending_recording_review",
+      "programme": "All current target work units have required credits and complete non-overlapping expected movements/listed timed tracks.",
+      "remaining_gap": "Published source is a later digital compilation; matching artist/programme/label alone does not establish target recording family.",
+      "limitations": [
+        "No exact LP pressing/mastering verification.",
+        "No promotion from the discovery rank."
+      ]
+    },
+    {
+      "discogs_id": "4491358",
+      "album_id": "g844jwmjmn7vb",
+      "target_sha256": "23202f87011e6e15dc5d05569f72ef178b06ebbc42b58c154ce4ed26f482f693",
+      "album_sha256": "c01e527da70096eabff4a9c8808a0221fd425c8f764010dd90465a9bfd9780dc",
+      "target_title": "Klavierkonzert No. 5 = \"Emperor\" Concerto",
+      "candidate_title": "Beethoven: Piano Concerto No.5 in E-Flat Major, Op.  73",
+      "supported_track_ids": [
+        69302684,
+        69302685,
+        69302686
+      ],
+      "decision": "published_probable",
+      "programme": "All current target work units have required credits and complete non-overlapping expected movements/listed timed tracks.",
+      "remaining_gap": "Exact pressing, takes and mastering unverified; publisher supports live televised Vienna recording family. See qobuz_remaining_recording_reviews.json.",
+      "limitations": [
+        "No exact LP pressing/mastering verification.",
+        "No promotion from the discovery rank."
+      ]
+    },
+    {
+      "discogs_id": "12004072",
+      "album_id": "vrg5q0y8vzvaa",
+      "target_sha256": "78d343ef2ff3262dcab1d552e768ba2fd48602c854373db7654e81f5eb5508e2",
+      "album_sha256": "5a5fd43cf348d1644ea86c314ca21d91975d5b9e06ee29642a5ed9de3bcccee9",
+      "target_title": "Symphonies N°1 En Ut Majeur - N°8 En Fa Majeur, Op. 93",
+      "candidate_title": "Beethoven: The 9 Symphonies & Overtures (Remastered)",
+      "supported_track_ids": [
+        353969761,
+        353969762,
+        353969763,
+        353969764,
+        353969794,
+        353969795,
+        353969796,
+        353969797
+      ],
+      "decision": "withhold_pending_recording_review",
+      "programme": "All current target work units have required credits and complete non-overlapping expected movements/listed timed tracks.",
+      "remaining_gap": "Published source is a later digital compilation; matching artist/programme/label alone does not establish target recording family.",
+      "limitations": [
+        "No exact LP pressing/mastering verification.",
+        "No promotion from the discovery rank."
+      ]
+    },
+    {
+      "discogs_id": "4491358",
+      "album_id": "i4ztk0dz6n6gc",
+      "target_sha256": "23202f87011e6e15dc5d05569f72ef178b06ebbc42b58c154ce4ed26f482f693",
+      "album_sha256": "8a7af97fe692781973aaf5f0a25c367040eb6b62c2a8c9d17e58843b49aefbec",
+      "target_title": "Klavierkonzert No. 5 = \"Emperor\" Concerto",
+      "candidate_title": "Beethoven: Piano Concertos Nos.1, 3 & 5 / Piano Sonata No. 4",
+      "supported_track_ids": [
+        189440393,
+        189440394,
+        189440395
+      ],
+      "decision": "withhold_pending_recording_review",
+      "programme": "All current target work units have required credits and complete non-overlapping expected movements/listed timed tracks.",
+      "remaining_gap": "Published source is a later digital compilation; matching artist/programme/label alone does not establish target recording family.",
+      "limitations": [
+        "No exact LP pressing/mastering verification.",
+        "No promotion from the discovery rank."
+      ]
+    },
+    {
+      "discogs_id": "24964822",
+      "album_id": "vrg5q0y8vzvaa",
+      "target_sha256": "3695a518d14c821dc97e10ab1a1d64c8bb199005bc21ad6b65087f4ba91fd21e",
+      "album_sha256": "5a5fd43cf348d1644ea86c314ca21d91975d5b9e06ee29642a5ed9de3bcccee9",
+      "target_title": "Sinfonia N.2 , Leonore N.2 , Prometheus",
+      "candidate_title": "Beethoven: The 9 Symphonies & Overtures (Remastered)",
+      "supported_track_ids": [
+        353969765,
+        353969766,
+        353969767,
+        353969768,
+        353969770,
+        353969811
+      ],
+      "decision": "withhold_pending_recording_review",
+      "programme": "All current target work units have required credits and complete non-overlapping expected movements/listed timed tracks.",
+      "remaining_gap": "Published source is a later digital compilation; matching artist/programme/label alone does not establish target recording family.",
+      "limitations": [
+        "No exact LP pressing/mastering verification.",
+        "No promotion from the discovery rank."
+      ]
+    },
+    {
+      "discogs_id": "26149643",
+      "album_id": "vrg5q0y8vzvaa",
+      "target_sha256": "152f0d09c6ab2e9be40c55f3ad11f7b22c15bd639e3230ab428b189bfdda1b7d",
+      "album_sha256": "5a5fd43cf348d1644ea86c314ca21d91975d5b9e06ee29642a5ed9de3bcccee9",
+      "target_title": "Sinfonia N.7 Die Weihe Des Hauses",
+      "candidate_title": "Beethoven: The 9 Symphonies & Overtures (Remastered)",
+      "supported_track_ids": [
+        353969779,
+        353969790,
+        353969791,
+        353969792,
+        353969793
+      ],
+      "decision": "withhold_pending_recording_review",
+      "programme": "All current target work units have required credits and complete non-overlapping expected movements/listed timed tracks.",
+      "remaining_gap": "Published source is a later digital compilation; matching artist/programme/label alone does not establish target recording family.",
+      "limitations": [
+        "No exact LP pressing/mastering verification.",
+        "No promotion from the discovery rank."
+      ]
+    },
+    {
+      "discogs_id": "24965038",
+      "album_id": "vrg5q0y8vzvaa",
+      "target_sha256": "92485f0f584163fb96b8934fac3aed218f53accec6cb0738af2cac3e00c7eb18",
+      "album_sha256": "5a5fd43cf348d1644ea86c314ca21d91975d5b9e06ee29642a5ed9de3bcccee9",
+      "target_title": "Sinfonie Nn. 1 E 8",
+      "candidate_title": "Beethoven: The 9 Symphonies & Overtures (Remastered)",
+      "supported_track_ids": [
+        353969761,
+        353969762,
+        353969763,
+        353969764,
+        353969794,
+        353969795,
+        353969796,
+        353969797
+      ],
+      "decision": "withhold_pending_recording_review",
+      "programme": "All current target work units have required credits and complete non-overlapping expected movements/listed timed tracks.",
+      "remaining_gap": "Published source is a later digital compilation; matching artist/programme/label alone does not establish target recording family.",
+      "limitations": [
+        "No exact LP pressing/mastering verification.",
+        "No promotion from the discovery rank."
+      ]
+    },
+    {
+      "discogs_id": "26149832",
+      "album_id": "vrg5q0y8vzvaa",
+      "target_sha256": "6d7c2e9af468aa6d67d909817a86d6964b139054e425992c432b562c86564ac9",
+      "album_sha256": "5a5fd43cf348d1644ea86c314ca21d91975d5b9e06ee29642a5ed9de3bcccee9",
+      "target_title": "Sinfonia N°5 Coriolano",
+      "candidate_title": "Beethoven: The 9 Symphonies & Overtures (Remastered)",
+      "supported_track_ids": [
+        353969769,
+        353969780,
+        353969781,
+        353969782,
+        353969783
+      ],
+      "decision": "withhold_pending_recording_review",
+      "programme": "All current target work units have required credits and complete non-overlapping expected movements/listed timed tracks.",
+      "remaining_gap": "Published source is a later digital compilation; matching artist/programme/label alone does not establish target recording family.",
+      "limitations": [
+        "No exact LP pressing/mastering verification.",
+        "No promotion from the discovery rank."
+      ]
+    }
+  ],
+  "near_miss_audit": [
+    {
+      "discogs_id": "4352998",
+      "album_id": "0190295866983",
+      "finding": "Work/credit coverage is not completeness; missing inventory or movement parsing still blocks.",
+      "completeness": {
+        "status": "unknown",
+        "works": [
+          {
+            "target": "Piano Sonata No. 18 In E-Flat, Op. 31 No. 3",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Piano Sonata No. 19 In G Major, Op. 49 No. 1",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Sonata No. 20 In G, Op. 49 No. 2",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Sonata No. 21 In C, Op. 53 (\"Waldstein\")",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Sonata No. 22 In F, Op. 54 (Beginning)",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Sonata  No. 22 In F, Op. 54 (Conclusion)",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Sonata No. 23 In F Minor, Op 57 (\"Appassionata\")",
+            "status": "complete",
+            "expected_movements": [
+              1,
+              2,
+              3
+            ],
+            "observed_movements": [
+              1,
+              2,
+              3
+            ],
+            "missing_movements": [],
+            "track_ids": [
+              36924115,
+              36924116,
+              36924117
+            ],
+            "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+          },
+          {
+            "target": "Sonata No 24 In F Sharp, Op. 78",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Sonata No. 25 In G, Op. 79",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Sonata No. 26 In E Flat, Op. 81a",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Sonata No. 27 In E Minor, Op. 90",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          }
+        ],
+        "overlapping_target_tracks": false
+      }
+    },
+    {
+      "discogs_id": "7914875",
+      "album_id": "0002894776360",
+      "finding": "Work/credit coverage is not completeness; missing inventory or movement parsing still blocks.",
+      "completeness": {
+        "status": "unknown",
+        "works": [
+          {
+            "target": "Klaviersonate Nr. 25 G-Dur Op. 79",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Klaviersonate Nr. 26 Es-dur Op. 81a »Les Adieux«",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Klaviersonate Nr. 27 E-moll Op. 90",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          }
+        ],
+        "overlapping_target_tracks": false
+      }
+    },
+    {
+      "discogs_id": "3672809",
+      "album_id": "i4ztk0dz6n6gc",
+      "finding": "Work/credit coverage is not completeness; missing inventory or movement parsing still blocks.",
+      "completeness": {
+        "status": "unknown",
+        "works": [
+          {
+            "target": "Konzert Für Klavier Und Orchester Nr. 1 C-dur Op. 15",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          }
+        ],
+        "overlapping_target_tracks": false
+      }
+    },
+    {
+      "discogs_id": "6119375",
+      "album_id": "vrg5q0y8vzvaa",
+      "finding": "Work/credit coverage is not completeness; missing inventory or movement parsing still blocks.",
+      "completeness": {
+        "status": "incomplete",
+        "works": [
+          {
+            "target": "Symphonie N°9 En Ré Mineur, Op.125 \"Avec Chœurs\"",
+            "status": "incomplete",
+            "expected_movements": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "observed_movements": [
+              4,
+              4
+            ],
+            "missing_movements": [
+              1,
+              2,
+              3
+            ],
+            "track_ids": [
+              353969802,
+              353969805
+            ],
+            "source": "https://www.esm.rochester.edu/beethoven/symphony-no-9/",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+          },
+          {
+            "target": "Léonore - Ouverture N°3, Op.72a",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "\"König Stephan\" - Ouverture, Op.117",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          }
+        ],
+        "overlapping_target_tracks": false
+      }
+    }
+  ],
+  "policy": "Bounded offline audit, not a publication override. Recompute source hashes on follow-up."
+}

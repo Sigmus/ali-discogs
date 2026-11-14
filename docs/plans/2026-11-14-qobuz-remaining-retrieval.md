@@ -68,3 +68,26 @@ seen so far all have at least one hit (not validated matches).150fresh search
 HTTP attempts/10cache reuses; metadata85HTTP attempts incl overhead. Search
 throughput about3.7fresh requests/minute including rests. Rough remaining
 2–2.3hours; finish16:20–16:45Amsterdam, conditional on no pauses/errors.
+
+14:50Amsterdam checkpoint: search282/603,250nonempty/32empty,250fresh HTTP
+attempts and32cache reuses. Planned rest ends14:50:27; no STOP markers or
+warning in inspected tail. Rough ETA1.5–1.8hours, finish16:20–16:40 conditional
+on continued throughput and no interruptions. Metadata remains83/83 complete.
+
+15:22Amsterdam hourly checkpoint: search430/603 running;374nonempty/56empty
+queries across218releases,215with at least one hit.366fresh search HTTP
+attempts/64cache reuses. Recent148outputs in about34minutes (~4.4/min);
+fresh HTTP throughput~3.4/min including rests. Metadata83/83 complete.
+No STOP markers or warning in tail. Remaining~40–55minutes, approximate
+finish16:00–16:20Amsterdam; cache/pagination/rests may change this.
+
+## 2026-11-14 — Remaining retrieval complete and exported
+
+Finished16:02Amsterdam.83metadata albums/1,313tracks validated against every
+manifest ID, declared count and unique track IDs.603query tasks validated:
+520nonempty/83empty;299of305releases have at least one hit,6empty. Search
+503fresh HTTP attempts/100cache reuse, metadata85HTTP attempts incl overhead.
+Offline exports complete; shared request archive2,488responses, all1,857prior
+members byte-preserved. Canonical URL index1,148routes;5URL tests pass.
+Hourly monitor deleted after completion. No accepted-match changes, extra calls,
+new-hit metadata expansion or push. Next: offline ranking and conservative audit.

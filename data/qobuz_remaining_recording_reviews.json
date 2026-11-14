@@ -1,0 +1,68 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-14",
+  "releases": [
+    {
+      "discogs_id": "4491358",
+      "album_id": "g844jwmjmn7vb",
+      "target_sha256": "e8e5b60c25559ed258f0d82d80694c36e547e1595d41cced2014bff6c9a51cd4",
+      "album_sha256": "c01e527da70096eabff4a9c8808a0221fd425c8f764010dd90465a9bfd9780dc",
+      "decision": "probable",
+      "recording_review": "DG identifies Michelangeli, Giulini and Wiener Symphoniker in a live televised Vienna concert, consistent with cached LP sleeve notes naming Vienna 1 February 1979. The saved digital edition is marked Live and carries all three Op.73 movements with those credits; this supports the recording family, not exact takes or mastering.",
+      "sources": [
+        "https://www.deutschegrammophon.com/en/catalogue/products/beethoven-klavierkonzert-5-michelangeli-3890",
+        "https://www.discogs.com/release/4491358"
+      ],
+      "limitations": [
+        "Publisher page describes a 1987 CD reissue (UPC00028941924926); saved Qobuz edition has a different UPC0028948377497.",
+        "The publisher page does not independently confirm the exact date of the saved digital tracks.",
+        "Exact LP pressing, takes and digital mastering are not independently verified."
+      ],
+      "target_source": {
+        "sha256": "fdc3f6bbaf3cb3575f54d216d09d6406a6b8cd13fb0f7e9550604eff9f14ea6c",
+        "notes": "Sleeve notes in German, English, French and Italian.\nLive recording of a televised concert in Vienna 1.2.1979\nCover Illustration: Gewitterlandschaft • Herzog-Anton-Ulrich-Museum Braunschweig\nKunstbildarchiv Aline Lenz, Hamburg",
+        "tracklist": [
+          {
+            "position": "",
+            "type_": "index",
+            "title": "Konzert Für Klavier Und Orchester Nr. 5 Es-dur Op. 73",
+            "duration": "",
+            "sub_tracks": [
+              {
+                "position": "A",
+                "type_": "track",
+                "title": "Allegro",
+                "duration": "20:25"
+              },
+              {
+                "position": "B1",
+                "type_": "track",
+                "title": "Adagio Un Poco Mosso - Attacca",
+                "duration": "8:38"
+              },
+              {
+                "position": "B2",
+                "type_": "track",
+                "title": "Rondo. Allegro",
+                "duration": "10:52"
+              }
+            ]
+          }
+        ]
+      },
+      "works": [
+        {
+          "target": "Konzert Für Klavier Und Orchester Nr. 5 Es-dur Op. 73",
+          "movements": [
+            1,
+            2,
+            3
+          ],
+          "scope": "whole-work-inventory",
+          "source": "https://www.berliner-philharmoniker.de/en/programme-notes/ludwig-van-beethoven-concerto-for-piano-and-orchestra-in-e-flat-major-op-73/",
+          "reason": "All three ordered movements carry Michelangeli, Giulini and Wiener Symphoniker credits; no overlap or omitted movement."
+        }
+      ]
+    }
+  ]
+}

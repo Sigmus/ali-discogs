@@ -8,11 +8,11 @@ explorer. [README](../../README.md) owns setup and architecture;
 
 ## Current state
 
-- Branch `main`; pushed through `ac1db08` (filter band, pin control and sticky
-  table headers). Retrieval remains in progress; deployment not verified.
+- Branch `main`; pushed through `7945944` (filter band, pin control and sticky
+  table headers). Retrieval complete; first offline screen/audit complete. Deployment not verified.
 - Collection: 741 copies / 740 unique releases. Current saved labels: Spotify
   254 Found / 273 Probable / 210 Not found / 4 Unchecked; Qobuz
-  12 Found / 98 Probable / 631 Unchecked copies (14 November snapshot).
+  12 Found / 99 Probable / 630 Unchecked copies (14 November snapshot).
 - Spotify’s legacy album-level labels and stricter Qobuz evidence levels are
   not comparable accuracy or catalogue-coverage measurements. Both status and
   score are saved data. Qobuz 95/85 are heuristic levels, not probabilities.
@@ -49,20 +49,30 @@ explorer. [README](../../README.md) owns setup and architecture;
 - Track positions/types/durations retained when saved; country/released shown.
   Schumann7946604 still has only a work heading in the saved source.
 
-## Active retrieval — do not restart or speed up
+## Retrieval complete — offline follow-up next
 
-- User authorized 12 metadata-needed releases + 305 previously empty releases:
-  83 distinct candidate albums, then 603 new queries. See
+- Fixed 12 +305 scope completed14November16:02Amsterdam:83 metadata albums,
+  1,313tracks;603queries,520nonempty/83empty.299/305releases have a hit,
+  6remain empty. Hits are leads, not accepted matches.
+- Verified every manifest task, album ID and full unique track count. Offline
+  exports saved in `data/qobuz_remaining_{metadata,search}.json.gz`.
+- Shared request archive exported/validated:2,488responses, all1,857 prior
+  members byte-preserved. Canonical index1,148URLs;5URL tests pass.
+- Search503fresh HTTP attempts/100cache reuses; metadata85HTTP attempts incl
+  overhead. No warning reported; no restart/new-hit download. Hourly monitor
+  removed on completion. Run state remains `.qobuz-poc/remaining-2026-11-14/`.
+- Exports/index and completion docs remain local/uncommitted. See
   [run plan](../plans/2026-11-14-qobuz-remaining-retrieval.md).
-- Run state/log: `.qobuz-poc/remaining-2026-11-14/`; metadata complete 83/83.
-  Search checkpoint at 14:21 Amsterdam: 160/603, planned batch rest;
-  142 nonempty /18 empty queries, no warning observed.
-  These are dated observations; read progress files for current status.
-- Hourly ETA monitor: `qobuz-remaining-retrieval-progress`; idle-sleep assertion
-  attached to worker. Preserve checkpoints, caches and credentials.
-- On API/auth/rate-limit/network/pagination warning or unexplained stall >5min
-  outside a planned rest: root and active-phase STOP, report evidence and ask.
-  Never retry/resume after a warning without the user’s answer.
+
+## Offline follow-up checkpoint
+
+- Screened2,227pairs:8complete programme/credit leads across7releases,
+  335cached unresolved pairs,1,884pairs missing full metadata. Op.73 lead4491358
+  now Probable85 after publisher-backed recording review; other statuses unchanged.
+- Hash-bound initial audit saved; next strongest case4491358, Michelangeli/
+  Giulini Op.73 completed. Six source-backed Beethoven inventory entries added.
+- [Offline plan](../plans/2026-11-14-qobuz-offline-followup.md) owns findings and
+  exact next steps. Two network-forbidden/fail-closed regression tests pass.
 
 ## Agreed next sequence
 
@@ -82,6 +92,6 @@ new-hit downloads, automatic promotions, pushes or deployment. Bitches Brew’s
 credit exception remains a proposal. Preserve source/hash-bound review safeguards;
 never loosen credits or invent recording identity to improve a count.
 
-Next action: monitor the existing worker, then validate/export its completed
-outputs before the offline audit. [Backlog](backlog.md), [decisions](decisions.md),
-[history](history.md) preserve priorities, policy and completed work.
+Next action: review five cached Klemperer leads against recording-family sources;
+scope missing metadata before any new Qobuz calls.
+[Backlog](backlog.md), [decisions](decisions.md), [history](history.md).

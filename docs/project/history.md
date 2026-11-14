@@ -1352,3 +1352,35 @@ viewport bounds and dynamic action text handled. Syntax/build checks pass.
 Tooltip/pin refinement:250ms cancellable hover/focus delay,10px tooltip font,
 theme surface background (dark in dark mode). Selected pin uses the same neutral
 text/surface/border tokens as selected view icons. JS/build/diff checks pass.
+
+## 2026-11-14 — Remaining retrieval complete and exported
+
+Finished16:02Amsterdam.83metadata albums/1,313tracks validated against every
+manifest ID, declared count and unique track IDs.603query tasks validated:
+520nonempty/83empty;299of305releases have at least one hit,6empty. Search
+503fresh HTTP attempts/100cache reuse, metadata85HTTP attempts incl overhead.
+Offline exports complete; shared request archive2,488responses, all1,857prior
+members byte-preserved. Canonical URL index1,148routes;5URL tests pass.
+Hourly monitor deleted after completion. No accepted-match changes, extra calls,
+new-hit metadata expansion or push. Next: offline ranking and conservative audit.
+
+## 2026-11-14 — Remaining evidence screened and first audit recorded
+
+Offline screen validates fixed exports and aggregates complete portable metadata:
+2,227pairs,8programme/credit-complete leads across7releases,335cached unresolved,
+1,884metadata-needed pairs. Audited8leads plus4near-misses with target/album
+hashes; no recording-family confirmation invented and no promotion. Identified
+shared movement-inventory gaps as a reusable follow-up. Two regressions pass:
+reject incomplete/duplicate metadata; network-forbidden replay preserves public
+match bytes. No Qobuz calls. Follow-up plan records4491358 as next bounded case.
+
+## 2026-11-14 — Michelangeli Op.73 published Probable; shared inventories expanded
+
+Publisher DG supports the same artists/live televised Vienna family as cached
+LP4491358 notes. Three movements/current credits pass a hash-bound existing
+review kind; Probable85 with exact take/date/mastering limits, not Found. Added
+independently sourced Beethoven Op.31/3,49/1,49/2,53,78,81a movement inventories
+from DCML overview. Replay changes only4491358; all previous statuses retained.
+Qobuz12Found/99Probable/630Unchecked copies.113script tests, UI normalization,
+build and browser detail inspection pass. Test429/STOP messages are mocked
+fixtures, not new provider warnings. No Qobuz calls or push.

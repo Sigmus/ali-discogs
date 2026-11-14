@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "reviewed_on": "2026-11-13",
+  "reviewed_on": "2026-11-14",
   "scope": "Pilot movement inventory; catalogue-level structure, not recording-session evidence.",
   "works": [
     {
@@ -363,6 +363,94 @@
         3
       ],
       "source": "https://www.rsno.org.uk/wp-content/uploads/2023/11/Rachmaninov-Piano-Concerto-No2-91011-Nov-2023.pdf#page=12"
+    },
+    {
+      "composer": "Ludwig van Beethoven",
+      "catalogue": [
+        "op",
+        "31",
+        "3"
+      ],
+      "movements": [
+        1,
+        2,
+        3,
+        4
+      ],
+      "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+      "review_note": "DCML naming/overview movement rows inspected14November2026; catalogue structure only, not recording identity."
+    },
+    {
+      "composer": "Ludwig van Beethoven",
+      "catalogue": [
+        "op",
+        "49",
+        "1"
+      ],
+      "movements": [
+        1,
+        2
+      ],
+      "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+      "review_note": "DCML naming/overview movement rows inspected14November2026; catalogue structure only, not recording identity."
+    },
+    {
+      "composer": "Ludwig van Beethoven",
+      "catalogue": [
+        "op",
+        "49",
+        "2"
+      ],
+      "movements": [
+        1,
+        2
+      ],
+      "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+      "review_note": "DCML naming/overview movement rows inspected14November2026; catalogue structure only, not recording identity."
+    },
+    {
+      "composer": "Ludwig van Beethoven",
+      "catalogue": [
+        "op",
+        "53",
+        ""
+      ],
+      "movements": [
+        1,
+        2,
+        3
+      ],
+      "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+      "review_note": "DCML naming/overview movement rows inspected14November2026; catalogue structure only, not recording identity."
+    },
+    {
+      "composer": "Ludwig van Beethoven",
+      "catalogue": [
+        "op",
+        "78",
+        ""
+      ],
+      "movements": [
+        1,
+        2
+      ],
+      "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+      "review_note": "DCML naming/overview movement rows inspected14November2026; catalogue structure only, not recording identity."
+    },
+    {
+      "composer": "Ludwig van Beethoven",
+      "catalogue": [
+        "op",
+        "81a",
+        ""
+      ],
+      "movements": [
+        1,
+        2,
+        3
+      ],
+      "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+      "review_note": "DCML naming/overview movement rows inspected14November2026; catalogue structure only, not recording identity."
     }
   ]
 }
