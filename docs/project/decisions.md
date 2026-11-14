@@ -404,3 +404,11 @@ Then scope comparable Spotify evidence checks. Legacy Spotify Found labels may
 be demoted when stronger evidence warrants it; similarity and evidence levels
 are not interchangeable probabilities. New-hit metadata expansion, broad Spotify
 retrieval, commits, pushes and deployment are not authorized by this plan alone.
+
+## 2026-11-14 — Catalogue sidebar for release details
+
+Status: adopted, user chose prototype C. Cover and labelled catalogue facts sit
+on the left; artist/title, tracklist, saved credit categories and existing
+Spotify/Qobuz evidence sit on the right. Stack on small screens. Remove Albums
+back button; header remains collection navigation. Do not invent missing source
+movements, instrument roles or notes.

@@ -635,3 +635,24 @@ th.sortable button {
 
 .list-bar-start { display:flex; align-items:center; flex-wrap:wrap; gap:8px 16px; min-width:0; }
 .list-bar .view-switch { margin-left:auto; }
+
+/* Release detail: catalogue sidebar, programme and evidence on the right. */
+.release-detail {display:grid;grid-template-columns:220px minmax(0,1fr);gap:32px;align-items:start}
+.release-sidebar,.release-content {min-width:0}
+.release-content h1 {font-size:24px;line-height:1.35;margin:0 0 24px;overflow-wrap:anywhere}
+.release-artists {color:var(--c-muted)}
+.release-facts,.release-credits {display:grid;grid-template-columns:75px minmax(0,1fr);gap:7px 14px;margin:20px 0;font-size:13px}
+.release-facts dt,.release-credits dt {color:var(--c-muted)}
+.release-facts dd,.release-credits dd {margin:0;overflow-wrap:anywhere}
+.release-section {margin-bottom:28px}
+.release-section h2 {font-size:16px;border-bottom:1px solid var(--c-border);padding-bottom:10px;margin:0 0 12px}
+.release-tracks {width:100%;border-collapse:collapse;font-size:13px}
+.release-tracks td {padding:9px 8px;border-bottom:1px solid var(--c-border);overflow-wrap:anywhere}
+.release-tracks td:first-child {width:60px;color:var(--c-muted)}
+.release-tracks td:last-child {width:65px;text-align:right;color:var(--c-muted)}
+.release-tracks .work-heading {font-weight:600;background:color-mix(in srgb,var(--c-text) 4%,transparent)}
+@media(max-width:700px) {
+ .release-detail {grid-template-columns:1fr;gap:24px}
+ .release-sidebar .detail-cover {max-width:200px}
+ .release-content h1 {font-size:20px}
+}

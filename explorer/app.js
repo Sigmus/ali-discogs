@@ -269,6 +269,11 @@
         ensembles,
         conductor,
         tracklist,
+        track_details: asArray(d.tracklist || d.tracks).filter(Boolean).map(t => typeof t === "string"
+          ? { title: t, position: "", duration: "", type: "track" }
+          : { title: text(t.title || t.name), position: text(t.position), duration: text(t.duration), type: text(t.type || t.type_) }).filter(t => t.title),
+        country: text(d.country),
+        released: text(d.released),
         year: yearOf(d.year != null ? d.year : d.released),
         labels,
         formats,
@@ -704,25 +709,30 @@
       $("collection-view").hidden = id !== null;
       const detail = $("detail-view");
       detail.hidden = id === null;
-      if (id === null) { document.title = "Ali's collection"; return; }
+      if (id === null) { document.title = "ajozi vinyl"; return; }
       params.delete("album");
       const back = params.toString() ? "#" + params.toString() : "#";
-      if (!it) { detail.innerHTML = `<a class="back" href="${esc(back)}">← Albums</a><h1>Album not found</h1>`; return; }
+      if (!it) { detail.innerHTML = `<h1>Album not found</h1>`; return; }
       const d = it.discogs;
-      document.title = d.title + " · Ali's collection";
-      detail.innerHTML = `<a class="back" href="${esc(back)}">← Albums</a><article>
-        <div class="detail-head"><div class="detail-cover">${coverHtml(d, true)}</div><div>
-        <h1>${esc(d.title)}</h1><p class="composer">${esc(d.composers.join(" · "))}</p>
-        <p class="support">${esc(supportLine(d, Infinity).join(" · ") || d.artists.map(a => a.name).join(" · "))}</p>
-        <p class="meta">${esc([d.year || "Undated", ...d.formats].join(" · "))}</p>
-        <p class="labels">${labelHtml(d.labels)}</p><p class="styles">${esc([...new Set(d.genres.concat(d.styles))].join(" · "))}</p>
-        ${it._copies > 1 ? `<p class="copy">Copy added ${esc(addedLabel(d.date_added))}</p>` : ""}
-        <div class="external-links">${safeUrl(d.url) ? `<a href="${esc(safeUrl(d.url))}" target="_blank" rel="noopener noreferrer">Discogs ↗</a>` : ""}${safeUrl(it.qobuz.search_url) ? `<a href="${esc(safeUrl(it.qobuz.search_url))}" target="_blank" rel="noopener noreferrer">Search Qobuz ↗</a>` : ""}</div></div></div>
-        ${serviceHtml("Spotify", it.spotify)}
-        ${qobuzHtml(it)}
-        <h2>Tracks <span class="quiet">${d.tracklist.length}</span></h2>
-        ${d.tracklist.length ? `<ol class="track-list">${d.tracklist.map((t, i) => `<li><span class="track-number">${i + 1}</span><span>${esc(t)}</span></li>`).join("")}</ol>` : `<p class="quiet">No track list available.</p>`}
-        </article>`;
+      document.title = d.title + " · ajozi vinyl";
+      const facts = [
+        ["Label", labelHtml(d.labels)], ["Format", esc(d.formats.join(", ") || "—")],
+        ["Country", esc(d.country || "—")], ["Released", esc(d.released || d.year || "—")],
+        ["Genre", esc(d.genres.join(", ") || "—")], ["Style", esc(d.styles.join(", ") || "—")]
+      ];
+      const credits = [["Composer", d.composers.join(" · ")], ["Conductor", d.conductor],
+        ["Ensemble", d.ensembles.join(" · ")], ["Performers", d.performers.join(" · ")]].filter(([, value]) => value);
+      detail.innerHTML = `<article class="release-detail">
+        <aside class="release-sidebar"><div class="detail-cover">${coverHtml(d, true)}</div>
+        <div class="external-links">${safeUrl(d.url) ? `<a href="${esc(safeUrl(d.url))}" target="_blank" rel="noopener noreferrer">View on Discogs ↗</a>` : ""}</div>
+        <dl class="release-facts">${facts.map(([key, value]) => `<dt>${key}</dt><dd>${value}</dd>`).join("")}</dl>
+        ${it._copies > 1 ? `<p class="quiet">Copy added ${esc(addedLabel(d.date_added))}</p>` : ""}</aside>
+        <div class="release-content"><h1><span class="release-artists">${esc(d.artists.map(a => a.name).join(", "))}</span> — ${esc(d.title)}</h1>
+        <section class="release-section"><h2>Tracklist</h2>
+        ${d.track_details.length ? `<table class="release-tracks"><tbody>${d.track_details.map(t => `<tr class="${["index", "heading"].includes(t.type) ? "work-heading" : ""}"><td>${esc(t.position)}</td><td>${esc(t.title)}</td><td>${esc(t.duration)}</td></tr>`).join("")}</tbody></table>` : `<p class="quiet">No track list available.</p>`}</section>
+        ${credits.length ? `<section class="release-section"><h2>Credits</h2><dl class="release-credits">${credits.map(([key, value]) => `<dt>${key}</dt><dd>${esc(value)}</dd>`).join("")}</dl></section>` : ""}
+        ${serviceHtml("Spotify", it.spotify)}${qobuzHtml(it)}
+        </div></article>`;
     }
     function emptyMessage() {
       if (state.sp === "not_found" && state.qb === "not_found" && !state.q && !state.genre && !state.composer && !state.label && !state.decade) {

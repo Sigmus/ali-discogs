@@ -9,7 +9,7 @@ explorer. [README](../../README.md) owns setup and architecture;
 ## Current state
 
 - Branch `main`; UI changes pushed through `749ba61`. Retrieval code, fixed scope, completed metadata export and planning docs are
-  included in the next local commit; search remains in progress. Check Git before continuing.
+  committed in5545435; search remains in progress. Check Git before continuing.
 - Collection: 741 copies / 740 unique releases. Current saved labels: Spotify
   254 Found / 273 Probable / 210 Not found / 4 Unchecked; Qobuz
   12 Found / 98 Probable / 631 Unchecked copies (14 November snapshot).
@@ -27,6 +27,14 @@ explorer. [README](../../README.md) owns setup and architecture;
   Captions/Shelf offer Year and Composer beside the result count.
 - Local server: http://127.0.0.1:8000/ . Live site:
   https://sigmus.github.io/ali-discogs/ . Latest deployment not checked here.
+
+## Detail UI
+
+- User chose C: catalogue sidebar implemented locally. Cover/facts left;
+  artist/title, tracklist, credits and existing service evidence right. Stacks
+  on mobile. Albums back button removed. No new source data or match changes.
+- Track positions/types/durations retained when saved; country/released shown.
+  Schumann7946604 still has only a work heading in the saved source.
 
 ## Active retrieval — do not restart or speed up
 

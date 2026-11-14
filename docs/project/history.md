@@ -1260,3 +1260,22 @@ retrieval changes remain local. Documentation-only cleanup; no matcher changes.
 Commit preparation: offline fixed-scope/resume regression passes using uv with
 requests; diff whitespace check passes. Includes the completed83-album sanitized
 metadata export, frozen scope and worker/test. Live credentials/state excluded.
+
+## 2026-11-14 — Discogs-style detail options
+
+Removed Albums back button; corrected runtime page title to ajozi vinyl. Added
+three switchable detail layouts using saved Schumann7946604 metadata and service
+statuses, retaining the current theme. Browser confirmed populated metadata,
+tracklist/credits and service evidence. Explicitly surfaced published-data gaps
+(no movement detail, instrument roles or notes); no invented source fields.
+Build, JS syntax and normalization regressions pass. Layout selection pending;
+retrieval untouched.
+
+## 2026-11-14 — Detail layout C implemented
+
+User selected catalogue sidebar. Preserved all existing service evidence and
+alternates; moved programme and credits before services. Normalization retains
+source track positions/types/durations and country/released for display without
+changing matching inputs. Responsive single-column layout. Browser inspected
+Schumann7946604 with facts, heading, credits and service candidates populated;
+JS syntax, normalization regressions and build pass. Not committed or pushed.
