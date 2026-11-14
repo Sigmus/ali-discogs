@@ -1617,3 +1617,18 @@ Next explicit Rubinstein source review, preserving missing works and uncertain l
 Final validation:156script tests pass with explicit out-of-scope rejection;
 publication release records remain byte-equivalent as JSON values, and refreshed
 screen provenance hashes match current inputs. Mock warnings are fixtures only.
+
+
+### 2026-11-15 — Rubinstein source gap and bounded retrieval proposal
+
+Original RCA LM20086 label and cover show 14 works for Rubinstein7971104;
+cached Discogs tracklist has13, omitting Albéniz’s Sevillana. Saved both inspected
+photos and a separate reconciliation proposal. Added hash-bound source-programme
+hold with stale-evidence regressions; all nine candidate pairs remain Unchecked.
+No normalized/raw source overwrite or composer-scope activation. Qobuz counts
+unchanged:12Found/122Probable/607Unchecked copies. Screen/inventory refreshed.
+
+Prepared immutable seven-album metadata scope for8release leads (97reported
+tracks) and resumable fail-closed worker; no network by default. Two offline worker
+tests pass. Approval requested before new provider retrieval; no fetch started.
+No push/deployment. All160script tests pass; warning/STOP messages in the suite are fixtures.

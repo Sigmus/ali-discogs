@@ -412,3 +412,19 @@ Gilels15221307: Beethoven-only material cannot cover the source MedtnerOp.22.
 Rubinstein7971104is flagged for review, not automatically scoped. After approved
 scope changes, run the script tests, matcher, screen/inventory and static build;
 inspect publication diffs rather than assuming labels should change.
+
+
+## Known source-programme gaps
+
+`data/qobuz_source_programme_reviews.json` records inspected source conflicts that
+block acceptance even when all normalized source titles appear supported. Each
+hold binds the edition, normalized target, cached source and original photos.
+Candidates and main status remain Unchecked until the source is reconciled.
+Changed source/evidence fails closed rather than silently removing a hold.
+
+Rubinstein7971104(RCA Victor LM20086) currently has13saved tracks versus14on the
+label/cover: Albéniz's Sevillana is missing. A-side positions afterA2are shifted.
+`data/qobuz_rubinstein_programme_proposal.json` records the proposed14work list,
+not an activated source replacement. The composer scope remains unreviewed.
+Screen and unmatched audits distinguish `source_programme_review_needed` from
+missing provider metadata. Raw/normalized collection and Spotify stay unchanged.

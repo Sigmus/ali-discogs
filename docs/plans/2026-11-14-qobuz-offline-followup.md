@@ -420,3 +420,21 @@ miss names; all raw attributions retained. Three regressions cover cross-compose
 opus collisions, stale/incomplete/changed source scopes and positive Composer
 requirements.156script tests, UI normalization/build pass. Next review Rubinstein
 scope against its cached source, then audit candidate impact before any acceptance.
+
+
+## Rubinstein original-source conflict
+
+Continued with7971104composer review. Original RCA Victor LM20086side1label and
+front programme show14works, whereas saved source has13: Albéniz's Sevillana is
+omitted atA3, shifting later A-side positions. Saved both photos/hash provenance.
+Do not activate a13work composer scope or accept full normalized coverage as a
+complete LP. Proposed14work source list saved separately, not applied upstream.
+
+New source-programme hold blocks every candidate/main acceptance for this edition,
+including a future high-scoring candidate. Binds target/source/edition/photo hashes
+and missing-work counts; changes fail closed. Qobuz sidecar explains the missing
+work; only Rubinstein's record gains hold/reasons, no status changes. Composer
+scope left unreviewed; source reconciliation remains necessary. Offline screen
+marks9Rubinstein pairs as source-programme gaps; inventory has1held source case.
+158script tests/UI normalization/build pass, including synthetic99%candidate
+rejection and stale/missing proof. No Qobuz requests.

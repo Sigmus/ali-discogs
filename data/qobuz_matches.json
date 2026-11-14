@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "matcher_version": "qobuz-work-groups-v2+explicit-target-credits+reviewed-leads+opera-source-roles+prelude-fugue-pairs+container-headings+bound-tracks+heading-over-groups+cached-half+side-ranges+scene-sides+catalogue-comma-movements+reviewed-source-composers",
+  "matcher_version": "qobuz-work-groups-v2+explicit-target-credits+reviewed-leads+opera-source-roles+prelude-fugue-pairs+container-headings+bound-tracks+heading-over-groups+cached-half+side-ranges+scene-sides+catalogue-comma-movements+reviewed-source-composers+source-programme-holds",
   "score_kind": "heuristic",
   "metadata_completed_at": "2026-11-13T00:15:30.593902+00:00",
   "search_manifest_fingerprint": "72bfbc0de0c0d8ee65c624b6ebe07db7be6ef0f10b6ba5fd4f468d54f812e802",
@@ -8,6 +8,7 @@
   "collection_fingerprint": "a214eee877d4749fa957b3d2a293c2925d7ba0621259f2742139a6cd86f928c8",
   "expansion_scope_fingerprint": "c70833f5e499ef56ff81e4f3f2cba985df6f0f59833dbb7a86a66eeb537a1f17",
   "target_credits_fingerprint": "0d62915c08feb0b282c88664d0c4e44721315769af06aa78146c4e2768c3029e",
+  "source_programme_review_fingerprint": "5469466141e2816720bf35e6b54abeb18daf3f12bf6fec1b4f9e794da0db098b",
   "source_composer_review_fingerprint": "1cce69d6df99a54b444f6a210d84c5c69b3139eb4ed1355e821708d1fb59b83c",
   "work_inventory_fingerprint": "47b8e955b99c37b132e66daea61590490d249f94a520740d702bec5caa5019ce",
   "lead_review_fingerprint": "bc731b95eadb23cb1a13d735a4e7410615ae06f260b2c4a381ed4a29e229265e",
@@ -116590,8 +116591,26 @@
       "query": "arthur rubinstein i bis di artur rubinstein",
       "searched_at": "2026-11-12T17:16:57.903868+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
-      ]
+        "The saved tracklist omits Albéniz’s Sevillana, shown on the original RCA label and cover. The complete LP programme needs review before a match can be accepted."
+      ],
+      "source_programme_review": {
+        "status": "incomplete-source",
+        "reason": "The saved tracklist omits Albéniz’s Sevillana, shown on the original RCA label and cover. The complete LP programme needs review before a match can be accepted.",
+        "saved_track_count": 13,
+        "physical_track_count": 14,
+        "missing_tracks": [
+          {
+            "position": "A3",
+            "composer": "Isaac Albéniz",
+            "title": "Sevillana (n.3 della Suite Española)"
+          }
+        ],
+        "sources": [
+          "https://www.discogs.com/release/7971104-Arthur-Rubinstein-I-Bis-Di-Artur-Rubinstein",
+          "https://i.discogs.com/K05ECCFUVyQHevZdl878sp8vuZtg_SPDg1tE_1uXOTM/rs:fit/g:sm/q:90/h:600/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc5NzEx/MDQtMTQ1MjY3OTEy/Mi03MjcxLmpwZWc.jpeg",
+          "https://i.discogs.com/JY56GL8UKx9-uNZg-vUNQu3gd_uO1pDoHx7oXjNbMQY/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc5NzEx/MDQtMTQ1MjY3OTEz/MS0zMDY5LmpwZWc.jpeg"
+        ]
+      }
     },
     "7926224": {
       "status": "unchecked",

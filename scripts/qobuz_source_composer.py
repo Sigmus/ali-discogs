@@ -67,6 +67,7 @@ def audit():
     """Reproduce the guarded lead and flag other normalized attribution gaps."""
     import gzip
     from qobuz_match import evaluate,evaluate_v1,is_composer
+    from qobuz_source_programme import programme_hold
     rows={str(r['discogs_id']):r for r in json.loads((ROOT/'data/collection_matches.json').read_text())}
     def flatten(items):
         for track in items:
@@ -83,7 +84,7 @@ def audit():
         if not any(is_composer(n) for t in attributed for n in t['artists']):continue
         candidates.append({'discogs_id':rid,'title':row['title'],
                            'source_sha256':hashlib.sha256(path.read_bytes()).hexdigest(),
-                           'reviewed_scope':rid in load_scopes(),'source_attributions':attributed})
+                           'reviewed_scope':rid in load_scopes(),'source_programme_hold':bool(programme_hold(row)),'source_attributions':attributed})
     album=json.loads(gzip.decompress((ROOT/'data/qobuz_evidence.json.gz').read_bytes()))['albums']['0002894776360']
     row=rows['15221307']
     report={'schema_version':1,'reviewed_on':'2026-11-15',

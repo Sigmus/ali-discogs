@@ -18,18 +18,20 @@
     "qobuz_remaining_search.json.gz": "ec5e39bf4c226fc7bf33bc21065d1213df11fb6e87731747a3cabadb8ae7eb96",
     "qobuz_remaining_followup_metadata.json.gz": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
     "collection_matches.json": "a214eee877d4749fa957b3d2a293c2925d7ba0621259f2742139a6cd86f928c8",
-    "qobuz_matches.json": "cd9e37cfd2126ff64c8ac24f316d9dd27567a60f7077f0b8708c8e88da9a8b55",
+    "qobuz_matches.json": "361a7df57089808c52a28d8bd9bb6f6997c646d66840faa3b7bdeb256e9d76ea",
     "qobuz_work_inventory.json": "47b8e955b99c37b132e66daea61590490d249f94a520740d702bec5caa5019ce",
     "qobuz_binding_reviews.json": "8e9290c053caf91b49e9cd32384be458d97e17d03c454e933a8648efadaeecd3",
     "qobuz_opera_recording_reviews.json": "6e26d528eb7de78d372635218404a57534332ea1cd3d92e89e90e7a18066f85b",
-    "qobuz_source_composer_reviews.json": "1cce69d6df99a54b444f6a210d84c5c69b3139eb4ed1355e821708d1fb59b83c"
+    "qobuz_source_composer_reviews.json": "1cce69d6df99a54b444f6a210d84c5c69b3139eb4ed1355e821708d1fb59b83c",
+    "qobuz_source_programme_reviews.json": "5469466141e2816720bf35e6b54abeb18daf3f12bf6fec1b4f9e794da0db098b"
   },
   "summary": {
-    "work_or_credit_unresolved": 418,
+    "work_or_credit_unresolved": 417,
     "metadata_needed": 170,
     "reviewed_withheld": 7,
     "no_saved_hits": 6,
-    "completeness_review_needed": 5
+    "completeness_review_needed": 5,
+    "source_programme_review_needed": 1
   },
   "unmatched_unique_releases": 606,
   "entries": [
@@ -76316,7 +76318,7 @@
     {
       "discogs_id": "7971104",
       "title": "I Bis Di Artur Rubinstein",
-      "category": "work_or_credit_unresolved",
+      "category": "source_programme_review_needed",
       "saved_hits": 9,
       "uncached_hits": 5,
       "cached_candidates": [
@@ -76678,7 +76680,25 @@
             }
           ]
         }
-      ]
+      ],
+      "source_programme_review": {
+        "status": "incomplete-source",
+        "reason": "The saved tracklist omits Albéniz’s Sevillana, shown on the original RCA label and cover. The complete LP programme needs review before a match can be accepted.",
+        "saved_track_count": 13,
+        "physical_track_count": 14,
+        "missing_tracks": [
+          {
+            "position": "A3",
+            "composer": "Isaac Albéniz",
+            "title": "Sevillana (n.3 della Suite Española)"
+          }
+        ],
+        "sources": [
+          "https://www.discogs.com/release/7971104-Arthur-Rubinstein-I-Bis-Di-Artur-Rubinstein",
+          "https://i.discogs.com/K05ECCFUVyQHevZdl878sp8vuZtg_SPDg1tE_1uXOTM/rs:fit/g:sm/q:90/h:600/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc5NzEx/MDQtMTQ1MjY3OTEy/Mi03MjcxLmpwZWc.jpeg",
+          "https://i.discogs.com/JY56GL8UKx9-uNZg-vUNQu3gd_uO1pDoHx7oXjNbMQY/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc5NzEx/MDQtMTQ1MjY3OTEz/MS0zMDY5LmpwZWc.jpeg"
+        ]
+      }
     },
     {
       "discogs_id": "7974483",

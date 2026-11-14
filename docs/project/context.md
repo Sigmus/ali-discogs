@@ -66,13 +66,14 @@ explorer. [README](../../README.md) owns setup and architecture;
 
 ## Offline follow-up checkpoint
 
-- Screened2,227pairs:14complete programme/credit leads,
-  345cached unresolved pairs,1,868pairs missing full metadata. Twenty-four new
-  Probable releases now published locally after bounded reviews.
-- Michelangeli sonata3285095/Concerto1 3672809 and Gilels7914875 completed.
-  Nine Beethoven plus Chopin Op.11 inventory additions;156 script tests pass.
-- [Offline plan](../plans/2026-11-14-qobuz-offline-followup.md) owns findings and
-  exact next steps. Two network-forbidden/fail-closed regression tests pass.
+- Screened 2,227 pairs: 14 recording-review leads, 1,863 missing metadata,
+  341 unresolved and 9 held for an incomplete source programme.
+- Twenty-four new Probables published locally after bounded reviews. Gilels
+  15221307 has a source-bound composer guard against Medtner/Beethoven Op.22 confusion.
+- Rubinstein 7971104: original label and cover show 14 works; cached tracklist
+  has 13, missing Albéniz’s Sevillana. A hash-bound publication hold keeps it
+  Unchecked. A separate 14-work reconciliation proposal is not active source data.
+- [Offline plan](../plans/2026-11-14-qobuz-offline-followup.md) records case evidence.
 
 ## Agreed next sequence
 
@@ -91,11 +92,10 @@ new-hit downloads, automatic promotions, pushes or deployment. Bitches Brew’s
 credit exception remains a proposal. Preserve source/hash-bound review safeguards;
 never loosen credits or invent recording identity to improve a count.
 
-Next action: review Rubinstein 7971104per-work source attributions before adding
-its composer scope; it is a discovery candidate, not an accepted match.
-Gilels 15221307now has a hash-bound composer guard: Medtner Op.22cannot match
-Beethoven Op.22. Normalized data/legacy scoring and all published records unchanged.
-Klemperer 24964822/26149643 Probable from saved stereo labels; timing caveat kept.
-Current606unchecked unique.156 script tests/UI normalization/build pass.
-No Qobuz calls or push/deployment. Nabucco/Mozart credit gaps remain.
+Next action: await approval for the prepared seven-album metadata batch (8 release
+leads, 97 reported tracks). No new provider calls authorized or started.
+[Fixed follow-up plan](../plans/2026-11-15-qobuz-metadata-followup.md).
+Current 606 unchecked unique: 417 work/credit, 170 metadata, 7 reviewed withheld,
+6 empty searches, 5 completeness reviews and 1 source-programme hold.
+All 160 script tests pass. No push/deployment. Nabucco/Mozart credit gaps remain.
 [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).

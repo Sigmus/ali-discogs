@@ -1,0 +1,114 @@
+{
+  "schema_version": 1,
+  "status": "proposed_not_fetched",
+  "prepared_on": "2026-11-15",
+  "collection_sha256": "a214eee877d4749fa957b3d2a293c2925d7ba0621259f2742139a6cd86f928c8",
+  "screen_sha256": "91b18775ba0a1f4a25c22f767fdbe844f3d5bc0cf142277d277ee40e931c1917",
+  "search_evidence_sha256": "ec5e39bf4c226fc7bf33bc21065d1213df11fb6e87731747a3cabadb8ae7eb96",
+  "request_archive_sha256": "39c5a2b4b28a1521f7c28ab2e976ad7376dee59d0ace644d7a973bd320a474f4",
+  "entries": [
+    {
+      "album_id": "0002894796917",
+      "discogs_ids": [
+        "4101347"
+      ],
+      "title": "Brahms: Piano Quintet Op.34",
+      "candidate_artists": [
+        "Maurizio Pollini",
+        "Quartetto Italiano"
+      ],
+      "reported_tracks": 4,
+      "reason": "Saved lead covers the named source programme with compatible headline artists; full credits/programme/recording identity still unverified."
+    },
+    {
+      "album_id": "cxg5qouu14c6b",
+      "discogs_ids": [
+        "3956949"
+      ],
+      "title": "Mendelssohn: Symphonies No.4 \"Italian\" & No.5 \"Reformation\"",
+      "candidate_artists": [
+        "Israel Philharmonic Orchestra",
+        "Leonard Bernstein"
+      ],
+      "reported_tracks": 8,
+      "reason": "Saved lead covers the named source programme with compatible headline artists; full credits/programme/recording identity still unverified."
+    },
+    {
+      "album_id": "fvtmapqjxeh6b",
+      "discogs_ids": [
+        "2236260"
+      ],
+      "title": "Tchaïkovsky Concerto No. 1, Rachmaninov Concerto No. 2",
+      "candidate_artists": [
+        "Aldo Ciccolini",
+        "Constantin Silvestri",
+        "Orchestre National de France"
+      ],
+      "reported_tracks": 6,
+      "reason": "Saved lead covers the named source programme with compatible headline artists; full credits/programme/recording identity still unverified."
+    },
+    {
+      "album_id": "ekesky8cfu5wb",
+      "discogs_ids": [
+        "6628473",
+        "23950082"
+      ],
+      "title": "BACH: CELLO SUITES",
+      "candidate_artists": [
+        "Pablo Casals"
+      ],
+      "reported_tracks": 36,
+      "reason": "Saved lead covers the named source programme with compatible headline artists; full credits/programme/recording identity still unverified."
+    },
+    {
+      "album_id": "5099963179651",
+      "discogs_ids": [
+        "8274997"
+      ],
+      "title": "Mozart : Concertos pour piano n° 20, 21, 23 & 27",
+      "candidate_artists": [
+        "Daniel Barenboim"
+      ],
+      "reported_tracks": 13,
+      "reason": "Saved lead covers the named source programme with compatible headline artists; full credits/programme/recording identity still unverified."
+    },
+    {
+      "album_id": "5099960276551",
+      "discogs_ids": [
+        "1662708"
+      ],
+      "title": "Tschaikovsky: Piano Concerto No. 1",
+      "candidate_artists": [
+        "Alexis Weissenberg/Orchestre De Paris/Herbert von Karajan"
+      ],
+      "reported_tracks": 3,
+      "reason": "Saved lead covers the named source programme with compatible headline artists; full credits/programme/recording identity still unverified."
+    },
+    {
+      "album_id": "0002894457132",
+      "discogs_ids": [
+        "2857544"
+      ],
+      "title": "J.S. Bach: Works for Lute",
+      "candidate_artists": [
+        "Narciso Yepes"
+      ],
+      "reported_tracks": 27,
+      "reason": "Saved lead covers the named source programme with compatible headline artists; full credits/programme/recording identity still unverified."
+    }
+  ],
+  "reported_total_tracks": 97,
+  "policy": [
+    "Metadata only; no searches, audio or automatic promotions.",
+    "At least15seconds between HTTP requests;120second rest per50HTTP including discovery/pagination.",
+    "Resumable checkpoints/immutable manifest; stop on auth/access/rate/API/network/pagination warning, no automatic retry/resume.",
+    "Source Casals6628473has a Suite3/BWV1008conflict; preserve until independently reviewed.",
+    "Source Barenboim8274997overall title says A minor while its K488track heading says A major; preserve discrepancy for review."
+  ],
+  "excluded": [
+    "Cziffra lead has different conductors and omits named source works.",
+    "Walter lead has4tracks, omitting two named Wagner source extras.",
+    "Haydn source is Eugen Jochum; tempting lead is Solti.",
+    "Rubinstein incomplete source programme is held pending reconciliation."
+  ]
+}

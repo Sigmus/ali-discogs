@@ -34,3 +34,9 @@ or authenticated requests are included.
   STEREO, label year1961. Warner Japan identifies the Seventh's1960studio
   sessions: https://wmg.jp/discography/16393 . Label years are not asserted
   to be session dates. Exact photo URLs/hashes are in the review ledger.
+
+
+- `7971104-side-1-label.jpg` and `7971104-front-programme.jpg`: inspected RCA
+  Victor LM20086sources. Both show Albéniz's Sevillana, absent from the cached
+  thirteen-track source. Eight side-one works plus six side-two works give14.
+  Source-programme hold binds photo/source/target hashes; raw data stays intact.

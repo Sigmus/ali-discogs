@@ -80,10 +80,11 @@ def screen():
             if str(x['task']['discogs_id']) in mids:
                 provenance[path.name] = fingerprint(path)
                 for album in x['albums']: add(x['task']['discogs_id'], album, x['task'].get('query'))
+    provenance['qobuz_source_programme_reviews.json'] = fingerprint(ROOT/'data/qobuz_source_programme_reviews.json')
     provenance['qobuz_source_composer_reviews.json'] = fingerprint(ROOT/'data/qobuz_source_composer_reviews.json')
     inventory = json.loads((ROOT/'data/qobuz_work_inventory.json').read_text())
     provenance['qobuz_work_inventory.json'] = fingerprint(ROOT/'data/qobuz_work_inventory.json')
-    for name in ['qobuz_match.py','qobuz_completeness.py','qobuz_work_groups.py','qobuz_source_composer.py']:
+    for name in ['qobuz_match.py','qobuz_completeness.py','qobuz_work_groups.py','qobuz_source_composer.py','qobuz_source_programme.py']:
         provenance['scripts/' + name] = fingerprint(ROOT/'scripts'/name)
     entries = []
     for (rid, aid), entry in pairs.items():
@@ -102,6 +103,11 @@ def screen():
             entry['finding'] = 'needs_recording_review' if evidence['status'] != 'unchecked' and completeness['status'] == 'complete' else 'unresolved_work_credit_or_completeness'
         else:
             entry['finding'] = 'metadata_needed'
+        from qobuz_source_programme import programme_hold
+        source_hold=programme_hold(row)
+        if source_hold:
+            entry['source_programme_review']=source_hold
+            entry['finding']='source_programme_review_needed'
         entries.append(entry)
     entries.sort(key=lambda x: (x['finding'] != 'needs_recording_review', -x['discovery_rank'], int(x['discogs_id']), x['album_id']))
     report = {'schema_version': 1, 'reviewed_on': '2026-11-15', 'scope_sha256': fingerprint(scope_path),

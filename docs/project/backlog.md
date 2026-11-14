@@ -12,11 +12,13 @@ Status: agreed priority; retrieval and first offline screen/audit complete.
 [Offline follow-up](../plans/2026-11-14-qobuz-offline-followup.md): recording review
 now includes twenty-four new Probables and shared inventory/parser fixes. Nine-album
 follow-up complete216tracks:7Probables/4withheld release leads after further
-reviews. Next:
-Rubinstein7971104per-work composer scope review. Gilels15221307now rejects
-Beethoven-only support for its MedtnerOp.22via source-bound positive Composer
-checks. Legacy scoring and all published records unchanged;156script tests pass.
-Source-attribution discovery remains separate from reviewed scopes. Nabucco/Mozart
+reviews. Rubinstein 7971104 source review found a missing Albéniz work: a
+hash-bound incomplete-programme hold now keeps it Unchecked. Reconciliation is
+proposed, not applied. Gilels’s reviewed composer guard remains active.
+Next: user approval for the [seven-album metadata batch](../plans/2026-11-15-qobuz-metadata-followup.md)
+(8 release leads, 97 reported tracks); immutable scope and offline-tested worker
+ready, no new requests started. After approval, validate/export and audit offline.
+Source-attribution discovery remains separate from reviewed scopes; Nabucco/Mozart
 credit/catalogue gaps remain unresolved.
 170remaining metadata-needed releases are not a fetch mandate. Follow the
 [retrieval and follow-up plan](../plans/2026-11-14-qobuz-remaining-retrieval.md).

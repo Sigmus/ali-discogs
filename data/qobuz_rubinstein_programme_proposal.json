@@ -1,0 +1,109 @@
+{
+  "schema_version": 1,
+  "status": "proposed_source_reconciliation_not_published",
+  "discogs_id": "7971104",
+  "entries": [
+    {
+      "position": "A1",
+      "title": "Danza Rituale Del Fuoco",
+      "composer": "Manuel De Falla",
+      "raw_position": "A1",
+      "source": "cached tracklist; A-side positions adjusted after verified missing A3"
+    },
+    {
+      "position": "A2",
+      "title": "Poissons D'Or",
+      "composer": "Claude Debussy",
+      "raw_position": "A2",
+      "source": "cached tracklist; A-side positions adjusted after verified missing A3"
+    },
+    {
+      "position": "A3",
+      "title": "Sevillana (n.3 della Suite Española)",
+      "composer": "Isaac Albéniz",
+      "raw_position": null,
+      "source": "inspected side1 label and front cover"
+    },
+    {
+      "position": "A4",
+      "title": "Valse Oublièe",
+      "composer": "Franz Liszt",
+      "raw_position": "A3",
+      "source": "cached tracklist; A-side positions adjusted after verified missing A3"
+    },
+    {
+      "position": "A5",
+      "title": "Pulcinella",
+      "composer": "Heitor Villa-Lobos",
+      "raw_position": "A4",
+      "source": "cached tracklist; A-side positions adjusted after verified missing A3"
+    },
+    {
+      "position": "A6",
+      "title": "Danza Spagnola N.5",
+      "composer": "Enrique Granados",
+      "raw_position": "A5",
+      "source": "cached tracklist; A-side positions adjusted after verified missing A3"
+    },
+    {
+      "position": "A7",
+      "title": "Marcia",
+      "composer": "Sergei Prokofiev",
+      "raw_position": "A6",
+      "source": "cached tracklist; A-side positions adjusted after verified missing A3"
+    },
+    {
+      "position": "A8",
+      "title": "Danza Del Mugnaio",
+      "composer": "Manuel De Falla",
+      "raw_position": "A7",
+      "source": "cached tracklist; A-side positions adjusted after verified missing A3"
+    },
+    {
+      "position": "B1",
+      "title": "Notturno In Mi Bemolle Maggiore, Op.9 N.2",
+      "composer": "Frédéric Chopin",
+      "raw_position": "B1",
+      "source": "cached tracklist; A-side positions adjusted after verified missing A3"
+    },
+    {
+      "position": "B2",
+      "title": "Marcia Dei Nani",
+      "composer": "Edvard Grieg",
+      "raw_position": "B2",
+      "source": "cached tracklist; A-side positions adjusted after verified missing A3"
+    },
+    {
+      "position": "B3",
+      "title": "Sogno D'Amore",
+      "composer": "Franz Liszt",
+      "raw_position": "B3",
+      "source": "cached tracklist; A-side positions adjusted after verified missing A3"
+    },
+    {
+      "position": "B4",
+      "title": "Improvviso In La Bemolle Maggiore, Op.90 N.4",
+      "composer": "Franz Schubert",
+      "raw_position": "B4",
+      "source": "cached tracklist; A-side positions adjusted after verified missing A3"
+    },
+    {
+      "position": "B5",
+      "title": "Romanza In Fa Diesis Maggiore",
+      "composer": "Robert Schumann",
+      "raw_position": "B5",
+      "source": "cached tracklist; A-side positions adjusted after verified missing A3"
+    },
+    {
+      "position": "B6",
+      "title": "Il Canto Dell'Arcolaio",
+      "composer": "Felix Mendelssohn-Bartholdy",
+      "raw_position": "B6",
+      "source": "cached tracklist; A-side positions adjusted after verified missing A3"
+    }
+  ],
+  "limitations": [
+    "Physical programme has14works; normalized source remains13. This proposal does not overwrite raw or normalized data.",
+    "Composer spellings, work identities and any recording-family matches still need review before activating a corrected matching programme."
+  ]
+}

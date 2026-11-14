@@ -13,7 +13,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'src'))
 from ali_discogs.text import tnorm, norm, ORCH_ALIASES, is_composer
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = 'qobuz-work-groups-v2+explicit-target-credits+reviewed-leads+opera-source-roles+prelude-fugue-pairs+container-headings+bound-tracks+heading-over-groups+cached-half+side-ranges+scene-sides+catalogue-comma-movements+reviewed-source-composers'
+VERSION = 'qobuz-work-groups-v2+explicit-target-credits+reviewed-leads+opera-source-roles+prelude-fugue-pairs+container-headings+bound-tracks+heading-over-groups+cached-half+side-ranges+scene-sides+catalogue-comma-movements+reviewed-source-composers+source-programme-holds'
 
 
 def credits_v1(track):
@@ -416,6 +416,10 @@ def generate():
             extra = reviewed_candidate(rows[rid], round2_albums[review['album_id']], review)
             if extra:
                 candidates = [c for c in candidates if c['id'] != extra['id']] + [extra]
+        from qobuz_source_programme import programme_hold,withhold_candidates
+        source_hold=programme_hold(rows[rid])
+        if source_hold:
+            candidates=withhold_candidates(candidates,source_hold)
         candidates.sort(key=lambda a: ({'found': 2, 'probable': 1, 'unchecked': 0}[a['status']], a['coverage'], a['confidence'] or 0), reverse=True)
         best = candidates[0] if candidates else None
         results[str(rid)] = {'status': best['status'] if best else 'unchecked',
@@ -423,6 +427,9 @@ def generate():
             'album': public_album_from_candidate(best) if best and best['status'] != 'unchecked' else None,
             'candidates': candidates, 'query': search['query'], 'searched_at': search['saved_at'],
             'reasons': best['reasons'] if best else ['No first-pass search results; broader search is unresolved.']}
+        if source_hold:
+            results[str(rid)]['source_programme_review']={'status':'incomplete-source',**source_hold}
+            if not candidates:results[str(rid)]['reasons']=[source_hold['reason']]
     output = {'schema_version': 1, 'matcher_version': VERSION, 'score_kind': 'heuristic',
               'metadata_completed_at': snapshot['metadata_completed_at'],
               'search_manifest_fingerprint': manifest['fingerprint'],
@@ -430,6 +437,7 @@ def generate():
               'collection_fingerprint': hashlib.sha256((ROOT/'data/collection_matches.json').read_bytes()).hexdigest(),
               'expansion_scope_fingerprint': hashlib.sha256(scope_path.read_bytes()).hexdigest(),
               'target_credits_fingerprint': hashlib.sha256(target_credits_path.read_bytes()).hexdigest(),
+              'source_programme_review_fingerprint': hashlib.sha256((ROOT/'data/qobuz_source_programme_reviews.json').read_bytes()).hexdigest(),
               'source_composer_review_fingerprint': hashlib.sha256((ROOT/'data/qobuz_source_composer_reviews.json').read_bytes()).hexdigest(),
               'work_inventory_fingerprint': hashlib.sha256(inventory_path.read_bytes()).hexdigest(),
               'lead_review_fingerprint': hashlib.sha256(REVIEW.read_bytes()).hexdigest(),

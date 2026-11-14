@@ -1,0 +1,40 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-15",
+  "releases": [
+    {
+      "discogs_id": "7971104",
+      "decision": "withhold-incomplete-source",
+      "target_sha256": "7ea792c2c13015e0cd8ea328317b8067e92091221ebdb31d819da5d9d708cc7c",
+      "source_sha256": "9a08117528f0ae53d72308405cebd4cde708729be943919c446c9c4de7302e69",
+      "catalogue_number": "LM 20086",
+      "saved_track_count": 13,
+      "physical_track_count": 14,
+      "missing_tracks": [
+        {
+          "position": "A3",
+          "composer": "Isaac Albéniz",
+          "title": "Sevillana (n.3 della Suite Española)"
+        }
+      ],
+      "external_source_files": [
+        {
+          "path": "data/review_sources/7971104-side-1-label.jpg",
+          "sha256": "039080d6dce297813e5cd433fdce800abeedafdd19946346981e511c9d9fef65",
+          "url": "https://i.discogs.com/K05ECCFUVyQHevZdl878sp8vuZtg_SPDg1tE_1uXOTM/rs:fit/g:sm/q:90/h:600/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc5NzEx/MDQtMTQ1MjY3OTEy/Mi03MjcxLmpwZWc.jpeg"
+        },
+        {
+          "path": "data/review_sources/7971104-front-programme.jpg",
+          "sha256": "52cddc76305f4a28c329f9a0f3ad7c2056b2378fe02ab0963c2ed93f6567f31e",
+          "url": "https://i.discogs.com/JY56GL8UKx9-uNZg-vUNQu3gd_uO1pDoHx7oXjNbMQY/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc5NzEx/MDQtMTQ1MjY3OTEz/MS0zMDY5LmpwZWc.jpeg"
+        }
+      ],
+      "sources": [
+        "https://www.discogs.com/release/7971104-Arthur-Rubinstein-I-Bis-Di-Artur-Rubinstein",
+        "https://i.discogs.com/K05ECCFUVyQHevZdl878sp8vuZtg_SPDg1tE_1uXOTM/rs:fit/g:sm/q:90/h:600/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc5NzEx/MDQtMTQ1MjY3OTEy/Mi03MjcxLmpwZWc.jpeg",
+        "https://i.discogs.com/JY56GL8UKx9-uNZg-vUNQu3gd_uO1pDoHx7oXjNbMQY/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc5NzEx/MDQtMTQ1MjY3OTEz/MS0zMDY5LmpwZWc.jpeg"
+      ],
+      "reason": "The saved tracklist omits Albéniz’s Sevillana, shown on the original RCA label and cover. The complete LP programme needs review before a match can be accepted."
+    }
+  ]
+}
