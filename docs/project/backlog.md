@@ -76,8 +76,13 @@ Rubinstein 13927062 stay unpublished. The Ring file does not number
 Siegfried’s Act 1 Scene 3. Getz/Gilberto does not name Milton Banana. The
 Moldau file has no Tábor. Klemperer’s file counts to 68 where the LP runs to
 78. The Pink Panther 11938972 and Kondrashin’s New World 9739139 are Probable 85.
-Solti’s Rheingold files name Paul Kuentz, not Paul Kuen. The next file is
-Haydn’s Harmoniemesse 9398840.
+Solti’s Rheingold files name Paul Kuentz, not Paul Kuen. Kondrashin’s New
+World 9739139 and Fasano’s four Vivaldi concertos 9343746 are Probable 85.
+Harmoniemesse stays unpublished because Neville Marriner is not named.
+Maazel’s Little Russian file is the Pittsburgh Symphony and adds Antar.
+Ella and Louis does not name Oscar Peterson, Buddy Rich or Herb Ellis. The
+next file is Solti’s Götterdämmerung 8982341. The LP has fourteen Teil sides
+and the cached file has 54 cues.
 
 Status: user-authorized [round2](../plans/2026-11-13-qobuz-round2.md) complete:
 3new bounded Probables (Klemperer,Ancerl,deVito),40slow searches for20empty

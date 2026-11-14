@@ -15,7 +15,7 @@
   "opera_review_fingerprint": "6e26d528eb7de78d372635218404a57534332ea1cd3d92e89e90e7a18066f85b",
   "pair_review_fingerprint": "7709aa57ef7815fda88766badd3064939bccb142bd0e97389a0f5f011c54cd84",
   "container_review_fingerprint": "aa8a8e530114e05869e1215561786073250faca3c9349b66059ea59ff3c535e0",
-  "binding_review_fingerprint": "1748aadb78017720baad507a5e096c02291156c468557bbea9bc047879c0f3e9",
+  "binding_review_fingerprint": "8e9290c053caf91b49e9cd32384be458d97e17d03c454e933a8648efadaeecd3",
   "heading_review_fingerprint": "44c6333ec66aff9cbbf7a29ae8d00ef0005da4fb05dae7e65278f889e97fab8b",
   "cached_half_review_fingerprint": "51e57b6a2ed934ed1a91452a4a8c314099d6641b216c73740a3da7cda998dbcf",
   "side_range_review_fingerprint": "4434bf0427e75aae1b891957d05cd4175f6b01d7b2f6a8e352238c3a297c44f7",
@@ -99180,9 +99180,19 @@
       ]
     },
     "9343746": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "3614595584943",
+        "name": "Vivaldi: 4 Concertos",
+        "artists": [
+          "Franco Gulli"
+        ],
+        "label": "BNF Collection",
+        "release_date": "1957-01-01",
+        "image": "https://static.qobuz.com/images/covers/43/49/3614595584943_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/vivaldi-4-concertos-franco-gulli-edmondo-malanotte-i-virtuosi-di-roma/3614595584943"
+      },
       "candidates": [
         {
           "id": "3614595584943",
@@ -99194,10 +99204,10 @@
           "release_date": "1957-01-01",
           "image": "https://static.qobuz.com/images/covers/43/49/3614595584943_230.jpg",
           "url": "https://www.qobuz.com/fr-fr/album/vivaldi-4-concertos-franco-gulli-edmondo-malanotte-i-virtuosi-di-roma/3614595584943",
-          "status": "unchecked",
-          "confidence": null,
-          "coverage": 0.0,
-          "covered": 0,
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 4,
           "target_count": 4,
           "required_performers": [
             "Renato Fasano",
@@ -99206,31 +99216,101 @@
           "programme": [
             {
               "target": "Concert En Sol Majeur",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                28008922,
+                28008924,
+                28008926
+              ]
             },
             {
               "target": "Concerto En Ut Mineur",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                28008928,
+                28008930,
+                28008932
+              ]
             },
             {
               "target": "Concerto Mi Bémol Majeur la Tempête En Mer",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                28008934,
+                28008936,
+                28008938
+              ]
             },
             {
               "target": "Concerto En La Majeur",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                28008940,
+                28008942,
+                28008944
+              ]
             }
           ],
           "reasons": [
-            "0/4 target items supported after composer/work grouping; unresolved."
+            "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+            "La Voix de Son Maître FALP 428 is Fasano and the Virtuosi di Roma in four Vivaldi concertos. This file has G major, C minor, E-flat La tempesta di mare, and A major, three movements each, with Fasano and I Virtuosi Di Roma on every track.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "The LP names the keys and the storm. It does not print RV 532, RV 120, RV 253 or RV 546.",
+            "This 1957 file is not verified as FALP 428."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Concert En Sol Majeur",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  28008922,
+                  28008924,
+                  28008926
+                ]
+              },
+              {
+                "target": "Concerto En Ut Mineur",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  28008928,
+                  28008930,
+                  28008932
+                ]
+              },
+              {
+                "target": "Concerto Mi Bémol Majeur la Tempête En Mer",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  28008934,
+                  28008936,
+                  28008938
+                ]
+              },
+              {
+                "target": "Concerto En La Majeur",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  28008940,
+                  28008942,
+                  28008944
+                ]
+              }
+            ]
+          },
+          "recording_review": "La Voix de Son Maître FALP 428 is Fasano and the Virtuosi di Roma in four Vivaldi concertos. This file has G major, C minor, E-flat La tempesta di mare, and A major, three movements each, with Fasano and I Virtuosi Di Roma on every track.",
+          "review_sources": [
+            "https://www.qobuz.com/fr-fr/album/vivaldi-4-concertos-franco-gulli-edmondo-malanotte-i-virtuosi-di-roma/3614595584943"
           ]
         },
         {
@@ -99433,7 +99513,11 @@
       "query": "renato fasano vivaldi quatre concertos",
       "searched_at": "2026-11-12T16:42:39.248489+00:00",
       "reasons": [
-        "0/4 target items supported after composer/work grouping; unresolved."
+        "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+        "La Voix de Son Maître FALP 428 is Fasano and the Virtuosi di Roma in four Vivaldi concertos. This file has G major, C minor, E-flat La tempesta di mare, and A major, three movements each, with Fasano and I Virtuosi Di Roma on every track.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "The LP names the keys and the storm. It does not print RV 532, RV 120, RV 253 or RV 546.",
+        "This 1957 file is not verified as FALP 428."
       ]
     },
     "4483876": {

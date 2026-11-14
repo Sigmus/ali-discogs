@@ -1136,3 +1136,26 @@ Probable 85 for 9739139. The LP prints Kiril and the file spells Kirill. The
 metadata-needed, 306 work or credit gaps, 7 reviewed withholds, and the
 Barenboim caution. Binding tests passed. The explorer shows 85% and the
 four movements under the one symphony.
+
+## 2026-11-14 — Fasano’s four Vivaldi concertos published
+
+Argo ZRG 515 has the Harmoniemesse in six movements, with Spoorenberg, Watts,
+Young, Rouleau, Guest, Runnett and the Academy. The file has those six. Neville
+Marriner is Leader on the LP and is not named, so 9398840 stays unpublished.
+Decca SXL 6162 is Maazel and the Wiener Philharmoniker in the Little Russian.
+The cached symphony file is the Pittsburgh Symphony and adds Rimsky-Korsakov’s
+Antar. Jazz Images 37008 names Oscar Peterson, Buddy Rich, Herb Ellis and Ray
+Brown. The eleven-song file names Ella and Louis, and Brown on one song. The
+75-track duet box names Peterson and still omits Rich, Ellis and Brown.
+
+La Voix de Son Maître FALP 428 lists four Vivaldi concertos: G major, C minor,
+E-flat la Tempête En Mer, and A major. The 1957 file has those four, three
+movements each, in that order, with Fasano and I Virtuosi Di Roma on every
+track. Probable 85 for 9343746. The LP does not print RV 532, RV 120, RV 253
+or RV 546. The cover says Virtuosi Di Roma and the labels add Collegium Musicum
+Italicum. The file is not verified as that pressing. Solti’s Götterdämmerung
+8982341 is the stop. Decca SET 292-7 has fourteen Teil sides. The file has 54
+prologue and act cues, which the scene review does not classify. Copies
+12/98/631, unique 12/98/630. Inventory of the 630 still unchecked: 305 no saved
+hits, 12 metadata-needed, 305 work or credit gaps, 7 reviewed withholds, and
+the Barenboim caution. Binding tests passed.

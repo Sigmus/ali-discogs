@@ -15,19 +15,19 @@
     "qobuz_empty_search_metadata.json.gz": "e2bd43978c93ab2b4e7b69c1242faf2c024bec7196741ddaed637a77dab77cf4",
     "qobuz_empty_search_follow_metadata.json.gz": "a9fd10bc41ce74dcd28734eaada12dc06b8bfa87084f18f6a46d7978740a9e84",
     "collection_matches.json": "a214eee877d4749fa957b3d2a293c2925d7ba0621259f2742139a6cd86f928c8",
-    "qobuz_matches.json": "a20530ea1d91eb86b6fbdaffce226f62a38a8bfd617d21370751fe44c472a2a2",
+    "qobuz_matches.json": "9d883f2953080046a587a4cdcb322a21aeda26d909d8d40922afbb73675e5d52",
     "qobuz_work_inventory.json": "ac5b17039789d5e994c13492246e74dd62bd8194dd089f579668d98e82dfe3f9",
-    "qobuz_binding_reviews.json": "1748aadb78017720baad507a5e096c02291156c468557bbea9bc047879c0f3e9",
+    "qobuz_binding_reviews.json": "8e9290c053caf91b49e9cd32384be458d97e17d03c454e933a8648efadaeecd3",
     "qobuz_opera_recording_reviews.json": "6e26d528eb7de78d372635218404a57534332ea1cd3d92e89e90e7a18066f85b"
   },
   "summary": {
-    "work_or_credit_unresolved": 306,
+    "work_or_credit_unresolved": 305,
     "no_saved_hits": 305,
     "reviewed_withheld": 7,
     "metadata_needed": 12,
     "completeness_review_needed": 1
   },
-  "unmatched_unique_releases": 631,
+  "unmatched_unique_releases": 630,
   "entries": [
     {
       "discogs_id": "594243",
@@ -66362,190 +66362,6 @@
       "cached_candidates": []
     },
     {
-      "discogs_id": "9343746",
-      "title": "Quatre Concertos",
-      "category": "work_or_credit_unresolved",
-      "saved_hits": 5,
-      "uncached_hits": 0,
-      "cached_candidates": [
-        {
-          "album_id": "0825646986019",
-          "title": "Vivaldi: Cello Concerto No. 12 F.III e Oboe Concerto No. 4 F.VII - Le Quattro Stagioni",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Concert En Sol Majeur",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Concerto En Ut Mineur",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Concerto Mi Bémol Majeur la Tempête En Mer",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Concerto En La Majeur",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "3610153803808",
-          "title": "Vivaldi: 4 Concerti",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Concert En Sol Majeur",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Concerto En Ut Mineur",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Concerto Mi Bémol Majeur la Tempête En Mer",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Concerto En La Majeur",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "3614595584943",
-          "title": "Vivaldi: 4 Concertos",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Concert En Sol Majeur",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Concerto En Ut Mineur",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Concerto Mi Bémol Majeur la Tempête En Mer",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Concerto En La Majeur",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "5099950944958",
-          "title": "Concertos",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Concert En Sol Majeur",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Concerto En Ut Mineur",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Concerto Mi Bémol Majeur la Tempête En Mer",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Concerto En La Majeur",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "wqztdzt34gw4a",
-          "title": "Goldenes Barock",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Concert En Sol Majeur",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Concerto En Ut Mineur",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Concerto Mi Bémol Majeur la Tempête En Mer",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Concerto En La Majeur",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        }
-      ]
-    },
-    {
       "discogs_id": "9350033",
       "title": "Klavierkonzert • Piano Concerto No.3",
       "category": "no_saved_hits",
@@ -89189,7 +89005,7 @@
     }
   ],
   "limitations": [
-    "Offline triage after Kondrashin’s New World symphony. A downloaded album is not an accepted match, and an empty query is not confirmed absence.",
+    "Offline triage after Fasano’s four Vivaldi concertos. A downloaded album is not an accepted match, and an empty query is not confirmed absence.",
     "Recorded withholds stay in the inventory as reviewed_withheld and are not open leads.",
     "Categories prioritize available cached evidence; a release may also have uncached alternatives."
   ]

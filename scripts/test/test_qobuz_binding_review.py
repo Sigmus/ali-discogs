@@ -39,7 +39,7 @@ class BindingReviewTests(unittest.TestCase):
                 published.append(discogs_id)
             else:
                 self.assertIsNone(candidate)
-        self.assertEqual(published, ['11562013', '3475547', '11168177', '6029612', '5177097', '7525022', '4483876', '7119504', '6472687', '10757104', '15980846', '4395895', '8291074', '11938972', '9739139'])
+        self.assertEqual(published, ['11562013', '3475547', '11168177', '6029612', '5177097', '7525022', '4483876', '7119504', '6472687', '10757104', '15980846', '4395895', '8291074', '11938972', '9739139', '9343746'])
 
     def test_an_ensemble_alias_needs_a_reason_and_still_names_the_source_ensemble(self):
         row, album, review = self.review('15980846')
@@ -102,6 +102,19 @@ class BindingReviewTests(unittest.TestCase):
         self.assertEqual(len(candidate['programme'][0]['track_ids']), 4)
         self.assertIn('Kirill', ' '.join(candidate['reasons']))
         self.assertIn('jox1pt5atqcga', candidate['url'])
+        plain = copy.deepcopy(review)
+        plain['performer_aliases'] = []
+        result, _ = assess_bindings(row, album, plain)
+        self.assertFalse(result['eligible'])
+        self.assertIn('performer', result['blockers'])
+
+    def test_four_concertos_keep_the_storm_in_the_third_place(self):
+        row, album, review = self.review('9343746')
+        candidate = reviewed_candidate(row, album, review)
+        titles = [item['target'] for item in candidate['programme']]
+        self.assertEqual(titles[2], 'Concerto Mi Bémol Majeur la Tempête En Mer')
+        self.assertEqual(sum(len(item['track_ids']) for item in candidate['programme']), 12)
+        self.assertIn('3614595584943', candidate['url'])
         plain = copy.deepcopy(review)
         plain['performer_aliases'] = []
         result, _ = assess_bindings(row, album, plain)

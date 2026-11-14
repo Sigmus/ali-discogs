@@ -17,7 +17,7 @@ plans preserve dated evidence and prior handoffs.
 - Current collection:741 copies /740 unique releases. Spotify254Found /273Probable
   /210NotFound /4Unchecked copies. Retained labels are not independent full
   recording confirmations. Qobuz figures below are independent enrichment.
-- Qobuz overlay: 12 Found / 97 Probable / 632 unchecked copies; unique 12/97/631.
+- Qobuz overlay: 12 Found / 98 Probable / 631 unchecked copies; unique 12/98/630.
   Separate `data/qobuz_matches.json` survives Spotify rescoring; original pipeline
   Qobuz fields stay unchecked. Empty/inconclusive queries are not confirmed absence.
 - Sonoteque table/details, 80% main width, column sorting (Year ascending default),
@@ -82,14 +82,16 @@ plans preserve dated evidence and prior handoffs.
 
 ## Validation and next action
 
-- Probable 85 includes Kondrashin’s New World 9739139, four movements with
-  the Wiener Philharmoniker. The file spells Kirill. It is not Decca SXDL
-  7510. The Pink Panther 11938972 remains.
-- Inventory of the 631 still unchecked: 305 no saved hits, 12 metadata-needed,
-  306 work or credit gaps, 7 reviewed withholds, and the Barenboim caution.
+- Probable 85 includes Fasano’s four Vivaldi concertos 9343746. The LP names
+  the keys and the storm. It does not print the RV numbers. The file names
+  I Virtuosi Di Roma. It is not FALP 428. Kondrashin’s New World remains.
+- Inventory of the 630 still unchecked: 305 no saved hits, 12 metadata-needed,
+  305 work or credit gaps, 7 reviewed withholds, and the Barenboim caution.
   Sellheim 7421796 stays an empty query, not confirmed absence.
-- Solti’s Rheingold files name Paul Kuentz, not Paul Kuen. The Brahms file is
-  Berlin only. The next file is Haydn’s Harmoniemesse 9398840. Bitches Brew
-  stays a proposal. Pushed through c12ce9d. Live Pages result not confirmed.
+- Harmoniemesse stays unpublished: Neville Marriner is not named. Maazel’s
+  file is Pittsburgh, and it adds Antar. Ella and Louis omits Peterson, Rich
+  and Ellis. The next file is Solti’s Götterdämmerung 8982341, fourteen Teil
+  sides against 54 cues. Bitches Brew stays a proposal. Pushed through
+  c12ce9d. Live Pages result not confirmed.
 - [Unmatched audit](../plans/2026-11-13-qobuz-unmatched-audit.md). [Bitches Brew credits](../plans/2026-11-13-bitches-brew-credits.md).
 - [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).

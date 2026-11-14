@@ -1675,6 +1675,57 @@
       "expected": {
         "Symphony No. 9 \"From The New World\" In E Minor, Op. 95": [50754288, 50754289, 50754290, 50754291]
       }
+    },
+    {
+      "discogs_id": "9343746",
+      "album_id": "3614595584943",
+      "review_kind": "bound-tracks",
+      "decision": "probable",
+      "target_sha256": "f79d6e49ae4313d872fc02c17daa7ebf8bae9909664de5b4340422bbfa2bde82",
+      "album_sha256": "be92b6e06980f5b0763aa2e0caf51bb8f4bf0d806822493670d70864114a0fce",
+      "source_sha256": "2fb6cce3141d2aea5b0493c04612e5d77a98153bfd29c1274fb49d609acfe551",
+      "pulls": [],
+      "adds": [
+        {"track_id": 28008922, "target": "Concert En Sol Majeur", "title_contains": "G Major, RV 532", "reason": "Sol majeur is G major."},
+        {"track_id": 28008924, "target": "Concert En Sol Majeur", "title_contains": "G Major, RV 532", "reason": "Sol majeur is G major."},
+        {"track_id": 28008926, "target": "Concert En Sol Majeur", "title_contains": "G Major, RV 532", "reason": "Sol majeur is G major."},
+        {"track_id": 28008928, "target": "Concerto En Ut Mineur", "title_contains": "C Minor, RV 120", "reason": "Ut mineur is C minor."},
+        {"track_id": 28008930, "target": "Concerto En Ut Mineur", "title_contains": "C Minor, RV 120", "reason": "Ut mineur is C minor."},
+        {"track_id": 28008932, "target": "Concerto En Ut Mineur", "title_contains": "C Minor, RV 120", "reason": "Ut mineur is C minor."},
+        {"track_id": 28008934, "target": "Concerto Mi Bémol Majeur la Tempête En Mer", "title_contains": "La tempesta di mare", "reason": "The storm at sea is La tempesta di mare."},
+        {"track_id": 28008936, "target": "Concerto Mi Bémol Majeur la Tempête En Mer", "title_contains": "La tempesta di mare", "reason": "The storm at sea is La tempesta di mare."},
+        {"track_id": 28008938, "target": "Concerto Mi Bémol Majeur la Tempête En Mer", "title_contains": "La tempesta di mare", "reason": "The storm at sea is La tempesta di mare."},
+        {"track_id": 28008940, "target": "Concerto En La Majeur", "title_contains": "A Major, RV 546", "reason": "La majeur is A major."},
+        {"track_id": 28008942, "target": "Concerto En La Majeur", "title_contains": "A Major, RV 546", "reason": "La majeur is A major."},
+        {"track_id": 28008944, "target": "Concerto En La Majeur", "title_contains": "A Major, RV 546", "reason": "La majeur is A major."}
+      ],
+      "required_performers": [
+        "Renato Fasano",
+        "Virtuosi Di Roma \"Collegium Musicum Italicum\""
+      ],
+      "performer_aliases": [
+        {
+          "source": "Virtuosi Di Roma \"Collegium Musicum Italicum\"",
+          "file": "I Virtuosi Di Roma",
+          "reason": "FALP 428 prints Virtuosi Di Roma on the cover and Collegium Musicum Italicum on the labels. This file names I Virtuosi Di Roma."
+        }
+      ],
+      "movement_runs": true,
+      "sources": [
+        "https://www.qobuz.com/fr-fr/album/vivaldi-4-concertos-franco-gulli-edmondo-malanotte-i-virtuosi-di-roma/3614595584943"
+      ],
+      "limitations": [
+        "The LP names the keys and the storm. It does not print RV 532, RV 120, RV 253 or RV 546.",
+        "This 1957 file is not verified as FALP 428."
+      ],
+      "recording_review": "La Voix de Son Maître FALP 428 is Fasano and the Virtuosi di Roma in four Vivaldi concertos. This file has G major, C minor, E-flat La tempesta di mare, and A major, three movements each, with Fasano and I Virtuosi Di Roma on every track.",
+      "extra_track_ids": [],
+      "expected": {
+        "Concert En Sol Majeur": [28008922, 28008924, 28008926],
+        "Concerto En Ut Mineur": [28008928, 28008930, 28008932],
+        "Concerto Mi Bémol Majeur la Tempête En Mer": [28008934, 28008936, 28008938],
+        "Concerto En La Majeur": [28008940, 28008942, 28008944]
+      }
     }
   ]
 }
