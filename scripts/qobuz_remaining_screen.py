@@ -80,9 +80,10 @@ def screen():
             if str(x['task']['discogs_id']) in mids:
                 provenance[path.name] = fingerprint(path)
                 for album in x['albums']: add(x['task']['discogs_id'], album, x['task'].get('query'))
+    provenance['qobuz_source_composer_reviews.json'] = fingerprint(ROOT/'data/qobuz_source_composer_reviews.json')
     inventory = json.loads((ROOT/'data/qobuz_work_inventory.json').read_text())
     provenance['qobuz_work_inventory.json'] = fingerprint(ROOT/'data/qobuz_work_inventory.json')
-    for name in ['qobuz_match.py','qobuz_completeness.py','qobuz_work_groups.py']:
+    for name in ['qobuz_match.py','qobuz_completeness.py','qobuz_work_groups.py','qobuz_source_composer.py']:
         provenance['scripts/' + name] = fingerprint(ROOT/'scripts'/name)
     entries = []
     for (rid, aid), entry in pairs.items():
@@ -103,7 +104,7 @@ def screen():
             entry['finding'] = 'metadata_needed'
         entries.append(entry)
     entries.sort(key=lambda x: (x['finding'] != 'needs_recording_review', -x['discovery_rank'], int(x['discogs_id']), x['album_id']))
-    report = {'schema_version': 1, 'reviewed_on': '2026-11-14', 'scope_sha256': fingerprint(scope_path),
+    report = {'schema_version': 1, 'reviewed_on': '2026-11-15', 'scope_sha256': fingerprint(scope_path),
         'evidence_sha256': provenance, 'summary': dict(Counter(e['finding'] for e in entries)),
         'release_candidate_pairs': len(entries), 'entries': entries,
         'policy': 'Offline triage only, no publication. Discovery rank is title/headline-artist similarity, not match confidence. Missing work/credit support is unresolved, not absence. Full recording review remains required.'}

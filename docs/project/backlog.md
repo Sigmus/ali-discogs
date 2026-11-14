@@ -13,10 +13,10 @@ Status: agreed priority; retrieval and first offline screen/audit complete.
 now includes twenty-four new Probables and shared inventory/parser fixes. Nine-album
 follow-up complete216tracks:7Probables/4withheld release leads after further
 reviews. Next:
-Gilels15221307source-bound per-work composer safeguard: raw B1Medtner versus
-Beethoven-only candidate; empty normalized composer field currently permits a
-false full-coverage lead. Label remains unchecked. Two Klemperer former holds now
-Probable with saved stereo-label evidence;153script tests pass. Nabucco/Mozart
+Rubinstein7971104per-work composer scope review. Gilels15221307now rejects
+Beethoven-only support for its MedtnerOp.22via source-bound positive Composer
+checks. Legacy scoring and all published records unchanged;156script tests pass.
+Source-attribution discovery remains separate from reviewed scopes. Nabucco/Mozart
 credit/catalogue gaps remain unresolved.
 170remaining metadata-needed releases are not a fetch mandate. Follow the
 [retrieval and follow-up plan](../plans/2026-11-14-qobuz-remaining-retrieval.md).

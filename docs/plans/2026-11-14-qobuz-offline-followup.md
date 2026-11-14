@@ -396,3 +396,27 @@ Updated former-hold regression to require saved positive stereo evidence; two
 new regressions reject changed label hashes, later orchestra and missing overture.
 Source-note/timing audit saved in `data/qobuz_klemperer_stereo_audit.json`. No
 Qobuz calls, source-format overwrite, push or deployment.
+
+
+## 15 November — source-bound work-composer safeguard
+
+After committing Klemperer, continued through remaining cached completeness
+leads. Gilels15221307raw A1–A4credit Beethoven; B1credits Medtner. Normalized
+composer list is empty. Beethoven-only box0002894776360had false100%work support
+because its BeethovenOp.22was allowed to cover MedtnerOp.22. Completeness already
+blocked publication, so no incorrect accepted label needed demotion.
+
+Added reusable manual source-scope ledger/validator and narrow grouped-matcher
+Composer check. Full target/source hashes, all source positions/titles and artist
+IDs/names must agree. No automatic interpretation of arbitrary track artists as
+composers, role inference, global spelling aliases or normalized-data rewrite.
+Publisher Boosey independently identifies Medtner's G-minor Op.22. Legacy scoring
+unchanged; scoped grouped support drops5/5to4/5, Medtner gets no Beethoven tracks.
+Matcher version/provenance updated, all published release records unchanged.
+
+Offline audit discovers2empty-normalized-composer source-attribution candidates:
+reviewed Gilels and unreviewed Rubinstein7971104. Discovery is heuristic and may
+miss names; all raw attributions retained. Three regressions cover cross-composer
+opus collisions, stale/incomplete/changed source scopes and positive Composer
+requirements.156script tests, UI normalization/build pass. Next review Rubinstein
+scope against its cached source, then audit candidate impact before any acceptance.

@@ -12,7 +12,7 @@ explorer. [README](../../README.md) owns setup and architecture;
   table headers). Retrieval complete; first offline screen/audit complete. Deployment not verified.
 - Collection: 741 copies / 740 unique releases. Current saved labels: Spotify
   254 Found / 273 Probable / 210 Not found / 4 Unchecked; Qobuz
-  12 Found / 122 Probable / 607 Unchecked copies (14 November snapshot).
+  12 Found / 122 Probable / 607 Unchecked copies (15 November snapshot).
 - Spotify’s legacy album-level labels and stricter Qobuz evidence levels are
   not comparable accuracy or catalogue-coverage measurements. Both status and
   score are saved data. Qobuz 95/85 are heuristic levels, not probabilities.
@@ -70,7 +70,7 @@ explorer. [README](../../README.md) owns setup and architecture;
   345cached unresolved pairs,1,868pairs missing full metadata. Twenty-four new
   Probable releases now published locally after bounded reviews.
 - Michelangeli sonata3285095/Concerto1 3672809 and Gilels7914875 completed.
-  Nine Beethoven plus Chopin Op.11 inventory additions;153script tests pass.
+  Nine Beethoven plus Chopin Op.11 inventory additions;156 script tests pass.
 - [Offline plan](../plans/2026-11-14-qobuz-offline-followup.md) owns findings and
   exact next steps. Two network-forbidden/fail-closed regression tests pass.
 
@@ -91,11 +91,11 @@ new-hit downloads, automatic promotions, pushes or deployment. Bitches Brew’s
 credit exception remains a proposal. Preserve source/hash-bound review safeguards;
 never loosen credits or invent recording identity to improve a count.
 
-Next action: add/audit a source-bound per-work composer safeguard for Gilels
-15221307: raw source attributes B1to Medtner, but normalized composer list is empty;
-Beethoven-only candidate is a false full-coverage lead, still safely unchecked.
-Klemperer24964822/26149643now Probable with saved stereo labels/early years;
-Second finale14second timing discrepancy disclosed. Current606unchecked unique.
-153script tests/UI normalization/build pass. No Qobuz calls or push/deployment.
-Nabucco/Mozart credit gaps remain; broader retrieval is still unscoped.
+Next action: review Rubinstein 7971104per-work source attributions before adding
+its composer scope; it is a discovery candidate, not an accepted match.
+Gilels 15221307now has a hash-bound composer guard: Medtner Op.22cannot match
+Beethoven Op.22. Normalized data/legacy scoring and all published records unchanged.
+Klemperer 24964822/26149643 Probable from saved stereo labels; timing caveat kept.
+Current606unchecked unique.156 script tests/UI normalization/build pass.
+No Qobuz calls or push/deployment. Nabucco/Mozart credit gaps remain.
 [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).

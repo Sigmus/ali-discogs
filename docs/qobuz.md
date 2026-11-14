@@ -388,3 +388,27 @@ locale/slug path and matching album ID. Missing or invalid URL evidence falls ba
 to a safely encoded title/artist search; it never invents a slug or bare album URL.
 Existing evidence archives and review fingerprints do not need to be rewritten.
 Canonical routes do not guarantee availability in every account territory.
+
+
+## Reviewed source composer scopes
+
+`data/qobuz_source_composer_reviews.json` preserves manually reviewed classical
+work attributions lost from normalized composer fields. Each scope binds the
+normalized target and full cached Discogs source with SHA256, then validates
+source positions, titles and artist IDs/names. Only those explicit scopes require
+a matching positive candidate Composer credit. Arbitrary track artists are not
+automatically treated as composers; no artist-role or spelling inference is added.
+The legacy matcher and normalized collection remain unchanged.
+
+Reproduce the offline audit and discover other attribution gaps:
+
+```sh
+uv run python scripts/qobuz_source_composer.py
+```
+
+Output `data/qobuz_source_composer_audit.json` separates reviewed guards from
+name-heuristic discovery candidates needing manual review. Current scope is
+Gilels15221307: Beethoven-only material cannot cover the source MedtnerOp.22.
+Rubinstein7971104is flagged for review, not automatically scoped. After approved
+scope changes, run the script tests, matcher, screen/inventory and static build;
+inspect publication diffs rather than assuming labels should change.

@@ -1,0 +1,49 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-15",
+  "releases": [
+    {
+      "discogs_id": "15221307",
+      "review_kind": "reviewed-track-artist-composer",
+      "target_sha256": "671f3d21070f98184c0fecf7e14d7cc6961aa8620dba280305b4810bd74e9b99",
+      "source_sha256": "557e0a26725805fa8721542db25df4073f7f33c7cba5645ba7f8d394e7ab8cd2",
+      "targets": [
+        {
+          "position": "A1",
+          "target": "Piano Sonata No. 3 in C Major, Op. 2, No. 3, I. Allegro Con Brio",
+          "composer": "Ludwig van Beethoven",
+          "discogs_artist_id": 95544
+        },
+        {
+          "position": "A2",
+          "target": "Piano Sonata No. 3 in C Major, Op. 2, No. 3, II. Adagio",
+          "composer": "Ludwig van Beethoven",
+          "discogs_artist_id": 95544
+        },
+        {
+          "position": "A3",
+          "target": "Piano Sonata No. 3 in C Major, Op. 2, No. 3, III. Scherzo: Allegro",
+          "composer": "Ludwig van Beethoven",
+          "discogs_artist_id": 95544
+        },
+        {
+          "position": "A4",
+          "target": "Piano Sonata No. 3 in C Major, Op. 2, No. 3, IV. Allegro Assai",
+          "composer": "Ludwig van Beethoven",
+          "discogs_artist_id": 95544
+        },
+        {
+          "position": "B1",
+          "target": "Sonata for Piano in G Minor, Op. 22 (Allegro Assai)",
+          "composer": "Nikolai Medtner",
+          "discogs_artist_id": 1165222
+        }
+      ],
+      "sources": [
+        "https://www.discogs.com/release/15221307",
+        "https://www.boosey.com/cr/music/Nikolai-Medtner-Piano-Sonata-in-G-minor/26278"
+      ],
+      "rationale": "Reviewed classical work attributions: source A1–A4credit Beethoven and B1credits Medtner. Publisher independently identifies Medtner’s G-minor Op.22. This is a mismatch guard, not automatic interpretation of arbitrary track artists as composers."
+    }
+  ]
+}

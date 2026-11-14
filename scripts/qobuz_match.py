@@ -13,7 +13,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'src'))
 from ali_discogs.text import tnorm, norm, ORCH_ALIASES, is_composer
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = 'qobuz-work-groups-v2+explicit-target-credits+reviewed-leads+opera-source-roles+prelude-fugue-pairs+container-headings+bound-tracks+heading-over-groups+cached-half+side-ranges+scene-sides+catalogue-comma-movements'
+VERSION = 'qobuz-work-groups-v2+explicit-target-credits+reviewed-leads+opera-source-roles+prelude-fugue-pairs+container-headings+bound-tracks+heading-over-groups+cached-half+side-ranges+scene-sides+catalogue-comma-movements+reviewed-source-composers'
 
 
 def credits_v1(track):
@@ -430,6 +430,7 @@ def generate():
               'collection_fingerprint': hashlib.sha256((ROOT/'data/collection_matches.json').read_bytes()).hexdigest(),
               'expansion_scope_fingerprint': hashlib.sha256(scope_path.read_bytes()).hexdigest(),
               'target_credits_fingerprint': hashlib.sha256(target_credits_path.read_bytes()).hexdigest(),
+              'source_composer_review_fingerprint': hashlib.sha256((ROOT/'data/qobuz_source_composer_reviews.json').read_bytes()).hexdigest(),
               'work_inventory_fingerprint': hashlib.sha256(inventory_path.read_bytes()).hexdigest(),
               'lead_review_fingerprint': hashlib.sha256(REVIEW.read_bytes()).hexdigest(),
               'comparison_evidence_fingerprint': hashlib.sha256(ARCHIVE.read_bytes()).hexdigest(),

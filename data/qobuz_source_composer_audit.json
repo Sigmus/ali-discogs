@@ -1,0 +1,298 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-15",
+  "scope_sha256": "1cce69d6df99a54b444f6a210d84c5c69b3139eb4ed1355e821708d1fb59b83c",
+  "collection_sha256": "a214eee877d4749fa957b3d2a293c2925d7ba0621259f2742139a6cd86f928c8",
+  "candidate_album_sha256": "1cbd8d5b54bf77d8211977df39f7540443c7f9a6169dfdd4443d90cb071fc752",
+  "reviewed_lead": {
+    "discogs_id": "15221307",
+    "album_id": "0002894776360",
+    "legacy_evidence": {
+      "status": "probable",
+      "confidence": 0.85,
+      "coverage": 1.0,
+      "covered": 5,
+      "target_count": 5,
+      "required_performers": [
+        "Emil Gilels"
+      ],
+      "programme": [
+        {
+          "target": "Piano Sonata No. 3 in C Major, Op. 2, No. 3, I. Allegro Con Brio",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            610559,
+            610568,
+            610577,
+            610586
+          ]
+        },
+        {
+          "target": "Piano Sonata No. 3 in C Major, Op. 2, No. 3, II. Adagio",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            610559,
+            610568,
+            610577,
+            610586
+          ]
+        },
+        {
+          "target": "Piano Sonata No. 3 in C Major, Op. 2, No. 3, III. Scherzo: Allegro",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            610559,
+            610568,
+            610577,
+            610586
+          ]
+        },
+        {
+          "target": "Piano Sonata No. 3 in C Major, Op. 2, No. 3, IV. Allegro Assai",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            610559,
+            610568,
+            610577,
+            610586
+          ]
+        },
+        {
+          "target": "Sonata for Piano in G Minor, Op. 22 (Allegro Assai)",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            610526,
+            610535,
+            610544,
+            610553
+          ]
+        }
+      ],
+      "reasons": [
+        "Each target item has supporting work and performer credits.",
+        "Grouped movements or extra recordings require review; recording identity is not confirmed."
+      ]
+    },
+    "guarded_evidence": {
+      "status": "unchecked",
+      "confidence": null,
+      "coverage": 0.8,
+      "covered": 4,
+      "target_count": 5,
+      "required_performers": [
+        "Emil Gilels"
+      ],
+      "programme": [
+        {
+          "target": "Piano Sonata No. 3 in C Major, Op. 2, No. 3, I. Allegro Con Brio",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            610559,
+            610568,
+            610577,
+            610586
+          ]
+        },
+        {
+          "target": "Piano Sonata No. 3 in C Major, Op. 2, No. 3, II. Adagio",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            610559,
+            610568,
+            610577,
+            610586
+          ]
+        },
+        {
+          "target": "Piano Sonata No. 3 in C Major, Op. 2, No. 3, III. Scherzo: Allegro",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            610559,
+            610568,
+            610577,
+            610586
+          ]
+        },
+        {
+          "target": "Piano Sonata No. 3 in C Major, Op. 2, No. 3, IV. Allegro Assai",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            610559,
+            610568,
+            610577,
+            610586
+          ]
+        },
+        {
+          "target": "Sonata for Piano in G Minor, Op. 22 (Allegro Assai)",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        }
+      ],
+      "reasons": [
+        "4/5 target items supported after composer/work grouping; unresolved.",
+        "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
+      ],
+      "work_group_policy": "qobuz-work-groups-v1"
+    }
+  },
+  "empty_normalized_composer_candidates": [
+    {
+      "discogs_id": "15221307",
+      "title": "Russian Keyboard Masters Vol. 1",
+      "source_sha256": "557e0a26725805fa8721542db25df4073f7f33c7cba5645ba7f8d394e7ab8cd2",
+      "reviewed_scope": true,
+      "source_attributions": [
+        {
+          "position": "A1",
+          "target": "Piano Sonata No. 3 in C Major, Op. 2, No. 3, I. Allegro Con Brio",
+          "artists": [
+            "Ludwig van Beethoven"
+          ]
+        },
+        {
+          "position": "A2",
+          "target": "Piano Sonata No. 3 in C Major, Op. 2, No. 3, II. Adagio",
+          "artists": [
+            "Ludwig van Beethoven"
+          ]
+        },
+        {
+          "position": "A3",
+          "target": "Piano Sonata No. 3 in C Major, Op. 2, No. 3, III. Scherzo: Allegro",
+          "artists": [
+            "Ludwig van Beethoven"
+          ]
+        },
+        {
+          "position": "A4",
+          "target": "Piano Sonata No. 3 in C Major, Op. 2, No. 3, IV. Allegro Assai",
+          "artists": [
+            "Ludwig van Beethoven"
+          ]
+        },
+        {
+          "position": "B1",
+          "target": "Sonata for Piano in G Minor, Op. 22 (Allegro Assai)",
+          "artists": [
+            "Nikolai Medtner"
+          ]
+        }
+      ]
+    },
+    {
+      "discogs_id": "7971104",
+      "title": "I Bis Di Artur Rubinstein",
+      "source_sha256": "9a08117528f0ae53d72308405cebd4cde708729be943919c446c9c4de7302e69",
+      "reviewed_scope": false,
+      "source_attributions": [
+        {
+          "position": "A1",
+          "target": "Danza Rituale Del Fuoco",
+          "artists": [
+            "Manuel De Falla"
+          ]
+        },
+        {
+          "position": "A2",
+          "target": "Poissons D'Or",
+          "artists": [
+            "Claude Debussy"
+          ]
+        },
+        {
+          "position": "A3",
+          "target": "Valse Oublièe",
+          "artists": [
+            "Franz Liszt"
+          ]
+        },
+        {
+          "position": "A4",
+          "target": "Pulcinella",
+          "artists": [
+            "Heitor Villa-Lobos"
+          ]
+        },
+        {
+          "position": "A5",
+          "target": "Danza Spagnola N.5",
+          "artists": [
+            "Enrique Granados"
+          ]
+        },
+        {
+          "position": "A6",
+          "target": "Marcia",
+          "artists": [
+            "Sergei Prokofiev"
+          ]
+        },
+        {
+          "position": "A7",
+          "target": "Danza Del Mugnaio",
+          "artists": [
+            "Manuel De Falla"
+          ]
+        },
+        {
+          "position": "B1",
+          "target": "Notturno In Mi Bemolle Maggiore, Op.9 N.2",
+          "artists": [
+            "Frédéric Chopin"
+          ]
+        },
+        {
+          "position": "B2",
+          "target": "Marcia Dei Nani",
+          "artists": [
+            "Edvard Grieg"
+          ]
+        },
+        {
+          "position": "B3",
+          "target": "Sogno D'Amore",
+          "artists": [
+            "Franz Liszt"
+          ]
+        },
+        {
+          "position": "B4",
+          "target": "Improvviso In La Bemolle Maggiore, Op.90 N.4",
+          "artists": [
+            "Franz Schubert"
+          ]
+        },
+        {
+          "position": "B5",
+          "target": "Romanza In Fa Diesis Maggiore",
+          "artists": [
+            "Robert Schumann"
+          ]
+        },
+        {
+          "position": "B6",
+          "target": "Il Canto Dell'Arcolaio",
+          "artists": [
+            "Felix Mendelssohn-Bartholdy"
+          ]
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Only reviewed source scopes enforce composer requirements. Arbitrary track artists are not automatically composers.",
+    "Name-heuristic discovery can miss artists; candidates need manual review. All raw names, including unrecognized names, are retained.",
+    "Guarded coverage is programme support, not a recording-identity probability. This audit makes no publication label changes."
+  ]
+}

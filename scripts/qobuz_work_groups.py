@@ -68,6 +68,10 @@ def target_work_matches(row, target, track, collision=None):
     from qobuz_match import work_match
     if not work_match(target, track['title']):
         return False
+    from qobuz_source_composer import required_composer
+    source_composer = required_composer(row, target)
+    if source_composer is not None and composers(track) != {norm(source_composer)}:
+        return False  # Positive reviewed work attribution; never borrow another work's composer.
     declared = {norm(c) for c in row.get('composers') or []}
     # Preserve the baseline composer evidence policy outside ambiguous opus
     # collisions; album-level Discogs composer lists can be incomplete and

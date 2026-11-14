@@ -1597,3 +1597,23 @@ Continued cached audit found Gilels15221307false full-coverage lead: source B1
 attributes MedtnerOp.22, normalized row has empty composer list, candidate is a
 Beethoven-only sonata box. Completeness already prevented promotion. Next add a
 source-bound per-work composer safeguard and audit impact without legacy relabels.
+
+
+### 2026-11-15 — Reviewed per-work source composer safeguard
+
+Gilels15221307raw per-track attributions supply Beethoven/Medtner identities lost
+from empty normalized composer field. Manual hash-bound scope now prevents
+BeethovenOp.22from covering MedtnerOp.22. Grouped lead support5/5→4/5; Medtner
+support removed. Legacy scorer and normalized collection unchanged, every published
+release record unchanged (matcher version/provenance only). Source/target hashes,
+all positions/titles and artist IDs/names validated; no global role inference.
+
+Offline audit flags2source-attribution gaps: reviewed Gilels and unreviewed
+Rubinstein7971104. Boosey independently corroborates Medtner work.156script tests,
+UI normalization/build pass; screen/inventory refreshed (418work/credit,170metadata,
+7withheld,6no-hits,5completeness;606unique). No provider calls, push/deployment.
+Next explicit Rubinstein source review, preserving missing works and uncertain leads.
+
+Final validation:156script tests pass with explicit out-of-scope rejection;
+publication release records remain byte-equivalent as JSON values, and refreshed
+screen provenance hashes match current inputs. Mock warnings are fixtures only.
