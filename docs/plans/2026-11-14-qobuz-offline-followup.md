@@ -205,3 +205,21 @@ regressions), UI normalization and static build pass. The initial bare-venv full
 suite lacked requests; rerun with the documented uv dependency environment passed.
 No Qobuz API calls, push or deployment. Diagnostic report remains the pre-publication
 structural checkpoint; the current review ledger/publication supersede its hold.
+
+## Autonomous cached-evidence continuation and Gould review
+
+User explicitly requested committing verified improvements and continuing to the
+next cached candidate without routine confirmation. This authorizes scoped offline
+review treatments as needed; new retrieval, warning retries and pushes remain
+outside scope. Retain fail-closed hashes, complete programme and artist checks.
+
+Gould1458083: the raw source has15nested LP bands, each naming an Invention and
+Sinfonia BWV pair. Saved Sony0886444299039 has30tracks in the same distinctive
+order. Official Gould discography independently lists all30 in that order and
+identifies the1964release. New frozen `nested-bwv-pairs` review validates raw source
+hash, nested children, track hashes, exact paired numbers/keys, complete772–801
+inventory and Gould/Bach credits. No global flattening or inferred missing works.
+Three regression tests reject wrong BWV/pianist, missing/swapped tracks and stale
+source binding. Exact takes/mastering remain unverified; publication is Probable85.
+Next cached lead: Katchen’s bare movement titles have explicit saved `work` fields;
+inspect a reusable guarded work-field context rule before considering publication.

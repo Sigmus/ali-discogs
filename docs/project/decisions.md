@@ -425,3 +425,13 @@ details. Measure header height so pin offset follows responsive sizing.
 User chose outlined A with Clear3 (filter/cross) and Pin1 (upright). Both live
 in filter actions after Search, superseding header pin placement. Use accessible
 names and tooltips, including dynamic Pin/Unpin and theme action wording.
+
+
+### 2026-11-14 — Continue verified offline enrichment autonomously
+
+Adopted at user request: commit verified improvements and continue through cached
+candidates without routine confirmation. Scope and implement bounded offline review
+treatments when justified; preserve source/album hashes, full programme and artist
+checks. Stop for provider warnings, blockers, new retrieval scope or unresolved
+policy choices. No automatic pushes/deployment. This supersedes routine per-review
+kind confirmation in earlier handoffs; it does not authorize weakening evidence.

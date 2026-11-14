@@ -967,6 +967,148 @@
         "Publisher artist/work support and matching release year do not independently establish exact session dates or takes.",
         "Exact Golden Guinea LP pressing, transfer and digital mastering remain unverified."
       ]
+    },
+    {
+      "discogs_id": "1458083",
+      "album_id": "0886444299039",
+      "review_kind": "nested-bwv-pairs",
+      "decision": "probable",
+      "target_sha256": "18a0212beadbc915d01733773a8a84f7bbbefdfa9cef8184eba7e8810d1fe2b9",
+      "album_sha256": "8830febe1b87bcef9591885a61035c2b4571276458ed586acb9ad50eae421e33",
+      "source_sha256": "4f8430532b0b9bc7d3a6b0935519c4ceead679d032a33d32230b166a3960c3dc",
+      "source_children": [
+        {
+          "position": "A1",
+          "type_": "track",
+          "title": "No.1 In C Major, BWV 772 & 787",
+          "duration": "2:13"
+        },
+        {
+          "position": "A2",
+          "type_": "track",
+          "title": "No.2 In C Minor, BWV 773 & 788",
+          "duration": "5:55"
+        },
+        {
+          "position": "A3",
+          "type_": "track",
+          "title": "No.5 In E-Flat Major, BWV 776 & 791",
+          "duration": "4:28"
+        },
+        {
+          "position": "A4",
+          "type_": "track",
+          "title": "No.14 In B-Flat Major, BWV 785 & 800",
+          "duration": "2:43"
+        },
+        {
+          "position": "A5",
+          "type_": "track",
+          "title": "No.11 In G Minor, BWV 782 & 797",
+          "duration": "4:36"
+        },
+        {
+          "position": "A6",
+          "type_": "track",
+          "title": "No.10 In G Major, BWV 781 & 796",
+          "duration": "1:35"
+        },
+        {
+          "position": "A7",
+          "type_": "track",
+          "title": "No.15 In B Minor, BWV 786 & 801",
+          "duration": "1:53"
+        },
+        {
+          "position": "A8",
+          "type_": "track",
+          "title": "No.7 In E Minor, BWV 778 & 793",
+          "duration": "2:24"
+        },
+        {
+          "position": "B1",
+          "type_": "track",
+          "title": "No.6 In E Major, BWV 777 & 792",
+          "duration": "3:30"
+        },
+        {
+          "position": "B2",
+          "type_": "track",
+          "title": "No.13 In A Minor, BWV 784 & 799",
+          "duration": "2:56"
+        },
+        {
+          "position": "B3",
+          "type_": "track",
+          "title": "No.12 In A Major, BWV 783 & 798",
+          "duration": "2:09"
+        },
+        {
+          "position": "B4",
+          "type_": "track",
+          "title": "No.3 In D Major, BWV 774 & 789",
+          "duration": "2:05"
+        },
+        {
+          "position": "B5",
+          "type_": "track",
+          "title": "No.4 In D Minor, BWV 775 & 790",
+          "duration": "3:57"
+        },
+        {
+          "position": "B6",
+          "type_": "track",
+          "title": "No.8 In F Major, BWV 779 & 794",
+          "duration": "1:59"
+        },
+        {
+          "position": "B7",
+          "type_": "track",
+          "title": "No.9 In F Minor, BWV 780 & 795",
+          "duration": "7:05"
+        }
+      ],
+      "track_sha256": [
+        "dcddb42bb7e497a0a233e1babade78991641308bb7e0baf4779f8fca56091133",
+        "c2e825895e2d3ac86d54e7a9b6e492640c8a16dc528f14347b609bd7d831f13b",
+        "9213ed2c10b99f2a2e73503e89cbc19ad723da5e330b505b436f99ad0b61a116",
+        "3dbca755217843c3b158aaaf4df8a4b24dd61292479ace7506e9c01655cc181f",
+        "4dbb2eb92c8a6dfc10f84440fe559f406da9eaebce161f4ad6f69f92fcef4925",
+        "3aacefcf9b7b817a15a6bda52d46d2550559273b3bcb638e7f4901e5045830d9",
+        "f4bbe672b7dd4730edab2bcad352af6c73519bbefe50c94ae6bc83d1bad09f3f",
+        "447d124caa60ff998e9f35a1939ee88baa32c74acd24d271a7c28b2df2937845",
+        "34c64b59d00b19755bb7a4ddee18e57167bfaecde65a04dab6c80f64894c2edb",
+        "5ada3d91d39ca59ed0e90b2b9554950a9b0bed5933837fda88c304b0c497409b",
+        "9e4f4512761c7883e22872c1b5f500a5ab8ceb7cbb366b3ff5b00ee50a897525",
+        "1dcafec2cb34cc6700a39e20df206e230238791c83824cc0caebdd729fc07d3c",
+        "7dfe830e0a1ad21765b325e4813370fee23c7918b41a8e474a923870f9d85725",
+        "1de61ae6093cc8a4d26be755e9a287df37ba6a24d51d392141ccc2289dd6ff4f",
+        "b52a31ac4b79e13f84ec77f6fff2bfe571f23f268262b63d4d5d142ac60144cc",
+        "ed4de76a78a8e90c50b6459754541bc68f4f1695e4d5ce1901d7e6166dc7c22c",
+        "70d95b1fec8d173f7c4008c664150fdcbd162fe165bef6b1916669a358606645",
+        "aaa5e6033144da78fad75a40cd9972fcf26bf2931e7f5b04787b8968f9947e1c",
+        "c16583febda92e093aa929f36b43ea4a8e71c9ec9c7a1bc08b8e0d4f23804a98",
+        "ade527a78ffc08daf55629a51d1d4b2b778a1a6926b5a0052863557d5dd92e71",
+        "9782b92384efb97214691a76be9b1b448b7cc9999ed0216b72f55b8150850f50",
+        "2498ad1d2b0ea75879c0dc178ff7cc179c2507c0dd6256679ebecbf19a2a63ca",
+        "95f7ca597891be08e3c53876e034456eaae39f0dbf76b4095edf19558646bf9b",
+        "4abdb1ee8fce95b2d203084de9f5bc1c011812ecadfdc8b7fa09d3c8750dc593",
+        "8f65c161aa5340958a40975347b77f7523d264b93284b42a82a8cb30eaa51146",
+        "e3628db0db49ec845a9ac66d63f9a4e88de80092836497e38bd04f2fff19ff87",
+        "91baa386f29b140c900730c16dabd08ccbb7add56335534f52335b7d4e0e725a",
+        "3a75c2309d2d1193b2845f6f05b0cc84652073b3b5f9aeb0c6b6448045e5d542",
+        "e1a17b34efb601330ebe1e5704b51e659d96e3740f8429b3bc55ae44672fff4d",
+        "e3f5f67e096a6ff44c22ab12612340fb123378ffc7cf169d118110097d53e630"
+      ],
+      "sources": [
+        "https://glenngould.com/music/bach-two-and-three-part-inventions-bwv-772-801-inventions-sinfonias/",
+        "https://www.discogs.com/release/1458083"
+      ],
+      "recording_review": "Gould’s official discography identifies the1964 Bach Inventions and Sinfonias programme. All fifteen source pairs appear in the saved Sony album in the same distinctive order, explicitly covering BWV772–801 and credited to Gould. Source notes record1963–64. This supports the CBS/Sony recording family, not exact LP transfer identity.",
+      "limitations": [
+        "Exact recording dates, takes and digital mastering are not independently established by the official discography page.",
+        "The LP groups two works per band; digital tracks separate each Invention and Sinfonia."
+      ]
     }
   ]
 }

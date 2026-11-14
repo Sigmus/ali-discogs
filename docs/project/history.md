@@ -1463,3 +1463,13 @@ supports work/artists; exact sessions/mastering remain unverified. Only11412875
 becomes Probable85. Qobuz copies12Found/109Probable/620Unchecked.129script tests,
 UI normalization and static build pass; dependency-complete uv run resolves the
 initial requests import failures. No Qobuz API calls or push/deployment.
+
+
+### 2026-11-14 — Gould nested programme publication
+
+All15raw-source bands bind to30distinct Sony tracks with explicit paired BWVs,
+matching keys/order and Gould/Bach credits. Official artist discography confirms
+full sequence. New frozen nested-pair review preserves nested source programme;
+wrong BWV/pianist, incomplete/swapped tracks and source changes reject. Only1458083
+becomes Probable85; exact takes/mastering unverified. UI normalization/build pass.
+No Qobuz API calls or push. User's autonomous continuation preference recorded.

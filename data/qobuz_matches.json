@@ -29,7 +29,7 @@
   "richter_review_fingerprint": "a14865f86e46150593e39bfa285fa6c7c61c8f46147b8094c0cb048fd02118ab",
   "round2_review_fingerprint": "be60742c3d35f5a9aa67f200642f7fcde98a52562a46130e043db8f4aa7c851e",
   "round2_metadata_fingerprint": "9db62d7bf62d4b77f5acf422dfde77959f845f4dc00b2ac0e10c02ccea295860",
-  "remaining_review_fingerprint": "2004b1be547ace4dc305ee504cf5d413b2c5bf38d5649d247bf9b480cb96f161",
+  "remaining_review_fingerprint": "3b08e3545fa82bf756f8164bbe439093c122841614669f9bff39c882be9703d9",
   "remaining_metadata_fingerprint": "393b2d12e176160ab311b65267b38bdc8c205222e12f792bf07eba5c1fcfafbf",
   "remaining_followup_metadata_fingerprint": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
   "remaining_followup_scope_fingerprint": "41780b365b45dcd74f5ffd053bfe546c3c873eae535dd66250297799f48c2daa",
@@ -9684,14 +9684,369 @@
       ]
     },
     "1458083": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0886444299039",
+        "name": "Bach:  Two and Three Part Inventions",
+        "artists": [
+          "Glenn Gould"
+        ],
+        "label": "Sony Classical",
+        "release_date": "1964-08-10",
+        "image": "https://static.qobuz.com/images/covers/39/90/0886444299039_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/bach-two-and-three-part-inventions-glenn-gould/0886444299039"
+      },
+      "candidates": [
+        {
+          "id": "0886444299039",
+          "name": "Bach:  Two and Three Part Inventions",
+          "artists": [
+            "Glenn Gould"
+          ],
+          "label": "Sony Classical",
+          "release_date": "1964-08-10",
+          "image": "https://static.qobuz.com/images/covers/39/90/0886444299039_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/bach-two-and-three-part-inventions-glenn-gould/0886444299039",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 15,
+          "target_count": 15,
+          "required_performers": [
+            "Glenn Gould"
+          ],
+          "programme": [
+            {
+              "target": "A1: No.1 In C Major, BWV 772 & 787",
+              "source_position": "A1",
+              "work_tracks": 2,
+              "credited_tracks": 2,
+              "track_ids": [
+                21876618,
+                21876619
+              ]
+            },
+            {
+              "target": "A2: No.2 In C Minor, BWV 773 & 788",
+              "source_position": "A2",
+              "work_tracks": 2,
+              "credited_tracks": 2,
+              "track_ids": [
+                21876620,
+                21876621
+              ]
+            },
+            {
+              "target": "A3: No.5 In E-Flat Major, BWV 776 & 791",
+              "source_position": "A3",
+              "work_tracks": 2,
+              "credited_tracks": 2,
+              "track_ids": [
+                21876622,
+                21876623
+              ]
+            },
+            {
+              "target": "A4: No.14 In B-Flat Major, BWV 785 & 800",
+              "source_position": "A4",
+              "work_tracks": 2,
+              "credited_tracks": 2,
+              "track_ids": [
+                21876624,
+                21876625
+              ]
+            },
+            {
+              "target": "A5: No.11 In G Minor, BWV 782 & 797",
+              "source_position": "A5",
+              "work_tracks": 2,
+              "credited_tracks": 2,
+              "track_ids": [
+                21876626,
+                21876627
+              ]
+            },
+            {
+              "target": "A6: No.10 In G Major, BWV 781 & 796",
+              "source_position": "A6",
+              "work_tracks": 2,
+              "credited_tracks": 2,
+              "track_ids": [
+                21876629,
+                21876632
+              ]
+            },
+            {
+              "target": "A7: No.15 In B Minor, BWV 786 & 801",
+              "source_position": "A7",
+              "work_tracks": 2,
+              "credited_tracks": 2,
+              "track_ids": [
+                21876634,
+                21876635
+              ]
+            },
+            {
+              "target": "A8: No.7 In E Minor, BWV 778 & 793",
+              "source_position": "A8",
+              "work_tracks": 2,
+              "credited_tracks": 2,
+              "track_ids": [
+                21876636,
+                21876637
+              ]
+            },
+            {
+              "target": "B1: No.6 In E Major, BWV 777 & 792",
+              "source_position": "B1",
+              "work_tracks": 2,
+              "credited_tracks": 2,
+              "track_ids": [
+                21876638,
+                21876639
+              ]
+            },
+            {
+              "target": "B2: No.13 In A Minor, BWV 784 & 799",
+              "source_position": "B2",
+              "work_tracks": 2,
+              "credited_tracks": 2,
+              "track_ids": [
+                21876640,
+                21876641
+              ]
+            },
+            {
+              "target": "B3: No.12 In A Major, BWV 783 & 798",
+              "source_position": "B3",
+              "work_tracks": 2,
+              "credited_tracks": 2,
+              "track_ids": [
+                21876642,
+                21876643
+              ]
+            },
+            {
+              "target": "B4: No.3 In D Major, BWV 774 & 789",
+              "source_position": "B4",
+              "work_tracks": 2,
+              "credited_tracks": 2,
+              "track_ids": [
+                21876644,
+                21876645
+              ]
+            },
+            {
+              "target": "B5: No.4 In D Minor, BWV 775 & 790",
+              "source_position": "B5",
+              "work_tracks": 2,
+              "credited_tracks": 2,
+              "track_ids": [
+                21876646,
+                21876647
+              ]
+            },
+            {
+              "target": "B6: No.8 In F Major, BWV 779 & 794",
+              "source_position": "B6",
+              "work_tracks": 2,
+              "credited_tracks": 2,
+              "track_ids": [
+                21876649,
+                21876651
+              ]
+            },
+            {
+              "target": "B7: No.9 In F Minor, BWV 780 & 795",
+              "source_position": "B7",
+              "work_tracks": 2,
+              "credited_tracks": 2,
+              "track_ids": [
+                21876652,
+                21876653
+              ]
+            }
+          ],
+          "reasons": [
+            "Every nested source pair has its explicit Invention and Sinfonia, in LP order, credited to Gould.",
+            "Gould’s official discography identifies the1964 Bach Inventions and Sinfonias programme. All fifteen source pairs appear in the saved Sony album in the same distinctive order, explicitly covering BWV772–801 and credited to Gould. Source notes record1963–64. This supports the CBS/Sony recording family, not exact LP transfer identity.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Exact recording dates, takes and digital mastering are not independently established by the official discography page.",
+            "The LP groups two works per band; digital tracks separate each Invention and Sinfonia."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "overlapping_target_tracks": false,
+            "works": [
+              {
+                "target": "A1: No.1 In C Major, BWV 772 & 787",
+                "source_position": "A1",
+                "track_ids": [
+                  21876618,
+                  21876619
+                ],
+                "status": "complete",
+                "scope": "source-nested-bwv-pair"
+              },
+              {
+                "target": "A2: No.2 In C Minor, BWV 773 & 788",
+                "source_position": "A2",
+                "track_ids": [
+                  21876620,
+                  21876621
+                ],
+                "status": "complete",
+                "scope": "source-nested-bwv-pair"
+              },
+              {
+                "target": "A3: No.5 In E-Flat Major, BWV 776 & 791",
+                "source_position": "A3",
+                "track_ids": [
+                  21876622,
+                  21876623
+                ],
+                "status": "complete",
+                "scope": "source-nested-bwv-pair"
+              },
+              {
+                "target": "A4: No.14 In B-Flat Major, BWV 785 & 800",
+                "source_position": "A4",
+                "track_ids": [
+                  21876624,
+                  21876625
+                ],
+                "status": "complete",
+                "scope": "source-nested-bwv-pair"
+              },
+              {
+                "target": "A5: No.11 In G Minor, BWV 782 & 797",
+                "source_position": "A5",
+                "track_ids": [
+                  21876626,
+                  21876627
+                ],
+                "status": "complete",
+                "scope": "source-nested-bwv-pair"
+              },
+              {
+                "target": "A6: No.10 In G Major, BWV 781 & 796",
+                "source_position": "A6",
+                "track_ids": [
+                  21876629,
+                  21876632
+                ],
+                "status": "complete",
+                "scope": "source-nested-bwv-pair"
+              },
+              {
+                "target": "A7: No.15 In B Minor, BWV 786 & 801",
+                "source_position": "A7",
+                "track_ids": [
+                  21876634,
+                  21876635
+                ],
+                "status": "complete",
+                "scope": "source-nested-bwv-pair"
+              },
+              {
+                "target": "A8: No.7 In E Minor, BWV 778 & 793",
+                "source_position": "A8",
+                "track_ids": [
+                  21876636,
+                  21876637
+                ],
+                "status": "complete",
+                "scope": "source-nested-bwv-pair"
+              },
+              {
+                "target": "B1: No.6 In E Major, BWV 777 & 792",
+                "source_position": "B1",
+                "track_ids": [
+                  21876638,
+                  21876639
+                ],
+                "status": "complete",
+                "scope": "source-nested-bwv-pair"
+              },
+              {
+                "target": "B2: No.13 In A Minor, BWV 784 & 799",
+                "source_position": "B2",
+                "track_ids": [
+                  21876640,
+                  21876641
+                ],
+                "status": "complete",
+                "scope": "source-nested-bwv-pair"
+              },
+              {
+                "target": "B3: No.12 In A Major, BWV 783 & 798",
+                "source_position": "B3",
+                "track_ids": [
+                  21876642,
+                  21876643
+                ],
+                "status": "complete",
+                "scope": "source-nested-bwv-pair"
+              },
+              {
+                "target": "B4: No.3 In D Major, BWV 774 & 789",
+                "source_position": "B4",
+                "track_ids": [
+                  21876644,
+                  21876645
+                ],
+                "status": "complete",
+                "scope": "source-nested-bwv-pair"
+              },
+              {
+                "target": "B5: No.4 In D Minor, BWV 775 & 790",
+                "source_position": "B5",
+                "track_ids": [
+                  21876646,
+                  21876647
+                ],
+                "status": "complete",
+                "scope": "source-nested-bwv-pair"
+              },
+              {
+                "target": "B6: No.8 In F Major, BWV 779 & 794",
+                "source_position": "B6",
+                "track_ids": [
+                  21876649,
+                  21876651
+                ],
+                "status": "complete",
+                "scope": "source-nested-bwv-pair"
+              },
+              {
+                "target": "B7: No.9 In F Minor, BWV 780 & 795",
+                "source_position": "B7",
+                "track_ids": [
+                  21876652,
+                  21876653
+                ],
+                "status": "complete",
+                "scope": "source-nested-bwv-pair"
+              }
+            ]
+          },
+          "recording_review": "Gould’s official discography identifies the1964 Bach Inventions and Sinfonias programme. All fifteen source pairs appear in the saved Sony album in the same distinctive order, explicitly covering BWV772–801 and credited to Gould. Source notes record1963–64. This supports the CBS/Sony recording family, not exact LP transfer identity.",
+          "review_sources": [
+            "https://glenngould.com/music/bach-two-and-three-part-inventions-bwv-772-801-inventions-sinfonias/",
+            "https://www.discogs.com/release/1458083"
+          ]
+        }
+      ],
       "query": "glenn gould bach two and three part inventions zwei und dreistimmige inventionen inventions",
       "searched_at": "2026-11-12T14:46:46.486285+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Every nested source pair has its explicit Invention and Sinfonia, in LP order, credited to Gould.",
+        "Gould’s official discography identifies the1964 Bach Inventions and Sinfonias programme. All fifteen source pairs appear in the saved Sony album in the same distinctive order, explicitly covering BWV772–801 and credited to Gould. Source notes record1963–64. This supports the CBS/Sony recording family, not exact LP transfer identity.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Exact recording dates, takes and digital mastering are not independently established by the official discography page.",
+        "The LP groups two works per band; digital tracks separate each Invention and Sinfonia."
       ]
     },
     "10344924": {
