@@ -1546,3 +1546,22 @@ third piece is G in source versus C in candidate; no promotion from counts alone
 of a missing work.1697514Paganini1965saved label versus1966publisher narrative
 unresolved; multiple recordings noted. No labels/source text changed or API calls.
 Next independent publisher/score verification of6265501key discrepancy.
+
+
+### 2026-11-14 — Three further Katchen source reviews
+
+6265501/8836514/1697514 become Probable85. Publisher evidence resolves Op.119No.3
+C major versus source G (disclosed). Original label photo confirms joined B4;
+Bärenreiter sequence corroborates all7Op.116pieces across6bands. CHARM Decca
+entries1199/1379visually checked: HandelJune1962and PaganiniSeptember1965,
+Vol.7issueApril1966. Session and issue dates separated; no date overwrite.
+
+Saved label/selected discography page images with provenance/hash checks. Binding
+review validates complete source-band mapping and optional exact version/ISRC
+markers; regressions reject dropped photo/piece, changed version/ISRC or pianist.
+Only3statuses changed; UI normalization/build pass. Exact LP transfers/takes remain
+unverified. Copies12Found/119Probable/610Unchecked. No Qobuz calls or push.
+Next cached RCA/Toscanini recording-family audit.
+
+Validation:149script tests pass; UI normalization/build and all saved external
+evidence SHA checks pass. Mock429/STOP fixtures are not provider warnings.

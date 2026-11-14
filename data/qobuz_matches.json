@@ -29,7 +29,7 @@
   "richter_review_fingerprint": "a14865f86e46150593e39bfa285fa6c7c61c8f46147b8094c0cb048fd02118ab",
   "round2_review_fingerprint": "be60742c3d35f5a9aa67f200642f7fcde98a52562a46130e043db8f4aa7c851e",
   "round2_metadata_fingerprint": "9db62d7bf62d4b77f5acf422dfde77959f845f4dc00b2ac0e10c02ccea295860",
-  "remaining_review_fingerprint": "fadbaf50718e22304b359943e98c9da90498607a0223dc1929b887fda08d3972",
+  "remaining_review_fingerprint": "7bc50fa10271223f738040b75243c5efa4e9dfe0ca667823bdccdf8f4f7993a8",
   "remaining_metadata_fingerprint": "393b2d12e176160ab311b65267b38bdc8c205222e12f792bf07eba5c1fcfafbf",
   "remaining_followup_metadata_fingerprint": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
   "remaining_followup_scope_fingerprint": "41780b365b45dcd74f5ffd053bfe546c3c873eae535dd66250297799f48c2daa",
@@ -408,25 +408,267 @@
       ]
     },
     "6265501": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0002894552472",
+        "name": "Brahms: Works for Solo Piano",
+        "artists": [
+          "Julius Katchen"
+        ],
+        "label": "Decca Music Group Ltd.",
+        "release_date": "1990-01-01",
+        "image": "https://static.qobuz.com/images/covers/72/24/0002894552472_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/brahms-works-for-solo-piano-julius-katchen/0002894552472"
+      },
+      "candidates": [
+        {
+          "id": "0002894552472",
+          "name": "Brahms: Works for Solo Piano",
+          "artists": [
+            "Julius Katchen"
+          ],
+          "label": "Decca Music Group Ltd.",
+          "release_date": "1990-01-01",
+          "image": "https://static.qobuz.com/images/covers/72/24/0002894552472_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/brahms-works-for-solo-piano-julius-katchen/0002894552472",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 3,
+          "target_count": 3,
+          "required_performers": [
+            "Julius Katchen"
+          ],
+          "programme": [
+            {
+              "target": "Three Intermezzi, Op. 117",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                551963,
+                551969,
+                551975
+              ]
+            },
+            {
+              "target": "Piano Pieces, Op. 119",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                552021,
+                552023,
+                552025,
+                552027
+              ]
+            },
+            {
+              "target": "Piano Pieces, Op. 118",
+              "work_tracks": 6,
+              "credited_tracks": 6,
+              "track_ids": [
+                552005,
+                552009,
+                552012,
+                552015,
+                552017,
+                552019
+              ]
+            }
+          ],
+          "reasons": [
+            "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+            "All thirteen listed pieces in Op.117/119/118 occur in source order within each work, each credited to Katchen. Decca documents his stereo solo-piano cycle; the source is its Ace of Diamonds stereo reissue. DG independently identifies Op.119No.3 as C major, resolving the musical-work identity despite source Intermezzo In G wording. This supports a Probable Decca recording-family lead, without correcting raw source text. Discography entry1199dates the Op.117/118/119sessions to June1962 and their Vol.1issue to April1964, corroborating the source stereo series.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Source A2.c says Intermezzo In G, while the candidate and independent publisher identify Op.119No.3 as C major. This source-key discrepancy remains explicit; no global G/C equivalence is enabled.",
+            "Exact takes, LP transfer and digital mastering are unverified. Decca also issued earlier Katchen recordings; recording-family support is not exact-edition proof.",
+            "Source work totals and saved durations differ modestly; timing is corroboration rather than identity proof."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Three Intermezzi, Op. 117",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  551963,
+                  551969,
+                  551975
+                ]
+              },
+              {
+                "target": "Piano Pieces, Op. 119",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  552021,
+                  552023,
+                  552025,
+                  552027
+                ]
+              },
+              {
+                "target": "Piano Pieces, Op. 118",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  552005,
+                  552009,
+                  552012,
+                  552015,
+                  552017,
+                  552019
+                ]
+              }
+            ]
+          },
+          "recording_review": "All thirteen listed pieces in Op.117/119/118 occur in source order within each work, each credited to Katchen. Decca documents his stereo solo-piano cycle; the source is its Ace of Diamonds stereo reissue. DG independently identifies Op.119No.3 as C major, resolving the musical-work identity despite source Intermezzo In G wording. This supports a Probable Decca recording-family lead, without correcting raw source text. Discography entry1199dates the Op.117/118/119sessions to June1962 and their Vol.1issue to April1964, corroborating the source stereo series.",
+          "review_sources": [
+            "https://www.eloquenceclassics.com/releases-archive/julius-katchen-the-brahms-recordings/",
+            "https://charm.rhul.ac.uk/pubs/Decca3.pdf#page=103",
+            "https://www.deutschegrammophon.com/en/catalogue/products/brahms-intermezzo-in-c-major-elisabeth-brauss-12901",
+            "https://www.discogs.com/release/6265501"
+          ]
+        }
+      ],
       "query": "julius katchen brahms piano works vol 1",
       "searched_at": "2026-11-12T14:24:45.587967+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+        "All thirteen listed pieces in Op.117/119/118 occur in source order within each work, each credited to Katchen. Decca documents his stereo solo-piano cycle; the source is its Ace of Diamonds stereo reissue. DG independently identifies Op.119No.3 as C major, resolving the musical-work identity despite source Intermezzo In G wording. This supports a Probable Decca recording-family lead, without correcting raw source text. Discography entry1199dates the Op.117/118/119sessions to June1962 and their Vol.1issue to April1964, corroborating the source stereo series.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Source A2.c says Intermezzo In G, while the candidate and independent publisher identify Op.119No.3 as C major. This source-key discrepancy remains explicit; no global G/C equivalence is enabled.",
+        "Exact takes, LP transfer and digital mastering are unverified. Decca also issued earlier Katchen recordings; recording-family support is not exact-edition proof.",
+        "Source work totals and saved durations differ modestly; timing is corroboration rather than identity proof."
       ]
     },
     "8836514": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0002894552472",
+        "name": "Brahms: Works for Solo Piano",
+        "artists": [
+          "Julius Katchen"
+        ],
+        "label": "Decca Music Group Ltd.",
+        "release_date": "1990-01-01",
+        "image": "https://static.qobuz.com/images/covers/72/24/0002894552472_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/brahms-works-for-solo-piano-julius-katchen/0002894552472"
+      },
+      "candidates": [
+        {
+          "id": "0002894552472",
+          "name": "Brahms: Works for Solo Piano",
+          "artists": [
+            "Julius Katchen"
+          ],
+          "label": "Decca Music Group Ltd.",
+          "release_date": "1990-01-01",
+          "image": "https://static.qobuz.com/images/covers/72/24/0002894552472_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/brahms-works-for-solo-piano-julius-katchen/0002894552472",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 2,
+          "target_count": 2,
+          "required_performers": [
+            "Julius Katchen"
+          ],
+          "programme": [
+            {
+              "target": "Piano Pieces, Op. 76",
+              "work_tracks": 8,
+              "credited_tracks": 8,
+              "track_ids": [
+                551962,
+                551968,
+                551974,
+                551980,
+                551986,
+                551992,
+                551997,
+                552001
+              ]
+            },
+            {
+              "target": "Fantasias, Op. 116",
+              "work_tracks": 7,
+              "credited_tracks": 7,
+              "track_ids": [
+                551991,
+                551996,
+                552000,
+                552004,
+                552008,
+                552011,
+                552014
+              ]
+            }
+          ],
+          "reasons": [
+            "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+            "All eight Op.76 pieces and seven Op.116 pieces are present with Katchen credits. The inspected original side2label prints two Intermezzi on band4: E followed by E minor. Bands5/6 are the final E Intermezzo and D-minor Capriccio. Bärenreiter corroborates the seven-piece order/keys; source band4 therefore joins pieces4/5 rather than omitting one. Decca documents Katchen’s stereo solo cycle; this supports a Probable recording-family lead.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "The raw source has six Op.116bands for seven pieces; bandB4joins two Intermezzi. Source text remains unchanged; no generic splitting rule is enabled.",
+            "The label photograph is low resolution; interpretation is bounded to its clearly visible band4double title and corroborated publisher sequence.",
+            "Exact LP pressing, takes and digital mastering remain unverified."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Piano Pieces, Op. 76",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  551962,
+                  551968,
+                  551974,
+                  551980,
+                  551986,
+                  551992,
+                  551997,
+                  552001
+                ]
+              },
+              {
+                "target": "Fantasias, Op. 116",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  551991,
+                  551996,
+                  552000,
+                  552004,
+                  552008,
+                  552011,
+                  552014
+                ]
+              }
+            ]
+          },
+          "recording_review": "All eight Op.76 pieces and seven Op.116 pieces are present with Katchen credits. The inspected original side2label prints two Intermezzi on band4: E followed by E minor. Bands5/6 are the final E Intermezzo and D-minor Capriccio. Bärenreiter corroborates the seven-piece order/keys; source band4 therefore joins pieces4/5 rather than omitting one. Decca documents Katchen’s stereo solo cycle; this supports a Probable recording-family lead.",
+          "review_sources": [
+            "https://www.eloquenceclassics.com/releases-archive/julius-katchen-the-brahms-recordings/",
+            "https://www.barenreiter.co.uk/fantasies-op-116-piano.html",
+            "https://www.discogs.com/release/8836514",
+            "https://i.discogs.com/OfE3FyaY54ez-Y8dfRlfo3giYyGf7Fh8ceO7opaa0wc/rs:fit/g:sm/q:90/h:520/w:523/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg4MzY1/MTQtMTU1OTQ3MTg1/My05OTc5LmpwZWc.jpeg"
+          ]
+        }
+      ],
       "query": "julius katchen brahms piano works vol 2",
       "searched_at": "2026-11-12T14:25:00.785537+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+        "All eight Op.76 pieces and seven Op.116 pieces are present with Katchen credits. The inspected original side2label prints two Intermezzi on band4: E followed by E minor. Bands5/6 are the final E Intermezzo and D-minor Capriccio. Bärenreiter corroborates the seven-piece order/keys; source band4 therefore joins pieces4/5 rather than omitting one. Decca documents Katchen’s stereo solo cycle; this supports a Probable recording-family lead.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "The raw source has six Op.116bands for seven pieces; bandB4joins two Intermezzi. Source text remains unchanged; no generic splitting rule is enabled.",
+        "The label photograph is low resolution; interpretation is bounded to its clearly visible band4double title and corroborated publisher sequence.",
+        "Exact LP pressing, takes and digital mastering remain unverified."
       ]
     },
     "7291398": {
@@ -550,14 +792,105 @@
       ]
     },
     "1697514": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0002894552472",
+        "name": "Brahms: Works for Solo Piano",
+        "artists": [
+          "Julius Katchen"
+        ],
+        "label": "Decca Music Group Ltd.",
+        "release_date": "1990-01-01",
+        "image": "https://static.qobuz.com/images/covers/72/24/0002894552472_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/brahms-works-for-solo-piano-julius-katchen/0002894552472"
+      },
+      "candidates": [
+        {
+          "id": "0002894552472",
+          "name": "Brahms: Works for Solo Piano",
+          "artists": [
+            "Julius Katchen"
+          ],
+          "label": "Decca Music Group Ltd.",
+          "release_date": "1990-01-01",
+          "image": "https://static.qobuz.com/images/covers/72/24/0002894552472_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/brahms-works-for-solo-piano-julius-katchen/0002894552472",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 2,
+          "target_count": 2,
+          "required_performers": [
+            "Julius Katchen"
+          ],
+          "programme": [
+            {
+              "target": "Variations And Fugue On A Theme By Handel, Op. 24",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                551970
+              ]
+            },
+            {
+              "target": "Variations On A Theme Of Paganini, Op. 35 (Books 1 & 2)",
+              "work_tracks": 2,
+              "credited_tracks": 2,
+              "track_ids": [
+                551958,
+                551964
+              ]
+            }
+          ],
+          "reasons": [
+            "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+            "The Decca discography links the1962 Handel and September1965 Paganini sessions to Vol.7 LXT/SXL6218, issued April1966. The saved two Paganini books explicitly say1965 Recording, consistent with that session and source copyright1965. Thus the later1966 issue date is not a conflicting session date. All source Op.24 and both Op.35 books are present with Katchen credits, supporting the later Decca recording-family lead.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Eloquence describes the later Paganini as1966; the session ledger dates recording1–2September1965 and issueApril1966. Both observations retained; no metadata date overwrite.",
+            "Exact source LP pressing, takes and digital mastering remain unverified; older Handel/Paganini versions are not treated as interchangeable."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Variations And Fugue On A Theme By Handel, Op. 24",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  551970
+                ]
+              },
+              {
+                "target": "Variations On A Theme Of Paganini, Op. 35 (Books 1 & 2)",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  551958,
+                  551964
+                ]
+              }
+            ]
+          },
+          "recording_review": "The Decca discography links the1962 Handel and September1965 Paganini sessions to Vol.7 LXT/SXL6218, issued April1966. The saved two Paganini books explicitly say1965 Recording, consistent with that session and source copyright1965. Thus the later1966 issue date is not a conflicting session date. All source Op.24 and both Op.35 books are present with Katchen credits, supporting the later Decca recording-family lead.",
+          "review_sources": [
+            "https://charm.rhul.ac.uk/pubs/Decca3.pdf#page=103",
+            "https://charm.rhul.ac.uk/pubs/Decca3.pdf#page=151",
+            "https://charm.rhul.ac.uk/pubs/Decca3.pdf#page=152",
+            "https://www.eloquenceclassics.com/releases-archive/julius-katchen-the-brahms-recordings/",
+            "https://www.discogs.com/release/1697514"
+          ]
+        }
+      ],
       "query": "julius katchen brahms piano works vol 7 variations and fugue on a theme",
       "searched_at": "2026-11-12T14:25:45.417473+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+        "The Decca discography links the1962 Handel and September1965 Paganini sessions to Vol.7 LXT/SXL6218, issued April1966. The saved two Paganini books explicitly say1965 Recording, consistent with that session and source copyright1965. Thus the later1966 issue date is not a conflicting session date. All source Op.24 and both Op.35 books are present with Katchen credits, supporting the later Decca recording-family lead.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Eloquence describes the later Paganini as1966; the session ledger dates recording1–2September1965 and issueApril1966. Both observations retained; no metadata date overwrite.",
+        "Exact source LP pressing, takes and digital mastering remain unverified; older Handel/Paganini versions are not treated as interchangeable."
       ]
     },
     "6264736": {

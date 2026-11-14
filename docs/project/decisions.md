@@ -435,3 +435,14 @@ treatments when justified; preserve source/album hashes, full programme and arti
 checks. Stop for provider warnings, blockers, new retrieval scope or unresolved
 policy choices. No automatic pushes/deployment. This supersedes routine per-review
 kind confirmation in earlier handoffs; it does not authorize weakening evidence.
+
+
+### 2026-11-14 — Source discrepancies and date provenance
+
+Adopted in bounded reviews: retain raw source wording and disclose conflicts;
+independent score/publisher or inspected source images may support a specific
+work/band interpretation without a global key alias or automatic band split.
+Session, copyright and issue years are separate evidence fields. A later issue
+year alone is not a conflicting recording date; consult session/issue provenance.
+External evidence files must remain hash-bound and reusable offline. Exact takes
+and mastering remain unverified unless separately established.

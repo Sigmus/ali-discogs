@@ -18,7 +18,7 @@
     "qobuz_remaining_search.json.gz": "ec5e39bf4c226fc7bf33bc21065d1213df11fb6e87731747a3cabadb8ae7eb96",
     "qobuz_remaining_followup_metadata.json.gz": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
     "collection_matches.json": "a214eee877d4749fa957b3d2a293c2925d7ba0621259f2742139a6cd86f928c8",
-    "qobuz_matches.json": "50e593bf0bd15216da84daf567d26f6977f247e5607dfdec948a974297840e58",
+    "qobuz_matches.json": "3eed769856cd967ff84fa54d9e18527a225cd12d25e42887a786eec3df36d159",
     "qobuz_work_inventory.json": "47b8e955b99c37b132e66daea61590490d249f94a520740d702bec5caa5019ce",
     "qobuz_binding_reviews.json": "8e9290c053caf91b49e9cd32384be458d97e17d03c454e933a8648efadaeecd3",
     "qobuz_opera_recording_reviews.json": "6e26d528eb7de78d372635218404a57534332ea1cd3d92e89e90e7a18066f85b"
@@ -26,12 +26,12 @@
   "summary": {
     "work_or_credit_unresolved": 417,
     "metadata_needed": 170,
-    "completeness_review_needed": 9,
     "reviewed_withheld": 7,
     "no_saved_hits": 6,
+    "completeness_review_needed": 6,
     "recording_review_needed": 3
   },
-  "unmatched_unique_releases": 612,
+  "unmatched_unique_releases": 609,
   "entries": [
     {
       "discogs_id": "594243",
@@ -4537,43 +4537,6 @@
       "saved_hits": 9,
       "uncached_hits": 9,
       "cached_candidates": []
-    },
-    {
-      "discogs_id": "1697514",
-      "title": "Piano Works Vol 7: Variations And Fugue On A Theme By Handel / Variations On A Theme Of Paganini",
-      "category": "completeness_review_needed",
-      "saved_hits": 6,
-      "uncached_hits": 5,
-      "cached_candidates": [
-        {
-          "album_id": "0002894552472",
-          "title": "Brahms: Works for Solo Piano",
-          "coverage": 1.0,
-          "status": "probable",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Variations And Fugue On A Theme By Handel, Op. 24",
-              "work_tracks": 1,
-              "credited_tracks": 1,
-              "track_ids": [
-                551970
-              ]
-            },
-            {
-              "target": "Variations On A Theme Of Paganini, Op. 35 (Books 1 & 2)",
-              "work_tracks": 2,
-              "credited_tracks": 2,
-              "track_ids": [
-                551958,
-                551964
-              ]
-            }
-          ]
-        }
-      ]
     },
     {
       "discogs_id": "1704535",
@@ -49555,60 +49518,6 @@
       ]
     },
     {
-      "discogs_id": "6265501",
-      "title": "Piano Works Vol. 1",
-      "category": "completeness_review_needed",
-      "saved_hits": 5,
-      "uncached_hits": 4,
-      "cached_candidates": [
-        {
-          "album_id": "0002894552472",
-          "title": "Brahms: Works for Solo Piano",
-          "coverage": 1.0,
-          "status": "probable",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Three Intermezzi, Op. 117",
-              "work_tracks": 3,
-              "credited_tracks": 3,
-              "track_ids": [
-                551963,
-                551969,
-                551975
-              ]
-            },
-            {
-              "target": "Piano Pieces, Op. 119",
-              "work_tracks": 4,
-              "credited_tracks": 4,
-              "track_ids": [
-                552021,
-                552023,
-                552025,
-                552027
-              ]
-            },
-            {
-              "target": "Piano Pieces, Op. 118",
-              "work_tracks": 6,
-              "credited_tracks": 6,
-              "track_ids": [
-                552005,
-                552009,
-                552012,
-                552015,
-                552017,
-                552019
-              ]
-            }
-          ]
-        }
-      ]
-    },
-    {
       "discogs_id": "6268701",
       "title": "The French Suites = Französischen Suiten = Suites Françaises / Overture In The French Style, BWV 831 = Ouvertüre Nach Französischer Art = Ouverture À La Française",
       "category": "work_or_credit_unresolved",
@@ -81013,55 +80922,6 @@
               "work_tracks": 0,
               "credited_tracks": 0,
               "track_ids": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "discogs_id": "8836514",
-      "title": "Piano Works Vol.2",
-      "category": "completeness_review_needed",
-      "saved_hits": 6,
-      "uncached_hits": 5,
-      "cached_candidates": [
-        {
-          "album_id": "0002894552472",
-          "title": "Brahms: Works for Solo Piano",
-          "coverage": 1.0,
-          "status": "probable",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Piano Pieces, Op. 76",
-              "work_tracks": 8,
-              "credited_tracks": 8,
-              "track_ids": [
-                551962,
-                551968,
-                551974,
-                551980,
-                551986,
-                551992,
-                551997,
-                552001
-              ]
-            },
-            {
-              "target": "Fantasias, Op. 116",
-              "work_tracks": 7,
-              "credited_tracks": 7,
-              "track_ids": [
-                551991,
-                551996,
-                552000,
-                552004,
-                552008,
-                552011,
-                552014
-              ]
             }
           ]
         }

@@ -2195,6 +2195,585 @@
         "Op.54 Beginning/Conclusion are partial source units; together they cover the two-movement sonata, not two complete sonatas.",
         "Exact LP transfer, takes and mastering are unverified. Published cycle date ranges differ; no precise session dates are inferred."
       ]
+    },
+    {
+      "discogs_id": "6265501",
+      "album_id": "0002894552472",
+      "review_kind": "bound-tracks",
+      "decision": "probable",
+      "target_sha256": "aa62581e9aa8d85ce03e1cf112f371771784b01db1691aa538f25395de4744e2",
+      "album_sha256": "f54c17d99ad82fbef7878f6cd97b3bf0dab94660f64da0a2e574fd9c8533d222",
+      "source_sha256": "d1ec970fb8e2224be1717c2d13cae5ad83e20cfdf91a6965d65bb7b5b87fd12e",
+      "pulls": [],
+      "adds": [],
+      "expected": {
+        "Three Intermezzi, Op. 117": [
+          551963,
+          551969,
+          551975
+        ],
+        "Piano Pieces, Op. 119": [
+          552021,
+          552023,
+          552025,
+          552027
+        ],
+        "Piano Pieces, Op. 118": [
+          552005,
+          552009,
+          552012,
+          552015,
+          552017,
+          552019
+        ]
+      },
+      "extra_track_ids": [
+        551958,
+        551964,
+        551970,
+        551976,
+        551982,
+        551988,
+        551994,
+        551959,
+        551965,
+        551971,
+        551977,
+        551983,
+        551989,
+        551960,
+        551966,
+        551972,
+        551978,
+        551984,
+        551990,
+        551995,
+        551999,
+        552003,
+        552007,
+        551961,
+        551967,
+        551973,
+        551979,
+        551985,
+        551991,
+        551996,
+        552000,
+        552004,
+        552008,
+        552011,
+        552014,
+        551962,
+        551968,
+        551974,
+        551980,
+        551986,
+        551992,
+        551997,
+        552001,
+        551981,
+        551987,
+        551993,
+        551998,
+        552002,
+        552006,
+        552010,
+        552013,
+        552016,
+        552018,
+        552020,
+        552022,
+        552024,
+        552026,
+        552028,
+        552029,
+        552030,
+        552031,
+        552032,
+        552033,
+        552034
+      ],
+      "required_performers": [
+        "Julius Katchen"
+      ],
+      "numbered_movement_runs": [
+        {
+          "target": "Three Intermezzi, Op. 117",
+          "movements": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "target": "Piano Pieces, Op. 119",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "target": "Piano Pieces, Op. 118",
+          "movements": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6
+          ]
+        }
+      ],
+      "marks": [
+        {
+          "track_id": 551963,
+          "text": "Brahms: Intermezzi, Op. 117: 1. in E Flat Major"
+        },
+        {
+          "track_id": 551969,
+          "text": "Brahms: Intermezzi, Op. 117: 2. in B Flat Minor"
+        },
+        {
+          "track_id": 551975,
+          "text": "Brahms: Intermezzi, Op. 117: 3. in C Sharp Minor"
+        },
+        {
+          "track_id": 552005,
+          "text": "Brahms: 6 Piano Pieces, Op. 118: 1. Intermezzo in A Minor"
+        },
+        {
+          "track_id": 552009,
+          "text": "Brahms: 6 Piano Pieces, Op. 118: 2. Intermezzo in A Major"
+        },
+        {
+          "track_id": 552012,
+          "text": "Brahms: 6 Piano Pieces, Op. 118: 3. Ballade in G Minor"
+        },
+        {
+          "track_id": 552015,
+          "text": "Brahms: 6 Piano Pieces, Op. 118: 4. Intermezzo in F Minor"
+        },
+        {
+          "track_id": 552017,
+          "text": "Brahms: 6 Piano Pieces, Op. 118: 5. Romance in F Major"
+        },
+        {
+          "track_id": 552019,
+          "text": "Brahms: 6 Piano Pieces, Op. 118: 6. Intermezzo in E Flat Minor"
+        },
+        {
+          "track_id": 552021,
+          "text": "Brahms: 4 Piano Pieces, Op. 119: 1. Intermezzo in B Minor"
+        },
+        {
+          "track_id": 552023,
+          "text": "Brahms: 4 Piano Pieces, Op. 119: 2. Intermezzo in E Minor"
+        },
+        {
+          "track_id": 552025,
+          "text": "Brahms: 4 Piano Pieces, Op. 119: 3. Intermezzo in C Major"
+        },
+        {
+          "track_id": 552027,
+          "text": "Brahms: 4 Piano Pieces, Op. 119: 4. Rhapsody in E Flat Major"
+        }
+      ],
+      "sources": [
+        "https://www.eloquenceclassics.com/releases-archive/julius-katchen-the-brahms-recordings/",
+        "https://charm.rhul.ac.uk/pubs/Decca3.pdf#page=103",
+        "https://www.deutschegrammophon.com/en/catalogue/products/brahms-intermezzo-in-c-major-elisabeth-brauss-12901",
+        "https://www.discogs.com/release/6265501"
+      ],
+      "recording_review": "All thirteen listed pieces in Op.117/119/118 occur in source order within each work, each credited to Katchen. Decca documents his stereo solo-piano cycle; the source is its Ace of Diamonds stereo reissue. DG independently identifies Op.119No.3 as C major, resolving the musical-work identity despite source Intermezzo In G wording. This supports a Probable Decca recording-family lead, without correcting raw source text. Discography entry1199dates the Op.117/118/119sessions to June1962 and their Vol.1issue to April1964, corroborating the source stereo series.",
+      "limitations": [
+        "Source A2.c says Intermezzo In G, while the candidate and independent publisher identify Op.119No.3 as C major. This source-key discrepancy remains explicit; no global G/C equivalence is enabled.",
+        "Exact takes, LP transfer and digital mastering are unverified. Decca also issued earlier Katchen recordings; recording-family support is not exact-edition proof.",
+        "Source work totals and saved durations differ modestly; timing is corroboration rather than identity proof."
+      ],
+      "external_source_files": [
+        {
+          "path": "data/review_sources/decca-entry1199-p103.png",
+          "sha256": "72c1b4d709a1b3fbbf6d624989b3cade99129e166f1d49c522e62ec6ba73cac0",
+          "url": "https://charm.rhul.ac.uk/pubs/Decca3.pdf#page=103"
+        }
+      ]
+    },
+    {
+      "discogs_id": "8836514",
+      "album_id": "0002894552472",
+      "review_kind": "bound-tracks",
+      "decision": "probable",
+      "target_sha256": "b6818952b396547401e5fdac3f22425b4d67019475cb9fce4dbc22341612c7df",
+      "album_sha256": "f54c17d99ad82fbef7878f6cd97b3bf0dab94660f64da0a2e574fd9c8533d222",
+      "source_sha256": "90a2240a0a65b7d481e7f701b34862428c34f42ab5b5e700f33a62ca1ac33d37",
+      "pulls": [],
+      "adds": [],
+      "expected": {
+        "Piano Pieces, Op. 76": [
+          551962,
+          551968,
+          551974,
+          551980,
+          551986,
+          551992,
+          551997,
+          552001
+        ],
+        "Fantasias, Op. 116": [
+          551991,
+          551996,
+          552000,
+          552004,
+          552008,
+          552011,
+          552014
+        ]
+      },
+      "extra_track_ids": [
+        551958,
+        551964,
+        551970,
+        551976,
+        551982,
+        551988,
+        551994,
+        551959,
+        551965,
+        551971,
+        551977,
+        551983,
+        551989,
+        551960,
+        551966,
+        551972,
+        551978,
+        551984,
+        551990,
+        551995,
+        551999,
+        552003,
+        552007,
+        551961,
+        551967,
+        551973,
+        551979,
+        551985,
+        552005,
+        552009,
+        552012,
+        552015,
+        552017,
+        552019,
+        552021,
+        552023,
+        552025,
+        552027,
+        551963,
+        551969,
+        551975,
+        551981,
+        551987,
+        551993,
+        551998,
+        552002,
+        552006,
+        552010,
+        552013,
+        552016,
+        552018,
+        552020,
+        552022,
+        552024,
+        552026,
+        552028,
+        552029,
+        552030,
+        552031,
+        552032,
+        552033,
+        552034
+      ],
+      "required_performers": [
+        "Julius Katchen"
+      ],
+      "numbered_movement_runs": [
+        {
+          "target": "Piano Pieces, Op. 76",
+          "movements": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8
+          ]
+        },
+        {
+          "target": "Fantasias, Op. 116",
+          "movements": [
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7
+          ]
+        }
+      ],
+      "marks": [
+        {
+          "track_id": 551962,
+          "text": "Brahms: 8 Piano Pieces, Op. 76: 1. Capriccio in F Sharp Minor"
+        },
+        {
+          "track_id": 551968,
+          "text": "Brahms: 8 Piano Pieces, Op. 76: 2. Capriccio in B Minor"
+        },
+        {
+          "track_id": 551974,
+          "text": "Brahms: 8 Piano Pieces, Op. 76: 3. Intermezzo in A Flat Major"
+        },
+        {
+          "track_id": 551980,
+          "text": "Brahms: 8 Piano Pieces, Op. 76: 4. Intermezzo in B Flat Major"
+        },
+        {
+          "track_id": 551986,
+          "text": "Brahms: 8 Piano Pieces, Op. 76: 5. Capriccio in C Sharp Minor"
+        },
+        {
+          "track_id": 551991,
+          "text": "Brahms: Fantasias (7 Piano Pieces), Op. 116: 1. Capriccio in D Minor"
+        },
+        {
+          "track_id": 551992,
+          "text": "Brahms: 8 Piano Pieces, Op. 76: 6. Intermezzo in A Major"
+        },
+        {
+          "track_id": 551996,
+          "text": "Brahms: Fantasias (7 Piano Pieces), Op. 116: 2. Intermezzo in A Minor"
+        },
+        {
+          "track_id": 551997,
+          "text": "Brahms: 8 Piano Pieces, Op. 76: 7. Intermezzo in A Minor"
+        },
+        {
+          "track_id": 552000,
+          "text": "Brahms: Fantasias (7 Piano Pieces), Op. 116: 3. Capriccio in G Minor"
+        },
+        {
+          "track_id": 552001,
+          "text": "Brahms: 8 Piano Pieces, Op. 76: 8. Capriccio in C Major"
+        },
+        {
+          "track_id": 552004,
+          "text": "Brahms: Fantasias (7 Piano Pieces), Op. 116: 4. Intermezzo in E Major"
+        },
+        {
+          "track_id": 552008,
+          "text": "Brahms: Fantasias (7 Piano Pieces), Op. 116: 5. Intermezzo in E Minor"
+        },
+        {
+          "track_id": 552011,
+          "text": "Brahms: Fantasias (7 Piano Pieces), Op. 116: 6. Intermezzo in E Major"
+        },
+        {
+          "track_id": 552014,
+          "text": "Brahms: Fantasias (7 Piano Pieces), Op. 116: 7. Capriccio in D Minor"
+        }
+      ],
+      "external_source_files": [
+        {
+          "path": "data/review_sources/8836514-side-2-label.jpg",
+          "sha256": "bdf5c398e11491c1825ad67342522f08c073ed7626b259a35ae16ea7bb244aef",
+          "url": "https://i.discogs.com/OfE3FyaY54ez-Y8dfRlfo3giYyGf7Fh8ceO7opaa0wc/rs:fit/g:sm/q:90/h:520/w:523/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg4MzY1/MTQtMTU1OTQ3MTg1/My05OTc5LmpwZWc.jpeg"
+        }
+      ],
+      "source_band_mapping": {
+        "B1": [
+          1
+        ],
+        "B2": [
+          2
+        ],
+        "B3": [
+          3
+        ],
+        "B4": [
+          4,
+          5
+        ],
+        "B5": [
+          6
+        ],
+        "B6": [
+          7
+        ]
+      },
+      "sources": [
+        "https://www.eloquenceclassics.com/releases-archive/julius-katchen-the-brahms-recordings/",
+        "https://www.barenreiter.co.uk/fantasies-op-116-piano.html",
+        "https://www.discogs.com/release/8836514",
+        "https://i.discogs.com/OfE3FyaY54ez-Y8dfRlfo3giYyGf7Fh8ceO7opaa0wc/rs:fit/g:sm/q:90/h:520/w:523/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTg4MzY1/MTQtMTU1OTQ3MTg1/My05OTc5LmpwZWc.jpeg"
+      ],
+      "recording_review": "All eight Op.76 pieces and seven Op.116 pieces are present with Katchen credits. The inspected original side2label prints two Intermezzi on band4: E followed by E minor. Bands5/6 are the final E Intermezzo and D-minor Capriccio. Bärenreiter corroborates the seven-piece order/keys; source band4 therefore joins pieces4/5 rather than omitting one. Decca documents Katchen’s stereo solo cycle; this supports a Probable recording-family lead.",
+      "limitations": [
+        "The raw source has six Op.116bands for seven pieces; bandB4joins two Intermezzi. Source text remains unchanged; no generic splitting rule is enabled.",
+        "The label photograph is low resolution; interpretation is bounded to its clearly visible band4double title and corroborated publisher sequence.",
+        "Exact LP pressing, takes and digital mastering remain unverified."
+      ]
+    },
+    {
+      "discogs_id": "1697514",
+      "album_id": "0002894552472",
+      "review_kind": "bound-tracks",
+      "decision": "probable",
+      "target_sha256": "632714c01bff493a1878eed7a0705e27dfa698df030a39c2dc6f9215da1f4fd9",
+      "album_sha256": "f54c17d99ad82fbef7878f6cd97b3bf0dab94660f64da0a2e574fd9c8533d222",
+      "source_sha256": "9a4dfa050e31910a51937bcdfae21a843f3711b4b93cf5efdad4f3df13ea98a7",
+      "pulls": [],
+      "adds": [],
+      "expected": {
+        "Variations And Fugue On A Theme By Handel, Op. 24": [
+          551970
+        ],
+        "Variations On A Theme Of Paganini, Op. 35 (Books 1 & 2)": [
+          551958,
+          551964
+        ]
+      },
+      "extra_track_ids": [
+        551976,
+        551982,
+        551988,
+        551994,
+        551959,
+        551965,
+        551971,
+        551977,
+        551983,
+        551989,
+        551960,
+        551966,
+        551972,
+        551978,
+        551984,
+        551990,
+        551995,
+        551999,
+        552003,
+        552007,
+        551961,
+        551967,
+        551973,
+        551979,
+        551985,
+        551991,
+        551996,
+        552000,
+        552004,
+        552008,
+        552011,
+        552014,
+        551962,
+        551968,
+        551974,
+        551980,
+        551986,
+        551992,
+        551997,
+        552001,
+        552005,
+        552009,
+        552012,
+        552015,
+        552017,
+        552019,
+        552021,
+        552023,
+        552025,
+        552027,
+        551963,
+        551969,
+        551975,
+        551981,
+        551987,
+        551993,
+        551998,
+        552002,
+        552006,
+        552010,
+        552013,
+        552016,
+        552018,
+        552020,
+        552022,
+        552024,
+        552026,
+        552028,
+        552029,
+        552030,
+        552031,
+        552032,
+        552033,
+        552034
+      ],
+      "required_performers": [
+        "Julius Katchen"
+      ],
+      "marks": [
+        {
+          "track_id": 551958,
+          "text": "Brahms: Variations on a Theme by Paganini, Op. 35, Book 1",
+          "isrc_equals": "GBF076510041",
+          "version_equals": "1965 Recording"
+        },
+        {
+          "track_id": 551964,
+          "text": "Brahms: Variations on a Theme by Paganini, Op. 35, Book 2",
+          "isrc_equals": "GBF076510042",
+          "version_equals": "1965 Recording"
+        },
+        {
+          "track_id": 551970,
+          "text": "Variations and Fugue on a Theme by Handel, Op.24",
+          "isrc_equals": "GBF076210051"
+        }
+      ],
+      "external_source_files": [
+        {
+          "path": "data/review_sources/decca-entry1199-p103.png",
+          "sha256": "72c1b4d709a1b3fbbf6d624989b3cade99129e166f1d49c522e62ec6ba73cac0",
+          "url": "https://charm.rhul.ac.uk/pubs/Decca3.pdf#page=103"
+        },
+        {
+          "path": "data/review_sources/decca-entry1379-p151.png",
+          "sha256": "8c410798683be1fd1900f186bd0000786e5e7c01e02a8bd9eec868c087776ef6",
+          "url": "https://charm.rhul.ac.uk/pubs/Decca3.pdf#page=151"
+        },
+        {
+          "path": "data/review_sources/decca-entry1379-p152.png",
+          "sha256": "cc5aab46b62aee858a64070dc02ce55b09b23f0eafedaf93c5dde4864b9bd825",
+          "url": "https://charm.rhul.ac.uk/pubs/Decca3.pdf#page=152"
+        }
+      ],
+      "sources": [
+        "https://charm.rhul.ac.uk/pubs/Decca3.pdf#page=103",
+        "https://charm.rhul.ac.uk/pubs/Decca3.pdf#page=151",
+        "https://charm.rhul.ac.uk/pubs/Decca3.pdf#page=152",
+        "https://www.eloquenceclassics.com/releases-archive/julius-katchen-the-brahms-recordings/",
+        "https://www.discogs.com/release/1697514"
+      ],
+      "recording_review": "The Decca discography links the1962 Handel and September1965 Paganini sessions to Vol.7 LXT/SXL6218, issued April1966. The saved two Paganini books explicitly say1965 Recording, consistent with that session and source copyright1965. Thus the later1966 issue date is not a conflicting session date. All source Op.24 and both Op.35 books are present with Katchen credits, supporting the later Decca recording-family lead.",
+      "limitations": [
+        "Eloquence describes the later Paganini as1966; the session ledger dates recording1–2September1965 and issueApril1966. Both observations retained; no metadata date overwrite.",
+        "Exact source LP pressing, takes and digital mastering remain unverified; older Handel/Paganini versions are not treated as interchangeable."
+      ]
     }
   ]
 }

@@ -329,3 +329,30 @@ this is ambiguous band grouping, not proof a work is absent.1697514Paganini file
 say1965Recording versus Decca narrative1966; multiple recordings require review.
 Next: independent Henle/source-image check of6265501 Op.119No.3, preserving raw
 text and recording-family limits. No API expansion or automatic source correction.
+
+
+## Remaining Katchen discrepancies resolved by bounded source evidence
+
+6265501: DG independently identifies Op.119No.3 in C major. Source G wording
+stays explicit; all13Op.117/119/118pieces bound. Discography entry1199corroborates
+June1962sessions and Vol.1April1964issue, not a guessed session from copyright.
+
+8836514: inspected original side2label photograph, which prints two Intermezzi
+on band4. Bärenreiter corroborates Op.116pieces4/5(E major/E minor), then6/7.
+B4maps to4/5; B5to6; B6to7. Thus six bands cover seven pieces. All8Op.76and
+7Op.116pieces retained. Saved photo SHA is checked; joined-band mapping must
+cover every raw source position and numbered piece without omission/reuse.
+
+1697514: visually inspected CHARM-hosted Decca discography entry1199(page103)
+and1379(pages151–152). They link HandelJune1962/PaganiniSeptember1965to Vol.7,
+issuedApril1966. This distinguishes session and issue dates, resolving the earlier
+1965/1966conflict. Candidate1965version markers and ISRCs now guarded against
+substitution; both Paganini books remain required.
+
+Selected source images, provenance and hashes saved under `data/review_sources/`;
+no original504page PDF/audio/credentials committed. Source audit updated with
+initial holds and subsequent decisions. All3are Probable85recording-family leads;
+exact LP pressing/takes/mastering remain unverified. Existing bound-track policy
+extended only with optional external-evidence hashes, complete source-band
+mapping and version/ISRC guards. No global key alias, generic band splitting,
+credit borrowing or provider calls.

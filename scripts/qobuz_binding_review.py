@@ -110,6 +110,10 @@ def assess_bindings(row, album, review):
     raw = path.read_bytes()
     if hashlib.sha256(raw).hexdigest() != review['source_sha256']:
         raise ValueError('Cached Discogs source changed; review the binding again')
+    for source in review.get('external_source_files') or []:
+        path = (ROOT/source['path']).resolve()
+        if not path.is_relative_to((ROOT/'data/review_sources').resolve()) or hashlib.sha256(path.read_bytes()).hexdigest() != source['sha256']:
+            raise ValueError('Reviewed external source evidence changed')
     evidence, assigned, extras = assign(row, album, review)
     if extras != review.get('extra_track_ids', []):
         raise ValueError('Extra tracks changed')
@@ -128,6 +132,17 @@ def assess_bindings(row, album, review):
     tracks = {t['id']: t for t in album['tracks']['items']}
     if missing or {target: ids for target, ids in assigned.items()} != review['expected']:
         raise ValueError('Bound assignment changed')
+    band_mapping = review.get('source_band_mapping')
+    if band_mapping:
+        from qobuz_work_groups import ordinal
+        groups = [g for g in json.loads(raw).get('tracklist', [])
+                  if [c.get('position') for c in g.get('sub_tracks', [])] == list(band_mapping)]
+        if not review.get('external_source_files') or len(groups) != 1 or groups[0]['title'] not in assigned:
+            raise ValueError('Joined source bands need complete source positions and external evidence')
+        ids = assigned[groups[0]['title']]
+        numbered = [n for numbers in band_mapping.values() for n in numbers]
+        if numbered != list(range(1, len(ids)+1)) or [ordinal(tracks[i]['title']) for i in ids] != numbered:
+            raise ValueError('Joined source bands omit, reuse or reorder a numbered piece')
     aliases = review.get('performer_aliases') or []
     for alias in aliases:
         if (person_key(alias['source']) == person_key(alias['file']) or len(alias.get('reason', '')) < 20
@@ -153,8 +168,12 @@ def assess_bindings(row, album, review):
         if [ordinal(tracks[i]['title']) for i in assigned[spec['target']]] != spec['movements']:
             blockers.append('numbered-movements')
     for mark in review.get('marks') or []:
-        if mark['text'] not in tracks[mark['track_id']]['title']:
+        track = tracks[mark['track_id']]
+        if mark['text'] not in track['title']:
             blockers.append('mark')
+        for field in ('version', 'isrc'):
+            if field+'_equals' in mark and track.get(field) != mark[field+'_equals']:
+                blockers.append('recording-'+field)
     blockers = list(dict.fromkeys(blockers))
     works = [{'target': target, 'status': 'complete' if not blockers else 'unknown',
               'scope': 'reviewed-bound-tracks', 'track_ids': ids} for target, ids in assigned.items()]

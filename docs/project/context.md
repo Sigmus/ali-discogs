@@ -12,7 +12,7 @@ explorer. [README](../../README.md) owns setup and architecture;
   table headers). Retrieval complete; first offline screen/audit complete. Deployment not verified.
 - Collection: 741 copies / 740 unique releases. Current saved labels: Spotify
   254 Found / 273 Probable / 210 Not found / 4 Unchecked; Qobuz
-  12 Found / 116 Probable / 613 Unchecked copies (14 November snapshot).
+  12 Found / 119 Probable / 610 Unchecked copies (14 November snapshot).
 - Spotify’s legacy album-level labels and stricter Qobuz evidence levels are
   not comparable accuracy or catalogue-coverage measurements. Both status and
   score are saved data. Qobuz 95/85 are heuristic levels, not probabilities.
@@ -67,10 +67,10 @@ explorer. [README](../../README.md) owns setup and architecture;
 ## Offline follow-up checkpoint
 
 - Screened2,227pairs:14complete programme/credit leads,
-  345cached unresolved pairs,1,868pairs missing full metadata. Eighteen new
+  345cached unresolved pairs,1,868pairs missing full metadata. Twenty-one new
   Probable releases now published locally after bounded reviews.
 - Michelangeli sonata3285095/Concerto1 3672809 and Gilels7914875 completed.
-  Nine Beethoven plus Chopin Op.11 inventory additions;145script tests pass.
+  Nine Beethoven plus Chopin Op.11 inventory additions;149script tests pass.
 - [Offline plan](../plans/2026-11-14-qobuz-offline-followup.md) owns findings and
   exact next steps. Two network-forbidden/fail-closed regression tests pass.
 
@@ -91,12 +91,11 @@ new-hit downloads, automatic promotions, pushes or deployment. Bitches Brew’s
 credit exception remains a proposal. Preserve source/hash-bound review safeguards;
 never loosen credits or invent recording identity to improve a count.
 
-Next action: verify Katchen6265501 Op.119No.3 source G versus candidate C
-against an independent score/publisher; source audit saved, no promotion.
-Schnabel4352998 now Probable: Op.54 partitioned by side, no reused movement;
-source Op.49No.1 G-major discrepancy disclosed against Henle G minor.
-Katchen8836514 has6Op.116bands; B4may join two pieces (not proven missing).
-1697514 Paganini says1965 versus publisher1966; review before promotion.
-Current612unchecked unique.145script tests/UI normalization/build pass.
+Next action: audit Toscanini10757120’s RCA recording-family evidence against
+its cached1952candidate; do not infer exact transfer from title/year alone.
+Katchen6265501/8836514/1697514 now Probable: source key documented, joined
+band verified from saved label photo,1965session/1966issue distinguished.
+Review photo/discography pages saved/hash-bound for offline reuse. Current609
+unchecked unique.149script tests/UI normalization/build pass.
 No Qobuz calls, push or deployment. Nabucco/Mozart credit gaps remain.
 [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).

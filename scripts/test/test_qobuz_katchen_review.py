@@ -45,3 +45,46 @@ class KatchenReviewTests(unittest.TestCase):
         result,evidence=assess(self.rows['6347314'],self.album,self.reviews['6347314'])
         self.assertTrue(result['eligible'])
         self.assertEqual([len(w['track_ids']) for w in result['completeness']['works']],[2,1,1,4])
+
+    def test_volume_one_requires_every_listed_piece_and_discloses_source_key(self):
+        review=self.reviews['6265501'];row=self.rows['6265501']
+        result,evidence=assess(row,self.album,review)
+        self.assertTrue(result['eligible'])
+        self.assertEqual([len(w['track_ids']) for w in result['completeness']['works']],[3,4,6])
+        a=copy.deepcopy(self.album);a['tracks']['items']=[t for t in a['tracks']['items'] if t['id']!=552025]
+        with self.assertRaises(ValueError):assess(row,a,{**review,'album_sha256':fingerprint(a)})
+        self.assertTrue(any('Intermezzo In G' in limitation and 'C major' in limitation for limitation in review['limitations']))
+
+    def test_volume_two_joined_band_requires_saved_photo_and_all_fifteen_pieces(self):
+        review=self.reviews['8836514'];row=self.rows['8836514']
+        result,evidence=assess(row,self.album,review)
+        self.assertTrue(result['eligible'])
+        self.assertEqual([len(w['track_ids']) for w in result['completeness']['works']],[8,7])
+        self.assertEqual(review['source_band_mapping']['B4'],[4,5])
+        bad=copy.deepcopy(review);bad['external_source_files'][0]['sha256']='0'*64
+        with self.assertRaises(ValueError):assess(row,self.album,bad)
+        bad=copy.deepcopy(review);bad['external_source_files'][0]['path']='data/collection_matches.json'
+        with self.assertRaises(ValueError):assess(row,self.album,bad)
+        a=copy.deepcopy(self.album)
+        missing=review['expected']['Fantasias, Op. 116'][4]
+        a['tracks']['items']=[t for t in a['tracks']['items'] if t['id']!=missing]
+        with self.assertRaises(ValueError):assess(row,a,{**review,'album_sha256':fingerprint(a)})
+
+    def test_joined_band_cannot_drop_a_piece_or_its_photo(self):
+        review=copy.deepcopy(self.reviews['8836514']);row=self.rows['8836514']
+        review['source_band_mapping']['B4']=[4]
+        with self.assertRaises(ValueError):assess(row,self.album,review)
+        review=copy.deepcopy(self.reviews['8836514']);review['external_source_files']=[]
+        with self.assertRaises(ValueError):assess(row,self.album,review)
+
+    def test_variation_books_and_later_version_markers_are_required(self):
+        review=self.reviews['1697514'];row=self.rows['1697514']
+        result,evidence=assess(row,self.album,review)
+        self.assertTrue(result['eligible'])
+        self.assertEqual([len(w['track_ids']) for w in result['completeness']['works']],[1,2])
+        for field,value in [('version','1958 Recording'),('isrc','OTHER-RECORDING')]:
+            a=copy.deepcopy(self.album)
+            next(t for t in a['tracks']['items'] if t['id']==551958)[field]=value
+            self.assertFalse(assess(row,a,{**review,'album_sha256':fingerprint(a)})[0]['eligible'])
+        a=copy.deepcopy(self.album);a['tracks']['items']=[t for t in a['tracks']['items'] if t['id']!=551964]
+        with self.assertRaises(ValueError):assess(row,a,{**review,'album_sha256':fingerprint(a)})

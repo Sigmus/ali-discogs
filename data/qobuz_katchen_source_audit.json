@@ -1,7 +1,7 @@
 {
   "album_id": "0002894552472",
   "album_sha256": "f54c17d99ad82fbef7878f6cd97b3bf0dab94660f64da0a2e574fd9c8533d222",
-  "publication_changed": false,
+  "publication_changed": true,
   "entries": [
     {
       "discogs_id": "6265501",
@@ -151,7 +151,9 @@
         "All13source children have candidate group correspondences, but Op.119third source piece says Intermezzo In G whereas candidate says C Major. Do not accept grouped title/count agreement as resolving that conflict.",
         "Op.118individual durations are close; Op.117/119totals differ modestly. Timing supports a lead, not identity."
       ],
-      "decision": "withhold_pending_source_discrepancy_review"
+      "decision": "probable_after_bound_source_review",
+      "initial_decision": "withhold_pending_source_discrepancy_review",
+      "followup": "DG independently identifies Op.119No.3 C major; source G text disclosed. Discography entry1199corroborates Vol.1June1962sessions/April1964issue. All13pieces bound."
     },
     {
       "discogs_id": "8836514",
@@ -294,7 +296,9 @@
         "Op.116has six source bands versus seven candidate pieces. B4contains duplicated wording: Intermezzo In E Intermezzo In E Minor. This may be a joined band, not an absent piece. Do not invent a missing work or silently split it.",
         "Resolve source B4/B5piece identity and key labels against source images or independent publisher programme before assigning tracks."
       ],
-      "decision": "withhold_pending_source_discrepancy_review"
+      "decision": "probable_after_bound_source_review",
+      "initial_decision": "withhold_pending_source_discrepancy_review",
+      "followup": "Original label photo confirms band4double title. Bärenreiter seven-piece sequence corroborates mappingB4to4/5, B5to6 andB6to7. Photo saved/hash-bound; all15pieces bound."
     },
     {
       "discogs_id": "1697514",
@@ -337,9 +341,14 @@
         "Saved Paganini Books1/2explicitly say1965 Recording, consistent with LP copyright1965, whereas the Decca Eloquence narrative says1966for the later version. This date discrepancy is unresolved.",
         "Decca documents multiple Handel and Paganini recordings. Matching opus/pianist alone does not establish which transfer/take family is present."
       ],
-      "decision": "withhold_pending_source_discrepancy_review"
+      "decision": "probable_after_bound_source_review",
+      "initial_decision": "withhold_pending_source_discrepancy_review",
+      "followup": "Discography entries1199/1379link Handel1962and PaganiniSeptember1965to Vol.7issuedApril1966. Saved1965version markers and exact ISRCs bound; both Paganini books retained."
     }
   ],
   "publisher_source": "https://www.eloquenceclassics.com/releases-archive/julius-katchen-the-brahms-recordings/",
-  "limitation": "Offline diagnostic; no claims of catalogue absence, corrected source text or exact recording identity."
+  "limitation": "Offline diagnostic; no claims of catalogue absence, corrected source text or exact recording identity.",
+  "limitations": [
+    "Initial diagnostic findings remain as history; current decisions are supported by the separate hash-bound review ledger. Exact takes/mastering remain unverified."
+  ]
 }
