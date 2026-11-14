@@ -677,3 +677,9 @@ th.sortable button {
 /* Selection chips grow below controls, never move adjacent search/actions. */
 .filters {align-items:start}
 .filter-actions {align-self:start;padding-top:22px}
+
+/* Compact captions: composer and year share one metadata line. */
+.cover-grid.is-captions .cover-card {gap:4px}
+.cover-grid.is-captions .sleeve-title {line-height:1.2;margin-top:3px}
+.cover-grid.is-captions .sleeve-meta,.cover-grid.is-captions .marks {line-height:1.25}
+.cover-grid.is-captions .marks {gap:0}

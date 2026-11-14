@@ -787,7 +787,7 @@
       if (state.view === "shelf") {
         return `<a class="cover-card" href="${href}">${sleeve}<span class="sleeve-copy"><span class="sleeve-title">${title}</span><span class="sleeve-meta">${year}</span></span></a>`;
       }
-      return `<a class="cover-card" href="${href}">${sleeve}<span class="sleeve-title">${title}</span><span class="sleeve-meta">${composer}</span><span class="sleeve-meta">${year}</span>${marksHtml(it)}</a>`;
+      return `<a class="cover-card" href="${href}">${sleeve}<span class="sleeve-title">${title}</span><span class="sleeve-meta">${composer} · ${year}</span>${marksHtml(it)}</a>`;
     }
     function sortBar() {
       const labels = { year: "Year", composer: "Composer" };

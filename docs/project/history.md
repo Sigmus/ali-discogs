@@ -1319,3 +1319,9 @@ deployment not verified; active retrieval untouched.
 Grid items now align at the top; Clear uses the same label-height offset as
 Search/dropdown controls. Selected chips grow underneath without shifting
 adjacent controls down. Local build and whitespace checks pass.
+
+## 2026-11-14 — Compact caption cards
+
+Combined composer/year on one metadata line; tightened caption gaps and title/
+status line heights. Shelf/table unchanged. JS syntax, normalization and build
+checks pass. Not committed or pushed.
