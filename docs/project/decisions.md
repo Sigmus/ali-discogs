@@ -419,3 +419,9 @@ Status: adopted, user selected A. Slightly raised neutral background and bottom
 border separate filters from results. A pin icon before theme toggles sticky
 filters below the header; default off, current page lifetime. Hide control in
 details. Measure header height so pin offset follows responsive sizing.
+
+## 2026-11-14 — Clear/Pin icon pair after Search
+
+User chose outlined A with Clear3 (filter/cross) and Pin1 (upright). Both live
+in filter actions after Search, superseding header pin placement. Use accessible
+names and tooltips, including dynamic Pin/Unpin and theme action wording.

@@ -683,3 +683,13 @@ th.sortable button {
 .cover-grid.is-captions .sleeve-title {line-height:1.2;margin-top:3px}
 .cover-grid.is-captions .sleeve-meta,.cover-grid.is-captions .marks {line-height:1.25}
 .cover-grid.is-captions .marks {gap:0}
+
+/* Selected outlined Clear/Pin pair beside Search. */
+.filter-actions {gap:6px}
+.filters #reset.filter-icon,.filters #pin-filters.filter-icon {display:grid;place-items:center;width:30px;height:26px;min-height:26px;padding:4px;border:1px solid var(--c-border);border-radius:4px;background:var(--c-surface);color:var(--c-muted)}
+.filter-icon svg {width:16px;height:16px;fill:none;stroke:currentColor;stroke-width:1.6;stroke-linecap:round;stroke-linejoin:round}
+.filters #pin-filters.filter-icon svg {transform:none}
+.filters #pin-filters.filter-icon[aria-pressed="true"] {color:var(--c-text);border-color:var(--c-border);background:var(--c-surface)}
+.filters .filter-icon:hover {color:var(--c-text)}
+
+.icon-tooltip {position:fixed;z-index:200;pointer-events:none;max-width:calc(100vw - 16px);padding:5px 8px;border:1px solid var(--c-border);border-radius:4px;background:var(--c-surface);color:var(--c-text);font-size:10px;line-height:1.4;box-shadow:0 3px 10px #0003}

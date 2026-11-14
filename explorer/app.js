@@ -457,6 +457,43 @@
     const themeBtn = $("theme");
     const form = $("filters");
     const pinFilters = $("pin-filters");
+    const iconTooltip = document.createElement("div");
+    iconTooltip.id = "icon-tooltip";
+    iconTooltip.className = "icon-tooltip";
+    iconTooltip.setAttribute("role", "tooltip");
+    iconTooltip.hidden = true;
+    document.body.append(iconTooltip);
+    let tooltipTarget = null;
+    let tooltipTimer = null;
+    function hideIconTooltip() {
+      clearTimeout(tooltipTimer);
+      if (tooltipTarget) tooltipTarget.removeAttribute("aria-describedby");
+      tooltipTarget = null;
+      iconTooltip.hidden = true;
+    }
+    function showIconTooltip(event) {
+      const button = event.target.closest("#reset, #pin-filters, #theme, .view-switch button");
+      if (!button) return;
+      hideIconTooltip();
+      tooltipTarget = button;
+      tooltipTimer = setTimeout(() => {
+      iconTooltip.textContent = button.getAttribute("aria-label") || button.title;
+      button.setAttribute("aria-describedby", iconTooltip.id);
+      iconTooltip.hidden = false;
+      const rect = button.getBoundingClientRect();
+      const width = iconTooltip.offsetWidth;
+      const height = iconTooltip.offsetHeight;
+      iconTooltip.style.left = Math.max(8, Math.min(rect.left + rect.width / 2 - width / 2, innerWidth - width - 8)) + "px";
+      iconTooltip.style.top = (rect.bottom + height + 10 < innerHeight ? rect.bottom + 8 : rect.top - height - 8) + "px";
+      }, 250);
+    }
+    document.addEventListener("pointerover", showIconTooltip);
+    document.addEventListener("focusin", showIconTooltip);
+    document.addEventListener("pointerout", e => { if (tooltipTarget && !tooltipTarget.contains(e.relatedTarget)) hideIconTooltip(); });
+    document.addEventListener("focusout", hideIconTooltip);
+    document.addEventListener("scroll", hideIconTooltip, true);
+    document.addEventListener("keydown", e => { if (e.key === "Escape") hideIconTooltip(); });
+
     pinFilters.addEventListener("click", () => {
       const pinned = pinFilters.getAttribute("aria-pressed") !== "true";
       pinFilters.setAttribute("aria-pressed", String(pinned));
@@ -464,6 +501,7 @@
       pinFilters.setAttribute("aria-label", pinFilters.title);
       form.classList.toggle("is-pinned", pinned);
       updateStickyOffsets();
+      if (tooltipTarget === pinFilters) showIconTooltip({target:pinFilters});
     });
     const header = document.querySelector(".app-header");
     function updateStickyOffsets() {
@@ -560,6 +598,8 @@
       const dark = theme === "dark";
       document.documentElement.dataset.theme = dark ? "dark" : "light";
       themeBtn.setAttribute("aria-label", dark ? "Switch to light theme" : "Switch to dark theme");
+      themeBtn.title = themeBtn.getAttribute("aria-label");
+      if (tooltipTarget === themeBtn) showIconTooltip({target:themeBtn});
       if (persist) localStorage.setItem(THEME_KEY, dark ? "dark" : "light");
     }
     function optionList(pairs, placeholder) {

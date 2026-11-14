@@ -8,7 +8,7 @@ explorer. [README](../../README.md) owns setup and architecture;
 
 ## Current state
 
-- Branch `main`; pushed through `9877231` (filter band, pin control and sticky
+- Branch `main`; pushed through `ac1db08` (filter band, pin control and sticky
   table headers). Retrieval remains in progress; deployment not verified.
 - Collection: 741 copies / 740 unique releases. Current saved labels: Spotify
   254 Found / 273 Probable / 210 Not found / 4 Unchecked; Qobuz
@@ -28,10 +28,16 @@ explorer. [README](../../README.md) owns setup and architecture;
 - Local server: http://127.0.0.1:8000/ . Live site:
   https://sigmus.github.io/ali-discogs/ . Latest deployment not checked here.
 
+## Filter actions
+
+- Adopted outlined treatment A, Clear3 (filter/cross) and Pin1 (upright).
+  Both after Search; pin removed from header. Tooltips/accessible names on both,
+  theme tooltip follows current action; layout icons retain their titles.
+
 ## Filter surface and pin
 
 - User selected A: lighter full-width filter band with bottom border implemented.
-  Header pin button before theme toggles sticky filters below measured header;
+  Pin beside Clear toggles sticky filters below measured header;
   default unpinned, page-lifetime preference, hidden on detail pages. Table
   column headers always stick below the header/optional pinned filters.
 

@@ -1325,3 +1325,30 @@ adjacent controls down. Local build and whitespace checks pass.
 Combined composer/year on one metadata line; tightened caption gaps and title/
 status line heights. Shelf/table unchanged. JS syntax, normalization and build
 checks pass. Not committed or pushed.
+
+## 2026-11-14 — Clear/Pin icon prototypes
+
+Three interactive layouts after Search: outlined reset/pin, unboxed eraser/pin,
+grouped reset/pin. Every icon has title, accessible name and hover/focus tooltip;
+pin tooltip updates with state. Browser loaded options; build/diff checks pass.
+Main UI unchanged pending selection.
+
+User selected outlined action treatment A; added interactive four-by-four icon
+choice preview with tooltips, selected pair and numbered choices. Browser loaded
+all choices; build passes. Main placement/icon change awaits selection.
+
+## 2026-11-14 — Selected filter action icons implemented
+
+Outlined Clear3/filter-cross and Pin1/upright now follow Search. Header keeps
+theme only. Existing Clear disable/reset and pin/sticky behavior retained. Added
+dynamic theme title; action buttons and view icons have tooltips. Build, syntax
+and normalization checks pass. Not committed/pushed.
+
+Tooltip correction: native titles were insufficient for the requested visible
+treatment. Added shared positioned hover/focus tooltip for Clear, Pin, Theme and
+view icons; disabled Clear is included via pointer events. Escape/scroll dismiss,
+viewport bounds and dynamic action text handled. Syntax/build checks pass.
+
+Tooltip/pin refinement:250ms cancellable hover/focus delay,10px tooltip font,
+theme surface background (dark in dark mode). Selected pin uses the same neutral
+text/surface/border tokens as selected view icons. JS/build/diff checks pass.
