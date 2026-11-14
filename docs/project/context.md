@@ -66,18 +66,17 @@ explorer. [README](../../README.md) owns setup and architecture;
 
 ## Offline follow-up checkpoint
 
-- Screened2,227pairs:10complete programme/credit leads across9releases,
-  333cached unresolved pairs,1,884pairs missing full metadata. Seven new
+- Screened2,227pairs:11complete programme/credit leads,
+  332cached unresolved pairs,1,884pairs missing full metadata. Seven new
   Probable releases now published locally after bounded reviews.
 - Michelangeli sonata3285095/Concerto1 3672809 and Gilels7914875 completed.
-  Nine source-backed Beethoven inventory additions;117script tests pass.
+  Nine source-backed Beethoven inventory additions;119script tests pass.
 - [Offline plan](../plans/2026-11-14-qobuz-offline-followup.md) owns findings and
   exact next steps. Two network-forbidden/fail-closed regression tests pass.
 
 ## Agreed next sequence
 
-1. Finish retrieval; verify all outputs/counts/track completeness and export
-   portable evidence plus validated request archive/canonical URL index.
+1. Retrieval/export complete; preserve shared evidence and source fingerprints.
 2. Rank and rerun Qobuz matching offline using available evidence. New search
    hits without full metadata remain leads, not accepted matches.
 3. Audit promising and uncertain cases. Improve reusable rules where evidence
@@ -92,6 +91,6 @@ new-hit downloads, automatic promotions, pushes or deployment. Bitches Brew’s
 credit exception remains a proposal. Preserve source/hash-bound review safeguards;
 never loosen credits or invent recording identity to improve a count.
 
-Next action: fix bounded comma-before-movement parsing found in Toscanini
-10757120, replay cached evidence; keep ambiguous versions withheld. No new calls.
+Next action: review Toscanini10757120 recording provenance, then remaining
+inventory/parser gaps; keep alternate cycles withheld. No new Qobuz calls.
 [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).

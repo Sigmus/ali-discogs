@@ -17,6 +17,11 @@ def movement_number(title):
     # Only standalone movement labels; IVa-b, II/III and joined movements are
     # deliberately unsupported. Do not confuse work/opus numbers with movements.
     matches = list(re.finditer(r'(?:^|:\s*)([IVX]+|[1-9])\.\s+', title))
+    # Some catalogues write 'Op. 68, I. Allegro'. Only admit a roman marker
+    # after a comma when an explicit work catalogue precedes it. A bare comma
+    # number (take, edition or unrelated list item) is not movement evidence.
+    matches += [m for m in re.finditer(r',\s*([IVX]+)\.\s+', title)
+                if catalogue(title[:m.start()])]
     markers = re.findall(r'(?<!\w)([IVX]+|[1-9])\.\s+', title)
     if len(matches) != 1 or len(markers) != 1:
         return None

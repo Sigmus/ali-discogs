@@ -84,3 +84,24 @@ DG-family Probables:3285095,3672809,7914875.117script tests and UI/build/browser
 checks pass. Publication changes only these three in this checkpoint. Discovered
 next shared parser issue: Toscanini10757120 has five explicit roman movements
 after a comma/catalogue number, which current colon-only parser misses.
+
+## Catalogue-comma movement parser
+
+Toscanini10757120 candidate lbd4bwo8ommnb has five explicit movements written
+`Op.68, I.` through`V.`. The parser now accepts a comma followed by a roman
+movement marker only when an explicit catalogue number precedes it; bare comma
+numbers, joined labels, suffixes and multiple markers remain rejected. Two
+regressions cover these negatives, full five-movement coverage and missing
+movement/wrong-orchestra failure. The cached screen now has11complete-work pairs
+(including previously published cases),332cached unresolved,1,884metadata-needed.
+Toscanini remains unpublished pending recording provenance: the third-party
+Arturo digital edition says Album of1952; target RCA Victrola booklet/issue does
+not independently bind that saved audio to its edition.
+
+Other high-coverage cautions:9769609,9866788,9876728 and7864758 are HMV/EMI
+Barenboim LPs. Candidate0002894631272 is the DG cycle already excluded for
+9866861. Do not mistake growing movement completeness for matching a recording
+cycle. More recording evidence is needed before any promotion, even when
+programme titles and pianist agree.15221307 is a Westminster programme against
+a later DG Gilels collection; the same caution applies. No general label-alias
+or cross-cycle rule has been introduced.

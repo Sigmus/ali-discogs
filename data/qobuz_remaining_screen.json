@@ -15,15 +15,96 @@
     "qobuz_remaining_search.json.gz": "ec5e39bf4c226fc7bf33bc21065d1213df11fb6e87731747a3cabadb8ae7eb96",
     "qobuz_empty_searches.json.gz": "1cf5cae0839048a2a6ad5f4a3e5220cb196e5b285985b5eee52bff7f9d28ddee",
     "qobuz_round2_searches.json.gz": "d6fd0878a25bdefe62d718582569f0c3e00f1114b93f00573bc9788b18aa3042",
-    "qobuz_work_inventory.json": "81cbd338ecab0f095331b57eb8476cffe062ed39949a57fe31fbd8a1cd431bb1"
+    "qobuz_work_inventory.json": "81cbd338ecab0f095331b57eb8476cffe062ed39949a57fe31fbd8a1cd431bb1",
+    "scripts/qobuz_match.py": "1af29123dbc2c5a43800c3b8da4566f37d4e740b7910a0e4730faa2e0fbfc59c",
+    "scripts/qobuz_completeness.py": "c7720499434de111147c68347af05ea7e93735fb78f0b4cacd21d487c4c30286",
+    "scripts/qobuz_work_groups.py": "fe60e663fe67ad7d1f3f741bbde9d256c99efcbfefa7c983731569cee1a0e82a"
   },
   "summary": {
-    "needs_recording_review": 10,
+    "needs_recording_review": 11,
     "metadata_needed": 1884,
-    "unresolved_work_credit_or_completeness": 333
+    "unresolved_work_credit_or_completeness": 332
   },
   "release_candidate_pairs": 2227,
   "entries": [
+    {
+      "discogs_id": "10757120",
+      "album_id": "lbd4bwo8ommnb",
+      "candidate_title": "Ludwig van Beethoven: Symphony No. 6 in F Major, Op. 68 (\"Pastorale\")",
+      "candidate_artist": "Arturo Toscanini",
+      "queries": [
+        "arturo toscanini beethoven op 68"
+      ],
+      "title_relevance": 66.7,
+      "lead_relevance": 100.0,
+      "discovery_rank": 81.7,
+      "cached_complete_metadata": true,
+      "assessment": {
+        "status": "probable",
+        "confidence": 0.85,
+        "coverage": 1.0,
+        "covered": 1,
+        "target_count": 1,
+        "required_performers": [
+          "Arturo Toscanini",
+          "NBC Symphony Orchestra"
+        ],
+        "programme": [
+          {
+            "target": "Sinfonia N. 6 Op. 68 In Fa Magg. \"Pastorale\"",
+            "work_tracks": 5,
+            "credited_tracks": 5,
+            "track_ids": [
+              302286458,
+              302286459,
+              302286460,
+              302286461,
+              302286462
+            ]
+          }
+        ],
+        "reasons": [
+          "Each target item has supporting work and performer credits.",
+          "Grouped movements or extra recordings require review; recording identity is not confirmed."
+        ]
+      },
+      "completeness": {
+        "status": "complete",
+        "works": [
+          {
+            "target": "Sinfonia N. 6 Op. 68 In Fa Magg. \"Pastorale\"",
+            "status": "complete",
+            "expected_movements": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "observed_movements": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "missing_movements": [],
+            "track_ids": [
+              302286458,
+              302286459,
+              302286460,
+              302286461,
+              302286462
+            ],
+            "source": "https://www.esm.rochester.edu/beethoven/symphony-no-6/",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "finding": "needs_recording_review"
+    },
     {
       "discogs_id": "7914875",
       "album_id": "0002894776360",
@@ -12599,90 +12680,6 @@
               5
             ],
             "track_ids": [],
-            "source": "https://www.esm.rochester.edu/beethoven/symphony-no-6/",
-            "scope": "whole-work-inventory",
-            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
-          }
-        ],
-        "overlapping_target_tracks": false
-      },
-      "finding": "unresolved_work_credit_or_completeness"
-    },
-    {
-      "discogs_id": "10757120",
-      "album_id": "lbd4bwo8ommnb",
-      "candidate_title": "Ludwig van Beethoven: Symphony No. 6 in F Major, Op. 68 (\"Pastorale\")",
-      "candidate_artist": "Arturo Toscanini",
-      "queries": [
-        "arturo toscanini beethoven op 68"
-      ],
-      "title_relevance": 66.7,
-      "lead_relevance": 100.0,
-      "discovery_rank": 81.7,
-      "cached_complete_metadata": true,
-      "assessment": {
-        "status": "probable",
-        "confidence": 0.85,
-        "coverage": 1.0,
-        "covered": 1,
-        "target_count": 1,
-        "required_performers": [
-          "Arturo Toscanini",
-          "NBC Symphony Orchestra"
-        ],
-        "programme": [
-          {
-            "target": "Sinfonia N. 6 Op. 68 In Fa Magg. \"Pastorale\"",
-            "work_tracks": 5,
-            "credited_tracks": 5,
-            "track_ids": [
-              302286458,
-              302286459,
-              302286460,
-              302286461,
-              302286462
-            ]
-          }
-        ],
-        "reasons": [
-          "Each target item has supporting work and performer credits.",
-          "Grouped movements or extra recordings require review; recording identity is not confirmed."
-        ]
-      },
-      "completeness": {
-        "status": "unknown",
-        "works": [
-          {
-            "target": "Sinfonia N. 6 Op. 68 In Fa Magg. \"Pastorale\"",
-            "status": "unknown",
-            "expected_movements": [
-              1,
-              2,
-              3,
-              4,
-              5
-            ],
-            "observed_movements": [
-              null,
-              null,
-              null,
-              null,
-              null
-            ],
-            "missing_movements": [
-              1,
-              2,
-              3,
-              4,
-              5
-            ],
-            "track_ids": [
-              302286458,
-              302286459,
-              302286460,
-              302286461,
-              302286462
-            ],
             "source": "https://www.esm.rochester.edu/beethoven/symphony-no-6/",
             "scope": "whole-work-inventory",
             "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."

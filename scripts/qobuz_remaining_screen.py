@@ -82,6 +82,8 @@ def screen():
                 for album in x['albums']: add(x['task']['discogs_id'], album, x['task'].get('query'))
     inventory = json.loads((ROOT/'data/qobuz_work_inventory.json').read_text())
     provenance['qobuz_work_inventory.json'] = fingerprint(ROOT/'data/qobuz_work_inventory.json')
+    for name in ['qobuz_match.py','qobuz_completeness.py','qobuz_work_groups.py']:
+        provenance['scripts/' + name] = fingerprint(ROOT/'scripts'/name)
     entries = []
     for (rid, aid), entry in pairs.items():
         row = rows[rid]

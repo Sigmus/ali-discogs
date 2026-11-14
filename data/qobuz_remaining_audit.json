@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "reviewed_on": "2026-11-14",
-  "screen_sha256": "afa47ab7b5e7bf1afce102a438f84d78f2079131d152b05b4f2e9ea9c00658f9",
+  "screen_sha256": "10a357358c6e7aa62fc032ddd9251229a215dc4d171a69e93a898aafed3f6a97",
   "entries": [
     {
       "discogs_id": "3285095",
@@ -371,5 +371,77 @@
       }
     }
   ],
-  "policy": "Bounded offline audit, not a publication override. Recompute source hashes on follow-up."
+  "policy": "Bounded offline audit, not a publication override. Recompute source hashes on follow-up.",
+  "followup_findings": [
+    {
+      "discogs_id": "10757120",
+      "album_id": "lbd4bwo8ommnb",
+      "target_sha256": "f74faf0e02f42a19f0f7823c8deecd95ef8e6ecfd1ec168d6d402b0002da927c",
+      "decision": "withhold_pending_recording_review",
+      "completeness": {
+        "status": "complete",
+        "works": [
+          {
+            "target": "Sinfonia N. 6 Op. 68 In Fa Magg. \"Pastorale\"",
+            "status": "complete",
+            "expected_movements": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "observed_movements": [
+              1,
+              2,
+              3,
+              4,
+              5
+            ],
+            "missing_movements": [],
+            "track_ids": [
+              302286458,
+              302286459,
+              302286460,
+              302286461,
+              302286462
+            ],
+            "source": "https://www.esm.rochester.edu/beethoven/symphony-no-6/",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "reason": "Comma-delimited roman movement parser now verifies five movements/current required credits; third-party Album of1952 provenance does not independently bind the RCA LP recording."
+    },
+    {
+      "discogs_id": "9769609",
+      "album_id": "0002894631272",
+      "target_sha256": "df39fc02007093495c4f8cdd5345a2d6528277ef775c74ae821a9fa33c187728",
+      "decision": "withhold_recording_cycle_caution",
+      "reason": "HMV/EMI target against DG Barenboim candidate; related cycle conflict is already documented for9866861. Movement/performer coverage is not recording identity; no new label alias or cycle exception."
+    },
+    {
+      "discogs_id": "9866788",
+      "album_id": "0002894631272",
+      "target_sha256": "0ad05e3061f2c31f07e2d7e4170c2e80a51af1b916eb374928a1b5a6f2109830",
+      "decision": "withhold_recording_cycle_caution",
+      "reason": "HMV/EMI target against DG Barenboim candidate; related cycle conflict is already documented for9866861. Movement/performer coverage is not recording identity; no new label alias or cycle exception."
+    },
+    {
+      "discogs_id": "9876728",
+      "album_id": "0002894631272",
+      "target_sha256": "e2255a838afee61951b72028c01b3faa7c13837a59aae1f2b385c76608822843",
+      "decision": "withhold_recording_cycle_caution",
+      "reason": "HMV/EMI target against DG Barenboim candidate; related cycle conflict is already documented for9866861. Movement/performer coverage is not recording identity; no new label alias or cycle exception."
+    },
+    {
+      "discogs_id": "7864758",
+      "album_id": "0002894631272",
+      "target_sha256": "0eb01c20f34aa1ee0c9c0817e6f663ed48d12ae5be917931507aa50564e93797",
+      "decision": "withhold_recording_cycle_caution",
+      "reason": "HMV/EMI target against DG Barenboim candidate; related cycle conflict is already documented for9866861. Movement/performer coverage is not recording identity; no new label alias or cycle exception."
+    }
+  ]
 }

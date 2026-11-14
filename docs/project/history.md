@@ -1406,3 +1406,13 @@ pass sequentially (initial overlap with generation correctly tripped preservatio
 check); UI/build/browser detail pass. Counts12Found/105Probable/624Unchecked
 copies. No Qobuz calls. Next discovered reusable gap: comma before roman movement
 label in Toscanini10757120 titles; current checker sees None for all five.
+
+## 2026-11-14 — Reusable catalogue-comma movement parsing
+
+Accept roman movement after comma only with a preceding explicit catalogue.
+Reject bare comma numerals, joins, suffixes and multiple markers. Toscanini
+10757120 now has five complete credited movements; recording provenance still
+unresolved, no promotion. Replay changes no accepted statuses.119script tests,
+UI normalization/build and diff checks pass. Saved source-bound cautions for
+four HMV/EMI Barenboim targets against DG cycle; no broad label alias. All API
+429/STOP output in test log is mocked; no new Qobuz calls.
