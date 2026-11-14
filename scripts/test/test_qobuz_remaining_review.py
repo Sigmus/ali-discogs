@@ -98,3 +98,19 @@ class RemainingReviewTests(unittest.TestCase):
             if t['id'] in used:t['performers']=t['performers'].replace('Emil Gilels','Wilhelm Kempff')
         changed={**review,'album_sha256':fingerprint(altered)}
         self.assertFalse(assess(row,altered,changed)[0]['eligible'])
+
+    def test_chopin_concerto_rejects_earlier_conductor_and_missing_romance(self):
+        from qobuz_snapshot import load_snapshot
+        row=next(r for r in json.loads((ROOT/'data/collection_matches.json').read_text()) if r['discogs_id']==8264568)
+        review=next(r for r in json.loads((ROOT/'data/qobuz_remaining_recording_reviews.json').read_text())['releases'] if r['discogs_id']=='8264568')
+        album=load_snapshot()['albums']['5099945535758']
+        result,_=assess(row,album,review)
+        self.assertTrue(result['eligible'])
+        ids=set(result['completeness']['works'][0]['track_ids'])
+        altered=copy.deepcopy(album)
+        for t in altered['tracks']['items']:
+            if t['id'] in ids:t['performers']=t['performers'].replace('Louis Fremaux','Georges Tzipine')
+        self.assertFalse(assess(row,altered,{**review,'album_sha256':fingerprint(altered)})[0]['eligible'])
+        altered=copy.deepcopy(album)
+        altered['tracks']['items']=[t for t in altered['tracks']['items'] if not (t['id'] in ids and 'Romance' in t['title'])]
+        self.assertFalse(assess(row,altered,{**review,'album_sha256':fingerprint(altered)})[0]['eligible'])

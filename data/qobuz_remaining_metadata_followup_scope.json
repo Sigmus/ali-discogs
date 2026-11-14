@@ -1,0 +1,94 @@
+{
+  "schema_version": 1,
+  "created_on": "2026-11-14",
+  "status": "proposed_not_fetched",
+  "screen_sha256": "cbfb285fbe9cdb2a929e1dafbc159339a84c617c1b06023bcd6e37ea7b5f5a65",
+  "search_evidence_sha256": "ec5e39bf4c226fc7bf33bc21065d1213df11fb6e87731747a3cabadb8ae7eb96",
+  "collection_sha256": "a214eee877d4749fa957b3d2a293c2925d7ba0621259f2742139a6cd86f928c8",
+  "entries": [
+    {
+      "album_id": "0002894133212",
+      "discogs_ids": [
+        "3167056"
+      ],
+      "candidate_title": "Verdi: Nabucco - Highlights",
+      "reason": "Matching DG catalogue number and Nabucco highlights; verify all named singers, chorus, orchestra and excerpt scope.",
+      "complete_request_cache_available": false
+    },
+    {
+      "album_id": "0825646180943",
+      "discogs_ids": [
+        "3290970"
+      ],
+      "candidate_title": "Die 12 Cellisten der Berliner Philharmoniker Vol. 1",
+      "reason": "Same numbered cello-ensemble volume; verify complete programme and all target members.",
+      "complete_request_cache_available": false
+    },
+    {
+      "album_id": "3610156779780",
+      "discogs_ids": [
+        "6781135"
+      ],
+      "candidate_title": "Kid Ory and His Creole Jazz Band",
+      "reason": "Same Kid Ory programme title; verify ensemble/member credits and recording provenance.",
+      "complete_request_cache_available": false
+    },
+    {
+      "album_id": "5099996593059",
+      "discogs_ids": [
+        "7194998"
+      ],
+      "candidate_title": "Chopin: Waltzes",
+      "reason": "Lipatti Chopin waltzes; verify all listed waltzes, order and recording provenance.",
+      "complete_request_cache_available": false
+    },
+    {
+      "album_id": "v96ulyegxutlc",
+      "discogs_ids": [
+        "11412875"
+      ],
+      "candidate_title": "Nielsen: Symphony No. 4, Op. 29 \"The Inextinguishable\"",
+      "reason": "Nielsen Fourth with Barbirolli; require Halle Orchestra, all movements and recording-family review.",
+      "complete_request_cache_available": false
+    },
+    {
+      "album_id": "0886444299039",
+      "discogs_ids": [
+        "1458083"
+      ],
+      "candidate_title": "Bach:  Two and Three Part Inventions",
+      "reason": "Gould two/three-part inventions; verify BWV programme, complete numbered pieces and performer.",
+      "complete_request_cache_available": false
+    },
+    {
+      "album_id": "0883629934709",
+      "discogs_ids": [
+        "10175959"
+      ],
+      "candidate_title": "Brahms: Violin Concerto in D, Op. 77",
+      "reason": "Kreisler Brahms concerto; require Barbirolli/London Philharmonic and all movements, not just violinist/title.",
+      "complete_request_cache_available": false
+    },
+    {
+      "album_id": "0002894557942",
+      "discogs_ids": [
+        "5254294"
+      ],
+      "candidate_title": "Mozart: Complete Wind Music",
+      "reason": "Brymer Mozart wind collection; verify required works/ensemble and recording cycle.",
+      "complete_request_cache_available": false
+    },
+    {
+      "album_id": "0002894552472",
+      "discogs_ids": [
+        "6264736",
+        "6347314",
+        "7291398"
+      ],
+      "candidate_title": "Brahms: Works for Solo Piano",
+      "reason": "Katchen Brahms collection may cover three LP volumes; verify each volume independently without dropping pieces.",
+      "complete_request_cache_available": false
+    }
+  ],
+  "policy": "Nine distinct metadata albums for11release leads only; no searches, audio, automatic acceptance or scope expansion. Retrieval requires separate authorization; maintain15second spacing and120second rests per50requests, stop on warnings."
+}

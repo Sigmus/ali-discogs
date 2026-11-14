@@ -105,3 +105,28 @@ cycle. More recording evidence is needed before any promotion, even when
 programme titles and pianist agree.15221307 is a Westminster programme against
 a later DG Gilels collection; the same caution applies. No general label-alias
 or cross-cycle rule has been introduced.
+
+## François checkpoint and next retrieval proposal
+
+8264568 becomes Probable85 after Op.11 inventory and existing hash-bound review.
+[Warner](https://www.warnerclassics.com/release/chopin-concertos-francois) names
+the target artists; [Warner Japan](https://wmg.jp/samson-francois/discography/23356)
+CD33 identifies13–15July1965 Monte-Carlo, distinct from earlier Tzipine.
+Copyright1966/1967 on LP is retained without calling it a session date.
+Only this accepted status changed;120script tests/UI/build/browser checks pass.
+Screen now13complete-work pairs,330cached unresolved,1,884metadata-needed.
+
+`data/qobuz_remaining_metadata_followup_scope.json` is proposed, not fetched:
+9unique albums for11release leads. Targets3167056,3290970,6781135,7194998,
+11412875,1458083,10175959,5254294 and Katchen6264736/6347314/7291398.
+Bound to screen/search/collection hashes. All absent from complete portable and
+raw request caches. Excluded obvious programme-number conflicts, BBC-vs-NBC
+Toscanini and a later Harnoncourt recording lead. Title similarity is not a
+validation rule. Scope requires authorization before retrieval and then the same
+pacing, warning stop, resumability and metadata-completeness checks as before.
+
+The closest cached failures now need a new review treatment: Schnabel4352998
+Op.54 split Beginning/Conclusion and conflicting G-major label for Op.49/1;
+Klemperer6113868/6119375 has a multi-track split fourth movement and scoped
+singer/chorus requirements. Keep them unpublished until a new bounded review
+is explicitly scoped; do not simply collapse duplicate movement4 markers.

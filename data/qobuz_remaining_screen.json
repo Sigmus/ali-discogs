@@ -15,15 +15,15 @@
     "qobuz_remaining_search.json.gz": "ec5e39bf4c226fc7bf33bc21065d1213df11fb6e87731747a3cabadb8ae7eb96",
     "qobuz_empty_searches.json.gz": "1cf5cae0839048a2a6ad5f4a3e5220cb196e5b285985b5eee52bff7f9d28ddee",
     "qobuz_round2_searches.json.gz": "d6fd0878a25bdefe62d718582569f0c3e00f1114b93f00573bc9788b18aa3042",
-    "qobuz_work_inventory.json": "81cbd338ecab0f095331b57eb8476cffe062ed39949a57fe31fbd8a1cd431bb1",
+    "qobuz_work_inventory.json": "4f2df7ddb6148fdd5ffd9d41550fc317da0ab726abcb3cb91ec1b8466a510156",
     "scripts/qobuz_match.py": "1af29123dbc2c5a43800c3b8da4566f37d4e740b7910a0e4730faa2e0fbfc59c",
     "scripts/qobuz_completeness.py": "c7720499434de111147c68347af05ea7e93735fb78f0b4cacd21d487c4c30286",
     "scripts/qobuz_work_groups.py": "fe60e663fe67ad7d1f3f741bbde9d256c99efcbfefa7c983731569cee1a0e82a"
   },
   "summary": {
-    "needs_recording_review": 11,
+    "needs_recording_review": 13,
     "metadata_needed": 1884,
-    "unresolved_work_credit_or_completeness": 332
+    "unresolved_work_credit_or_completeness": 330
   },
   "release_candidate_pairs": 2227,
   "entries": [
@@ -843,6 +843,77 @@
       "finding": "needs_recording_review"
     },
     {
+      "discogs_id": "8264568",
+      "album_id": "5099945535758",
+      "candidate_title": "The Chopin Recordings",
+      "candidate_artist": "Samson François",
+      "queries": [
+        "samson francois chopin"
+      ],
+      "title_relevance": 32.7,
+      "lead_relevance": 100.0,
+      "discovery_rank": 63.0,
+      "cached_complete_metadata": true,
+      "assessment": {
+        "status": "probable",
+        "confidence": 0.85,
+        "coverage": 1.0,
+        "covered": 1,
+        "target_count": 1,
+        "required_performers": [
+          "Louis Frémaux",
+          "Samson François",
+          "Orchestre National De L'Opéra De Monte-Carlo"
+        ],
+        "programme": [
+          {
+            "target": "Concerto N° 1 En Mi Mineur Op. 11",
+            "work_tracks": 3,
+            "credited_tracks": 3,
+            "track_ids": [
+              1892035,
+              1892036,
+              1892037
+            ]
+          }
+        ],
+        "reasons": [
+          "Each target item has supporting work and performer credits.",
+          "Grouped movements or extra recordings require review; recording identity is not confirmed."
+        ]
+      },
+      "completeness": {
+        "status": "complete",
+        "works": [
+          {
+            "target": "Concerto N° 1 En Mi Mineur Op. 11",
+            "status": "complete",
+            "expected_movements": [
+              1,
+              2,
+              3
+            ],
+            "observed_movements": [
+              1,
+              2,
+              3
+            ],
+            "missing_movements": [],
+            "track_ids": [
+              1892035,
+              1892036,
+              1892037
+            ],
+            "source": "https://www.laphil.com/works/piano-concerto-no-1-chopin",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "finding": "needs_recording_review"
+    },
+    {
       "discogs_id": "24965038",
       "album_id": "vrg5q0y8vzvaa",
       "candidate_title": "Beethoven: The 9 Symphonies & Overtures (Remastered)",
@@ -945,6 +1016,78 @@
               353969797
             ],
             "source": "https://www.esm.rochester.edu/beethoven/symphony-no-8/",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "finding": "needs_recording_review"
+    },
+    {
+      "discogs_id": "8264568",
+      "album_id": "5099998471751",
+      "candidate_title": "Chopin: Piano Works",
+      "candidate_artist": "Samson François",
+      "queries": [
+        "samson francois chopin",
+        "samson francois chopin op 11"
+      ],
+      "title_relevance": 30.8,
+      "lead_relevance": 100.0,
+      "discovery_rank": 61.9,
+      "cached_complete_metadata": true,
+      "assessment": {
+        "status": "probable",
+        "confidence": 0.85,
+        "coverage": 1.0,
+        "covered": 1,
+        "target_count": 1,
+        "required_performers": [
+          "Louis Frémaux",
+          "Samson François",
+          "Orchestre National De L'Opéra De Monte-Carlo"
+        ],
+        "programme": [
+          {
+            "target": "Concerto N° 1 En Mi Mineur Op. 11",
+            "work_tracks": 3,
+            "credited_tracks": 3,
+            "track_ids": [
+              10509535,
+              10509539,
+              10509541
+            ]
+          }
+        ],
+        "reasons": [
+          "Each target item has supporting work and performer credits.",
+          "Grouped movements or extra recordings require review; recording identity is not confirmed."
+        ]
+      },
+      "completeness": {
+        "status": "complete",
+        "works": [
+          {
+            "target": "Concerto N° 1 En Mi Mineur Op. 11",
+            "status": "complete",
+            "expected_movements": [
+              1,
+              2,
+              3
+            ],
+            "observed_movements": [
+              1,
+              2,
+              3
+            ],
+            "missing_movements": [],
+            "track_ids": [
+              10509535,
+              10509539,
+              10509541
+            ],
+            "source": "https://www.laphil.com/works/piano-concerto-no-1-chopin",
             "scope": "whole-work-inventory",
             "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
           }
@@ -3239,7 +3382,7 @@
         "work_group_policy": "qobuz-work-groups-v1"
       },
       "completeness": {
-        "status": "unknown",
+        "status": "incomplete",
         "works": [
           {
             "target": "Impromptus",
@@ -3758,8 +3901,22 @@
           },
           {
             "target": "Klavierkonzert Nr.1 E-moll, Op. 11",
-            "status": "unknown",
-            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+            "status": "incomplete",
+            "expected_movements": [
+              1,
+              2,
+              3
+            ],
+            "observed_movements": [],
+            "missing_movements": [
+              1,
+              2,
+              3
+            ],
+            "track_ids": [],
+            "source": "https://www.laphil.com/works/piano-concerto-no-1-chopin",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
           },
           {
             "target": "Mazurken",
@@ -5587,7 +5744,7 @@
         "work_group_policy": "qobuz-work-groups-v1"
       },
       "completeness": {
-        "status": "unknown",
+        "status": "incomplete",
         "works": [
           {
             "target": "Impromptus",
@@ -6106,8 +6263,22 @@
           },
           {
             "target": "Klavierkonzert Nr.1 E-moll, Op. 11",
-            "status": "unknown",
-            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+            "status": "incomplete",
+            "expected_movements": [
+              1,
+              2,
+              3
+            ],
+            "observed_movements": [],
+            "missing_movements": [
+              1,
+              2,
+              3
+            ],
+            "track_ids": [],
+            "source": "https://www.laphil.com/works/piano-concerto-no-1-chopin",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
           },
           {
             "target": "Mazurken",
@@ -7999,7 +8170,7 @@
         "work_group_policy": "qobuz-work-groups-v1"
       },
       "completeness": {
-        "status": "unknown",
+        "status": "incomplete",
         "works": [
           {
             "target": "Impromptus",
@@ -8518,8 +8689,22 @@
           },
           {
             "target": "Klavierkonzert Nr.1 E-moll, Op. 11",
-            "status": "unknown",
-            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+            "status": "incomplete",
+            "expected_movements": [
+              1,
+              2,
+              3
+            ],
+            "observed_movements": [],
+            "missing_movements": [
+              1,
+              2,
+              3
+            ],
+            "track_ids": [],
+            "source": "https://www.laphil.com/works/piano-concerto-no-1-chopin",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
           },
           {
             "target": "Mazurken",
@@ -14806,7 +14991,7 @@
         "work_group_policy": "qobuz-work-groups-v1"
       },
       "completeness": {
-        "status": "unknown",
+        "status": "incomplete",
         "works": [
           {
             "target": "Impromptus",
@@ -15325,8 +15510,22 @@
           },
           {
             "target": "Klavierkonzert Nr.1 E-moll, Op. 11",
-            "status": "unknown",
-            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+            "status": "incomplete",
+            "expected_movements": [
+              1,
+              2,
+              3
+            ],
+            "observed_movements": [],
+            "missing_movements": [
+              1,
+              2,
+              3
+            ],
+            "track_ids": [],
+            "source": "https://www.laphil.com/works/piano-concerto-no-1-chopin",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
           },
           {
             "target": "Mazurken",
@@ -21356,12 +21555,26 @@
         ]
       },
       "completeness": {
-        "status": "unknown",
+        "status": "incomplete",
         "works": [
           {
             "target": "Concerto N° 1 En Mi Mineur Op. 11",
-            "status": "unknown",
-            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+            "status": "incomplete",
+            "expected_movements": [
+              1,
+              2,
+              3
+            ],
+            "observed_movements": [],
+            "missing_movements": [
+              1,
+              2,
+              3
+            ],
+            "track_ids": [],
+            "source": "https://www.laphil.com/works/piano-concerto-no-1-chopin",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
           }
         ],
         "overlapping_target_tracks": false
@@ -21753,12 +21966,26 @@
         ]
       },
       "completeness": {
-        "status": "unknown",
+        "status": "incomplete",
         "works": [
           {
             "target": "Concerto N° 1 En Mi Mineur Op. 11",
-            "status": "unknown",
-            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+            "status": "incomplete",
+            "expected_movements": [
+              1,
+              2,
+              3
+            ],
+            "observed_movements": [],
+            "missing_movements": [
+              1,
+              2,
+              3
+            ],
+            "track_ids": [],
+            "source": "https://www.laphil.com/works/piano-concerto-no-1-chopin",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
           }
         ],
         "overlapping_target_tracks": false
@@ -25023,7 +25250,7 @@
         "work_group_policy": "qobuz-work-groups-v1"
       },
       "completeness": {
-        "status": "unknown",
+        "status": "incomplete",
         "works": [
           {
             "target": "Impromptus",
@@ -25542,8 +25769,22 @@
           },
           {
             "target": "Klavierkonzert Nr.1 E-moll, Op. 11",
-            "status": "unknown",
-            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+            "status": "incomplete",
+            "expected_movements": [
+              1,
+              2,
+              3
+            ],
+            "observed_movements": [],
+            "missing_movements": [
+              1,
+              2,
+              3
+            ],
+            "track_ids": [],
+            "source": "https://www.laphil.com/works/piano-concerto-no-1-chopin",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
           },
           {
             "target": "Mazurken",
@@ -29089,7 +29330,7 @@
         "work_group_policy": "qobuz-work-groups-v1"
       },
       "completeness": {
-        "status": "unknown",
+        "status": "incomplete",
         "works": [
           {
             "target": "Impromptus",
@@ -29608,8 +29849,22 @@
           },
           {
             "target": "Klavierkonzert Nr.1 E-moll, Op. 11",
-            "status": "unknown",
-            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+            "status": "incomplete",
+            "expected_movements": [
+              1,
+              2,
+              3
+            ],
+            "observed_movements": [],
+            "missing_movements": [
+              1,
+              2,
+              3
+            ],
+            "track_ids": [],
+            "source": "https://www.laphil.com/works/piano-concerto-no-1-chopin",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
           },
           {
             "target": "Mazurken",
@@ -39906,12 +40161,26 @@
         ]
       },
       "completeness": {
-        "status": "unknown",
+        "status": "incomplete",
         "works": [
           {
             "target": "Concerto N° 1 En Mi Mineur Op. 11",
-            "status": "unknown",
-            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+            "status": "incomplete",
+            "expected_movements": [
+              1,
+              2,
+              3
+            ],
+            "observed_movements": [],
+            "missing_movements": [
+              1,
+              2,
+              3
+            ],
+            "track_ids": [],
+            "source": "https://www.laphil.com/works/piano-concerto-no-1-chopin",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
           }
         ],
         "overlapping_target_tracks": false
@@ -46439,59 +46708,6 @@
       "finding": "metadata_needed"
     },
     {
-      "discogs_id": "8264568",
-      "album_id": "5099945535758",
-      "candidate_title": "The Chopin Recordings",
-      "candidate_artist": "Samson François",
-      "queries": [
-        "samson francois chopin"
-      ],
-      "title_relevance": 32.7,
-      "lead_relevance": 100.0,
-      "discovery_rank": 63.0,
-      "cached_complete_metadata": true,
-      "assessment": {
-        "status": "probable",
-        "confidence": 0.85,
-        "coverage": 1.0,
-        "covered": 1,
-        "target_count": 1,
-        "required_performers": [
-          "Louis Frémaux",
-          "Samson François",
-          "Orchestre National De L'Opéra De Monte-Carlo"
-        ],
-        "programme": [
-          {
-            "target": "Concerto N° 1 En Mi Mineur Op. 11",
-            "work_tracks": 3,
-            "credited_tracks": 3,
-            "track_ids": [
-              1892035,
-              1892036,
-              1892037
-            ]
-          }
-        ],
-        "reasons": [
-          "Each target item has supporting work and performer credits.",
-          "Grouped movements or extra recordings require review; recording identity is not confirmed."
-        ]
-      },
-      "completeness": {
-        "status": "unknown",
-        "works": [
-          {
-            "target": "Concerto N° 1 En Mi Mineur Op. 11",
-            "status": "unknown",
-            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
-          }
-        ],
-        "overlapping_target_tracks": false
-      },
-      "finding": "unresolved_work_credit_or_completeness"
-    },
-    {
       "discogs_id": "8923384",
       "album_id": "0886443010222",
       "candidate_title": "Beethoven: Violin Sonata No. 7 in C Minor; Schubert: Violin Sonatina in G Minor; Bach: Partita No. 2 in D Minor, Chaconne",
@@ -49980,60 +50196,6 @@
           },
           {
             "target": "Sonate No.10 En Ut Majeur K. 330 - Sonate  C-Dur KV 330",
-            "status": "unknown",
-            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
-          }
-        ],
-        "overlapping_target_tracks": false
-      },
-      "finding": "unresolved_work_credit_or_completeness"
-    },
-    {
-      "discogs_id": "8264568",
-      "album_id": "5099998471751",
-      "candidate_title": "Chopin: Piano Works",
-      "candidate_artist": "Samson François",
-      "queries": [
-        "samson francois chopin",
-        "samson francois chopin op 11"
-      ],
-      "title_relevance": 30.8,
-      "lead_relevance": 100.0,
-      "discovery_rank": 61.9,
-      "cached_complete_metadata": true,
-      "assessment": {
-        "status": "probable",
-        "confidence": 0.85,
-        "coverage": 1.0,
-        "covered": 1,
-        "target_count": 1,
-        "required_performers": [
-          "Louis Frémaux",
-          "Samson François",
-          "Orchestre National De L'Opéra De Monte-Carlo"
-        ],
-        "programme": [
-          {
-            "target": "Concerto N° 1 En Mi Mineur Op. 11",
-            "work_tracks": 3,
-            "credited_tracks": 3,
-            "track_ids": [
-              10509535,
-              10509539,
-              10509541
-            ]
-          }
-        ],
-        "reasons": [
-          "Each target item has supporting work and performer credits.",
-          "Grouped movements or extra recordings require review; recording identity is not confirmed."
-        ]
-      },
-      "completeness": {
-        "status": "unknown",
-        "works": [
-          {
-            "target": "Concerto N° 1 En Mi Mineur Op. 11",
             "status": "unknown",
             "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
           }
@@ -65232,7 +65394,7 @@
         "work_group_policy": "qobuz-work-groups-v1"
       },
       "completeness": {
-        "status": "unknown",
+        "status": "incomplete",
         "works": [
           {
             "target": "Impromptus",
@@ -65751,8 +65913,22 @@
           },
           {
             "target": "Klavierkonzert Nr.1 E-moll, Op. 11",
-            "status": "unknown",
-            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+            "status": "incomplete",
+            "expected_movements": [
+              1,
+              2,
+              3
+            ],
+            "observed_movements": [],
+            "missing_movements": [
+              1,
+              2,
+              3
+            ],
+            "track_ids": [],
+            "source": "https://www.laphil.com/works/piano-concerto-no-1-chopin",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
           },
           {
             "target": "Mazurken",

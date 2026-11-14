@@ -1416,3 +1416,14 @@ unresolved, no promotion. Replay changes no accepted statuses.119script tests,
 UI normalization/build and diff checks pass. Saved source-bound cautions for
 four HMV/EMI Barenboim targets against DG cycle; no broad label alias. All API
 429/STOP output in test log is mocked; no new Qobuz calls.
+
+## 2026-11-14 — François concerto validated; next metadata scope proposed
+
+8264568 Chopin Op.11 now Probable85: all three movements and François/Frémaux/
+Monte-Carlo credits, with Warner1965 sessions distinguished from1954Tzipine.
+Added independently sourced Op.11 inventory; only this status changes.120script
+tests, UI normalization/build/browser details pass. Toscanini provenance still
+insufficient; split Schnabel headings and Ninth-finale groups need new bounded
+review treatment. Proposed9distinct metadata albums for11release leads; checked
+portable and raw request caches, none already complete. No Qobuz calls, fetching,
+push or deployment. Counts12Found/106Probable/623Unchecked copies.

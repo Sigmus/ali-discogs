@@ -8,7 +8,7 @@
   "collection_fingerprint": "a214eee877d4749fa957b3d2a293c2925d7ba0621259f2742139a6cd86f928c8",
   "expansion_scope_fingerprint": "c70833f5e499ef56ff81e4f3f2cba985df6f0f59833dbb7a86a66eeb537a1f17",
   "target_credits_fingerprint": "0d62915c08feb0b282c88664d0c4e44721315769af06aa78146c4e2768c3029e",
-  "work_inventory_fingerprint": "81cbd338ecab0f095331b57eb8476cffe062ed39949a57fe31fbd8a1cd431bb1",
+  "work_inventory_fingerprint": "4f2df7ddb6148fdd5ffd9d41550fc317da0ab726abcb3cb91ec1b8466a510156",
   "lead_review_fingerprint": "bc731b95eadb23cb1a13d735a4e7410615ae06f260b2c4a381ed4a29e229265e",
   "comparison_evidence_fingerprint": "c38df992ab44bbc892ffacafa19d74cc1495d7579d3d6da670653204dca25e57",
   "album_urls_fingerprint": "19d42f2ff46868a978c401e6e5fb32adf6a24df9b06a1f4a43eb8ec72c15be44",
@@ -29,7 +29,7 @@
   "richter_review_fingerprint": "a14865f86e46150593e39bfa285fa6c7c61c8f46147b8094c0cb048fd02118ab",
   "round2_review_fingerprint": "be60742c3d35f5a9aa67f200642f7fcde98a52562a46130e043db8f4aa7c851e",
   "round2_metadata_fingerprint": "9db62d7bf62d4b77f5acf422dfde77959f845f4dc00b2ac0e10c02ccea295860",
-  "remaining_review_fingerprint": "7c2a401ef5f0f82c987f182b2fefef0fce5f6f38af39572ae201c5be899bd1be",
+  "remaining_review_fingerprint": "d1a8a942ae7d27d632aa74cbe9c459902b6215df8277c45f2e01a0d648be3481",
   "remaining_metadata_fingerprint": "393b2d12e176160ab311b65267b38bdc8c205222e12f792bf07eba5c1fcfafbf",
   "releases": {
     "15221307": {
@@ -101334,14 +101334,106 @@
       ]
     },
     "8264568": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "5099945535758",
+        "name": "The Chopin Recordings",
+        "artists": [
+          "Samson François"
+        ],
+        "label": "Parlophone (France)",
+        "release_date": "2010-02-22",
+        "image": "https://static.qobuz.com/images/covers/58/57/5099945535758_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/the-chopin-recordings-samson-francois/5099945535758"
+      },
+      "candidates": [
+        {
+          "id": "5099945535758",
+          "name": "The Chopin Recordings",
+          "artists": [
+            "Samson François"
+          ],
+          "label": "Parlophone (France)",
+          "release_date": "2010-02-22",
+          "image": "https://static.qobuz.com/images/covers/58/57/5099945535758_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/the-chopin-recordings-samson-francois/5099945535758",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 1,
+          "target_count": 1,
+          "required_performers": [
+            "Louis Frémaux",
+            "Samson François",
+            "Orchestre National De L'Opéra De Monte-Carlo"
+          ],
+          "programme": [
+            {
+              "target": "Concerto N° 1 En Mi Mineur Op. 11",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                1892035,
+                1892036,
+                1892037
+              ]
+            }
+          ],
+          "reasons": [
+            "Each target item has supporting work and performer credits.",
+            "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+            "Warner names François, Frémaux and the Monte-Carlo orchestra for the Chopin concertos; Warner Japan documents the13–15July1965 Monte-Carlo sessions and distinguishes the earlier1954 Tzipine recording. The saved Parlophone compilation has all three Op.11 movements with the target required artists. This supports the EMI/Warner recording family, not exact LP mastering.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "LP notes give phonographic copyright1966 on labels and1967 on cover; those are not claimed to be recording-session dates.",
+            "Extra compilation works are outside the target LP; exact pressing, takes and digital mastering remain unverified."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Concerto N° 1 En Mi Mineur Op. 11",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "track_ids": [
+                  1892035,
+                  1892036,
+                  1892037
+                ],
+                "scope": "whole-work-inventory",
+                "source": "https://www.laphil.com/works/piano-concerto-no-1-chopin",
+                "reason": "All three explicit Op.11 movements in order, each with François, Frémaux and the required Monte-Carlo orchestra."
+              }
+            ],
+            "overlapping_target_tracks": false
+          },
+          "recording_review": "Warner names François, Frémaux and the Monte-Carlo orchestra for the Chopin concertos; Warner Japan documents the13–15July1965 Monte-Carlo sessions and distinguishes the earlier1954 Tzipine recording. The saved Parlophone compilation has all three Op.11 movements with the target required artists. This supports the EMI/Warner recording family, not exact LP mastering.",
+          "review_sources": [
+            "https://www.warnerclassics.com/release/chopin-concertos-francois",
+            "https://wmg.jp/samson-francois/discography/23356",
+            "https://www.discogs.com/release/8264568"
+          ]
+        }
+      ],
       "query": "louis fremaux chopin concerto ndeg 1 en mi mineur op 11",
       "searched_at": "2026-11-12T16:48:10.012084+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Each target item has supporting work and performer credits.",
+        "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+        "Warner names François, Frémaux and the Monte-Carlo orchestra for the Chopin concertos; Warner Japan documents the13–15July1965 Monte-Carlo sessions and distinguishes the earlier1954 Tzipine recording. The saved Parlophone compilation has all three Op.11 movements with the target required artists. This supports the EMI/Warner recording family, not exact LP mastering.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "LP notes give phonographic copyright1966 on labels and1967 on cover; those are not claimed to be recording-session dates.",
+        "Extra compilation works are outside the target LP; exact pressing, takes and digital mastering remain unverified."
       ]
     },
     "8340080": {

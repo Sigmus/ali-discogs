@@ -673,6 +673,68 @@
           "reason": "Every inventoried movement in order with the target required artists; no overlap between works."
         }
       ]
+    },
+    {
+      "discogs_id": "8264568",
+      "album_id": "5099945535758",
+      "target_sha256": "8b0839b8b1bbd8d39c46a5711ad87258fdbac29c7fd100bc4ba2eeb0afb4446b",
+      "album_sha256": "516a7e6f22b9871003345090198e1e1a8adba97db027498cb8324f79cd75093a",
+      "decision": "probable",
+      "recording_review": "Warner names François, Frémaux and the Monte-Carlo orchestra for the Chopin concertos; Warner Japan documents the13–15July1965 Monte-Carlo sessions and distinguishes the earlier1954 Tzipine recording. The saved Parlophone compilation has all three Op.11 movements with the target required artists. This supports the EMI/Warner recording family, not exact LP mastering.",
+      "sources": [
+        "https://www.warnerclassics.com/release/chopin-concertos-francois",
+        "https://wmg.jp/samson-francois/discography/23356",
+        "https://www.discogs.com/release/8264568"
+      ],
+      "limitations": [
+        "LP notes give phonographic copyright1966 on labels and1967 on cover; those are not claimed to be recording-session dates.",
+        "Extra compilation works are outside the target LP; exact pressing, takes and digital mastering remain unverified."
+      ],
+      "target_source": {
+        "sha256": "994ed55fa662174c6282dfdb31e35f8f57a76808fcbb8c22c54c8ed268de151e",
+        "notes": "Ⓟ1966 (on labels)\nⓅ1967 (on cover)\nRed rim, gatefold \nRounded square logo at top ",
+        "tracklist": [
+          {
+            "position": "",
+            "type_": "index",
+            "title": "Concerto N° 1 En Mi Mineur Op. 11",
+            "duration": "",
+            "sub_tracks": [
+              {
+                "position": "A1",
+                "type_": "track",
+                "title": "Allegro Maestoso",
+                "duration": ""
+              },
+              {
+                "position": "B1",
+                "type_": "track",
+                "title": "Romance (Larghetto)",
+                "duration": ""
+              },
+              {
+                "position": "B2",
+                "type_": "track",
+                "title": "Rondo (Vivace)",
+                "duration": ""
+              }
+            ]
+          }
+        ]
+      },
+      "works": [
+        {
+          "target": "Concerto N° 1 En Mi Mineur Op. 11",
+          "movements": [
+            1,
+            2,
+            3
+          ],
+          "scope": "whole-work-inventory",
+          "source": "https://www.laphil.com/works/piano-concerto-no-1-chopin",
+          "reason": "All three explicit Op.11 movements in order, each with François, Frémaux and the required Monte-Carlo orchestra."
+        }
+      ]
     }
   ]
 }
