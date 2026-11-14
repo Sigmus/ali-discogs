@@ -673,3 +673,7 @@ th.sortable button {
 .table-wrap {overflow:visible}
 .album-table {min-width:0}
 .album-table thead th {position:sticky;top:calc(var(--header-height,49px) + var(--pinned-filter-height,0px));z-index:8;background:var(--c-bg);box-shadow:0 1px 0 var(--c-border)}
+
+/* Selection chips grow below controls, never move adjacent search/actions. */
+.filters {align-items:start}
+.filter-actions {align-self:start;padding-top:22px}

@@ -8,8 +8,8 @@ explorer. [README](../../README.md) owns setup and architecture;
 
 ## Current state
 
-- Branch `main`; pushed through `66b35d4` (retrieval setup/evidence and detail
-  layout C). Latest retrieval checkpoint notes remain local. Search in progress.
+- Branch `main`; pushed through `9877231` (filter band, pin control and sticky
+  table headers). Retrieval remains in progress; deployment not verified.
 - Collection: 741 copies / 740 unique releases. Current saved labels: Spotify
   254 Found / 273 Probable / 210 Not found / 4 Unchecked; Qobuz
   12 Found / 98 Probable / 631 Unchecked copies (14 November snapshot).

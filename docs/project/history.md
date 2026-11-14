@@ -1310,3 +1310,12 @@ ResizeObserver measures filter/header height, including multi-select chip wraps.
 Removed nested horizontal scroll container so document-sticky headers can work;
 table uses available width with existing mobile column rules. Build and Node
 normalization checks pass.
+
+2026-11-14: User-requested push of9877231to origin/main succeeded. Pages
+deployment not verified; active retrieval untouched.
+
+## 2026-11-14 — Align filters when chips are selected
+
+Grid items now align at the top; Clear uses the same label-height offset as
+Search/dropdown controls. Selected chips grow underneath without shifting
+adjacent controls down. Local build and whitespace checks pass.
