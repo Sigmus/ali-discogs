@@ -1090,3 +1090,15 @@ Götterdämmerung as scene-sides with Teil cuts. Qobuz qs49hef2mbbsb has those
 four operas in order, 310 tracks, with Furtwängler and the Rome orchestra on
 every track. Scene-sides and the act review each cover one opera, and the
 file names singers this LP does not. No publication. Counts unchanged.
+
+## 2026-11-14 — St Matthew Passion uses another number count
+
+The Ring file has the four operas in order, but Siegfried Act 1 Scene 3 is
+not a numbered scene. The forging cues are labeled Scene 2. Getz/Gilberto
+4073133 has the eight songs in order on the eight-track file, and Milton
+Banana is not named. Moldau 13538423’s file has Vyšehrad, Vltava and the
+meadows, then Slavonic Dances, and not Tábor. Klemperer 25537708 is the
+stop. Columbia SAXF 243 / 7 lists Nos. 1 to 78. The file’s numbers run
+through 68, and some of those numbers are split into lettered tracks. That
+is a different count, so it is not this side scheme. No publication. Counts
+unchanged.

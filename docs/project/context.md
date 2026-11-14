@@ -88,12 +88,11 @@ plans preserve dated evidence and prior handoffs.
 - Inventory of the 633 still unchecked: 305 no saved hits, 12 metadata-needed,
   308 work or credit gaps, 7 reviewed withholds, and the Barenboim caution.
   Sellheim 7421796 stays an empty query, not confirmed absence.
-- Next stop: Furtwängler’s Ring 4256464. The 310-track file has the four
-  operas in order, with the Rome orchestra on every track. The LP’s Teil
-  cuts are not tracks, and the file names singers the LP does not. That
-  needs a new review. Schwarzkopf 6257908 is a 197-track anthology. Otello’s
-  Karajan files name Tom Krause. The Rubinstein file is only the concerto.
-  Bitches Brew stays a proposal. Pushed through c12ce9d. Salome is local.
-  Live Pages result not confirmed.
+- Next stop: Klemperer’s St Matthew Passion 25537708. The file numbers
+  movements through 68, with lettered splits. The LP sides run to No. 78.
+  Those counts are not the same scheme. The Ring file does not number
+  Siegfried’s Act 1 Scene 3. Getz/Gilberto does not name Milton Banana.
+  The Moldau file has no Tábor. Bitches Brew stays a proposal. Pushed
+  through c12ce9d. Salome is local. Live Pages result not confirmed.
 - [Unmatched audit](../plans/2026-11-13-qobuz-unmatched-audit.md). [Bitches Brew credits](../plans/2026-11-13-bitches-brew-credits.md).
 - [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).

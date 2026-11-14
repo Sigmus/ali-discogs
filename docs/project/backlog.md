@@ -72,8 +72,10 @@ A started pass commits each verified publication and continues; it does not
 search or download on its own. Trouard 8291074 and Salome 7657012 are
 Probable 85. Columbia FCX 30205 and FCX 30097 stay unpublished because their
 waltz order is not a cached file. Schwarzkopf 6257908, Otello 7095769 and
-Rubinstein 13927062 stay unpublished. Furtwängler’s Ring 4256464 is the next
-stop: the four operas are in the file, and the Teil cuts need a new review.
+Rubinstein 13927062 stay unpublished. The Ring file does not number
+Siegfried’s Act 1 Scene 3. Getz/Gilberto does not name Milton Banana. The
+Moldau file has no Tábor. Klemperer’s St Matthew Passion 25537708 is the
+next stop: the file counts to 68 and the LP sides run to 78.
 
 Status: user-authorized [round2](../plans/2026-11-13-qobuz-round2.md) complete:
 3new bounded Probables (Klemperer,Ancerl,deVito),40slow searches for20empty
