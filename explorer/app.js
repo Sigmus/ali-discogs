@@ -434,7 +434,7 @@
   }
 
   function defaultState() {
-    return { q: "", sp: "", qb: "", genre: "", composer: "", label: "", decade: "", sort: "year", dir: "asc" };
+    return { q: "", sp: "", qb: "", genre: "", composer: "", label: "", decade: "", sort: "year", dir: "asc", view: "" };
   }
 
   function boot() {
@@ -474,6 +474,8 @@
       const sortBy = params.get("sort") || "year";
       next.sort = SORTS.includes(sortBy) ? sortBy : "year";
       next.dir = params.get("dir") === "desc" ? "desc" : "asc";
+      const view = params.get("view") || "";
+      next.view = view === "covers" || view === "captions" ? "captions" : view === "shelf" ? "shelf" : "";
       const statuses = ["", "found", "probable", "not_found", "pending", "unchecked"];
       if (!statuses.includes(next.sp)) next.sp = "";
       if (!statuses.includes(next.qb)) next.qb = "";
@@ -490,6 +492,7 @@
       if (state.decade) params.set("decade", state.decade);
       if (state.sort !== "year") params.set("sort", state.sort);
       if (state.dir === "desc") params.set("dir", "desc");
+      if (state.view) params.set("view", state.view);
       const s = params.toString();
       const same = s ? location.hash === "#" + s : !location.hash;
       if (same) return;
@@ -506,6 +509,9 @@
       if ([...composer.options].some(o => o.value === state.composer)) composer.value = state.composer;
       if ([...label.options].some(o => o.value === state.label)) label.value = state.label;
       if ([...decade.options].some(o => o.value === state.decade)) decade.value = state.decade;
+      document.querySelectorAll("[data-view]").forEach(button => {
+        button.setAttribute("aria-pressed", button.dataset.view === (state.view || "table") ? "true" : "false");
+      });
       reset.disabled = isDefault();
     }
     function readControls() {
@@ -733,6 +739,36 @@
       const sortClass = active ? (state.dir === "desc" ? "sort-desc" : "sort-asc") : "";
       return `<th scope="col" class="sortable ${className} ${sortClass}" aria-sort="${direction}"><button type="button" data-sort="${key}">${name} <span class="sort-arrow" aria-hidden="true"></span></button></th>`;
     }
+    function sleeveHtml(d) {
+      const full = safeUrl(d.cover_image || d.thumb);
+      const thumb = safeUrl(d.thumb || "");
+      if (!full) return `<div class="mono" aria-hidden="true">${esc(initials(d.title))}</div>`;
+      const thumbAttr = thumb && thumb !== full ? ` data-thumb="${esc(thumb)}"` : "";
+      return `<img src="${esc(full)}" alt="" loading="lazy" data-initials="${esc(initials(d.title))}"${thumbAttr}>`;
+    }
+    function marksHtml(it) {
+      return `<span class="marks"><span class="status ${esc(it.spotify.status)}">Spotify ${esc(statusText(it.spotify))}</span><span class="status ${esc(it.qobuz.status)}">Qobuz ${esc(statusText(it.qobuz))}</span></span>`;
+    }
+    function cardHtml(it) {
+      const d = it.discogs;
+      const href = esc(detailHash(it));
+      const title = esc(d.title);
+      const year = esc(d.year || "Undated");
+      const composer = esc(d.composers.join(" · ") || "—");
+      const sleeve = `<span class="sleeve">${sleeveHtml(d)}</span>`;
+      if (state.view === "shelf") {
+        return `<a class="cover-card" href="${href}">${sleeve}<span class="sleeve-copy"><span class="sleeve-title">${title}</span><span class="sleeve-meta">${year}</span></span></a>`;
+      }
+      return `<a class="cover-card" href="${href}">${sleeve}<span class="sleeve-title">${title}</span><span class="sleeve-meta">${composer}</span><span class="sleeve-meta">${year}</span>${marksHtml(it)}</a>`;
+    }
+    function sortBar() {
+      const labels = { title: "Album", year: "Year", composer: "Composer", performers: "Artists", spotify: "Spotify", qobuz: "Qobuz" };
+      return `<div class="grid-sort">${Object.keys(labels).map(key => {
+        const active = state.sort === key;
+        const sortClass = active ? (state.dir === "desc" ? "sort-desc" : "sort-asc") : "";
+        return `<button type="button" class="${sortClass}" data-sort="${key}">${labels[key]} <span class="sort-arrow" aria-hidden="true"></span></button>`;
+      }).join("")}</div>`;
+    }
     function renderShelf() {
       if (!ready) return;
       const rows = query(items, state);
@@ -742,6 +778,10 @@
       shelf.setAttribute("aria-busy", "false");
       if (!rows.length) {
         shelf.innerHTML = `<div class="empty"><p>${esc(emptyMessage())}</p><button type="button" data-clear>Clear filters</button></div>`;
+        return;
+      }
+      if (state.view) {
+        shelf.innerHTML = `${sortBar()}<div class="cover-grid is-${state.view}">${rows.map(cardHtml).join("")}</div>`;
         return;
       }
       shelf.innerHTML = `<div class="table-wrap"><table class="album-table"><colgroup><col style="width:48px"><col class="col-album" style="width:26%"><col class="col-year" style="width:75px"><col class="col-composer" style="width:18%"><col class="col-artists"><col class="col-status" style="width:145px"><col style="width:125px"></colgroup><thead><tr><th aria-label="Cover"></th>${headerHtml("Album", "title")}${headerHtml("Year", "year", "col-year")}${headerHtml("Composer", "composer")}${headerHtml("Artists", "performers", "col-artists")}${headerHtml("Spotify", "spotify")}${headerHtml("Qobuz", "qobuz")}</tr></thead><tbody>${rows.map(rowHtml).join("")}</tbody></table></div>`;
@@ -778,6 +818,13 @@
       fillFilters();
       syncControls();
     });
+    document.querySelector(".view-switch").addEventListener("click", e => {
+      const button = e.target.closest("[data-view]");
+      if (!button || button.dataset.view === (state.view || "table")) return;
+      state.view = button.dataset.view === "table" ? "" : button.dataset.view;
+      syncControls();
+      commit();
+    });
     shelf.addEventListener("click", e => {
       if (e.target.closest("[data-clear]")) clearFilters();
       const button = e.target.closest("button[data-sort]");
@@ -790,7 +837,9 @@
       shelf.querySelector(`button[data-sort="${key}"]`).focus({ preventScroll: true });
     });
     function clearFilters() {
+      const view = state.view;
       Object.assign(state, defaultState());
+      state.view = view;
       syncControls();
       commit();
     }

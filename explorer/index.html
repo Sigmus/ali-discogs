@@ -13,7 +13,7 @@ try {
   document.documentElement.setAttribute("data-theme", t);
 } catch (e) {}
 </script>
-<link rel="stylesheet" href="style.css?v=20261114-header-gap">
+<link rel="stylesheet" href="style.css?v=20261114-sort-label">
 
 </head>
 <body>
@@ -28,7 +28,7 @@ try {
 <label>Composer<select class="view-select" id="composer"><option value="">Any</option></select></label><label>Label<select class="view-select" id="label"><option value="">Any</option></select></label><label>Genre or style<select class="view-select" id="genre"><option value="">Any</option></select></label><label>Decade<select class="view-select" id="decade"><option value="">Any</option></select></label>
 <div class="filter-actions"><label class="frequency-toggle"><input id="frequency" type="checkbox" role="switch" checked><span>Most frequent first</span></label><button id="reset" type="button" disabled>Clear</button></div>
 </form>
-<p id="showing" class="quiet" aria-live="polite"></p>
+<div class="list-bar"><p id="showing" class="quiet" aria-live="polite"></p><div class="view-switch" role="group" aria-label="Layout"><button type="button" data-view="table" aria-pressed="true" aria-label="Table" title="Table"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 4.5h10M3 8h10M3 11.5h10"/></svg></button><button type="button" data-view="captions" aria-label="Captions" title="Captions"><svg viewBox="0 0 16 16" aria-hidden="true"><rect x="2.25" y="2.25" width="5.5" height="5.5" rx=".6"/><path d="M10 3.6h4M10 6.2h4M2.5 11h11M2.5 13.4h7"/></svg></button><button type="button" data-view="shelf" aria-label="Shelf" title="Shelf"><svg viewBox="0 0 16 16" aria-hidden="true"><rect x="2.25" y="2.25" width="4.5" height="4.5" rx=".6"/><rect x="9.25" y="2.25" width="4.5" height="4.5" rx=".6"/><rect x="2.25" y="9.25" width="4.5" height="4.5" rx=".6"/><rect x="9.25" y="9.25" width="4.5" height="4.5" rx=".6"/></svg></button></div></div>
 <div id="shelf" tabindex="-1" aria-busy="true">Loading albums…</div>
 </section>
 <section id="detail-view" hidden tabindex="-1"></section>
@@ -36,5 +36,5 @@ try {
 <footer><span id="foot"></span><a href="https://www.discogs.com/user/ajozi/collection">ajozi on Discogs</a><a id="sample-link" href="?data=fixture">Sample data</a></footer>
 </main>
 <noscript>This page needs JavaScript to load the collection.</noscript>
-<script src="app.js?v=20261114-no-lede"></script>
+<script src="app.js?v=20261114-line-switch"></script>
 </body></html>

@@ -1167,4 +1167,6 @@ details grow with the window. Both sides use the header’s 16px inset, so the
 left edge lines up with “Ali’s collection” and the right gap matches. The
 “Albums” heading and the release-count line under it are gone. The filtered
 count above the table remains. The space above the filters is the same 16px
-as the side inset.
+as the side inset. Shelf and Captions sit beside the table as a prototype.
+Covers was dropped. The layout switch uses the line icons, ordered table,
+captions, then the hover shelf. Long titles stay on the sleeve.
