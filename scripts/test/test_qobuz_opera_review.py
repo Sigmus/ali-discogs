@@ -6,7 +6,8 @@ import sys
 import unittest
 sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
 from qobuz_lead_review import ROOT, fingerprint, reviewed_candidate
-from qobuz_opera_review import assess_opera
+from qobuz_opera_review import assess_opera, assess_scene_sides
+from qobuz_snapshot import load_snapshot
 
 
 class OperaSourceRoleTests(unittest.TestCase):
@@ -86,3 +87,21 @@ class OperaSourceRoleTests(unittest.TestCase):
         result, _ = assess_opera(row, album, review)
         self.assertFalse(result['eligible'])
         self.assertTrue(any('Los Angeles' in item or item.startswith('missing-orchestra') or item.startswith('conflicting-ensemble') for item in result['blockers']))
+
+    def test_salome_scene_sides_keep_every_named_singer(self):
+        row = self.rows['7657012']
+        album = load_snapshot()['albums']['kkjll119bbov7']
+        review = self.review('7657012')
+        candidate = reviewed_candidate(row, album, review)
+        self.assertEqual((candidate['status'], candidate['confidence']), ('probable', .85))
+        self.assertEqual(len(candidate['programme'][0]['track_ids']), 26)
+        self.assertIn('part boundaries', ' '.join(candidate['reasons']))
+        self.assertIn('kkjll119bbov7', candidate['url'])
+        dropped = copy.deepcopy(review)
+        dropped['source_roles'] = [e for e in dropped['source_roles'] if e['name'] != 'Martin Vantin']
+        with self.assertRaises(ValueError):
+            assess_scene_sides(row, album, dropped)
+        silent = copy.deepcopy(review)
+        next(e for e in silent['source_roles'] if e['name'] == 'Heljä Angervo').pop('voice_conflict')
+        with self.assertRaises(ValueError):
+            assess_scene_sides(row, album, silent)

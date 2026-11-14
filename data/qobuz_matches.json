@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "matcher_version": "qobuz-work-groups-v2+explicit-target-credits+reviewed-leads+opera-source-roles+prelude-fugue-pairs+container-headings+bound-tracks+heading-over-groups+cached-half+side-ranges",
+  "matcher_version": "qobuz-work-groups-v2+explicit-target-credits+reviewed-leads+opera-source-roles+prelude-fugue-pairs+container-headings+bound-tracks+heading-over-groups+cached-half+side-ranges+scene-sides",
   "score_kind": "heuristic",
   "metadata_completed_at": "2026-11-13T00:15:30.593902+00:00",
   "search_manifest_fingerprint": "72bfbc0de0c0d8ee65c624b6ebe07db7be6ef0f10b6ba5fd4f468d54f812e802",
@@ -12,7 +12,7 @@
   "lead_review_fingerprint": "bc731b95eadb23cb1a13d735a4e7410615ae06f260b2c4a381ed4a29e229265e",
   "comparison_evidence_fingerprint": "c38df992ab44bbc892ffacafa19d74cc1495d7579d3d6da670653204dca25e57",
   "album_urls_fingerprint": "b05457f9eafe5269fc509777e23655a86f72d69dfe57d263654b24c07b07d768",
-  "opera_review_fingerprint": "11a52ad521b086b7c967327a0d01d0cee432d3cf8695754899a7f40aeb20839d",
+  "opera_review_fingerprint": "6e26d528eb7de78d372635218404a57534332ea1cd3d92e89e90e7a18066f85b",
   "pair_review_fingerprint": "7709aa57ef7815fda88766badd3064939bccb142bd0e97389a0f5f011c54cd84",
   "container_review_fingerprint": "aa8a8e530114e05869e1215561786073250faca3c9349b66059ea59ff3c535e0",
   "binding_review_fingerprint": "43de9aab048acbb5ab1541c6e6290ea561a480bf6848fa22bfe62a40e899c6b4",
@@ -89507,9 +89507,19 @@
       ]
     },
     "7657012": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "kkjll119bbov7",
+        "name": "Richard Strauss: Salome, Op. 54",
+        "artists": [
+          "Hildegard Behrens"
+        ],
+        "label": "Warner Classics",
+        "release_date": "2026-07-17",
+        "image": "https://static.qobuz.com/images/covers/v7/bo/kkjll119bbov7_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/richard-strauss-salome-op-54-hildegard-behrens-jose-van-dam-herbert-von-karajan-wiener-philharmoniker/kkjll119bbov7"
+      },
       "candidates": [
         {
           "id": "kkjll119bbov7",
@@ -89521,11 +89531,11 @@
           "release_date": "2026-07-17",
           "image": "https://static.qobuz.com/images/covers/v7/bo/kkjll119bbov7_230.jpg",
           "url": "https://www.qobuz.com/fr-fr/album/richard-strauss-salome-op-54-hildegard-behrens-jose-van-dam-herbert-von-karajan-wiener-philharmoniker/kkjll119bbov7",
-          "status": "unchecked",
-          "confidence": null,
-          "coverage": 0.2,
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
           "covered": 1,
-          "target_count": 5,
+          "target_count": 1,
           "required_performers": [
             "Herbert von Karajan",
             "Hildegard Behrens",
@@ -89546,257 +89556,64 @@
           "programme": [
             {
               "target": "Salome",
-              "work_tracks": 3,
-              "credited_tracks": 2,
+              "work_tracks": 26,
+              "credited_tracks": 26,
               "track_ids": [
+                435438090,
+                435438091,
+                435438092,
+                435438093,
+                435438094,
+                435438095,
+                435438096,
+                435438097,
+                435438098,
+                435438099,
+                435438100,
+                435438101,
+                435438102,
+                435438103,
+                435438104,
+                435438105,
+                435438106,
+                435438107,
+                435438108,
+                435438109,
+                435438110,
+                435438111,
                 435438112,
-                435438113
+                435438113,
+                435438114,
+                435438115
               ],
-              "required_performers": [
-                "Herbert von Karajan",
-                "Hildegard Behrens",
-                "Wiener Philharmoniker"
-              ],
-              "target_credit_scope": {
-                "source": "cached Discogs explicit work/position credits",
-                "positions": [],
-                "performers": []
-              },
-              "recording_group": {
-                "track_ids": [
-                  435438112,
-                  435438113
-                ],
-                "anchors": [
-                  "Wiener Philharmoniker",
-                  "Herbert von Karajan"
-                ],
-                "scope": "contiguous-work-group",
-                "credit_policy": "Anchors on every track; each named performer evidenced within this group; no unknown extra musical main artists."
-              }
-            },
-            {
-              "target": "Scenes 1 To 3 (Part 1)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": [],
-              "required_performers": [
-                "Herbert von Karajan",
-                "Hildegard Behrens",
-                "Wiener Philharmoniker",
-                "Heljä Angervo",
-                "José van Dam",
-                "Helge von Bömches",
-                "Kurt Rydl",
-                "Horst Nitsche",
-                "Wiesław Ochman"
-              ],
-              "target_credit_scope": {
-                "source": "cached Discogs explicit work/position credits",
-                "positions": [
-                  "A"
-                ],
-                "performers": [
-                  {
-                    "name": "Heljä Angervo",
-                    "role": "Alto Vocals [Page of Herodias]"
-                  },
-                  {
-                    "name": "José van Dam",
-                    "role": "Baritone Vocals [Jokanaan]"
-                  },
-                  {
-                    "name": "Helge von Bömches",
-                    "role": "Bass Vocals [A Cappadocian]"
-                  },
-                  {
-                    "name": "Kurt Rydl",
-                    "role": "Bass Vocals [Second Soldier]"
-                  },
-                  {
-                    "name": "Horst Nitsche",
-                    "role": "Tenor Vocals [A Slave]"
-                  },
-                  {
-                    "name": "Wiesław Ochman",
-                    "role": "Tenor Vocals [Narraboth]"
-                  }
-                ]
-              }
-            },
-            {
-              "target": "Scene 3 (Conclusion) & Scene 4 (Part 1)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": [],
-              "required_performers": [
-                "Herbert von Karajan",
-                "Hildegard Behrens",
-                "Wiener Philharmoniker",
-                "Erich Kunz",
-                "José van Dam",
-                "Jules Bastin",
-                "Gerd Nienstedt",
-                "Agnes Baltsa",
-                "Heinz Zednik",
-                "Gerhard Unger",
-                "Karl-Walter Böhm",
-                "Wiesław Ochman",
-                "David Knutson (2)",
-                "Dieter Ellenbeck",
-                "Martin Vantin"
-              ],
-              "target_credit_scope": {
-                "source": "cached Discogs explicit work/position credits",
-                "positions": [
-                  "B"
-                ],
-                "performers": [
-                  {
-                    "name": "Erich Kunz",
-                    "role": "Baritone Vocals [Fifth Jew]"
-                  },
-                  {
-                    "name": "José van Dam",
-                    "role": "Baritone Vocals [Jokanaan]"
-                  },
-                  {
-                    "name": "Jules Bastin",
-                    "role": "Bass Vocals [First Nazarene]"
-                  },
-                  {
-                    "name": "Gerd Nienstedt",
-                    "role": "Bass Vocals [First Soldier]"
-                  },
-                  {
-                    "name": "Agnes Baltsa",
-                    "role": "Mezzo-soprano Vocals [Herodias]"
-                  },
-                  {
-                    "name": "Heinz Zednik",
-                    "role": "Tenor Vocals [First Jew]"
-                  },
-                  {
-                    "name": "Gerhard Unger",
-                    "role": "Tenor Vocals [Fourth Jew]"
-                  },
-                  {
-                    "name": "Karl-Walter Böhm",
-                    "role": "Tenor Vocals [Herod]"
-                  },
-                  {
-                    "name": "Wiesław Ochman",
-                    "role": "Tenor Vocals [Narraboth]"
-                  },
-                  {
-                    "name": "David Knutson (2)",
-                    "role": "Tenor Vocals [Second Jew]"
-                  },
-                  {
-                    "name": "Dieter Ellenbeck",
-                    "role": "Tenor Vocals [Second Nazarene]"
-                  },
-                  {
-                    "name": "Martin Vantin",
-                    "role": "Tenor Vocals [Third Jew]"
-                  }
-                ]
-              }
-            },
-            {
-              "target": "Scene 4 (Part 2)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": [],
-              "required_performers": [
-                "Herbert von Karajan",
-                "Hildegard Behrens",
-                "Wiener Philharmoniker",
-                "Erich Kunz",
-                "José van Dam",
-                "Agnes Baltsa",
-                "Heinz Zednik",
-                "Gerhard Unger",
-                "Karl-Walter Böhm",
-                "David Knutson (2)",
-                "Martin Vantin"
-              ],
-              "target_credit_scope": {
-                "source": "cached Discogs explicit work/position credits",
-                "positions": [
-                  "C"
-                ],
-                "performers": [
-                  {
-                    "name": "Erich Kunz",
-                    "role": "Baritone Vocals [Fifth Jew]"
-                  },
-                  {
-                    "name": "José van Dam",
-                    "role": "Baritone Vocals [Jokanaan]"
-                  },
-                  {
-                    "name": "Agnes Baltsa",
-                    "role": "Mezzo-soprano Vocals [Herodias]"
-                  },
-                  {
-                    "name": "Heinz Zednik",
-                    "role": "Tenor Vocals [First Jew]"
-                  },
-                  {
-                    "name": "Gerhard Unger",
-                    "role": "Tenor Vocals [Fourth Jew]"
-                  },
-                  {
-                    "name": "Karl-Walter Böhm",
-                    "role": "Tenor Vocals [Herod]"
-                  },
-                  {
-                    "name": "David Knutson (2)",
-                    "role": "Tenor Vocals [Second Jew]"
-                  },
-                  {
-                    "name": "Martin Vantin",
-                    "role": "Tenor Vocals [Third Jew]"
-                  }
-                ]
-              }
-            },
-            {
-              "target": "Scene 4 (Conclusion)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": [],
-              "required_performers": [
-                "Herbert von Karajan",
-                "Hildegard Behrens",
-                "Wiener Philharmoniker",
-                "Agnes Baltsa",
-                "Karl-Walter Böhm"
-              ],
-              "target_credit_scope": {
-                "source": "cached Discogs explicit work/position credits",
-                "positions": [
-                  "D"
-                ],
-                "performers": [
-                  {
-                    "name": "Agnes Baltsa",
-                    "role": "Mezzo-soprano Vocals [Herodias]"
-                  },
-                  {
-                    "name": "Karl-Walter Böhm",
-                    "role": "Tenor Vocals [Herod]"
-                  }
-                ]
-              }
+              "scene_evidence": "scene-sides"
             }
           ],
           "reasons": [
-            "1/5 target items supported after composer/work grouping; unresolved.",
-            "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
+            "Reviewed scene sides, in order, with every named singer.",
+            "His Master's Voice SLS 5139 is Karajan’s 1978 Salome with the Wiener Philharmoniker. This file has scenes 1–4 in order, with Karajan and the orchestra on every track, and every named singer.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "The file does not mark the part boundaries inside a scene.",
+            "Heljä Angervo is contralto on the file and alto on the LP. José van Dam is bass-baritone on the file and baritone on the LP.",
+            "This 2026 file is not verified as His Master's Voice SLS 5139."
           ],
-          "work_group_policy": "qobuz-work-groups-v1"
+          "work_group_policy": "qobuz-work-groups-v1",
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Salome",
+                "status": "complete",
+                "scope": "reviewed-scene-sides",
+                "scene_evidence": "scene-sides"
+              }
+            ]
+          },
+          "recording_review": "His Master's Voice SLS 5139 is Karajan’s 1978 Salome with the Wiener Philharmoniker. This file has scenes 1–4 in order, with Karajan and the orchestra on every track, and every named singer.",
+          "review_sources": [
+            "https://www.qobuz.com/fr-fr/album/richard-strauss-salome-op-54-hildegard-behrens-jose-van-dam-herbert-von-karajan-wiener-philharmoniker/kkjll119bbov7"
+          ]
         },
         {
           "id": "g7i5007bkknrb",
@@ -90890,8 +90707,12 @@
       "query": "herbert von karajan strauss salome",
       "searched_at": "2026-11-12T16:20:23.008127+00:00",
       "reasons": [
-        "1/5 target items supported after composer/work grouping; unresolved.",
-        "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
+        "Reviewed scene sides, in order, with every named singer.",
+        "His Master's Voice SLS 5139 is Karajan’s 1978 Salome with the Wiener Philharmoniker. This file has scenes 1–4 in order, with Karajan and the orchestra on every track, and every named singer.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "The file does not mark the part boundaries inside a scene.",
+        "Heljä Angervo is contralto on the file and alto on the LP. José van Dam is bass-baritone on the file and baritone on the LP.",
+        "This 2026 file is not verified as His Master's Voice SLS 5139."
       ]
     },
     "9387170": {

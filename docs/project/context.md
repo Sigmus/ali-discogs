@@ -17,7 +17,7 @@ plans preserve dated evidence and prior handoffs.
 - Current collection:741 copies /740 unique releases. Spotify254Found /273Probable
   /210NotFound /4Unchecked copies. Retained labels are not independent full
   recording confirmations. Qobuz figures below are independent enrichment.
-- Qobuz overlay: 12 Found / 94 Probable / 635 unchecked copies; unique 12/94/634.
+- Qobuz overlay: 12 Found / 95 Probable / 634 unchecked copies; unique 12/95/633.
   Separate `data/qobuz_matches.json` survives Spotify rescoring; original pipeline
   Qobuz fields stay unchecked. Empty/inconclusive queries are not confirmed absence.
 - Sonoteque table/details, 80% main width, column sorting (Year ascending default),
@@ -82,19 +82,18 @@ plans preserve dated evidence and prior handoffs.
 
 ## Validation and next action
 
-- Probable 85 includes Trouard 8291074, fourteen Chopin waltzes in the CBS
-  51 003 order. Op. 70 No. 2 is F minor on the file and A-flat on the LP.
-  The 1961 file is not that CBS pressing. Brendel remains Probable 85.
+- Probable 85 includes Salome 7657012, scenes 1–4 with Karajan, the Wiener
+  Philharmoniker, and every named singer. The file does not mark the part
+  cuts. It is not His Master’s Voice SLS 5139. Trouard 8291074 remains.
 - Columbia FCX 30205 and FCX 30097 stay unpublished: their order is not the
   1961 file, and the 1953 and 1959 files use another order. Klien, Carnaval,
   François, the sonata cycle, the Karajan boxes, Berman, and Furtwängler’s
   Entracte III stay unpublished.
-- Inventory of the 634 still unchecked: 305 no saved hits, 12 metadata-needed,
-  309 work or credit gaps, 7 reviewed withholds, and the Barenboim caution.
+- Inventory of the 633 still unchecked: 305 no saved hits, 12 metadata-needed,
+  308 work or credit gaps, 7 reviewed withholds, and the Barenboim caution.
   Sellheim 7421796 stays an empty query, not confirmed absence.
-- Next stop: Salome 7657012. The file names Behrens and Karajan, but the
-  LP’s four scene-sides are not the act review. Munrow’s file has 61 tracks
-  against 79. The Four Seasons hits are compilations. Bitches Brew stays a
-  proposal. Pushed through c12ce9d. Live Pages result not confirmed.
+- Munrow’s file has 61 tracks against 79. The Four Seasons hits are
+  compilations. Bitches Brew stays a proposal. Pushed through c12ce9d.
+  Live Pages result not confirmed.
 - [Unmatched audit](../plans/2026-11-13-qobuz-unmatched-audit.md). [Bitches Brew credits](../plans/2026-11-13-bitches-brew-credits.md).
 - [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).

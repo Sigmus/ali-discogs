@@ -13,7 +13,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'src'))
 from ali_discogs.text import tnorm, norm, ORCH_ALIASES, is_composer
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = 'qobuz-work-groups-v2+explicit-target-credits+reviewed-leads+opera-source-roles+prelude-fugue-pairs+container-headings+bound-tracks+heading-over-groups+cached-half+side-ranges'
+VERSION = 'qobuz-work-groups-v2+explicit-target-credits+reviewed-leads+opera-source-roles+prelude-fugue-pairs+container-headings+bound-tracks+heading-over-groups+cached-half+side-ranges+scene-sides'
 
 
 def credits_v1(track):
@@ -305,7 +305,7 @@ def generate():
     if opera_reviews['schema_version'] != 1:
         raise ValueError('Unsupported opera review schema')
     for review in opera_reviews['releases']:
-        if review['review_kind'] != 'source-role-ensemble' or review['discogs_id'] in round2_reviews:
+        if review['review_kind'] not in {'source-role-ensemble', 'scene-sides'} or review['discogs_id'] in round2_reviews:
             raise ValueError('Invalid or duplicate opera review')
         round2_reviews[review['discogs_id']] = review
     pair_review_path = ROOT/'data/qobuz_prelude_fugue_reviews.json'

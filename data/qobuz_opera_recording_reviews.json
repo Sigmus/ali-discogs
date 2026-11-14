@@ -320,6 +320,166 @@
         3413584,
         3413585
       ]
+    },
+    {
+      "discogs_id": "7657012",
+      "album_id": "kkjll119bbov7",
+      "review_kind": "scene-sides",
+      "decision": "probable",
+      "target_sha256": "d089e36b978d24a1943a04429e2b2f9fea50532550dac32a041d38e80d3cedb5",
+      "album_sha256": "2822861c2ba1cab26f4f8f83103c038f80b2dcb94c850ae07b109c108c0fcd8f",
+      "source_sha256": "6440e1e1d979f03458b12ad45285a24beac2d2b26445fcafafbae39502136d1f",
+      "source_roles": [
+        {
+          "name": "Heljä Angervo",
+          "role": "Alto Vocals [Page of Herodias]",
+          "kind": "vocal",
+          "voice_conflict": [
+            [
+              "alto"
+            ],
+            [
+              "contralto"
+            ]
+          ]
+        },
+        {
+          "name": "Erich Kunz",
+          "role": "Baritone Vocals [Fifth Jew]",
+          "kind": "vocal"
+        },
+        {
+          "name": "José van Dam",
+          "role": "Baritone Vocals [Jokanaan]",
+          "kind": "vocal",
+          "voice_conflict": [
+            [
+              "baritone"
+            ],
+            [
+              "baritone",
+              "bass"
+            ]
+          ]
+        },
+        {
+          "name": "Helge von Bömches",
+          "role": "Bass Vocals [A Cappadocian]",
+          "kind": "vocal"
+        },
+        {
+          "name": "Jules Bastin",
+          "role": "Bass Vocals [First Nazarene]",
+          "kind": "vocal"
+        },
+        {
+          "name": "Gerd Nienstedt",
+          "role": "Bass Vocals [First Soldier]",
+          "kind": "vocal"
+        },
+        {
+          "name": "Kurt Rydl",
+          "role": "Bass Vocals [Second Soldier]",
+          "kind": "vocal"
+        },
+        {
+          "name": "Herbert von Karajan",
+          "role": "Conductor",
+          "kind": "conductor"
+        },
+        {
+          "name": "Agnes Baltsa",
+          "role": "Mezzo-soprano Vocals [Herodias]",
+          "kind": "vocal"
+        },
+        {
+          "name": "Wiener Philharmoniker",
+          "role": "Orchestra",
+          "kind": "orchestra"
+        },
+        {
+          "name": "Hildegard Behrens",
+          "role": "Soprano Vocals [Salome]",
+          "kind": "vocal"
+        },
+        {
+          "name": "Horst Nitsche",
+          "role": "Tenor Vocals [A Slave]",
+          "kind": "vocal"
+        },
+        {
+          "name": "Heinz Zednik",
+          "role": "Tenor Vocals [First Jew]",
+          "kind": "vocal"
+        },
+        {
+          "name": "Gerhard Unger",
+          "role": "Tenor Vocals [Fourth Jew]",
+          "kind": "vocal"
+        },
+        {
+          "name": "Karl-Walter Böhm",
+          "role": "Tenor Vocals [Herod]",
+          "kind": "vocal"
+        },
+        {
+          "name": "Wiesław Ochman",
+          "role": "Tenor Vocals [Narraboth]",
+          "kind": "vocal"
+        },
+        {
+          "name": "David Knutson (2)",
+          "role": "Tenor Vocals [Second Jew]",
+          "kind": "vocal"
+        },
+        {
+          "name": "Dieter Ellenbeck",
+          "role": "Tenor Vocals [Second Nazarene]",
+          "kind": "vocal"
+        },
+        {
+          "name": "Martin Vantin",
+          "role": "Tenor Vocals [Third Jew]",
+          "kind": "vocal"
+        }
+      ],
+      "expected_track_ids": [
+        435438090,
+        435438091,
+        435438092,
+        435438093,
+        435438094,
+        435438095,
+        435438096,
+        435438097,
+        435438098,
+        435438099,
+        435438100,
+        435438101,
+        435438102,
+        435438103,
+        435438104,
+        435438105,
+        435438106,
+        435438107,
+        435438108,
+        435438109,
+        435438110,
+        435438111,
+        435438112,
+        435438113,
+        435438114,
+        435438115
+      ],
+      "sources": [
+        "https://www.qobuz.com/fr-fr/album/richard-strauss-salome-op-54-hildegard-behrens-jose-van-dam-herbert-von-karajan-wiener-philharmoniker/kkjll119bbov7"
+      ],
+      "limitations": [
+        "The file does not mark the part boundaries inside a scene.",
+        "Heljä Angervo is contralto on the file and alto on the LP. José van Dam is bass-baritone on the file and baritone on the LP.",
+        "This 2026 file is not verified as His Master's Voice SLS 5139."
+      ],
+      "recording_review": "His Master's Voice SLS 5139 is Karajan’s 1978 Salome with the Wiener Philharmoniker. This file has scenes 1–4 in order, with Karajan and the orchestra on every track, and every named singer."
     }
   ]
 }

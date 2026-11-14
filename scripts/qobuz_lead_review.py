@@ -51,6 +51,9 @@ def assess(row, album, review):
     if review.get('review_kind') == 'source-role-ensemble':
         from qobuz_opera_review import assess_opera
         return assess_opera(row, album, review)
+    if review.get('review_kind') == 'scene-sides':
+        from qobuz_opera_review import assess_scene_sides
+        return assess_scene_sides(row, album, review)
     if review.get('review_kind') == 'prelude-fugue-pairs':
         from qobuz_pair_review import assess_pairs
         return assess_pairs(row, album, review)

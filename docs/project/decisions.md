@@ -368,3 +368,14 @@ printed. CBS 51 003 lists fourteen Chopin waltzes. Qobuz 3610154901657 has
 those fourteen in that order, with Raymond Trouard on every track. Op. 70 No. 2
 is F minor on the file and A-flat on this LP label. Cap at Probable 85. The
 1961 file is not verified as CBS 51 003.
+
+## 2026-11-14 — Scene sides may cover one opera when every scene is numbered
+
+Status: adopted for Salome 7657012.
+
+A release with one heading and sides that name scenes may match a file whose
+tracks are those scene numbers, in order, from 1 with no gap. A side that says
+“part” or “conclusion” does not become a track boundary the file does not mark.
+Every named singer stays required. A voice-type difference stays visible.
+Conductor and orchestra must be on every track. Cap at Probable 85. His
+Master’s Voice SLS 5139 is not verified as the 2026 file.

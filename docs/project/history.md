@@ -1063,3 +1063,16 @@ Behrens and Herbert von Karajan, in 26 scene tracks. The LP is four scene-sides,
 and the act review does not classify them. Munrow 6364992’s file has 61 tracks
 against 79. The Four Seasons hits for 17623039 are compilations, not the
 Schwalbé and Karajan concertos. No further publication.
+
+## 2026-11-14 — Karajan’s Salome published
+
+Scene sides may cover one opera when the file numbers those scenes in order
+from 1, with no gap. His Master’s Voice SLS 5139 has four scene-sides. The
+file has scenes 1–4, 26 tracks, with Karajan and the Wiener Philharmoniker on
+every track and every named singer. Probable 85 for 7657012. The file does not
+mark the part boundaries inside a scene. Angervo is contralto on the file and
+alto on the LP. Van Dam is bass-baritone on the file and baritone on the LP.
+The 2026 file is not that HMV set. Copies 12/95/634, unique 12/95/633.
+Inventory of the 633 still unchecked: 305 no saved hits, 12 metadata-needed,
+308 work or credit gaps, 7 reviewed withholds, and the Barenboim caution. Opera
+tests passed. The explorer shows 85% and the canonical album link.

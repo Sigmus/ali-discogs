@@ -64,14 +64,14 @@ Tannhäuser4365080 stays withheld.
 Barenboim9866861 stays unmatched to the later DG cycle.
 Wrong-orchestra Nevsky stays excluded. The stored triage file now includes
 the seven fetched albums, twenty later searches, and five album downloads:
-305 no saved hits, 12 metadata-needed, 309 work/credit unresolved, 7 reviewed
+305 no saved hits, 12 metadata-needed, 308 work/credit unresolved, 7 reviewed
 withholds, and Barenboim9866861 as the one completeness caution. The Hungarian
 Quartet 15980846 and Brendel 4395895 are Probable 85. Klien 12329947 stays
 unpublished because Brainin, Schidlof, and Lovett are not named on the file.
 A started pass commits each verified publication and continues; it does not
-search or download on its own. Trouard 8291074 is Probable 85. Columbia
-FCX 30205 and FCX 30097 stay unpublished because their waltz order is not a
-cached file.
+search or download on its own. Trouard 8291074 and Salome 7657012 are
+Probable 85. Columbia FCX 30205 and FCX 30097 stay unpublished because their
+waltz order is not a cached file.
 
 Status: user-authorized [round2](../plans/2026-11-13-qobuz-round2.md) complete:
 3new bounded Probables (Klemperer,Ancerl,deVito),40slow searches for20empty
