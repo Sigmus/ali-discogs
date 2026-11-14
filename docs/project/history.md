@@ -1521,3 +1521,18 @@ push/deployment. Next source-bound Schnabel side partition/key audit.
 
 Validation:142script tests pass after the older Klemperer missing-track test was
 updated to expect the new frozen adapter’s explicit ValueError rejection.
+
+
+### 2026-11-14 — Schnabel side partition and next source checks
+
+4352998 becomes Probable85 using existing bound-track review:26distinct tracks
+cover ten sonatas, Op.54 Beginning/Conclusion partitioned into I/II across C3/D1.
+No source title overwrite: Op.49No.1 G Major discrepancy explicitly contrasted
+with Henle G minor. Warner identifies saved digital barcode/2016shellac remaster.
+145script tests, UI normalization and build pass; only4352998status changed.
+Copies12Found/116Probable/613Unchecked. No API calls or push/deployment.
+
+Continued inspection:6265501has13listed pieces (Op.117/119/118) with cached
+correspondences.8836514source Op.116has only6children and an E-key conflict;
+1697514saved Paganini version1965 versus publisher1966 requires reconciliation.
+Do not silently invent missing source tracks or conflate alternate recordings.

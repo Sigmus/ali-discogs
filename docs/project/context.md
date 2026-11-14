@@ -12,7 +12,7 @@ explorer. [README](../../README.md) owns setup and architecture;
   table headers). Retrieval complete; first offline screen/audit complete. Deployment not verified.
 - Collection: 741 copies / 740 unique releases. Current saved labels: Spotify
   254 Found / 273 Probable / 210 Not found / 4 Unchecked; Qobuz
-  12 Found / 115 Probable / 614 Unchecked copies (14 November snapshot).
+  12 Found / 116 Probable / 613 Unchecked copies (14 November snapshot).
 - Spotify’s legacy album-level labels and stricter Qobuz evidence levels are
   not comparable accuracy or catalogue-coverage measurements. Both status and
   score are saved data. Qobuz 95/85 are heuristic levels, not probabilities.
@@ -67,10 +67,10 @@ explorer. [README](../../README.md) owns setup and architecture;
 ## Offline follow-up checkpoint
 
 - Screened2,227pairs:14complete programme/credit leads,
-  345cached unresolved pairs,1,868pairs missing full metadata. Seventeen new
+  345cached unresolved pairs,1,868pairs missing full metadata. Eighteen new
   Probable releases now published locally after bounded reviews.
 - Michelangeli sonata3285095/Concerto1 3672809 and Gilels7914875 completed.
-  Nine Beethoven plus Chopin Op.11 inventory additions;142script tests pass.
+  Nine Beethoven plus Chopin Op.11 inventory additions;145script tests pass.
 - [Offline plan](../plans/2026-11-14-qobuz-offline-followup.md) owns findings and
   exact next steps. Two network-forbidden/fail-closed regression tests pass.
 
@@ -91,10 +91,11 @@ new-hit downloads, automatic promotions, pushes or deployment. Bitches Brew’s
 credit exception remains a proposal. Preserve source/hash-bound review safeguards;
 never loosen credits or invent recording identity to improve a count.
 
-Next action: audit Schnabel4352998’s Op.54 side split and source key discrepancy.
-Klemperer6113868/6119375 now Probable via hash-bound split-finale review;
-all five finale sections and positive sung credits retained. No album borrowing.
-Nabucco publisher evidence saved, but highlights track credits remain insufficient;
-Mozart named-player/catalogue gaps also remain. Current613unchecked unique.
-142script tests/UI normalization/build pass. No Qobuz calls or push/deployment.
+Next action: review Katchen6265501’s13listed pieces using cached source.
+Schnabel4352998 now Probable: Op.54 partitioned by side, no reused movement;
+source Op.49No.1 G-major discrepancy disclosed against Henle G minor.
+Katchen8836514 source lists only6Op.116pieces and has key/text conflicts;
+1697514 saved Paganini says1965 versus publisher1966: audit before promotion.
+Current612unchecked unique.145script tests/UI normalization/build pass.
+No Qobuz calls, push or deployment. Nabucco/Mozart credit gaps remain.
 [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).

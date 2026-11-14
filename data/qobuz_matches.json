@@ -29,7 +29,7 @@
   "richter_review_fingerprint": "a14865f86e46150593e39bfa285fa6c7c61c8f46147b8094c0cb048fd02118ab",
   "round2_review_fingerprint": "be60742c3d35f5a9aa67f200642f7fcde98a52562a46130e043db8f4aa7c851e",
   "round2_metadata_fingerprint": "9db62d7bf62d4b77f5acf422dfde77959f845f4dc00b2ac0e10c02ccea295860",
-  "remaining_review_fingerprint": "8e34d818b85f87a1dd8174c6b50bb73a76f1870594ca239119756950cb4f2dd4",
+  "remaining_review_fingerprint": "fadbaf50718e22304b359943e98c9da90498607a0223dc1929b887fda08d3972",
   "remaining_metadata_fingerprint": "393b2d12e176160ab311b65267b38bdc8c205222e12f792bf07eba5c1fcfafbf",
   "remaining_followup_metadata_fingerprint": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
   "remaining_followup_scope_fingerprint": "41780b365b45dcd74f5ffd053bfe546c3c873eae535dd66250297799f48c2daa",
@@ -130679,14 +130679,278 @@
       ]
     },
     "4352998": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0190295866983",
+        "name": "Beethoven: Complete Piano Sonatas (2016 Remaster)",
+        "artists": [
+          "Artur Schnabel"
+        ],
+        "label": "Warner Classics",
+        "release_date": "2016-08-26",
+        "image": "https://static.qobuz.com/images/covers/83/69/0190295866983_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/beethoven-complete-piano-sonatas-2016-remaster-artur-schnabel/0190295866983"
+      },
+      "candidates": [
+        {
+          "id": "0190295866983",
+          "name": "Beethoven: Complete Piano Sonatas (2016 Remaster)",
+          "artists": [
+            "Artur Schnabel"
+          ],
+          "label": "Warner Classics",
+          "release_date": "2016-08-26",
+          "image": "https://static.qobuz.com/images/covers/83/69/0190295866983_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/beethoven-complete-piano-sonatas-2016-remaster-artur-schnabel/0190295866983",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 11,
+          "target_count": 11,
+          "required_performers": [
+            "Artur Schnabel"
+          ],
+          "programme": [
+            {
+              "target": "Piano Sonata No. 18 In E-Flat, Op. 31 No. 3",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                36924092,
+                36924093,
+                36924094,
+                36924095
+              ]
+            },
+            {
+              "target": "Piano Sonata No. 19 In G Major, Op. 49 No. 1",
+              "work_tracks": 2,
+              "credited_tracks": 2,
+              "track_ids": [
+                36924096,
+                36924097
+              ]
+            },
+            {
+              "target": "Sonata No. 20 In G, Op. 49 No. 2",
+              "work_tracks": 2,
+              "credited_tracks": 2,
+              "track_ids": [
+                36924108,
+                36924109
+              ]
+            },
+            {
+              "target": "Sonata No. 21 In C, Op. 53 (\"Waldstein\")",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                36924110,
+                36924111,
+                36924112
+              ]
+            },
+            {
+              "target": "Sonata No. 22 In F, Op. 54 (Beginning)",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                36924113
+              ]
+            },
+            {
+              "target": "Sonata  No. 22 In F, Op. 54 (Conclusion)",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                36924114
+              ]
+            },
+            {
+              "target": "Sonata No. 23 In F Minor, Op 57 (\"Appassionata\")",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                36924115,
+                36924116,
+                36924117
+              ]
+            },
+            {
+              "target": "Sonata No 24 In F Sharp, Op. 78",
+              "work_tracks": 2,
+              "credited_tracks": 2,
+              "track_ids": [
+                36924118,
+                36924119
+              ]
+            },
+            {
+              "target": "Sonata No. 25 In G, Op. 79",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                36924120,
+                36924121,
+                36924122
+              ]
+            },
+            {
+              "target": "Sonata No. 26 In E Flat, Op. 81a",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                36924123,
+                36924124,
+                36924125
+              ]
+            },
+            {
+              "target": "Sonata No. 27 In E Minor, Op. 90",
+              "work_tracks": 2,
+              "credited_tracks": 2,
+              "track_ids": [
+                36924133,
+                36924134
+              ]
+            }
+          ],
+          "reasons": [
+            "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+            "Warner documents Schnabel’s historical complete Beethoven sonata cycle and its2016shellac remaster. Saved Warner tracks cover all source sonatas18–27 with Schnabel credits. Source Op.54 Beginning and Conclusion are separately bound to movementsI andII across the side break, without reusing tracks. Henle identifies Op.49No.1 as G minor; its source G Major label is retained as a discrepancy, not a different Op.49No.2 performance.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Source calls Sonata19 Op.49No.1 G Major; Henle and saved file identify G minor. Original source text remains unchanged and the discrepancy is explicit.",
+            "Op.54 Beginning/Conclusion are partial source units; together they cover the two-movement sonata, not two complete sonatas.",
+            "Exact LP transfer, takes and mastering are unverified. Published cycle date ranges differ; no precise session dates are inferred."
+          ],
+          "work_group_policy": "qobuz-work-groups-v1",
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Piano Sonata No. 18 In E-Flat, Op. 31 No. 3",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  36924092,
+                  36924093,
+                  36924094,
+                  36924095
+                ]
+              },
+              {
+                "target": "Piano Sonata No. 19 In G Major, Op. 49 No. 1",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  36924096,
+                  36924097
+                ]
+              },
+              {
+                "target": "Sonata No. 20 In G, Op. 49 No. 2",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  36924108,
+                  36924109
+                ]
+              },
+              {
+                "target": "Sonata No. 21 In C, Op. 53 (\"Waldstein\")",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  36924110,
+                  36924111,
+                  36924112
+                ]
+              },
+              {
+                "target": "Sonata No. 22 In F, Op. 54 (Beginning)",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  36924113
+                ]
+              },
+              {
+                "target": "Sonata  No. 22 In F, Op. 54 (Conclusion)",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  36924114
+                ]
+              },
+              {
+                "target": "Sonata No. 23 In F Minor, Op 57 (\"Appassionata\")",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  36924115,
+                  36924116,
+                  36924117
+                ]
+              },
+              {
+                "target": "Sonata No 24 In F Sharp, Op. 78",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  36924118,
+                  36924119
+                ]
+              },
+              {
+                "target": "Sonata No. 25 In G, Op. 79",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  36924120,
+                  36924121,
+                  36924122
+                ]
+              },
+              {
+                "target": "Sonata No. 26 In E Flat, Op. 81a",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  36924123,
+                  36924124,
+                  36924125
+                ]
+              },
+              {
+                "target": "Sonata No. 27 In E Minor, Op. 90",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  36924133,
+                  36924134
+                ]
+              }
+            ]
+          },
+          "recording_review": "Warner documents Schnabel’s historical complete Beethoven sonata cycle and its2016shellac remaster. Saved Warner tracks cover all source sonatas18–27 with Schnabel credits. Source Op.54 Beginning and Conclusion are separately bound to movementsI andII across the side break, without reusing tracks. Henle identifies Op.49No.1 as G minor; its source G Major label is retained as a discrepancy, not a different Op.49No.2 performance.",
+          "review_sources": [
+            "https://www.warnerclassics.com/de/release/beethoven-complete-piano-sonatas-3",
+            "https://www.henle.de/Two-Easy-Piano-Sonatas-no.-19-and-no.-20-g-minor-and-G-major-op.-49-no.-1-and-no.-2/HN-1327",
+            "https://www.discogs.com/release/4352998"
+          ]
+        }
+      ],
       "query": "artur schnabel beethoven the complete beethoven society recordings 1932 37 vol 3 sonatas",
       "searched_at": "2026-11-12T17:37:29.002371+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+        "Warner documents Schnabel’s historical complete Beethoven sonata cycle and its2016shellac remaster. Saved Warner tracks cover all source sonatas18–27 with Schnabel credits. Source Op.54 Beginning and Conclusion are separately bound to movementsI andII across the side break, without reusing tracks. Henle identifies Op.49No.1 as G minor; its source G Major label is retained as a discrepancy, not a different Op.49No.2 performance.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Source calls Sonata19 Op.49No.1 G Major; Henle and saved file identify G minor. Original source text remains unchanged and the discrepancy is explicit.",
+        "Op.54 Beginning/Conclusion are partial source units; together they cover the two-movement sonata, not two complete sonatas.",
+        "Exact LP transfer, takes and mastering are unverified. Published cycle date ranges differ; no precise session dates are inferred."
       ]
     },
     "2966855": {

@@ -297,3 +297,21 @@ retained. Recording-family Probable85 only; exact LP pressing/takes/mastering no
 claimed. Four regressions reject missing/reordered/repeated finale sections,
 missing named voice/chorus or wrong conductor/orchestra, stale source and hidden
 voice discrepancy. No Qobuz requests or automatic push/deployment.
+
+
+## Schnabel source-side partition
+
+Continued after Klemperer commit to4352998, the three-LP sonatas18–27volume.
+Existing bound-track review suffices: exact exclusions partition duplicate Op.54
+Beginning/Conclusion matches into movementI on C3 andII on D1; neither track is
+reused. All26digital movements across ten sonatas remain accounted for, including
+source bands joining Waldstein/Les Adieux movements. Numbered movement-run checks
+retain each ordered inventory; pianist remains required on every selected track.
+
+Warner identifies the exact saved digital barcode190295866983 and2016shellac
+remaster. Henle independently identifies Op.49No.1 as G minor; source G Major
+text remains unchanged, explicitly disclosed. This is a reviewed source-label
+conflict, not a global key equivalence or interchange with Op.49No.2. Cycle date
+ranges differ across references; no precise session date is inferred. Probable85
+recording family, no exact LP transfer/take/mastering claim. Three regressions
+cover side disjointness, missing conclusion, wrong pianist and movement order.

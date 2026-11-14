@@ -1843,6 +1843,358 @@
         "Finale last section incorrectly labels Hans Hotter Contralto; an earlier section credits the same artist Bass. Discrepancy retained, not silently corrected.",
         "Source prints König Stephan14:42; saved track8:09. Title/opus identity supports the lead, but duration discrepancy remains unresolved."
       ]
+    },
+    {
+      "discogs_id": "4352998",
+      "album_id": "0190295866983",
+      "review_kind": "bound-tracks",
+      "decision": "probable",
+      "target_sha256": "ec73dcb37a0ca384a888f6e98143597fa2140dd7fb5d68a194a1bf8803987429",
+      "album_sha256": "97f88cb739a80256c19fc8a521ded2d3e8c779121df51be71cbf927d7d74335c",
+      "source_sha256": "e7e1d19d4763a8a0733e90b215ff7dd98b2f4a3b4fd38847a8b333989fb15f60",
+      "pulls": [],
+      "adds": [],
+      "exclusions": [
+        {
+          "target": "Sonata No. 22 In F, Op. 54 (Beginning)",
+          "track_id": 36924114,
+          "title_contains": "Piano Sonata No. 22 in F Major, Op. 54: II. Allegretto - Più allegro"
+        },
+        {
+          "target": "Sonata  No. 22 In F, Op. 54 (Conclusion)",
+          "track_id": 36924113,
+          "title_contains": "Piano Sonata No. 22 in F Major, Op. 54: I. In tempo d'un menuetto"
+        }
+      ],
+      "expected": {
+        "Piano Sonata No. 18 In E-Flat, Op. 31 No. 3": [
+          36924092,
+          36924093,
+          36924094,
+          36924095
+        ],
+        "Piano Sonata No. 19 In G Major, Op. 49 No. 1": [
+          36924096,
+          36924097
+        ],
+        "Sonata No. 20 In G, Op. 49 No. 2": [
+          36924108,
+          36924109
+        ],
+        "Sonata No. 21 In C, Op. 53 (\"Waldstein\")": [
+          36924110,
+          36924111,
+          36924112
+        ],
+        "Sonata No. 22 In F, Op. 54 (Beginning)": [
+          36924113
+        ],
+        "Sonata  No. 22 In F, Op. 54 (Conclusion)": [
+          36924114
+        ],
+        "Sonata No. 23 In F Minor, Op 57 (\"Appassionata\")": [
+          36924115,
+          36924116,
+          36924117
+        ],
+        "Sonata No 24 In F Sharp, Op. 78": [
+          36924118,
+          36924119
+        ],
+        "Sonata No. 25 In G, Op. 79": [
+          36924120,
+          36924121,
+          36924122
+        ],
+        "Sonata No. 26 In E Flat, Op. 81a": [
+          36924123,
+          36924124,
+          36924125
+        ],
+        "Sonata No. 27 In E Minor, Op. 90": [
+          36924133,
+          36924134
+        ]
+      },
+      "extra_track_ids": [
+        36924043,
+        36924044,
+        36924045,
+        36924046,
+        36924047,
+        36924048,
+        36924049,
+        36924050,
+        36924051,
+        36924052,
+        36924053,
+        36924054,
+        36924055,
+        36924056,
+        36924057,
+        36924058,
+        36924059,
+        36924060,
+        36924061,
+        36924062,
+        36924063,
+        36924064,
+        36924065,
+        36924066,
+        36924067,
+        36924068,
+        36924069,
+        36924070,
+        36924071,
+        36924072,
+        36924073,
+        36924074,
+        36924075,
+        36924076,
+        36924077,
+        36924078,
+        36924079,
+        36924080,
+        36924081,
+        36924082,
+        36924083,
+        36924084,
+        36924085,
+        36924086,
+        36924087,
+        36924088,
+        36924089,
+        36924090,
+        36924091,
+        36924098,
+        36924099,
+        36924100,
+        36924101,
+        36924102,
+        36924103,
+        36924104,
+        36924105,
+        36924106,
+        36924107,
+        36924126,
+        36924127,
+        36924128,
+        36924129,
+        36924130,
+        36924131,
+        36924132,
+        36924135,
+        36924136,
+        36924137,
+        36924138,
+        36924139,
+        36924140,
+        36924141,
+        36924142
+      ],
+      "required_performers": [
+        "Artur Schnabel"
+      ],
+      "numbered_movement_runs": [
+        {
+          "target": "Piano Sonata No. 18 In E-Flat, Op. 31 No. 3",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "target": "Piano Sonata No. 19 In G Major, Op. 49 No. 1",
+          "movements": [
+            1,
+            2
+          ]
+        },
+        {
+          "target": "Sonata No. 20 In G, Op. 49 No. 2",
+          "movements": [
+            1,
+            2
+          ]
+        },
+        {
+          "target": "Sonata No. 21 In C, Op. 53 (\"Waldstein\")",
+          "movements": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "target": "Sonata No. 22 In F, Op. 54 (Beginning)",
+          "movements": [
+            1
+          ]
+        },
+        {
+          "target": "Sonata  No. 22 In F, Op. 54 (Conclusion)",
+          "movements": [
+            2
+          ]
+        },
+        {
+          "target": "Sonata No. 23 In F Minor, Op 57 (\"Appassionata\")",
+          "movements": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "target": "Sonata No 24 In F Sharp, Op. 78",
+          "movements": [
+            1,
+            2
+          ]
+        },
+        {
+          "target": "Sonata No. 25 In G, Op. 79",
+          "movements": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "target": "Sonata No. 26 In E Flat, Op. 81a",
+          "movements": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "target": "Sonata No. 27 In E Minor, Op. 90",
+          "movements": [
+            1,
+            2
+          ]
+        }
+      ],
+      "marks": [
+        {
+          "track_id": 36924092,
+          "text": "Piano Sonata No. 18 in E-Flat Major, Op. 31 No. 3 \"The Hunt\": I. Allegro"
+        },
+        {
+          "track_id": 36924093,
+          "text": "Piano Sonata No. 18 in E-Flat Major, Op. 31 No. 3 \"The Hunt\": II. Scherzo. Allegretto vivace"
+        },
+        {
+          "track_id": 36924094,
+          "text": "Piano Sonata No. 18 in E-Flat Major, Op. 31 No. 3 \"The Hunt\": III. Menuetto. Moderato e grazioso"
+        },
+        {
+          "track_id": 36924095,
+          "text": "Piano Sonata No. 18 in E-Flat Major, Op. 31 No. 3 \"The Hunt\": IV. Presto con fuoco"
+        },
+        {
+          "track_id": 36924096,
+          "text": "Piano Sonata No. 19 in G Minor, Op. 49 No. 1 \"Easy Sonata\": I. Andante"
+        },
+        {
+          "track_id": 36924097,
+          "text": "Piano Sonata No. 19 in G Minor, Op. 49 No. 1 \"Easy Sonata\": II. Rondo. Allegro"
+        },
+        {
+          "track_id": 36924108,
+          "text": "Piano Sonata No. 20 in G Major, Op. 49 No. 2 \"Easy Sonata\": I. Allegro, ma non troppo"
+        },
+        {
+          "track_id": 36924109,
+          "text": "Piano Sonata No. 20 in G Major, Op. 49 No. 2 \"Easy Sonata\": II. Tempo di menuetto"
+        },
+        {
+          "track_id": 36924110,
+          "text": "Piano Sonata No. 21 in C Major, Op. 53 \"Waldstein\": I. Allegro con brio"
+        },
+        {
+          "track_id": 36924111,
+          "text": "Piano Sonata No. 21 in C Major, Op. 53 \"Waldstein\": II. Introduzione. Adagio molto"
+        },
+        {
+          "track_id": 36924112,
+          "text": "Piano Sonata No. 21 in C Major, Op. 53 \"Waldstein\": III. Rondo. Allegro moderato - Prestissimo"
+        },
+        {
+          "track_id": 36924113,
+          "text": "Piano Sonata No. 22 in F Major, Op. 54: I. In tempo d'un menuetto"
+        },
+        {
+          "track_id": 36924114,
+          "text": "Piano Sonata No. 22 in F Major, Op. 54: II. Allegretto - Più allegro"
+        },
+        {
+          "track_id": 36924115,
+          "text": "Piano Sonata No. 23 in F Minor, Op. 57 \"Appassionata\": I. Allegro assai"
+        },
+        {
+          "track_id": 36924116,
+          "text": "Piano Sonata No. 23 in F Minor, Op. 57 \"Appassionata\": II. Andante con moto"
+        },
+        {
+          "track_id": 36924117,
+          "text": "Piano Sonata No. 23 in F Minor, Op. 57 \"Appassionata\": III. Allegro ma non troppo - Presto"
+        },
+        {
+          "track_id": 36924118,
+          "text": "Piano Sonata No. 24 in F-Sharp Major, Op. 78 \"À Thérèse\": I. Adagio cantabile - Allegro, ma non troppo"
+        },
+        {
+          "track_id": 36924119,
+          "text": "Piano Sonata No. 24 in F-Sharp Major, Op. 78 \"À Thérèse\": II. Allegro vivace"
+        },
+        {
+          "track_id": 36924120,
+          "text": "Piano Sonata No. 25 in G Major, Op. 79: I. Presto alla tedesca"
+        },
+        {
+          "track_id": 36924121,
+          "text": "Piano Sonata No. 25 in G Major, Op. 79: II. Andante"
+        },
+        {
+          "track_id": 36924122,
+          "text": "Piano Sonata No. 25 in G Major, Op. 79: III. Vivace"
+        },
+        {
+          "track_id": 36924123,
+          "text": "Piano Sonata No. 26 in E-Flat Major, Op. 81a \"Les Adieux\": I. Das Lebewohl. Adagio - Allegro"
+        },
+        {
+          "track_id": 36924124,
+          "text": "Piano Sonata No. 26 in E-Flat Major, Op. 81a \"Les Adieux\": II. Abwesenheit. Andante espressivo"
+        },
+        {
+          "track_id": 36924125,
+          "text": "Piano Sonata No. 26 in E-Flat Major, Op. 81a \"Les Adieux\": III. Das Wiedersehen. Vivacissimamente"
+        },
+        {
+          "track_id": 36924133,
+          "text": "Piano Sonata No. 27 in E Minor, Op. 90: I. Mit Lebhaftigkeit und durchaus mit Empfindung und Ausdruck"
+        },
+        {
+          "track_id": 36924134,
+          "text": "Piano Sonata No. 27 in E Minor, Op. 90: II. Nicht zu geschwind und sehr singbar vorzutragen"
+        }
+      ],
+      "sources": [
+        "https://www.warnerclassics.com/de/release/beethoven-complete-piano-sonatas-3",
+        "https://www.henle.de/Two-Easy-Piano-Sonatas-no.-19-and-no.-20-g-minor-and-G-major-op.-49-no.-1-and-no.-2/HN-1327",
+        "https://www.discogs.com/release/4352998"
+      ],
+      "recording_review": "Warner documents Schnabel’s historical complete Beethoven sonata cycle and its2016shellac remaster. Saved Warner tracks cover all source sonatas18–27 with Schnabel credits. Source Op.54 Beginning and Conclusion are separately bound to movementsI andII across the side break, without reusing tracks. Henle identifies Op.49No.1 as G minor; its source G Major label is retained as a discrepancy, not a different Op.49No.2 performance.",
+      "limitations": [
+        "Source calls Sonata19 Op.49No.1 G Major; Henle and saved file identify G minor. Original source text remains unchanged and the discrepancy is explicit.",
+        "Op.54 Beginning/Conclusion are partial source units; together they cover the two-movement sonata, not two complete sonatas.",
+        "Exact LP transfer, takes and mastering are unverified. Published cycle date ranges differ; no precise session dates are inferred."
+      ]
     }
   ]
 }
