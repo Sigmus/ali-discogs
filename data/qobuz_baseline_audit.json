@@ -3087,7 +3087,7 @@
       "recomputed_v1_status": "probable",
       "original_rules_reproduced": true,
       "one_to_one_catalogue_correspondence": false,
-      "audit_status": "unresolved",
+      "audit_status": "supported",
       "diagnostic_flags": [],
       "programme": [
         {
@@ -3125,12 +3125,30 @@
         }
       ],
       "completeness": {
-        "status": "unknown",
+        "status": "complete",
         "works": [
           {
             "target": "Concerto In D, Op. 77",
-            "status": "unknown",
-            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+            "status": "complete",
+            "expected_movements": [
+              1,
+              2,
+              3
+            ],
+            "observed_movements": [
+              1,
+              2,
+              3
+            ],
+            "missing_movements": [],
+            "track_ids": [
+              230884877,
+              230884878,
+              230884879
+            ],
+            "source": "https://www.laphil.com/works/violin-concerto-in-d-major-op-77",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
           }
         ],
         "overlapping_target_tracks": false
@@ -6705,23 +6723,92 @@
           },
           {
             "target": "Sonata No.18 E Flat Major, Op. 31 No. 3",
-            "status": "unknown",
-            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+            "status": "complete",
+            "expected_movements": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "observed_movements": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "missing_movements": [],
+            "track_ids": [
+              589398,
+              589406,
+              589414,
+              589422
+            ],
+            "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
           },
           {
             "target": "Sonata No. 19 G Minor, Op. 49 No. 1",
-            "status": "unknown",
-            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+            "status": "complete",
+            "expected_movements": [
+              1,
+              2
+            ],
+            "observed_movements": [
+              1,
+              2
+            ],
+            "missing_movements": [],
+            "track_ids": [
+              589430,
+              589438
+            ],
+            "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
           },
           {
             "target": "Sonata No. 20 In G Major, Op. 49 No. 2",
-            "status": "unknown",
-            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+            "status": "complete",
+            "expected_movements": [
+              1,
+              2
+            ],
+            "observed_movements": [
+              1,
+              2
+            ],
+            "missing_movements": [],
+            "track_ids": [
+              589446,
+              589452
+            ],
+            "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
           },
           {
             "target": "Sonata No. 21 In C Major, Op. 53 “Waldstein”",
-            "status": "unknown",
-            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+            "status": "complete",
+            "expected_movements": [
+              1,
+              2,
+              3
+            ],
+            "observed_movements": [
+              1,
+              2,
+              3
+            ],
+            "missing_movements": [],
+            "track_ids": [
+              589458,
+              589464,
+              589470
+            ],
+            "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
           },
           {
             "target": "Sonata No. 23 In F Minor, Op. 57 “Appassionata”",
@@ -6753,23 +6840,89 @@
           },
           {
             "target": "Sonata No. 24 In F Sharp Major, Op. 78",
-            "status": "unknown",
-            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+            "status": "complete",
+            "expected_movements": [
+              1,
+              2
+            ],
+            "observed_movements": [
+              1,
+              2
+            ],
+            "missing_movements": [],
+            "track_ids": [
+              589415,
+              589423
+            ],
+            "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
           },
           {
             "target": "Sonata No. 25 In G Major, Op. 79",
-            "status": "unknown",
-            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+            "status": "complete",
+            "expected_movements": [
+              1,
+              2,
+              3
+            ],
+            "observed_movements": [
+              1,
+              2,
+              3
+            ],
+            "missing_movements": [],
+            "track_ids": [
+              589431,
+              589439,
+              589447
+            ],
+            "source": "https://www.henle.de/Piano-Sonata-no.-25-Sonatina-G-major-op.-79/HN-1313",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
           },
           {
             "target": "Sonata No. 26 In E Flat, Op. 81a “Les Adieux”",
-            "status": "unknown",
-            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+            "status": "complete",
+            "expected_movements": [
+              1,
+              2,
+              3
+            ],
+            "observed_movements": [
+              1,
+              2,
+              3
+            ],
+            "missing_movements": [],
+            "track_ids": [
+              589453,
+              589459,
+              589465
+            ],
+            "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
           },
           {
             "target": "Sonata No. 27 In E Minor, Op. 90",
-            "status": "unknown",
-            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+            "status": "complete",
+            "expected_movements": [
+              1,
+              2
+            ],
+            "observed_movements": [
+              1,
+              2
+            ],
+            "missing_movements": [],
+            "track_ids": [
+              589376,
+              589384
+            ],
+            "source": "https://www.henle.de/media/b8/28/dc/1697725801/1124-1697725801-sync.pdf",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
           },
           {
             "target": "Sonata No. 28 In A Major, Op. 101",
@@ -7000,8 +7153,26 @@
         "works": [
           {
             "target": "Piano Concerto No. 1 In C Major. Op. 15",
-            "status": "unknown",
-            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+            "status": "complete",
+            "expected_movements": [
+              1,
+              2,
+              3
+            ],
+            "observed_movements": [
+              1,
+              2,
+              3
+            ],
+            "missing_movements": [],
+            "track_ids": [
+              229052691,
+              229052692,
+              229052693
+            ],
+            "source": "https://qso.com.au/uploads/QS02023-SlideshowSlides-Beethoven-Elgar-V2-1-.pdf",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
           },
           {
             "target": "Piano Concerto No. 2 In B Flat Major. Op. 19",
@@ -10226,8 +10397,29 @@
           },
           {
             "target": "Klaviersonate Nr. 18 Es-Dur Op. 31 Nr. 3",
-            "status": "unknown",
-            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+            "status": "complete",
+            "expected_movements": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "observed_movements": [
+              1,
+              2,
+              3,
+              4
+            ],
+            "missing_movements": [],
+            "track_ids": [
+              560545,
+              560546,
+              560547,
+              560548
+            ],
+            "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
           }
         ],
         "overlapping_target_tracks": false
@@ -10333,14 +10525,14 @@
     },
     "completeness": {
       "incomplete": 1,
-      "unknown": 58,
-      "complete": 7
+      "unknown": 57,
+      "complete": 8
     },
     "one_to_one_catalogue_correspondences": 12,
     "audit_statuses": {
       "insufficient_track_credit_evidence": 1,
-      "unresolved": 58,
-      "supported": 7
+      "unresolved": 57,
+      "supported": 8
     },
     "diagnostic_flags": {
       "title_matches_without_full_credits": 8,
@@ -10352,8 +10544,8 @@
   "provenance": {
     "checker_version": "qobuz-completeness-pilot-v2",
     "scope_sha256": "ce3e07394b30f223a9154fadc2381c6bb5100527fbecc1f9924078b3bb2cc749",
-    "inventory_sha256": "ac5b17039789d5e994c13492246e74dd62bd8194dd089f579668d98e82dfe3f9",
-    "collection_sha256": "568e740daa2510e838b392ddb3c68963f1dbf3c614f4347b8df0fb5e31babab8",
+    "inventory_sha256": "47b8e955b99c37b132e66daea61590490d249f94a520740d702bec5caa5019ce",
+    "collection_sha256": "a214eee877d4749fa957b3d2a293c2925d7ba0621259f2742139a6cd86f928c8",
     "metadata_manifest_fingerprint": "5c4a9f6b2bf19892aefcb01ad617d1584cada9f2ca34b56d32dade8ed444bf9d"
   }
 }

@@ -10,9 +10,10 @@ in the [14 November archive](../plans/2026-11-14-backlog-detail-archive.md).
 
 Status: agreed priority; retrieval and first offline screen/audit complete.
 [Offline follow-up](../plans/2026-11-14-qobuz-offline-followup.md): recording review
-now includes eight new Probables and shared inventory/parser fixes. Closest
-remaining cached cases need version evidence or a new review treatment. Proposed
-next metadata scope:9albums/11release leads, not fetched or authorized yet. Follow the
+now includes ten new Probables and shared inventory/parser fixes. Nine-album
+follow-up complete216tracks:2Probables/9withheld release leads. Next: scope
+repeated Nielsen labels or Gould nested programme review; new review type needs
+explicit scoping.170remaining metadata-needed releases are not a fetch mandate. Follow the
 [retrieval and follow-up plan](../plans/2026-11-14-qobuz-remaining-retrieval.md).
 
 Order: finish/validate/export 83 metadata albums and 603 searches across the

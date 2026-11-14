@@ -735,6 +735,182 @@
           "reason": "All three explicit Op.11 movements in order, each with François, Frémaux and the required Monte-Carlo orchestra."
         }
       ]
+    },
+    {
+      "discogs_id": "7194998",
+      "album_id": "5099996593059",
+      "review_kind": "bound-tracks",
+      "decision": "probable",
+      "target_sha256": "47a16fe3d615fe018bb39946bffd021b5c2b92aaee0c46e4fca55c8e97b1b765",
+      "album_sha256": "b7ebceb7026950cd458529cb35fb97bee04e878f49a2db245254ad1abd782a2e",
+      "source_sha256": "da4cdacba933664a27215b873075fc9e2144d9291d1a2ae801dc72f93e371060",
+      "pulls": [],
+      "adds": [
+        {
+          "track_id": 1792316,
+          "target": "Waltz No. 9 In A-Flat Major Op. 69 No. 1 (\"L'Adieu\")",
+          "title_contains": "Waltz No. 9 in A-Flat Major, Op. Posth. 69 No. 1 \"Farewell\"",
+          "catalogue_exception": "posthumous-token",
+          "reason": "The explicit waltz number/opus matches; file inserts Posth. before the printed opus or labels the unnumbered posthumous E-minor waltz."
+        },
+        {
+          "track_id": 1792318,
+          "target": "Waltz No. 11 In G-Flat Major Op. 70 No. 1",
+          "title_contains": "Waltz No. 11 in G-Flat Major, Op. Posth. 70 No. 1",
+          "catalogue_exception": "posthumous-token",
+          "reason": "The explicit waltz number/opus matches; file inserts Posth. before the printed opus or labels the unnumbered posthumous E-minor waltz."
+        },
+        {
+          "track_id": 1792319,
+          "target": "Waltz No. 10 In B Minor Op. 69 No. 2",
+          "title_contains": "Waltz No. 10 in B Minor, Op. Posth. 69 No. 2",
+          "catalogue_exception": "posthumous-token",
+          "reason": "The explicit waltz number/opus matches; file inserts Posth. before the printed opus or labels the unnumbered posthumous E-minor waltz."
+        },
+        {
+          "track_id": 1792320,
+          "target": "Waltz No. 14 In E Minor Posthumous",
+          "title_contains": "Waltz No. 14 in E Minor, Op. Posth.",
+          "catalogue_exception": null,
+          "reason": "The explicit waltz number/opus matches; file inserts Posth. before the printed opus or labels the unnumbered posthumous E-minor waltz."
+        },
+        {
+          "track_id": 1792323,
+          "target": "Waltz No. 12 In F Minor, Op. 70 No. 2",
+          "title_contains": "Waltz No. 12 in F Minor, Op. Posth. 70 No. 2",
+          "catalogue_exception": "posthumous-token",
+          "reason": "The explicit waltz number/opus matches; file inserts Posth. before the printed opus or labels the unnumbered posthumous E-minor waltz."
+        },
+        {
+          "track_id": 1792324,
+          "target": "Waltz No. 13 In D-Flat Major, Op. 70 No. 3",
+          "title_contains": "Waltz No. 13 in D-Flat Major, Op. Posth. 70 No. 3",
+          "catalogue_exception": "posthumous-token",
+          "reason": "The explicit waltz number/opus matches; file inserts Posth. before the printed opus or labels the unnumbered posthumous E-minor waltz."
+        }
+      ],
+      "expected": {
+        "Waltz No. 4 In F Major Op. 34 No. 3 (\"Valse Brilliante\")": [
+          1792313
+        ],
+        "Waltz No. 5 In A-Flat Major Op. 42 (The \"Two-Four\" Valse)": [
+          1792314
+        ],
+        "Waltz No. 6 In D-Flat Major Op. 64 No. 1 (\"Minute\" Valse)": [
+          1792315
+        ],
+        "Waltz No. 9 In A-Flat Major Op. 69 No. 1 (\"L'Adieu\")": [
+          1792316
+        ],
+        "Waltz No. 7 In C-Sharp Minor Op. 64 No. 2": [
+          1792317
+        ],
+        "Waltz No. 11 In G-Flat Major Op. 70 No. 1": [
+          1792318
+        ],
+        "Waltz No. 10 In B Minor Op. 69 No. 2": [
+          1792319
+        ],
+        "Waltz No. 14 In E Minor Posthumous": [
+          1792320
+        ],
+        "Waltz No. 3 In A Minor Op. 34 No. 2 (\"Valse Brillante\")": [
+          1792321
+        ],
+        "Waltz No. 8 In A-Flat Major Op. 64 No. 3": [
+          1792322
+        ],
+        "Waltz No. 12 In F Minor, Op. 70 No. 2": [
+          1792323
+        ],
+        "Waltz No. 13 In D-Flat Major, Op. 70 No. 3": [
+          1792324
+        ],
+        "Waltz No. 1 In E-Flat Major, Op. 18 (\"Grande Valse Brillante\")": [
+          1792325
+        ],
+        "Waltz No. 2 In A-Flat Major Op. 34 No. 1 (\"Valse Brillante\")": [
+          1792326
+        ]
+      },
+      "extra_track_ids": [
+        1792327,
+        1792328,
+        1792329
+      ],
+      "required_performers": [
+        "Dinu Lipatti"
+      ],
+      "sources": [
+        "https://wmg.jp/dinu-lipatti/discography/12064",
+        "https://www.discogs.com/release/7194998"
+      ],
+      "recording_review": "All fourteen LP waltzes occur in the same order, each credited to Lipatti. Warner documents the July1950 Radio Geneve sessions, Legge and Griffith, consistent with LP notes and saved production credits. Explicit posthumous opus tokens are source-bound; three extra solo pieces remain outside the LP.",
+      "limitations": [
+        "Exact Columbia LP pressing and digital mastering are not independently verified.",
+        "The studio July1950 waltz programme is not treated as Lipatti’s later Besancon recital, which omitted a waltz."
+      ]
+    },
+    {
+      "discogs_id": "10175959",
+      "album_id": "0883629934709",
+      "decision": "probable",
+      "target_sha256": "a0c4c655960a64b56c6991f87de53457de6edf6405c2384eeb7335772951f469",
+      "album_sha256": "11f89098fcbf162815f33008cd26c09e9527d7aac9d1b459898617fcd9025e19",
+      "sources": [
+        "https://www.warnerclassics.com/fr/release/brahms-symphonies-concertos",
+        "https://www.discogs.com/release/10175959"
+      ],
+      "recording_review": "Warner identifies Kreisler as the soloist in Barbirolli’s Brahms concerto. The cached Angel LP notes identify London Philharmonic/Barbirolli and June1936; the saved Past Classics file has all three movements with those required artists, supporting the recording-family lead.",
+      "limitations": [
+        "The third-party digital edition does not independently confirm session dates or its transfer source.",
+        "Exact1936 takes,1957 LP transfer and digital mastering are unverified."
+      ],
+      "target_source": {
+        "sha256": "0d3053d93c49201d03477fddef02c75378eec3ef4ec5d65bbb87cedb5c4d3d26",
+        "notes": "Recording Details\nRecorded in London, on the 18th and 22nd June, 1936, by Fritz Kreisler and the London Philharmonic Orchestra\nOrchestra conducted by Sir John Barbirolli.\n\nFirst issued in October, 1936, on record numbers DB 2015 to 2919S.\n\nTransferred to L.P. in Paris in 1957 on master number 2XEA 10160 and 2XEA 10161.\n\nFirst issue of this transfer in October, 1957, on record number COLH 35 in the \"Gravures Illustres\" series in France.\n",
+        "tracklist": [
+          {
+            "position": "",
+            "type_": "index",
+            "title": "Violin Concerto In D Major, Op. 77",
+            "duration": "",
+            "sub_tracks": [
+              {
+                "position": "A",
+                "type_": "track",
+                "title": "Allegro",
+                "duration": ""
+              },
+              {
+                "position": "B1",
+                "type_": "track",
+                "title": "Adagio",
+                "duration": ""
+              },
+              {
+                "position": "B2",
+                "type_": "track",
+                "title": "Allegro Giocoso",
+                "duration": ""
+              }
+            ]
+          }
+        ]
+      },
+      "works": [
+        {
+          "target": "Violin Concerto In D Major, Op. 77",
+          "movements": [
+            1,
+            2,
+            3
+          ],
+          "scope": "whole-work-inventory",
+          "source": "https://www.laphil.com/works/violin-concerto-in-d-major-op-77",
+          "reason": "All three ordered movements with Kreisler, Barbirolli and London Philharmonic Orchestra."
+        }
+      ]
     }
   ]
 }

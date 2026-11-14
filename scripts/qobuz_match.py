@@ -370,6 +370,21 @@ def generate():
         if aid in round2_albums and round2_albums[aid] != album:
             raise ValueError('Conflicting remaining metadata')
         round2_albums[aid] = album
+    followup_metadata_path = ROOT/'data/qobuz_remaining_followup_metadata.json.gz'
+    followup_scope_path = ROOT/'data/qobuz_remaining_metadata_followup_scope.json'
+    followup_metadata = json.loads(gzip.decompress(followup_metadata_path.read_bytes()))
+    if followup_metadata['scope_sha256'] != hashlib.sha256(followup_scope_path.read_bytes()).hexdigest() or followup_metadata['completed'] != followup_metadata['total'] or followup_metadata['total'] != 9:
+        raise ValueError('Incomplete or changed nine-album follow-up')
+    if len(followup_metadata['metadata']) != 9 or len({str(x['album']['id']) for x in followup_metadata['metadata']}) != 9:
+        raise ValueError('Missing/duplicate follow-up metadata')
+    for record in followup_metadata['metadata']:
+        album = record['album']; tracks = album['tracks']['items']
+        if str(album['id']) != record['task']['album_id'] or len(tracks) != album['tracks_count'] or len({t['id'] for t in tracks}) != len(tracks):
+            raise ValueError('Incomplete follow-up album tracks')
+        aid = str(album['id'])
+        if aid in round2_albums and round2_albums[aid] != album:
+            raise ValueError('Conflicting follow-up metadata')
+        round2_albums[aid] = album
     for review in remaining_reviews['releases']:
         if review['discogs_id'] in round2_reviews:
             raise ValueError('Duplicate remaining review')
@@ -438,6 +453,8 @@ def generate():
               'round2_metadata_fingerprint': hashlib.sha256(round2_meta_path.read_bytes()).hexdigest(),
               'remaining_review_fingerprint': hashlib.sha256(remaining_review_path.read_bytes()).hexdigest(),
               'remaining_metadata_fingerprint': hashlib.sha256(remaining_meta_path.read_bytes()).hexdigest(),
+              'remaining_followup_metadata_fingerprint': hashlib.sha256(followup_metadata_path.read_bytes()).hexdigest(),
+              'remaining_followup_scope_fingerprint': hashlib.sha256(followup_scope_path.read_bytes()).hexdigest(),
               'releases': results}
     path = ROOT/'data/qobuz_matches.json'
     temp = path.with_suffix('.tmp')

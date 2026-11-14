@@ -32,8 +32,11 @@ class BaselineAuditTests(unittest.TestCase):
         for p in r['programme']:
             self.assertEqual([t['movement'] for t in p['title_matched_tracks']], [1, 2, 3])
             self.assertEqual(p['credited_tracks'], 1)
+        # Reviewed Brahms Op.77 inventory now supports4226783 structurally;
+        # this does not change its original label or verify the recording session.
+        self.assertEqual(self.results['4226783']['audit_status'], 'supported')
         self.assertEqual(self.report['summary']['audit_statuses'], {
-            'supported': 7, 'unresolved': 58, 'insufficient_track_credit_evidence': 1})
+            'supported': 8, 'unresolved': 57, 'insufficient_track_credit_evidence': 1})
 
     def test_overlap_is_traceable_but_not_automatically_a_missing_programme(self):
         r = self.results['3958148']

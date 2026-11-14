@@ -1427,3 +1427,19 @@ insufficient; split Schnabel headings and Ninth-finale groups need new bounded
 review treatment. Proposed9distinct metadata albums for11release leads; checked
 portable and raw request caches, none already complete. No Qobuz calls, fetching,
 push or deployment. Counts12Found/106Probable/623Unchecked copies.
+
+## 2026-11-14 — Nine-album metadata follow-up authorized
+
+User authorized prepared9album/11release scope and subsequent offline audit.
+Resumable fixed worker reuses slow pacing/pagination/STOP safeguards; no searches
+or audio. Docs updated before retrieval. No automatic retry after warnings.
+
+## 2026-11-14 — Nine-album fetch/audit complete; two Probables
+
+9albums/216tracks completed18:36Amsterdam without warnings,11HTTP attempts
+including discovery. Exported shared archive2,497responses (all2,488prior bytes
+preserved) and1,157URLs. Audited11leads: Lipatti14waltzes and Kreisler Brahms
+concerto Probable85;9withheld with explicit blockers.125script tests, UI/build/
+browser checks pass. Brahms inventory adds one structurally supported historical
+baseline case, retaining original labels. Global unmatched inventory updated to
+all retrieval evidence:620unique unchecked, only6with no saved hits. No push.

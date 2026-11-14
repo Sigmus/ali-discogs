@@ -8,10 +8,10 @@
   "collection_fingerprint": "a214eee877d4749fa957b3d2a293c2925d7ba0621259f2742139a6cd86f928c8",
   "expansion_scope_fingerprint": "c70833f5e499ef56ff81e4f3f2cba985df6f0f59833dbb7a86a66eeb537a1f17",
   "target_credits_fingerprint": "0d62915c08feb0b282c88664d0c4e44721315769af06aa78146c4e2768c3029e",
-  "work_inventory_fingerprint": "4f2df7ddb6148fdd5ffd9d41550fc317da0ab726abcb3cb91ec1b8466a510156",
+  "work_inventory_fingerprint": "47b8e955b99c37b132e66daea61590490d249f94a520740d702bec5caa5019ce",
   "lead_review_fingerprint": "bc731b95eadb23cb1a13d735a4e7410615ae06f260b2c4a381ed4a29e229265e",
   "comparison_evidence_fingerprint": "c38df992ab44bbc892ffacafa19d74cc1495d7579d3d6da670653204dca25e57",
-  "album_urls_fingerprint": "19d42f2ff46868a978c401e6e5fb32adf6a24df9b06a1f4a43eb8ec72c15be44",
+  "album_urls_fingerprint": "a70ba4ee45a949221070c070c0bccde63789c0b39145029ebab59387787d97b1",
   "opera_review_fingerprint": "6e26d528eb7de78d372635218404a57534332ea1cd3d92e89e90e7a18066f85b",
   "pair_review_fingerprint": "7709aa57ef7815fda88766badd3064939bccb142bd0e97389a0f5f011c54cd84",
   "container_review_fingerprint": "aa8a8e530114e05869e1215561786073250faca3c9349b66059ea59ff3c535e0",
@@ -29,8 +29,10 @@
   "richter_review_fingerprint": "a14865f86e46150593e39bfa285fa6c7c61c8f46147b8094c0cb048fd02118ab",
   "round2_review_fingerprint": "be60742c3d35f5a9aa67f200642f7fcde98a52562a46130e043db8f4aa7c851e",
   "round2_metadata_fingerprint": "9db62d7bf62d4b77f5acf422dfde77959f845f4dc00b2ac0e10c02ccea295860",
-  "remaining_review_fingerprint": "d1a8a942ae7d27d632aa74cbe9c459902b6215df8277c45f2e01a0d648be3481",
+  "remaining_review_fingerprint": "49084814dc84b3775ee64e63430f6e96858e671349cc59a2c534ba54f626a4da",
   "remaining_metadata_fingerprint": "393b2d12e176160ab311b65267b38bdc8c205222e12f792bf07eba5c1fcfafbf",
+  "remaining_followup_metadata_fingerprint": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
+  "remaining_followup_scope_fingerprint": "41780b365b45dcd74f5ffd053bfe546c3c873eae535dd66250297799f48c2daa",
   "releases": {
     "15221307": {
       "status": "unchecked",
@@ -1161,14 +1163,105 @@
       ]
     },
     "10175959": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0883629934709",
+        "name": "Brahms: Violin Concerto in D, Op. 77",
+        "artists": [
+          "Fritz Kreisler"
+        ],
+        "label": "Past Classics",
+        "release_date": "2009-06-19",
+        "image": "https://static.qobuz.com/images/covers/09/47/0883629934709_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/brahms-violin-concerto-in-d-op-77-fritz-kreisler-london-philharmonic-orchestra-sir-john-barbirolli/0883629934709"
+      },
+      "candidates": [
+        {
+          "id": "0883629934709",
+          "name": "Brahms: Violin Concerto in D, Op. 77",
+          "artists": [
+            "Fritz Kreisler"
+          ],
+          "label": "Past Classics",
+          "release_date": "2009-06-19",
+          "image": "https://static.qobuz.com/images/covers/09/47/0883629934709_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/brahms-violin-concerto-in-d-op-77-fritz-kreisler-london-philharmonic-orchestra-sir-john-barbirolli/0883629934709",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 1,
+          "target_count": 1,
+          "required_performers": [
+            "Sir John Barbirolli",
+            "Fritz Kreisler",
+            "London Philharmonic Orchestra"
+          ],
+          "programme": [
+            {
+              "target": "Violin Concerto In D Major, Op. 77",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                4056080,
+                4056081,
+                4056082
+              ]
+            }
+          ],
+          "reasons": [
+            "Each target item has supporting work and performer credits.",
+            "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+            "Warner identifies Kreisler as the soloist in Barbirolli’s Brahms concerto. The cached Angel LP notes identify London Philharmonic/Barbirolli and June1936; the saved Past Classics file has all three movements with those required artists, supporting the recording-family lead.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "The third-party digital edition does not independently confirm session dates or its transfer source.",
+            "Exact1936 takes,1957 LP transfer and digital mastering are unverified."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Violin Concerto In D Major, Op. 77",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "track_ids": [
+                  4056080,
+                  4056081,
+                  4056082
+                ],
+                "scope": "whole-work-inventory",
+                "source": "https://www.laphil.com/works/violin-concerto-in-d-major-op-77",
+                "reason": "All three ordered movements with Kreisler, Barbirolli and London Philharmonic Orchestra."
+              }
+            ],
+            "overlapping_target_tracks": false
+          },
+          "recording_review": "Warner identifies Kreisler as the soloist in Barbirolli’s Brahms concerto. The cached Angel LP notes identify London Philharmonic/Barbirolli and June1936; the saved Past Classics file has all three movements with those required artists, supporting the recording-family lead.",
+          "review_sources": [
+            "https://www.warnerclassics.com/fr/release/brahms-symphonies-concertos",
+            "https://www.discogs.com/release/10175959"
+          ]
+        }
+      ],
       "query": "sir john barbirolli brahms violin concerto in d major",
       "searched_at": "2026-11-12T14:30:00.332718+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Each target item has supporting work and performer credits.",
+        "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+        "Warner identifies Kreisler as the soloist in Barbirolli’s Brahms concerto. The cached Angel LP notes identify London Philharmonic/Barbirolli and June1936; the saved Past Classics file has all three movements with those required artists, supporting the recording-family lead.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "The third-party digital edition does not independently confirm session dates or its transfer source.",
+        "Exact1936 takes,1957 LP transfer and digital mastering are unverified."
       ]
     },
     "4513316": {
@@ -18806,14 +18899,292 @@
       ]
     },
     "7194998": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "5099996593059",
+        "name": "Chopin: Waltzes",
+        "artists": [
+          "Dinu Lipatti"
+        ],
+        "label": "Warner Classics",
+        "release_date": "2005-11-28",
+        "image": "https://static.qobuz.com/images/covers/59/30/5099996593059_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/chopin-waltzes-dinu-lipatti/5099996593059"
+      },
+      "candidates": [
+        {
+          "id": "5099996593059",
+          "name": "Chopin: Waltzes",
+          "artists": [
+            "Dinu Lipatti"
+          ],
+          "label": "Warner Classics",
+          "release_date": "2005-11-28",
+          "image": "https://static.qobuz.com/images/covers/59/30/5099996593059_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/chopin-waltzes-dinu-lipatti/5099996593059",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 14,
+          "target_count": 14,
+          "required_performers": [
+            "Dinu Lipatti"
+          ],
+          "programme": [
+            {
+              "target": "Waltz No. 4 In F Major Op. 34 No. 3 (\"Valse Brilliante\")",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                1792313
+              ]
+            },
+            {
+              "target": "Waltz No. 5 In A-Flat Major Op. 42 (The \"Two-Four\" Valse)",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                1792314
+              ]
+            },
+            {
+              "target": "Waltz No. 6 In D-Flat Major Op. 64 No. 1 (\"Minute\" Valse)",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                1792315
+              ]
+            },
+            {
+              "target": "Waltz No. 9 In A-Flat Major Op. 69 No. 1 (\"L'Adieu\")",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                1792316
+              ]
+            },
+            {
+              "target": "Waltz No. 7 In C-Sharp Minor Op. 64 No. 2",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                1792317
+              ]
+            },
+            {
+              "target": "Waltz No. 11 In G-Flat Major Op. 70 No. 1",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                1792318
+              ]
+            },
+            {
+              "target": "Waltz No. 10 In B Minor Op. 69 No. 2",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                1792319
+              ]
+            },
+            {
+              "target": "Waltz No. 14 In E Minor Posthumous",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                1792320
+              ]
+            },
+            {
+              "target": "Waltz No. 3 In A Minor Op. 34 No. 2 (\"Valse Brillante\")",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                1792321
+              ]
+            },
+            {
+              "target": "Waltz No. 8 In A-Flat Major Op. 64 No. 3",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                1792322
+              ]
+            },
+            {
+              "target": "Waltz No. 12 In F Minor, Op. 70 No. 2",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                1792323
+              ]
+            },
+            {
+              "target": "Waltz No. 13 In D-Flat Major, Op. 70 No. 3",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                1792324
+              ]
+            },
+            {
+              "target": "Waltz No. 1 In E-Flat Major, Op. 18 (\"Grande Valse Brillante\")",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                1792325
+              ]
+            },
+            {
+              "target": "Waltz No. 2 In A-Flat Major Op. 34 No. 1 (\"Valse Brillante\")",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                1792326
+              ]
+            }
+          ],
+          "reasons": [
+            "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+            "All fourteen LP waltzes occur in the same order, each credited to Lipatti. Warner documents the July1950 Radio Geneve sessions, Legge and Griffith, consistent with LP notes and saved production credits. Explicit posthumous opus tokens are source-bound; three extra solo pieces remain outside the LP.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Exact Columbia LP pressing and digital mastering are not independently verified.",
+            "The studio July1950 waltz programme is not treated as Lipatti’s later Besancon recital, which omitted a waltz."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Waltz No. 4 In F Major Op. 34 No. 3 (\"Valse Brilliante\")",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  1792313
+                ]
+              },
+              {
+                "target": "Waltz No. 5 In A-Flat Major Op. 42 (The \"Two-Four\" Valse)",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  1792314
+                ]
+              },
+              {
+                "target": "Waltz No. 6 In D-Flat Major Op. 64 No. 1 (\"Minute\" Valse)",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  1792315
+                ]
+              },
+              {
+                "target": "Waltz No. 9 In A-Flat Major Op. 69 No. 1 (\"L'Adieu\")",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  1792316
+                ]
+              },
+              {
+                "target": "Waltz No. 7 In C-Sharp Minor Op. 64 No. 2",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  1792317
+                ]
+              },
+              {
+                "target": "Waltz No. 11 In G-Flat Major Op. 70 No. 1",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  1792318
+                ]
+              },
+              {
+                "target": "Waltz No. 10 In B Minor Op. 69 No. 2",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  1792319
+                ]
+              },
+              {
+                "target": "Waltz No. 14 In E Minor Posthumous",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  1792320
+                ]
+              },
+              {
+                "target": "Waltz No. 3 In A Minor Op. 34 No. 2 (\"Valse Brillante\")",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  1792321
+                ]
+              },
+              {
+                "target": "Waltz No. 8 In A-Flat Major Op. 64 No. 3",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  1792322
+                ]
+              },
+              {
+                "target": "Waltz No. 12 In F Minor, Op. 70 No. 2",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  1792323
+                ]
+              },
+              {
+                "target": "Waltz No. 13 In D-Flat Major, Op. 70 No. 3",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  1792324
+                ]
+              },
+              {
+                "target": "Waltz No. 1 In E-Flat Major, Op. 18 (\"Grande Valse Brillante\")",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  1792325
+                ]
+              },
+              {
+                "target": "Waltz No. 2 In A-Flat Major Op. 34 No. 1 (\"Valse Brillante\")",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  1792326
+                ]
+              }
+            ]
+          },
+          "recording_review": "All fourteen LP waltzes occur in the same order, each credited to Lipatti. Warner documents the July1950 Radio Geneve sessions, Legge and Griffith, consistent with LP notes and saved production credits. Explicit posthumous opus tokens are source-bound; three extra solo pieces remain outside the LP.",
+          "review_sources": [
+            "https://wmg.jp/dinu-lipatti/discography/12064",
+            "https://www.discogs.com/release/7194998"
+          ]
+        }
+      ],
       "query": "dinu lipatti chopin dinu lipatti plays the waltzes of chopin",
       "searched_at": "2026-11-12T14:59:32.673684+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+        "All fourteen LP waltzes occur in the same order, each credited to Lipatti. Warner documents the July1950 Radio Geneve sessions, Legge and Griffith, consistent with LP notes and saved production credits. Explicit posthumous opus tokens are source-bound; three extra solo pieces remain outside the LP.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Exact Columbia LP pressing and digital mastering are not independently verified.",
+        "The studio July1950 waltz programme is not treated as Lipatti’s later Besancon recital, which omitted a waltz."
       ]
     },
     "8971581": {

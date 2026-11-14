@@ -1,0 +1,1886 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-14",
+  "scope_sha256": "41780b365b45dcd74f5ffd053bfe546c3c873eae535dd66250297799f48c2daa",
+  "metadata_sha256": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
+  "inventory_sha256": "47b8e955b99c37b132e66daea61590490d249f94a520740d702bec5caa5019ce",
+  "entries": [
+    {
+      "discogs_id": "3167056",
+      "album_id": "0002894133212",
+      "target_sha256": "251d1f79db137461a36cdfa4988385a6f1ac6bc7f8957d1ac1a4c363a92251b6",
+      "album_sha256": "184ab2d09b742de9dedb9b38c66ea98f3f1e0f2695f26519a9436c952c57f64c",
+      "target_title": "Verdi • Nabucco (Highlights • Querschnitt)",
+      "candidate_title": "Verdi: Nabucco - Highlights",
+      "track_count": 11,
+      "assessment": {
+        "status": "unchecked",
+        "confidence": null,
+        "coverage": 0.0,
+        "covered": 0,
+        "target_count": 15,
+        "required_performers": [
+          "Giuseppe Sinopoli",
+          "Piero Cappuccilli",
+          "Placido Domingo",
+          "Evgeny Nesterenko",
+          "Ghena Dimitrova",
+          "Lucia Valentini Terrani",
+          "Chor der Deutschen Oper Berlin",
+          "Orchester Der Deutschen Oper Berlin",
+          "Walter Hagen-Groll",
+          "Volker Horn"
+        ],
+        "programme": [
+          {
+            "target": "Sinfonia (Ouvertüre)",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Erster Teil: Jerusalem",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "\"Gli Arredi Festivi Giù Cadano Infranti\" (Coro)",
+            "work_tracks": 1,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "\"Qual Rumore? ... Come Notte A Sol Fulgente\" (Coro, Ismaele, Zaccaria)",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "\"Fenena! O Mia Diletta! ... Prode Guerrier! ... Io T'Amava\" (Ismaele, Fenena, Abigaille)",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Zweiter Teil: Der Frevler",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "\"Chi S'Avanza? ... Salgo Glà Del Trono Aurato\" (Abigaille, Gran Sacerdote, Coro)",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "\"Che Si Vuol? ... Il Maledetto Non Ha Fratelli\" (Coro, Ismaele)",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "\"S'appressan Gl'istanti ... Chi Mi Toglie Il Regio Scettro?\" (Nabucco, Abigaille, Ismaele, Fenena, Zaccaria, Coro)",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Dritter Teil: Die Prophezeihung",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Ah, Qual Suon! ... \"Deh, Perdona\" (Nabucco, Abigaille)",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "\"Va, Pensiero, Sull' Ali Dorate\" (Coro)",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Vierter Teil: Das Zerbrochene Götzenbild",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "\"Dio Di Giuda! ... Cadran, Cadranno I Perfidi\" (Nabucco, Abdallo, Coro)",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "\"Oh! Chi Vegg'io! ... Su Me, Morente, Esanime\" (Nabucco, Coro, Abigaille, Zaccaria)",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          }
+        ],
+        "reasons": [
+          "0/15 target items supported after composer/work grouping; unresolved."
+        ]
+      },
+      "completeness": {
+        "status": "unknown",
+        "works": [
+          {
+            "target": "Sinfonia (Ouvertüre)",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Erster Teil: Jerusalem",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "\"Gli Arredi Festivi Giù Cadano Infranti\" (Coro)",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "\"Qual Rumore? ... Come Notte A Sol Fulgente\" (Coro, Ismaele, Zaccaria)",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "\"Fenena! O Mia Diletta! ... Prode Guerrier! ... Io T'Amava\" (Ismaele, Fenena, Abigaille)",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Zweiter Teil: Der Frevler",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "\"Chi S'Avanza? ... Salgo Glà Del Trono Aurato\" (Abigaille, Gran Sacerdote, Coro)",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "\"Che Si Vuol? ... Il Maledetto Non Ha Fratelli\" (Coro, Ismaele)",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "\"S'appressan Gl'istanti ... Chi Mi Toglie Il Regio Scettro?\" (Nabucco, Abigaille, Ismaele, Fenena, Zaccaria, Coro)",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Dritter Teil: Die Prophezeihung",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Ah, Qual Suon! ... \"Deh, Perdona\" (Nabucco, Abigaille)",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "\"Va, Pensiero, Sull' Ali Dorate\" (Coro)",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Vierter Teil: Das Zerbrochene Götzenbild",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "\"Dio Di Giuda! ... Cadran, Cadranno I Perfidi\" (Nabucco, Abdallo, Coro)",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "\"Oh! Chi Vegg'io! ... Su Me, Morente, Esanime\" (Nabucco, Coro, Abigaille, Zaccaria)",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "review_decision": "withheld",
+      "finding": "Opera part headings inflate units; track metadata lacks some required conductor/orchestra credits. Needs scoped opera/role review, not global credit inheritance."
+    },
+    {
+      "discogs_id": "3290970",
+      "album_id": "0825646180943",
+      "target_sha256": "a7357856ef0f179d08f057649ef9949cddf9d07329ab9a0b12d7c8ebac5ba973",
+      "album_sha256": "da796eefe72dd262d7adbec323a34c09ae63227a199c07427433d0299041b38c",
+      "target_title": "Vol. 1",
+      "candidate_title": "Die 12 Cellisten der Berliner Philharmoniker Vol. 1",
+      "track_count": 9,
+      "assessment": {
+        "status": "unchecked",
+        "confidence": null,
+        "coverage": 0.0,
+        "covered": 0,
+        "target_count": 6,
+        "required_performers": [
+          "Alexander Wedow",
+          "Die 12 Cellisten Der Berliner Philharmoniker",
+          "Christoph Kapler",
+          "Eberhard Finke",
+          "Gerhard Woschny",
+          "Götz Teutsch",
+          "Heinrich Majowski",
+          "Jan Diesselhorst",
+          "Jörg Baumann",
+          "Klaus Häussler",
+          "Ottomar Borwitzky",
+          "Peter Steiner (3)",
+          "Rudolf Weinsheimer"
+        ],
+        "programme": [
+          {
+            "target": "Bachianas Brasileiras Nr. 1 (1930)",
+            "work_tracks": 3,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Windungen (1976) Für 12 Violoncellisten",
+            "work_tracks": 1,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Melodia — Ritmica, Op. 59 Nr. 1 (1972) Für 12 Violoncelli",
+            "work_tracks": 2,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Gospel Train",
+            "work_tracks": 1,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Yesterday",
+            "work_tracks": 1,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "St. Louis Blues",
+            "work_tracks": 1,
+            "credited_tracks": 0,
+            "track_ids": []
+          }
+        ],
+        "reasons": [
+          "0/6 target items supported after composer/work grouping; unresolved."
+        ]
+      },
+      "completeness": {
+        "status": "unknown",
+        "works": [
+          {
+            "target": "Bachianas Brasileiras Nr. 1 (1930)",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Windungen (1976) Für 12 Violoncellisten",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Melodia — Ritmica, Op. 59 Nr. 1 (1972) Für 12 Violoncelli",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Gospel Train",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Yesterday",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "St. Louis Blues",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "review_decision": "withheld",
+      "finding": "Work titles have support but required individual cellist credits do not; ensemble name alone is insufficient."
+    },
+    {
+      "discogs_id": "6781135",
+      "album_id": "3610156779780",
+      "target_sha256": "f6ef023a48e445e41b6cadb09a544bfba6bfc3488b4186c37afe60ccf0d20257",
+      "album_sha256": "ad7e4a6b7dfa08f2e9d381a94691fab008f7c57b5617830c90242e4028d5ef2a",
+      "target_title": "Kid Ory And His Creole Jazz Band",
+      "candidate_title": "Kid Ory and His Creole Jazz Band",
+      "track_count": 4,
+      "assessment": {
+        "status": "unchecked",
+        "confidence": null,
+        "coverage": 0.0,
+        "covered": 0,
+        "target_count": 16,
+        "required_performers": [
+          "Buster Wilson",
+          "Kid Ory And His Creole Jazz Band",
+          "Lloyd Glenn"
+        ],
+        "programme": [
+          {
+            "target": "Savoy Blues",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": [],
+            "required_performers": [
+              "Joe Darensbourg",
+              "Julian Davidson",
+              "Lloyd Glenn",
+              "Teddy Buckner"
+            ],
+            "target_credit_scope": {
+              "source": "cached Discogs explicit work/position credits",
+              "positions": [
+                "A1"
+              ],
+              "performers": [
+                {
+                  "name": "Joe Darensbourg",
+                  "role": "Clarinet"
+                },
+                {
+                  "name": "Julian Davidson",
+                  "role": "Guitar"
+                },
+                {
+                  "name": "Lloyd Glenn",
+                  "role": "Piano"
+                },
+                {
+                  "name": "Teddy Buckner",
+                  "role": "Trumpet"
+                }
+              ]
+            }
+          },
+          {
+            "target": "Creole Song (C'Est L'Autre Can Can)",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": [],
+            "required_performers": [
+              "Kid Ory And His Creole Jazz Band",
+              "Joe Darensbourg",
+              "Julian Davidson",
+              "Lloyd Glenn",
+              "Teddy Buckner"
+            ],
+            "target_credit_scope": {
+              "source": "cached Discogs explicit work/position credits",
+              "positions": [
+                "A2"
+              ],
+              "performers": [
+                {
+                  "name": "Kid Ory And His Creole Jazz Band",
+                  "role": "Vocals"
+                },
+                {
+                  "name": "Joe Darensbourg",
+                  "role": "Clarinet"
+                },
+                {
+                  "name": "Julian Davidson",
+                  "role": "Guitar"
+                },
+                {
+                  "name": "Lloyd Glenn",
+                  "role": "Piano"
+                },
+                {
+                  "name": "Teddy Buckner",
+                  "role": "Trumpet"
+                }
+              ]
+            }
+          },
+          {
+            "target": "The Glory Of Love",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": [],
+            "required_performers": [
+              "Lee Sapphire",
+              "Joe Darensbourg",
+              "Julian Davidson",
+              "Lloyd Glenn",
+              "Teddy Buckner"
+            ],
+            "target_credit_scope": {
+              "source": "cached Discogs explicit work/position credits",
+              "positions": [
+                "A3"
+              ],
+              "performers": [
+                {
+                  "name": "Lee Sapphire",
+                  "role": "Vocals"
+                },
+                {
+                  "name": "Joe Darensbourg",
+                  "role": "Clarinet"
+                },
+                {
+                  "name": "Julian Davidson",
+                  "role": "Guitar"
+                },
+                {
+                  "name": "Lloyd Glenn",
+                  "role": "Piano"
+                },
+                {
+                  "name": "Teddy Buckner",
+                  "role": "Trumpet"
+                }
+              ]
+            }
+          },
+          {
+            "target": "Mahagony Hall Stomp",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": [],
+            "required_performers": [
+              "Joe Darensbourg",
+              "Julian Davidson",
+              "Lloyd Glenn",
+              "Teddy Buckner"
+            ],
+            "target_credit_scope": {
+              "source": "cached Discogs explicit work/position credits",
+              "positions": [
+                "A4"
+              ],
+              "performers": [
+                {
+                  "name": "Joe Darensbourg",
+                  "role": "Clarinet"
+                },
+                {
+                  "name": "Julian Davidson",
+                  "role": "Guitar"
+                },
+                {
+                  "name": "Lloyd Glenn",
+                  "role": "Piano"
+                },
+                {
+                  "name": "Teddy Buckner",
+                  "role": "Trumpet"
+                }
+              ]
+            }
+          },
+          {
+            "target": "Blues For Jimmy",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": [],
+            "required_performers": [
+              "Joe Darensbourg",
+              "Julian Davidson",
+              "Lloyd Glenn",
+              "Teddy Buckner"
+            ],
+            "target_credit_scope": {
+              "source": "cached Discogs explicit work/position credits",
+              "positions": [
+                "A5"
+              ],
+              "performers": [
+                {
+                  "name": "Joe Darensbourg",
+                  "role": "Clarinet"
+                },
+                {
+                  "name": "Julian Davidson",
+                  "role": "Guitar"
+                },
+                {
+                  "name": "Lloyd Glenn",
+                  "role": "Piano"
+                },
+                {
+                  "name": "Teddy Buckner",
+                  "role": "Trumpet"
+                }
+              ]
+            }
+          },
+          {
+            "target": "At A Georgia Camp Meeting",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": [],
+            "required_performers": [
+              "Joe Darensbourg",
+              "Julian Davidson",
+              "Lloyd Glenn",
+              "Teddy Buckner"
+            ],
+            "target_credit_scope": {
+              "source": "cached Discogs explicit work/position credits",
+              "positions": [
+                "A6"
+              ],
+              "performers": [
+                {
+                  "name": "Joe Darensbourg",
+                  "role": "Clarinet"
+                },
+                {
+                  "name": "Julian Davidson",
+                  "role": "Guitar"
+                },
+                {
+                  "name": "Lloyd Glenn",
+                  "role": "Piano"
+                },
+                {
+                  "name": "Teddy Buckner",
+                  "role": "Trumpet"
+                }
+              ]
+            }
+          },
+          {
+            "target": "Go Back Where You Stayed Last Night",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": [],
+            "required_performers": [
+              "Joe Darensbourg",
+              "Lee Sapphire",
+              "Julian Davidson",
+              "Lloyd Glenn",
+              "Teddy Buckner"
+            ],
+            "target_credit_scope": {
+              "source": "cached Discogs explicit work/position credits",
+              "positions": [
+                "A7"
+              ],
+              "performers": [
+                {
+                  "name": "Joe Darensbourg",
+                  "role": "Vocals"
+                },
+                {
+                  "name": "Lee Sapphire",
+                  "role": "Vocals"
+                },
+                {
+                  "name": "Joe Darensbourg",
+                  "role": "Clarinet"
+                },
+                {
+                  "name": "Julian Davidson",
+                  "role": "Guitar"
+                },
+                {
+                  "name": "Lloyd Glenn",
+                  "role": "Piano"
+                },
+                {
+                  "name": "Teddy Buckner",
+                  "role": "Trumpet"
+                }
+              ]
+            }
+          },
+          {
+            "target": "Yaaka Hula Hickley Dula (Hawaiian Love Song)",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": [],
+            "required_performers": [
+              "Joe Darensbourg",
+              "Julian Davidson",
+              "Lloyd Glenn",
+              "Teddy Buckner"
+            ],
+            "target_credit_scope": {
+              "source": "cached Discogs explicit work/position credits",
+              "positions": [
+                "A8"
+              ],
+              "performers": [
+                {
+                  "name": "Joe Darensbourg",
+                  "role": "Clarinet"
+                },
+                {
+                  "name": "Julian Davidson",
+                  "role": "Guitar"
+                },
+                {
+                  "name": "Lloyd Glenn",
+                  "role": "Piano"
+                },
+                {
+                  "name": "Teddy Buckner",
+                  "role": "Trumpet"
+                }
+              ]
+            }
+          },
+          {
+            "target": "Tiger Rag",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": [],
+            "required_performers": [
+              "Barney Bigard",
+              "Bud Scott",
+              "Buster Wilson",
+              "Mutt Carey"
+            ],
+            "target_credit_scope": {
+              "source": "cached Discogs explicit work/position credits",
+              "positions": [
+                "B1"
+              ],
+              "performers": [
+                {
+                  "name": "Barney Bigard",
+                  "role": "Clarinet"
+                },
+                {
+                  "name": "Bud Scott",
+                  "role": "Guitar"
+                },
+                {
+                  "name": "Buster Wilson",
+                  "role": "Piano"
+                },
+                {
+                  "name": "Mutt Carey",
+                  "role": "Trumpet"
+                }
+              ]
+            }
+          },
+          {
+            "target": "Bucket Go A Hole In It",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": [],
+            "required_performers": [
+              "Barney Bigard",
+              "Bud Scott",
+              "Buster Wilson",
+              "Mutt Carey"
+            ],
+            "target_credit_scope": {
+              "source": "cached Discogs explicit work/position credits",
+              "positions": [
+                "B2"
+              ],
+              "performers": [
+                {
+                  "name": "Barney Bigard",
+                  "role": "Clarinet"
+                },
+                {
+                  "name": "Bud Scott",
+                  "role": "Guitar"
+                },
+                {
+                  "name": "Buster Wilson",
+                  "role": "Piano"
+                },
+                {
+                  "name": "Mutt Carey",
+                  "role": "Trumpet"
+                }
+              ]
+            }
+          },
+          {
+            "target": "Eh, La Bas",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": [],
+            "required_performers": [
+              "Kid Ory",
+              "Barney Bigard",
+              "Bud Scott",
+              "Buster Wilson",
+              "Mutt Carey"
+            ],
+            "target_credit_scope": {
+              "source": "cached Discogs explicit work/position credits",
+              "positions": [
+                "B3"
+              ],
+              "performers": [
+                {
+                  "name": "Kid Ory",
+                  "role": "Vocals"
+                },
+                {
+                  "name": "Barney Bigard",
+                  "role": "Clarinet"
+                },
+                {
+                  "name": "Bud Scott",
+                  "role": "Guitar"
+                },
+                {
+                  "name": "Buster Wilson",
+                  "role": "Piano"
+                },
+                {
+                  "name": "Mutt Carey",
+                  "role": "Trumpet"
+                }
+              ]
+            }
+          },
+          {
+            "target": "Joshua Fit De Battle Of Jericho",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": [],
+            "required_performers": [
+              "Bud Scott",
+              "Helen Andrews",
+              "Barney Bigard",
+              "Buster Wilson",
+              "Mutt Carey"
+            ],
+            "target_credit_scope": {
+              "source": "cached Discogs explicit work/position credits",
+              "positions": [
+                "B4"
+              ],
+              "performers": [
+                {
+                  "name": "Bud Scott",
+                  "role": "Vocals"
+                },
+                {
+                  "name": "Helen Andrews",
+                  "role": "Vocals"
+                },
+                {
+                  "name": "Barney Bigard",
+                  "role": "Clarinet"
+                },
+                {
+                  "name": "Bud Scott",
+                  "role": "Guitar"
+                },
+                {
+                  "name": "Buster Wilson",
+                  "role": "Piano"
+                },
+                {
+                  "name": "Mutt Carey",
+                  "role": "Trumpet"
+                }
+              ]
+            }
+          },
+          {
+            "target": "The World's Jazz Crazy, Lawdy So Am I",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": [],
+            "required_performers": [
+              "Barney Bigard",
+              "Bud Scott",
+              "Buster Wilson",
+              "Mutt Carey"
+            ],
+            "target_credit_scope": {
+              "source": "cached Discogs explicit work/position credits",
+              "positions": [
+                "B5"
+              ],
+              "performers": [
+                {
+                  "name": "Barney Bigard",
+                  "role": "Clarinet"
+                },
+                {
+                  "name": "Bud Scott",
+                  "role": "Guitar"
+                },
+                {
+                  "name": "Buster Wilson",
+                  "role": "Piano"
+                },
+                {
+                  "name": "Mutt Carey",
+                  "role": "Trumpet"
+                }
+              ]
+            }
+          },
+          {
+            "target": "Farewell To Storyville",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": [],
+            "required_performers": [
+              "Helen Andrews",
+              "Barney Bigard",
+              "Bud Scott",
+              "Buster Wilson",
+              "Mutt Carey"
+            ],
+            "target_credit_scope": {
+              "source": "cached Discogs explicit work/position credits",
+              "positions": [
+                "B6"
+              ],
+              "performers": [
+                {
+                  "name": "Helen Andrews",
+                  "role": "Vocals"
+                },
+                {
+                  "name": "Barney Bigard",
+                  "role": "Clarinet"
+                },
+                {
+                  "name": "Bud Scott",
+                  "role": "Guitar"
+                },
+                {
+                  "name": "Buster Wilson",
+                  "role": "Piano"
+                },
+                {
+                  "name": "Mutt Carey",
+                  "role": "Trumpet"
+                }
+              ]
+            }
+          },
+          {
+            "target": "Creole Bobobo",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": [],
+            "required_performers": [
+              "Kid Ory",
+              "Barney Bigard",
+              "Bud Scott",
+              "Buster Wilson",
+              "Mutt Carey"
+            ],
+            "target_credit_scope": {
+              "source": "cached Discogs explicit work/position credits",
+              "positions": [
+                "B7"
+              ],
+              "performers": [
+                {
+                  "name": "Kid Ory",
+                  "role": "Vocals"
+                },
+                {
+                  "name": "Barney Bigard",
+                  "role": "Clarinet"
+                },
+                {
+                  "name": "Bud Scott",
+                  "role": "Guitar"
+                },
+                {
+                  "name": "Buster Wilson",
+                  "role": "Piano"
+                },
+                {
+                  "name": "Mutt Carey",
+                  "role": "Trumpet"
+                }
+              ]
+            }
+          },
+          {
+            "target": "Bill Bailey Won't You Please Come Home",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": [],
+            "required_performers": [
+              "Barney Bigard",
+              "Bud Scott",
+              "Buster Wilson",
+              "Mutt Carey"
+            ],
+            "target_credit_scope": {
+              "source": "cached Discogs explicit work/position credits",
+              "positions": [
+                "B8"
+              ],
+              "performers": [
+                {
+                  "name": "Barney Bigard",
+                  "role": "Clarinet"
+                },
+                {
+                  "name": "Bud Scott",
+                  "role": "Guitar"
+                },
+                {
+                  "name": "Buster Wilson",
+                  "role": "Piano"
+                },
+                {
+                  "name": "Mutt Carey",
+                  "role": "Trumpet"
+                }
+              ]
+            }
+          }
+        ],
+        "reasons": [
+          "0/16 target items supported after composer/work grouping; unresolved.",
+          "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
+        ],
+        "work_group_policy": "qobuz-work-groups-v1"
+      },
+      "completeness": {
+        "status": "unknown",
+        "works": [
+          {
+            "target": "Savoy Blues",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Creole Song (C'Est L'Autre Can Can)",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "The Glory Of Love",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Mahagony Hall Stomp",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Blues For Jimmy",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "At A Georgia Camp Meeting",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Go Back Where You Stayed Last Night",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Yaaka Hula Hickley Dula (Hawaiian Love Song)",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Tiger Rag",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Bucket Go A Hole In It",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Eh, La Bas",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Joshua Fit De Battle Of Jericho",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "The World's Jazz Crazy, Lawdy So Am I",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Farewell To Storyville",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Creole Bobobo",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Bill Bailey Won't You Please Come Home",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "review_decision": "withheld",
+      "finding": "Saved four-track file has no current title/credit support for the16-item target; not an accepted whole programme."
+    },
+    {
+      "discogs_id": "7194998",
+      "album_id": "5099996593059",
+      "target_sha256": "47a16fe3d615fe018bb39946bffd021b5c2b92aaee0c46e4fca55c8e97b1b765",
+      "album_sha256": "b7ebceb7026950cd458529cb35fb97bee04e878f49a2db245254ad1abd782a2e",
+      "target_title": "Dinu Lipatti Plays The Waltzes Of Chopin",
+      "candidate_title": "Chopin: Waltzes",
+      "track_count": 17,
+      "assessment": {
+        "status": "unchecked",
+        "confidence": null,
+        "coverage": 0.5714285714285714,
+        "covered": 8,
+        "target_count": 14,
+        "required_performers": [
+          "Dinu Lipatti"
+        ],
+        "programme": [
+          {
+            "target": "Waltz No. 4 In F Major Op. 34 No. 3 (\"Valse Brilliante\")",
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              1792313
+            ]
+          },
+          {
+            "target": "Waltz No. 5 In A-Flat Major Op. 42 (The \"Two-Four\" Valse)",
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              1792314
+            ]
+          },
+          {
+            "target": "Waltz No. 6 In D-Flat Major Op. 64 No. 1 (\"Minute\" Valse)",
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              1792315
+            ]
+          },
+          {
+            "target": "Waltz No. 9 In A-Flat Major Op. 69 No. 1 (\"L'Adieu\")",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Waltz No. 7 In C-Sharp Minor Op. 64 No. 2",
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              1792317
+            ]
+          },
+          {
+            "target": "Waltz No. 11 In G-Flat Major Op. 70 No. 1",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Waltz No. 10 In B Minor Op. 69 No. 2",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Waltz No. 14 In E Minor Posthumous",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Waltz No. 3 In A Minor Op. 34 No. 2 (\"Valse Brillante\")",
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              1792321
+            ]
+          },
+          {
+            "target": "Waltz No. 8 In A-Flat Major Op. 64 No. 3",
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              1792322
+            ]
+          },
+          {
+            "target": "Waltz No. 12 In F Minor, Op. 70 No. 2",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Waltz No. 13 In D-Flat Major, Op. 70 No. 3",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Waltz No. 1 In E-Flat Major, Op. 18 (\"Grande Valse Brillante\")",
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              1792325
+            ]
+          },
+          {
+            "target": "Waltz No. 2 In A-Flat Major Op. 34 No. 1 (\"Valse Brillante\")",
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              1792326
+            ]
+          }
+        ],
+        "reasons": [
+          "8/14 target items supported after composer/work grouping; unresolved."
+        ]
+      },
+      "completeness": {
+        "status": "unknown",
+        "works": [
+          {
+            "target": "Waltz No. 4 In F Major Op. 34 No. 3 (\"Valse Brilliante\")",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Waltz No. 5 In A-Flat Major Op. 42 (The \"Two-Four\" Valse)",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Waltz No. 6 In D-Flat Major Op. 64 No. 1 (\"Minute\" Valse)",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Waltz No. 9 In A-Flat Major Op. 69 No. 1 (\"L'Adieu\")",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Waltz No. 7 In C-Sharp Minor Op. 64 No. 2",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Waltz No. 11 In G-Flat Major Op. 70 No. 1",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Waltz No. 10 In B Minor Op. 69 No. 2",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Waltz No. 14 In E Minor Posthumous",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Waltz No. 3 In A Minor Op. 34 No. 2 (\"Valse Brillante\")",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Waltz No. 8 In A-Flat Major Op. 64 No. 3",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Waltz No. 12 In F Minor, Op. 70 No. 2",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Waltz No. 13 In D-Flat Major, Op. 70 No. 3",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Waltz No. 1 In E-Flat Major, Op. 18 (\"Grande Valse Brillante\")",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Waltz No. 2 In A-Flat Major Op. 34 No. 1 (\"Valse Brillante\")",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "review_decision": "probable",
+      "finding": "Fourteen waltzes bound one-to-one in LP order; explicit posthumous tokens reviewed, three bonus pieces excluded; July1950 provenance supported."
+    },
+    {
+      "discogs_id": "11412875",
+      "album_id": "v96ulyegxutlc",
+      "target_sha256": "fdd19f75e1cd945fdae85e403a551733ac74a106532f0e17ccd115a1f656668e",
+      "album_sha256": "b444730fa0e3250e948f8797d0d5ea92be6d194bea225f94e1aa0ae324d803b1",
+      "target_title": "Symphony No. 4 Opus 29 (The Inextinguishable)",
+      "candidate_title": "Nielsen: Symphony No. 4, Op. 29 \"The Inextinguishable\"",
+      "track_count": 4,
+      "assessment": {
+        "status": "unchecked",
+        "confidence": null,
+        "coverage": 0.5,
+        "covered": 2,
+        "target_count": 4,
+        "required_performers": [
+          "Sir John Barbirolli",
+          "Hallé Orchestra"
+        ],
+        "programme": [
+          {
+            "target": "Allegro",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Poco Allegretto",
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              100489957
+            ]
+          },
+          {
+            "target": "Poco Adagio Quasi Andante",
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              100489958
+            ]
+          },
+          {
+            "target": "Allegro",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          }
+        ],
+        "reasons": [
+          "2/4 target items supported after composer/work grouping; unresolved."
+        ]
+      },
+      "completeness": {
+        "status": "unknown",
+        "works": [
+          {
+            "target": "Allegro",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Poco Allegretto",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Poco Adagio Quasi Andante",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Allegro",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "review_decision": "withheld",
+      "finding": "Four candidate movements; duplicate target Allegro labels need source-position mapping before completeness can be established."
+    },
+    {
+      "discogs_id": "1458083",
+      "album_id": "0886444299039",
+      "target_sha256": "18a0212beadbc915d01733773a8a84f7bbbefdfa9cef8184eba7e8810d1fe2b9",
+      "album_sha256": "8830febe1b87bcef9591885a61035c2b4571276458ed586acb9ad50eae421e33",
+      "target_title": "Two And Three Part Inventions / Zwei- Und Dreistimmige Inventionen / Inventions À Deux Et À Trois Voix",
+      "candidate_title": "Bach:  Two and Three Part Inventions",
+      "track_count": 30,
+      "assessment": {
+        "status": "unchecked",
+        "confidence": null,
+        "coverage": 0.0,
+        "covered": 0,
+        "target_count": 1,
+        "required_performers": [
+          "Glenn Gould"
+        ],
+        "programme": [
+          {
+            "target": "Two And Three Part Inventions",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          }
+        ],
+        "reasons": [
+          "0/1 target items supported after composer/work grouping; unresolved."
+        ]
+      },
+      "completeness": {
+        "status": "unknown",
+        "works": [
+          {
+            "target": "Two And Three Part Inventions",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "review_decision": "withheld",
+      "finding": "Target normalized as one umbrella heading;30track BWV programme requires independently validated source hierarchy interpretation."
+    },
+    {
+      "discogs_id": "10175959",
+      "album_id": "0883629934709",
+      "target_sha256": "a0c4c655960a64b56c6991f87de53457de6edf6405c2384eeb7335772951f469",
+      "album_sha256": "11f89098fcbf162815f33008cd26c09e9527d7aac9d1b459898617fcd9025e19",
+      "target_title": "Violin Concerto In D Major",
+      "candidate_title": "Brahms: Violin Concerto in D, Op. 77",
+      "track_count": 3,
+      "assessment": {
+        "status": "probable",
+        "confidence": 0.85,
+        "coverage": 1.0,
+        "covered": 1,
+        "target_count": 1,
+        "required_performers": [
+          "Sir John Barbirolli",
+          "Fritz Kreisler",
+          "London Philharmonic Orchestra"
+        ],
+        "programme": [
+          {
+            "target": "Violin Concerto In D Major, Op. 77",
+            "work_tracks": 3,
+            "credited_tracks": 3,
+            "track_ids": [
+              4056080,
+              4056081,
+              4056082
+            ]
+          }
+        ],
+        "reasons": [
+          "Each target item has supporting work and performer credits.",
+          "Grouped movements or extra recordings require review; recording identity is not confirmed."
+        ]
+      },
+      "completeness": {
+        "status": "complete",
+        "works": [
+          {
+            "target": "Violin Concerto In D Major, Op. 77",
+            "status": "complete",
+            "expected_movements": [
+              1,
+              2,
+              3
+            ],
+            "observed_movements": [
+              1,
+              2,
+              3
+            ],
+            "missing_movements": [],
+            "track_ids": [
+              4056080,
+              4056081,
+              4056082
+            ],
+            "source": "https://www.laphil.com/works/violin-concerto-in-d-major-op-77",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "review_decision": "probable",
+      "finding": "Three complete Brahms movements with Kreisler/Barbirolli/London Philharmonic; recording-family lead, exact transfer unverified."
+    },
+    {
+      "discogs_id": "5254294",
+      "album_id": "0002894557942",
+      "target_sha256": "45c0eb299586ff98e6fdbdd89862c45501bd1c7e1b4952fb67f84b8e3ffd6621",
+      "album_sha256": "aaa14839f9dfad156ad231c21004590a09ec9a83326898a57444abb914f59844",
+      "target_title": "Complete Wind Music Vol. 4",
+      "candidate_title": "Mozart: Complete Wind Music",
+      "track_count": 61,
+      "assessment": {
+        "status": "unchecked",
+        "confidence": null,
+        "coverage": 0.0,
+        "covered": 0,
+        "target_count": 4,
+        "required_performers": [
+          "London Wind Soloists",
+          "Jack Brymer"
+        ],
+        "programme": [
+          {
+            "target": "Divertimento In B Flat For 2 Oboes, 2 Bassoons And 2 Horns, K.240",
+            "work_tracks": 4,
+            "credited_tracks": 0,
+            "track_ids": [],
+            "required_performers": [
+              "London Wind Soloists",
+              "Roger Birnstingl",
+              "Alan Civil",
+              "Ian Beers (2)",
+              "James Brown (10)",
+              "Terence MacDonagh"
+            ],
+            "target_credit_scope": {
+              "source": "cached Discogs explicit work/position credits",
+              "positions": [
+                "A1.a",
+                "A1.b",
+                "A1.c",
+                "A1.d"
+              ],
+              "performers": [
+                {
+                  "name": "Roger Birnstingl",
+                  "role": "Bassoon"
+                },
+                {
+                  "name": "Alan Civil",
+                  "role": "Horn"
+                },
+                {
+                  "name": "Ian Beers (2)",
+                  "role": "Horn"
+                },
+                {
+                  "name": "James Brown (10)",
+                  "role": "Oboe"
+                },
+                {
+                  "name": "Terence MacDonagh",
+                  "role": "Oboe"
+                }
+              ]
+            }
+          },
+          {
+            "target": "Divertimento In E Flat For 2 Oboes, 2 Bassoons And 2 Horns, K.252",
+            "work_tracks": 4,
+            "credited_tracks": 0,
+            "track_ids": [],
+            "required_performers": [
+              "London Wind Soloists",
+              "Roger Birnstingl",
+              "Alan Civil",
+              "Ian Beers (2)",
+              "James Brown (10)",
+              "Terence MacDonagh"
+            ],
+            "target_credit_scope": {
+              "source": "cached Discogs explicit work/position credits",
+              "positions": [
+                "A2.a",
+                "A2.b",
+                "A2.c",
+                "A2.d"
+              ],
+              "performers": [
+                {
+                  "name": "Roger Birnstingl",
+                  "role": "Bassoon"
+                },
+                {
+                  "name": "Alan Civil",
+                  "role": "Horn"
+                },
+                {
+                  "name": "Ian Beers (2)",
+                  "role": "Horn"
+                },
+                {
+                  "name": "James Brown (10)",
+                  "role": "Oboe"
+                },
+                {
+                  "name": "Terence MacDonagh",
+                  "role": "Oboe"
+                }
+              ]
+            }
+          },
+          {
+            "target": "Divertimento In E Flat For 2 Oboes, 2 Clarinets, 2 Bassoons And 2 Horns, KA.226",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": [],
+            "required_performers": [
+              "London Wind Soloists",
+              "Roger Birnstingl",
+              "Jack Brymer",
+              "Walter Lear",
+              "Alan Civil",
+              "Ian Beers (2)",
+              "James Brown (10)",
+              "Terence MacDonagh"
+            ],
+            "target_credit_scope": {
+              "source": "cached Discogs explicit work/position credits",
+              "positions": [
+                "B1.a",
+                "B1.b",
+                "B1.c",
+                "B1.d",
+                "B1.e"
+              ],
+              "performers": [
+                {
+                  "name": "Roger Birnstingl",
+                  "role": "Bassoon"
+                },
+                {
+                  "name": "Jack Brymer",
+                  "role": "Clarinet"
+                },
+                {
+                  "name": "Walter Lear",
+                  "role": "Clarinet"
+                },
+                {
+                  "name": "Alan Civil",
+                  "role": "Horn"
+                },
+                {
+                  "name": "Ian Beers (2)",
+                  "role": "Horn"
+                },
+                {
+                  "name": "James Brown (10)",
+                  "role": "Oboe"
+                },
+                {
+                  "name": "Terence MacDonagh",
+                  "role": "Oboe"
+                }
+              ]
+            }
+          },
+          {
+            "target": "Adagio In F For 2 Basset Horns And Bassoon, K.410",
+            "work_tracks": 1,
+            "credited_tracks": 0,
+            "track_ids": [],
+            "required_performers": [
+              "London Wind Soloists",
+              "Stephen Trier",
+              "Walter Lear"
+            ],
+            "target_credit_scope": {
+              "source": "cached Discogs explicit work/position credits",
+              "positions": [
+                "B2"
+              ],
+              "performers": [
+                {
+                  "name": "Stephen Trier",
+                  "role": "Basset Horn"
+                },
+                {
+                  "name": "Walter Lear",
+                  "role": "Basset Horn"
+                }
+              ]
+            }
+          }
+        ],
+        "reasons": [
+          "0/4 target items supported after composer/work grouping; unresolved.",
+          "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
+        ],
+        "work_group_policy": "qobuz-work-groups-v1"
+      },
+      "completeness": {
+        "status": "unknown",
+        "works": [
+          {
+            "target": "Divertimento In B Flat For 2 Oboes, 2 Bassoons And 2 Horns, K.240",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Divertimento In E Flat For 2 Oboes, 2 Bassoons And 2 Horns, K.252",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Divertimento In E Flat For 2 Oboes, 2 Clarinets, 2 Bassoons And 2 Horns, KA.226",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Adagio In F For 2 Basset Horns And Bassoon, K.410",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "review_decision": "withheld",
+      "finding": "Several work titles present, but required credits and KA.226 catalogue correspondence unresolved; no general ensemble alias."
+    },
+    {
+      "discogs_id": "6264736",
+      "album_id": "0002894552472",
+      "target_sha256": "d329ac63c046f8946720b870c752a5aae5b7012a28ea6839b2197c7f0c232767",
+      "album_sha256": "f54c17d99ad82fbef7878f6cd97b3bf0dab94660f64da0a2e574fd9c8533d222",
+      "target_title": "Brahms Piano Works Vol 8",
+      "candidate_title": "Brahms: Works for Solo Piano",
+      "track_count": 77,
+      "assessment": {
+        "status": "unchecked",
+        "confidence": null,
+        "coverage": 0.5,
+        "covered": 1,
+        "target_count": 2,
+        "required_performers": [
+          "Julius Katchen"
+        ],
+        "programme": [
+          {
+            "target": "Sonata In F Minor, Op. 5",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Scherzo In E Flat Minor, Op. 4",
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              551989
+            ]
+          }
+        ],
+        "reasons": [
+          "1/2 target items supported after composer/work grouping; unresolved."
+        ]
+      },
+      "completeness": {
+        "status": "unknown",
+        "works": [
+          {
+            "target": "Sonata In F Minor, Op. 5",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Scherzo In E Flat Minor, Op. 4",
+            "status": "complete",
+            "scope": "listed-target-track",
+            "track_ids": [
+              551989
+            ],
+            "target_duration_seconds": 510,
+            "candidate_duration_seconds": 509,
+            "source": "collection tracklist",
+            "reason": "Single credited title correspondence with duration within max(5 seconds, 3%); not whole-work or recording-session proof."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "review_decision": "withheld",
+      "finding": "Scherzo supported; target Op.5 sonata has no current matching title support in the saved file."
+    },
+    {
+      "discogs_id": "6347314",
+      "album_id": "0002894552472",
+      "target_sha256": "882956b812fa5442f85a9c38a0848866a78f3b32ce8f940adeab37afbc2d06fd",
+      "album_sha256": "f54c17d99ad82fbef7878f6cd97b3bf0dab94660f64da0a2e574fd9c8533d222",
+      "target_title": "Brahms Piano Works Vol. 4",
+      "candidate_title": "Brahms: Works for Solo Piano",
+      "track_count": 77,
+      "assessment": {
+        "status": "unchecked",
+        "confidence": null,
+        "coverage": 0.25,
+        "covered": 1,
+        "target_count": 4,
+        "required_performers": [
+          "Julius Katchen"
+        ],
+        "programme": [
+          {
+            "target": "Waltzes, Op. 39",
+            "work_tracks": 2,
+            "credited_tracks": 2,
+            "track_ids": [
+              551977,
+              551983
+            ]
+          },
+          {
+            "target": "Rhapsody, Op. 79, No. 1",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Rhapsody, Op. 79, No. 2",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Ballades, Op. 10",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          }
+        ],
+        "reasons": [
+          "1/4 target items supported after composer/work grouping; unresolved."
+        ]
+      },
+      "completeness": {
+        "status": "unknown",
+        "works": [
+          {
+            "target": "Waltzes, Op. 39",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Rhapsody, Op. 79, No. 1",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Rhapsody, Op. 79, No. 2",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Ballades, Op. 10",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "review_decision": "withheld",
+      "finding": "Waltz title support alone does not cover listed rhapsodies/ballades; exact scope unresolved."
+    },
+    {
+      "discogs_id": "7291398",
+      "album_id": "0002894552472",
+      "target_sha256": "ce6eb1105234f128a87f2304b0a220992ffda1f8e634dc8ea4116fa42469ccad",
+      "album_sha256": "f54c17d99ad82fbef7878f6cd97b3bf0dab94660f64da0a2e574fd9c8533d222",
+      "target_title": "Brahms Piano Works Vol. 3",
+      "candidate_title": "Brahms: Works for Solo Piano",
+      "track_count": 77,
+      "assessment": {
+        "status": "unchecked",
+        "confidence": null,
+        "coverage": 0.0,
+        "covered": 0,
+        "target_count": 2,
+        "required_performers": [
+          "Julius Katchen"
+        ],
+        "programme": [
+          {
+            "target": "Sonata In C Major, Op. 1",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Sonata In F Sharp Minor, Op. 2",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          }
+        ],
+        "reasons": [
+          "0/2 target items supported after composer/work grouping; unresolved."
+        ]
+      },
+      "completeness": {
+        "status": "unknown",
+        "works": [
+          {
+            "target": "Sonata In C Major, Op. 1",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Sonata In F Sharp Minor, Op. 2",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "review_decision": "withheld",
+      "finding": "Neither requested sonata currently has title/work support in this saved file; no title-similarity promotion."
+    }
+  ],
+  "policy": "Offline structural screen, not match acceptance. Missing support is unresolved, not catalogue absence. Full recording/programme review required.",
+  "summary": {
+    "metadata_albums": 9,
+    "complete_tracks": 216,
+    "reviewed_release_leads": 11,
+    "new_probables": 2,
+    "withheld": 9
+  }
+}

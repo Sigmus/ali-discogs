@@ -130,3 +130,43 @@ Op.54 split Beginning/Conclusion and conflicting G-major label for Op.49/1;
 Klemperer6113868/6119375 has a multi-track split fourth movement and scoped
 singer/chorus requirements. Keep them unpublished until a new bounded review
 is explicitly scoped; do not simply collapse duplicate movement4 markers.
+
+## Nine-album batch authorized
+
+User said “do it” after the9album/11release proposal. Fixed entries stay unchanged
+so scope/search/collection fingerprints remain valid. Worker
+`uv run --with requests python scripts/qobuz_remaining_followup.py --fetch`;
+state `.qobuz-poc/remaining-followup-2026-11-14/` with immutable manifest, per-album
+outputs, progress.json, run.log and STOP. Same15second pacing/120second rest per50
+HTTP requests, complete pagination and no warning retry. Export sanitized
+`data/qobuz_remaining_followup_metadata.json.gz`; no audio or automatic matches.
+After completion: validate all9albums/fullunique tracks, export shared request
+archive/canonical URLs, screen11target relationships offline, then audit within
+existing review types. No further scope expansion/push/deploy.
+
+## Nine-album batch complete and audited
+
+Finished14November18:36Amsterdam:9/9albums,216tracks,11HTTP attempts including
+discovery; no warnings. All manifest IDs/counts/unique tracks validated. Shared
+archive2,497responses, prior2,488members byte-preserved;1,157canonical URLs.
+No monitor needed; worker/sleep assertion ended normally.
+
+Audit script/report:`qobuz_remaining_followup_audit.py` and corresponding data
+JSON, all11target relationships. Lipatti7194998 Probable85:14waltzes in LP order,
+explicit posthumous tokens source-bound,3extra pieces excluded; Warner1950Geneva
+recording/production support. Kreisler10175959 Probable85:3Brahms movements,
+Barbirolli/London Philharmonic; exact third-party transfer unverified.
+
+Remaining9leads withheld: Nabucco track-credit/part headings, individual cellist
+credits, Kid Ory four-versus16 programme, Nielsen duplicate Allegro position,
+Gould nested BWV programme, Mozart credits/catalogue and3Katchen programme gaps.
+No discarded required performers or invented metadata. Existing bound-track
+review used for Lipatti; new source-bound types are not silently introduced.
+
+Brahms Op.77 inventory also changes historical baseline audit4226783 from
+unresolved to structurally supported; original66labels and v1scores unchanged.
+Saved audit now8supported/57unresolved/1insufficient-credit.125script tests pass,
+UI normalization/build/browser details pass. Publication diff exactly2new
+Probables. Global unmatched inventory now uses all new archives:620unique
+unchecked =422work/credit +170metadata-needed +12completeness +7withheld
++6no-hits +3recording-review. Broader retrieval remains unscoped.

@@ -12,7 +12,7 @@ explorer. [README](../../README.md) owns setup and architecture;
   table headers). Retrieval complete; first offline screen/audit complete. Deployment not verified.
 - Collection: 741 copies / 740 unique releases. Current saved labels: Spotify
   254 Found / 273 Probable / 210 Not found / 4 Unchecked; Qobuz
-  12 Found / 106 Probable / 623 Unchecked copies (14 November snapshot).
+  12 Found / 108 Probable / 621 Unchecked copies (14 November snapshot).
 - Spotify’s legacy album-level labels and stricter Qobuz evidence levels are
   not comparable accuracy or catalogue-coverage measurements. Both status and
   score are saved data. Qobuz 95/85 are heuristic levels, not probabilities.
@@ -49,7 +49,7 @@ explorer. [README](../../README.md) owns setup and architecture;
 - Track positions/types/durations retained when saved; country/released shown.
   Schumann7946604 still has only a work heading in the saved source.
 
-## Retrieval complete — offline follow-up next
+## Retrieval and follow-up complete
 
 - Fixed 12 +305 scope completed14November16:02Amsterdam:83 metadata albums,
   1,313tracks;603queries,520nonempty/83empty.299/305releases have a hit,
@@ -58,19 +58,19 @@ explorer. [README](../../README.md) owns setup and architecture;
   exports saved in `data/qobuz_remaining_{metadata,search}.json.gz`.
 - Shared request archive exported/validated:2,488responses, all1,857 prior
   members byte-preserved. Canonical index1,148URLs;5URL tests pass.
-- Search503fresh HTTP attempts/100cache reuses; metadata85HTTP attempts incl
-  overhead. No warning reported; no restart/new-hit download. Hourly monitor
-  removed on completion. Run state remains `.qobuz-poc/remaining-2026-11-14/`.
+- Follow-up9albums/216tracks complete18:36Amsterdam;11HTTP attempts including
+  discovery, no warnings. Request archive2,497responses (all previous preserved),
+  canonical index1,157URLs. Both runs stopped normally; sleep assertion ended.
 - Retrieval exports and first reviews committed locally, not pushed. See
   [run plan](../plans/2026-11-14-qobuz-remaining-retrieval.md).
 
 ## Offline follow-up checkpoint
 
-- Screened2,227pairs:13complete programme/credit leads,
-  330cached unresolved pairs,1,884pairs missing full metadata. Eight new
+- Screened2,227pairs:14complete programme/credit leads,
+  345cached unresolved pairs,1,868pairs missing full metadata. Ten new
   Probable releases now published locally after bounded reviews.
 - Michelangeli sonata3285095/Concerto1 3672809 and Gilels7914875 completed.
-  Nine Beethoven plus Chopin Op.11 inventory additions;120script tests pass.
+  Nine Beethoven plus Chopin Op.11 inventory additions;125script tests pass.
 - [Offline plan](../plans/2026-11-14-qobuz-offline-followup.md) owns findings and
   exact next steps. Two network-forbidden/fail-closed regression tests pass.
 
@@ -91,7 +91,9 @@ new-hit downloads, automatic promotions, pushes or deployment. Bitches Brew’s
 credit exception remains a proposal. Preserve source/hash-bound review safeguards;
 never loosen credits or invent recording identity to improve a count.
 
-Next action: review proposed9-album/11-release metadata scope before any calls;
-remaining closest cached gaps require new source-bound review treatment.
-Toscanini/version conflicts remain withheld; see offline plan.
+Next action: scope a source-bound review for repeated Nielsen movement labels
+or Gould’s nested BWV programme. Nine-album follow-up complete216tracks:
+Lipatti7194998 and Kreisler10175959 Probable;9release leads withheld.
+Current620unchecked unique releases:422work/credit gaps,170metadata-needed,
+12completeness,7reviewed withholds,6no hits,3recording reviews. No auto calls.
 [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).
