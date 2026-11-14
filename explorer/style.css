@@ -489,9 +489,13 @@ th.sortable button {
   display:flex;
   flex-wrap:wrap;
   gap:4px;
-  margin:0 0 12px;
+  margin:0;
 }
 .grid-sort button {
+  font-size:12px;
+  font-weight:600;
+  text-transform:uppercase;
+  letter-spacing:.025em;
   background:transparent;
   border-color:transparent;
   color:var(--c-muted);
@@ -628,3 +632,6 @@ th.sortable button {
 .discogs-brand-link:hover { color:var(--c-accent); }
 
 .filters .search input { height:26px; min-height:26px; padding:3px 8px; font-size:13px; line-height:1.3; }
+
+.list-bar-start { display:flex; align-items:center; flex-wrap:wrap; gap:8px 16px; min-width:0; }
+.list-bar .view-switch { margin-left:auto; }

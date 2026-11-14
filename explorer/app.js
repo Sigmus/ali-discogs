@@ -762,7 +762,7 @@
       return `<a class="cover-card" href="${href}">${sleeve}<span class="sleeve-title">${title}</span><span class="sleeve-meta">${composer}</span><span class="sleeve-meta">${year}</span>${marksHtml(it)}</a>`;
     }
     function sortBar() {
-      const labels = { title: "Album", year: "Year", composer: "Composer", performers: "Artists", spotify: "Spotify", qobuz: "Qobuz" };
+      const labels = { year: "Year", composer: "Composer" };
       return `<div class="grid-sort">${Object.keys(labels).map(key => {
         const active = state.sort === key;
         const sortClass = active ? (state.dir === "desc" ? "sort-desc" : "sort-asc") : "";
@@ -775,13 +775,14 @@
       showing.textContent = rows.length === items.length
         ? `${items.length.toLocaleString()} releases`
         : `Showing ${rows.length.toLocaleString()} of ${items.length.toLocaleString()}`;
+      $("view-sort").innerHTML = state.view ? sortBar() : "";
       shelf.setAttribute("aria-busy", "false");
       if (!rows.length) {
         shelf.innerHTML = `<div class="empty"><p>${esc(emptyMessage())}</p><button type="button" data-clear>Clear filters</button></div>`;
         return;
       }
       if (state.view) {
-        shelf.innerHTML = `${sortBar()}<div class="cover-grid is-${state.view}">${rows.map(cardHtml).join("")}</div>`;
+        shelf.innerHTML = `<div class="cover-grid is-${state.view}">${rows.map(cardHtml).join("")}</div>`;
         return;
       }
       shelf.innerHTML = `<div class="table-wrap"><table class="album-table"><colgroup><col style="width:48px"><col class="col-album" style="width:26%"><col class="col-year" style="width:75px"><col class="col-composer" style="width:18%"><col class="col-artists"><col class="col-status" style="width:145px"><col style="width:125px"></colgroup><thead><tr><th aria-label="Cover"></th>${headerHtml("Album", "title")}${headerHtml("Year", "year", "col-year")}${headerHtml("Composer", "composer")}${headerHtml("Artists", "performers", "col-artists")}${headerHtml("Spotify", "spotify")}${headerHtml("Qobuz", "qobuz")}</tr></thead><tbody>${rows.map(rowHtml).join("")}</tbody></table></div>`;
@@ -820,7 +821,7 @@
       syncControls();
       commit();
     });
-    shelf.addEventListener("click", e => {
+    $("collection-view").addEventListener("click", e => {
       if (e.target.closest("[data-clear]")) clearFilters();
       const button = e.target.closest("button[data-sort]");
       if (!button) return;
@@ -829,7 +830,7 @@
       state.sort = key;
       syncControls();
       commit();
-      shelf.querySelector(`button[data-sort="${key}"]`).focus({ preventScroll: true });
+      $("collection-view").querySelector(`button[data-sort="${key}"]`)?.focus({ preventScroll: true });
     });
     function clearFilters() {
       const view = state.view;

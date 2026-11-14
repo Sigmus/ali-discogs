@@ -1226,3 +1226,12 @@ Search moved after Decade in the same single-column grid width as the pickers.
 Clear now occupies one grid cell immediately after Search.
 
 Search input height/padding matched to multi-select triggers (26px,3px 8px).
+
+## 2026-11-14 — Non-table sorting bar aligned with result count
+
+Captions/Shelf sorts now sit immediately after release count, limited to Year,
+Composer, Spotify and Qobuz, using table-header uppercase type styling. Table
+column sorts unchanged; sorting event handling covers the count row as well.
+
+Non-table sort refinement: removed Spotify/Qobuz buttons; Captions/Shelf offer
+Year and Composer only. Table sorting remains available on all columns.
