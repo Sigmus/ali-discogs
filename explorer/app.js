@@ -449,8 +449,6 @@
     const reset = $("reset");
     const showing = $("showing");
     const shelf = $("shelf");
-    const foot = $("foot");
-    const sampleLink = $("sample-link");
     const themeBtn = $("theme");
     const form = $("filters");
     let items = [];
@@ -893,10 +891,6 @@
       ? "data/fixture.json"
       : "data/collection_matches.json";
     sample = file.endsWith("fixture.json");
-    if (sample) {
-      sampleLink.href = "./";
-      sampleLink.textContent = "Back to the collection";
-    }
     fetch(file)
       .then(res => {
         if (!res.ok) throw new Error(res.status + " " + res.statusText);
@@ -922,10 +916,6 @@
         fillFilters();
         syncControls();
         showNotice(meta);
-        const when = meta.fetched_at ? addedLabel(meta.fetched_at) : "";
-        foot.textContent = when
-          ? `Discogs collection fetched ${when}. Cover images load from Discogs.`
-          : "Cover images load from Discogs.";
         renderShelf();
         renderDetail();
       })

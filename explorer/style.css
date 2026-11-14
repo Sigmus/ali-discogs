@@ -126,7 +126,7 @@ button:disabled {
   color:var(--c-muted);
 }
 .filters .search {
-  grid-column:1 / -1;
+  grid-column:auto;
 }
 input,select {
   width:100%;
@@ -437,7 +437,7 @@ th.sortable button {
   display:flex;
   align-items:center;
   gap:12px;
-  grid-column:span 2;
+  grid-column:auto;
   min-height:25px;
 }
 .qobuz-candidates { list-style:none; padding:0; }
@@ -622,3 +622,9 @@ th.sortable button {
 .multi-footer { gap:12px; flex-wrap:wrap; }
 .multi-alphabetical { display:flex; flex-direction:row; align-items:center; gap:5px; font-size:12px; color:var(--c-muted); cursor:pointer; margin:0; }
 .multi-alphabetical input[type=checkbox] { appearance:auto; width:13px; height:13px; min-width:13px; flex:0 0 13px; margin:0; padding:0; accent-color:var(--c-accent); }
+
+.brand-line { display:flex; align-items:baseline; gap:6px; flex-wrap:wrap; }
+.discogs-brand-link { color:var(--c-muted); font-size:11px; }
+.discogs-brand-link:hover { color:var(--c-accent); }
+
+.filters .search input { height:26px; min-height:26px; padding:3px 8px; font-size:13px; line-height:1.3; }

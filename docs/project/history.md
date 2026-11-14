@@ -1207,3 +1207,22 @@ User chose Alphabetical checkbox between selected count and Clear selection.
 Removed global switch; frequency default independently per dropdown. Browser
 checks ordering, selection preservation and reopening; filter regression/JS/build
 pass. No matching/data changes or Qobuz worker interference. No commit/push.
+
+## 2026-11-14 — Collection title renamed
+
+User requested ajozi vinyl (corrected spelling from vynils). Updated main
+header brand and browser title; rebuilt local UI.
+
+## 2026-11-14 — Discogs link moved to header
+
+Removed collection footer (cover note, duplicated Discogs link and sample/back
+link). Header now reads ajozi vinyl on Discogs, linking directly to the Discogs
+collection. Fixture URL remains supported; removed obsolete footer bindings.
+
+Header refinement: on Discogs link reduced to11px, retaining baseline alignment.
+
+Search moved after Decade in the same single-column grid width as the pickers.
+
+Clear now occupies one grid cell immediately after Search.
+
+Search input height/padding matched to multi-select triggers (26px,3px 8px).

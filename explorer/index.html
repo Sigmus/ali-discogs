@@ -3,7 +3,7 @@
 <head>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
-<title>Ali's collection</title>
+<title>ajozi vinyl</title>
 <script>
 try {
   var t = localStorage.getItem("ali-discogs-theme");
@@ -18,14 +18,15 @@ try {
 </head>
 <body>
 <a class="skip" href="#shelf">Skip to releases</a>
-<header class="app-header"><a class="brand" href="./">Ali’s collection</a><button id="theme" aria-label="Switch theme"><span class="icon-moon">☽</span><span class="icon-sun">☀</span></button></header>
+<header class="app-header"><div class="brand-line"><a class="brand" href="./">ajozi vinyl</a><a class="discogs-brand-link" href="https://www.discogs.com/user/ajozi/collection" target="_blank" rel="noopener noreferrer">on Discogs</a></div><button id="theme" aria-label="Switch theme"><span class="icon-moon">☽</span><span class="icon-sun">☀</span></button></header>
 <main class="page-shell">
 <section id="collection-view">
 <form id="filters" class="filters">
-<label class="search">Search<input id="q" type="search" placeholder="Title, composer, performer" autocomplete="off"></label>
+
 <div class="filter-field"><span id="sp-label">Spotify match</span><select class="view-select" id="sp" multiple hidden aria-hidden="true" tabindex="-1" data-placeholder="All statuses"><option value="">All statuses</option><option value="found">Found</option><option value="probable">Probable</option><option value="not_found">Not found</option><option value="pending">Pending</option><option value="unchecked">Unchecked</option></select></div>
 <div class="filter-field"><span id="qb-label">Qobuz match</span><select class="view-select" id="qb" multiple hidden aria-hidden="true" tabindex="-1" data-placeholder="All statuses"><option value="">All statuses</option></select></div>
 <div class="filter-field"><span id="composer-label">Composer</span><select class="view-select" id="composer" multiple hidden aria-hidden="true" tabindex="-1" data-placeholder="Any"><option value="">Any</option></select></div><div class="filter-field"><span id="label-label">Label</span><select class="view-select" id="label" multiple hidden aria-hidden="true" tabindex="-1" data-placeholder="Any"><option value="">Any</option></select></div><div class="filter-field"><span id="genre-label">Genre or style</span><select class="view-select" id="genre" multiple hidden aria-hidden="true" tabindex="-1" data-placeholder="Any"><option value="">Any</option></select></div><div class="filter-field"><span id="decade-label">Decade</span><select class="view-select" id="decade" multiple hidden aria-hidden="true" tabindex="-1" data-placeholder="Any"><option value="">Any</option></select></div>
+<label class="search">Search<input id="q" type="search" placeholder="Title, composer, performer" autocomplete="off"></label>
 <div class="filter-actions"><button id="reset" type="button" disabled>Clear</button></div>
 </form>
 <div class="list-bar"><p id="showing" class="quiet" aria-live="polite"></p><div class="view-switch" role="group" aria-label="Layout"><button type="button" data-view="table" aria-pressed="true" aria-label="Table" title="Table"><svg viewBox="0 0 16 16" aria-hidden="true"><path d="M3 4.5h10M3 8h10M3 11.5h10"/></svg></button><button type="button" data-view="captions" aria-label="Captions" title="Captions"><svg viewBox="0 0 16 16" aria-hidden="true"><rect x="2.25" y="2.25" width="5.5" height="5.5" rx=".6"/><path d="M10 3.6h4M10 6.2h4M2.5 11h11M2.5 13.4h7"/></svg></button><button type="button" data-view="shelf" aria-label="Shelf" title="Shelf"><svg viewBox="0 0 16 16" aria-hidden="true"><rect x="2.25" y="2.25" width="4.5" height="4.5" rx=".6"/><rect x="9.25" y="2.25" width="4.5" height="4.5" rx=".6"/><rect x="2.25" y="9.25" width="4.5" height="4.5" rx=".6"/><rect x="9.25" y="9.25" width="4.5" height="4.5" rx=".6"/></svg></button></div></div>
@@ -33,7 +34,6 @@ try {
 </section>
 <section id="detail-view" hidden tabindex="-1"></section>
 <p id="notice" class="notice" hidden></p>
-<footer><span id="foot"></span><a href="https://www.discogs.com/user/ajozi/collection">ajozi on Discogs</a><a id="sample-link" href="?data=fixture">Sample data</a></footer>
 </main>
 <noscript>This page needs JavaScript to load the collection.</noscript>
 <script src="multi-picker.js?v=20261114-picker-order"></script>
