@@ -114,6 +114,8 @@ def assess_bindings(row, album, review):
         path = (ROOT/source['path']).resolve()
         if not path.is_relative_to((ROOT/'data/review_sources').resolve()) or hashlib.sha256(path.read_bytes()).hexdigest() != source['sha256']:
             raise ValueError('Reviewed external source evidence changed')
+    if 'album_version_equals' in review and album.get('version') != review['album_version_equals']:
+        raise ValueError('Reviewed album recording-year/version marker changed')
     evidence, assigned, extras = assign(row, album, review)
     if extras != review.get('extra_track_ids', []):
         raise ValueError('Extra tracks changed')
@@ -164,13 +166,18 @@ def assess_bindings(row, album, review):
             if labels != list(range(1, len(labels) + 1)):
                 blockers.append('movements')
     for spec in review.get('numbered_movement_runs') or []:
-        from qobuz_work_groups import ordinal
-        if [ordinal(tracks[i]['title']) for i in assigned[spec['target']]] != spec['movements']:
+        from qobuz_completeness import movement_number
+        if [movement_number(tracks[i]['title']) for i in assigned[spec['target']]] != spec['movements']:
             blockers.append('numbered-movements')
     for mark in review.get('marks') or []:
         track = tracks[mark['track_id']]
         if mark['text'] not in track['title']:
             blockers.append('mark')
+        if 'reference_duration_seconds' in mark:
+            duration = track.get('duration')
+            reference = mark['reference_duration_seconds']
+            if not isinstance(duration, (int, float)) or abs(duration-reference) > max(5, .03*reference):
+                blockers.append('reference-duration')
         for field in ('version', 'isrc'):
             if field+'_equals' in mark and track.get(field) != mark[field+'_equals']:
                 blockers.append('recording-'+field)

@@ -19,3 +19,9 @@ Pages rendered with Poppler at110dpi and visually inspected. Page numbers are
 one-based PDF pages. Original504page PDF is not included. The review ledger binds
 these image bytes with SHA256; source changes require review. No audio, secrets
 or authenticated requests are included.
+
+
+- `10757120-rca-sleeve.jpg`: inspected original RCA Victrola VL45801back sleeve,
+  from the cached Discogs image reference. It gives Carnegie Hall/14January1952.
+  Exact URL/hash are in the review ledger. This is recording-family evidence,
+  not verification of the third-party digital transfer or its stereo treatment.

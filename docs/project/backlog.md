@@ -10,13 +10,12 @@ in the [14 November archive](../plans/2026-11-14-backlog-detail-archive.md).
 
 Status: agreed priority; retrieval and first offline screen/audit complete.
 [Offline follow-up](../plans/2026-11-14-qobuz-offline-followup.md): recording review
-now includes twenty-one new Probables and shared inventory/parser fixes. Nine-album
+now includes twenty-two new Probables and shared inventory/parser fixes. Nine-album
 follow-up complete216tracks:7Probables/4withheld release leads after further
 reviews. Next:
-Toscanini10757120 RCA recording-family/source audit against cached1952lead.
-Three further Katchen LPs now Probable: key discrepancy disclosed, joined band
-verified from original label, session versus issue year reconciled. Saved source
-images/hash checks support offline reuse;149script tests pass. Nabucco/Mozart
+Klemperer24964822/26149643source-version evidence. Toscanini10757120now
+Probable from inspected RCA sleeve/date and documented RCA-reissue timings;
+third-party transfer remains unverified.151script tests pass. Nabucco/Mozart
 credit/catalogue gaps remain unresolved.
 170remaining metadata-needed releases are not a fetch mandate. Follow the
 [retrieval and follow-up plan](../plans/2026-11-14-qobuz-remaining-retrieval.md).

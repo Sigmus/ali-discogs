@@ -1565,3 +1565,19 @@ Next cached RCA/Toscanini recording-family audit.
 
 Validation:149script tests pass; UI normalization/build and all saved external
 evidence SHA checks pass. Mock429/STOP fixtures are not provider warnings.
+
+
+### 2026-11-14 — Toscanini RCA recording-family evidence
+
+10757120becomes Probable85. Inspected/saved original RCA sleeve gives Carnegie
+Hall14January1952; Pristine documents official RCA reissue date and five movement
+timings. Cached differences9/4/1/2/13seconds allwithin3%; no audio identity claim.
+Binding requires all5movements, Toscanini/NBC, source/photo hashes, year marker,
+exact ISRCs and duration guard. Numbered-run checks reuse existing strict movement
+parser including catalogue-qualified comma Romans. Third-party Arturo transfer
+and source Stereo-tag treatment remain unverified. Only1status changes; UI/build
+checks pass. Copies12Found/120Probable/609Unchecked; no Qobuz calls or push.
+Next two Klemperer source-version holds; artist/work similarity alone insufficient.
+
+Validation:151script tests pass; changed-year/timing/orchestra/photo regressions
+and UI normalization/build pass. Mock warnings are fixtures, not live errors.

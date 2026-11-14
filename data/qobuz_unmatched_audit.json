@@ -18,7 +18,7 @@
     "qobuz_remaining_search.json.gz": "ec5e39bf4c226fc7bf33bc21065d1213df11fb6e87731747a3cabadb8ae7eb96",
     "qobuz_remaining_followup_metadata.json.gz": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
     "collection_matches.json": "a214eee877d4749fa957b3d2a293c2925d7ba0621259f2742139a6cd86f928c8",
-    "qobuz_matches.json": "3eed769856cd967ff84fa54d9e18527a225cd12d25e42887a786eec3df36d159",
+    "qobuz_matches.json": "51ad9b57f2be962bfb20f4ff2b30008f2cc950bfab2bd32f4994c3a7ae2ce323",
     "qobuz_work_inventory.json": "47b8e955b99c37b132e66daea61590490d249f94a520740d702bec5caa5019ce",
     "qobuz_binding_reviews.json": "8e9290c053caf91b49e9cd32384be458d97e17d03c454e933a8648efadaeecd3",
     "qobuz_opera_recording_reviews.json": "6e26d528eb7de78d372635218404a57534332ea1cd3d92e89e90e7a18066f85b"
@@ -29,9 +29,9 @@
     "reviewed_withheld": 7,
     "no_saved_hits": 6,
     "completeness_review_needed": 6,
-    "recording_review_needed": 3
+    "recording_review_needed": 2
   },
-  "unmatched_unique_releases": 609,
+  "unmatched_unique_releases": 608,
   "entries": [
     {
       "discogs_id": "594243",
@@ -97917,157 +97917,6 @@
       "saved_hits": 8,
       "uncached_hits": 8,
       "cached_candidates": []
-    },
-    {
-      "discogs_id": "10757120",
-      "title": "Sinfonia N. 6 \"Pastorale\"",
-      "category": "recording_review_needed",
-      "saved_hits": 10,
-      "uncached_hits": 2,
-      "cached_candidates": [
-        {
-          "album_id": "lbd4bwo8ommnb",
-          "title": "Ludwig van Beethoven: Symphony No. 6 in F Major, Op. 68 (\"Pastorale\")",
-          "coverage": 1.0,
-          "status": "probable",
-          "completeness": "complete",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Sinfonia N. 6 Op. 68 In Fa Magg. \"Pastorale\"",
-              "work_tracks": 5,
-              "credited_tracks": 5,
-              "track_ids": [
-                302286458,
-                302286459,
-                302286460,
-                302286461,
-                302286462
-              ]
-            }
-          ]
-        },
-        {
-          "album_id": "0017685120329",
-          "title": "Ludwig van Beethoven: Complete Symphonies & Selected Overtures (1939)",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "incomplete",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Sinfonia N. 6 Op. 68 In Fa Magg. \"Pastorale\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "0743216665624",
-          "title": "Beethoven: Symphonies 1-9",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "incomplete",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Sinfonia N. 6 Op. 68 In Fa Magg. \"Pastorale\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "0828765570220",
-          "title": "Beethoven: Symphonies 1-9",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "incomplete",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Sinfonia N. 6 Op. 68 In Fa Magg. \"Pastorale\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "0886446344379",
-          "title": "Beethoven: Symphony No. 6 in F Major, Op. 68 \"Pastorale\" & Symphony No. 4 in B-Flat Major, Op. 60",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "incomplete",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Sinfonia N. 6 Op. 68 In Fa Magg. \"Pastorale\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "0886446345741",
-          "title": "Beethoven: Violin Concerto in D Major, Op. 61 & Piano Concerto No. 3 in C Minor, Op. 37",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "incomplete",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Sinfonia N. 6 Op. 68 In Fa Magg. \"Pastorale\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "0886446346205",
-          "title": "Beethoven: Missa Solemnis, Op. 123 - Cherubini: Requiem Mass No. 1 in C Minor",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "incomplete",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Sinfonia N. 6 Op. 68 In Fa Magg. \"Pastorale\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "o4kob3b17kiec",
-          "title": "Ludwig van Beethoven: Complete Symphonies & Selected Overtures (1939)",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "incomplete",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Sinfonia N. 6 Op. 68 In Fa Magg. \"Pastorale\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        }
-      ]
     },
     {
       "discogs_id": "10798025",

@@ -29,7 +29,7 @@
   "richter_review_fingerprint": "a14865f86e46150593e39bfa285fa6c7c61c8f46147b8094c0cb048fd02118ab",
   "round2_review_fingerprint": "be60742c3d35f5a9aa67f200642f7fcde98a52562a46130e043db8f4aa7c851e",
   "round2_metadata_fingerprint": "9db62d7bf62d4b77f5acf422dfde77959f845f4dc00b2ac0e10c02ccea295860",
-  "remaining_review_fingerprint": "7bc50fa10271223f738040b75243c5efa4e9dfe0ca667823bdccdf8f4f7993a8",
+  "remaining_review_fingerprint": "198dc20c68417e63aa8e3f81a53934a2f9ef65578ef7a6de128a60a0eb354ec7",
   "remaining_metadata_fingerprint": "393b2d12e176160ab311b65267b38bdc8c205222e12f792bf07eba5c1fcfafbf",
   "remaining_followup_metadata_fingerprint": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
   "remaining_followup_scope_fingerprint": "41780b365b45dcd74f5ffd053bfe546c3c873eae535dd66250297799f48c2daa",
@@ -129559,14 +129559,96 @@
       ]
     },
     "10757120": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "lbd4bwo8ommnb",
+        "name": "Ludwig van Beethoven: Symphony No. 6 in F Major, Op. 68 (\"Pastorale\")",
+        "artists": [
+          "Arturo Toscanini"
+        ],
+        "label": "Arturo",
+        "release_date": "2024-12-16",
+        "image": "https://static.qobuz.com/images/covers/nb/mm/lbd4bwo8ommnb_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/ludwig-van-beethoven-symphony-no-6-in-f-major-op-68-pastorale-arturo-toscanini-nbc-symphony-orchestra/lbd4bwo8ommnb"
+      },
+      "candidates": [
+        {
+          "id": "lbd4bwo8ommnb",
+          "name": "Ludwig van Beethoven: Symphony No. 6 in F Major, Op. 68 (\"Pastorale\")",
+          "artists": [
+            "Arturo Toscanini"
+          ],
+          "label": "Arturo",
+          "release_date": "2024-12-16",
+          "image": "https://static.qobuz.com/images/covers/nb/mm/lbd4bwo8ommnb_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/ludwig-van-beethoven-symphony-no-6-in-f-major-op-68-pastorale-arturo-toscanini-nbc-symphony-orchestra/lbd4bwo8ommnb",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 1,
+          "target_count": 1,
+          "required_performers": [
+            "Arturo Toscanini",
+            "NBC Symphony Orchestra"
+          ],
+          "programme": [
+            {
+              "target": "Sinfonia N. 6 Op. 68 In Fa Magg. \"Pastorale\"",
+              "work_tracks": 5,
+              "credited_tracks": 5,
+              "track_ids": [
+                302286458,
+                302286459,
+                302286460,
+                302286461,
+                302286462
+              ]
+            }
+          ],
+          "reasons": [
+            "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+            "The inspected RCA sleeve states Carnegie Hall,14January1952. Pristine documents that date for its reissue of the official RCA Pastoral. The saved Arturo album explicitly says Album of1952, credits Toscanini/NBC on all five movements, and each duration lies within3% of the documented RCA reissue. Together these support a Probable recording-family lead, not an authenticated RCA digital transfer.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "The digital label Arturo is a third-party issue with no independently verified transfer source or exact takes/mastering.",
+            "The source is tagged Stereo, although this is a historical1952recording; no stereo-channel/mastering equivalence is claimed.",
+            "Timing and year agreement are corroboration, not audio fingerprinting or proof of identical edits."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Sinfonia N. 6 Op. 68 In Fa Magg. \"Pastorale\"",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  302286458,
+                  302286459,
+                  302286460,
+                  302286461,
+                  302286462
+                ]
+              }
+            ]
+          },
+          "recording_review": "The inspected RCA sleeve states Carnegie Hall,14January1952. Pristine documents that date for its reissue of the official RCA Pastoral. The saved Arturo album explicitly says Album of1952, credits Toscanini/NBC on all five movements, and each duration lies within3% of the documented RCA reissue. Together these support a Probable recording-family lead, not an authenticated RCA digital transfer.",
+          "review_sources": [
+            "https://www.pristineclassical.com/products/pasc598",
+            "https://www.discogs.com/release/10757120",
+            "https://i.discogs.com/w3tLK_FBVGmXT6IqJR0x3gGXB73R3DWkj8wGInSInA8/rs:fit/g:sm/q:90/h:588/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNzU3/MTIwLTE1NjE4MzA1/MjItNDA1MS5qcGVn.jpeg"
+          ]
+        }
+      ],
       "query": "arturo toscanini beethoven sinfonia n 6 pastorale",
       "searched_at": "2026-11-12T17:31:58.835367+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+        "The inspected RCA sleeve states Carnegie Hall,14January1952. Pristine documents that date for its reissue of the official RCA Pastoral. The saved Arturo album explicitly says Album of1952, credits Toscanini/NBC on all five movements, and each duration lies within3% of the documented RCA reissue. Together these support a Probable recording-family lead, not an authenticated RCA digital transfer.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "The digital label Arturo is a third-party issue with no independently verified transfer source or exact takes/mastering.",
+        "The source is tagged Stereo, although this is a historical1952recording; no stereo-channel/mastering equivalence is claimed.",
+        "Timing and year agreement are corroboration, not audio fingerprinting or proof of identical edits."
       ]
     },
     "11885669": {

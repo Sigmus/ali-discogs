@@ -1,0 +1,50 @@
+{
+  "discogs_id": "10757120",
+  "album_id": "lbd4bwo8ommnb",
+  "reference_url": "https://www.pristineclassical.com/products/pasc598",
+  "reference_recording_date": "1952-01-14",
+  "source_photo": "data/review_sources/10757120-rca-sleeve.jpg",
+  "source_photo_sha256": "075dad935ee1dfdfa9cf5eb87e3f204f32d5b1553ce560b7ff0aed027243c784",
+  "timings": [
+    {
+      "track_id": 302286458,
+      "candidate_seconds": 708,
+      "reference_seconds": 717,
+      "difference_seconds": -9,
+      "relative_difference": 0.0126
+    },
+    {
+      "track_id": 302286459,
+      "candidate_seconds": 694,
+      "reference_seconds": 698,
+      "difference_seconds": -4,
+      "relative_difference": 0.0057
+    },
+    {
+      "track_id": 302286460,
+      "candidate_seconds": 301,
+      "reference_seconds": 302,
+      "difference_seconds": -1,
+      "relative_difference": 0.0033
+    },
+    {
+      "track_id": 302286461,
+      "candidate_seconds": 214,
+      "reference_seconds": 216,
+      "difference_seconds": -2,
+      "relative_difference": 0.0093
+    },
+    {
+      "track_id": 302286462,
+      "candidate_seconds": 525,
+      "reference_seconds": 538,
+      "difference_seconds": -13,
+      "relative_difference": 0.0242
+    }
+  ],
+  "decision": "probable_recording_family",
+  "limitations": [
+    "Timing/year agreement corroborates the recording family, not an authenticated RCA transfer, exact edits, takes or mastering.",
+    "Source Stereo tag is retained; no claim that a1952recording is true stereo."
+  ]
+}

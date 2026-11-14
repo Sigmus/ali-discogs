@@ -2774,6 +2774,94 @@
         "Eloquence describes the later Paganini as1966; the session ledger dates recording1–2September1965 and issueApril1966. Both observations retained; no metadata date overwrite.",
         "Exact source LP pressing, takes and digital mastering remain unverified; older Handel/Paganini versions are not treated as interchangeable."
       ]
+    },
+    {
+      "discogs_id": "10757120",
+      "album_id": "lbd4bwo8ommnb",
+      "review_kind": "bound-tracks",
+      "decision": "probable",
+      "target_sha256": "f74faf0e02f42a19f0f7823c8deecd95ef8e6ecfd1ec168d6d402b0002da927c",
+      "album_sha256": "027057e75817ded2caf69c794734ecd4d9a3a8493168736e7120e780f9c5242f",
+      "source_sha256": "5af107bb5dc39d59ced87ba4cfb750e27654106b66c06ba3ea6087a45323cbff",
+      "pulls": [],
+      "adds": [],
+      "expected": {
+        "Sinfonia N. 6 Op. 68 In Fa Magg. \"Pastorale\"": [
+          302286458,
+          302286459,
+          302286460,
+          302286461,
+          302286462
+        ]
+      },
+      "extra_track_ids": [],
+      "required_performers": [
+        "Arturo Toscanini",
+        "NBC Symphony Orchestra"
+      ],
+      "album_version_equals": "Album of 1952",
+      "numbered_movement_runs": [
+        {
+          "target": "Sinfonia N. 6 Op. 68 In Fa Magg. \"Pastorale\"",
+          "movements": [
+            1,
+            2,
+            3,
+            4,
+            5
+          ]
+        }
+      ],
+      "marks": [
+        {
+          "track_id": 302286458,
+          "text": "Beethoven: Symphony No. 6 in F Major, Op. 68, I. Allegro ma non troppo (Erwachen heiterer Empfindungen bei der Ankunft auf dem Lande) ( Pastorale )",
+          "isrc_equals": "DGA0R2413673",
+          "reference_duration_seconds": 717
+        },
+        {
+          "track_id": 302286459,
+          "text": "Beethoven: Symphony No. 6 in F Major, Op. 68, II. Andante molto moss (Szene am Bach) ( Pastorale )",
+          "isrc_equals": "DGA0R2413674",
+          "reference_duration_seconds": 698
+        },
+        {
+          "track_id": 302286460,
+          "text": "Beethoven: Symphony No. 6 in F Major, Op. 68, III. Allegro (Lustiges Zusammensein der Landleute) ( Pastorale )",
+          "isrc_equals": "DGA0R2413675",
+          "reference_duration_seconds": 302
+        },
+        {
+          "track_id": 302286461,
+          "text": "Beethoven: Symphony No. 6 in F Major, Op. 68, IV. Allegro (Gewitter, Sturm) ( Pastorale )",
+          "isrc_equals": "DGA0R2413676",
+          "reference_duration_seconds": 216
+        },
+        {
+          "track_id": 302286462,
+          "text": "Beethoven: Symphony No. 6 in F Major, Op. 68, V. Allegretto (Frohe und dankbare Gefühle nach dem Sturm) ( Pastorale )",
+          "isrc_equals": "DGA0R2413677",
+          "reference_duration_seconds": 538
+        }
+      ],
+      "external_source_files": [
+        {
+          "path": "data/review_sources/10757120-rca-sleeve.jpg",
+          "sha256": "075dad935ee1dfdfa9cf5eb87e3f204f32d5b1553ce560b7ff0aed027243c784",
+          "url": "https://i.discogs.com/w3tLK_FBVGmXT6IqJR0x3gGXB73R3DWkj8wGInSInA8/rs:fit/g:sm/q:90/h:588/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNzU3/MTIwLTE1NjE4MzA1/MjItNDA1MS5qcGVn.jpeg"
+        }
+      ],
+      "sources": [
+        "https://www.pristineclassical.com/products/pasc598",
+        "https://www.discogs.com/release/10757120",
+        "https://i.discogs.com/w3tLK_FBVGmXT6IqJR0x3gGXB73R3DWkj8wGInSInA8/rs:fit/g:sm/q:90/h:588/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEwNzU3/MTIwLTE1NjE4MzA1/MjItNDA1MS5qcGVn.jpeg"
+      ],
+      "recording_review": "The inspected RCA sleeve states Carnegie Hall,14January1952. Pristine documents that date for its reissue of the official RCA Pastoral. The saved Arturo album explicitly says Album of1952, credits Toscanini/NBC on all five movements, and each duration lies within3% of the documented RCA reissue. Together these support a Probable recording-family lead, not an authenticated RCA digital transfer.",
+      "limitations": [
+        "The digital label Arturo is a third-party issue with no independently verified transfer source or exact takes/mastering.",
+        "The source is tagged Stereo, although this is a historical1952recording; no stereo-channel/mastering equivalence is claimed.",
+        "Timing and year agreement are corroboration, not audio fingerprinting or proof of identical edits."
+      ]
     }
   ]
 }

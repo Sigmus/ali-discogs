@@ -356,3 +356,20 @@ exact LP pressing/takes/mastering remain unverified. Existing bound-track policy
 extended only with optional external-evidence hashes, complete source-band
 mapping and version/ISRC guards. No global key alias, generic band splitting,
 credit borrowing or provider calls.
+
+
+## Toscanini RCA family review
+
+Continued after Katchen commit to10757120/cachedlbd4bwo8ommnb. Inspected and
+saved source RCA sleeve: Carnegie Hall14January1952. Pristine’s documented
+reissue of the official RCA recording gives the same date and five movement
+timings; candidate differences9/4/1/2/13seconds, allwithin3%. Exact transfer remains
+unknown: third-party Arturo label and Albumof1952are not authenticated RCA audio.
+
+Bound review requires all5movements, Toscanini/NBC on each, source/album/photo
+hashes, year/version marker and exact ISRCs. Timing is a guard/corroboration, never
+identity proof. Numbered-run checks now reuse the existing stricter movement
+parser, including catalogue-qualified comma Roman labels; no bare-comma ordinal
+inference. Two regressions cover changed year/timing/orchestra and photo hash.
+Review retains third-party mastering and source Stereo-tag limitations. Probable85
+family only, not Found. Structured timing/source audit saved; no Qobuz calls.
