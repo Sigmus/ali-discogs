@@ -77,3 +77,10 @@ reviews.24964822 and26149643 remain withheld because version selection is not
 resolved.3285095 remains unpublished pending stronger provenance. Four review
 regressions and browser/UI/build checks pass. Total four new Probable releases
 this continuation; unique12Found/102Probable/626Unchecked,741copy counts12/102/627.
+
+Further continuation: Op.15/79/90 inventories from QSO/Henle bring the screen
+to10complete-work leads/333cached unresolved pairs. Three additional bounded
+DG-family Probables:3285095,3672809,7914875.117script tests and UI/build/browser
+checks pass. Publication changes only these three in this checkpoint. Discovered
+next shared parser issue: Toscanini10757120 has five explicit roman movements
+after a comma/catalogue number, which current colon-only parser misses.

@@ -412,6 +412,267 @@
           }
         }
       ]
+    },
+    {
+      "discogs_id": "3285095",
+      "album_id": "i4ztk0dz6n6gc",
+      "target_sha256": "4009adf4b065cb307b9e2118e38432fe85e4e8cd7299d3ad3e1ece41b4c81527",
+      "album_sha256": "8a7af97fe692781973aaf5f0a25c367040eb6b62c2a8c9d17e58843b49aefbec",
+      "decision": "probable",
+      "recording_review": "DG lists Michelangeli’s Op.7 in its complete label recordings with original-cover presentation. The target sleeve names DG2530197 and the same pianist/work; the saved DG compilation contains all four numbered Op.7 movements with Michelangeli and consistent production credits. This supports the DG recording family, not independently verified session identity.",
+      "sources": [
+        "https://store.deutschegrammophon.com/en-de/products/arturo-benedetti-michelangeli-complete-recordings-on-deutsche-grammophon-104455",
+        "https://www.discogs.com/release/3285095"
+      ],
+      "limitations": [
+        "The publisher complete-recordings box is not the exact saved digital compilation or French LP pressing.",
+        "Exact recording date, takes and mastering are not independently verified; this is programme/credit and label-family support only.",
+        "Additional concertos in the compilation are outside the target sonata."
+      ],
+      "target_source": {
+        "sha256": "d0f2e5c6def81ea1921d6039a6acbe7cd3a360f45c0c5044e5b1479ac67d7297",
+        "notes": "——Sleeve info——\nPrinted in France\nLiner notes in French\n\nSpine: Beethoven - Sonate Pour Piano N° 4 (A. Benedetti Michelangeli)   2530 197 Universel\n\n——Centerlabels info——\nStamper made in Germany",
+        "tracklist": [
+          {
+            "position": "",
+            "type_": "index",
+            "title": "Klaviersonate Nr. 4 Es-dur Op. 7",
+            "duration": "",
+            "sub_tracks": [
+              {
+                "position": "A1",
+                "type_": "track",
+                "title": "1. Satz : Allegro Molto E Con Brio",
+                "duration": "9:42"
+              },
+              {
+                "position": "A2",
+                "type_": "track",
+                "title": "2. Satz : Largo, Con Gran Espressione",
+                "duration": "8:36"
+              },
+              {
+                "position": "B1",
+                "type_": "track",
+                "title": "3. Satz : Allegro",
+                "duration": "5:23"
+              },
+              {
+                "position": "B2",
+                "type_": "track",
+                "title": "4. Satz : Rondo : Poco Allegretto E Grazioso",
+                "duration": "7:36"
+              }
+            ]
+          }
+        ]
+      },
+      "works": [
+        {
+          "target": "Klaviersonate Nr. 4 Es-dur Op. 7",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "scope": "whole-work-inventory",
+          "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+          "reason": "Four ordered Op.7 movements, each with the required pianist; concerto tracks are excluded."
+        }
+      ]
+    },
+    {
+      "discogs_id": "7914875",
+      "album_id": "0002894776360",
+      "target_sha256": "529278273b598628fb02a727d9b725fd2cd179ff092bf62fd52000523e6881c7",
+      "album_sha256": "1cbd8d5b54bf77d8211977df39f7540443c7f9a6169dfdd4443d90cb071fc752",
+      "decision": "probable",
+      "recording_review": "DG lists Gilels Op.79,81a and90 in its 2006 sonata collection and explicitly republishes the same three-sonata LP programme in its Original Source series. The target is DG2530589 with Gilels; all3+3+2 movements have the required pianist. This supports the DG recording family, not exact LP/digital mastering.",
+      "sources": [
+        "https://www.deutschegrammophon.com/en/catalogue/products/beethoven-29-sonatas-emil-gilels-10576",
+        "https://www.deutschegrammophon.com/en/catalogue/products/beethoven-piano-sonata-nos-25-26-27-gilels-13105",
+        "https://store.deutschegrammophon.com/en-en/products/emil-gilels-ludwig-van-beethoven-piano-sonatas-nos-25-26-les-adieux-27",
+        "https://www.discogs.com/release/7914875"
+      ],
+      "limitations": [
+        "DG shop lists the movement titles under swapped sonata25/26 headings; those headings are not used for work identity or inventory. Independent Henle/DCML structure and saved track opus numbers are used.",
+        "Compilation contains additional works; exact LP pressing, takes and digital mastering are unverified."
+      ],
+      "target_source": {
+        "sha256": "6f6cc0736474435558315f13002c4607437c9e3fbf919582c6c9ac804478176c",
+        "notes": null,
+        "tracklist": [
+          {
+            "position": "",
+            "type_": "index",
+            "title": "Klaviersonate Nr. 25 G-Dur Op. 79",
+            "duration": "",
+            "sub_tracks": [
+              {
+                "position": "A1",
+                "type_": "track",
+                "title": "1. Presto Alla Tedesca",
+                "duration": "4:44"
+              },
+              {
+                "position": "A2",
+                "type_": "track",
+                "title": "2. Andante",
+                "duration": "3:33"
+              },
+              {
+                "position": "A3",
+                "type_": "track",
+                "title": "3. Vivace",
+                "duration": "1:45"
+              }
+            ]
+          },
+          {
+            "position": "",
+            "type_": "index",
+            "title": "Klaviersonate Nr. 26 Es-dur Op. 81a »Les Adieux«",
+            "duration": "",
+            "sub_tracks": [
+              {
+                "position": "A4",
+                "type_": "track",
+                "title": "1. Das Lebewohl (Les Adieux) Adagio - Allegro",
+                "duration": "7:10"
+              },
+              {
+                "position": "A5",
+                "type_": "track",
+                "title": "2. Abwesenheit (L'absence) Andante Espressivo",
+                "duration": "4:02"
+              },
+              {
+                "position": "A6",
+                "type_": "track",
+                "title": "3. Das Wiedersehen (Le Retour) Vivacissimamente",
+                "duration": "5:56"
+              }
+            ]
+          },
+          {
+            "position": "",
+            "type_": "index",
+            "title": "Klaviersonate Nr. 27 E-moll Op. 90",
+            "duration": "",
+            "sub_tracks": [
+              {
+                "position": "B1",
+                "type_": "track",
+                "title": "1. Mit Lebhaftigkeit Und Durchaus Mit Empfindung Und Ausdruck",
+                "duration": "5:35"
+              },
+              {
+                "position": "B2",
+                "type_": "track",
+                "title": "2. Nicht Zu Geschwind Und Sehr Singbar Vorzutragen",
+                "duration": "8:15"
+              }
+            ]
+          }
+        ]
+      },
+      "works": [
+        {
+          "target": "Klaviersonate Nr. 25 G-Dur Op. 79",
+          "movements": [
+            1,
+            2,
+            3
+          ],
+          "scope": "whole-work-inventory",
+          "source": "https://www.henle.de/Piano-Sonata-no.-25-Sonatina-G-major-op.-79/HN-1313",
+          "reason": "Every inventoried movement in order with the target required artists; no overlap between works."
+        },
+        {
+          "target": "Klaviersonate Nr. 26 Es-dur Op. 81a »Les Adieux«",
+          "movements": [
+            1,
+            2,
+            3
+          ],
+          "scope": "whole-work-inventory",
+          "source": "https://dcmlab.github.io/beethoven_piano_sonatas/",
+          "reason": "Every inventoried movement in order with the target required artists; no overlap between works."
+        },
+        {
+          "target": "Klaviersonate Nr. 27 E-moll Op. 90",
+          "movements": [
+            1,
+            2
+          ],
+          "scope": "whole-work-inventory",
+          "source": "https://www.henle.de/media/b8/28/dc/1697725801/1124-1697725801-sync.pdf",
+          "reason": "Every inventoried movement in order with the target required artists; no overlap between works."
+        }
+      ]
+    },
+    {
+      "discogs_id": "3672809",
+      "album_id": "i4ztk0dz6n6gc",
+      "target_sha256": "6ad72a39ba16a9338d0cc8f7b2c4ffc2e203cff80c1f1f847cf59b094d4832e1",
+      "album_sha256": "8a7af97fe692781973aaf5f0a25c367040eb6b62c2a8c9d17e58843b49aefbec",
+      "decision": "probable",
+      "recording_review": "DG documents Michelangeli, Giulini and Wiener Symphoniker in its Originals reissue of Concertos1 and3 and its complete label recordings. Target DG2531302 names the same artists and a 21September1979 live performance. All three Op.15 movements and required artists are present in the saved DG compilation; this supports a Probable recording-family lead.",
+      "sources": [
+        "https://www.deutschegrammophon.com/en/catalogue/products/beethoven-piano-concertos-1-3benedetti-michelangeli-7397",
+        "https://store.deutschegrammophon.com/en-de/products/arturo-benedetti-michelangeli-complete-recordings-on-deutsche-grammophon-104455",
+        "https://www.discogs.com/release/3672809"
+      ],
+      "limitations": [
+        "The publisher page does not independently establish the21September1979 date for these saved digital tracks.",
+        "Compilation contains additional works; exact LP pressing, takes and digital mastering are unverified."
+      ],
+      "target_source": {
+        "sha256": "21c83b0a90858e59f58a97257e5601c8a6afe343747d92e0566e37013139b085",
+        "notes": "[Label]\nMade in West Germany\n\nRecorded live 21st September 1979.",
+        "tracklist": [
+          {
+            "position": "",
+            "type_": "index",
+            "title": "Konzert Für Klavier Und Orchester Nr. 1 C-dur Op. 15",
+            "duration": "",
+            "sub_tracks": [
+              {
+                "position": "A1",
+                "type_": "track",
+                "title": "Allegro Con Brio",
+                "duration": "18:23"
+              },
+              {
+                "position": "B1",
+                "type_": "track",
+                "title": "Largo",
+                "duration": "10:37"
+              },
+              {
+                "position": "B2",
+                "type_": "track",
+                "title": "Rondo. Allegro Scherzando",
+                "duration": "8:51"
+              }
+            ]
+          }
+        ]
+      },
+      "works": [
+        {
+          "target": "Konzert Für Klavier Und Orchester Nr. 1 C-dur Op. 15",
+          "movements": [
+            1,
+            2,
+            3
+          ],
+          "scope": "whole-work-inventory",
+          "source": "https://qso.com.au/uploads/QS02023-SlideshowSlides-Beethoven-Elgar-V2-1-.pdf",
+          "reason": "Every inventoried movement in order with the target required artists; no overlap between works."
+        }
+      ]
     }
   ]
 }

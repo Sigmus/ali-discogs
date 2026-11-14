@@ -55,3 +55,46 @@ class RemainingReviewTests(unittest.TestCase):
             altered['tracks']['items']=[t for t in altered['tracks']['items'] if t['id']!=used]
             changed={**review,'album_sha256':fingerprint(altered)}
             self.assertFalse(assess(rows[review['discogs_id']],altered,changed)[0]['eligible'])
+
+    def test_concerto_inventory_rejects_missing_movement_and_bad_credit(self):
+        rows=json.loads((ROOT/'data/collection_matches.json').read_text())
+        row=next(r for r in rows if r['discogs_id']==3672809)
+        records=json.loads(gzip.decompress((ROOT/'data/qobuz_remaining_metadata.json.gz').read_bytes()))['metadata']
+        album=next(x['album'] for x in records if x['album']['id']=='i4ztk0dz6n6gc')
+        evidence=evaluate(row,album)
+        self.assertEqual(check_programme(row,album,evidence,self.inventory)['status'],'complete')
+        ids=evidence['programme'][0]['track_ids']
+        altered=copy.deepcopy(album)
+        altered['tracks']['items']=[t for t in altered['tracks']['items'] if t['id']!=ids[1]]
+        self.assertNotEqual(check_programme(row,altered,evaluate(row,altered),self.inventory)['status'],'complete')
+        altered=copy.deepcopy(album)
+        for track in altered['tracks']['items']:
+            if track['id'] in ids:track['performers']='Another Pianist, MainArtist'
+        self.assertNotEqual(check_programme(row,altered,evaluate(row,altered),self.inventory)['status'],'complete')
+
+    def test_sonata_review_does_not_accept_concerto_instead(self):
+        rows=json.loads((ROOT/'data/collection_matches.json').read_text())
+        row=next(r for r in rows if r['discogs_id']==3285095)
+        review=next(r for r in json.loads((ROOT/'data/qobuz_remaining_recording_reviews.json').read_text())['releases'] if r['discogs_id']=='3285095')
+        records=json.loads(gzip.decompress((ROOT/'data/qobuz_remaining_metadata.json.gz').read_bytes()))['metadata']
+        album=next(x['album'] for x in records if x['album']['id']==review['album_id'])
+        self.assertTrue(assess(row,album,review)[0]['eligible'])
+        altered=copy.deepcopy(album)
+        altered['tracks']['items']=[t for t in altered['tracks']['items'] if 'Sonata No. 4' not in t['title']]
+        changed={**review,'album_sha256':fingerprint(altered)}
+        self.assertFalse(assess(row,altered,changed)[0]['eligible'])
+
+    def test_gilels_requires_all_three_sonatas_and_original_pianist(self):
+        from qobuz_snapshot import load_snapshot
+        row=next(r for r in json.loads((ROOT/'data/collection_matches.json').read_text()) if r['discogs_id']==7914875)
+        review=next(r for r in json.loads((ROOT/'data/qobuz_remaining_recording_reviews.json').read_text())['releases'] if r['discogs_id']=='7914875')
+        album=load_snapshot()['albums']['0002894776360']
+        result,_=assess(row,album,review)
+        self.assertTrue(result['eligible'])
+        self.assertEqual([len(w['track_ids']) for w in result['completeness']['works']],[3,3,2])
+        altered=copy.deepcopy(album)
+        used=set(result['completeness']['works'][-1]['track_ids'])
+        for t in altered['tracks']['items']:
+            if t['id'] in used:t['performers']=t['performers'].replace('Emil Gilels','Wilhelm Kempff')
+        changed={**review,'album_sha256':fingerprint(altered)}
+        self.assertFalse(assess(row,altered,changed)[0]['eligible'])

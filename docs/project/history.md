@@ -1395,3 +1395,14 @@ multiple versions remain plausible from target evidence.3285095 remains pending
 stronger recording provenance. Qobuz12Found/102Probable/627Unchecked copies;
 other status changes limited to the prior Michelangeli lead. Four review tests
 pass, UI/build and browser details pass. No Qobuz calls or push.
+
+## 2026-11-14 — Three additional DG family leads and inventory replay
+
+3285095 Michelangeli Op.7,3672809 Michelangeli Op.15 and7914875 Gilels
+Op.79/81a/90 promoted Probable85 with hash-bound sources and explicit limits.
+Independent QSO/Henle inventories for Op.15/79/90 unblock two reusable checks.
+DG shop swaps25/26 movement headings; did not import that error.117script tests
+pass sequentially (initial overlap with generation correctly tripped preservation
+check); UI/build/browser detail pass. Counts12Found/105Probable/624Unchecked
+copies. No Qobuz calls. Next discovered reusable gap: comma before roman movement
+label in Toscanini10757120 titles; current checker sees None for all five.

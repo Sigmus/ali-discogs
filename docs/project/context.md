@@ -12,7 +12,7 @@ explorer. [README](../../README.md) owns setup and architecture;
   table headers). Retrieval complete; first offline screen/audit complete. Deployment not verified.
 - Collection: 741 copies / 740 unique releases. Current saved labels: Spotify
   254 Found / 273 Probable / 210 Not found / 4 Unchecked; Qobuz
-  12 Found / 102 Probable / 627 Unchecked copies (14 November snapshot).
+  12 Found / 105 Probable / 624 Unchecked copies (14 November snapshot).
 - Spotify’s legacy album-level labels and stricter Qobuz evidence levels are
   not comparable accuracy or catalogue-coverage measurements. Both status and
   score are saved data. Qobuz 95/85 are heuristic levels, not probabilities.
@@ -61,16 +61,16 @@ explorer. [README](../../README.md) owns setup and architecture;
 - Search503fresh HTTP attempts/100cache reuses; metadata85HTTP attempts incl
   overhead. No warning reported; no restart/new-hit download. Hourly monitor
   removed on completion. Run state remains `.qobuz-poc/remaining-2026-11-14/`.
-- Exports/index and completion docs remain local/uncommitted. See
+- Retrieval exports and first reviews committed locally, not pushed. See
   [run plan](../plans/2026-11-14-qobuz-remaining-retrieval.md).
 
 ## Offline follow-up checkpoint
 
-- Screened2,227pairs:8complete programme/credit leads across7releases,
-  335cached unresolved pairs,1,884pairs missing full metadata. Op.73 lead4491358
-  now Probable85; three Klemperer LPs also promoted after publisher review.
-- Hash-bound initial audit saved; next strongest case4491358, Michelangeli/
-  Giulini Op.73 completed. Six source-backed Beethoven inventory entries added.
+- Screened2,227pairs:10complete programme/credit leads across9releases,
+  333cached unresolved pairs,1,884pairs missing full metadata. Seven new
+  Probable releases now published locally after bounded reviews.
+- Michelangeli sonata3285095/Concerto1 3672809 and Gilels7914875 completed.
+  Nine source-backed Beethoven inventory additions;117script tests pass.
 - [Offline plan](../plans/2026-11-14-qobuz-offline-followup.md) owns findings and
   exact next steps. Two network-forbidden/fail-closed regression tests pass.
 
@@ -92,6 +92,6 @@ new-hit downloads, automatic promotions, pushes or deployment. Bitches Brew’s
 credit exception remains a proposal. Preserve source/hash-bound review safeguards;
 never loosen credits or invent recording identity to improve a count.
 
-Next action: resolve source/recording provenance for3285095 and ambiguous
-Klemperer versions, then source remaining movement inventories. No new calls.
+Next action: fix bounded comma-before-movement parsing found in Toscanini
+10757120, replay cached evidence; keep ambiguous versions withheld. No new calls.
 [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).
