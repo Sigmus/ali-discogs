@@ -386,3 +386,9 @@ Status: adopted by user selection of prototypeB. Use searchable checkboxes and
 removable chips for six categorical filters, OR within/AND across. Serialize
 multiple values as repeated URL params; keep existing scalar links compatible.
 Keep sorting/search single-purpose; show global frequency counts consistently.
+
+## 2026-11-14 — Independent option ordering inside each picker
+
+Status: adopted, optionB. Place Alphabetical checkbox in footer between selected
+count and Clear selection. Frequency is default. Order preference is independent
+per picker for the current page lifetime; reordering never changes selections.

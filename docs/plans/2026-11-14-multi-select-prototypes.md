@@ -42,3 +42,28 @@ and build pass. Browser real-data527Found+Probable,29withBrahms,527afterchip rem
 search and Escape dismissal exercised. Page reload preserves repeated URL values.
 Prototype remains available for reference; production main filters now use B.
 No commit, push or deployment requested. Qobuz retrieval left running separately.
+
+## Per-picker order controls prototyped
+
+User requested pushing6a48d70 (completed) and comparing replacements for the
+single frequency switch. Local `/prototypes/picker-order.html` shows three open
+composer pickers: A segmented Most frequent/A–Z, B Alphabetical checkbox,
+C explicit Order select. All default frequency; selection and search survive
+reorder, independent per picker. Real case-deduplicated composer counts.
+Browser verified each alphabetical mode, A Beethoven selection retained, and
+B remained frequency while only A changed. Build passes. Screenshot saved.
+Recommendation A for explicit/discoverable choice. No option chosen yet; main
+frequency toggle unchanged. No commit/push of these new prototypes requested.
+
+
+## Footer ordering selected and implemented
+
+User chose ordering optionB with checkbox between selected count and clear.
+All six production picker footers now show count / Alphabetical / Clear selection.
+Unchecked defaults to frequency; checked uses locale-aware case-insensitive
+alphabetical order, numeric comparison. Each picker remembers its own order
+while the page stays open, including closing/reopening; reload defaults frequency.
+Selection and search survive reordering. The general toggle is removed.
+Browser verified Composer A–Z retains Beethoven while Qobuz independently stays
+frequency; reopening Composer retains A–Z. Global toggle absent. Node existing
+filter regressions, syntax and build pass. No commit/push requested.

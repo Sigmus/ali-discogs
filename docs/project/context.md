@@ -9,7 +9,9 @@ plans preserve dated evidence and prior handoffs.
 ## Current state
 
 - Option B multi-select implemented for all six filters: search + removable chips,
-  repeated URL parameters, OR within/AND across. Local only; matching unchanged.
+  repeated URL parameters, OR within/AND across. Pushed6a48d70; matching unchanged.
+  Per-picker Alphabetical checkbox in footer implemented locally; general
+  frequency toggle removed, frequency default, independent order per picker.
 
 - Major limitation: Spotify legacy album-level labels and stricter Qobuz reviews
   are not comparable coverage counts; [Tristan evidence](../plans/2026-11-13-cross-service-validation-gap.md).

@@ -447,7 +447,6 @@
     const decade = $("decade");
     const qb = $("qb");
     const reset = $("reset");
-    const frequency = $("frequency");
     const showing = $("showing");
     const shelf = $("shelf");
     const foot = $("foot");
@@ -590,7 +589,7 @@
       });
       const byName = (a, b) => cmpStr(a[2] || a[0], b[2] || b[0]);
       const order = pairs => pairs.sort((a, b) =>
-        (frequency.checked ? b[1] - a[1] : 0) || byName(a, b));
+        b[1] - a[1] || byName(a, b));
       const statuses = tally(items);
       [[sp, statuses.spotify], [qb, statuses.qobuz]].forEach(([control, counts]) => {
         control.innerHTML = optionList(order(Object.entries(counts).map(([key, count]) =>
@@ -816,11 +815,6 @@
     });
     [sp, qb, genre, composer, label, decade].forEach(el => el.addEventListener("change", fromForm));
     reset.addEventListener("click", clearFilters);
-    frequency.addEventListener("change", () => {
-      if (!ready) return;
-      fillFilters();
-      syncControls();
-    });
     document.querySelector(".view-switch").addEventListener("click", e => {
       const button = e.target.closest("[data-view]");
       if (!button || button.dataset.view === (state.view || "table")) return;

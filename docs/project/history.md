@@ -1193,3 +1193,17 @@ removable chips; repeated URL params preserve old single-value links. Scoped
 checkbox/menu styles fix prototype collision/clipping. Browser527status union,
 29withBrahms,527afterchip removal; Escape/search/reload checked. Node filter
 regressions, syntax and build pass. Qobuz worker unaffected; no commit/push.
+
+## 2026-11-14 — Multi-select pushed; per-picker order options
+
+Pushed6a48d70to main. New independent ordering prototype compares segmented
+MostFrequent/A–Z, Alphabetical checkbox and Order menu; defaults frequency.
+Browser verifies selection preservation and independent order. No main ordering
+change yet; choice pending. Qobuz retrieval continues independently.
+
+## 2026-11-14 — Per-picker footer ordering implemented
+
+User chose Alphabetical checkbox between selected count and Clear selection.
+Removed global switch; frequency default independently per dropdown. Browser
+checks ordering, selection preservation and reopening; filter regression/JS/build
+pass. No matching/data changes or Qobuz worker interference. No commit/push.

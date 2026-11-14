@@ -4,6 +4,7 @@
   class MultiPicker {
     constructor(select) {
       this.select = select;
+      this.alphabetical = false;
       this.field = select.parentElement;
       this.field.classList.add('multi-picker');
       this.button = document.createElement('button');
@@ -50,7 +51,11 @@
     renderOptions() {
       const query = this.search.value.toLocaleLowerCase();
       this.list.replaceChildren();
-      this.options().filter(o => o.textContent.toLocaleLowerCase().includes(query)).forEach(option => {
+      const name = option => option.textContent.replace(/ \(\d+\)$/, '');
+      const count = option => Number(option.textContent.match(/\((\d+)\)$/)?.[1] || 0);
+      const ordered = this.options().filter(o => o.textContent.toLocaleLowerCase().includes(query));
+      ordered.sort((a, b) => (this.alphabetical ? 0 : count(b) - count(a)) || name(a).localeCompare(name(b), undefined, {sensitivity: 'base', numeric: true}));
+      ordered.forEach(option => {
         const row = document.createElement('label'); row.className = 'multi-option';
         const box = document.createElement('input'); box.type = 'checkbox'; box.value = option.value; box.checked = option.selected;
         const name = document.createElement('span'); name.className = 'multi-option-name'; name.textContent = option.textContent.replace(/ \(\d+\)$/, '');
@@ -85,7 +90,12 @@
       this.footerCount = document.createElement('span'); this.footerCount.setAttribute('aria-live', 'polite');
       const clear = document.createElement('button'); clear.type = 'button'; clear.textContent = 'Clear selection';
       clear.addEventListener('click', () => { this.options().forEach(o => o.selected = false); this.select.dispatchEvent(new Event('change', { bubbles: true })); });
-      foot.append(this.footerCount, clear); this.menu.append(this.search, this.list, foot); document.body.append(this.menu);
+      const orderLabel = document.createElement('label'); orderLabel.className = 'multi-alphabetical';
+      const orderCheck = document.createElement('input'); orderCheck.type = 'checkbox'; orderCheck.checked = this.alphabetical;
+      orderCheck.setAttribute('aria-label', 'Alphabetical order for ' + document.getElementById(this.select.id + '-label').textContent.toLowerCase());
+      orderLabel.append(orderCheck, document.createTextNode('Alphabetical'));
+      orderCheck.addEventListener('change', () => { this.alphabetical = orderCheck.checked; this.renderOptions(); this.list.scrollTop = 0; });
+      foot.append(this.footerCount, orderLabel, clear); this.menu.append(this.search, this.list, foot); document.body.append(this.menu);
       this.search.addEventListener('input', () => this.renderOptions());
       this.menu.addEventListener('keydown', e => {
         if (e.key === 'Escape') { e.preventDefault(); this.close(true); }
