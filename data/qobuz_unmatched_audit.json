@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "reviewed_on": "2026-11-13",
+  "reviewed_on": "2026-11-14",
   "source_hashes": {
     "qobuz_evidence.json.gz": "72e94566cd2c93ad18728ba63e8c7355e603e1e02ff4e4860bdce7aa44c69e51",
     "qobuz_comparison_evidence.json.gz": "c38df992ab44bbc892ffacafa19d74cc1495d7579d3d6da670653204dca25e57",
@@ -15,19 +15,19 @@
     "qobuz_empty_search_metadata.json.gz": "e2bd43978c93ab2b4e7b69c1242faf2c024bec7196741ddaed637a77dab77cf4",
     "qobuz_empty_search_follow_metadata.json.gz": "a9fd10bc41ce74dcd28734eaada12dc06b8bfa87084f18f6a46d7978740a9e84",
     "collection_matches.json": "a214eee877d4749fa957b3d2a293c2925d7ba0621259f2742139a6cd86f928c8",
-    "qobuz_matches.json": "c1077093f4afadb0533d6c99249b23f90c160e147d445e0818795a0ba4603832",
+    "qobuz_matches.json": "d09772d5755c6980e5a08cb1729e9a72ef84b64a284a126d2b117c91b854a98d",
     "qobuz_work_inventory.json": "ac5b17039789d5e994c13492246e74dd62bd8194dd089f579668d98e82dfe3f9",
-    "qobuz_binding_reviews.json": "9a26ebee7db42f52357535af6126d5887be1eb719e4f0e518c79d864d1ddc414",
+    "qobuz_binding_reviews.json": "43de9aab048acbb5ab1541c6e6290ea561a480bf6848fa22bfe62a40e899c6b4",
     "qobuz_opera_recording_reviews.json": "11a52ad521b086b7c967327a0d01d0cee432d3cf8695754899a7f40aeb20839d"
   },
   "summary": {
-    "work_or_credit_unresolved": 310,
+    "work_or_credit_unresolved": 309,
     "no_saved_hits": 305,
     "reviewed_withheld": 7,
     "metadata_needed": 12,
     "completeness_review_needed": 1
   },
-  "unmatched_unique_releases": 635,
+  "unmatched_unique_releases": 634,
   "entries": [
     {
       "discogs_id": "594243",
@@ -54594,312 +54594,6 @@
       "cached_candidates": []
     },
     {
-      "discogs_id": "8291074",
-      "title": "Les 14 Valses",
-      "category": "work_or_credit_unresolved",
-      "saved_hits": 3,
-      "uncached_hits": 0,
-      "cached_candidates": [
-        {
-          "album_id": "3610154901657",
-          "title": "Chopin: 14 Valses pour piano",
-          "coverage": 0.14285714285714285,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Grande Valse Brillante En Mi Bémol Maj Op 18",
-              "work_tracks": 1,
-              "credited_tracks": 1,
-              "track_ids": [
-                15039572
-              ]
-            },
-            {
-              "target": "Valse En La Mineur Op 34 N°2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse Brillante En Fa Op 34 N°3",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse En Si Mineur Op 69 N°2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse En Ré Bémol Op 70 N°3",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse En La Bémol Op 70 N°2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse En La Bémol Op 64 N°3",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Grande Valse En La Bémol Op 42",
-              "work_tracks": 1,
-              "credited_tracks": 1,
-              "track_ids": [
-                15039586
-              ]
-            },
-            {
-              "target": "Valse En Ut Dièse Mineur Op 64 N°2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse En Sol Bémol Op 70 N°1",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse En La Bémol (L'adieu) Op 69 N°1",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse En Mi Mineur (Posthume)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse En Ré Bémol Op 64 N°1",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse Brillante En La Bémol Op 34 N°1",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "3610158195656",
-          "title": "Les 14 valses de Chopin",
-          "coverage": 0.14285714285714285,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Grande Valse Brillante En Mi Bémol Maj Op 18",
-              "work_tracks": 1,
-              "credited_tracks": 1,
-              "track_ids": [
-                19373978
-              ]
-            },
-            {
-              "target": "Valse En La Mineur Op 34 N°2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse Brillante En Fa Op 34 N°3",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse En Si Mineur Op 69 N°2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse En Ré Bémol Op 70 N°3",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse En La Bémol Op 70 N°2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse En La Bémol Op 64 N°3",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Grande Valse En La Bémol Op 42",
-              "work_tracks": 1,
-              "credited_tracks": 1,
-              "track_ids": [
-                19373966
-              ]
-            },
-            {
-              "target": "Valse En Ut Dièse Mineur Op 64 N°2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse En Sol Bémol Op 70 N°1",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse En La Bémol (L'adieu) Op 69 N°1",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse En Mi Mineur (Posthume)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse En Ré Bémol Op 64 N°1",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse Brillante En La Bémol Op 34 N°1",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "3614594473088",
-          "title": "Chopin: 14 Valses",
-          "coverage": 0.14285714285714285,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Grande Valse Brillante En Mi Bémol Maj Op 18",
-              "work_tracks": 1,
-              "credited_tracks": 1,
-              "track_ids": [
-                26853436
-              ]
-            },
-            {
-              "target": "Valse En La Mineur Op 34 N°2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse Brillante En Fa Op 34 N°3",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse En Si Mineur Op 69 N°2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse En Ré Bémol Op 70 N°3",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse En La Bémol Op 70 N°2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse En La Bémol Op 64 N°3",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Grande Valse En La Bémol Op 42",
-              "work_tracks": 1,
-              "credited_tracks": 1,
-              "track_ids": [
-                26853424
-              ]
-            },
-            {
-              "target": "Valse En Ut Dièse Mineur Op 64 N°2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse En Sol Bémol Op 70 N°1",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse En La Bémol (L'adieu) Op 69 N°1",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse En Mi Mineur (Posthume)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse En Ré Bémol Op 64 N°1",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse Brillante En La Bémol Op 34 N°1",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        }
-      ]
-    },
-    {
       "discogs_id": "8324181",
       "title": "Violin Concerto In D, Op. 61",
       "category": "work_or_credit_unresolved",
@@ -91190,7 +90884,7 @@
     }
   ],
   "limitations": [
-    "Offline triage after the Hungarian Quartet and Klien downloads. A downloaded album is not an accepted match, and an empty query is not confirmed absence.",
+    "Offline triage after Trouard’s fourteen waltzes. A downloaded album is not an accepted match, and an empty query is not confirmed absence.",
     "Recorded withholds stay in the inventory as reviewed_withheld and are not open leads.",
     "Categories prioritize available cached evidence; a release may also have uncached alternatives."
   ]

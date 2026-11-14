@@ -1,6 +1,6 @@
 # Ali Discogs
 
-Updated: 2026-11-13, Europe/Amsterdam
+Updated: 2026-11-14, Europe/Amsterdam
 
 Match Ali's Discogs collection (`ajozi`) against Spotify and browse a static
 explorer. [README](../../README.md) owns setup/architecture; project history and
@@ -17,7 +17,7 @@ plans preserve dated evidence and prior handoffs.
 - Current collection:741 copies /740 unique releases. Spotify254Found /273Probable
   /210NotFound /4Unchecked copies. Retained labels are not independent full
   recording confirmations. Qobuz figures below are independent enrichment.
-- Qobuz overlay: 12 Found / 93 Probable / 636 unchecked copies; unique 12/93/635.
+- Qobuz overlay: 12 Found / 94 Probable / 635 unchecked copies; unique 12/94/634.
   Separate `data/qobuz_matches.json` survives Spotify rescoring; original pipeline
   Qobuz fields stay unchecked. Empty/inconclusive queries are not confirmed absence.
 - Sonoteque table/details, 80% main width, column sorting (Year ascending default),
@@ -82,18 +82,16 @@ plans preserve dated evidence and prior handoffs.
 
 ## Validation and next action
 
-- Probable 85 includes Brendel 4395895 and the Hungarian Quartet 15980846.
-- Unpublished: Klien lacks Brainin, Schidlof, and Lovett. Carnaval splits
-  the LP bands. François is the Chopin box. Barenboim 3066447 is the
-  102-track cycle, not the eight-sonata box. The Karajan anthology and the
-  1962-dated nine are not the 1982 box. Berman’s files are not that coupling.
-  Furtwängler’s Entracte III is not Entr’acte No. 2 in D major.
-- Inventory of the 635 still unchecked: 305 no saved hits, 12 metadata-needed,
-  310 work or credit gaps, 7 reviewed withholds, and the Barenboim caution.
+- Probable 85 includes Trouard 8291074, fourteen Chopin waltzes in the CBS
+  51 003 order. Op. 70 No. 2 is F minor on the file and A-flat on the LP.
+  The 1961 file is not that CBS pressing. Brendel remains Probable 85.
+- Columbia FCX 30205 and FCX 30097 stay unpublished: their order is not the
+  1961 file, and the 1953 and 1959 files use another order. Klien, Carnaval,
+  François, the sonata cycle, the Karajan boxes, Berman, and Furtwängler’s
+  Entracte III stay unpublished.
+- Inventory of the 634 still unchecked: 305 no saved hits, 12 metadata-needed,
+  309 work or credit gaps, 7 reviewed withholds, and the Barenboim caution.
   Sellheim 7421796 stays an empty query, not confirmed absence.
-- Standing pass stops on Trouard 8291074. The 1961 file has the fourteen
-  waltzes in CBS 51 003 order, with Trouard on every track. “N°2” is glued
-  into one token, so the file’s “No. 2” still conflicts. That exception is
-  a proposal. No push. Bitches Brew stays a proposal.
+- Bitches Brew stays a proposal. No push.
 - [Unmatched audit](../plans/2026-11-13-qobuz-unmatched-audit.md). [Bitches Brew credits](../plans/2026-11-13-bitches-brew-credits.md).
 - [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).

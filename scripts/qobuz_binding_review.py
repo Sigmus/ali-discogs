@@ -24,8 +24,9 @@ def allowed(kind, target, title):
         return all(number in text and (not sub or sub in text) for _, number, sub in left)
     if kind == 'bare-subnumber' and len(left) == 1 and len(right) == 1:
         (kind_a, number_a, sub_a), (kind_b, number_b, sub_b) = next(iter(left)), next(iter(right))
+        tokens = set(norm(target).split())
         return (kind_a == kind_b and number_a == number_b and sub_a == '' and sub_b
-                and sub_b in set(norm(target).split()))
+                and (sub_b in tokens or f'ndeg{sub_b}' in tokens))
     if kind == 'transcription-bwv':
         text = norm(target)
         if text.count(' transcription ') != 1 or len(left) != 2 or len(right) != 1:

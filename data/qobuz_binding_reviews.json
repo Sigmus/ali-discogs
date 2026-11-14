@@ -1418,6 +1418,158 @@
           6802210
         ]
       }
+    },
+    {
+      "discogs_id": "8291074",
+      "album_id": "3610154901657",
+      "review_kind": "bound-tracks",
+      "decision": "probable",
+      "target_sha256": "5e5d78cb26d77282f030b0af9e33cfa212ebded3399739cb94dfa25a38612383",
+      "album_sha256": "57210d1655f2b21d1df06a4e5f7c117d118e1c03e48c9a13fe3b2bb705b8f256",
+      "source_sha256": "fd7e162a95c87e968b9b98e36e8824bf8b4256ea6a45e726d3a8656528a65778",
+      "pulls": [],
+      "adds": [
+        {
+          "track_id": 15039574,
+          "target": "Valse En La Mineur Op 34 N°2",
+          "title_contains": "Op. 34: No. 2",
+          "catalogue_exception": "bare-subnumber",
+          "reason": "The file names Op. 34 No. 2."
+        },
+        {
+          "track_id": 15039576,
+          "target": "Valse Brillante En Fa Op 34 N°3",
+          "title_contains": "Op. 34: No. 3",
+          "catalogue_exception": "bare-subnumber",
+          "reason": "The file names Op. 34 No. 3."
+        },
+        {
+          "track_id": 15039578,
+          "target": "Valse En Si Mineur Op 69 N°2",
+          "title_contains": "Op. 69: No. 2",
+          "catalogue_exception": "bare-subnumber",
+          "reason": "The file names Op. 69 No. 2."
+        },
+        {
+          "track_id": 15039580,
+          "target": "Valse En Ré Bémol Op 70 N°3",
+          "title_contains": "Op. 70: No. 3",
+          "catalogue_exception": "bare-subnumber",
+          "reason": "The file names Op. 70 No. 3."
+        },
+        {
+          "track_id": 15039582,
+          "target": "Valse En La Bémol Op 70 N°2",
+          "title_contains": "Op. 70: No. 2",
+          "catalogue_exception": "bare-subnumber",
+          "reason": "The file names Op. 70 No. 2."
+        },
+        {
+          "track_id": 15039584,
+          "target": "Valse En La Bémol Op 64 N°3",
+          "title_contains": "Op. 64: No. 3",
+          "catalogue_exception": "bare-subnumber",
+          "reason": "The file names Op. 64 No. 3."
+        },
+        {
+          "track_id": 15039588,
+          "target": "Valse En Ut Dièse Mineur Op 64 N°2",
+          "title_contains": "Op. 64: No. 2",
+          "catalogue_exception": "bare-subnumber",
+          "reason": "The file names Op. 64 No. 2."
+        },
+        {
+          "track_id": 15039590,
+          "target": "Valse En Sol Bémol Op 70 N°1",
+          "title_contains": "Op. 70: No. 1",
+          "catalogue_exception": "bare-subnumber",
+          "reason": "The file names Op. 70 No. 1."
+        },
+        {
+          "track_id": 15039592,
+          "target": "Valse En La Bémol (L'adieu) Op 69 N°1",
+          "title_contains": "Op. 69: No. 1",
+          "catalogue_exception": "bare-subnumber",
+          "reason": "The file names Op. 69 No. 1."
+        },
+        {
+          "track_id": 15039594,
+          "target": "Valse En Mi Mineur (Posthume)",
+          "title_contains": "E Minor",
+          "reason": "The file names the posthumous E minor waltz."
+        },
+        {
+          "track_id": 15039596,
+          "target": "Valse En Ré Bémol Op 64 N°1",
+          "title_contains": "Op. 64: No. 1",
+          "catalogue_exception": "bare-subnumber",
+          "reason": "The file names Op. 64 No. 1."
+        },
+        {
+          "track_id": 15039598,
+          "target": "Valse Brillante En La Bémol Op 34 N°1",
+          "title_contains": "Op. 34: No. 1",
+          "catalogue_exception": "bare-subnumber",
+          "reason": "The file names Op. 34 No. 1."
+        }
+      ],
+      "required_performers": [
+        "Raymond Trouard"
+      ],
+      "movement_runs": false,
+      "sources": [
+        "https://www.qobuz.com/fr-fr/album/chopin-14-valses-pour-piano-raymond-trouard/3610154901657"
+      ],
+      "limitations": [
+        "Op. 70 No. 2 is F minor on the file. The LP label says A-flat.",
+        "This 1961 file is not verified as CBS 51 003."
+      ],
+      "recording_review": "CBS 51 003 is Raymond Trouard’s fourteen Chopin waltzes. This file has those fourteen, in the LP order, with Trouard on every track.",
+      "extra_track_ids": [],
+      "expected": {
+        "Grande Valse Brillante En Mi Bémol Maj Op 18": [
+          15039572
+        ],
+        "Valse En La Mineur Op 34 N°2": [
+          15039574
+        ],
+        "Valse Brillante En Fa Op 34 N°3": [
+          15039576
+        ],
+        "Valse En Si Mineur Op 69 N°2": [
+          15039578
+        ],
+        "Valse En Ré Bémol Op 70 N°3": [
+          15039580
+        ],
+        "Valse En La Bémol Op 70 N°2": [
+          15039582
+        ],
+        "Valse En La Bémol Op 64 N°3": [
+          15039584
+        ],
+        "Grande Valse En La Bémol Op 42": [
+          15039586
+        ],
+        "Valse En Ut Dièse Mineur Op 64 N°2": [
+          15039588
+        ],
+        "Valse En Sol Bémol Op 70 N°1": [
+          15039590
+        ],
+        "Valse En La Bémol (L'adieu) Op 69 N°1": [
+          15039592
+        ],
+        "Valse En Mi Mineur (Posthume)": [
+          15039594
+        ],
+        "Valse En Ré Bémol Op 64 N°1": [
+          15039596
+        ],
+        "Valse Brillante En La Bémol Op 34 N°1": [
+          15039598
+        ]
+      }
     }
   ]
 }

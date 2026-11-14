@@ -1042,3 +1042,16 @@ Trouard 8291074 is the stop: Qobuz 3610154901657 has the fourteen waltzes in
 the CBS 51 003 order, with Trouard on every track, but “N°2” does not count as
 the file’s “No. 2”. That exception stays a proposal. Op. 70 No. 2 is F minor
 on the file and A-flat on the CBS label. Copies unchanged, 12/93/636.
+
+## 2026-11-14 — Trouard’s fourteen waltzes published
+
+A printed N° is that subnumber. It does not cover a different number. CBS
+51 003 has fourteen Chopin waltzes. The 1961 file has those fourteen, in that
+order, with Raymond Trouard on every track. Probable 85 for 8291074. Op. 70
+No. 2 is F minor on the file and A-flat on the LP label. The file is not
+verified as that CBS pressing. Columbia FCX 30205 and FCX 30097 stay
+unpublished: their order is not this file, and the 1953 and 1959 files use
+another order. Copies 12/94/635, unique 12/94/634. Inventory of the 634 still
+unchecked: 305 no saved hits, 12 metadata-needed, 309 work or credit gaps,
+7 reviewed withholds, and the Barenboim caution. Binding tests passed. The
+explorer shows 85% and 14/14.

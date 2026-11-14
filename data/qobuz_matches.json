@@ -15,7 +15,7 @@
   "opera_review_fingerprint": "11a52ad521b086b7c967327a0d01d0cee432d3cf8695754899a7f40aeb20839d",
   "pair_review_fingerprint": "7709aa57ef7815fda88766badd3064939bccb142bd0e97389a0f5f011c54cd84",
   "container_review_fingerprint": "aa8a8e530114e05869e1215561786073250faca3c9349b66059ea59ff3c535e0",
-  "binding_review_fingerprint": "9a26ebee7db42f52357535af6126d5887be1eb719e4f0e518c79d864d1ddc414",
+  "binding_review_fingerprint": "43de9aab048acbb5ab1541c6e6290ea561a480bf6848fa22bfe62a40e899c6b4",
   "heading_review_fingerprint": "44c6333ec66aff9cbbf7a29ae8d00ef0005da4fb05dae7e65278f889e97fab8b",
   "cached_half_review_fingerprint": "51e57b6a2ed934ed1a91452a4a8c314099d6641b216c73740a3da7cda998dbcf",
   "side_range_review_fingerprint": "4434bf0427e75aae1b891957d05cd4175f6b01d7b2f6a8e352238c3a297c44f7",
@@ -6584,10 +6584,282 @@
       ]
     },
     "8291074": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "3610154901657",
+        "name": "Chopin: 14 Valses pour piano",
+        "artists": [
+          "Raymond Trouard"
+        ],
+        "label": "BNF Collection",
+        "release_date": "1961-01-01",
+        "image": "https://static.qobuz.com/images/covers/57/16/3610154901657_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/chopin-14-valses-pour-piano-raymond-trouard/3610154901657"
+      },
       "candidates": [
+        {
+          "id": "3610154901657",
+          "name": "Chopin: 14 Valses pour piano",
+          "artists": [
+            "Raymond Trouard"
+          ],
+          "label": "BNF Collection",
+          "release_date": "1961-01-01",
+          "image": "https://static.qobuz.com/images/covers/57/16/3610154901657_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/chopin-14-valses-pour-piano-raymond-trouard/3610154901657",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 14,
+          "target_count": 14,
+          "required_performers": [
+            "Raymond Trouard"
+          ],
+          "programme": [
+            {
+              "target": "Grande Valse Brillante En Mi Bémol Maj Op 18",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                15039572
+              ]
+            },
+            {
+              "target": "Valse En La Mineur Op 34 N°2",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                15039574
+              ]
+            },
+            {
+              "target": "Valse Brillante En Fa Op 34 N°3",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                15039576
+              ]
+            },
+            {
+              "target": "Valse En Si Mineur Op 69 N°2",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                15039578
+              ]
+            },
+            {
+              "target": "Valse En Ré Bémol Op 70 N°3",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                15039580
+              ]
+            },
+            {
+              "target": "Valse En La Bémol Op 70 N°2",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                15039582
+              ]
+            },
+            {
+              "target": "Valse En La Bémol Op 64 N°3",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                15039584
+              ]
+            },
+            {
+              "target": "Grande Valse En La Bémol Op 42",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                15039586
+              ]
+            },
+            {
+              "target": "Valse En Ut Dièse Mineur Op 64 N°2",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                15039588
+              ]
+            },
+            {
+              "target": "Valse En Sol Bémol Op 70 N°1",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                15039590
+              ]
+            },
+            {
+              "target": "Valse En La Bémol (L'adieu) Op 69 N°1",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                15039592
+              ]
+            },
+            {
+              "target": "Valse En Mi Mineur (Posthume)",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                15039594
+              ]
+            },
+            {
+              "target": "Valse En Ré Bémol Op 64 N°1",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                15039596
+              ]
+            },
+            {
+              "target": "Valse Brillante En La Bémol Op 34 N°1",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                15039598
+              ]
+            }
+          ],
+          "reasons": [
+            "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+            "CBS 51 003 is Raymond Trouard’s fourteen Chopin waltzes. This file has those fourteen, in the LP order, with Trouard on every track.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Op. 70 No. 2 is F minor on the file. The LP label says A-flat.",
+            "This 1961 file is not verified as CBS 51 003."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Grande Valse Brillante En Mi Bémol Maj Op 18",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  15039572
+                ]
+              },
+              {
+                "target": "Valse En La Mineur Op 34 N°2",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  15039574
+                ]
+              },
+              {
+                "target": "Valse Brillante En Fa Op 34 N°3",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  15039576
+                ]
+              },
+              {
+                "target": "Valse En Si Mineur Op 69 N°2",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  15039578
+                ]
+              },
+              {
+                "target": "Valse En Ré Bémol Op 70 N°3",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  15039580
+                ]
+              },
+              {
+                "target": "Valse En La Bémol Op 70 N°2",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  15039582
+                ]
+              },
+              {
+                "target": "Valse En La Bémol Op 64 N°3",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  15039584
+                ]
+              },
+              {
+                "target": "Grande Valse En La Bémol Op 42",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  15039586
+                ]
+              },
+              {
+                "target": "Valse En Ut Dièse Mineur Op 64 N°2",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  15039588
+                ]
+              },
+              {
+                "target": "Valse En Sol Bémol Op 70 N°1",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  15039590
+                ]
+              },
+              {
+                "target": "Valse En La Bémol (L'adieu) Op 69 N°1",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  15039592
+                ]
+              },
+              {
+                "target": "Valse En Mi Mineur (Posthume)",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  15039594
+                ]
+              },
+              {
+                "target": "Valse En Ré Bémol Op 64 N°1",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  15039596
+                ]
+              },
+              {
+                "target": "Valse Brillante En La Bémol Op 34 N°1",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  15039598
+                ]
+              }
+            ]
+          },
+          "recording_review": "CBS 51 003 is Raymond Trouard’s fourteen Chopin waltzes. This file has those fourteen, in the LP order, with Trouard on every track.",
+          "review_sources": [
+            "https://www.qobuz.com/fr-fr/album/chopin-14-valses-pour-piano-raymond-trouard/3610154901657"
+          ]
+        },
         {
           "id": "3610158195656",
           "name": "Les 14 valses de Chopin",
@@ -6811,124 +7083,16 @@
           "reasons": [
             "2/14 target items supported after composer/work grouping; unresolved."
           ]
-        },
-        {
-          "id": "3610154901657",
-          "name": "Chopin: 14 Valses pour piano",
-          "artists": [
-            "Raymond Trouard"
-          ],
-          "label": "BNF Collection",
-          "release_date": "1961-01-01",
-          "image": "https://static.qobuz.com/images/covers/57/16/3610154901657_230.jpg",
-          "url": "https://www.qobuz.com/fr-fr/album/chopin-14-valses-pour-piano-raymond-trouard/3610154901657",
-          "status": "unchecked",
-          "confidence": null,
-          "coverage": 0.14285714285714285,
-          "covered": 2,
-          "target_count": 14,
-          "required_performers": [
-            "Raymond Trouard"
-          ],
-          "programme": [
-            {
-              "target": "Grande Valse Brillante En Mi Bémol Maj Op 18",
-              "work_tracks": 1,
-              "credited_tracks": 1,
-              "track_ids": [
-                15039572
-              ]
-            },
-            {
-              "target": "Valse En La Mineur Op 34 N°2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse Brillante En Fa Op 34 N°3",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse En Si Mineur Op 69 N°2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse En Ré Bémol Op 70 N°3",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse En La Bémol Op 70 N°2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse En La Bémol Op 64 N°3",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Grande Valse En La Bémol Op 42",
-              "work_tracks": 1,
-              "credited_tracks": 1,
-              "track_ids": [
-                15039586
-              ]
-            },
-            {
-              "target": "Valse En Ut Dièse Mineur Op 64 N°2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse En Sol Bémol Op 70 N°1",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse En La Bémol (L'adieu) Op 69 N°1",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse En Mi Mineur (Posthume)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse En Ré Bémol Op 64 N°1",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse Brillante En La Bémol Op 34 N°1",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ],
-          "reasons": [
-            "2/14 target items supported after composer/work grouping; unresolved."
-          ]
         }
       ],
       "query": "raymond trouard chopin les 14 valses",
       "searched_at": "2026-11-12T14:42:16.189537+00:00",
       "reasons": [
-        "2/14 target items supported after composer/work grouping; unresolved."
+        "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+        "CBS 51 003 is Raymond Trouard’s fourteen Chopin waltzes. This file has those fourteen, in the LP order, with Trouard on every track.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Op. 70 No. 2 is F minor on the file. The LP label says A-flat.",
+        "This 1961 file is not verified as CBS 51 003."
       ]
     },
     "8103249": {
