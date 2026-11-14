@@ -83,17 +83,17 @@ plans preserve dated evidence and prior handoffs.
 ## Validation and next action
 
 - Probable 85 includes Salome 7657012, scenes 1–4 with Karajan, the Wiener
-  Philharmoniker, and every named singer. The file does not mark the part
-  cuts. It is not His Master’s Voice SLS 5139. Trouard 8291074 remains.
-- Columbia FCX 30205 and FCX 30097 stay unpublished: their order is not the
-  1961 file, and the 1953 and 1959 files use another order. Klien, Carnaval,
-  François, the sonata cycle, the Karajan boxes, Berman, and Furtwängler’s
-  Entracte III stay unpublished.
+  Philharmoniker, and every named singer. The part cuts are unmarked. It is
+  not His Master’s Voice SLS 5139. Trouard 8291074 remains.
 - Inventory of the 633 still unchecked: 305 no saved hits, 12 metadata-needed,
   308 work or credit gaps, 7 reviewed withholds, and the Barenboim caution.
   Sellheim 7421796 stays an empty query, not confirmed absence.
-- Munrow’s file has 61 tracks against 79. The Four Seasons hits are
-  compilations. Bitches Brew stays a proposal. Pushed through c12ce9d.
+- Next stop: Furtwängler’s Ring 4256464. The 310-track file has the four
+  operas in order, with the Rome orchestra on every track. The LP’s Teil
+  cuts are not tracks, and the file names singers the LP does not. That
+  needs a new review. Schwarzkopf 6257908 is a 197-track anthology. Otello’s
+  Karajan files name Tom Krause. The Rubinstein file is only the concerto.
+  Bitches Brew stays a proposal. Pushed through c12ce9d. Salome is local.
   Live Pages result not confirmed.
 - [Unmatched audit](../plans/2026-11-13-qobuz-unmatched-audit.md). [Bitches Brew credits](../plans/2026-11-13-bitches-brew-credits.md).
 - [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).

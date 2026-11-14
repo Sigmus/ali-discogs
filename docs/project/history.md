@@ -1076,3 +1076,17 @@ The 2026 file is not that HMV set. Copies 12/95/634, unique 12/95/633.
 Inventory of the 633 still unchecked: 305 no saved hits, 12 metadata-needed,
 308 work or credit gaps, 7 reviewed withholds, and the Barenboim caution. Opera
 tests passed. The explorer shows 85% and the canonical album link.
+
+## 2026-11-14 — The Ring needs a review the current kinds do not cover
+
+No new search or download. Schwarzkopf 6257908 stays unpublished: Qobuz
+5099991845955 is a 197-track anthology, not Columbia 33CX 1044 with Gerald
+Moore. Otello 7095769 stays unpublished: the Karajan files name Tom Krause,
+who is not on Decca SET 209-11, and the Tebaldi file is Alberto Erede with
+Santa Cecilia. Rubinstein 13927062 stays unpublished: the cached file is the
+concerto, not the waltzes and polonaises. Furtwängler 4256464 is the stop.
+Dacapo 1C 147-02 275/92 M lists Rheingold, Walküre, Siegfried and
+Götterdämmerung as scene-sides with Teil cuts. Qobuz qs49hef2mbbsb has those
+four operas in order, 310 tracks, with Furtwängler and the Rome orchestra on
+every track. Scene-sides and the act review each cover one opera, and the
+file names singers this LP does not. No publication. Counts unchanged.
