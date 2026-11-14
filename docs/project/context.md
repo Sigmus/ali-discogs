@@ -92,6 +92,9 @@ plans preserve dated evidence and prior handoffs.
 - Inventory of the 634 still unchecked: 305 no saved hits, 12 metadata-needed,
   309 work or credit gaps, 7 reviewed withholds, and the Barenboim caution.
   Sellheim 7421796 stays an empty query, not confirmed absence.
-- Bitches Brew stays a proposal. No push.
+- Next stop: Salome 7657012. The file names Behrens and Karajan, but the
+  LP’s four scene-sides are not the act review. Munrow’s file has 61 tracks
+  against 79. The Four Seasons hits are compilations. Bitches Brew stays a
+  proposal. No push.
 - [Unmatched audit](../plans/2026-11-13-qobuz-unmatched-audit.md). [Bitches Brew credits](../plans/2026-11-13-bitches-brew-credits.md).
 - [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).

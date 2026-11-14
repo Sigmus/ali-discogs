@@ -1055,3 +1055,11 @@ another order. Copies 12/94/635, unique 12/94/634. Inventory of the 634 still
 unchecked: 305 no saved hits, 12 metadata-needed, 309 work or credit gaps,
 7 reviewed withholds, and the Barenboim caution. Binding tests passed. The
 explorer shows 85% and 14/14.
+
+## 2026-11-14 — Salome stays unpublished
+
+The next cached album is Salome 7657012. Qobuz kkjll119bbov7 names Hildegard
+Behrens and Herbert von Karajan, in 26 scene tracks. The LP is four scene-sides,
+and the act review does not classify them. Munrow 6364992’s file has 61 tracks
+against 79. The Four Seasons hits for 17623039 are compilations, not the
+Schwalbé and Karajan concertos. No further publication.
