@@ -1581,3 +1581,19 @@ Next two Klemperer source-version holds; artist/work similarity alone insufficie
 
 Validation:151script tests pass; changed-year/timing/orchestra/photo regressions
 and UI normalization/build pass. Mock warnings are fixtures, not live errors.
+
+
+### 2026-11-15 — Two Klemperer stereo-label reviews
+
+24964822/26149643 become Probable85 after inspecting/saving source labels:
+explicitSTEREO and1959/1961label years. Warner confirms stereo cycle and Seventh
+1960studio dates. Complete symphony/overture programmes and Klemperer/Philharmonia
+credits retained; exact takes/mastering unverified. Second finale6:57vs7:11
+14second discrepancy remains explicit; timing is not sole identity evidence.
+153script tests/UI normalization/build pass; exactly2statuses changed. Copies
+12Found/122Probable/607Unchecked. No Qobuz calls, push/deployment.
+
+Continued cached audit found Gilels15221307false full-coverage lead: source B1
+attributes MedtnerOp.22, normalized row has empty composer list, candidate is a
+Beethoven-only sonata box. Completeness already prevented promotion. Next add a
+source-bound per-work composer safeguard and audit impact without legacy relabels.

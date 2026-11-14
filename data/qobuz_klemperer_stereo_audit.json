@@ -1,0 +1,91 @@
+{
+  "entries": [
+    {
+      "discogs_id": "24964822",
+      "source_photo": {
+        "path": "data/review_sources/24964822-stereo-label.jpg",
+        "sha256": "c8e8e8401983df91c31cbe9b148d7e74b927ae47e0ec80cb0bacfaf4341331b0",
+        "url": "https://i.discogs.com/OQum8730EXfCKltuMiuylB2PZORGffH8aHFAy7NkCCU/rs:fit/g:sm/q:90/h:600/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0OTY0/ODIyLTE2NjY4ODc3/NzktMzc4OC5qcGVn.jpeg"
+      },
+      "label_transcription": {
+        "stereo": true,
+        "label_year": 1959
+      },
+      "symphony_timing_comparison": [
+        {
+          "track_id": 353969765,
+          "source_seconds": 792,
+          "candidate_seconds": 803,
+          "difference_seconds": 11
+        },
+        {
+          "track_id": 353969766,
+          "source_seconds": 782,
+          "candidate_seconds": 789,
+          "difference_seconds": 7
+        },
+        {
+          "track_id": 353969767,
+          "source_seconds": 230,
+          "candidate_seconds": 236,
+          "difference_seconds": 6
+        },
+        {
+          "track_id": 353969768,
+          "source_seconds": 417,
+          "candidate_seconds": 431,
+          "difference_seconds": 14
+        }
+      ],
+      "decision": "probable_early_stereo_family",
+      "timing_is_identity_proof": false
+    },
+    {
+      "discogs_id": "26149643",
+      "source_photo": {
+        "path": "data/review_sources/26149643-stereo-label.jpg",
+        "sha256": "ed930b8929eac491fd8376157bb6990c28b55993a01500588e6399e9a4d6ddbd",
+        "url": "https://i.discogs.com/RV6TcnFxpAYT1XKnG-EzmPl7KDwQZNRR-XaYrg6Y5Wo/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2MTQ5/NjQzLTE2NzY3NjMz/MTYtNTc2My5qcGVn.jpeg"
+      },
+      "label_transcription": {
+        "stereo": true,
+        "label_year": 1961
+      },
+      "symphony_timing_comparison": [
+        {
+          "track_id": 353969790,
+          "source_seconds": 835,
+          "candidate_seconds": 847,
+          "difference_seconds": 12
+        },
+        {
+          "track_id": 353969791,
+          "source_seconds": 595,
+          "candidate_seconds": 603,
+          "difference_seconds": 8
+        },
+        {
+          "track_id": 353969792,
+          "source_seconds": 514,
+          "candidate_seconds": 520,
+          "difference_seconds": 6
+        },
+        {
+          "track_id": 353969793,
+          "source_seconds": 514,
+          "candidate_seconds": 523,
+          "difference_seconds": 9
+        }
+      ],
+      "decision": "probable_early_stereo_family",
+      "timing_is_identity_proof": false
+    }
+  ],
+  "warner_cycle_source": "https://www.warnerclassics.com/release/beethoven-9-symphonies-overtures-remastered",
+  "seventh_session_source": "https://wmg.jp/discography/16393",
+  "seventh_recorded": "25.X.,19.XI.,3.XII.1960, Kingsway Hall, London",
+  "limitations": [
+    "Session/label/issue years remain distinct. Recording-family Probable does not verify exact takes or mastering.",
+    "Second Symphony finale timing discrepancy disclosed; no duration-guard threshold changed."
+  ]
+}

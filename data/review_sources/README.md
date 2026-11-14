@@ -25,3 +25,12 @@ or authenticated requests are included.
   from the cached Discogs image reference. It gives Carnegie Hall/14January1952.
   Exact URL/hash are in the review ledger. This is recording-family evidence,
   not verification of the third-party digital transfer or its stereo treatment.
+
+
+- `24964822-stereo-label.jpg`: inspected original EMI 3C053-00795label,
+  explicitly STEREO, label year1959. Raw collection format lacks this flag;
+  raw metadata was not overwritten.
+- `26149643-stereo-label.jpg`: inspected EMI 3C053-00800label, explicitly
+  STEREO, label year1961. Warner Japan identifies the Seventh's1960studio
+  sessions: https://wmg.jp/discography/16393 . Label years are not asserted
+  to be session dates. Exact photo URLs/hashes are in the review ledger.

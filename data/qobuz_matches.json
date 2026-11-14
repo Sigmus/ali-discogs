@@ -29,7 +29,7 @@
   "richter_review_fingerprint": "a14865f86e46150593e39bfa285fa6c7c61c8f46147b8094c0cb048fd02118ab",
   "round2_review_fingerprint": "be60742c3d35f5a9aa67f200642f7fcde98a52562a46130e043db8f4aa7c851e",
   "round2_metadata_fingerprint": "9db62d7bf62d4b77f5acf422dfde77959f845f4dc00b2ac0e10c02ccea295860",
-  "remaining_review_fingerprint": "198dc20c68417e63aa8e3f81a53934a2f9ef65578ef7a6de128a60a0eb354ec7",
+  "remaining_review_fingerprint": "dd450baa7ee9310308fbc7a5e81b6ed8c466336ea0fb6b7d4fce1e13fd182a69",
   "remaining_metadata_fingerprint": "393b2d12e176160ab311b65267b38bdc8c205222e12f792bf07eba5c1fcfafbf",
   "remaining_followup_metadata_fingerprint": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
   "remaining_followup_scope_fingerprint": "41780b365b45dcd74f5ffd053bfe546c3c873eae535dd66250297799f48c2daa",
@@ -97169,14 +97169,125 @@
       ]
     },
     "24964822": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "vrg5q0y8vzvaa",
+        "name": "Beethoven: The 9 Symphonies & Overtures (Remastered)",
+        "artists": [
+          "Otto Klemperer"
+        ],
+        "label": "Warner Classics",
+        "release_date": "2025-09-22",
+        "image": "https://static.qobuz.com/images/covers/aa/zv/vrg5q0y8vzvaa_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/beethoven-the-9-symphonies-overtures-remastered-otto-klemperer/vrg5q0y8vzvaa"
+      },
+      "candidates": [
+        {
+          "id": "vrg5q0y8vzvaa",
+          "name": "Beethoven: The 9 Symphonies & Overtures (Remastered)",
+          "artists": [
+            "Otto Klemperer"
+          ],
+          "label": "Warner Classics",
+          "release_date": "2025-09-22",
+          "image": "https://static.qobuz.com/images/covers/aa/zv/vrg5q0y8vzvaa_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/beethoven-the-9-symphonies-overtures-remastered-otto-klemperer/vrg5q0y8vzvaa",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 3,
+          "target_count": 3,
+          "required_performers": [
+            "Otto Klemperer"
+          ],
+          "programme": [
+            {
+              "target": "Sinfonia N.2 In Re Maggiore, Op.36",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                353969765,
+                353969766,
+                353969767,
+                353969768
+              ]
+            },
+            {
+              "target": "Leonore Ouverture N.2, Op. 72a In Do Maggiore",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                353969811
+              ]
+            },
+            {
+              "target": "Die Geschopfe Des Prometheus Ouverture, Op. 43",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                353969770
+              ]
+            }
+          ],
+          "reasons": [
+            "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+            "The inspected original EMI label explicitly says STEREO and carries the1959label year, supporting the early Philharmonia stereo family rather than an unspecified later remake. Warner identifies the selected compilation as the stereo cycle. All four symphony movements and every source overture are present with Klemperer/Philharmonia credits. Source timings are close across the whole programme, with a14second finale difference retained; timing is corroboration, not a take identifier.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Label year is not asserted to be a recording-session date; exact LP pressing/takes/transfer and digital mastering remain unverified.",
+            "Other mono/live/later versions are not treated as interchangeable; the inspected stereo label is case-specific evidence, not a generic artist/year inference.",
+            "Second Symphony finale source6:57versus candidate7:11 differs by14seconds (about3.4%). Timing alone does not establish take identity."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Sinfonia N.2 In Re Maggiore, Op.36",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  353969765,
+                  353969766,
+                  353969767,
+                  353969768
+                ]
+              },
+              {
+                "target": "Leonore Ouverture N.2, Op. 72a In Do Maggiore",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  353969811
+                ]
+              },
+              {
+                "target": "Die Geschopfe Des Prometheus Ouverture, Op. 43",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  353969770
+                ]
+              }
+            ]
+          },
+          "recording_review": "The inspected original EMI label explicitly says STEREO and carries the1959label year, supporting the early Philharmonia stereo family rather than an unspecified later remake. Warner identifies the selected compilation as the stereo cycle. All four symphony movements and every source overture are present with Klemperer/Philharmonia credits. Source timings are close across the whole programme, with a14second finale difference retained; timing is corroboration, not a take identifier.",
+          "review_sources": [
+            "https://www.warnerclassics.com/release/beethoven-9-symphonies-overtures-remastered",
+            "https://i.discogs.com/OQum8730EXfCKltuMiuylB2PZORGffH8aHFAy7NkCCU/rs:fit/g:sm/q:90/h:600/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0OTY0/ODIyLTE2NjY4ODc3/NzktMzc4OC5qcGVn.jpeg",
+            "https://www.discogs.com/release/24964822"
+          ]
+        }
+      ],
       "query": "otto klemperer beethoven sinfonia n 2 leonore n 2 prometheus",
       "searched_at": "2026-11-12T16:25:53.358197+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+        "The inspected original EMI label explicitly says STEREO and carries the1959label year, supporting the early Philharmonia stereo family rather than an unspecified later remake. Warner identifies the selected compilation as the stereo cycle. All four symphony movements and every source overture are present with Klemperer/Philharmonia credits. Source timings are close across the whole programme, with a14second finale difference retained; timing is corroboration, not a take identifier.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Label year is not asserted to be a recording-session date; exact LP pressing/takes/transfer and digital mastering remain unverified.",
+        "Other mono/live/later versions are not treated as interchangeable; the inspected stereo label is case-specific evidence, not a generic artist/year inference.",
+        "Second Symphony finale source6:57versus candidate7:11 differs by14seconds (about3.4%). Timing alone does not establish take identity."
       ]
     },
     "24963823": {
@@ -97454,14 +97565,109 @@
       ]
     },
     "26149643": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "vrg5q0y8vzvaa",
+        "name": "Beethoven: The 9 Symphonies & Overtures (Remastered)",
+        "artists": [
+          "Otto Klemperer"
+        ],
+        "label": "Warner Classics",
+        "release_date": "2025-09-22",
+        "image": "https://static.qobuz.com/images/covers/aa/zv/vrg5q0y8vzvaa_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/beethoven-the-9-symphonies-overtures-remastered-otto-klemperer/vrg5q0y8vzvaa"
+      },
+      "candidates": [
+        {
+          "id": "vrg5q0y8vzvaa",
+          "name": "Beethoven: The 9 Symphonies & Overtures (Remastered)",
+          "artists": [
+            "Otto Klemperer"
+          ],
+          "label": "Warner Classics",
+          "release_date": "2025-09-22",
+          "image": "https://static.qobuz.com/images/covers/aa/zv/vrg5q0y8vzvaa_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/beethoven-the-9-symphonies-overtures-remastered-otto-klemperer/vrg5q0y8vzvaa",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 2,
+          "target_count": 2,
+          "required_performers": [
+            "Otto Klemperer",
+            "Philharmonia Orchestra"
+          ],
+          "programme": [
+            {
+              "target": "Sinfonia N.7 In La Maggiore Op.92",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                353969790,
+                353969791,
+                353969792,
+                353969793
+              ]
+            },
+            {
+              "target": "La Consacrazione Della Casa - Ouverture Op.124",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                353969779
+              ]
+            }
+          ],
+          "reasons": [
+            "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+            "The inspected original EMI label explicitly says STEREO and carries the1961label year, supporting the early Philharmonia stereo family rather than an unspecified later remake. Warner identifies the selected compilation as the stereo cycle. All four symphony movements and every source overture are present with Klemperer/Philharmonia credits. Warner Japan independently dates the Seventh studio sessions to1960, consistent with its1961label. Source timings corroborate this family.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Label year is not asserted to be a recording-session date; exact LP pressing/takes/transfer and digital mastering remain unverified.",
+            "Other mono/live/later versions are not treated as interchangeable; the inspected stereo label is case-specific evidence, not a generic artist/year inference."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Sinfonia N.7 In La Maggiore Op.92",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  353969790,
+                  353969791,
+                  353969792,
+                  353969793
+                ]
+              },
+              {
+                "target": "La Consacrazione Della Casa - Ouverture Op.124",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  353969779
+                ]
+              }
+            ]
+          },
+          "recording_review": "The inspected original EMI label explicitly says STEREO and carries the1961label year, supporting the early Philharmonia stereo family rather than an unspecified later remake. Warner identifies the selected compilation as the stereo cycle. All four symphony movements and every source overture are present with Klemperer/Philharmonia credits. Warner Japan independently dates the Seventh studio sessions to1960, consistent with its1961label. Source timings corroborate this family.",
+          "review_sources": [
+            "https://www.warnerclassics.com/release/beethoven-9-symphonies-overtures-remastered",
+            "https://i.discogs.com/RV6TcnFxpAYT1XKnG-EzmPl7KDwQZNRR-XaYrg6Y5Wo/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2MTQ5/NjQzLTE2NzY3NjMz/MTYtNTc2My5qcGVn.jpeg",
+            "https://www.discogs.com/release/26149643",
+            "https://wmg.jp/discography/16393"
+          ]
+        }
+      ],
       "query": "otto klemperer beethoven sinfonia n 7 die weihe des hauses",
       "searched_at": "2026-11-12T16:26:53.793345+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+        "The inspected original EMI label explicitly says STEREO and carries the1961label year, supporting the early Philharmonia stereo family rather than an unspecified later remake. Warner identifies the selected compilation as the stereo cycle. All four symphony movements and every source overture are present with Klemperer/Philharmonia credits. Warner Japan independently dates the Seventh studio sessions to1960, consistent with its1961label. Source timings corroborate this family.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Label year is not asserted to be a recording-session date; exact LP pressing/takes/transfer and digital mastering remain unverified.",
+        "Other mono/live/later versions are not treated as interchangeable; the inspected stereo label is case-specific evidence, not a generic artist/year inference."
       ]
     },
     "13847676": {

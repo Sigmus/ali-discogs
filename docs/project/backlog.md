@@ -1,6 +1,6 @@
 # Backlog
 
-Updated: 2026-11-14, Europe/Amsterdam
+Updated: 2026-11-15, Europe/Amsterdam
 
 Only active work and proposals belong here. IDs stay stable. Completed work is
 in [history](history.md); previous detailed case notes and plan links are preserved
@@ -10,12 +10,13 @@ in the [14 November archive](../plans/2026-11-14-backlog-detail-archive.md).
 
 Status: agreed priority; retrieval and first offline screen/audit complete.
 [Offline follow-up](../plans/2026-11-14-qobuz-offline-followup.md): recording review
-now includes twenty-two new Probables and shared inventory/parser fixes. Nine-album
+now includes twenty-four new Probables and shared inventory/parser fixes. Nine-album
 follow-up complete216tracks:7Probables/4withheld release leads after further
 reviews. Next:
-Klemperer24964822/26149643source-version evidence. Toscanini10757120now
-Probable from inspected RCA sleeve/date and documented RCA-reissue timings;
-third-party transfer remains unverified.151script tests pass. Nabucco/Mozart
+Gilels15221307source-bound per-work composer safeguard: raw B1Medtner versus
+Beethoven-only candidate; empty normalized composer field currently permits a
+false full-coverage lead. Label remains unchecked. Two Klemperer former holds now
+Probable with saved stereo-label evidence;153script tests pass. Nabucco/Mozart
 credit/catalogue gaps remain unresolved.
 170remaining metadata-needed releases are not a fetch mandate. Follow the
 [retrieval and follow-up plan](../plans/2026-11-14-qobuz-remaining-retrieval.md).

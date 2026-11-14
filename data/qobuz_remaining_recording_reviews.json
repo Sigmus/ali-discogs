@@ -2862,6 +2862,279 @@
         "The source is tagged Stereo, although this is a historical1952recording; no stereo-channel/mastering equivalence is claimed.",
         "Timing and year agreement are corroboration, not audio fingerprinting or proof of identical edits."
       ]
+    },
+    {
+      "discogs_id": "24964822",
+      "album_id": "vrg5q0y8vzvaa",
+      "review_kind": "bound-tracks",
+      "decision": "probable",
+      "target_sha256": "92c1a7f21a14608f690b48e33cf1ad4ba41a3cae61b596186229022fa8724b66",
+      "album_sha256": "5a5fd43cf348d1644ea86c314ca21d91975d5b9e06ee29642a5ed9de3bcccee9",
+      "source_sha256": "c3df5cb1ca8130f9f1a70e10ef148886d04bbef50f5c1ed6f87f38902fd5b6f5",
+      "pulls": [],
+      "adds": [],
+      "expected": {
+        "Sinfonia N.2 In Re Maggiore, Op.36": [
+          353969765,
+          353969766,
+          353969767,
+          353969768
+        ],
+        "Leonore Ouverture N.2, Op. 72a In Do Maggiore": [
+          353969811
+        ],
+        "Die Geschopfe Des Prometheus Ouverture, Op. 43": [
+          353969770
+        ]
+      },
+      "extra_track_ids": [
+        353969761,
+        353969762,
+        353969763,
+        353969764,
+        353969769,
+        353969771,
+        353969772,
+        353969773,
+        353969774,
+        353969775,
+        353969776,
+        353969777,
+        353969778,
+        353969779,
+        353969780,
+        353969781,
+        353969782,
+        353969783,
+        353969784,
+        353969785,
+        353969786,
+        353969787,
+        353969788,
+        353969789,
+        353969790,
+        353969791,
+        353969792,
+        353969793,
+        353969794,
+        353969795,
+        353969796,
+        353969797,
+        353969798,
+        353969799,
+        353969800,
+        353969801,
+        353969802,
+        353969803,
+        353969804,
+        353969805,
+        353969806,
+        353969807,
+        353969808,
+        353969809,
+        353969810,
+        353969812,
+        353969813,
+        353969814
+      ],
+      "required_performers": [
+        "Otto Klemperer",
+        "Philharmonia Orchestra"
+      ],
+      "numbered_movement_runs": [
+        {
+          "target": "Sinfonia N.2 In Re Maggiore, Op.36",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "marks": [
+        {
+          "track_id": 353969765,
+          "text": "Symphony No. 2 in D Major, Op. 36: I. Adagio molto - Allegro con brio",
+          "isrc_equals": "GBAYC2202876"
+        },
+        {
+          "track_id": 353969766,
+          "text": "Symphony No. 2 in D Major, Op. 36: II. Larghetto",
+          "isrc_equals": "GBAYC2202877"
+        },
+        {
+          "track_id": 353969767,
+          "text": "Symphony No. 2 in D Major, Op. 36: III. Scherzo - Trio. Allegro",
+          "isrc_equals": "GBAYC2202878"
+        },
+        {
+          "track_id": 353969768,
+          "text": "Symphony No. 2 in D Major, Op. 36: IV. Allegro molto",
+          "isrc_equals": "GBAYC2202879"
+        },
+        {
+          "track_id": 353969770,
+          "text": "Die Geschöpfe des Prometheus, Op. 43: Overture",
+          "isrc_equals": "GBAYC2202881"
+        },
+        {
+          "track_id": 353969811,
+          "text": "Leonore Overture No. 2, Op. 72a",
+          "isrc_equals": "GBAYC2202986"
+        }
+      ],
+      "external_source_files": [
+        {
+          "path": "data/review_sources/24964822-stereo-label.jpg",
+          "sha256": "c8e8e8401983df91c31cbe9b148d7e74b927ae47e0ec80cb0bacfaf4341331b0",
+          "url": "https://i.discogs.com/OQum8730EXfCKltuMiuylB2PZORGffH8aHFAy7NkCCU/rs:fit/g:sm/q:90/h:600/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0OTY0/ODIyLTE2NjY4ODc3/NzktMzc4OC5qcGVn.jpeg"
+        }
+      ],
+      "sources": [
+        "https://www.warnerclassics.com/release/beethoven-9-symphonies-overtures-remastered",
+        "https://i.discogs.com/OQum8730EXfCKltuMiuylB2PZORGffH8aHFAy7NkCCU/rs:fit/g:sm/q:90/h:600/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0OTY0/ODIyLTE2NjY4ODc3/NzktMzc4OC5qcGVn.jpeg",
+        "https://www.discogs.com/release/24964822"
+      ],
+      "recording_review": "The inspected original EMI label explicitly says STEREO and carries the1959label year, supporting the early Philharmonia stereo family rather than an unspecified later remake. Warner identifies the selected compilation as the stereo cycle. All four symphony movements and every source overture are present with Klemperer/Philharmonia credits. Source timings are close across the whole programme, with a14second finale difference retained; timing is corroboration, not a take identifier.",
+      "limitations": [
+        "Label year is not asserted to be a recording-session date; exact LP pressing/takes/transfer and digital mastering remain unverified.",
+        "Other mono/live/later versions are not treated as interchangeable; the inspected stereo label is case-specific evidence, not a generic artist/year inference.",
+        "Second Symphony finale source6:57versus candidate7:11 differs by14seconds (about3.4%). Timing alone does not establish take identity."
+      ]
+    },
+    {
+      "discogs_id": "26149643",
+      "album_id": "vrg5q0y8vzvaa",
+      "review_kind": "bound-tracks",
+      "decision": "probable",
+      "target_sha256": "f5a41dc233a37acc6cd6916c1cd646da6767d8cb44d42088422fd56799f7e882",
+      "album_sha256": "5a5fd43cf348d1644ea86c314ca21d91975d5b9e06ee29642a5ed9de3bcccee9",
+      "source_sha256": "951d20e6c1849eadfb7e752e2d023da30ebdc085c79ac9eeb77f9264d0c061e1",
+      "pulls": [],
+      "adds": [],
+      "expected": {
+        "Sinfonia N.7 In La Maggiore Op.92": [
+          353969790,
+          353969791,
+          353969792,
+          353969793
+        ],
+        "La Consacrazione Della Casa - Ouverture Op.124": [
+          353969779
+        ]
+      },
+      "extra_track_ids": [
+        353969761,
+        353969762,
+        353969763,
+        353969764,
+        353969765,
+        353969766,
+        353969767,
+        353969768,
+        353969769,
+        353969770,
+        353969771,
+        353969772,
+        353969773,
+        353969774,
+        353969775,
+        353969776,
+        353969777,
+        353969778,
+        353969780,
+        353969781,
+        353969782,
+        353969783,
+        353969784,
+        353969785,
+        353969786,
+        353969787,
+        353969788,
+        353969789,
+        353969794,
+        353969795,
+        353969796,
+        353969797,
+        353969798,
+        353969799,
+        353969800,
+        353969801,
+        353969802,
+        353969803,
+        353969804,
+        353969805,
+        353969806,
+        353969807,
+        353969808,
+        353969809,
+        353969810,
+        353969811,
+        353969812,
+        353969813,
+        353969814
+      ],
+      "required_performers": [
+        "Otto Klemperer",
+        "Philharmonia Orchestra"
+      ],
+      "numbered_movement_runs": [
+        {
+          "target": "Sinfonia N.7 In La Maggiore Op.92",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "marks": [
+        {
+          "track_id": 353969779,
+          "text": "Die Weihe des Hauses, Op. 124",
+          "isrc_equals": "GBAYC2202891"
+        },
+        {
+          "track_id": 353969790,
+          "text": "Symphony No. 7 in A Major, Op. 92: I. Poco sostenuto - Vivace",
+          "isrc_equals": "GBAYC2202927"
+        },
+        {
+          "track_id": 353969791,
+          "text": "Symphony No. 7 in A Major, Op. 92: II. Allegretto",
+          "isrc_equals": "GBAYC2202928"
+        },
+        {
+          "track_id": 353969792,
+          "text": "Symphony No. 7 in A Major, Op. 92: III. Presto - Assai meno presto",
+          "isrc_equals": "GBAYC2202929"
+        },
+        {
+          "track_id": 353969793,
+          "text": "Symphony No. 7 in A Major, Op. 92: IV. Allegro con brio",
+          "isrc_equals": "GBAYC2202930"
+        }
+      ],
+      "external_source_files": [
+        {
+          "path": "data/review_sources/26149643-stereo-label.jpg",
+          "sha256": "ed930b8929eac491fd8376157bb6990c28b55993a01500588e6399e9a4d6ddbd",
+          "url": "https://i.discogs.com/RV6TcnFxpAYT1XKnG-EzmPl7KDwQZNRR-XaYrg6Y5Wo/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2MTQ5/NjQzLTE2NzY3NjMz/MTYtNTc2My5qcGVn.jpeg"
+        }
+      ],
+      "sources": [
+        "https://www.warnerclassics.com/release/beethoven-9-symphonies-overtures-remastered",
+        "https://i.discogs.com/RV6TcnFxpAYT1XKnG-EzmPl7KDwQZNRR-XaYrg6Y5Wo/rs:fit/g:sm/q:90/h:450/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI2MTQ5/NjQzLTE2NzY3NjMz/MTYtNTc2My5qcGVn.jpeg",
+        "https://www.discogs.com/release/26149643",
+        "https://wmg.jp/discography/16393"
+      ],
+      "recording_review": "The inspected original EMI label explicitly says STEREO and carries the1961label year, supporting the early Philharmonia stereo family rather than an unspecified later remake. Warner identifies the selected compilation as the stereo cycle. All four symphony movements and every source overture are present with Klemperer/Philharmonia credits. Warner Japan independently dates the Seventh studio sessions to1960, consistent with its1961label. Source timings corroborate this family.",
+      "limitations": [
+        "Label year is not asserted to be a recording-session date; exact LP pressing/takes/transfer and digital mastering remain unverified.",
+        "Other mono/live/later versions are not treated as interchangeable; the inspected stereo label is case-specific evidence, not a generic artist/year inference."
+      ]
     }
   ]
 }

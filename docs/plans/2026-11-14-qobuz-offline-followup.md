@@ -373,3 +373,26 @@ parser, including catalogue-qualified comma Roman labels; no bare-comma ordinal
 inference. Two regressions cover changed year/timing/orchestra and photo hash.
 Review retains third-party mastering and source Stereo-tag limitations. Probable85
 family only, not Found. Structured timing/source audit saved; no Qobuz calls.
+
+
+## Two remaining Klemperer stereo-family holds reviewed
+
+Inspected/saved original labels for24964822/26149643. They explicitly saySTEREO
+and carry1959/1961label years. This is new source evidence beyond the normalized
+format/name/title fields that previously left version selection unresolved.
+Warner's selected compilation identifies the stereo cycle; Warner Japan16393
+independently dates the Seventh studio sessions to October–December1960.
+
+Existing bound-track reviews retain Symphony2four movements plus Leonore2 and
+Prometheus, and Symphony7four movements plus Consecration. Positive conductor/
+orchestra on every selected track, exact title/ISRC marks, source/album/label-photo
+hashes and ordered inventories. No mono/live/later orchestra substitution.
+Symphony2finale source6:57 versus candidate7:11 differs14seconds (~3.4%): retained
+as a discrepancy; timing is not an identity test here and no guard was relaxed.
+Other source timings are close. Label years are not claimed to be session dates;
+exact takes/LP pressing/mastering remain unverified. Both reviews Probable85 only.
+
+Updated former-hold regression to require saved positive stereo evidence; two
+new regressions reject changed label hashes, later orchestra and missing overture.
+Source-note/timing audit saved in `data/qobuz_klemperer_stereo_audit.json`. No
+Qobuz calls, source-format overwrite, push or deployment.

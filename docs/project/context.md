@@ -1,6 +1,6 @@
 # Ali Discogs
 
-Updated: 2026-11-14, Europe/Amsterdam
+Updated: 2026-11-15, Europe/Amsterdam
 
 Browse ajozi’s Discogs collection and review Spotify/Qobuz matches in a static
 explorer. [README](../../README.md) owns setup and architecture;
@@ -12,7 +12,7 @@ explorer. [README](../../README.md) owns setup and architecture;
   table headers). Retrieval complete; first offline screen/audit complete. Deployment not verified.
 - Collection: 741 copies / 740 unique releases. Current saved labels: Spotify
   254 Found / 273 Probable / 210 Not found / 4 Unchecked; Qobuz
-  12 Found / 120 Probable / 609 Unchecked copies (14 November snapshot).
+  12 Found / 122 Probable / 607 Unchecked copies (14 November snapshot).
 - Spotify’s legacy album-level labels and stricter Qobuz evidence levels are
   not comparable accuracy or catalogue-coverage measurements. Both status and
   score are saved data. Qobuz 95/85 are heuristic levels, not probabilities.
@@ -67,10 +67,10 @@ explorer. [README](../../README.md) owns setup and architecture;
 ## Offline follow-up checkpoint
 
 - Screened2,227pairs:14complete programme/credit leads,
-  345cached unresolved pairs,1,868pairs missing full metadata. Twenty-two new
+  345cached unresolved pairs,1,868pairs missing full metadata. Twenty-four new
   Probable releases now published locally after bounded reviews.
 - Michelangeli sonata3285095/Concerto1 3672809 and Gilels7914875 completed.
-  Nine Beethoven plus Chopin Op.11 inventory additions;151script tests pass.
+  Nine Beethoven plus Chopin Op.11 inventory additions;153script tests pass.
 - [Offline plan](../plans/2026-11-14-qobuz-offline-followup.md) owns findings and
   exact next steps. Two network-forbidden/fail-closed regression tests pass.
 
@@ -91,11 +91,11 @@ new-hit downloads, automatic promotions, pushes or deployment. Bitches Brew’s
 credit exception remains a proposal. Preserve source/hash-bound review safeguards;
 never loosen credits or invent recording identity to improve a count.
 
-Next action: inspect Klemperer24964822/26149643source sleeve/session evidence
-for version selection; preserve current holds unless the source distinguishes it.
-Toscanini10757120 now Probable: RCA sleeve date and independent RCA-reissue
-movement timings corroborate the1952family; third-party transfer unverified.
-All new photo/session evidence is saved/hash-bound. Current608unchecked unique.
-151script tests/UI normalization/build pass. No Qobuz calls or push/deployment.
+Next action: add/audit a source-bound per-work composer safeguard for Gilels
+15221307: raw source attributes B1to Medtner, but normalized composer list is empty;
+Beethoven-only candidate is a false full-coverage lead, still safely unchecked.
+Klemperer24964822/26149643now Probable with saved stereo labels/early years;
+Second finale14second timing discrepancy disclosed. Current606unchecked unique.
+153script tests/UI normalization/build pass. No Qobuz calls or push/deployment.
 Nabucco/Mozart credit gaps remain; broader retrieval is still unscoped.
 [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).
