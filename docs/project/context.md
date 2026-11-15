@@ -83,10 +83,12 @@ and cache commands. This directory owns current planning.
 
 ## Next action and limits
 
-Next: prepare a small ranked metadata scope from the160metadata-needed releases,
-using saved search evidence and source programme/credits. Preparation is offline;
-new retrieval needs concrete scope. Final23reviews are complete, not all matched.
-Do not transfer recording identity between source releases or compilation takes.
+Active: user authorized caching all saved candidates for160metadata-needed
+releases before ranking:936distinct albums,1080release/album associations.
+[Fixed-scope retrieval plan](../plans/2026-11-15-qobuz-uncached160.md). Slow resumable
+worker launched22:19CET under caffeinate; first album14tracks, no warning.
+Inspect `.qobuz-poc/uncached160-2026-11-15/progress.json` and log before acting. No new
+searches, audio, automatic promotions or warning retries. Then rank offline.
 
 Continue verified cached reviews/commits autonomously. No unbounded retrieval,
 warning retries, automatic push/deployment, source rewrites or musical-credit

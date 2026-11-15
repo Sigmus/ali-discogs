@@ -532,3 +532,14 @@ headings and all physical pieces remain checked.
 `uv run python scripts/qobuz_secondary23_audit.py` reproduces all23frozen decisions,
 including cached-alternative manifests and rejection/hold precedence over a future
 high score. [Results](plans/2026-11-15-qobuz-secondary23.md).
+
+
+### Cache all candidates for the remaining160metadata-needed releases
+
+The15November fixed936album scope is user-authorized before ranking. Prepare
+offline with `uv run --with requests python scripts/qobuz_uncached160.py`;
+`--fetch` starts retrieval and `--export` validates/exports completed checkpoints.
+Do not rerun an active worker or remove STOP without user direction. Progress/logs
+are under `.qobuz-poc/uncached160-2026-11-15/`. Full manifest, immutable evidence
+hashes, per-album checkpoints and existing request cache make the run resumable.
+[Plan and completion checklist](plans/2026-11-15-qobuz-uncached160.md).

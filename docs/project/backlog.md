@@ -8,13 +8,14 @@ in the [14 November archive](../plans/2026-11-14-backlog-detail-archive.md).
 
 ## AD-008 — Qobuz evidence and matching refinement
 
-Status: agreed priority; bounded retrieval complete, cached reviews active.
+Status: agreed priority; all-candidate metadata caching authorized before ranking.
 
 Use the [offline follow-up](../plans/2026-11-14-qobuz-offline-followup.md) and
 [source-credit review plan](../plans/2026-11-15-qobuz-source-credit-reviews.md).
 Completed cases and validations are in history; current counts in context.
-The12+305pass and approved metadata follow-ups are validated/shared.160remaining
-metadata-needed releases are not a fetch mandate.
+The12+305pass and prior metadata follow-ups are validated/shared. User now authorizes
+caching all936uncached saved-hit albums for160metadata-needed releases before
+ranking. [Scope/run plan](../plans/2026-11-15-qobuz-uncached160.md). No new searches.
 
 The [fourteen-case batch](../plans/2026-11-15-qobuz-priority14-batch.md) is complete:
 2 Probable recording-family matches, 12 explicit holds. Complete review does not
@@ -23,9 +24,9 @@ mean complete match. Evidence, frozen IDs, alternatives and next actions are in
 
 All26secondary recording reviews are complete:7Probable,18withheld and1specific
 wrong-recording rejection, including the [final23batch](../plans/2026-11-15-qobuz-secondary23.md).
-No open priority/secondary leads remain. Next prepare a small ranked metadata scope
-from160metadata-needed releases using cached hits, source programme and musicians;
-this does not authorize retrieval.357work/credit cases remain:354zero-current-
+No open priority/secondary leads remain. Cache the authorized936albums, validate
+and share evidence, then rank from full programme/credit data.357work/credit cases
+remain:354zero-current-
 support and3known constraints. Zero support needs source/lead/rule investigation,
 not automatic API retrieval. Revisit explicit holds only with new evidence or a
 validated scoped rule; partial source support is triage, not confidence.

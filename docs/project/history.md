@@ -2063,3 +2063,17 @@ audio cuts/takes remain unverified. Frozen alternatives/blockers in the
 Collection/Spotify unchanged.12Found/142Probable/587Unchecked copies; no remaining
 priority/secondary leads.357work/credit,160metadata-needed,58holds,4recording
 rejections,6empty and1source hold remain unique. No push/deployment.
+
+
+### 2026-11-15 — All-candidate metadata cache authorized
+
+User chose to cache before triage, covering all160metadata-needed releases:
+936distinct saved-search albums,1080release/album associations. Fixed scope and
+resumable metadata-only worker prepared, with2scope/checkpoint tests passing.
+Existing15second spacing/120second batch rests and warning stops preserved.
+No requests made during preparation; completion/ranking remain pending.
+[Run plan](../plans/2026-11-15-qobuz-uncached160.md).
+
+Launched the936album worker22:19CET with idle-sleep assertion. At 2026-11-15 22:20 CET,
+2/936completed, status running; first output14complete tracks,
+no live warnings.233script tests pass. Retrieval/export/ranking still pending.
