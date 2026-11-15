@@ -40,6 +40,14 @@ def load_reviews():
     return entries, albums
 
 
+def validate_external_sources(review):
+    for source in review.get('external_source_files') or []:
+        path = (ROOT/source['path']).resolve()
+        if (not path.is_relative_to((ROOT/'data/review_sources').resolve())
+                or hashlib.sha256(path.read_bytes()).hexdigest() != source['sha256']):
+            raise ValueError('Reviewed external source evidence changed')
+
+
 def assess(row, album, review):
     from qobuz_match import evaluate
     from qobuz_completeness import movement_number
@@ -50,6 +58,7 @@ def assess(row, album, review):
         raise ValueError('Reviewed evidence changed; review again before publication')
     if review.get('source_sha256') is not None and hashlib.sha256((ROOT/f"raw/discogs/releases/{review['discogs_id']}.json").read_bytes()).hexdigest() != review['source_sha256']:
         raise ValueError('Reviewed source changed; review recording evidence again')
+    validate_external_sources(review)
     if review.get('review_kind') == 'source-heading-movements':
         from qobuz_heading_movements_review import assess_heading_movements
         return assess_heading_movements(row, album, review)

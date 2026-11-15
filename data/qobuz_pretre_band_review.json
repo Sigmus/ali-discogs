@@ -1,0 +1,260 @@
+{
+  "schema_version": 1,
+  "discogs_id": "13671866",
+  "album_id": "g61k6w1czptxc",
+  "target_sha256": "91ab9a0d8c52600c1ba6fc4eb4c7babf000c4b8107f6b94e0bcfc894ee5ef950",
+  "source_sha256": "61e8bde29c18edb80a147287ca792d5754479012976d5462f60d994f0983f190",
+  "album_sha256": "84485e9972e35ebb3897f7a9c367dc1f569625480d117d222a57c60c2fee0f77",
+  "external_source_files": [
+    {
+      "path": "data/review_sources/pretre-13671866/liner.jpg",
+      "sha256": "cf92492143379193fd3f1c6ed75ce07bc0703a867989bc4d24eedeb66e216951",
+      "source_url": "https://i.discogs.com/3dWG6fQhk1LVSe02dlj2Nn9WiYrcYCIx5MnN9Y67HLw/rs:fit/g:sm/q:90/h:580/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNjcx/ODY2LTE1NTg5NzE4/MzAtMjA1Mi5qcGVn.jpeg"
+    },
+    {
+      "path": "data/review_sources/pretre-13671866/side-a.jpg",
+      "sha256": "da0a27b90d4dfb5186acb8869c25b5c31bb91321bafce05d8d688ab27d6947fd",
+      "source_url": "https://i.discogs.com/x8QDLurfaaLACIj-1S3DlHBUHqIDjSaJCRWkiVvNEFw/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNjcx/ODY2LTE1NTg5NzE4/NzAtNDgzMC5qcGVn.jpeg"
+    },
+    {
+      "path": "data/review_sources/pretre-13671866/side-b.jpg",
+      "sha256": "6e70faae7c64108300176e92e2d838d6bf8b7d61f87e816ffaeee9b76ec107be",
+      "source_url": "https://i.discogs.com/Y136Eg8NMjcZQmjegfGDh7okWeTC9EWA6R-LdijRYVc/rs:fit/g:sm/q:90/h:578/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNjcx/ODY2LTE1NTg5NzE4/NjktNDMxMS5qcGVn.jpeg"
+    }
+  ],
+  "source_named_credits": [
+    {
+      "name": "André Boutard",
+      "role": "Clarinet",
+      "proof": "liner.jpg"
+    },
+    {
+      "name": "Robert Cordier",
+      "role": "Cello",
+      "proof": "liner.jpg",
+      "label_name": "R. Cordier"
+    },
+    {
+      "name": "M. Cazauran",
+      "role": "Double bass",
+      "proof": "liner.jpg",
+      "also_on": "side-a.jpg"
+    },
+    {
+      "name": "M. Debost",
+      "role": "Flute",
+      "proof": "side-a.jpg"
+    }
+  ],
+  "bands": [
+    {
+      "position": "A1",
+      "source_title": "Introduction Et Marche Royale Du Lion",
+      "source_duration": "1:14",
+      "candidate_track_ids": [
+        125326268
+      ],
+      "candidate_track_titles": [
+        "Le Carnaval des animaux: I. Introduction et marche royale du lion"
+      ],
+      "candidate_track_fingerprints": [
+        "8955ed666d6d91900e0aeccc50779a12b990242fdd72cc3262f862ea537d18da"
+      ]
+    },
+    {
+      "position": "A2",
+      "source_title": "Poules Et Coqs - Hémiones",
+      "source_duration": "2:32",
+      "candidate_track_ids": [
+        125326269,
+        125326270
+      ],
+      "candidate_track_titles": [
+        "Le Carnaval des animaux: II. Poules et coqs",
+        "Le Carnaval des animaux: III. Hémiones, animaux véloces"
+      ],
+      "candidate_track_fingerprints": [
+        "905d0e07869b50484f59d42adc9465995a4366d5cde14e558ba7032cb96d31fc",
+        "3127d3f70b5fc033134e2d9cbdeb4d8b36cf03b9078fab640df7a3e6570c87d3"
+      ]
+    },
+    {
+      "position": "A3",
+      "source_title": "Tortues - L'élephant - Kangourous",
+      "source_duration": "2:38",
+      "candidate_track_ids": [
+        125326271,
+        125326272,
+        125326273
+      ],
+      "candidate_track_titles": [
+        "Le Carnaval des animaux: IV. Tortues",
+        "Le Carnaval des animaux: V. L'éléphant",
+        "Le Carnaval des animaux: VI. Kangourous"
+      ],
+      "candidate_track_fingerprints": [
+        "9cd18708c0d028e57cb64fc3f08aaadf89e1094afc8b44173520e1c6df15e048",
+        "44d21ebacb2209fd0d58ecc3df3c3ec178921bc488bbd7fa734065f369d48c12",
+        "5f032045c4268c20897471d04b0e400f0d319277a4b2dfa79dfe45ee608dee24"
+      ]
+    },
+    {
+      "position": "A4",
+      "source_title": "Aquarium",
+      "source_duration": "2:07",
+      "candidate_track_ids": [
+        125326274
+      ],
+      "candidate_track_titles": [
+        "Le carnaval des animaux: VII. Aquarium"
+      ],
+      "candidate_track_fingerprints": [
+        "e247bb16cb27fbcd4c5c550422fcfbd1b7cffc21470fdeb1a44135e8524b9108"
+      ]
+    },
+    {
+      "position": "A5",
+      "source_title": "Personnages À Longues Oreilles - Le Coucou Au Fond Des Bois",
+      "source_duration": "1:23",
+      "candidate_track_ids": [
+        125326275,
+        125326276
+      ],
+      "candidate_track_titles": [
+        "Le Carnaval des animaux: VIII. Personnages à longues oreilles",
+        "Le Carnaval des animaux: IX. Le coucou au fond des bois"
+      ],
+      "candidate_track_fingerprints": [
+        "b779a0b10f5b5dfb8bc184a14ccfcdd6eefd0732dcd8733501f9411b269a6a5b",
+        "28cf448bf1017b6898fc200c55f93bcb29c690cf7787616ad2d0576d1bea988e"
+      ]
+    },
+    {
+      "position": "A6",
+      "source_title": "Volière",
+      "source_duration": "4:13",
+      "candidate_track_ids": [
+        125326277
+      ],
+      "candidate_track_titles": [
+        "Le Carnaval des animaux: X. Volière"
+      ],
+      "candidate_track_fingerprints": [
+        "5e18be85c50361d4a669587bfb827883f8abbf3b085de42e7199bf9040dc365a"
+      ]
+    },
+    {
+      "position": "A7",
+      "source_title": "Pianistes - Fossiles",
+      "source_duration": "1:52",
+      "candidate_track_ids": [
+        125326278,
+        125326279
+      ],
+      "candidate_track_titles": [
+        "Le Carnaval des animaux: XI. Pianistes",
+        "Le carnaval des animaux: XII. Fossiles"
+      ],
+      "candidate_track_fingerprints": [
+        "1457028b27dd7ddf53636e3de5ee4411c8d51dc210aa35929b76d18c4f4b943c",
+        "70888ac21bd9b5f5ac76fc50d1adc97ec812d821bfe176b442d3f7273c63140b"
+      ]
+    },
+    {
+      "position": "A8",
+      "source_title": "Le Cygne",
+      "source_duration": "2:41",
+      "candidate_track_ids": [
+        125326280
+      ],
+      "candidate_track_titles": [
+        "Le Carnaval des animaux: XIII. Le cygne"
+      ],
+      "candidate_track_fingerprints": [
+        "67b51b436d7903a03cf4c2710cde3054e9e1bc7d80be83e9dba95da89865a0b7"
+      ]
+    },
+    {
+      "position": "A9",
+      "source_title": "Final",
+      "source_duration": "1:57",
+      "candidate_track_ids": [
+        125326281
+      ],
+      "candidate_track_titles": [
+        "Le Carnaval des animaux: XIV. Final"
+      ],
+      "candidate_track_fingerprints": [
+        "d5a91c4068e87fb9a0f9a4937e34cef33a2306edb2c17d9b197daa5ac0e43c1d"
+      ]
+    },
+    {
+      "position": "B1",
+      "source_title": "Le Petit Jour - Le Lion Amoureux",
+      "source_duration": "5:35",
+      "candidate_track_ids": [
+        125326282,
+        125326283
+      ],
+      "candidate_track_titles": [
+        "Suite des Animaux modèles, FP 111b: I. Petit jour",
+        "Suite des Animaux modèles, FP 111b: II. Le lion amoureux"
+      ],
+      "candidate_track_fingerprints": [
+        "2f3cd2b1f16bc6c797c9df8423aeb58dc16874e565cfd2674cf41e3026cfedf9",
+        "9e93abfc080ba18da66f37c46be7f140d1d3323819b60ad8b496f5cd1d8cf5ee"
+      ]
+    },
+    {
+      "position": "B2",
+      "source_title": "L'homme Entre Deux Âges Et Ses Deux Maîtresses",
+      "source_duration": "2:01",
+      "candidate_track_ids": [
+        125326284
+      ],
+      "candidate_track_titles": [
+        "Suite des Animaux modèles, FP 111b: III. L'homme entre deux âges et ses deux maîtresses"
+      ],
+      "candidate_track_fingerprints": [
+        "f82faeea2819545f883c75e4e9dfc0ee82c179f23602211580522e08bffcc63d"
+      ]
+    },
+    {
+      "position": "B3",
+      "source_title": "La Mort Et Le Bûcheron",
+      "source_duration": "4:37",
+      "candidate_track_ids": [
+        125326285
+      ],
+      "candidate_track_titles": [
+        "Suite des Animaux modèles, FP 111b: IV. La mort et le bûcheron"
+      ],
+      "candidate_track_fingerprints": [
+        "08389efa1aead5259354276e7888cd26edc18e491213dcb8391a16fe028f1c9b"
+      ]
+    },
+    {
+      "position": "B4",
+      "source_title": "Les Deux Coqs - Le Repas Du Midi",
+      "source_duration": "9:07",
+      "candidate_track_ids": [
+        125326286,
+        125326287
+      ],
+      "candidate_track_titles": [
+        "Suite des Animaux modèles, FP 111b: V. Le combat des deux coqs",
+        "Suite des Animaux modèles, FP 111b: VI. Le repas de midi"
+      ],
+      "candidate_track_fingerprints": [
+        "638b9672cf6326b2af05003eae7948128bc5fa5bad9ccfe456b49990f0716d47",
+        "3fd5cfc5ee6d0ad25339b76b200d7631312a7384321f2fae7aca22fcad8550ca"
+      ]
+    }
+  ],
+  "limitations": [
+    "Diagnostic mapping preserves exact source band combinations and all20digital sections. It is not a publication or take-identity decision.",
+    "Source timings are cached catalogue fields, not verified from audio or legible printed timings in these images. Images confirm programme and named credits; no source timing correction applied.",
+    "Do not expand M.Debost or M.Cazauran initials or infer ensemble membership to supply missing track credits.",
+    "No instrument-scope exemption adopted; positive source-image credits remain evidence requirements."
+  ]
+}

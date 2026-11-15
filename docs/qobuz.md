@@ -480,3 +480,12 @@ Existing whole-work, performer and movement checks run on a temporary heading-on
 copy, then exact per-work track IDs and individual track fingerprints are checked.
 Raw/normalized collection and generic unit extraction never change. This is a
 manual recording-family review, not automatic acceptance of all headed sources.
+
+
+`uv run python scripts/qobuz_pretre_audit.py` reproduces the CVL1920diagnostic
+offline. It validates the source/target/album plus saved LP-image hashes, maps
+13combined bands to20digital sections, compares per-band and side timings, and
+lists literal surname mentions for additional source-image credits. It writes
+only `data/qobuz_pretre_band_audit.json`; no source/publication change or recording
+identity acceptance. Equal side totals do not waive per-band or performer gaps.
+All recording-review kinds now validate `external_source_files` when present.

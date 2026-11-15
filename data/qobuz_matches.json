@@ -32,7 +32,7 @@
   "richter_review_fingerprint": "a14865f86e46150593e39bfa285fa6c7c61c8f46147b8094c0cb048fd02118ab",
   "round2_review_fingerprint": "be60742c3d35f5a9aa67f200642f7fcde98a52562a46130e043db8f4aa7c851e",
   "round2_metadata_fingerprint": "9db62d7bf62d4b77f5acf422dfde77959f845f4dc00b2ac0e10c02ccea295860",
-  "remaining_review_fingerprint": "b4578664f08ce546c808702ee0d89a2b96ced2aa1001bc4c33773489710e1398",
+  "remaining_review_fingerprint": "aefd7e459b4d20b74b0a1e35f889c75112aaf00ccd7148b373b168530e17cf44",
   "remaining_metadata_fingerprint": "393b2d12e176160ab311b65267b38bdc8c205222e12f792bf07eba5c1fcfafbf",
   "remaining_followup_metadata_fingerprint": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
   "seven_album_metadata_fingerprint": "139f9b336c68b56ea22c18362cb0481c026366c5d359142f2bb702fe1233a4fc",
@@ -102167,15 +102167,28 @@
             }
           ],
           "reasons": [
+            "Original CVL1920liner names M.Cazauran double bass; sideA label additionally names M.Debost flute. Neither surname appears in any of the20candidate track credits. The cached Discogs extraartists omitted both musicians. Complete combined-band mapping does not supply missing source-named performers or establish take/transfer identity.",
+            "Source-image credit evidence, not proof these musicians did not perform on the digital recording.",
+            "Raw and normalized collection remain unchanged; missing source credits are retained in this hash-bound review.",
+            "Combined-band timings also differ; neither matching total duration nor score instrumentation alone verifies this recording.",
             "7/15 target items supported after composer/work grouping; unresolved.",
             "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
           ],
-          "work_group_policy": "qobuz-work-groups-v1"
+          "work_group_policy": "qobuz-work-groups-v1",
+          "recording_review_decision": "withhold",
+          "recording_review": "Original CVL1920liner names M.Cazauran double bass; sideA label additionally names M.Debost flute. Neither surname appears in any of the20candidate track credits. The cached Discogs extraartists omitted both musicians. Complete combined-band mapping does not supply missing source-named performers or establish take/transfer identity.",
+          "review_sources": [
+            "https://www.discogs.com/release/13671866"
+          ]
         }
       ],
       "query": "georges pretre saens les animaux modeles le carnaval des animaux",
       "searched_at": "2026-11-12T16:41:24.286057+00:00",
       "reasons": [
+        "Original CVL1920liner names M.Cazauran double bass; sideA label additionally names M.Debost flute. Neither surname appears in any of the20candidate track credits. The cached Discogs extraartists omitted both musicians. Complete combined-band mapping does not supply missing source-named performers or establish take/transfer identity.",
+        "Source-image credit evidence, not proof these musicians did not perform on the digital recording.",
+        "Raw and normalized collection remain unchanged; missing source credits are retained in this hash-bound review.",
+        "Combined-band timings also differ; neither matching total duration nor score instrumentation alone verifies this recording.",
         "7/15 target items supported after composer/work grouping; unresolved.",
         "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
       ]

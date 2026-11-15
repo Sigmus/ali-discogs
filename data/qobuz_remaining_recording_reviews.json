@@ -5048,6 +5048,40 @@
         "Recording-family support, not independently verified takes, the same1975Seraphimpressing or transfer/mastering.",
         "Complete digital box includes later sonatas outside this LP volume; those tracks are not part of the accepted source programme."
       ]
+    },
+    {
+      "discogs_id": "13671866",
+      "album_id": "g61k6w1czptxc",
+      "target_sha256": "91ab9a0d8c52600c1ba6fc4eb4c7babf000c4b8107f6b94e0bcfc894ee5ef950",
+      "source_sha256": "61e8bde29c18edb80a147287ca792d5754479012976d5462f60d994f0983f190",
+      "album_sha256": "84485e9972e35ebb3897f7a9c367dc1f569625480d117d222a57c60c2fee0f77",
+      "external_source_files": [
+        {
+          "path": "data/review_sources/pretre-13671866/liner.jpg",
+          "sha256": "cf92492143379193fd3f1c6ed75ce07bc0703a867989bc4d24eedeb66e216951",
+          "source_url": "https://i.discogs.com/3dWG6fQhk1LVSe02dlj2Nn9WiYrcYCIx5MnN9Y67HLw/rs:fit/g:sm/q:90/h:580/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNjcx/ODY2LTE1NTg5NzE4/MzAtMjA1Mi5qcGVn.jpeg"
+        },
+        {
+          "path": "data/review_sources/pretre-13671866/side-a.jpg",
+          "sha256": "da0a27b90d4dfb5186acb8869c25b5c31bb91321bafce05d8d688ab27d6947fd",
+          "source_url": "https://i.discogs.com/x8QDLurfaaLACIj-1S3DlHBUHqIDjSaJCRWkiVvNEFw/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNjcx/ODY2LTE1NTg5NzE4/NzAtNDgzMC5qcGVn.jpeg"
+        },
+        {
+          "path": "data/review_sources/pretre-13671866/side-b.jpg",
+          "sha256": "6e70faae7c64108300176e92e2d838d6bf8b7d61f87e816ffaeee9b76ec107be",
+          "source_url": "https://i.discogs.com/Y136Eg8NMjcZQmjegfGDh7okWeTC9EWA6R-LdijRYVc/rs:fit/g:sm/q:90/h:578/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEzNjcx/ODY2LTE1NTg5NzE4/NjktNDMxMS5qcGVn.jpeg"
+        }
+      ],
+      "decision": "withhold",
+      "recording_review": "Original CVL1920liner names M.Cazauran double bass; sideA label additionally names M.Debost flute. Neither surname appears in any of the20candidate track credits. The cached Discogs extraartists omitted both musicians. Complete combined-band mapping does not supply missing source-named performers or establish take/transfer identity.",
+      "sources": [
+        "https://www.discogs.com/release/13671866"
+      ],
+      "limitations": [
+        "Source-image credit evidence, not proof these musicians did not perform on the digital recording.",
+        "Raw and normalized collection remain unchanged; missing source credits are retained in this hash-bound review.",
+        "Combined-band timings also differ; neither matching total duration nor score instrumentation alone verifies this recording."
+      ]
     }
   ]
 }

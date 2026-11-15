@@ -204,3 +204,21 @@ general coupling/performers, not this exact candidate’s section participation.
 Audit assertions verified5/20cached tracks and exact disputed digital label; source/
 album/track hashes saved. Next source-position/score-supported Prêtre diagnostic.
 No Qobuz calls or further push; last full199tests/UI/build validation unchanged.
+
+### 2026-11-15 — Prêtre original-image credits prevent false promotion
+
+Mapped13CVL1920bands to20distinct cached digital sections, preserving all titles
+and source timings. SideBaggregate21:20matches exactly while B3/B4differ90/96sec;
+aggregate timing is not recording proof. Original liner names M.Cazauran double
+bass; sideAlabel additionally names M.Debost flute, both absent from all candidate
+track credits and omitted by cached Discogs extraartists. Images and precise
+source URLs saved under review_sources/pretre-13671866. No initials expanded,
+ensemble-membership credit inferred, source overwritten or instrumentation waiver.
+Explicit recording hold keeps13671866Unchecked. Shared review entry point now
+validates external source-file paths/hashes for every review kind, including
+default holds, before returning. Offline diagnostic and regressions cover complete
+band accounting, reused/missing sections, equal-total trap and broken image proof.
+202script tests, UI normalization/build pass. No accepted status changes; counts
+12Found/131Probable/598Unchecked copies. Inventory597uncheckedunique:406work/credit,
+160metadata,21withheld,3rejections,6empty,1source hold. Five public LP images
+inspected; no Qobuz requests or push. Next cached Böhm6810640Vienna5/8review.

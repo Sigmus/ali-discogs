@@ -24,8 +24,9 @@ Gilels13655367and Campanella10100439now Probable after joined-finale and
 explicit numbered-piece reviews. Schnabel4694861now Probable after source
 heading/band review preserving repeated tempo labels and preventing cross-sonata
 borrowing. Furtwängler3737065section/transfer uncertainties and Prêtre13671866
-combined-band/source-scoped pianist diagnostics saved. Next: Prêtre source-position/
-score-supported band mapping; instrument-scope exemption remains unadopted. Kubelik/Ozawa/
+diagnostic retained. Prêtre13bands/20sections now mapped; original-image named
+Debost/Cazauran credit gaps enforce Unchecked. Next: Böhm6810640Vienna5/8explicit
+work fields and recording-family review. Instrument-scope exemption unadopted. Kubelik/Ozawa/
 Soltani/Rolla five photographer leads now explicitly withheld. Five Barenboim EMI
 LPs blocked against later DG cycle:2chronological rejections,3undated holds.
 Recording-review precedence enforced with regression tests; no label changes. Casals6628473/23950082now have complete diagnostic

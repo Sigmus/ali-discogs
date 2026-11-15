@@ -75,8 +75,10 @@ and cache commands. This directory owns current planning.
    movements, frozen positions/track hashes prevent cross-sonata borrowing.
    Furtwängler3737065has an unresolved Entr’acteII/IIIsection discrepancy plus
    transfer uncertainty. Prêtre13671866has source-scoped pianists and combined
-   bands; diagnostic saved. Next: source-position/score-supported Prêtre band
-   mapping, without publishing new instrument-scope exemptions.
+   bands;13bands/20sections now mapped. Original liner/label names M.Cazauran
+   and M.Debost absent from candidate credits; explicit image-bound hold saved.
+   Matching sideBtotal21:20does not resolve large per-band timing differences.
+   Next: Böhm6810640Vienna Schubert5/8work-field and recording-family review.
    [Source-credit plan](../plans/2026-11-15-qobuz-source-credit-reviews.md).
 2. Keep Casals/Gieseking transfer identity unresolved until recording-specific
    evidence exists. Source correction alone does not authorize promotion.
@@ -88,8 +90,8 @@ and cache commands. This directory owns current planning.
 Prefer reliable matches to higher counts. No unbounded new-hit downloads, warning
 retries, pushes or deployment. Bitches Brew credit exception remains a proposal.
 Do not invent identity, overwrite source text or loosen credit gates for counts.
-Current pass:199script tests, UI normalization/build pass.597unchecked unique:
-407work/credit,160metadata,20withheld,3recording rejections,6empty,1source hold.
+Current pass:202script tests, UI normalization/build pass.597unchecked unique:
+406work/credit,160metadata,21withheld,3recording rejections,6empty,1source hold.
 Gilels13655367and Campanella10100439now Probable. Böhm9932700held for missing
 Rosamunde; Barenboim9861630held for unresolved EMI/DG recording-family link.
 Push through cf7f263 completed; subsequent review local, no Qobuz calls.
