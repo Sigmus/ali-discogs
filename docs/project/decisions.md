@@ -465,3 +465,14 @@ cannot be silently dropped. This handles a liner-note author falsely normalized
 as a performer and a singer duplicated globally despite a specific song-cycle role.
 No normalized collection refresh, broad credit relaxation or borrowed soloist
 identity. [Source-credit plan](../plans/2026-11-15-qobuz-source-credit-reviews.md).
+
+### 2026-11-15 — Preserve flat source heading/band structure in bounded reviews
+
+Adopted within the authorized autonomous offline pass: a source-heading-movements
+review may replace ambiguous isolated-tempo units with exact source work groups.
+All source bands/positions are preserved, including repeated titles. One distinct
+numbered digital movement per band, exact source/target/album and per-track hashes,
+full performer checks and explicit recording-family evidence remain mandatory.
+No generic parser change, source rewrite, inferred missing band or joined-section
+exception. Schnabel4694861is the first bounded use; frozen IDs prohibit borrowing
+a similar movement from another sonata.

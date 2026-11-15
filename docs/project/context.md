@@ -11,7 +11,7 @@ and cache commands. This directory owns current planning.
 - Branch main; pushed through cf7f263 on15November. Later work remains local;
   deployment not verified. Inspect Git before claiming remote state.
 - Collection741copies/740unique. Saved labels: Spotify254Found/273Probable/
-  210NotFound/4Unchecked; Qobuz12Found/130Probable/599Unchecked copies.
+  210NotFound/4Unchecked; Qobuz12Found/131Probable/598Unchecked copies.
 - Qobuz publication `data/qobuz_matches.json` is separate from Spotify collection
   results. Labels/scores are saved data; Qobuz85/95 are heuristic levels, not
   probabilities. Legacy Spotify labels are not comparable accuracy measurements.
@@ -71,9 +71,10 @@ and cache commands. This directory owns current planning.
    Lobgesang Sinfonia. Source key discrepancy and recording caveats preserved.
    Casals5838140also held for unresolved transfer identity. Partial audit saved:
    Landowska9792325candidate lacks K333; Lipatti11938919candidate lacks Op58.
-   Schnabel4694861has10source sonata headings/35distinct credited movements;
-   scorer emits24units including ambiguous isolated tempo labels. Next: verify
-   source-position-safe grouping against existing review kinds, without requests.
+   Schnabel4694861now Probable:10source sonata headings/35distinct credited
+   movements, frozen positions/track hashes prevent cross-sonata borrowing.
+   Next: inspect Furtwängler3737065recording provenance and Prêtre13671866
+   joined-band/instrumentation evidence offline; no automatic scope exemptions.
    [Source-credit plan](../plans/2026-11-15-qobuz-source-credit-reviews.md).
 2. Keep Casals/Gieseking transfer identity unresolved until recording-specific
    evidence exists. Source correction alone does not authorize promotion.
@@ -85,8 +86,8 @@ and cache commands. This directory owns current planning.
 Prefer reliable matches to higher counts. No unbounded new-hit downloads, warning
 retries, pushes or deployment. Bitches Brew credit exception remains a proposal.
 Do not invent identity, overwrite source text or loosen credit gates for counts.
-Current pass:196script tests, UI normalization/build pass.598unchecked unique:
-408work/credit,160metadata,20withheld,3recording rejections,6empty,1source hold.
+Current pass:199script tests, UI normalization/build pass.597unchecked unique:
+407work/credit,160metadata,20withheld,3recording rejections,6empty,1source hold.
 Gilels13655367and Campanella10100439now Probable. Böhm9932700held for missing
 Rosamunde; Barenboim9861630held for unresolved EMI/DG recording-family link.
 Push through cf7f263 completed; subsequent review local, no Qobuz calls.

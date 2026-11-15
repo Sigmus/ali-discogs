@@ -50,6 +50,9 @@ def assess(row, album, review):
         raise ValueError('Reviewed evidence changed; review again before publication')
     if review.get('source_sha256') is not None and hashlib.sha256((ROOT/f"raw/discogs/releases/{review['discogs_id']}.json").read_bytes()).hexdigest() != review['source_sha256']:
         raise ValueError('Reviewed source changed; review recording evidence again')
+    if review.get('review_kind') == 'source-heading-movements':
+        from qobuz_heading_movements_review import assess_heading_movements
+        return assess_heading_movements(row, album, review)
     if review.get('review_kind') == 'source-split-finale':
         from qobuz_choral_finale_review import assess_finale
         return assess_finale(row, album, review)

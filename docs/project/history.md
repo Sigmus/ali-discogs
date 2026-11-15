@@ -1849,3 +1849,18 @@ symphony-only candidate. Undated Barenboim9861630held: no EMI-to-later-DGcycle
 recording link, not a label-only rejection.196script tests, UI normalization/build
 pass; only10100439accepted status changes. Counts12Found/130Probable/599Unchecked
 copies. No Qobuz calls or further push. Continue source-heading Schnabel review.
+
+### 2026-11-15 — Source heading/band review accepts Schnabel volume
+
+Schnabel4694861/0190295866983now Probable85: ten source headings/35distinct
+movements with required pianist. New bounded source-heading-movements adapter
+validates all raw/normalized bands and unique positions, preserves repeated tempo
+labels, then reuses whole-work credit/movement checks and freezes per-work IDs
+and per-track hashes. No source/parser change or extra take/mastering assertion.
+Warner exact barcode supports1932–1938recording family; source title1932–37scope
+retained. Joined/split bands intentionally unsupported by this adapter.
+199script tests, UI normalization/build pass; only4694861accepted status changes.
+Qobuz12Found/131Probable/598Unchecked copies. No Qobuz calls or further push.
+Scan of flat headed sources found no further immediate eligible promotion: prior
+Barenboim rejection, Gieseking transfer hold, Furtwängler provenance/section-title
+questions, and Prêtre joined-band/instrumentation questions. Continue offline.

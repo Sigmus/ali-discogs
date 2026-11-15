@@ -468,3 +468,15 @@ complete expected requirement map. Global conductor/orchestra and every other
 source requirement remain. This is a manual source/hash-bound decision, never a
 global omission rule or credit borrowed from another work. Solti5972183uses it to
 require Minton on the songs and remove the liner author from musical requirements.
+
+
+A `source-heading-movements` recording review handles flat Discogs headings with
+individually positioned movement bands. `qobuz_heading_movements_review.py`
+requires the complete exact source projection, unique band positions, catalogued
+unique headings and a saved child list for every heading. Repeated tempo titles
+remain valid at different positions. Each source band must map to one numbered
+digital movement; joined/split sections are deliberately unsupported here.
+Existing whole-work, performer and movement checks run on a temporary heading-only
+copy, then exact per-work track IDs and individual track fingerprints are checked.
+Raw/normalized collection and generic unit extraction never change. This is a
+manual recording-family review, not automatic acceptance of all headed sources.

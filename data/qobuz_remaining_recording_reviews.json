@@ -4626,6 +4626,428 @@
       "sources": [
         "https://www.discogs.com/release/9861630"
       ]
+    },
+    {
+      "discogs_id": "4694861",
+      "album_id": "0190295866983",
+      "review_kind": "source-heading-movements",
+      "target_sha256": "c5c06bf2e4b3875aed35afac5656dc7ea0d7c31ec932846723f836867dd5a1a3",
+      "album_sha256": "97f88cb739a80256c19fc8a521ded2d3e8c779121df51be71cbf927d7d74335c",
+      "source_sha256": "5f23375fd609e2207b23ed8e050580ffe7223fd4c008925aaa67bd491f308cfa",
+      "decision": "probable",
+      "source_groups": [
+        {
+          "source_heading": "Sonata No. 1 In F Minor, Op. 2 No. 1",
+          "source_movements": [
+            {
+              "position": "A1",
+              "title": "Allegro"
+            },
+            {
+              "position": "A2",
+              "title": "Adagio"
+            },
+            {
+              "position": "A3",
+              "title": "Minuetto"
+            },
+            {
+              "position": "A4",
+              "title": "Prestissimo"
+            }
+          ]
+        },
+        {
+          "source_heading": "Sonata No. 2 In A, Op. 2 No. 2",
+          "source_movements": [
+            {
+              "position": "B1",
+              "title": "Allegro Vivace"
+            },
+            {
+              "position": "B2",
+              "title": "Largo Appassionato"
+            },
+            {
+              "position": "B3",
+              "title": "Scherzo"
+            },
+            {
+              "position": "B4",
+              "title": "Rondo"
+            }
+          ]
+        },
+        {
+          "source_heading": "Sonata No. 3 In C, Op. 2 No. 3",
+          "source_movements": [
+            {
+              "position": "C1",
+              "title": "Allegro Con Brio"
+            },
+            {
+              "position": "C2",
+              "title": "Adagio"
+            },
+            {
+              "position": "C3",
+              "title": "Scherzo"
+            },
+            {
+              "position": "C4",
+              "title": "Allegro Assai"
+            }
+          ]
+        },
+        {
+          "source_heading": "Sonata No. 4 In E Flat, Op. 7",
+          "source_movements": [
+            {
+              "position": "D1",
+              "title": "Molto Allegro Con Brio"
+            },
+            {
+              "position": "D2",
+              "title": "Largo, Con Gran Espressione"
+            },
+            {
+              "position": "D3",
+              "title": "Allegro"
+            },
+            {
+              "position": "D4",
+              "title": "Rondo"
+            }
+          ]
+        },
+        {
+          "source_heading": "Sonata No. 5 In C Minor, Op. 10 No. 1",
+          "source_movements": [
+            {
+              "position": "E1",
+              "title": "Allegro Molto E Con Brio"
+            },
+            {
+              "position": "E2",
+              "title": "Molto Adagio"
+            },
+            {
+              "position": "E3",
+              "title": "Finale"
+            }
+          ]
+        },
+        {
+          "source_heading": "Sonata No. 6 In F, Op. 10 No. 2",
+          "source_movements": [
+            {
+              "position": "E4",
+              "title": "Allegro"
+            },
+            {
+              "position": "E5",
+              "title": "Allegretto"
+            },
+            {
+              "position": "E6",
+              "title": "Presto"
+            }
+          ]
+        },
+        {
+          "source_heading": "Sonata No. 7 In D, Op. 10 No. 3",
+          "source_movements": [
+            {
+              "position": "F1",
+              "title": "Presto"
+            },
+            {
+              "position": "F2",
+              "title": "Largo E Mesto"
+            },
+            {
+              "position": "F3",
+              "title": "Minuetto (Allegro)"
+            },
+            {
+              "position": "F4",
+              "title": "Rondo (Allegro)"
+            }
+          ]
+        },
+        {
+          "source_heading": "Sonata No. 8 In C Minor, Op. 13",
+          "source_movements": [
+            {
+              "position": "G1",
+              "title": "Grave - Molto Allegro E Con Brio"
+            },
+            {
+              "position": "G2",
+              "title": "Adagio Cantabile"
+            },
+            {
+              "position": "G3",
+              "title": "Rondo"
+            }
+          ]
+        },
+        {
+          "source_heading": "Sonata No. 9 In E, Op. 14 No. 1",
+          "source_movements": [
+            {
+              "position": "G4",
+              "title": "Allegro"
+            },
+            {
+              "position": "H1",
+              "title": "Allegretto"
+            },
+            {
+              "position": "H2",
+              "title": "Rondo"
+            }
+          ]
+        },
+        {
+          "source_heading": "Sonata No. 10 In G, Op. 14 No. 2",
+          "source_movements": [
+            {
+              "position": "H3",
+              "title": "Allegro"
+            },
+            {
+              "position": "H4",
+              "title": "Andante"
+            },
+            {
+              "position": "H5",
+              "title": "Scherzo"
+            }
+          ]
+        }
+      ],
+      "expected_track_ids": {
+        "Sonata No. 1 In F Minor, Op. 2 No. 1": [
+          36924043,
+          36924044,
+          36924045,
+          36924046
+        ],
+        "Sonata No. 2 In A, Op. 2 No. 2": [
+          36924055,
+          36924056,
+          36924057,
+          36924058
+        ],
+        "Sonata No. 3 In C, Op. 2 No. 3": [
+          36924047,
+          36924048,
+          36924049,
+          36924050
+        ],
+        "Sonata No. 4 In E Flat, Op. 7": [
+          36924051,
+          36924052,
+          36924053,
+          36924054
+        ],
+        "Sonata No. 5 In C Minor, Op. 10 No. 1": [
+          36924059,
+          36924060,
+          36924061
+        ],
+        "Sonata No. 6 In F, Op. 10 No. 2": [
+          36924062,
+          36924063,
+          36924064
+        ],
+        "Sonata No. 7 In D, Op. 10 No. 3": [
+          36924065,
+          36924066,
+          36924067,
+          36924068
+        ],
+        "Sonata No. 8 In C Minor, Op. 13": [
+          36924069,
+          36924070,
+          36924071
+        ],
+        "Sonata No. 9 In E, Op. 14 No. 1": [
+          36924072,
+          36924073,
+          36924074
+        ],
+        "Sonata No. 10 In G, Op. 14 No. 2": [
+          36924075,
+          36924076,
+          36924077
+        ]
+      },
+      "track_fingerprints": {
+        "36924043": "d7357f68dc8f4829fcb1f19b7962162b7893c692a584a24040fa1b1c4925c50d",
+        "36924044": "cd8b14985e6e5a2ef436786ed1e9a868e25a315057186d1700638d209b433674",
+        "36924045": "1c7243407928d285547f3b5b0bae7f80e9b2cd283666415f3c9905ce0d39cd05",
+        "36924046": "746eb20b1276c2c5b12ce206b02adc6bc92fbdb3f8692d806f67e4a235ffa420",
+        "36924047": "6d06caa8b7b59b7ffd5397ce6fd08c625b96030154931ba79450987b23586920",
+        "36924048": "b12e319e1801f409fa7dd2e3191d1d29ce802969973bea36d90d6b1525b17310",
+        "36924049": "0061acbd29c45b753114e2b6eb03a7db37f55b0e8aa13ded752db6878a92c363",
+        "36924050": "a35038abc779ce798f129f3216835f0a6d1750085bdea7641aa780f8de9dfc9d",
+        "36924051": "994e8045e78e891b1fffb8098cacd292b1bd156596865d5695470083933bac60",
+        "36924052": "42702576c68ff9b152601496bf8e1e7ad78ce8ea58112e2c798532aa881caef6",
+        "36924053": "71a17a0ce21b6e60f90812de274981f628c42254c17d87e01620182caa912370",
+        "36924054": "9510262cdfac687b08efc220964e945843edfc11ae90ac13e4ab41bb15092827",
+        "36924055": "79df3d0f39da85cbe1ead87fe770ebbcf21bc53f69320f258cb83c64577c6d09",
+        "36924056": "304d421b5e9bba9d5b05df6872d8372933c2ab4ba88c792348bf7e59e29af90d",
+        "36924057": "64009d5f79f79529ffbc541384d0d813352d1405497213f848be52e3d3c15369",
+        "36924058": "8456a9fa6f808bf5a532fb82605b345dd91539240d93f66b4b82391a83f5e8b9",
+        "36924059": "bc213b20b0479eabe259d10e727b800270ed5306b456e069ac44d2df6aa36335",
+        "36924060": "f996f19b5f0865ee39edf78d17c25b11f42a0c4e6b74478dd07ad155affc57a9",
+        "36924061": "6a268b0566d7d36e372c9c2874e55f6199785e032a7a48e3065773bc48b5284f",
+        "36924062": "cf2329137d36e6f11b519adf73787281bd3056cc6804a3bf5ad104d9288a40fa",
+        "36924063": "38a5a5a9f2b04bbe593569dc505e2f0a9a75663a27e1c9d932b0d684700941ec",
+        "36924064": "c08e4b74563c234126d44dd2750cff43cb1d89c7dec1f01606b139e75ee02fdf",
+        "36924065": "b2197ebe1ca3b8de08fe37367e02bc25e70671cbd7b9ebe172c060e107a16476",
+        "36924066": "7298df4062231deee8862d7a252d2cbfdcb8e6421989e36f72bfae7c20ec1f25",
+        "36924067": "64c3e9a3e2b98a302778e81470608c14b4077f818c9b03d28f6cb08b723d143d",
+        "36924068": "46bc91ebea7816f353e5cc102a3f4c9564898ae3c69f63f5af77774b82859884",
+        "36924069": "38260d94733abb3b73ce1afecb0e61ec19377956c8b36e39b6ee41610ba8df2c",
+        "36924070": "bce67142762567ddde0069201658917c33e85e1fb446ebf867d9a92b49acce79",
+        "36924071": "f5d770036af16757ad9ac5a4e4563286ea7977b3eec091ec315205dbfca2cea1",
+        "36924072": "994e9fb79d0cb7ad90c3a3ade9c9db4477a4746996e662e3bd5ad1aeaa276595",
+        "36924073": "e0933100a084c2194be7ce958927b5e62fb75127d50a1e52cb9b3e50a1d19dc1",
+        "36924074": "8b7ae9c449a4be917024c6b728bd93d4c93fce97f475f3b7be7c9fec818cd66b",
+        "36924075": "f64cc12cd19527244ffcb903c2bf0f9ceee64f488833024746f251d352a14076",
+        "36924076": "ea674e37b0213938b33b56cd1074067888e6b0d03926af24701f4898bce044e6",
+        "36924077": "b44fd367a086cc04d0c32562c3b8db832d1cd63efc484edc3b722dd6c4cc6074"
+      },
+      "works": [
+        {
+          "target": "Sonata No. 1 In F Minor, Op. 2 No. 1",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Exact source heading and all uniquely positioned child bands; exact digital track fingerprints.",
+          "reason": "Complete numbered sonata, without borrowing similarly named movements from another work."
+        },
+        {
+          "target": "Sonata No. 2 In A, Op. 2 No. 2",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Exact source heading and all uniquely positioned child bands; exact digital track fingerprints.",
+          "reason": "Complete numbered sonata, without borrowing similarly named movements from another work."
+        },
+        {
+          "target": "Sonata No. 3 In C, Op. 2 No. 3",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Exact source heading and all uniquely positioned child bands; exact digital track fingerprints.",
+          "reason": "Complete numbered sonata, without borrowing similarly named movements from another work."
+        },
+        {
+          "target": "Sonata No. 4 In E Flat, Op. 7",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Exact source heading and all uniquely positioned child bands; exact digital track fingerprints.",
+          "reason": "Complete numbered sonata, without borrowing similarly named movements from another work."
+        },
+        {
+          "target": "Sonata No. 5 In C Minor, Op. 10 No. 1",
+          "movements": [
+            1,
+            2,
+            3
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Exact source heading and all uniquely positioned child bands; exact digital track fingerprints.",
+          "reason": "Complete numbered sonata, without borrowing similarly named movements from another work."
+        },
+        {
+          "target": "Sonata No. 6 In F, Op. 10 No. 2",
+          "movements": [
+            1,
+            2,
+            3
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Exact source heading and all uniquely positioned child bands; exact digital track fingerprints.",
+          "reason": "Complete numbered sonata, without borrowing similarly named movements from another work."
+        },
+        {
+          "target": "Sonata No. 7 In D, Op. 10 No. 3",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Exact source heading and all uniquely positioned child bands; exact digital track fingerprints.",
+          "reason": "Complete numbered sonata, without borrowing similarly named movements from another work."
+        },
+        {
+          "target": "Sonata No. 8 In C Minor, Op. 13",
+          "movements": [
+            1,
+            2,
+            3
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Exact source heading and all uniquely positioned child bands; exact digital track fingerprints.",
+          "reason": "Complete numbered sonata, without borrowing similarly named movements from another work."
+        },
+        {
+          "target": "Sonata No. 9 In E, Op. 14 No. 1",
+          "movements": [
+            1,
+            2,
+            3
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Exact source heading and all uniquely positioned child bands; exact digital track fingerprints.",
+          "reason": "Complete numbered sonata, without borrowing similarly named movements from another work."
+        },
+        {
+          "target": "Sonata No. 10 In G, Op. 14 No. 2",
+          "movements": [
+            1,
+            2,
+            3
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Exact source heading and all uniquely positioned child bands; exact digital track fingerprints.",
+          "reason": "Complete numbered sonata, without borrowing similarly named movements from another work."
+        }
+      ],
+      "sources": [
+        "https://www.discogs.com/release/4694861",
+        "https://www.warnerclassics.com/release/beethoven-complete-piano-sonatas-3"
+      ],
+      "recording_review": "Source SeraphimID6063names BeethovenSociety1932–37recordings, sonatas1–10. Exact Warnerbarcode190295866983identifies Schnabel1932–1938cycle remastered from78RPMdiscs. All ten source sonatas map to35distinct pianist-credited digital movements. Flat source headings retain every LP position and repeated tempo label under its own sonata.",
+      "limitations": [
+        "Source title1932–37 and publisher full-cycle1932–1938are retained as different scope/date descriptions, not corrected or treated as individual selected-take dates.",
+        "Recording-family support, not independently verified takes, the same1975Seraphimpressing or transfer/mastering.",
+        "Complete digital box includes later sonatas outside this LP volume; those tracks are not part of the accepted source programme."
+      ]
     }
   ]
 }
