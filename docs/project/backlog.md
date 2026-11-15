@@ -17,8 +17,9 @@ hash-bound incomplete-programme hold now keeps it Unchecked. Reconciliation is
 proposed, not applied. Gilels’s reviewed composer guard remains active.
 The user-approved [seven-album batch](../plans/2026-11-15-qobuz-metadata-followup.md)
 is complete:7albums/97tracks, validated/exported without warnings. Next: offline
-recording review of Weissenberg1662708, then programme/credit/source gaps among
-other leads. No automatic promotions; labels unchanged.160script tests pass.
+composer identity review for Mendelssohn-Bartholdy/Mendelssohn, then programme/
+credit/source gaps in the saved seven-album audit. Weissenberg1662708 now Probable
+after explicit recording-family review; other leads unresolved.162script tests pass.
 Source-attribution discovery remains separate from reviewed scopes; Nabucco/Mozart
 credit/catalogue gaps remain unresolved.
 160remaining metadata-needed releases are not a fetch mandate. Follow the

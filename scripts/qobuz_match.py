@@ -385,6 +385,21 @@ def generate():
         if aid in round2_albums and round2_albums[aid] != album:
             raise ValueError('Conflicting follow-up metadata')
         round2_albums[aid] = album
+    seven_path = ROOT/'data/qobuz_metadata_followup_2026_11_15.json.gz'
+    seven_scope_path = ROOT/'data/qobuz_metadata_followup_2026_11_15_scope.json'
+    seven = json.loads(gzip.decompress(seven_path.read_bytes()))
+    seven_scope = json.loads(seven_scope_path.read_text())
+    if seven['schema_version'] != 1 or seven['scope_sha256'] != hashlib.sha256(seven_scope_path.read_bytes()).hexdigest() or seven['completed'] != seven['total'] or seven['total'] != 7:
+        raise ValueError('Incomplete or changed seven-album follow-up')
+    if [str(x['album']['id']) for x in seven['metadata']] != [x['album_id'] for x in seven_scope['entries']] or len(seven['metadata']) != 7:
+        raise ValueError('Seven-album follow-up differs from approved scope')
+    for record in seven['metadata']:
+        album = record['album']; tracks = album['tracks']['items']; aid = str(album['id'])
+        if aid != record['task']['album_id'] or len(tracks) != album['tracks_count'] or len({t['id'] for t in tracks}) != len(tracks):
+            raise ValueError('Incomplete seven-album follow-up tracks')
+        if aid in round2_albums and round2_albums[aid] != album:
+            raise ValueError('Conflicting seven-album metadata')
+        round2_albums[aid] = album
     for review in remaining_reviews['releases']:
         if review['discogs_id'] in round2_reviews:
             raise ValueError('Duplicate remaining review')
@@ -463,6 +478,8 @@ def generate():
               'remaining_review_fingerprint': hashlib.sha256(remaining_review_path.read_bytes()).hexdigest(),
               'remaining_metadata_fingerprint': hashlib.sha256(remaining_meta_path.read_bytes()).hexdigest(),
               'remaining_followup_metadata_fingerprint': hashlib.sha256(followup_metadata_path.read_bytes()).hexdigest(),
+              'seven_album_metadata_fingerprint': hashlib.sha256(seven_path.read_bytes()).hexdigest(),
+              'seven_album_scope_fingerprint': hashlib.sha256(seven_scope_path.read_bytes()).hexdigest(),
               'remaining_followup_scope_fingerprint': hashlib.sha256(followup_scope_path.read_bytes()).hexdigest(),
               'releases': results}
     path = ROOT/'data/qobuz_matches.json'

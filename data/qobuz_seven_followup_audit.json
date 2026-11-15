@@ -1,0 +1,599 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-15",
+  "screen_sha256": "0d8861322211f54094636c880c6b4357af188e7171d55f5bec9f6db2c77773da",
+  "entries": [
+    {
+      "discogs_id": "1662708",
+      "album_id": "5099960276551",
+      "assessment": {
+        "status": "probable",
+        "confidence": 0.85,
+        "coverage": 1.0,
+        "covered": 1,
+        "target_count": 1,
+        "required_performers": [
+          "Herbert von Karajan",
+          "Alexis Weissenberg",
+          "Orchestre De Paris"
+        ],
+        "programme": [
+          {
+            "target": "Concerto N°1 En Si Bémol Mineur Pour Piano Et Orchestre, Op. 23 ",
+            "work_tracks": 3,
+            "credited_tracks": 3,
+            "track_ids": [
+              43457314,
+              43457315,
+              43457316
+            ]
+          }
+        ],
+        "reasons": [
+          "Each target item has supporting work and performer credits.",
+          "Grouped movements or extra recordings require review; recording identity is not confirmed."
+        ]
+      },
+      "completeness": {
+        "status": "complete",
+        "works": [
+          {
+            "target": "Concerto N°1 En Si Bémol Mineur Pour Piano Et Orchestre, Op. 23 ",
+            "status": "complete",
+            "expected_movements": [
+              1,
+              2,
+              3
+            ],
+            "observed_movements": [
+              1,
+              2,
+              3
+            ],
+            "missing_movements": [],
+            "track_ids": [
+              43457314,
+              43457315,
+              43457316
+            ],
+            "source": "https://pac.uga.edu/wp-content/uploads/2024/05/Atlanta-Symphony-Orchestra-4.13.25-program-PDF.pdf#page=2",
+            "scope": "whole-work-inventory",
+            "reason": "Requires each expected movement, in order, with production-required credits; split/joined or ambiguous labels remain unresolved."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "review_note": "Reviewed Probable: complete three-movement programme, named Paris credits and Warner recording-family corroboration; exact LP take/mastering unverified."
+    },
+    {
+      "discogs_id": "4101347",
+      "album_id": "0002894796917",
+      "assessment": {
+        "status": "unchecked",
+        "confidence": null,
+        "coverage": 0.0,
+        "covered": 0,
+        "target_count": 1,
+        "required_performers": [
+          "Maurizio Pollini",
+          "Quartetto Italiano",
+          "Franco Rossi (2)",
+          "Paolo Borciani",
+          "Elisa Pegreffi"
+        ],
+        "programme": [
+          {
+            "target": "Klavierquintett F-Moll Op. 34 = Piano Quintet In F Minor, Op. 34",
+            "work_tracks": 4,
+            "credited_tracks": 0,
+            "track_ids": []
+          }
+        ],
+        "reasons": [
+          "0/1 target items supported after composer/work grouping; unresolved."
+        ]
+      },
+      "completeness": {
+        "status": "unknown",
+        "works": [
+          {
+            "target": "Klavierquintett F-Moll Op. 34 = Piano Quintet In F Minor, Op. 34",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "review_note": "Quartetto Italiano present, required individual quartet members absent; no credit borrowing. Completeness inventory also unresolved."
+    },
+    {
+      "discogs_id": "3956949",
+      "album_id": "cxg5qouu14c6b",
+      "assessment": {
+        "status": "unchecked",
+        "confidence": null,
+        "coverage": 0.0,
+        "covered": 0,
+        "target_count": 2,
+        "required_performers": [
+          "Israel Philharmonic Orchestra"
+        ],
+        "programme": [
+          {
+            "target": "Symphonie Nr. 4 A-dur Op. 90 »Italienische«",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Symphonie No. 5 D-dur Op. 107 »Reformations-Symphonie«",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          }
+        ],
+        "reasons": [
+          "0/2 target items supported after composer/work grouping; unresolved.",
+          "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
+        ],
+        "work_group_policy": "qobuz-work-groups-v1"
+      },
+      "completeness": {
+        "status": "unknown",
+        "works": [
+          {
+            "target": "Symphonie Nr. 4 A-dur Op. 90 »Italienische«",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Symphonie No. 5 D-dur Op. 107 »Reformations-Symphonie«",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "review_note": "Source composer Felix Mendelssohn-Bartholdy versus candidate Felix Mendelssohn blocks work grouping; review composer identity before a bounded reusable alias. Inventories and recording review still needed."
+    },
+    {
+      "discogs_id": "2236260",
+      "album_id": "fvtmapqjxeh6b",
+      "assessment": {
+        "status": "unchecked",
+        "confidence": null,
+        "coverage": 0.0,
+        "covered": 0,
+        "target_count": 2,
+        "required_performers": [
+          "Constantin Silvestri",
+          "Aldo Ciccolini",
+          "Orchestre National De France"
+        ],
+        "programme": [
+          {
+            "target": "Concerto N° 1 En Si Bémol Mineur (Pour Piano Et Orchestre)",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Concerto N° 2 En Ut Mineur (Pour Piano Et Orchestre)",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          }
+        ],
+        "reasons": [
+          "0/2 target items supported after composer/work grouping; unresolved."
+        ]
+      },
+      "completeness": {
+        "status": "unknown",
+        "works": [
+          {
+            "target": "Concerto N° 1 En Si Bémol Mineur (Pour Piano Et Orchestre)",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Concerto N° 2 En Ut Mineur (Pour Piano Et Orchestre)",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "review_note": "French work names without opus numbers and mixed composer programme remain ungrouped; no global inferred title/composer alias."
+    },
+    {
+      "discogs_id": "6628473",
+      "album_id": "ekesky8cfu5wb",
+      "assessment": {
+        "status": "unchecked",
+        "confidence": null,
+        "coverage": 0.0,
+        "covered": 0,
+        "target_count": 2,
+        "required_performers": [
+          "Pablo Casals",
+          "Guglielmo Barblan"
+        ],
+        "programme": [
+          {
+            "target": "Suite No. 3 In C Major, BWV.1008 For 'Cello Unaccompanied",
+            "work_tracks": 6,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Suite No. 4 In E Flat Major, BWV.1010 For 'Cello Unaccompanied",
+            "work_tracks": 6,
+            "credited_tracks": 0,
+            "track_ids": []
+          }
+        ],
+        "reasons": [
+          "0/2 target items supported after composer/work grouping; unresolved."
+        ]
+      },
+      "completeness": {
+        "status": "unknown",
+        "works": [
+          {
+            "target": "Suite No. 3 In C Major, BWV.1008 For 'Cello Unaccompanied",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Suite No. 4 In E Flat Major, BWV.1010 For 'Cello Unaccompanied",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "review_note": "Source Suite3 C-major incorrectly pairs BWV1008; reconcile against original edition before correction."
+    },
+    {
+      "discogs_id": "8274997",
+      "album_id": "5099963179651",
+      "assessment": {
+        "status": "unchecked",
+        "confidence": null,
+        "coverage": 0.0,
+        "covered": 0,
+        "target_count": 2,
+        "required_performers": [
+          "Daniel Barenboim",
+          "English Chamber Orchestra"
+        ],
+        "programme": [
+          {
+            "target": "Concerto N° 20 En Ré Mineur, K.466",
+            "work_tracks": 3,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Concerto N° 23 En La Majeur, K.488",
+            "work_tracks": 3,
+            "credited_tracks": 0,
+            "track_ids": []
+          }
+        ],
+        "reasons": [
+          "0/2 target items supported after composer/work grouping; unresolved."
+        ]
+      },
+      "completeness": {
+        "status": "unknown",
+        "works": [
+          {
+            "target": "Concerto N° 20 En Ré Mineur, K.466",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Concerto N° 23 En La Majeur, K.488",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "review_note": "Qobuz tracks omit English Chamber Orchestra credit; Barenboim alone is insufficient. Source title/heading key conflict retained."
+    },
+    {
+      "discogs_id": "23950082",
+      "album_id": "ekesky8cfu5wb",
+      "assessment": {
+        "status": "unchecked",
+        "confidence": null,
+        "coverage": 0.0,
+        "covered": 0,
+        "target_count": 12,
+        "required_performers": [
+          "Pablo Casals"
+        ],
+        "programme": [
+          {
+            "target": "Suite No.5. 1st Movement: Prélude",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "2nd Movement: Allemande",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "3rd Movement: Courante",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "4th Movement: Sarabande",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "5th Movement: Gavotte",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "6th Movement: Gigue",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "Suite No.6. 1st Movement: Prélude ",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "2nd Movement: Allemande",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "3rd Movement: Courante",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "4th Movement: Sarabande",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "5th Movement: Gavotte",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          },
+          {
+            "target": "6th Movement: Gigue",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          }
+        ],
+        "reasons": [
+          "0/12 target items supported after composer/work grouping; unresolved."
+        ]
+      },
+      "completeness": {
+        "status": "unknown",
+        "works": [
+          {
+            "target": "Suite No.5. 1st Movement: Prélude",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "2nd Movement: Allemande",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "3rd Movement: Courante",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "4th Movement: Sarabande",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "5th Movement: Gavotte",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "6th Movement: Gigue",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Suite No.6. 1st Movement: Prélude ",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "2nd Movement: Allemande",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "3rd Movement: Courante",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "4th Movement: Sarabande",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "5th Movement: Gavotte",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "6th Movement: Gigue",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "review_note": "Movement headings require source-bound suite context; do not match generic Allemande/Courante across suites."
+    },
+    {
+      "discogs_id": "2857544",
+      "album_id": "0002894457132",
+      "assessment": {
+        "status": "unchecked",
+        "confidence": null,
+        "coverage": 0.8571428571428571,
+        "covered": 6,
+        "target_count": 7,
+        "required_performers": [
+          "Narciso Yepes"
+        ],
+        "programme": [
+          {
+            "target": "Suite G-moll BWV 995",
+            "work_tracks": 6,
+            "credited_tracks": 6,
+            "track_ids": [
+              540597,
+              540599,
+              540601,
+              540603,
+              540605,
+              540607
+            ]
+          },
+          {
+            "target": "Suite E-moll BWV 996",
+            "work_tracks": 6,
+            "credited_tracks": 6,
+            "track_ids": [
+              540604,
+              540606,
+              540608,
+              540610,
+              540612,
+              540614
+            ]
+          },
+          {
+            "target": "Praeludium, Fuge Und Allegro Es-Dur BWV 998",
+            "work_tracks": 3,
+            "credited_tracks": 3,
+            "track_ids": [
+              540598,
+              540600,
+              540602
+            ]
+          },
+          {
+            "target": "Suite C-moll BWV 997",
+            "work_tracks": 4,
+            "credited_tracks": 4,
+            "track_ids": [
+              540618,
+              540620,
+              540622,
+              540623
+            ]
+          },
+          {
+            "target": "Praeludium C-moll BWV 999",
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              540616
+            ]
+          },
+          {
+            "target": "Fuge G-moll BWV 1000",
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              540621
+            ]
+          },
+          {
+            "target": "Suite E-Dur BWV 1006 a",
+            "work_tracks": 0,
+            "credited_tracks": 0,
+            "track_ids": []
+          }
+        ],
+        "reasons": [
+          "6/7 target items supported after composer/work grouping; unresolved."
+        ]
+      },
+      "completeness": {
+        "status": "unknown",
+        "works": [
+          {
+            "target": "Suite G-moll BWV 995",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Suite E-moll BWV 996",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Praeludium, Fuge Und Allegro Es-Dur BWV 998",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Suite C-moll BWV 997",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Praeludium C-moll BWV 999",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Fuge G-moll BWV 1000",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Suite E-Dur BWV 1006 a",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          }
+        ],
+        "overlapping_target_tracks": false
+      },
+      "review_note": "Six of seven source works grouped; spaced BWV1006 a remains unresolved and suite completeness requires review."
+    }
+  ],
+  "limitations": [
+    "Offline triage notes do not authorize metadata expansion, source corrections or acceptance. Screen statuses precede manual Weissenberg recording review."
+  ]
+}

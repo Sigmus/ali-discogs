@@ -13,7 +13,7 @@
   "work_inventory_fingerprint": "47b8e955b99c37b132e66daea61590490d249f94a520740d702bec5caa5019ce",
   "lead_review_fingerprint": "bc731b95eadb23cb1a13d735a4e7410615ae06f260b2c4a381ed4a29e229265e",
   "comparison_evidence_fingerprint": "c38df992ab44bbc892ffacafa19d74cc1495d7579d3d6da670653204dca25e57",
-  "album_urls_fingerprint": "a70ba4ee45a949221070c070c0bccde63789c0b39145029ebab59387787d97b1",
+  "album_urls_fingerprint": "cc96960927a0b449cea200e923abef5d11526d5994a70e2eb9f5f9619cc4b380",
   "opera_review_fingerprint": "6e26d528eb7de78d372635218404a57534332ea1cd3d92e89e90e7a18066f85b",
   "pair_review_fingerprint": "7709aa57ef7815fda88766badd3064939bccb142bd0e97389a0f5f011c54cd84",
   "container_review_fingerprint": "aa8a8e530114e05869e1215561786073250faca3c9349b66059ea59ff3c535e0",
@@ -31,9 +31,11 @@
   "richter_review_fingerprint": "a14865f86e46150593e39bfa285fa6c7c61c8f46147b8094c0cb048fd02118ab",
   "round2_review_fingerprint": "be60742c3d35f5a9aa67f200642f7fcde98a52562a46130e043db8f4aa7c851e",
   "round2_metadata_fingerprint": "9db62d7bf62d4b77f5acf422dfde77959f845f4dc00b2ac0e10c02ccea295860",
-  "remaining_review_fingerprint": "dd450baa7ee9310308fbc7a5e81b6ed8c466336ea0fb6b7d4fce1e13fd182a69",
+  "remaining_review_fingerprint": "5f17eb1be2e09647bf8f91d07e27f05f9abd30079844541f90ba1890816de7c5",
   "remaining_metadata_fingerprint": "393b2d12e176160ab311b65267b38bdc8c205222e12f792bf07eba5c1fcfafbf",
   "remaining_followup_metadata_fingerprint": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
+  "seven_album_metadata_fingerprint": "139f9b336c68b56ea22c18362cb0481c026366c5d359142f2bb702fe1233a4fc",
+  "seven_album_scope_fingerprint": "cc1676286f629aba28d031e36ee5564aeae951392cdfd50467c1c930be54a268",
   "remaining_followup_scope_fingerprint": "41780b365b45dcd74f5ffd053bfe546c3c873eae535dd66250297799f48c2daa",
   "releases": {
     "15221307": {
@@ -99819,14 +99821,107 @@
       ]
     },
     "1662708": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "5099960276551",
+        "name": "Tschaikovsky: Piano Concerto No. 1",
+        "artists": [
+          "Alexis Weissenberg/Orchestre De Paris/Herbert von Karajan"
+        ],
+        "label": "Warner Classics",
+        "release_date": "2010-10-01",
+        "image": "https://static.qobuz.com/images/covers/51/65/5099960276551_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/tschaikovsky-piano-concerto-no-1-alexis-weissenberg-orchestre-de-paris-herbert-von-karajan/5099960276551"
+      },
+      "candidates": [
+        {
+          "id": "5099960276551",
+          "name": "Tschaikovsky: Piano Concerto No. 1",
+          "artists": [
+            "Alexis Weissenberg/Orchestre De Paris/Herbert von Karajan"
+          ],
+          "label": "Warner Classics",
+          "release_date": "2010-10-01",
+          "image": "https://static.qobuz.com/images/covers/51/65/5099960276551_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/tschaikovsky-piano-concerto-no-1-alexis-weissenberg-orchestre-de-paris-herbert-von-karajan/5099960276551",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 1,
+          "target_count": 1,
+          "required_performers": [
+            "Herbert von Karajan",
+            "Alexis Weissenberg",
+            "Orchestre De Paris"
+          ],
+          "programme": [
+            {
+              "target": "Concerto N°1 En Si Bémol Mineur Pour Piano Et Orchestre, Op. 23 ",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                43457314,
+                43457315,
+                43457316
+              ]
+            }
+          ],
+          "reasons": [
+            "Each target item has supporting work and performer credits.",
+            "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+            "Saved LP and digital tracks name Weissenberg, Karajan and Orchestre de Paris for all three movements of Tchaikovsky Op.23. Warner documents their Paris recording family (February 1970); the separate Berlin filmed performance is not this orchestra. Programme and positive credits support Probable recording-family correspondence, not exact LP takes or mastering.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Warner source describes a 2026 remaster; saved Qobuz edition is a 2010 release with different mastering provenance.",
+            "LP source has no session date, release year or movement timings; exact session/take identity is not independently established.",
+            "Exact LP pressing and digital mastering remain unverified."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Concerto N°1 En Si Bémol Mineur Pour Piano Et Orchestre, Op. 23 ",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "track_ids": [
+                  43457314,
+                  43457315,
+                  43457316
+                ],
+                "scope": "whole-work-inventory",
+                "source": "https://pac.uga.edu/wp-content/uploads/2024/05/Atlanta-Symphony-Orchestra-4.13.25-program-PDF.pdf#page=2",
+                "reason": "Three ordered Op.23 movements with positive Weissenberg, Karajan and Orchestre de Paris credits on each; entire saved LP programme covered."
+              }
+            ],
+            "overlapping_target_tracks": false
+          },
+          "recording_review": "Saved LP and digital tracks name Weissenberg, Karajan and Orchestre de Paris for all three movements of Tchaikovsky Op.23. Warner documents their Paris recording family (February 1970); the separate Berlin filmed performance is not this orchestra. Programme and positive credits support Probable recording-family correspondence, not exact LP takes or mastering.",
+          "review_sources": [
+            "https://wmg.jp/alexis-weissenberg/discography/33813",
+            "https://www.discogs.com/release/1662708"
+          ]
+        }
+      ],
       "query": "herbert von karajan tchaikovsky concerto ndeg 1",
       "searched_at": "2026-11-12T16:37:24.572438+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Each target item has supporting work and performer credits.",
+        "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+        "Saved LP and digital tracks name Weissenberg, Karajan and Orchestre de Paris for all three movements of Tchaikovsky Op.23. Warner documents their Paris recording family (February 1970); the separate Berlin filmed performance is not this orchestra. Programme and positive credits support Probable recording-family correspondence, not exact LP takes or mastering.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Warner source describes a 2026 remaster; saved Qobuz edition is a 2010 release with different mastering provenance.",
+        "LP source has no session date, release year or movement timings; exact session/take identity is not independently established.",
+        "Exact LP pressing and digital mastering remain unverified."
       ]
     },
     "6157602": {

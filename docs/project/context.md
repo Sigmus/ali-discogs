@@ -12,7 +12,7 @@ explorer. [README](../../README.md) owns setup and architecture;
   table headers). Retrieval complete; first offline screen/audit complete. Deployment not verified.
 - Collection: 741 copies / 740 unique releases. Current saved labels: Spotify
   254 Found / 273 Probable / 210 Not found / 4 Unchecked; Qobuz
-  12 Found / 122 Probable / 607 Unchecked copies (15 November snapshot).
+  12 Found / 123 Probable / 606 Unchecked copies (15 November snapshot).
 - Spotify’s legacy album-level labels and stricter Qobuz evidence levels are
   not comparable accuracy or catalogue-coverage measurements. Both status and
   score are saved data. Qobuz 95/85 are heuristic levels, not probabilities.
@@ -92,12 +92,13 @@ new-hit downloads, automatic promotions, pushes or deployment. Bitches Brew’s
 credit exception remains a proposal. Preserve source/hash-bound review safeguards;
 never loosen credits or invent recording identity to improve a count.
 
-Next action: offline recording review of Weissenberg1662708; preserve other
-source/credit/completeness gaps. Approved seven-album batch completed09:42Amsterdam:
-7albums/97tracks,9HTTP attempts, no warnings. Portable cache2504responses (all2497
-prior preserved), canonical index1164URLs. Match labels unchanged.
+Next action: review Mendelssohn-Bartholdy/Mendelssohn composer identity for a
+bounded reusable matching rule, retaining programme and recording-review gates.
+Seven-album offline audit saved in `data/qobuz_seven_followup_audit.json`.
+Weissenberg1662708 is Probable85 after full programme/Paris credits and Warner
+family corroboration; exact LP takes/mastering remain unverified. Only this
+published release changed. Other seven release leads retain explicit gaps.
 [Follow-up plan](../plans/2026-11-15-qobuz-metadata-followup.md).
-606unchecked unique:425work/credit,160metadata,1recording review,7withheld,
-6completeness,6empty searches,1source hold. All160script tests pass.
-No push/deployment. Nabucco/Mozart credit gaps remain.
+605unchecked unique; all162script tests, UI normalization and static build pass.
+No provider calls, push/deployment in this review. Nabucco/Mozart gaps remain.
 [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).

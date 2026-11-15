@@ -73,3 +73,27 @@ review inputs until a justified recording review. Match labels unchanged.
 All160script tests pass. An initial offline screen used the incomplete base venv;
 reran successfully with the documented requests-enabled uv environment. No API
 error or warning occurred. No push/deployment.
+
+
+## Weissenberg review and remaining-lead audit
+
+15November: reviewed source1662708 and saved album5099960276551. All three
+Op.23movements positively credit Weissenberg/Karajan/Orchestre de Paris. Warner
+Japan33813documents the Paris family (February1970), distinct from Berlin's
+filmed performance; its2026remaster is not the saved2010edition. LP has no dates
+or timings. Explicit review supports Probable85family, never exact pressing/takes/
+mastering. Target/album hashes and ordered complete movements gate publication.
+No source metadata overwritten. Only1662708published record changes; total
+12Found/123Probable/606Unchecked copies (605unchecked unique).
+
+Integrated complete scope-bound seven-album portable evidence into reviewed
+matcher inputs. Two regressions reject missing movement and Berlin substitution,
+even after updating candidate hashes.162script tests, UI normalization/static
+build pass. No Qobuz calls, push or deployment.
+
+Saved eight-relationship audit with evidence fingerprints. Pollini lacks required
+individual quartet names; Barenboim lacks orchestra credit; Casals has source BWV
+conflict/generic suite headings; Ciccolini has multilingual work/composer grouping
+gaps; Yepes has spaced BWV1006a plus completeness gaps. Bernstein's composer
+Mendelssohn-Bartholdy versus Mendelssohn is the next bounded reusable identity
+review, with no automatic completeness/recording acceptance. No credit borrowing.

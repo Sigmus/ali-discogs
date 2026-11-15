@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "reviewed_on": "2026-11-14",
+  "reviewed_on": "2026-11-15",
   "releases": [
     {
       "discogs_id": "4491358",
@@ -3134,6 +3134,90 @@
       "limitations": [
         "Label year is not asserted to be a recording-session date; exact LP pressing/takes/transfer and digital mastering remain unverified.",
         "Other mono/live/later versions are not treated as interchangeable; the inspected stereo label is case-specific evidence, not a generic artist/year inference."
+      ]
+    },
+    {
+      "discogs_id": "1662708",
+      "album_id": "5099960276551",
+      "target_sha256": "accceea1574d59c53fb19245f9a8a7e2b0e28dedc0a87e4c40ab301fc39e1e55",
+      "album_sha256": "2291fb48a525aeafce1c58839fae1bfddde594adc63e481fc1d69a2db7f7a82f",
+      "decision": "probable",
+      "recording_review": "Saved LP and digital tracks name Weissenberg, Karajan and Orchestre de Paris for all three movements of Tchaikovsky Op.23. Warner documents their Paris recording family (February 1970); the separate Berlin filmed performance is not this orchestra. Programme and positive credits support Probable recording-family correspondence, not exact LP takes or mastering.",
+      "sources": [
+        "https://wmg.jp/alexis-weissenberg/discography/33813",
+        "https://www.discogs.com/release/1662708"
+      ],
+      "limitations": [
+        "Warner source describes a 2026 remaster; saved Qobuz edition is a 2010 release with different mastering provenance.",
+        "LP source has no session date, release year or movement timings; exact session/take identity is not independently established.",
+        "Exact LP pressing and digital mastering remain unverified."
+      ],
+      "target_source": {
+        "sha256": "4a9307169a678fd4576387fdfade090d54f057a2d16299ff8001e0c697893f16",
+        "notes": " ",
+        "tracklist": [
+          {
+            "position": "",
+            "type_": "index",
+            "title": "Concerto N°1 En Si Bémol Mineur Pour Piano Et Orchestre, Op. 23 ",
+            "duration": "",
+            "sub_tracks": [
+              {
+                "position": "A1",
+                "type_": "track",
+                "title": "1er Mouvement : Allegro Non Troppo E Molto Maestoso - Allegro Con Spirito",
+                "duration": ""
+              },
+              {
+                "position": "B1",
+                "type_": "track",
+                "title": "A) 2eme Mouvement : Andantino Simplice - Prestissimo - Tempo I",
+                "duration": ""
+              },
+              {
+                "position": "B2",
+                "type_": "track",
+                "title": "B) 3eme Mouvement : Allegro Con Fuoco",
+                "duration": ""
+              }
+            ]
+          }
+        ],
+        "formats": [
+          {
+            "name": "Vinyl",
+            "qty": "1",
+            "descriptions": [
+              "LP",
+              "Album",
+              "Stereo"
+            ]
+          }
+        ],
+        "labels": [
+          {
+            "name": "La Voix De Son Maître",
+            "catno": "2C 069-02044",
+            "entity_type": "1",
+            "entity_type_name": "Label",
+            "id": 63488,
+            "resource_url": "https://api.discogs.com/labels/63488",
+            "thumbnail_url": "https://i.discogs.com/nQjHx3Rtfl6HTJJvw_QLD--YwjKbbojjN_6jPg-Wmz4/rs:fit/g:sm/q:90/h:312/w:409/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTYzNDg4/LTExOTU3NjkwNTku/anBlZw.jpeg"
+          }
+        ]
+      },
+      "works": [
+        {
+          "target": "Concerto N°1 En Si Bémol Mineur Pour Piano Et Orchestre, Op. 23 ",
+          "movements": [
+            1,
+            2,
+            3
+          ],
+          "scope": "whole-work-inventory",
+          "source": "https://pac.uga.edu/wp-content/uploads/2024/05/Atlanta-Symphony-Orchestra-4.13.25-program-PDF.pdf#page=2",
+          "reason": "Three ordered Op.23 movements with positive Weissenberg, Karajan and Orchestre de Paris credits on each; entire saved LP programme covered."
+        }
       ]
     }
   ]

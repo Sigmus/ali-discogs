@@ -19,7 +19,7 @@
     "qobuz_remaining_followup_metadata.json.gz": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
     "qobuz_metadata_followup_2026_11_15.json.gz": "139f9b336c68b56ea22c18362cb0481c026366c5d359142f2bb702fe1233a4fc",
     "collection_matches.json": "a214eee877d4749fa957b3d2a293c2925d7ba0621259f2742139a6cd86f928c8",
-    "qobuz_matches.json": "361a7df57089808c52a28d8bd9bb6f6997c646d66840faa3b7bdeb256e9d76ea",
+    "qobuz_matches.json": "ef668b2d50849720fc3c543119d229332c35b721f33a350f2e631c720c87851c",
     "qobuz_work_inventory.json": "47b8e955b99c37b132e66daea61590490d249f94a520740d702bec5caa5019ce",
     "qobuz_binding_reviews.json": "8e9290c053caf91b49e9cd32384be458d97e17d03c454e933a8648efadaeecd3",
     "qobuz_opera_recording_reviews.json": "6e26d528eb7de78d372635218404a57534332ea1cd3d92e89e90e7a18066f85b",
@@ -29,13 +29,12 @@
   "summary": {
     "work_or_credit_unresolved": 425,
     "metadata_needed": 160,
-    "recording_review_needed": 1,
     "reviewed_withheld": 7,
     "completeness_review_needed": 6,
     "no_saved_hits": 6,
     "source_programme_review_needed": 1
   },
-  "unmatched_unique_releases": 606,
+  "unmatched_unique_releases": 605,
   "entries": [
     {
       "discogs_id": "594243",
@@ -4525,36 +4524,6 @@
       "saved_hits": 8,
       "uncached_hits": 8,
       "cached_candidates": []
-    },
-    {
-      "discogs_id": "1662708",
-      "title": "Concerto N° 1",
-      "category": "recording_review_needed",
-      "saved_hits": 5,
-      "uncached_hits": 4,
-      "cached_candidates": [
-        {
-          "album_id": "5099960276551",
-          "title": "Tschaikovsky: Piano Concerto No. 1",
-          "coverage": 1.0,
-          "status": "probable",
-          "completeness": "complete",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Concerto N°1 En Si Bémol Mineur Pour Piano Et Orchestre, Op. 23 ",
-              "work_tracks": 3,
-              "credited_tracks": 3,
-              "track_ids": [
-                43457314,
-                43457315,
-                43457316
-              ]
-            }
-          ]
-        }
-      ]
     },
     {
       "discogs_id": "1665223",

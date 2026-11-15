@@ -1644,3 +1644,16 @@ Offline screen/inventory updated; Weissenberg1662708 now ready for recording
 review, other selected relationships retain explicit gaps.606unchecked unique:
 425work/credit,160metadata,1recording review,7withheld,6completeness,6empty,
 1source hold. Match labels unchanged; no push/deployment or new scope expansion.
+
+
+### 2026-11-15 — Weissenberg reviewed, seven-album gaps inventoried
+
+Source1662708 and full digital Op.23programme share Weissenberg/Karajan/Paris
+credits on all three movements. Warner corroborates Paris recording family;
+2026remaster differs from saved2010edition, source dates/timings unknown. Explicit
+hash-bound review publishes Probable85only; exact take/mastering caveats retained.
+Only1662708release record changed:12Found/123Probable/606Unchecked copies.
+162script tests pass including missing movement/wrong orchestra controls; UI
+normalization and static build pass. Eight-relationship offline audit records
+remaining programme/source/credit blockers. Next composer identity review for
+Mendelssohn-Bartholdy/Mendelssohn; no provider calls or push/deployment.
