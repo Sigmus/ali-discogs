@@ -20,11 +20,12 @@
     "qobuz_source_programme_reviews.json": "5469466141e2816720bf35e6b54abeb18daf3f12bf6fec1b4f9e794da0db098b",
     "qobuz_source_composer_reviews.json": "1cce69d6df99a54b444f6a210d84c5c69b3139eb4ed1355e821708d1fb59b83c",
     "qobuz_work_inventory.json": "47b8e955b99c37b132e66daea61590490d249f94a520740d702bec5caa5019ce",
-    "scripts/qobuz_match.py": "2d2ac83dc1e31aa4a9c2a626d643decce5b23f6d5fa5dc790faf67edd0ccd00a",
+    "scripts/qobuz_match.py": "29f36a5a06a64ea05b7605a4107f9979ec51eba7b0252605ec6e1f1ab577ae77",
     "scripts/qobuz_completeness.py": "c7720499434de111147c68347af05ea7e93735fb78f0b4cacd21d487c4c30286",
-    "scripts/qobuz_work_groups.py": "3507cdf9cfb6cd29cbfc75a44149796268e9bfead577c01111b8f0b696c050bf",
+    "scripts/qobuz_work_groups.py": "f6665ed56c0283b99e7a37b1b3cbf732e9b462208796f70882361740edc99901",
     "scripts/qobuz_source_composer.py": "e56eabd90a2038bb62af7fd51a8759dda9dad10145bee2bc12fdd07c8981da4f",
-    "scripts/qobuz_source_programme.py": "395cadcd23ea0e58e8ab37bfde87018570867d58c8ab4395dbb1ba552acfc2fa"
+    "scripts/qobuz_source_programme.py": "395cadcd23ea0e58e8ab37bfde87018570867d58c8ab4395dbb1ba552acfc2fa",
+    "scripts/qobuz_composer_identity.py": "0d15522d61137e3a80902c461e5f88458c611003d0f9938a538858c49804f9c0"
   },
   "summary": {
     "needs_recording_review": 15,
@@ -10957,10 +10958,10 @@
       "discovery_rank": 91.0,
       "cached_complete_metadata": true,
       "assessment": {
-        "status": "unchecked",
-        "confidence": null,
-        "coverage": 0.0,
-        "covered": 0,
+        "status": "probable",
+        "confidence": 0.85,
+        "coverage": 1.0,
+        "covered": 2,
         "target_count": 2,
         "required_performers": [
           "Israel Philharmonic Orchestra"
@@ -10968,19 +10969,29 @@
         "programme": [
           {
             "target": "Symphonie Nr. 4 A-dur Op. 90 »Italienische«",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 4,
+            "credited_tracks": 4,
+            "track_ids": [
+              46290798,
+              46290799,
+              46290800,
+              46290801
+            ]
           },
           {
             "target": "Symphonie No. 5 D-dur Op. 107 »Reformations-Symphonie«",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 4,
+            "credited_tracks": 4,
+            "track_ids": [
+              46290802,
+              46290803,
+              46290804,
+              46290805
+            ]
           }
         ],
         "reasons": [
-          "0/2 target items supported after composer/work grouping; unresolved.",
+          "Each target item has explicit work and performer-role credits; recording identity requires review.",
           "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
         ],
         "work_group_policy": "qobuz-work-groups-v1"
@@ -18486,8 +18497,8 @@
       "assessment": {
         "status": "unchecked",
         "confidence": null,
-        "coverage": 0.0,
-        "covered": 0,
+        "coverage": 0.9444444444444444,
+        "covered": 17,
         "target_count": 18,
         "required_performers": [
           "Walter Gieseking"
@@ -18501,109 +18512,143 @@
           },
           {
             "target": "Nr. 1 Mi Magg. Op. 19 Nr. 1",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              14333217
+            ]
           },
           {
             "target": "Nr. 6 Sol Min. Op. 19 Nr. 6",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              14333219
+            ]
           },
           {
             "target": "Nr. 12 Fa Diesis Min. Op. 30 Nr. 6",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              14333221
+            ]
           },
           {
             "target": "Nr. 16 La Magg. Op. 38 Nr. 4",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              14333223
+            ]
           },
           {
             "target": "Nr. 18 La Bemolle Magg. Op. 38 Nr. 6",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              14333225
+            ]
           },
           {
             "target": "Nr. 20 Mi Bemolle Magg. Op. 53 Nr. 2",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              14333227
+            ]
           },
           {
             "target": "Nr. 21 Sol Min. Op. 53 Nr. 3",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              14333229
+            ]
           },
           {
             "target": "Nr. 22 Fa Magg. Op. 53 Nr. 4",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              14333231
+            ]
           },
           {
             "target": "Nr. 25 Sol Magg. Op. 62 Nr. 1",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              14333233
+            ]
           },
           {
             "target": "Nr. 29 La Min. Op. 62 Nr. 5",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              14333235
+            ]
           },
           {
             "target": "Nr. 30 La Magg. Op. 62 Nr. 6",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              14333237
+            ]
           },
           {
             "target": "Nr. 33 Si Bemolle Magg. Op. 67 Nr. 3",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              14333239
+            ]
           },
           {
             "target": "Nr. 34 Do Magg. Op. 67 Nr. 4",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              14333241
+            ]
           },
           {
             "target": "Nr. 40 Re Magg. Op. 85 Nr. 4",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              14333243
+            ]
           },
           {
             "target": "Nr. 42 Si Bemolle Magg. Op. 85 Nr. 6",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              14333245
+            ]
           },
           {
             "target": "Nr. 45 Do Magg. Op. 102 Nr. 3",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              14333247
+            ]
           },
           {
             "target": "Nr. 47 La Magg. Op. 102 Nr. 5",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              14333249
+            ]
           }
         ],
         "reasons": [
-          "0/18 target items supported after composer/work grouping; unresolved.",
+          "17/18 target items supported after composer/work grouping; unresolved.",
           "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
         ],
         "work_group_policy": "qobuz-work-groups-v1"
@@ -35081,8 +35126,8 @@
       "assessment": {
         "status": "unchecked",
         "confidence": null,
-        "coverage": 0.0,
-        "covered": 0,
+        "coverage": 0.8333333333333334,
+        "covered": 15,
         "target_count": 18,
         "required_performers": [
           "Walter Gieseking"
@@ -35108,97 +35153,127 @@
           },
           {
             "target": "Nr. 12 Fa Diesis Min. Op. 30 Nr. 6",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              6414913
+            ]
           },
           {
             "target": "Nr. 16 La Magg. Op. 38 Nr. 4",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              6414914
+            ]
           },
           {
             "target": "Nr. 18 La Bemolle Magg. Op. 38 Nr. 6",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              6414915
+            ]
           },
           {
             "target": "Nr. 20 Mi Bemolle Magg. Op. 53 Nr. 2",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              6414916
+            ]
           },
           {
             "target": "Nr. 21 Sol Min. Op. 53 Nr. 3",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              6414917
+            ]
           },
           {
             "target": "Nr. 22 Fa Magg. Op. 53 Nr. 4",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              6414918
+            ]
           },
           {
             "target": "Nr. 25 Sol Magg. Op. 62 Nr. 1",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              6414919
+            ]
           },
           {
             "target": "Nr. 29 La Min. Op. 62 Nr. 5",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              6414920
+            ]
           },
           {
             "target": "Nr. 30 La Magg. Op. 62 Nr. 6",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              6414921
+            ]
           },
           {
             "target": "Nr. 33 Si Bemolle Magg. Op. 67 Nr. 3",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              6414922
+            ]
           },
           {
             "target": "Nr. 34 Do Magg. Op. 67 Nr. 4",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              6414923
+            ]
           },
           {
             "target": "Nr. 40 Re Magg. Op. 85 Nr. 4",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              6414924
+            ]
           },
           {
             "target": "Nr. 42 Si Bemolle Magg. Op. 85 Nr. 6",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              6414925
+            ]
           },
           {
             "target": "Nr. 45 Do Magg. Op. 102 Nr. 3",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              6414926
+            ]
           },
           {
             "target": "Nr. 47 La Magg. Op. 102 Nr. 5",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              6414927
+            ]
           }
         ],
         "reasons": [
-          "0/18 target items supported after composer/work grouping; unresolved.",
+          "15/18 target items supported after composer/work grouping; unresolved.",
           "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
         ],
         "work_group_policy": "qobuz-work-groups-v1"
@@ -36784,8 +36859,8 @@
       "assessment": {
         "status": "unchecked",
         "confidence": null,
-        "coverage": 0.0,
-        "covered": 0,
+        "coverage": 0.3888888888888889,
+        "covered": 7,
         "target_count": 18,
         "required_performers": [
           "Walter Gieseking"
@@ -36811,15 +36886,19 @@
           },
           {
             "target": "Nr. 12 Fa Diesis Min. Op. 30 Nr. 6",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              266832099
+            ]
           },
           {
             "target": "Nr. 16 La Magg. Op. 38 Nr. 4",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              266832100
+            ]
           },
           {
             "target": "Nr. 18 La Bemolle Magg. Op. 38 Nr. 6",
@@ -36841,15 +36920,19 @@
           },
           {
             "target": "Nr. 22 Fa Magg. Op. 53 Nr. 4",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              266832101
+            ]
           },
           {
             "target": "Nr. 25 Sol Magg. Op. 62 Nr. 1",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              266832102
+            ]
           },
           {
             "target": "Nr. 29 La Min. Op. 62 Nr. 5",
@@ -36871,15 +36954,19 @@
           },
           {
             "target": "Nr. 34 Do Magg. Op. 67 Nr. 4",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              266832103
+            ]
           },
           {
             "target": "Nr. 40 Re Magg. Op. 85 Nr. 4",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              266832104
+            ]
           },
           {
             "target": "Nr. 42 Si Bemolle Magg. Op. 85 Nr. 6",
@@ -36895,13 +36982,15 @@
           },
           {
             "target": "Nr. 47 La Magg. Op. 102 Nr. 5",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              266832105
+            ]
           }
         ],
         "reasons": [
-          "0/18 target items supported after composer/work grouping; unresolved.",
+          "7/18 target items supported after composer/work grouping; unresolved.",
           "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
         ],
         "work_group_policy": "qobuz-work-groups-v1"
@@ -39098,8 +39187,8 @@
       "assessment": {
         "status": "unchecked",
         "confidence": null,
-        "coverage": 0.0,
-        "covered": 0,
+        "coverage": 0.8333333333333334,
+        "covered": 15,
         "target_count": 18,
         "required_performers": [
           "Walter Gieseking"
@@ -39125,97 +39214,129 @@
           },
           {
             "target": "Nr. 12 Fa Diesis Min. Op. 30 Nr. 6",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              195410229
+            ]
           },
           {
             "target": "Nr. 16 La Magg. Op. 38 Nr. 4",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              195410230
+            ]
           },
           {
             "target": "Nr. 18 La Bemolle Magg. Op. 38 Nr. 6",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              195410231
+            ]
           },
           {
             "target": "Nr. 20 Mi Bemolle Magg. Op. 53 Nr. 2",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              195410232
+            ]
           },
           {
             "target": "Nr. 21 Sol Min. Op. 53 Nr. 3",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              195410233
+            ]
           },
           {
             "target": "Nr. 22 Fa Magg. Op. 53 Nr. 4",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              195410234
+            ]
           },
           {
             "target": "Nr. 25 Sol Magg. Op. 62 Nr. 1",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              195410235
+            ]
           },
           {
             "target": "Nr. 29 La Min. Op. 62 Nr. 5",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              195410236
+            ]
           },
           {
             "target": "Nr. 30 La Magg. Op. 62 Nr. 6",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 3,
+            "credited_tracks": 3,
+            "track_ids": [
+              195410237,
+              195410244,
+              195410245
+            ]
           },
           {
             "target": "Nr. 33 Si Bemolle Magg. Op. 67 Nr. 3",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              195410238
+            ]
           },
           {
             "target": "Nr. 34 Do Magg. Op. 67 Nr. 4",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              195410239
+            ]
           },
           {
             "target": "Nr. 40 Re Magg. Op. 85 Nr. 4",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              195410240
+            ]
           },
           {
             "target": "Nr. 42 Si Bemolle Magg. Op. 85 Nr. 6",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              195410241
+            ]
           },
           {
             "target": "Nr. 45 Do Magg. Op. 102 Nr. 3",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              195410242
+            ]
           },
           {
             "target": "Nr. 47 La Magg. Op. 102 Nr. 5",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              195410243
+            ]
           }
         ],
         "reasons": [
-          "0/18 target items supported after composer/work grouping; unresolved.",
+          "15/18 target items supported after composer/work grouping; unresolved.",
           "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
         ],
         "work_group_policy": "qobuz-work-groups-v1"
@@ -42964,8 +43085,8 @@
       "assessment": {
         "status": "unchecked",
         "confidence": null,
-        "coverage": 0.0,
-        "covered": 0,
+        "coverage": 0.8333333333333334,
+        "covered": 15,
         "target_count": 18,
         "required_performers": [
           "Walter Gieseking"
@@ -42979,93 +43100,123 @@
           },
           {
             "target": "Nr. 1 Mi Magg. Op. 19 Nr. 1",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              179532770
+            ]
           },
           {
             "target": "Nr. 6 Sol Min. Op. 19 Nr. 6",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              179532771
+            ]
           },
           {
             "target": "Nr. 12 Fa Diesis Min. Op. 30 Nr. 6",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              179532772
+            ]
           },
           {
             "target": "Nr. 16 La Magg. Op. 38 Nr. 4",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              179532773
+            ]
           },
           {
             "target": "Nr. 18 La Bemolle Magg. Op. 38 Nr. 6",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              179532774
+            ]
           },
           {
             "target": "Nr. 20 Mi Bemolle Magg. Op. 53 Nr. 2",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              179532775
+            ]
           },
           {
             "target": "Nr. 21 Sol Min. Op. 53 Nr. 3",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              179532776
+            ]
           },
           {
             "target": "Nr. 22 Fa Magg. Op. 53 Nr. 4",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              179532777
+            ]
           },
           {
             "target": "Nr. 25 Sol Magg. Op. 62 Nr. 1",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              179532778
+            ]
           },
           {
             "target": "Nr. 29 La Min. Op. 62 Nr. 5",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              179532779
+            ]
           },
           {
             "target": "Nr. 30 La Magg. Op. 62 Nr. 6",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              179532780
+            ]
           },
           {
             "target": "Nr. 33 Si Bemolle Magg. Op. 67 Nr. 3",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              179532781
+            ]
           },
           {
             "target": "Nr. 34 Do Magg. Op. 67 Nr. 4",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              179532782
+            ]
           },
           {
             "target": "Nr. 40 Re Magg. Op. 85 Nr. 4",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              179532783
+            ]
           },
           {
             "target": "Nr. 42 Si Bemolle Magg. Op. 85 Nr. 6",
-            "work_tracks": 0,
-            "credited_tracks": 0,
-            "track_ids": []
+            "work_tracks": 1,
+            "credited_tracks": 1,
+            "track_ids": [
+              179532784
+            ]
           },
           {
             "target": "Nr. 45 Do Magg. Op. 102 Nr. 3",
@@ -43081,7 +43232,7 @@
           }
         ],
         "reasons": [
-          "0/18 target items supported after composer/work grouping; unresolved.",
+          "15/18 target items supported after composer/work grouping; unresolved.",
           "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
         ],
         "work_group_policy": "qobuz-work-groups-v1"
@@ -82878,7 +83029,7 @@
         "programme": [
           {
             "target": "Overture \"The Hebrides\" (Fingal's Cave), (Op 26)",
-            "work_tracks": 0,
+            "work_tracks": 1,
             "credited_tracks": 0,
             "track_ids": []
           },
@@ -82890,10 +83041,8 @@
           }
         ],
         "reasons": [
-          "0/2 target items supported after composer/work grouping; unresolved.",
-          "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
-        ],
-        "work_group_policy": "qobuz-work-groups-v1"
+          "0/2 target items supported after composer/work grouping; unresolved."
+        ]
       },
       "completeness": {
         "status": "unknown",
@@ -84918,7 +85067,7 @@
           },
           {
             "target": "Symphony No. 4 In A Major, Op. 90  \"Italian\"",
-            "work_tracks": 0,
+            "work_tracks": 4,
             "credited_tracks": 0,
             "track_ids": []
           },
@@ -84930,10 +85079,8 @@
           }
         ],
         "reasons": [
-          "0/6 target items supported after composer/work grouping; unresolved.",
-          "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
-        ],
-        "work_group_policy": "qobuz-work-groups-v1"
+          "0/6 target items supported after composer/work grouping; unresolved."
+        ]
       },
       "completeness": {
         "status": "unknown",

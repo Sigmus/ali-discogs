@@ -84,7 +84,7 @@ def screen():
     provenance['qobuz_source_composer_reviews.json'] = fingerprint(ROOT/'data/qobuz_source_composer_reviews.json')
     inventory = json.loads((ROOT/'data/qobuz_work_inventory.json').read_text())
     provenance['qobuz_work_inventory.json'] = fingerprint(ROOT/'data/qobuz_work_inventory.json')
-    for name in ['qobuz_match.py','qobuz_completeness.py','qobuz_work_groups.py','qobuz_source_composer.py','qobuz_source_programme.py']:
+    for name in ['qobuz_match.py','qobuz_completeness.py','qobuz_work_groups.py','qobuz_source_composer.py','qobuz_source_programme.py','qobuz_composer_identity.py']:
         provenance['scripts/' + name] = fingerprint(ROOT/'scripts'/name)
     entries = []
     for (rid, aid), entry in pairs.items():

@@ -12,7 +12,8 @@ def role_entries(track):
 
 
 def composers(track):
-    return {norm(name) for name, roles in role_entries(track) if 'composer' in roles}
+    from qobuz_composer_identity import composer_key
+    return {composer_key(name) for name, roles in role_entries(track) if 'composer' in roles}
 
 
 def ordinal(title):
@@ -69,15 +70,18 @@ def target_work_matches(row, target, track, collision=None):
     if not work_match(target, track['title']):
         return False
     from qobuz_source_composer import required_composer
+    from qobuz_composer_identity import composer_key, reviewed_equivalence
     source_composer = required_composer(row, target)
-    if source_composer is not None and composers(track) != {norm(source_composer)}:
+    if source_composer is not None and composers(track) != {composer_key(source_composer)}:
         return False  # Positive reviewed work attribution; never borrow another work's composer.
-    declared = {norm(c) for c in row.get('composers') or []}
+    declared_names = row.get('composers') or []
+    declared = {composer_key(c) for c in declared_names}
     # Preserve the baseline composer evidence policy outside ambiguous opus
     # collisions; album-level Discogs composer lists can be incomplete and
     # spellings vary. Stronger grouped credit repair below requires explicit
     # composer-role identity and never inherits composer/performer credits.
-    if declared and not any(c.split()[-1] in norm(track.get('performers', '')).split() for c in declared):
+    if declared and not (any(norm(c).split()[-1] in norm(track.get('performers', '')).split() for c in declared_names) or
+                         reviewed_equivalence(declared_names, [name for name, roles in role_entries(track) if 'composer' in roles])):
         return False
     ids = catalogue(target)
     if collision is None:

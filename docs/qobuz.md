@@ -428,3 +428,11 @@ label/cover: Albéniz's Sevillana is missing. A-side positions afterA2are shifte
 not an activated source replacement. The composer scope remains unreviewed.
 Screen and unmatched audits distinguish `source_programme_review_needed` from
 missing provider metadata. Raw/normalized collection and Spotify stay unchanged.
+
+
+Reviewed composer names are separate from performer aliases. The exact full-name
+Felix Mendelssohn/Mendelssohn-Bartholdy equivalence requires positive Composer-role
+credit and does not infer identity from surname or structured Composer fields
+alone. `scripts/qobuz_composer_identity.py` owns the narrow rule; legacy scoring
+and saved collection text are unchanged. See the
+[identity review](plans/2026-11-15-qobuz-composer-identity.md).

@@ -1,0 +1,1405 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-15",
+  "identity_sources": [
+    "https://www.loc.gov/item/n79139515/felix-mendelssohn-bartholdy-1809-1847/",
+    "https://mendelssohn-gesellschaft.de/en/mendelssohns/biografien/felix-mendelssohn-bartholdy"
+  ],
+  "policy_sha256": "0d15522d61137e3a80902c461e5f88458c611003d0f9938a538858c49804f9c0",
+  "screen_before_sha256": "0d8861322211f54094636c880c6b4357af188e7171d55f5bec9f6db2c77773da",
+  "changes": [
+    {
+      "discogs_id": "3956949",
+      "album_id": "cxg5qouu14c6b",
+      "before_coverage": 0.0,
+      "after_coverage": 1.0,
+      "before_finding": "unresolved_work_credit_or_completeness",
+      "after_finding": "unresolved_work_credit_or_completeness",
+      "programme": [
+        {
+          "target": "Symphonie Nr. 4 A-dur Op. 90 »Italienische«",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            46290798,
+            46290799,
+            46290800,
+            46290801
+          ]
+        },
+        {
+          "target": "Symphonie No. 5 D-dur Op. 107 »Reformations-Symphonie«",
+          "work_tracks": 4,
+          "credited_tracks": 4,
+          "track_ids": [
+            46290802,
+            46290803,
+            46290804,
+            46290805
+          ]
+        }
+      ],
+      "completeness": {
+        "status": "unknown",
+        "works": [
+          {
+            "target": "Symphonie Nr. 4 A-dur Op. 90 »Italienische«",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Symphonie No. 5 D-dur Op. 107 »Reformations-Symphonie«",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          }
+        ],
+        "overlapping_target_tracks": false
+      }
+    },
+    {
+      "discogs_id": "8962178",
+      "album_id": "3610153935486",
+      "before_coverage": 0.0,
+      "after_coverage": 0.9444444444444444,
+      "before_finding": "unresolved_work_credit_or_completeness",
+      "after_finding": "unresolved_work_credit_or_completeness",
+      "programme": [
+        {
+          "target": "Lieder Ohne Worte",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Nr. 1 Mi Magg. Op. 19 Nr. 1",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            14333217
+          ]
+        },
+        {
+          "target": "Nr. 6 Sol Min. Op. 19 Nr. 6",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            14333219
+          ]
+        },
+        {
+          "target": "Nr. 12 Fa Diesis Min. Op. 30 Nr. 6",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            14333221
+          ]
+        },
+        {
+          "target": "Nr. 16 La Magg. Op. 38 Nr. 4",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            14333223
+          ]
+        },
+        {
+          "target": "Nr. 18 La Bemolle Magg. Op. 38 Nr. 6",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            14333225
+          ]
+        },
+        {
+          "target": "Nr. 20 Mi Bemolle Magg. Op. 53 Nr. 2",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            14333227
+          ]
+        },
+        {
+          "target": "Nr. 21 Sol Min. Op. 53 Nr. 3",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            14333229
+          ]
+        },
+        {
+          "target": "Nr. 22 Fa Magg. Op. 53 Nr. 4",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            14333231
+          ]
+        },
+        {
+          "target": "Nr. 25 Sol Magg. Op. 62 Nr. 1",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            14333233
+          ]
+        },
+        {
+          "target": "Nr. 29 La Min. Op. 62 Nr. 5",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            14333235
+          ]
+        },
+        {
+          "target": "Nr. 30 La Magg. Op. 62 Nr. 6",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            14333237
+          ]
+        },
+        {
+          "target": "Nr. 33 Si Bemolle Magg. Op. 67 Nr. 3",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            14333239
+          ]
+        },
+        {
+          "target": "Nr. 34 Do Magg. Op. 67 Nr. 4",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            14333241
+          ]
+        },
+        {
+          "target": "Nr. 40 Re Magg. Op. 85 Nr. 4",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            14333243
+          ]
+        },
+        {
+          "target": "Nr. 42 Si Bemolle Magg. Op. 85 Nr. 6",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            14333245
+          ]
+        },
+        {
+          "target": "Nr. 45 Do Magg. Op. 102 Nr. 3",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            14333247
+          ]
+        },
+        {
+          "target": "Nr. 47 La Magg. Op. 102 Nr. 5",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            14333249
+          ]
+        }
+      ],
+      "completeness": {
+        "status": "unknown",
+        "works": [
+          {
+            "target": "Lieder Ohne Worte",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 1 Mi Magg. Op. 19 Nr. 1",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 6 Sol Min. Op. 19 Nr. 6",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 12 Fa Diesis Min. Op. 30 Nr. 6",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 16 La Magg. Op. 38 Nr. 4",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 18 La Bemolle Magg. Op. 38 Nr. 6",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 20 Mi Bemolle Magg. Op. 53 Nr. 2",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 21 Sol Min. Op. 53 Nr. 3",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 22 Fa Magg. Op. 53 Nr. 4",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 25 Sol Magg. Op. 62 Nr. 1",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 29 La Min. Op. 62 Nr. 5",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 30 La Magg. Op. 62 Nr. 6",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 33 Si Bemolle Magg. Op. 67 Nr. 3",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 34 Do Magg. Op. 67 Nr. 4",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 40 Re Magg. Op. 85 Nr. 4",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 42 Si Bemolle Magg. Op. 85 Nr. 6",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 45 Do Magg. Op. 102 Nr. 3",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 47 La Magg. Op. 102 Nr. 5",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          }
+        ],
+        "overlapping_target_tracks": false
+      }
+    },
+    {
+      "discogs_id": "8962178",
+      "album_id": "5099970560152",
+      "before_coverage": 0.0,
+      "after_coverage": 0.8333333333333334,
+      "before_finding": "unresolved_work_credit_or_completeness",
+      "after_finding": "unresolved_work_credit_or_completeness",
+      "programme": [
+        {
+          "target": "Lieder Ohne Worte",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Nr. 1 Mi Magg. Op. 19 Nr. 1",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Nr. 6 Sol Min. Op. 19 Nr. 6",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Nr. 12 Fa Diesis Min. Op. 30 Nr. 6",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            6414913
+          ]
+        },
+        {
+          "target": "Nr. 16 La Magg. Op. 38 Nr. 4",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            6414914
+          ]
+        },
+        {
+          "target": "Nr. 18 La Bemolle Magg. Op. 38 Nr. 6",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            6414915
+          ]
+        },
+        {
+          "target": "Nr. 20 Mi Bemolle Magg. Op. 53 Nr. 2",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            6414916
+          ]
+        },
+        {
+          "target": "Nr. 21 Sol Min. Op. 53 Nr. 3",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            6414917
+          ]
+        },
+        {
+          "target": "Nr. 22 Fa Magg. Op. 53 Nr. 4",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            6414918
+          ]
+        },
+        {
+          "target": "Nr. 25 Sol Magg. Op. 62 Nr. 1",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            6414919
+          ]
+        },
+        {
+          "target": "Nr. 29 La Min. Op. 62 Nr. 5",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            6414920
+          ]
+        },
+        {
+          "target": "Nr. 30 La Magg. Op. 62 Nr. 6",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            6414921
+          ]
+        },
+        {
+          "target": "Nr. 33 Si Bemolle Magg. Op. 67 Nr. 3",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            6414922
+          ]
+        },
+        {
+          "target": "Nr. 34 Do Magg. Op. 67 Nr. 4",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            6414923
+          ]
+        },
+        {
+          "target": "Nr. 40 Re Magg. Op. 85 Nr. 4",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            6414924
+          ]
+        },
+        {
+          "target": "Nr. 42 Si Bemolle Magg. Op. 85 Nr. 6",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            6414925
+          ]
+        },
+        {
+          "target": "Nr. 45 Do Magg. Op. 102 Nr. 3",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            6414926
+          ]
+        },
+        {
+          "target": "Nr. 47 La Magg. Op. 102 Nr. 5",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            6414927
+          ]
+        }
+      ],
+      "completeness": {
+        "status": "unknown",
+        "works": [
+          {
+            "target": "Lieder Ohne Worte",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 1 Mi Magg. Op. 19 Nr. 1",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 6 Sol Min. Op. 19 Nr. 6",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 12 Fa Diesis Min. Op. 30 Nr. 6",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 16 La Magg. Op. 38 Nr. 4",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 18 La Bemolle Magg. Op. 38 Nr. 6",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 20 Mi Bemolle Magg. Op. 53 Nr. 2",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 21 Sol Min. Op. 53 Nr. 3",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 22 Fa Magg. Op. 53 Nr. 4",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 25 Sol Magg. Op. 62 Nr. 1",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 29 La Min. Op. 62 Nr. 5",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 30 La Magg. Op. 62 Nr. 6",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 33 Si Bemolle Magg. Op. 67 Nr. 3",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 34 Do Magg. Op. 67 Nr. 4",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 40 Re Magg. Op. 85 Nr. 4",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 42 Si Bemolle Magg. Op. 85 Nr. 6",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 45 Do Magg. Op. 102 Nr. 3",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 47 La Magg. Op. 102 Nr. 5",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          }
+        ],
+        "overlapping_target_tracks": false
+      }
+    },
+    {
+      "discogs_id": "8962178",
+      "album_id": "f61mtlvi8bhla",
+      "before_coverage": 0.0,
+      "after_coverage": 0.3888888888888889,
+      "before_finding": "unresolved_work_credit_or_completeness",
+      "after_finding": "unresolved_work_credit_or_completeness",
+      "programme": [
+        {
+          "target": "Lieder Ohne Worte",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Nr. 1 Mi Magg. Op. 19 Nr. 1",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Nr. 6 Sol Min. Op. 19 Nr. 6",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Nr. 12 Fa Diesis Min. Op. 30 Nr. 6",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            266832099
+          ]
+        },
+        {
+          "target": "Nr. 16 La Magg. Op. 38 Nr. 4",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            266832100
+          ]
+        },
+        {
+          "target": "Nr. 18 La Bemolle Magg. Op. 38 Nr. 6",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Nr. 20 Mi Bemolle Magg. Op. 53 Nr. 2",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Nr. 21 Sol Min. Op. 53 Nr. 3",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Nr. 22 Fa Magg. Op. 53 Nr. 4",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            266832101
+          ]
+        },
+        {
+          "target": "Nr. 25 Sol Magg. Op. 62 Nr. 1",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            266832102
+          ]
+        },
+        {
+          "target": "Nr. 29 La Min. Op. 62 Nr. 5",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Nr. 30 La Magg. Op. 62 Nr. 6",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Nr. 33 Si Bemolle Magg. Op. 67 Nr. 3",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Nr. 34 Do Magg. Op. 67 Nr. 4",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            266832103
+          ]
+        },
+        {
+          "target": "Nr. 40 Re Magg. Op. 85 Nr. 4",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            266832104
+          ]
+        },
+        {
+          "target": "Nr. 42 Si Bemolle Magg. Op. 85 Nr. 6",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Nr. 45 Do Magg. Op. 102 Nr. 3",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Nr. 47 La Magg. Op. 102 Nr. 5",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            266832105
+          ]
+        }
+      ],
+      "completeness": {
+        "status": "unknown",
+        "works": [
+          {
+            "target": "Lieder Ohne Worte",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 1 Mi Magg. Op. 19 Nr. 1",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 6 Sol Min. Op. 19 Nr. 6",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 12 Fa Diesis Min. Op. 30 Nr. 6",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 16 La Magg. Op. 38 Nr. 4",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 18 La Bemolle Magg. Op. 38 Nr. 6",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 20 Mi Bemolle Magg. Op. 53 Nr. 2",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 21 Sol Min. Op. 53 Nr. 3",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 22 Fa Magg. Op. 53 Nr. 4",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 25 Sol Magg. Op. 62 Nr. 1",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 29 La Min. Op. 62 Nr. 5",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 30 La Magg. Op. 62 Nr. 6",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 33 Si Bemolle Magg. Op. 67 Nr. 3",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 34 Do Magg. Op. 67 Nr. 4",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 40 Re Magg. Op. 85 Nr. 4",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 42 Si Bemolle Magg. Op. 85 Nr. 6",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 45 Do Magg. Op. 102 Nr. 3",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 47 La Magg. Op. 102 Nr. 5",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          }
+        ],
+        "overlapping_target_tracks": false
+      }
+    },
+    {
+      "discogs_id": "8962178",
+      "album_id": "q03q0vssupatb",
+      "before_coverage": 0.0,
+      "after_coverage": 0.8333333333333334,
+      "before_finding": "unresolved_work_credit_or_completeness",
+      "after_finding": "unresolved_work_credit_or_completeness",
+      "programme": [
+        {
+          "target": "Lieder Ohne Worte",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Nr. 1 Mi Magg. Op. 19 Nr. 1",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Nr. 6 Sol Min. Op. 19 Nr. 6",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Nr. 12 Fa Diesis Min. Op. 30 Nr. 6",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            195410229
+          ]
+        },
+        {
+          "target": "Nr. 16 La Magg. Op. 38 Nr. 4",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            195410230
+          ]
+        },
+        {
+          "target": "Nr. 18 La Bemolle Magg. Op. 38 Nr. 6",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            195410231
+          ]
+        },
+        {
+          "target": "Nr. 20 Mi Bemolle Magg. Op. 53 Nr. 2",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            195410232
+          ]
+        },
+        {
+          "target": "Nr. 21 Sol Min. Op. 53 Nr. 3",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            195410233
+          ]
+        },
+        {
+          "target": "Nr. 22 Fa Magg. Op. 53 Nr. 4",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            195410234
+          ]
+        },
+        {
+          "target": "Nr. 25 Sol Magg. Op. 62 Nr. 1",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            195410235
+          ]
+        },
+        {
+          "target": "Nr. 29 La Min. Op. 62 Nr. 5",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            195410236
+          ]
+        },
+        {
+          "target": "Nr. 30 La Magg. Op. 62 Nr. 6",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            195410237,
+            195410244,
+            195410245
+          ]
+        },
+        {
+          "target": "Nr. 33 Si Bemolle Magg. Op. 67 Nr. 3",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            195410238
+          ]
+        },
+        {
+          "target": "Nr. 34 Do Magg. Op. 67 Nr. 4",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            195410239
+          ]
+        },
+        {
+          "target": "Nr. 40 Re Magg. Op. 85 Nr. 4",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            195410240
+          ]
+        },
+        {
+          "target": "Nr. 42 Si Bemolle Magg. Op. 85 Nr. 6",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            195410241
+          ]
+        },
+        {
+          "target": "Nr. 45 Do Magg. Op. 102 Nr. 3",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            195410242
+          ]
+        },
+        {
+          "target": "Nr. 47 La Magg. Op. 102 Nr. 5",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            195410243
+          ]
+        }
+      ],
+      "completeness": {
+        "status": "unknown",
+        "works": [
+          {
+            "target": "Lieder Ohne Worte",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 1 Mi Magg. Op. 19 Nr. 1",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 6 Sol Min. Op. 19 Nr. 6",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 12 Fa Diesis Min. Op. 30 Nr. 6",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 16 La Magg. Op. 38 Nr. 4",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 18 La Bemolle Magg. Op. 38 Nr. 6",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 20 Mi Bemolle Magg. Op. 53 Nr. 2",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 21 Sol Min. Op. 53 Nr. 3",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 22 Fa Magg. Op. 53 Nr. 4",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 25 Sol Magg. Op. 62 Nr. 1",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 29 La Min. Op. 62 Nr. 5",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 30 La Magg. Op. 62 Nr. 6",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 33 Si Bemolle Magg. Op. 67 Nr. 3",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 34 Do Magg. Op. 67 Nr. 4",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 40 Re Magg. Op. 85 Nr. 4",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 42 Si Bemolle Magg. Op. 85 Nr. 6",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 45 Do Magg. Op. 102 Nr. 3",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 47 La Magg. Op. 102 Nr. 5",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          }
+        ],
+        "overlapping_target_tracks": false
+      }
+    },
+    {
+      "discogs_id": "8962178",
+      "album_id": "t7sdve00kzmia",
+      "before_coverage": 0.0,
+      "after_coverage": 0.8333333333333334,
+      "before_finding": "unresolved_work_credit_or_completeness",
+      "after_finding": "unresolved_work_credit_or_completeness",
+      "programme": [
+        {
+          "target": "Lieder Ohne Worte",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Nr. 1 Mi Magg. Op. 19 Nr. 1",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            179532770
+          ]
+        },
+        {
+          "target": "Nr. 6 Sol Min. Op. 19 Nr. 6",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            179532771
+          ]
+        },
+        {
+          "target": "Nr. 12 Fa Diesis Min. Op. 30 Nr. 6",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            179532772
+          ]
+        },
+        {
+          "target": "Nr. 16 La Magg. Op. 38 Nr. 4",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            179532773
+          ]
+        },
+        {
+          "target": "Nr. 18 La Bemolle Magg. Op. 38 Nr. 6",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            179532774
+          ]
+        },
+        {
+          "target": "Nr. 20 Mi Bemolle Magg. Op. 53 Nr. 2",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            179532775
+          ]
+        },
+        {
+          "target": "Nr. 21 Sol Min. Op. 53 Nr. 3",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            179532776
+          ]
+        },
+        {
+          "target": "Nr. 22 Fa Magg. Op. 53 Nr. 4",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            179532777
+          ]
+        },
+        {
+          "target": "Nr. 25 Sol Magg. Op. 62 Nr. 1",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            179532778
+          ]
+        },
+        {
+          "target": "Nr. 29 La Min. Op. 62 Nr. 5",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            179532779
+          ]
+        },
+        {
+          "target": "Nr. 30 La Magg. Op. 62 Nr. 6",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            179532780
+          ]
+        },
+        {
+          "target": "Nr. 33 Si Bemolle Magg. Op. 67 Nr. 3",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            179532781
+          ]
+        },
+        {
+          "target": "Nr. 34 Do Magg. Op. 67 Nr. 4",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            179532782
+          ]
+        },
+        {
+          "target": "Nr. 40 Re Magg. Op. 85 Nr. 4",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            179532783
+          ]
+        },
+        {
+          "target": "Nr. 42 Si Bemolle Magg. Op. 85 Nr. 6",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            179532784
+          ]
+        },
+        {
+          "target": "Nr. 45 Do Magg. Op. 102 Nr. 3",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Nr. 47 La Magg. Op. 102 Nr. 5",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        }
+      ],
+      "completeness": {
+        "status": "unknown",
+        "works": [
+          {
+            "target": "Lieder Ohne Worte",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 1 Mi Magg. Op. 19 Nr. 1",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 6 Sol Min. Op. 19 Nr. 6",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 12 Fa Diesis Min. Op. 30 Nr. 6",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 16 La Magg. Op. 38 Nr. 4",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 18 La Bemolle Magg. Op. 38 Nr. 6",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 20 Mi Bemolle Magg. Op. 53 Nr. 2",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 21 Sol Min. Op. 53 Nr. 3",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 22 Fa Magg. Op. 53 Nr. 4",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 25 Sol Magg. Op. 62 Nr. 1",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 29 La Min. Op. 62 Nr. 5",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 30 La Magg. Op. 62 Nr. 6",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 33 Si Bemolle Magg. Op. 67 Nr. 3",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 34 Do Magg. Op. 67 Nr. 4",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 40 Re Magg. Op. 85 Nr. 4",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 42 Si Bemolle Magg. Op. 85 Nr. 6",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 45 Do Magg. Op. 102 Nr. 3",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Nr. 47 La Magg. Op. 102 Nr. 5",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          }
+        ],
+        "overlapping_target_tracks": false
+      }
+    },
+    {
+      "discogs_id": "3476755",
+      "album_id": "ulox10s4e72oc",
+      "before_coverage": 0.0,
+      "after_coverage": 0.0,
+      "before_finding": "unresolved_work_credit_or_completeness",
+      "after_finding": "unresolved_work_credit_or_completeness",
+      "programme": [
+        {
+          "target": "Overture \"The Hebrides\" (Fingal's Cave), (Op 26)",
+          "work_tracks": 1,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Symphony No. 3 In A Minor, Op. 56 (\"Scotch\")",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        }
+      ],
+      "completeness": {
+        "status": "unknown",
+        "works": [
+          {
+            "target": "Overture \"The Hebrides\" (Fingal's Cave), (Op 26)",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Symphony No. 3 In A Minor, Op. 56 (\"Scotch\")",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          }
+        ],
+        "overlapping_target_tracks": false
+      }
+    },
+    {
+      "discogs_id": "19183792",
+      "album_id": "m9u4tuh82pbqa",
+      "before_coverage": 0.0,
+      "after_coverage": 0.0,
+      "before_finding": "unresolved_work_credit_or_completeness",
+      "after_finding": "unresolved_work_credit_or_completeness",
+      "programme": [
+        {
+          "target": "Symphony No. 1 In C Minor, Op. 11",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Symphony No. 2 In B Flat Major, Op. 52  \"Hymn Of Praise\"",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Symphony No. 3 In A Minor, Op. 56  \"Scottish\"",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Overture Ruy Blas, Op. 95",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Symphony No. 4 In A Major, Op. 90  \"Italian\"",
+          "work_tracks": 4,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Symphony No. 5 In D Minor, Op. 107 \"Reformation\"",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        }
+      ],
+      "completeness": {
+        "status": "unknown",
+        "works": [
+          {
+            "target": "Symphony No. 1 In C Minor, Op. 11",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Symphony No. 2 In B Flat Major, Op. 52  \"Hymn Of Praise\"",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Symphony No. 3 In A Minor, Op. 56  \"Scottish\"",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Overture Ruy Blas, Op. 95",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Symphony No. 4 In A Major, Op. 90  \"Italian\"",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          },
+          {
+            "target": "Symphony No. 5 In D Minor, Op. 107 \"Reformation\"",
+            "status": "unknown",
+            "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+          }
+        ],
+        "overlapping_target_tracks": false
+      }
+    }
+  ],
+  "review_binding_updates": {
+    "6472687": "Removed redundant Op.64 track add; same exact track now matched naturally.",
+    "10757104": "Removed eight redundant adds; same two four-movement programmes matched naturally."
+  },
+  "limitations": [
+    "Composer support is not proof of complete programme or recording identity. No raw/normalized collection, performer alias or legacy scoring changes."
+  ],
+  "publication_evidence_changed_release_ids": [
+    "6686688",
+    "4009817",
+    "7064777",
+    "2877518"
+  ],
+  "publication_status_changes": [],
+  "publication_sha256": "ed855bb2797f848cee6089c10e30ee45f142b4ff5a7beef260d2885ab6888a7d"
+}

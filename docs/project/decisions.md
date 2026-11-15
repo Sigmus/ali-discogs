@@ -446,3 +446,12 @@ Session, copyright and issue years are separate evidence fields. A later issue
 year alone is not a conflicting recording date; consult session/issue provenance.
 External evidence files must remain hash-bound and reusable offline. Exact takes
 and mastering remain unverified unless separately established.
+
+### 2026-11-15 — Exact Felix composer-name identity
+
+Adopted: grouped Qobuz Composer-role checks treat full names Felix Mendelssohn
+and Felix Mendelssohn-Bartholdy as the same identity, supported by Library of
+Congress authority n79139515. No initials/surname-only matching or family-member
+conflation. Performer keys and legacy scorer unchanged. Positive Composer credit
+required for the exception; programme/recording gates remain independent.
+[Plan and evidence](../plans/2026-11-15-qobuz-composer-identity.md).

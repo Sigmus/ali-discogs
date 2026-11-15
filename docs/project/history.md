@@ -1657,3 +1657,17 @@ Only1662708release record changed:12Found/123Probable/606Unchecked copies.
 normalization and static build pass. Eight-relationship offline audit records
 remaining programme/source/credit blockers. Next composer identity review for
 Mendelssohn-Bartholdy/Mendelssohn; no provider calls or push/deployment.
+
+
+### 2026-11-15 — Reusable Felix composer identity, no label changes
+
+Authority-supported exact full-name Felix Mendelssohn/Mendelssohn-Bartholdy rule
+requires positive Composer-role credit in grouped matching. Legacy scorer and
+performer keys unchanged; Fanny/Moses/initial/surname-only names not aliased.
+Eight cached screen pairs change; six gain support, two lack performer coverage.
+No published status changes; four release evidence records updated. Two prior
+hash-bound reviews retain identical programmes after removing9redundant manual
+adds newly matched naturally. Initial duplicate-binding regression caught this;
+validator kept strict and full164test rerun passes. UI normalization/build pass.
+Docs and structured impact audit saved; no provider calls or push/deployment.
+Next Bernstein3956949 completeness/recording-family review.

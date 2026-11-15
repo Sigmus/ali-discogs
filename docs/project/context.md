@@ -66,8 +66,8 @@ explorer. [README](../../README.md) owns setup and architecture;
 
 ## Offline follow-up checkpoint
 
-- Screened 2,227 pairs: 14 recording-review leads, 1,863 missing metadata,
-  341 unresolved and 9 held for an incomplete source programme.
+- Screened 2,227 pairs: 15 recording-review leads, 1,851 missing metadata,
+  352 unresolved and 9 held for an incomplete source programme.
 - Twenty-four new Probables published locally after bounded reviews. Gilels
   15221307 has a source-bound composer guard against Medtner/Beethoven Op.22 confusion.
 - Rubinstein 7971104: original label and cover show 14 works; cached tracklist
@@ -92,13 +92,16 @@ new-hit downloads, automatic promotions, pushes or deployment. Bitches Brew’s
 credit exception remains a proposal. Preserve source/hash-bound review safeguards;
 never loosen credits or invent recording identity to improve a count.
 
-Next action: review Mendelssohn-Bartholdy/Mendelssohn composer identity for a
-bounded reusable matching rule, retaining programme and recording-review gates.
-Seven-album offline audit saved in `data/qobuz_seven_followup_audit.json`.
-Weissenberg1662708 is Probable85 after full programme/Paris credits and Warner
-family corroboration; exact LP takes/mastering remain unverified. Only this
-published release changed. Other seven release leads retain explicit gaps.
-[Follow-up plan](../plans/2026-11-15-qobuz-metadata-followup.md).
-605unchecked unique; all162script tests, UI normalization and static build pass.
-No provider calls, push/deployment in this review. Nabucco/Mozart gaps remain.
+Next action: review Bernstein3956949 symphony inventories and recording family
+using the now-supported eight-track programme; no automatic acceptance.
+Exact Felix Mendelssohn/Mendelssohn-Bartholdy identity rule requires Composer-role
+credit. Legacy scorer, performer aliases and saved source text unchanged.
+Eight screen pairs affected: six gain support, two still fail performer checks.
+Two existing manual reviews lost only redundant adds; same reviewed programmes.
+No match-status changes: 12Found/123Probable/606Unchecked copies.
+[Identity plan](../plans/2026-11-15-qobuz-composer-identity.md),
+[seven-album plan](../plans/2026-11-15-qobuz-metadata-followup.md).
+605unchecked unique:423work/credit,160metadata,8completeness,7withheld,6empty,
+1source hold. All164script tests, UI normalization and build pass.
+No provider calls, push/deployment. Nabucco/Mozart credit gaps remain.
 [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).

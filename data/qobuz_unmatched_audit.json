@@ -19,18 +19,18 @@
     "qobuz_remaining_followup_metadata.json.gz": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
     "qobuz_metadata_followup_2026_11_15.json.gz": "139f9b336c68b56ea22c18362cb0481c026366c5d359142f2bb702fe1233a4fc",
     "collection_matches.json": "a214eee877d4749fa957b3d2a293c2925d7ba0621259f2742139a6cd86f928c8",
-    "qobuz_matches.json": "ef668b2d50849720fc3c543119d229332c35b721f33a350f2e631c720c87851c",
+    "qobuz_matches.json": "ed855bb2797f848cee6089c10e30ee45f142b4ff5a7beef260d2885ab6888a7d",
     "qobuz_work_inventory.json": "47b8e955b99c37b132e66daea61590490d249f94a520740d702bec5caa5019ce",
-    "qobuz_binding_reviews.json": "8e9290c053caf91b49e9cd32384be458d97e17d03c454e933a8648efadaeecd3",
+    "qobuz_binding_reviews.json": "22bc7a0ef1b34a6e3abfb1b514659e78958f0f76611d752e60372fa45261d137",
     "qobuz_opera_recording_reviews.json": "6e26d528eb7de78d372635218404a57534332ea1cd3d92e89e90e7a18066f85b",
     "qobuz_source_composer_reviews.json": "1cce69d6df99a54b444f6a210d84c5c69b3139eb4ed1355e821708d1fb59b83c",
     "qobuz_source_programme_reviews.json": "5469466141e2816720bf35e6b54abeb18daf3f12bf6fec1b4f9e794da0db098b"
   },
   "summary": {
-    "work_or_credit_unresolved": 425,
+    "work_or_credit_unresolved": 423,
     "metadata_needed": 160,
     "reviewed_withheld": 7,
-    "completeness_review_needed": 6,
+    "completeness_review_needed": 8,
     "no_saved_hits": 6,
     "source_programme_review_needed": 1
   },
@@ -18471,7 +18471,7 @@
           "programme": [
             {
               "target": "Elias, Op. 70 (Oratorium Nach Worten Des Alten Testaments)",
-              "work_tracks": 0,
+              "work_tracks": 42,
               "credited_tracks": 0,
               "track_ids": []
             }
@@ -18488,7 +18488,7 @@
           "programme": [
             {
               "target": "Elias, Op. 70 (Oratorium Nach Worten Des Alten Testaments)",
-              "work_tracks": 0,
+              "work_tracks": 20,
               "credited_tracks": 0,
               "track_ids": []
             }
@@ -23966,7 +23966,7 @@
           "programme": [
             {
               "target": "Overture \"The Hebrides\" (Fingal's Cave), (Op 26)",
-              "work_tracks": 0,
+              "work_tracks": 1,
               "credited_tracks": 0,
               "track_ids": []
             },
@@ -27601,30 +27601,40 @@
     {
       "discogs_id": "3956949",
       "title": "Symphonie No.4 \"Italienische\" = \"Italian\" / Symphonie No.5 \"Reformation\"",
-      "category": "work_or_credit_unresolved",
+      "category": "completeness_review_needed",
       "saved_hits": 8,
       "uncached_hits": 7,
       "cached_candidates": [
         {
           "album_id": "cxg5qouu14c6b",
           "title": "Mendelssohn: Symphonies No.4 \"Italian\" & No.5 \"Reformation\"",
-          "coverage": 0.0,
-          "status": "unchecked",
+          "coverage": 1.0,
+          "status": "probable",
           "completeness": "unknown",
           "reviewed_rejected": false,
           "reviewed_withheld": false,
           "programme": [
             {
               "target": "Symphonie Nr. 4 A-dur Op. 90 »Italienische«",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                46290798,
+                46290799,
+                46290800,
+                46290801
+              ]
             },
             {
               "target": "Symphonie No. 5 D-dur Op. 107 »Reformations-Symphonie«",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                46290802,
+                46290803,
+                46290804,
+                46290805
+              ]
             }
           ]
         }
@@ -27944,7 +27954,7 @@
           "programme": [
             {
               "target": "Ein Sommernachtstraum - Musik Zu Shakespeares Schauspiel Op. 21 Und Op. 61",
-              "work_tracks": 0,
+              "work_tracks": 1,
               "credited_tracks": 0,
               "track_ids": []
             }
@@ -66291,7 +66301,7 @@
         {
           "album_id": "3610153730807",
           "title": "Mendelssohn: Concerto pour violon et orchestre in E Minor, Op. 64",
-          "coverage": 0.0,
+          "coverage": 0.5,
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
@@ -66305,9 +66315,13 @@
             },
             {
               "target": "Konzert Für Violine Und Orchester E-moll, Op. 64",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                14740007,
+                14740009,
+                14740011
+              ]
             }
           ]
         },
@@ -69275,55 +69289,88 @@
     {
       "discogs_id": "7064777",
       "title": "5 Symphonies",
-      "category": "work_or_credit_unresolved",
+      "category": "completeness_review_needed",
       "saved_hits": 2,
       "uncached_hits": 0,
       "cached_candidates": [
         {
           "album_id": "0002894777581",
           "title": "Mendelssohn: 5 Symphonies",
-          "coverage": 0.0,
-          "status": "unchecked",
+          "coverage": 1.0,
+          "status": "probable",
           "completeness": "unknown",
           "reviewed_rejected": false,
           "reviewed_withheld": false,
           "programme": [
             {
               "target": "Symphonie Nr. 1 C-moll Op.11",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                614336,
+                614339,
+                614342,
+                614345
+              ]
             },
             {
               "target": "Symphonie Nr. 2 B-dur Op. 52 Lobgesang",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 12,
+              "credited_tracks": 12,
+              "track_ids": [
+                614337,
+                614340,
+                614343,
+                614346,
+                614349,
+                614352,
+                614355,
+                614358,
+                614360,
+                614361,
+                614362,
+                614363
+              ]
             },
             {
               "target": "Symphonie Nr. 3 A-moll Op.56 Schottische",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                614338,
+                614341,
+                614344,
+                614347
+              ]
             },
             {
               "target": "Symphonie Nr. 4 A-dur Op.90 Italienische",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                614350,
+                614353,
+                614356,
+                614359
+              ]
             },
             {
               "target": "Symphonie Nr. 5 A-moll Op.107 Reformations-Symphonie",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                614348,
+                614351,
+                614354,
+                614357
+              ]
             }
           ]
         },
         {
           "album_id": "woe4blzhjp2ca",
           "title": "Mendelssohn: Violin Concerto & 5 Symphonies",
-          "coverage": 0.0,
+          "coverage": 0.6,
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
@@ -69331,31 +69378,54 @@
           "programme": [
             {
               "target": "Symphonie Nr. 1 C-moll Op.11",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                195362367,
+                195362368,
+                195362369,
+                195362370
+              ]
             },
             {
               "target": "Symphonie Nr. 2 B-dur Op. 52 Lobgesang",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 12,
+              "credited_tracks": 12,
+              "track_ids": [
+                195362371,
+                195362372,
+                195362373,
+                195362374,
+                195362375,
+                195362376,
+                195362377,
+                195362378,
+                195362379,
+                195362380,
+                195362381,
+                195362382
+              ]
             },
             {
               "target": "Symphonie Nr. 3 A-moll Op.56 Schottische",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                195362383,
+                195362384,
+                195362385,
+                195362386
+              ]
             },
             {
               "target": "Symphonie Nr. 4 A-dur Op.90 Italienische",
-              "work_tracks": 0,
+              "work_tracks": 4,
               "credited_tracks": 0,
               "track_ids": []
             },
             {
               "target": "Symphonie Nr. 5 A-moll Op.107 Reformations-Symphonie",
-              "work_tracks": 0,
+              "work_tracks": 4,
               "credited_tracks": 0,
               "track_ids": []
             }
@@ -80901,7 +80971,7 @@
             },
             {
               "target": "Trio No 1 In D Minor",
-              "work_tracks": 0,
+              "work_tracks": 4,
               "credited_tracks": 0,
               "track_ids": []
             }
@@ -90750,7 +90820,7 @@
         {
           "album_id": "3610153935486",
           "title": "Mendelssohn: 17 Romances sans paroles",
-          "coverage": 0.0,
+          "coverage": 0.9444444444444444,
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
@@ -90764,112 +90834,146 @@
             },
             {
               "target": "Nr. 1 Mi Magg. Op. 19 Nr. 1",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                14333217
+              ]
             },
             {
               "target": "Nr. 6 Sol Min. Op. 19 Nr. 6",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                14333219
+              ]
             },
             {
               "target": "Nr. 12 Fa Diesis Min. Op. 30 Nr. 6",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                14333221
+              ]
             },
             {
               "target": "Nr. 16 La Magg. Op. 38 Nr. 4",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                14333223
+              ]
             },
             {
               "target": "Nr. 18 La Bemolle Magg. Op. 38 Nr. 6",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                14333225
+              ]
             },
             {
               "target": "Nr. 20 Mi Bemolle Magg. Op. 53 Nr. 2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                14333227
+              ]
             },
             {
               "target": "Nr. 21 Sol Min. Op. 53 Nr. 3",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                14333229
+              ]
             },
             {
               "target": "Nr. 22 Fa Magg. Op. 53 Nr. 4",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                14333231
+              ]
             },
             {
               "target": "Nr. 25 Sol Magg. Op. 62 Nr. 1",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                14333233
+              ]
             },
             {
               "target": "Nr. 29 La Min. Op. 62 Nr. 5",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                14333235
+              ]
             },
             {
               "target": "Nr. 30 La Magg. Op. 62 Nr. 6",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                14333237
+              ]
             },
             {
               "target": "Nr. 33 Si Bemolle Magg. Op. 67 Nr. 3",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                14333239
+              ]
             },
             {
               "target": "Nr. 34 Do Magg. Op. 67 Nr. 4",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                14333241
+              ]
             },
             {
               "target": "Nr. 40 Re Magg. Op. 85 Nr. 4",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                14333243
+              ]
             },
             {
               "target": "Nr. 42 Si Bemolle Magg. Op. 85 Nr. 6",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                14333245
+              ]
             },
             {
               "target": "Nr. 45 Do Magg. Op. 102 Nr. 3",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                14333247
+              ]
             },
             {
               "target": "Nr. 47 La Magg. Op. 102 Nr. 5",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                14333249
+              ]
             }
           ]
         },
         {
           "album_id": "5099970560152",
           "title": "Mendelssohn: 17 Songs without Words (2011 - Remaster)",
-          "coverage": 0.0,
+          "coverage": 0.8333333333333334,
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
@@ -90895,81 +90999,411 @@
             },
             {
               "target": "Nr. 12 Fa Diesis Min. Op. 30 Nr. 6",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                6414913
+              ]
             },
             {
               "target": "Nr. 16 La Magg. Op. 38 Nr. 4",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                6414914
+              ]
             },
             {
               "target": "Nr. 18 La Bemolle Magg. Op. 38 Nr. 6",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                6414915
+              ]
             },
             {
               "target": "Nr. 20 Mi Bemolle Magg. Op. 53 Nr. 2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                6414916
+              ]
             },
             {
               "target": "Nr. 21 Sol Min. Op. 53 Nr. 3",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                6414917
+              ]
             },
             {
               "target": "Nr. 22 Fa Magg. Op. 53 Nr. 4",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                6414918
+              ]
             },
             {
               "target": "Nr. 25 Sol Magg. Op. 62 Nr. 1",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                6414919
+              ]
             },
             {
               "target": "Nr. 29 La Min. Op. 62 Nr. 5",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                6414920
+              ]
             },
             {
               "target": "Nr. 30 La Magg. Op. 62 Nr. 6",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                6414921
+              ]
             },
             {
               "target": "Nr. 33 Si Bemolle Magg. Op. 67 Nr. 3",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                6414922
+              ]
             },
             {
               "target": "Nr. 34 Do Magg. Op. 67 Nr. 4",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                6414923
+              ]
             },
             {
               "target": "Nr. 40 Re Magg. Op. 85 Nr. 4",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                6414924
+              ]
+            },
+            {
+              "target": "Nr. 42 Si Bemolle Magg. Op. 85 Nr. 6",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                6414925
+              ]
+            },
+            {
+              "target": "Nr. 45 Do Magg. Op. 102 Nr. 3",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                6414926
+              ]
+            },
+            {
+              "target": "Nr. 47 La Magg. Op. 102 Nr. 5",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                6414927
+              ]
+            }
+          ]
+        },
+        {
+          "album_id": "q03q0vssupatb",
+          "title": "Mendelssohn: Songs Without Words",
+          "coverage": 0.8333333333333334,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Lieder Ohne Worte",
               "work_tracks": 0,
               "credited_tracks": 0,
               "track_ids": []
             },
             {
-              "target": "Nr. 42 Si Bemolle Magg. Op. 85 Nr. 6",
+              "target": "Nr. 1 Mi Magg. Op. 19 Nr. 1",
               "work_tracks": 0,
               "credited_tracks": 0,
               "track_ids": []
+            },
+            {
+              "target": "Nr. 6 Sol Min. Op. 19 Nr. 6",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Nr. 12 Fa Diesis Min. Op. 30 Nr. 6",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                195410229
+              ]
+            },
+            {
+              "target": "Nr. 16 La Magg. Op. 38 Nr. 4",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                195410230
+              ]
+            },
+            {
+              "target": "Nr. 18 La Bemolle Magg. Op. 38 Nr. 6",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                195410231
+              ]
+            },
+            {
+              "target": "Nr. 20 Mi Bemolle Magg. Op. 53 Nr. 2",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                195410232
+              ]
+            },
+            {
+              "target": "Nr. 21 Sol Min. Op. 53 Nr. 3",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                195410233
+              ]
+            },
+            {
+              "target": "Nr. 22 Fa Magg. Op. 53 Nr. 4",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                195410234
+              ]
+            },
+            {
+              "target": "Nr. 25 Sol Magg. Op. 62 Nr. 1",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                195410235
+              ]
+            },
+            {
+              "target": "Nr. 29 La Min. Op. 62 Nr. 5",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                195410236
+              ]
+            },
+            {
+              "target": "Nr. 30 La Magg. Op. 62 Nr. 6",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                195410237,
+                195410244,
+                195410245
+              ]
+            },
+            {
+              "target": "Nr. 33 Si Bemolle Magg. Op. 67 Nr. 3",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                195410238
+              ]
+            },
+            {
+              "target": "Nr. 34 Do Magg. Op. 67 Nr. 4",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                195410239
+              ]
+            },
+            {
+              "target": "Nr. 40 Re Magg. Op. 85 Nr. 4",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                195410240
+              ]
+            },
+            {
+              "target": "Nr. 42 Si Bemolle Magg. Op. 85 Nr. 6",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                195410241
+              ]
+            },
+            {
+              "target": "Nr. 45 Do Magg. Op. 102 Nr. 3",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                195410242
+              ]
+            },
+            {
+              "target": "Nr. 47 La Magg. Op. 102 Nr. 5",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                195410243
+              ]
+            }
+          ]
+        },
+        {
+          "album_id": "t7sdve00kzmia",
+          "title": "Mendelssohn: 17 Songs without Words by Walter Gieseking",
+          "coverage": 0.8333333333333334,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Lieder Ohne Worte",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Nr. 1 Mi Magg. Op. 19 Nr. 1",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                179532770
+              ]
+            },
+            {
+              "target": "Nr. 6 Sol Min. Op. 19 Nr. 6",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                179532771
+              ]
+            },
+            {
+              "target": "Nr. 12 Fa Diesis Min. Op. 30 Nr. 6",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                179532772
+              ]
+            },
+            {
+              "target": "Nr. 16 La Magg. Op. 38 Nr. 4",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                179532773
+              ]
+            },
+            {
+              "target": "Nr. 18 La Bemolle Magg. Op. 38 Nr. 6",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                179532774
+              ]
+            },
+            {
+              "target": "Nr. 20 Mi Bemolle Magg. Op. 53 Nr. 2",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                179532775
+              ]
+            },
+            {
+              "target": "Nr. 21 Sol Min. Op. 53 Nr. 3",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                179532776
+              ]
+            },
+            {
+              "target": "Nr. 22 Fa Magg. Op. 53 Nr. 4",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                179532777
+              ]
+            },
+            {
+              "target": "Nr. 25 Sol Magg. Op. 62 Nr. 1",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                179532778
+              ]
+            },
+            {
+              "target": "Nr. 29 La Min. Op. 62 Nr. 5",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                179532779
+              ]
+            },
+            {
+              "target": "Nr. 30 La Magg. Op. 62 Nr. 6",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                179532780
+              ]
+            },
+            {
+              "target": "Nr. 33 Si Bemolle Magg. Op. 67 Nr. 3",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                179532781
+              ]
+            },
+            {
+              "target": "Nr. 34 Do Magg. Op. 67 Nr. 4",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                179532782
+              ]
+            },
+            {
+              "target": "Nr. 40 Re Magg. Op. 85 Nr. 4",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                179532783
+              ]
+            },
+            {
+              "target": "Nr. 42 Si Bemolle Magg. Op. 85 Nr. 6",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                179532784
+              ]
             },
             {
               "target": "Nr. 45 Do Magg. Op. 102 Nr. 3",
@@ -90988,7 +91422,7 @@
         {
           "album_id": "f61mtlvi8bhla",
           "title": "Walter Gieseking Plays Chopin, Mendelssohn, Schumann & Grieg",
-          "coverage": 0.0,
+          "coverage": 0.3888888888888889,
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
@@ -91014,15 +91448,19 @@
             },
             {
               "target": "Nr. 12 Fa Diesis Min. Op. 30 Nr. 6",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                266832099
+              ]
             },
             {
               "target": "Nr. 16 La Magg. Op. 38 Nr. 4",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                266832100
+              ]
             },
             {
               "target": "Nr. 18 La Bemolle Magg. Op. 38 Nr. 6",
@@ -91044,15 +91482,19 @@
             },
             {
               "target": "Nr. 22 Fa Magg. Op. 53 Nr. 4",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                266832101
+              ]
             },
             {
               "target": "Nr. 25 Sol Magg. Op. 62 Nr. 1",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                266832102
+              ]
             },
             {
               "target": "Nr. 29 La Min. Op. 62 Nr. 5",
@@ -91074,15 +91516,19 @@
             },
             {
               "target": "Nr. 34 Do Magg. Op. 67 Nr. 4",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                266832103
+              ]
             },
             {
               "target": "Nr. 40 Re Magg. Op. 85 Nr. 4",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                266832104
+              ]
             },
             {
               "target": "Nr. 42 Si Bemolle Magg. Op. 85 Nr. 6",
@@ -91098,247 +91544,11 @@
             },
             {
               "target": "Nr. 47 La Magg. Op. 102 Nr. 5",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "q03q0vssupatb",
-          "title": "Mendelssohn: Songs Without Words",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Lieder Ohne Worte",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 1 Mi Magg. Op. 19 Nr. 1",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 6 Sol Min. Op. 19 Nr. 6",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 12 Fa Diesis Min. Op. 30 Nr. 6",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 16 La Magg. Op. 38 Nr. 4",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 18 La Bemolle Magg. Op. 38 Nr. 6",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 20 Mi Bemolle Magg. Op. 53 Nr. 2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 21 Sol Min. Op. 53 Nr. 3",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 22 Fa Magg. Op. 53 Nr. 4",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 25 Sol Magg. Op. 62 Nr. 1",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 29 La Min. Op. 62 Nr. 5",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 30 La Magg. Op. 62 Nr. 6",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 33 Si Bemolle Magg. Op. 67 Nr. 3",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 34 Do Magg. Op. 67 Nr. 4",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 40 Re Magg. Op. 85 Nr. 4",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 42 Si Bemolle Magg. Op. 85 Nr. 6",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 45 Do Magg. Op. 102 Nr. 3",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 47 La Magg. Op. 102 Nr. 5",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "t7sdve00kzmia",
-          "title": "Mendelssohn: 17 Songs without Words by Walter Gieseking",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Lieder Ohne Worte",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 1 Mi Magg. Op. 19 Nr. 1",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 6 Sol Min. Op. 19 Nr. 6",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 12 Fa Diesis Min. Op. 30 Nr. 6",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 16 La Magg. Op. 38 Nr. 4",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 18 La Bemolle Magg. Op. 38 Nr. 6",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 20 Mi Bemolle Magg. Op. 53 Nr. 2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 21 Sol Min. Op. 53 Nr. 3",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 22 Fa Magg. Op. 53 Nr. 4",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 25 Sol Magg. Op. 62 Nr. 1",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 29 La Min. Op. 62 Nr. 5",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 30 La Magg. Op. 62 Nr. 6",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 33 Si Bemolle Magg. Op. 67 Nr. 3",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 34 Do Magg. Op. 67 Nr. 4",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 40 Re Magg. Op. 85 Nr. 4",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 42 Si Bemolle Magg. Op. 85 Nr. 6",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 45 Do Magg. Op. 102 Nr. 3",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Nr. 47 La Magg. Op. 102 Nr. 5",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                266832105
+              ]
             }
           ]
         }
@@ -116462,7 +116672,7 @@
             },
             {
               "target": "Symphony No. 4 In A Major, Op. 90  \"Italian\"",
-              "work_tracks": 0,
+              "work_tracks": 4,
               "credited_tracks": 0,
               "track_ids": []
             },

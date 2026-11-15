@@ -17,9 +17,10 @@ hash-bound incomplete-programme hold now keeps it Unchecked. Reconciliation is
 proposed, not applied. Gilels’s reviewed composer guard remains active.
 The user-approved [seven-album batch](../plans/2026-11-15-qobuz-metadata-followup.md)
 is complete:7albums/97tracks, validated/exported without warnings. Next: offline
-composer identity review for Mendelssohn-Bartholdy/Mendelssohn, then programme/
-credit/source gaps in the saved seven-album audit. Weissenberg1662708 now Probable
-after explicit recording-family review; other leads unresolved.162script tests pass.
+Bernstein3956949 programme completeness and recording family, then remaining
+source/credit gaps. Exact full-name Felix composer identity is implemented; eight
+screen pairs affected without status changes. Weissenberg1662708 now Probable
+after explicit recording-family review; other leads unresolved.164script tests pass.
 Source-attribution discovery remains separate from reviewed scopes; Nabucco/Mozart
 credit/catalogue gaps remain unresolved.
 160remaining metadata-needed releases are not a fetch mandate. Follow the

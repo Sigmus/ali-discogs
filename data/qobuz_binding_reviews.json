@@ -991,14 +991,7 @@
       "album_sha256": "3d2a8627a818003ca5d57420ec4692996c9d9a89db8d581670bdf9b692a5ca09",
       "source_sha256": "72778f2f781e76dfbf3379c9f550579199a95ecfac40787da9a210591b4610ab",
       "pulls": [],
-      "adds": [
-        {
-          "track_id": 5607460,
-          "target": " Violin Concerto In E Minor, Op. 64 ",
-          "title_contains": "Op.64",
-          "reason": "The file joins all three movements of Op. 64 on one track."
-        }
-      ],
+      "adds": [],
       "required_performers": [
         "Isaac Stern",
         "Eugene Ormandy",
@@ -1120,56 +1113,7 @@
       "album_sha256": "057bd79a27d7e1af6a8118c0db0d9f6ad1c4d9e890dc48c7c14e5837d3724357",
       "source_sha256": "6dd8789690226c3bd4556fcfa9e7af551001cb15abfae079f31fd09d12287c2a",
       "pulls": [],
-      "adds": [
-        {
-          "track_id": 23379272,
-          "target": "Sinfonia N.4 In La Maggiore, Op. 90 \"Italiana\"",
-          "title_contains": "Op. 90",
-          "reason": "The file splits the Italian Symphony into four movements."
-        },
-        {
-          "track_id": 23379274,
-          "target": "Sinfonia N.4 In La Maggiore, Op. 90 \"Italiana\"",
-          "title_contains": "Op. 90",
-          "reason": "The file splits the Italian Symphony into four movements."
-        },
-        {
-          "track_id": 23379276,
-          "target": "Sinfonia N.4 In La Maggiore, Op. 90 \"Italiana\"",
-          "title_contains": "Op. 90",
-          "reason": "The file splits the Italian Symphony into four movements."
-        },
-        {
-          "track_id": 23379278,
-          "target": "Sinfonia N.4 In La Maggiore, Op. 90 \"Italiana\"",
-          "title_contains": "Op. 90",
-          "reason": "The file splits the Italian Symphony into four movements."
-        },
-        {
-          "track_id": 23379280,
-          "target": "Sinfonia N. 5 In Re Minore, Op. 107 \"Riforma\"",
-          "title_contains": "Op. 107",
-          "reason": "The file splits the Reformation Symphony into four movements."
-        },
-        {
-          "track_id": 23379282,
-          "target": "Sinfonia N. 5 In Re Minore, Op. 107 \"Riforma\"",
-          "title_contains": "Op. 107",
-          "reason": "The file splits the Reformation Symphony into four movements."
-        },
-        {
-          "track_id": 23379284,
-          "target": "Sinfonia N. 5 In Re Minore, Op. 107 \"Riforma\"",
-          "title_contains": "Op. 107",
-          "reason": "The file splits the Reformation Symphony into four movements."
-        },
-        {
-          "track_id": 23379286,
-          "target": "Sinfonia N. 5 In Re Minore, Op. 107 \"Riforma\"",
-          "title_contains": "Op. 107",
-          "reason": "The file splits the Reformation Symphony into four movements."
-        }
-      ],
+      "adds": [],
       "required_performers": [
         "Arturo Toscanini",
         "NBC Symphony Orchestra"
