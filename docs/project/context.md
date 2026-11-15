@@ -92,10 +92,12 @@ new-hit downloads, automatic promotions, pushes or deployment. Bitches Brew’s
 credit exception remains a proposal. Preserve source/hash-bound review safeguards;
 never loosen credits or invent recording identity to improve a count.
 
-Next action: await approval for the prepared seven-album metadata batch (8 release
-leads, 97 reported tracks). No new provider calls authorized or started.
-[Fixed follow-up plan](../plans/2026-11-15-qobuz-metadata-followup.md).
-Current 606 unchecked unique: 417 work/credit, 170 metadata, 7 reviewed withheld,
-6 empty searches, 5 completeness reviews and 1 source-programme hold.
-All 160 script tests pass. No push/deployment. Nabucco/Mozart credit gaps remain.
+Next action: offline recording review of Weissenberg1662708; preserve other
+source/credit/completeness gaps. Approved seven-album batch completed09:42Amsterdam:
+7albums/97tracks,9HTTP attempts, no warnings. Portable cache2504responses (all2497
+prior preserved), canonical index1164URLs. Match labels unchanged.
+[Follow-up plan](../plans/2026-11-15-qobuz-metadata-followup.md).
+606unchecked unique:425work/credit,160metadata,1recording review,7withheld,
+6completeness,6empty searches,1source hold. All160script tests pass.
+No push/deployment. Nabucco/Mozart credit gaps remain.
 [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).

@@ -17,6 +17,7 @@
     "qobuz_remaining_metadata.json.gz": "393b2d12e176160ab311b65267b38bdc8c205222e12f792bf07eba5c1fcfafbf",
     "qobuz_remaining_search.json.gz": "ec5e39bf4c226fc7bf33bc21065d1213df11fb6e87731747a3cabadb8ae7eb96",
     "qobuz_remaining_followup_metadata.json.gz": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
+    "qobuz_metadata_followup_2026_11_15.json.gz": "139f9b336c68b56ea22c18362cb0481c026366c5d359142f2bb702fe1233a4fc",
     "collection_matches.json": "a214eee877d4749fa957b3d2a293c2925d7ba0621259f2742139a6cd86f928c8",
     "qobuz_matches.json": "361a7df57089808c52a28d8bd9bb6f6997c646d66840faa3b7bdeb256e9d76ea",
     "qobuz_work_inventory.json": "47b8e955b99c37b132e66daea61590490d249f94a520740d702bec5caa5019ce",
@@ -26,11 +27,12 @@
     "qobuz_source_programme_reviews.json": "5469466141e2816720bf35e6b54abeb18daf3f12bf6fec1b4f9e794da0db098b"
   },
   "summary": {
-    "work_or_credit_unresolved": 417,
-    "metadata_needed": 170,
+    "work_or_credit_unresolved": 425,
+    "metadata_needed": 160,
+    "recording_review_needed": 1,
     "reviewed_withheld": 7,
+    "completeness_review_needed": 6,
     "no_saved_hits": 6,
-    "completeness_review_needed": 5,
     "source_programme_review_needed": 1
   },
   "unmatched_unique_releases": 606,
@@ -4527,10 +4529,32 @@
     {
       "discogs_id": "1662708",
       "title": "Concerto N° 1",
-      "category": "metadata_needed",
+      "category": "recording_review_needed",
       "saved_hits": 5,
-      "uncached_hits": 5,
-      "cached_candidates": []
+      "uncached_hits": 4,
+      "cached_candidates": [
+        {
+          "album_id": "5099960276551",
+          "title": "Tschaikovsky: Piano Concerto No. 1",
+          "coverage": 1.0,
+          "status": "probable",
+          "completeness": "complete",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Concerto N°1 En Si Bémol Mineur Pour Piano Et Orchestre, Op. 23 ",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                43457314,
+                43457315,
+                43457316
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "discogs_id": "1665223",
@@ -13917,10 +13941,34 @@
     {
       "discogs_id": "2236260",
       "title": "Concerto N° 1 / Concerto N° 2",
-      "category": "metadata_needed",
+      "category": "work_or_credit_unresolved",
       "saved_hits": 10,
-      "uncached_hits": 10,
-      "cached_candidates": []
+      "uncached_hits": 9,
+      "cached_candidates": [
+        {
+          "album_id": "fvtmapqjxeh6b",
+          "title": "Tchaïkovsky Concerto No. 1, Rachmaninov Concerto No. 2",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Concerto N° 1 En Si Bémol Mineur (Pour Piano Et Orchestre)",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Concerto N° 2 En Ut Mineur (Pour Piano Et Orchestre)",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ]
+        }
+      ]
     },
     {
       "discogs_id": "2268139",
@@ -16150,7 +16198,7 @@
       "title": "Concertos N° 21 Et 27 Pour Piano Et Orchestre",
       "category": "work_or_credit_unresolved",
       "saved_hits": 9,
-      "uncached_hits": 8,
+      "uncached_hits": 7,
       "cached_candidates": [
         {
           "album_id": "5099990581953",
@@ -16172,6 +16220,29 @@
             {
               "target": "Concerto N° 27 En Si Bemol Majeur, K.595",
               "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ]
+        },
+        {
+          "album_id": "5099963179651",
+          "title": "Mozart : Concertos pour piano n° 20, 21, 23 & 27",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Concerto N° 21 En Ut Majeur, K.467",
+              "work_tracks": 3,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Concerto N° 27 En Si Bemol Majeur, K.595",
+              "work_tracks": 3,
               "credited_tracks": 0,
               "track_ids": []
             }
@@ -17050,10 +17121,91 @@
     {
       "discogs_id": "2857544",
       "title": "Werke Für Laute = Works for Lute = Œuvres Pour Luth (Gesamtaufnahme = Complete Recordings = Intégrale)",
-      "category": "metadata_needed",
+      "category": "work_or_credit_unresolved",
       "saved_hits": 5,
-      "uncached_hits": 5,
-      "cached_candidates": []
+      "uncached_hits": 4,
+      "cached_candidates": [
+        {
+          "album_id": "0002894457132",
+          "title": "J.S. Bach: Works for Lute",
+          "coverage": 0.8571428571428571,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Suite G-moll BWV 995",
+              "work_tracks": 6,
+              "credited_tracks": 6,
+              "track_ids": [
+                540597,
+                540599,
+                540601,
+                540603,
+                540605,
+                540607
+              ]
+            },
+            {
+              "target": "Suite E-moll BWV 996",
+              "work_tracks": 6,
+              "credited_tracks": 6,
+              "track_ids": [
+                540604,
+                540606,
+                540608,
+                540610,
+                540612,
+                540614
+              ]
+            },
+            {
+              "target": "Praeludium, Fuge Und Allegro Es-Dur BWV 998",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                540598,
+                540600,
+                540602
+              ]
+            },
+            {
+              "target": "Suite C-moll BWV 997",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                540618,
+                540620,
+                540622,
+                540623
+              ]
+            },
+            {
+              "target": "Praeludium C-moll BWV 999",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                540616
+              ]
+            },
+            {
+              "target": "Fuge G-moll BWV 1000",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                540621
+              ]
+            },
+            {
+              "target": "Suite E-Dur BWV 1006 a",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ]
+        }
+      ]
     },
     {
       "discogs_id": "2861399",
@@ -27480,10 +27632,34 @@
     {
       "discogs_id": "3956949",
       "title": "Symphonie No.4 \"Italienische\" = \"Italian\" / Symphonie No.5 \"Reformation\"",
-      "category": "metadata_needed",
+      "category": "work_or_credit_unresolved",
       "saved_hits": 8,
-      "uncached_hits": 8,
-      "cached_candidates": []
+      "uncached_hits": 7,
+      "cached_candidates": [
+        {
+          "album_id": "cxg5qouu14c6b",
+          "title": "Mendelssohn: Symphonies No.4 \"Italian\" & No.5 \"Reformation\"",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Symphonie Nr. 4 A-dur Op. 90 »Italienische«",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Symphonie No. 5 D-dur Op. 107 »Reformations-Symphonie«",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ]
+        }
+      ]
     },
     {
       "discogs_id": "3972653",
@@ -30019,10 +30195,28 @@
     {
       "discogs_id": "4101347",
       "title": "Klavierquintett Op. 34 ·  Piano Quintet",
-      "category": "metadata_needed",
+      "category": "work_or_credit_unresolved",
       "saved_hits": 5,
-      "uncached_hits": 5,
-      "cached_candidates": []
+      "uncached_hits": 4,
+      "cached_candidates": [
+        {
+          "album_id": "0002894796917",
+          "title": "Brahms: Piano Quintet Op.34",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Klavierquintett F-Moll Op. 34 = Piano Quintet In F Minor, Op. 34",
+              "work_tracks": 4,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ]
+        }
+      ]
     },
     {
       "discogs_id": "4149781",
@@ -47774,10 +47968,48 @@
     {
       "discogs_id": "5838140",
       "title": "Suites For Unaccompanied Violoncello: No. 1 In G Major / No. 2 In D Minor",
-      "category": "metadata_needed",
+      "category": "completeness_review_needed",
       "saved_hits": 9,
-      "uncached_hits": 9,
-      "cached_candidates": []
+      "uncached_hits": 8,
+      "cached_candidates": [
+        {
+          "album_id": "ekesky8cfu5wb",
+          "title": "BACH: CELLO SUITES",
+          "coverage": 1.0,
+          "status": "probable",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Suite N° 1 In G Major, BWV.1007 For 'Cello Unaccompanied",
+              "work_tracks": 6,
+              "credited_tracks": 6,
+              "track_ids": [
+                175894794,
+                175894795,
+                175894796,
+                175894797,
+                175894798,
+                175894799
+              ]
+            },
+            {
+              "target": "Suite N° 2 In D Minor, BWV.1008 For 'Cello Unaccompanied",
+              "work_tracks": 6,
+              "credited_tracks": 6,
+              "track_ids": [
+                175894800,
+                175894801,
+                175894802,
+                175894803,
+                175894804,
+                175894805
+              ]
+            }
+          ]
+        }
+      ]
     },
     {
       "discogs_id": "5883743",
@@ -65657,10 +65889,34 @@
     {
       "discogs_id": "6628473",
       "title": "Suites For 'Cello Unaccompanied: No. 3 In C Major / No. 4 In E Flat Major",
-      "category": "metadata_needed",
+      "category": "work_or_credit_unresolved",
       "saved_hits": 7,
-      "uncached_hits": 7,
-      "cached_candidates": []
+      "uncached_hits": 6,
+      "cached_candidates": [
+        {
+          "album_id": "ekesky8cfu5wb",
+          "title": "BACH: CELLO SUITES",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Suite No. 3 In C Major, BWV.1008 For 'Cello Unaccompanied",
+              "work_tracks": 6,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Suite No. 4 In E Flat Major, BWV.1010 For 'Cello Unaccompanied",
+              "work_tracks": 6,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ]
+        }
+      ]
     },
     {
       "discogs_id": "6651774",
@@ -70459,7 +70715,7 @@
       "title": "Symphonie N°40 En Sol Mineur, K. 550 / Concerto N°21 En Ut Majeur, K. 467",
       "category": "work_or_credit_unresolved",
       "saved_hits": 9,
-      "uncached_hits": 8,
+      "uncached_hits": 7,
       "cached_candidates": [
         {
           "album_id": "5099990581953",
@@ -70483,6 +70739,29 @@
               "track_ids": [
                 2359472
               ]
+            }
+          ]
+        },
+        {
+          "album_id": "5099963179651",
+          "title": "Mozart : Concertos pour piano n° 20, 21, 23 & 27",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Symphonie N°40 En Sol Mineur, K. 550",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Concerto N°21 En Ut Majeur, K. 467 Pour Piano Et Orchestre ",
+              "work_tracks": 3,
+              "credited_tracks": 0,
+              "track_ids": []
             }
           ]
         }
@@ -78454,10 +78733,34 @@
     {
       "discogs_id": "8274997",
       "title": "Concertos Pour Piano : N° 20 En Ré Mineur K. 466 / N° 23 En La Mineur K. 488",
-      "category": "metadata_needed",
+      "category": "work_or_credit_unresolved",
       "saved_hits": 10,
-      "uncached_hits": 10,
-      "cached_candidates": []
+      "uncached_hits": 9,
+      "cached_candidates": [
+        {
+          "album_id": "5099963179651",
+          "title": "Mozart : Concertos pour piano n° 20, 21, 23 & 27",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Concerto N° 20 En Ré Mineur, K.466",
+              "work_tracks": 3,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Concerto N° 23 En La Majeur, K.488",
+              "work_tracks": 3,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ]
+        }
+      ]
     },
     {
       "discogs_id": "8324181",
@@ -113383,10 +113686,58 @@
     {
       "discogs_id": "15660391",
       "title": "Zijn Mooiste Pianoconcerten",
-      "category": "metadata_needed",
+      "category": "work_or_credit_unresolved",
       "saved_hits": 10,
-      "uncached_hits": 10,
-      "cached_candidates": []
+      "uncached_hits": 9,
+      "cached_candidates": [
+        {
+          "album_id": "5099963179651",
+          "title": "Mozart : Concertos pour piano n° 20, 21, 23 & 27",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Pianoconcert Nr 20 In D, Kv 466",
+              "work_tracks": 3,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Pianoconcert Nr 21 In C, Kv 467",
+              "work_tracks": 3,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Pianoconcert Nr 23 In A, Kv 488",
+              "work_tracks": 3,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Pianoconcert Nr 24 In C, Kv 491",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Pianoconcert Nr 26 In D, Kv 537 'Krönungs-Konzert'",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Pianoconcert Nr 27 In Bes, Kv 595",
+              "work_tracks": 3,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ]
+        }
+      ]
     },
     {
       "discogs_id": "15693042",
@@ -118147,10 +118498,94 @@
     {
       "discogs_id": "23950082",
       "title": "Suites For Cello Unaccompanied No.5 In C Minor And No.6 In D Major - Great Recordings Of The Century",
-      "category": "metadata_needed",
+      "category": "work_or_credit_unresolved",
       "saved_hits": 5,
-      "uncached_hits": 5,
-      "cached_candidates": []
+      "uncached_hits": 4,
+      "cached_candidates": [
+        {
+          "album_id": "ekesky8cfu5wb",
+          "title": "BACH: CELLO SUITES",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Suite No.5. 1st Movement: Prélude",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "2nd Movement: Allemande",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "3rd Movement: Courante",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "4th Movement: Sarabande",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "5th Movement: Gavotte",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "6th Movement: Gigue",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Suite No.6. 1st Movement: Prélude ",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "2nd Movement: Allemande",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "3rd Movement: Courante",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "4th Movement: Sarabande",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "5th Movement: Gavotte",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "6th Movement: Gigue",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ]
+        }
+      ]
     },
     {
       "discogs_id": "24278222",

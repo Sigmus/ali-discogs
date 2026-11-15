@@ -1632,3 +1632,15 @@ Prepared immutable seven-album metadata scope for8release leads (97reported
 tracks) and resumable fail-closed worker; no network by default. Two offline worker
 tests pass. Approval requested before new provider retrieval; no fetch started.
 No push/deployment. All160script tests pass; warning/STOP messages in the suite are fixtures.
+
+
+### 2026-11-15 — Approved seven-album metadata batch complete
+
+Fetched7albums/97tracks09:40–09:42Amsterdam with9HTTP attempts, slow spacing,
+no warnings. Verified all IDs/full counts/unique tracks; exported portable data,
+2504response archive with2497prior members byte-preserved,1164canonical URLs.
+Worker and sleep assertion ended normally.160script tests pass.
+Offline screen/inventory updated; Weissenberg1662708 now ready for recording
+review, other selected relationships retain explicit gaps.606unchecked unique:
+425work/credit,160metadata,1recording review,7withheld,6completeness,6empty,
+1source hold. Match labels unchanged; no push/deployment or new scope expansion.

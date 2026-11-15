@@ -15,12 +15,13 @@ follow-up complete216tracks:7Probables/4withheld release leads after further
 reviews. Rubinstein 7971104 source review found a missing Albéniz work: a
 hash-bound incomplete-programme hold now keeps it Unchecked. Reconciliation is
 proposed, not applied. Gilels’s reviewed composer guard remains active.
-Next: user approval for the [seven-album metadata batch](../plans/2026-11-15-qobuz-metadata-followup.md)
-(8 release leads, 97 reported tracks); immutable scope and offline-tested worker
-ready, no new requests started. After approval, validate/export and audit offline.
+The user-approved [seven-album batch](../plans/2026-11-15-qobuz-metadata-followup.md)
+is complete:7albums/97tracks, validated/exported without warnings. Next: offline
+recording review of Weissenberg1662708, then programme/credit/source gaps among
+other leads. No automatic promotions; labels unchanged.160script tests pass.
 Source-attribution discovery remains separate from reviewed scopes; Nabucco/Mozart
 credit/catalogue gaps remain unresolved.
-170remaining metadata-needed releases are not a fetch mandate. Follow the
+160remaining metadata-needed releases are not a fetch mandate. Follow the
 [retrieval and follow-up plan](../plans/2026-11-14-qobuz-remaining-retrieval.md).
 
 Order: finish/validate/export 83 metadata albums and 603 searches across the

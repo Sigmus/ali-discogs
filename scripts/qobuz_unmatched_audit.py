@@ -10,7 +10,7 @@ from qobuz_completeness import check_programme
 def audit():
     snapshot=load_snapshot();albums=dict(snapshot['albums'])
     hits={rid:{str(a['id']) for a in x['search']['albums']['items']} for rid,x in snapshot['searches'].items()}
-    sources=['qobuz_evidence.json.gz','qobuz_comparison_evidence.json.gz','qobuz_round2_metadata.json.gz','qobuz_query_trial_metadata.json.gz','qobuz_round2_searches.json.gz','qobuz_query_trial_searches.json.gz','qobuz_query_validation.json.gz','qobuz_unmatched_metadata.json.gz','qobuz_metadata_needed.json.gz','qobuz_empty_searches.json.gz','qobuz_empty_search_metadata.json.gz','qobuz_empty_search_follow_metadata.json.gz','qobuz_remaining_metadata.json.gz','qobuz_remaining_search.json.gz','qobuz_remaining_followup_metadata.json.gz']
+    sources=['qobuz_evidence.json.gz','qobuz_comparison_evidence.json.gz','qobuz_round2_metadata.json.gz','qobuz_query_trial_metadata.json.gz','qobuz_round2_searches.json.gz','qobuz_query_trial_searches.json.gz','qobuz_query_validation.json.gz','qobuz_unmatched_metadata.json.gz','qobuz_metadata_needed.json.gz','qobuz_empty_searches.json.gz','qobuz_empty_search_metadata.json.gz','qobuz_empty_search_follow_metadata.json.gz','qobuz_remaining_metadata.json.gz','qobuz_remaining_search.json.gz','qobuz_remaining_followup_metadata.json.gz','qobuz_metadata_followup_2026_11_15.json.gz']
     for name in sources[1:]:
         data=json.loads(gzip.decompress((ROOT/'data'/name).read_bytes()))
         for x in data.get('metadata',[]):
