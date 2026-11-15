@@ -4147,6 +4147,134 @@
         "Label difference alone is not proof of different audio; dated1970LPs have an additional chronological exclusion.",
         "No programme-completeness or title/parser improvement can supply recording identity."
       ]
+    },
+    {
+      "discogs_id": "7064777",
+      "album_id": "0002894777581",
+      "decision": "probable",
+      "target_sha256": "01d0bcd161cbe544df5444fcb958495f54f5ecd90a9cde9f3a56ba6d7f930a74",
+      "album_sha256": "46b3801d204096a02cbe9ae49ca64af875bf02eb61ac89faa65bf8cfd441f91e",
+      "source_sha256": "35961dfc82012d64b6374d02c529ab2b8c77c6648a8e0863218133321db5b43f",
+      "recording_review": "Source DG2720 068-32and saved DGset contain all five Mendelssohn symphonies by Karajan/Berlin. Official Karajan Institute describes this studio family, including the single studio Lobgesang and Reformation recordings. All28source bands are represented by distinct, ordered tracks with positive Karajan/Berlin credits. Lobgesang Sinfonia parts are explicitly hash-bound, not guessed from repeated ordinals. Probable recording-family correspondence only.",
+      "sources": [
+        "https://karajan.org/stories/spotlight-mendelssohn/",
+        "https://www.discogs.com/release/7064777"
+      ],
+      "limitations": [
+        "Source tracklist calls Symphony5A-minor; digital title saysD-minor. Same number/Op107/Reformation and four source bands; discrepancy retained without source rewrite or global key alias.",
+        "Digital track order differs from source order; programme mapped per work, not by whole-album order.",
+        "Source1981year and digital1990release metadata are not session/take dates.",
+        "Exact LP pressing, takes and mastering remain unverified."
+      ],
+      "works": [
+        {
+          "target": "Symphonie Nr. 1 C-moll Op.11",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "scope": "whole-work-source-band-map",
+          "source": "https://www.discogs.com/release/7064777",
+          "reason": "Every source band maps to an ordered distinct credited digital section. Lobgesang Sinfonia is one numbered section split into three source/file bands, not three separate symphonies."
+        },
+        {
+          "target": "Symphonie Nr. 2 B-dur Op. 52 Lobgesang",
+          "movements": [
+            1,
+            1,
+            1,
+            2,
+            3,
+            4,
+            5,
+            6,
+            7,
+            8,
+            9,
+            10
+          ],
+          "scope": "whole-work-source-band-map",
+          "source": "https://www.discogs.com/release/7064777",
+          "reason": "Every source band maps to an ordered distinct credited digital section. Lobgesang Sinfonia is one numbered section split into three source/file bands, not three separate symphonies.",
+          "reviewed_sections": {
+            "614337": {
+              "track_sha256": "2105427c690b5318acf9f477bd1301988ccba248406503d5b01822e07da67daf",
+              "movements": [
+                1
+              ],
+              "reason": "Exact Sinfonia parta bound to source bandB1."
+            },
+            "614340": {
+              "track_sha256": "d6f60c35c41601ba6c36ff75cfcf235c8e1213fbb271f1602916305ba1ac2449",
+              "movements": [
+                1
+              ],
+              "reason": "Exact Sinfonia partb bound to source bandB2."
+            },
+            "614343": {
+              "track_sha256": "d03361fec8ae653b073a811d8b9cadce9d26a2d4f136c16ab02fd24885a451be",
+              "movements": [
+                1
+              ],
+              "reason": "Exact Sinfonia partc bound to source bandB3."
+            }
+          }
+        },
+        {
+          "target": "Symphonie Nr. 3 A-moll Op.56 Schottische",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "scope": "whole-work-source-band-map",
+          "source": "https://www.discogs.com/release/7064777",
+          "reason": "Every source band maps to an ordered distinct credited digital section. Lobgesang Sinfonia is one numbered section split into three source/file bands, not three separate symphonies."
+        },
+        {
+          "target": "Symphonie Nr. 4 A-dur Op.90 Italienische",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "scope": "whole-work-source-band-map",
+          "source": "https://www.discogs.com/release/7064777",
+          "reason": "Every source band maps to an ordered distinct credited digital section. Lobgesang Sinfonia is one numbered section split into three source/file bands, not three separate symphonies."
+        },
+        {
+          "target": "Symphonie Nr. 5 A-moll Op.107 Reformations-Symphonie",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "scope": "whole-work-source-band-map",
+          "source": "https://www.discogs.com/release/7064777",
+          "reason": "Every source band maps to an ordered distinct credited digital section. Lobgesang Sinfonia is one numbered section split into three source/file bands, not three separate symphonies."
+        }
+      ]
+    },
+    {
+      "discogs_id": "5838140",
+      "album_id": "ekesky8cfu5wb",
+      "decision": "withhold",
+      "target_sha256": "be47a1fb7533552898c08af8bafbef9a2f892236170aff64b965b223eedae7c7",
+      "album_sha256": "fe486ab400200d778dfed49d3cfc0669f476237c8c7cf1098c88b97edc65f5a9",
+      "source_sha256": "8279e6d07128518ffe24bdc1daff0c172807fc61319ab9f663e12b0fdd51201b",
+      "recording_review": "Programme/performer support for Casals Suites1and2 does not establish this LP transfer. Saved Nar Classical2022album has no session/take/version metadata binding its audio to the source edition. Keep Unchecked, consistent with the other two Casals LPs against this candidate.",
+      "sources": [
+        "https://www.discogs.com/release/5838140"
+      ],
+      "limitations": [
+        "Missing provenance is not evidence of different audio or catalogue absence.",
+        "No recording dates borrowed from source LP notes; no exact pressing/mastering claim."
+      ]
     }
   ]
 }

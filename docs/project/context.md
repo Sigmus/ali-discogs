@@ -11,7 +11,7 @@ and cache commands. This directory owns current planning.
 - Branch main; last known push7945944. Later work committed locally; no deployment
   verified. Inspect Git before claiming remote state.
 - Collection741copies/740unique. Saved labels: Spotify254Found/273Probable/
-  210NotFound/4Unchecked; Qobuz12Found/127Probable/602Unchecked copies.
+  210NotFound/4Unchecked; Qobuz12Found/128Probable/601Unchecked copies.
 - Qobuz publication `data/qobuz_matches.json` is separate from Spotify collection
   results. Labels/scores are saved data; Qobuz85/95 are heuristic levels, not
   probabilities. Legacy Spotify labels are not comparable accuracy measurements.
@@ -67,8 +67,10 @@ and cache commands. This directory owns current planning.
    musical credits/wrong programme;5Barenboim EMI LPs blocked against later DG cycle
    (2chronological rejections,3undated unresolved holds). No metadata shortcut.
    Recording-review precedence enforced;12evidence records changed, no label changes.
-   Next active review: Karajan7064777complete Mendelssohn set, including split
-   Lobgesang Sinfonia; preserve source key discrepancy and recording caveats.
+   Karajan7064777now Probable85: all28tracks/five symphonies, including split
+   Lobgesang Sinfonia. Source key discrepancy and recording caveats preserved.
+   Casals5838140also held for unresolved transfer identity. Next: audit cached
+   partial-programme leads9792325/4694861/11938919, without new requests.
    [Source-credit plan](../plans/2026-11-15-qobuz-source-credit-reviews.md).
 2. Keep Casals/Gieseking transfer identity unresolved until recording-specific
    evidence exists. Source correction alone does not authorize promotion.
@@ -80,7 +82,7 @@ and cache commands. This directory owns current planning.
 Prefer reliable matches to higher counts. No unbounded new-hit downloads, warning
 retries, pushes or deployment. Bitches Brew credit exception remains a proposal.
 Do not invent identity, overwrite source text or loosen credit gates for counts.
-Current pass:189script tests, UI normalization/build pass.601unchecked unique:
-412work/credit,160metadata,17withheld,3recording rejections,2completeness,6empty,
-1source hold. No Qobuz calls/push; accepted counts unchanged.
+Current pass:192script tests, UI normalization/build pass.600unchecked unique:
+412work/credit,160metadata,18withheld,3recording rejections,6empty,1source hold.
+No Qobuz calls/push; only Karajan7064777accepted status changed.
 [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).

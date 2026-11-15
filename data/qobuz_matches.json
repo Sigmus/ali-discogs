@@ -32,7 +32,7 @@
   "richter_review_fingerprint": "a14865f86e46150593e39bfa285fa6c7c61c8f46147b8094c0cb048fd02118ab",
   "round2_review_fingerprint": "be60742c3d35f5a9aa67f200642f7fcde98a52562a46130e043db8f4aa7c851e",
   "round2_metadata_fingerprint": "9db62d7bf62d4b77f5acf422dfde77959f845f4dc00b2ac0e10c02ccea295860",
-  "remaining_review_fingerprint": "af29159ad5c8483d14a81a24232304f41c8ffda1b518e8fbee8f7fd1a17158e8",
+  "remaining_review_fingerprint": "8b52b4ce5446b32a02ecd923805e4e9b9a5b502f5926ea604bd4e02b3c2f6171",
   "remaining_metadata_fingerprint": "393b2d12e176160ab311b65267b38bdc8c205222e12f792bf07eba5c1fcfafbf",
   "remaining_followup_metadata_fingerprint": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
   "seven_album_metadata_fingerprint": "139f9b336c68b56ea22c18362cb0481c026366c5d359142f2bb702fe1233a4fc",
@@ -60748,9 +60748,19 @@
       ]
     },
     "7064777": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0002894777581",
+        "name": "Mendelssohn: 5 Symphonies",
+        "artists": [
+          "Edith Mathis"
+        ],
+        "label": "Deutsche Grammophon (DG)",
+        "release_date": "1990-07-03",
+        "image": "https://static.qobuz.com/images/covers/81/75/0002894777581_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/mendelssohn-5-symphonies-edith-mathis-liselotte-rebmann-werner-hollweg-berliner-philharmoniker-herbert-von-karajan/0002894777581"
+      },
       "candidates": [
         {
           "id": "0002894777581",
@@ -60762,8 +60772,8 @@
           "release_date": "1990-07-03",
           "image": "https://static.qobuz.com/images/covers/81/75/0002894777581_230.jpg",
           "url": "https://www.qobuz.com/fr-fr/album/mendelssohn-5-symphonies-edith-mathis-liselotte-rebmann-werner-hollweg-berliner-philharmoniker-herbert-von-karajan/0002894777581",
-          "status": "unchecked",
-          "confidence": null,
+          "status": "probable",
+          "confidence": 0.85,
           "coverage": 1.0,
           "covered": 5,
           "target_count": 5,
@@ -60839,40 +60849,175 @@
           "reasons": [
             "Each target item has explicit work and performer-role credits; recording identity requires review.",
             "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups.",
-            "New work-group candidate withheld pending programme-completeness review."
+            "Source DG2720 068-32and saved DGset contain all five Mendelssohn symphonies by Karajan/Berlin. Official Karajan Institute describes this studio family, including the single studio Lobgesang and Reformation recordings. All28source bands are represented by distinct, ordered tracks with positive Karajan/Berlin credits. Lobgesang Sinfonia parts are explicitly hash-bound, not guessed from repeated ordinals. Probable recording-family correspondence only.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Source tracklist calls Symphony5A-minor; digital title saysD-minor. Same number/Op107/Reformation and four source bands; discrepancy retained without source rewrite or global key alias.",
+            "Digital track order differs from source order; programme mapped per work, not by whole-album order.",
+            "Source1981year and digital1990release metadata are not session/take dates.",
+            "Exact LP pressing, takes and mastering remain unverified."
           ],
           "work_group_policy": "qobuz-work-groups-v1",
-          "promotion_review": {
-            "status": "unknown",
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
             "works": [
               {
                 "target": "Symphonie Nr. 1 C-moll Op.11",
-                "status": "unknown",
-                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "track_ids": [
+                  614336,
+                  614339,
+                  614342,
+                  614345
+                ],
+                "scope": "whole-work-source-band-map",
+                "source": "https://www.discogs.com/release/7064777",
+                "reason": "Every source band maps to an ordered distinct credited digital section. Lobgesang Sinfonia is one numbered section split into three source/file bands, not three separate symphonies."
               },
               {
                 "target": "Symphonie Nr. 2 B-dur Op. 52 Lobgesang",
-                "status": "unknown",
-                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  1,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10
+                ],
+                "observed_movements": [
+                  1,
+                  1,
+                  1,
+                  2,
+                  3,
+                  4,
+                  5,
+                  6,
+                  7,
+                  8,
+                  9,
+                  10
+                ],
+                "track_ids": [
+                  614337,
+                  614340,
+                  614343,
+                  614346,
+                  614349,
+                  614352,
+                  614355,
+                  614358,
+                  614360,
+                  614361,
+                  614362,
+                  614363
+                ],
+                "scope": "whole-work-source-band-map",
+                "source": "https://www.discogs.com/release/7064777",
+                "reason": "Every source band maps to an ordered distinct credited digital section. Lobgesang Sinfonia is one numbered section split into three source/file bands, not three separate symphonies."
               },
               {
                 "target": "Symphonie Nr. 3 A-moll Op.56 Schottische",
-                "status": "unknown",
-                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "track_ids": [
+                  614338,
+                  614341,
+                  614344,
+                  614347
+                ],
+                "scope": "whole-work-source-band-map",
+                "source": "https://www.discogs.com/release/7064777",
+                "reason": "Every source band maps to an ordered distinct credited digital section. Lobgesang Sinfonia is one numbered section split into three source/file bands, not three separate symphonies."
               },
               {
                 "target": "Symphonie Nr. 4 A-dur Op.90 Italienische",
-                "status": "unknown",
-                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "track_ids": [
+                  614350,
+                  614353,
+                  614356,
+                  614359
+                ],
+                "scope": "whole-work-source-band-map",
+                "source": "https://www.discogs.com/release/7064777",
+                "reason": "Every source band maps to an ordered distinct credited digital section. Lobgesang Sinfonia is one numbered section split into three source/file bands, not three separate symphonies."
               },
               {
                 "target": "Symphonie Nr. 5 A-moll Op.107 Reformations-Symphonie",
-                "status": "unknown",
-                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "track_ids": [
+                  614348,
+                  614351,
+                  614354,
+                  614357
+                ],
+                "scope": "whole-work-source-band-map",
+                "source": "https://www.discogs.com/release/7064777",
+                "reason": "Every source band maps to an ordered distinct credited digital section. Lobgesang Sinfonia is one numbered section split into three source/file bands, not three separate symphonies."
               }
             ],
             "overlapping_target_tracks": false
-          }
+          },
+          "recording_review": "Source DG2720 068-32and saved DGset contain all five Mendelssohn symphonies by Karajan/Berlin. Official Karajan Institute describes this studio family, including the single studio Lobgesang and Reformation recordings. All28source bands are represented by distinct, ordered tracks with positive Karajan/Berlin credits. Lobgesang Sinfonia parts are explicitly hash-bound, not guessed from repeated ordinals. Probable recording-family correspondence only.",
+          "review_sources": [
+            "https://karajan.org/stories/spotlight-mendelssohn/",
+            "https://www.discogs.com/release/7064777"
+          ]
         },
         {
           "id": "woe4blzhjp2ca",
@@ -60960,7 +61105,12 @@
       "reasons": [
         "Each target item has explicit work and performer-role credits; recording identity requires review.",
         "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups.",
-        "New work-group candidate withheld pending programme-completeness review."
+        "Source DG2720 068-32and saved DGset contain all five Mendelssohn symphonies by Karajan/Berlin. Official Karajan Institute describes this studio family, including the single studio Lobgesang and Reformation recordings. All28source bands are represented by distinct, ordered tracks with positive Karajan/Berlin credits. Lobgesang Sinfonia parts are explicitly hash-bound, not guessed from repeated ordinals. Probable recording-family correspondence only.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Source tracklist calls Symphony5A-minor; digital title saysD-minor. Same number/Op107/Reformation and four source bands; discrepancy retained without source rewrite or global key alias.",
+        "Digital track order differs from source order; programme mapped per work, not by whole-album order.",
+        "Source1981year and digital1990release metadata are not session/take dates.",
+        "Exact LP pressing, takes and mastering remain unverified."
       ]
     },
     "7228304": {

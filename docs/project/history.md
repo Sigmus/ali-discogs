@@ -1797,3 +1797,17 @@ UI normalization/build pass.12evidence records changed, no accepted statuses.
 Inventory601unchecked unique:412work/credit,160metadata,17withheld,3recording
 rejections,2completeness,6empty,1source hold. No provider calls/push/deployment.
 Continued to Karajan7064777split Lobgesang completeness/family review.
+
+### 2026-11-15 — Karajan complete programme accepted; Casals transfer held
+
+Karajan7064777/0002894777581 now Probable85:28distinct tracks cover all five
+Mendelssohn symphonies with positive Karajan/Berlin credits. Hash-bound section
+proof checks the three separately indexed Lobgesang Sinfonia bands. Karajan
+Institute corroborates the studio recording family; exact pressing/takes/mastering
+remain unverified. Source Symphony5key discrepancy preserved. Casals5838140
+remains Unchecked: complete programme does not establish Nar transfer identity.
+
+192script tests, UI normalization and build pass. Only Karajan accepted status
+changed. Qobuz12Found/128Probable/601Unchecked copies;600unchecked unique:
+412work/credit,160metadata,18withheld,3recording rejections,6empty,1source hold.
+No provider calls, push or deployment. Continue cached partial-programme audits.

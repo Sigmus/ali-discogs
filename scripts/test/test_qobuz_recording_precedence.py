@@ -35,3 +35,9 @@ class RecordingPrecedenceTests(unittest.TestCase):
     def test_rejected_recording_still_requires_current_source_proof(self):
         rid='7864758';r=copy.deepcopy(self.reviews[rid]);r['source_sha256']='stale'
         with self.assertRaises(ValueError):apply_recording_review(self.rows[rid],self.albums[r['album_id']],r,[])
+    def test_casals_programme_support_cannot_override_transfer_provenance_hold(self):
+        rid='5838140'
+        review=next(r for r in json.loads((ROOT/'data/qobuz_remaining_recording_reviews.json').read_text())['releases'] if r['discogs_id']==rid)
+        album=next(r['album'] for r in json.loads(gzip.decompress((ROOT/'data/qobuz_metadata_followup_2026_11_15.json.gz').read_bytes()))['metadata'] if r['album']['id']==review['album_id'])
+        result=apply_recording_review(self.rows[rid],album,review,[{'id':album['id'],'status':'found','confidence':.99,'coverage':1}])
+        self.assertEqual((result[0]['status'],result[0]['confidence']),('unchecked',None))

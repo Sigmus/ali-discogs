@@ -1,0 +1,323 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-15",
+  "discogs_id": "7064777",
+  "album_id": "0002894777581",
+  "source_sha256": "35961dfc82012d64b6374d02c529ab2b8c77c6648a8e0863218133321db5b43f",
+  "album_sha256": "46b3801d204096a02cbe9ae49ca64af875bf02eb61ac89faa65bf8cfd441f91e",
+  "mapping": [
+    {
+      "source_target": "Symphonie Nr. 1 C-moll Op.11",
+      "source_children": [
+        {
+          "position": "A1",
+          "type_": "track",
+          "title": "Allegro Molto",
+          "duration": ""
+        },
+        {
+          "position": "A2",
+          "type_": "track",
+          "title": "Andante",
+          "duration": ""
+        },
+        {
+          "position": "A3",
+          "type_": "track",
+          "title": "Menuetto: Allegro Molto",
+          "duration": ""
+        },
+        {
+          "position": "A4",
+          "type_": "track",
+          "title": "Allegro Con Fuoco",
+          "duration": ""
+        }
+      ],
+      "candidate_track_ids": [
+        614336,
+        614339,
+        614342,
+        614345
+      ],
+      "candidate_titles": [
+        "Mendelssohn: Symphony No. 1 in C Minor, Op. 11: I. Allegro di molto",
+        "Mendelssohn: Symphony No. 1 in C Minor, Op. 11: II. Andante",
+        "Mendelssohn: Symphony No. 1 in C Minor, Op. 11: III. Menuetto. Allegro molto",
+        "Mendelssohn: Symphony No. 1 in C Minor, Op. 11: IV. Allegro con fuoco"
+      ],
+      "observed_sections": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "source_target": "Symphonie Nr. 2 B-dur Op. 52 Lobgesang",
+      "source_children": [
+        {
+          "position": "B1",
+          "type_": "track",
+          "title": "Nr 1. Sinfonia: Maestoso Con Moto - Allegro, Attacca",
+          "duration": ""
+        },
+        {
+          "position": "B2",
+          "type_": "track",
+          "title": "Nr 1. Sinfonia: Allegretto Un Poco Agitato",
+          "duration": ""
+        },
+        {
+          "position": "B3",
+          "type_": "track",
+          "title": "Nr 1. Sinfonia: Adagio Religioso",
+          "duration": ""
+        },
+        {
+          "position": "C1",
+          "type_": "track",
+          "title": "Nr. 2: Allegro Moderato Maestoso - Animato",
+          "duration": ""
+        },
+        {
+          "position": "C2",
+          "type_": "track",
+          "title": "Nr. 3: Recitativ: Allegro Moderato",
+          "duration": ""
+        },
+        {
+          "position": "C3",
+          "type_": "track",
+          "title": "Nr. 4: A Tempo Moderato",
+          "duration": ""
+        },
+        {
+          "position": "C4",
+          "type_": "track",
+          "title": "Nr. 5: Andante",
+          "duration": ""
+        },
+        {
+          "position": "D1",
+          "type_": "track",
+          "title": "Nt. 6: Allegro Un Poco Agitato",
+          "duration": ""
+        },
+        {
+          "position": "D2",
+          "type_": "track",
+          "title": "Nr. 7: Allegro Maestoso E Molto Vivace",
+          "duration": ""
+        },
+        {
+          "position": "D3",
+          "type_": "track",
+          "title": "Nr. 8: Choral: Andante Con Moto - Un Poco Piu Animato",
+          "duration": ""
+        },
+        {
+          "position": "D4",
+          "type_": "track",
+          "title": "Nr. 9: Andante Sostenuto Assai",
+          "duration": ""
+        },
+        {
+          "position": "D5",
+          "type_": "track",
+          "title": "Nr. 10: Schluß: Allegro Non Troppo",
+          "duration": ""
+        }
+      ],
+      "candidate_track_ids": [
+        614337,
+        614340,
+        614343,
+        614346,
+        614349,
+        614352,
+        614355,
+        614358,
+        614360,
+        614361,
+        614362,
+        614363
+      ],
+      "candidate_titles": [
+        "Mendelssohn: Symphony No. 2 in B-Flat Major, Op. 52 \"Hymn of Praise\": I. Sinfonia: a. Maestoso con moto",
+        "Mendelssohn: Symphony No. 2 in B-Flat Major, Op. 52 \"Hymn of Praise\": I. Sinfonia: b. Allegretto un poco agitato",
+        "Mendelssohn: Symphony No. 2 in B-Flat Major, Op. 52 \"Hymn of Praise\": I. Sinfonia: c. Adagio religioso",
+        "Mendelssohn: Symphony No. 2 in B-Flat Major, Op. 52 \"Hymn of Praise\": II. Chorus. Alles was Odem hat lobe den Herrn – Solo. Lobe den Herrn, meine Seele",
+        "Mendelssohn: Symphony No. 2 in B-Flat Major, Op. 52 \"Hymn of Praise\": III. Recit. Saget es, die ihr erlöst seid... Aria. Er zählet unsre Tränen",
+        "Mendelssohn: Symphony No. 2 in B-Flat Major, Op. 52 \"Hymn of Praise\": IV. Chorus. Sagt es, die ihr erlöst seid",
+        "Mendelssohn: Symphony No. 2 in B-Flat Major, Op. 52 \"Hymn of Praise\": V. Duet & Chorus. Ich harrete des Herrn",
+        "Mendelssohn: Symphony No. 2 in B-Flat Major, Op. 52 \"Hymn of Praise\": VI. Solo. Stricke des Todes hatten uns umfangen",
+        "Mendelssohn: Symphony No. 2 in B-Flat Major, Op. 52 \"Hymn of Praise\": VII. Chorus. Die Nacht ist vergangen",
+        "Mendelssohn: Symphony No. 2 in B-Flat Major, Op. 52 \"Hymn of Praise\": VIII. Chorale. Nun danket alle Gott",
+        "Mendelssohn: Symphony No. 2 in B-Flat Major, Op. 52 \"Hymn of Praise\": IX. Duet. Drum sing ich mit meinem Liede",
+        "Mendelssohn: Symphony No. 2 in B-Flat Major, Op. 52 \"Hymn of Praise\": X. Chorus. Ihr Völker, bringet Her dem Herrn Ehre und Macht!"
+      ],
+      "observed_sections": [
+        1,
+        1,
+        1,
+        2,
+        3,
+        4,
+        5,
+        6,
+        7,
+        8,
+        9,
+        10
+      ]
+    },
+    {
+      "source_target": "Symphonie Nr. 3 A-moll Op.56 Schottische",
+      "source_children": [
+        {
+          "position": "E1",
+          "type_": "track",
+          "title": "Andante Con Moto - Allegro Un Poco Agitato - Attacca",
+          "duration": ""
+        },
+        {
+          "position": "E1",
+          "type_": "track",
+          "title": "Vivace Con Troppo",
+          "duration": ""
+        },
+        {
+          "position": "F2",
+          "type_": "track",
+          "title": "Adagio - Attacca",
+          "duration": ""
+        },
+        {
+          "position": "F2",
+          "type_": "track",
+          "title": "Allegro Vivacissimo - Allegro Maestoso Assai",
+          "duration": ""
+        }
+      ],
+      "candidate_track_ids": [
+        614338,
+        614341,
+        614344,
+        614347
+      ],
+      "candidate_titles": [
+        "Mendelssohn: Symphony No. 3 in A Minor, Op. 56 \"Scottish\": I. Andante con moto – Allegro un poco agitato",
+        "Mendelssohn: Symphony No. 3 in A Minor, Op. 56 \"Scottish\": II. Vivace non troppo",
+        "Mendelssohn: Symphony No. 3 in A Minor, Op. 56 \"Scottish\": III. Adagio",
+        "Mendelssohn: Symphony No. 3 in A Minor, Op. 56 \"Scottish\": IV. Allegro vivacissimo – Allegro maestoso assai"
+      ],
+      "observed_sections": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "source_target": "Symphonie Nr. 4 A-dur Op.90 Italienische",
+      "source_children": [
+        {
+          "position": "G1",
+          "type_": "track",
+          "title": "Allegro Vivace",
+          "duration": ""
+        },
+        {
+          "position": "G2",
+          "type_": "track",
+          "title": "Andante Con Moto",
+          "duration": ""
+        },
+        {
+          "position": "G3",
+          "type_": "track",
+          "title": "Con Moto Moderato",
+          "duration": ""
+        },
+        {
+          "position": "G4",
+          "type_": "track",
+          "title": "Saltarello. Presto",
+          "duration": ""
+        }
+      ],
+      "candidate_track_ids": [
+        614350,
+        614353,
+        614356,
+        614359
+      ],
+      "candidate_titles": [
+        "Mendelssohn: Symphony No. 4 in A Major, Op. 90 \"Italian\": I. Allegro vivace",
+        "Mendelssohn: Symphony No. 4 in A Major, Op. 90 \"Italian\": II. Andante con moto",
+        "Mendelssohn: Symphony No. 4 in A Major, Op. 90 \"Italian\": III. Con moto moderato",
+        "Mendelssohn: Symphony No. 4 in A Major, Op. 90 \"Italian\": IV. Saltarello. Presto"
+      ],
+      "observed_sections": [
+        1,
+        2,
+        3,
+        4
+      ]
+    },
+    {
+      "source_target": "Symphonie Nr. 5 A-moll Op.107 Reformations-Symphonie",
+      "source_children": [
+        {
+          "position": "H1",
+          "type_": "track",
+          "title": "Nr. 1: Andante - Allegro Con Fuoco",
+          "duration": ""
+        },
+        {
+          "position": "H2",
+          "type_": "track",
+          "title": "Nr. 2: Allegro Vivace",
+          "duration": ""
+        },
+        {
+          "position": "H3",
+          "type_": "track",
+          "title": "Nr. 3: Andante - Attacca",
+          "duration": ""
+        },
+        {
+          "position": "H4",
+          "type_": "track",
+          "title": "Nr. 4: Choral: „Ein Feste Burg Ist Unser Gott!“ Andante Con Moto - Allegro Vivace - Allegro Maestoso",
+          "duration": ""
+        }
+      ],
+      "candidate_track_ids": [
+        614348,
+        614351,
+        614354,
+        614357
+      ],
+      "candidate_titles": [
+        "Mendelssohn: Symphony No. 5 in D Minor, Op. 107 \"Reformation\": I. Andante – Allegro con fuoco",
+        "Mendelssohn: Symphony No. 5 in D Minor, Op. 107 \"Reformation\": II. Allegro vivace",
+        "Mendelssohn: Symphony No. 5 in D Minor, Op. 107 \"Reformation\": III. Andante",
+        "Mendelssohn: Symphony No. 5 in D Minor, Op. 107 \"Reformation\": IV. Andante con moto (Chorale \"Ein feste Burg\")"
+      ],
+      "observed_sections": [
+        1,
+        2,
+        3,
+        4
+      ]
+    }
+  ],
+  "limitations": [
+    "Source tracklist calls Symphony5A-minor; digital title saysD-minor. Same number/Op107/Reformation and four source bands; discrepancy retained without source rewrite or global key alias.",
+    "Digital track order differs from source order; programme mapped per work, not by whole-album order.",
+    "Source1981year and digital1990release metadata are not session/take dates.",
+    "Exact LP pressing, takes and mastering remain unverified."
+  ]
+}

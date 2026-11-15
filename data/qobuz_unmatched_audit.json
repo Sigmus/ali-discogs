@@ -21,9 +21,9 @@
     "qobuz_lead_reviews.json": "bc731b95eadb23cb1a13d735a4e7410615ae06f260b2c4a381ed4a29e229265e",
     "qobuz_binding_reviews.json": "eab7d007faef231024862226e943305bd4a4aab65143bd18c45b96b811286b77",
     "qobuz_opera_recording_reviews.json": "6e26d528eb7de78d372635218404a57534332ea1cd3d92e89e90e7a18066f85b",
-    "qobuz_remaining_recording_reviews.json": "af29159ad5c8483d14a81a24232304f41c8ffda1b518e8fbee8f7fd1a17158e8",
+    "qobuz_remaining_recording_reviews.json": "8b52b4ce5446b32a02ecd923805e4e9b9a5b502f5926ea604bd4e02b3c2f6171",
     "collection_matches.json": "a214eee877d4749fa957b3d2a293c2925d7ba0621259f2742139a6cd86f928c8",
-    "qobuz_matches.json": "029fae455781058bec34706f2cc09ae406aa6524cce085cbcdc49b17af61204b",
+    "qobuz_matches.json": "a71a2d942aa6fc9f8a7ea546f44807411502f8ac0478c3360041c71697bb77e9",
     "qobuz_work_inventory.json": "47b8e955b99c37b132e66daea61590490d249f94a520740d702bec5caa5019ce",
     "qobuz_source_composer_reviews.json": "1cce69d6df99a54b444f6a210d84c5c69b3139eb4ed1355e821708d1fb59b83c",
     "qobuz_source_programme_reviews.json": "5469466141e2816720bf35e6b54abeb18daf3f12bf6fec1b4f9e794da0db098b"
@@ -31,13 +31,12 @@
   "summary": {
     "work_or_credit_unresolved": 412,
     "metadata_needed": 160,
-    "reviewed_withheld": 17,
+    "reviewed_withheld": 18,
     "recording_review_rejected": 3,
-    "completeness_review_needed": 2,
     "no_saved_hits": 6,
     "source_programme_review_needed": 1
   },
-  "unmatched_unique_releases": 601,
+  "unmatched_unique_releases": 600,
   "entries": [
     {
       "discogs_id": "594243",
@@ -47876,7 +47875,7 @@
     {
       "discogs_id": "5838140",
       "title": "Suites For Unaccompanied Violoncello: No. 1 In G Major / No. 2 In D Minor",
-      "category": "completeness_review_needed",
+      "category": "reviewed_withheld",
       "saved_hits": 9,
       "uncached_hits": 8,
       "cached_candidates": [
@@ -47887,7 +47886,7 @@
           "status": "probable",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Suite N° 1 In G Major, BWV.1007 For 'Cello Unaccompanied",
@@ -69150,153 +69149,6 @@
       "saved_hits": 5,
       "uncached_hits": 5,
       "cached_candidates": []
-    },
-    {
-      "discogs_id": "7064777",
-      "title": "5 Symphonies",
-      "category": "completeness_review_needed",
-      "saved_hits": 2,
-      "uncached_hits": 0,
-      "cached_candidates": [
-        {
-          "album_id": "0002894777581",
-          "title": "Mendelssohn: 5 Symphonies",
-          "coverage": 1.0,
-          "status": "probable",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Symphonie Nr. 1 C-moll Op.11",
-              "work_tracks": 4,
-              "credited_tracks": 4,
-              "track_ids": [
-                614336,
-                614339,
-                614342,
-                614345
-              ]
-            },
-            {
-              "target": "Symphonie Nr. 2 B-dur Op. 52 Lobgesang",
-              "work_tracks": 12,
-              "credited_tracks": 12,
-              "track_ids": [
-                614337,
-                614340,
-                614343,
-                614346,
-                614349,
-                614352,
-                614355,
-                614358,
-                614360,
-                614361,
-                614362,
-                614363
-              ]
-            },
-            {
-              "target": "Symphonie Nr. 3 A-moll Op.56 Schottische",
-              "work_tracks": 4,
-              "credited_tracks": 4,
-              "track_ids": [
-                614338,
-                614341,
-                614344,
-                614347
-              ]
-            },
-            {
-              "target": "Symphonie Nr. 4 A-dur Op.90 Italienische",
-              "work_tracks": 4,
-              "credited_tracks": 4,
-              "track_ids": [
-                614350,
-                614353,
-                614356,
-                614359
-              ]
-            },
-            {
-              "target": "Symphonie Nr. 5 A-moll Op.107 Reformations-Symphonie",
-              "work_tracks": 4,
-              "credited_tracks": 4,
-              "track_ids": [
-                614348,
-                614351,
-                614354,
-                614357
-              ]
-            }
-          ]
-        },
-        {
-          "album_id": "woe4blzhjp2ca",
-          "title": "Mendelssohn: Violin Concerto & 5 Symphonies",
-          "coverage": 0.6,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Symphonie Nr. 1 C-moll Op.11",
-              "work_tracks": 4,
-              "credited_tracks": 4,
-              "track_ids": [
-                195362367,
-                195362368,
-                195362369,
-                195362370
-              ]
-            },
-            {
-              "target": "Symphonie Nr. 2 B-dur Op. 52 Lobgesang",
-              "work_tracks": 12,
-              "credited_tracks": 12,
-              "track_ids": [
-                195362371,
-                195362372,
-                195362373,
-                195362374,
-                195362375,
-                195362376,
-                195362377,
-                195362378,
-                195362379,
-                195362380,
-                195362381,
-                195362382
-              ]
-            },
-            {
-              "target": "Symphonie Nr. 3 A-moll Op.56 Schottische",
-              "work_tracks": 4,
-              "credited_tracks": 4,
-              "track_ids": [
-                195362383,
-                195362384,
-                195362385,
-                195362386
-              ]
-            },
-            {
-              "target": "Symphonie Nr. 4 A-dur Op.90 Italienische",
-              "work_tracks": 4,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Symphonie Nr. 5 A-moll Op.107 Reformations-Symphonie",
-              "work_tracks": 4,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        }
-      ]
     },
     {
       "discogs_id": "7065721",
