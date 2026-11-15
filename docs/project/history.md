@@ -1969,3 +1969,51 @@ Brendel checkpoint; no code changes since it. No accepted labels change.
 Counts12Found/133Probable/596Unchecked copies;595uncheckedunique:397work/credit,
 160metadata,28withheld,3rejections,6empty,1source hold. No Qobuz requests or push.
 Next cached du Pré1656511Favourite Cello Concertos programme/Haydn identity review.
+
+### 2026-11-15 — Counted bounded cached-review queue before continuation
+
+At user request to assess counting first, verified saved inventory input hashes
+and triaged397unique work/credit cases.14priority reviews(>=50%current source-unit
+support in an unheld cached candidate),26secondary partial leads,354no current
+supported units,3documented constraints(Giesekingtransfer, Gilelscomposer collision,
+BitchesBrewcredit proposal). Threshold is workflow triage, not confidence or a
+prediction of promotion; source units can include misleading headings/parts.
+Saved all397IDs, classifications, best candidate IDs, rules and inventory hash in
+qobuz_cached_review_queue.json.160metadata-needed and38other held/rejected/empty/
+source cases remain outside this screen. Count assertions/input hashes verified;
+no matcher, publication or provider calls changed. Plan now bounds the next pass
+to14priority cases, du Pré1656511first, before reassessing26secondary leads.
+
+### 2026-11-15 — Completed fourteen priority reviews in one batch
+
+Reviewed every frozen priority ID without routine confirmation. Two cached
+recording-family matches are now Probable85: Stern/Ormandy6686688 (six work-field
+bound movements, positive per-work composers and all named performers) and
+Klemperer7002243 (four Eroica movements plus Fidelio, local Op72b/title correction
+that explicitly excludes LeonoreIII). No exact pressing/take/mastering claim.
+Twelve holds distinguish missing works, different cycles, source credit scope,
+transfer/arrangement provenance and timing/container uncertainties. In particular,
+du Pré lacks Silent Woods; Bernstein's DG cycle differs from the CBS source;
+Klemperer12690141has an82-second Prometheus timing gap. Gould has40Partita
+movements and7Toccatas mapped diagnostically, with two BWV914versions retained.
+
+Saved complete source programmes, source/target/album hashes, cached alternatives,
+manual diagnostic track hashes and per-case next actions in the batch audit;
+appended14candidate-specific recording decisions and inspected source images.
+Added offline batch validator and reproducible queue triage. Partial alternatives
+do not automatically requeue a reviewed blocker. The original-ad PDF and Gould
+source-image requests were unavailable (public403); no false visual-proof claim.
+
+Validation:215script tests pass, including wrong soloist/composer, wrong work-field,
+missing finale, Fidelio/Leonore collision, future-score hold and complete14scope
+regressions. One old shared-album test was corrected to distinguish positive
+reviews from explicit holds. Batch hash validator, regenerated publication,
+unmatched inventory, role census, UI normalization and static build pass. Frozen
+before/after diff confirms only6686688and7002243gain accepted labels; collection
+SHA256and all Spotify statuses unchanged. Mock429/STOPtest messages are fixtures,
+not live warnings. No Qobuz calls, global credit/threshold changes or push.
+
+Qobuz copies:12Found/135Probable/594Unchecked (593unchecked unique:383work/credit,
+160metadata,40withheld,3rejections,6empty,1source hold). The remaining cached queue
+has26secondary leads,354zero-current-support cases and3known constraints;
+all14priority reviews are complete. Next: reassess26as a separately bounded queue.

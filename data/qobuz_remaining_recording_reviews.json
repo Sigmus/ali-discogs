@@ -6614,6 +6614,590 @@
         "Source metadata calls the section Dmajor; the sleeve inspection independently establishes No2wording, not a score/key correction.",
         "Five digital tracks and matching named conductor/orchestra do not independently establish the exact source transfer. Preserve raw/normalized source and Unchecked."
       ]
+    },
+    {
+      "discogs_id": "5820114",
+      "album_id": "v97lzb7cicexb",
+      "target_sha256": "95ac158c5225abf7601cc21847d3ec1d4d899d7cfd9f38096551bf3f69519915",
+      "source_sha256": "01f205aae2d69f67abfcb2a8783857313604a864dc5ee182461f42a5c56a9557",
+      "album_sha256": "f9c55161d4d76568dd8bc389cf069fb74cd4d4a664b81308c4777961e15c6f14",
+      "decision": "withhold",
+      "sources": [
+        "https://www.discogs.com/release/5820114"
+      ],
+      "recording_review": "Five concertos and three solo variation cycles are present. The solo cycles have Gilels but no Szell/Cleveland; the source gives no exact work-scoped conductor/orchestra assignments accepted by current rules. G182/WoO71 and G191/WoO80 need explicit source-catalogue reconciliation, including theme/variation spans. Do not demand orchestral players in piano solos, but do not silently invent their source scopes either.",
+      "limitations": [
+        "This is a candidate-specific review, not catalogue-wide absence or a rejection of every possible edition.",
+        "No raw source, normalized collection, Spotify labels or global credit/threshold policy changed."
+      ],
+      "batch": "2026-11-15-priority14",
+      "blocker_kind": "credit_scope",
+      "next_action": "Verify original booklet work-level credits and catalogue equivalences, then design a bounded solo/orchestral source-scope review."
+    },
+    {
+      "discogs_id": "2628957",
+      "album_id": "ge1j6yv38r7za",
+      "target_sha256": "3ba2e4c2cf83a3fb4fd2b3e1d67736f821ad3d9f5a7173a589341b8565c38fd4",
+      "source_sha256": "371171df70bc519794fc211ba53e50703fe32a740a13cb22f268a718f2483f4c",
+      "album_sha256": "041484eb215ef419f580ff69b77ae9543f508fd6b91539282bb4a2898485e668",
+      "decision": "withhold",
+      "sources": [
+        "https://www.discogs.com/release/2628957"
+      ],
+      "recording_review": "Warner track66036548 has no performers declaration. The cached Casta Diva alternative njqf4yj9ms02b has all nine arias and positive singer/conductor/orchestra credits, with the last two arias reordered. Its Album of1953 marker is not independent proof of the original Columbia33CX1069transfer or session identity; recitative/act/title discrepancies remain explicit.",
+      "limitations": [
+        "This is a candidate-specific review, not catalogue-wide absence or a rejection of every possible edition.",
+        "No raw source, normalized collection, Spotify labels or global credit/threshold policy changed."
+      ],
+      "batch": "2026-11-15-priority14",
+      "blocker_kind": "credit_and_transfer",
+      "next_action": "Corroborate Casta Diva transfer family or obtain positive Warner credit evidence; do not copy another track’s credits."
+    },
+    {
+      "discogs_id": "1656511",
+      "album_id": "0077776328355",
+      "target_sha256": "5e1e240b7a4d7c975bee9beeb8e4ec75c5d851053b262d88bc2daa4c6ba766d8",
+      "source_sha256": "5cf1d61009e447012a10841cabbab25f8b5b7436550fd93b45cf23bcde7c4d56",
+      "album_sha256": "a4266cfbc2e7b41720428affebb0f159fce3dade04349b98b18ad6fe1be23094",
+      "decision": "withhold",
+      "sources": [
+        "https://www.discogs.com/release/1656511"
+      ],
+      "recording_review": "The du Pré candidate contains both Haydn concertos, Schumann, Elgar and Dvorak concerto, but not Dvorak Silent Woods Op68. Matching collection/album names do not establish full programme parity. No Silent Woods/Waldesruhe/Klid with du Pré was found in the complete1164-album cache scan.",
+      "limitations": [
+        "This is a candidate-specific review, not catalogue-wide absence or a rejection of every possible edition.",
+        "No raw source, normalized collection, Spotify labels or global credit/threshold policy changed."
+      ],
+      "batch": "2026-11-15-priority14",
+      "blocker_kind": "missing_programme",
+      "next_action": "Seek the missing Silent Woods recording in a separately authorized retrieval; keep complete-LP match unresolved."
+    },
+    {
+      "discogs_id": "3408094",
+      "album_id": "0002894778668",
+      "target_sha256": "c257fe6eec7627f30ccb33e19f9151d4924b2b8bb2df2eb64564c30301c5e3ce",
+      "source_sha256": "df09f2393a69eff54d72363169621b24d2048b958b64cdccf326b2532804df5b",
+      "album_sha256": "9e07160832977d1a4a63327e4ea3b5ba26963ae1a7a2eb77097d4a74d953dd5b",
+      "decision": "withhold",
+      "sources": [
+        "https://www.discogs.com/release/3408094"
+      ],
+      "recording_review": "The source is the1974CBSGM15Bernstein/New York Philharmonic Mahler box. DG0002894778668is a different cycle: Symphony1has Royal Concertgebouw credits, not the source orchestra. Some NYPhil works cannot establish the complete CBS cycle. The other cached DGcollection has no Mahler composer tracks.",
+      "limitations": [
+        "This is a candidate-specific review, not catalogue-wide absence or a rejection of every possible edition.",
+        "No raw source, normalized collection, Spotify labels or global credit/threshold policy changed."
+      ],
+      "batch": "2026-11-15-priority14",
+      "blocker_kind": "different_recording_family",
+      "next_action": "Find the CBS/Sony New York cycle; do not equate different Bernstein cycles or repeated LP-side titles."
+    },
+    {
+      "discogs_id": "5038376",
+      "album_id": "3610153693980",
+      "target_sha256": "a669bf614b027c54eb96508ebb2b95b59d35395ca1fd3fabc6bebc3305a1f1da",
+      "source_sha256": "d334ba081f010badef25487b9b8b7cd2c463da5f96911333b844148ac60294ec",
+      "album_sha256": "a66d49ee7f8cf2ce72cae09d5c57717e306710b78c578f8abf292885e17d9398",
+      "decision": "withhold",
+      "sources": [
+        "https://www.discogs.com/release/5038376"
+      ],
+      "recording_review": "The source lists two LP sides, Part1and Conclusion, and explicitly says revised1947version. The five-tableau-parts candidate is not a mapping of those two sides: its TableauIIIpt1is a false Part1collision. Alternative3614596571638explicitly states1947Version, MonoVersion and has the whole ballet, but exact side partition and transfer provenance remain unverified.",
+      "limitations": [
+        "This is a candidate-specific review, not catalogue-wide absence or a rejection of every possible edition.",
+        "No raw source, normalized collection, Spotify labels or global credit/threshold policy changed."
+      ],
+      "batch": "2026-11-15-priority14",
+      "blocker_kind": "side_partition_and_transfer",
+      "next_action": "Verify original side boundaries and the1947Kurtz transfer family before a source-side review."
+    },
+    {
+      "discogs_id": "6686688",
+      "album_id": "t7d2fmiz1x5ba",
+      "target_sha256": "0269bcfbe4698413f041c8849341a8c295024fcd0cae8e5a68fc66aea49ed31c",
+      "source_sha256": "ac24bf1be7d46935c2eddf6c5c892989d1a6384adb0d6e99471f5e868817acb6",
+      "album_sha256": "577aa8de322e54de121cb7f60bccba4184a8c3bcb85a81d3cbcf943a8eee6ad1",
+      "decision": "probable",
+      "sources": [
+        "https://www.discogs.com/release/6686688",
+        "https://www.worldradiohistory.com/Archive-All-Music/Billboard/50s/1959/Billboard%201959-08-03a.pdf"
+      ],
+      "recording_review": "The cached Sony Original Jacket Collection contains both complete concertos on disc6: three movements each, Stern/Ormandy/Philadelphia positively credited on every selected track and the correct composer explicitly credited per work. Bind the bare movement titles to their exact work fields. The CBS stereo reissue and Sony original-jacket pairing support the recording family; no exact pressing/take claim.",
+      "limitations": [
+        "Probable recording-family match, not verified exact pressing/takes, cuts or mastering.",
+        "Original Columbia advertisement indexed text corroborates the1959pairing and MS6062stereo catalogue. Full PDF visual retrieval was unavailable; no claim of an inspected advertisement image.",
+        "BNF alternative has different internal movement boundaries; no cross-edition durations or credits were borrowed.",
+        "Sony original-jacket work fields and per-track performer/composer declarations are the actual binding evidence; no catalogue-wide alias was added."
+      ],
+      "batch": "2026-11-15-priority14",
+      "blocker_kind": "accepted",
+      "next_action": "No further retrieval required for this accepted recording-family match.",
+      "review_kind": "bound-tracks",
+      "required_performers": [
+        "Eugene Ormandy",
+        "Isaac Stern",
+        "The Philadelphia Orchestra"
+      ],
+      "expected": {
+        "Konzert Für Violine Und Orchester D-dur, Op. 35": [
+          67018860,
+          67018861,
+          67018862
+        ],
+        "Konzert Für Violine Und Orchester E-moll, Op. 64": [
+          67018857,
+          67018858,
+          67018859
+        ]
+      },
+      "adds": [
+        {
+          "target": "Konzert Für Violine Und Orchester D-dur, Op. 35",
+          "track_id": 67018860,
+          "title_contains": "I. Allegro moderato",
+          "work_equals": "Violin Concerto in D Major, Op. 35",
+          "duration_seconds": 1044
+        },
+        {
+          "target": "Konzert Für Violine Und Orchester D-dur, Op. 35",
+          "track_id": 67018861,
+          "title_contains": "II. Canzonetta. Andante",
+          "work_equals": "Violin Concerto in D Major, Op. 35",
+          "duration_seconds": 387
+        },
+        {
+          "target": "Konzert Für Violine Und Orchester D-dur, Op. 35",
+          "track_id": 67018862,
+          "title_contains": "III. Finale. Allegro vivacissimo",
+          "work_equals": "Violin Concerto in D Major, Op. 35",
+          "duration_seconds": 552
+        },
+        {
+          "target": "Konzert Für Violine Und Orchester E-moll, Op. 64",
+          "track_id": 67018857,
+          "title_contains": "I. Allegro molto appassionato",
+          "work_equals": "Violin Concerto in E Minor, Op. 64",
+          "duration_seconds": 752
+        },
+        {
+          "target": "Konzert Für Violine Und Orchester E-moll, Op. 64",
+          "track_id": 67018858,
+          "title_contains": "II. Andante",
+          "work_equals": "Violin Concerto in E Minor, Op. 64",
+          "duration_seconds": 554
+        },
+        {
+          "target": "Konzert Für Violine Und Orchester E-moll, Op. 64",
+          "track_id": 67018859,
+          "title_contains": "III. Allegretto non troppo - Allegro molto vivace",
+          "work_equals": "Violin Concerto in E Minor, Op. 64",
+          "duration_seconds": 337
+        }
+      ],
+      "extra_track_ids": [
+        67018805,
+        67018806,
+        67018807,
+        67018808,
+        67018809,
+        67018810,
+        67018811,
+        67018812,
+        67018813,
+        67018814,
+        67018815,
+        67018816,
+        67018817,
+        67018818,
+        67018819,
+        67018820,
+        67018821,
+        67018822,
+        67018823,
+        67018824,
+        67018825,
+        67018826,
+        67018827,
+        67018828,
+        67018829,
+        67018830,
+        67018831,
+        67018832,
+        67018833,
+        67018834,
+        67018835,
+        67018836,
+        67018837,
+        67018838,
+        67018839,
+        67018840,
+        67018841,
+        67018842,
+        67018843,
+        67018844,
+        67018845,
+        67018846,
+        67018847,
+        67018848,
+        67018849,
+        67018850,
+        67018851,
+        67018852,
+        67018853,
+        67018854,
+        67018855,
+        67018856,
+        67018863,
+        67018864,
+        67018865,
+        67018866,
+        67018867,
+        67018868,
+        67018869,
+        67018870,
+        67018871,
+        67018872,
+        67018873,
+        67018874,
+        67018875,
+        67018876,
+        67018877,
+        67018878,
+        67018879,
+        67018880,
+        67018881,
+        67018882,
+        67018883,
+        67018884,
+        67018885,
+        67018886,
+        67018887,
+        67018888,
+        67018889,
+        67018890,
+        67018891,
+        67018892,
+        67018893,
+        67018894,
+        67018895,
+        67018896,
+        67018897,
+        67018898,
+        67018899,
+        67018900,
+        67018901,
+        67018902,
+        67018903,
+        67018904,
+        67018905,
+        67018906,
+        67018907,
+        67018908
+      ],
+      "numbered_movement_runs": [
+        {
+          "target": "Konzert Für Violine Und Orchester D-dur, Op. 35",
+          "movements": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "target": "Konzert Für Violine Und Orchester E-moll, Op. 64",
+          "movements": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "marks": [
+        {
+          "track_id": 67018857,
+          "text": "I. Allegro molto appassionato",
+          "isrc_equals": "USSM15800333",
+          "version_equals": null,
+          "composer_equals": "Felix Mendelssohn-Bartholdy"
+        },
+        {
+          "track_id": 67018858,
+          "text": "II. Andante",
+          "isrc_equals": "USSM15800334",
+          "version_equals": null,
+          "composer_equals": "Felix Mendelssohn-Bartholdy"
+        },
+        {
+          "track_id": 67018859,
+          "text": "III. Allegretto non troppo - Allegro molto vivace",
+          "isrc_equals": "USSM15800335",
+          "version_equals": null,
+          "composer_equals": "Felix Mendelssohn-Bartholdy"
+        },
+        {
+          "track_id": 67018860,
+          "text": "I. Allegro moderato",
+          "isrc_equals": "USSM10309277",
+          "version_equals": null,
+          "composer_equals": "Pyotr Ilyich Tchaikovsky"
+        },
+        {
+          "track_id": 67018861,
+          "text": "II. Canzonetta. Andante",
+          "isrc_equals": "USSM10309278",
+          "version_equals": null,
+          "composer_equals": "Pyotr Ilyich Tchaikovsky"
+        },
+        {
+          "track_id": 67018862,
+          "text": "III. Finale. Allegro vivacissimo",
+          "isrc_equals": "USSM10309279",
+          "version_equals": null,
+          "composer_equals": "Pyotr Ilyich Tchaikovsky"
+        }
+      ]
+    },
+    {
+      "discogs_id": "7002243",
+      "album_id": "vrg5q0y8vzvaa",
+      "target_sha256": "9aecac08cccdc60a83474d99ef19e488b0ae9becbdbb3deb75526483f9a394f7",
+      "source_sha256": "e13e3988611ec5e88067b038676108f6fa10b430bdc98850dc60d2824c820b43",
+      "album_sha256": "5a5fd43cf348d1644ea86c314ca21d91975d5b9e06ee29642a5ed9de3bcccee9",
+      "decision": "probable",
+      "sources": [
+        "https://www.discogs.com/release/7002243",
+        "https://www.warnerclassics.com/release/beethoven-9-symphonies-overtures-remastered"
+      ],
+      "recording_review": "The original cover names Klemperer/Philharmonia and Eroica/Fidelio. The cached Warner cycle contains all four Eroica movements and the Fidelio overture with positive Klemperer/Philharmonia/Beethoven credits. Source Op72b conflicts with its explicit Fidelio/Emajor title; a hash-bound local title correction selects Fidelio Op72, never LeonoreIII Op72b. All five durations are within3%of saved source durations.",
+      "limitations": [
+        "Probable recording-family match, not verified exact LP pressing/take/mastering.",
+        "The original source Op72b wording remains unchanged; its Fidelio title/Emajor key identify the overture locally. LeonoreIII Op72b is deliberately excluded.",
+        "Cover does not independently establish a recording session; close durations and publisher stereo-family corroboration support only the bounded family inference."
+      ],
+      "batch": "2026-11-15-priority14",
+      "blocker_kind": "accepted",
+      "next_action": "No further retrieval required for this accepted recording-family match.",
+      "target_title_corrections": {
+        "Fidelio Overture Op. 72b In Mi Maggiore": "Fidelio Overture, Op. 72 in E Major"
+      },
+      "works": [
+        {
+          "target": "Sinfonia N. 3 In Mi Bemolle Maggiore, Op. 55 \"Eroica\"",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "scope": "whole-listed-work",
+          "source": "original LP and Warner stereo cycle",
+          "reason": "exact frozen sections",
+          "reviewed_sections": {
+            "353969771": {
+              "track_sha256": "c34b8cb8124e12cd435a481a93ef80a3a676b533754a2ce854368fc29f24a0ef",
+              "movements": [
+                1
+              ]
+            },
+            "353969772": {
+              "track_sha256": "6e8068b2bc06deaeb5846395f3071267f3ba698fcf1da926669c5657116a191f",
+              "movements": [
+                2
+              ]
+            },
+            "353969773": {
+              "track_sha256": "f8b81725c7d63e0300bbabae847562d12f153c921e9f8f732fb81f676b4d840d",
+              "movements": [
+                3
+              ]
+            },
+            "353969774": {
+              "track_sha256": "ed7a41b796a8d41075c3d08d5474e2a1dbda99178629ee41f6408ec7961aec81",
+              "movements": [
+                4
+              ]
+            }
+          }
+        },
+        {
+          "target": "Fidelio Overture Op. 72b In Mi Maggiore",
+          "movements": [
+            1
+          ],
+          "scope": "whole-listed-work",
+          "source": "original LP and Warner stereo cycle",
+          "reason": "exact frozen sections",
+          "reviewed_sections": {
+            "353969812": {
+              "track_sha256": "cff1347aaf2963da4f258fcb7d1fe321ba785806262317c60e3bc0d73eb23846",
+              "movements": [
+                1
+              ]
+            }
+          }
+        }
+      ],
+      "external_source_files": [
+        {
+          "path": "data/review_sources/priority14-7002243/cover.jpg",
+          "sha256": "6e72aad44619dd8f2ddd1765589ee31e30fabb699b825d50c99b47ab130ceae9",
+          "source_url": "https://i.discogs.com/AG5dtbOtg9Ss0OQFWPLF542j1H_qG9KqkoCjwWpr7lI/rs:fit/g:sm/q:90/h:462/w:477/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTcwMDIy/NDMtMTY2NjM4NjQy/Mi01MTY1LnBuZw.jpeg"
+        },
+        {
+          "path": "data/review_sources/priority14-7002243/publisher-observation.txt",
+          "sha256": "5a433e80903109da3bb3eced89bd8997cb90138dac3d48ae812dec6aebe2592c",
+          "source_url": "https://www.warnerclassics.com/release/beethoven-9-symphonies-overtures-remastered"
+        }
+      ]
+    },
+    {
+      "discogs_id": "7248321",
+      "album_id": "5099990581953",
+      "target_sha256": "2c6a489f230987b2345565cbceced7421a3b6b7263322c173f758ba5e26b01fa",
+      "source_sha256": "dc0db92a54ecf45b9b770ef07861af42d6bf155543cec350114c387d457a5873",
+      "album_sha256": "c0783e4c93f12dc4ed47e00136a192e27c48621958a7c484b602e7b2447bfc8d",
+      "decision": "withhold",
+      "sources": [
+        "https://www.discogs.com/release/7248321"
+      ],
+      "recording_review": "The selected Barenboim sampler has only K467Andante, not the complete concerto, and no Symphony40K550. The other cached Mozart piano-concerto collection has K467but still no K550.",
+      "limitations": [
+        "This is a candidate-specific review, not catalogue-wide absence or a rejection of every possible edition.",
+        "No raw source, normalized collection, Spotify labels or global credit/threshold policy changed."
+      ],
+      "batch": "2026-11-15-priority14",
+      "blocker_kind": "missing_programme",
+      "next_action": "Find a complete Barenboim/ECO source programme, not an isolated slow movement."
+    },
+    {
+      "discogs_id": "8252155",
+      "album_id": "hz3y69pf3amua",
+      "target_sha256": "2d01c8a9c6c151e86a03061f8a942b1c9d2a4f2aed41ac6ef8bde939258e8618",
+      "source_sha256": "b88c3314f293f82d35c37f60eddda04d5a2aa043c1abd69462810f67c436cb04",
+      "album_sha256": "0ec7080951b44f1a4a8b03916b822215b36c692f20d7016e54281d06577ef567",
+      "decision": "withhold",
+      "sources": [
+        "https://www.discogs.com/release/8252155"
+      ],
+      "recording_review": "Both masses map to six movements each. Renate Krahmer is positively credited in BWV236DomineDeus, but absent from BWV235credits; source currently lists singers globally. Work-group union cannot justify importing a soprano into a work without that solo. Preserve the source credit until exact source/score scope is validated; no generic voice-role exemption.",
+      "limitations": [
+        "This is a candidate-specific review, not catalogue-wide absence or a rejection of every possible edition.",
+        "No raw source, normalized collection, Spotify labels or global credit/threshold policy changed."
+      ],
+      "batch": "2026-11-15-priority14",
+      "blocker_kind": "credit_scope",
+      "next_action": "Obtain work-level source singer assignments and validate a bounded vocal scope treatment."
+    },
+    {
+      "discogs_id": "12690141",
+      "album_id": "tefounqisk5ki",
+      "target_sha256": "29d80e2d917f8537a2b66c245d519026dbaa90ea0ed4f46af0b5250b63b929d0",
+      "source_sha256": "749b205472ae30d7c79b0a13ff393f33a4d5ac52d486f5b8c8c61fdc54467968",
+      "album_sha256": "0939a7eb116826affaa5e6c5d27247b77bac09434b2d5b42ce4a3f60259b418e",
+      "decision": "withhold",
+      "sources": [
+        "https://www.discogs.com/release/12690141"
+      ],
+      "recording_review": "Old best tefounqisk5ki is Karajan, not the Klemperer named on the source labels, and lacks the two overtures. Shared cached Warner vrg5q0y8vzvaa has all six source bands, but generic tempos currently cross-match other symphonies. Prometheus is336seconds versus saved4:14(254seconds):82seconds unexplained. Source labels confirm titles/Klemperer/stereo but do not print durations.",
+      "limitations": [
+        "This is a candidate-specific review, not catalogue-wide absence or a rejection of every possible edition.",
+        "No raw source, normalized collection, Spotify labels or global credit/threshold policy changed."
+      ],
+      "batch": "2026-11-15-priority14",
+      "blocker_kind": "duration_and_binding",
+      "next_action": "Resolve the Prometheus timing/source error and bind Symphony2positions explicitly; do not accept a different conductor or ignore the discrepancy.",
+      "external_source_files": [
+        {
+          "path": "data/review_sources/priority14-12690141/image-1.jpg",
+          "sha256": "ac4cc615c43246fef77da2326f0354c9fa761fbef3f6087c91d06ecebe241947",
+          "source_url": "https://i.discogs.com/2vsGBUbE_0SbCJ7yWzsetKvOvz-wX2tfLg_gjfhgpM8/rs:fit/g:sm/q:90/h:596/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNjkw/MTQxLTE1NDAxMTY3/MTItNjY4My5qcGVn.jpeg"
+        },
+        {
+          "path": "data/review_sources/priority14-12690141/image-4.jpg",
+          "sha256": "12ca3811ff10fdb3319df8460cf1487cb1d55d9a7dc6ae17446931c071258bd7",
+          "source_url": "https://i.discogs.com/AEVTR75CcuK6l6uvkhFqpRpHqtkcl5DSRQVbjru28TY/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNjkw/MTQxLTE1NDAxMTY4/MTQtNTQxMi5qcGVn.jpeg"
+        },
+        {
+          "path": "data/review_sources/priority14-12690141/image-5.jpg",
+          "sha256": "2746400466a8d79843e08611cb637566f6dd5ef1421f0bf6df665781d4f9af24",
+          "source_url": "https://i.discogs.com/TGChBpbgIxoXk2hBf8t9olHMeTUstYUT7NRuB4ZXnQw/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTEyNjkw/MTQxLTE1NDAxMTY4/NDktNjgxOC5qcGVn.jpeg"
+        }
+      ]
+    },
+    {
+      "discogs_id": "18963583",
+      "album_id": "0886444571524",
+      "target_sha256": "5b3d227f8385169de70fd65f7cccfb61c420de38837f86fcd16cc8f41040ac61",
+      "source_sha256": "95626f692a57619d87e30d4258f5184fac24c79456a38a6559e98f0a9e7e7ec0",
+      "album_sha256": "9c470a97d1aea6f628023435452cbcbf4ba3923c7a976935365256aa91f12217",
+      "decision": "withhold",
+      "sources": [
+        "https://www.discogs.com/release/18963583"
+      ],
+      "recording_review": "The Walter Brahms collection contains Academic Festival Overture Op80but no Dvorak Symphony8Op88. The other cached Brahms Requiem/Alto Rhapsody cannot supply that missing symphony.",
+      "limitations": [
+        "This is a candidate-specific review, not catalogue-wide absence or a rejection of every possible edition.",
+        "No raw source, normalized collection, Spotify labels or global credit/threshold policy changed."
+      ],
+      "batch": "2026-11-15-priority14",
+      "blocker_kind": "missing_programme",
+      "next_action": "Find the correct Walter Dvorak8recording in a candidate covering both source works."
+    },
+    {
+      "discogs_id": "20066470",
+      "album_id": "3614596596822",
+      "target_sha256": "2b113587ad6b4fde5a208083723bd0fb2856b4f004931947c21f500416bc34f4",
+      "source_sha256": "8d7657c246ffce15e4ed753ec470d1c203f0236aa9c4b03d5a2b3792ba179e36",
+      "album_sha256": "ecc11f6dd4800f78dc9e0ed27f292a43a25ac73fdb8eb648932a1972a9f01cce",
+      "decision": "withhold",
+      "sources": [
+        "https://www.discogs.com/release/20066470"
+      ],
+      "recording_review": "All ten source marches map in order to BNF3614596596822StereoVersion, with Kurtz/Philharmonia and appropriate composers positively credited; the alternate3614596847115is explicitly MonoVersion. Source notes say Stéréo. No independent transfer/session provenance has been established, and source arrangements name Guiraud and Winter absent from digital declarations. Full programme alone is not exact recording/arrangement proof.",
+      "limitations": [
+        "This is a candidate-specific review, not catalogue-wide absence or a rejection of every possible edition.",
+        "No raw source, normalized collection, Spotify labels or global credit/threshold policy changed."
+      ],
+      "batch": "2026-11-15-priority14",
+      "blocker_kind": "transfer_and_arrangement",
+      "next_action": "Corroborate the stereo transfer family and source arrangements before accepting the ten-track mapping."
+    },
+    {
+      "discogs_id": "20588539",
+      "album_id": "vrg5q0y8vzvaa",
+      "target_sha256": "3ddf2f7bbb6b7fbf84a66e3b18025268ee7e77b62688de352ed2ef19c6584e82",
+      "source_sha256": "108e88b0e221bd4138646e77e4b0fec757174401169bc285e5b98b16e1fcd096",
+      "album_sha256": "5a5fd43cf348d1644ea86c314ca21d91975d5b9e06ee29642a5ed9de3bcccee9",
+      "decision": "withhold",
+      "sources": [
+        "https://www.discogs.com/release/20588539"
+      ],
+      "recording_review": "The Warner cache contains Symphony4four movements plus all four explicitly listed Egmont excerpts. Nilsson is positively credited only on the two songs, not the symphony, overture or KlärchensTod. Raw source gives no precise work-level soloist assignment. No generic principal-soprano scope exemption was introduced.",
+      "limitations": [
+        "This is a candidate-specific review, not catalogue-wide absence or a rejection of every possible edition.",
+        "No raw source, normalized collection, Spotify labels or global credit/threshold policy changed."
+      ],
+      "batch": "2026-11-15-priority14",
+      "blocker_kind": "credit_scope",
+      "next_action": "Verify printed vocal scope and implement a bounded source-scoped credit review without borrowing singer credits."
+    },
+    {
+      "discogs_id": "22222342",
+      "album_id": "0886445221237",
+      "target_sha256": "1f57db89fd1db3fcbfe70775215a38e76e496ff34355c3257c655dc354d17e44",
+      "source_sha256": "83ff30ad63dab7423fdd79967b691a65e8290c81d92bbce49f545a29f67109db",
+      "album_sha256": "b4f4c91c98e8f01c1c1e3753113a1bbfe93b093a335f00abc02d508d0e7d801d",
+      "decision": "withhold",
+      "sources": [
+        "https://www.discogs.com/release/22222342"
+      ],
+      "recording_review": "The source has13physical works under three headings, not16independent works. Forty Partita movements have explicit BWV work fields; all seven Toccatas are cached. BWV914occurs twice:519seconds on disc17and516on disc67; source8:36and VolII favour the latter but timing alone is not take identity. The official Gould discography confirms the late VolIIprogramme; safe catalogue-range/container validation and source-box/edition corroboration are still required. Source-image retrieval was unavailable(Discogs image HTTP403); no Qobuz calls were made.",
+      "limitations": [
+        "This is a candidate-specific review, not catalogue-wide absence or a rejection of every possible edition.",
+        "No raw source, normalized collection, Spotify labels or global credit/threshold policy changed."
+      ],
+      "batch": "2026-11-15-priority14",
+      "blocker_kind": "source_containers_and_version",
+      "next_action": "Validate the original CBS79409box and its VolIIversion, then add a bounded complete-range/container review with missing-child and alternate-take tests."
     }
   ]
 }

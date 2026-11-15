@@ -16,12 +16,19 @@ Completed cases and validations are in history; current counts in context.
 The12+305pass and approved metadata follow-ups are validated/shared.160remaining
 metadata-needed releases are not a fetch mandate.
 
-Brendel5403356complete33work programme now Probable with original-image Sonata9
-correction,103distinct movements and explicit shared-duration diagnostic scopes.
-Furtwängler3737065original sleeve confirms No2; section/transfer uncertainties
-now enforced by an image-bound hold. Next: du Pré1656511six-work programme, Haydn
-opus/Hoboken and source recording/performer evidence. Continue cached cases with false-positive
-regressions and publication/UI checks. Commit verified steps autonomously.
+The [fourteen-case batch](../plans/2026-11-15-qobuz-priority14-batch.md) is complete:
+2 Probable recording-family matches, 12 explicit holds. Complete review does not
+mean complete match. Evidence, frozen IDs, alternatives and next actions are in
+`data/qobuz_priority14_batch_audit.json`; completed outcomes belong in history.
+
+Next: reassess the 26 secondary partial leads as a bounded queue. The current
+383 work/credit cases also include 354 with no supported source units and 3 known
+constraints. No priority cases remain open. Source-unit coverage is triage, not
+confidence or guaranteed promotion; raw headings/parts can inflate it. Revisit
+holds only with new evidence or a validated scoped rule, not an unchanged score.
+Zero support needs lead/rule/source investigation, not automatic API retrieval.
+Continue false-positive regressions and publication/UI checks; commit verified
+cached enrichment steps autonomously.
 
 Prêtre original-image named-credit gaps and Reiner associated-role uncertainty
 remain holds. [Associated-role review](../plans/2026-11-15-qobuz-associated-credit-roles.md)

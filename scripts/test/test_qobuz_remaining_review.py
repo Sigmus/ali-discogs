@@ -53,6 +53,9 @@ class RemainingReviewTests(unittest.TestCase):
             self.assertTrue(reviewed['external_source_files'])
         for review in reviews:
             if review['album_id'] != album['id']:continue
+            if review['decision'] == 'withhold':
+                self.assertFalse(assess(rows[review['discogs_id']],album,review)[0]['eligible'])
+                continue
             self.assertTrue(assess(rows[review['discogs_id']],album,review)[0]['eligible'])
             altered=copy.deepcopy(album)
             used=assess(rows[review['discogs_id']],album,review)[0]['completeness']['works'][0]['track_ids'][0]

@@ -506,3 +506,12 @@ time can cover several movements and can appear on the first or last member.
 Only groups marked `image_verified` have inspected label images; other shared-time
 interpretations remain inference. These diagnostic spans never change source
 fields or waive programme/artist checks, and timing similarity is not take proof.
+
+`uv run python scripts/qobuz_priority14_audit.py` validates the frozen
+15 November fourteen-case batch against source, collection, review and album
+hashes, including diagnostic mappings and cached alternatives. Two cases were
+accepted as Probable; twelve have explicit blockers. Diagnostic mappings never
+authorize a promotion. See the [batch report](plans/2026-11-15-qobuz-priority14-batch.md).
+`uv run python scripts/qobuz_cached_review_queue.py` refreshes workflow triage
+after `qobuz_unmatched_audit.py`; reviewed blockers do not automatically return
+to the open queue because an alternate candidate has a high partial coverage.

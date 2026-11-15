@@ -11,7 +11,7 @@ and cache commands. This directory owns current planning.
 - Branch main; pushed through cf7f263 on15November. Later work remains local;
   deployment not verified. Inspect Git before claiming remote state.
 - Collection741copies/740unique. Saved labels: Spotify254Found/273Probable/
-  210NotFound/4Unchecked; Qobuz12Found/133Probable/596Unchecked copies.
+  210NotFound/4Unchecked; Qobuz12Found/135Probable/594Unchecked copies.
 - Qobuz publication `data/qobuz_matches.json` is separate from Spotify collection
   results. Labels/scores are saved data; Qobuz85/95 are heuristic levels, not
   probabilities. Legacy Spotify labels are not comparable accuracy measurements.
@@ -61,41 +61,39 @@ and cache commands. This directory owns current planning.
   Suites3–6; complete programmes do not establish Nar Classical transfer identity.
   Candidate lacks session/take markers, so both remain Unchecked.
 
-## Active offline review
+## Fourteen-case batch complete
 
-- Prêtre13671866held after original images name M.Debost/M.Cazauran absent from
-  candidate credits.13LPbands map to20digital sections, but equal sideBtotal
-  does not erase per-band timing differences. Source and collection unchanged.
-- Böhm6810640now Probable:2+4movements, exact work fields, source-image1977live
-  marker and primary recording-family corroboration. Timing/take caveats retained.
-- Reiner2463301complete5+8programme remains diagnostic: ChineseMarch orchestra
-  has only compact AssociatedPerformer role, unresolved under adopted credit policy.
-- Five further candidate holds:9792325missingK333;11938919missingOp58;
-  2666680missingK595;2700887wrong concerto conductor/orchestra;5065978wrongK550
-  conductor/orchestra. Other candidate recordings remain independent.
-- Role census:775associated-only declarations across1164albums;540spaced/235compact.
-  Parser spelling inconsistency is not a new acceptance rule. No blanket promotions
-  or demotions. [Proposed semantics review](../plans/2026-11-15-qobuz-associated-credit-roles.md).
-- Current pass209script tests, UI normalization/build pass.595unchecked unique:
-  397work/credit,160metadata,28withheld,3rejections,6empty,1source hold.
-  No Qobuz requests or further push. [Review plan](../plans/2026-11-15-qobuz-source-credit-reviews.md).
+- User authorized the 14 priority cases as one batch without routine questions.
+  All 14 reviewed: Stern/Ormandy6686688 and Klemperer7002243 now Probable85;
+  twelve candidate-specific holds retain explicit blockers and next actions.
+- Stern: exact work fields bind six movements from the cached Sony original-jacket
+  box, with positive performers and per-work composers. Klemperer: four Eroica
+  movements plus Fidelio; local source-title correction excludes LeonoreIII despite
+  the source Op72b wording. Exact pressing/take/mastering remain unverified.
+- Holds separate missing programme, different recording family, transfer identity,
+  source voice/orchestra scopes and unresolved timing/container structure.
+  Klemperer12690141Prometheus differs by82seconds; no silent timing correction.
+- Evidence and frozen14IDs: `data/qobuz_priority14_batch_audit.json`.
+  [Batch plan/results](../plans/2026-11-15-qobuz-priority14-batch.md).
+  Validators and workflow queue regenerate entirely offline; reviewed blockers
+  cannot silently return to the priority list through a partial alternative.
+- 215 script tests, all14 source/track-hash validations, UI normalization and build
+  pass. Only6686688/7002243accepted labels changed. Collection/Spotify unchanged.
+  No Qobuz requests, policy exceptions, push or deployment in this batch.
+- 593unchecked unique:383work/credit,160metadata,40withheld,3rejections,6empty,
+  1source hold. The383work/credit cases split into26secondary partial leads,
+  354zero-current-support cases and3known constraints; no open priority cases.
 
 ## Next action and limits
 
-Brendel5403356now Probable:32sonatas+Andantefavori,103distinct tracks. Original
-sideR/boxback confirm source Sonata9Op14No1; source text remains unchanged.
-Joint timing fields mapped into86diagnostic spans; uninspected grouping marked
-inference. Recording family supported, exact takes/mastering unverified.
-
-Furtwängler3737065original sleeve confirms Entr’acteNo2wording; candidateIII
-section identity and transfer provenance remain unresolved. Image-bound hold saved.
-Latest data-only hold:7targeted checks and UI/build pass; last full suite209pass.
-
-Next: audit Jacqueline du Pré1656511Favourite Cello Concertos, six-work programme,
-Haydn opus/Hoboken identity and source recording/performer evidence using the cache.
+Reassess the 26 secondary partial leads as a separate bounded queue. Their partial
+source-unit support is triage, not confidence or a forecast of accepted matches.
+Do not revisit the twelve new holds without new evidence or a tested scoped rule.
 
 Continue verified cached reviews/commits autonomously. No unbounded retrieval,
 warning retries, automatic push/deployment, source rewrites or new instrument-scope
-exemptions. Bitches Brew and associated-credit policy remain proposals. Future
-Spotify evidence review is separate. Keep transfer-unresolved cases Unchecked.
+exemptions. Prêtre missing named credits, Casals/Gieseking transfer provenance,
+Reiner associated-role semantics and Rubinstein's source programme remain holds.
+Bitches Brew and associated-credit policy remain proposals. Future Spotify
+validation is separate; existing labels are not comparable accuracy measurements.
 [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).

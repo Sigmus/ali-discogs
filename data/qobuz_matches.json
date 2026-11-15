@@ -32,7 +32,7 @@
   "richter_review_fingerprint": "a14865f86e46150593e39bfa285fa6c7c61c8f46147b8094c0cb048fd02118ab",
   "round2_review_fingerprint": "be60742c3d35f5a9aa67f200642f7fcde98a52562a46130e043db8f4aa7c851e",
   "round2_metadata_fingerprint": "9db62d7bf62d4b77f5acf422dfde77959f845f4dc00b2ac0e10c02ccea295860",
-  "remaining_review_fingerprint": "afa25018fc237b9d44068854a33c8725f038f4fee1b6957c1ddb71d8e11dc2b0",
+  "remaining_review_fingerprint": "8d50dcb51653845bd777a855200766ef4838837d9381284e5306d1521fb74a27",
   "remaining_metadata_fingerprint": "393b2d12e176160ab311b65267b38bdc8c205222e12f792bf07eba5c1fcfafbf",
   "remaining_followup_metadata_fingerprint": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
   "seven_album_metadata_fingerprint": "139f9b336c68b56ea22c18362cb0481c026366c5d359142f2bb702fe1233a4fc",
@@ -1540,7 +1540,15 @@
             }
           ],
           "reasons": [
+            "The source lists two LP sides, Part1and Conclusion, and explicitly says revised1947version. The five-tableau-parts candidate is not a mapping of those two sides: its TableauIIIpt1is a false Part1collision. Alternative3614596571638explicitly states1947Version, MonoVersion and has the whole ballet, but exact side partition and transfer provenance remain unverified.",
+            "This is a candidate-specific review, not catalogue-wide absence or a rejection of every possible edition.",
+            "No raw source, normalized collection, Spotify labels or global credit/threshold policy changed.",
             "1/2 target items supported after composer/work grouping; unresolved."
+          ],
+          "recording_review_decision": "withhold",
+          "recording_review": "The source lists two LP sides, Part1and Conclusion, and explicitly says revised1947version. The five-tableau-parts candidate is not a mapping of those two sides: its TableauIIIpt1is a false Part1collision. Alternative3614596571638explicitly states1947Version, MonoVersion and has the whole ballet, but exact side partition and transfer provenance remain unverified.",
+          "review_sources": [
+            "https://www.discogs.com/release/5038376"
           ]
         }
       ],
@@ -2335,7 +2343,15 @@
             }
           ],
           "reasons": [
+            "Five concertos and three solo variation cycles are present. The solo cycles have Gilels but no Szell/Cleveland; the source gives no exact work-scoped conductor/orchestra assignments accepted by current rules. G182/WoO71 and G191/WoO80 need explicit source-catalogue reconciliation, including theme/variation spans. Do not demand orchestral players in piano solos, but do not silently invent their source scopes either.",
+            "This is a candidate-specific review, not catalogue-wide absence or a rejection of every possible edition.",
+            "No raw source, normalized collection, Spotify labels or global credit/threshold policy changed.",
             "5/8 target items supported after composer/work grouping; unresolved."
+          ],
+          "recording_review_decision": "withhold",
+          "recording_review": "Five concertos and three solo variation cycles are present. The solo cycles have Gilels but no Szell/Cleveland; the source gives no exact work-scoped conductor/orchestra assignments accepted by current rules. G182/WoO71 and G191/WoO80 need explicit source-catalogue reconciliation, including theme/variation spans. Do not demand orchestral players in piano solos, but do not silently invent their source scopes either.",
+          "review_sources": [
+            "https://www.discogs.com/release/5820114"
           ]
         },
         {
@@ -2642,6 +2658,9 @@
       "query": "george szell beethoven the five piano concertos",
       "searched_at": "2026-11-12T14:32:15.461659+00:00",
       "reasons": [
+        "Five concertos and three solo variation cycles are present. The solo cycles have Gilels but no Szell/Cleveland; the source gives no exact work-scoped conductor/orchestra assignments accepted by current rules. G182/WoO71 and G191/WoO80 need explicit source-catalogue reconciliation, including theme/variation spans. Do not demand orchestral players in piano solos, but do not silently invent their source scopes either.",
+        "This is a candidate-specific review, not catalogue-wide absence or a rejection of every possible edition.",
+        "No raw source, normalized collection, Spotify labels or global credit/threshold policy changed.",
         "5/8 target items supported after composer/work grouping; unresolved."
       ]
     },
@@ -4294,10 +4313,18 @@
             }
           ],
           "reasons": [
+            "Both masses map to six movements each. Renate Krahmer is positively credited in BWV236DomineDeus, but absent from BWV235credits; source currently lists singers globally. Work-group union cannot justify importing a soprano into a work without that solo. Preserve the source credit until exact source/score scope is validated; no generic voice-role exemption.",
+            "This is a candidate-specific review, not catalogue-wide absence or a rejection of every possible edition.",
+            "No raw source, normalized collection, Spotify labels or global credit/threshold policy changed.",
             "1/2 target items supported after composer/work grouping; unresolved.",
             "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
           ],
-          "work_group_policy": "qobuz-work-groups-v1"
+          "work_group_policy": "qobuz-work-groups-v1",
+          "recording_review_decision": "withhold",
+          "recording_review": "Both masses map to six movements each. Renate Krahmer is positively credited in BWV236DomineDeus, but absent from BWV235credits; source currently lists singers globally. Work-group union cannot justify importing a soprano into a work without that solo. Preserve the source credit until exact source/score scope is validated; no generic voice-role exemption.",
+          "review_sources": [
+            "https://www.discogs.com/release/8252155"
+          ]
         },
         {
           "id": "deivnz0mjzqya",
@@ -4345,6 +4372,9 @@
       "query": "renate krahmer bach messen",
       "searched_at": "2026-11-12T14:35:00.261724+00:00",
       "reasons": [
+        "Both masses map to six movements each. Renate Krahmer is positively credited in BWV236DomineDeus, but absent from BWV235credits; source currently lists singers globally. Work-group union cannot justify importing a soprano into a work without that solo. Preserve the source credit until exact source/score scope is validated; no generic voice-role exemption.",
+        "This is a candidate-specific review, not catalogue-wide absence or a rejection of every possible edition.",
+        "No raw source, normalized collection, Spotify labels or global credit/threshold policy changed.",
         "1/2 target items supported after composer/work grouping; unresolved.",
         "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
       ]
@@ -8747,7 +8777,15 @@
             }
           ],
           "reasons": [
+            "The source is the1974CBSGM15Bernstein/New York Philharmonic Mahler box. DG0002894778668is a different cycle: Symphony1has Royal Concertgebouw credits, not the source orchestra. Some NYPhil works cannot establish the complete CBS cycle. The other cached DGcollection has no Mahler composer tracks.",
+            "This is a candidate-specific review, not catalogue-wide absence or a rejection of every possible edition.",
+            "No raw source, normalized collection, Spotify labels or global credit/threshold policy changed.",
             "15/30 target items supported after composer/work grouping; unresolved."
+          ],
+          "recording_review_decision": "withhold",
+          "recording_review": "The source is the1974CBSGM15Bernstein/New York Philharmonic Mahler box. DG0002894778668is a different cycle: Symphony1has Royal Concertgebouw credits, not the source orchestra. Some NYPhil works cannot establish the complete CBS cycle. The other cached DGcollection has no Mahler composer tracks.",
+          "review_sources": [
+            "https://www.discogs.com/release/3408094"
           ]
         },
         {
@@ -8960,14 +8998,110 @@
       "query": "leonard bernstein mahler symphonies 1 10",
       "searched_at": "2026-11-12T14:43:31.803301+00:00",
       "reasons": [
+        "The source is the1974CBSGM15Bernstein/New York Philharmonic Mahler box. DG0002894778668is a different cycle: Symphony1has Royal Concertgebouw credits, not the source orchestra. Some NYPhil works cannot establish the complete CBS cycle. The other cached DGcollection has no Mahler composer tracks.",
+        "This is a candidate-specific review, not catalogue-wide absence or a rejection of every possible edition.",
+        "No raw source, normalized collection, Spotify labels or global credit/threshold policy changed.",
         "15/30 target items supported after composer/work grouping; unresolved."
       ]
     },
     "6686688": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "t7d2fmiz1x5ba",
+        "name": "The Original Jacket Collection - Eugene Ormandy",
+        "artists": [
+          "Eugene Ormandy"
+        ],
+        "label": "Sony Classical",
+        "release_date": "2008-06-24",
+        "image": "https://static.qobuz.com/images/covers/ba/x5/t7d2fmiz1x5ba_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/the-original-jacket-collection-eugene-ormandy-eugene-ormandy/t7d2fmiz1x5ba"
+      },
       "candidates": [
+        {
+          "id": "t7d2fmiz1x5ba",
+          "name": "The Original Jacket Collection - Eugene Ormandy",
+          "artists": [
+            "Eugene Ormandy"
+          ],
+          "label": "Sony Classical",
+          "release_date": "2008-06-24",
+          "image": "https://static.qobuz.com/images/covers/ba/x5/t7d2fmiz1x5ba_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/the-original-jacket-collection-eugene-ormandy-eugene-ormandy/t7d2fmiz1x5ba",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 2,
+          "target_count": 2,
+          "required_performers": [
+            "Eugene Ormandy",
+            "Isaac Stern",
+            "The Philadelphia Orchestra"
+          ],
+          "programme": [
+            {
+              "target": "Konzert Für Violine Und Orchester D-dur, Op. 35",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                67018860,
+                67018861,
+                67018862
+              ]
+            },
+            {
+              "target": "Konzert Für Violine Und Orchester E-moll, Op. 64",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                67018857,
+                67018858,
+                67018859
+              ]
+            }
+          ],
+          "reasons": [
+            "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+            "The cached Sony Original Jacket Collection contains both complete concertos on disc6: three movements each, Stern/Ormandy/Philadelphia positively credited on every selected track and the correct composer explicitly credited per work. Bind the bare movement titles to their exact work fields. The CBS stereo reissue and Sony original-jacket pairing support the recording family; no exact pressing/take claim.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Probable recording-family match, not verified exact pressing/takes, cuts or mastering.",
+            "Original Columbia advertisement indexed text corroborates the1959pairing and MS6062stereo catalogue. Full PDF visual retrieval was unavailable; no claim of an inspected advertisement image.",
+            "BNF alternative has different internal movement boundaries; no cross-edition durations or credits were borrowed.",
+            "Sony original-jacket work fields and per-track performer/composer declarations are the actual binding evidence; no catalogue-wide alias was added."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Konzert Für Violine Und Orchester D-dur, Op. 35",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  67018860,
+                  67018861,
+                  67018862
+                ]
+              },
+              {
+                "target": "Konzert Für Violine Und Orchester E-moll, Op. 64",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  67018857,
+                  67018858,
+                  67018859
+                ]
+              }
+            ]
+          },
+          "recording_review": "The cached Sony Original Jacket Collection contains both complete concertos on disc6: three movements each, Stern/Ormandy/Philadelphia positively credited on every selected track and the correct composer explicitly credited per work. Bind the bare movement titles to their exact work fields. The CBS stereo reissue and Sony original-jacket pairing support the recording family; no exact pressing/take claim.",
+          "review_sources": [
+            "https://www.discogs.com/release/6686688",
+            "https://www.worldradiohistory.com/Archive-All-Music/Billboard/50s/1959/Billboard%201959-08-03a.pdf"
+          ]
+        },
         {
           "id": "3610153730807",
           "name": "Mendelssohn: Concerto pour violon et orchestre in E Minor, Op. 64",
@@ -9011,44 +9145,6 @@
             "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
           ],
           "work_group_policy": "qobuz-work-groups-v1"
-        },
-        {
-          "id": "t7d2fmiz1x5ba",
-          "name": "The Original Jacket Collection - Eugene Ormandy",
-          "artists": [
-            "Eugene Ormandy"
-          ],
-          "label": "Sony Classical",
-          "release_date": "2008-06-24",
-          "image": "https://static.qobuz.com/images/covers/ba/x5/t7d2fmiz1x5ba_230.jpg",
-          "url": "https://www.qobuz.com/fr-fr/album/the-original-jacket-collection-eugene-ormandy-eugene-ormandy/t7d2fmiz1x5ba",
-          "status": "unchecked",
-          "confidence": null,
-          "coverage": 0.0,
-          "covered": 0,
-          "target_count": 2,
-          "required_performers": [
-            "Eugene Ormandy",
-            "Isaac Stern",
-            "The Philadelphia Orchestra"
-          ],
-          "programme": [
-            {
-              "target": "Konzert Für Violine Und Orchester D-dur, Op. 35",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Konzert Für Violine Und Orchester E-moll, Op. 64",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ],
-          "reasons": [
-            "0/2 target items supported after composer/work grouping; unresolved."
-          ]
         },
         {
           "id": "tiuvdyxyr9bub",
@@ -9168,8 +9264,13 @@
       "query": "eugene ormandy bartholdy konzert fur violine und orchester",
       "searched_at": "2026-11-12T14:43:46.351858+00:00",
       "reasons": [
-        "1/2 target items supported after composer/work grouping; unresolved.",
-        "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
+        "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+        "The cached Sony Original Jacket Collection contains both complete concertos on disc6: three movements each, Stern/Ormandy/Philadelphia positively credited on every selected track and the correct composer explicitly credited per work. Bind the bare movement titles to their exact work fields. The CBS stereo reissue and Sony original-jacket pairing support the recording family; no exact pressing/take claim.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Probable recording-family match, not verified exact pressing/takes, cuts or mastering.",
+        "Original Columbia advertisement indexed text corroborates the1959pairing and MS6062stereo catalogue. Full PDF visual retrieval was unavailable; no claim of an inspected advertisement image.",
+        "BNF alternative has different internal movement boundaries; no cross-edition durations or credits were borrowed.",
+        "Sony original-jacket work fields and per-track performer/composer declarations are the actual binding evidence; no catalogue-wide alias was added."
       ]
     },
     "2939272": {
@@ -11289,7 +11390,15 @@
             }
           ],
           "reasons": [
+            "The source has13physical works under three headings, not16independent works. Forty Partita movements have explicit BWV work fields; all seven Toccatas are cached. BWV914occurs twice:519seconds on disc17and516on disc67; source8:36and VolII favour the latter but timing alone is not take identity. The official Gould discography confirms the late VolIIprogramme; safe catalogue-range/container validation and source-box/edition corroboration are still required. Source-image retrieval was unavailable(Discogs image HTTP403); no Qobuz calls were made.",
+            "This is a candidate-specific review, not catalogue-wide absence or a rejection of every possible edition.",
+            "No raw source, normalized collection, Spotify labels or global credit/threshold policy changed.",
             "8/16 target items supported after composer/work grouping; unresolved."
+          ],
+          "recording_review_decision": "withhold",
+          "recording_review": "The source has13physical works under three headings, not16independent works. Forty Partita movements have explicit BWV work fields; all seven Toccatas are cached. BWV914occurs twice:519seconds on disc17and516on disc67; source8:36and VolII favour the latter but timing alone is not take identity. The official Gould discography confirms the late VolIIprogramme; safe catalogue-range/container validation and source-box/edition corroboration are still required. Source-image retrieval was unavailable(Discogs image HTTP403); no Qobuz calls were made.",
+          "review_sources": [
+            "https://www.discogs.com/release/22222342"
           ]
         },
         {
@@ -11418,6 +11527,9 @@
       "query": "glenn gould bach partitas toccatas",
       "searched_at": "2026-11-12T14:48:01.517959+00:00",
       "reasons": [
+        "The source has13physical works under three headings, not16independent works. Forty Partita movements have explicit BWV work fields; all seven Toccatas are cached. BWV914occurs twice:519seconds on disc17and516on disc67; source8:36and VolII favour the latter but timing alone is not take identity. The official Gould discography confirms the late VolIIprogramme; safe catalogue-range/container validation and source-box/edition corroboration are still required. Source-image retrieval was unavailable(Discogs image HTTP403); no Qobuz calls were made.",
+        "This is a candidate-specific review, not catalogue-wide absence or a rejection of every possible edition.",
+        "No raw source, normalized collection, Spotify labels or global credit/threshold policy changed.",
         "8/16 target items supported after composer/work grouping; unresolved."
       ]
     },
@@ -16984,10 +17096,18 @@
             }
           ],
           "reasons": [
+            "Warner track66036548 has no performers declaration. The cached Casta Diva alternative njqf4yj9ms02b has all nine arias and positive singer/conductor/orchestra credits, with the last two arias reordered. Its Album of1953 marker is not independent proof of the original Columbia33CX1069transfer or session identity; recitative/act/title discrepancies remain explicit.",
+            "This is a candidate-specific review, not catalogue-wide absence or a rejection of every possible edition.",
+            "No raw source, normalized collection, Spotify labels or global credit/threshold policy changed.",
             "5/9 target items supported after composer/work grouping; unresolved.",
             "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
           ],
-          "work_group_policy": "qobuz-work-groups-v1"
+          "work_group_policy": "qobuz-work-groups-v1",
+          "recording_review_decision": "withhold",
+          "recording_review": "Warner track66036548 has no performers declaration. The cached Casta Diva alternative njqf4yj9ms02b has all nine arias and positive singer/conductor/orchestra credits, with the last two arias reordered. Its Album of1953 marker is not independent proof of the original Columbia33CX1069transfer or session identity; recitative/act/title discrepancies remain explicit.",
+          "review_sources": [
+            "https://www.discogs.com/release/2628957"
+          ]
         },
         {
           "id": "njqf4yj9ms02b",
@@ -17083,6 +17203,9 @@
       "query": "john pritchard mozart operatic arias",
       "searched_at": "2026-11-12T14:56:17.633311+00:00",
       "reasons": [
+        "Warner track66036548 has no performers declaration. The cached Casta Diva alternative njqf4yj9ms02b has all nine arias and positive singer/conductor/orchestra credits, with the last two arias reordered. Its Album of1953 marker is not independent proof of the original Columbia33CX1069transfer or session identity; recitative/act/title discrepancies remain explicit.",
+        "This is a candidate-specific review, not catalogue-wide absence or a rejection of every possible edition.",
+        "No raw source, normalized collection, Spotify labels or global credit/threshold policy changed.",
         "5/9 target items supported after composer/work grouping; unresolved.",
         "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
       ]
@@ -74246,14 +74369,133 @@
       ]
     },
     "7002243": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "vrg5q0y8vzvaa",
+        "name": "Beethoven: The 9 Symphonies & Overtures (Remastered)",
+        "artists": [
+          "Otto Klemperer"
+        ],
+        "label": "Warner Classics",
+        "release_date": "2025-09-22",
+        "image": "https://static.qobuz.com/images/covers/aa/zv/vrg5q0y8vzvaa_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/beethoven-the-9-symphonies-overtures-remastered-otto-klemperer/vrg5q0y8vzvaa"
+      },
+      "candidates": [
+        {
+          "id": "vrg5q0y8vzvaa",
+          "name": "Beethoven: The 9 Symphonies & Overtures (Remastered)",
+          "artists": [
+            "Otto Klemperer"
+          ],
+          "label": "Warner Classics",
+          "release_date": "2025-09-22",
+          "image": "https://static.qobuz.com/images/covers/aa/zv/vrg5q0y8vzvaa_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/beethoven-the-9-symphonies-overtures-remastered-otto-klemperer/vrg5q0y8vzvaa",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 2,
+          "target_count": 2,
+          "required_performers": [
+            "Philharmonia Orchestra"
+          ],
+          "programme": [
+            {
+              "target": "Sinfonia N. 3 In Mi Bemolle Maggiore, Op. 55 \"Eroica\"",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                353969771,
+                353969772,
+                353969773,
+                353969774
+              ]
+            },
+            {
+              "target": "Fidelio Overture Op. 72b In Mi Maggiore",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                353969812
+              ]
+            }
+          ],
+          "reasons": [
+            "Each target item has supporting work and performer credits.",
+            "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+            "The original cover names Klemperer/Philharmonia and Eroica/Fidelio. The cached Warner cycle contains all four Eroica movements and the Fidelio overture with positive Klemperer/Philharmonia/Beethoven credits. Source Op72b conflicts with its explicit Fidelio/Emajor title; a hash-bound local title correction selects Fidelio Op72, never LeonoreIII Op72b. All five durations are within3%of saved source durations.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Probable recording-family match, not verified exact LP pressing/take/mastering.",
+            "The original source Op72b wording remains unchanged; its Fidelio title/Emajor key identify the overture locally. LeonoreIII Op72b is deliberately excluded.",
+            "Cover does not independently establish a recording session; close durations and publisher stereo-family corroboration support only the bounded family inference."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Sinfonia N. 3 In Mi Bemolle Maggiore, Op. 55 \"Eroica\"",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "track_ids": [
+                  353969771,
+                  353969772,
+                  353969773,
+                  353969774
+                ],
+                "scope": "whole-listed-work",
+                "source": "original LP and Warner stereo cycle",
+                "reason": "exact frozen sections"
+              },
+              {
+                "target": "Fidelio Overture Op. 72b In Mi Maggiore",
+                "status": "complete",
+                "expected_movements": [
+                  1
+                ],
+                "observed_movements": [
+                  1
+                ],
+                "track_ids": [
+                  353969812
+                ],
+                "scope": "whole-listed-work",
+                "source": "original LP and Warner stereo cycle",
+                "reason": "exact frozen sections"
+              }
+            ],
+            "overlapping_target_tracks": false
+          },
+          "recording_review": "The original cover names Klemperer/Philharmonia and Eroica/Fidelio. The cached Warner cycle contains all four Eroica movements and the Fidelio overture with positive Klemperer/Philharmonia/Beethoven credits. Source Op72b conflicts with its explicit Fidelio/Emajor title; a hash-bound local title correction selects Fidelio Op72, never LeonoreIII Op72b. All five durations are within3%of saved source durations.",
+          "review_sources": [
+            "https://www.discogs.com/release/7002243",
+            "https://www.warnerclassics.com/release/beethoven-9-symphonies-overtures-remastered"
+          ]
+        }
+      ],
       "query": "philharmonia orchestra beethoven sinfonia n 3 eroica fidelio klemper",
       "searched_at": "2026-11-12T16:01:51.575184+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Each target item has supporting work and performer credits.",
+        "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+        "The original cover names Klemperer/Philharmonia and Eroica/Fidelio. The cached Warner cycle contains all four Eroica movements and the Fidelio overture with positive Klemperer/Philharmonia/Beethoven credits. Source Op72b conflicts with its explicit Fidelio/Emajor title; a hash-bound local title correction selects Fidelio Op72, never LeonoreIII Op72b. All five durations are within3%of saved source durations.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Probable recording-family match, not verified exact LP pressing/take/mastering.",
+        "The original source Op72b wording remains unchanged; its Fidelio title/Emajor key identify the overture locally. LeonoreIII Op72b is deliberately excluded.",
+        "Cover does not independently establish a recording session; close durations and publisher stereo-family corroboration support only the bounded family inference."
       ]
     },
     "10868192": {
@@ -89375,15 +89617,26 @@
             }
           ],
           "reasons": [
+            "The du Pré candidate contains both Haydn concertos, Schumann, Elgar and Dvorak concerto, but not Dvorak Silent Woods Op68. Matching collection/album names do not establish full programme parity. No Silent Woods/Waldesruhe/Klid with du Pré was found in the complete1164-album cache scan.",
+            "This is a candidate-specific review, not catalogue-wide absence or a rejection of every possible edition.",
+            "No raw source, normalized collection, Spotify labels or global credit/threshold policy changed.",
             "3/6 target items supported after composer/work grouping; unresolved.",
             "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
           ],
-          "work_group_policy": "qobuz-work-groups-v1"
+          "work_group_policy": "qobuz-work-groups-v1",
+          "recording_review_decision": "withhold",
+          "recording_review": "The du Pré candidate contains both Haydn concertos, Schumann, Elgar and Dvorak concerto, but not Dvorak Silent Woods Op68. Matching collection/album names do not establish full programme parity. No Silent Woods/Waldesruhe/Klid with du Pré was found in the complete1164-album cache scan.",
+          "review_sources": [
+            "https://www.discogs.com/release/1656511"
+          ]
         }
       ],
       "query": "jacqueline du pre haydn favourite cello concertos",
       "searched_at": "2026-11-12T16:15:52.594790+00:00",
       "reasons": [
+        "The du Pré candidate contains both Haydn concertos, Schumann, Elgar and Dvorak concerto, but not Dvorak Silent Woods Op68. Matching collection/album names do not establish full programme parity. No Silent Woods/Waldesruhe/Klid with du Pré was found in the complete1164-album cache scan.",
+        "This is a candidate-specific review, not catalogue-wide absence or a rejection of every possible edition.",
+        "No raw source, normalized collection, Spotify labels or global credit/threshold policy changed.",
         "3/6 target items supported after composer/work grouping; unresolved.",
         "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
       ]
@@ -99222,10 +99475,18 @@
             }
           ],
           "reasons": [
+            "All ten source marches map in order to BNF3614596596822StereoVersion, with Kurtz/Philharmonia and appropriate composers positively credited; the alternate3614596847115is explicitly MonoVersion. Source notes say Stéréo. No independent transfer/session provenance has been established, and source arrangements name Guiraud and Winter absent from digital declarations. Full programme alone is not exact recording/arrangement proof.",
+            "This is a candidate-specific review, not catalogue-wide absence or a rejection of every possible edition.",
+            "No raw source, normalized collection, Spotify labels or global credit/threshold policy changed.",
             "5/10 target items supported after composer/work grouping; unresolved.",
             "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
           ],
-          "work_group_policy": "qobuz-work-groups-v1"
+          "work_group_policy": "qobuz-work-groups-v1",
+          "recording_review_decision": "withhold",
+          "recording_review": "All ten source marches map in order to BNF3614596596822StereoVersion, with Kurtz/Philharmonia and appropriate composers positively credited; the alternate3614596847115is explicitly MonoVersion. Source notes say Stéréo. No independent transfer/session provenance has been established, and source arrangements name Guiraud and Winter absent from digital declarations. Full programme alone is not exact recording/arrangement proof.",
+          "review_sources": [
+            "https://www.discogs.com/release/20066470"
+          ]
         }
       ],
       "query": "efrem kurtz verdi marches",

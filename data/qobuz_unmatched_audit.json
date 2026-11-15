@@ -21,22 +21,22 @@
     "qobuz_lead_reviews.json": "bc731b95eadb23cb1a13d735a4e7410615ae06f260b2c4a381ed4a29e229265e",
     "qobuz_binding_reviews.json": "eab7d007faef231024862226e943305bd4a4aab65143bd18c45b96b811286b77",
     "qobuz_opera_recording_reviews.json": "6e26d528eb7de78d372635218404a57534332ea1cd3d92e89e90e7a18066f85b",
-    "qobuz_remaining_recording_reviews.json": "afa25018fc237b9d44068854a33c8725f038f4fee1b6957c1ddb71d8e11dc2b0",
+    "qobuz_remaining_recording_reviews.json": "8d50dcb51653845bd777a855200766ef4838837d9381284e5306d1521fb74a27",
     "collection_matches.json": "a214eee877d4749fa957b3d2a293c2925d7ba0621259f2742139a6cd86f928c8",
-    "qobuz_matches.json": "925ce9ca1511ba806156a74b839b3777c5842d724796ef5dcd7a2314ac86c25d",
+    "qobuz_matches.json": "a91d9330e8f973350bd519739c496f26df5cfbca85b9bfb7162b7a3f9f8695c9",
     "qobuz_work_inventory.json": "47b8e955b99c37b132e66daea61590490d249f94a520740d702bec5caa5019ce",
     "qobuz_source_composer_reviews.json": "1cce69d6df99a54b444f6a210d84c5c69b3139eb4ed1355e821708d1fb59b83c",
     "qobuz_source_programme_reviews.json": "5469466141e2816720bf35e6b54abeb18daf3f12bf6fec1b4f9e794da0db098b"
   },
   "summary": {
-    "work_or_credit_unresolved": 397,
+    "work_or_credit_unresolved": 383,
     "metadata_needed": 160,
-    "reviewed_withheld": 28,
+    "reviewed_withheld": 40,
     "recording_review_rejected": 3,
     "no_saved_hits": 6,
     "source_programme_review_needed": 1
   },
-  "unmatched_unique_releases": 595,
+  "unmatched_unique_releases": 593,
   "entries": [
     {
       "discogs_id": "594243",
@@ -4316,7 +4316,7 @@
     {
       "discogs_id": "1656511",
       "title": "Favourite Cello Concertos",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 1,
       "uncached_hits": 0,
       "cached_candidates": [
@@ -4327,7 +4327,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Cello Concerto In D Major, Op. 101",
@@ -15899,7 +15899,7 @@
     {
       "discogs_id": "2628957",
       "title": "Operatic Arias",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 2,
       "uncached_hits": 0,
       "cached_candidates": [
@@ -15910,7 +15910,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Le Nozze Di Figaro (Rec:Giunse Alfin Il Momento,Aria:Deh Vieni,Non Tardar,Act 4)",
@@ -23033,7 +23033,7 @@
     {
       "discogs_id": "3408094",
       "title": "Symphonies 1-10",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 2,
       "uncached_hits": 0,
       "cached_candidates": [
@@ -23044,7 +23044,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Symphonie Nr. 1 D-Dur",
@@ -41946,7 +41946,7 @@
     {
       "discogs_id": "5038376",
       "title": "Petrouchka",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 2,
       "uncached_hits": 0,
       "cached_candidates": [
@@ -41957,7 +41957,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Part 1",
@@ -46827,7 +46827,7 @@
     {
       "discogs_id": "5820114",
       "title": "The Five Piano Concertos",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 5,
       "uncached_hits": 0,
       "cached_candidates": [
@@ -46838,7 +46838,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Concerto No. 1 In C Major, Op. 15",
@@ -65622,134 +65622,6 @@
       ]
     },
     {
-      "discogs_id": "6686688",
-      "title": "Konzert Für Violine Und Orchester",
-      "category": "work_or_credit_unresolved",
-      "saved_hits": 5,
-      "uncached_hits": 0,
-      "cached_candidates": [
-        {
-          "album_id": "3610153730807",
-          "title": "Mendelssohn: Concerto pour violon et orchestre in E Minor, Op. 64",
-          "coverage": 0.5,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Konzert Für Violine Und Orchester D-dur, Op. 35",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Konzert Für Violine Und Orchester E-moll, Op. 64",
-              "work_tracks": 3,
-              "credited_tracks": 3,
-              "track_ids": [
-                14740007,
-                14740009,
-                14740011
-              ]
-            }
-          ]
-        },
-        {
-          "album_id": "5099704654225",
-          "title": "Mendelssohn : Piano Concertos Nos. 1 & 2 and  Violin Concerto, Op. 64",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Konzert Für Violine Und Orchester D-dur, Op. 35",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Konzert Für Violine Und Orchester E-moll, Op. 64",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "o1sxm5s2n7txa",
-          "title": "Mendelssohn & Dvorák: Violin Concertos",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Konzert Für Violine Und Orchester D-dur, Op. 35",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Konzert Für Violine Und Orchester E-moll, Op. 64",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "t7d2fmiz1x5ba",
-          "title": "The Original Jacket Collection - Eugene Ormandy",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Konzert Für Violine Und Orchester D-dur, Op. 35",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Konzert Für Violine Und Orchester E-moll, Op. 64",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "tiuvdyxyr9bub",
-          "title": "Mendelssohn: Violin Concerto, Op. 64 & Spohr: Violin Concerto No. 8 & Paganini: Violin Concerto No. 1",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Konzert Für Violine Und Orchester D-dur, Op. 35",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Konzert Für Violine Und Orchester E-moll, Op. 64",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        }
-      ]
-    },
-    {
       "discogs_id": "6711178",
       "title": "Partita N. 6 BWV 830; Preludi E Fughe BWV 877 E 853",
       "category": "metadata_needed",
@@ -68204,277 +68076,6 @@
       ]
     },
     {
-      "discogs_id": "7002243",
-      "title": "Sinfonia N. 3 \"Eroica\", Fidelio - Klemper",
-      "category": "work_or_credit_unresolved",
-      "saved_hits": 10,
-      "uncached_hits": 0,
-      "cached_candidates": [
-        {
-          "album_id": "0724356774056",
-          "title": "Beethoven: Symphony No. 3 \"Eroica\" - Overtures: \"Leonore\" Nos. 1 & 2",
-          "coverage": 0.5,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Sinfonia N. 3 In Mi Bemolle Maggiore, Op. 55 \"Eroica\"",
-              "work_tracks": 4,
-              "credited_tracks": 4,
-              "track_ids": [
-                4675079,
-                4675080,
-                4675081,
-                4675082
-              ]
-            },
-            {
-              "target": "Fidelio Overture Op. 72b In Mi Maggiore",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "3610155313794",
-          "title": "Beethoven: Symphonie No. 3, Op. 55 \"Héroïque\"",
-          "coverage": 0.5,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Sinfonia N. 3 In Mi Bemolle Maggiore, Op. 55 \"Eroica\"",
-              "work_tracks": 4,
-              "credited_tracks": 4,
-              "track_ids": [
-                15371276,
-                15371278,
-                15371280,
-                15371282
-              ]
-            },
-            {
-              "target": "Fidelio Overture Op. 72b In Mi Maggiore",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "3610155779583",
-          "title": "Beethoven: Symphonie No. 3, Op. 55 \"Héroïque\" ",
-          "coverage": 0.5,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Sinfonia N. 3 In Mi Bemolle Maggiore, Op. 55 \"Eroica\"",
-              "work_tracks": 4,
-              "credited_tracks": 4,
-              "track_ids": [
-                15627010,
-                15627012,
-                15627014,
-                15627016
-              ]
-            },
-            {
-              "target": "Fidelio Overture Op. 72b In Mi Maggiore",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "5099951586355",
-          "title": "Beethoven : Symphonies Nos. 1-9 ",
-          "coverage": 0.5,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Sinfonia N. 3 In Mi Bemolle Maggiore, Op. 55 \"Eroica\"",
-              "work_tracks": 4,
-              "credited_tracks": 4,
-              "track_ids": [
-                1758995,
-                1758999,
-                1759003,
-                1759007
-              ]
-            },
-            {
-              "target": "Fidelio Overture Op. 72b In Mi Maggiore",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "a66byhbf6px6b",
-          "title": "Beethoven, L. Van: Symphony No. 3, \"Eroica\" / Leonore Overtures Nos. 1, 3 (Philharmonia Orchestra, Klemperer) (1954-1955)",
-          "coverage": 0.5,
-          "status": "unchecked",
-          "completeness": "incomplete",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Sinfonia N. 3 In Mi Bemolle Maggiore, Op. 55 \"Eroica\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Fidelio Overture Op. 72b In Mi Maggiore",
-              "work_tracks": 1,
-              "credited_tracks": 1,
-              "track_ids": [
-                306223097
-              ]
-            }
-          ]
-        },
-        {
-          "album_id": "elolizhit6rma",
-          "title": "Ludwig van Beethoven: Symphony No. 3 in E-Flat Major, Op. 55 'Eroica' (1961)",
-          "coverage": 0.5,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Sinfonia N. 3 In Mi Bemolle Maggiore, Op. 55 \"Eroica\"",
-              "work_tracks": 4,
-              "credited_tracks": 4,
-              "track_ids": [
-                169098109,
-                169098110,
-                169098111,
-                169098112
-              ]
-            },
-            {
-              "target": "Fidelio Overture Op. 72b In Mi Maggiore",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "sntro0ghe5t1b",
-          "title": "Beethoven: Symphonies Nos. 1 & 3 \"Eroica\" (Remastered 2023)",
-          "coverage": 0.5,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Sinfonia N. 3 In Mi Bemolle Maggiore, Op. 55 \"Eroica\"",
-              "work_tracks": 4,
-              "credited_tracks": 4,
-              "track_ids": [
-                212662065,
-                212662066,
-                212662067,
-                212662068
-              ]
-            },
-            {
-              "target": "Fidelio Overture Op. 72b In Mi Maggiore",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "d859kivo5v2ta",
-          "title": "BEETHOVEN: SYMPHONY No. 3 \"EROICA\", SYMPHONY No. 1; BRUCKNER: SYMPHONY No. 4 \"ROMANTIC\"",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "incomplete",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Sinfonia N. 3 In Mi Bemolle Maggiore, Op. 55 \"Eroica\"",
-              "work_tracks": 4,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Fidelio Overture Op. 72b In Mi Maggiore",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "isfqpdvmt19ib",
-          "title": "BEETHOVEN: SYMPHONY No. 1; SYMPHONY No. 3 \"EROICA\"",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "incomplete",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Sinfonia N. 3 In Mi Bemolle Maggiore, Op. 55 \"Eroica\"",
-              "work_tracks": 4,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Fidelio Overture Op. 72b In Mi Maggiore",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "lcxf8rraxxmyb",
-          "title": "Beethoven - Sympony No.3 in E-Flat Major, Op. 55 \"Eroica\"",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "incomplete",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Sinfonia N. 3 In Mi Bemolle Maggiore, Op. 55 \"Eroica\"",
-              "work_tracks": 4,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Fidelio Overture Op. 72b In Mi Maggiore",
-              "work_tracks": 1,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        }
-      ]
-    },
-    {
       "discogs_id": "7057910",
       "title": "Concertos № 6 En Si Bemol Majeur, K.238; № 26 En Re Majeuneur, K.537 \"Le Couronnement\"",
       "category": "metadata_needed",
@@ -69801,7 +69402,7 @@
     {
       "discogs_id": "7248321",
       "title": "Symphonie N°40 En Sol Mineur, K. 550 / Concerto N°21 En Ut Majeur, K. 467",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 9,
       "uncached_hits": 7,
       "cached_candidates": [
@@ -69812,7 +69413,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Symphonie N°40 En Sol Mineur, K. 550",
@@ -77728,7 +77329,7 @@
     {
       "discogs_id": "8252155",
       "title": "Messen",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 2,
       "uncached_hits": 0,
       "cached_candidates": [
@@ -77739,7 +77340,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Messe g-moll, BWV 235",
@@ -101605,7 +101206,7 @@
     {
       "discogs_id": "12690141",
       "title": "Symphonie N°2 En Ré Majeur, Op 36 (2eme disque)",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 10,
       "uncached_hits": 8,
       "cached_candidates": [
@@ -101616,7 +101217,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Adagio Molto - Allegro Con Brio",
@@ -114987,7 +114588,7 @@
     {
       "discogs_id": "18963583",
       "title": "Symphony No. 8 / Academic Festival Overture",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 10,
       "uncached_hits": 8,
       "cached_candidates": [
@@ -114998,7 +114599,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Symphony No. 8 In G, Op. 88",
@@ -115569,7 +115170,7 @@
     {
       "discogs_id": "20066470",
       "title": "Marches",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 2,
       "uncached_hits": 0,
       "cached_candidates": [
@@ -115580,7 +115181,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Grand March (From \"Aida\", Act 2)",
@@ -116313,7 +115914,7 @@
     {
       "discogs_id": "20588539",
       "title": "Symphonie N°4 en Si ♭ Majeur Op.60 - Egmont Op.84 Ouverture et Musique de Scène - (4ème Disque)",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 10,
       "uncached_hits": 5,
       "cached_candidates": [
@@ -116324,7 +115925,7 @@
           "status": "unchecked",
           "completeness": "incomplete",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Symphonie N°4 En Si Bémol Majeur Op. 60",
@@ -116539,7 +116140,7 @@
     {
       "discogs_id": "22222342",
       "title": "Partitas ・ Toccatas",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 2,
       "uncached_hits": 0,
       "cached_candidates": [
@@ -116550,7 +116151,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Partiten Nr. 1 - 6   BWV 825 - 830",
