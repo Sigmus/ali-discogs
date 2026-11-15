@@ -476,3 +476,15 @@ full performer checks and explicit recording-family evidence remain mandatory.
 No generic parser change, source rewrite, inferred missing band or joined-section
 exception. Schnabel4694861is the first bounded use; frozen IDs prohibit borrowing
 a similar movement from another sonata.
+
+
+### 2026-11-15 — Complete single named vocal work
+
+Adopted within the authorized23cached reviews: a hash-bound complete Passion or
+single opera may require each named source singer/choir within that work rather
+than every recitative. Conductor/orchestra and explicit composer/conductor roles
+remain positive on every track. All raw musical source names, full programme,
+frozen track groups and external recording-family proof are mandatory. No credits
+borrowed across operas; no inferred LP-side audio cuts, exact takes or pressing.
+Only the two reviewed source forms are implemented; unsupported forms fail closed.
+[Batch and limits](../plans/2026-11-15-qobuz-secondary23.md).

@@ -1,17 +1,16 @@
 {
   "schema_version": 1,
   "reviewed_on": "2026-11-15",
-  "population": "380 unique releases currently categorized work_or_credit_unresolved",
+  "population": "357 unique releases currently categorized work_or_credit_unresolved",
   "rules": {
     "priority_review": "Unheld cached candidate supports >=50% of current source units; known/reviewed blockers excluded.",
     "secondary_partial_lead": "Some current support, below50%; known/reviewed blockers excluded.",
     "known_constraint": "Previously documented transfer, source-composer or credit-policy constraint.",
-    "reviewed_blocker": "Already inspected in the frozen14batch; no automatic return to the open queue.",
+    "reviewed_blocker": "Completed recording review with a saved decision; no automatic return to the open queue.",
     "no_current_supported_units": "No unheld cached candidate supports a source unit under current rules."
   },
   "counts": {
     "known_constraint": 3,
-    "secondary_partial_lead": 23,
     "no_current_supported_units": 354
   },
   "entries": [
@@ -44,190 +43,6 @@
       "uncached_hits": 0,
       "constraint": "Credit exception remains an unadopted proposal",
       "evidence": "docs/plans/2026-11-13-bitches-brew-credits.md"
-    },
-    {
-      "discogs_id": "12419718",
-      "title": "Chopin",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "5099945535758",
-      "supported_source_unit_fraction": 0.4444444444444444,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "15263974",
-      "title": "Liszt",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "0002894796347",
-      "supported_source_unit_fraction": 0.3333333333333333,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "22065910",
-      "title": "Psyché / Le Chasseur Maudit / Rédemption",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "3614596892627",
-      "supported_source_unit_fraction": 0.3333333333333333,
-      "uncached_hits": 5
-    },
-    {
-      "discogs_id": "4300898",
-      "title": "The Four Orchestral Suites",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "0074644554724",
-      "supported_source_unit_fraction": 0.25,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "22663367",
-      "title": "Royal Firework's Music",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "0809274868565",
-      "supported_source_unit_fraction": 0.25,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "6364992",
-      "title": "Instruments Of The Middle Ages And Renaissance",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "0094638581154",
-      "supported_source_unit_fraction": 0.22784810126582278,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "7070218",
-      "title": "L'Arte Pianistica Di Michelangeli Volume 1",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "em5xnhyyjy2zb",
-      "supported_source_unit_fraction": 0.2,
-      "uncached_hits": 8
-    },
-    {
-      "discogs_id": "17623039",
-      "title": "Les Quatre Saisons",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "0002894429933",
-      "supported_source_unit_fraction": 0.2,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "6257908",
-      "title": "A Lieder Recital",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "5099991845955",
-      "supported_source_unit_fraction": 0.1875,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "1216294",
-      "title": "Die Walküre Act 3 / Todesverkündigung From Act 2",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "phkjj6cnlzhva",
-      "supported_source_unit_fraction": 0.16666666666666666,
-      "uncached_hits": 1
-    },
-    {
-      "discogs_id": "2808874",
-      "title": "Album II",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "5099963182750",
-      "supported_source_unit_fraction": 0.16666666666666666,
-      "uncached_hits": 2
-    },
-    {
-      "discogs_id": "34776194",
-      "title": "Au Conservatoire De Moscou - Œuvres De Chopin, Mendelssohn, Schumann, Liszt, De Falla Et Prokofiev",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "3614979172957",
-      "supported_source_unit_fraction": 0.15,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "7095769",
-      "title": "Otello",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "3610155657881",
-      "supported_source_unit_fraction": 0.14285714285714285,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "13927062",
-      "title": "Polonaises-Valses- Concerto N° 1:Rubinstein",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "3610154893341",
-      "supported_source_unit_fraction": 0.13043478260869565,
-      "uncached_hits": 4
-    },
-    {
-      "discogs_id": "4073133",
-      "title": "Getz / Gilberto",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "np5innplc97oa",
-      "supported_source_unit_fraction": 0.125,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "4256464",
-      "title": "Der Ring Des Nibelungen",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "qs49hef2mbbsb",
-      "supported_source_unit_fraction": 0.125,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "13538423",
-      "title": "The Moldau",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "0002894272162",
-      "supported_source_unit_fraction": 0.1111111111111111,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "25537708",
-      "title": "St Matthew Passion",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "im58goh9638bc",
-      "supported_source_unit_fraction": 0.1,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "6534486",
-      "title": "Adam Harasiewicz Spielt Chopin",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "br8tr8tnwpluc",
-      "supported_source_unit_fraction": 0.08403361344537816,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "4694929",
-      "title": "The Complete Beethoven Society Recordings, 1932–37 / Vol. 5: Variations And Short Pieces",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "0190295866983",
-      "supported_source_unit_fraction": 0.08333333333333333,
-      "uncached_hits": 6
-    },
-    {
-      "discogs_id": "12977198",
-      "title": "Volume 1",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "8717278729329",
-      "supported_source_unit_fraction": 0.06944444444444445,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "1989694",
-      "title": "Das Rheingold",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "tlofaehjdqwbb",
-      "supported_source_unit_fraction": 0.06451612903225806,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "4268630",
-      "title": "Das Rheingold",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "tlofaehjdqwbb",
-      "supported_source_unit_fraction": 0.045454545454545456,
-      "uncached_hits": 0
     },
     {
       "discogs_id": "594243",
@@ -3062,5 +2877,5 @@
       "uncached_hits": 0
     }
   ],
-  "inventory_sha256": "52e0a345e0c89a0fdbdb82ca7dbbd52f9ae2342bb8d079293d3c93a5113a6ac4"
+  "inventory_sha256": "7e195335c379d4cfe32329c5e609f1ae3cf098d80f48bfa4ea81f3da67c543b7"
 }

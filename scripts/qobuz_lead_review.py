@@ -59,6 +59,9 @@ def assess(row, album, review):
     if review.get('source_sha256') is not None and hashlib.sha256((ROOT/f"raw/discogs/releases/{review['discogs_id']}.json").read_bytes()).hexdigest() != review['source_sha256']:
         raise ValueError('Reviewed source changed; review recording evidence again')
     validate_external_sources(review)
+    if review.get('review_kind') == 'source-vocal-programme':
+        from qobuz_vocal_programme_review import assess_vocal_programme
+        return assess_vocal_programme(row, album, review)
     if review.get('review_kind') == 'source-heading-movements':
         from qobuz_heading_movements_review import assess_heading_movements
         return assess_heading_movements(row, album, review)
@@ -107,12 +110,15 @@ def assess(row, album, review):
         flattened = [title for group in groups for title in group['source_titles']]
         if corrections or flattened != titles or len(set(flattened)) != len(flattened) or any(not group['source_titles'] or not group['canonical_title'] for group in groups) or len({g['canonical_title'] for g in groups}) != len(groups):
             raise ValueError('Ambiguous or incomplete reviewed target grouping')
+        if any(g.get('display_source_title', g['source_titles'][0]) not in g['source_titles'] for g in groups):
+            raise ValueError('Reviewed display title must be a preserved source member')
         effective = deepcopy(row)
         effective['tracklist'] = [{'title': g['canonical_title'], 'type': 'index'} for g in groups]
         effective['_reviewed_title_sources'] = {g['canonical_title']: g['source_titles'][0] for g in groups}
         evidence = evaluate(effective, album)
+        display = {g['canonical_title']: g.get('display_source_title', g['source_titles'][0]) for g in groups}
         for item in evidence['programme']:
-            item['target'] = effective['_reviewed_title_sources'].get(item['target'], item['target'])
+            item['target'] = display.get(item['target'], item['target'])
     elif corrections:
         from copy import deepcopy
         from qobuz_match import units

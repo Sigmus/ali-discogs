@@ -2049,3 +2049,17 @@ an automatic extension of the accepted waltz-cycle review.
 At user request, pushed main from cf7f263 through73b13db (11commits), including
 the14priority batch and26secondary reassessments with five new Probable matches.
 Git confirmed the remote update. Pages deployment has not been verified.
+
+
+### 2026-11-15 — Finished all23secondary recording reviews
+
+Completed4Probable/18withheld/1wrong-recording rejection using cached metadata and
+saved publisher evidence, with no new Qobuz calls. Janis34776194,Klemperer2808874,
+StMatthew25537708andOtello7095769are the only label changes. Added bounded complete
+single-vocal-work validation preserving all raw source singers/choir; exact LP-side
+audio cuts/takes remain unverified. Frozen alternatives/blockers in the
+[23-case results](../plans/2026-11-15-qobuz-secondary23.md).231script tests, offline
+23validator, normalization/static build and local Passion/Janis detail checks pass.
+Collection/Spotify unchanged.12Found/142Probable/587Unchecked copies; no remaining
+priority/secondary leads.357work/credit,160metadata-needed,58holds,4recording
+rejections,6empty and1source hold remain unique. No push/deployment.

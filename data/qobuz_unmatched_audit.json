@@ -21,22 +21,22 @@
     "qobuz_lead_reviews.json": "bc731b95eadb23cb1a13d735a4e7410615ae06f260b2c4a381ed4a29e229265e",
     "qobuz_binding_reviews.json": "eab7d007faef231024862226e943305bd4a4aab65143bd18c45b96b811286b77",
     "qobuz_opera_recording_reviews.json": "6e26d528eb7de78d372635218404a57534332ea1cd3d92e89e90e7a18066f85b",
-    "qobuz_remaining_recording_reviews.json": "350fb996288bf45bae8a1f3ad7b355b56c441429c10261a6bc86b789f7f10be8",
+    "qobuz_remaining_recording_reviews.json": "0f14e5e71d093d0e3b4c71287922655f67c5f2f7c2cbae7a8cd7bf501f6ce536",
     "collection_matches.json": "a214eee877d4749fa957b3d2a293c2925d7ba0621259f2742139a6cd86f928c8",
-    "qobuz_matches.json": "2bc8076352593983556aa231c2c17b6e26fcce1f5fb927d72d3c7f584424281a",
+    "qobuz_matches.json": "e38bf16e147c81066d75a0822bb0d3495347489888688c41b3748b9a073ad359",
     "qobuz_work_inventory.json": "47b8e955b99c37b132e66daea61590490d249f94a520740d702bec5caa5019ce",
     "qobuz_source_composer_reviews.json": "1cce69d6df99a54b444f6a210d84c5c69b3139eb4ed1355e821708d1fb59b83c",
     "qobuz_source_programme_reviews.json": "5469466141e2816720bf35e6b54abeb18daf3f12bf6fec1b4f9e794da0db098b"
   },
   "summary": {
-    "work_or_credit_unresolved": 380,
+    "work_or_credit_unresolved": 357,
+    "reviewed_withheld": 58,
     "metadata_needed": 160,
-    "reviewed_withheld": 40,
-    "recording_review_rejected": 3,
+    "recording_review_rejected": 4,
     "no_saved_hits": 6,
     "source_programme_review_needed": 1
   },
-  "unmatched_unique_releases": 590,
+  "unmatched_unique_releases": 586,
   "entries": [
     {
       "discogs_id": "594243",
@@ -1649,7 +1649,7 @@
     {
       "discogs_id": "1216294",
       "title": "Die Walküre Act 3 / Todesverkündigung From Act 2",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 7,
       "uncached_hits": 1,
       "cached_candidates": [
@@ -1936,7 +1936,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Die Walküre - Act 3",
@@ -5537,7 +5537,7 @@
     {
       "discogs_id": "1989694",
       "title": "Das Rheingold",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 5,
       "uncached_hits": 0,
       "cached_candidates": [
@@ -5548,7 +5548,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Das Rheingold",
@@ -16496,158 +16496,6 @@
       "saved_hits": 6,
       "uncached_hits": 6,
       "cached_candidates": []
-    },
-    {
-      "discogs_id": "2808874",
-      "title": "Album II",
-      "category": "work_or_credit_unresolved",
-      "saved_hits": 5,
-      "uncached_hits": 2,
-      "cached_candidates": [
-        {
-          "album_id": "5099963182750",
-          "title": "Wagner: Extraits orchestraux",
-          "coverage": 0.16666666666666666,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Lohengrin - Prélude De L'Acte III",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Les Maîtres Chanteurs De Nuremberg - Ouverture",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Siegfried Idyll",
-              "work_tracks": 1,
-              "credited_tracks": 1,
-              "track_ids": [
-                2319844
-              ]
-            },
-            {
-              "target": "Tristan Et Isolde - Prélude Et Mort D'Isolde",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Le Crépuscule Des Dieux - Acte III : Marche Funèbre",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Les Maîtres Chanteurs De Nuremberg - Acte III : Danse Des Apprentis Et Entrée Des Maîtres",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "0190295771539",
-          "title": "Richard Wagner : Der fliegende Holländer",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Lohengrin - Prélude De L'Acte III",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Les Maîtres Chanteurs De Nuremberg - Ouverture",
-              "work_tracks": 1,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Siegfried Idyll",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Tristan Et Isolde - Prélude Et Mort D'Isolde",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Le Crépuscule Des Dieux - Acte III : Marche Funèbre",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Les Maîtres Chanteurs De Nuremberg - Acte III : Danse Des Apprentis Et Entrée Des Maîtres",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "m9u4tuh82pbqa",
-          "title": "Wagner Ride of the Valkyries - Mozart, Beethoven, Bach, Mendelssohn",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Lohengrin - Prélude De L'Acte III",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Les Maîtres Chanteurs De Nuremberg - Ouverture",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Siegfried Idyll",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Tristan Et Isolde - Prélude Et Mort D'Isolde",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Le Crépuscule Des Dieux - Acte III : Marche Funèbre",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Les Maîtres Chanteurs De Nuremberg - Acte III : Danse Des Apprentis Et Entrée Des Maîtres",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        }
-      ]
     },
     {
       "discogs_id": "2819374",
@@ -28542,7 +28390,7 @@
     {
       "discogs_id": "4073133",
       "title": "Getz / Gilberto",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 5,
       "uncached_hits": 0,
       "cached_candidates": [
@@ -28868,7 +28716,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "The Girl From Ipanema",
@@ -29862,7 +29710,7 @@
     {
       "discogs_id": "4256464",
       "title": "Der Ring Des Nibelungen",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 5,
       "uncached_hits": 0,
       "cached_candidates": [
@@ -29873,7 +29721,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Vorabend",
@@ -30385,7 +30233,7 @@
     {
       "discogs_id": "4268630",
       "title": "Das Rheingold",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 5,
       "uncached_hits": 0,
       "cached_candidates": [
@@ -30396,7 +30244,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Weia! Waga! Woge! Du Wellen",
@@ -36872,7 +36720,7 @@
     {
       "discogs_id": "4300898",
       "title": "The Four Orchestral Suites",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 5,
       "uncached_hits": 0,
       "cached_candidates": [
@@ -36920,7 +36768,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Suite No. 1 In C Major, BWV 1066",
@@ -39176,7 +39024,7 @@
     {
       "discogs_id": "4694929",
       "title": "The Complete Beethoven Society Recordings, 1932–37 / Vol. 5: Variations And Short Pieces",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 7,
       "uncached_hits": 6,
       "cached_candidates": [
@@ -39187,7 +39035,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Thirty-Three Variations On A Waltz By Diabelli, Op. 120 (Beginning)",
@@ -48329,7 +48177,7 @@
     {
       "discogs_id": "6257908",
       "title": "A Lieder Recital",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 1,
       "uncached_hits": 0,
       "cached_candidates": [
@@ -48340,7 +48188,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Bist Du Bei Mir",
@@ -49824,7 +49672,7 @@
     {
       "discogs_id": "6364992",
       "title": "Instruments Of The Middle Ages And Renaissance",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 1,
       "uncached_hits": 0,
       "cached_candidates": [
@@ -49835,7 +49683,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "The Middle Ages: Woodwind",
@@ -52138,7 +51986,7 @@
     {
       "discogs_id": "6534486",
       "title": "Adam Harasiewicz Spielt Chopin",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 7,
       "uncached_hits": 0,
       "cached_candidates": [
@@ -52149,7 +51997,7 @@
           "status": "unchecked",
           "completeness": "incomplete",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Impromptus",
@@ -67506,7 +67354,7 @@
     {
       "discogs_id": "7070218",
       "title": "L'Arte Pianistica Di Michelangeli Volume 1",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 9,
       "uncached_hits": 8,
       "cached_candidates": [
@@ -67517,7 +67365,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Sonata In Do Maggiore",
@@ -67571,282 +67419,6 @@
       "saved_hits": 10,
       "uncached_hits": 10,
       "cached_candidates": []
-    },
-    {
-      "discogs_id": "7095769",
-      "title": "Otello",
-      "category": "work_or_credit_unresolved",
-      "saved_hits": 5,
-      "uncached_hits": 0,
-      "cached_candidates": [
-        {
-          "album_id": "3610155657881",
-          "title": "Verdi: Otello",
-          "coverage": 0.14285714285714285,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Act 1 (Part 1)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Act 1 (Part 2)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Act 2 (Part 1)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Act 2 (Part 2)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Act 3 (Part 1)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Act 3 (Part 2)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Act 4",
-              "work_tracks": 2,
-              "credited_tracks": 1,
-              "track_ids": [
-                15429194
-              ]
-            }
-          ]
-        },
-        {
-          "album_id": "0002894116182",
-          "title": "Verdi: Otello",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Act 1 (Part 1)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Act 1 (Part 2)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Act 2 (Part 1)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Act 2 (Part 2)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Act 3 (Part 1)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Act 3 (Part 2)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Act 4",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "0002894402452",
-          "title": "Verdi: Otello",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Act 1 (Part 1)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Act 1 (Part 2)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Act 2 (Part 1)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Act 2 (Part 2)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Act 3 (Part 1)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Act 3 (Part 2)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Act 4",
-              "work_tracks": 8,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "0002894759984",
-          "title": "Verdi: Otello",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Act 1 (Part 1)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Act 1 (Part 2)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Act 2 (Part 1)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Act 2 (Part 2)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Act 3 (Part 1)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Act 3 (Part 2)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Act 4",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "yzjf7phoi179a",
-          "title": "Verdi: Otello",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Act 1 (Part 1)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Act 1 (Part 2)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Act 2 (Part 1)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Act 2 (Part 2)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Act 3 (Part 1)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Act 3 (Part 2)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Act 4",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        }
-      ]
     },
     {
       "discogs_id": "7103881",
@@ -99574,7 +99146,7 @@
     {
       "discogs_id": "12419718",
       "title": "Chopin",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 5,
       "uncached_hits": 0,
       "cached_candidates": [
@@ -99585,7 +99157,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Ballade N°4 En Fa Mineur, Op. 52",
@@ -100560,7 +100132,7 @@
     {
       "discogs_id": "12977198",
       "title": "Volume 1",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 2,
       "uncached_hits": 0,
       "cached_candidates": [
@@ -100571,7 +100143,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Debussy",
@@ -104832,7 +104404,7 @@
     {
       "discogs_id": "13538423",
       "title": "The Moldau",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 4,
       "uncached_hits": 0,
       "cached_candidates": [
@@ -104843,7 +104415,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Má Vlast (My Fatherland)",
@@ -105685,7 +105257,7 @@
     {
       "discogs_id": "13927062",
       "title": "Polonaises-Valses- Concerto N° 1:Rubinstein",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 5,
       "uncached_hits": 4,
       "cached_candidates": [
@@ -105696,7 +105268,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Valse N°1 En Mi Bémol Op.18",
@@ -110403,7 +109975,7 @@
     {
       "discogs_id": "15263974",
       "title": "Liszt",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 5,
       "uncached_hits": 0,
       "cached_candidates": [
@@ -110414,7 +109986,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Sonata In Si Minore",
@@ -111990,7 +111562,7 @@
     {
       "discogs_id": "17623039",
       "title": "Les Quatre Saisons",
-      "category": "work_or_credit_unresolved",
+      "category": "recording_review_rejected",
       "saved_hits": 5,
       "uncached_hits": 0,
       "cached_candidates": [
@@ -112532,7 +112104,7 @@
           "coverage": 0.0,
           "status": "unchecked",
           "completeness": "unknown",
-          "reviewed_rejected": false,
+          "reviewed_rejected": true,
           "reviewed_withheld": false,
           "programme": [
             {
@@ -115270,7 +114842,7 @@
     {
       "discogs_id": "22065910",
       "title": "Psyché / Le Chasseur Maudit / Rédemption",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 6,
       "uncached_hits": 5,
       "cached_candidates": [
@@ -115281,7 +114853,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Psyché",
@@ -115561,7 +115133,7 @@
     {
       "discogs_id": "22663367",
       "title": "Royal Firework's Music",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 5,
       "uncached_hits": 0,
       "cached_candidates": [
@@ -115572,7 +115144,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Royal Firework's Music (Musique Pour Un Feu D'Artifice) Version Intégrale Et Originale Pour Instruments A Vent Et Percussions (HWV 351)",
@@ -116702,372 +116274,6 @@
             },
             {
               "target": "\"Egmont\", Op.64 - Musica Da Scena - Ouverture - Die Trommel Gerhuret - Freudvwell Und Leidvoll (Con Birgit Nilsson, S) (In Tedesco) ",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "discogs_id": "25537708",
-      "title": "St Matthew Passion",
-      "category": "work_or_credit_unresolved",
-      "saved_hits": 5,
-      "uncached_hits": 0,
-      "cached_candidates": [
-        {
-          "album_id": "im58goh9638bc",
-          "title": "Bach: St Matthew Passion, BWV 244",
-          "coverage": 0.1,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "St Matthew Passion",
-              "work_tracks": 78,
-              "credited_tracks": 1,
-              "track_ids": [
-                234305755
-              ]
-            },
-            {
-              "target": "Part 1 Nos. 1 To 10 Inclusive",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Part 1 Nos. 11 To 21 Inclusive",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Part 1 Nos. 22 To 29 Inclusive",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Part 1 Nos. 30 To 35 Inclusive",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Part 2 Nos. 36 To 46 Inclusive",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Part 2 Nos. 47 To 55 Inclusive",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Part 2 Nos. 56 To 64 Inclusive",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Part 2 Nos. 65 To 72 Inclusive",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Part 2 Nos. 73 To 78 Inclusive",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "0077776305851",
-          "title": "Bach: Matthaüs-Passion, BWV 244",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "St Matthew Passion",
-              "work_tracks": 78,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Part 1 Nos. 1 To 10 Inclusive",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Part 1 Nos. 11 To 21 Inclusive",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Part 1 Nos. 22 To 29 Inclusive",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Part 1 Nos. 30 To 35 Inclusive",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Part 2 Nos. 36 To 46 Inclusive",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Part 2 Nos. 47 To 55 Inclusive",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Part 2 Nos. 56 To 64 Inclusive",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Part 2 Nos. 65 To 72 Inclusive",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Part 2 Nos. 73 To 78 Inclusive",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "8718564801750",
-          "title": "Bach: Matthäus-Passion, BWV 244 (St. Matthew Passion) [La Passion selon Saint Matthieu]",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "St Matthew Passion",
-              "work_tracks": 78,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Part 1 Nos. 1 To 10 Inclusive",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Part 1 Nos. 11 To 21 Inclusive",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Part 1 Nos. 22 To 29 Inclusive",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Part 1 Nos. 30 To 35 Inclusive",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Part 2 Nos. 36 To 46 Inclusive",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Part 2 Nos. 47 To 55 Inclusive",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Part 2 Nos. 56 To 64 Inclusive",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Part 2 Nos. 65 To 72 Inclusive",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Part 2 Nos. 73 To 78 Inclusive",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "bdqnga93vv6uc",
-          "title": "Bach: St. Matthew Passion, BWV 244 by Otto Klemperer",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "St Matthew Passion",
-              "work_tracks": 78,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Part 1 Nos. 1 To 10 Inclusive",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Part 1 Nos. 11 To 21 Inclusive",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Part 1 Nos. 22 To 29 Inclusive",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Part 1 Nos. 30 To 35 Inclusive",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Part 2 Nos. 36 To 46 Inclusive",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Part 2 Nos. 47 To 55 Inclusive",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Part 2 Nos. 56 To 64 Inclusive",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Part 2 Nos. 65 To 72 Inclusive",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Part 2 Nos. 73 To 78 Inclusive",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "sruas06c72fga",
-          "title": "J.S. Bach: St. Matthew Passion",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "St Matthew Passion",
-              "work_tracks": 78,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Part 1 Nos. 1 To 10 Inclusive",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Part 1 Nos. 11 To 21 Inclusive",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Part 1 Nos. 22 To 29 Inclusive",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Part 1 Nos. 30 To 35 Inclusive",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Part 2 Nos. 36 To 46 Inclusive",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Part 2 Nos. 47 To 55 Inclusive",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Part 2 Nos. 56 To 64 Inclusive",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Part 2 Nos. 65 To 72 Inclusive",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Part 2 Nos. 73 To 78 Inclusive",
               "work_tracks": 0,
               "credited_tracks": 0,
               "track_ids": []
@@ -118647,1335 +117853,6 @@
             },
             {
               "target": "Act V",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "discogs_id": "34776194",
-      "title": "Au Conservatoire De Moscou - Œuvres De Chopin, Mendelssohn, Schumann, Liszt, De Falla Et Prokofiev",
-      "category": "work_or_credit_unresolved",
-      "saved_hits": 10,
-      "uncached_hits": 0,
-      "cached_candidates": [
-        {
-          "album_id": "3614979172957",
-          "title": "Liszt Piano Concerto Nos. 1 & 2, Hungarian Rhapsody No. 6, Valse oubilée and Sonetto del Petrarco CIV, Schumann Romance in F Sharp and Novellette in F, De Falla The Miller's Dance and Guion The Harmonica Player",
-          "coverage": 0.15,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Franz Liszt",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Rhapsodie Hongroise N° 6",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse Oubliée N. 1 En Fa Dièse Majeur",
-              "work_tracks": 1,
-              "credited_tracks": 1,
-              "track_ids": [
-                45623602
-              ]
-            },
-            {
-              "target": "Sonnet De Petrarque N° 104, Extr. Des \"Années De Pèlerinage\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Frédéric Chopin",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Etude En Fa Majeur, Op. 25 N° 3",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse En La Mineur, Op. 34 N° 2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Felix Mendelssohn",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Romance Sans Paroles, Op. 62 N° 1, \"Brise De Mai\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Robert Schumann",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Romance En Fa Dièse Majeur, Op. 28 N° 2",
-              "work_tracks": 1,
-              "credited_tracks": 1,
-              "track_ids": [
-                45623604
-              ]
-            },
-            {
-              "target": "Novelette En Fa Majeur, Op. 21",
-              "work_tracks": 1,
-              "credited_tracks": 1,
-              "track_ids": [
-                45623606
-              ]
-            },
-            {
-              "target": "Manuel De Falla",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Danse Du Meunier, Extraite Du \"Tricorne\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Serge Prokofiev",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Toccata, Op. 11",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "David Guion",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Le Joueur D'Harmonica",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Octavio Pinto",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Scenes D'Enfants",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "0002894787235",
-          "title": "Prokofiev: Piano Concerto No.3; Rachmaninov: Piano Concerto No.1",
-          "coverage": 0.05,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Franz Liszt",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Rhapsodie Hongroise N° 6",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse Oubliée N. 1 En Fa Dièse Majeur",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Sonnet De Petrarque N° 104, Extr. Des \"Années De Pèlerinage\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Frédéric Chopin",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Etude En Fa Majeur, Op. 25 N° 3",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse En La Mineur, Op. 34 N° 2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Felix Mendelssohn",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Romance Sans Paroles, Op. 62 N° 1, \"Brise De Mai\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Robert Schumann",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Romance En Fa Dièse Majeur, Op. 28 N° 2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Novelette En Fa Majeur, Op. 21",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Manuel De Falla",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Danse Du Meunier, Extraite Du \"Tricorne\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Serge Prokofiev",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Toccata, Op. 11",
-              "work_tracks": 1,
-              "credited_tracks": 1,
-              "track_ids": [
-                25999242
-              ]
-            },
-            {
-              "target": "David Guion",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Le Joueur D'Harmonica",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Octavio Pinto",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Scenes D'Enfants",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "dmlmfz2dj2z3a",
-          "title": "Encore - The Mercury Masters, Vol. 5",
-          "coverage": 0.05,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Franz Liszt",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Rhapsodie Hongroise N° 6",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse Oubliée N. 1 En Fa Dièse Majeur",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Sonnet De Petrarque N° 104, Extr. Des \"Années De Pèlerinage\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Frédéric Chopin",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Etude En Fa Majeur, Op. 25 N° 3",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse En La Mineur, Op. 34 N° 2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Felix Mendelssohn",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Romance Sans Paroles, Op. 62 N° 1, \"Brise De Mai\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Robert Schumann",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Romance En Fa Dièse Majeur, Op. 28 N° 2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Novelette En Fa Majeur, Op. 21",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Manuel De Falla",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Danse Du Meunier, Extraite Du \"Tricorne\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Serge Prokofiev",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Toccata, Op. 11",
-              "work_tracks": 1,
-              "credited_tracks": 1,
-              "track_ids": [
-                218706654
-              ]
-            },
-            {
-              "target": "David Guion",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Le Joueur D'Harmonica",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Octavio Pinto",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Scenes D'Enfants",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "0002894788298",
-          "title": "Byron Janis Plays Moussorgsky: Pictures At An Exhibition",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Franz Liszt",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Rhapsodie Hongroise N° 6",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse Oubliée N. 1 En Fa Dièse Majeur",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Sonnet De Petrarque N° 104, Extr. Des \"Années De Pèlerinage\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Frédéric Chopin",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Etude En Fa Majeur, Op. 25 N° 3",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse En La Mineur, Op. 34 N° 2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Felix Mendelssohn",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Romance Sans Paroles, Op. 62 N° 1, \"Brise De Mai\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Robert Schumann",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Romance En Fa Dièse Majeur, Op. 28 N° 2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Novelette En Fa Majeur, Op. 21",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Manuel De Falla",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Danse Du Meunier, Extraite Du \"Tricorne\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Serge Prokofiev",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Toccata, Op. 11",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "David Guion",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Le Joueur D'Harmonica",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Octavio Pinto",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Scenes D'Enfants",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "0886443822764",
-          "title": "Byron Janis Plays Chopin",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Franz Liszt",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Rhapsodie Hongroise N° 6",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse Oubliée N. 1 En Fa Dièse Majeur",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Sonnet De Petrarque N° 104, Extr. Des \"Années De Pèlerinage\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Frédéric Chopin",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Etude En Fa Majeur, Op. 25 N° 3",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse En La Mineur, Op. 34 N° 2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Felix Mendelssohn",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Romance Sans Paroles, Op. 62 N° 1, \"Brise De Mai\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Robert Schumann",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Romance En Fa Dièse Majeur, Op. 28 N° 2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Novelette En Fa Majeur, Op. 21",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Manuel De Falla",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Danse Du Meunier, Extraite Du \"Tricorne\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Serge Prokofiev",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Toccata, Op. 11",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "David Guion",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Le Joueur D'Harmonica",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Octavio Pinto",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Scenes D'Enfants",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "0886443822917",
-          "title": "Schumann: Piano Concerto, Op.54 - Liszt: Totentanz",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Franz Liszt",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Rhapsodie Hongroise N° 6",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse Oubliée N. 1 En Fa Dièse Majeur",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Sonnet De Petrarque N° 104, Extr. Des \"Années De Pèlerinage\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Frédéric Chopin",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Etude En Fa Majeur, Op. 25 N° 3",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse En La Mineur, Op. 34 N° 2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Felix Mendelssohn",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Romance Sans Paroles, Op. 62 N° 1, \"Brise De Mai\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Robert Schumann",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Romance En Fa Dièse Majeur, Op. 28 N° 2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Novelette En Fa Majeur, Op. 21",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Manuel De Falla",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Danse Du Meunier, Extraite Du \"Tricorne\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Serge Prokofiev",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Toccata, Op. 11",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "David Guion",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Le Joueur D'Harmonica",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Octavio Pinto",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Scenes D'Enfants",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "3614592787545",
-          "title": "The Show Must Go On with Frédéric Chopin",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Franz Liszt",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Rhapsodie Hongroise N° 6",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse Oubliée N. 1 En Fa Dièse Majeur",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Sonnet De Petrarque N° 104, Extr. Des \"Années De Pèlerinage\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Frédéric Chopin",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Etude En Fa Majeur, Op. 25 N° 3",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse En La Mineur, Op. 34 N° 2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Felix Mendelssohn",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Romance Sans Paroles, Op. 62 N° 1, \"Brise De Mai\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Robert Schumann",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Romance En Fa Dièse Majeur, Op. 28 N° 2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Novelette En Fa Majeur, Op. 21",
-              "work_tracks": 3,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Manuel De Falla",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Danse Du Meunier, Extraite Du \"Tricorne\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Serge Prokofiev",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Toccata, Op. 11",
-              "work_tracks": 3,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "David Guion",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Le Joueur D'Harmonica",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Octavio Pinto",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Scenes D'Enfants",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "3614594881128",
-          "title": "Récital Chopin",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Franz Liszt",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Rhapsodie Hongroise N° 6",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse Oubliée N. 1 En Fa Dièse Majeur",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Sonnet De Petrarque N° 104, Extr. Des \"Années De Pèlerinage\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Frédéric Chopin",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Etude En Fa Majeur, Op. 25 N° 3",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse En La Mineur, Op. 34 N° 2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Felix Mendelssohn",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Romance Sans Paroles, Op. 62 N° 1, \"Brise De Mai\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Robert Schumann",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Romance En Fa Dièse Majeur, Op. 28 N° 2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Novelette En Fa Majeur, Op. 21",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Manuel De Falla",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Danse Du Meunier, Extraite Du \"Tricorne\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Serge Prokofiev",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Toccata, Op. 11",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "David Guion",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Le Joueur D'Harmonica",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Octavio Pinto",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Scenes D'Enfants",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "gcbz4dmcg4rqc",
-          "title": "Schumann: Piano Concerto - The Mercury Masters, Vol. 7",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Franz Liszt",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Rhapsodie Hongroise N° 6",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse Oubliée N. 1 En Fa Dièse Majeur",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Sonnet De Petrarque N° 104, Extr. Des \"Années De Pèlerinage\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Frédéric Chopin",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Etude En Fa Majeur, Op. 25 N° 3",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse En La Mineur, Op. 34 N° 2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Felix Mendelssohn",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Romance Sans Paroles, Op. 62 N° 1, \"Brise De Mai\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Robert Schumann",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Romance En Fa Dièse Majeur, Op. 28 N° 2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Novelette En Fa Majeur, Op. 21",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Manuel De Falla",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Danse Du Meunier, Extraite Du \"Tricorne\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Serge Prokofiev",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Toccata, Op. 11",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "David Guion",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Le Joueur D'Harmonica",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Octavio Pinto",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Scenes D'Enfants",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "mnyvgcelpwnxc",
-          "title": "Byron Janis Plays Frédéric Chopin",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Franz Liszt",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Rhapsodie Hongroise N° 6",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse Oubliée N. 1 En Fa Dièse Majeur",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Sonnet De Petrarque N° 104, Extr. Des \"Années De Pèlerinage\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Frédéric Chopin",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Etude En Fa Majeur, Op. 25 N° 3",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Valse En La Mineur, Op. 34 N° 2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Felix Mendelssohn",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Romance Sans Paroles, Op. 62 N° 1, \"Brise De Mai\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Robert Schumann",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Romance En Fa Dièse Majeur, Op. 28 N° 2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Novelette En Fa Majeur, Op. 21",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Manuel De Falla",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Danse Du Meunier, Extraite Du \"Tricorne\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Serge Prokofiev",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Toccata, Op. 11",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "David Guion",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Le Joueur D'Harmonica",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Octavio Pinto",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Scenes D'Enfants",
               "work_tracks": 0,
               "credited_tracks": 0,
               "track_ids": []

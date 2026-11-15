@@ -515,3 +515,20 @@ authorize a promotion. See the [batch report](plans/2026-11-15-qobuz-priority14-
 `uv run python scripts/qobuz_cached_review_queue.py` refreshes workflow triage
 after `qobuz_unmatched_audit.py`; reviewed blockers do not automatically return
 to the open queue because an alternate candidate has a high partial coverage.
+
+
+### Complete single-work vocal reviews
+
+`source-vocal-programme` is a source/target/album/track-hash-bound recording review
+for the saved StMatthew old-numbered ranges and Otello whole acts. Every raw
+musical source credit is required within that single work; conductor and source
+orchestra plus positive conductor/composer roles remain required on every track.
+External recording-family evidence is mandatory. It never borrows credits across
+operas or claims exact LP-side audio boundaries. Old Passion section-order ranges
+are not literal modern movement-number equivalences. Unsupported forms fail closed.
+A grouped source display title must be an existing member of its preserved group;
+headings and all physical pieces remain checked.
+
+`uv run python scripts/qobuz_secondary23_audit.py` reproduces all23frozen decisions,
+including cached-alternative manifests and rejection/hold precedence over a future
+high score. [Results](plans/2026-11-15-qobuz-secondary23.md).

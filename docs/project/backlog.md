@@ -21,19 +21,17 @@ The [fourteen-case batch](../plans/2026-11-15-qobuz-priority14-batch.md) is comp
 mean complete match. Evidence, frozen IDs, alternatives and next actions are in
 `data/qobuz_priority14_batch_audit.json`; completed outcomes belong in history.
 
-The [26 secondary reassessments](../plans/2026-11-15-qobuz-secondary26.md) are
-saved in `data/qobuz_secondary26_audit.json`:3recording-family reviews accepted,
-23still pending. Screening is not a full recording decision. Next: François
-12419718nine-piece recital, verifying source recording family before selecting
-tracks from large compilations. Source N°/opus members and separate digital work
-fields are recurring parsing gaps; a global rule is still unadopted and would
-require a bounded whole-collection diff and false-positive regression scope.
-
-Current380work/credit cases:23secondary,354zero-current-support,3known constraints.
-No open priority cases. Revisit holds only with new evidence or a validated scoped
-rule; partial source-unit support is triage, not confidence. Zero support needs
-lead/rule/source investigation, not automatic API retrieval. Continue checks and
-commit verified cached enrichment steps autonomously.
+All26secondary recording reviews are complete:7Probable,18withheld and1specific
+wrong-recording rejection, including the [final23batch](../plans/2026-11-15-qobuz-secondary23.md).
+No open priority/secondary leads remain. Next prepare a small ranked metadata scope
+from160metadata-needed releases using cached hits, source programme and musicians;
+this does not authorize retrieval.357work/credit cases remain:354zero-current-
+support and3known constraints. Zero support needs source/lead/rule investigation,
+not automatic API retrieval. Revisit explicit holds only with new evidence or a
+validated scoped rule; partial source support is triage, not confidence.
+Source N°/opus members and separate digital work fields remain recurring parsing
+gaps; a global rule would need a bounded collection diff and false-positive tests.
+Continue verified cached enrichment and commits autonomously within agreed scope.
 
 Prêtre original-image named-credit gaps and Reiner associated-role uncertainty
 remain holds. [Associated-role review](../plans/2026-11-15-qobuz-associated-credit-roles.md)
