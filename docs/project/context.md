@@ -8,8 +8,8 @@ and cache commands. This directory owns current planning.
 
 ## Current state
 
-- Branch main; pushed through cf7f263 on15November. Later work remains local;
-  deployment not verified. Inspect Git before claiming remote state.
+- Branch main; enrichment pushed through73b13db on15November at user request.
+  GitHub Pages deployment not verified; inspect Git before claiming remote state.
 - Collection741copies/740unique. Saved labels: Spotify254Found/273Probable/
   210NotFound/4Unchecked; Qobuz12Found/138Probable/591Unchecked copies.
 - Qobuz publication `data/qobuz_matches.json` is separate from Spotify collection

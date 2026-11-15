@@ -2043,3 +2043,9 @@ and Spotify labels unchanged. Qobuz copies12Found/138Probable/591Unchecked;
 Queue now23secondary+354zero-support+3constraints. No Qobuz calls or push/deploy.
 Next: source recording-family review of François12419718nine-piece recital, not
 an automatic extension of the accepted waltz-cycle review.
+
+### 2026-11-15 — Pushed verified enrichment checkpoints
+
+At user request, pushed main from cf7f263 through73b13db (11commits), including
+the14priority batch and26secondary reassessments with five new Probable matches.
+Git confirmed the remote update. Pages deployment has not been verified.
