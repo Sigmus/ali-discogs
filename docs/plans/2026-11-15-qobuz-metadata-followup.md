@@ -193,3 +193,23 @@ Nar Classical2022candidate has no session/take markers. Do not borrow1930srecord
 identity from source/programme alone. Remains Unchecked. Next apply evidence only
 inside a bounded source-aware Qobuz review, validate complete suites/recording
 provenance, then23950082suite context. No new provider retrieval authorized.
+
+
+## Casals source-bound diagnostics completed
+
+Offline reconciliation validates exact target/raw/label hashes, source image URLs,
+original title existence and exclusively nonperforming credit evidence. Principal
+or work-level performers cannot be removed. It returns a copy only; no normalized
+source/publication integration. Suite3catalogue correction plus liner-author
+removal supports6+6movements for6628473. Flat source23950082is bounded by explicit
+Suite5/6headers, six numbered bands on each distinct side; candidate matches12
+separate BWV1011/1012movements. Positive Bach Composer and Casals credits required,
+movement names/ordinals agree, no catalogue borrowing between suites.
+
+Four regressions cover stale/missing proofs, invalid credit exclusion, absent or
+cross-side/reordered source movements, no network/publication writes. Both LPs
+remain Unchecked: Nar Classical2022transfer has no session/take markers. Diagnostic
+success is programme support, not a calibrated score or recording-family decision.
+Eight-release follow-up now reviewed:3Probable,1withheld,4unresolved. No more
+provider calls. Next cached Solti5972183/3386012false-role cases, using source-bound
+evidence without a bulk collection refresh. Full final suite result in history.

@@ -452,3 +452,10 @@ cellist. Previously recognized genuine vocal annotations remain supported. This
 fix affects future builds of match items; refreshing saved collection/results is
 a separate operation and must preserve or re-review source-bound evidence.
 The15November Casals/source-role audit is diagnostic; no bulk refresh was applied.
+
+
+`python scripts/qobuz_casals_audit.py` runs the saved source reconciliation and
+suite-context diagnostic offline. Exact target/raw/label proof and exclusive
+nonperforming roles are validated before deriving a temporary corrected copy.
+It writes only `data/qobuz_casals_reconciliation_audit.json`, never collection or
+publication files. Both complete source programmes remain recording-unresolved.

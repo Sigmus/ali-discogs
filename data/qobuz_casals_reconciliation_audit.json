@@ -1,0 +1,176 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-15",
+  "reconciliation_sha256": "1c8d24d190034d1f33ba0b64865d275d38c8e32aed57d881f94fce7845e9c200",
+  "archive_sha256": "139f9b336c68b56ea22c18362cb0481c026366c5d359142f2bb702fe1233a4fc",
+  "album_id": "ekesky8cfu5wb",
+  "album_sha256": "fe486ab400200d778dfed49d3cfc0669f476237c8c7cf1098c88b97edc65f5a9",
+  "releases": [
+    {
+      "discogs_id": "6628473",
+      "target_sha256": "9948425c31f198eae62a58b7954ef2bb9afa26b73519d979f55d80a3468e6da3",
+      "source_sha256": "5f42bdca1cea15161fe4bb732d6375aa08bbf8d9deca7ce16e02ca63bf227e91",
+      "programme": [
+        {
+          "suite_number": 3,
+          "bwv": 1009,
+          "source_positions": [
+            "A1",
+            "A2",
+            "A3",
+            "A4",
+            "A5",
+            "A6"
+          ],
+          "source_titles": [
+            "1st Movement: Praeludium",
+            "2nd Movement: Allemande",
+            "3rd Movement: Courante",
+            "4th Movement: Sarabande",
+            "5th Movement: Bourrée I & II",
+            "6th Movement: Gigue"
+          ],
+          "track_ids": [
+            175894806,
+            175894807,
+            175894808,
+            175894809,
+            175894810,
+            175894811
+          ],
+          "candidate_titles": [
+            "Cello Suite No. 3, in C Major, BWV 1009, IJB 65: I. Prélude",
+            "Cello Suite No. 3, in C Major, BWV 1009, IJB 65: II. Allemande",
+            "Cello Suite No. 3, in C Major, BWV 1009, IJB 65: III. Courante",
+            "Cello Suite No. 3, in C Major, BWV 1009, IJB 65: IV. Sarabande",
+            "Cello Suite No. 3, in C Major, BWV 1009, IJB 65: V. Bourrée I e II",
+            "Cello Suite No. 3, in C Major, BWV 1009, IJB 65: VI. Gigue"
+          ]
+        },
+        {
+          "suite_number": 4,
+          "bwv": 1010,
+          "source_positions": [
+            "B1",
+            "B2",
+            "B3",
+            "B4",
+            "B5",
+            "B6"
+          ],
+          "source_titles": [
+            "1st Movement: Prélude (Allegro Maestoso)",
+            "2nd Movement: Allemande (Allegro Moderato)",
+            "3rd Movement: Courante (Allegro Non Troppo)",
+            "4th Movement: Sarabande (Lento)",
+            "5th Movement: Bourrée I & II",
+            "6th Movement: Gigue (Vivace)"
+          ],
+          "track_ids": [
+            175894812,
+            175894813,
+            175894814,
+            175894815,
+            175894816,
+            175894817
+          ],
+          "candidate_titles": [
+            "Cello Suite No. 4, in E-Flat Major, BWV 1010, IJB 66: I. Prélude",
+            "Cello Suite No. 4, in E-Flat Major, BWV 1010, IJB 66: II. Allemande",
+            "Cello Suite No. 4, in E-Flat Major, BWV 1010, IJB 66: III. Courante",
+            "Cello Suite No. 4, in E-Flat Major, BWV 1010, IJB 66: IV. Sarabande",
+            "Cello Suite No. 4, in E-Flat Major, BWV 1010, IJB 66: V. Bourrée I e II",
+            "Cello Suite No. 4, in E-Flat Major, BWV 1010, IJB 66: VI. Gigue"
+          ]
+        }
+      ],
+      "decision": "programme_supported_recording_unresolved",
+      "reason": "Candidate has no recording-session date or take/version markers; programme/performer correspondence alone cannot identify the LP recording transfer."
+    },
+    {
+      "discogs_id": "23950082",
+      "target_sha256": "e8c591a69349d5aabce12e7ea09abdd412d92c2f4f2e9f094f363a745ff7ffd9",
+      "source_sha256": "03b497740ccc5c6a54afac0a95b8c852b1970becdf08e48250e93eb49954d5e8",
+      "programme": [
+        {
+          "suite_number": 5,
+          "bwv": 1011,
+          "source_positions": [
+            "A1",
+            "A2",
+            "A3",
+            "A4",
+            "A5",
+            "A6"
+          ],
+          "source_titles": [
+            "Suite No.5. 1st Movement: Prélude",
+            "2nd Movement: Allemande",
+            "3rd Movement: Courante",
+            "4th Movement: Sarabande",
+            "5th Movement: Gavotte",
+            "6th Movement: Gigue"
+          ],
+          "track_ids": [
+            175894818,
+            175894819,
+            175894820,
+            175894821,
+            175894822,
+            175894823
+          ],
+          "candidate_titles": [
+            "Cello Suite No. 5, in C Minor, BWV 1011, IJB 67: I. Prélude",
+            "Cello Suite No. 5, in C Minor, BWV 1011, IJB 67: II. Allemande",
+            "Cello Suite No. 5, in C Minor, BWV 1011, IJB 67: III. Courante",
+            "Cello Suite No. 5, in C Minor, BWV 1011, IJB 67: IV. Sarabande",
+            "Cello Suite No. 5, in C Minor, BWV 1011, IJB 67: V. Gavotte I e II",
+            "Cello Suite No. 5, in C Minor, BWV 1011, IJB 67: VI. Gigue"
+          ]
+        },
+        {
+          "suite_number": 6,
+          "bwv": 1012,
+          "source_positions": [
+            "B1",
+            "B2",
+            "B3",
+            "B4",
+            "B5",
+            "B6"
+          ],
+          "source_titles": [
+            "Suite No.6. 1st Movement: Prélude ",
+            "2nd Movement: Allemande",
+            "3rd Movement: Courante",
+            "4th Movement: Sarabande",
+            "5th Movement: Gavotte",
+            "6th Movement: Gigue"
+          ],
+          "track_ids": [
+            175894824,
+            175894825,
+            175894826,
+            175894827,
+            175894828,
+            175894829
+          ],
+          "candidate_titles": [
+            "Cello Suite No. 6, in D Major, BWV 1012, IJB 68: I. Prélude",
+            "Cello Suite No. 6, in D Major, BWV 1012, IJB 68: II. Allemande",
+            "Cello Suite No. 6, in D Major, BWV 1012, IJB 68: III. Courante",
+            "Cello Suite No. 6, in D Major, BWV 1012, IJB 68: IV. Sarabande",
+            "Cello Suite No. 6, in D Major, BWV 1012, IJB 68: V. Gavotte I e II",
+            "Cello Suite No. 6, in D Major, BWV 1012, IJB 68: VI. Gigue"
+          ]
+        }
+      ],
+      "decision": "programme_supported_recording_unresolved",
+      "reason": "Candidate has no recording-session date or take/version markers; programme/performer correspondence alone cannot identify the LP recording transfer."
+    }
+  ],
+  "limitations": [
+    "Diagnostic only: no source data rewrite, publication override, API access or inferred recording date.",
+    "Other suites in the six-suite digital album are outside these two LP programmes."
+  ]
+}

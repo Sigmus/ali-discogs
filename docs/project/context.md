@@ -2,105 +2,78 @@
 
 Updated: 2026-11-15, Europe/Amsterdam
 
-Browse ajozi’s Discogs collection and review Spotify/Qobuz matches in a static
-explorer. [README](../../README.md) owns setup and architecture;
-[Qobuz guide](../qobuz.md) owns evidence/cache commands.
+Static explorer for ajozi’s Discogs collection and Spotify/Qobuz evidence.
+[README](../../README.md) owns setup/build; [Qobuz guide](../qobuz.md) owns evidence
+and cache commands. This directory owns current planning.
 
 ## Current state
 
-- Branch `main`; pushed through `7945944` (filter band, pin control and sticky
-  table headers). Retrieval complete; first offline screen/audit complete. Deployment not verified.
-- Collection: 741 copies / 740 unique releases. Current saved labels: Spotify
-  254 Found / 273 Probable / 210 Not found / 4 Unchecked; Qobuz
-  12 Found / 125 Probable / 604 Unchecked copies (15 November snapshot).
-- Spotify’s legacy album-level labels and stricter Qobuz evidence levels are
-  not comparable accuracy or catalogue-coverage measurements. Both status and
-  score are saved data. Qobuz 95/85 are heuristic levels, not probabilities.
+- Branch main; last known push7945944. Later work committed locally; no deployment
+  verified. Inspect Git before claiming remote state.
+- Collection741copies/740unique. Saved labels: Spotify254Found/273Probable/
+  210NotFound/4Unchecked; Qobuz12Found/125Probable/604Unchecked copies.
+- Qobuz publication `data/qobuz_matches.json` is separate from Spotify collection
+  results. Labels/scores are saved data; Qobuz85/95 are heuristic levels, not
+  probabilities. Legacy Spotify labels are not comparable accuracy measurements.
   [Validation gap](../plans/2026-11-13-cross-service-validation-gap.md).
-- Qobuz publication is separate: `data/qobuz_matches.json`; Spotify results live
-  in `data/collection_matches.json`. Portable evidence and successful request
-  archives support offline work; credentials and live run state stay ignored.
-- UI: ajozi vinyl + small on Discogs link; Table, Captions and Shelf views.
-  Six searchable multi-select filters use OR within a field / AND across fields.
-  Each picker defaults to frequency order with its own Alphabetical checkbox.
-  Search follows Decade; Clear follows Search. Table sorts all columns;
-  Captions/Shelf offer Year and Composer beside the result count.
-- Local server: http://127.0.0.1:8000/ . Live site:
-  https://sigmus.github.io/ali-discogs/ . Latest deployment not checked here.
+- Local UI http://127.0.0.1:8000/ ; live https://sigmus.github.io/ali-discogs/ .
+  Server/deployment status not rechecked by this source review.
 
-## Filter actions
+## UI checkpoint
 
-- Adopted outlined treatment A, Clear3 (filter/cross) and Pin1 (upright).
-  Both after Search; pin removed from header. Tooltips/accessible names on both,
-  theme tooltip follows current action; layout icons retain their titles.
+- ajozi vinyl with small on Discogs link. Table/Captions/Shelf; source/catalogue
+  sidebar detail view; no Albums back button.
+- Six searchable multi-select filters: OR within field, AND across fields. Each
+  defaults to frequency with individual Alphabetical checkbox. Search after
+  Decade; outlined Clear/Pin icons after Search, delayed theme-aware tooltips.
+- Subtle full-width filter band; optional sticky pin below header. Table headers
+  always sticky. Table sorts all columns; other views offer Year/Composer only.
 
-## Filter surface and pin
+## Retrieval complete
 
-- User selected A: lighter full-width filter band with bottom border implemented.
-  Pin beside Clear toggles sticky filters below measured header;
-  default unpinned, page-lifetime preference, hidden on detail pages. Table
-  column headers always stick below the header/optional pinned filters.
+- Fixed12+305scope:83metadata albums/1313tracks;603queries (520nonempty/83empty).
+  299of305releases have search hits;6empty, not proof of absence.
+- Nine-album follow-up216tracks complete. Approved15November seven-album follow-up
+  complete7albums/97tracks,9HTTP attempts, no warnings. Run/sleep assertion ended.
+- Shared request archive2504responses; all2497prior members preserved. Canonical
+  index1164URLs. Credentials/live run state ignored; portable evidence committed.
+- [Run plan](../plans/2026-11-14-qobuz-remaining-retrieval.md),
+  [seven-album follow-up](../plans/2026-11-15-qobuz-metadata-followup.md).
 
-## Detail UI
+## Offline review checkpoint
 
-- User chose C: catalogue sidebar implemented locally. Cover/facts left;
-  artist/title, tracklist, credits and existing service evidence right. Stacks
-  on mobile. Albums back button removed. No new source data or match changes.
-- Track positions/types/durations retained when saved; country/released shown.
-  Schumann7946604 still has only a work heading in the saved source.
+- Seven-album/eight-release review: Weissenberg1662708, Bernstein3956949 and
+  Ciccolini2236260Probable85; Yepes2857544withheld (missing finale, instrument
+  uncertainty); Casals6628473/23950082, Pollini4101347 and Barenboim8274997unresolved.
+- Recording-family acceptance never verifies exact LP pressing/takes/mastering.
+  Preserve source discrepancies, unknown transfer provenance and missing credits.
+- Gilels15221307source-bound composer guard prevents Medtner/Beethoven Op22collision.
+  Rubinstein7971104source label has14works versus saved13; publication hold remains.
+- Exact full-name Felix Mendelssohn identity requires positive Composer-role credit;
+  no surname/performer alias or legacy-score change. [Identity plan](../plans/2026-11-15-qobuz-composer-identity.md).
+- Future Discogs normalization strips role annotations;9false-performing credits
+  and1ordering change found in740detail diagnostic. Genuine singers preserved.
+  No collection refresh or bulk result/score changes applied.
+- Casals original COLH17labels confirm BWV1009/1010; saved1008typo correction and
+  liner-author removal apply only to a hash-bound offline diagnostic. Raw source,
+  normalized collection, legacy score and publication remain unchanged.
+- Both Casals LPs now have source-bound diagnostic mappings:24distinct movements,
+  Suites3–6; complete programmes do not establish Nar Classical transfer identity.
+  Candidate lacks session/take markers, so both remain Unchecked.
 
-## Retrieval and follow-up complete
+## Next work
 
-- Fixed 12 +305 scope completed14November16:02Amsterdam:83 metadata albums,
-  1,313tracks;603queries,520nonempty/83empty.299/305releases have a hit,
-  6remain empty. Hits are leads, not accepted matches.
-- Verified every manifest task, album ID and full unique track count. Offline
-  exports saved in `data/qobuz_remaining_{metadata,search}.json.gz`.
-- Shared request archive exported/validated:2,488responses, all1,857 prior
-  members byte-preserved. Canonical index1,148URLs;5URL tests pass.
-- Follow-up9albums/216tracks complete18:36Amsterdam;11HTTP attempts including
-  discovery, no warnings. Request archive2,497responses (all previous preserved),
-  canonical index1,157URLs. Both runs stopped normally; sleep assertion ended.
-- Retrieval exports and first reviews committed locally, not pushed. See
-  [run plan](../plans/2026-11-14-qobuz-remaining-retrieval.md).
+1. Audit cached leads for the9nonperforming-credit cases, starting Solti5972183/
+   3386012. Use explicit source-role reconciliation, not a bulk collection refresh.
+2. Keep Casals/Gieseking transfer identity unresolved until recording-specific
+   evidence exists. Source correction alone does not authorize promotion.
+3. Continue programme/credit/recording audits and meaningful false-positive tests;
+   then build/UI consistency checks. [Offline plan](../plans/2026-11-14-qobuz-offline-followup.md).
+4. Design comparable Spotify evidence sample after Qobuz; wider retrieval or
+   relabelling needs a concrete scope first.
 
-## Offline follow-up checkpoint
-
-- Screened 2,227 pairs: 15 recording-review leads, 1,851 missing metadata,
-  352 unresolved and 9 held for an incomplete source programme.
-- Twenty-four new Probables published locally after bounded reviews. Gilels
-  15221307 has a source-bound composer guard against Medtner/Beethoven Op.22 confusion.
-- Rubinstein 7971104: original label and cover show 14 works; cached tracklist
-  has 13, missing Albéniz’s Sevillana. A hash-bound publication hold keeps it
-  Unchecked. A separate 14-work reconciliation proposal is not active source data.
-- [Offline plan](../plans/2026-11-14-qobuz-offline-followup.md) records case evidence.
-
-## Agreed next sequence
-
-1. Retrieval/export complete; preserve shared evidence and source fingerprints.
-2. Rank and rerun Qobuz matching offline using available evidence. New search
-   hits without full metadata remain leads, not accepted matches.
-3. Audit promising and uncertain cases. Improve reusable rules where evidence
-   supports them; add meaningful regressions against known false positives.
-4. Regenerate publication data, inspect details/status consistency and build.
-   Preserve unresolved cases and visible edition/recording limitations.
-5. Then plan comparable evidence checks for Spotify; broader Spotify retrieval
-   and any collection-wide relabelling need a concrete bounded scope first.
-
-Prefer reliable matches to higher counts. Retrieval does not authorize unbounded
-new-hit downloads, automatic promotions, pushes or deployment. Bitches Brew’s
-credit exception remains a proposal. Preserve source/hash-bound review safeguards;
-never loosen credits or invent recording identity to improve a count.
-
-Next action: bounded Qobuz review for Casals6628473 using saved source-label
-correction and nonperforming-credit evidence; recording provenance still unresolved.
-Then23950082suite context. Original COLH17label confirms Suite3BWV1009, not saved
-1008; correction proposal saved separately, raw/normalized source unchanged.
-Role parser fixed for future normalization: bracketed liner/photo/technician text
-cannot create performers. Diagnostic740release audit:9false credits,1order change;
-genuine previously recognized singers retained. No collection refresh applied.
-Ciccolini2236260Probable committed45604e7; counts12Found/125Probable/604Unchecked
-copies. No further publication changes. All173script tests and UI normalization pass.
-[Seven-album follow-up](../plans/2026-11-15-qobuz-metadata-followup.md).
-No Qobuz calls, push/deployment. Discogs browser source research only.
+Prefer reliable matches to higher counts. No unbounded new-hit downloads, warning
+retries, pushes or deployment. Bitches Brew credit exception remains a proposal.
+Do not invent identity, overwrite source text or loosen credit gates for counts.
+Current review: no Qobuz calls or publication changes; all177script tests and UI normalization pass.
 [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).

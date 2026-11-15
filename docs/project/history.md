@@ -1733,3 +1733,18 @@ builder audit740details:9nonperforming-credit removals,1violinist/conductor orde
 change. No provider/result refresh. Source-corrected shadow has full work support
 but Nar Classical candidate has no recording-session/take markers; no promotion.
 All173script tests and UI normalization pass. No Qobuz requests, push/deployment.
+
+
+### 2026-11-15 — Casals source reconciliation diagnostic, no promotions
+
+Added copy-only source reconciliation validating target/raw/label evidence hashes,
+exact source title correction and exclusively nonperforming liner credit. Principal/
+work performers cannot be removed. Both Casals LP source programmes mapped offline:
+Suites3–6,24distinct movements; source23950082flat suite headers/side positions
+bounded with complete numbered runs, positive Bach/Casals credits and named members.
+No source/catalogue alias, raw rewrite, provider calls or publication integration.
+Nar Classical recording/take provenance unresolved, so labels unchanged.
+Four regressions cover stale/missing proofs, invalid credit exclusion, crossed or
+missing/reordered suite bands and network/publication protection. All177script tests
+and UI normalization pass. Seven-album/eight-release review complete:3Probable,1withheld,4unresolved.
+Next cached Solti5972183/3386012source-role cases; no bulk refresh/push/deployment.
