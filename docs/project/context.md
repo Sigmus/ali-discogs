@@ -73,8 +73,10 @@ and cache commands. This directory owns current planning.
    Landowska9792325candidate lacks K333; Lipatti11938919candidate lacks Op58.
    Schnabel4694861now Probable:10source sonata headings/35distinct credited
    movements, frozen positions/track hashes prevent cross-sonata borrowing.
-   Next: inspect Furtwängler3737065recording provenance and Prêtre13671866
-   joined-band/instrumentation evidence offline; no automatic scope exemptions.
+   Furtwängler3737065has an unresolved Entr’acteII/IIIsection discrepancy plus
+   transfer uncertainty. Prêtre13671866has source-scoped pianists and combined
+   bands; diagnostic saved. Next: source-position/score-supported Prêtre band
+   mapping, without publishing new instrument-scope exemptions.
    [Source-credit plan](../plans/2026-11-15-qobuz-source-credit-reviews.md).
 2. Keep Casals/Gieseking transfer identity unresolved until recording-specific
    evidence exists. Source correction alone does not authorize promotion.

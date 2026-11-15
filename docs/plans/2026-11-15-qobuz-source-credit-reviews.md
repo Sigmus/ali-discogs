@@ -189,3 +189,18 @@ Qobuz12Found/131Probable/598Unchecked copies. No Qobuz calls or further push.
 Scan of flat headed sources found no further immediate eligible promotion: prior
 Barenboim rejection, Gieseking transfer hold, Furtwängler provenance/section-title
 questions, and Prêtre joined-band/instrumentation questions. Continue offline.
+
+### 2026-11-15 — Following headed sources diagnosed, evidence limits preserved
+
+Saved hash-bound qobuz_headed_source_followup_audit.json for two further cases.
+Furtwängler3737065BNFcandidate has five tracks and positive named performers,
+but source Entr’acteII/Dmajor versus digital No5EntracteIII needs exact section
+resolution; transfer provenance also unresolved. Prêtre13671866source explicitly
+scopes both pianists to sideA; nine/four LPbands combine14/6digital sections.
+Some Carnaval sections lack otherwise-global performer credits, potentially an
+instrumentation issue requiring score proof. No principal removal, inferred
+instrumentation exemption, new review rule or publication change. Warner supports
+general coupling/performers, not this exact candidate’s section participation.
+Audit assertions verified5/20cached tracks and exact disputed digital label; source/
+album/track hashes saved. Next source-position/score-supported Prêtre diagnostic.
+No Qobuz calls or further push; last full199tests/UI/build validation unchanged.

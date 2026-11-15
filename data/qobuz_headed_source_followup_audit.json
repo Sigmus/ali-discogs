@@ -1,0 +1,429 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-15",
+  "qobuz_requests": 0,
+  "publication_changes": false,
+  "releases": [
+    {
+      "discogs_id": "3737065",
+      "album_id": "3610156203087",
+      "target_sha256": "0ed876ba37a91f9c8eb194aa15ff458e17f6901c56d918cb0b82640ae9966e74",
+      "source_sha256": "aaf08915bd52849c1d8d7ce7b4f257c887311ceae21b8276f7a22737ebcb0845",
+      "album_sha256": "9a8da247b95c2baf1c52e8fdd7f46d66198c13f4d3d818ac598cf3b48e16e57f",
+      "source_tracklist": [
+        {
+          "position": "",
+          "type_": "heading",
+          "title": "Symphonie N° 8 En Si Mineur \"Inachevée\"",
+          "duration": ""
+        },
+        {
+          "position": "A1",
+          "type_": "track",
+          "title": "1er Mouvement : Allegro Moderato",
+          "duration": ""
+        },
+        {
+          "position": "A2",
+          "type_": "track",
+          "title": "2e Mouvement : Andante Con Moto",
+          "duration": ""
+        },
+        {
+          "position": "",
+          "type_": "heading",
+          "title": "Rosamunde, Op 26 - Extraits",
+          "duration": ""
+        },
+        {
+          "position": "B1",
+          "type_": "track",
+          "title": "Ouverture",
+          "duration": ""
+        },
+        {
+          "position": "B2",
+          "type_": "track",
+          "title": "Entr'acte N° 2 En Ré Majeur",
+          "duration": ""
+        },
+        {
+          "position": "B3",
+          "type_": "track",
+          "title": "Ballet N° 2 En Sol Majeur",
+          "duration": ""
+        }
+      ],
+      "candidate_tracks": [
+        {
+          "id": 16234549,
+          "title": "Symphonie No. 8 in B Minor, D. 759 \"Inachevée\": I. Allegro moderato",
+          "sha256": "14dfa9756090e110bc5f629b9d010d82b1d21cdd0247f64b226885e6927a7ae2",
+          "credits": "Wiener Philharmoniker, Performer, Orchestra\r - Wilhelm Furtwängler, Performer, Conductor\r - Franz Schubert, Composer"
+        },
+        {
+          "id": 16234551,
+          "title": "Symphonie No. 8 in B Minor, D. 759 \"Inachevée\": II. Andante con moto",
+          "sha256": "61c424ed869b7af8cf3863abc937c3fb0938e7cb152c367e563cdcf6b8cde385",
+          "credits": "Wiener Philharmoniker, Performer, Orchestra\r - Wilhelm Furtwängler, Performer, Conductor\r - Franz Schubert, Composer"
+        },
+        {
+          "id": 16234553,
+          "title": "Rosamunde, Op. 26, D. 797: Ouverture",
+          "sha256": "ad9bd688de50f83d0345db268a7badebb80b6193672c6d13239a1ed9e252c444",
+          "credits": "Wiener Philharmoniker, Performer, Orchestra\r - Wilhelm Furtwängler, Performer, Conductor\r - Franz Schubert, Composer"
+        },
+        {
+          "id": 16234555,
+          "title": "Rosamunde, Op. 26, D. 797: No. 5, Entracte III",
+          "sha256": "4d6bda22c02d661ae9dd2a1255a586549cbc5637c33d529743550ff64f27ecd1",
+          "credits": "Wiener Philharmoniker, Performer, Orchestra\r - Wilhelm Furtwängler, Performer, Conductor\r - Franz Schubert, Composer"
+        },
+        {
+          "id": 16234557,
+          "title": "Rosamunde, Op. 26, D. 797: No. 9, Ballet II",
+          "sha256": "bc976398334d44ac22bbf864f73fa07f3e58fd28173875539b14a85029c31aae",
+          "credits": "Wiener Philharmoniker, Performer, Orchestra\r - Wilhelm Furtwängler, Performer, Conductor\r - Franz Schubert, Composer"
+        }
+      ],
+      "outcome": "unresolved-diagnostic-only",
+      "publication_change": false,
+      "blockers": [
+        "Source B2 explicitly Entr’acte No2Dmajor; digital track16234555 says No5EntracteIII. Exact section identity must be resolved; no automatic numeral correction.",
+        "BNF Collection Mono Version has no recording-specific session/take marker establishing this exact source LP transfer. Album/performer agreement alone does not resolve it."
+      ],
+      "next_action": "Inspect original FALP317label/score section identity and recording-specific transfer evidence; retain Unchecked. No new Qobuz request authorized."
+    },
+    {
+      "discogs_id": "13671866",
+      "album_id": "g61k6w1czptxc",
+      "target_sha256": "91ab9a0d8c52600c1ba6fc4eb4c7babf000c4b8107f6b94e0bcfc894ee5ef950",
+      "source_sha256": "61e8bde29c18edb80a147287ca792d5754479012976d5462f60d994f0983f190",
+      "album_sha256": "84485e9972e35ebb3897f7a9c367dc1f569625480d117d222a57c60c2fee0f77",
+      "source_tracklist": [
+        {
+          "position": "",
+          "type_": "heading",
+          "title": "le Carnaval Des Animaux",
+          "duration": "20:37"
+        },
+        {
+          "position": "A1",
+          "type_": "track",
+          "title": "Introduction Et Marche Royale Du Lion",
+          "duration": "1:14"
+        },
+        {
+          "position": "A2",
+          "type_": "track",
+          "title": "Poules Et Coqs - Hémiones",
+          "duration": "2:32"
+        },
+        {
+          "position": "A3",
+          "type_": "track",
+          "title": "Tortues - L'élephant - Kangourous",
+          "duration": "2:38"
+        },
+        {
+          "position": "A4",
+          "type_": "track",
+          "title": "Aquarium",
+          "duration": "2:07"
+        },
+        {
+          "position": "A5",
+          "type_": "track",
+          "title": "Personnages À Longues Oreilles - Le Coucou Au Fond Des Bois",
+          "duration": "1:23"
+        },
+        {
+          "position": "A6",
+          "type_": "track",
+          "title": "Volière",
+          "duration": "4:13"
+        },
+        {
+          "position": "A7",
+          "type_": "track",
+          "title": "Pianistes - Fossiles",
+          "duration": "1:52"
+        },
+        {
+          "position": "A8",
+          "type_": "track",
+          "title": "Le Cygne",
+          "duration": "2:41"
+        },
+        {
+          "position": "A9",
+          "type_": "track",
+          "title": "Final",
+          "duration": "1:57"
+        },
+        {
+          "position": "",
+          "type_": "heading",
+          "title": "Les Animaux Modeles",
+          "duration": "21:20"
+        },
+        {
+          "position": "B1",
+          "type_": "track",
+          "title": "Le Petit Jour - Le Lion Amoureux",
+          "duration": "5:35"
+        },
+        {
+          "position": "B2",
+          "type_": "track",
+          "title": "L'homme Entre Deux Âges Et Ses Deux Maîtresses",
+          "duration": "2:01"
+        },
+        {
+          "position": "B3",
+          "type_": "track",
+          "title": "La Mort Et Le Bûcheron",
+          "duration": "4:37"
+        },
+        {
+          "position": "B4",
+          "type_": "track",
+          "title": "Les Deux Coqs - Le Repas Du Midi",
+          "duration": "9:07"
+        }
+      ],
+      "candidate_tracks": [
+        {
+          "id": 125326268,
+          "title": "Le Carnaval des animaux: I. Introduction et marche royale du lion",
+          "sha256": "8955ed666d6d91900e0aeccc50779a12b990242fdd72cc3262f862ea537d18da",
+          "credits": "Aldo Ciccolini, Piano, FeaturedArtist - Alexis Weissenberg, Piano, FeaturedArtist - CAMILLE SAINT-SAENS, Composer - Georges Pretre, Conductor, MainArtist - Orchestre De La Société Des Concerts Du Conservatoire, Orchestra"
+        },
+        {
+          "id": 125326269,
+          "title": "Le Carnaval des animaux: II. Poules et coqs",
+          "sha256": "905d0e07869b50484f59d42adc9465995a4366d5cde14e558ba7032cb96d31fc",
+          "credits": "Aldo Ciccolini, Piano, FeaturedArtist - Alexis Weissenberg, Piano, FeaturedArtist - CAMILLE SAINT-SAENS, Composer - Georges Pretre, Conductor, MainArtist - Orchestre De La Société Des Concerts Du Conservatoire, Orchestra"
+        },
+        {
+          "id": 125326270,
+          "title": "Le Carnaval des animaux: III. Hémiones, animaux véloces",
+          "sha256": "3127d3f70b5fc033134e2d9cbdeb4d8b36cf03b9078fab640df7a3e6570c87d3",
+          "credits": "Aldo Ciccolini, Piano, MainArtist - Alexis Weissenberg, Piano, FeaturedArtist - CAMILLE SAINT-SAENS, Composer"
+        },
+        {
+          "id": 125326271,
+          "title": "Le Carnaval des animaux: IV. Tortues",
+          "sha256": "9cd18708c0d028e57cb64fc3f08aaadf89e1094afc8b44173520e1c6df15e048",
+          "credits": "Aldo Ciccolini, Piano, FeaturedArtist - Alexis Weissenberg, Piano, FeaturedArtist - CAMILLE SAINT-SAENS, Composer - Georges Pretre, Conductor, MainArtist - Orchestre De La Société Des Concerts Du Conservatoire, Orchestra"
+        },
+        {
+          "id": 125326272,
+          "title": "Le Carnaval des animaux: V. L'éléphant",
+          "sha256": "44d21ebacb2209fd0d58ecc3df3c3ec178921bc488bbd7fa734065f369d48c12",
+          "credits": "Aldo Ciccolini, Piano, FeaturedArtist - Alexis Weissenberg, Piano, FeaturedArtist - CAMILLE SAINT-SAENS, Composer - Georges Pretre, Conductor, MainArtist - Orchestre De La Société Des Concerts Du Conservatoire, Orchestra"
+        },
+        {
+          "id": 125326273,
+          "title": "Le Carnaval des animaux: VI. Kangourous",
+          "sha256": "5f032045c4268c20897471d04b0e400f0d319277a4b2dfa79dfe45ee608dee24",
+          "credits": "Aldo Ciccolini, Piano, MainArtist - Alexis Weissenberg, Piano, FeaturedArtist - CAMILLE SAINT-SAENS, Composer"
+        },
+        {
+          "id": 125326274,
+          "title": "Le carnaval des animaux: VII. Aquarium",
+          "sha256": "e247bb16cb27fbcd4c5c550422fcfbd1b7cffc21470fdeb1a44135e8524b9108",
+          "credits": "Aldo Ciccolini, Piano, FeaturedArtist - Alexis Weissenberg, Piano, FeaturedArtist - CAMILLE SAINT-SAENS, Composer - Georges Pretre, Conductor, MainArtist - Orchestre De La Société Des Concerts Du Conservatoire, Orchestra"
+        },
+        {
+          "id": 125326275,
+          "title": "Le Carnaval des animaux: VIII. Personnages à longues oreilles",
+          "sha256": "b779a0b10f5b5dfb8bc184a14ccfcdd6eefd0732dcd8733501f9411b269a6a5b",
+          "credits": "CAMILLE SAINT-SAENS, Composer - Georges Pretre, Conductor, MainArtist - Orchestre De La Société Des Concerts Du Conservatoire, Orchestra"
+        },
+        {
+          "id": 125326276,
+          "title": "Le Carnaval des animaux: IX. Le coucou au fond des bois",
+          "sha256": "28cf448bf1017b6898fc200c55f93bcb29c690cf7787616ad2d0576d1bea988e",
+          "credits": "Aldo Ciccolini, Piano, MainArtist - Alexis Weissenberg, Piano, FeaturedArtist - CAMILLE SAINT-SAENS, Composer - André Boutard, Clarinet, FeaturedArtist"
+        },
+        {
+          "id": 125326277,
+          "title": "Le Carnaval des animaux: X. Volière",
+          "sha256": "5e18be85c50361d4a669587bfb827883f8abbf3b085de42e7199bf9040dc365a",
+          "credits": "Aldo Ciccolini, Piano, FeaturedArtist - Alexis Weissenberg, Piano, FeaturedArtist - CAMILLE SAINT-SAENS, Composer - Georges Pretre, Conductor, MainArtist - Orchestre De La Société Des Concerts Du Conservatoire, Orchestra"
+        },
+        {
+          "id": 125326278,
+          "title": "Le Carnaval des animaux: XI. Pianistes",
+          "sha256": "1457028b27dd7ddf53636e3de5ee4411c8d51dc210aa35929b76d18c4f4b943c",
+          "credits": "Aldo Ciccolini, Piano, FeaturedArtist - Alexis Weissenberg, Piano, FeaturedArtist - CAMILLE SAINT-SAENS, Composer - Georges Pretre, Conductor, MainArtist - Orchestre De La Société Des Concerts Du Conservatoire, Orchestra"
+        },
+        {
+          "id": 125326279,
+          "title": "Le carnaval des animaux: XII. Fossiles",
+          "sha256": "70888ac21bd9b5f5ac76fc50d1adc97ec812d821bfe176b442d3f7273c63140b",
+          "credits": "Aldo Ciccolini, Piano, FeaturedArtist - Alexis Weissenberg, Piano, FeaturedArtist - CAMILLE SAINT-SAENS, Composer - Georges Pretre, Conductor, MainArtist - Orchestre De La Société Des Concerts Du Conservatoire, Orchestra"
+        },
+        {
+          "id": 125326280,
+          "title": "Le Carnaval des animaux: XIII. Le cygne",
+          "sha256": "67b51b436d7903a03cf4c2710cde3054e9e1bc7d80be83e9dba95da89865a0b7",
+          "credits": "Aldo Ciccolini, Piano, MainArtist - Alexis Weissenberg, Piano, FeaturedArtist - CAMILLE SAINT-SAENS, Composer - Robert Cordier, Cello, FeaturedArtist"
+        },
+        {
+          "id": 125326281,
+          "title": "Le Carnaval des animaux: XIV. Final",
+          "sha256": "d5a91c4068e87fb9a0f9a4937e34cef33a2306edb2c17d9b197daa5ac0e43c1d",
+          "credits": "Aldo Ciccolini, Piano, FeaturedArtist - Alexis Weissenberg, Piano, FeaturedArtist - CAMILLE SAINT-SAENS, Composer - Georges Pretre, Conductor, MainArtist - Orchestre De La Société Des Concerts Du Conservatoire, Orchestra"
+        },
+        {
+          "id": 125326282,
+          "title": "Suite des Animaux modèles, FP 111b: I. Petit jour",
+          "sha256": "2f3cd2b1f16bc6c797c9df8423aeb58dc16874e565cfd2674cf41e3026cfedf9",
+          "credits": "Georges Pretre, Conductor, MainArtist - Orchestre De La Société Des Concerts Du Conservatoire, Orchestra - Francis Poulenc, Composer"
+        },
+        {
+          "id": 125326283,
+          "title": "Suite des Animaux modèles, FP 111b: II. Le lion amoureux",
+          "sha256": "9e93abfc080ba18da66f37c46be7f140d1d3323819b60ad8b496f5cd1d8cf5ee",
+          "credits": "Georges Pretre, Conductor, MainArtist - Orchestre De La Société Des Concerts Du Conservatoire, Orchestra - Francis Poulenc, Composer"
+        },
+        {
+          "id": 125326284,
+          "title": "Suite des Animaux modèles, FP 111b: III. L'homme entre deux âges et ses deux maîtresses",
+          "sha256": "f82faeea2819545f883c75e4e9dfc0ee82c179f23602211580522e08bffcc63d",
+          "credits": "Georges Pretre, Conductor, MainArtist - Orchestre De La Société Des Concerts Du Conservatoire, Orchestra - Francis Poulenc, Composer"
+        },
+        {
+          "id": 125326285,
+          "title": "Suite des Animaux modèles, FP 111b: IV. La mort et le bûcheron",
+          "sha256": "08389efa1aead5259354276e7888cd26edc18e491213dcb8391a16fe028f1c9b",
+          "credits": "Georges Pretre, Conductor, MainArtist - Orchestre De La Société Des Concerts Du Conservatoire, Orchestra - Francis Poulenc, Composer"
+        },
+        {
+          "id": 125326286,
+          "title": "Suite des Animaux modèles, FP 111b: V. Le combat des deux coqs",
+          "sha256": "638b9672cf6326b2af05003eae7948128bc5fa5bad9ccfe456b49990f0716d47",
+          "credits": "Georges Pretre, Conductor, MainArtist - Orchestre De La Société Des Concerts Du Conservatoire, Orchestra - Francis Poulenc, Composer"
+        },
+        {
+          "id": 125326287,
+          "title": "Suite des Animaux modèles, FP 111b: VI. Le repas de midi",
+          "sha256": "3fd5cfc5ee6d0ad25339b76b200d7631312a7384321f2fae7aca22fcad8550ca",
+          "credits": "Georges Pretre, Conductor, MainArtist - Orchestre De La Société Des Concerts Du Conservatoire, Orchestra - Francis Poulenc, Composer"
+        }
+      ],
+      "outcome": "unresolved-diagnostic-only",
+      "publication_change": false,
+      "source_scoped_pianists": [
+        {
+          "name": "Aldo Ciccolini",
+          "anv": "",
+          "join": "",
+          "role": "Piano",
+          "tracks": "A1 to A9",
+          "id": 273804,
+          "resource_url": "https://api.discogs.com/artists/273804"
+        },
+        {
+          "name": "Alexis Weissenberg",
+          "anv": "",
+          "join": "",
+          "role": "Piano",
+          "tracks": "A1 to A9",
+          "id": 837575,
+          "resource_url": "https://api.discogs.com/artists/837575"
+        }
+      ],
+      "global_requirement_gaps": [
+        {
+          "track_id": 125326270,
+          "missing": [
+            "Georges Prêtre",
+            "Orchestre De La Société Des Concerts Du Conservatoire"
+          ]
+        },
+        {
+          "track_id": 125326273,
+          "missing": [
+            "Georges Prêtre",
+            "Orchestre De La Société Des Concerts Du Conservatoire"
+          ]
+        },
+        {
+          "track_id": 125326275,
+          "missing": [
+            "Aldo Ciccolini",
+            "Alexis Weissenberg"
+          ]
+        },
+        {
+          "track_id": 125326276,
+          "missing": [
+            "Georges Prêtre",
+            "Orchestre De La Société Des Concerts Du Conservatoire"
+          ]
+        },
+        {
+          "track_id": 125326280,
+          "missing": [
+            "Georges Prêtre",
+            "Orchestre De La Société Des Concerts Du Conservatoire"
+          ]
+        },
+        {
+          "track_id": 125326282,
+          "missing": [
+            "Aldo Ciccolini",
+            "Alexis Weissenberg"
+          ]
+        },
+        {
+          "track_id": 125326283,
+          "missing": [
+            "Aldo Ciccolini",
+            "Alexis Weissenberg"
+          ]
+        },
+        {
+          "track_id": 125326284,
+          "missing": [
+            "Aldo Ciccolini",
+            "Alexis Weissenberg"
+          ]
+        },
+        {
+          "track_id": 125326285,
+          "missing": [
+            "Aldo Ciccolini",
+            "Alexis Weissenberg"
+          ]
+        },
+        {
+          "track_id": 125326286,
+          "missing": [
+            "Aldo Ciccolini",
+            "Alexis Weissenberg"
+          ]
+        },
+        {
+          "track_id": 125326287,
+          "missing": [
+            "Aldo Ciccolini",
+            "Alexis Weissenberg"
+          ]
+        }
+      ],
+      "blockers": [
+        "Source9Carnavalbands combine14digital sections; source4Poulencbands combine6digital sections. One-band/one-movement heading adapter cannot be used.",
+        "Source pianists explicitly scoped to A1–A9, not Poulenc sideB; current normalized requirements flatten this scope. Some individual Carnaval sections also lack pianist/conductor/orchestra credits. Instrumentation may explain these gaps but no unreviewed exemption is applied."
+      ],
+      "sources": [
+        "https://www.warnerclassics.com/release/saint-saens-le-carnaval-des-animaux-poulenc-les-animaux-modeles-milhaud-la-creation-du"
+      ],
+      "publisher_evidence_scope": "Warner corroborates Prêtre/Ciccolini/Weissenberg and the coupled works in a broader2017release. It is not proof of this exact candidate barcode or section-specific performer participation.",
+      "next_action": "Build a source-position/score-supported combined-band and instrument-scope diagnostic before proposing any publication rule. Preserve existing credits and Unchecked meanwhile."
+    }
+  ]
+}
