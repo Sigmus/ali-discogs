@@ -257,3 +257,25 @@ no acceptance change.206script tests, UI normalization/build pass. No accepted
 status changes;12Found/132Probable/597Unchecked copies. Inventory596uncheckedunique:
 399work/credit,160metadata,27withheld,3rejections,6empty,1source hold. No Qobuz
 requests or push. Continue independent cached Brendel5403356programme/family review.
+
+### 2026-11-15 — Brendel complete analogue cycle reviewed Probable
+
+5403356/0002894782607now Probable85: all32sonatas plus Andantefavori,103distinct
+Brendel-credited movements;18concerto/ChoralFantasytracks excluded. Exact original
+boxback and sideRlabel establish Sonata9EmajorOp14No1versus cached source14,2.
+Bounded work-title corrections preserve all raw/normalized text, source order and
+work identities. Decca official release description corroborates1970–77analogue
+family; exact takes/LPtransfer/mastering remain unverified. Five original images
+saved/hash-bound; no blanket opus/key/title alias.
+
+Large apparent timing mismatches were shared source spans attached to individual
+fields. Explicit86diagnostic groups account for103positions exactly once; Op101
+values on Q1/Q3cover pairs, while other timings may appear at span ends. Only
+marked image-verified groups have inspected label proof; other group interpretations
+remain inference. Differences up to15sec retained, including9secOp79I. No timing
+calibration/identity claim or generic source normalization. Offline audit command
+and regressions cover full programme, missing Andante, wrong sonata/pianist/composer,
+immutable source and complete timing scopes.209script tests, UI normalization/build
+pass. Only5403356accepted status changes.12Found/133Probable/596Unchecked copies;
+595uncheckedunique(398work/credit,160metadata,27withheld,3rejections,6empty,1source
+hold). No Qobuz calls/push. Next original FALP317section identity diagnostic.

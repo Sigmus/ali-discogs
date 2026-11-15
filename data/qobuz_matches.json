@@ -32,7 +32,7 @@
   "richter_review_fingerprint": "a14865f86e46150593e39bfa285fa6c7c61c8f46147b8094c0cb048fd02118ab",
   "round2_review_fingerprint": "be60742c3d35f5a9aa67f200642f7fcde98a52562a46130e043db8f4aa7c851e",
   "round2_metadata_fingerprint": "9db62d7bf62d4b77f5acf422dfde77959f845f4dc00b2ac0e10c02ccea295860",
-  "remaining_review_fingerprint": "01501ab66a285cb054b921ebbbd97f9e2bbb07ffff5d24ff0a1f3963fe638c91",
+  "remaining_review_fingerprint": "a8bfad169874a183dc7647644da2221fbc8a2eb624db22fc30222f5094ffe2bc",
   "remaining_metadata_fingerprint": "393b2d12e176160ab311b65267b38bdc8c205222e12f792bf07eba5c1fcfafbf",
   "remaining_followup_metadata_fingerprint": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
   "seven_album_metadata_fingerprint": "139f9b336c68b56ea22c18362cb0481c026366c5d359142f2bb702fe1233a4fc",
@@ -111751,14 +111751,1150 @@
       ]
     },
     "5403356": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0002894782607",
+        "name": "Beethoven: Complete Piano Sonatas & Concertos",
+        "artists": [
+          "Alfred Brendel"
+        ],
+        "label": "Decca Music Group Ltd.",
+        "release_date": "2010-01-01",
+        "image": "https://static.qobuz.com/images/covers/07/26/0002894782607_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/beethoven-complete-piano-sonatas-concertos-alfred-brendel/0002894782607"
+      },
+      "candidates": [
+        {
+          "id": "0002894782607",
+          "name": "Beethoven: Complete Piano Sonatas & Concertos",
+          "artists": [
+            "Alfred Brendel"
+          ],
+          "label": "Decca Music Group Ltd.",
+          "release_date": "2010-01-01",
+          "image": "https://static.qobuz.com/images/covers/07/26/0002894782607_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/beethoven-complete-piano-sonatas-concertos-alfred-brendel/0002894782607",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 33,
+          "target_count": 33,
+          "required_performers": [
+            "Alfred Brendel"
+          ],
+          "programme": [
+            {
+              "target": "Sonate Nr. 12 As-dur op. 26",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                3033485,
+                3033486,
+                3033487,
+                3033488
+              ]
+            },
+            {
+              "target": "Sonate Nr. 16 G-dur op. 31,1",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                3033500,
+                3033501,
+                3033502
+              ]
+            },
+            {
+              "target": "Sonate Nr. 3 C-dur op. 2,3",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                3033458,
+                3033459,
+                3033460,
+                3033461
+              ]
+            },
+            {
+              "target": "Sonate Nr. 11 B-dur op. 22",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                3033481,
+                3033482,
+                3033483,
+                3033484
+              ]
+            },
+            {
+              "target": "Sonate Nr. 2 A-dur op. 2,2",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                3033450,
+                3033451,
+                3033452,
+                3033453
+              ]
+            },
+            {
+              "target": "Sonate Nr. 15 D-dur op. 28 \"Pastorale\"",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                3033496,
+                3033497,
+                3033498,
+                3033499
+              ]
+            },
+            {
+              "target": "Sonate Nr. 1 f-moll op. 2,1",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                3033446,
+                3033447,
+                3033448,
+                3033449
+              ]
+            },
+            {
+              "target": "Sonate Nr. 26 Es-dur op. 81A \"Les Adieux\"",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                3033527,
+                3033528,
+                3033529
+              ]
+            },
+            {
+              "target": "Sonate Nr. 20 G-dur op. 49,2",
+              "work_tracks": 2,
+              "credited_tracks": 2,
+              "track_ids": [
+                3033512,
+                3033513
+              ]
+            },
+            {
+              "target": "Sonate Nr. 4 Es-dur op. 7",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                3033454,
+                3033455,
+                3033456,
+                3033457
+              ]
+            },
+            {
+              "target": "Sonate Nr. 5 c-moll op. 10,1",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                3033462,
+                3033463,
+                3033464
+              ]
+            },
+            {
+              "target": "Sonate Nr. 13 Es-dur op. 27,1",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                3033489,
+                3033490,
+                3033491,
+                3033492
+              ]
+            },
+            {
+              "target": "Sonate Nr. 22 F-dur op. 54",
+              "work_tracks": 2,
+              "credited_tracks": 2,
+              "track_ids": [
+                3033517,
+                3033518
+              ]
+            },
+            {
+              "target": "Sonate Nr. 17 d-moll op. 31,2 \"Der Sturm\"",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                3033503,
+                3033504,
+                3033505
+              ]
+            },
+            {
+              "target": "Sonate Nr. 8 c-moll op. 13 \"Sonate Pathétique\"",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                3033468,
+                3033469,
+                3033470
+              ]
+            },
+            {
+              "target": "Sonate Nr. 19 g-moll op. 49,1",
+              "work_tracks": 2,
+              "credited_tracks": 2,
+              "track_ids": [
+                3033510,
+                3033511
+              ]
+            },
+            {
+              "target": "Sonate Nr. 18 Es-dur op. 31,3 \"Die Jagd\"",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                3033506,
+                3033507,
+                3033508,
+                3033509
+              ]
+            },
+            {
+              "target": "Sonate Nr. 6 F-dur op. 10,2",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                3033465,
+                3033466,
+                3033467
+              ]
+            },
+            {
+              "target": "Sonate Nr. 27 e-moll op. 90",
+              "work_tracks": 2,
+              "credited_tracks": 2,
+              "track_ids": [
+                3033530,
+                3033531
+              ]
+            },
+            {
+              "target": "Sonate Nr. 30 E-dur op. 109",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                3033540,
+                3033541,
+                3033542
+              ]
+            },
+            {
+              "target": "Sonate Nr. 28 A-dur op. 101",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                3033532,
+                3033533,
+                3033534,
+                3033535
+              ]
+            },
+            {
+              "target": "Sonate Nr. 9 E-dur op. 14,2",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                3033475,
+                3033476,
+                3033477
+              ]
+            },
+            {
+              "target": "Sonate Nr. 10 G-dur op. 14,2",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                3033478,
+                3033479,
+                3033480
+              ]
+            },
+            {
+              "target": "Sonate Nr. 21 C-dur op. 53 \"Waldstein\"",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                3033514,
+                3033515,
+                3033516
+              ]
+            },
+            {
+              "target": "Sonate Nr. 31 As-dur op. 110",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                3033543,
+                3033544,
+                3033545
+              ]
+            },
+            {
+              "target": "Andante Favori In F, Wo0 57",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                3033548
+              ]
+            },
+            {
+              "target": "Sonate Nr. 14 cis-moll op. 27,2 \"Mondschein-Sonate\"",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                3033493,
+                3033494,
+                3033495
+              ]
+            },
+            {
+              "target": "Sonate Nr. 25 G-dur op. 79",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                3033524,
+                3033525,
+                3033526
+              ]
+            },
+            {
+              "target": "Sonate Nr. 7 D-dur op. 10,3",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                3033471,
+                3033472,
+                3033473,
+                3033474
+              ]
+            },
+            {
+              "target": "Sonate Nr. 24 Fis-dur op. 78 \"Für Therese\"",
+              "work_tracks": 2,
+              "credited_tracks": 2,
+              "track_ids": [
+                3033522,
+                3033523
+              ]
+            },
+            {
+              "target": "Sonate Nr. 29 B-dur op. 106 \"Hammerklavier-Sonate\"",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                3033536,
+                3033537,
+                3033538,
+                3033539
+              ]
+            },
+            {
+              "target": "Sonate Nr. 23 f-moll op. 57 \"Appassionata\"",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                3033519,
+                3033520,
+                3033521
+              ]
+            },
+            {
+              "target": "Sonate Nr. 32 c-moll Opus 111",
+              "work_tracks": 2,
+              "credited_tracks": 2,
+              "track_ids": [
+                3033546,
+                3033547
+              ]
+            }
+          ],
+          "reasons": [
+            "Each target item has supporting work and performer credits.",
+            "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+            "Philips6768004source contains all32Beethoven sonatas plus Andantefavori. Original boxback and sideRlabel correctly identify Sonata9EmajorOp14No1; cached source erroneously saysOp14,2. Hash-bound temporary work-title normalization preserves raw text and source order. Decca identifies this analogue sonata reissue as1970–77cycle. All33works map completely to103distinct Brendel-credited tracks;18concerto/ChoralFantasytracks stay outside the source programme.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Recording-family support, not independently verified takes, exact LPpressing or mastering.",
+            "Original source images correct the cached Sonata9catalogue typo for this review only. Source/normalized collection remain unchanged; no global opus/key alias.",
+            "German/comma-opus and Wo0/WoOtitle variants are reviewed only in this exact source/album mapping, not treated as interchangeable across the catalogue.",
+            "Source1978issue/label dates and digital2010reissue date are not recording-session dates;1970–77family attribution comes from the publisher.",
+            "Some source timing fields cover multiple movements. Reviewed diagnostic groups retain those spans; uninspected-label grouping remains labelled as inference. Individual differences up to15seconds remain, including9seconds for Op79I. Timing similarity is not take/mastering proof."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Sonate Nr. 12 As-dur op. 26",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "track_ids": [
+                  3033485,
+                  3033486,
+                  3033487,
+                  3033488
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+                "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+              },
+              {
+                "target": "Sonate Nr. 16 G-dur op. 31,1",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "track_ids": [
+                  3033500,
+                  3033501,
+                  3033502
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+                "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+              },
+              {
+                "target": "Sonate Nr. 3 C-dur op. 2,3",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "track_ids": [
+                  3033458,
+                  3033459,
+                  3033460,
+                  3033461
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+                "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+              },
+              {
+                "target": "Sonate Nr. 11 B-dur op. 22",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "track_ids": [
+                  3033481,
+                  3033482,
+                  3033483,
+                  3033484
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+                "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+              },
+              {
+                "target": "Sonate Nr. 2 A-dur op. 2,2",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "track_ids": [
+                  3033450,
+                  3033451,
+                  3033452,
+                  3033453
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+                "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+              },
+              {
+                "target": "Sonate Nr. 15 D-dur op. 28 \"Pastorale\"",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "track_ids": [
+                  3033496,
+                  3033497,
+                  3033498,
+                  3033499
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+                "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+              },
+              {
+                "target": "Sonate Nr. 1 f-moll op. 2,1",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "track_ids": [
+                  3033446,
+                  3033447,
+                  3033448,
+                  3033449
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+                "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+              },
+              {
+                "target": "Sonate Nr. 26 Es-dur op. 81A \"Les Adieux\"",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "track_ids": [
+                  3033527,
+                  3033528,
+                  3033529
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+                "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+              },
+              {
+                "target": "Sonate Nr. 20 G-dur op. 49,2",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2
+                ],
+                "observed_movements": [
+                  1,
+                  2
+                ],
+                "track_ids": [
+                  3033512,
+                  3033513
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+                "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+              },
+              {
+                "target": "Sonate Nr. 4 Es-dur op. 7",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "track_ids": [
+                  3033454,
+                  3033455,
+                  3033456,
+                  3033457
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+                "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+              },
+              {
+                "target": "Sonate Nr. 5 c-moll op. 10,1",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "track_ids": [
+                  3033462,
+                  3033463,
+                  3033464
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+                "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+              },
+              {
+                "target": "Sonate Nr. 13 Es-dur op. 27,1",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "track_ids": [
+                  3033489,
+                  3033490,
+                  3033491,
+                  3033492
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+                "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+              },
+              {
+                "target": "Sonate Nr. 22 F-dur op. 54",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2
+                ],
+                "observed_movements": [
+                  1,
+                  2
+                ],
+                "track_ids": [
+                  3033517,
+                  3033518
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+                "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+              },
+              {
+                "target": "Sonate Nr. 17 d-moll op. 31,2 \"Der Sturm\"",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "track_ids": [
+                  3033503,
+                  3033504,
+                  3033505
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+                "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+              },
+              {
+                "target": "Sonate Nr. 8 c-moll op. 13 \"Sonate Pathétique\"",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "track_ids": [
+                  3033468,
+                  3033469,
+                  3033470
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+                "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+              },
+              {
+                "target": "Sonate Nr. 19 g-moll op. 49,1",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2
+                ],
+                "observed_movements": [
+                  1,
+                  2
+                ],
+                "track_ids": [
+                  3033510,
+                  3033511
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+                "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+              },
+              {
+                "target": "Sonate Nr. 18 Es-dur op. 31,3 \"Die Jagd\"",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "track_ids": [
+                  3033506,
+                  3033507,
+                  3033508,
+                  3033509
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+                "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+              },
+              {
+                "target": "Sonate Nr. 6 F-dur op. 10,2",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "track_ids": [
+                  3033465,
+                  3033466,
+                  3033467
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+                "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+              },
+              {
+                "target": "Sonate Nr. 27 e-moll op. 90",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2
+                ],
+                "observed_movements": [
+                  1,
+                  2
+                ],
+                "track_ids": [
+                  3033530,
+                  3033531
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+                "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+              },
+              {
+                "target": "Sonate Nr. 30 E-dur op. 109",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "track_ids": [
+                  3033540,
+                  3033541,
+                  3033542
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+                "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+              },
+              {
+                "target": "Sonate Nr. 28 A-dur op. 101",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "track_ids": [
+                  3033532,
+                  3033533,
+                  3033534,
+                  3033535
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+                "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+              },
+              {
+                "target": "Sonate Nr. 9 E-dur op. 14,2",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "track_ids": [
+                  3033475,
+                  3033476,
+                  3033477
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+                "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+              },
+              {
+                "target": "Sonate Nr. 10 G-dur op. 14,2",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "track_ids": [
+                  3033478,
+                  3033479,
+                  3033480
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+                "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+              },
+              {
+                "target": "Sonate Nr. 21 C-dur op. 53 \"Waldstein\"",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "track_ids": [
+                  3033514,
+                  3033515,
+                  3033516
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+                "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+              },
+              {
+                "target": "Sonate Nr. 31 As-dur op. 110",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "track_ids": [
+                  3033543,
+                  3033544,
+                  3033545
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+                "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+              },
+              {
+                "target": "Andante Favori In F, Wo0 57",
+                "status": "complete",
+                "expected_movements": [
+                  1
+                ],
+                "observed_movements": [
+                  1
+                ],
+                "track_ids": [
+                  3033548
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+                "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+              },
+              {
+                "target": "Sonate Nr. 14 cis-moll op. 27,2 \"Mondschein-Sonate\"",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "track_ids": [
+                  3033493,
+                  3033494,
+                  3033495
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+                "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+              },
+              {
+                "target": "Sonate Nr. 25 G-dur op. 79",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "track_ids": [
+                  3033524,
+                  3033525,
+                  3033526
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+                "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+              },
+              {
+                "target": "Sonate Nr. 7 D-dur op. 10,3",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "track_ids": [
+                  3033471,
+                  3033472,
+                  3033473,
+                  3033474
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+                "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+              },
+              {
+                "target": "Sonate Nr. 24 Fis-dur op. 78 \"Für Therese\"",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2
+                ],
+                "observed_movements": [
+                  1,
+                  2
+                ],
+                "track_ids": [
+                  3033522,
+                  3033523
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+                "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+              },
+              {
+                "target": "Sonate Nr. 29 B-dur op. 106 \"Hammerklavier-Sonate\"",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "track_ids": [
+                  3033536,
+                  3033537,
+                  3033538,
+                  3033539
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+                "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+              },
+              {
+                "target": "Sonate Nr. 23 f-moll op. 57 \"Appassionata\"",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "track_ids": [
+                  3033519,
+                  3033520,
+                  3033521
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+                "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+              },
+              {
+                "target": "Sonate Nr. 32 c-moll Opus 111",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2
+                ],
+                "observed_movements": [
+                  1,
+                  2
+                ],
+                "track_ids": [
+                  3033546,
+                  3033547
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+                "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+              }
+            ],
+            "overlapping_target_tracks": false
+          },
+          "recording_review": "Philips6768004source contains all32Beethoven sonatas plus Andantefavori. Original boxback and sideRlabel correctly identify Sonata9EmajorOp14No1; cached source erroneously saysOp14,2. Hash-bound temporary work-title normalization preserves raw text and source order. Decca identifies this analogue sonata reissue as1970–77cycle. All33works map completely to103distinct Brendel-credited tracks;18concerto/ChoralFantasytracks stay outside the source programme.",
+          "review_sources": [
+            "https://www.discogs.com/release/5403356",
+            "https://shop.deccarecordsus.com/products/alfred-brendel-beethoven-complete-piano-sonatas-concertos",
+            "https://www.henle.de/en/Piano-Sonatas-no.-9-and-no.-10-E-major-and-G-major-op.-14-no.-1-and-no.-2/HN-810"
+          ]
+        }
+      ],
       "query": "alfred brendel beethoven samtliche klaviersonaten the complete piano sonatas les 32 sonates pour",
       "searched_at": "2026-11-12T17:05:56.361281+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Each target item has supporting work and performer credits.",
+        "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+        "Philips6768004source contains all32Beethoven sonatas plus Andantefavori. Original boxback and sideRlabel correctly identify Sonata9EmajorOp14No1; cached source erroneously saysOp14,2. Hash-bound temporary work-title normalization preserves raw text and source order. Decca identifies this analogue sonata reissue as1970–77cycle. All33works map completely to103distinct Brendel-credited tracks;18concerto/ChoralFantasytracks stay outside the source programme.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Recording-family support, not independently verified takes, exact LPpressing or mastering.",
+        "Original source images correct the cached Sonata9catalogue typo for this review only. Source/normalized collection remain unchanged; no global opus/key alias.",
+        "German/comma-opus and Wo0/WoOtitle variants are reviewed only in this exact source/album mapping, not treated as interchangeable across the catalogue.",
+        "Source1978issue/label dates and digital2010reissue date are not recording-session dates;1970–77family attribution comes from the publisher.",
+        "Some source timing fields cover multiple movements. Reviewed diagnostic groups retain those spans; uninspected-label grouping remains labelled as inference. Individual differences up to15seconds remain, including9seconds for Op79I. Timing similarity is not take/mastering proof."
       ]
     },
     "26797586": {

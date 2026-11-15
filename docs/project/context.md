@@ -11,7 +11,7 @@ and cache commands. This directory owns current planning.
 - Branch main; pushed through cf7f263 on15November. Later work remains local;
   deployment not verified. Inspect Git before claiming remote state.
 - Collection741copies/740unique. Saved labels: Spotify254Found/273Probable/
-  210NotFound/4Unchecked; Qobuz12Found/132Probable/597Unchecked copies.
+  210NotFound/4Unchecked; Qobuz12Found/133Probable/596Unchecked copies.
 - Qobuz publication `data/qobuz_matches.json` is separate from Spotify collection
   results. Labels/scores are saved data; Qobuz85/95 are heuristic levels, not
   probabilities. Legacy Spotify labels are not comparable accuracy measurements.
@@ -76,15 +76,19 @@ and cache commands. This directory owns current planning.
 - Role census:775associated-only declarations across1164albums;540spaced/235compact.
   Parser spelling inconsistency is not a new acceptance rule. No blanket promotions
   or demotions. [Proposed semantics review](../plans/2026-11-15-qobuz-associated-credit-roles.md).
-- Current pass206script tests, UI normalization/build pass.596unchecked unique:
-  399work/credit,160metadata,27withheld,3rejections,6empty,1source hold.
+- Current pass209script tests, UI normalization/build pass.595unchecked unique:
+  398work/credit,160metadata,27withheld,3rejections,6empty,1source hold.
   No Qobuz requests or further push. [Review plan](../plans/2026-11-15-qobuz-source-credit-reviews.md).
 
 ## Next action and limits
 
-Audit cached Brendel5403356complete Beethoven programme/recording family, including
-source Sonata9Op14,2 versus numbered/key identity and digital Op14No1. Preserve
-source discrepancy; do not silently correct it or borrow another sonata’s movements.
+Brendel5403356now Probable:32sonatas+Andantefavori,103distinct tracks. Original
+sideR/boxback confirm source Sonata9Op14No1; source text remains unchanged.
+Joint timing fields mapped into86diagnostic spans; uninspected grouping marked
+inference. Recording family supported, exact takes/mastering unverified.
+
+Next: inspect original FALP317images for Furtwängler3737065Entr’acteII/IIIsection
+identity; keep transfer provenance unresolved unless recording-specific proof exists.
 
 Continue verified cached reviews/commits autonomously. No unbounded retrieval,
 warning retries, automatic push/deployment, source rewrites or new instrument-scope

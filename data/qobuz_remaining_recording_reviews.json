@@ -5331,6 +5331,1260 @@
       "limitations": [
         "Exact cached candidate is incomplete or contains a conflicting source-required recording. This is not evidence of Qobuz-wide absence or a rejection of another candidate."
       ]
+    },
+    {
+      "discogs_id": "5403356",
+      "album_id": "0002894782607",
+      "target_sha256": "2e35cb91da2e41cd590beac7421510b5a01c4cafbdd33b0783c7110a9bb4954b",
+      "album_sha256": "e90cfbf3235a75f6804e7261e1879471de25303d2a2f1f560e626d5ec9782e9c",
+      "source_sha256": "347badf8ece92117024b490319a6f396fed5cacbffa4eb394b52d97cc1b32898",
+      "external_source_files": [
+        {
+          "path": "data/review_sources/brendel-5403356/box-back.jpg",
+          "sha256": "6ab36174132164abea55bcda708bbe9899f256103df7203bfc78798e49e673d9",
+          "source_url": "https://i.discogs.com/_mRMedlRl4P5aJF3gwwEtxCnsKNQcRp_GMObzjMDAWI/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU0MDMz/NTYtMTUyNjIzNTEx/OS0yNTA3LmpwZWc.jpeg"
+        },
+        {
+          "path": "data/review_sources/brendel-5403356/side-r.jpg",
+          "sha256": "3642ec6b36b7a9589fcf9cc688418cfc6034aca35fced7b72bc465dcefcef80f",
+          "source_url": "https://i.discogs.com/0wPBUKxqvuEk-gySeslWppOFJJZNADT91vTbgZkI4vg/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU0MDMz/NTYtMTczODU3MTUw/NS02NTMyLmpwZWc.jpeg"
+        },
+        {
+          "path": "data/review_sources/brendel-5403356/side-a.jpg",
+          "sha256": "0fd612720528f1c0fe6b96e022beb6672180225c42cd2e9d277ad212eb6c9f45",
+          "source_url": "https://i.discogs.com/8T52NJBGVbGmKPYoTrZ0ioXM2W63Lq7vGbu8Ok3X-yk/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU0MDMz/NTYtMTUyNjIzNTEx/OC04Njg3LmpwZWc.jpeg"
+        },
+        {
+          "path": "data/review_sources/brendel-5403356/side-q.jpg",
+          "sha256": "0e007db4fa1d0caf15bb951ab94660bf21d223b811c70e943da3dc226fa0292e",
+          "source_url": "https://i.discogs.com/rr-ETuT3bWvvVsfUHJdEKrFw-7tbgf4-RCd359eYkCU/rs:fit/g:sm/q:90/h:583/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU0MDMz/NTYtMTczODU3MTUw/NS0xNTk4LmpwZWc.jpeg"
+        },
+        {
+          "path": "data/review_sources/brendel-5403356/side-u.jpg",
+          "sha256": "475c56f7e54777534015e9d6c7c8f4d66380a543f52f5185ed4ca1ba9b1ebec6",
+          "source_url": "https://i.discogs.com/ovBL7YdUdcnMMcCPGBpp2xeQW2xhm4ujYiR5uQySPso/rs:fit/g:sm/q:90/h:588/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU0MDMz/NTYtMTczODU3MTUw/NS0yMzM2LmpwZWc.jpeg"
+        }
+      ],
+      "decision": "probable",
+      "target_title_corrections": {
+        "Sonate Nr. 12 As-dur op. 26": "Piano Sonata No. 12 in A-Flat Major, Op. 26 \"Funeral March\"",
+        "Sonate Nr. 16 G-dur op. 31,1": "Piano Sonata No. 16 in G Major, Op. 31 No. 1",
+        "Sonate Nr. 3 C-dur op. 2,3": "Piano Sonata No. 3 in C Major, Op. 2 No. 3",
+        "Sonate Nr. 11 B-dur op. 22": "Piano Sonata No. 11 in B-Flat Major, Op. 22",
+        "Sonate Nr. 2 A-dur op. 2,2": "Piano Sonata No. 2 in A Major, Op. 2 No. 2",
+        "Sonate Nr. 15 D-dur op. 28 \"Pastorale\"": "Piano Sonata No. 15 in D Major, Op. 28 \"Pastorale\"",
+        "Sonate Nr. 1 f-moll op. 2,1": "Piano Sonata No. 1 in F Minor, Op. 2 No. 1",
+        "Sonate Nr. 26 Es-dur op. 81A \"Les Adieux\"": "Piano Sonata No. 26 in E-Flat Major, Op. 81a \"Les Adieux\"",
+        "Sonate Nr. 20 G-dur op. 49,2": "Piano Sonata No. 20 in G Major, Op. 49 No. 2",
+        "Sonate Nr. 4 Es-dur op. 7": "Piano Sonata No. 4 in E-Flat Major, Op. 7 \"Grand Sonata\"",
+        "Sonate Nr. 5 c-moll op. 10,1": "Piano Sonata No. 5 in C Minor, Op. 10 No. 1",
+        "Sonate Nr. 13 Es-dur op. 27,1": "Piano Sonata No. 13 in E-Flat Major, Op. 27 No. 1 \"Quasi una fantasia\"",
+        "Sonate Nr. 22 F-dur op. 54": "Piano Sonata No. 22 in F Major, Op. 54",
+        "Sonate Nr. 17 d-moll op. 31,2 \"Der Sturm\"": "Piano Sonata No. 17 in D Minor, Op. 31 No. 2 \"The Tempest\"",
+        "Sonate Nr. 8 c-moll op. 13 \"Sonate Pathétique\"": "Piano Sonata No. 8 in C Minor, Op. 13 \"Pathétique\"",
+        "Sonate Nr. 19 g-moll op. 49,1": "Piano Sonata No. 19 in G Minor, Op. 49 No. 1",
+        "Sonate Nr. 18 Es-dur op. 31,3 \"Die Jagd\"": "Piano Sonata No. 18 in E-Flat Major, Op. 31 No. 3 \"The Hunt\"",
+        "Sonate Nr. 6 F-dur op. 10,2": "Piano Sonata No. 6 in F Major, Op. 10 No. 2",
+        "Sonate Nr. 27 e-moll op. 90": "Piano Sonata No. 27 in E Minor, Op. 90",
+        "Sonate Nr. 30 E-dur op. 109": "Piano Sonata No. 30 in E Major, Op. 109",
+        "Sonate Nr. 28 A-dur op. 101": "Piano Sonata No. 28 in A Major, Op. 101",
+        "Sonate Nr. 9 E-dur op. 14,2": "Piano Sonata No. 9 in E Major, Op. 14 No. 1",
+        "Sonate Nr. 10 G-dur op. 14,2": "Piano Sonata No. 10 in G Major, Op. 14 No. 2",
+        "Sonate Nr. 21 C-dur op. 53 \"Waldstein\"": "Piano Sonata No. 21 in C Major, Op. 53 \"Waldstein\"",
+        "Sonate Nr. 31 As-dur op. 110": "Piano Sonata No. 31 in A-Flat Major, Op. 110",
+        "Andante Favori In F, Wo0 57": "Andante Favori Woo 57",
+        "Sonate Nr. 14 cis-moll op. 27,2 \"Mondschein-Sonate\"": "Piano Sonata No. 14 in C-Sharp Minor, Op. 27 No. 2 \"Moonlight\"",
+        "Sonate Nr. 25 G-dur op. 79": "Piano Sonata No. 25 in G Major, Op. 79",
+        "Sonate Nr. 7 D-dur op. 10,3": "Piano Sonata No. 7 in D Major, Op. 10 No. 3",
+        "Sonate Nr. 24 Fis-dur op. 78 \"Für Therese\"": "Piano Sonata No. 24 in F-Sharp Major, Op. 78 \"For Therese\"",
+        "Sonate Nr. 29 B-dur op. 106 \"Hammerklavier-Sonate\"": "Piano Sonata No. 29 in B-Flat Major, Op. 106 \"Hammerklavier\"",
+        "Sonate Nr. 23 f-moll op. 57 \"Appassionata\"": "Piano Sonata No. 23 in F Minor, Op. 57 \"Appassionata\"",
+        "Sonate Nr. 32 c-moll Opus 111": "Piano Sonata No. 32 in C Minor, Op. 111"
+      },
+      "works": [
+        {
+          "target": "Sonate Nr. 12 As-dur op. 26",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+          "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+        },
+        {
+          "target": "Sonate Nr. 16 G-dur op. 31,1",
+          "movements": [
+            1,
+            2,
+            3
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+          "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+        },
+        {
+          "target": "Sonate Nr. 3 C-dur op. 2,3",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+          "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+        },
+        {
+          "target": "Sonate Nr. 11 B-dur op. 22",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+          "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+        },
+        {
+          "target": "Sonate Nr. 2 A-dur op. 2,2",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+          "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+        },
+        {
+          "target": "Sonate Nr. 15 D-dur op. 28 \"Pastorale\"",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+          "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+        },
+        {
+          "target": "Sonate Nr. 1 f-moll op. 2,1",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+          "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+        },
+        {
+          "target": "Sonate Nr. 26 Es-dur op. 81A \"Les Adieux\"",
+          "movements": [
+            1,
+            2,
+            3
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+          "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+        },
+        {
+          "target": "Sonate Nr. 20 G-dur op. 49,2",
+          "movements": [
+            1,
+            2
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+          "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+        },
+        {
+          "target": "Sonate Nr. 4 Es-dur op. 7",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+          "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+        },
+        {
+          "target": "Sonate Nr. 5 c-moll op. 10,1",
+          "movements": [
+            1,
+            2,
+            3
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+          "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+        },
+        {
+          "target": "Sonate Nr. 13 Es-dur op. 27,1",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+          "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+        },
+        {
+          "target": "Sonate Nr. 22 F-dur op. 54",
+          "movements": [
+            1,
+            2
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+          "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+        },
+        {
+          "target": "Sonate Nr. 17 d-moll op. 31,2 \"Der Sturm\"",
+          "movements": [
+            1,
+            2,
+            3
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+          "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+        },
+        {
+          "target": "Sonate Nr. 8 c-moll op. 13 \"Sonate Pathétique\"",
+          "movements": [
+            1,
+            2,
+            3
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+          "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+        },
+        {
+          "target": "Sonate Nr. 19 g-moll op. 49,1",
+          "movements": [
+            1,
+            2
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+          "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+        },
+        {
+          "target": "Sonate Nr. 18 Es-dur op. 31,3 \"Die Jagd\"",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+          "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+        },
+        {
+          "target": "Sonate Nr. 6 F-dur op. 10,2",
+          "movements": [
+            1,
+            2,
+            3
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+          "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+        },
+        {
+          "target": "Sonate Nr. 27 e-moll op. 90",
+          "movements": [
+            1,
+            2
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+          "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+        },
+        {
+          "target": "Sonate Nr. 30 E-dur op. 109",
+          "movements": [
+            1,
+            2,
+            3
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+          "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+        },
+        {
+          "target": "Sonate Nr. 28 A-dur op. 101",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+          "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+        },
+        {
+          "target": "Sonate Nr. 9 E-dur op. 14,2",
+          "movements": [
+            1,
+            2,
+            3
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+          "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+        },
+        {
+          "target": "Sonate Nr. 10 G-dur op. 14,2",
+          "movements": [
+            1,
+            2,
+            3
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+          "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+        },
+        {
+          "target": "Sonate Nr. 21 C-dur op. 53 \"Waldstein\"",
+          "movements": [
+            1,
+            2,
+            3
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+          "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+        },
+        {
+          "target": "Sonate Nr. 31 As-dur op. 110",
+          "movements": [
+            1,
+            2,
+            3
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+          "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+        },
+        {
+          "target": "Andante Favori In F, Wo0 57",
+          "movements": [
+            1
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+          "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata.",
+          "reviewed_sections": {
+            "3033548": {
+              "track_sha256": "46315b6413309353ab993fd50e9efbfdb92299b33a551353f9952a2ab8ee8b04",
+              "movements": [
+                1
+              ]
+            }
+          }
+        },
+        {
+          "target": "Sonate Nr. 14 cis-moll op. 27,2 \"Mondschein-Sonate\"",
+          "movements": [
+            1,
+            2,
+            3
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+          "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+        },
+        {
+          "target": "Sonate Nr. 25 G-dur op. 79",
+          "movements": [
+            1,
+            2,
+            3
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+          "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+        },
+        {
+          "target": "Sonate Nr. 7 D-dur op. 10,3",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+          "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+        },
+        {
+          "target": "Sonate Nr. 24 Fis-dur op. 78 \"Für Therese\"",
+          "movements": [
+            1,
+            2
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+          "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+        },
+        {
+          "target": "Sonate Nr. 29 B-dur op. 106 \"Hammerklavier-Sonate\"",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+          "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+        },
+        {
+          "target": "Sonate Nr. 23 f-moll op. 57 \"Appassionata\"",
+          "movements": [
+            1,
+            2,
+            3
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+          "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+        },
+        {
+          "target": "Sonate Nr. 32 c-moll Opus 111",
+          "movements": [
+            1,
+            2
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Exact cached source work/movement list and original box/label identity; digital numbered movements.",
+          "reason": "All source movements accounted for distinctly with required pianist, without borrowing from another sonata."
+        }
+      ],
+      "sources": [
+        "https://www.discogs.com/release/5403356",
+        "https://shop.deccarecordsus.com/products/alfred-brendel-beethoven-complete-piano-sonatas-concertos",
+        "https://www.henle.de/en/Piano-Sonatas-no.-9-and-no.-10-E-major-and-G-major-op.-14-no.-1-and-no.-2/HN-810"
+      ],
+      "recording_review": "Philips6768004source contains all32Beethoven sonatas plus Andantefavori. Original boxback and sideRlabel correctly identify Sonata9EmajorOp14No1; cached source erroneously saysOp14,2. Hash-bound temporary work-title normalization preserves raw text and source order. Decca identifies this analogue sonata reissue as1970–77cycle. All33works map completely to103distinct Brendel-credited tracks;18concerto/ChoralFantasytracks stay outside the source programme.",
+      "limitations": [
+        "Recording-family support, not independently verified takes, exact LPpressing or mastering.",
+        "Original source images correct the cached Sonata9catalogue typo for this review only. Source/normalized collection remain unchanged; no global opus/key alias.",
+        "German/comma-opus and Wo0/WoOtitle variants are reviewed only in this exact source/album mapping, not treated as interchangeable across the catalogue.",
+        "Source1978issue/label dates and digital2010reissue date are not recording-session dates;1970–77family attribution comes from the publisher.",
+        "Some source timing fields cover multiple movements. Reviewed diagnostic groups retain those spans; uninspected-label grouping remains labelled as inference. Individual differences up to15seconds remain, including9seconds for Op79I. Timing similarity is not take/mastering proof."
+      ],
+      "source_canonical_sha256": "f98bd96ad71c21773c1e6c4c302307467a610100c2f1ef7e2988fa4309c0a7c2",
+      "source_timing_groups": [
+        {
+          "target": "Sonate Nr. 12 As-dur op. 26",
+          "positions": [
+            "A1",
+            "A2"
+          ],
+          "duration_field_position": "A2",
+          "image_verified": true,
+          "interpretation": "Joint printed duration for these reviewed movements"
+        },
+        {
+          "target": "Sonate Nr. 12 As-dur op. 26",
+          "positions": [
+            "A3",
+            "A4"
+          ],
+          "duration_field_position": "A4",
+          "image_verified": true,
+          "interpretation": "Joint printed duration for these reviewed movements"
+        },
+        {
+          "target": "Sonate Nr. 16 G-dur op. 31,1",
+          "positions": [
+            "B1"
+          ],
+          "duration_field_position": "B1",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 16 G-dur op. 31,1",
+          "positions": [
+            "B2"
+          ],
+          "duration_field_position": "B2",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 16 G-dur op. 31,1",
+          "positions": [
+            "B3"
+          ],
+          "duration_field_position": "B3",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 3 C-dur op. 2,3",
+          "positions": [
+            "C1"
+          ],
+          "duration_field_position": "C1",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 3 C-dur op. 2,3",
+          "positions": [
+            "C2"
+          ],
+          "duration_field_position": "C2",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 3 C-dur op. 2,3",
+          "positions": [
+            "C3"
+          ],
+          "duration_field_position": "C3",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 3 C-dur op. 2,3",
+          "positions": [
+            "C4"
+          ],
+          "duration_field_position": "C4",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 11 B-dur op. 22",
+          "positions": [
+            "D1"
+          ],
+          "duration_field_position": "D1",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 11 B-dur op. 22",
+          "positions": [
+            "D2"
+          ],
+          "duration_field_position": "D2",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 11 B-dur op. 22",
+          "positions": [
+            "D3"
+          ],
+          "duration_field_position": "D3",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 11 B-dur op. 22",
+          "positions": [
+            "D4"
+          ],
+          "duration_field_position": "D4",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 2 A-dur op. 2,2",
+          "positions": [
+            "E1"
+          ],
+          "duration_field_position": "E1",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 2 A-dur op. 2,2",
+          "positions": [
+            "E2"
+          ],
+          "duration_field_position": "E2",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 2 A-dur op. 2,2",
+          "positions": [
+            "E3"
+          ],
+          "duration_field_position": "E3",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 2 A-dur op. 2,2",
+          "positions": [
+            "E4"
+          ],
+          "duration_field_position": "E4",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 15 D-dur op. 28 \"Pastorale\"",
+          "positions": [
+            "F1"
+          ],
+          "duration_field_position": "F1",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 15 D-dur op. 28 \"Pastorale\"",
+          "positions": [
+            "F2"
+          ],
+          "duration_field_position": "F2",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 15 D-dur op. 28 \"Pastorale\"",
+          "positions": [
+            "F3"
+          ],
+          "duration_field_position": "F3",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 15 D-dur op. 28 \"Pastorale\"",
+          "positions": [
+            "F4"
+          ],
+          "duration_field_position": "F4",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 1 f-moll op. 2,1",
+          "positions": [
+            "G1"
+          ],
+          "duration_field_position": "G1",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 1 f-moll op. 2,1",
+          "positions": [
+            "G2"
+          ],
+          "duration_field_position": "G2",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 1 f-moll op. 2,1",
+          "positions": [
+            "G3"
+          ],
+          "duration_field_position": "G3",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 1 f-moll op. 2,1",
+          "positions": [
+            "G4"
+          ],
+          "duration_field_position": "G4",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 26 Es-dur op. 81A \"Les Adieux\"",
+          "positions": [
+            "H1"
+          ],
+          "duration_field_position": "H1",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 26 Es-dur op. 81A \"Les Adieux\"",
+          "positions": [
+            "H2",
+            "H3"
+          ],
+          "duration_field_position": "H3",
+          "image_verified": false,
+          "interpretation": "Joint printed duration for these reviewed movements"
+        },
+        {
+          "target": "Sonate Nr. 20 G-dur op. 49,2",
+          "positions": [
+            "H4"
+          ],
+          "duration_field_position": "H4",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 20 G-dur op. 49,2",
+          "positions": [
+            "H5"
+          ],
+          "duration_field_position": "H5",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 4 Es-dur op. 7",
+          "positions": [
+            "I1"
+          ],
+          "duration_field_position": "I1",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 4 Es-dur op. 7",
+          "positions": [
+            "I2"
+          ],
+          "duration_field_position": "I2",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 4 Es-dur op. 7",
+          "positions": [
+            "I3"
+          ],
+          "duration_field_position": "I3",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 4 Es-dur op. 7",
+          "positions": [
+            "I4"
+          ],
+          "duration_field_position": "I4",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 5 c-moll op. 10,1",
+          "positions": [
+            "J1"
+          ],
+          "duration_field_position": "J1",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 5 c-moll op. 10,1",
+          "positions": [
+            "J2",
+            "J3"
+          ],
+          "duration_field_position": "J3",
+          "image_verified": false,
+          "interpretation": "Joint printed duration for these reviewed movements"
+        },
+        {
+          "target": "Sonate Nr. 13 Es-dur op. 27,1",
+          "positions": [
+            "K1",
+            "K2",
+            "K3",
+            "K4"
+          ],
+          "duration_field_position": "K4",
+          "image_verified": false,
+          "interpretation": "Joint printed duration for these reviewed movements"
+        },
+        {
+          "target": "Sonate Nr. 22 F-dur op. 54",
+          "positions": [
+            "K5"
+          ],
+          "duration_field_position": "K5",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 22 F-dur op. 54",
+          "positions": [
+            "K6"
+          ],
+          "duration_field_position": "K6",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 17 d-moll op. 31,2 \"Der Sturm\"",
+          "positions": [
+            "L1"
+          ],
+          "duration_field_position": "L1",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 17 d-moll op. 31,2 \"Der Sturm\"",
+          "positions": [
+            "L2"
+          ],
+          "duration_field_position": "L2",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 17 d-moll op. 31,2 \"Der Sturm\"",
+          "positions": [
+            "L3"
+          ],
+          "duration_field_position": "L3",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 8 c-moll op. 13 \"Sonate Pathétique\"",
+          "positions": [
+            "M1"
+          ],
+          "duration_field_position": "M1",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 8 c-moll op. 13 \"Sonate Pathétique\"",
+          "positions": [
+            "M2"
+          ],
+          "duration_field_position": "M2",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 8 c-moll op. 13 \"Sonate Pathétique\"",
+          "positions": [
+            "M3"
+          ],
+          "duration_field_position": "M3",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 19 g-moll op. 49,1",
+          "positions": [
+            "M4"
+          ],
+          "duration_field_position": "M4",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 19 g-moll op. 49,1",
+          "positions": [
+            "M5"
+          ],
+          "duration_field_position": "M5",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 18 Es-dur op. 31,3 \"Die Jagd\"",
+          "positions": [
+            "N1"
+          ],
+          "duration_field_position": "N1",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 18 Es-dur op. 31,3 \"Die Jagd\"",
+          "positions": [
+            "N2"
+          ],
+          "duration_field_position": "N2",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 18 Es-dur op. 31,3 \"Die Jagd\"",
+          "positions": [
+            "N3"
+          ],
+          "duration_field_position": "N3",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 18 Es-dur op. 31,3 \"Die Jagd\"",
+          "positions": [
+            "N4"
+          ],
+          "duration_field_position": "N4",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 6 F-dur op. 10,2",
+          "positions": [
+            "O1"
+          ],
+          "duration_field_position": "O1",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 6 F-dur op. 10,2",
+          "positions": [
+            "O2"
+          ],
+          "duration_field_position": "O2",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 6 F-dur op. 10,2",
+          "positions": [
+            "O3"
+          ],
+          "duration_field_position": "O3",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 27 e-moll op. 90",
+          "positions": [
+            "O4"
+          ],
+          "duration_field_position": "O4",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 27 e-moll op. 90",
+          "positions": [
+            "O5"
+          ],
+          "duration_field_position": "O5",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 30 E-dur op. 109",
+          "positions": [
+            "P1",
+            "P2"
+          ],
+          "duration_field_position": "P2",
+          "image_verified": false,
+          "interpretation": "Joint printed duration for these reviewed movements"
+        },
+        {
+          "target": "Sonate Nr. 30 E-dur op. 109",
+          "positions": [
+            "P3"
+          ],
+          "duration_field_position": "P3",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 28 A-dur op. 101",
+          "positions": [
+            "Q1",
+            "Q2"
+          ],
+          "duration_field_position": "Q1",
+          "image_verified": true,
+          "interpretation": "Joint printed duration for these reviewed movements"
+        },
+        {
+          "target": "Sonate Nr. 28 A-dur op. 101",
+          "positions": [
+            "Q3",
+            "Q4"
+          ],
+          "duration_field_position": "Q3",
+          "image_verified": true,
+          "interpretation": "Joint printed duration for these reviewed movements"
+        },
+        {
+          "target": "Sonate Nr. 9 E-dur op. 14,2",
+          "positions": [
+            "R1"
+          ],
+          "duration_field_position": "R1",
+          "image_verified": true,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 9 E-dur op. 14,2",
+          "positions": [
+            "R2"
+          ],
+          "duration_field_position": "R2",
+          "image_verified": true,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 9 E-dur op. 14,2",
+          "positions": [
+            "R3"
+          ],
+          "duration_field_position": "R3",
+          "image_verified": true,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 10 G-dur op. 14,2",
+          "positions": [
+            "R4"
+          ],
+          "duration_field_position": "R4",
+          "image_verified": true,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 10 G-dur op. 14,2",
+          "positions": [
+            "R5"
+          ],
+          "duration_field_position": "R5",
+          "image_verified": true,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 10 G-dur op. 14,2",
+          "positions": [
+            "R6"
+          ],
+          "duration_field_position": "R6",
+          "image_verified": true,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 21 C-dur op. 53 \"Waldstein\"",
+          "positions": [
+            "S1"
+          ],
+          "duration_field_position": "S1",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 21 C-dur op. 53 \"Waldstein\"",
+          "positions": [
+            "S2",
+            "S3"
+          ],
+          "duration_field_position": "S3",
+          "image_verified": false,
+          "interpretation": "Joint printed duration for these reviewed movements"
+        },
+        {
+          "target": "Sonate Nr. 31 As-dur op. 110",
+          "positions": [
+            "T1"
+          ],
+          "duration_field_position": "T1",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 31 As-dur op. 110",
+          "positions": [
+            "T2",
+            "T3"
+          ],
+          "duration_field_position": "T3",
+          "image_verified": false,
+          "interpretation": "Joint printed duration for these reviewed movements"
+        },
+        {
+          "target": "Andante Favori In F, Wo0 57",
+          "positions": [
+            "T4"
+          ],
+          "duration_field_position": "T4",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 14 cis-moll op. 27,2 \"Mondschein-Sonate\"",
+          "positions": [
+            "U1",
+            "U2",
+            "U3"
+          ],
+          "duration_field_position": "U3",
+          "image_verified": true,
+          "interpretation": "Joint printed duration for these reviewed movements"
+        },
+        {
+          "target": "Sonate Nr. 25 G-dur op. 79",
+          "positions": [
+            "U4"
+          ],
+          "duration_field_position": "U4",
+          "image_verified": true,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 25 G-dur op. 79",
+          "positions": [
+            "U5"
+          ],
+          "duration_field_position": "U5",
+          "image_verified": true,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 25 G-dur op. 79",
+          "positions": [
+            "U6"
+          ],
+          "duration_field_position": "U6",
+          "image_verified": true,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 7 D-dur op. 10,3",
+          "positions": [
+            "V1"
+          ],
+          "duration_field_position": "V1",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 7 D-dur op. 10,3",
+          "positions": [
+            "V2"
+          ],
+          "duration_field_position": "V2",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 7 D-dur op. 10,3",
+          "positions": [
+            "V3"
+          ],
+          "duration_field_position": "V3",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 7 D-dur op. 10,3",
+          "positions": [
+            "V4"
+          ],
+          "duration_field_position": "V4",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 24 Fis-dur op. 78 \"Für Therese\"",
+          "positions": [
+            "W1",
+            "W2"
+          ],
+          "duration_field_position": "W2",
+          "image_verified": false,
+          "interpretation": "Joint printed duration for these reviewed movements"
+        },
+        {
+          "target": "Sonate Nr. 29 B-dur op. 106 \"Hammerklavier-Sonate\"",
+          "positions": [
+            "W3",
+            "W4"
+          ],
+          "duration_field_position": "W4",
+          "image_verified": false,
+          "interpretation": "Joint printed duration for these reviewed movements"
+        },
+        {
+          "target": "Sonate Nr. 29 B-dur op. 106 \"Hammerklavier-Sonate\"",
+          "positions": [
+            "X1"
+          ],
+          "duration_field_position": "X1",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 29 B-dur op. 106 \"Hammerklavier-Sonate\"",
+          "positions": [
+            "X2"
+          ],
+          "duration_field_position": "X2",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 23 f-moll op. 57 \"Appassionata\"",
+          "positions": [
+            "Y1"
+          ],
+          "duration_field_position": "Y1",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 23 f-moll op. 57 \"Appassionata\"",
+          "positions": [
+            "Y2",
+            "Y3"
+          ],
+          "duration_field_position": "Y3",
+          "image_verified": false,
+          "interpretation": "Joint printed duration for these reviewed movements"
+        },
+        {
+          "target": "Sonate Nr. 32 c-moll Opus 111",
+          "positions": [
+            "Z1"
+          ],
+          "duration_field_position": "Z1",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        },
+        {
+          "target": "Sonate Nr. 32 c-moll Opus 111",
+          "positions": [
+            "Z2"
+          ],
+          "duration_field_position": "Z2",
+          "image_verified": false,
+          "interpretation": "Single listed duration"
+        }
+      ]
     }
   ]
 }

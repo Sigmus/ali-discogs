@@ -496,3 +496,13 @@ credit declarations across the shared metadata. It reports spelling, current
 parser behaviour, other same-track credit support, track hashes and saved-candidate
 references. It changes only its diagnostic JSON, never credit policy/publication.
 [Semantic proposal](plans/2026-11-15-qobuz-associated-credit-roles.md).
+
+
+`uv run python scripts/qobuz_brendel_audit.py` reproduces the33work/103movement
+Brendel diagnostic from the source-bound recording review. It preserves each
+source position and supplied duration field, then checks explicit diagnostic
+`source_timing_groups` for complete, non-overlapping scope within works. A printed
+time can cover several movements and can appear on the first or last member.
+Only groups marked `image_verified` have inspected label images; other shared-time
+interpretations remain inference. These diagnostic spans never change source
+fields or waive programme/artist checks, and timing similarity is not take proof.

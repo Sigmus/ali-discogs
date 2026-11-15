@@ -1,0 +1,2245 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-15",
+  "discogs_id": "5403356",
+  "album_id": "0002894782607",
+  "review_fingerprint": "c62d0aca5c62a3a5055683f23c2af275bbc862fb62de327186f60360f6620368",
+  "source_sha256": "347badf8ece92117024b490319a6f396fed5cacbffa4eb394b52d97cc1b32898",
+  "target_sha256": "2e35cb91da2e41cd590beac7421510b5a01c4cafbdd33b0783c7110a9bb4954b",
+  "album_sha256": "e90cfbf3235a75f6804e7261e1879471de25303d2a2f1f560e626d5ec9782e9c",
+  "external_source_files": [
+    {
+      "path": "data/review_sources/brendel-5403356/box-back.jpg",
+      "sha256": "6ab36174132164abea55bcda708bbe9899f256103df7203bfc78798e49e673d9",
+      "source_url": "https://i.discogs.com/_mRMedlRl4P5aJF3gwwEtxCnsKNQcRp_GMObzjMDAWI/rs:fit/g:sm/q:90/h:600/w:599/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU0MDMz/NTYtMTUyNjIzNTEx/OS0yNTA3LmpwZWc.jpeg"
+    },
+    {
+      "path": "data/review_sources/brendel-5403356/side-r.jpg",
+      "sha256": "3642ec6b36b7a9589fcf9cc688418cfc6034aca35fced7b72bc465dcefcef80f",
+      "source_url": "https://i.discogs.com/0wPBUKxqvuEk-gySeslWppOFJJZNADT91vTbgZkI4vg/rs:fit/g:sm/q:90/h:590/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU0MDMz/NTYtMTczODU3MTUw/NS02NTMyLmpwZWc.jpeg"
+    },
+    {
+      "path": "data/review_sources/brendel-5403356/side-a.jpg",
+      "sha256": "0fd612720528f1c0fe6b96e022beb6672180225c42cd2e9d277ad212eb6c9f45",
+      "source_url": "https://i.discogs.com/8T52NJBGVbGmKPYoTrZ0ioXM2W63Lq7vGbu8Ok3X-yk/rs:fit/g:sm/q:90/h:600/w:598/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU0MDMz/NTYtMTUyNjIzNTEx/OC04Njg3LmpwZWc.jpeg"
+    },
+    {
+      "path": "data/review_sources/brendel-5403356/side-q.jpg",
+      "sha256": "0e007db4fa1d0caf15bb951ab94660bf21d223b811c70e943da3dc226fa0292e",
+      "source_url": "https://i.discogs.com/rr-ETuT3bWvvVsfUHJdEKrFw-7tbgf4-RCd359eYkCU/rs:fit/g:sm/q:90/h:583/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU0MDMz/NTYtMTczODU3MTUw/NS0xNTk4LmpwZWc.jpeg"
+    },
+    {
+      "path": "data/review_sources/brendel-5403356/side-u.jpg",
+      "sha256": "475c56f7e54777534015e9d6c7c8f4d66380a543f52f5185ed4ca1ba9b1ebec6",
+      "source_url": "https://i.discogs.com/ovBL7YdUdcnMMcCPGBpp2xeQW2xhm4ujYiR5uQySPso/rs:fit/g:sm/q:90/h:588/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTU0MDMz/NTYtMTczODU3MTUw/NS0yMzM2LmpwZWc.jpeg"
+    }
+  ],
+  "work_count": 33,
+  "distinct_tracks": 103,
+  "extra_track_ids": [
+    3033549,
+    3033550,
+    3033551,
+    3033552,
+    3033553,
+    3033554,
+    3033555,
+    3033556,
+    3033557,
+    3033558,
+    3033559,
+    3033560,
+    3033561,
+    3033562,
+    3033563,
+    3033564,
+    3033565,
+    3033566
+  ],
+  "works": [
+    {
+      "source_title": "Sonate Nr. 12 As-dur op. 26",
+      "reviewed_work_title": "Piano Sonata No. 12 in A-Flat Major, Op. 26 \"Funeral March\"",
+      "source_bands": [
+        {
+          "source_position": "A1",
+          "source_title": "Andante Con Variazione",
+          "source_duration_field": "",
+          "track_id": 3033485,
+          "track_title": "Beethoven: Piano Sonata No. 12 in A-Flat Major, Op. 26 \"Funeral March\": I. Andante con variazioni",
+          "track_sha256": "3e9a7d03fbf683ab65f0360d91065f41f18ee75c804351c6cb94428252739d12",
+          "digital_seconds": 520
+        },
+        {
+          "source_position": "A2",
+          "source_title": "Scherzo (Allegro Molto)",
+          "source_duration_field": "11:31",
+          "track_id": 3033486,
+          "track_title": "Beethoven: Piano Sonata No. 12 in A-Flat Major, Op. 26 \"Funeral March\": II. Scherzo. Allegro molto",
+          "track_sha256": "489ad9d41abe70bb4959ce95a1c80ad514f746bd6e0b4422d7064d90d43e2830",
+          "digital_seconds": 183
+        },
+        {
+          "source_position": "A3",
+          "source_title": "Marcia Funebre Sulla Morte D'un Eroe",
+          "source_duration_field": "",
+          "track_id": 3033487,
+          "track_title": "Beethoven: Piano Sonata No. 12 in A-Flat Major, Op. 26 \"Funeral March\": III. Marcia funebre sulla morte d'un Eroe",
+          "track_sha256": "1876acff4c46453027917419fd7c0eba26b988b50c90c7e8e25a6d81609544d5",
+          "digital_seconds": 331
+        },
+        {
+          "source_position": "A4",
+          "source_title": "Allegro",
+          "source_duration_field": "8:44",
+          "track_id": 3033488,
+          "track_title": "Beethoven: Piano Sonata No. 12 in A-Flat Major, Op. 26 \"Funeral March\": IV. Allegro",
+          "track_sha256": "bdf39a0acdc0e6ace909a3d0198773b94c454605d1fc317a9395a764a75c71ab",
+          "digital_seconds": 198
+        }
+      ]
+    },
+    {
+      "source_title": "Sonate Nr. 16 G-dur op. 31,1",
+      "reviewed_work_title": "Piano Sonata No. 16 in G Major, Op. 31 No. 1",
+      "source_bands": [
+        {
+          "source_position": "B1",
+          "source_title": "Allegro Vivace",
+          "source_duration_field": "6:00",
+          "track_id": 3033500,
+          "track_title": "Beethoven: Piano Sonata No. 16 in G Major, Op. 31 No. 1: I. Allegro vivace",
+          "track_sha256": "02668d200b27c7ef74ff3c97e631febed0205db9614fea8103b979dca2c37547",
+          "digital_seconds": 368
+        },
+        {
+          "source_position": "B2",
+          "source_title": "Adagio Grazioso",
+          "source_duration_field": "11:00",
+          "track_id": 3033501,
+          "track_title": "Beethoven: Piano Sonata No. 16 in G Major, Op. 31 No. 1: II. Adagio grazioso",
+          "track_sha256": "f25d304c94749241ab9ffe293cd3117229b30975eb116f6730927d8173b68914",
+          "digital_seconds": 668
+        },
+        {
+          "source_position": "B3",
+          "source_title": "Rondo (Allegretto)",
+          "source_duration_field": "6:48",
+          "track_id": 3033502,
+          "track_title": "Beethoven: Piano Sonata No. 16 in G Major, Op. 31 No. 1: III. Rondo. Allegretto",
+          "track_sha256": "64ffb8a7a298cc59ac7f7b0f3f2747a8a84eac0f61412f5ea27cc8740a6c8cc1",
+          "digital_seconds": 413
+        }
+      ]
+    },
+    {
+      "source_title": "Sonate Nr. 3 C-dur op. 2,3",
+      "reviewed_work_title": "Piano Sonata No. 3 in C Major, Op. 2 No. 3",
+      "source_bands": [
+        {
+          "source_position": "C1",
+          "source_title": "Allegro Con Brio",
+          "source_duration_field": "10:08",
+          "track_id": 3033458,
+          "track_title": "Beethoven: Piano Sonata No. 3 in C Major, Op. 2 No. 3: I. Allegro con brio",
+          "track_sha256": "c3e0ed7927e965790c7a471371e982f0e30fe71d7545bdf9b2ffc5017b71835a",
+          "digital_seconds": 619
+        },
+        {
+          "source_position": "C2",
+          "source_title": "Adagio",
+          "source_duration_field": "7:25",
+          "track_id": 3033459,
+          "track_title": "Beethoven: Piano Sonata No. 3 in C Major, Op. 2 No. 3: II. Adagio",
+          "track_sha256": "566df6ef07b5f1702401b6c872242b7385e3a74043d6df7421f7d939dfa57538",
+          "digital_seconds": 454
+        },
+        {
+          "source_position": "C3",
+          "source_title": "Scherzo (Allegro)",
+          "source_duration_field": "3:03",
+          "track_id": 3033460,
+          "track_title": "Beethoven: Piano Sonata No. 3 in C Major, Op. 2 No. 3: III. Scherzo. Allegro",
+          "track_sha256": "fe54a77664380fa3349dc54ef932bb53c8aca991cf83cb4a46df6faeef1f1015",
+          "digital_seconds": 188
+        },
+        {
+          "source_position": "C4",
+          "source_title": "Allegro Assai",
+          "source_duration_field": "5:10",
+          "track_id": 3033461,
+          "track_title": "Beethoven: Piano Sonata No. 3 in C Major, Op. 2 No. 3: IV. Allegro assai",
+          "track_sha256": "3e30646f1395fe954489b981f231ad773523519c667553cf80bb1ded9f365a1c",
+          "digital_seconds": 316
+        }
+      ]
+    },
+    {
+      "source_title": "Sonate Nr. 11 B-dur op. 22",
+      "reviewed_work_title": "Piano Sonata No. 11 in B-Flat Major, Op. 22",
+      "source_bands": [
+        {
+          "source_position": "D1",
+          "source_title": "Allegro Con Brio",
+          "source_duration_field": "7:15",
+          "track_id": 3033481,
+          "track_title": "Beethoven: Piano Sonata No. 11 in B-Flat Major, Op. 22: I. Allegro con brio",
+          "track_sha256": "b76a5a8760a327379ae7ef36bfb16f2d1da7c74537d07b6f555fd31567651370",
+          "digital_seconds": 443
+        },
+        {
+          "source_position": "D2",
+          "source_title": "Adagio Con Molto Espressione",
+          "source_duration_field": "6:36",
+          "track_id": 3033482,
+          "track_title": "Beethoven: Piano Sonata No. 11 in B-Flat Major, Op. 22: II. Adagio con molto espressione",
+          "track_sha256": "379235d4d6d074041afa89eb902a15c181974d402b2a8fc68a5005748733fd4f",
+          "digital_seconds": 401
+        },
+        {
+          "source_position": "D3",
+          "source_title": "Menuetto",
+          "source_duration_field": "3:17",
+          "track_id": 3033483,
+          "track_title": "Beethoven: Piano Sonata No. 11 in B-Flat Major, Op. 22: III. Menuetto",
+          "track_sha256": "d28a19b49e20d7faa0d3de84e06c3f0b7dc15ec66c2be687baa4d477a11f9fb5",
+          "digital_seconds": 201
+        },
+        {
+          "source_position": "D4",
+          "source_title": " Rondo (Allegretto)",
+          "source_duration_field": "6:21",
+          "track_id": 3033484,
+          "track_title": "Beethoven: Piano Sonata No. 11 in B-Flat Major, Op. 22: IV. Rondo. Allegretto",
+          "track_sha256": "b7aa885092ef404716fbeb19719c042e5cc7cb9bc4c98927f959d6f8dd1d07e1",
+          "digital_seconds": 387
+        }
+      ]
+    },
+    {
+      "source_title": "Sonate Nr. 2 A-dur op. 2,2",
+      "reviewed_work_title": "Piano Sonata No. 2 in A Major, Op. 2 No. 2",
+      "source_bands": [
+        {
+          "source_position": "E1",
+          "source_title": "Allegro Vivace",
+          "source_duration_field": "7:06",
+          "track_id": 3033450,
+          "track_title": "Beethoven: Piano Sonata No. 2 in A Major, Op. 2 No. 2: I. Allegro vivace",
+          "track_sha256": "cb17103bf537f17c57957792fa10a40839d4f434abb9c8b0d6cdfa5d49ff3aa5",
+          "digital_seconds": 434
+        },
+        {
+          "source_position": "E2",
+          "source_title": "Largo Appassionato",
+          "source_duration_field": "6:22",
+          "track_id": 3033451,
+          "track_title": "Beethoven: Piano Sonata No. 2 in A Major, Op. 2 No. 2: II. Largo appassionato",
+          "track_sha256": "2a360150ddcf4108abf757c7b8fcbdacdb88caf67746b279cd0575fdc5ebe8e2",
+          "digital_seconds": 388
+        },
+        {
+          "source_position": "E3",
+          "source_title": "Scherzo (Allegretto)",
+          "source_duration_field": "3:26",
+          "track_id": 3033452,
+          "track_title": "Beethoven: Piano Sonata No. 2 in A Major, Op. 2 No. 2: III. Scherzo. Allegretto",
+          "track_sha256": "c493fe54dc944efca1877b3b6fa9eb2ad6afc347dd54cce8f29c4ed3c438f299",
+          "digital_seconds": 210
+        },
+        {
+          "source_position": "E4",
+          "source_title": "Rondo (Grazioso)",
+          "source_duration_field": "6:48",
+          "track_id": 3033453,
+          "track_title": "Beethoven: Piano Sonata No. 2 in A Major, Op. 2 No. 2: IV. Rondo. Grazioso",
+          "track_sha256": "1943e14d5d5c2d70382ee2cda56d155d6424663b4c46c8ad61325343fecfea16",
+          "digital_seconds": 412
+        }
+      ]
+    },
+    {
+      "source_title": "Sonate Nr. 15 D-dur op. 28 \"Pastorale\"",
+      "reviewed_work_title": "Piano Sonata No. 15 in D Major, Op. 28 \"Pastorale\"",
+      "source_bands": [
+        {
+          "source_position": "F1",
+          "source_title": "Allegro",
+          "source_duration_field": "10:33",
+          "track_id": 3033496,
+          "track_title": "Beethoven: Piano Sonata No. 15 in D Major, Op. 28 \"Pastorale\": I. Allegro",
+          "track_sha256": "e0243fa26235215ed1f8d5a5d5f58b32d67b94ad397d680f5a6b638415c8d6f5",
+          "digital_seconds": 648
+        },
+        {
+          "source_position": "F2",
+          "source_title": "Andante",
+          "source_duration_field": "6:45",
+          "track_id": 3033497,
+          "track_title": "Beethoven: Piano Sonata No. 15 in D Major, Op. 28 \"Pastorale\": II. Andante",
+          "track_sha256": "ecf9a33aefd74f468c6ad55b63596985f1fc160c11fbbfbcb50c1aacce14fbcf",
+          "digital_seconds": 409
+        },
+        {
+          "source_position": "F3",
+          "source_title": "Scherzo (Allegro Assai)",
+          "source_duration_field": "2:12",
+          "track_id": 3033498,
+          "track_title": "Beethoven: Piano Sonata No. 15 in D Major, Op. 28 \"Pastorale\": III. Scherzo. Allegro assai",
+          "track_sha256": "2a264cae735a86af821f96d9a63b2c2a3bd87e1b1d49f090aad9cbcd050bdbaf",
+          "digital_seconds": 137
+        },
+        {
+          "source_position": "F4",
+          "source_title": "Rondo (Allegro Ma Non Troppo)",
+          "source_duration_field": "5:15",
+          "track_id": 3033499,
+          "track_title": "Beethoven: Piano Sonata No. 15 in D Major, Op. 28 \"Pastorale\": IV. Rondo. Allegro ma non troppo",
+          "track_sha256": "37501bb84980171f77d9f262c8974524685433c3882626df3d1ae1a402bc557f",
+          "digital_seconds": 321
+        }
+      ]
+    },
+    {
+      "source_title": "Sonate Nr. 1 f-moll op. 2,1",
+      "reviewed_work_title": "Piano Sonata No. 1 in F Minor, Op. 2 No. 1",
+      "source_bands": [
+        {
+          "source_position": "G1",
+          "source_title": "Allegro",
+          "source_duration_field": "6:09",
+          "track_id": 3033446,
+          "track_title": "Beethoven: Piano Sonata No. 1 in F Minor, Op. 2 No. 1: I. Allegro",
+          "track_sha256": "395632bc0946c3c66ac64869df212fb1b48ac62693617abb074b2cf3579408ec",
+          "digital_seconds": 378
+        },
+        {
+          "source_position": "G2",
+          "source_title": "Adagio",
+          "source_duration_field": "4:50",
+          "track_id": 3033447,
+          "track_title": "Beethoven: Piano Sonata No. 1 in F Minor, Op. 2 No. 1: II. Adagio",
+          "track_sha256": "a0f52faaf9e6fdff8c04402051b5bd9cd754c3a0d6879ebc853822844e86adee",
+          "digital_seconds": 298
+        },
+        {
+          "source_position": "G3",
+          "source_title": "Menuetto (Allegretto)",
+          "source_duration_field": "3:21",
+          "track_id": 3033448,
+          "track_title": "Beethoven: Piano Sonata No. 1 in F Minor, Op. 2 No. 1: III. Menuetto. Allegretto",
+          "track_sha256": "98e8adbb934be07e215c5f437895412d3f659c0312f2bb7949f6e9c7d9009676",
+          "digital_seconds": 204
+        },
+        {
+          "source_position": "G4",
+          "source_title": "Prestissimo",
+          "source_duration_field": "5:19",
+          "track_id": 3033449,
+          "track_title": "Beethoven: Piano Sonata No. 1 in F Minor, Op. 2 No. 1: IV. Prestissimo",
+          "track_sha256": "1132784e1f0c9dfb9fd54a07f8564ccb56d1c435ab9ac41c3b47a6167fd17aba",
+          "digital_seconds": 323
+        }
+      ]
+    },
+    {
+      "source_title": "Sonate Nr. 26 Es-dur op. 81A \"Les Adieux\"",
+      "reviewed_work_title": "Piano Sonata No. 26 in E-Flat Major, Op. 81a \"Les Adieux\"",
+      "source_bands": [
+        {
+          "source_position": "H1",
+          "source_title": "Das Lebewohl (Adagio - Allegro)",
+          "source_duration_field": "7:08",
+          "track_id": 3033527,
+          "track_title": "Beethoven: Piano Sonata No. 26 in E-Flat Major, Op. 81a \"Les Adieux\": I. Das Lebewohl. Adagio - Allegro",
+          "track_sha256": "49d9dee345028543813d209fc67be8233ff66ddf9fd50ffe7da3f9dd9650e334",
+          "digital_seconds": 439
+        },
+        {
+          "source_position": "H2",
+          "source_title": "Abwesendheit (Andante Espressivo)",
+          "source_duration_field": "",
+          "track_id": 3033528,
+          "track_title": "Beethoven: Piano Sonata No. 26 in E-Flat Major, Op. 81a \"Les Adieux\": II. Abwesendheit. Andante espressivo",
+          "track_sha256": "7ccdbb4a96eb15a76e9303082a8b0c733434cd0c488c94de0441ec40882b496e",
+          "digital_seconds": 237
+        },
+        {
+          "source_position": "H3",
+          "source_title": "Das Wiedersehn (Vivacissimamente)",
+          "source_duration_field": "9:40",
+          "track_id": 3033529,
+          "track_title": "Beethoven: Piano Sonata No. 26 in E-Flat Major, Op. 81a \"Les Adieux\": III. Das Wiedersehn. Vivacissimamente",
+          "track_sha256": "63e7a754c2609d3dc3f2390c514f52f663e27063e1d2325e69f51d8c4b506cce",
+          "digital_seconds": 350
+        }
+      ]
+    },
+    {
+      "source_title": "Sonate Nr. 20 G-dur op. 49,2",
+      "reviewed_work_title": "Piano Sonata No. 20 in G Major, Op. 49 No. 2",
+      "source_bands": [
+        {
+          "source_position": "H4",
+          "source_title": "Allegro Ma Non Troppo",
+          "source_duration_field": "4:43",
+          "track_id": 3033512,
+          "track_title": "Beethoven: Piano Sonata No. 20 in G Major, Op. 49 No. 2: I. Allegro ma non troppo",
+          "track_sha256": "e64e21e7ffe180797cd5e266a3c54e96ed38f221057a906725e5474a48fd2c6f",
+          "digital_seconds": 291
+        },
+        {
+          "source_position": "H5",
+          "source_title": "Tempo Di Menuetto",
+          "source_duration_field": "3:48",
+          "track_id": 3033513,
+          "track_title": "Beethoven: Piano Sonata No. 20 in G Major, Op. 49 No. 2: II. Tempo di menuetto",
+          "track_sha256": "3284f6330fe120de6c3a4574cc03387f08595614f3bdb05faafdc794c39ea3b7",
+          "digital_seconds": 233
+        }
+      ]
+    },
+    {
+      "source_title": "Sonate Nr. 4 Es-dur op. 7",
+      "reviewed_work_title": "Piano Sonata No. 4 in E-Flat Major, Op. 7 \"Grand Sonata\"",
+      "source_bands": [
+        {
+          "source_position": "I1",
+          "source_title": "Allegro Molto E Con Brio",
+          "source_duration_field": "8:30",
+          "track_id": 3033454,
+          "track_title": "Beethoven: Piano Sonata No. 4 in E-Flat Major, Op. 7 \"Grand Sonata\": I. Allegro molto e con brio",
+          "track_sha256": "7eddbeec42a1c30183ecc2bef3a65cafe05c16d2fb6874a6d4c362ef2d174483",
+          "digital_seconds": 519
+        },
+        {
+          "source_position": "I2",
+          "source_title": "Largo, Con Gran Espressione",
+          "source_duration_field": "8:55",
+          "track_id": 3033455,
+          "track_title": "Beethoven: Piano Sonata No. 4 in E-Flat Major, Op. 7 \"Grand Sonata\": II. Largo, con gran espressione",
+          "track_sha256": "0fe3f8159921f1eb8e0f41cb0d379305ae7043e8b0214ebe686da25b4d516682",
+          "digital_seconds": 540
+        },
+        {
+          "source_position": "I3",
+          "source_title": "Allegro",
+          "source_duration_field": "5:23",
+          "track_id": 3033456,
+          "track_title": "Beethoven: Piano Sonata No. 4 in E-Flat Major, Op. 7 \"Grand Sonata\": III. Allegro",
+          "track_sha256": "d8d680396e94ade597e221e3a07c68ba0aa48aa7bad9c2dc536908d24dae8a44",
+          "digital_seconds": 329
+        },
+        {
+          "source_position": "I4",
+          "source_title": " Rondo (Poco Allegretto E Grazioso)",
+          "source_duration_field": "7:32",
+          "track_id": 3033457,
+          "track_title": "Beethoven: Piano Sonata No. 4 in E-Flat Major, Op. 7 \"Grand Sonata\": IV. Rondo. Poco allegretto e grazioso",
+          "track_sha256": "f81db95e31e063ee1a062f08790cec95b5d659a4bc178b702a2b185b66ad3965",
+          "digital_seconds": 457
+        }
+      ]
+    },
+    {
+      "source_title": "Sonate Nr. 5 c-moll op. 10,1",
+      "reviewed_work_title": "Piano Sonata No. 5 in C Minor, Op. 10 No. 1",
+      "source_bands": [
+        {
+          "source_position": "J1",
+          "source_title": "Allegro Molto E Con Brio",
+          "source_duration_field": "5:39",
+          "track_id": 3033462,
+          "track_title": "Beethoven: Piano Sonata No. 5 in C Minor, Op. 10 No. 1: I. Allegro molto e con brio",
+          "track_sha256": "bf4924c6afa00fcb8700d68faa91ae8fc656945bdd6170570913c826978cff12",
+          "digital_seconds": 347
+        },
+        {
+          "source_position": "J2",
+          "source_title": "Adagio Molto",
+          "source_duration_field": "",
+          "track_id": 3033463,
+          "track_title": "Beethoven: Piano Sonata No. 5 in C Minor, Op. 10 No. 1: II. Adagio molto",
+          "track_sha256": "eca4239ed5e09acde97c278a3e582c8b881d3314dad504da22a3b05af708a286",
+          "digital_seconds": 542
+        },
+        {
+          "source_position": "J3",
+          "source_title": "Finale (Prestissimo)",
+          "source_duration_field": "13:15",
+          "track_id": 3033464,
+          "track_title": "Beethoven: Piano Sonata No. 5 in C Minor, Op. 10 No. 1: III. Finale. Prestissimo",
+          "track_sha256": "db241b76230194948a53c87b722a0f14db87676d0f1fec169030e49d77abab65",
+          "digital_seconds": 259
+        }
+      ]
+    },
+    {
+      "source_title": "Sonate Nr. 13 Es-dur op. 27,1",
+      "reviewed_work_title": "Piano Sonata No. 13 in E-Flat Major, Op. 27 No. 1 \"Quasi una fantasia\"",
+      "source_bands": [
+        {
+          "source_position": "K1",
+          "source_title": "Andante - Allegro",
+          "source_duration_field": "",
+          "track_id": 3033489,
+          "track_title": "Beethoven: Piano Sonata No. 13 in E-Flat Major, Op. 27 No. 1 \"Quasi una fantasia\": I. Andante - Allegro - Tempo I",
+          "track_sha256": "b0758a8673ddf8f2ea29d7246e289f27606839848cc7a43806959cc79f149912",
+          "digital_seconds": 275
+        },
+        {
+          "source_position": "K2",
+          "source_title": "Adagio Molto E Vivace",
+          "source_duration_field": "",
+          "track_id": 3033490,
+          "track_title": "Beethoven: Piano Sonata No. 13 in E-Flat Major, Op. 27 No. 1 \"Quasi una fantasia\": II. Allegro molto e vivace",
+          "track_sha256": "38c4e63ddce833db3d75fde00086fff5d30995c9909936451c8d1d60af72270d",
+          "digital_seconds": 120
+        },
+        {
+          "source_position": "K3",
+          "source_title": "Adagio Con Espressione",
+          "source_duration_field": "",
+          "track_id": 3033491,
+          "track_title": "Beethoven: Piano Sonata No. 13 in E-Flat Major, Op. 27 No. 1 \"Quasi una fantasia\": III. Adagio con espressione",
+          "track_sha256": "d6aea5947bf2813ffb9291765e825d9190f52b88a0966676e0a94f6c480b881b",
+          "digital_seconds": 168
+        },
+        {
+          "source_position": "K4",
+          "source_title": "Allegro Vivace - Presto",
+          "source_duration_field": "15:11",
+          "track_id": 3033492,
+          "track_title": "Beethoven: Piano Sonata No. 13 in E-Flat Major, Op. 27 No. 1 \"Quasi una fantasia\": IV. Allegro vivace - Tempo I - Presto",
+          "track_sha256": "8b25082522daa1151e08575ccf57c44077234b60806c4c07c5c2e198ec66b333",
+          "digital_seconds": 353
+        }
+      ]
+    },
+    {
+      "source_title": "Sonate Nr. 22 F-dur op. 54",
+      "reviewed_work_title": "Piano Sonata No. 22 in F Major, Op. 54",
+      "source_bands": [
+        {
+          "source_position": "K5",
+          "source_title": "In Tempo D'un Menuetto",
+          "source_duration_field": "6:07",
+          "track_id": 3033517,
+          "track_title": "Beethoven: Piano Sonata No. 22 in F Major, Op. 54: I. In tempo d'un menuetto",
+          "track_sha256": "dc017f86a83d7b5c78c68a71e893543b4b2f6fd125af7611a21da1b03613a556",
+          "digital_seconds": 369
+        },
+        {
+          "source_position": "K6",
+          "source_title": "Allegretto",
+          "source_duration_field": "6:18",
+          "track_id": 3033518,
+          "track_title": "Beethoven: Piano Sonata No. 22 in F Major, Op. 54: II. Allegretto",
+          "track_sha256": "c03621c119078681d3e87ab77ba0c9a3590d59cd320668430628694b585e40e7",
+          "digital_seconds": 383
+        }
+      ]
+    },
+    {
+      "source_title": "Sonate Nr. 17 d-moll op. 31,2 \"Der Sturm\"",
+      "reviewed_work_title": "Piano Sonata No. 17 in D Minor, Op. 31 No. 2 \"The Tempest\"",
+      "source_bands": [
+        {
+          "source_position": "L1",
+          "source_title": "Largo - Allegro",
+          "source_duration_field": "8:43",
+          "track_id": 3033503,
+          "track_title": "Beethoven: Piano Sonata No. 17 in D Minor, Op. 31 No. 2 \"The Tempest\": I. Largo - Allegro",
+          "track_sha256": "8af760916d253965036f8ed14d1747e4277ff4b62a54f0511031b34f6142dc10",
+          "digital_seconds": 534
+        },
+        {
+          "source_position": "L2",
+          "source_title": "Adagio",
+          "source_duration_field": "8:20",
+          "track_id": 3033504,
+          "track_title": "Beethoven: Piano Sonata No. 17 in D Minor, Op. 31 No. 2 \"The Tempest\": II. Adagio",
+          "track_sha256": "8bec2167678a224a96e5aea8f6c04914112e554b46faa0682bc3df2eddfe8ab9",
+          "digital_seconds": 509
+        },
+        {
+          "source_position": "L3",
+          "source_title": "Allegretto",
+          "source_duration_field": "6:39",
+          "track_id": 3033505,
+          "track_title": "Beethoven: Piano Sonata No. 17 in D Minor, Op. 31 No. 2 \"The Tempest\": III. Allegretto",
+          "track_sha256": "218ee27e950f57c54b848759f2308be5c1c3b09eb4477854cd689e463f9c34cf",
+          "digital_seconds": 403
+        }
+      ]
+    },
+    {
+      "source_title": "Sonate Nr. 8 c-moll op. 13 \"Sonate Pathétique\"",
+      "reviewed_work_title": "Piano Sonata No. 8 in C Minor, Op. 13 \"Pathétique\"",
+      "source_bands": [
+        {
+          "source_position": "M1",
+          "source_title": "Grave - Allegro Di Molto E Con Brio",
+          "source_duration_field": "9:33",
+          "track_id": 3033468,
+          "track_title": "Beethoven: Piano Sonata No. 8 in C Minor, Op. 13 \"Pathétique\": I. Grave - Allegro di molto e con brio",
+          "track_sha256": "7bcba59ede961fb662eb8fa2c1809e23db2cab6229bc2e265b8e7e3de21a419c",
+          "digital_seconds": 580
+        },
+        {
+          "source_position": "M2",
+          "source_title": "Adagio Cantabile",
+          "source_duration_field": "5:13",
+          "track_id": 3033469,
+          "track_title": "Beethoven: Piano Sonata No. 8 in C Minor, Op. 13 \"Pathétique\": II. Adagio cantabile",
+          "track_sha256": "c7e45eeab41f01926a294af0a50d8a34f208294d7cabec11aac541b99fd6fc7d",
+          "digital_seconds": 317
+        },
+        {
+          "source_position": "M3",
+          "source_title": "Rondo (Allegro)",
+          "source_duration_field": "4:26",
+          "track_id": 3033470,
+          "track_title": "Beethoven: Piano Sonata No. 8 in C Minor, Op. 13 \"Pathétique\": III. Rondo. Allegro",
+          "track_sha256": "b367d5f2698e65ed7a48f496f135b6db5f85e44538eaa4426357bff2755cc567",
+          "digital_seconds": 271
+        }
+      ]
+    },
+    {
+      "source_title": "Sonate Nr. 19 g-moll op. 49,1",
+      "reviewed_work_title": "Piano Sonata No. 19 in G Minor, Op. 49 No. 1",
+      "source_bands": [
+        {
+          "source_position": "M4",
+          "source_title": "Andante",
+          "source_duration_field": "4:27",
+          "track_id": 3033510,
+          "track_title": "Beethoven: Piano Sonata No. 19 in G Minor, Op. 49 No. 1: I. Andante",
+          "track_sha256": "cfa3c5b267c725adef778d5b24882645aa6f59552a6cf5f58f51a35a996c3b3c",
+          "digital_seconds": 271
+        },
+        {
+          "source_position": "M5",
+          "source_title": "Rondo (Allegro)",
+          "source_duration_field": "3:31",
+          "track_id": 3033511,
+          "track_title": "Beethoven: Piano Sonata No. 19 in G Minor, Op. 49 No. 1: II. Rondo. Allegro",
+          "track_sha256": "15369a4fc3b83242f61b6f9d937509dfd3ea1e8b992f082dff68a97b27f7de0d",
+          "digital_seconds": 215
+        }
+      ]
+    },
+    {
+      "source_title": "Sonate Nr. 18 Es-dur op. 31,3 \"Die Jagd\"",
+      "reviewed_work_title": "Piano Sonata No. 18 in E-Flat Major, Op. 31 No. 3 \"The Hunt\"",
+      "source_bands": [
+        {
+          "source_position": "N1",
+          "source_title": "Allegro",
+          "source_duration_field": "8:51",
+          "track_id": 3033506,
+          "track_title": "Beethoven: Piano Sonata No. 18 in E-Flat Major, Op. 31 No. 3 \"The Hunt\": I. Allegro",
+          "track_sha256": "95ae78680356cd2a950ad2b849ee3966cc07445c01782d130a589399e4d87ddc",
+          "digital_seconds": 533
+        },
+        {
+          "source_position": "N2",
+          "source_title": "Scherzo (Allegretto Vivace)",
+          "source_duration_field": "4:50",
+          "track_id": 3033507,
+          "track_title": "Beethoven: Piano Sonata No. 18 in E-Flat Major, Op. 31 No. 3 \"The Hunt\": II. Scherzo. Allegretto vivace",
+          "track_sha256": "e7a8b3cfaf5aa986d9f758f7c4dd3f8bc48ab7de42240ee29044a69909da17d5",
+          "digital_seconds": 295
+        },
+        {
+          "source_position": "N3",
+          "source_title": "Menuetto (Moderato E Grazioso)",
+          "source_duration_field": "4:12",
+          "track_id": 3033508,
+          "track_title": "Beethoven: Piano Sonata No. 18 in E-Flat Major, Op. 31 No. 3 \"The Hunt\": III. Menuetto. Moderato e grazioso",
+          "track_sha256": "8260334e0bc32f44e444a26ff8c4831d0f7b0b23523a8940544d5da4a6c8786f",
+          "digital_seconds": 255
+        },
+        {
+          "source_position": "N4",
+          "source_title": "Presto Con Fuoco",
+          "source_duration_field": "4:37",
+          "track_id": 3033509,
+          "track_title": "Beethoven: Piano Sonata No. 18 in E-Flat Major, Op. 31 No. 3 \"The Hunt\": IV. Presto con fuoco",
+          "track_sha256": "dd48fd5db5b0595de3c3b496cc35c6b3c61761ad7029a2155c48252dfd84f798",
+          "digital_seconds": 280
+        }
+      ]
+    },
+    {
+      "source_title": "Sonate Nr. 6 F-dur op. 10,2",
+      "reviewed_work_title": "Piano Sonata No. 6 in F Major, Op. 10 No. 2",
+      "source_bands": [
+        {
+          "source_position": "O1",
+          "source_title": "Allegro",
+          "source_duration_field": "5:19",
+          "track_id": 3033465,
+          "track_title": "Beethoven: Piano Sonata No. 6 in F Major, Op. 10 No. 2: I. Allegro",
+          "track_sha256": "24ff450cb0537d15e86b81c8ec3ec637c8c68c8fbe0fa2aab437ff7a14035480",
+          "digital_seconds": 322
+        },
+        {
+          "source_position": "O2",
+          "source_title": "Allegretto",
+          "source_duration_field": "4:48",
+          "track_id": 3033466,
+          "track_title": "Beethoven: Piano Sonata No. 6 in F Major, Op. 10 No. 2: II. Allegretto",
+          "track_sha256": "434a3761ec42bac8af32d4acff33a9cdb396b094af37dc6f121042b645d3b6c3",
+          "digital_seconds": 292
+        },
+        {
+          "source_position": "O3",
+          "source_title": "Presto",
+          "source_duration_field": "3:45",
+          "track_id": 3033467,
+          "track_title": "Beethoven: Piano Sonata No. 6 in F Major, Op. 10 No. 2: III. Presto",
+          "track_sha256": "1b9322df2b861685e79f75263f40acfbdb2838c9f485bc2f7f66e59a54537180",
+          "digital_seconds": 229
+        }
+      ]
+    },
+    {
+      "source_title": "Sonate Nr. 27 e-moll op. 90",
+      "reviewed_work_title": "Piano Sonata No. 27 in E Minor, Op. 90",
+      "source_bands": [
+        {
+          "source_position": "O4",
+          "source_title": "Mit Lebhaftigkeit Und Durchaus Mit Empfindung Und Ausdruck",
+          "source_duration_field": "5:46",
+          "track_id": 3033530,
+          "track_title": "Beethoven: Piano Sonata No. 27 in E Minor, Op. 90: I. Mit Lebhaftigkeit und durchaus mit Empfindung und Ausdruck",
+          "track_sha256": "a47ea8ebc0bc6df30bff0b7c18d48a03b3f69df41f9e801c63df626963d7df16",
+          "digital_seconds": 348
+        },
+        {
+          "source_position": "O5",
+          "source_title": "Nicht Zu Geschwind Und Sehr Singbar Vorgetragen",
+          "source_duration_field": "8:12",
+          "track_id": 3033531,
+          "track_title": "Beethoven: Piano Sonata No. 27 in E Minor, Op. 90: II. Nicht zu geschwind und sehr singbar vorgetragen",
+          "track_sha256": "efbb37e5e5d4e4c0cb43e1c79c4b4c7f370bd343e280073ada4e813986b5829b",
+          "digital_seconds": 496
+        }
+      ]
+    },
+    {
+      "source_title": "Sonate Nr. 30 E-dur op. 109",
+      "reviewed_work_title": "Piano Sonata No. 30 in E Major, Op. 109",
+      "source_bands": [
+        {
+          "source_position": "P1",
+          "source_title": "Vivace, Ma Non Troppo - Adagio Espressivo - Tempo I",
+          "source_duration_field": "",
+          "track_id": 3033540,
+          "track_title": "Beethoven: Piano Sonata No. 30 in E Major, Op. 109: I. Vivace, ma non troppo - Adagio espressivo - Tempo I",
+          "track_sha256": "e17e7e66adb66251a625d76248992a9f2e4afe8c93f5a620b307c86fb7453099",
+          "digital_seconds": 234
+        },
+        {
+          "source_position": "P2",
+          "source_title": "Prestissimo",
+          "source_duration_field": "6:23",
+          "track_id": 3033541,
+          "track_title": "Beethoven: Piano Sonata No. 30 in E Major, Op. 109: II. Prestissimo",
+          "track_sha256": "274acbc664d1af8bd24b2ebd5c0b53ba57bcb523603653a6976c86ba68aae77c",
+          "digital_seconds": 149
+        },
+        {
+          "source_position": "P3",
+          "source_title": "Gesangvoll, Mit Innigster Empfindung (Andante Molto Cantabile Ed Espressivo)",
+          "source_duration_field": "13:32",
+          "track_id": 3033542,
+          "track_title": "Beethoven: Piano Sonata No. 30 in E Major, Op. 109: III. Gesangvoll, mit innigster Empfindung. Andante molto cantabile ed espressivo",
+          "track_sha256": "8a4fe74c7e84a5c6d5be94c89c1e1ded0bec1ee291d26ccb2773367d1e7ec38e",
+          "digital_seconds": 814
+        }
+      ]
+    },
+    {
+      "source_title": "Sonate Nr. 28 A-dur op. 101",
+      "reviewed_work_title": "Piano Sonata No. 28 in A Major, Op. 101",
+      "source_bands": [
+        {
+          "source_position": "Q1",
+          "source_title": "Etwas Lebhaft Und Mit Der Innigsten Empfindung (Allegretto Ma Non Troppo)",
+          "source_duration_field": "10:24",
+          "track_id": 3033532,
+          "track_title": "Beethoven: Piano Sonata No. 28 in A Major, Op. 101: I. Etwas lebhaft und mit der innigsten Empfindung. Allegretto ma non troppo",
+          "track_sha256": "2514cf181d7990f11542a802487cf7812c4c7a3a9a8c7eabe8bdb2946a02edeb",
+          "digital_seconds": 253
+        },
+        {
+          "source_position": "Q2",
+          "source_title": "Lebhaft, Marschmässig (Vivace Alla Marcia)",
+          "source_duration_field": "",
+          "track_id": 3033533,
+          "track_title": "Beethoven: Piano Sonata No. 28 in A Major, Op. 101: II. Lebhaft, marschmäßig. Vivace alla marcia",
+          "track_sha256": "87ee10169b2d657dd5bfc21d7ac4937174c6f168f700065c6e5486ba9c0c2db8",
+          "digital_seconds": 373
+        },
+        {
+          "source_position": "Q3",
+          "source_title": "Langsam Und Sehnsuchtsvoll (Adagio Ma Non Troppo, Con Affetto)",
+          "source_duration_field": "11:11",
+          "track_id": 3033534,
+          "track_title": "Beethoven: Piano Sonata No. 28 in A Major, Op. 101: III. Langsam und sehnsuchtsvoll. Adagio, ma non troppo, con affetto",
+          "track_sha256": "99ca3fbe4ea17d40ec8708ce7530da9852f39a7251a3599973f0f7e80ed75fc0",
+          "digital_seconds": 179
+        },
+        {
+          "source_position": "Q4",
+          "source_title": "Geschwind, Doch Nicht Zu Sehr Und Mit Entschlossenheit (Allegro)",
+          "source_duration_field": "",
+          "track_id": 3033535,
+          "track_title": "Beethoven: Piano Sonata No. 28 in A Major, Op. 101: IV. Geschwind, doch nicht zu sehr, und mit Entschlossenheit. Allegro",
+          "track_sha256": "df1b565efdcd27097d56867c52c9207cbe50ff5db927b248e9f56351738bea9c",
+          "digital_seconds": 494
+        }
+      ]
+    },
+    {
+      "source_title": "Sonate Nr. 9 E-dur op. 14,2",
+      "reviewed_work_title": "Piano Sonata No. 9 in E Major, Op. 14 No. 1",
+      "source_bands": [
+        {
+          "source_position": "R1",
+          "source_title": "Allegro",
+          "source_duration_field": "7:22",
+          "track_id": 3033475,
+          "track_title": "Beethoven: Piano Sonata No. 9 in E Major, Op. 14 No. 1: I. Allegro",
+          "track_sha256": "1523807f5d624389fcf3da23af0a702ddf713d513c4d592398240317a9cc10c4",
+          "digital_seconds": 445
+        },
+        {
+          "source_position": "R2",
+          "source_title": "Allegretto",
+          "source_duration_field": "3:34",
+          "track_id": 3033476,
+          "track_title": "Beethoven: Piano Sonata No. 9 in E Major, Op. 14 No. 1: II. Allegretto",
+          "track_sha256": "a138f1d4fd066ebbca3252440868bc24fdfb741e5a863a5871cd71e52b95d820",
+          "digital_seconds": 217
+        },
+        {
+          "source_position": "R3",
+          "source_title": "Rondo (Allegro Comodo)",
+          "source_duration_field": "3:28",
+          "track_id": 3033477,
+          "track_title": "Beethoven: Piano Sonata No. 9 in E Major, Op. 14 No. 1: III. Rondo. Allegro comodo",
+          "track_sha256": "0a4a51357777557eb9454b6808b0767abdc9254632ab834d7aa4bc46096e9b09",
+          "digital_seconds": 211
+        }
+      ]
+    },
+    {
+      "source_title": "Sonate Nr. 10 G-dur op. 14,2",
+      "reviewed_work_title": "Piano Sonata No. 10 in G Major, Op. 14 No. 2",
+      "source_bands": [
+        {
+          "source_position": "R4",
+          "source_title": "Allegro",
+          "source_duration_field": "7:50",
+          "track_id": 3033478,
+          "track_title": "Beethoven: Piano Sonata No. 10 in G Major, Op. 14 No. 2: I. Allegro",
+          "track_sha256": "e68e33b3a55473707d27f16a06e7b4ab3cbf3d0b38967c57a8b5e8385006d620",
+          "digital_seconds": 474
+        },
+        {
+          "source_position": "R5",
+          "source_title": "Andante",
+          "source_duration_field": "5:26",
+          "track_id": 3033479,
+          "track_title": "Beethoven: Piano Sonata No. 10 in G Major, Op. 14 No. 2: II. Andante",
+          "track_sha256": "39df267102d8aff01a5f0d681e05fa3088573cbdcef9400fe044be01caa2d813",
+          "digital_seconds": 328
+        },
+        {
+          "source_position": "R6",
+          "source_title": "Scherzo (Allegro Assai)",
+          "source_duration_field": "3:46",
+          "track_id": 3033480,
+          "track_title": "Beethoven: Piano Sonata No. 10 in G Major, Op. 14 No. 2: III. Scherzo. Allegro assai",
+          "track_sha256": "f19eb93c48ecfd1301e9345f1af9900ef1c6a21f37d82bdfab91220d8afdd9ec",
+          "digital_seconds": 229
+        }
+      ]
+    },
+    {
+      "source_title": "Sonate Nr. 21 C-dur op. 53 \"Waldstein\"",
+      "reviewed_work_title": "Piano Sonata No. 21 in C Major, Op. 53 \"Waldstein\"",
+      "source_bands": [
+        {
+          "source_position": "S1",
+          "source_title": "Allegro Con Brio",
+          "source_duration_field": "10:38",
+          "track_id": 3033514,
+          "track_title": "Beethoven: Piano Sonata No. 21 in C Major, Op. 53 \"Waldstein\": I. Allegro con brio",
+          "track_sha256": "a4200b9ac5c0e26eff6a2ee872844ae6edc7b881cecb1a22417bffc38eb29ad3",
+          "digital_seconds": 648
+        },
+        {
+          "source_position": "S2",
+          "source_title": "Introduzione (Adagio Molto)",
+          "source_duration_field": "",
+          "track_id": 3033515,
+          "track_title": "Beethoven: Piano Sonata No. 21 in C Major, Op. 53 \"Waldstein\": II. Introduzione. Adagio molto",
+          "track_sha256": "c6e036f8029c9b40867afea20a8d0023bd2fcdcc4fb990d78264d9c3b97ae100",
+          "digital_seconds": 262
+        },
+        {
+          "source_position": "S3",
+          "source_title": "Rondo (Allegretto Moderato - Prestissimo)",
+          "source_duration_field": "14:12",
+          "track_id": 3033516,
+          "track_title": "Beethoven: Piano Sonata No. 21 in C Major, Op. 53 \"Waldstein\": III. Rondo. Allegretto moderato - Prestissimo",
+          "track_sha256": "9a5d5a812d253a18e0dfb4a803ecf211d9ab5ff77518e61fc280d6fb59a8d5ec",
+          "digital_seconds": 594
+        }
+      ]
+    },
+    {
+      "source_title": "Sonate Nr. 31 As-dur op. 110",
+      "reviewed_work_title": "Piano Sonata No. 31 in A-Flat Major, Op. 110",
+      "source_bands": [
+        {
+          "source_position": "T1",
+          "source_title": "Moderato Cantabile Molto Espressivo",
+          "source_duration_field": "6:46",
+          "track_id": 3033543,
+          "track_title": "Beethoven: Piano Sonata No. 31 in A-Flat Major, Op. 110: I. Moderato cantabile molto espressivo",
+          "track_sha256": "42e892401bc7e29f67a6f6e05ef778681f4b78698b01f5efb90b0a48ebd13205",
+          "digital_seconds": 409
+        },
+        {
+          "source_position": "T2",
+          "source_title": "Allegro Molto",
+          "source_duration_field": "",
+          "track_id": 3033544,
+          "track_title": "Beethoven: Piano Sonata No. 31 in A-Flat Major, Op. 110: II. Allegro molto",
+          "track_sha256": "203776f5518a4d34fd19534596c17297452b6fe21e6c2d6ae06965f165636d35",
+          "digital_seconds": 103
+        },
+        {
+          "source_position": "T3",
+          "source_title": "Adagio Ma Non Troppo - Fuga (Allegro Ma Non Troppo)",
+          "source_duration_field": "12:16",
+          "track_id": 3033545,
+          "track_title": "Beethoven: Piano Sonata No. 31 in A-Flat Major, Op. 110: III. Adagio ma non troppo",
+          "track_sha256": "5caf3968e8902dfadc15873742d89dc48396d27554f623eaf0d0fefa4689a8c5",
+          "digital_seconds": 636
+        }
+      ]
+    },
+    {
+      "source_title": "Andante Favori In F, Wo0 57",
+      "reviewed_work_title": "Andante Favori Woo 57",
+      "source_bands": [
+        {
+          "source_position": "T4",
+          "source_title": "Andante Favori In F, Wo0 57",
+          "source_duration_field": "9:45",
+          "track_id": 3033548,
+          "track_title": "Beethoven: Andante favori in F Major, WoO 57",
+          "track_sha256": "46315b6413309353ab993fd50e9efbfdb92299b33a551353f9952a2ab8ee8b04",
+          "digital_seconds": 584
+        }
+      ]
+    },
+    {
+      "source_title": "Sonate Nr. 14 cis-moll op. 27,2 \"Mondschein-Sonate\"",
+      "reviewed_work_title": "Piano Sonata No. 14 in C-Sharp Minor, Op. 27 No. 2 \"Moonlight\"",
+      "source_bands": [
+        {
+          "source_position": "U1",
+          "source_title": "Adagio Sostenuto",
+          "source_duration_field": "",
+          "track_id": 3033493,
+          "track_title": "Beethoven: Piano Sonata No. 14 in C-Sharp Minor, Op. 27 No. 2 \"Moonlight\": I. Adagio sostenuto",
+          "track_sha256": "8bb18d3a1665ec2970a17c561c352761ecd8406d79625fea3a5350c47e41628c",
+          "digital_seconds": 363
+        },
+        {
+          "source_position": "U2",
+          "source_title": "Allegretto",
+          "source_duration_field": "",
+          "track_id": 3033494,
+          "track_title": "Beethoven: Piano Sonata No. 14 in C-Sharp Minor, Op. 27 No. 2 \"Moonlight\": II. Allegretto",
+          "track_sha256": "deb29bcc5a424e52c815df3cf12a49440b8afce5ea4a0018eacfcafc4344a6b1",
+          "digital_seconds": 145
+        },
+        {
+          "source_position": "U3",
+          "source_title": "Presto",
+          "source_duration_field": "15:55",
+          "track_id": 3033495,
+          "track_title": "Beethoven: Piano Sonata No. 14 in C-Sharp Minor, Op. 27 No. 2 \"Moonlight\": III. Presto",
+          "track_sha256": "0ffb4ec6bb96ecd39cd7a064d3ef1510d21bb099bef52b1904dcd46ce8f151c7",
+          "digital_seconds": 450
+        }
+      ]
+    },
+    {
+      "source_title": "Sonate Nr. 25 G-dur op. 79",
+      "reviewed_work_title": "Piano Sonata No. 25 in G Major, Op. 79",
+      "source_bands": [
+        {
+          "source_position": "U4",
+          "source_title": "Presto Alla Tedesca",
+          "source_duration_field": "4:36",
+          "track_id": 3033524,
+          "track_title": "Beethoven: Piano Sonata No. 25 in G Major, Op. 79: I. Presto alla tedesca",
+          "track_sha256": "afe69f00d852cab477c9b668142c8bac54a84a647436213f40bf4a903552bf7a",
+          "digital_seconds": 285
+        },
+        {
+          "source_position": "U5",
+          "source_title": "Andante",
+          "source_duration_field": "2:37",
+          "track_id": 3033525,
+          "track_title": "Beethoven: Piano Sonata No. 25 in G Major, Op. 79: II. Andante",
+          "track_sha256": "f4680f273df818a2d89f7412df64a502f22e6e5335f97c35902d3b39684ee39a",
+          "digital_seconds": 159
+        },
+        {
+          "source_position": "U6",
+          "source_title": "Vivace",
+          "source_duration_field": "1:53",
+          "track_id": 3033526,
+          "track_title": "Beethoven: Piano Sonata No. 25 in G Major, Op. 79: III. Vivace",
+          "track_sha256": "88028542507446fdcee7225a99357178097adfa49679267b28385debbd96daef",
+          "digital_seconds": 118
+        }
+      ]
+    },
+    {
+      "source_title": "Sonate Nr. 7 D-dur op. 10,3",
+      "reviewed_work_title": "Piano Sonata No. 7 in D Major, Op. 10 No. 3",
+      "source_bands": [
+        {
+          "source_position": "V1",
+          "source_title": "Presto",
+          "source_duration_field": "6:48",
+          "track_id": 3033471,
+          "track_title": "Beethoven: Piano Sonata No. 7 in D Major, Op. 10 No. 3: I. Presto",
+          "track_sha256": "8d811f3bd013ff32bd2c2420dfc3a628da513c38ff33debedf299d3813bba4f7",
+          "digital_seconds": 414
+        },
+        {
+          "source_position": "V2",
+          "source_title": "Largo E Mesto",
+          "source_duration_field": "10:40",
+          "track_id": 3033472,
+          "track_title": "Beethoven: Piano Sonata No. 7 in D Major, Op. 10 No. 3: II. Largo e mesto",
+          "track_sha256": "d91067158a61d4d5d426f04ce5ca29089e6fc05ceee1fde11b15ed913656663a",
+          "digital_seconds": 641
+        },
+        {
+          "source_position": "V3",
+          "source_title": "Menuetto (Allegro)",
+          "source_duration_field": "2:42",
+          "track_id": 3033473,
+          "track_title": "Beethoven: Piano Sonata No. 7 in D Major, Op. 10 No. 3: III. Menuetto. Allegro",
+          "track_sha256": "e18f765f35c09c2e83fc07b7778365d87cd1986a8ff3a8efeec524da1be186f4",
+          "digital_seconds": 167
+        },
+        {
+          "source_position": "V4",
+          "source_title": "Rondo (Allegro)",
+          "source_duration_field": "4:03",
+          "track_id": 3033474,
+          "track_title": "Beethoven: Piano Sonata No. 7 in D Major, Op. 10 No. 3: IV. Rondo. Allegro",
+          "track_sha256": "2d29ae0c676b9e11a84653bab96978571100f77d0d3dd8cdc96a8c34fd8c82bc",
+          "digital_seconds": 248
+        }
+      ]
+    },
+    {
+      "source_title": "Sonate Nr. 24 Fis-dur op. 78 \"Für Therese\"",
+      "reviewed_work_title": "Piano Sonata No. 24 in F-Sharp Major, Op. 78 \"For Therese\"",
+      "source_bands": [
+        {
+          "source_position": "W1",
+          "source_title": "Adagio Cantabile - Allegro Ma Non Troppo",
+          "source_duration_field": "",
+          "track_id": 3033522,
+          "track_title": "Beethoven: Piano Sonata No. 24 in F-Sharp Major, Op. 78 \"For Therese\": I. Adagio cantabile - Allegro ma non troppo",
+          "track_sha256": "676b57695684def5510fb69b0a26490bd84ec2d5f6fa77ce0e89e9d256a27e7d",
+          "digital_seconds": 444
+        },
+        {
+          "source_position": "W2",
+          "source_title": "Allegro Vivace",
+          "source_duration_field": "10:15",
+          "track_id": 3033523,
+          "track_title": "Beethoven: Piano Sonata No. 24 in F-Sharp Major, Op. 78 \"For Therese\": II. Allegro vivace",
+          "track_sha256": "319ebc7b432943232b55353ba0a59a5cfb57b83eb0fe15fd354d847c784685fc",
+          "digital_seconds": 171
+        }
+      ]
+    },
+    {
+      "source_title": "Sonate Nr. 29 B-dur op. 106 \"Hammerklavier-Sonate\"",
+      "reviewed_work_title": "Piano Sonata No. 29 in B-Flat Major, Op. 106 \"Hammerklavier\"",
+      "source_bands": [
+        {
+          "source_position": "W3",
+          "source_title": "Allegro",
+          "source_duration_field": "",
+          "track_id": 3033536,
+          "track_title": "Beethoven: Piano Sonata No. 29 in B-Flat Major, Op. 106 \"Hammerklavier\": I. Allegro",
+          "track_sha256": "6f3abfe1e4d0b9285aeb4df9c25b259b3a09cfad6f4b259f717b738b61ace03a",
+          "digital_seconds": 703
+        },
+        {
+          "source_position": "W4",
+          "source_title": "Scherzo (Assai Vivace - Presto - Prestissimo - Tempo I)",
+          "source_duration_field": "14:22",
+          "track_id": 3033537,
+          "track_title": "Beethoven: Piano Sonata No. 29 in B-Flat Major, Op. 106 \"Hammerklavier\": II. Scherzo. Assai vivace - Presto - Prestissimo - Tempo I",
+          "track_sha256": "afad8c4a53b93acabb6101b124fd00cf6837d5007c3dd3ee8b14dece3b44222a",
+          "digital_seconds": 159
+        },
+        {
+          "source_position": "X1",
+          "source_title": "Adagio Sostenuto",
+          "source_duration_field": "19:36",
+          "track_id": 3033538,
+          "track_title": "Beethoven: Piano Sonata No. 29 in B-Flat Major, Op. 106 \"Hammerklavier\": III. Adagio sostenuto",
+          "track_sha256": "24e2573d761214ccf4c9b0e371511c811f01af4d35e2756e33bc44ed9b26c239",
+          "digital_seconds": 1175
+        },
+        {
+          "source_position": "X2",
+          "source_title": "Largo - Allegro Risoluto",
+          "source_duration_field": "12:13",
+          "track_id": 3033539,
+          "track_title": "Beethoven: Piano Sonata No. 29 in B-Flat Major, Op. 106 \"Hammerklavier\": IV. Largo - Allegro risoluto",
+          "track_sha256": "c81086b53937a0abedaaab5ce5f51dae1ac636d4a10a27bc08999e1fca7840f5",
+          "digital_seconds": 733
+        }
+      ]
+    },
+    {
+      "source_title": "Sonate Nr. 23 f-moll op. 57 \"Appassionata\"",
+      "reviewed_work_title": "Piano Sonata No. 23 in F Minor, Op. 57 \"Appassionata\"",
+      "source_bands": [
+        {
+          "source_position": "Y1",
+          "source_title": "Allegro Assai",
+          "source_duration_field": "9:55",
+          "track_id": 3033519,
+          "track_title": "Beethoven: Piano Sonata No. 23 in F Minor, Op. 57 \"Appassionata\": I. Allegro assai",
+          "track_sha256": "3ff170ba8ad6f8c87f498edf0dc76907254c0eee70aab725d3960fdc5d65f478",
+          "digital_seconds": 596
+        },
+        {
+          "source_position": "Y2",
+          "source_title": "Andante Con Moto",
+          "source_duration_field": "",
+          "track_id": 3033520,
+          "track_title": "Beethoven: Piano Sonata No. 23 in F Minor, Op. 57 \"Appassionata\": II. Andante con moto",
+          "track_sha256": "0a3dafd82ec36e4284204526670f5fb4eca986f074b2f06a2d4b126867d660a6",
+          "digital_seconds": 398
+        },
+        {
+          "source_position": "Y3",
+          "source_title": "Allegro Ma Non Troppo",
+          "source_duration_field": "14:52",
+          "track_id": 3033521,
+          "track_title": "Beethoven: Piano Sonata No. 23 in F Minor, Op. 57 \"Appassionata\": III. Allegro ma non troppo",
+          "track_sha256": "2c69d2df2a633630b84bb17c9df016cf41f0b062741ac19f0dcef2f1d556bcc6",
+          "digital_seconds": 487
+        }
+      ]
+    },
+    {
+      "source_title": "Sonate Nr. 32 c-moll Opus 111",
+      "reviewed_work_title": "Piano Sonata No. 32 in C Minor, Op. 111",
+      "source_bands": [
+        {
+          "source_position": "Z1",
+          "source_title": "Maestoso - Allegro Con Brio Ed Appassionato",
+          "source_duration_field": "9:00",
+          "track_id": 3033546,
+          "track_title": "Beethoven: Piano Sonata No. 32 in C Minor, Op. 111: I. Maestoso - Allegro con brio ed appassionato",
+          "track_sha256": "ed7fc4744c0f1534b5c66aa949c4b85cf6844092546e51d499b37e269e2e3959",
+          "digital_seconds": 540
+        },
+        {
+          "source_position": "Z2",
+          "source_title": "Areitta (Adagio Molto Semplice E Cantabile)",
+          "source_duration_field": "17:20",
+          "track_id": 3033547,
+          "track_title": "Beethoven: Piano Sonata No. 32 in C Minor, Op. 111: II. Arietta. Adagio molto semplice e cantabile",
+          "track_sha256": "386026f83d2a782b090ff6fa6c8114b8d6aa1b08a8db18f91e9004891df69ddc",
+          "digital_seconds": 1038
+        }
+      ]
+    }
+  ],
+  "timing_groups": [
+    {
+      "target": "Sonate Nr. 12 As-dur op. 26",
+      "positions": [
+        "A1",
+        "A2"
+      ],
+      "duration_field_position": "A2",
+      "image_verified": true,
+      "interpretation": "Joint printed duration for these reviewed movements",
+      "source_seconds": 691,
+      "digital_seconds": 703,
+      "difference_seconds": 12
+    },
+    {
+      "target": "Sonate Nr. 12 As-dur op. 26",
+      "positions": [
+        "A3",
+        "A4"
+      ],
+      "duration_field_position": "A4",
+      "image_verified": true,
+      "interpretation": "Joint printed duration for these reviewed movements",
+      "source_seconds": 524,
+      "digital_seconds": 529,
+      "difference_seconds": 5
+    },
+    {
+      "target": "Sonate Nr. 16 G-dur op. 31,1",
+      "positions": [
+        "B1"
+      ],
+      "duration_field_position": "B1",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 360,
+      "digital_seconds": 368,
+      "difference_seconds": 8
+    },
+    {
+      "target": "Sonate Nr. 16 G-dur op. 31,1",
+      "positions": [
+        "B2"
+      ],
+      "duration_field_position": "B2",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 660,
+      "digital_seconds": 668,
+      "difference_seconds": 8
+    },
+    {
+      "target": "Sonate Nr. 16 G-dur op. 31,1",
+      "positions": [
+        "B3"
+      ],
+      "duration_field_position": "B3",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 408,
+      "digital_seconds": 413,
+      "difference_seconds": 5
+    },
+    {
+      "target": "Sonate Nr. 3 C-dur op. 2,3",
+      "positions": [
+        "C1"
+      ],
+      "duration_field_position": "C1",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 608,
+      "digital_seconds": 619,
+      "difference_seconds": 11
+    },
+    {
+      "target": "Sonate Nr. 3 C-dur op. 2,3",
+      "positions": [
+        "C2"
+      ],
+      "duration_field_position": "C2",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 445,
+      "digital_seconds": 454,
+      "difference_seconds": 9
+    },
+    {
+      "target": "Sonate Nr. 3 C-dur op. 2,3",
+      "positions": [
+        "C3"
+      ],
+      "duration_field_position": "C3",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 183,
+      "digital_seconds": 188,
+      "difference_seconds": 5
+    },
+    {
+      "target": "Sonate Nr. 3 C-dur op. 2,3",
+      "positions": [
+        "C4"
+      ],
+      "duration_field_position": "C4",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 310,
+      "digital_seconds": 316,
+      "difference_seconds": 6
+    },
+    {
+      "target": "Sonate Nr. 11 B-dur op. 22",
+      "positions": [
+        "D1"
+      ],
+      "duration_field_position": "D1",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 435,
+      "digital_seconds": 443,
+      "difference_seconds": 8
+    },
+    {
+      "target": "Sonate Nr. 11 B-dur op. 22",
+      "positions": [
+        "D2"
+      ],
+      "duration_field_position": "D2",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 396,
+      "digital_seconds": 401,
+      "difference_seconds": 5
+    },
+    {
+      "target": "Sonate Nr. 11 B-dur op. 22",
+      "positions": [
+        "D3"
+      ],
+      "duration_field_position": "D3",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 197,
+      "digital_seconds": 201,
+      "difference_seconds": 4
+    },
+    {
+      "target": "Sonate Nr. 11 B-dur op. 22",
+      "positions": [
+        "D4"
+      ],
+      "duration_field_position": "D4",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 381,
+      "digital_seconds": 387,
+      "difference_seconds": 6
+    },
+    {
+      "target": "Sonate Nr. 2 A-dur op. 2,2",
+      "positions": [
+        "E1"
+      ],
+      "duration_field_position": "E1",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 426,
+      "digital_seconds": 434,
+      "difference_seconds": 8
+    },
+    {
+      "target": "Sonate Nr. 2 A-dur op. 2,2",
+      "positions": [
+        "E2"
+      ],
+      "duration_field_position": "E2",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 382,
+      "digital_seconds": 388,
+      "difference_seconds": 6
+    },
+    {
+      "target": "Sonate Nr. 2 A-dur op. 2,2",
+      "positions": [
+        "E3"
+      ],
+      "duration_field_position": "E3",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 206,
+      "digital_seconds": 210,
+      "difference_seconds": 4
+    },
+    {
+      "target": "Sonate Nr. 2 A-dur op. 2,2",
+      "positions": [
+        "E4"
+      ],
+      "duration_field_position": "E4",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 408,
+      "digital_seconds": 412,
+      "difference_seconds": 4
+    },
+    {
+      "target": "Sonate Nr. 15 D-dur op. 28 \"Pastorale\"",
+      "positions": [
+        "F1"
+      ],
+      "duration_field_position": "F1",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 633,
+      "digital_seconds": 648,
+      "difference_seconds": 15
+    },
+    {
+      "target": "Sonate Nr. 15 D-dur op. 28 \"Pastorale\"",
+      "positions": [
+        "F2"
+      ],
+      "duration_field_position": "F2",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 405,
+      "digital_seconds": 409,
+      "difference_seconds": 4
+    },
+    {
+      "target": "Sonate Nr. 15 D-dur op. 28 \"Pastorale\"",
+      "positions": [
+        "F3"
+      ],
+      "duration_field_position": "F3",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 132,
+      "digital_seconds": 137,
+      "difference_seconds": 5
+    },
+    {
+      "target": "Sonate Nr. 15 D-dur op. 28 \"Pastorale\"",
+      "positions": [
+        "F4"
+      ],
+      "duration_field_position": "F4",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 315,
+      "digital_seconds": 321,
+      "difference_seconds": 6
+    },
+    {
+      "target": "Sonate Nr. 1 f-moll op. 2,1",
+      "positions": [
+        "G1"
+      ],
+      "duration_field_position": "G1",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 369,
+      "digital_seconds": 378,
+      "difference_seconds": 9
+    },
+    {
+      "target": "Sonate Nr. 1 f-moll op. 2,1",
+      "positions": [
+        "G2"
+      ],
+      "duration_field_position": "G2",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 290,
+      "digital_seconds": 298,
+      "difference_seconds": 8
+    },
+    {
+      "target": "Sonate Nr. 1 f-moll op. 2,1",
+      "positions": [
+        "G3"
+      ],
+      "duration_field_position": "G3",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 201,
+      "digital_seconds": 204,
+      "difference_seconds": 3
+    },
+    {
+      "target": "Sonate Nr. 1 f-moll op. 2,1",
+      "positions": [
+        "G4"
+      ],
+      "duration_field_position": "G4",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 319,
+      "digital_seconds": 323,
+      "difference_seconds": 4
+    },
+    {
+      "target": "Sonate Nr. 26 Es-dur op. 81A \"Les Adieux\"",
+      "positions": [
+        "H1"
+      ],
+      "duration_field_position": "H1",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 428,
+      "digital_seconds": 439,
+      "difference_seconds": 11
+    },
+    {
+      "target": "Sonate Nr. 26 Es-dur op. 81A \"Les Adieux\"",
+      "positions": [
+        "H2",
+        "H3"
+      ],
+      "duration_field_position": "H3",
+      "image_verified": false,
+      "interpretation": "Joint printed duration for these reviewed movements",
+      "source_seconds": 580,
+      "digital_seconds": 587,
+      "difference_seconds": 7
+    },
+    {
+      "target": "Sonate Nr. 20 G-dur op. 49,2",
+      "positions": [
+        "H4"
+      ],
+      "duration_field_position": "H4",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 283,
+      "digital_seconds": 291,
+      "difference_seconds": 8
+    },
+    {
+      "target": "Sonate Nr. 20 G-dur op. 49,2",
+      "positions": [
+        "H5"
+      ],
+      "duration_field_position": "H5",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 228,
+      "digital_seconds": 233,
+      "difference_seconds": 5
+    },
+    {
+      "target": "Sonate Nr. 4 Es-dur op. 7",
+      "positions": [
+        "I1"
+      ],
+      "duration_field_position": "I1",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 510,
+      "digital_seconds": 519,
+      "difference_seconds": 9
+    },
+    {
+      "target": "Sonate Nr. 4 Es-dur op. 7",
+      "positions": [
+        "I2"
+      ],
+      "duration_field_position": "I2",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 535,
+      "digital_seconds": 540,
+      "difference_seconds": 5
+    },
+    {
+      "target": "Sonate Nr. 4 Es-dur op. 7",
+      "positions": [
+        "I3"
+      ],
+      "duration_field_position": "I3",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 323,
+      "digital_seconds": 329,
+      "difference_seconds": 6
+    },
+    {
+      "target": "Sonate Nr. 4 Es-dur op. 7",
+      "positions": [
+        "I4"
+      ],
+      "duration_field_position": "I4",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 452,
+      "digital_seconds": 457,
+      "difference_seconds": 5
+    },
+    {
+      "target": "Sonate Nr. 5 c-moll op. 10,1",
+      "positions": [
+        "J1"
+      ],
+      "duration_field_position": "J1",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 339,
+      "digital_seconds": 347,
+      "difference_seconds": 8
+    },
+    {
+      "target": "Sonate Nr. 5 c-moll op. 10,1",
+      "positions": [
+        "J2",
+        "J3"
+      ],
+      "duration_field_position": "J3",
+      "image_verified": false,
+      "interpretation": "Joint printed duration for these reviewed movements",
+      "source_seconds": 795,
+      "digital_seconds": 801,
+      "difference_seconds": 6
+    },
+    {
+      "target": "Sonate Nr. 13 Es-dur op. 27,1",
+      "positions": [
+        "K1",
+        "K2",
+        "K3",
+        "K4"
+      ],
+      "duration_field_position": "K4",
+      "image_verified": false,
+      "interpretation": "Joint printed duration for these reviewed movements",
+      "source_seconds": 911,
+      "digital_seconds": 916,
+      "difference_seconds": 5
+    },
+    {
+      "target": "Sonate Nr. 22 F-dur op. 54",
+      "positions": [
+        "K5"
+      ],
+      "duration_field_position": "K5",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 367,
+      "digital_seconds": 369,
+      "difference_seconds": 2
+    },
+    {
+      "target": "Sonate Nr. 22 F-dur op. 54",
+      "positions": [
+        "K6"
+      ],
+      "duration_field_position": "K6",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 378,
+      "digital_seconds": 383,
+      "difference_seconds": 5
+    },
+    {
+      "target": "Sonate Nr. 17 d-moll op. 31,2 \"Der Sturm\"",
+      "positions": [
+        "L1"
+      ],
+      "duration_field_position": "L1",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 523,
+      "digital_seconds": 534,
+      "difference_seconds": 11
+    },
+    {
+      "target": "Sonate Nr. 17 d-moll op. 31,2 \"Der Sturm\"",
+      "positions": [
+        "L2"
+      ],
+      "duration_field_position": "L2",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 500,
+      "digital_seconds": 509,
+      "difference_seconds": 9
+    },
+    {
+      "target": "Sonate Nr. 17 d-moll op. 31,2 \"Der Sturm\"",
+      "positions": [
+        "L3"
+      ],
+      "duration_field_position": "L3",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 399,
+      "digital_seconds": 403,
+      "difference_seconds": 4
+    },
+    {
+      "target": "Sonate Nr. 8 c-moll op. 13 \"Sonate Pathétique\"",
+      "positions": [
+        "M1"
+      ],
+      "duration_field_position": "M1",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 573,
+      "digital_seconds": 580,
+      "difference_seconds": 7
+    },
+    {
+      "target": "Sonate Nr. 8 c-moll op. 13 \"Sonate Pathétique\"",
+      "positions": [
+        "M2"
+      ],
+      "duration_field_position": "M2",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 313,
+      "digital_seconds": 317,
+      "difference_seconds": 4
+    },
+    {
+      "target": "Sonate Nr. 8 c-moll op. 13 \"Sonate Pathétique\"",
+      "positions": [
+        "M3"
+      ],
+      "duration_field_position": "M3",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 266,
+      "digital_seconds": 271,
+      "difference_seconds": 5
+    },
+    {
+      "target": "Sonate Nr. 19 g-moll op. 49,1",
+      "positions": [
+        "M4"
+      ],
+      "duration_field_position": "M4",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 267,
+      "digital_seconds": 271,
+      "difference_seconds": 4
+    },
+    {
+      "target": "Sonate Nr. 19 g-moll op. 49,1",
+      "positions": [
+        "M5"
+      ],
+      "duration_field_position": "M5",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 211,
+      "digital_seconds": 215,
+      "difference_seconds": 4
+    },
+    {
+      "target": "Sonate Nr. 18 Es-dur op. 31,3 \"Die Jagd\"",
+      "positions": [
+        "N1"
+      ],
+      "duration_field_position": "N1",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 531,
+      "digital_seconds": 533,
+      "difference_seconds": 2
+    },
+    {
+      "target": "Sonate Nr. 18 Es-dur op. 31,3 \"Die Jagd\"",
+      "positions": [
+        "N2"
+      ],
+      "duration_field_position": "N2",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 290,
+      "digital_seconds": 295,
+      "difference_seconds": 5
+    },
+    {
+      "target": "Sonate Nr. 18 Es-dur op. 31,3 \"Die Jagd\"",
+      "positions": [
+        "N3"
+      ],
+      "duration_field_position": "N3",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 252,
+      "digital_seconds": 255,
+      "difference_seconds": 3
+    },
+    {
+      "target": "Sonate Nr. 18 Es-dur op. 31,3 \"Die Jagd\"",
+      "positions": [
+        "N4"
+      ],
+      "duration_field_position": "N4",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 277,
+      "digital_seconds": 280,
+      "difference_seconds": 3
+    },
+    {
+      "target": "Sonate Nr. 6 F-dur op. 10,2",
+      "positions": [
+        "O1"
+      ],
+      "duration_field_position": "O1",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 319,
+      "digital_seconds": 322,
+      "difference_seconds": 3
+    },
+    {
+      "target": "Sonate Nr. 6 F-dur op. 10,2",
+      "positions": [
+        "O2"
+      ],
+      "duration_field_position": "O2",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 288,
+      "digital_seconds": 292,
+      "difference_seconds": 4
+    },
+    {
+      "target": "Sonate Nr. 6 F-dur op. 10,2",
+      "positions": [
+        "O3"
+      ],
+      "duration_field_position": "O3",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 225,
+      "digital_seconds": 229,
+      "difference_seconds": 4
+    },
+    {
+      "target": "Sonate Nr. 27 e-moll op. 90",
+      "positions": [
+        "O4"
+      ],
+      "duration_field_position": "O4",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 346,
+      "digital_seconds": 348,
+      "difference_seconds": 2
+    },
+    {
+      "target": "Sonate Nr. 27 e-moll op. 90",
+      "positions": [
+        "O5"
+      ],
+      "duration_field_position": "O5",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 492,
+      "digital_seconds": 496,
+      "difference_seconds": 4
+    },
+    {
+      "target": "Sonate Nr. 30 E-dur op. 109",
+      "positions": [
+        "P1",
+        "P2"
+      ],
+      "duration_field_position": "P2",
+      "image_verified": false,
+      "interpretation": "Joint printed duration for these reviewed movements",
+      "source_seconds": 383,
+      "digital_seconds": 383,
+      "difference_seconds": 0
+    },
+    {
+      "target": "Sonate Nr. 30 E-dur op. 109",
+      "positions": [
+        "P3"
+      ],
+      "duration_field_position": "P3",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 812,
+      "digital_seconds": 814,
+      "difference_seconds": 2
+    },
+    {
+      "target": "Sonate Nr. 28 A-dur op. 101",
+      "positions": [
+        "Q1",
+        "Q2"
+      ],
+      "duration_field_position": "Q1",
+      "image_verified": true,
+      "interpretation": "Joint printed duration for these reviewed movements",
+      "source_seconds": 624,
+      "digital_seconds": 626,
+      "difference_seconds": 2
+    },
+    {
+      "target": "Sonate Nr. 28 A-dur op. 101",
+      "positions": [
+        "Q3",
+        "Q4"
+      ],
+      "duration_field_position": "Q3",
+      "image_verified": true,
+      "interpretation": "Joint printed duration for these reviewed movements",
+      "source_seconds": 671,
+      "digital_seconds": 673,
+      "difference_seconds": 2
+    },
+    {
+      "target": "Sonate Nr. 9 E-dur op. 14,2",
+      "positions": [
+        "R1"
+      ],
+      "duration_field_position": "R1",
+      "image_verified": true,
+      "interpretation": "Single listed duration",
+      "source_seconds": 442,
+      "digital_seconds": 445,
+      "difference_seconds": 3
+    },
+    {
+      "target": "Sonate Nr. 9 E-dur op. 14,2",
+      "positions": [
+        "R2"
+      ],
+      "duration_field_position": "R2",
+      "image_verified": true,
+      "interpretation": "Single listed duration",
+      "source_seconds": 214,
+      "digital_seconds": 217,
+      "difference_seconds": 3
+    },
+    {
+      "target": "Sonate Nr. 9 E-dur op. 14,2",
+      "positions": [
+        "R3"
+      ],
+      "duration_field_position": "R3",
+      "image_verified": true,
+      "interpretation": "Single listed duration",
+      "source_seconds": 208,
+      "digital_seconds": 211,
+      "difference_seconds": 3
+    },
+    {
+      "target": "Sonate Nr. 10 G-dur op. 14,2",
+      "positions": [
+        "R4"
+      ],
+      "duration_field_position": "R4",
+      "image_verified": true,
+      "interpretation": "Single listed duration",
+      "source_seconds": 470,
+      "digital_seconds": 474,
+      "difference_seconds": 4
+    },
+    {
+      "target": "Sonate Nr. 10 G-dur op. 14,2",
+      "positions": [
+        "R5"
+      ],
+      "duration_field_position": "R5",
+      "image_verified": true,
+      "interpretation": "Single listed duration",
+      "source_seconds": 326,
+      "digital_seconds": 328,
+      "difference_seconds": 2
+    },
+    {
+      "target": "Sonate Nr. 10 G-dur op. 14,2",
+      "positions": [
+        "R6"
+      ],
+      "duration_field_position": "R6",
+      "image_verified": true,
+      "interpretation": "Single listed duration",
+      "source_seconds": 226,
+      "digital_seconds": 229,
+      "difference_seconds": 3
+    },
+    {
+      "target": "Sonate Nr. 21 C-dur op. 53 \"Waldstein\"",
+      "positions": [
+        "S1"
+      ],
+      "duration_field_position": "S1",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 638,
+      "digital_seconds": 648,
+      "difference_seconds": 10
+    },
+    {
+      "target": "Sonate Nr. 21 C-dur op. 53 \"Waldstein\"",
+      "positions": [
+        "S2",
+        "S3"
+      ],
+      "duration_field_position": "S3",
+      "image_verified": false,
+      "interpretation": "Joint printed duration for these reviewed movements",
+      "source_seconds": 852,
+      "digital_seconds": 856,
+      "difference_seconds": 4
+    },
+    {
+      "target": "Sonate Nr. 31 As-dur op. 110",
+      "positions": [
+        "T1"
+      ],
+      "duration_field_position": "T1",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 406,
+      "digital_seconds": 409,
+      "difference_seconds": 3
+    },
+    {
+      "target": "Sonate Nr. 31 As-dur op. 110",
+      "positions": [
+        "T2",
+        "T3"
+      ],
+      "duration_field_position": "T3",
+      "image_verified": false,
+      "interpretation": "Joint printed duration for these reviewed movements",
+      "source_seconds": 736,
+      "digital_seconds": 739,
+      "difference_seconds": 3
+    },
+    {
+      "target": "Andante Favori In F, Wo0 57",
+      "positions": [
+        "T4"
+      ],
+      "duration_field_position": "T4",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 585,
+      "digital_seconds": 584,
+      "difference_seconds": -1
+    },
+    {
+      "target": "Sonate Nr. 14 cis-moll op. 27,2 \"Mondschein-Sonate\"",
+      "positions": [
+        "U1",
+        "U2",
+        "U3"
+      ],
+      "duration_field_position": "U3",
+      "image_verified": true,
+      "interpretation": "Joint printed duration for these reviewed movements",
+      "source_seconds": 955,
+      "digital_seconds": 958,
+      "difference_seconds": 3
+    },
+    {
+      "target": "Sonate Nr. 25 G-dur op. 79",
+      "positions": [
+        "U4"
+      ],
+      "duration_field_position": "U4",
+      "image_verified": true,
+      "interpretation": "Single listed duration",
+      "source_seconds": 276,
+      "digital_seconds": 285,
+      "difference_seconds": 9
+    },
+    {
+      "target": "Sonate Nr. 25 G-dur op. 79",
+      "positions": [
+        "U5"
+      ],
+      "duration_field_position": "U5",
+      "image_verified": true,
+      "interpretation": "Single listed duration",
+      "source_seconds": 157,
+      "digital_seconds": 159,
+      "difference_seconds": 2
+    },
+    {
+      "target": "Sonate Nr. 25 G-dur op. 79",
+      "positions": [
+        "U6"
+      ],
+      "duration_field_position": "U6",
+      "image_verified": true,
+      "interpretation": "Single listed duration",
+      "source_seconds": 113,
+      "digital_seconds": 118,
+      "difference_seconds": 5
+    },
+    {
+      "target": "Sonate Nr. 7 D-dur op. 10,3",
+      "positions": [
+        "V1"
+      ],
+      "duration_field_position": "V1",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 408,
+      "digital_seconds": 414,
+      "difference_seconds": 6
+    },
+    {
+      "target": "Sonate Nr. 7 D-dur op. 10,3",
+      "positions": [
+        "V2"
+      ],
+      "duration_field_position": "V2",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 640,
+      "digital_seconds": 641,
+      "difference_seconds": 1
+    },
+    {
+      "target": "Sonate Nr. 7 D-dur op. 10,3",
+      "positions": [
+        "V3"
+      ],
+      "duration_field_position": "V3",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 162,
+      "digital_seconds": 167,
+      "difference_seconds": 5
+    },
+    {
+      "target": "Sonate Nr. 7 D-dur op. 10,3",
+      "positions": [
+        "V4"
+      ],
+      "duration_field_position": "V4",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 243,
+      "digital_seconds": 248,
+      "difference_seconds": 5
+    },
+    {
+      "target": "Sonate Nr. 24 Fis-dur op. 78 \"Für Therese\"",
+      "positions": [
+        "W1",
+        "W2"
+      ],
+      "duration_field_position": "W2",
+      "image_verified": false,
+      "interpretation": "Joint printed duration for these reviewed movements",
+      "source_seconds": 615,
+      "digital_seconds": 615,
+      "difference_seconds": 0
+    },
+    {
+      "target": "Sonate Nr. 29 B-dur op. 106 \"Hammerklavier-Sonate\"",
+      "positions": [
+        "W3",
+        "W4"
+      ],
+      "duration_field_position": "W4",
+      "image_verified": false,
+      "interpretation": "Joint printed duration for these reviewed movements",
+      "source_seconds": 862,
+      "digital_seconds": 862,
+      "difference_seconds": 0
+    },
+    {
+      "target": "Sonate Nr. 29 B-dur op. 106 \"Hammerklavier-Sonate\"",
+      "positions": [
+        "X1"
+      ],
+      "duration_field_position": "X1",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 1176,
+      "digital_seconds": 1175,
+      "difference_seconds": -1
+    },
+    {
+      "target": "Sonate Nr. 29 B-dur op. 106 \"Hammerklavier-Sonate\"",
+      "positions": [
+        "X2"
+      ],
+      "duration_field_position": "X2",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 733,
+      "digital_seconds": 733,
+      "difference_seconds": 0
+    },
+    {
+      "target": "Sonate Nr. 23 f-moll op. 57 \"Appassionata\"",
+      "positions": [
+        "Y1"
+      ],
+      "duration_field_position": "Y1",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 595,
+      "digital_seconds": 596,
+      "difference_seconds": 1
+    },
+    {
+      "target": "Sonate Nr. 23 f-moll op. 57 \"Appassionata\"",
+      "positions": [
+        "Y2",
+        "Y3"
+      ],
+      "duration_field_position": "Y3",
+      "image_verified": false,
+      "interpretation": "Joint printed duration for these reviewed movements",
+      "source_seconds": 892,
+      "digital_seconds": 885,
+      "difference_seconds": -7
+    },
+    {
+      "target": "Sonate Nr. 32 c-moll Opus 111",
+      "positions": [
+        "Z1"
+      ],
+      "duration_field_position": "Z1",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 540,
+      "digital_seconds": 540,
+      "difference_seconds": 0
+    },
+    {
+      "target": "Sonate Nr. 32 c-moll Opus 111",
+      "positions": [
+        "Z2"
+      ],
+      "duration_field_position": "Z2",
+      "image_verified": false,
+      "interpretation": "Single listed duration",
+      "source_seconds": 1040,
+      "digital_seconds": 1038,
+      "difference_seconds": -2
+    }
+  ],
+  "timing_scope_limitation": "Only marked groups have inspected label images. Other joint-timing interpretations remain diagnostic inference, not source corrections or recording-identity proof.",
+  "limitations": [
+    "Recording-family support, not independently verified takes, exact LPpressing or mastering.",
+    "Original source images correct the cached Sonata9catalogue typo for this review only. Source/normalized collection remain unchanged; no global opus/key alias.",
+    "German/comma-opus and Wo0/WoOtitle variants are reviewed only in this exact source/album mapping, not treated as interchangeable across the catalogue.",
+    "Source1978issue/label dates and digital2010reissue date are not recording-session dates;1970–77family attribution comes from the publisher.",
+    "Some source timing fields cover multiple movements. Reviewed diagnostic groups retain those spans; uninspected-label grouping remains labelled as inference. Individual differences up to15seconds remain, including9seconds for Op79I. Timing similarity is not take/mastering proof."
+  ]
+}
