@@ -1,0 +1,134 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-15",
+  "discogs_id": "14766559",
+  "album_id": "sieleb40p4c8a",
+  "source_sha256": "e1505b5e2d20afd3f3ab2c20c2d9373ae6c3988aaa26e1c1c3d8c98a7ff89723",
+  "album_sha256": "c5a0125805f9d2c6eed640b37991189d656061155f8a15dac87424bb54a4c273",
+  "programme": {
+    "Sonata No. 8 In C Minor Op. 13 \"Pathétique\"": [
+      84954353,
+      84954354,
+      84954355
+    ],
+    "Sonata No 14 In C♯ Minor Quasi Una Fantasia Op. 27 No. 2 \"Moonlight\"": [
+      84954379,
+      84954380,
+      84954381
+    ],
+    "Sonata No. 21 In C Op. 53 \"Waldstein\"": [
+      84954400,
+      84954401,
+      84954402
+    ],
+    "Sonata No. 23 In F Minor Op. 57 \"Appassionata\"": [
+      84954405,
+      84954406,
+      84954407
+    ]
+  },
+  "timings": [
+    {
+      "source_position": "A1",
+      "track_id": 84954353,
+      "source_seconds": 497,
+      "candidate_seconds": 497
+    },
+    {
+      "source_position": "A2",
+      "track_id": 84954354,
+      "source_seconds": 325,
+      "candidate_seconds": 324
+    },
+    {
+      "source_position": "A3",
+      "track_id": 84954355,
+      "source_seconds": 276,
+      "candidate_seconds": 276
+    },
+    {
+      "source_position": "B1",
+      "track_id": 84954379,
+      "source_seconds": 436,
+      "candidate_seconds": 436
+    },
+    {
+      "source_position": "B2",
+      "track_id": 84954380,
+      "source_seconds": 113,
+      "candidate_seconds": 113
+    },
+    {
+      "source_position": "B3",
+      "track_id": 84954381,
+      "source_seconds": 422,
+      "candidate_seconds": 422
+    },
+    {
+      "source_position": "C1",
+      "track_id": 84954400,
+      "source_seconds": 620,
+      "candidate_seconds": 620
+    },
+    {
+      "source_position": "C2",
+      "track_id": 84954401,
+      "source_seconds": 196,
+      "candidate_seconds": 196
+    },
+    {
+      "source_position": "C3",
+      "track_id": 84954402,
+      "source_seconds": 567,
+      "candidate_seconds": 566
+    },
+    {
+      "source_position": "D1",
+      "track_id": 84954405,
+      "source_seconds": 550,
+      "candidate_seconds": 550
+    },
+    {
+      "source_position": "D2",
+      "track_id": 84954406,
+      "source_seconds": 321,
+      "candidate_seconds": 321
+    },
+    {
+      "source_position": "D3",
+      "track_id": 84954407,
+      "source_seconds": 446,
+      "candidate_seconds": 446
+    }
+  ],
+  "excluded_extra_track_count": 101,
+  "source_credit_reconciliation": {
+    "nonperformers": [
+      {
+        "name": "Franz Nistl",
+        "role": "Technician [Piano tuner-technician]"
+      }
+    ],
+    "work_scopes": [],
+    "expected_required_performers": {
+      "Sonata No. 8 In C Minor Op. 13 \"Pathétique\"": [
+        "Fazıl Say"
+      ],
+      "Sonata No 14 In C♯ Minor Quasi Una Fantasia Op. 27 No. 2 \"Moonlight\"": [
+        "Fazıl Say"
+      ],
+      "Sonata No. 21 In C Op. 53 \"Waldstein\"": [
+        "Fazıl Say"
+      ],
+      "Sonata No. 23 In F Minor Op. 57 \"Appassionata\"": [
+        "Fazıl Say"
+      ]
+    }
+  },
+  "limitations": [
+    "Digital set has101additional tracks outside the four-sonata LP; none counts toward source coverage.",
+    "Source year2019and digital release2020are release metadata, not proof of exact takes.",
+    "Source/Fazıl versus digital/Fazil spelling normalized without a new performer alias.",
+    "Exact LP pressing, takes and digital mastering remain unverified."
+  ]
+}

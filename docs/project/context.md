@@ -11,7 +11,7 @@ and cache commands. This directory owns current planning.
 - Branch main; last known push7945944. Later work committed locally; no deployment
   verified. Inspect Git before claiming remote state.
 - Collection741copies/740unique. Saved labels: Spotify254Found/273Probable/
-  210NotFound/4Unchecked; Qobuz12Found/126Probable/603Unchecked copies.
+  210NotFound/4Unchecked; Qobuz12Found/127Probable/602Unchecked copies.
 - Qobuz publication `data/qobuz_matches.json` is separate from Spotify collection
   results. Labels/scores are saved data; Qobuz85/95 are heuristic levels, not
   probabilities. Legacy Spotify labels are not comparable accuracy measurements.
@@ -63,9 +63,10 @@ and cache commands. This directory owns current planning.
 
 ## Next work
 
-1. Next cached false-credit case14766559Fazıl Say (piano technician), then
-   remaining photographer cases. Use source-bound review, not bulk refresh.
-   Solti5972183Sixth is Probable;3386012Fifth withheld for named soloist gaps.
+1. Next audit explicit candidate work-field context for Kubelik14398300; avoid
+   inferring titles or dropping source soloists. Five photographer-case shadow
+   diagnostics still have zero programme coverage after false names removed.
+   Say14766559now Probable;101extra tracks outside its LP remain excluded.
    [Source-credit plan](../plans/2026-11-15-qobuz-source-credit-reviews.md).
 2. Keep Casals/Gieseking transfer identity unresolved until recording-specific
    evidence exists. Source correction alone does not authorize promotion.
@@ -77,6 +78,6 @@ and cache commands. This directory owns current planning.
 Prefer reliable matches to higher counts. No unbounded new-hit downloads, warning
 retries, pushes or deployment. Bitches Brew credit exception remains a proposal.
 Do not invent identity, overwrite source text or loosen credit gates for counts.
-Current review: only5972183publication changes;602unchecked unique. All182script tests
+Current review: only14766559publication changes;601unchecked unique. All185script tests
 pass against stable files; UI normalization/build pass. No Qobuz calls/push.
 [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).

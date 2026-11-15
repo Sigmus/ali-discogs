@@ -1,0 +1,975 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-15",
+  "collection_sha256": "a214eee877d4749fa957b3d2a293c2925d7ba0621259f2742139a6cd86f928c8",
+  "role_audit_sha256": "4ae6016ab285736c11b11b7d84f4a265dcb1ba6a76359b8966df926093185c1c",
+  "metadata_sources": {
+    "qobuz_comparison_evidence.json.gz": "c38df992ab44bbc892ffacafa19d74cc1495d7579d3d6da670653204dca25e57",
+    "qobuz_empty_search_follow_metadata.json.gz": "a9fd10bc41ce74dcd28734eaada12dc06b8bfa87084f18f6a46d7978740a9e84",
+    "qobuz_empty_search_metadata.json.gz": "e2bd43978c93ab2b4e7b69c1242faf2c024bec7196741ddaed637a77dab77cf4",
+    "qobuz_evidence.json.gz": "72e94566cd2c93ad18728ba63e8c7355e603e1e02ff4e4860bdce7aa44c69e51",
+    "qobuz_metadata_followup_2026_11_15.json.gz": "139f9b336c68b56ea22c18362cb0481c026366c5d359142f2bb702fe1233a4fc",
+    "qobuz_metadata_needed.json.gz": "251d740a4edc8bd4a8b4dc2dc0a173c19a4785b735de4af5de1d1839f3ba85a4",
+    "qobuz_query_trial_metadata.json.gz": "6bf5d6039af872d3362c56899455b470ad6cb4cb9dee2e4cdb8f7caeb9df7123",
+    "qobuz_remaining_followup_metadata.json.gz": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
+    "qobuz_remaining_metadata.json.gz": "393b2d12e176160ab311b65267b38bdc8c205222e12f792bf07eba5c1fcfafbf",
+    "qobuz_round2_metadata.json.gz": "9db62d7bf62d4b77f5acf422dfde77959f845f4dc00b2ac0e10c02ccea295860",
+    "qobuz_unmatched_metadata.json.gz": "b9ee630308545a56700f5322dea82ebad2621bc20c5e76f7b8743aaa94ba3c9e"
+  },
+  "entries": [
+    {
+      "discogs_id": "1638548",
+      "source_sha256": "d7ce14a6b46fd035f22c75ebea24cc4202ab0c769bb82edd758594eb4e346573",
+      "excluded_for_diagnostic": [
+        "Tom Tracy"
+      ],
+      "false_key_performer_names": [
+        "Tom Tracy"
+      ],
+      "source_roles": [
+        {
+          "name": "Tom Tracy",
+          "role": "Photography By [San Francisco Symphony Orchestra]"
+        }
+      ],
+      "candidates": [
+        {
+          "album_id": "0002894805871",
+          "before_coverage": 0.0,
+          "shadow_coverage": 0.0,
+          "programme": [
+            {
+              "target": "Romeo And Juliet (Fantasy Overture After Shakespeare)",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Romeo And Juliet (Excerpts From The Ballet Suites, Op.64 Nos. 1 & 2)",
+              "work_tracks": 1,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Romeo And Juliet (Dramatic Symphony After The Tragedy Of Shakespeare) Op. 17",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ],
+          "completeness": {
+            "status": "unknown",
+            "works": [
+              {
+                "target": "Romeo And Juliet (Fantasy Overture After Shakespeare)",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Romeo And Juliet (Excerpts From The Ballet Suites, Op.64 Nos. 1 & 2)",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Romeo And Juliet (Dramatic Symphony After The Tragedy Of Shakespeare) Op. 17",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              }
+            ],
+            "overlapping_target_tracks": false
+          }
+        }
+      ]
+    },
+    {
+      "discogs_id": "29719858",
+      "source_sha256": "b410ae26315408da255e212e49749a39ad4a5dbf6f2c6837fb14a2287936dd60",
+      "excluded_for_diagnostic": [
+        "Peter Adamik"
+      ],
+      "false_key_performer_names": [],
+      "source_roles": [
+        {
+          "name": "Peter Adamik",
+          "role": "Photography By [Photos: Orchestra ©]"
+        }
+      ],
+      "candidates": [
+        {
+          "album_id": "q51pq6pinm6wb",
+          "before_coverage": 0.0,
+          "shadow_coverage": 0.0,
+          "programme": [
+            {
+              "target": "Concerto For Cello And Orchestra In B Minor Op. 104 (B 191) = Konzert Für Violoncello Und Orchester H-moll (Live Recording)",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Cellists Of The Staatskapelle Berlin",
+                "Kian Soltani",
+                "Daniel Barenboim",
+                "Staatskapelle Berlin"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [
+                  "A1",
+                  "B1",
+                  "C1"
+                ],
+                "performers": [
+                  {
+                    "name": "Kian Soltani",
+                    "role": "Cello"
+                  },
+                  {
+                    "name": "Daniel Barenboim",
+                    "role": "Conductor"
+                  },
+                  {
+                    "name": "Staatskapelle Berlin",
+                    "role": "Orchestra"
+                  }
+                ]
+              }
+            },
+            {
+              "target": "Arrangements For Solo Cello And Cello Ensemble",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Cellists Of The Staatskapelle Berlin"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            },
+            {
+              "target": "Lasst Mich Allein No. 1 From 4 Lieder Op. 82 (B 157) = Leave Me Alone. Andante",
+              "work_tracks": 1,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Cellists Of The Staatskapelle Berlin",
+                "Alexander Kovalev (3)",
+                "Claire Sojung Henkel",
+                "Isa von Wedemeyer",
+                "Johanna Helm",
+                "Nikolaus Popa",
+                "Teresa Beldi",
+                "Otto Tolonen (2)",
+                "Kian Soltani"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [
+                  "C2"
+                ],
+                "performers": [
+                  {
+                    "name": "Alexander Kovalev (3)",
+                    "role": "Cello [Cellists Of The Staatskapelle Berlin]"
+                  },
+                  {
+                    "name": "Claire Sojung Henkel",
+                    "role": "Cello [Cellists Of The Staatskapelle Berlin]"
+                  },
+                  {
+                    "name": "Isa von Wedemeyer",
+                    "role": "Cello [Cellists Of The Staatskapelle Berlin]"
+                  },
+                  {
+                    "name": "Johanna Helm",
+                    "role": "Cello [Cellists Of The Staatskapelle Berlin]"
+                  },
+                  {
+                    "name": "Nikolaus Popa",
+                    "role": "Cello [Cellists Of The Staatskapelle Berlin]"
+                  },
+                  {
+                    "name": "Teresa Beldi",
+                    "role": "Cello [Cellists Of The Staatskapelle Berlin]"
+                  },
+                  {
+                    "name": "Otto Tolonen (2)",
+                    "role": "Double Bass"
+                  },
+                  {
+                    "name": "Kian Soltani",
+                    "role": "Soloist, Cello [Solo Cello]"
+                  }
+                ]
+              }
+            },
+            {
+              "target": "Goin' Home After The Largo From Symphony No. 9 In E Minor \"From The New World\" Op. 95 (B 178)",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Cellists Of The Staatskapelle Berlin",
+                "Alexander Kovalev (3)",
+                "Claire Sojung Henkel",
+                "Isa von Wedemeyer",
+                "Johanna Helm",
+                "Nikolaus Popa",
+                "Teresa Beldi",
+                "Kian Soltani"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [
+                  "D1"
+                ],
+                "performers": [
+                  {
+                    "name": "Alexander Kovalev (3)",
+                    "role": "Cello [Cellists Of The Staatskapelle Berlin]"
+                  },
+                  {
+                    "name": "Claire Sojung Henkel",
+                    "role": "Cello [Cellists Of The Staatskapelle Berlin]"
+                  },
+                  {
+                    "name": "Isa von Wedemeyer",
+                    "role": "Cello [Cellists Of The Staatskapelle Berlin]"
+                  },
+                  {
+                    "name": "Johanna Helm",
+                    "role": "Cello [Cellists Of The Staatskapelle Berlin]"
+                  },
+                  {
+                    "name": "Nikolaus Popa",
+                    "role": "Cello [Cellists Of The Staatskapelle Berlin]"
+                  },
+                  {
+                    "name": "Teresa Beldi",
+                    "role": "Cello [Cellists Of The Staatskapelle Berlin]"
+                  },
+                  {
+                    "name": "Kian Soltani",
+                    "role": "Soloist, Cello [Solo Cello]"
+                  }
+                ]
+              }
+            },
+            {
+              "target": "Songs My Mother Taught Me No. 4 From Gypsy Melodies Op. 55 (B 104) = Als Die Alte Mutter Mich Noch Lehrte Singen",
+              "work_tracks": 1,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Cellists Of The Staatskapelle Berlin",
+                "Alexander Kovalev (3)",
+                "Claire Sojung Henkel",
+                "Isa von Wedemeyer",
+                "Johanna Helm",
+                "Nikolaus Popa",
+                "Teresa Beldi",
+                "Kian Soltani"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [
+                  "D2"
+                ],
+                "performers": [
+                  {
+                    "name": "Alexander Kovalev (3)",
+                    "role": "Cello [Cellists Of The Staatskapelle Berlin]"
+                  },
+                  {
+                    "name": "Claire Sojung Henkel",
+                    "role": "Cello [Cellists Of The Staatskapelle Berlin]"
+                  },
+                  {
+                    "name": "Isa von Wedemeyer",
+                    "role": "Cello [Cellists Of The Staatskapelle Berlin]"
+                  },
+                  {
+                    "name": "Johanna Helm",
+                    "role": "Cello [Cellists Of The Staatskapelle Berlin]"
+                  },
+                  {
+                    "name": "Nikolaus Popa",
+                    "role": "Cello [Cellists Of The Staatskapelle Berlin]"
+                  },
+                  {
+                    "name": "Teresa Beldi",
+                    "role": "Cello [Cellists Of The Staatskapelle Berlin]"
+                  },
+                  {
+                    "name": "Kian Soltani",
+                    "role": "Soloist, Cello [Solo Cello]"
+                  }
+                ]
+              }
+            },
+            {
+              "target": "Allegro Moderato No. 1 From 4 Romantic Pieces Op. 75 (B 150)",
+              "work_tracks": 1,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Cellists Of The Staatskapelle Berlin",
+                "Alexander Kovalev (3)",
+                "Claire Sojung Henkel",
+                "Isa von Wedemeyer",
+                "Johanna Helm",
+                "Nikolaus Popa",
+                "Teresa Beldi",
+                "Kian Soltani"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [
+                  "D3"
+                ],
+                "performers": [
+                  {
+                    "name": "Alexander Kovalev (3)",
+                    "role": "Cello [Cellists Of The Staatskapelle Berlin]"
+                  },
+                  {
+                    "name": "Claire Sojung Henkel",
+                    "role": "Cello [Cellists Of The Staatskapelle Berlin]"
+                  },
+                  {
+                    "name": "Isa von Wedemeyer",
+                    "role": "Cello [Cellists Of The Staatskapelle Berlin]"
+                  },
+                  {
+                    "name": "Johanna Helm",
+                    "role": "Cello [Cellists Of The Staatskapelle Berlin]"
+                  },
+                  {
+                    "name": "Nikolaus Popa",
+                    "role": "Cello [Cellists Of The Staatskapelle Berlin]"
+                  },
+                  {
+                    "name": "Teresa Beldi",
+                    "role": "Cello [Cellists Of The Staatskapelle Berlin]"
+                  },
+                  {
+                    "name": "Kian Soltani",
+                    "role": "Soloist, Cello [Solo Cello]"
+                  }
+                ]
+              }
+            },
+            {
+              "target": "Silent Woods No. 5 From From The Bohemian Forest Op. 68 (B 133) = Waldesruhe. Lento E Molto Cantabile",
+              "work_tracks": 1,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Cellists Of The Staatskapelle Berlin",
+                "Alexander Kovalev (3)",
+                "Claire Sojung Henkel",
+                "Isa von Wedemeyer",
+                "Johanna Helm",
+                "Nikolaus Popa",
+                "Teresa Beldi",
+                "Kian Soltani"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [
+                  "D4"
+                ],
+                "performers": [
+                  {
+                    "name": "Alexander Kovalev (3)",
+                    "role": "Cello [Cellists Of The Staatskapelle Berlin]"
+                  },
+                  {
+                    "name": "Claire Sojung Henkel",
+                    "role": "Cello [Cellists Of The Staatskapelle Berlin]"
+                  },
+                  {
+                    "name": "Isa von Wedemeyer",
+                    "role": "Cello [Cellists Of The Staatskapelle Berlin]"
+                  },
+                  {
+                    "name": "Johanna Helm",
+                    "role": "Cello [Cellists Of The Staatskapelle Berlin]"
+                  },
+                  {
+                    "name": "Nikolaus Popa",
+                    "role": "Cello [Cellists Of The Staatskapelle Berlin]"
+                  },
+                  {
+                    "name": "Teresa Beldi",
+                    "role": "Cello [Cellists Of The Staatskapelle Berlin]"
+                  },
+                  {
+                    "name": "Kian Soltani",
+                    "role": "Soloist, Cello [Solo Cello]"
+                  }
+                ]
+              }
+            }
+          ],
+          "completeness": {
+            "status": "unknown",
+            "works": [
+              {
+                "target": "Concerto For Cello And Orchestra In B Minor Op. 104 (B 191) = Konzert Für Violoncello Und Orchester H-moll (Live Recording)",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Arrangements For Solo Cello And Cello Ensemble",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Lasst Mich Allein No. 1 From 4 Lieder Op. 82 (B 157) = Leave Me Alone. Andante",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Goin' Home After The Largo From Symphony No. 9 In E Minor \"From The New World\" Op. 95 (B 178)",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Songs My Mother Taught Me No. 4 From Gypsy Melodies Op. 55 (B 104) = Als Die Alte Mutter Mich Noch Lehrte Singen",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Allegro Moderato No. 1 From 4 Romantic Pieces Op. 75 (B 150)",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Silent Woods No. 5 From From The Bohemian Forest Op. 68 (B 133) = Waldesruhe. Lento E Molto Cantabile",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              }
+            ],
+            "overlapping_target_tracks": false
+          }
+        }
+      ]
+    },
+    {
+      "discogs_id": "14398300",
+      "source_sha256": "182257809c8ec63f825315131f22c506a3f2992182823a61059e37f08d81e6c1",
+      "excluded_for_diagnostic": [
+        "Werner Neumeister"
+      ],
+      "false_key_performer_names": [
+        "Werner Neumeister"
+      ],
+      "source_roles": [
+        {
+          "name": "Werner Neumeister",
+          "role": "Photography By [Rafael Kubelik Photo And The Bavarian Radio Symphony Orchestra Performing Symphony No. 8]"
+        }
+      ],
+      "candidates": [
+        {
+          "album_id": "0002894637382",
+          "before_coverage": 0.0,
+          "shadow_coverage": 0.0,
+          "programme": [
+            {
+              "target": " Symphonie Nr. 1 D-dur \"Der Titan\"",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Rafael Kubelik",
+                "Symphonie-Orchester Des Bayerischen Rundfunks"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            },
+            {
+              "target": "Symphonie Nr. 2 C-moll \"Auferstehungssymphonie\"",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Rafael Kubelik",
+                "Symphonie-Orchester Des Bayerischen Rundfunks"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            },
+            {
+              "target": "Symphonie Nr. 3 D-moll \"Ein Sommermorgentraum\"",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Rafael Kubelik",
+                "Symphonie-Orchester Des Bayerischen Rundfunks"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            },
+            {
+              "target": "Symphonie Nr. 4 G-dur",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Rafael Kubelik",
+                "Symphonie-Orchester Des Bayerischen Rundfunks"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            },
+            {
+              "target": "Symphonie Nr.5 Cis-moll",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Rafael Kubelik",
+                "Symphonie-Orchester Des Bayerischen Rundfunks"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            },
+            {
+              "target": "Symphonie Nr. 6 A-moll \"Tragische\"",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Rafael Kubelik",
+                "Symphonie-Orchester Des Bayerischen Rundfunks"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            },
+            {
+              "target": "Symphonie Nr. 7 E-moll \"Lied Der Nacht\"",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Rafael Kubelik",
+                "Symphonie-Orchester Des Bayerischen Rundfunks"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            },
+            {
+              "target": "Symphonie Nr. 8 Es-dur \"Symphonie Der Tausend\"",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Rafael Kubelik",
+                "Symphonie-Orchester Des Bayerischen Rundfunks",
+                "Chor Des Bayerischen Rundfunks",
+                "Kölner Rundfunkchor",
+                "NDR Chor",
+                "Regensburger Domspatzen",
+                "Eberhard Kraus"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [
+                  "V1",
+                  "X1",
+                  "Y1"
+                ],
+                "performers": [
+                  {
+                    "name": "Chor Des Bayerischen Rundfunks",
+                    "role": "Choir"
+                  },
+                  {
+                    "name": "Kölner Rundfunkchor",
+                    "role": "Choir"
+                  },
+                  {
+                    "name": "NDR Chor",
+                    "role": "Choir"
+                  },
+                  {
+                    "name": "Regensburger Domspatzen",
+                    "role": "Choir"
+                  },
+                  {
+                    "name": "Eberhard Kraus",
+                    "role": "Organ"
+                  }
+                ]
+              }
+            },
+            {
+              "target": "Symphonie Nr. 9 D-dur",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Rafael Kubelik",
+                "Symphonie-Orchester Des Bayerischen Rundfunks"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            },
+            {
+              "target": "Adagio Aus Der Symphonie Nr. 10: Andante - Adagio",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "Rafael Kubelik",
+                "Symphonie-Orchester Des Bayerischen Rundfunks"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            }
+          ],
+          "completeness": {
+            "status": "unknown",
+            "works": [
+              {
+                "target": " Symphonie Nr. 1 D-dur \"Der Titan\"",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Symphonie Nr. 2 C-moll \"Auferstehungssymphonie\"",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Symphonie Nr. 3 D-moll \"Ein Sommermorgentraum\"",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Symphonie Nr. 4 G-dur",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Symphonie Nr.5 Cis-moll",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Symphonie Nr. 6 A-moll \"Tragische\"",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Symphonie Nr. 7 E-moll \"Lied Der Nacht\"",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Symphonie Nr. 8 Es-dur \"Symphonie Der Tausend\"",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Symphonie Nr. 9 D-dur",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Adagio Aus Der Symphonie Nr. 10: Andante - Adagio",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              }
+            ],
+            "overlapping_target_tracks": false
+          }
+        }
+      ]
+    },
+    {
+      "discogs_id": "13708175",
+      "source_sha256": "d4a858211c1aeb77087784bd66e8dce3a5ddcbab77fc76f66a8c26008f5d911b",
+      "excluded_for_diagnostic": [
+        "Werner Neumeister"
+      ],
+      "false_key_performer_names": [
+        "Werner Neumeister"
+      ],
+      "source_roles": [
+        {
+          "name": "Werner Neumeister",
+          "role": "Photography By [Rafael Kubelik Photo And The Bavarian Radio Symphony Orchestra Performing Symphony No. 8]"
+        }
+      ],
+      "candidates": [
+        {
+          "album_id": "0002894637382",
+          "before_coverage": 0.0,
+          "shadow_coverage": 0.0,
+          "programme": [
+            {
+              "target": " Symphonie Nr. 1 D-dur \"Der Titan\"",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Symphonie Nr. 2 C-moll \"Auferstehungssymphonie\"",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Symphonie Nr. 3 D-moll \"Ein Sommermorgentraum\"",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Symphonie Nr. 4 G-dur",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Symphonie Nr.5 Cis-moll",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Symphonie Nr. 6 A-moll \"Tragische\"",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Symphonie Nr. 7 E-moll \"Lied Der Nacht\"",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Symphonie Nr. 8 Es-dur \"Symphonie Der Tausend\"",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Symphonie Nr. 9 D-dur",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Adagio Aus Der Symphonie Nr. 10",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Andante - Adagio",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ],
+          "completeness": {
+            "status": "unknown",
+            "works": [
+              {
+                "target": " Symphonie Nr. 1 D-dur \"Der Titan\"",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Symphonie Nr. 2 C-moll \"Auferstehungssymphonie\"",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Symphonie Nr. 3 D-moll \"Ein Sommermorgentraum\"",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Symphonie Nr. 4 G-dur",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Symphonie Nr.5 Cis-moll",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Symphonie Nr. 6 A-moll \"Tragische\"",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Symphonie Nr. 7 E-moll \"Lied Der Nacht\"",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Symphonie Nr. 8 Es-dur \"Symphonie Der Tausend\"",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Symphonie Nr. 9 D-dur",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Adagio Aus Der Symphonie Nr. 10",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              },
+              {
+                "target": "Andante - Adagio",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              }
+            ],
+            "overlapping_target_tracks": false
+          }
+        }
+      ]
+    },
+    {
+      "discogs_id": "5987607",
+      "source_sha256": "68c08e7843288ebfc15ddbf538c852f46a36d5fc4db2a3ac9d7dc461ac6233da",
+      "excluded_for_diagnostic": [
+        "Huschit János"
+      ],
+      "false_key_performer_names": [],
+      "source_roles": [
+        {
+          "name": "Huschit János",
+          "role": "Photography By [Booklet - Liszt Ferenc Chamber Orchestra]"
+        }
+      ],
+      "candidates": [
+        {
+          "album_id": "a45bj5t58pqoa",
+          "before_coverage": 0.0,
+          "shadow_coverage": 0.0,
+          "programme": [
+            {
+              "target": "Die Kunst Der Fuge, BWV 1080",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": [],
+              "required_performers": [
+                "János Rolla",
+                "Liszt Ferenc Chamber Orchestra",
+                "Zsuzsa Pertis",
+                "Anna Sándor",
+                "Mária Frank",
+                "Pál Kelemen",
+                "György Lovas",
+                "Lili Áldor",
+                "Zoltán Tfirst",
+                "Éva Isépy",
+                "György Kiss",
+                "Kálmán Kostyál",
+                "Péter Gazda",
+                "Zsuzsa Weisz",
+                "Miklos Spanyi"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [
+                  "A1",
+                  "A2",
+                  "A3",
+                  "A4",
+                  "A5",
+                  "A6",
+                  "B1",
+                  "B2",
+                  "B3",
+                  "B4",
+                  "B5",
+                  "C1",
+                  "C2",
+                  "C3",
+                  "C4",
+                  "D1",
+                  "D2",
+                  "D3",
+                  "D4"
+                ],
+                "performers": [
+                  {
+                    "name": "Miklos Spanyi",
+                    "role": "Harpsichord, Soloist"
+                  },
+                  {
+                    "name": "Zsuzsa Pertis",
+                    "role": "Harpsichord, Soloist"
+                  },
+                  {
+                    "name": "Miklos Spanyi",
+                    "role": "Organ, Soloist"
+                  }
+                ]
+              }
+            }
+          ],
+          "completeness": {
+            "status": "unknown",
+            "works": [
+              {
+                "target": "Die Kunst Der Fuge, BWV 1080",
+                "status": "unknown",
+                "reason": "No unambiguous reviewed inventory, numbered target children or timed target-track correspondence."
+              }
+            ],
+            "overlapping_target_tracks": false
+          }
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Shadow triage only, no publication/source changes or credit exclusions activated.",
+    "False normalized key-performer cases need explicit source review before extending reconciliation guards.",
+    "Full coverage is not completeness or recording identity; all other source musical credits remain required."
+  ]
+}

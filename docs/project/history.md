@@ -1763,3 +1763,20 @@ Probable85; exact pressing/takes/mastering unverified. Counts12Found/126Probable
 603Unchecked copies.3386012Fifth withheld: Clevenger/Herseth absent from digital
 credits; no inference from orchestra. All182script tests and UI/build pass.
 No source/Spotify refresh, provider calls, push/deployment. Next14766559technician.
+
+
+### 2026-11-15 — Say four-sonata LP reviewed; photographer cohort triaged
+
+14766559technician credit reconciled using existing source-bound rules, without
+new engine policy. Exact12movement IDs/work fields/ISRCs, positiveSay/Beethoven,
+three-movement runs and source timing within1second support four-sonata programme.
+101other complete-set tracks excluded. Warner confirms vinyl selection/cycle;
+exact pressing/takes/mastering unverified. Only14766559publication becomes
+Probable85:12Found/127Probable/602Unchecked copies.185script tests/UI/build pass.
+
+Reproducible five-photographer shadow triage: all retain zero coverage after false
+names removed; additional work/context/credit gaps recorded with source hashes.
+Three have false normalized key-performer names, which active guard still rejects.
+Nine-case nonperforming-credit first triage:2Probable,1withheld,6unresolved. No
+source bulk refresh/provider calls/push/deployment. Next Kubelik14398300explicit
+work-field context audit, preserving source soloist requirements.

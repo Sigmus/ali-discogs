@@ -50,3 +50,39 @@ history; UI normalization/static build pass.
 Next cached false-credit case:14766559Fazıl Say, piano technician annotation.
 Then remaining Ozawa/Kubelik/other photographer cases; preserve genuine source
 credits and explicitly review any false principal-key effects. No refresh/push.
+
+
+## Fazıl Say14766559 — reviewed Probable
+
+Piano technician Franz Nistl is exclusively a technical credit; source requires
+Say alone. Reused existing source-credit reconciliation with no engine change.
+Selected12tracks for sonatas8/14/21/23from113track Warner complete set. Work fields
+identify each sonata; movement-only titles do not inherit arbitrary nearby works.
+Exact work fields/track IDs/ISRCs, ordered three-movement runs, positive Beethoven/
+Say credits and source durations(max1second difference) are required.101extra
+tracks explicitly excluded. Warner confirms companion double vinyl with this
+four-sonata selection and Mozarteum cycle; precise pressing/takes/mastering remain
+unknown. Only14766559published record becomes Probable85. Counts12Found/127Probable/
+602Unchecked copies(601unique).185script tests, UI normalization/build pass.
+
+Three regressions cover twelve unique selected movements, excluded101tracks,
+wrong work/pianist/missing movement/timing after rehash, and real pianist exclusion.
+No new title alias, source refresh or provider call. Source year2019versus digital
+2020release retained rather than interpreted as recording mismatch.
+
+## Remaining photographer cases — shadow triage
+
+Reproducible `scripts/qobuz_photographer_triage.py` checks five saved cases without
+publication writes. Removing only the false photographer names still gives zero
+supported programme coverage in all five. Ozawa1638548has multilingual mixed-work
+gaps; Kubelik14398300/13708175work titles/context unresolved;29719858has substantial
+work-specific cello ensemble requirements;5987607still requires source-named
+instrumentalists. Three also have false normalized key-performer names; these
+cannot be silently removed by the active reconciliation guard. Metadata/source
+fingerprints and per-work diagnostics saved in the triage report.
+
+First triage of9nonperforming-credit cases is complete:2reviewed Probables(Solti6,
+Say),1withheld(Solti5),6unresolved(Casals plus5photographer cases). The tenth role
+audit item is performer ordering, not a false-credit removal. Next audit explicit
+candidate work-field context for Kubelik14398300before designing a bounded rule;
+no global alias, loosening source soloists or new retrieval scope authorized.

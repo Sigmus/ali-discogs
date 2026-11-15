@@ -3678,6 +3678,385 @@
         "BnF lists1970publication while Eloquence describes the coupling issued1971; source labels say1970. These are publication observations, not exact take dates.",
         "Exact LP pressing, takes and digital mastering remain unverified."
       ]
+    },
+    {
+      "discogs_id": "14766559",
+      "album_id": "sieleb40p4c8a",
+      "review_kind": "bound-tracks",
+      "decision": "probable",
+      "target_sha256": "36f34dfdabd9c3b14293de716112b2277f51a69ceb83bc9a59670bedefae3a63",
+      "album_sha256": "c5a0125805f9d2c6eed640b37991189d656061155f8a15dac87424bb54a4c273",
+      "source_sha256": "e1505b5e2d20afd3f3ab2c20c2d9373ae6c3988aaa26e1c1c3d8c98a7ff89723",
+      "pulls": [],
+      "adds": [
+        {
+          "target": "Sonata No. 8 In C Minor Op. 13 \"Pathétique\"",
+          "track_id": 84954353,
+          "title_contains": "I. Grave - Allegro di molto e con brio",
+          "work_equals": "Piano Sonata No. 8 in C Minor, Op. 13 \"Pathétique\"",
+          "reason": "Exact work-field identity, numbered source movement and source timing; no generic inheritance between sonatas."
+        },
+        {
+          "target": "Sonata No. 8 In C Minor Op. 13 \"Pathétique\"",
+          "track_id": 84954354,
+          "title_contains": "II. Adagio cantabile",
+          "work_equals": "Piano Sonata No. 8 in C Minor, Op. 13 \"Pathétique\"",
+          "reason": "Exact work-field identity, numbered source movement and source timing; no generic inheritance between sonatas."
+        },
+        {
+          "target": "Sonata No. 8 In C Minor Op. 13 \"Pathétique\"",
+          "track_id": 84954355,
+          "title_contains": "III. Rondo (Allegro)",
+          "work_equals": "Piano Sonata No. 8 in C Minor, Op. 13 \"Pathétique\"",
+          "reason": "Exact work-field identity, numbered source movement and source timing; no generic inheritance between sonatas."
+        },
+        {
+          "target": "Sonata No 14 In C♯ Minor Quasi Una Fantasia Op. 27 No. 2 \"Moonlight\"",
+          "track_id": 84954379,
+          "title_contains": "I. Adagio sostenuto",
+          "work_equals": "Piano Sonata No. 14 in C-Sharp Minor, Op. 27 No. 2 \"Moonlight\"",
+          "reason": "Exact work-field identity, numbered source movement and source timing; no generic inheritance between sonatas."
+        },
+        {
+          "target": "Sonata No 14 In C♯ Minor Quasi Una Fantasia Op. 27 No. 2 \"Moonlight\"",
+          "track_id": 84954380,
+          "title_contains": "II. Allegretto",
+          "work_equals": "Piano Sonata No. 14 in C-Sharp Minor, Op. 27 No. 2 \"Moonlight\"",
+          "reason": "Exact work-field identity, numbered source movement and source timing; no generic inheritance between sonatas."
+        },
+        {
+          "target": "Sonata No 14 In C♯ Minor Quasi Una Fantasia Op. 27 No. 2 \"Moonlight\"",
+          "track_id": 84954381,
+          "title_contains": "III. Presto agitato",
+          "work_equals": "Piano Sonata No. 14 in C-Sharp Minor, Op. 27 No. 2 \"Moonlight\"",
+          "reason": "Exact work-field identity, numbered source movement and source timing; no generic inheritance between sonatas."
+        },
+        {
+          "target": "Sonata No. 21 In C Op. 53 \"Waldstein\"",
+          "track_id": 84954400,
+          "title_contains": "I. Allegro con brio",
+          "work_equals": "Piano Sonata No. 21 in C Major, Op. 53 \"Waldstein\"",
+          "reason": "Exact work-field identity, numbered source movement and source timing; no generic inheritance between sonatas."
+        },
+        {
+          "target": "Sonata No. 21 In C Op. 53 \"Waldstein\"",
+          "track_id": 84954401,
+          "title_contains": "II. Introduzione (Adagio molto)",
+          "work_equals": "Piano Sonata No. 21 in C Major, Op. 53 \"Waldstein\"",
+          "reason": "Exact work-field identity, numbered source movement and source timing; no generic inheritance between sonatas."
+        },
+        {
+          "target": "Sonata No. 21 In C Op. 53 \"Waldstein\"",
+          "track_id": 84954402,
+          "title_contains": "III. Rondo (Allegretto moderato-Prestissimo)",
+          "work_equals": "Piano Sonata No. 21 in C Major, Op. 53 \"Waldstein\"",
+          "reason": "Exact work-field identity, numbered source movement and source timing; no generic inheritance between sonatas."
+        },
+        {
+          "target": "Sonata No. 23 In F Minor Op. 57 \"Appassionata\"",
+          "track_id": 84954405,
+          "title_contains": "I. Allegro assai",
+          "work_equals": "Piano Sonata No. 23 in F Minor, Op. 57 \"Appassionata\"",
+          "reason": "Exact work-field identity, numbered source movement and source timing; no generic inheritance between sonatas."
+        },
+        {
+          "target": "Sonata No. 23 In F Minor Op. 57 \"Appassionata\"",
+          "track_id": 84954406,
+          "title_contains": "II. Andante con moto",
+          "work_equals": "Piano Sonata No. 23 in F Minor, Op. 57 \"Appassionata\"",
+          "reason": "Exact work-field identity, numbered source movement and source timing; no generic inheritance between sonatas."
+        },
+        {
+          "target": "Sonata No. 23 In F Minor Op. 57 \"Appassionata\"",
+          "track_id": 84954407,
+          "title_contains": "III. Allegro ma non troppo - Presto",
+          "work_equals": "Piano Sonata No. 23 in F Minor, Op. 57 \"Appassionata\"",
+          "reason": "Exact work-field identity, numbered source movement and source timing; no generic inheritance between sonatas."
+        }
+      ],
+      "expected": {
+        "Sonata No. 8 In C Minor Op. 13 \"Pathétique\"": [
+          84954353,
+          84954354,
+          84954355
+        ],
+        "Sonata No 14 In C♯ Minor Quasi Una Fantasia Op. 27 No. 2 \"Moonlight\"": [
+          84954379,
+          84954380,
+          84954381
+        ],
+        "Sonata No. 21 In C Op. 53 \"Waldstein\"": [
+          84954400,
+          84954401,
+          84954402
+        ],
+        "Sonata No. 23 In F Minor Op. 57 \"Appassionata\"": [
+          84954405,
+          84954406,
+          84954407
+        ]
+      },
+      "extra_track_ids": [
+        84954327,
+        84954328,
+        84954329,
+        84954330,
+        84954331,
+        84954332,
+        84954333,
+        84954334,
+        84954335,
+        84954336,
+        84954337,
+        84954338,
+        84954339,
+        84954340,
+        84954341,
+        84954342,
+        84954343,
+        84954344,
+        84954345,
+        84954346,
+        84954347,
+        84954348,
+        84954349,
+        84954350,
+        84954351,
+        84954352,
+        84954356,
+        84954357,
+        84954358,
+        84954359,
+        84954360,
+        84954361,
+        84954362,
+        84954363,
+        84954364,
+        84954365,
+        84954366,
+        84954367,
+        84954368,
+        84954369,
+        84954370,
+        84954371,
+        84954372,
+        84954373,
+        84954374,
+        84954375,
+        84954376,
+        84954377,
+        84954378,
+        84954382,
+        84954383,
+        84954384,
+        84954385,
+        84954386,
+        84954387,
+        84954388,
+        84954389,
+        84954390,
+        84954391,
+        84954392,
+        84954393,
+        84954394,
+        84954395,
+        84954396,
+        84954397,
+        84954398,
+        84954399,
+        84954403,
+        84954404,
+        84954408,
+        84954409,
+        84954410,
+        84954411,
+        84954412,
+        84954413,
+        84954414,
+        84954415,
+        84954416,
+        84954417,
+        84954418,
+        84954419,
+        84954420,
+        84954421,
+        84954422,
+        84954423,
+        84954424,
+        84954425,
+        84954426,
+        84954427,
+        84954428,
+        84954429,
+        84954430,
+        84954431,
+        84954432,
+        84954433,
+        84954434,
+        84954435,
+        84954436,
+        84954437,
+        84954438,
+        84954439
+      ],
+      "required_performers": [
+        "Fazıl Say"
+      ],
+      "source_credit_reconciliation": {
+        "nonperformers": [
+          {
+            "name": "Franz Nistl",
+            "role": "Technician [Piano tuner-technician]"
+          }
+        ],
+        "work_scopes": [],
+        "expected_required_performers": {
+          "Sonata No. 8 In C Minor Op. 13 \"Pathétique\"": [
+            "Fazıl Say"
+          ],
+          "Sonata No 14 In C♯ Minor Quasi Una Fantasia Op. 27 No. 2 \"Moonlight\"": [
+            "Fazıl Say"
+          ],
+          "Sonata No. 21 In C Op. 53 \"Waldstein\"": [
+            "Fazıl Say"
+          ],
+          "Sonata No. 23 In F Minor Op. 57 \"Appassionata\"": [
+            "Fazıl Say"
+          ]
+        }
+      },
+      "numbered_movement_runs": [
+        {
+          "target": "Sonata No. 8 In C Minor Op. 13 \"Pathétique\"",
+          "movements": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "target": "Sonata No 14 In C♯ Minor Quasi Una Fantasia Op. 27 No. 2 \"Moonlight\"",
+          "movements": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "target": "Sonata No. 21 In C Op. 53 \"Waldstein\"",
+          "movements": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "target": "Sonata No. 23 In F Minor Op. 57 \"Appassionata\"",
+          "movements": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "marks": [
+        {
+          "track_id": 84954353,
+          "text": "I. Grave - Allegro di molto e con brio",
+          "reference_duration_seconds": 497,
+          "isrc_equals": "GBAYC1900911",
+          "composer_equals": "Ludwig van Beethoven"
+        },
+        {
+          "track_id": 84954354,
+          "text": "II. Adagio cantabile",
+          "reference_duration_seconds": 325,
+          "isrc_equals": "GBAYC1900912",
+          "composer_equals": "Ludwig van Beethoven"
+        },
+        {
+          "track_id": 84954355,
+          "text": "III. Rondo (Allegro)",
+          "reference_duration_seconds": 276,
+          "isrc_equals": "GBAYC1900913",
+          "composer_equals": "Ludwig van Beethoven"
+        },
+        {
+          "track_id": 84954379,
+          "text": "I. Adagio sostenuto",
+          "reference_duration_seconds": 436,
+          "isrc_equals": "GBAYC1900927",
+          "composer_equals": "Ludwig van Beethoven"
+        },
+        {
+          "track_id": 84954380,
+          "text": "II. Allegretto",
+          "reference_duration_seconds": 113,
+          "isrc_equals": "GBAYC1900928",
+          "composer_equals": "Ludwig van Beethoven"
+        },
+        {
+          "track_id": 84954381,
+          "text": "III. Presto agitato",
+          "reference_duration_seconds": 422,
+          "isrc_equals": "GBAYC1900929",
+          "composer_equals": "Ludwig van Beethoven"
+        },
+        {
+          "track_id": 84954400,
+          "text": "I. Allegro con brio",
+          "reference_duration_seconds": 620,
+          "isrc_equals": "GBAYC1900951",
+          "composer_equals": "Ludwig van Beethoven"
+        },
+        {
+          "track_id": 84954401,
+          "text": "II. Introduzione (Adagio molto)",
+          "reference_duration_seconds": 196,
+          "isrc_equals": "GBAYC1900952",
+          "composer_equals": "Ludwig van Beethoven"
+        },
+        {
+          "track_id": 84954402,
+          "text": "III. Rondo (Allegretto moderato-Prestissimo)",
+          "reference_duration_seconds": 567,
+          "isrc_equals": "GBAYC1901251",
+          "composer_equals": "Ludwig van Beethoven"
+        },
+        {
+          "track_id": 84954405,
+          "text": "I. Allegro assai",
+          "reference_duration_seconds": 550,
+          "isrc_equals": "GBAYC1900955",
+          "composer_equals": "Ludwig van Beethoven"
+        },
+        {
+          "track_id": 84954406,
+          "text": "II. Andante con moto",
+          "reference_duration_seconds": 321,
+          "isrc_equals": "GBAYC1900956",
+          "composer_equals": "Ludwig van Beethoven"
+        },
+        {
+          "track_id": 84954407,
+          "text": "III. Allegro ma non troppo - Presto",
+          "reference_duration_seconds": 446,
+          "isrc_equals": "GBAYC1901252",
+          "composer_equals": "Ludwig van Beethoven"
+        }
+      ],
+      "sources": [
+        "https://www.warnerclassics.com/fr/release/fazil-say-beethoven",
+        "https://wmg.jp/discography/22055",
+        "https://www.discogs.com/release/14766559"
+      ],
+      "recording_review": "Warner identifies the32-sonata cycle and companion double vinyl containing sonatas8,14,21,23, matching this LP selection. Saved source records2018Mozarteum sessions; Warner recording chronology includes those dates. Each of the12selected movements has an exact sonata work field, positive Say/Beethoven credits, ordered numbering and LP timing within1second. Franz Nistl is explicitly a piano technician, not another performer. Probable recording-family correspondence, not exact LP pressing/takes/mastering.",
+      "limitations": [
+        "Digital set has101additional tracks outside the four-sonata LP; none counts toward source coverage.",
+        "Source year2019and digital release2020are release metadata, not proof of exact takes.",
+        "Source/Fazıl versus digital/Fazil spelling normalized without a new performer alias.",
+        "Exact LP pressing, takes and digital mastering remain unverified."
+      ]
     }
   ]
 }

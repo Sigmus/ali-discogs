@@ -19,7 +19,7 @@
     "qobuz_remaining_followup_metadata.json.gz": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
     "qobuz_metadata_followup_2026_11_15.json.gz": "139f9b336c68b56ea22c18362cb0481c026366c5d359142f2bb702fe1233a4fc",
     "collection_matches.json": "a214eee877d4749fa957b3d2a293c2925d7ba0621259f2742139a6cd86f928c8",
-    "qobuz_matches.json": "2e7783d01e70d638728723bf3dcef9a2080a0b94920af3cf6423f3d5e1f6f557",
+    "qobuz_matches.json": "138746b1a507bfc436788e9cf52f7fa908b3a0339ab5ec45f1ca5aabf2701991",
     "qobuz_work_inventory.json": "47b8e955b99c37b132e66daea61590490d249f94a520740d702bec5caa5019ce",
     "qobuz_binding_reviews.json": "b1dcc051388ede7b72e8b85f7b9baaedd65a3fb364cc876ac9c76eda9f50a1cd",
     "qobuz_opera_recording_reviews.json": "6e26d528eb7de78d372635218404a57534332ea1cd3d92e89e90e7a18066f85b",
@@ -27,14 +27,14 @@
     "qobuz_source_programme_reviews.json": "5469466141e2816720bf35e6b54abeb18daf3f12bf6fec1b4f9e794da0db098b"
   },
   "summary": {
-    "work_or_credit_unresolved": 419,
+    "work_or_credit_unresolved": 418,
     "metadata_needed": 160,
     "reviewed_withheld": 9,
     "completeness_review_needed": 7,
     "no_saved_hits": 6,
     "source_programme_review_needed": 1
   },
-  "unmatched_unique_releases": 602,
+  "unmatched_unique_releases": 601,
   "entries": [
     {
       "discogs_id": "594243",
@@ -112281,50 +112281,6 @@
       "saved_hits": 7,
       "uncached_hits": 7,
       "cached_candidates": []
-    },
-    {
-      "discogs_id": "14766559",
-      "title": "Sonatas Pathétique, Moonlight, Waldstein, Appassionata",
-      "category": "work_or_credit_unresolved",
-      "saved_hits": 1,
-      "uncached_hits": 0,
-      "cached_candidates": [
-        {
-          "album_id": "sieleb40p4c8a",
-          "title": "Beethoven : Complete Piano Sonatas",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "incomplete",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Sonata No. 8 In C Minor Op. 13 \"Pathétique\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Sonata No 14 In C♯ Minor Quasi Una Fantasia Op. 27 No. 2 \"Moonlight\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Sonata No. 21 In C Op. 53 \"Waldstein\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Sonata No. 23 In F Minor Op. 57 \"Appassionata\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        }
-      ]
     },
     {
       "discogs_id": "14782388",

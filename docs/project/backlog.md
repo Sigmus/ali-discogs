@@ -19,7 +19,9 @@ The user-approved [seven-album batch](../plans/2026-11-15-qobuz-metadata-followu
 is complete:7albums/97tracks, validated/exported without warnings. Next: offline
 [source-credit reviews](../plans/2026-11-15-qobuz-source-credit-reviews.md): Solti5972183
 Sixth now Probable;3386012Fifth withheld for named horn/trumpet credit gaps. Next
-14766559Fazıl Say technician credit, then other audited photographer cases. Casals6628473/23950082now have complete diagnostic
+explicit candidate work-field context for Kubelik14398300. Say14766559now Probable
+with12exact movements/101extras excluded. Five photographer cases still have
+zero programme coverage after shadow false-credit removal; no automatic promotions. Casals6628473/23950082now have complete diagnostic
 source-suite mappings, with labels/source hashes and unchanged source/publication.
 Recording-session/transfer provenance still unresolved; keep Unchecked. Do not bulk
 refresh the normalized collection or borrow recording dates. Role parser future

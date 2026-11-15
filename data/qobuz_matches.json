@@ -32,7 +32,7 @@
   "richter_review_fingerprint": "a14865f86e46150593e39bfa285fa6c7c61c8f46147b8094c0cb048fd02118ab",
   "round2_review_fingerprint": "be60742c3d35f5a9aa67f200642f7fcde98a52562a46130e043db8f4aa7c851e",
   "round2_metadata_fingerprint": "9db62d7bf62d4b77f5acf422dfde77959f845f4dc00b2ac0e10c02ccea295860",
-  "remaining_review_fingerprint": "688122f636c22f0d4ac6a20a20633eaf66b72fcaf4c376ad8264058a7015e838",
+  "remaining_review_fingerprint": "1339c330463c40db2906b35295934f3c8c908b11d4144d72333ae02121ea35f3",
   "remaining_metadata_fingerprint": "393b2d12e176160ab311b65267b38bdc8c205222e12f792bf07eba5c1fcfafbf",
   "remaining_followup_metadata_fingerprint": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
   "seven_album_metadata_fingerprint": "139f9b336c68b56ea22c18362cb0481c026366c5d359142f2bb702fe1233a4fc",
@@ -136543,9 +136543,19 @@
       ]
     },
     "14766559": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "sieleb40p4c8a",
+        "name": "Beethoven : Complete Piano Sonatas",
+        "artists": [
+          "Fazil Say"
+        ],
+        "label": "Warner Classics",
+        "release_date": "2020-01-17",
+        "image": "https://static.qobuz.com/images/covers/8a/4c/sieleb40p4c8a_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/beethoven-complete-piano-sonatas-fazil-say/sieleb40p4c8a"
+      },
       "candidates": [
         {
           "id": "sieleb40p4c8a",
@@ -136557,50 +136567,141 @@
           "release_date": "2020-01-17",
           "image": "https://static.qobuz.com/images/covers/8a/4c/sieleb40p4c8a_230.jpg",
           "url": "https://www.qobuz.com/fr-fr/album/beethoven-complete-piano-sonatas-fazil-say/sieleb40p4c8a",
-          "status": "unchecked",
-          "confidence": null,
-          "coverage": 0.0,
-          "covered": 0,
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 4,
           "target_count": 4,
           "required_performers": [
-            "Fazıl Say",
-            "Franz Nistl"
+            "Fazıl Say"
           ],
           "programme": [
             {
               "target": "Sonata No. 8 In C Minor Op. 13 \"Pathétique\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                84954353,
+                84954354,
+                84954355
+              ],
+              "required_performers": [
+                "Fazıl Say"
+              ]
             },
             {
               "target": "Sonata No 14 In C♯ Minor Quasi Una Fantasia Op. 27 No. 2 \"Moonlight\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                84954379,
+                84954380,
+                84954381
+              ],
+              "required_performers": [
+                "Fazıl Say"
+              ]
             },
             {
               "target": "Sonata No. 21 In C Op. 53 \"Waldstein\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                84954400,
+                84954401,
+                84954402
+              ],
+              "required_performers": [
+                "Fazıl Say"
+              ]
             },
             {
               "target": "Sonata No. 23 In F Minor Op. 57 \"Appassionata\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                84954405,
+                84954406,
+                84954407
+              ],
+              "required_performers": [
+                "Fazıl Say"
+              ]
             }
           ],
           "reasons": [
-            "0/4 target items supported after composer/work grouping; unresolved."
+            "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+            "Warner identifies the32-sonata cycle and companion double vinyl containing sonatas8,14,21,23, matching this LP selection. Saved source records2018Mozarteum sessions; Warner recording chronology includes those dates. Each of the12selected movements has an exact sonata work field, positive Say/Beethoven credits, ordered numbering and LP timing within1second. Franz Nistl is explicitly a piano technician, not another performer. Probable recording-family correspondence, not exact LP pressing/takes/mastering.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Digital set has101additional tracks outside the four-sonata LP; none counts toward source coverage.",
+            "Source year2019and digital release2020are release metadata, not proof of exact takes.",
+            "Source/Fazıl versus digital/Fazil spelling normalized without a new performer alias.",
+            "Exact LP pressing, takes and digital mastering remain unverified."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Sonata No. 8 In C Minor Op. 13 \"Pathétique\"",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  84954353,
+                  84954354,
+                  84954355
+                ]
+              },
+              {
+                "target": "Sonata No 14 In C♯ Minor Quasi Una Fantasia Op. 27 No. 2 \"Moonlight\"",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  84954379,
+                  84954380,
+                  84954381
+                ]
+              },
+              {
+                "target": "Sonata No. 21 In C Op. 53 \"Waldstein\"",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  84954400,
+                  84954401,
+                  84954402
+                ]
+              },
+              {
+                "target": "Sonata No. 23 In F Minor Op. 57 \"Appassionata\"",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  84954405,
+                  84954406,
+                  84954407
+                ]
+              }
+            ]
+          },
+          "recording_review": "Warner identifies the32-sonata cycle and companion double vinyl containing sonatas8,14,21,23, matching this LP selection. Saved source records2018Mozarteum sessions; Warner recording chronology includes those dates. Each of the12selected movements has an exact sonata work field, positive Say/Beethoven credits, ordered numbering and LP timing within1second. Franz Nistl is explicitly a piano technician, not another performer. Probable recording-family correspondence, not exact LP pressing/takes/mastering.",
+          "review_sources": [
+            "https://www.warnerclassics.com/fr/release/fazil-say-beethoven",
+            "https://wmg.jp/discography/22055",
+            "https://www.discogs.com/release/14766559"
           ]
         }
       ],
       "query": "fazil say beethoven sonatas pathetique moonlight waldstein appassionata",
       "searched_at": "2026-11-12T17:46:15.252656+00:00",
       "reasons": [
-        "0/4 target items supported after composer/work grouping; unresolved."
+        "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+        "Warner identifies the32-sonata cycle and companion double vinyl containing sonatas8,14,21,23, matching this LP selection. Saved source records2018Mozarteum sessions; Warner recording chronology includes those dates. Each of the12selected movements has an exact sonata work field, positive Say/Beethoven credits, ordered numbering and LP timing within1second. Franz Nistl is explicitly a piano technician, not another performer. Probable recording-family correspondence, not exact LP pressing/takes/mastering.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Digital set has101additional tracks outside the four-sonata LP; none counts toward source coverage.",
+        "Source year2019and digital release2020are release metadata, not proof of exact takes.",
+        "Source/Fazıl versus digital/Fazil spelling normalized without a new performer alias.",
+        "Exact LP pressing, takes and digital mastering remain unverified."
       ]
     },
     "8373111": {
