@@ -3490,6 +3490,194 @@
         "Source has no movement timings or session dates. Warner timings corroborate family but do not prove audio identity.",
         "Exact LP pressing, takes and mono/stereo transfer remain unverified."
       ]
+    },
+    {
+      "discogs_id": "5972183",
+      "album_id": "e5nxiiaa5c1hj",
+      "review_kind": "bound-tracks",
+      "decision": "probable",
+      "target_sha256": "3cbb366d8a38775ed7193786b6565643952858e5bfae015a5484157d0dacf59d",
+      "album_sha256": "193c0a1f9e456a7d7700031a26f54ee43a35d37bf8a9997c4968c3d1a87407ba",
+      "source_sha256": "634d6c60764b32ca2eb755ed2d0b57c00343c95ef79c8ad9daac6f580986b390",
+      "pulls": [],
+      "adds": [
+        {
+          "target": "Symphony No. 6 In A Minor",
+          "track_id": 45972302,
+          "title_contains": "Mahler: Symphony No. 6",
+          "reason": "Exact reviewed source work/movement or song identity; source binds Minton to song cycle only."
+        },
+        {
+          "target": "Symphony No. 6 In A Minor",
+          "track_id": 45972303,
+          "title_contains": "Mahler: Symphony No. 6",
+          "reason": "Exact reviewed source work/movement or song identity; source binds Minton to song cycle only."
+        },
+        {
+          "target": "Symphony No. 6 In A Minor",
+          "track_id": 45972304,
+          "title_contains": "Mahler: Symphony No. 6",
+          "reason": "Exact reviewed source work/movement or song identity; source binds Minton to song cycle only."
+        },
+        {
+          "target": "Symphony No. 6 In A Minor",
+          "track_id": 45972305,
+          "title_contains": "Mahler: Symphony No. 6",
+          "reason": "Exact reviewed source work/movement or song identity; source binds Minton to song cycle only."
+        },
+        {
+          "target": "Lieder Eines Fahrenden Gesellen (Für Eine Singstimme Und Orchester)",
+          "track_id": 45972298,
+          "title_contains": "Mahler: Lieder eines fahrenden Gesellen:",
+          "reason": "Exact reviewed source work/movement or song identity; source binds Minton to song cycle only."
+        },
+        {
+          "target": "Lieder Eines Fahrenden Gesellen (Für Eine Singstimme Und Orchester)",
+          "track_id": 45972299,
+          "title_contains": "Mahler: Lieder eines fahrenden Gesellen:",
+          "reason": "Exact reviewed source work/movement or song identity; source binds Minton to song cycle only."
+        },
+        {
+          "target": "Lieder Eines Fahrenden Gesellen (Für Eine Singstimme Und Orchester)",
+          "track_id": 45972300,
+          "title_contains": "Mahler: Lieder eines fahrenden Gesellen:",
+          "reason": "Exact reviewed source work/movement or song identity; source binds Minton to song cycle only."
+        },
+        {
+          "target": "Lieder Eines Fahrenden Gesellen (Für Eine Singstimme Und Orchester)",
+          "track_id": 45972301,
+          "title_contains": "Mahler: Lieder eines fahrenden Gesellen:",
+          "reason": "Exact reviewed source work/movement or song identity; source binds Minton to song cycle only."
+        }
+      ],
+      "expected": {
+        "Symphony No. 6 In A Minor": [
+          45972302,
+          45972303,
+          45972304,
+          45972305
+        ],
+        "Lieder Eines Fahrenden Gesellen (Für Eine Singstimme Und Orchester)": [
+          45972298,
+          45972299,
+          45972300,
+          45972301
+        ]
+      },
+      "extra_track_ids": [],
+      "required_performers": [
+        "Georg Solti",
+        "Chicago Symphony Orchestra"
+      ],
+      "numbered_movement_runs": [
+        {
+          "target": "Symphony No. 6 In A Minor",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "target": "Lieder Eines Fahrenden Gesellen (Für Eine Singstimme Und Orchester)",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "marks": [
+        {
+          "track_id": 45972302,
+          "text": "Mahler: Symphony No. 6 in A Minor: I. Allegro energico, ma non troppo. Heftig, aber markig",
+          "isrc_equals": "GBF077010001",
+          "composer_equals": "Gustav Mahler"
+        },
+        {
+          "track_id": 45972303,
+          "text": "Mahler: Symphony No. 6 in A Minor: II. Scherzo. Wuchtig",
+          "isrc_equals": "GBF077010002",
+          "composer_equals": "Gustav Mahler"
+        },
+        {
+          "track_id": 45972304,
+          "text": "Mahler: Symphony No. 6 in A Minor: III. Andante moderato",
+          "isrc_equals": "GBF077010003",
+          "composer_equals": "Gustav Mahler"
+        },
+        {
+          "track_id": 45972305,
+          "text": "Mahler: Symphony No. 6 in A Minor: IV. Finale. Allegro moderato",
+          "isrc_equals": "GBF077010004",
+          "composer_equals": "Gustav Mahler"
+        },
+        {
+          "track_id": 45972298,
+          "text": "Mahler: Lieder eines fahrenden Gesellen: 1. Wenn mein Schatz Hochzeit macht",
+          "isrc_equals": "GBF077010011",
+          "composer_equals": "Gustav Mahler"
+        },
+        {
+          "track_id": 45972299,
+          "text": "Mahler: Lieder eines fahrenden Gesellen: 2. Ging heut' morgen übers Feld",
+          "isrc_equals": "GBF077010012",
+          "composer_equals": "Gustav Mahler"
+        },
+        {
+          "track_id": 45972300,
+          "text": "Mahler: Lieder eines fahrenden Gesellen: 3. Ich hab' ein glühend Messer",
+          "isrc_equals": "GBF077010013",
+          "composer_equals": "Gustav Mahler"
+        },
+        {
+          "track_id": 45972301,
+          "text": "Mahler: Lieder eines fahrenden Gesellen: 4. Die zwei blauen Augen von meinem Schatz",
+          "isrc_equals": "GBF077010014",
+          "composer_equals": "Gustav Mahler"
+        }
+      ],
+      "source_credit_reconciliation": {
+        "nonperformers": [
+          {
+            "name": "Roger Dettmer",
+            "role": "Liner Notes [\"Georg Solti &  Chicago Symphony Orchestra\"]"
+          }
+        ],
+        "work_scopes": [
+          {
+            "name": "Yvonne Minton",
+            "role": "Contralto Vocals",
+            "targets": [
+              "Lieder Eines Fahrenden Gesellen (Für Eine Singstimme Und Orchester)"
+            ]
+          }
+        ],
+        "expected_required_performers": {
+          "Symphony No. 6 In A Minor": [
+            "Georg Solti",
+            "Chicago Symphony Orchestra"
+          ],
+          "Lieder Eines Fahrenden Gesellen (Für Eine Singstimme Und Orchester)": [
+            "Georg Solti",
+            "Chicago Symphony Orchestra",
+            "Yvonne Minton"
+          ]
+        }
+      },
+      "sources": [
+        "https://catalogue.bnf.fr/ark:/12148/cb37850459h",
+        "https://www.eloquenceclassics.com/releases-archive/yvonne-minton-sings-mahler-album/",
+        "https://www.discogs.com/release/5972183"
+      ],
+      "recording_review": "BnF identifies Decca SET469/470 with Solti, Chicago Symphony, Minton and notes by Dettmer/Cooke. Decca Eloquence documents the1970song sessions and coupling with the Sixth. All four symphony movements and four source songs have the required musical credits and positive Mahler Composer roles. Minton is required on every song, not the instrumental symphony; Dettmer is a documented liner author. Supports Probable recording-family correspondence, not exact pressing or mastering.",
+      "limitations": [
+        "Digital album orders the song cycle before the symphony; source LP orders symphony then songs. Both complete programmes mapped separately.",
+        "BnF lists1970publication while Eloquence describes the coupling issued1971; source labels say1970. These are publication observations, not exact take dates.",
+        "Exact LP pressing, takes and digital mastering remain unverified."
+      ]
     }
   ]
 }

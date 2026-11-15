@@ -455,3 +455,13 @@ Congress authority n79139515. No initials/surname-only matching or family-member
 conflation. Performer keys and legacy scorer unchanged. Positive Composer credit
 required for the exception; programme/recording gates remain independent.
 [Plan and evidence](../plans/2026-11-15-qobuz-composer-identity.md).
+
+### 2026-11-15 — Explicit source-bound work-credit reconciliation
+
+Adopted within existing bound-track reviews: remove only an exactly documented,
+exclusively nonmusical source credit; scope a performer only from an exact source
+work-level role and frozen requirement map. Global/principal/work soloist credits
+cannot be silently dropped. This handles a liner-note author falsely normalized
+as a performer and a singer duplicated globally despite a specific song-cycle role.
+No normalized collection refresh, broad credit relaxation or borrowed soloist
+identity. [Source-credit plan](../plans/2026-11-15-qobuz-source-credit-reviews.md).

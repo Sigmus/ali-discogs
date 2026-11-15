@@ -1704,6 +1704,48 @@
         540617,
         540619
       ]
+    },
+    {
+      "discogs_id": "3386012",
+      "album_id": "qksqbeccafqts",
+      "review_kind": "bound-tracks",
+      "decision": "withhold",
+      "target_sha256": "ef4b1e5533b3d1a13e0e373452c50af4b7e870b0e12557b78ed846d28222d3c4",
+      "album_sha256": "b40b9e496941d428cdca4bf9c34ac8dd94798e0b8e0c1b63e184c7028faae1b3",
+      "source_sha256": "d69150a26755dbdc38308d1d1ec6a542026157ee50c8a398c361a67e7bedc6ab",
+      "pulls": [],
+      "adds": [],
+      "extra_track_ids": [
+        45972288,
+        45972289,
+        45972290,
+        45972291,
+        45972292,
+        45972293,
+        45972294,
+        45972295,
+        45972296
+      ],
+      "required_performers": [
+        "Georg Solti",
+        "Chicago Symphony Orchestra",
+        "Yvonne Minton",
+        "Roger Dettmer"
+      ],
+      "missing_targets": [
+        "Symphony No. 5 In C Sharp Minor",
+        "Songs From Des Knaben Wunderhorn"
+      ],
+      "recording_review": "Withheld: source names Dale Clevenger (horn solo, sideB) and Adolph Herseth (trumpet solo, A1), neither credited in cached digital tracks. Roger Dettmer is only a liner author, but removing that false requirement does not supply the missing soloist evidence. No inference from Chicago Symphony membership or a similar reissue.",
+      "sources": [
+        "https://www.discogs.com/release/3386012",
+        "https://www.eloquenceclassics.com/releases-archive/yvonne-minton-sings-mahler-album/"
+      ],
+      "limitations": [
+        "Missing credit metadata is not proof these musicians did not perform.",
+        "Recording-family similarity cannot replace positive source-named soloist checks.",
+        "Source/role/work matching gaps remain; no source normalization or partial acceptance."
+      ]
     }
   ]
 }

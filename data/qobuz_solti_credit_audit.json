@@ -1,0 +1,99 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-15",
+  "sixth": {
+    "discogs_id": "5972183",
+    "album_id": "e5nxiiaa5c1hj",
+    "source_sha256": "634d6c60764b32ca2eb755ed2d0b57c00343c95ef79c8ad9daac6f580986b390",
+    "album_sha256": "193c0a1f9e456a7d7700031a26f54ee43a35d37bf8a9997c4968c3d1a87407ba",
+    "source_credit_reconciliation": {
+      "nonperformers": [
+        {
+          "name": "Roger Dettmer",
+          "role": "Liner Notes [\"Georg Solti &  Chicago Symphony Orchestra\"]"
+        }
+      ],
+      "work_scopes": [
+        {
+          "name": "Yvonne Minton",
+          "role": "Contralto Vocals",
+          "targets": [
+            "Lieder Eines Fahrenden Gesellen (Für Eine Singstimme Und Orchester)"
+          ]
+        }
+      ],
+      "expected_required_performers": {
+        "Symphony No. 6 In A Minor": [
+          "Georg Solti",
+          "Chicago Symphony Orchestra"
+        ],
+        "Lieder Eines Fahrenden Gesellen (Für Eine Singstimme Und Orchester)": [
+          "Georg Solti",
+          "Chicago Symphony Orchestra",
+          "Yvonne Minton"
+        ]
+      }
+    },
+    "programme": {
+      "Symphony No. 6 In A Minor": [
+        45972302,
+        45972303,
+        45972304,
+        45972305
+      ],
+      "Lieder Eines Fahrenden Gesellen (Für Eine Singstimme Und Orchester)": [
+        45972298,
+        45972299,
+        45972300,
+        45972301
+      ]
+    },
+    "decision": "probable_recording_family"
+  },
+  "fifth": {
+    "discogs_id": "3386012",
+    "album_id": "qksqbeccafqts",
+    "target_sha256": "ef4b1e5533b3d1a13e0e373452c50af4b7e870b0e12557b78ed846d28222d3c4",
+    "source_sha256": "d69150a26755dbdc38308d1d1ec6a542026157ee50c8a398c361a67e7bedc6ab",
+    "album_sha256": "b40b9e496941d428cdca4bf9c34ac8dd94798e0b8e0c1b63e184c7028faae1b3",
+    "missing_source_soloist_credits": [
+      {
+        "name": "Dale Clevenger",
+        "source_roles": [
+          {
+            "name": "Dale Clevenger",
+            "anv": "",
+            "join": "",
+            "role": "Horn [Solo]",
+            "tracks": "B",
+            "id": 469186,
+            "resource_url": "https://api.discogs.com/artists/469186"
+          }
+        ],
+        "candidate_credited_tracks": []
+      },
+      {
+        "name": "Adolph Herseth",
+        "source_roles": [
+          {
+            "name": "Adolph Herseth",
+            "anv": "",
+            "join": "",
+            "role": "Trumpet [Solo]",
+            "tracks": "A1",
+            "id": 871112,
+            "resource_url": "https://api.discogs.com/artists/871112"
+          }
+        ],
+        "candidate_credited_tracks": []
+      }
+    ],
+    "decision": "withhold_missing_positive_soloist_credits",
+    "reason": "Removing liner author does not supply named horn/trumpet credits. Do not infer them from orchestra membership or other recording documentation."
+  },
+  "limitations": [
+    "Digital album orders the song cycle before the symphony; source LP orders symphony then songs. Both complete programmes mapped separately.",
+    "BnF lists1970publication while Eloquence describes the coupling issued1971; source labels say1970. These are publication observations, not exact take dates.",
+    "Exact LP pressing, takes and digital mastering remain unverified."
+  ]
+}

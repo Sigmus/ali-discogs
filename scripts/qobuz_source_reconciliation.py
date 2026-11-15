@@ -1,10 +1,30 @@
-"""Explicit, hash-bound source corrections for offline diagnostics only; no publication."""
+"""Hash-bound source diagnostics and nonperformer validation; no source/publication writes."""
 import copy
 import hashlib
 import json
 import re
 from qobuz_lead_review import ROOT,target_fingerprint
-from ali_discogs.model import credit_role_text,performing_credit
+from ali_discogs.model import credit_role_text
+
+
+def validate_nonperforming_credit(row,raw,credit):
+    from qobuz_target_credits import musical
+    name=credit['name']
+    found=[x for x in raw.get('extraartists',[]) if x['name']==name]
+    if not found or credit['role'] not in [x.get('role') for x in found] or any(musical(x.get('role','')) or not re.match(r'^(liner notes|photography|technician|design|illustration)\b',credit_role_text(x.get('role','')).strip()) for x in found):
+        raise ValueError('Credit is not exclusively documented as nonperforming')
+    def work_credit_names(tracks):
+        for track in tracks:
+            for artist in track.get('artists',[]):
+                yield artist['name']
+            for artist in track.get('extraartists',[]):
+                if musical(artist.get('role','')):yield artist['name']
+            yield from work_credit_names(track.get('sub_tracks',[]))
+    if name in set(work_credit_names(raw['tracklist'])):
+        raise ValueError('Documented work performer cannot be removed as a liner author')
+    if name not in row['performers'] or name in row.get('key_performers',[]) or name==row.get('conductor') or name in [a['name'] for a in raw['artists']]:
+        raise ValueError('Cannot remove a principal or absent performer')
+    return name
 
 
 def reconcile(row,review):
@@ -25,21 +45,7 @@ def reconcile(row,review):
         if len(originals)!=1 or len(normalized)!=1 or not after or before==after:
             raise ValueError('Ambiguous or missing exact source-title correction')
         normalized[0]['title']=after
-    credit=review['nonperforming_source_credit'];name=credit['name']
-    found=[x for x in raw.get('extraartists',[]) if x['name']==name]
-    if not found or credit['role'] not in [x.get('role') for x in found] or any(performing_credit(x.get('role','')) or not re.match(r'^(liner notes|photography|technician|design|illustration)\b',credit_role_text(x.get('role','')).strip()) for x in found):
-        raise ValueError('Credit is not exclusively documented as nonperforming')
-    def work_credit_names(tracks):
-        for track in tracks:
-            for artist in track.get('artists',[]):
-                yield artist['name']
-            for artist in track.get('extraartists',[]):
-                if performing_credit(artist.get('role','')):yield artist['name']
-            yield from work_credit_names(track.get('sub_tracks',[]))
-    if name in set(work_credit_names(raw['tracklist'])):
-        raise ValueError('Documented work performer cannot be removed as a liner author')
-    if name not in result['performers'] or name in result.get('key_performers',[]) or name==result.get('conductor') or name in [a['name'] for a in raw['artists']]:
-        raise ValueError('Cannot remove a principal or absent performer')
+    name=validate_nonperforming_credit(row,raw,review['nonperforming_source_credit'])
     result['performers']=[p for p in result['performers'] if p!=name]
     return result
 

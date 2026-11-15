@@ -1748,3 +1748,18 @@ Four regressions cover stale/missing proofs, invalid credit exclusion, crossed o
 missing/reordered suite bands and network/publication protection. All177script tests
 and UI normalization pass. Seven-album/eight-release review complete:3Probable,1withheld,4unresolved.
 Next cached Solti5972183/3386012source-role cases; no bulk refresh/push/deployment.
+
+
+### 2026-11-15 — Source-bound Solti credits and complete Sixth reviewed
+
+5972183Decca SET469/470family corroborated by BnF and Decca Eloquence. Eight
+source movements/songs complete, positive Solti/Chicago/Minton/Mahler credits.
+Existing bound-track review now supports exact source-role reconciliation:
+exclusively nonperforming liner author removed, singer scoped from explicit
+source work role, full expected requirement map frozen. Conductor/orchestra and
+other source soloists cannot be omitted. Exact source/target/album hashes plus
+numbered complete runs/title/ISRC guards. Only5972183published record becomes
+Probable85; exact pressing/takes/mastering unverified. Counts12Found/126Probable/
+603Unchecked copies.3386012Fifth withheld: Clevenger/Herseth absent from digital
+credits; no inference from orchestra. All182script tests and UI/build pass.
+No source/Spotify refresh, provider calls, push/deployment. Next14766559technician.

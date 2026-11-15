@@ -11,7 +11,7 @@ and cache commands. This directory owns current planning.
 - Branch main; last known push7945944. Later work committed locally; no deployment
   verified. Inspect Git before claiming remote state.
 - Collection741copies/740unique. Saved labels: Spotify254Found/273Probable/
-  210NotFound/4Unchecked; Qobuz12Found/125Probable/604Unchecked copies.
+  210NotFound/4Unchecked; Qobuz12Found/126Probable/603Unchecked copies.
 - Qobuz publication `data/qobuz_matches.json` is separate from Spotify collection
   results. Labels/scores are saved data; Qobuz85/95 are heuristic levels, not
   probabilities. Legacy Spotify labels are not comparable accuracy measurements.
@@ -63,8 +63,10 @@ and cache commands. This directory owns current planning.
 
 ## Next work
 
-1. Audit cached leads for the9nonperforming-credit cases, starting Solti5972183/
-   3386012. Use explicit source-role reconciliation, not a bulk collection refresh.
+1. Next cached false-credit case14766559Fazıl Say (piano technician), then
+   remaining photographer cases. Use source-bound review, not bulk refresh.
+   Solti5972183Sixth is Probable;3386012Fifth withheld for named soloist gaps.
+   [Source-credit plan](../plans/2026-11-15-qobuz-source-credit-reviews.md).
 2. Keep Casals/Gieseking transfer identity unresolved until recording-specific
    evidence exists. Source correction alone does not authorize promotion.
 3. Continue programme/credit/recording audits and meaningful false-positive tests;
@@ -75,5 +77,6 @@ and cache commands. This directory owns current planning.
 Prefer reliable matches to higher counts. No unbounded new-hit downloads, warning
 retries, pushes or deployment. Bitches Brew credit exception remains a proposal.
 Do not invent identity, overwrite source text or loosen credit gates for counts.
-Current review: no Qobuz calls or publication changes; all177script tests and UI normalization pass.
+Current review: only5972183publication changes;602unchecked unique. All182script tests
+pass against stable files; UI normalization/build pass. No Qobuz calls/push.
 [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).

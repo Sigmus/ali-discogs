@@ -459,3 +459,12 @@ suite-context diagnostic offline. Exact target/raw/label proof and exclusive
 nonperforming roles are validated before deriving a temporary corrected copy.
 It writes only `data/qobuz_casals_reconciliation_audit.json`, never collection or
 publication files. Both complete source programmes remain recording-unresolved.
+
+A bound-track recording review can explicitly reconcile source credits using
+`source_credit_reconciliation`. Nonperformers require exact, exclusively
+nonmusical cached roles; principal/work performers cannot be excluded. A scoped
+performer requires an exact source work-level role and target list, plus a saved
+complete expected requirement map. Global conductor/orchestra and every other
+source requirement remain. This is a manual source/hash-bound decision, never a
+global omission rule or credit borrowed from another work. Solti5972183uses it to
+require Minton on the songs and remove the liner author from musical requirements.

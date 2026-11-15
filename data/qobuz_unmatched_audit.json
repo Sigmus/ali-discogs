@@ -19,22 +19,22 @@
     "qobuz_remaining_followup_metadata.json.gz": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
     "qobuz_metadata_followup_2026_11_15.json.gz": "139f9b336c68b56ea22c18362cb0481c026366c5d359142f2bb702fe1233a4fc",
     "collection_matches.json": "a214eee877d4749fa957b3d2a293c2925d7ba0621259f2742139a6cd86f928c8",
-    "qobuz_matches.json": "42c1d38f0baa2b08324f0770b5afcbd8a51e24602ce9925fc07009753b3d770d",
+    "qobuz_matches.json": "2e7783d01e70d638728723bf3dcef9a2080a0b94920af3cf6423f3d5e1f6f557",
     "qobuz_work_inventory.json": "47b8e955b99c37b132e66daea61590490d249f94a520740d702bec5caa5019ce",
-    "qobuz_binding_reviews.json": "15011d55b3994780820341a2670ac924efd89fa509001cba6dc2b56533af4f75",
+    "qobuz_binding_reviews.json": "b1dcc051388ede7b72e8b85f7b9baaedd65a3fb364cc876ac9c76eda9f50a1cd",
     "qobuz_opera_recording_reviews.json": "6e26d528eb7de78d372635218404a57534332ea1cd3d92e89e90e7a18066f85b",
     "qobuz_source_composer_reviews.json": "1cce69d6df99a54b444f6a210d84c5c69b3139eb4ed1355e821708d1fb59b83c",
     "qobuz_source_programme_reviews.json": "5469466141e2816720bf35e6b54abeb18daf3f12bf6fec1b4f9e794da0db098b"
   },
   "summary": {
-    "work_or_credit_unresolved": 421,
+    "work_or_credit_unresolved": 419,
     "metadata_needed": 160,
-    "reviewed_withheld": 8,
+    "reviewed_withheld": 9,
     "completeness_review_needed": 7,
     "no_saved_hits": 6,
     "source_programme_review_needed": 1
   },
-  "unmatched_unique_releases": 603,
+  "unmatched_unique_releases": 602,
   "entries": [
     {
       "discogs_id": "594243",
@@ -22259,7 +22259,7 @@
     {
       "discogs_id": "3386012",
       "title": "Symphony No. 5 In C# Minor / Songs From Des Knaben Wunderhorn",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 1,
       "uncached_hits": 0,
       "cached_candidates": [
@@ -22270,7 +22270,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Symphony No. 5 In C Sharp Minor",
@@ -48174,70 +48174,6 @@
       "saved_hits": 7,
       "uncached_hits": 7,
       "cached_candidates": []
-    },
-    {
-      "discogs_id": "5972183",
-      "title": "Symphony No. 6 In A Minor / Lieder Eines Fahrenden Gesellen",
-      "category": "work_or_credit_unresolved",
-      "saved_hits": 1,
-      "uncached_hits": 0,
-      "cached_candidates": [
-        {
-          "album_id": "e5nxiiaa5c1hj",
-          "title": "Mahler: Symphony No. 6; Lieder eines fahrenden Gesellen",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Symphony No. 6 In A Minor",
-              "work_tracks": 4,
-              "credited_tracks": 0,
-              "track_ids": [],
-              "required_performers": [
-                "Georg Solti",
-                "Chicago Symphony Orchestra",
-                "Yvonne Minton",
-                "Roger Dettmer"
-              ],
-              "target_credit_scope": {
-                "source": "cached Discogs explicit work/position credits",
-                "positions": [],
-                "performers": []
-              }
-            },
-            {
-              "target": "Lieder Eines Fahrenden Gesellen (Für Eine Singstimme Und Orchester)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": [],
-              "required_performers": [
-                "Georg Solti",
-                "Chicago Symphony Orchestra",
-                "Yvonne Minton",
-                "Roger Dettmer"
-              ],
-              "target_credit_scope": {
-                "source": "cached Discogs explicit work/position credits",
-                "positions": [
-                  "D1",
-                  "D2",
-                  "D3",
-                  "D4"
-                ],
-                "performers": [
-                  {
-                    "name": "Yvonne Minton",
-                    "role": "Contralto Vocals"
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      ]
     },
     {
       "discogs_id": "5980586",

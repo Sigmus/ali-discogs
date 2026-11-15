@@ -150,11 +150,13 @@ def assess_bindings(row, album, review):
         if (person_key(alias['source']) == person_key(alias['file']) or len(alias.get('reason', '')) < 20
                 or alias['source'] not in review['required_performers']):
             raise ValueError('A differing performer name needs a recording-specific reason')
+    from qobuz_review_credits import requirements
+    by_target = requirements(row,json.loads(raw),evidence,review,assigned)
     blockers = []
-    for ids in assigned.values():
+    for target,ids in assigned.items():
         for track_id in ids:
             found = credits(tracks[track_id])
-            for name in review['required_performers']:
+            for name in by_target[target]:
                 aliased = any(person_key(alias['source']) == person_key(name) and agrees(alias['file'], found) for alias in aliases)
                 if not agrees(name, found) and not aliased:
                     blockers.append('performer')
