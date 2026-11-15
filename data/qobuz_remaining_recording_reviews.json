@@ -4342,6 +4342,290 @@
           "reason": "Complete four-movement sonata with positive required pianist credits."
         }
       ]
+    },
+    {
+      "discogs_id": "10100439",
+      "album_id": "0002894383712",
+      "review_kind": "bound-tracks",
+      "target_sha256": "3decfdd89ae3be00a97fa4746d05a3a8c2eb4b832be5d665a9133cb4ff373bde",
+      "album_sha256": "25141814f97b1e5be1c32f57b8e5c39275aa02212f62e4c3102083b1313ca4d1",
+      "source_sha256": "9e972283fee0e7c03bac18a84a0c9c470ee7146a11bc1ff462af86b0cd9b42c7",
+      "decision": "probable",
+      "required_performers": [
+        "Michele Campanella"
+      ],
+      "adds": [
+        {
+          "target": "No.7 In D Minor",
+          "track_id": 4131547,
+          "title_contains": "Liszt: Hungarian Rhapsody No. 7 in D minor, S.244",
+          "work_equals": null
+        },
+        {
+          "target": "No.9 In E Flat \"Pester Karneval\"",
+          "track_id": 4131549,
+          "title_contains": "Liszt: Hungarian Rhapsody No. 9 in E flat, S.244 \"Pesther Carneval\"",
+          "work_equals": "Hungarian Rhapsody No.9 in E flat, S.244 'Pesther Carneval'"
+        },
+        {
+          "target": "No.11 In A Minor",
+          "track_id": 4131551,
+          "title_contains": "Liszt: Hungarian Rhapsody No. 11 in A minor, S.244",
+          "work_equals": "Hungarian Rhapsody No.11 in A minor, S.244"
+        },
+        {
+          "target": "No.12 In C Sharp Major",
+          "track_id": 4131552,
+          "title_contains": "Liszt: Hungarian Rhapsody No. 12 in C sharp minor, S.244",
+          "work_equals": "Hungarian Rhapsody No.12 in C sharp minor, S.244"
+        },
+        {
+          "target": "No.13 In A Minor",
+          "track_id": 4131553,
+          "title_contains": "Liszt: Hungarian Rhapsody No. 13 in A minor, S.244",
+          "work_equals": "Hungarian Rhapsody No.13 in A minor, S.244"
+        },
+        {
+          "target": "No.14 In F Minor",
+          "track_id": 4131554,
+          "title_contains": "Liszt: Hungarian Rhapsody No. 14 in F minor, S.244",
+          "work_equals": "Hungarian Rhapsody No.14 in F minor, S.244"
+        },
+        {
+          "target": "No.16 In A Minor",
+          "track_id": 4131557,
+          "title_contains": "Liszt: Hungarian Rhapsody No. 16 in A minor, S.244",
+          "work_equals": "Hungarian Rhapsody No.16 in A minor, S.244"
+        },
+        {
+          "target": "No.17 In D Minor",
+          "track_id": 4131561,
+          "title_contains": "Liszt: Hungarian Rhapsody No. 17 in D minor, S.244",
+          "work_equals": "Hungarian Rhapsody No.17 in D minor, S.244"
+        },
+        {
+          "target": "No.19 In D Minor",
+          "track_id": 4131567,
+          "title_contains": "Liszt: Hungarian Rhapsody No. 19 in D minor, S.244",
+          "work_equals": "Hungarian Rhapsody No.19 in D minor, S.244"
+        }
+      ],
+      "expected": {
+        "No.1 In C Sharp Minor": [
+          4131541
+        ],
+        "No.2 In C Sharp Minor": [
+          4131542
+        ],
+        "No.3 In B Flat": [
+          4131543
+        ],
+        "No.4 In E Flat": [
+          4131544
+        ],
+        "No.5 In E Minor \"Heroide Elegiaque\"": [
+          4131545
+        ],
+        "No.6 In D Flat": [
+          4131546
+        ],
+        "No.7 In D Minor": [
+          4131547
+        ],
+        "No.8 In F Sharp Minor": [
+          4131548
+        ],
+        "No.9 In E Flat \"Pester Karneval\"": [
+          4131549
+        ],
+        "No.10 In E \"Preludio\"": [
+          4131550
+        ],
+        "No.11 In A Minor": [
+          4131551
+        ],
+        "No.12 In C Sharp Major": [
+          4131552
+        ],
+        "No.13 In A Minor": [
+          4131553
+        ],
+        "No.14 In F Minor": [
+          4131554
+        ],
+        "No.15 In A Minor Rakoczy March\"": [
+          4131555
+        ],
+        "No.16 In A Minor": [
+          4131557
+        ],
+        "No.17 In D Minor": [
+          4131561
+        ],
+        "No.18 In F Sharp Minor": [
+          4131564
+        ],
+        "No.19 In D Minor": [
+          4131567
+        ]
+      },
+      "extra_track_ids": [],
+      "marks": [
+        {
+          "track_id": 4131541,
+          "text": "Liszt: Hungarian Rhapsody No. 1 in C sharp minor, S.244",
+          "composer_equals": "Franz Liszt",
+          "isrc_equals": "NLA507200020"
+        },
+        {
+          "track_id": 4131542,
+          "text": "Liszt: Hungarian Rhapsody No. 2 in C sharp minor, S.244",
+          "composer_equals": "Franz Liszt",
+          "isrc_equals": "NLA507300079"
+        },
+        {
+          "track_id": 4131543,
+          "text": "Liszt: Hungarian Rhapsody No. 3 in B flat, S.244",
+          "composer_equals": "Franz Liszt",
+          "isrc_equals": "NLA507200021"
+        },
+        {
+          "track_id": 4131544,
+          "text": "Liszt: Hungarian Rhapsody No. 4 in E flat, S.244",
+          "composer_equals": "Franz Liszt",
+          "isrc_equals": "NLA507300080"
+        },
+        {
+          "track_id": 4131545,
+          "text": "Liszt: Hungarian Rhapsody No. 5 In E Minor, S.244 Heroïde-Elégiaque",
+          "composer_equals": "Franz Liszt",
+          "isrc_equals": "NLA507100046"
+        },
+        {
+          "track_id": 4131546,
+          "text": "Liszt: Hungarian Rhapsody No. 6 in D flat, S.244",
+          "composer_equals": "Franz Liszt",
+          "isrc_equals": "NLA507300081"
+        },
+        {
+          "track_id": 4131547,
+          "text": "Liszt: Hungarian Rhapsody No. 7 in D minor, S.244",
+          "composer_equals": "Franz Liszt",
+          "isrc_equals": "NLA507300082"
+        },
+        {
+          "track_id": 4131548,
+          "text": "Liszt: Hungarian Rhapsody No. 8 in F sharp minor, S.244",
+          "composer_equals": "Franz Liszt",
+          "isrc_equals": "NLA507300083"
+        },
+        {
+          "track_id": 4131549,
+          "text": "Liszt: Hungarian Rhapsody No. 9 in E flat, S.244 \"Pesther Carneval\"",
+          "composer_equals": "Franz Liszt",
+          "isrc_equals": "NLA507300084"
+        },
+        {
+          "track_id": 4131550,
+          "text": "Liszt: Hungarian Rhapsody No. 10 in E, S.244 \"Preludio\"",
+          "composer_equals": "Franz Liszt",
+          "isrc_equals": "NLA507300085"
+        },
+        {
+          "track_id": 4131551,
+          "text": "Liszt: Hungarian Rhapsody No. 11 in A minor, S.244",
+          "composer_equals": "Franz Liszt",
+          "isrc_equals": "NLA507200022"
+        },
+        {
+          "track_id": 4131552,
+          "text": "Liszt: Hungarian Rhapsody No. 12 in C sharp minor, S.244",
+          "composer_equals": "Franz Liszt",
+          "isrc_equals": "NLA507100047"
+        },
+        {
+          "track_id": 4131553,
+          "text": "Liszt: Hungarian Rhapsody No. 13 in A minor, S.244",
+          "composer_equals": "Franz Liszt",
+          "isrc_equals": "NLA507200023"
+        },
+        {
+          "track_id": 4131554,
+          "text": "Liszt: Hungarian Rhapsody No. 14 in F minor, S.244",
+          "composer_equals": "Franz Liszt",
+          "isrc_equals": "NLA507200024"
+        },
+        {
+          "track_id": 4131555,
+          "text": "Liszt: Hungarian Rhapsody No. 15 In A Minor, S.244 Rákóczy March",
+          "composer_equals": "Franz Liszt",
+          "isrc_equals": "NLA507100048"
+        },
+        {
+          "track_id": 4131557,
+          "text": "Liszt: Hungarian Rhapsody No. 16 in A minor, S.244",
+          "composer_equals": "Franz Liszt",
+          "isrc_equals": "NLA507300086"
+        },
+        {
+          "track_id": 4131561,
+          "text": "Liszt: Hungarian Rhapsody No. 17 in D minor, S.244",
+          "composer_equals": "Franz Liszt",
+          "isrc_equals": "NLA507300087"
+        },
+        {
+          "track_id": 4131564,
+          "text": "Liszt: Hungarian Rhapsody No. 18 in F sharp minor, S.244",
+          "composer_equals": "Franz Liszt",
+          "isrc_equals": "NLA507300088"
+        },
+        {
+          "track_id": 4131567,
+          "text": "Liszt: Hungarian Rhapsody No. 19 in D minor, S.244",
+          "composer_equals": "Franz Liszt",
+          "isrc_equals": "NLA507300089"
+        }
+      ],
+      "sources": [
+        "https://www.discogs.com/release/10100439",
+        "https://www.deccaclassics.com/en/catalogue/products/liszt-the-19-hungarian-rhapsodies-campanella-1511"
+      ],
+      "recording_review": "Source Philips6747108 is Campanella complete19HungarianRhapsodies with1974labels. Exact publisher catalogue UPC00028943837125 identifies Campanella19Rhapsodies; all19cached tracks name Campanella and Liszt, with original1974release markers. Explicit whole-title/work bindings restore nine missed bare-numbered source pieces; all19numbers map uniquely and in order.",
+      "limitations": [
+        "Recording-family/programme support, not independent session/take, pressing or mastering verification.",
+        "Source No12 says Csharp major; candidate says Csharp minor. Exact numbered member and complete cycle support the binding; source discrepancy retained, no source correction or global key alias.",
+        "1993publisher issue date is a reissue date;1974source labels and digital original-release metadata are not asserted to be session dates."
+      ]
+    },
+    {
+      "discogs_id": "9932700",
+      "album_id": "0002894713072",
+      "target_sha256": "c0c92aadef506d1803bfb57030fda3454241eaa92afdcbba8b9a101b82bdd3c5",
+      "album_sha256": "47f0fb3644486a3c22ac83dcbb3b508aaa986113840ff11617222910a28bb457",
+      "source_sha256": "64dfa875839b0da9689be102dc965af65464e9179d60c526887ce611e5a0fc2a",
+      "decision": "withhold",
+      "recording_review": "Source DG2720062includes eight symphonies plus three Rosamunde selections on sideJ. Cached candidate has only30symphony movements and no Rosamunde overture or ballet selections. A complete symphony cycle is an incomplete match for this source programme.",
+      "limitations": [
+        "Source calls Symphony2Dmajor while candidate says Bflat; retained discrepancy. This hold is established by missing Rosamunde, not the key discrepancy. No assertion that Qobuz lacks a complete alternative."
+      ],
+      "sources": [
+        "https://www.discogs.com/release/9932700"
+      ]
+    },
+    {
+      "discogs_id": "9861630",
+      "album_id": "0002894631272",
+      "target_sha256": "f17582d65ab057c4d127d7fcf1db2c8e49660fc947e2acb5fcaecc1159daed09",
+      "album_sha256": "38bab22f0b76be5975cca9d9ecb9c2ae8c46a323f366e28696a8bdd80f121941",
+      "source_sha256": "362fe55601d9141bc662b0493cf9ff9ea81230a9fac152c8f366ed9a34a5e873",
+      "decision": "withhold",
+      "recording_review": "Undated LaVoceDelPadrone3C06301916source belongs to the EMI-label sonata series. Candidate DGcycle explicitly marks1981–1984recordings. Recording-family connection to the earlier EMI series is not established; programme/pianist agreement alone cannot establish it.",
+      "limitations": [
+        "Source is undated: label difference alone does not prove different audio. Withhold, not chronological rejection; no source year invented."
+      ],
+      "sources": [
+        "https://www.discogs.com/release/9861630"
+      ]
     }
   ]
 }

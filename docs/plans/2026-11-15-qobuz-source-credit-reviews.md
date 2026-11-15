@@ -162,3 +162,15 @@ Retained timing and transfer/mastering caveats. Regressions reject rehashed
 missing coda/movement and wrong pianist.194script tests, UI normalization/build
 pass. Only13655367accepted status changes. Counts12Found/129Probable/600Unchecked
 copies. Next cached Campanella numbered-piece binding; no Qobuz calls.
+
+### 2026-11-15 — Campanella numbered cycle accepted; two incomplete/identity holds
+
+Campanella10100439/0002894383712now Probable85:19unique numbered rhapsodies,
+nine explicit whole-title/work bindings, positive Liszt Composer and Campanella
+credits and exact ISRC marks. Publisher confirms exact catalogue/performer/cycle.
+Source No12major versus digital minor retained, no global key correction.
+Böhm9932700held: source adds three Rosamunde selections absent from30track
+symphony-only candidate. Undated Barenboim9861630held: no EMI-to-later-DGcycle
+recording link, not a label-only rejection.196script tests, UI normalization/build
+pass; only10100439accepted status changes. Counts12Found/130Probable/599Unchecked
+copies. No Qobuz calls or further push. Continue source-heading Schnabel review.

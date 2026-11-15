@@ -20,8 +20,9 @@ is complete:7albums/97tracks, validated/exported without warnings. Next: offline
 [source-credit reviews](../plans/2026-11-15-qobuz-source-credit-reviews.md): Solti5972183
 Sixth now Probable;3386012Fifth withheld for named horn/trumpet credit gaps. Next
 Karajan7064777now Probable after complete Mendelssohn/split Lobgesang review.
-Active: Gilels13655367joined finale proof; then Campanella10100439explicit
-numbered-piece bindings, using cached evidence and existing review kinds. Kubelik/Ozawa/
+Gilels13655367and Campanella10100439now Probable after joined-finale and
+explicit numbered-piece reviews. Active: Schnabel4694861source heading/band
+review preserving repeated tempo labels and preventing cross-sonata borrowing. Kubelik/Ozawa/
 Soltani/Rolla five photographer leads now explicitly withheld. Five Barenboim EMI
 LPs blocked against later DG cycle:2chronological rejections,3undated holds.
 Recording-review precedence enforced with regression tests; no label changes. Casals6628473/23950082now have complete diagnostic
