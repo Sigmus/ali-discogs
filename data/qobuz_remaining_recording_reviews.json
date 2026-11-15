@@ -7198,6 +7198,1236 @@
       "batch": "2026-11-15-priority14",
       "blocker_kind": "source_containers_and_version",
       "next_action": "Validate the original CBS79409box and its VolIIversion, then add a bounded complete-range/container review with missing-child and alternate-take tests."
+    },
+    {
+      "discogs_id": "1704535",
+      "album_id": "0724356695658",
+      "target_sha256": "dff0360c79e2104093e07c196354c11c8abfbab53c63744bf94d3554ec76b617",
+      "album_sha256": "98dd79546def12fcd644a756ac156ec57be8009d9fdd36750fb075efd868301c",
+      "decision": "probable",
+      "recording_review": "Warner lists Lipatti’s fourteen-waltz collection with Barcarolle separately from his live Besançon recital. Cached EMI/Warner album0724356695658contains all fourteen waltzes in the same unusual LP order, then three extras; every selected track credits Lipatti and Chopin. Source notes identify the July1950Geneva studio family but attribute that date to external catalogue information, not an inspected original label. No exact session/take/mastering verification.",
+      "sources": [
+        "https://www.discogs.com/release/1704535",
+        "https://www.warnerclassics.com/release/chopin-waltzes-lipatti"
+      ],
+      "limitations": [
+        "Probable recording-family match, not an exact LP pressing, take, mastering or audio verification.",
+        "Source wording, work editions, credited musicians and dated discrepancies remain unchanged.",
+        "A source-bound manual review maps every named work; no global title, composer, performer or threshold exception was added.",
+        "French N°/opus-member wording is reconciled only inside this frozen review; missing, swapped or changed tracks cannot inherit it.",
+        "The final Barcarolle, Nocturne and Mazurka are extras; they are not substituted for any source waltz."
+      ],
+      "target_title_corrections": {
+        "N° 4 En Fa Majeur Op. 34 N° 3": "Waltz No. 4 in F Major, Op. 34 No. 3",
+        "N° 5 En La Bémol Majeur Op. 42": "Waltz No. 5 in A-Flat Major, Op. 42",
+        "N° 6 En Ré Bémol Majeur Op. 64 N° 1": "Waltz No. 6 in D-Flat Major, Op. 64 No. 1 \"Minute\"",
+        "N° 9 En La Bémol Majeur Op. 69 N° 1": "Waltz No. 9 in A-Flat Major, Op. Posth. 69 No. 1 \"Farewell\"",
+        "N° 7 En Ut Dièse Mineur Op. 64 N° 2": "Waltz No. 7 in C-Sharp Minor, Op. 64 No. 2",
+        "N° 11 En Sol Bémol Majeur Op. 70 N° 1": "Waltz No. 11 in G-Flat Major, Op. Posth. 70 No. 1",
+        "N° 10 En Si Mineur Op. 69 N° 2": "Waltz No. 10 in B Minor, Op. Posth. 69 No. 2",
+        "N° 14 En Mi Mineur Op. Posthume": "Waltz No. 14 in E Minor, Op. Posth.",
+        "N° 3 En La Mineur Op. 34 N° 2": "Waltz No. 3 in A Minor, Op. 34 No. 2",
+        "N° 8 En La Bémol Majeur Op. 64 N° 3": "Waltz No. 8 in A-Flat Major, Op. 64 No. 3",
+        "N° 12 En Fa Mineur, Op. 70 N° 2": "Waltz No. 12 in F Minor, Op. Posth. 70 No. 2",
+        "N° 13 En Ré Bémol Majeur, Op. 70 N° 3": "Waltz No. 13 in D-Flat Major, Op. Posth. 70 No. 3",
+        "N° 1 En Mi Bémol Majeur, Op. 18": "Grande valse brillante in E-Flat Major, Op. 18",
+        "N° 2 En La Bémol Majeur Op. 34 N° 1": "Waltz No. 2 in A-Flat Major, Op. 34 No. 1"
+      },
+      "works": [
+        {
+          "target": "N° 4 En Fa Majeur Op. 34 N° 3",
+          "movements": [
+            1
+          ],
+          "scope": "whole-listed-waltz",
+          "source": "source work and exact catalogue member",
+          "reason": "complete one-track waltz",
+          "reviewed_sections": {
+            "1033859": {
+              "track_sha256": "fb8825bc046a8c06b502812e95c2c349af14ffe3ef2e25546689803871ca8ecc",
+              "movements": [
+                1
+              ]
+            }
+          }
+        },
+        {
+          "target": "N° 5 En La Bémol Majeur Op. 42",
+          "movements": [
+            1
+          ],
+          "scope": "whole-listed-waltz",
+          "source": "source work and exact catalogue member",
+          "reason": "complete one-track waltz",
+          "reviewed_sections": {
+            "1033860": {
+              "track_sha256": "ad03c458b7808baa86dc4a5ba74863a542b8847f1fc954e7eab23fa27088cd1a",
+              "movements": [
+                1
+              ]
+            }
+          }
+        },
+        {
+          "target": "N° 6 En Ré Bémol Majeur Op. 64 N° 1",
+          "movements": [
+            1
+          ],
+          "scope": "whole-listed-waltz",
+          "source": "source work and exact catalogue member",
+          "reason": "complete one-track waltz",
+          "reviewed_sections": {
+            "1033861": {
+              "track_sha256": "666142e4738f9fc520096aa65809a07bf1b8e00f7b3e571b8daeab6727536af7",
+              "movements": [
+                1
+              ]
+            }
+          }
+        },
+        {
+          "target": "N° 9 En La Bémol Majeur Op. 69 N° 1",
+          "movements": [
+            1
+          ],
+          "scope": "whole-listed-waltz",
+          "source": "source work and exact catalogue member",
+          "reason": "complete one-track waltz",
+          "reviewed_sections": {
+            "1033862": {
+              "track_sha256": "672d09fd369e016ad1c28d93c6a5a1a4259f863b97fe68abe77e70e5f02ee814",
+              "movements": [
+                1
+              ]
+            }
+          }
+        },
+        {
+          "target": "N° 7 En Ut Dièse Mineur Op. 64 N° 2",
+          "movements": [
+            1
+          ],
+          "scope": "whole-listed-waltz",
+          "source": "source work and exact catalogue member",
+          "reason": "complete one-track waltz",
+          "reviewed_sections": {
+            "1033863": {
+              "track_sha256": "d2300be62958e708a24979868d2fe2928a893af07b7dfa132ccd76d793e71b57",
+              "movements": [
+                1
+              ]
+            }
+          }
+        },
+        {
+          "target": "N° 11 En Sol Bémol Majeur Op. 70 N° 1",
+          "movements": [
+            1
+          ],
+          "scope": "whole-listed-waltz",
+          "source": "source work and exact catalogue member",
+          "reason": "complete one-track waltz",
+          "reviewed_sections": {
+            "1033864": {
+              "track_sha256": "a94e80b45dfae84370fb2b1c6d3b6f013f467438a9b39477fcebdfdafb481543",
+              "movements": [
+                1
+              ]
+            }
+          }
+        },
+        {
+          "target": "N° 10 En Si Mineur Op. 69 N° 2",
+          "movements": [
+            1
+          ],
+          "scope": "whole-listed-waltz",
+          "source": "source work and exact catalogue member",
+          "reason": "complete one-track waltz",
+          "reviewed_sections": {
+            "1033865": {
+              "track_sha256": "248911e2811f12be07cb3c348728670e5236ba6e25bfb53f5fc4c0f289445ffe",
+              "movements": [
+                1
+              ]
+            }
+          }
+        },
+        {
+          "target": "N° 14 En Mi Mineur Op. Posthume",
+          "movements": [
+            1
+          ],
+          "scope": "whole-listed-waltz",
+          "source": "source work and exact catalogue member",
+          "reason": "complete one-track waltz",
+          "reviewed_sections": {
+            "1033866": {
+              "track_sha256": "5bdcac8827cd9dc14ebbb9033b8b14336efd11d925ed34fc467cfadee4dec504",
+              "movements": [
+                1
+              ]
+            }
+          }
+        },
+        {
+          "target": "N° 3 En La Mineur Op. 34 N° 2",
+          "movements": [
+            1
+          ],
+          "scope": "whole-listed-waltz",
+          "source": "source work and exact catalogue member",
+          "reason": "complete one-track waltz",
+          "reviewed_sections": {
+            "1033867": {
+              "track_sha256": "0c5f076c334741a3f0c1fcf0615f8dee752d1c587a727fc2d71f5f57ea76c8af",
+              "movements": [
+                1
+              ]
+            }
+          }
+        },
+        {
+          "target": "N° 8 En La Bémol Majeur Op. 64 N° 3",
+          "movements": [
+            1
+          ],
+          "scope": "whole-listed-waltz",
+          "source": "source work and exact catalogue member",
+          "reason": "complete one-track waltz",
+          "reviewed_sections": {
+            "1033868": {
+              "track_sha256": "b71ea2ac048eff47bc7dadfbb533b5b75fe251481c9ff85ae8c53b1fe4837cc0",
+              "movements": [
+                1
+              ]
+            }
+          }
+        },
+        {
+          "target": "N° 12 En Fa Mineur, Op. 70 N° 2",
+          "movements": [
+            1
+          ],
+          "scope": "whole-listed-waltz",
+          "source": "source work and exact catalogue member",
+          "reason": "complete one-track waltz",
+          "reviewed_sections": {
+            "1033869": {
+              "track_sha256": "0cabd326243d0eaef4757d84261858db1f5a67813bb7e96f9f3f2de036d9bcf0",
+              "movements": [
+                1
+              ]
+            }
+          }
+        },
+        {
+          "target": "N° 13 En Ré Bémol Majeur, Op. 70 N° 3",
+          "movements": [
+            1
+          ],
+          "scope": "whole-listed-waltz",
+          "source": "source work and exact catalogue member",
+          "reason": "complete one-track waltz",
+          "reviewed_sections": {
+            "1033870": {
+              "track_sha256": "ebc2bd56d9b3872fb0a204152423b5969e7bddba162fdc688ef288fe09a099b3",
+              "movements": [
+                1
+              ]
+            }
+          }
+        },
+        {
+          "target": "N° 1 En Mi Bémol Majeur, Op. 18",
+          "movements": [
+            1
+          ],
+          "scope": "whole-listed-waltz",
+          "source": "source work and exact catalogue member",
+          "reason": "complete one-track waltz",
+          "reviewed_sections": {
+            "1033871": {
+              "track_sha256": "cb9de6f3e9c38785d2a9f3a57a0ceaf163d817803d286c4fe2a0234eb54174dd",
+              "movements": [
+                1
+              ]
+            }
+          }
+        },
+        {
+          "target": "N° 2 En La Bémol Majeur Op. 34 N° 1",
+          "movements": [
+            1
+          ],
+          "scope": "whole-listed-waltz",
+          "source": "source work and exact catalogue member",
+          "reason": "complete one-track waltz",
+          "reviewed_sections": {
+            "1033872": {
+              "track_sha256": "04fb2de45bd6986d45efc5874ce30aca196cefd0c9be838b4625cdda2ab2500a",
+              "movements": [
+                1
+              ]
+            }
+          }
+        }
+      ],
+      "source_sha256": "1cd4cb46fc4570c90b1cdfb900f97e2427e819a105989c41d47666099f668bdf",
+      "batch": "2026-11-15-secondary26",
+      "external_source_files": [
+        {
+          "path": "data/review_sources/secondary26-1704535/publisher-observation.txt",
+          "sha256": "4dac857a543020ced8a3e1f552ae771ee03b0165cf697bc1d1f077e8ead70979",
+          "source_url": "https://www.warnerclassics.com/release/chopin-waltzes-lipatti"
+        }
+      ]
+    },
+    {
+      "discogs_id": "4067901",
+      "album_id": "m8cki219vu7rc",
+      "target_sha256": "b8e41b347bf3171ce9f96309995644583f7dce5a883ba730eca880a93b648281",
+      "album_sha256": "fcecf89e3d8232b29f374e7c180fcec19640b9c012663e73c1e82c07a579bd8a",
+      "decision": "probable",
+      "recording_review": "Warner Japan identifies digital product190295157395as François’s fourteen Chopin waltzes recorded in Paris,2–4July1958, MONO. This UPC equals cached album0190295157395(m8cki219vu7rc). The source is a1959Columbia mono LP with the same fourteen-work order and pianist. This supports the1958mono family, not a later stereo cycle or identical pressing/mastering.",
+      "sources": [
+        "https://www.discogs.com/release/4067901",
+        "https://wmg.jp/samson-francois/discography/23483"
+      ],
+      "limitations": [
+        "Probable recording-family match, not an exact LP pressing, take, mastering or audio verification.",
+        "Source wording, work editions, credited musicians and dated discrepancies remain unchanged.",
+        "A source-bound manual review maps every named work; no global title, composer, performer or threshold exception was added.",
+        "French N°/opus-member wording is reconciled only inside this frozen review; missing, swapped or changed tracks cannot inherit it."
+      ],
+      "target_title_corrections": {
+        "Valse N°1 En Mi Bémol Majeur, Op. 18 - \"Grande Valse Brillante\"": "Grande valse brillante in E-Flat Major, Op. 18",
+        "Valse N°2 En La Bémol Majeur, Op. 34 N°1": "Waltz No. 2 in A-Flat Major, Op. 34 No. 1",
+        "Valse N°3 En La Mineur, Op. 34 N°2": "Waltz No. 3 in A Minor, Op. 34 No. 2",
+        "Valse N°4 En Fa Majeur, Op. 34 N°3": "Waltz No. 4 in F Major, Op. 34 No. 3",
+        "Valse N°5 Grande Valse En La Bémol Majeur, Op. 42": "Waltz No. 5 in A-Flat Major, Op. 42",
+        "Valse N°6 En Ré Bémol Majeur, Op. 64 N°1": "Waltz No. 6 in D-Flat Major, Op. 64 No. 1 \"Minute\"",
+        "Valse N°7 En Ut Dièse Mineur, Op. 64 N°2": "Waltz No. 7 in C-Sharp Minor, Op. 64 No. 2",
+        "Valse N°8 En La Bémol Majeur, Op. 64 N°3": "Waltz No. 8 in A-Flat Major, Op. 64 No. 3",
+        "Valse N°9 En La Bémol Majeur, Op. 69 N°1 - \"De L'Adieu\"": "Waltz No. 9 in A-Flat Major, Op. Posth. 69 No. 1 \"Farewell\"",
+        "Valse N°10 En Si Mineur, Op. 69 N°2": "Waltz No. 10 in B Minor, Op. Posth. 69 No. 2",
+        "Valse N°11 En Sol Bémol Majeur, Op. 70 N°1": "Waltz No. 11 in G-Flat Major, Op. Posth. 70 No. 1",
+        "Valse N°12 En Fa Mineur, Op. 70 N°2": "Waltz No. 12 in F Minor, Op. Posth. 70 No. 2",
+        "Valse N°13 En Ré Bémol Majeur, Op. 70 N°3": "Waltz No. 13 in D-Flat Major, Op. Posth. 70 No. 3",
+        "Valse N°14 En Mi Mineur, Op. Posthume": "Waltz No. 14 in E Minor, Op. Posth."
+      },
+      "works": [
+        {
+          "target": "Valse N°1 En Mi Bémol Majeur, Op. 18 - \"Grande Valse Brillante\"",
+          "movements": [
+            1
+          ],
+          "scope": "whole-listed-waltz",
+          "source": "source work and exact catalogue member",
+          "reason": "complete one-track waltz",
+          "reviewed_sections": {
+            "101445933": {
+              "track_sha256": "78d49c2e8a273122e83bade3e321c0845899117c238e054b916b22ea12908c18",
+              "movements": [
+                1
+              ]
+            }
+          }
+        },
+        {
+          "target": "Valse N°2 En La Bémol Majeur, Op. 34 N°1",
+          "movements": [
+            1
+          ],
+          "scope": "whole-listed-waltz",
+          "source": "source work and exact catalogue member",
+          "reason": "complete one-track waltz",
+          "reviewed_sections": {
+            "101445934": {
+              "track_sha256": "19eacacc11ae9ae6b698f89cc620a55ce76dd334886de4214256e8a8deb841fd",
+              "movements": [
+                1
+              ]
+            }
+          }
+        },
+        {
+          "target": "Valse N°3 En La Mineur, Op. 34 N°2",
+          "movements": [
+            1
+          ],
+          "scope": "whole-listed-waltz",
+          "source": "source work and exact catalogue member",
+          "reason": "complete one-track waltz",
+          "reviewed_sections": {
+            "101445935": {
+              "track_sha256": "9868da9147390c6ccc9054a94e0375131e1a87885759cc41bcd695322e77ca13",
+              "movements": [
+                1
+              ]
+            }
+          }
+        },
+        {
+          "target": "Valse N°4 En Fa Majeur, Op. 34 N°3",
+          "movements": [
+            1
+          ],
+          "scope": "whole-listed-waltz",
+          "source": "source work and exact catalogue member",
+          "reason": "complete one-track waltz",
+          "reviewed_sections": {
+            "101445936": {
+              "track_sha256": "281301183acf2866b5459b49e476e7abb12ee4a610d0b290aa1c42cd7045f092",
+              "movements": [
+                1
+              ]
+            }
+          }
+        },
+        {
+          "target": "Valse N°5 Grande Valse En La Bémol Majeur, Op. 42",
+          "movements": [
+            1
+          ],
+          "scope": "whole-listed-waltz",
+          "source": "source work and exact catalogue member",
+          "reason": "complete one-track waltz",
+          "reviewed_sections": {
+            "101445937": {
+              "track_sha256": "0c87d4c3c088ad5d24cd2a3c5c4d89056bf7d7cbb505918f4ddf8bf285459784",
+              "movements": [
+                1
+              ]
+            }
+          }
+        },
+        {
+          "target": "Valse N°6 En Ré Bémol Majeur, Op. 64 N°1",
+          "movements": [
+            1
+          ],
+          "scope": "whole-listed-waltz",
+          "source": "source work and exact catalogue member",
+          "reason": "complete one-track waltz",
+          "reviewed_sections": {
+            "101445938": {
+              "track_sha256": "e5945daa332261c729b9412481efd7dbac16abbd7e10c12a805bd1c7dd41e6cd",
+              "movements": [
+                1
+              ]
+            }
+          }
+        },
+        {
+          "target": "Valse N°7 En Ut Dièse Mineur, Op. 64 N°2",
+          "movements": [
+            1
+          ],
+          "scope": "whole-listed-waltz",
+          "source": "source work and exact catalogue member",
+          "reason": "complete one-track waltz",
+          "reviewed_sections": {
+            "101445939": {
+              "track_sha256": "5e0205216bca67e06e2d24be9233f975e6b83730a625f8c26cacd2185b27a7ef",
+              "movements": [
+                1
+              ]
+            }
+          }
+        },
+        {
+          "target": "Valse N°8 En La Bémol Majeur, Op. 64 N°3",
+          "movements": [
+            1
+          ],
+          "scope": "whole-listed-waltz",
+          "source": "source work and exact catalogue member",
+          "reason": "complete one-track waltz",
+          "reviewed_sections": {
+            "101445940": {
+              "track_sha256": "ea0446dfb9a2ab08a29a25767ecaa737b528f19642d649a12bfa836ff8bbe223",
+              "movements": [
+                1
+              ]
+            }
+          }
+        },
+        {
+          "target": "Valse N°9 En La Bémol Majeur, Op. 69 N°1 - \"De L'Adieu\"",
+          "movements": [
+            1
+          ],
+          "scope": "whole-listed-waltz",
+          "source": "source work and exact catalogue member",
+          "reason": "complete one-track waltz",
+          "reviewed_sections": {
+            "101445941": {
+              "track_sha256": "86af040d069c29b657edb6efd83bd4f1433cdaad6226b1877c5d5a3c73a5771d",
+              "movements": [
+                1
+              ]
+            }
+          }
+        },
+        {
+          "target": "Valse N°10 En Si Mineur, Op. 69 N°2",
+          "movements": [
+            1
+          ],
+          "scope": "whole-listed-waltz",
+          "source": "source work and exact catalogue member",
+          "reason": "complete one-track waltz",
+          "reviewed_sections": {
+            "101445942": {
+              "track_sha256": "fa6bb88a1bb2c03fb6ecbdad0b78e5cb028043ffcdcbf7909d7b0f97c65e5a0e",
+              "movements": [
+                1
+              ]
+            }
+          }
+        },
+        {
+          "target": "Valse N°11 En Sol Bémol Majeur, Op. 70 N°1",
+          "movements": [
+            1
+          ],
+          "scope": "whole-listed-waltz",
+          "source": "source work and exact catalogue member",
+          "reason": "complete one-track waltz",
+          "reviewed_sections": {
+            "101445943": {
+              "track_sha256": "647e1477f444bbfee5b11b9048cbebae580237a479215019f3fd254d670f0e48",
+              "movements": [
+                1
+              ]
+            }
+          }
+        },
+        {
+          "target": "Valse N°12 En Fa Mineur, Op. 70 N°2",
+          "movements": [
+            1
+          ],
+          "scope": "whole-listed-waltz",
+          "source": "source work and exact catalogue member",
+          "reason": "complete one-track waltz",
+          "reviewed_sections": {
+            "101445944": {
+              "track_sha256": "a65e40de555b1aee8f82a39c7cde0869c4ae82a8f2e1a242ac32564cf2a60a52",
+              "movements": [
+                1
+              ]
+            }
+          }
+        },
+        {
+          "target": "Valse N°13 En Ré Bémol Majeur, Op. 70 N°3",
+          "movements": [
+            1
+          ],
+          "scope": "whole-listed-waltz",
+          "source": "source work and exact catalogue member",
+          "reason": "complete one-track waltz",
+          "reviewed_sections": {
+            "101445945": {
+              "track_sha256": "a1c2df43b8ed5bca31039b6fce5044493f44ed4a6eee6e4b7828781ec73be214",
+              "movements": [
+                1
+              ]
+            }
+          }
+        },
+        {
+          "target": "Valse N°14 En Mi Mineur, Op. Posthume",
+          "movements": [
+            1
+          ],
+          "scope": "whole-listed-waltz",
+          "source": "source work and exact catalogue member",
+          "reason": "complete one-track waltz",
+          "reviewed_sections": {
+            "101445946": {
+              "track_sha256": "e238012418cfe33869941e32a0ada300c09c664e025e9e9b0465529e613f576a",
+              "movements": [
+                1
+              ]
+            }
+          }
+        }
+      ],
+      "source_sha256": "af0726a3fed628a6a6ab011b0d65d10f50afc041ac2a9f87290129d07c8f2d25",
+      "batch": "2026-11-15-secondary26",
+      "external_source_files": [
+        {
+          "path": "data/review_sources/secondary26-4067901/publisher-observation.txt",
+          "sha256": "8d7446b02f8be617dbdfcc61251a624f568f4f76cbce5467a1c512e36a41131b",
+          "source_url": "https://wmg.jp/samson-francois/discography/23483"
+        }
+      ]
+    },
+    {
+      "discogs_id": "7860979",
+      "album_id": "0002894777580",
+      "target_sha256": "cf0ca446a3513f6cd02643166a6af1d0ac5365438274af90d58347d864df848d",
+      "album_sha256": "3f4d9352e1c1d2f65322700ccb6e509275ee710ee947c5e2ad92da03867dbcdb",
+      "decision": "probable",
+      "review_kind": "bound-tracks",
+      "expected": {
+        "Symphonie Nr. 1 C-Moll": [
+          614301,
+          614310,
+          614319,
+          614328
+        ],
+        "Symphonie Nr. 2 C-Moll": [
+          614304,
+          614313,
+          614322,
+          614330
+        ],
+        "Symphonie Nr. 3 D-Moll": [
+          614303,
+          614312,
+          614321,
+          614329
+        ],
+        "Symphonie Nr. 4 Es-Dur »Romantische«": [
+          614306,
+          614315,
+          614324,
+          614331
+        ],
+        "Symphonie Nr. 5 B-Dur": [
+          614334,
+          614302,
+          614311,
+          614320
+        ],
+        "Symphonie Nr. 6 A-Dur": [
+          614307,
+          614316,
+          614325,
+          614332
+        ],
+        "Symphonie Nr. 7 E-Dur": [
+          614308,
+          614317,
+          614326,
+          614333
+        ],
+        "Symphonie Nr. 8 C-Moll": [
+          614335,
+          614305,
+          614314,
+          614323
+        ],
+        "Symphonie Nr. 9 D-Moll": [
+          614309,
+          614318,
+          614327
+        ]
+      },
+      "required_performers": [
+        "Herbert von Karajan",
+        "Berliner Philharmoniker"
+      ],
+      "extra_track_ids": [],
+      "adds": [
+        {
+          "target": "Symphonie Nr. 1 C-Moll",
+          "track_id": 614301,
+          "title_contains": "I. Allegro molto moderato",
+          "work_equals": "Symphony No.1 in C minor - \"Linz Version\" 1866",
+          "duration_seconds": 772
+        },
+        {
+          "target": "Symphonie Nr. 1 C-Moll",
+          "track_id": 614310,
+          "title_contains": "II. Adagio",
+          "work_equals": "Symphony No.1 in C minor - \"Linz Version\" 1866",
+          "duration_seconds": 856
+        },
+        {
+          "target": "Symphonie Nr. 1 C-Moll",
+          "track_id": 614319,
+          "title_contains": "III. Scherzo. Lebhaft",
+          "work_equals": "Symphony No.1 in C minor - \"Linz Version\" 1866",
+          "duration_seconds": 533
+        },
+        {
+          "target": "Symphonie Nr. 1 C-Moll",
+          "track_id": 614328,
+          "title_contains": "IV. Finale. Bewegt und feurig",
+          "work_equals": "Symphony No.1 in C minor - \"Linz Version\" 1866",
+          "duration_seconds": 866
+        },
+        {
+          "target": "Symphonie Nr. 2 C-Moll",
+          "track_id": 614304,
+          "title_contains": "I. Moderato",
+          "work_equals": "Symphony No.2 in C minor - Arr. Leopold Nowak",
+          "duration_seconds": 1096
+        },
+        {
+          "target": "Symphonie Nr. 2 C-Moll",
+          "track_id": 614313,
+          "title_contains": "II. Andante: Feierlich, etwas bewegt",
+          "work_equals": "Symphony No.2 in C minor - Arr. Leopold Nowak",
+          "duration_seconds": 1053
+        },
+        {
+          "target": "Symphonie Nr. 2 C-Moll",
+          "track_id": 614322,
+          "title_contains": "III. Scherzo: Mässig schnell",
+          "work_equals": "Symphony No.2 in C minor - Arr. Leopold Nowak",
+          "duration_seconds": 370
+        },
+        {
+          "target": "Symphonie Nr. 2 C-Moll",
+          "track_id": 614330,
+          "title_contains": "IV. Finale: Mehr schnell",
+          "work_equals": "Symphony No.2 in C minor - Arr. Leopold Nowak",
+          "duration_seconds": 1085
+        },
+        {
+          "target": "Symphonie Nr. 3 D-Moll",
+          "track_id": 614303,
+          "title_contains": "I. Gemäßigt, mehr bewegt, misterioso",
+          "work_equals": "Symphony No.3 in D minor - Edition Leopold Nowak",
+          "duration_seconds": 1315
+        },
+        {
+          "target": "Symphonie Nr. 3 D-Moll",
+          "track_id": 614312,
+          "title_contains": "II. Andante: Bewegt, feierlich, quasi Adagio",
+          "work_equals": "Symphony No.3 in D minor - Edition Leopold Nowak",
+          "duration_seconds": 980
+        },
+        {
+          "target": "Symphonie Nr. 3 D-Moll",
+          "track_id": 614321,
+          "title_contains": "III. Scherzo: Ziemlich schnell",
+          "work_equals": "Symphony No.3 in D minor - Edition Leopold Nowak",
+          "duration_seconds": 412
+        },
+        {
+          "target": "Symphonie Nr. 3 D-Moll",
+          "track_id": 614329,
+          "title_contains": "IV. Finale: Allegro",
+          "work_equals": "Symphony No.3 in D minor - Edition Leopold Nowak",
+          "duration_seconds": 698
+        },
+        {
+          "target": "Symphonie Nr. 4 Es-Dur »Romantische«",
+          "track_id": 614306,
+          "title_contains": "Bruckner: Symphony No. 4 in E-Flat Major, WAB 104 \"Romantic\" (1878/80 Version, Ed. Haas): I. Bewegt, nicht zu schnell",
+          "work_equals": "Symphony No. 4 in E-Flat Major, WAB 104 \"Romantic\" (1878/80 Version, Ed. Haas)",
+          "duration_seconds": 1093
+        },
+        {
+          "target": "Symphonie Nr. 4 Es-Dur »Romantische«",
+          "track_id": 614315,
+          "title_contains": "Bruckner: Symphony No. 4 in E-Flat Major, WAB 104 \"Romantic\" (1878/80 Version, Ed. Haas): II. Andante quasi allegretto",
+          "work_equals": "Symphony No. 4 in E-Flat Major, WAB 104 \"Romantic\" (1878/80 Version, Ed. Haas)",
+          "duration_seconds": 867
+        },
+        {
+          "target": "Symphonie Nr. 4 Es-Dur »Romantische«",
+          "track_id": 614324,
+          "title_contains": "Bruckner: Symphony No. 4 in E-Flat Major, WAB 104 \"Romantic\" (1878/80 Version, Ed. Haas): III. Scherzo. Bewegt - Trio. Nicht zu schnell. Keinesfalls schleppend",
+          "work_equals": "Symphony No. 4 in E-Flat Major, WAB 104 \"Romantic\" (1878/80 Version, Ed. Haas)",
+          "duration_seconds": 643
+        },
+        {
+          "target": "Symphonie Nr. 4 Es-Dur »Romantische«",
+          "track_id": 614331,
+          "title_contains": "Bruckner: Symphony No. 4 in E-Flat Major, WAB 104 \"Romantic\" (1878/80 Version, Ed. Haas): IV. Finale. Bewegt, doch nicht zu schnell",
+          "work_equals": "Symphony No. 4 in E-Flat Major, WAB 104 \"Romantic\" (1878/80 Version, Ed. Haas)",
+          "duration_seconds": 1226
+        },
+        {
+          "target": "Symphonie Nr. 5 B-Dur",
+          "track_id": 614334,
+          "title_contains": "I. Introduction (Adagio) - Allegro (Mäßig)",
+          "work_equals": "Symphony No.5 in B flat major",
+          "duration_seconds": 1244
+        },
+        {
+          "target": "Symphonie Nr. 5 B-Dur",
+          "track_id": 614302,
+          "title_contains": "II. Adagio (Sehr langsam)",
+          "work_equals": "Symphony No.5 in B flat major",
+          "duration_seconds": 1285
+        },
+        {
+          "target": "Symphonie Nr. 5 B-Dur",
+          "track_id": 614311,
+          "title_contains": "III. Scherzo (Molto vivace, schnell) - Trio. Im gleichenTempo",
+          "work_equals": "Symphony No.5 in B flat major",
+          "duration_seconds": 823
+        },
+        {
+          "target": "Symphonie Nr. 5 B-Dur",
+          "track_id": 614320,
+          "title_contains": "IV. Finale (Adagio - Allegro moderato)",
+          "work_equals": "Symphony No.5 in B flat major",
+          "duration_seconds": 1481
+        },
+        {
+          "target": "Symphonie Nr. 6 A-Dur",
+          "track_id": 614307,
+          "title_contains": "I. Maestoso",
+          "work_equals": "Symphony No.6 in A major",
+          "duration_seconds": 915
+        },
+        {
+          "target": "Symphonie Nr. 6 A-Dur",
+          "track_id": 614316,
+          "title_contains": "II. Adagio. Sehr feierlich",
+          "work_equals": "Symphony No.6 in A major",
+          "duration_seconds": 1137
+        },
+        {
+          "target": "Symphonie Nr. 6 A-Dur",
+          "track_id": 614325,
+          "title_contains": "III. Scherzo. Nicht schnell - Trio. Langsam",
+          "work_equals": "Symphony No.6 in A major",
+          "duration_seconds": 471
+        },
+        {
+          "target": "Symphonie Nr. 6 A-Dur",
+          "track_id": 614332,
+          "title_contains": "IV. Finale. Bewegt, doch nicht zu schnell",
+          "work_equals": "Symphony No.6 in A major",
+          "duration_seconds": 912
+        },
+        {
+          "target": "Symphonie Nr. 7 E-Dur",
+          "track_id": 614308,
+          "title_contains": "I. Allegro moderato",
+          "work_equals": "Symphony No.7 in E major - Ed. Haas",
+          "duration_seconds": 1205
+        },
+        {
+          "target": "Symphonie Nr. 7 E-Dur",
+          "track_id": 614317,
+          "title_contains": "II. Adagio. Sehr feierlich und sehr langsam",
+          "work_equals": "Symphony No.7 in E major - Ed. Haas",
+          "duration_seconds": 1315
+        },
+        {
+          "target": "Symphonie Nr. 7 E-Dur",
+          "track_id": 614326,
+          "title_contains": "III. Scherzo. Sehr schnell - Trio. Etwas langsamer",
+          "work_equals": "Symphony No.7 in E major - Ed. Haas",
+          "duration_seconds": 590
+        },
+        {
+          "target": "Symphonie Nr. 7 E-Dur",
+          "track_id": 614333,
+          "title_contains": "IV. Finale. Bewegt, doch nicht schnell",
+          "work_equals": "Symphony No.7 in E major - Ed. Haas",
+          "duration_seconds": 746
+        },
+        {
+          "target": "Symphonie Nr. 8 C-Moll",
+          "track_id": 614335,
+          "title_contains": "I. Allegro moderato",
+          "work_equals": "Symphony No.8 in C minor - Ed. Haas",
+          "duration_seconds": 1004
+        },
+        {
+          "target": "Symphonie Nr. 8 C-Moll",
+          "track_id": 614305,
+          "title_contains": "II. Scherzo: Allegro moderato",
+          "work_equals": "Symphony No.8 in C minor - Ed. Haas",
+          "duration_seconds": 906
+        },
+        {
+          "target": "Symphonie Nr. 8 C-Moll",
+          "track_id": 614314,
+          "title_contains": "III. Adagio: Feierlich langsam; doch nicht schleppend",
+          "work_equals": "Symphony No.8 in C minor - Ed. Haas",
+          "duration_seconds": 1566
+        },
+        {
+          "target": "Symphonie Nr. 8 C-Moll",
+          "track_id": 614323,
+          "title_contains": "IV. Finale: Feierlich, nicht schnell",
+          "work_equals": "Symphony No.8 in C minor - Ed. Haas",
+          "duration_seconds": 1445
+        },
+        {
+          "target": "Symphonie Nr. 9 D-Moll",
+          "track_id": 614309,
+          "title_contains": "I. Feierlich. Misterioso",
+          "work_equals": "Symphony No.9 in D minor",
+          "duration_seconds": 1493
+        },
+        {
+          "target": "Symphonie Nr. 9 D-Moll",
+          "track_id": 614318,
+          "title_contains": "II. Scherzo (Bewegt lebhaft) - Trio (Schnell)",
+          "work_equals": "Symphony No.9 in D minor",
+          "duration_seconds": 636
+        },
+        {
+          "target": "Symphonie Nr. 9 D-Moll",
+          "track_id": 614327,
+          "title_contains": "III. Adagio (Langsam, feierlich)",
+          "work_equals": "Symphony No.9 in D minor",
+          "duration_seconds": 1550
+        }
+      ],
+      "numbered_movement_runs": [
+        {
+          "target": "Symphonie Nr. 1 C-Moll",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "target": "Symphonie Nr. 2 C-Moll",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "target": "Symphonie Nr. 3 D-Moll",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "target": "Symphonie Nr. 4 Es-Dur »Romantische«",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "target": "Symphonie Nr. 5 B-Dur",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "target": "Symphonie Nr. 6 A-Dur",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "target": "Symphonie Nr. 7 E-Dur",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "target": "Symphonie Nr. 8 C-Moll",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "target": "Symphonie Nr. 9 D-Moll",
+          "movements": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "marks": [
+        {
+          "track_id": 614301,
+          "text": "I. Allegro molto moderato",
+          "composer_equals": "Anton Bruckner",
+          "isrc_equals": "DEF058104911",
+          "version_equals": null
+        },
+        {
+          "track_id": 614310,
+          "text": "II. Adagio",
+          "composer_equals": "Anton Bruckner",
+          "isrc_equals": "DEF058104912",
+          "version_equals": null
+        },
+        {
+          "track_id": 614319,
+          "text": "III. Scherzo. Lebhaft",
+          "composer_equals": "Anton Bruckner",
+          "isrc_equals": "DEF058104913",
+          "version_equals": null
+        },
+        {
+          "track_id": 614328,
+          "text": "IV. Finale. Bewegt und feurig",
+          "composer_equals": "Anton Bruckner",
+          "isrc_equals": "DEF058104914",
+          "version_equals": null
+        },
+        {
+          "track_id": 614334,
+          "text": "I. Introduction (Adagio) - Allegro (Mäßig)",
+          "composer_equals": "Anton Bruckner",
+          "isrc_equals": "DEF057602681",
+          "version_equals": null
+        },
+        {
+          "track_id": 614302,
+          "text": "II. Adagio (Sehr langsam)",
+          "composer_equals": "Anton Bruckner",
+          "isrc_equals": "DEF057602682",
+          "version_equals": null
+        },
+        {
+          "track_id": 614311,
+          "text": "III. Scherzo (Molto vivace, schnell) - Trio. Im gleichenTempo",
+          "composer_equals": "Anton Bruckner",
+          "isrc_equals": "DEF057602683",
+          "version_equals": null
+        },
+        {
+          "track_id": 614320,
+          "text": "IV. Finale (Adagio - Allegro moderato)",
+          "composer_equals": "Anton Bruckner",
+          "isrc_equals": "DEF057602684",
+          "version_equals": null
+        },
+        {
+          "track_id": 614303,
+          "text": "I. Gemäßigt, mehr bewegt, misterioso",
+          "composer_equals": "Anton Bruckner",
+          "isrc_equals": "DEF058003711",
+          "version_equals": null
+        },
+        {
+          "track_id": 614312,
+          "text": "II. Andante: Bewegt, feierlich, quasi Adagio",
+          "composer_equals": "Anton Bruckner",
+          "isrc_equals": "DEF058003712",
+          "version_equals": null
+        },
+        {
+          "track_id": 614321,
+          "text": "III. Scherzo: Ziemlich schnell",
+          "composer_equals": "Anton Bruckner",
+          "isrc_equals": "DEF058003713",
+          "version_equals": null
+        },
+        {
+          "track_id": 614329,
+          "text": "IV. Finale: Allegro",
+          "composer_equals": "Anton Bruckner",
+          "isrc_equals": "DEF058003714",
+          "version_equals": null
+        },
+        {
+          "track_id": 614304,
+          "text": "I. Moderato",
+          "composer_equals": "Anton Bruckner",
+          "isrc_equals": "DEF058104921",
+          "version_equals": null
+        },
+        {
+          "track_id": 614313,
+          "text": "II. Andante: Feierlich, etwas bewegt",
+          "composer_equals": "Anton Bruckner",
+          "isrc_equals": "DEF058104922",
+          "version_equals": null
+        },
+        {
+          "track_id": 614322,
+          "text": "III. Scherzo: Mässig schnell",
+          "composer_equals": "Anton Bruckner",
+          "isrc_equals": "DEF058104923",
+          "version_equals": null
+        },
+        {
+          "track_id": 614330,
+          "text": "IV. Finale: Mehr schnell",
+          "composer_equals": "Anton Bruckner",
+          "isrc_equals": "DEF058104924",
+          "version_equals": null
+        },
+        {
+          "track_id": 614335,
+          "text": "I. Allegro moderato",
+          "composer_equals": "Anton Bruckner",
+          "isrc_equals": "DEF057504511",
+          "version_equals": null
+        },
+        {
+          "track_id": 614305,
+          "text": "II. Scherzo: Allegro moderato",
+          "composer_equals": "Anton Bruckner",
+          "isrc_equals": "DEF057504512",
+          "version_equals": null
+        },
+        {
+          "track_id": 614314,
+          "text": "III. Adagio: Feierlich langsam; doch nicht schleppend",
+          "composer_equals": "Anton Bruckner",
+          "isrc_equals": "DEF057504513",
+          "version_equals": null
+        },
+        {
+          "track_id": 614323,
+          "text": "IV. Finale: Feierlich, nicht schnell",
+          "composer_equals": "Anton Bruckner",
+          "isrc_equals": "DEF057504514",
+          "version_equals": null
+        },
+        {
+          "track_id": 614306,
+          "text": "Bruckner: Symphony No. 4 in E-Flat Major, WAB 104 \"Romantic\" (1878/80 Version, Ed. Haas): I. Bewegt, nicht zu schnell",
+          "composer_equals": "Anton Bruckner",
+          "isrc_equals": "DEF057504491",
+          "version_equals": null
+        },
+        {
+          "track_id": 614315,
+          "text": "Bruckner: Symphony No. 4 in E-Flat Major, WAB 104 \"Romantic\" (1878/80 Version, Ed. Haas): II. Andante quasi allegretto",
+          "composer_equals": "Anton Bruckner",
+          "isrc_equals": "DEF057504492",
+          "version_equals": null
+        },
+        {
+          "track_id": 614324,
+          "text": "Bruckner: Symphony No. 4 in E-Flat Major, WAB 104 \"Romantic\" (1878/80 Version, Ed. Haas): III. Scherzo. Bewegt - Trio. Nicht zu schnell. Keinesfalls schleppend",
+          "composer_equals": "Anton Bruckner",
+          "isrc_equals": "DEF057504493",
+          "version_equals": null
+        },
+        {
+          "track_id": 614331,
+          "text": "Bruckner: Symphony No. 4 in E-Flat Major, WAB 104 \"Romantic\" (1878/80 Version, Ed. Haas): IV. Finale. Bewegt, doch nicht zu schnell",
+          "composer_equals": "Anton Bruckner",
+          "isrc_equals": "DEF057504494",
+          "version_equals": null
+        },
+        {
+          "track_id": 614307,
+          "text": "I. Maestoso",
+          "composer_equals": "Anton Bruckner",
+          "isrc_equals": "DEF057903171",
+          "version_equals": null
+        },
+        {
+          "track_id": 614316,
+          "text": "II. Adagio. Sehr feierlich",
+          "composer_equals": "Anton Bruckner",
+          "isrc_equals": "DEF057903172",
+          "version_equals": null
+        },
+        {
+          "track_id": 614325,
+          "text": "III. Scherzo. Nicht schnell - Trio. Langsam",
+          "composer_equals": "Anton Bruckner",
+          "isrc_equals": "DEF057903173",
+          "version_equals": null
+        },
+        {
+          "track_id": 614332,
+          "text": "IV. Finale. Bewegt, doch nicht zu schnell",
+          "composer_equals": "Anton Bruckner",
+          "isrc_equals": "DEF057903174",
+          "version_equals": null
+        },
+        {
+          "track_id": 614308,
+          "text": "I. Allegro moderato",
+          "composer_equals": "Anton Bruckner",
+          "isrc_equals": "DEF057504501",
+          "version_equals": null
+        },
+        {
+          "track_id": 614317,
+          "text": "II. Adagio. Sehr feierlich und sehr langsam",
+          "composer_equals": "Anton Bruckner",
+          "isrc_equals": "DEF057504502",
+          "version_equals": null
+        },
+        {
+          "track_id": 614326,
+          "text": "III. Scherzo. Sehr schnell - Trio. Etwas langsamer",
+          "composer_equals": "Anton Bruckner",
+          "isrc_equals": "DEF057504503",
+          "version_equals": null
+        },
+        {
+          "track_id": 614333,
+          "text": "IV. Finale. Bewegt, doch nicht schnell",
+          "composer_equals": "Anton Bruckner",
+          "isrc_equals": "DEF057504504",
+          "version_equals": null
+        },
+        {
+          "track_id": 614309,
+          "text": "I. Feierlich. Misterioso",
+          "composer_equals": "Anton Bruckner",
+          "isrc_equals": "DEF057501711",
+          "version_equals": null
+        },
+        {
+          "track_id": 614318,
+          "text": "II. Scherzo (Bewegt lebhaft) - Trio (Schnell)",
+          "composer_equals": "Anton Bruckner",
+          "isrc_equals": "DEF057501712",
+          "version_equals": null
+        },
+        {
+          "track_id": 614327,
+          "text": "III. Adagio (Langsam, feierlich)",
+          "composer_equals": "Anton Bruckner",
+          "isrc_equals": "DEF057501713",
+          "version_equals": null
+        }
+      ],
+      "source_sha256": "9466cad8d53c15885c2dfe5c2b2c412c97ae091a7605f4794961b6d462a48d09",
+      "sources": [
+        "https://www.discogs.com/release/7860979",
+        "https://karajan.org/news/karajan-digital-library-vol-21/"
+      ],
+      "recording_review": "The Karajan Institute identifies his complete DG Bruckner cycle as the one compiled in1982, distinct from later Vienna recordings of7and8. Cached DG0002894777580contains all nine symphonies with Berlin Philharmonic/Karajan and positive Bruckner composer credits,35movements total. The source1982DGbox lists the same nine works. Source dates1976–1982and publisher descriptions1975–1981are preserved as differing date evidence, not silently reconciled session dates.",
+      "batch": "2026-11-15-secondary26",
+      "limitations": [
+        "Probable recording-family match, not an exact LP pressing, take, mastering or audio verification.",
+        "Source wording, work editions, credited musicians and dated discrepancies remain unchanged.",
+        "A source-bound manual review maps every named work; no global title, composer, performer or threshold exception was added."
+      ],
+      "external_source_files": [
+        {
+          "path": "data/review_sources/secondary26-7860979/publisher-observation.txt",
+          "sha256": "caa98c7393bdf87a968f9cf4fa1e052e804a6575913d7a3399f147db2faa1234",
+          "source_url": "https://karajan.org/news/karajan-digital-library-vol-21/"
+        }
+      ]
     }
   ]
 }

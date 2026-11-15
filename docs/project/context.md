@@ -11,7 +11,7 @@ and cache commands. This directory owns current planning.
 - Branch main; pushed through cf7f263 on15November. Later work remains local;
   deployment not verified. Inspect Git before claiming remote state.
 - Collection741copies/740unique. Saved labels: Spotify254Found/273Probable/
-  210NotFound/4Unchecked; Qobuz12Found/135Probable/594Unchecked copies.
+  210NotFound/4Unchecked; Qobuz12Found/138Probable/591Unchecked copies.
 - Qobuz publication `data/qobuz_matches.json` is separate from Spotify collection
   results. Labels/scores are saved data; Qobuz85/95 are heuristic levels, not
   probabilities. Legacy Spotify labels are not comparable accuracy measurements.
@@ -61,39 +61,37 @@ and cache commands. This directory owns current planning.
   Suites3–6; complete programmes do not establish Nar Classical transfer identity.
   Candidate lacks session/take markers, so both remain Unchecked.
 
-## Fourteen-case batch complete
+## Cached review progress
 
-- User authorized the 14 priority cases as one batch without routine questions.
-  All 14 reviewed: Stern/Ormandy6686688 and Klemperer7002243 now Probable85;
-  twelve candidate-specific holds retain explicit blockers and next actions.
-- Stern: exact work fields bind six movements from the cached Sony original-jacket
-  box, with positive performers and per-work composers. Klemperer: four Eroica
-  movements plus Fidelio; local source-title correction excludes LeonoreIII despite
-  the source Op72b wording. Exact pressing/take/mastering remain unverified.
-- Holds separate missing programme, different recording family, transfer identity,
-  source voice/orchestra scopes and unresolved timing/container structure.
-  Klemperer12690141Prometheus differs by82seconds; no silent timing correction.
-- Evidence and frozen14IDs: `data/qobuz_priority14_batch_audit.json`.
-  [Batch plan/results](../plans/2026-11-15-qobuz-priority14-batch.md).
-  Validators and workflow queue regenerate entirely offline; reviewed blockers
-  cannot silently return to the priority list through a partial alternative.
-- 215 script tests, all14 source/track-hash validations, UI normalization and build
-  pass. Only6686688/7002243accepted labels changed. Collection/Spotify unchanged.
-  No Qobuz requests, policy exceptions, push or deployment in this batch.
-- 593unchecked unique:383work/credit,160metadata,40withheld,3rejections,6empty,
-  1source hold. The383work/credit cases split into26secondary partial leads,
-  354zero-current-support cases and3known constraints; no open priority cases.
+- Fourteen priority reviews complete:2Probable,12explicit holds.
+  [Results](../plans/2026-11-15-qobuz-priority14-batch.md) and frozen audit retain
+  every case, source/track hash, alternative, blocker and next action.
+- All26secondary leads now have source/cache reassessments, not26recording approvals.
+  Three full recording reviews completed: Lipatti1704535and François4067901
+  (14waltzes each), Karajan7860979(Bruckner1–9,35movements) now Probable85.
+  [Secondary plan/results](../plans/2026-11-15-qobuz-secondary26.md),
+  `data/qobuz_secondary26_audit.json`.23recording reviews remain pending.
+- Existing bounded review kinds reconcile source N°/opus-member wording and bare
+  movement titles with explicit work fields. No global parser/credit-policy change.
+  François1958mono UPC is publisher-confirmed; later stereo recordings are separate.
+  Karajan Berlin cycle is distinct from later Vienna7/8. Exact takes/mastering unverified.
+- 221script tests, UI normalization and static build pass. Publication diff has
+  exactly1704535/4067901/7860979Unchecked→Probable; collection/Spotify unchanged.
+- 590unchecked unique:380work/credit,160metadata,40withheld,3rejections,6empty,
+  1source hold. Work/credit queue:23secondary leads,354zero-current-support cases,
+  3known constraints; no open priority cases. No Qobuz calls, push or deployment.
 
 ## Next action and limits
 
-Reassess the 26 secondary partial leads as a separate bounded queue. Their partial
-source-unit support is triage, not confidence or a forecast of accepted matches.
-Do not revisit the twelve new holds without new evidence or a tested scoped rule.
+Next recording-family review: François12419718nine-piece recital. Do not transfer
+its recording identity from the accepted1958waltz cycle or choose compilation
+tracks solely by composition. Other23screened cases have per-case next actions.
+Source-unit fractions are triage, not match confidence or catalogue absence.
 
 Continue verified cached reviews/commits autonomously. No unbounded retrieval,
-warning retries, automatic push/deployment, source rewrites or new instrument-scope
-exemptions. Prêtre missing named credits, Casals/Gieseking transfer provenance,
-Reiner associated-role semantics and Rubinstein's source programme remain holds.
+warning retries, automatic push/deployment, source rewrites or musical-credit
+waivers. Earlier holds need new evidence or a validated scoped rule: Casals/
+Gieseking transfer, Prêtre named musicians, Reiner associated-role semantics,
+Rubinstein source programme, Klemperer12690141timings and the twelve priority holds.
 Bitches Brew and associated-credit policy remain proposals. Future Spotify
-validation is separate; existing labels are not comparable accuracy measurements.
-[Backlog](backlog.md), [decisions](decisions.md), [history](history.md).
+validation is separate. [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).

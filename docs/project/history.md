@@ -2017,3 +2017,29 @@ Qobuz copies:12Found/135Probable/594Unchecked (593unchecked unique:383work/credi
 160metadata,40withheld,3rejections,6empty,1source hold). The remaining cached queue
 has26secondary leads,354zero-current-support cases and3known constraints;
 all14priority reviews are complete. Next: reassess26as a separately bounded queue.
+
+### 2026-11-15 — Screened26secondary leads; verified three recording families
+
+Froze all26IDs and saved source programmes, raw/target/complete-album hashes,
+candidate diagnostics, per-case findings and next actions. This is a screen for
+23cases still pending full recording review; no blanket hold or rejection applied.
+
+Lipatti1704535and François4067901now Probable85with14distinct complete waltzes
+each. Frozen French-to-English member corrections prevent Op34/64/69/70subnumber
+loss; Lipatti's three bonus tracks stay outside the programme. Warner Japan UPC
+matches François's1958Paris mono release, consistent with1959mono source; no
+later stereo substitution. Karajan7860979now Probable85with all9Bruckner symphonies,
+35explicit-work-field movements, positive Bruckner/Berlin/Karajan credits. Primary
+Institute evidence distinguishes the1982compiled Berlin cycle from later Vienna
+recordings. Source/publisher date discrepancy retained; no exact take/mastering
+verification. Existing review kinds used; no global parser/credit exception.
+
+221script tests pass, including swapped opus member/composer, missing waltz/bonus
+substitution, wrong Bruckner orchestra and wrong symphony work field. Regenerated
+publication, inventory/queue, role census, UI normalization and static build pass.
+Before/after accepted-label diff is exactly1704535/4067901/7860979; collection SHA
+and Spotify labels unchanged. Qobuz copies12Found/138Probable/591Unchecked;
+590uncheckedunique:380work/credit,160metadata,40withheld,3rejections,6empty,1source.
+Queue now23secondary+354zero-support+3constraints. No Qobuz calls or push/deploy.
+Next: source recording-family review of François12419718nine-piece recital, not
+an automatic extension of the accepted waltz-cycle review.

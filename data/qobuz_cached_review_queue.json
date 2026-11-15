@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "reviewed_on": "2026-11-15",
-  "population": "383 unique releases currently categorized work_or_credit_unresolved",
+  "population": "380 unique releases currently categorized work_or_credit_unresolved",
   "rules": {
     "priority_review": "Unheld cached candidate supports >=50% of current source units; known/reviewed blockers excluded.",
     "secondary_partial_lead": "Some current support, below50%; known/reviewed blockers excluded.",
@@ -11,7 +11,7 @@
   },
   "counts": {
     "known_constraint": 3,
-    "secondary_partial_lead": 26,
+    "secondary_partial_lead": 23,
     "no_current_supported_units": 354
   },
   "entries": [
@@ -51,14 +51,6 @@
       "queue": "secondary_partial_lead",
       "best_cached_album_id": "5099945535758",
       "supported_source_unit_fraction": 0.4444444444444444,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "7860979",
-      "title": "9 Symphonien",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "0002894791673",
-      "supported_source_unit_fraction": 0.3333333333333333,
       "uncached_hits": 0
     },
     {
@@ -147,22 +139,6 @@
       "queue": "secondary_partial_lead",
       "best_cached_album_id": "3614979172957",
       "supported_source_unit_fraction": 0.15,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "1704535",
-      "title": "Les 14 Valses",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "0724356695658",
-      "supported_source_unit_fraction": 0.14285714285714285,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "4067901",
-      "title": "Les 14 Valses",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "3610154390956",
-      "supported_source_unit_fraction": 0.14285714285714285,
       "uncached_hits": 0
     },
     {
@@ -3086,5 +3062,5 @@
       "uncached_hits": 0
     }
   ],
-  "inventory_sha256": "e06739d1ec3005e5c59f8038f2c9dfa414f16b3e00776186b925f09bfcd82de9"
+  "inventory_sha256": "52e0a345e0c89a0fdbdb82ca7dbbd52f9ae2342bb8d079293d3c93a5113a6ac4"
 }

@@ -32,7 +32,7 @@
   "richter_review_fingerprint": "a14865f86e46150593e39bfa285fa6c7c61c8f46147b8094c0cb048fd02118ab",
   "round2_review_fingerprint": "be60742c3d35f5a9aa67f200642f7fcde98a52562a46130e043db8f4aa7c851e",
   "round2_metadata_fingerprint": "9db62d7bf62d4b77f5acf422dfde77959f845f4dc00b2ac0e10c02ccea295860",
-  "remaining_review_fingerprint": "8d50dcb51653845bd777a855200766ef4838837d9381284e5306d1521fb74a27",
+  "remaining_review_fingerprint": "350fb996288bf45bae8a1f3ad7b355b56c441429c10261a6bc86b789f7f10be8",
   "remaining_metadata_fingerprint": "393b2d12e176160ab311b65267b38bdc8c205222e12f792bf07eba5c1fcfafbf",
   "remaining_followup_metadata_fingerprint": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
   "seven_album_metadata_fingerprint": "139f9b336c68b56ea22c18362cb0481c026366c5d359142f2bb702fe1233a4fc",
@@ -17292,9 +17292,19 @@
       ]
     },
     "1704535": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0724356695658",
+        "name": "Chopin : 14 Valses, Barcarolle, Nocturne en ré bémol majeur, Mazurka en ut dièse mineur",
+        "artists": [
+          "Dinu Lipatti"
+        ],
+        "label": "Warner Classics",
+        "release_date": "2005-11-28",
+        "image": "https://static.qobuz.com/images/covers/58/56/0724356695658_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/chopin-14-valses-barcarolle-nocturne-en-re-bemol-majeur-mazurka-en-ut-diese-mineur-dinu-lipatti/0724356695658"
+      },
       "candidates": [
         {
           "id": "0724356695658",
@@ -17306,10 +17316,10 @@
           "release_date": "2005-11-28",
           "image": "https://static.qobuz.com/images/covers/58/56/0724356695658_230.jpg",
           "url": "https://www.qobuz.com/fr-fr/album/chopin-14-valses-barcarolle-nocturne-en-re-bemol-majeur-mazurka-en-ut-diese-mineur-dinu-lipatti/0724356695658",
-          "status": "unchecked",
-          "confidence": null,
-          "coverage": 0.14285714285714285,
-          "covered": 2,
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 14,
           "target_count": 14,
           "required_performers": [
             "Dinu Lipatti"
@@ -17317,9 +17327,11 @@
           "programme": [
             {
               "target": "N° 4 En Fa Majeur Op. 34 N° 3",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                1033859
+              ]
             },
             {
               "target": "N° 5 En La Bémol Majeur Op. 42",
@@ -17331,63 +17343,83 @@
             },
             {
               "target": "N° 6 En Ré Bémol Majeur Op. 64 N° 1",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                1033861
+              ]
             },
             {
               "target": "N° 9 En La Bémol Majeur Op. 69 N° 1",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                1033862
+              ]
             },
             {
               "target": "N° 7 En Ut Dièse Mineur Op. 64 N° 2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                1033863
+              ]
             },
             {
               "target": "N° 11 En Sol Bémol Majeur Op. 70 N° 1",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                1033864
+              ]
             },
             {
               "target": "N° 10 En Si Mineur Op. 69 N° 2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                1033865
+              ]
             },
             {
               "target": "N° 14 En Mi Mineur Op. Posthume",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                1033866
+              ]
             },
             {
               "target": "N° 3 En La Mineur Op. 34 N° 2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                1033867
+              ]
             },
             {
               "target": "N° 8 En La Bémol Majeur Op. 64 N° 3",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                1033868
+              ]
             },
             {
               "target": "N° 12 En Fa Mineur, Op. 70 N° 2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                1033869
+              ]
             },
             {
               "target": "N° 13 En Ré Bémol Majeur, Op. 70 N° 3",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                1033870
+              ]
             },
             {
               "target": "N° 1 En Mi Bémol Majeur, Op. 18",
@@ -17399,13 +17431,259 @@
             },
             {
               "target": "N° 2 En La Bémol Majeur Op. 34 N° 1",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                1033872
+              ]
             }
           ],
           "reasons": [
-            "2/14 target items supported after composer/work grouping; unresolved."
+            "Each target item has supporting work and performer credits.",
+            "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+            "Warner lists Lipatti’s fourteen-waltz collection with Barcarolle separately from his live Besançon recital. Cached EMI/Warner album0724356695658contains all fourteen waltzes in the same unusual LP order, then three extras; every selected track credits Lipatti and Chopin. Source notes identify the July1950Geneva studio family but attribute that date to external catalogue information, not an inspected original label. No exact session/take/mastering verification.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Probable recording-family match, not an exact LP pressing, take, mastering or audio verification.",
+            "Source wording, work editions, credited musicians and dated discrepancies remain unchanged.",
+            "A source-bound manual review maps every named work; no global title, composer, performer or threshold exception was added.",
+            "French N°/opus-member wording is reconciled only inside this frozen review; missing, swapped or changed tracks cannot inherit it.",
+            "The final Barcarolle, Nocturne and Mazurka are extras; they are not substituted for any source waltz."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "N° 4 En Fa Majeur Op. 34 N° 3",
+                "status": "complete",
+                "expected_movements": [
+                  1
+                ],
+                "observed_movements": [
+                  1
+                ],
+                "track_ids": [
+                  1033859
+                ],
+                "scope": "whole-listed-waltz",
+                "source": "source work and exact catalogue member",
+                "reason": "complete one-track waltz"
+              },
+              {
+                "target": "N° 5 En La Bémol Majeur Op. 42",
+                "status": "complete",
+                "expected_movements": [
+                  1
+                ],
+                "observed_movements": [
+                  1
+                ],
+                "track_ids": [
+                  1033860
+                ],
+                "scope": "whole-listed-waltz",
+                "source": "source work and exact catalogue member",
+                "reason": "complete one-track waltz"
+              },
+              {
+                "target": "N° 6 En Ré Bémol Majeur Op. 64 N° 1",
+                "status": "complete",
+                "expected_movements": [
+                  1
+                ],
+                "observed_movements": [
+                  1
+                ],
+                "track_ids": [
+                  1033861
+                ],
+                "scope": "whole-listed-waltz",
+                "source": "source work and exact catalogue member",
+                "reason": "complete one-track waltz"
+              },
+              {
+                "target": "N° 9 En La Bémol Majeur Op. 69 N° 1",
+                "status": "complete",
+                "expected_movements": [
+                  1
+                ],
+                "observed_movements": [
+                  1
+                ],
+                "track_ids": [
+                  1033862
+                ],
+                "scope": "whole-listed-waltz",
+                "source": "source work and exact catalogue member",
+                "reason": "complete one-track waltz"
+              },
+              {
+                "target": "N° 7 En Ut Dièse Mineur Op. 64 N° 2",
+                "status": "complete",
+                "expected_movements": [
+                  1
+                ],
+                "observed_movements": [
+                  1
+                ],
+                "track_ids": [
+                  1033863
+                ],
+                "scope": "whole-listed-waltz",
+                "source": "source work and exact catalogue member",
+                "reason": "complete one-track waltz"
+              },
+              {
+                "target": "N° 11 En Sol Bémol Majeur Op. 70 N° 1",
+                "status": "complete",
+                "expected_movements": [
+                  1
+                ],
+                "observed_movements": [
+                  1
+                ],
+                "track_ids": [
+                  1033864
+                ],
+                "scope": "whole-listed-waltz",
+                "source": "source work and exact catalogue member",
+                "reason": "complete one-track waltz"
+              },
+              {
+                "target": "N° 10 En Si Mineur Op. 69 N° 2",
+                "status": "complete",
+                "expected_movements": [
+                  1
+                ],
+                "observed_movements": [
+                  1
+                ],
+                "track_ids": [
+                  1033865
+                ],
+                "scope": "whole-listed-waltz",
+                "source": "source work and exact catalogue member",
+                "reason": "complete one-track waltz"
+              },
+              {
+                "target": "N° 14 En Mi Mineur Op. Posthume",
+                "status": "complete",
+                "expected_movements": [
+                  1
+                ],
+                "observed_movements": [
+                  1
+                ],
+                "track_ids": [
+                  1033866
+                ],
+                "scope": "whole-listed-waltz",
+                "source": "source work and exact catalogue member",
+                "reason": "complete one-track waltz"
+              },
+              {
+                "target": "N° 3 En La Mineur Op. 34 N° 2",
+                "status": "complete",
+                "expected_movements": [
+                  1
+                ],
+                "observed_movements": [
+                  1
+                ],
+                "track_ids": [
+                  1033867
+                ],
+                "scope": "whole-listed-waltz",
+                "source": "source work and exact catalogue member",
+                "reason": "complete one-track waltz"
+              },
+              {
+                "target": "N° 8 En La Bémol Majeur Op. 64 N° 3",
+                "status": "complete",
+                "expected_movements": [
+                  1
+                ],
+                "observed_movements": [
+                  1
+                ],
+                "track_ids": [
+                  1033868
+                ],
+                "scope": "whole-listed-waltz",
+                "source": "source work and exact catalogue member",
+                "reason": "complete one-track waltz"
+              },
+              {
+                "target": "N° 12 En Fa Mineur, Op. 70 N° 2",
+                "status": "complete",
+                "expected_movements": [
+                  1
+                ],
+                "observed_movements": [
+                  1
+                ],
+                "track_ids": [
+                  1033869
+                ],
+                "scope": "whole-listed-waltz",
+                "source": "source work and exact catalogue member",
+                "reason": "complete one-track waltz"
+              },
+              {
+                "target": "N° 13 En Ré Bémol Majeur, Op. 70 N° 3",
+                "status": "complete",
+                "expected_movements": [
+                  1
+                ],
+                "observed_movements": [
+                  1
+                ],
+                "track_ids": [
+                  1033870
+                ],
+                "scope": "whole-listed-waltz",
+                "source": "source work and exact catalogue member",
+                "reason": "complete one-track waltz"
+              },
+              {
+                "target": "N° 1 En Mi Bémol Majeur, Op. 18",
+                "status": "complete",
+                "expected_movements": [
+                  1
+                ],
+                "observed_movements": [
+                  1
+                ],
+                "track_ids": [
+                  1033871
+                ],
+                "scope": "whole-listed-waltz",
+                "source": "source work and exact catalogue member",
+                "reason": "complete one-track waltz"
+              },
+              {
+                "target": "N° 2 En La Bémol Majeur Op. 34 N° 1",
+                "status": "complete",
+                "expected_movements": [
+                  1
+                ],
+                "observed_movements": [
+                  1
+                ],
+                "track_ids": [
+                  1033872
+                ],
+                "scope": "whole-listed-waltz",
+                "source": "source work and exact catalogue member",
+                "reason": "complete one-track waltz"
+              }
+            ],
+            "overlapping_target_tracks": false
+          },
+          "recording_review": "Warner lists Lipatti’s fourteen-waltz collection with Barcarolle separately from his live Besançon recital. Cached EMI/Warner album0724356695658contains all fourteen waltzes in the same unusual LP order, then three extras; every selected track credits Lipatti and Chopin. Source notes identify the July1950Geneva studio family but attribute that date to external catalogue information, not an inspected original label. No exact session/take/mastering verification.",
+          "review_sources": [
+            "https://www.discogs.com/release/1704535",
+            "https://www.warnerclassics.com/release/chopin-waltzes-lipatti"
           ]
         },
         {
@@ -17636,7 +17914,15 @@
       "query": "dinu lipatti chopin les 14 valses",
       "searched_at": "2026-11-12T14:56:47.391911+00:00",
       "reasons": [
-        "2/14 target items supported after composer/work grouping; unresolved."
+        "Each target item has supporting work and performer credits.",
+        "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+        "Warner lists Lipatti’s fourteen-waltz collection with Barcarolle separately from his live Besançon recital. Cached EMI/Warner album0724356695658contains all fourteen waltzes in the same unusual LP order, then three extras; every selected track credits Lipatti and Chopin. Source notes identify the July1950Geneva studio family but attribute that date to external catalogue information, not an inspected original label. No exact session/take/mastering verification.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Probable recording-family match, not an exact LP pressing, take, mastering or audio verification.",
+        "Source wording, work editions, credited musicians and dated discrepancies remain unchanged.",
+        "A source-bound manual review maps every named work; no global title, composer, performer or threshold exception was added.",
+        "French N°/opus-member wording is reconciled only inside this frozen review; missing, swapped or changed tracks cannot inherit it.",
+        "The final Barcarolle, Nocturne and Mazurka are extras; they are not substituted for any source waltz."
       ]
     },
     "12419718": {
@@ -22522,9 +22808,19 @@
       ]
     },
     "4067901": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "m8cki219vu7rc",
+        "name": "Chopin: Les 14 Valses",
+        "artists": [
+          "Samson François"
+        ],
+        "label": "Warner Classics",
+        "release_date": "1958-01-01",
+        "image": "https://static.qobuz.com/images/covers/rc/u7/m8cki219vu7rc_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/chopin-les-14-valses-samson-francois/m8cki219vu7rc"
+      },
       "candidates": [
         {
           "id": "m8cki219vu7rc",
@@ -22536,10 +22832,10 @@
           "release_date": "1958-01-01",
           "image": "https://static.qobuz.com/images/covers/rc/u7/m8cki219vu7rc_230.jpg",
           "url": "https://www.qobuz.com/fr-fr/album/chopin-les-14-valses-samson-francois/m8cki219vu7rc",
-          "status": "unchecked",
-          "confidence": null,
-          "coverage": 0.14285714285714285,
-          "covered": 2,
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 14,
           "target_count": 14,
           "required_performers": [
             "Samson François"
@@ -22555,21 +22851,27 @@
             },
             {
               "target": "Valse N°2 En La Bémol Majeur, Op. 34 N°1",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                101445934
+              ]
             },
             {
               "target": "Valse N°3 En La Mineur, Op. 34 N°2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                101445935
+              ]
             },
             {
               "target": "Valse N°4 En Fa Majeur, Op. 34 N°3",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                101445936
+              ]
             },
             {
               "target": "Valse N°5 Grande Valse En La Bémol Majeur, Op. 42",
@@ -22581,61 +22883,321 @@
             },
             {
               "target": "Valse N°6 En Ré Bémol Majeur, Op. 64 N°1",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                101445938
+              ]
             },
             {
               "target": "Valse N°7 En Ut Dièse Mineur, Op. 64 N°2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                101445939
+              ]
             },
             {
               "target": "Valse N°8 En La Bémol Majeur, Op. 64 N°3",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                101445940
+              ]
             },
             {
               "target": "Valse N°9 En La Bémol Majeur, Op. 69 N°1 - \"De L'Adieu\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                101445941
+              ]
             },
             {
               "target": "Valse N°10 En Si Mineur, Op. 69 N°2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                101445942
+              ]
             },
             {
               "target": "Valse N°11 En Sol Bémol Majeur, Op. 70 N°1",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                101445943
+              ]
             },
             {
               "target": "Valse N°12 En Fa Mineur, Op. 70 N°2",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                101445944
+              ]
             },
             {
               "target": "Valse N°13 En Ré Bémol Majeur, Op. 70 N°3",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                101445945
+              ]
             },
             {
               "target": "Valse N°14 En Mi Mineur, Op. Posthume",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                101445946
+              ]
             }
           ],
           "reasons": [
-            "2/14 target items supported after composer/work grouping; unresolved."
+            "Each target item has supporting work and performer credits.",
+            "Warner Japan identifies digital product190295157395as François’s fourteen Chopin waltzes recorded in Paris,2–4July1958, MONO. This UPC equals cached album0190295157395(m8cki219vu7rc). The source is a1959Columbia mono LP with the same fourteen-work order and pianist. This supports the1958mono family, not a later stereo cycle or identical pressing/mastering.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Probable recording-family match, not an exact LP pressing, take, mastering or audio verification.",
+            "Source wording, work editions, credited musicians and dated discrepancies remain unchanged.",
+            "A source-bound manual review maps every named work; no global title, composer, performer or threshold exception was added.",
+            "French N°/opus-member wording is reconciled only inside this frozen review; missing, swapped or changed tracks cannot inherit it."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Valse N°1 En Mi Bémol Majeur, Op. 18 - \"Grande Valse Brillante\"",
+                "status": "complete",
+                "expected_movements": [
+                  1
+                ],
+                "observed_movements": [
+                  1
+                ],
+                "track_ids": [
+                  101445933
+                ],
+                "scope": "whole-listed-waltz",
+                "source": "source work and exact catalogue member",
+                "reason": "complete one-track waltz"
+              },
+              {
+                "target": "Valse N°2 En La Bémol Majeur, Op. 34 N°1",
+                "status": "complete",
+                "expected_movements": [
+                  1
+                ],
+                "observed_movements": [
+                  1
+                ],
+                "track_ids": [
+                  101445934
+                ],
+                "scope": "whole-listed-waltz",
+                "source": "source work and exact catalogue member",
+                "reason": "complete one-track waltz"
+              },
+              {
+                "target": "Valse N°3 En La Mineur, Op. 34 N°2",
+                "status": "complete",
+                "expected_movements": [
+                  1
+                ],
+                "observed_movements": [
+                  1
+                ],
+                "track_ids": [
+                  101445935
+                ],
+                "scope": "whole-listed-waltz",
+                "source": "source work and exact catalogue member",
+                "reason": "complete one-track waltz"
+              },
+              {
+                "target": "Valse N°4 En Fa Majeur, Op. 34 N°3",
+                "status": "complete",
+                "expected_movements": [
+                  1
+                ],
+                "observed_movements": [
+                  1
+                ],
+                "track_ids": [
+                  101445936
+                ],
+                "scope": "whole-listed-waltz",
+                "source": "source work and exact catalogue member",
+                "reason": "complete one-track waltz"
+              },
+              {
+                "target": "Valse N°5 Grande Valse En La Bémol Majeur, Op. 42",
+                "status": "complete",
+                "expected_movements": [
+                  1
+                ],
+                "observed_movements": [
+                  1
+                ],
+                "track_ids": [
+                  101445937
+                ],
+                "scope": "whole-listed-waltz",
+                "source": "source work and exact catalogue member",
+                "reason": "complete one-track waltz"
+              },
+              {
+                "target": "Valse N°6 En Ré Bémol Majeur, Op. 64 N°1",
+                "status": "complete",
+                "expected_movements": [
+                  1
+                ],
+                "observed_movements": [
+                  1
+                ],
+                "track_ids": [
+                  101445938
+                ],
+                "scope": "whole-listed-waltz",
+                "source": "source work and exact catalogue member",
+                "reason": "complete one-track waltz"
+              },
+              {
+                "target": "Valse N°7 En Ut Dièse Mineur, Op. 64 N°2",
+                "status": "complete",
+                "expected_movements": [
+                  1
+                ],
+                "observed_movements": [
+                  1
+                ],
+                "track_ids": [
+                  101445939
+                ],
+                "scope": "whole-listed-waltz",
+                "source": "source work and exact catalogue member",
+                "reason": "complete one-track waltz"
+              },
+              {
+                "target": "Valse N°8 En La Bémol Majeur, Op. 64 N°3",
+                "status": "complete",
+                "expected_movements": [
+                  1
+                ],
+                "observed_movements": [
+                  1
+                ],
+                "track_ids": [
+                  101445940
+                ],
+                "scope": "whole-listed-waltz",
+                "source": "source work and exact catalogue member",
+                "reason": "complete one-track waltz"
+              },
+              {
+                "target": "Valse N°9 En La Bémol Majeur, Op. 69 N°1 - \"De L'Adieu\"",
+                "status": "complete",
+                "expected_movements": [
+                  1
+                ],
+                "observed_movements": [
+                  1
+                ],
+                "track_ids": [
+                  101445941
+                ],
+                "scope": "whole-listed-waltz",
+                "source": "source work and exact catalogue member",
+                "reason": "complete one-track waltz"
+              },
+              {
+                "target": "Valse N°10 En Si Mineur, Op. 69 N°2",
+                "status": "complete",
+                "expected_movements": [
+                  1
+                ],
+                "observed_movements": [
+                  1
+                ],
+                "track_ids": [
+                  101445942
+                ],
+                "scope": "whole-listed-waltz",
+                "source": "source work and exact catalogue member",
+                "reason": "complete one-track waltz"
+              },
+              {
+                "target": "Valse N°11 En Sol Bémol Majeur, Op. 70 N°1",
+                "status": "complete",
+                "expected_movements": [
+                  1
+                ],
+                "observed_movements": [
+                  1
+                ],
+                "track_ids": [
+                  101445943
+                ],
+                "scope": "whole-listed-waltz",
+                "source": "source work and exact catalogue member",
+                "reason": "complete one-track waltz"
+              },
+              {
+                "target": "Valse N°12 En Fa Mineur, Op. 70 N°2",
+                "status": "complete",
+                "expected_movements": [
+                  1
+                ],
+                "observed_movements": [
+                  1
+                ],
+                "track_ids": [
+                  101445944
+                ],
+                "scope": "whole-listed-waltz",
+                "source": "source work and exact catalogue member",
+                "reason": "complete one-track waltz"
+              },
+              {
+                "target": "Valse N°13 En Ré Bémol Majeur, Op. 70 N°3",
+                "status": "complete",
+                "expected_movements": [
+                  1
+                ],
+                "observed_movements": [
+                  1
+                ],
+                "track_ids": [
+                  101445945
+                ],
+                "scope": "whole-listed-waltz",
+                "source": "source work and exact catalogue member",
+                "reason": "complete one-track waltz"
+              },
+              {
+                "target": "Valse N°14 En Mi Mineur, Op. Posthume",
+                "status": "complete",
+                "expected_movements": [
+                  1
+                ],
+                "observed_movements": [
+                  1
+                ],
+                "track_ids": [
+                  101445946
+                ],
+                "scope": "whole-listed-waltz",
+                "source": "source work and exact catalogue member",
+                "reason": "complete one-track waltz"
+              }
+            ],
+            "overlapping_target_tracks": false
+          },
+          "recording_review": "Warner Japan identifies digital product190295157395as François’s fourteen Chopin waltzes recorded in Paris,2–4July1958, MONO. This UPC equals cached album0190295157395(m8cki219vu7rc). The source is a1959Columbia mono LP with the same fourteen-work order and pianist. This supports the1958mono family, not a later stereo cycle or identical pressing/mastering.",
+          "review_sources": [
+            "https://www.discogs.com/release/4067901",
+            "https://wmg.jp/samson-francois/discography/23483"
           ]
         },
         {
@@ -22866,7 +23428,13 @@
       "query": "samson francois chopin les 14 valses",
       "searched_at": "2026-11-12T15:02:47.529384+00:00",
       "reasons": [
-        "2/14 target items supported after composer/work grouping; unresolved."
+        "Each target item has supporting work and performer credits.",
+        "Warner Japan identifies digital product190295157395as François’s fourteen Chopin waltzes recorded in Paris,2–4July1958, MONO. This UPC equals cached album0190295157395(m8cki219vu7rc). The source is a1959Columbia mono LP with the same fourteen-work order and pianist. This supports the1958mono family, not a later stereo cycle or identical pressing/mastering.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Probable recording-family match, not an exact LP pressing, take, mastering or audio verification.",
+        "Source wording, work editions, credited musicians and dated discrepancies remain unchanged.",
+        "A source-bound manual review maps every named work; no global title, composer, performer or threshold exception was added.",
+        "French N°/opus-member wording is reconciled only inside this frozen review; missing, swapped or changed tracks cannot inherit it."
       ]
     },
     "3074016": {
@@ -62817,10 +63385,257 @@
       ]
     },
     "7860979": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0002894777580",
+        "name": "Bruckner : 9 Symphonies",
+        "artists": [
+          "Herbert von Karajan"
+        ],
+        "label": "Deutsche Grammophon (DG)",
+        "release_date": "1962-11-15",
+        "image": "https://static.qobuz.com/images/covers/80/75/0002894777580_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/bruckner-9-symphonies-berliner-philharmoniker-herbert-von-karajan/0002894777580"
+      },
       "candidates": [
+        {
+          "id": "0002894777580",
+          "name": "Bruckner : 9 Symphonies",
+          "artists": [
+            "Herbert von Karajan"
+          ],
+          "label": "Deutsche Grammophon (DG)",
+          "release_date": "1962-11-15",
+          "image": "https://static.qobuz.com/images/covers/80/75/0002894777580_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/bruckner-9-symphonies-berliner-philharmoniker-herbert-von-karajan/0002894777580",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 9,
+          "target_count": 9,
+          "required_performers": [
+            "Herbert von Karajan",
+            "Berliner Philharmoniker"
+          ],
+          "programme": [
+            {
+              "target": "Symphonie Nr. 1 C-Moll",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                614301,
+                614310,
+                614319,
+                614328
+              ]
+            },
+            {
+              "target": "Symphonie Nr. 2 C-Moll",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                614304,
+                614313,
+                614322,
+                614330
+              ]
+            },
+            {
+              "target": "Symphonie Nr. 3 D-Moll",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                614303,
+                614312,
+                614321,
+                614329
+              ]
+            },
+            {
+              "target": "Symphonie Nr. 4 Es-Dur »Romantische«",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                614306,
+                614315,
+                614324,
+                614331
+              ]
+            },
+            {
+              "target": "Symphonie Nr. 5 B-Dur",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                614334,
+                614302,
+                614311,
+                614320
+              ]
+            },
+            {
+              "target": "Symphonie Nr. 6 A-Dur",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                614307,
+                614316,
+                614325,
+                614332
+              ]
+            },
+            {
+              "target": "Symphonie Nr. 7 E-Dur",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                614308,
+                614317,
+                614326,
+                614333
+              ]
+            },
+            {
+              "target": "Symphonie Nr. 8 C-Moll",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                614335,
+                614305,
+                614314,
+                614323
+              ]
+            },
+            {
+              "target": "Symphonie Nr. 9 D-Moll",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                614309,
+                614318,
+                614327
+              ]
+            }
+          ],
+          "reasons": [
+            "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+            "The Karajan Institute identifies his complete DG Bruckner cycle as the one compiled in1982, distinct from later Vienna recordings of7and8. Cached DG0002894777580contains all nine symphonies with Berlin Philharmonic/Karajan and positive Bruckner composer credits,35movements total. The source1982DGbox lists the same nine works. Source dates1976–1982and publisher descriptions1975–1981are preserved as differing date evidence, not silently reconciled session dates.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Probable recording-family match, not an exact LP pressing, take, mastering or audio verification.",
+            "Source wording, work editions, credited musicians and dated discrepancies remain unchanged.",
+            "A source-bound manual review maps every named work; no global title, composer, performer or threshold exception was added."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Symphonie Nr. 1 C-Moll",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  614301,
+                  614310,
+                  614319,
+                  614328
+                ]
+              },
+              {
+                "target": "Symphonie Nr. 2 C-Moll",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  614304,
+                  614313,
+                  614322,
+                  614330
+                ]
+              },
+              {
+                "target": "Symphonie Nr. 3 D-Moll",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  614303,
+                  614312,
+                  614321,
+                  614329
+                ]
+              },
+              {
+                "target": "Symphonie Nr. 4 Es-Dur »Romantische«",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  614306,
+                  614315,
+                  614324,
+                  614331
+                ]
+              },
+              {
+                "target": "Symphonie Nr. 5 B-Dur",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  614334,
+                  614302,
+                  614311,
+                  614320
+                ]
+              },
+              {
+                "target": "Symphonie Nr. 6 A-Dur",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  614307,
+                  614316,
+                  614325,
+                  614332
+                ]
+              },
+              {
+                "target": "Symphonie Nr. 7 E-Dur",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  614308,
+                  614317,
+                  614326,
+                  614333
+                ]
+              },
+              {
+                "target": "Symphonie Nr. 8 C-Moll",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  614335,
+                  614305,
+                  614314,
+                  614323
+                ]
+              },
+              {
+                "target": "Symphonie Nr. 9 D-Moll",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  614309,
+                  614318,
+                  614327
+                ]
+              }
+            ]
+          },
+          "recording_review": "The Karajan Institute identifies his complete DG Bruckner cycle as the one compiled in1982, distinct from later Vienna recordings of7and8. Cached DG0002894777580contains all nine symphonies with Berlin Philharmonic/Karajan and positive Bruckner composer credits,35movements total. The source1982DGbox lists the same nine works. Source dates1976–1982and publisher descriptions1975–1981are preserved as differing date evidence, not silently reconciled session dates.",
+          "review_sources": [
+            "https://www.discogs.com/release/7860979",
+            "https://karajan.org/news/karajan-digital-library-vol-21/"
+          ]
+        },
         {
           "id": "0002894791673",
           "name": "1970s (Années 70 - Vol. 3)",
@@ -62994,92 +63809,17 @@
           "reasons": [
             "0/9 target items supported after composer/work grouping; unresolved."
           ]
-        },
-        {
-          "id": "0002894777580",
-          "name": "Bruckner : 9 Symphonies",
-          "artists": [
-            "Herbert von Karajan"
-          ],
-          "label": "Deutsche Grammophon (DG)",
-          "release_date": "1962-11-15",
-          "image": "https://static.qobuz.com/images/covers/80/75/0002894777580_230.jpg",
-          "url": "https://www.qobuz.com/fr-fr/album/bruckner-9-symphonies-berliner-philharmoniker-herbert-von-karajan/0002894777580",
-          "status": "unchecked",
-          "confidence": null,
-          "coverage": 0.0,
-          "covered": 0,
-          "target_count": 9,
-          "required_performers": [
-            "Herbert von Karajan",
-            "Berliner Philharmoniker"
-          ],
-          "programme": [
-            {
-              "target": "Symphonie Nr. 1 C-Moll",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Symphonie Nr. 2 C-Moll",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Symphonie Nr. 3 D-Moll",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Symphonie Nr. 4 Es-Dur »Romantische«",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Symphonie Nr. 5 B-Dur",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Symphonie Nr. 6 A-Dur",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Symphonie Nr. 7 E-Dur",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Symphonie Nr. 8 C-Moll",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Symphonie Nr. 9 D-Moll",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ],
-          "reasons": [
-            "0/9 target items supported after composer/work grouping; unresolved."
-          ]
         }
       ],
       "query": "herbert von karajan bruckner 9 symphonien",
       "searched_at": "2026-11-12T15:50:36.220722+00:00",
       "reasons": [
-        "3/9 target items supported after composer/work grouping; unresolved.",
-        "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
+        "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+        "The Karajan Institute identifies his complete DG Bruckner cycle as the one compiled in1982, distinct from later Vienna recordings of7and8. Cached DG0002894777580contains all nine symphonies with Berlin Philharmonic/Karajan and positive Bruckner composer credits,35movements total. The source1982DGbox lists the same nine works. Source dates1976–1982and publisher descriptions1975–1981are preserved as differing date evidence, not silently reconciled session dates.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Probable recording-family match, not an exact LP pressing, take, mastering or audio verification.",
+        "Source wording, work editions, credited musicians and dated discrepancies remain unchanged.",
+        "A source-bound manual review maps every named work; no global title, composer, performer or threshold exception was added."
       ]
     },
     "1555255": {

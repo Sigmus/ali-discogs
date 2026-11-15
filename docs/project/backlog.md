@@ -21,14 +21,19 @@ The [fourteen-case batch](../plans/2026-11-15-qobuz-priority14-batch.md) is comp
 mean complete match. Evidence, frozen IDs, alternatives and next actions are in
 `data/qobuz_priority14_batch_audit.json`; completed outcomes belong in history.
 
-Next: reassess the 26 secondary partial leads as a bounded queue. The current
-383 work/credit cases also include 354 with no supported source units and 3 known
-constraints. No priority cases remain open. Source-unit coverage is triage, not
-confidence or guaranteed promotion; raw headings/parts can inflate it. Revisit
-holds only with new evidence or a validated scoped rule, not an unchanged score.
-Zero support needs lead/rule/source investigation, not automatic API retrieval.
-Continue false-positive regressions and publication/UI checks; commit verified
-cached enrichment steps autonomously.
+The [26 secondary reassessments](../plans/2026-11-15-qobuz-secondary26.md) are
+saved in `data/qobuz_secondary26_audit.json`:3recording-family reviews accepted,
+23still pending. Screening is not a full recording decision. Next: François
+12419718nine-piece recital, verifying source recording family before selecting
+tracks from large compilations. Source N°/opus members and separate digital work
+fields are recurring parsing gaps; a global rule is still unadopted and would
+require a bounded whole-collection diff and false-positive regression scope.
+
+Current380work/credit cases:23secondary,354zero-current-support,3known constraints.
+No open priority cases. Revisit holds only with new evidence or a validated scoped
+rule; partial source-unit support is triage, not confidence. Zero support needs
+lead/rule/source investigation, not automatic API retrieval. Continue checks and
+commit verified cached enrichment steps autonomously.
 
 Prêtre original-image named-credit gaps and Reiner associated-role uncertainty
 remain holds. [Associated-role review](../plans/2026-11-15-qobuz-associated-credit-roles.md)
