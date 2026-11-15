@@ -1,0 +1,141 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-15",
+  "discogs_id": "2857544",
+  "album_id": "0002894457132",
+  "source_sha256": "9f5b29cde1dfc10e2e0a7626e90f171776e55c7b814644040542d67bbe70dc08",
+  "album_sha256": "4161f473ab1e689d1c1a02b9fe3fede77d91acea6a7ca994131ff44d315ca7a5",
+  "decision": "withhold",
+  "source_track_count": 27,
+  "candidate_track_count": 27,
+  "source_bwv1006a_children": [
+    {
+      "position": "D1",
+      "type_": "track",
+      "title": "Prélude",
+      "duration": "4:14"
+    },
+    {
+      "position": "D2",
+      "type_": "track",
+      "title": "Loure",
+      "duration": "3:56"
+    },
+    {
+      "position": "D3",
+      "type_": "track",
+      "title": "Gavotte En Rondeau",
+      "duration": "3:10"
+    },
+    {
+      "position": "D4",
+      "type_": "track",
+      "title": "Menuet I/II/I",
+      "duration": "4:29"
+    },
+    {
+      "position": "D5",
+      "type_": "track",
+      "title": "Bourrée",
+      "duration": "1:37"
+    },
+    {
+      "position": "D6",
+      "type_": "track",
+      "title": "Gigue",
+      "duration": "1:47"
+    }
+  ],
+  "candidate_bwv1006a_tracks": [
+    {
+      "id": 540609,
+      "title": "J.S. Bach: Suite in E Major, BWV 1006a: I. Prélude"
+    },
+    {
+      "id": 540611,
+      "title": "J.S. Bach: Suite in E Major, BWV 1006a: II. Loure"
+    },
+    {
+      "id": 540613,
+      "title": "J.S. Bach: Suite in E Major, BWV 1006a: III. Gavotte en rondeau"
+    },
+    {
+      "id": 540615,
+      "title": "J.S. Bach: Suite in E Major, BWV 1006a: IV. Menuette I"
+    },
+    {
+      "id": 540617,
+      "title": "J.S. Bach: Suite in E Major, BWV 1006a: IV. Menuet II - Menuet I"
+    },
+    {
+      "id": 540619,
+      "title": "J.S. Bach: Suite in E Major, BWV 1006a: V. Bourrée"
+    }
+  ],
+  "arrangement_labels": [
+    {
+      "id": 540598,
+      "title": "J.S. Bach: Prelude, Fugue and Allegro in E Flat Major, BWV 998 (Arr. for Guitar and Lute): I. Prélude"
+    },
+    {
+      "id": 540600,
+      "title": "J.S. Bach: Prelude, Fugue and Allegro in E Flat Major, BWV 998 (Arr. for Guitar and Lute): II. Fugue"
+    },
+    {
+      "id": 540602,
+      "title": "J.S. Bach: Prelude, Fugue and Allegro in E Flat Major, BWV 998 (Arr. for Guitar and Lute): III. Allegro"
+    },
+    {
+      "id": 540604,
+      "title": "J.S. Bach: Suite in E Minor, BWV 996 (Arr. for Guitar): I. Prélude"
+    },
+    {
+      "id": 540606,
+      "title": "J.S. Bach: Suite in E Minor, BWV 996 (Arr. for Guitar): II. Allemande"
+    },
+    {
+      "id": 540608,
+      "title": "J.S. Bach: Suite in E Minor, BWV 996 (Arr. for Guitar): III. Courante"
+    },
+    {
+      "id": 540610,
+      "title": "J.S. Bach: Suite in E Minor, BWV 996 (Arr. for Guitar): IV. Sarabande"
+    },
+    {
+      "id": 540612,
+      "title": "J.S. Bach: Suite in E Minor, BWV 996 (Arr. for Guitar): V. Bourrée"
+    },
+    {
+      "id": 540614,
+      "title": "J.S. Bach: Suite in E Minor, BWV 996 (Arr. for Guitar): VI. Gigue"
+    },
+    {
+      "id": 540616,
+      "title": "J.S. Bach: Prelude for Lute in C Minor, BWV 999 (Arr. for Guitar)"
+    },
+    {
+      "id": 540618,
+      "title": "J.S. Bach: Lute Suite in C Minor, BWV 997 (Arr. for Guitar): I. Preludio"
+    },
+    {
+      "id": 540620,
+      "title": "J.S. Bach: Lute Suite in C Minor, BWV 997 (Arr. for Guitar): II. Fugue"
+    },
+    {
+      "id": 540622,
+      "title": "J.S. Bach: Lute Suite in C Minor, BWV 997 (Arr. for Guitar): III. Sarabande"
+    },
+    {
+      "id": 540623,
+      "title": "J.S. Bach: Lute Suite in C Minor, BWV 997 (Arr. for Guitar): IV. Gigue - Double"
+    }
+  ],
+  "findings": [
+    "Withheld: source baroque-lute set includes BWV1006a final Gigue (D6); this digital album ends that suite at Bourree, while splitting the Menuets into two tracks. Equal27-track totals do not establish completeness. Several digital works are labelled guitar arrangements, inconsistent with the source baroque-lute credit. Fixing spaced BWV1006 a alone would not justify acceptance."
+  ],
+  "limitations": [
+    "Digital arrangement labels could contain metadata errors; instrument/session identity remains unresolved, not proven different audio.",
+    "No global BWV suffix normalization, source correction or inferred missing movement.",
+    "Source session dates1972/1973 do not identify the dates of this digital compilation."
+  ]
+}

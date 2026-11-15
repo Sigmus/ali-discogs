@@ -92,14 +92,15 @@ new-hit downloads, automatic promotions, pushes or deployment. Bitches Brew’s
 credit exception remains a proposal. Preserve source/hash-bound review safeguards;
 never loosen credits or invent recording identity to improve a count.
 
-Next action: audit Yepes2857544 spaced BWV1006a identity and suite completeness
-against cached source; preserve transcription/version and recording checks.
-Bernstein3956949 now Probable85: both four-movement symphonies, exact LP catalogue
-in official discography, live markers and close source timings. Exact take/mastering
-unverified; D-major/minor naming difference retained, no global key alias.
-Gieseking8962178 has all17pieces; heading is not an eighteenth work. Remains
-Unchecked: BNF transfer lacks session/take proof and Warner documents alternatives.
-[Seven-album follow-up](../plans/2026-11-15-qobuz-metadata-followup.md).
-604unchecked unique; all166script tests, UI normalization and build pass.
-Only Bernstein's published record changed. No provider calls, push/deployment.
+Next action: review Ciccolini2236260 source-key/work mapping and recording family
+against cached six-track candidate; preserve composer/credit checks.
+Yepes2857544 digital candidate withheld: missing BWV1006a final Gigue, split
+Menuets mask omission in equal27-track totals, guitar arrangement labels differ
+from source baroque lute. Spelling-only correction cannot establish completeness.
+Hash-bound withhold and structured audit saved; no global BWV parser change.
+Bernstein/Gieseking findings retained in the
+[seven-album follow-up](../plans/2026-11-15-qobuz-metadata-followup.md).
+Match labels unchanged:12Found/124Probable/605Unchecked copies (604unique).
+All168script tests, UI normalization/build pass; all release records unchanged.
+No provider calls, push/deployment.
 [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).

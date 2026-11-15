@@ -122,3 +122,22 @@ BNF transfer lacks dates/version markers,1958release date is not a session date.
 Keep Unchecked; structured programme audit records unresolved transfer/take. Do not
 borrow Warner's identity for this third-party transfer. Next cached Yepes2857544
 spaced BWV1006a and complete suite programme review.
+
+
+## Yepes2857544 — missing movement hidden by equal counts
+
+Cached source is an Archiv2708 030baroque-lute set, Madrid1972/1973. Digital
+0002894457132has six BWV1006a tracks but they are I,II,III,IV,IV,V: Menuets
+split across two tracks, final VI Gigue absent. Source has one combined Menuet
+band and a final Gigue. Both complete albums total27tracks; equal counts hide the
+gap. Several digital titles explicitly say guitar arrangements, whereas source
+credits baroque lute. Arrangement metadata may itself be wrong, so this is an
+unresolved instrument/session issue, not a claim to have identified different audio.
+
+Hash-bound existing bound-track withhold records source/target/album identities,
+current unmatched suite and six unused candidate tracks. No generic spelling fix,
+source rewrite, added movement or new review kind. Shadow suffix correction gives
+7/7work coverage but cannot supply final Gigue; six-movement inventory regression
+rejects observed1,2,3,4,4,5. Known complete-source programme and instrument/recording
+checks are independent of work similarity or whole-album track counts. Structured
+source/candidate audit saved. Keep Unchecked; new metadata/search scope not started.

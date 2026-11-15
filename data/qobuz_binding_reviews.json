@@ -1670,6 +1670,40 @@
         "Concerto Mi Bémol Majeur la Tempête En Mer": [28008934, 28008936, 28008938],
         "Concerto En La Majeur": [28008940, 28008942, 28008944]
       }
+    },
+    {
+      "discogs_id": "2857544",
+      "album_id": "0002894457132",
+      "review_kind": "bound-tracks",
+      "decision": "withhold",
+      "target_sha256": "c275a9f6303b2bb4019d91e26813e4429bfcec229d9c3dc393655ee54a7499c8",
+      "album_sha256": "4161f473ab1e689d1c1a02b9fe3fede77d91acea6a7ca994131ff44d315ca7a5",
+      "source_sha256": "9f5b29cde1dfc10e2e0a7626e90f171776e55c7b814644040542d67bbe70dc08",
+      "pulls": [],
+      "adds": [],
+      "required_performers": [
+        "Narciso Yepes"
+      ],
+      "missing_targets": [
+        "Suite E-Dur BWV 1006 a"
+      ],
+      "recording_review": "Withheld: source baroque-lute set includes BWV1006a final Gigue (D6); this digital album ends that suite at Bourree, while splitting the Menuets into two tracks. Equal27-track totals do not establish completeness. Several digital works are labelled guitar arrangements, inconsistent with the source baroque-lute credit. Fixing spaced BWV1006 a alone would not justify acceptance.",
+      "sources": [
+        "https://www.discogs.com/release/2857544"
+      ],
+      "limitations": [
+        "Digital arrangement labels could contain metadata errors; instrument/session identity remains unresolved, not proven different audio.",
+        "No global BWV suffix normalization, source correction or inferred missing movement.",
+        "Source session dates1972/1973 do not identify the dates of this digital compilation."
+      ],
+      "extra_track_ids": [
+        540609,
+        540611,
+        540613,
+        540615,
+        540617,
+        540619
+      ]
     }
   ]
 }

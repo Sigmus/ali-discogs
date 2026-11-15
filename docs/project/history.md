@@ -1687,3 +1687,17 @@ Gieseking8962178all17pieces supported; heading is not additional work. Kept
 Unchecked because third-party BNF transfer lacks session/take markers while Warner
 acknowledges alternative Spinning Song recordings. Structured audits saved for
 both. Next Yepes source/catalogue/suite completeness review, cached evidence only.
+
+
+### 2026-11-15 — Yepes equal-count false lead withheld
+
+Source2857544baroque-lute programme includes final BWV1006aGigue. Digital
+0002894457132omits it, but splits Menuets into two tracks: both albums total27.
+Several candidate titles say guitar arrangements, so instrument/session remains
+unresolved. Added source/target/album-bound existing-kind withhold, no generic
+catalogue normalization or source overwrite. Shadow spelling-fix regression shows
+100%work coverage still fails ordered six-movement completeness (1,2,3,4,4,5).
+168script tests pass; no provider calls, new retrieval scope, push/deployment.
+Every published release record remains unchanged (provenance only); UI normalization
+and static build pass. Inventory now422work/credit,160metadata,8withheld,7completeness,
+6empty,1source hold. Next cached Ciccolini2236260work/source-key/recording review.
