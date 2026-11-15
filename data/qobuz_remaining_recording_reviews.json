@@ -5228,6 +5228,109 @@
         "Unfinished source12:47/12:06versus digital13:01/12:19; differences retained, not explained as applause without evidence. Fifth individual timings differ2–6seconds.",
         "The primary complete-recordings listing corroborates session families; it is a different box, not the exact digital candidate barcode. Source/candidate labels, programme, named producers and explicit live marker provide the bounded connection."
       ]
+    },
+    {
+      "discogs_id": "2463301",
+      "album_id": "td12jypyopyqb",
+      "target_sha256": "a181343143bfa55f7f0bfa55ff3c875797f229d9f7fe82d8d04dfa02af5b7a77",
+      "source_sha256": "192c52ebddcc29bb13af43ac96a7feaf7b44c68b8bf00268c06752e78dc2fbc1",
+      "album_sha256": "a869907d6004e8827f207c12ad8d30e18965130dff3eb46f089e845a00c0e8a3",
+      "external_source_files": [
+        {
+          "path": "data/review_sources/reiner-2463301/liner.jpg",
+          "sha256": "0c794f6c8edd8b7741835922388eac217db47f206443094154df4a3c60694767",
+          "source_url": "https://i.discogs.com/KjI3zCk1ZaES844-eCzmwc4HdEAsFLFo-J7zh9X8w8w/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0NjMz/MDEtMTU1OTQxODc2/Ni04NDQ4LmpwZWc.jpeg"
+        }
+      ],
+      "decision": "withhold",
+      "sources": [
+        "https://www.discogs.com/release/2463301",
+        "https://cso.org/experience/playlist/9748/my-favorite-cso-tom-bachtell",
+        "https://service.ddex.net/dd/DD-AVS-CURRENT/dd/avs_ContributorRole_RDR.html"
+      ],
+      "recording_review": "Complete5+8work-field mapping is diagnostic only. ChineseMarch279922682lists ChicagoSymphonyOrchestra solely as AssociatedPerformer, which the current CamelCase recording-credit parser does not accept. DDEXdescribes an association used for work identification; no automatic recording-role equivalence or credit borrowing from the other sections is adopted.",
+      "limitations": [
+        "Recording-family support, not independent exact-take or mastering verification.",
+        "Source is mono LM2150; CSO discusses the LivingStereo release of this coupling. Candidate metadata does not explicitly establish channel configuration or same mono transfer. No mono/stereo take equivalence claimed.",
+        "The source lists the symphonic poem as one LPside; the digital candidate indexes it into eight sections. All eight exact indexed titles/work fields are retained; no generic last-track-only acceptance.",
+        "Source issue1958is not a session date. Public CSO session evidence refers to the recording family, not the exact Sonycandidatebarcode.",
+        "The orchestra name is present: this is role/evidence-policy uncertainty, not an absent-name or wrong-orchestra claim. Spaced Associated Performer is currently inconsistently accepted by token parsing; this discovery does not authorize a broad acceptance change."
+      ]
+    },
+    {
+      "discogs_id": "9792325",
+      "album_id": "e1lsj7ytcfa8b",
+      "target_sha256": "fae3d191def70fd75f79736683601ebc544a3167d3c5c43480eafe81d5ba2a2b",
+      "album_sha256": "387cf009ffa42666fc74e525540b0cfaae2a7c10d8bffd970b35f5107aebd585",
+      "source_sha256": "05ace955a220ec40d011c41ba00e2b99ad6a20afba1b3ab60983f06be41e85b0",
+      "decision": "withhold",
+      "recording_review": "Candidate lacks source MozartK333sonata; other five source works do not make a complete match.",
+      "sources": [
+        "https://www.discogs.com/release/9792325"
+      ],
+      "limitations": [
+        "Exact cached candidate is incomplete or contains a conflicting source-required recording. This is not evidence of Qobuz-wide absence or a rejection of another candidate."
+      ]
+    },
+    {
+      "discogs_id": "11938919",
+      "album_id": "5099996593059",
+      "target_sha256": "e3b5af12b3127f87405a884409705b9c7d8687f55574e95c39ff725ae6c3f154",
+      "album_sha256": "b7ebceb7026950cd458529cb35fb97bee04e878f49a2db245254ad1abd782a2e",
+      "source_sha256": "86bafedd5a8b66fe356d7ad5f004318359d8a1ec49a3deb07e4b7165df43efb0",
+      "decision": "withhold",
+      "recording_review": "Candidate contains Barcarolle/Mazurka/Nocturne but lacks the source ChopinOp58sonata.",
+      "sources": [
+        "https://www.discogs.com/release/11938919"
+      ],
+      "limitations": [
+        "Exact cached candidate is incomplete or contains a conflicting source-required recording. This is not evidence of Qobuz-wide absence or a rejection of another candidate."
+      ]
+    },
+    {
+      "discogs_id": "2700887",
+      "album_id": "0090266307029",
+      "target_sha256": "bf0d841d40ec8ac5bc0ec3c562ac21e2023ae9c2a8e68d45f8d5bbfd773ed146",
+      "album_sha256": "bb179ba061b214f0ce41d52bb9da52c6e8de003356e0a31481f8d82b740fb737",
+      "source_sha256": "78e9d857fd567f0ace9e2d8f6e12de9af59ee0304da6a01b7d9d75db7a7fce91",
+      "decision": "withhold",
+      "recording_review": "Source SaintSaens concerto requires Wallenstein/SymphonyOfTheAir. Candidate SaintSaens tracks credit Ormandy/Philadelphia instead. Matching Rubinstein and the Franck coupling cannot supply the source concerto recording.",
+      "sources": [
+        "https://www.discogs.com/release/2700887"
+      ],
+      "limitations": [
+        "Exact cached candidate is incomplete or contains a conflicting source-required recording. This is not evidence of Qobuz-wide absence or a rejection of another candidate."
+      ]
+    },
+    {
+      "discogs_id": "5065978",
+      "album_id": "0002894775756",
+      "target_sha256": "9c2aad15cc9a37c0227d65938f0407d107215b4bf651bfc2205ecacc695647b0",
+      "album_sha256": "13b26679d79bb99c0a1d4915f1f1cf12c268316741964f4381fcb35a64a20dbd",
+      "source_sha256": "1f0d959cfee5cb96745651035658b54a2b5c3012a1642e13d7ea5d484887a1b9",
+      "decision": "withhold",
+      "recording_review": "Source requires Böhm/Berlin for both Mozart symphonies40/41. Candidate K550tracks credit Bernstein/Vienna, while K551tracks support Böhm/Berlin. Credits cannot be borrowed across symphonies.",
+      "sources": [
+        "https://www.discogs.com/release/5065978"
+      ],
+      "limitations": [
+        "Exact cached candidate is incomplete or contains a conflicting source-required recording. This is not evidence of Qobuz-wide absence or a rejection of another candidate."
+      ]
+    },
+    {
+      "discogs_id": "2666680",
+      "album_id": "5099990581953",
+      "target_sha256": "ce49eec46e71915a52e55fc6aafa8530f1cb7083266c75aa7134a1838db76524",
+      "album_sha256": "c0783e4c93f12dc4ed47e00136a192e27c48621958a7c484b602e7b2447bfc8d",
+      "source_sha256": "902afad29cf0a20c47aabcde4f271a5e9fd34222775616b6c1c28b6afce35d01",
+      "decision": "withhold",
+      "recording_review": "Source requires Mozart concertosK467andK595. Cached candidate has K467and K550symphony; K595is absent. Same pianist/orchestra/title overlap is insufficient for the full programme.",
+      "sources": [
+        "https://www.discogs.com/release/2666680"
+      ],
+      "limitations": [
+        "Exact cached candidate is incomplete or contains a conflicting source-required recording. This is not evidence of Qobuz-wide absence or a rejection of another candidate."
+      ]
     }
   ]
 }

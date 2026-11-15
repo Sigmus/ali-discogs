@@ -61,39 +61,33 @@ and cache commands. This directory owns current planning.
   Suites3–6; complete programmes do not establish Nar Classical transfer identity.
   Candidate lacks session/take markers, so both remain Unchecked.
 
-## Next work
+## Active offline review
 
-1. Ten cached leads reviewed:5photographer cases withheld for missing positive
-   musical credits/wrong programme;5Barenboim EMI LPs blocked against later DG cycle
-   (2chronological rejections,3undated unresolved holds). No metadata shortcut.
-   Recording-review precedence enforced;12evidence records changed, no label changes.
-   Karajan7064777now Probable85: all28tracks/five symphonies, including split
-   Lobgesang Sinfonia. Source key discrepancy and recording caveats preserved.
-   Casals5838140also held for unresolved transfer identity. Partial audit saved:
-   Landowska9792325candidate lacks K333; Lipatti11938919candidate lacks Op58.
-   Schnabel4694861now Probable:10source sonata headings/35distinct credited
-   movements, frozen positions/track hashes prevent cross-sonata borrowing.
-   Furtwängler3737065has an unresolved Entr’acteII/IIIsection discrepancy plus
-   transfer uncertainty. Prêtre13671866has source-scoped pianists and combined
-   bands;13bands/20sections now mapped. Original liner/label names M.Cazauran
-   and M.Debost absent from candidate credits; explicit image-bound hold saved.
-   Matching sideBtotal21:20does not resolve large per-band timing differences.
-   Böhm6810640now Probable with source-image1977live proof and exact2+4movement
-   bindings. Next: Reiner2463301Kije/Nightingale explicit work-field review.
-   [Source-credit plan](../plans/2026-11-15-qobuz-source-credit-reviews.md).
-2. Keep Casals/Gieseking transfer identity unresolved until recording-specific
-   evidence exists. Source correction alone does not authorize promotion.
-3. Continue programme/credit/recording audits and meaningful false-positive tests;
-   then build/UI consistency checks. [Offline plan](../plans/2026-11-14-qobuz-offline-followup.md).
-4. Design comparable Spotify evidence sample after Qobuz; wider retrieval or
-   relabelling needs a concrete scope first.
+- Prêtre13671866held after original images name M.Debost/M.Cazauran absent from
+  candidate credits.13LPbands map to20digital sections, but equal sideBtotal
+  does not erase per-band timing differences. Source and collection unchanged.
+- Böhm6810640now Probable:2+4movements, exact work fields, source-image1977live
+  marker and primary recording-family corroboration. Timing/take caveats retained.
+- Reiner2463301complete5+8programme remains diagnostic: ChineseMarch orchestra
+  has only compact AssociatedPerformer role, unresolved under adopted credit policy.
+- Five further candidate holds:9792325missingK333;11938919missingOp58;
+  2666680missingK595;2700887wrong concerto conductor/orchestra;5065978wrongK550
+  conductor/orchestra. Other candidate recordings remain independent.
+- Role census:775associated-only declarations across1164albums;540spaced/235compact.
+  Parser spelling inconsistency is not a new acceptance rule. No blanket promotions
+  or demotions. [Proposed semantics review](../plans/2026-11-15-qobuz-associated-credit-roles.md).
+- Current pass206script tests, UI normalization/build pass.596unchecked unique:
+  399work/credit,160metadata,27withheld,3rejections,6empty,1source hold.
+  No Qobuz requests or further push. [Review plan](../plans/2026-11-15-qobuz-source-credit-reviews.md).
 
-Prefer reliable matches to higher counts. No unbounded new-hit downloads, warning
-retries, pushes or deployment. Bitches Brew credit exception remains a proposal.
-Do not invent identity, overwrite source text or loosen credit gates for counts.
-Current pass:204script tests, UI normalization/build pass.596unchecked unique:
-405work/credit,160metadata,21withheld,3recording rejections,6empty,1source hold.
-Gilels13655367and Campanella10100439now Probable. Böhm9932700held for missing
-Rosamunde; Barenboim9861630held for unresolved EMI/DG recording-family link.
-Push through cf7f263 completed; subsequent review local, no Qobuz calls.
+## Next action and limits
+
+Audit cached Brendel5403356complete Beethoven programme/recording family, including
+source Sonata9Op14,2 versus numbered/key identity and digital Op14No1. Preserve
+source discrepancy; do not silently correct it or borrow another sonata’s movements.
+
+Continue verified cached reviews/commits autonomously. No unbounded retrieval,
+warning retries, automatic push/deployment, source rewrites or new instrument-scope
+exemptions. Bitches Brew and associated-credit policy remain proposals. Future
+Spotify evidence review is separate. Keep transfer-unresolved cases Unchecked.
 [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).

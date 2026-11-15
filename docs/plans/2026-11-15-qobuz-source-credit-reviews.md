@@ -236,3 +236,24 @@ exact ISRC/version/title marks and source-timing tolerance; eight unrelated trac
 excluded. Timing/take/mastering caveats retained. Image proof saved/hash-validated.
 204script tests, UI normalization/build pass. Only6810640accepted status changes;
 12Found/132Probable/597Unchecked copies. No Qobuz request/push. Next Reiner2463301.
+
+### 2026-11-15 — Six candidate holds and associated-role census
+
+Reiner2463301complete5+8work bindings retained as unpublished diagnostic. Chinese
+March279922682names Chicago solely as AssociatedPerformer; no cross-track credit
+borrowing or role-policy change. Explicit hold preserves uncertainty. Source LMmono
+versus LivingStereo family caveat retained. Five more exact-candidate holds:
+Landowska9792325missingK333; Lipatti11938919missingOp58; Mozart2666680missingK595;
+Rubinstein2700887SaintSaensOrmandy/Philadelphia versus sourceWallenstein/Symphony
+OfTheAir; Mozart5065978K550Bernstein/Vienna versus sourceBöhm/Berlin. Partial
+correct couplings do not supply missing/conflicting recordings.
+
+Offline role census across1164albums:775associated-only declarations(540spaced/
+235compact);540accepted solely through that declaration, five additionally named
+through other accepted roles.288reference required saved-candidate names, not
+necessarily accepted/selected tracks. Current parser treats spellings inconsistently;
+DDEXdefinition does not settle Qobuz’s recording-field semantics. Proposal recorded,
+no acceptance change.206script tests, UI normalization/build pass. No accepted
+status changes;12Found/132Probable/597Unchecked copies. Inventory596uncheckedunique:
+399work/credit,160metadata,27withheld,3rejections,6empty,1source hold. No Qobuz
+requests or push. Continue independent cached Brendel5403356programme/family review.

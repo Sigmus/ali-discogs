@@ -1,0 +1,232 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-15",
+  "publication_change": false,
+  "diagnostic_bindings": {
+    "discogs_id": "2463301",
+    "album_id": "td12jypyopyqb",
+    "review_kind": "bound-tracks",
+    "target_sha256": "a181343143bfa55f7f0bfa55ff3c875797f229d9f7fe82d8d04dfa02af5b7a77",
+    "album_sha256": "a869907d6004e8827f207c12ad8d30e18965130dff3eb46f089e845a00c0e8a3",
+    "source_sha256": "192c52ebddcc29bb13af43ac96a7feaf7b44c68b8bf00268c06752e78dc2fbc1",
+    "external_source_files": [
+      {
+        "path": "data/review_sources/reiner-2463301/liner.jpg",
+        "sha256": "0c794f6c8edd8b7741835922388eac217db47f206443094154df4a3c60694767",
+        "source_url": "https://i.discogs.com/KjI3zCk1ZaES844-eCzmwc4HdEAsFLFo-J7zh9X8w8w/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTI0NjMz/MDEtMTU1OTQxODc2/Ni04NDQ4LmpwZWc.jpeg"
+      }
+    ],
+    "decision": "unpublished-diagnostic",
+    "required_performers": [
+      "Fritz Reiner",
+      "Chicago Symphony Orchestra"
+    ],
+    "adds": [
+      {
+        "target": "Lieutenant Kije, Op. 60",
+        "track_id": 279922676,
+        "title_contains": "The Birth of Kijé",
+        "work_equals": "Lieutenant Kijé Suite, Op. 60"
+      },
+      {
+        "target": "Lieutenant Kije, Op. 60",
+        "track_id": 279922677,
+        "title_contains": "Romance",
+        "work_equals": "Lieutenant Kijé Suite, Op. 60"
+      },
+      {
+        "target": "Lieutenant Kije, Op. 60",
+        "track_id": 279922678,
+        "title_contains": "Kijé's Wedding",
+        "work_equals": "Lieutenant Kijé Suite, Op. 60"
+      },
+      {
+        "target": "Lieutenant Kije, Op. 60",
+        "track_id": 279922679,
+        "title_contains": "Troika",
+        "work_equals": "Lieutenant Kijé Suite, Op. 60"
+      },
+      {
+        "target": "Lieutenant Kije, Op. 60",
+        "track_id": 279922680,
+        "title_contains": "The Burial of Kijé",
+        "work_equals": "Lieutenant Kijé Suite, Op. 60"
+      },
+      {
+        "target": "Song Of The Nightingale (Symphonic Poem)",
+        "track_id": 279922681,
+        "title_contains": "Presto",
+        "work_equals": "Song of the Nightingale"
+      },
+      {
+        "target": "Song Of The Nightingale (Symphonic Poem)",
+        "track_id": 279922682,
+        "title_contains": "Chinese March",
+        "work_equals": "Song of the Nightingale"
+      },
+      {
+        "target": "Song Of The Nightingale (Symphonic Poem)",
+        "track_id": 279922684,
+        "title_contains": "The Mechanical Nightingale",
+        "work_equals": "Song of the Nightingale"
+      },
+      {
+        "target": "Song Of The Nightingale (Symphonic Poem)",
+        "track_id": 279922685,
+        "title_contains": "The Emperor's displeasure at the departure of the real nightingale",
+        "work_equals": "Song of the Nightingale"
+      },
+      {
+        "target": "Song Of The Nightingale (Symphonic Poem)",
+        "track_id": 279922686,
+        "title_contains": "The Emperor's sickroom",
+        "work_equals": "Song of the Nightingale"
+      },
+      {
+        "target": "Song Of The Nightingale (Symphonic Poem)",
+        "track_id": 279922687,
+        "title_contains": "The real nightingale returns to thwart Death",
+        "work_equals": "Song of the Nightingale"
+      },
+      {
+        "target": "Song Of The Nightingale (Symphonic Poem)",
+        "track_id": 279922688,
+        "title_contains": "Funeral march and Finale",
+        "work_equals": "Song of the Nightingale"
+      }
+    ],
+    "expected": {
+      "Lieutenant Kije, Op. 60": [
+        279922676,
+        279922677,
+        279922678,
+        279922679,
+        279922680
+      ],
+      "Song Of The Nightingale (Symphonic Poem)": [
+        279922681,
+        279922682,
+        279922683,
+        279922684,
+        279922685,
+        279922686,
+        279922687,
+        279922688
+      ]
+    },
+    "extra_track_ids": [],
+    "marks": [
+      {
+        "track_id": 279922676,
+        "text": "The Birth of Kijé",
+        "isrc_equals": "USBC10604971",
+        "version_equals": null,
+        "composer_equals": "Sergei Prokofiev"
+      },
+      {
+        "track_id": 279922677,
+        "text": "Romance",
+        "isrc_equals": "USBC10604972",
+        "version_equals": null,
+        "composer_equals": "Sergei Prokofiev"
+      },
+      {
+        "track_id": 279922678,
+        "text": "Kijé's Wedding",
+        "isrc_equals": "USBC10604973",
+        "version_equals": null,
+        "composer_equals": "Sergei Prokofiev"
+      },
+      {
+        "track_id": 279922679,
+        "text": "Troika",
+        "isrc_equals": "USBC10604974",
+        "version_equals": null,
+        "composer_equals": "Sergei Prokofiev"
+      },
+      {
+        "track_id": 279922680,
+        "text": "The Burial of Kijé",
+        "isrc_equals": "USBC10604975",
+        "version_equals": null,
+        "composer_equals": "Sergei Prokofiev"
+      },
+      {
+        "track_id": 279922681,
+        "text": "Presto",
+        "isrc_equals": "USBC19606572",
+        "version_equals": null,
+        "composer_equals": "Igor Stravinsky"
+      },
+      {
+        "track_id": 279922682,
+        "text": "Chinese March",
+        "isrc_equals": "USBC19606573",
+        "version_equals": null,
+        "composer_equals": "Igor Stravinsky"
+      },
+      {
+        "track_id": 279922683,
+        "text": "Song of the Nightingale",
+        "isrc_equals": "USBC19606574",
+        "version_equals": null,
+        "composer_equals": "Igor Stravinsky"
+      },
+      {
+        "track_id": 279922684,
+        "text": "The Mechanical Nightingale",
+        "isrc_equals": "USBC19606575",
+        "version_equals": null,
+        "composer_equals": "Igor Stravinsky"
+      },
+      {
+        "track_id": 279922685,
+        "text": "The Emperor's displeasure at the departure of the real nightingale",
+        "isrc_equals": "USBC19606589",
+        "version_equals": null,
+        "composer_equals": "Igor Stravinsky"
+      },
+      {
+        "track_id": 279922686,
+        "text": "The Emperor's sickroom",
+        "isrc_equals": "USBC19606590",
+        "version_equals": null,
+        "composer_equals": "Igor Stravinsky"
+      },
+      {
+        "track_id": 279922687,
+        "text": "The real nightingale returns to thwart Death",
+        "isrc_equals": "USBC19606591",
+        "version_equals": null,
+        "composer_equals": "Igor Stravinsky"
+      },
+      {
+        "track_id": 279922688,
+        "text": "Funeral march and Finale",
+        "isrc_equals": "USBC19606592",
+        "version_equals": null,
+        "composer_equals": "Igor Stravinsky"
+      }
+    ],
+    "sources": [
+      "https://www.discogs.com/release/2463301",
+      "https://cso.org/experience/playlist/9748/my-favorite-cso-tom-bachtell"
+    ],
+    "recording_review": "Unpublished programme mapping; recording-role check fails on ChineseMarch. The positive draft was not adopted.",
+    "limitations": [
+      "Recording-family support, not independent exact-take or mastering verification.",
+      "Source is mono LM2150; CSO discusses the LivingStereo release of this coupling. Candidate metadata does not explicitly establish channel configuration or same mono transfer. No mono/stereo take equivalence claimed.",
+      "The source lists the symphonic poem as one LPside; the digital candidate indexes it into eight sections. All eight exact indexed titles/work fields are retained; no generic last-track-only acceptance.",
+      "Source issue1958is not a session date. Public CSO session evidence refers to the recording family, not the exact Sonycandidatebarcode."
+    ]
+  },
+  "blocker": {
+    "track_id": 279922682,
+    "name": "Chicago Symphony Orchestra",
+    "role": "AssociatedPerformer",
+    "current_accepted_recording_credit": false
+  },
+  "limitations": [
+    "Diagnostic bindings are not a positive recording decision. AssociatedPerformer semantics require a separate policy review; no role alias or borrowed track credit."
+  ]
+}

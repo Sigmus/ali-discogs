@@ -8,54 +8,30 @@ in the [14 November archive](../plans/2026-11-14-backlog-detail-archive.md).
 
 ## AD-008 — Qobuz evidence and matching refinement
 
-Status: agreed priority; retrieval and first offline screen/audit complete.
-[Offline follow-up](../plans/2026-11-14-qobuz-offline-followup.md): recording review
-now includes twenty-four new Probables and shared inventory/parser fixes. Nine-album
-follow-up complete216tracks:7Probables/4withheld release leads after further
-reviews. Rubinstein 7971104 source review found a missing Albéniz work: a
-hash-bound incomplete-programme hold now keeps it Unchecked. Reconciliation is
-proposed, not applied. Gilels’s reviewed composer guard remains active.
-The user-approved [seven-album batch](../plans/2026-11-15-qobuz-metadata-followup.md)
-is complete:7albums/97tracks, validated/exported without warnings. Next: offline
-[source-credit reviews](../plans/2026-11-15-qobuz-source-credit-reviews.md): Solti5972183
-Sixth now Probable;3386012Fifth withheld for named horn/trumpet credit gaps. Next
-Karajan7064777now Probable after complete Mendelssohn/split Lobgesang review.
-Gilels13655367and Campanella10100439now Probable after joined-finale and
-explicit numbered-piece reviews. Schnabel4694861now Probable after source
-heading/band review preserving repeated tempo labels and preventing cross-sonata
-borrowing. Furtwängler3737065section/transfer uncertainties and Prêtre13671866
-diagnostic retained. Prêtre13bands/20sections now mapped; original-image named
-Debost/Cazauran credit gaps enforce Unchecked. Böhm6810640Vienna5/8now Probable
-with source-image1977live proof and work-field bindings. Next Reiner2463301
-Kije/Nightingale. Instrument-scope exemption unadopted. Kubelik/Ozawa/
-Soltani/Rolla five photographer leads now explicitly withheld. Five Barenboim EMI
-LPs blocked against later DG cycle:2chronological rejections,3undated holds.
-Recording-review precedence enforced with regression tests; no label changes. Casals6628473/23950082now have complete diagnostic
-source-suite mappings, with labels/source hashes and unchanged source/publication.
-Recording-session/transfer provenance still unresolved; keep Unchecked. Do not bulk
-refresh the normalized collection or borrow recording dates. Role parser future
-normalization fix remains separate from source-bound Qobuz review. Ciccolini2236260
-is Probable with third-party transfer/mono-stereo caveats retained.
-Yepes2857544 reviewed withheld: final BWV1006aGigue absent and instrument
-metadata unresolved; equal27track counts hide split Menuets versus missing finale.
-Bernstein3956949 now Probable after official LP-catalogue/recording-family and
-source-programme review. Gieseking8962178all17pieces supported, but BNF transfer
-session/take unresolved; keep Unchecked. Exact Felix composer identity remains
-active; mixed-composer bound tracks require positive Composer-role marks.
-Source-attribution discovery remains separate from reviewed scopes; Nabucco/Mozart
-credit/catalogue gaps remain unresolved.
-160remaining metadata-needed releases are not a fetch mandate. Follow the
-[retrieval and follow-up plan](../plans/2026-11-14-qobuz-remaining-retrieval.md).
+Status: agreed priority; bounded retrieval complete, cached reviews active.
 
-Order: finish/validate/export 83 metadata albums and 603 searches across the
-12 + 305 release groups; rank and match offline; audit promising/uncertain cases;
-improve reusable rules with false-positive regressions; regenerate UI data and
-verify details/build. Fetching search results is discovery, not match acceptance.
-Additional full metadata for new hits needs a bounded follow-up scope.
+Use the [offline follow-up](../plans/2026-11-14-qobuz-offline-followup.md) and
+[source-credit review plan](../plans/2026-11-15-qobuz-source-credit-reviews.md).
+Completed cases and validations are in history; current counts in context.
+The12+305pass and approved metadata follow-ups are validated/shared.160remaining
+metadata-needed releases are not a fetch mandate.
 
-Done when: fixed-scope retrieval is validated and shared portably, follow-up audit
-findings are recorded, justified rules/data pass checks, and unresolved gaps have
-an explicit next action. No automatic push/deployment or warning retry.
+Next: Brendel5403356complete Beethoven programme/family review, resolving source
+Sonata9Op14,2against exact numbered/key and recording evidence. Preserve raw text.
+Then continue promising cached source/programme/credit cases with false-positive
+regressions and publication/UI checks. Commit verified steps autonomously.
+
+Prêtre original-image named-credit gaps and Reiner associated-role uncertainty
+remain holds. [Associated-role review](../plans/2026-11-15-qobuz-associated-credit-roles.md)
+is proposed: provider-specific semantics and bounded sample needed before any role
+normalization or bulk label change. No generic performer waiver. Casals/Gieseking
+transfer provenance remains unresolved; Rubinstein7971104source14versus13work
+hold and Gilels15221307composer guard remain. No bulk source/results refresh.
+
+Done when: bounded evidence is validated/shared, justified matching rules pass
+checks, remaining gaps have explicit next actions. New retrieval needs concrete
+scope; no automatic push/deployment or warning retry. Preserve all other source
+musicians, empty results and recording uncertainty.
 
 ## AD-001 — Comparable Spotify evidence checks
 

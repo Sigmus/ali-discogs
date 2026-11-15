@@ -489,3 +489,10 @@ lists literal surname mentions for additional source-image credits. It writes
 only `data/qobuz_pretre_band_audit.json`; no source/publication change or recording
 identity acceptance. Equal side totals do not waive per-band or performer gaps.
 All recording-review kinds now validate `external_source_files` when present.
+
+
+`uv run python scripts/qobuz_credit_role_audit.py` inventories associated-only
+credit declarations across the shared metadata. It reports spelling, current
+parser behaviour, other same-track credit support, track hashes and saved-candidate
+references. It changes only its diagnostic JSON, never credit policy/publication.
+[Semantic proposal](plans/2026-11-15-qobuz-associated-credit-roles.md).

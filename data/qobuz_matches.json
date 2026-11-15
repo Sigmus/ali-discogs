@@ -32,7 +32,7 @@
   "richter_review_fingerprint": "a14865f86e46150593e39bfa285fa6c7c61c8f46147b8094c0cb048fd02118ab",
   "round2_review_fingerprint": "be60742c3d35f5a9aa67f200642f7fcde98a52562a46130e043db8f4aa7c851e",
   "round2_metadata_fingerprint": "9db62d7bf62d4b77f5acf422dfde77959f845f4dc00b2ac0e10c02ccea295860",
-  "remaining_review_fingerprint": "7e02d4aad8102b4f1f49e3d89e6095cd023ce818703164a7fe61fdd1461ec0d5",
+  "remaining_review_fingerprint": "01501ab66a285cb054b921ebbbd97f9e2bbb07ffff5d24ff0a1f3963fe638c91",
   "remaining_metadata_fingerprint": "393b2d12e176160ab311b65267b38bdc8c205222e12f792bf07eba5c1fcfafbf",
   "remaining_followup_metadata_fingerprint": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
   "seven_album_metadata_fingerprint": "139f9b336c68b56ea22c18362cb0481c026366c5d359142f2bb702fe1233a4fc",
@@ -121688,7 +121688,14 @@
             }
           ],
           "reasons": [
+            "Source SaintSaens concerto requires Wallenstein/SymphonyOfTheAir. Candidate SaintSaens tracks credit Ormandy/Philadelphia instead. Matching Rubinstein and the Franck coupling cannot supply the source concerto recording.",
+            "Exact cached candidate is incomplete or contains a conflicting source-required recording. This is not evidence of Qobuz-wide absence or a rejection of another candidate.",
             "1/2 target items supported after composer/work grouping; unresolved."
+          ],
+          "recording_review_decision": "withhold",
+          "recording_review": "Source SaintSaens concerto requires Wallenstein/SymphonyOfTheAir. Candidate SaintSaens tracks credit Ormandy/Philadelphia instead. Matching Rubinstein and the Franck coupling cannot supply the source concerto recording.",
+          "review_sources": [
+            "https://www.discogs.com/release/2700887"
           ]
         },
         {
@@ -121775,6 +121782,8 @@
       "query": "alfred wallenstein saens concerto no 2 symphonic variations",
       "searched_at": "2026-11-12T17:22:58.061922+00:00",
       "reasons": [
+        "Source SaintSaens concerto requires Wallenstein/SymphonyOfTheAir. Candidate SaintSaens tracks credit Ormandy/Philadelphia instead. Matching Rubinstein and the Franck coupling cannot supply the source concerto recording.",
+        "Exact cached candidate is incomplete or contains a conflicting source-required recording. This is not evidence of Qobuz-wide absence or a rejection of another candidate.",
         "1/2 target items supported after composer/work grouping; unresolved."
       ]
     },
@@ -124453,13 +124462,32 @@
             }
           ],
           "reasons": [
+            "Complete5+8work-field mapping is diagnostic only. ChineseMarch279922682lists ChicagoSymphonyOrchestra solely as AssociatedPerformer, which the current CamelCase recording-credit parser does not accept. DDEXdescribes an association used for work identification; no automatic recording-role equivalence or credit borrowing from the other sections is adopted.",
+            "Recording-family support, not independent exact-take or mastering verification.",
+            "Source is mono LM2150; CSO discusses the LivingStereo release of this coupling. Candidate metadata does not explicitly establish channel configuration or same mono transfer. No mono/stereo take equivalence claimed.",
+            "The source lists the symphonic poem as one LPside; the digital candidate indexes it into eight sections. All eight exact indexed titles/work fields are retained; no generic last-track-only acceptance.",
+            "Source issue1958is not a session date. Public CSO session evidence refers to the recording family, not the exact Sonycandidatebarcode.",
+            "The orchestra name is present: this is role/evidence-policy uncertainty, not an absent-name or wrong-orchestra claim. Spaced Associated Performer is currently inconsistently accepted by token parsing; this discovery does not authorize a broad acceptance change.",
             "1/2 target items supported after composer/work grouping; unresolved."
+          ],
+          "recording_review_decision": "withhold",
+          "recording_review": "Complete5+8work-field mapping is diagnostic only. ChineseMarch279922682lists ChicagoSymphonyOrchestra solely as AssociatedPerformer, which the current CamelCase recording-credit parser does not accept. DDEXdescribes an association used for work identification; no automatic recording-role equivalence or credit borrowing from the other sections is adopted.",
+          "review_sources": [
+            "https://www.discogs.com/release/2463301",
+            "https://cso.org/experience/playlist/9748/my-favorite-cso-tom-bachtell",
+            "https://service.ddex.net/dd/DD-AVS-CURRENT/dd/avs_ContributorRole_RDR.html"
           ]
         }
       ],
       "query": "fritz reiner prokofiev lieutenant kije song of the nightingale",
       "searched_at": "2026-11-12T17:25:58.134679+00:00",
       "reasons": [
+        "Complete5+8work-field mapping is diagnostic only. ChineseMarch279922682lists ChicagoSymphonyOrchestra solely as AssociatedPerformer, which the current CamelCase recording-credit parser does not accept. DDEXdescribes an association used for work identification; no automatic recording-role equivalence or credit borrowing from the other sections is adopted.",
+        "Recording-family support, not independent exact-take or mastering verification.",
+        "Source is mono LM2150; CSO discusses the LivingStereo release of this coupling. Candidate metadata does not explicitly establish channel configuration or same mono transfer. No mono/stereo take equivalence claimed.",
+        "The source lists the symphonic poem as one LPside; the digital candidate indexes it into eight sections. All eight exact indexed titles/work fields are retained; no generic last-track-only acceptance.",
+        "Source issue1958is not a session date. Public CSO session evidence refers to the recording family, not the exact Sonycandidatebarcode.",
+        "The orchestra name is present: this is role/evidence-policy uncertainty, not an absent-name or wrong-orchestra claim. Spaced Associated Performer is currently inconsistently accepted by token parsing; this discovery does not authorize a broad acceptance change.",
         "1/2 target items supported after composer/work grouping; unresolved."
       ]
     },
