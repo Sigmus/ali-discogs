@@ -17,10 +17,11 @@ hash-bound incomplete-programme hold now keeps it Unchecked. Reconciliation is
 proposed, not applied. Gilels’s reviewed composer guard remains active.
 The user-approved [seven-album batch](../plans/2026-11-15-qobuz-metadata-followup.md)
 is complete:7albums/97tracks, validated/exported without warnings. Next: offline
-Bernstein3956949 programme completeness and recording family, then remaining
-source/credit gaps. Exact full-name Felix composer identity is implemented; eight
-screen pairs affected without status changes. Weissenberg1662708 now Probable
-after explicit recording-family review; other leads unresolved.164script tests pass.
+Yepes2857544 spaced BWV1006a and suite completeness, then remaining cached gaps.
+Bernstein3956949 now Probable after official LP-catalogue/recording-family and
+source-programme review. Gieseking8962178all17pieces supported, but BNF transfer
+session/take unresolved; keep Unchecked. Exact Felix composer identity remains
+active.166script tests/UI normalization/build pass.
 Source-attribution discovery remains separate from reviewed scopes; Nabucco/Mozart
 credit/catalogue gaps remain unresolved.
 160remaining metadata-needed releases are not a fetch mandate. Follow the

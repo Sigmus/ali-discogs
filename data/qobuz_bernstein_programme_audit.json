@@ -1,0 +1,83 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-15",
+  "discogs_id": "3956949",
+  "album_id": "cxg5qouu14c6b",
+  "source_sha256": "951dcd9f84f991b792f88932e63e67cf3653ceec84a3caa576553c917c4730e8",
+  "album_sha256": "c773ef62edbe131ab13d1fdf03462e3b58fb4ffc5d4bcc824c6c612cfe86eb2d",
+  "timings": [
+    {
+      "source_position": "A1",
+      "source_title": "1. Allegro Vivace",
+      "track_id": 46290798,
+      "source_seconds": 643,
+      "candidate_seconds": 647,
+      "delta_seconds": 4
+    },
+    {
+      "source_position": "A2",
+      "source_title": "2. Andante Con Moto",
+      "track_id": 46290799,
+      "source_seconds": 404,
+      "candidate_seconds": 408,
+      "delta_seconds": 4
+    },
+    {
+      "source_position": "A3",
+      "source_title": "3. Con Moto Moderato",
+      "track_id": 46290800,
+      "source_seconds": 415,
+      "candidate_seconds": 415,
+      "delta_seconds": 0
+    },
+    {
+      "source_position": "A4",
+      "source_title": "4. Saltarello: Presto",
+      "track_id": 46290801,
+      "source_seconds": 350,
+      "candidate_seconds": 358,
+      "delta_seconds": 8
+    },
+    {
+      "source_position": "B1",
+      "source_title": "1. Andante - Allegro Con Fuoco",
+      "track_id": 46290802,
+      "source_seconds": 694,
+      "candidate_seconds": 699,
+      "delta_seconds": 5
+    },
+    {
+      "source_position": "B2",
+      "source_title": "2. Allegro Vivace",
+      "track_id": 46290803,
+      "source_seconds": 383,
+      "candidate_seconds": 386,
+      "delta_seconds": 3
+    },
+    {
+      "source_position": "B3.1",
+      "source_title": "3. Andante - Attaca:",
+      "track_id": 46290804,
+      "source_seconds": 228,
+      "candidate_seconds": 228,
+      "delta_seconds": 0
+    },
+    {
+      "source_position": "B3.2",
+      "source_title": "4. Choral »Ein' Feste Burg Ist Unser Gott«: Andante Con Moto - Allegro Moderato",
+      "track_id": 46290805,
+      "source_seconds": 538,
+      "candidate_seconds": 543,
+      "delta_seconds": 5
+    }
+  ],
+  "sources": [
+    "https://leonardbernstein.com/discography?page=30",
+    "https://www.discogs.com/release/3956949"
+  ],
+  "limitations": [
+    "Source and official discography call Symphony5 D-major; digital title says D-minor. Op.107, number, four movement labels and programme match; no global key alias or source rewrite.",
+    "Digital1979 release date is not treated as a session date.",
+    "Exact LP pressing, takes and digital mastering remain unverified; timing similarity is supporting evidence only."
+  ]
+}

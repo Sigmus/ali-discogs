@@ -97,3 +97,28 @@ conflict/generic suite headings; Ciccolini has multilingual work/composer groupi
 gaps; Yepes has spaced BWV1006a plus completeness gaps. Bernstein's composer
 Mendelssohn-Bartholdy versus Mendelssohn is the next bounded reusable identity
 review, with no automatic completeness/recording acceptance. No credit borrowing.
+
+
+## Bernstein recording review; Gieseking follow-on audit
+
+15November: official Bernstein discography page30identifies both Mendelssohn
+symphonies with Israel Philharmonic/DG,23October1978TelAviv and exact2531097LP
+catalogue. Cached source2531 097says concert recording; both works have four
+explicit source movements, all8files have matching conductor/orchestra andLive.
+Source/file timing differences0–8seconds, within existing max5seconds/3%guard.
+Source/official discography call No5D-major, file saysD-minor; preserve discrepancy
+without global alias. Hash-bound bound-track review requires exact8IDs, ordered
+movements,Live/ISRC markers, source timings and positive credits. Probable85only;
+exact pressing/takes/mastering unknown. Only3956949publication changes.
+
+166tests pass including missing movement, wrong orchestra/conductor, changedLive,
+ISRC and timing controls after candidate rehash. UI normalization/build pass.
+Structured Bernstein timing/source audit saved. No provider calls/push/deployment.
+
+Continued to8962178Gieseking:17of17opus/member pieces in source order, credited
+pianist; eighteenth target is unnumbered Lieder Ohne Worte container. Warner
+corroborates late1956family but also earlier/alternative Spinning Song takes.
+BNF transfer lacks dates/version markers,1958release date is not a session date.
+Keep Unchecked; structured programme audit records unresolved transfer/take. Do not
+borrow Warner's identity for this third-party transfer. Next cached Yepes2857544
+spaced BWV1006a and complete suite programme review.

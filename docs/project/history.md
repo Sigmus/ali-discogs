@@ -1671,3 +1671,19 @@ adds newly matched naturally. Initial duplicate-binding regression caught this;
 validator kept strict and full164test rerun passes. UI normalization/build pass.
 Docs and structured impact audit saved; no provider calls or push/deployment.
 Next Bernstein3956949 completeness/recording-family review.
+
+
+### 2026-11-15 — Bernstein Probable; Gieseking programme separated from identity
+
+Official Bernstein discography corroborates exact DG2531097LP and both1978live
+Israel Philharmonic symphonies. Source eight movement labels/timings support full
+programme. Bound-track review requires source/target/album hashes, all8IDs, ordered
+movements,Live/ISRC markers, conductor/orchestra and close timings; no key alias.
+Only3956949published record changes to Probable85; exact pressing/takes/mastering
+unverified. Counts12Found/124Probable/605Unchecked copies.166script tests plusUI
+normalization/build pass. No provider calls/push/deployment.
+
+Gieseking8962178all17pieces supported; heading is not additional work. Kept
+Unchecked because third-party BNF transfer lacks session/take markers while Warner
+acknowledges alternative Spinning Song recordings. Structured audits saved for
+both. Next Yepes source/catalogue/suite completeness review, cached evidence only.

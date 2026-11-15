@@ -3219,6 +3219,125 @@
           "reason": "Three ordered Op.23 movements with positive Weissenberg, Karajan and Orchestre de Paris credits on each; entire saved LP programme covered."
         }
       ]
+    },
+    {
+      "discogs_id": "3956949",
+      "album_id": "cxg5qouu14c6b",
+      "review_kind": "bound-tracks",
+      "decision": "probable",
+      "target_sha256": "f4d4680adabae25d7cc8409810f1628c60e13af9039bb7be3e0ccfb5ec42e6fd",
+      "album_sha256": "c773ef62edbe131ab13d1fdf03462e3b58fb4ffc5d4bcc824c6c612cfe86eb2d",
+      "source_sha256": "951dcd9f84f991b792f88932e63e67cf3653ceec84a3caa576553c917c4730e8",
+      "pulls": [],
+      "adds": [],
+      "required_performers": [
+        "Leonard Bernstein",
+        "Israel Philharmonic Orchestra"
+      ],
+      "expected": {
+        "Symphonie Nr. 4 A-dur Op. 90 »Italienische«": [
+          46290798,
+          46290799,
+          46290800,
+          46290801
+        ],
+        "Symphonie No. 5 D-dur Op. 107 »Reformations-Symphonie«": [
+          46290802,
+          46290803,
+          46290804,
+          46290805
+        ]
+      },
+      "extra_track_ids": [],
+      "numbered_movement_runs": [
+        {
+          "target": "Symphonie Nr. 4 A-dur Op. 90 »Italienische«",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "target": "Symphonie No. 5 D-dur Op. 107 »Reformations-Symphonie«",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "album_version_equals": "Live",
+      "marks": [
+        {
+          "track_id": 46290798,
+          "text": "Op. 90",
+          "version_equals": "Live",
+          "isrc_equals": "DEF057801171",
+          "reference_duration_seconds": 643
+        },
+        {
+          "track_id": 46290799,
+          "text": "Op. 90",
+          "version_equals": "Live",
+          "isrc_equals": "DEF057801172",
+          "reference_duration_seconds": 404
+        },
+        {
+          "track_id": 46290800,
+          "text": "Op. 90",
+          "version_equals": "Live",
+          "isrc_equals": "DEF057801173",
+          "reference_duration_seconds": 415
+        },
+        {
+          "track_id": 46290801,
+          "text": "Op. 90",
+          "version_equals": "Live",
+          "isrc_equals": "DEF057801174",
+          "reference_duration_seconds": 350
+        },
+        {
+          "track_id": 46290802,
+          "text": "Op. 107",
+          "version_equals": "Live",
+          "isrc_equals": "DEF057801181",
+          "reference_duration_seconds": 694
+        },
+        {
+          "track_id": 46290803,
+          "text": "Op. 107",
+          "version_equals": "Live",
+          "isrc_equals": "DEF057801182",
+          "reference_duration_seconds": 383
+        },
+        {
+          "track_id": 46290804,
+          "text": "Op. 107",
+          "version_equals": "Live",
+          "isrc_equals": "DEF057801183",
+          "reference_duration_seconds": 228
+        },
+        {
+          "track_id": 46290805,
+          "text": "Op. 107",
+          "version_equals": "Live",
+          "isrc_equals": "DEF057801184",
+          "reference_duration_seconds": 538
+        }
+      ],
+      "sources": [
+        "https://leonardbernstein.com/discography?page=30",
+        "https://www.discogs.com/release/3956949"
+      ],
+      "recording_review": "Bernstein official discography lists both symphonies with Israel Philharmonic, DG catalogue2531097, recorded23October1978 in Tel Aviv. This matches the source LP catalogue2531 097 and concert-recording note. All eight digital movements carry Bernstein/Israel Philharmonic credits and Live markers; source timings corroborate the recording family, not exact audio identity.",
+      "limitations": [
+        "Source and official discography call Symphony5 D-major; digital title says D-minor. Op.107, number, four movement labels and programme match; no global key alias or source rewrite.",
+        "Digital1979 release date is not treated as a session date.",
+        "Exact LP pressing, takes and digital mastering remain unverified; timing similarity is supporting evidence only."
+      ]
     }
   ]
 }

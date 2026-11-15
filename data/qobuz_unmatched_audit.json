@@ -19,7 +19,7 @@
     "qobuz_remaining_followup_metadata.json.gz": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
     "qobuz_metadata_followup_2026_11_15.json.gz": "139f9b336c68b56ea22c18362cb0481c026366c5d359142f2bb702fe1233a4fc",
     "collection_matches.json": "a214eee877d4749fa957b3d2a293c2925d7ba0621259f2742139a6cd86f928c8",
-    "qobuz_matches.json": "ed855bb2797f848cee6089c10e30ee45f142b4ff5a7beef260d2885ab6888a7d",
+    "qobuz_matches.json": "79c1ef5786882bfdbc9ee573a5dad7c3650f9cd941b2cd0e82ecfbdb4e2e8a36",
     "qobuz_work_inventory.json": "47b8e955b99c37b132e66daea61590490d249f94a520740d702bec5caa5019ce",
     "qobuz_binding_reviews.json": "22bc7a0ef1b34a6e3abfb1b514659e78958f0f76611d752e60372fa45261d137",
     "qobuz_opera_recording_reviews.json": "6e26d528eb7de78d372635218404a57534332ea1cd3d92e89e90e7a18066f85b",
@@ -30,11 +30,11 @@
     "work_or_credit_unresolved": 423,
     "metadata_needed": 160,
     "reviewed_withheld": 7,
-    "completeness_review_needed": 8,
+    "completeness_review_needed": 7,
     "no_saved_hits": 6,
     "source_programme_review_needed": 1
   },
-  "unmatched_unique_releases": 605,
+  "unmatched_unique_releases": 604,
   "entries": [
     {
       "discogs_id": "594243",
@@ -27597,48 +27597,6 @@
       "saved_hits": 10,
       "uncached_hits": 10,
       "cached_candidates": []
-    },
-    {
-      "discogs_id": "3956949",
-      "title": "Symphonie No.4 \"Italienische\" = \"Italian\" / Symphonie No.5 \"Reformation\"",
-      "category": "completeness_review_needed",
-      "saved_hits": 8,
-      "uncached_hits": 7,
-      "cached_candidates": [
-        {
-          "album_id": "cxg5qouu14c6b",
-          "title": "Mendelssohn: Symphonies No.4 \"Italian\" & No.5 \"Reformation\"",
-          "coverage": 1.0,
-          "status": "probable",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Symphonie Nr. 4 A-dur Op. 90 »Italienische«",
-              "work_tracks": 4,
-              "credited_tracks": 4,
-              "track_ids": [
-                46290798,
-                46290799,
-                46290800,
-                46290801
-              ]
-            },
-            {
-              "target": "Symphonie No. 5 D-dur Op. 107 »Reformations-Symphonie«",
-              "work_tracks": 4,
-              "credited_tracks": 4,
-              "track_ids": [
-                46290802,
-                46290803,
-                46290804,
-                46290805
-              ]
-            }
-          ]
-        }
-      ]
     },
     {
       "discogs_id": "3972653",

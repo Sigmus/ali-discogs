@@ -1,0 +1,158 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-15",
+  "discogs_id": "8962178",
+  "album_id": "3610153935486",
+  "source_sha256": "09995c082c15b48f6b92f0b0d74aa53cdafb5624a0f4ee355ae03cc240350bd5",
+  "album_sha256": "98dd3321e8c155a4b669971276a1551c202927fa17dace55e985013dc6597f39",
+  "programme": [
+    {
+      "target": "Nr. 1 Mi Magg. Op. 19 Nr. 1",
+      "work_tracks": 1,
+      "credited_tracks": 1,
+      "track_ids": [
+        14333217
+      ]
+    },
+    {
+      "target": "Nr. 6 Sol Min. Op. 19 Nr. 6",
+      "work_tracks": 1,
+      "credited_tracks": 1,
+      "track_ids": [
+        14333219
+      ]
+    },
+    {
+      "target": "Nr. 12 Fa Diesis Min. Op. 30 Nr. 6",
+      "work_tracks": 1,
+      "credited_tracks": 1,
+      "track_ids": [
+        14333221
+      ]
+    },
+    {
+      "target": "Nr. 16 La Magg. Op. 38 Nr. 4",
+      "work_tracks": 1,
+      "credited_tracks": 1,
+      "track_ids": [
+        14333223
+      ]
+    },
+    {
+      "target": "Nr. 18 La Bemolle Magg. Op. 38 Nr. 6",
+      "work_tracks": 1,
+      "credited_tracks": 1,
+      "track_ids": [
+        14333225
+      ]
+    },
+    {
+      "target": "Nr. 20 Mi Bemolle Magg. Op. 53 Nr. 2",
+      "work_tracks": 1,
+      "credited_tracks": 1,
+      "track_ids": [
+        14333227
+      ]
+    },
+    {
+      "target": "Nr. 21 Sol Min. Op. 53 Nr. 3",
+      "work_tracks": 1,
+      "credited_tracks": 1,
+      "track_ids": [
+        14333229
+      ]
+    },
+    {
+      "target": "Nr. 22 Fa Magg. Op. 53 Nr. 4",
+      "work_tracks": 1,
+      "credited_tracks": 1,
+      "track_ids": [
+        14333231
+      ]
+    },
+    {
+      "target": "Nr. 25 Sol Magg. Op. 62 Nr. 1",
+      "work_tracks": 1,
+      "credited_tracks": 1,
+      "track_ids": [
+        14333233
+      ]
+    },
+    {
+      "target": "Nr. 29 La Min. Op. 62 Nr. 5",
+      "work_tracks": 1,
+      "credited_tracks": 1,
+      "track_ids": [
+        14333235
+      ]
+    },
+    {
+      "target": "Nr. 30 La Magg. Op. 62 Nr. 6",
+      "work_tracks": 1,
+      "credited_tracks": 1,
+      "track_ids": [
+        14333237
+      ]
+    },
+    {
+      "target": "Nr. 33 Si Bemolle Magg. Op. 67 Nr. 3",
+      "work_tracks": 1,
+      "credited_tracks": 1,
+      "track_ids": [
+        14333239
+      ]
+    },
+    {
+      "target": "Nr. 34 Do Magg. Op. 67 Nr. 4",
+      "work_tracks": 1,
+      "credited_tracks": 1,
+      "track_ids": [
+        14333241
+      ]
+    },
+    {
+      "target": "Nr. 40 Re Magg. Op. 85 Nr. 4",
+      "work_tracks": 1,
+      "credited_tracks": 1,
+      "track_ids": [
+        14333243
+      ]
+    },
+    {
+      "target": "Nr. 42 Si Bemolle Magg. Op. 85 Nr. 6",
+      "work_tracks": 1,
+      "credited_tracks": 1,
+      "track_ids": [
+        14333245
+      ]
+    },
+    {
+      "target": "Nr. 45 Do Magg. Op. 102 Nr. 3",
+      "work_tracks": 1,
+      "credited_tracks": 1,
+      "track_ids": [
+        14333247
+      ]
+    },
+    {
+      "target": "Nr. 47 La Magg. Op. 102 Nr. 5",
+      "work_tracks": 1,
+      "credited_tracks": 1,
+      "track_ids": [
+        14333249
+      ]
+    }
+  ],
+  "container_heading": "Lieder Ohne Worte",
+  "decision": "programme_supported_recording_unresolved",
+  "recording_source": "https://www.warnerclassics.com/release/mendelssohn-songs-without-words",
+  "findings": [
+    "All17specified opus/member numbers have one credited Gieseking track in source order; heading is not an eighteenth piece.",
+    "LP says September1956; Warner documents late1956 recordings but also earlier Spinning Song takes.",
+    "BNF candidate lacks recording dates/take markers;1958release date is not a session date. Do not borrow Warner session identity."
+  ],
+  "limitations": [
+    "No publication change. Exact transfer and Op.67No.4 take remain unverified. Other cached alternatives have incomplete source programme support."
+  ],
+  "next_action": "Seek saved recording-specific evidence for BNF transfer or a complete dated Warner candidate; no new retrieval authorized."
+}

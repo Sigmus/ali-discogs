@@ -32,7 +32,7 @@
   "richter_review_fingerprint": "a14865f86e46150593e39bfa285fa6c7c61c8f46147b8094c0cb048fd02118ab",
   "round2_review_fingerprint": "be60742c3d35f5a9aa67f200642f7fcde98a52562a46130e043db8f4aa7c851e",
   "round2_metadata_fingerprint": "9db62d7bf62d4b77f5acf422dfde77959f845f4dc00b2ac0e10c02ccea295860",
-  "remaining_review_fingerprint": "5f17eb1be2e09647bf8f91d07e27f05f9abd30079844541f90ba1890816de7c5",
+  "remaining_review_fingerprint": "42be61a1f7f2f3336b1c6edf6aa8af22623e835b8d6c0c9d5c49058b1101706b",
   "remaining_metadata_fingerprint": "393b2d12e176160ab311b65267b38bdc8c205222e12f792bf07eba5c1fcfafbf",
   "remaining_followup_metadata_fingerprint": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
   "seven_album_metadata_fingerprint": "139f9b336c68b56ea22c18362cb0481c026366c5d359142f2bb702fe1233a4fc",
@@ -55929,14 +55929,115 @@
       ]
     },
     "3956949": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "cxg5qouu14c6b",
+        "name": "Mendelssohn: Symphonies No.4 \"Italian\" & No.5 \"Reformation\"",
+        "artists": [
+          "Israel Philharmonic Orchestra"
+        ],
+        "label": "Deutsche Grammophon (DG)",
+        "release_date": "1979-08-15",
+        "image": "https://static.qobuz.com/images/covers/6b/4c/cxg5qouu14c6b_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/mendelssohn-symphonies-no4-italian-no5-reformation-leonard-bernstein-israel-philharmonic-orchestra/cxg5qouu14c6b"
+      },
+      "candidates": [
+        {
+          "id": "cxg5qouu14c6b",
+          "name": "Mendelssohn: Symphonies No.4 \"Italian\" & No.5 \"Reformation\"",
+          "artists": [
+            "Israel Philharmonic Orchestra"
+          ],
+          "label": "Deutsche Grammophon (DG)",
+          "release_date": "1979-08-15",
+          "image": "https://static.qobuz.com/images/covers/6b/4c/cxg5qouu14c6b_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/mendelssohn-symphonies-no4-italian-no5-reformation-leonard-bernstein-israel-philharmonic-orchestra/cxg5qouu14c6b",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 2,
+          "target_count": 2,
+          "required_performers": [
+            "Israel Philharmonic Orchestra"
+          ],
+          "programme": [
+            {
+              "target": "Symphonie Nr. 4 A-dur Op. 90 »Italienische«",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                46290798,
+                46290799,
+                46290800,
+                46290801
+              ]
+            },
+            {
+              "target": "Symphonie No. 5 D-dur Op. 107 »Reformations-Symphonie«",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                46290802,
+                46290803,
+                46290804,
+                46290805
+              ]
+            }
+          ],
+          "reasons": [
+            "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+            "Bernstein official discography lists both symphonies with Israel Philharmonic, DG catalogue2531097, recorded23October1978 in Tel Aviv. This matches the source LP catalogue2531 097 and concert-recording note. All eight digital movements carry Bernstein/Israel Philharmonic credits and Live markers; source timings corroborate the recording family, not exact audio identity.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Source and official discography call Symphony5 D-major; digital title says D-minor. Op.107, number, four movement labels and programme match; no global key alias or source rewrite.",
+            "Digital1979 release date is not treated as a session date.",
+            "Exact LP pressing, takes and digital mastering remain unverified; timing similarity is supporting evidence only."
+          ],
+          "work_group_policy": "qobuz-work-groups-v1",
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Symphonie Nr. 4 A-dur Op. 90 »Italienische«",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  46290798,
+                  46290799,
+                  46290800,
+                  46290801
+                ]
+              },
+              {
+                "target": "Symphonie No. 5 D-dur Op. 107 »Reformations-Symphonie«",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  46290802,
+                  46290803,
+                  46290804,
+                  46290805
+                ]
+              }
+            ]
+          },
+          "recording_review": "Bernstein official discography lists both symphonies with Israel Philharmonic, DG catalogue2531097, recorded23October1978 in Tel Aviv. This matches the source LP catalogue2531 097 and concert-recording note. All eight digital movements carry Bernstein/Israel Philharmonic credits and Live markers; source timings corroborate the recording family, not exact audio identity.",
+          "review_sources": [
+            "https://leonardbernstein.com/discography?page=30",
+            "https://www.discogs.com/release/3956949"
+          ]
+        }
+      ],
       "query": "leonard bernstein bartholdy symphonie no 4 italienische",
       "searched_at": "2026-11-12T15:38:50.611030+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+        "Bernstein official discography lists both symphonies with Israel Philharmonic, DG catalogue2531097, recorded23October1978 in Tel Aviv. This matches the source LP catalogue2531 097 and concert-recording note. All eight digital movements carry Bernstein/Israel Philharmonic credits and Live markers; source timings corroborate the recording family, not exact audio identity.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Source and official discography call Symphony5 D-major; digital title says D-minor. Op.107, number, four movement labels and programme match; no global key alias or source rewrite.",
+        "Digital1979 release date is not treated as a session date.",
+        "Exact LP pressing, takes and digital mastering remain unverified; timing similarity is supporting evidence only."
       ]
     },
     "9419646": {

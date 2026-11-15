@@ -12,7 +12,7 @@ explorer. [README](../../README.md) owns setup and architecture;
   table headers). Retrieval complete; first offline screen/audit complete. Deployment not verified.
 - Collection: 741 copies / 740 unique releases. Current saved labels: Spotify
   254 Found / 273 Probable / 210 Not found / 4 Unchecked; Qobuz
-  12 Found / 123 Probable / 606 Unchecked copies (15 November snapshot).
+  12 Found / 124 Probable / 605 Unchecked copies (15 November snapshot).
 - Spotify’s legacy album-level labels and stricter Qobuz evidence levels are
   not comparable accuracy or catalogue-coverage measurements. Both status and
   score are saved data. Qobuz 95/85 are heuristic levels, not probabilities.
@@ -92,16 +92,14 @@ new-hit downloads, automatic promotions, pushes or deployment. Bitches Brew’s
 credit exception remains a proposal. Preserve source/hash-bound review safeguards;
 never loosen credits or invent recording identity to improve a count.
 
-Next action: review Bernstein3956949 symphony inventories and recording family
-using the now-supported eight-track programme; no automatic acceptance.
-Exact Felix Mendelssohn/Mendelssohn-Bartholdy identity rule requires Composer-role
-credit. Legacy scorer, performer aliases and saved source text unchanged.
-Eight screen pairs affected: six gain support, two still fail performer checks.
-Two existing manual reviews lost only redundant adds; same reviewed programmes.
-No match-status changes: 12Found/123Probable/606Unchecked copies.
-[Identity plan](../plans/2026-11-15-qobuz-composer-identity.md),
-[seven-album plan](../plans/2026-11-15-qobuz-metadata-followup.md).
-605unchecked unique:423work/credit,160metadata,8completeness,7withheld,6empty,
-1source hold. All164script tests, UI normalization and build pass.
-No provider calls, push/deployment. Nabucco/Mozart credit gaps remain.
+Next action: audit Yepes2857544 spaced BWV1006a identity and suite completeness
+against cached source; preserve transcription/version and recording checks.
+Bernstein3956949 now Probable85: both four-movement symphonies, exact LP catalogue
+in official discography, live markers and close source timings. Exact take/mastering
+unverified; D-major/minor naming difference retained, no global key alias.
+Gieseking8962178 has all17pieces; heading is not an eighteenth work. Remains
+Unchecked: BNF transfer lacks session/take proof and Warner documents alternatives.
+[Seven-album follow-up](../plans/2026-11-15-qobuz-metadata-followup.md).
+604unchecked unique; all166script tests, UI normalization and build pass.
+Only Bernstein's published record changed. No provider calls, push/deployment.
 [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).
