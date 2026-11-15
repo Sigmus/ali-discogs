@@ -77,7 +77,7 @@ and cache commands. This directory owns current planning.
   Parser spelling inconsistency is not a new acceptance rule. No blanket promotions
   or demotions. [Proposed semantics review](../plans/2026-11-15-qobuz-associated-credit-roles.md).
 - Current pass209script tests, UI normalization/build pass.595unchecked unique:
-  398work/credit,160metadata,27withheld,3rejections,6empty,1source hold.
+  397work/credit,160metadata,28withheld,3rejections,6empty,1source hold.
   No Qobuz requests or further push. [Review plan](../plans/2026-11-15-qobuz-source-credit-reviews.md).
 
 ## Next action and limits
@@ -87,8 +87,12 @@ sideR/boxback confirm source Sonata9Op14No1; source text remains unchanged.
 Joint timing fields mapped into86diagnostic spans; uninspected grouping marked
 inference. Recording family supported, exact takes/mastering unverified.
 
-Next: inspect original FALP317images for Furtwängler3737065Entr’acteII/IIIsection
-identity; keep transfer provenance unresolved unless recording-specific proof exists.
+Furtwängler3737065original sleeve confirms Entr’acteNo2wording; candidateIII
+section identity and transfer provenance remain unresolved. Image-bound hold saved.
+Latest data-only hold:7targeted checks and UI/build pass; last full suite209pass.
+
+Next: audit Jacqueline du Pré1656511Favourite Cello Concertos, six-work programme,
+Haydn opus/Hoboken identity and source recording/performer evidence using the cache.
 
 Continue verified cached reviews/commits autonomously. No unbounded retrieval,
 warning retries, automatic push/deployment, source rewrites or new instrument-scope

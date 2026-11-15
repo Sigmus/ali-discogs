@@ -21,17 +21,17 @@
     "qobuz_lead_reviews.json": "bc731b95eadb23cb1a13d735a4e7410615ae06f260b2c4a381ed4a29e229265e",
     "qobuz_binding_reviews.json": "eab7d007faef231024862226e943305bd4a4aab65143bd18c45b96b811286b77",
     "qobuz_opera_recording_reviews.json": "6e26d528eb7de78d372635218404a57534332ea1cd3d92e89e90e7a18066f85b",
-    "qobuz_remaining_recording_reviews.json": "a8bfad169874a183dc7647644da2221fbc8a2eb624db22fc30222f5094ffe2bc",
+    "qobuz_remaining_recording_reviews.json": "afa25018fc237b9d44068854a33c8725f038f4fee1b6957c1ddb71d8e11dc2b0",
     "collection_matches.json": "a214eee877d4749fa957b3d2a293c2925d7ba0621259f2742139a6cd86f928c8",
-    "qobuz_matches.json": "4b1879c15513fa729d0ebc30d9062716775b83a7451d4fbb76dcb82df735b64d",
+    "qobuz_matches.json": "925ce9ca1511ba806156a74b839b3777c5842d724796ef5dcd7a2314ac86c25d",
     "qobuz_work_inventory.json": "47b8e955b99c37b132e66daea61590490d249f94a520740d702bec5caa5019ce",
     "qobuz_source_composer_reviews.json": "1cce69d6df99a54b444f6a210d84c5c69b3139eb4ed1355e821708d1fb59b83c",
     "qobuz_source_programme_reviews.json": "5469466141e2816720bf35e6b54abeb18daf3f12bf6fec1b4f9e794da0db098b"
   },
   "summary": {
-    "work_or_credit_unresolved": 398,
+    "work_or_credit_unresolved": 397,
     "metadata_needed": 160,
-    "reviewed_withheld": 27,
+    "reviewed_withheld": 28,
     "recording_review_rejected": 3,
     "no_saved_hits": 6,
     "source_programme_review_needed": 1
@@ -25876,7 +25876,7 @@
     {
       "discogs_id": "3737065",
       "title": "Schubert: Symphonie Inachevée - Rosamunde",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 1,
       "uncached_hits": 0,
       "cached_candidates": [
@@ -25887,7 +25887,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Symphonie N° 8 En Si Mineur \"Inachevée\"",

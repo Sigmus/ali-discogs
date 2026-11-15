@@ -18,8 +18,9 @@ metadata-needed releases are not a fetch mandate.
 
 Brendel5403356complete33work programme now Probable with original-image Sonata9
 correction,103distinct movements and explicit shared-duration diagnostic scopes.
-Next: Furtwängler3737065original-image Entr’acteII/IIIsection identity; recording
-transfer proof remains separate. Continue cached source/programme/credit cases with false-positive
+Furtwängler3737065original sleeve confirms No2; section/transfer uncertainties
+now enforced by an image-bound hold. Next: du Pré1656511six-work programme, Haydn
+opus/Hoboken and source recording/performer evidence. Continue cached cases with false-positive
 regressions and publication/UI checks. Commit verified steps autonomously.
 
 Prêtre original-image named-credit gaps and Reiner associated-role uncertainty

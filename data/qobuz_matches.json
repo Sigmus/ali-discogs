@@ -32,7 +32,7 @@
   "richter_review_fingerprint": "a14865f86e46150593e39bfa285fa6c7c61c8f46147b8094c0cb048fd02118ab",
   "round2_review_fingerprint": "be60742c3d35f5a9aa67f200642f7fcde98a52562a46130e043db8f4aa7c851e",
   "round2_metadata_fingerprint": "9db62d7bf62d4b77f5acf422dfde77959f845f4dc00b2ac0e10c02ccea295860",
-  "remaining_review_fingerprint": "a8bfad169874a183dc7647644da2221fbc8a2eb624db22fc30222f5094ffe2bc",
+  "remaining_review_fingerprint": "afa25018fc237b9d44068854a33c8725f038f4fee1b6957c1ddb71d8e11dc2b0",
   "remaining_metadata_fingerprint": "393b2d12e176160ab311b65267b38bdc8c205222e12f792bf07eba5c1fcfafbf",
   "remaining_followup_metadata_fingerprint": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
   "seven_album_metadata_fingerprint": "139f9b336c68b56ea22c18362cb0481c026366c5d359142f2bb702fe1233a4fc",
@@ -102703,13 +102703,26 @@
             }
           ],
           "reasons": [
+            "Original FALP317sleeve explicitly prints Entr’acteNo2, matching the cached source numeral. Digital track16234555is labelled No5EntracteIII. The discrepancy is not merely a normalized-source transcription error and cannot be silently corrected. Exact section identity and BNFtransfer recording provenance remain unresolved.",
+            "Different source/digital labels are not proof of different audio; numbering/label errors need independent section or recording evidence.",
+            "Source metadata calls the section Dmajor; the sleeve inspection independently establishes No2wording, not a score/key correction.",
+            "Five digital tracks and matching named conductor/orchestra do not independently establish the exact source transfer. Preserve raw/normalized source and Unchecked.",
             "2/7 target items supported after composer/work grouping; unresolved."
+          ],
+          "recording_review_decision": "withhold",
+          "recording_review": "Original FALP317sleeve explicitly prints Entr’acteNo2, matching the cached source numeral. Digital track16234555is labelled No5EntracteIII. The discrepancy is not merely a normalized-source transcription error and cannot be silently corrected. Exact section identity and BNFtransfer recording provenance remain unresolved.",
+          "review_sources": [
+            "https://www.discogs.com/release/3737065"
           ]
         }
       ],
       "query": "wilhelm furtwangler schubert schubert symphonie inachevee rosamunde",
       "searched_at": "2026-11-12T16:42:24.344369+00:00",
       "reasons": [
+        "Original FALP317sleeve explicitly prints Entr’acteNo2, matching the cached source numeral. Digital track16234555is labelled No5EntracteIII. The discrepancy is not merely a normalized-source transcription error and cannot be silently corrected. Exact section identity and BNFtransfer recording provenance remain unresolved.",
+        "Different source/digital labels are not proof of different audio; numbering/label errors need independent section or recording evidence.",
+        "Source metadata calls the section Dmajor; the sleeve inspection independently establishes No2wording, not a score/key correction.",
+        "Five digital tracks and matching named conductor/orchestra do not independently establish the exact source transfer. Preserve raw/normalized source and Unchecked.",
         "2/7 target items supported after composer/work grouping; unresolved."
       ]
     },

@@ -6585,6 +6585,35 @@
           "interpretation": "Single listed duration"
         }
       ]
+    },
+    {
+      "discogs_id": "3737065",
+      "album_id": "3610156203087",
+      "target_sha256": "0ed876ba37a91f9c8eb194aa15ff458e17f6901c56d918cb0b82640ae9966e74",
+      "source_sha256": "aaf08915bd52849c1d8d7ce7b4f257c887311ceae21b8276f7a22737ebcb0845",
+      "album_sha256": "9a8da247b95c2baf1c52e8fdd7f46d66198c13f4d3d818ac598cf3b48e16e57f",
+      "external_source_files": [
+        {
+          "path": "data/review_sources/furtwangler-3737065/sleeve.jpg",
+          "sha256": "fc30515ffa116213dd2505626c29112528afef7005473b14b7d8685e54c386a7",
+          "source_url": "https://i.discogs.com/vQ5zaq6ViLb-hgPAF9F6q3jIB8AcIK-9rm6Glz2UTQU/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Mzcw/NjUtMTM0MjM0NzUz/Mi0zODE2LmpwZWc.jpeg"
+        },
+        {
+          "path": "data/review_sources/furtwangler-3737065/side-b.jpg",
+          "sha256": "37c308bb4ffc4c4d349866d82e5acafbf438a4a848413ebd34353d74e8bbb9b8",
+          "source_url": "https://i.discogs.com/Y2Z0YseFZ1zNVFT4EbZfscPf0fRH0Fg2J_9MJbCwNBM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTM3Mzcw/NjUtMTM0MjM0NzUw/OS02MzMwLmpwZWc.jpeg"
+        }
+      ],
+      "decision": "withhold",
+      "sources": [
+        "https://www.discogs.com/release/3737065"
+      ],
+      "recording_review": "Original FALP317sleeve explicitly prints Entr’acteNo2, matching the cached source numeral. Digital track16234555is labelled No5EntracteIII. The discrepancy is not merely a normalized-source transcription error and cannot be silently corrected. Exact section identity and BNFtransfer recording provenance remain unresolved.",
+      "limitations": [
+        "Different source/digital labels are not proof of different audio; numbering/label errors need independent section or recording evidence.",
+        "Source metadata calls the section Dmajor; the sleeve inspection independently establishes No2wording, not a score/key correction.",
+        "Five digital tracks and matching named conductor/orchestra do not independently establish the exact source transfer. Preserve raw/normalized source and Unchecked."
+      ]
     }
   ]
 }

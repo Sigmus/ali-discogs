@@ -279,3 +279,18 @@ immutable source and complete timing scopes.209script tests, UI normalization/bu
 pass. Only5403356accepted status changes.12Found/133Probable/596Unchecked copies;
 595uncheckedunique(398work/credit,160metadata,27withheld,3rejections,6empty,1source
 hold). No Qobuz calls/push. Next original FALP317section identity diagnostic.
+
+### 2026-11-15 — Furtwängler physical sleeve confirms unresolved section label
+
+Original FALP317sleeve explicitly prints Entr’acteNo2, so3737065source wording is
+not merely a cached transcription error. Candidate16234555says No5EntracteIII.
+Original sleeve/sideBimages saved/hash-bound; precise source B2and digital track
+retained in qobuz_furtwangler_section_audit.json. No claim of proven different
+audio or silent source correction. Section identity and BNFtransfer provenance
+remain unresolved under an explicit hold. New hold assessed, checked against a
+syntheticFound99override;7targeted review/source-proof tests plus regenerated
+inventory, UI normalization/build pass. Last full209suite remains the preceding
+Brendel checkpoint; no code changes since it. No accepted labels change.
+Counts12Found/133Probable/596Unchecked copies;595uncheckedunique:397work/credit,
+160metadata,28withheld,3rejections,6empty,1source hold. No Qobuz requests or push.
+Next cached du Pré1656511Favourite Cello Concertos programme/Haydn identity review.
