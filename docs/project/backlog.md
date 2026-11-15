@@ -19,9 +19,10 @@ The user-approved [seven-album batch](../plans/2026-11-15-qobuz-metadata-followu
 is complete:7albums/97tracks, validated/exported without warnings. Next: offline
 [source-credit reviews](../plans/2026-11-15-qobuz-source-credit-reviews.md): Solti5972183
 Sixth now Probable;3386012Fifth withheld for named horn/trumpet credit gaps. Next
-explicit candidate work-field context for Kubelik14398300. Say14766559now Probable
-with12exact movements/101extras excluded. Five photographer cases still have
-zero programme coverage after shadow false-credit removal; no automatic promotions. Casals6628473/23950082now have complete diagnostic
+Karajan7064777complete Mendelssohn set/split Lobgesang review. Kubelik/Ozawa/
+Soltani/Rolla five photographer leads now explicitly withheld. Five Barenboim EMI
+LPs blocked against later DG cycle:2chronological rejections,3undated holds.
+Recording-review precedence enforced with regression tests; no label changes. Casals6628473/23950082now have complete diagnostic
 source-suite mappings, with labels/source hashes and unchanged source/publication.
 Recording-session/transfer provenance still unresolved; keep Unchecked. Do not bulk
 refresh the normalized collection or borrow recording dates. Role parser future

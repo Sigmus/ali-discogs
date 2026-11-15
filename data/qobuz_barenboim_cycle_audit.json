@@ -1,0 +1,231 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-15",
+  "album_id": "0002894631272",
+  "releases": [
+    {
+      "discogs_id": "7864758",
+      "source_sha256": "c116276ba3e152c67fc0e55fd652dc174f46ebc328b9803ba84b1b78fb0e49c0",
+      "source_year": 1970,
+      "source_labels": [
+        {
+          "name": "La Voce Del Padrone",
+          "catno": "3 C 063 01999",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 70384,
+          "resource_url": "https://api.discogs.com/labels/70384",
+          "thumbnail_url": "https://i.discogs.com/AmZakcZvGgvBXoj6-35DnbntDTVwyUeTPLGxYRQcZlw/rs:fit/g:sm/q:90/h:155/w:214/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTcwMzg0/LTE0OTcyMDcxNjUt/MzE0Mi5qcGVn.jpeg"
+        },
+        {
+          "name": "La Voce Del Padrone",
+          "catno": "3 C063-01999",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 70384,
+          "resource_url": "https://api.discogs.com/labels/70384",
+          "thumbnail_url": "https://i.discogs.com/AmZakcZvGgvBXoj6-35DnbntDTVwyUeTPLGxYRQcZlw/rs:fit/g:sm/q:90/h:155/w:214/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTcwMzg0/LTE0OTcyMDcxNjUt/MzE0Mi5qcGVn.jpeg"
+        },
+        {
+          "name": "La Voce Del Padrone",
+          "catno": "3C 063-01999",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 70384,
+          "resource_url": "https://api.discogs.com/labels/70384",
+          "thumbnail_url": "https://i.discogs.com/AmZakcZvGgvBXoj6-35DnbntDTVwyUeTPLGxYRQcZlw/rs:fit/g:sm/q:90/h:155/w:214/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTcwMzg0/LTE0OTcyMDcxNjUt/MzE0Mi5qcGVn.jpeg"
+        }
+      ],
+      "album_sha256": "38bab22f0b76be5975cca9d9ecb9c2ae8c46a323f366e28696a8bdd80f121941",
+      "candidate_track_versions": [
+        "Recorded 1981",
+        "Recorded 1982",
+        "Recorded 1983",
+        "Recorded 1984"
+      ],
+      "decision": "reject-recording",
+      "reason": "Source LP is dated1970, predating the candidate DG tracks explicitly marked Recorded1981–1984. This cannot be the source LP recording."
+    },
+    {
+      "discogs_id": "9769609",
+      "source_sha256": "eb025cd80933a8e4204fb5707d14411fb15269be2b991979dfd75e779a45b98a",
+      "source_year": 0,
+      "source_labels": [
+        {
+          "name": "Die Stimme Seines Herrn",
+          "catno": "1C 053-50 000/04 Y",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 165007,
+          "resource_url": "https://api.discogs.com/labels/165007",
+          "thumbnail_url": "https://i.discogs.com/yxhv8PBA8KLghPTU5uLMoJ1_wJLoFoUDbCNnMtAAtJA/rs:fit/g:sm/q:90/h:579/w:411/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTE2NTAw/Ny0xNDYxNTk1Mjg4/LTY3MDUuanBlZw.jpeg"
+        },
+        {
+          "name": "His Master's Voice",
+          "catno": "1C 053-50 000/04 Y",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 37150,
+          "resource_url": "https://api.discogs.com/labels/37150",
+          "thumbnail_url": "https://i.discogs.com/rUOd_H-TXQrryPCGDusqv9KpLXvUihFrOOjRUcP4Aqw/rs:fit/g:sm/q:90/h:511/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTM3MTUw/LTE0NTM1ODUwMzMt/NjgyNi5qcGVn.jpeg"
+        },
+        {
+          "name": "Electrola",
+          "catno": "1C 053-50 000/04 Y",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 54908,
+          "resource_url": "https://api.discogs.com/labels/54908",
+          "thumbnail_url": "https://i.discogs.com/eIoF1UYVXvWRRyP6O8T3rhY839Lno7ALlGMvvxR6U5c/rs:fit/g:sm/q:90/h:358/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTU0OTA4/LTE2NDU0Nzk4NTIt/MzIwNy5wbmc.jpeg"
+        }
+      ],
+      "album_sha256": "38bab22f0b76be5975cca9d9ecb9c2ae8c46a323f366e28696a8bdd80f121941",
+      "candidate_track_versions": [
+        "Recorded 1981",
+        "Recorded 1982",
+        "Recorded 1983",
+        "Recorded 1984"
+      ],
+      "decision": "withhold",
+      "reason": "Source is an undated EMI/HMV/La Voce del Padrone edition; candidate DG tracks explicitly say Recorded1981–1984. No evidence binds this LP to that later DG cycle. Keep recording identity unresolved; matching works/pianist alone are insufficient."
+    },
+    {
+      "discogs_id": "9866788",
+      "source_sha256": "53ab2a9512e82ea632b01ab2190cd76b30907fb2a769460acc599e2bfdb36641",
+      "source_year": 0,
+      "source_labels": [
+        {
+          "name": "La Voce Del Padrone",
+          "catno": "3 C063-02001",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 70384,
+          "resource_url": "https://api.discogs.com/labels/70384",
+          "thumbnail_url": "https://i.discogs.com/AmZakcZvGgvBXoj6-35DnbntDTVwyUeTPLGxYRQcZlw/rs:fit/g:sm/q:90/h:155/w:214/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTcwMzg0/LTE0OTcyMDcxNjUt/MzE0Mi5qcGVn.jpeg"
+        },
+        {
+          "name": "La Voce Del Padrone",
+          "catno": "3C 063-02001",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 70384,
+          "resource_url": "https://api.discogs.com/labels/70384",
+          "thumbnail_url": "https://i.discogs.com/AmZakcZvGgvBXoj6-35DnbntDTVwyUeTPLGxYRQcZlw/rs:fit/g:sm/q:90/h:155/w:214/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTcwMzg0/LTE0OTcyMDcxNjUt/MzE0Mi5qcGVn.jpeg"
+        }
+      ],
+      "album_sha256": "38bab22f0b76be5975cca9d9ecb9c2ae8c46a323f366e28696a8bdd80f121941",
+      "candidate_track_versions": [
+        "Recorded 1981",
+        "Recorded 1982",
+        "Recorded 1983",
+        "Recorded 1984"
+      ],
+      "decision": "withhold",
+      "reason": "Source is an undated EMI/HMV/La Voce del Padrone edition; candidate DG tracks explicitly say Recorded1981–1984. No evidence binds this LP to that later DG cycle. Keep recording identity unresolved; matching works/pianist alone are insufficient."
+    },
+    {
+      "discogs_id": "9866861",
+      "source_sha256": "50577779f486816848d980082e42b5e449cf3c647b68e8dcb75c598c3e39ee32",
+      "source_year": 0,
+      "source_labels": [
+        {
+          "name": "La Voce Del Padrone",
+          "catno": "3 C063-02000",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 70384,
+          "resource_url": "https://api.discogs.com/labels/70384",
+          "thumbnail_url": "https://i.discogs.com/AmZakcZvGgvBXoj6-35DnbntDTVwyUeTPLGxYRQcZlw/rs:fit/g:sm/q:90/h:155/w:214/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTcwMzg0/LTE0OTcyMDcxNjUt/MzE0Mi5qcGVn.jpeg"
+        },
+        {
+          "name": "La Voce Del Padrone",
+          "catno": "3C 063-02000",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 70384,
+          "resource_url": "https://api.discogs.com/labels/70384",
+          "thumbnail_url": "https://i.discogs.com/AmZakcZvGgvBXoj6-35DnbntDTVwyUeTPLGxYRQcZlw/rs:fit/g:sm/q:90/h:155/w:214/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTcwMzg0/LTE0OTcyMDcxNjUt/MzE0Mi5qcGVn.jpeg"
+        }
+      ],
+      "album_sha256": "38bab22f0b76be5975cca9d9ecb9c2ae8c46a323f366e28696a8bdd80f121941",
+      "candidate_track_versions": [
+        "Recorded 1981",
+        "Recorded 1982",
+        "Recorded 1983",
+        "Recorded 1984"
+      ],
+      "decision": "withhold",
+      "reason": "Source is an undated EMI/HMV/La Voce del Padrone edition; candidate DG tracks explicitly say Recorded1981–1984. No evidence binds this LP to that later DG cycle. Keep recording identity unresolved; matching works/pianist alone are insufficient."
+    },
+    {
+      "discogs_id": "9876728",
+      "source_sha256": "288f736bbe6a3549c28330c87d0f211be9db4f607a00a31f0512b4d3a57bce4c",
+      "source_year": 1970,
+      "source_labels": [
+        {
+          "name": "La Voce Del Padrone",
+          "catno": "3 C 063-00646",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 70384,
+          "resource_url": "https://api.discogs.com/labels/70384",
+          "thumbnail_url": "https://i.discogs.com/AmZakcZvGgvBXoj6-35DnbntDTVwyUeTPLGxYRQcZlw/rs:fit/g:sm/q:90/h:155/w:214/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTcwMzg0/LTE0OTcyMDcxNjUt/MzE0Mi5qcGVn.jpeg"
+        },
+        {
+          "name": "La Voce Del Padrone",
+          "catno": "3 C063-00646",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 70384,
+          "resource_url": "https://api.discogs.com/labels/70384",
+          "thumbnail_url": "https://i.discogs.com/AmZakcZvGgvBXoj6-35DnbntDTVwyUeTPLGxYRQcZlw/rs:fit/g:sm/q:90/h:155/w:214/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTcwMzg0/LTE0OTcyMDcxNjUt/MzE0Mi5qcGVn.jpeg"
+        },
+        {
+          "name": "La Voce Del Padrone",
+          "catno": "3C 063-00646",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 70384,
+          "resource_url": "https://api.discogs.com/labels/70384",
+          "thumbnail_url": "https://i.discogs.com/AmZakcZvGgvBXoj6-35DnbntDTVwyUeTPLGxYRQcZlw/rs:fit/g:sm/q:90/h:155/w:214/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTcwMzg0/LTE0OTcyMDcxNjUt/MzE0Mi5qcGVn.jpeg"
+        },
+        {
+          "name": "La Voce Del Padrone",
+          "catno": "ASDQ 5414",
+          "entity_type": "1",
+          "entity_type_name": "Label",
+          "id": 70384,
+          "resource_url": "https://api.discogs.com/labels/70384",
+          "thumbnail_url": "https://i.discogs.com/AmZakcZvGgvBXoj6-35DnbntDTVwyUeTPLGxYRQcZlw/rs:fit/g:sm/q:90/h:155/w:214/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9MLTcwMzg0/LTE0OTcyMDcxNjUt/MzE0Mi5qcGVn.jpeg"
+        }
+      ],
+      "album_sha256": "38bab22f0b76be5975cca9d9ecb9c2ae8c46a323f366e28696a8bdd80f121941",
+      "candidate_track_versions": [
+        "Recorded 1981",
+        "Recorded 1982",
+        "Recorded 1983",
+        "Recorded 1984"
+      ],
+      "decision": "reject-recording",
+      "reason": "Source LP is dated1970, predating the candidate DG tracks explicitly marked Recorded1981–1984. This cannot be the source LP recording."
+    }
+  ],
+  "limitations": [
+    "Recording-cycle audit only; no new metadata requests or source rewrite."
+  ],
+  "publication_status_changes": [],
+  "publication_evidence_changes": [
+    "3584044",
+    "10102576",
+    "3386012",
+    "1638548",
+    "29719858",
+    "14398300",
+    "13708175",
+    "5987607",
+    "2383925",
+    "2486104",
+    "4641786",
+    "7844349"
+  ]
+}

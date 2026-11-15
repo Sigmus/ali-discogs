@@ -4057,6 +4057,96 @@
         "Source/Fazıl versus digital/Fazil spelling normalized without a new performer alias.",
         "Exact LP pressing, takes and digital mastering remain unverified."
       ]
+    },
+    {
+      "discogs_id": "7864758",
+      "album_id": "0002894631272",
+      "target_sha256": "0eb01c20f34aa1ee0c9c0817e6f663ed48d12ae5be917931507aa50564e93797",
+      "album_sha256": "38bab22f0b76be5975cca9d9ecb9c2ae8c46a323f366e28696a8bdd80f121941",
+      "source_sha256": "c116276ba3e152c67fc0e55fd652dc174f46ebc328b9803ba84b1b78fb0e49c0",
+      "decision": "reject-recording",
+      "recording_review": "Source LP is dated1970, predating the candidate DG tracks explicitly marked Recorded1981–1984. This cannot be the source LP recording.",
+      "sources": [
+        "https://www.discogs.com/release/7864758",
+        "https://wmg.jp/daniel-barenboim/discography/23007"
+      ],
+      "limitations": [
+        "Do not infer absence of the EMI recording from this rejected/unresolved DG lead.",
+        "Label difference alone is not proof of different audio; dated1970LPs have an additional chronological exclusion.",
+        "No programme-completeness or title/parser improvement can supply recording identity."
+      ]
+    },
+    {
+      "discogs_id": "9769609",
+      "album_id": "0002894631272",
+      "target_sha256": "df39fc02007093495c4f8cdd5345a2d6528277ef775c74ae821a9fa33c187728",
+      "album_sha256": "38bab22f0b76be5975cca9d9ecb9c2ae8c46a323f366e28696a8bdd80f121941",
+      "source_sha256": "eb025cd80933a8e4204fb5707d14411fb15269be2b991979dfd75e779a45b98a",
+      "decision": "withhold",
+      "recording_review": "Source is an undated EMI/HMV/La Voce del Padrone edition; candidate DG tracks explicitly say Recorded1981–1984. No evidence binds this LP to that later DG cycle. Keep recording identity unresolved; matching works/pianist alone are insufficient.",
+      "sources": [
+        "https://www.discogs.com/release/9769609",
+        "https://wmg.jp/daniel-barenboim/discography/23007"
+      ],
+      "limitations": [
+        "Do not infer absence of the EMI recording from this rejected/unresolved DG lead.",
+        "Label difference alone is not proof of different audio; dated1970LPs have an additional chronological exclusion.",
+        "No programme-completeness or title/parser improvement can supply recording identity."
+      ]
+    },
+    {
+      "discogs_id": "9866788",
+      "album_id": "0002894631272",
+      "target_sha256": "0ad05e3061f2c31f07e2d7e4170c2e80a51af1b916eb374928a1b5a6f2109830",
+      "album_sha256": "38bab22f0b76be5975cca9d9ecb9c2ae8c46a323f366e28696a8bdd80f121941",
+      "source_sha256": "53ab2a9512e82ea632b01ab2190cd76b30907fb2a769460acc599e2bfdb36641",
+      "decision": "withhold",
+      "recording_review": "Source is an undated EMI/HMV/La Voce del Padrone edition; candidate DG tracks explicitly say Recorded1981–1984. No evidence binds this LP to that later DG cycle. Keep recording identity unresolved; matching works/pianist alone are insufficient.",
+      "sources": [
+        "https://www.discogs.com/release/9866788",
+        "https://wmg.jp/daniel-barenboim/discography/23007"
+      ],
+      "limitations": [
+        "Do not infer absence of the EMI recording from this rejected/unresolved DG lead.",
+        "Label difference alone is not proof of different audio; dated1970LPs have an additional chronological exclusion.",
+        "No programme-completeness or title/parser improvement can supply recording identity."
+      ]
+    },
+    {
+      "discogs_id": "9866861",
+      "album_id": "0002894631272",
+      "target_sha256": "483f2489cafa72f5e97681a622dd99dd1b0679bfda693c51e7a33045f28d29c6",
+      "album_sha256": "38bab22f0b76be5975cca9d9ecb9c2ae8c46a323f366e28696a8bdd80f121941",
+      "source_sha256": "50577779f486816848d980082e42b5e449cf3c647b68e8dcb75c598c3e39ee32",
+      "decision": "withhold",
+      "recording_review": "Source is an undated EMI/HMV/La Voce del Padrone edition; candidate DG tracks explicitly say Recorded1981–1984. No evidence binds this LP to that later DG cycle. Keep recording identity unresolved; matching works/pianist alone are insufficient.",
+      "sources": [
+        "https://www.discogs.com/release/9866861",
+        "https://wmg.jp/daniel-barenboim/discography/23007"
+      ],
+      "limitations": [
+        "Do not infer absence of the EMI recording from this rejected/unresolved DG lead.",
+        "Label difference alone is not proof of different audio; dated1970LPs have an additional chronological exclusion.",
+        "No programme-completeness or title/parser improvement can supply recording identity."
+      ]
+    },
+    {
+      "discogs_id": "9876728",
+      "album_id": "0002894631272",
+      "target_sha256": "e2255a838afee61951b72028c01b3faa7c13837a59aae1f2b385c76608822843",
+      "album_sha256": "38bab22f0b76be5975cca9d9ecb9c2ae8c46a323f366e28696a8bdd80f121941",
+      "source_sha256": "288f736bbe6a3549c28330c87d0f211be9db4f607a00a31f0512b4d3a57bce4c",
+      "decision": "reject-recording",
+      "recording_review": "Source LP is dated1970, predating the candidate DG tracks explicitly marked Recorded1981–1984. This cannot be the source LP recording.",
+      "sources": [
+        "https://www.discogs.com/release/9876728",
+        "https://wmg.jp/daniel-barenboim/discography/23007"
+      ],
+      "limitations": [
+        "Do not infer absence of the EMI recording from this rejected/unresolved DG lead.",
+        "Label difference alone is not proof of different audio; dated1970LPs have an additional chronological exclusion.",
+        "No programme-completeness or title/parser improvement can supply recording identity."
+      ]
     }
   ]
 }

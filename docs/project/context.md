@@ -63,10 +63,12 @@ and cache commands. This directory owns current planning.
 
 ## Next work
 
-1. Next audit explicit candidate work-field context for Kubelik14398300; avoid
-   inferring titles or dropping source soloists. Five photographer-case shadow
-   diagnostics still have zero programme coverage after false names removed.
-   Say14766559now Probable;101extra tracks outside its LP remain excluded.
+1. Ten cached leads reviewed:5photographer cases withheld for missing positive
+   musical credits/wrong programme;5Barenboim EMI LPs blocked against later DG cycle
+   (2chronological rejections,3undated unresolved holds). No metadata shortcut.
+   Recording-review precedence enforced;12evidence records changed, no label changes.
+   Next active review: Karajan7064777complete Mendelssohn set, including split
+   Lobgesang Sinfonia; preserve source key discrepancy and recording caveats.
    [Source-credit plan](../plans/2026-11-15-qobuz-source-credit-reviews.md).
 2. Keep Casals/Gieseking transfer identity unresolved until recording-specific
    evidence exists. Source correction alone does not authorize promotion.
@@ -78,6 +80,7 @@ and cache commands. This directory owns current planning.
 Prefer reliable matches to higher counts. No unbounded new-hit downloads, warning
 retries, pushes or deployment. Bitches Brew credit exception remains a proposal.
 Do not invent identity, overwrite source text or loosen credit gates for counts.
-Current review: only14766559publication changes;601unchecked unique. All185script tests
-pass against stable files; UI normalization/build pass. No Qobuz calls/push.
+Current pass:189script tests, UI normalization/build pass.601unchecked unique:
+412work/credit,160metadata,17withheld,3recording rejections,2completeness,6empty,
+1source hold. No Qobuz calls/push; accepted counts unchanged.
 [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).

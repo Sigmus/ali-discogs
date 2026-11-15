@@ -86,3 +86,39 @@ Say),1withheld(Solti5),6unresolved(Casals plus5photographer cases). The tenth ro
 audit item is performer ordering, not a false-credit removal. Next audit explicit
 candidate work-field context for Kubelik14398300before designing a bounded rule;
 no global alias, loosening source soloists or new retrieval scope authorized.
+
+
+## Five photographer cases reviewed; later DG Barenboim cycle excluded
+
+15November:14398300/13708175Kubelik candidate has conductor/orchestra only at
+album level, zero positive track credits for those anchors across42tracks. Ozawa
+1638548candidate is mixed20track compilation; Prokofiev excerpt has Boston, not
+source SanFrancisco. Soltani29719858andRolla5987607lack source-named individual
+instrumentalists despite ensemble-level names. All five explicitly withheld in
+existing bound-track ledger, no inferred roster or album-credit propagation.
+
+Continued to five high-coverage Barenboim LPs. Candidate DG0002894631272explicitly
+marks tracks Recorded1981–1984. Source7864758/9876728dated1970cannot contain those
+later recordings: reject-recording. Other9769609/9866788/9866861EMI/HMV/LaVoce
+sources undated: withhold cycle identity, not a claim label differences alone
+prove different audio. Warner Japan23007documents the earlier1966–1969cycle.
+No cached complete EMI sonata metadata currently available; new retrieval scope
+would be needed to explore that separate candidate, not authorized by this pass.
+
+## Review precedence safeguard
+
+A validated explicit recording review now takes precedence over scoring for its
+exact album. Held/rejected/ineligible reviewed candidate is forced Unchecked with
+review reasons, even if future work/credit/completeness scoring reaches Found.
+Positive review replaces the same candidate once. Other album candidates remain
+independent. Source hashes validated when present. No blanket release rejection.
+Three regressions cover syntheticFound99%overridden by holds/rejections, immutable
+inputs/unrelated candidates, positive replacement and stale source-proof rejection.
+189script tests pass. Publication comparison and final inventory pending.
+
+
+Final validation:189script tests, UI normalization/static build pass. Twelve
+published evidence records gain explicit review precedence/reasons; no statuses
+change. Inventory601unchecked unique:412work/credit,160metadata,17withheld,
+3recording rejections,2completeness,6empty,1source hold. No provider calls/push.
+Continued next to Karajan7064777complete set/split Lobgesang review.

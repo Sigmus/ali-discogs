@@ -1,0 +1,317 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-15",
+  "releases": [
+    {
+      "discogs_id": "14398300",
+      "album_id": "0002894637382",
+      "source_sha256": "182257809c8ec63f825315131f22c506a3f2992182823a61059e37f08d81e6c1",
+      "album_sha256": "f0a3e5d51595eaaed5038743fd84552df0efcb63d9a47912c614bf68c929ff4f",
+      "decision": "withhold",
+      "reason": "Neither Kubelik nor the Bavarian Radio orchestra is positively credited on any of42tracks; album-level artist fields cannot supply track/group credit evidence.",
+      "album_artist_fields": [
+        {
+          "id": 316297,
+          "name": "Symphonieorchester Des Bayerischen Rundfunks",
+          "roles": [
+            "main-artist",
+            "orchestra"
+          ]
+        },
+        {
+          "id": 12404,
+          "name": "Rafael Kubelik",
+          "roles": [
+            "main-artist",
+            "conductor"
+          ]
+        }
+      ],
+      "positive_anchor_track_ids": {
+        "Rafael Kubelik": [],
+        "Symphonie-Orchester Des Bayerischen Rundfunks": []
+      },
+      "source_musical_credits": [
+        {
+          "name": "Rafael Kubelik",
+          "role": "Conductor",
+          "tracks": ""
+        },
+        {
+          "name": "Symphonie-Orchester Des Bayerischen Rundfunks",
+          "role": "Orchestra",
+          "tracks": ""
+        },
+        {
+          "name": "Werner Neumeister",
+          "role": "Photography By [Rafael Kubelik Photo And The Bavarian Radio Symphony Orchestra Performing Symphony No. 8]",
+          "tracks": ""
+        }
+      ]
+    },
+    {
+      "discogs_id": "13708175",
+      "album_id": "0002894637382",
+      "source_sha256": "d4a858211c1aeb77087784bd66e8dce3a5ddcbab77fc76f66a8c26008f5d911b",
+      "album_sha256": "f0a3e5d51595eaaed5038743fd84552df0efcb63d9a47912c614bf68c929ff4f",
+      "decision": "withhold",
+      "reason": "Neither Kubelik nor the Bavarian Radio orchestra is positively credited on any of42tracks; album-level artist fields cannot supply track/group credit evidence.",
+      "album_artist_fields": [
+        {
+          "id": 316297,
+          "name": "Symphonieorchester Des Bayerischen Rundfunks",
+          "roles": [
+            "main-artist",
+            "orchestra"
+          ]
+        },
+        {
+          "id": 12404,
+          "name": "Rafael Kubelik",
+          "roles": [
+            "main-artist",
+            "conductor"
+          ]
+        }
+      ],
+      "positive_anchor_track_ids": {
+        "Rafael Kubelik": [],
+        "Symphonie-Orchester Des Bayerischen Rundfunks": []
+      },
+      "source_musical_credits": [
+        {
+          "name": "Rafael Kubelik",
+          "role": "Conductor",
+          "tracks": ""
+        },
+        {
+          "name": "Symphonie-Orchester Des Bayerischen Rundfunks",
+          "role": "Orchestra",
+          "tracks": ""
+        },
+        {
+          "name": "Werner Neumeister",
+          "role": "Photography By [Rafael Kubelik Photo And The Bavarian Radio Symphony Orchestra Performing Symphony No. 8]",
+          "tracks": ""
+        }
+      ]
+    },
+    {
+      "discogs_id": "1638548",
+      "album_id": "0002894805871",
+      "source_sha256": "d7ce14a6b46fd035f22c75ebea24cc4202ab0c769bb82edd758594eb4e346573",
+      "album_sha256": "586f4b0887e4fcf156c82822360d24eb0414441f7d6a9f026ddc60fe896627ce",
+      "decision": "withhold",
+      "reason": "Saved candidate is a20track mixed-artist compilation; the Prokofiev Romeo excerpt names Boston Symphony, not the source San Francisco Symphony. It does not support the complete two-work LP programme.",
+      "album_artist_fields": [],
+      "positive_anchor_track_ids": {},
+      "source_musical_credits": [
+        {
+          "name": "Seiji Ozawa",
+          "role": "Conductor",
+          "tracks": ""
+        },
+        {
+          "name": "San Francisco Symphony",
+          "role": "Orchestra",
+          "tracks": ""
+        },
+        {
+          "name": "Tom Tracy",
+          "role": "Photography By [San Francisco Symphony Orchestra]",
+          "tracks": ""
+        }
+      ]
+    },
+    {
+      "discogs_id": "29719858",
+      "album_id": "q51pq6pinm6wb",
+      "source_sha256": "b410ae26315408da255e212e49749a39ad4a5dbf6f2c6837fb14a2287936dd60",
+      "album_sha256": "374be1c627c647ea924b8b1f0aeeed789a4227201e6d5f3e9a2fb48d42e6a06c",
+      "decision": "withhold",
+      "reason": "Source names six cello-ensemble members plus double-bass soloist; cached candidate gives ensemble-level labels but not those individual cellists. Work-field/context and ensemble scope also remain unresolved. Do not borrow personnel from ensemble membership.",
+      "album_artist_fields": [
+        {
+          "id": 2906373,
+          "name": "Kian Soltani",
+          "roles": [
+            "main-artist"
+          ]
+        },
+        {
+          "id": 50906,
+          "name": "Staatskapelle Berlin",
+          "roles": [
+            "main-artist"
+          ]
+        },
+        {
+          "id": 289938,
+          "name": "Daniel Barenboim",
+          "roles": [
+            "main-artist"
+          ]
+        }
+      ],
+      "positive_anchor_track_ids": {},
+      "source_musical_credits": [
+        {
+          "name": "Alexander Kovalev (3)",
+          "role": "Cello [Cellists Of The Staatskapelle Berlin]",
+          "tracks": "C2 to D4"
+        },
+        {
+          "name": "Claire Sojung Henkel",
+          "role": "Cello [Cellists Of The Staatskapelle Berlin]",
+          "tracks": "C2 to D4"
+        },
+        {
+          "name": "Isa von Wedemeyer",
+          "role": "Cello [Cellists Of The Staatskapelle Berlin]",
+          "tracks": "C2 to D4"
+        },
+        {
+          "name": "Johanna Helm",
+          "role": "Cello [Cellists Of The Staatskapelle Berlin]",
+          "tracks": "C2 to D4"
+        },
+        {
+          "name": "Nikolaus Popa",
+          "role": "Cello [Cellists Of The Staatskapelle Berlin]",
+          "tracks": "C2 to D4"
+        },
+        {
+          "name": "Teresa Beldi",
+          "role": "Cello [Cellists Of The Staatskapelle Berlin]",
+          "tracks": "C2 to D4"
+        },
+        {
+          "name": "Otto Tolonen (2)",
+          "role": "Double Bass",
+          "tracks": "C2"
+        },
+        {
+          "name": "Peter Adamik",
+          "role": "Photography By [Photos: Orchestra ©]",
+          "tracks": ""
+        },
+        {
+          "name": "Kian Soltani",
+          "role": "Soloist, Cello [Solo Cello]",
+          "tracks": "C2 to D4"
+        }
+      ]
+    },
+    {
+      "discogs_id": "5987607",
+      "album_id": "a45bj5t58pqoa",
+      "source_sha256": "68c08e7843288ebfc15ddbf538c852f46a36d5fc4db2a3ac9d7dc461ac6233da",
+      "album_sha256": "9f751742fe94627cade569786eb82d1cec88adab007699a478e1bc30b2f63ca0",
+      "decision": "withhold",
+      "reason": "Source names individual string players; cached tracks identify Rolla, Spanyi, Pertis and Budapest Franz Liszt Chamber Orchestra without those additional named players. Orchestra-name variation and work context also need review; no source-player credit waiver.",
+      "album_artist_fields": [
+        {
+          "id": 32043,
+          "name": "Janos Rolla",
+          "roles": [
+            "main-artist",
+            "conductor"
+          ]
+        },
+        {
+          "id": 246970,
+          "name": "Budapest Franz Liszt Chamber Orchestra",
+          "roles": [
+            "orchestra"
+          ]
+        }
+      ],
+      "positive_anchor_track_ids": {},
+      "source_musical_credits": [
+        {
+          "name": "Anna Sándor",
+          "role": "Cello",
+          "tracks": ""
+        },
+        {
+          "name": "Mária Frank",
+          "role": "Cello",
+          "tracks": ""
+        },
+        {
+          "name": "Pál Kelemen",
+          "role": "Cello",
+          "tracks": ""
+        },
+        {
+          "name": "János Rolla",
+          "role": "Conductor",
+          "tracks": ""
+        },
+        {
+          "name": "László Som",
+          "role": "Double Bass",
+          "tracks": ""
+        },
+        {
+          "name": "Liszt Ferenc Chamber Orchestra",
+          "role": "Orchestra",
+          "tracks": ""
+        },
+        {
+          "name": "Huschit János",
+          "role": "Photography By [Booklet - Liszt Ferenc Chamber Orchestra]",
+          "tracks": ""
+        },
+        {
+          "name": "György Lovas",
+          "role": "Violin [1st]",
+          "tracks": ""
+        },
+        {
+          "name": "János Rolla",
+          "role": "Violin [1st]",
+          "tracks": ""
+        },
+        {
+          "name": "Lili Áldor",
+          "role": "Violin [1st]",
+          "tracks": ""
+        },
+        {
+          "name": "Zoltán Tfirst",
+          "role": "Violin [1st]",
+          "tracks": ""
+        },
+        {
+          "name": "Éva Isépy",
+          "role": "Violin [1st]",
+          "tracks": ""
+        },
+        {
+          "name": "György Kiss",
+          "role": "Violin [2nd]",
+          "tracks": ""
+        },
+        {
+          "name": "Kálmán Kostyál",
+          "role": "Violin [2nd]",
+          "tracks": ""
+        },
+        {
+          "name": "Péter Gazda",
+          "role": "Violin [2nd]",
+          "tracks": ""
+        },
+        {
+          "name": "Zsuzsa Weisz",
+          "role": "Violin [2nd]",
+          "tracks": ""
+        }
+      ]
+    }
+  ],
+  "limitations": [
+    "Explicit recording-review withholds; no source/personnel rewrite or provider requests."
+  ]
+}

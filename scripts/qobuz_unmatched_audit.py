@@ -24,12 +24,14 @@ def audit():
             hits.setdefault(x['task']['discogs_id'],set()).update(str(a['id']) for a in x['albums'])
     rows={str(r['discogs_id']):r for r in json.loads((ROOT/'data/collection_matches.json').read_text())}
     published=json.loads((ROOT/'data/qobuz_matches.json').read_text())['releases']
-    rejected={(r['discogs_id'],r['album_id']) for r in json.loads((ROOT/'data/qobuz_lead_reviews.json').read_text())['releases'] if r['decision'].startswith('reject')}
-    withheld=set()
-    for name in ('qobuz_binding_reviews.json','qobuz_opera_recording_reviews.json'):
+    rejected,withheld=set(),set()
+    review_sources=('qobuz_lead_reviews.json','qobuz_binding_reviews.json','qobuz_opera_recording_reviews.json','qobuz_remaining_recording_reviews.json')
+    for name in review_sources:
         for review in json.loads((ROOT/'data'/name).read_text())['releases']:
-            if review['decision']=='withhold':
-                withheld.add((review['discogs_id'],review['album_id']))
+            pair=(review['discogs_id'],review['album_id'])
+            if review['decision'].startswith('reject'):rejected.add(pair)
+            elif review['decision']=='withhold':withheld.add(pair)
+    if rejected & withheld:raise ValueError('Conflicting saved recording decisions')
     inventory=json.loads((ROOT/'data/qobuz_work_inventory.json').read_text());entries=[]
     for rid in sorted(rows,key=int):
         if published[rid]['status']!='unchecked':continue
@@ -40,11 +42,11 @@ def audit():
             candidates.append({'album_id':aid,'title':albums[aid]['title'],'coverage':e['coverage'],'status':e['status'],'completeness':c['status'],'reviewed_rejected':(rid,aid) in rejected,'reviewed_withheld':(rid,aid) in withheld,'programme':e['programme']})
         candidates.sort(key=lambda c:(c['status']=='unchecked',-c['coverage'],c['album_id']))
         usable=[c for c in candidates if c['status']!='unchecked' and not c['reviewed_rejected'] and not c['reviewed_withheld']]
-        category=('source_programme_review_needed' if published[rid].get('source_programme_review') else 'no_saved_hits' if not hits.get(rid) else 'metadata_needed' if not candidates else 'reviewed_withheld' if not usable and any(c['reviewed_withheld'] for c in candidates) else 'work_or_credit_unresolved' if not usable else 'completeness_review_needed' if not any(c['completeness']=='complete' for c in usable) else 'recording_review_needed')
+        category=('source_programme_review_needed' if published[rid].get('source_programme_review') else 'no_saved_hits' if not hits.get(rid) else 'metadata_needed' if not candidates else 'recording_review_rejected' if not usable and any(c['reviewed_rejected'] for c in candidates) else 'reviewed_withheld' if not usable and any(c['reviewed_withheld'] for c in candidates) else 'work_or_credit_unresolved' if not usable else 'completeness_review_needed' if not any(c['completeness']=='complete' for c in usable) else 'recording_review_needed')
         entries.append({'discogs_id':rid,'title':rows[rid]['title'],'category':category,'saved_hits':len(hits.get(rid,set())),'uncached_hits':len(hits.get(rid,set())-albums.keys()),'cached_candidates':candidates})
         if published[rid].get('source_programme_review'):
             entries[-1]['source_programme_review']=published[rid]['source_programme_review']
-    report={'schema_version':1,'reviewed_on':'2026-11-15','source_hashes':{name:hashlib.sha256((ROOT/'data'/name).read_bytes()).hexdigest() for name in [*sources,'collection_matches.json','qobuz_matches.json','qobuz_work_inventory.json','qobuz_binding_reviews.json','qobuz_opera_recording_reviews.json','qobuz_source_composer_reviews.json','qobuz_source_programme_reviews.json']},'summary':dict(Counter(e['category'] for e in entries)),'unmatched_unique_releases':len(entries),'entries':entries,'limitations':['Offline triage after the14November remaining retrieval and nine-album follow-up. A downloaded album is not an accepted match, and an empty query is not confirmed absence.','Recorded withholds stay in the inventory as reviewed_withheld and are not open leads.','Categories prioritize available cached evidence; a release may also have uncached alternatives.']}
+    report={'schema_version':1,'reviewed_on':'2026-11-15','source_hashes':{name:hashlib.sha256((ROOT/'data'/name).read_bytes()).hexdigest() for name in [*sources,*review_sources,'collection_matches.json','qobuz_matches.json','qobuz_work_inventory.json','qobuz_binding_reviews.json','qobuz_opera_recording_reviews.json','qobuz_source_composer_reviews.json','qobuz_source_programme_reviews.json']},'summary':dict(Counter(e['category'] for e in entries)),'unmatched_unique_releases':len(entries),'entries':entries,'limitations':['Offline triage after the14November remaining retrieval and nine-album follow-up. A downloaded album is not an accepted match, and an empty query is not confirmed absence.','Recorded withholds stay in the inventory as reviewed_withheld and are not open leads.','Categories prioritize available cached evidence; a release may also have uncached alternatives.']}
     (ROOT/'data/qobuz_unmatched_audit.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps(report['summary']));return report
 if __name__=='__main__':audit()

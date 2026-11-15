@@ -13,7 +13,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'src'))
 from ali_discogs.text import tnorm, norm, ORCH_ALIASES, is_composer
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = 'qobuz-work-groups-v2+explicit-target-credits+reviewed-leads+opera-source-roles+prelude-fugue-pairs+container-headings+bound-tracks+heading-over-groups+cached-half+side-ranges+scene-sides+catalogue-comma-movements+reviewed-source-composers+source-programme-holds+reviewed-felix-composer-identity+bound-composer-role-marks+source-bound-work-credits'
+VERSION = 'qobuz-work-groups-v2+explicit-target-credits+reviewed-leads+opera-source-roles+prelude-fugue-pairs+container-headings+bound-tracks+heading-over-groups+cached-half+side-ranges+scene-sides+catalogue-comma-movements+reviewed-source-composers+source-programme-holds+reviewed-felix-composer-identity+bound-composer-role-marks+source-bound-work-credits+recording-review-precedence'
 
 
 def credits_v1(track):
@@ -218,7 +218,7 @@ def generate():
     inventory = json.loads(inventory_path.read_text())
     if scope['schema_version'] != 1 or inventory['schema_version'] != 1:
         raise ValueError('Unsupported expansion evidence schema')
-    from qobuz_lead_review import load_reviews, reviewed_candidate, REVIEW, ARCHIVE
+    from qobuz_lead_review import load_reviews, apply_recording_review, REVIEW, ARCHIVE
     reviews, reviewed_albums = load_reviews()
     lead_reviews = {r['discogs_id']: r for r in reviews}
     round2_path = ROOT/'data/qobuz_round2_reviews.json'
@@ -423,14 +423,10 @@ def generate():
                     candidates.append(extra)
         review = lead_reviews.get(str(rid))
         if review:
-            extra = reviewed_candidate(rows[rid], reviewed_albums[review['album_id']], review)
-            if extra and extra['id'] not in {c['id'] for c in candidates}:
-                candidates.append(extra)
+            candidates = apply_recording_review(rows[rid], reviewed_albums[review['album_id']], review, candidates)
         review = round2_reviews.get(str(rid))
         if review:
-            extra = reviewed_candidate(rows[rid], round2_albums[review['album_id']], review)
-            if extra:
-                candidates = [c for c in candidates if c['id'] != extra['id']] + [extra]
+            candidates = apply_recording_review(rows[rid], round2_albums[review['album_id']], review, candidates)
         from qobuz_source_programme import programme_hold,withhold_candidates
         source_hold=programme_hold(rows[rid])
         if source_hold:

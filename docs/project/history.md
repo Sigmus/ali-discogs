@@ -1780,3 +1780,20 @@ Three have false normalized key-performer names, which active guard still reject
 Nine-case nonperforming-credit first triage:2Probable,1withheld,6unresolved. No
 source bulk refresh/provider calls/push/deployment. Next Kubelik14398300explicit
 work-field context audit, preserving source soloist requirements.
+
+
+### 2026-11-15 — Ten cached leads closed; recording reviews override scoring
+
+Five photographer leads explicitly withheld: Kubelik pair lacks conductor/orchestra
+track credits across42tracks; Ozawa compilation wrong orchestra/incomplete source
+programme; Soltani/Rolla lack source-named players. Five Barenboim EMI/HMVLP leads
+blocked against DG1981–84cycle:2dated1970chronological rejections,3undated holds.
+No label-only assertion of different audio. Structured evidence audits saved.
+
+Saved explicit review now caps its exact candidate Unchecked regardless of future
+scorer improvement, with visible reasons. Positive review replaces candidate once;
+unrelated candidates remain independent. Source hashes validated.189script tests,
+UI normalization/build pass.12evidence records changed, no accepted statuses.
+Inventory601unchecked unique:412work/credit,160metadata,17withheld,3recording
+rejections,2completeness,6empty,1source hold. No provider calls/push/deployment.
+Continued to Karajan7064777split Lobgesang completeness/family review.

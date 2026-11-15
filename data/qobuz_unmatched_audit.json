@@ -18,19 +18,22 @@
     "qobuz_remaining_search.json.gz": "ec5e39bf4c226fc7bf33bc21065d1213df11fb6e87731747a3cabadb8ae7eb96",
     "qobuz_remaining_followup_metadata.json.gz": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
     "qobuz_metadata_followup_2026_11_15.json.gz": "139f9b336c68b56ea22c18362cb0481c026366c5d359142f2bb702fe1233a4fc",
-    "collection_matches.json": "a214eee877d4749fa957b3d2a293c2925d7ba0621259f2742139a6cd86f928c8",
-    "qobuz_matches.json": "138746b1a507bfc436788e9cf52f7fa908b3a0339ab5ec45f1ca5aabf2701991",
-    "qobuz_work_inventory.json": "47b8e955b99c37b132e66daea61590490d249f94a520740d702bec5caa5019ce",
-    "qobuz_binding_reviews.json": "b1dcc051388ede7b72e8b85f7b9baaedd65a3fb364cc876ac9c76eda9f50a1cd",
+    "qobuz_lead_reviews.json": "bc731b95eadb23cb1a13d735a4e7410615ae06f260b2c4a381ed4a29e229265e",
+    "qobuz_binding_reviews.json": "eab7d007faef231024862226e943305bd4a4aab65143bd18c45b96b811286b77",
     "qobuz_opera_recording_reviews.json": "6e26d528eb7de78d372635218404a57534332ea1cd3d92e89e90e7a18066f85b",
+    "qobuz_remaining_recording_reviews.json": "af29159ad5c8483d14a81a24232304f41c8ffda1b518e8fbee8f7fd1a17158e8",
+    "collection_matches.json": "a214eee877d4749fa957b3d2a293c2925d7ba0621259f2742139a6cd86f928c8",
+    "qobuz_matches.json": "029fae455781058bec34706f2cc09ae406aa6524cce085cbcdc49b17af61204b",
+    "qobuz_work_inventory.json": "47b8e955b99c37b132e66daea61590490d249f94a520740d702bec5caa5019ce",
     "qobuz_source_composer_reviews.json": "1cce69d6df99a54b444f6a210d84c5c69b3139eb4ed1355e821708d1fb59b83c",
     "qobuz_source_programme_reviews.json": "5469466141e2816720bf35e6b54abeb18daf3f12bf6fec1b4f9e794da0db098b"
   },
   "summary": {
-    "work_or_credit_unresolved": 418,
+    "work_or_credit_unresolved": 412,
     "metadata_needed": 160,
-    "reviewed_withheld": 9,
-    "completeness_review_needed": 7,
+    "reviewed_withheld": 17,
+    "recording_review_rejected": 3,
+    "completeness_review_needed": 2,
     "no_saved_hits": 6,
     "source_programme_review_needed": 1
   },
@@ -4152,7 +4155,7 @@
     {
       "discogs_id": "1638548",
       "title": "Romeo And Juliet",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 1,
       "uncached_hits": 0,
       "cached_candidates": [
@@ -4163,7 +4166,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Romeo And Juliet (Fantasy Overture After Shakespeare)",
@@ -19272,7 +19275,7 @@
     {
       "discogs_id": "3066447",
       "title": "Les Plus Belles Sonates Pour Piano",
-      "category": "work_or_credit_unresolved",
+      "category": "recording_review_rejected",
       "saved_hits": 7,
       "uncached_hits": 6,
       "cached_candidates": [
@@ -48186,7 +48189,7 @@
     {
       "discogs_id": "5987607",
       "title": "Die Kunst Der Fuge",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 1,
       "uncached_hits": 0,
       "cached_candidates": [
@@ -48197,7 +48200,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Die Kunst Der Fuge, BWV 1080",
@@ -75944,7 +75947,7 @@
     {
       "discogs_id": "7864758",
       "title": "Tutte Le Sonate Per Pianoforte - Vol. 6: Sonate N. 16 Op. 31 N. 1 - N.18 Op. 31 N. 3 - N. 22 Op. 54",
-      "category": "completeness_review_needed",
+      "category": "recording_review_rejected",
       "saved_hits": 9,
       "uncached_hits": 7,
       "cached_candidates": [
@@ -75954,7 +75957,7 @@
           "coverage": 1.0,
           "status": "probable",
           "completeness": "unknown",
-          "reviewed_rejected": false,
+          "reviewed_rejected": true,
           "reviewed_withheld": false,
           "programme": [
             {
@@ -93176,7 +93179,7 @@
     {
       "discogs_id": "9769609",
       "title": "Die Bekannten Sonaten",
-      "category": "completeness_review_needed",
+      "category": "reviewed_withheld",
       "saved_hits": 8,
       "uncached_hits": 7,
       "cached_candidates": [
@@ -93187,7 +93190,7 @@
           "status": "probable",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Sonate Für Klavier Nr.14 Cis-Moll Op.27 Nr.2 - \"Mondschein-Sonate\"",
@@ -93737,7 +93740,7 @@
     {
       "discogs_id": "9866788",
       "title": "Tutte Le Sonate Per Pianoforte - Vol. 10: Sonate N. 2 Op. 2 - N. 30 Op. 109",
-      "category": "completeness_review_needed",
+      "category": "reviewed_withheld",
       "saved_hits": 7,
       "uncached_hits": 6,
       "cached_candidates": [
@@ -93748,7 +93751,7 @@
           "status": "probable",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Sonata N. 2 In La Maggiore, Op. 2 N. 2",
@@ -93787,7 +93790,7 @@
     {
       "discogs_id": "9866861",
       "title": "Tutte Le Sonate Per Pianoforte - Vol. 11: Sonate N. 11 Op. 22 - N. 13 Op. 27 N. 1 - N. 27 Op. 90",
-      "category": "completeness_review_needed",
+      "category": "reviewed_withheld",
       "saved_hits": 8,
       "uncached_hits": 7,
       "cached_candidates": [
@@ -93798,7 +93801,7 @@
           "status": "probable",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Sonata N. 11 In Si Bemolle Maggiore, Op. 22",
@@ -94163,7 +94166,7 @@
     {
       "discogs_id": "9876728",
       "title": "Tutte Le Sonate Per Pianoforte - Vol. 5: Sonate N. 5 • 6 • 7 • Op. 10 N. 1-2-3",
-      "category": "completeness_review_needed",
+      "category": "recording_review_rejected",
       "saved_hits": 9,
       "uncached_hits": 8,
       "cached_candidates": [
@@ -94173,7 +94176,7 @@
           "coverage": 1.0,
           "status": "probable",
           "completeness": "unknown",
-          "reviewed_rejected": false,
+          "reviewed_rejected": true,
           "reviewed_withheld": false,
           "programme": [
             {
@@ -107768,7 +107771,7 @@
     {
       "discogs_id": "13708175",
       "title": "10 Symphonies",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 1,
       "uncached_hits": 0,
       "cached_candidates": [
@@ -107779,7 +107782,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": " Symphonie Nr. 1 D-dur \"Der Titan\"",
@@ -108750,7 +108753,7 @@
     {
       "discogs_id": "14398300",
       "title": "10 Symphonies",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 1,
       "uncached_hits": 0,
       "cached_candidates": [
@@ -108761,7 +108764,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": " Symphonie Nr. 1 D-dur \"Der Titan\"",
@@ -120218,7 +120221,7 @@
     {
       "discogs_id": "29719858",
       "title": "Cello Concerto • Silent Woods • Songs My Mother Taught Me • Lasst Mich Allein • Goin' Home",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 1,
       "uncached_hits": 0,
       "cached_candidates": [
@@ -120229,7 +120232,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Concerto For Cello And Orchestra In B Minor Op. 104 (B 191) = Konzert Für Violoncello Und Orchester H-moll (Live Recording)",

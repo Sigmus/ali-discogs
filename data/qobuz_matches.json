@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "matcher_version": "qobuz-work-groups-v2+explicit-target-credits+reviewed-leads+opera-source-roles+prelude-fugue-pairs+container-headings+bound-tracks+heading-over-groups+cached-half+side-ranges+scene-sides+catalogue-comma-movements+reviewed-source-composers+source-programme-holds+reviewed-felix-composer-identity+bound-composer-role-marks+source-bound-work-credits",
+  "matcher_version": "qobuz-work-groups-v2+explicit-target-credits+reviewed-leads+opera-source-roles+prelude-fugue-pairs+container-headings+bound-tracks+heading-over-groups+cached-half+side-ranges+scene-sides+catalogue-comma-movements+reviewed-source-composers+source-programme-holds+reviewed-felix-composer-identity+bound-composer-role-marks+source-bound-work-credits+recording-review-precedence",
   "score_kind": "heuristic",
   "metadata_completed_at": "2026-11-13T00:15:30.593902+00:00",
   "search_manifest_fingerprint": "72bfbc0de0c0d8ee65c624b6ebe07db7be6ef0f10b6ba5fd4f468d54f812e802",
@@ -18,7 +18,7 @@
   "opera_review_fingerprint": "6e26d528eb7de78d372635218404a57534332ea1cd3d92e89e90e7a18066f85b",
   "pair_review_fingerprint": "7709aa57ef7815fda88766badd3064939bccb142bd0e97389a0f5f011c54cd84",
   "container_review_fingerprint": "aa8a8e530114e05869e1215561786073250faca3c9349b66059ea59ff3c535e0",
-  "binding_review_fingerprint": "b1dcc051388ede7b72e8b85f7b9baaedd65a3fb364cc876ac9c76eda9f50a1cd",
+  "binding_review_fingerprint": "eab7d007faef231024862226e943305bd4a4aab65143bd18c45b96b811286b77",
   "heading_review_fingerprint": "44c6333ec66aff9cbbf7a29ae8d00ef0005da4fb05dae7e65278f889e97fab8b",
   "cached_half_review_fingerprint": "51e57b6a2ed934ed1a91452a4a8c314099d6641b216c73740a3da7cda998dbcf",
   "side_range_review_fingerprint": "4434bf0427e75aae1b891957d05cd4175f6b01d7b2f6a8e352238c3a297c44f7",
@@ -32,7 +32,7 @@
   "richter_review_fingerprint": "a14865f86e46150593e39bfa285fa6c7c61c8f46147b8094c0cb048fd02118ab",
   "round2_review_fingerprint": "be60742c3d35f5a9aa67f200642f7fcde98a52562a46130e043db8f4aa7c851e",
   "round2_metadata_fingerprint": "9db62d7bf62d4b77f5acf422dfde77959f845f4dc00b2ac0e10c02ccea295860",
-  "remaining_review_fingerprint": "1339c330463c40db2906b35295934f3c8c908b11d4144d72333ae02121ea35f3",
+  "remaining_review_fingerprint": "af29159ad5c8483d14a81a24232304f41c8ffda1b518e8fbee8f7fd1a17158e8",
   "remaining_metadata_fingerprint": "393b2d12e176160ab311b65267b38bdc8c205222e12f792bf07eba5c1fcfafbf",
   "remaining_followup_metadata_fingerprint": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
   "seven_album_metadata_fingerprint": "139f9b336c68b56ea22c18362cb0481c026366c5d359142f2bb702fe1233a4fc",
@@ -21396,10 +21396,17 @@
             }
           ],
           "reasons": [
+            "Francescatti’s Paganini Op. 6 is in this file. Violin Concerto No. 3 is not. The second work is Bruch’s Op. 26.",
+            "The coupling is Bruch’s G minor concerto, not the concerto numbered 3 on the LP.",
             "1/2 target items supported after composer/work grouping; unresolved.",
             "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
           ],
-          "work_group_policy": "qobuz-work-groups-v1"
+          "work_group_policy": "qobuz-work-groups-v1",
+          "recording_review_decision": "withhold",
+          "recording_review": "Francescatti’s Paganini Op. 6 is in this file. Violin Concerto No. 3 is not. The second work is Bruch’s Op. 26.",
+          "review_sources": [
+            "https://www.qobuz.com/fr-fr/album/paganini-violin-concerto-no-1-in-d-major-op-6-ms-21-bruch-violin-concerto-no-1-in-g-minor-op-26-zino-francescatti/pzus1ko2yfd5a"
+          ]
         },
         {
           "id": "wv0ep7tnnphjc",
@@ -21489,6 +21496,8 @@
       "query": "zino francescatti paganini paganini concerto no 1 in d major for violin and",
       "searched_at": "2026-11-12T15:01:02.272542+00:00",
       "reasons": [
+        "Francescatti’s Paganini Op. 6 is in this file. Violin Concerto No. 3 is not. The second work is Bruch’s Op. 26.",
+        "The coupling is Bruch’s G minor concerto, not the concerto numbered 3 on the LP.",
         "1/2 target items supported after composer/work grouping; unresolved.",
         "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
       ]
@@ -25771,10 +25780,15 @@
             }
           ],
           "reasons": [
+            "La Jeunesse d’Hercule, Op. 50, is a 16:58 filler on Decca D244D3. The cached album contains only the five piano concertos and has no Op. 50.",
+            "The five concertos do not make the symphonic poem present.",
             "5/6 target items supported after composer/work grouping; unresolved.",
             "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
           ],
-          "work_group_policy": "qobuz-work-groups-v1"
+          "work_group_policy": "qobuz-work-groups-v1",
+          "recording_review_decision": "withhold",
+          "recording_review": "La Jeunesse d’Hercule, Op. 50, is a 16:58 filler on Decca D244D3. The cached album contains only the five piano concertos and has no Op. 50.",
+          "review_sources": []
         },
         {
           "id": "0002894783196",
@@ -26487,6 +26501,8 @@
       "query": "charles dutoit saens les 5 concertos pour piano",
       "searched_at": "2026-11-12T15:09:03.373207+00:00",
       "reasons": [
+        "La Jeunesse d’Hercule, Op. 50, is a 16:58 filler on Decca D244D3. The cached album contains only the five piano concertos and has no Op. 50.",
+        "The five concertos do not make the symphonic poem present.",
         "5/6 target items supported after composer/work grouping; unresolved.",
         "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
       ]
@@ -31345,15 +31361,29 @@
             }
           ],
           "reasons": [
+            "Withheld: source names Dale Clevenger (horn solo, sideB) and Adolph Herseth (trumpet solo, A1), neither credited in cached digital tracks. Roger Dettmer is only a liner author, but removing that false requirement does not supply the missing soloist evidence. No inference from Chicago Symphony membership or a similar reissue.",
+            "Missing credit metadata is not proof these musicians did not perform.",
+            "Recording-family similarity cannot replace positive source-named soloist checks.",
+            "Source/role/work matching gaps remain; no source normalization or partial acceptance.",
             "0/2 target items supported after composer/work grouping; unresolved.",
             "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
           ],
-          "work_group_policy": "qobuz-work-groups-v1"
+          "work_group_policy": "qobuz-work-groups-v1",
+          "recording_review_decision": "withhold",
+          "recording_review": "Withheld: source names Dale Clevenger (horn solo, sideB) and Adolph Herseth (trumpet solo, A1), neither credited in cached digital tracks. Roger Dettmer is only a liner author, but removing that false requirement does not supply the missing soloist evidence. No inference from Chicago Symphony membership or a similar reissue.",
+          "review_sources": [
+            "https://www.discogs.com/release/3386012",
+            "https://www.eloquenceclassics.com/releases-archive/yvonne-minton-sings-mahler-album/"
+          ]
         }
       ],
       "query": "georg solti mahler symphony no 5 in c minor songs from des knaben",
       "searched_at": "2026-11-12T15:15:18.643685+00:00",
       "reasons": [
+        "Withheld: source names Dale Clevenger (horn solo, sideB) and Adolph Herseth (trumpet solo, A1), neither credited in cached digital tracks. Roger Dettmer is only a liner author, but removing that false requirement does not supply the missing soloist evidence. No inference from Chicago Symphony membership or a similar reissue.",
+        "Missing credit metadata is not proof these musicians did not perform.",
+        "Recording-family similarity cannot replace positive source-named soloist checks.",
+        "Source/role/work matching gaps remain; no source normalization or partial acceptance.",
         "0/2 target items supported after composer/work grouping; unresolved.",
         "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
       ]
@@ -54530,13 +54560,26 @@
             }
           ],
           "reasons": [
+            "Withheld: Saved candidate is a20track mixed-artist compilation; the Prokofiev Romeo excerpt names Boston Symphony, not the source San Francisco Symphony. It does not support the complete two-work LP programme.",
+            "Missing metadata is not proof the musicians did not perform.",
+            "Removing the false photographer credit alone does not resolve source work/positive musical credit gaps.",
+            "No inference from album artists, ensemble membership or composer-only track credits.",
             "0/3 target items supported after composer/work grouping; unresolved."
+          ],
+          "recording_review_decision": "withhold",
+          "recording_review": "Withheld: Saved candidate is a20track mixed-artist compilation; the Prokofiev Romeo excerpt names Boston Symphony, not the source San Francisco Symphony. It does not support the complete two-work LP programme.",
+          "review_sources": [
+            "https://www.discogs.com/release/1638548"
           ]
         }
       ],
       "query": "seiji ozawa tchaikovsky romeo and juliet",
       "searched_at": "2026-11-12T15:31:19.363072+00:00",
       "reasons": [
+        "Withheld: Saved candidate is a20track mixed-artist compilation; the Prokofiev Romeo excerpt names Boston Symphony, not the source San Francisco Symphony. It does not support the complete two-work LP programme.",
+        "Missing metadata is not proof the musicians did not perform.",
+        "Removing the false photographer credit alone does not resolve source work/positive musical credit gaps.",
+        "No inference from album artists, ensemble membership or composer-only track credits.",
         "0/3 target items supported after composer/work grouping; unresolved."
       ]
     },
@@ -64079,15 +64122,28 @@
             }
           ],
           "reasons": [
+            "Withheld: Source names six cello-ensemble members plus double-bass soloist; cached candidate gives ensemble-level labels but not those individual cellists. Work-field/context and ensemble scope also remain unresolved. Do not borrow personnel from ensemble membership.",
+            "Missing metadata is not proof the musicians did not perform.",
+            "Removing the false photographer credit alone does not resolve source work/positive musical credit gaps.",
+            "No inference from album artists, ensemble membership or composer-only track credits.",
             "0/7 target items supported after composer/work grouping; unresolved.",
             "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
           ],
-          "work_group_policy": "qobuz-work-groups-v1"
+          "work_group_policy": "qobuz-work-groups-v1",
+          "recording_review_decision": "withhold",
+          "recording_review": "Withheld: Source names six cello-ensemble members plus double-bass soloist; cached candidate gives ensemble-level labels but not those individual cellists. Work-field/context and ensemble scope also remain unresolved. Do not borrow personnel from ensemble membership.",
+          "review_sources": [
+            "https://www.discogs.com/release/29719858"
+          ]
         }
       ],
       "query": "kian soltani dvorak cello concerto silent woods songs my mother taught me lasst",
       "searched_at": "2026-11-12T15:52:51.065987+00:00",
       "reasons": [
+        "Withheld: Source names six cello-ensemble members plus double-bass soloist; cached candidate gives ensemble-level labels but not those individual cellists. Work-field/context and ensemble scope also remain unresolved. Do not borrow personnel from ensemble membership.",
+        "Missing metadata is not proof the musicians did not perform.",
+        "Removing the false photographer credit alone does not resolve source work/positive musical credit gaps.",
+        "No inference from album artists, ensemble membership or composer-only track credits.",
         "0/7 target items supported after composer/work grouping; unresolved.",
         "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
       ]
@@ -67442,15 +67498,28 @@
             }
           ],
           "reasons": [
+            "Withheld: Neither Kubelik nor the Bavarian Radio orchestra is positively credited on any of42tracks; album-level artist fields cannot supply track/group credit evidence.",
+            "Missing metadata is not proof the musicians did not perform.",
+            "Removing the false photographer credit alone does not resolve source work/positive musical credit gaps.",
+            "No inference from album artists, ensemble membership or composer-only track credits.",
             "0/10 target items supported after composer/work grouping; unresolved.",
             "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
           ],
-          "work_group_policy": "qobuz-work-groups-v1"
+          "work_group_policy": "qobuz-work-groups-v1",
+          "recording_review_decision": "withhold",
+          "recording_review": "Withheld: Neither Kubelik nor the Bavarian Radio orchestra is positively credited on any of42tracks; album-level artist fields cannot supply track/group credit evidence.",
+          "review_sources": [
+            "https://www.discogs.com/release/14398300"
+          ]
         }
       ],
       "query": "rafael kubelik mahler 10 symphonies",
       "searched_at": "2026-11-12T15:57:51.179309+00:00",
       "reasons": [
+        "Withheld: Neither Kubelik nor the Bavarian Radio orchestra is positively credited on any of42tracks; album-level artist fields cannot supply track/group credit evidence.",
+        "Missing metadata is not proof the musicians did not perform.",
+        "Removing the false photographer credit alone does not resolve source work/positive musical credit gaps.",
+        "No inference from album artists, ensemble membership or composer-only track credits.",
         "0/10 target items supported after composer/work grouping; unresolved.",
         "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
       ]
@@ -67951,13 +68020,26 @@
             }
           ],
           "reasons": [
+            "Withheld: Neither Kubelik nor the Bavarian Radio orchestra is positively credited on any of42tracks; album-level artist fields cannot supply track/group credit evidence.",
+            "Missing metadata is not proof the musicians did not perform.",
+            "Removing the false photographer credit alone does not resolve source work/positive musical credit gaps.",
+            "No inference from album artists, ensemble membership or composer-only track credits.",
             "0/11 target items supported after composer/work grouping; unresolved."
+          ],
+          "recording_review_decision": "withhold",
+          "recording_review": "Withheld: Neither Kubelik nor the Bavarian Radio orchestra is positively credited on any of42tracks; album-level artist fields cannot supply track/group credit evidence.",
+          "review_sources": [
+            "https://www.discogs.com/release/13708175"
           ]
         }
       ],
       "query": "rafael kubelik mahler 10 symphonies",
       "searched_at": "2026-11-12T15:58:21.079351+00:00",
       "reasons": [
+        "Withheld: Neither Kubelik nor the Bavarian Radio orchestra is positively credited on any of42tracks; album-level artist fields cannot supply track/group credit evidence.",
+        "Missing metadata is not proof the musicians did not perform.",
+        "Removing the false photographer credit alone does not resolve source work/positive musical credit gaps.",
+        "No inference from album artists, ensemble membership or composer-only track credits.",
         "0/11 target items supported after composer/work grouping; unresolved."
       ]
     },
@@ -96151,15 +96233,28 @@
             }
           ],
           "reasons": [
+            "Withheld: Source names individual string players; cached tracks identify Rolla, Spanyi, Pertis and Budapest Franz Liszt Chamber Orchestra without those additional named players. Orchestra-name variation and work context also need review; no source-player credit waiver.",
+            "Missing metadata is not proof the musicians did not perform.",
+            "Removing the false photographer credit alone does not resolve source work/positive musical credit gaps.",
+            "No inference from album artists, ensemble membership or composer-only track credits.",
             "0/1 target items supported after composer/work grouping; unresolved.",
             "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
           ],
-          "work_group_policy": "qobuz-work-groups-v1"
+          "work_group_policy": "qobuz-work-groups-v1",
+          "recording_review_decision": "withhold",
+          "recording_review": "Withheld: Source names individual string players; cached tracks identify Rolla, Spanyi, Pertis and Budapest Franz Liszt Chamber Orchestra without those additional named players. Orchestra-name variation and work context also need review; no source-player credit waiver.",
+          "review_sources": [
+            "https://www.discogs.com/release/5987607"
+          ]
         }
       ],
       "query": "janos rolla bach die kunst der fuge",
       "searched_at": "2026-11-12T16:23:23.105743+00:00",
       "reasons": [
+        "Withheld: Source names individual string players; cached tracks identify Rolla, Spanyi, Pertis and Budapest Franz Liszt Chamber Orchestra without those additional named players. Orchestra-name variation and work context also need review; no source-player credit waiver.",
+        "Missing metadata is not proof the musicians did not perform.",
+        "Removing the false photographer credit alone does not resolve source work/positive musical credit gaps.",
+        "No inference from album artists, ensemble membership or composer-only track credits.",
         "0/1 target items supported after composer/work grouping; unresolved.",
         "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
       ]
@@ -96954,8 +97049,13 @@
             }
           ],
           "reasons": [
+            "Audrey is a bonus track on this Discogs edition, from a 1954 session with different personnel. The Legacy Edition has the seven 1959 pieces and other bonuses, and it does not contain Audrey.",
+            "The seven 1959 pieces do not make the bonus track present.",
             "7/8 target items supported after composer/work grouping; unresolved."
-          ]
+          ],
+          "recording_review_decision": "withhold",
+          "recording_review": "Audrey is a bonus track on this Discogs edition, from a 1954 session with different personnel. The Legacy Edition has the seven 1959 pieces and other bonuses, and it does not contain Audrey.",
+          "review_sources": []
         },
         {
           "id": "lguuu4usj2f3b",
@@ -97267,6 +97367,8 @@
       "query": "dave brubeck time out",
       "searched_at": "2026-11-12T16:25:08.213139+00:00",
       "reasons": [
+        "Audrey is a bonus track on this Discogs edition, from a 1954 session with different personnel. The Legacy Edition has the seven 1959 pieces and other bonuses, and it does not contain Audrey.",
+        "The seven 1959 pieces do not make the bonus track present.",
         "7/8 target items supported after composer/work grouping; unresolved."
       ]
     },
@@ -103671,13 +103773,22 @@
             }
           ],
           "reasons": [
+            "Ciccolini’s Op. 17 is in this file. The G minor concerto, Op. 22, is not. The second concerto here is Op. 29.",
+            "The file pairs Op. 17 with Op. 29, not Op. 22.",
             "1/2 target items supported after composer/work grouping; unresolved."
+          ],
+          "recording_review_decision": "withhold",
+          "recording_review": "Ciccolini’s Op. 17 is in this file. The G minor concerto, Op. 22, is not. The second concerto here is Op. 29.",
+          "review_sources": [
+            "https://www.qobuz.com/fr-fr/album/saint-saens-piano-concertos-nos-1-op-17-3-op-29-aldo-ciccolini/mxh9m2rac2usa"
           ]
         }
       ],
       "query": "serge baudo saens concertos nos 1 et 2",
       "searched_at": "2026-11-12T16:47:55.163357+00:00",
       "reasons": [
+        "Ciccolini’s Op. 17 is in this file. The G minor concerto, Op. 22, is not. The second concerto here is Op. 29.",
+        "The file pairs Op. 17 with Op. 29, not Op. 22.",
         "1/2 target items supported after composer/work grouping; unresolved."
       ]
     },
@@ -112908,8 +113019,13 @@
             }
           ],
           "reasons": [
+            "Two F-major sonatas stay unmatched. One has no Köchel number. The other is labelled KV 322, which is not a piano sonata. K. 332 and K. 533/494 are present and are not assigned to either title.",
+            "KV 322 is not relabelled to another F-major sonata.",
             "17/19 target items supported after composer/work grouping; unresolved."
-          ]
+          ],
+          "recording_review_decision": "withhold",
+          "recording_review": "Two F-major sonatas stay unmatched. One has no Köchel number. The other is labelled KV 322, which is not a piano sonata. K. 332 and K. 533/494 are present and are not assigned to either title.",
+          "review_sources": []
         },
         {
           "id": "0002894648502",
@@ -113053,6 +113169,8 @@
       "query": "ingrid haebler mozart the complete piano sonatas",
       "searched_at": "2026-11-12T17:09:41.193556+00:00",
       "reasons": [
+        "Two F-major sonatas stay unmatched. One has no Köchel number. The other is labelled KV 322, which is not a piano sonata. K. 332 and K. 533/494 are present and are not assigned to either title.",
+        "KV 322 is not relabelled to another F-major sonata.",
         "17/19 target items supported after composer/work grouping; unresolved."
       ]
     },
@@ -128697,7 +128815,14 @@
             }
           ],
           "reasons": [
+            "Furtwängler’s Unfinished and a Rosamunde entracte are in this file. The Merry Wives of Windsor and Oberon overtures are not.",
+            "An ambience track and an alternate Rosamunde entracte are not the two overtures.",
             "2/4 target items supported after composer/work grouping; unresolved."
+          ],
+          "recording_review_decision": "withhold",
+          "recording_review": "Furtwängler’s Unfinished and a Rosamunde entracte are in this file. The Merry Wives of Windsor and Oberon overtures are not.",
+          "review_sources": [
+            "https://www.qobuz.com/fr-fr/album/schubert-symphony-no-8-d-759-unfinished-entracte-from-rosamunde-wilhelm-furtwangler-wiener-philharmoniker/ghwrdq5arp0rc"
           ]
         },
         {

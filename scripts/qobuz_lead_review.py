@@ -48,6 +48,8 @@ def assess(row, album, review):
             target_fingerprint(row) != review['target_sha256'] or
             fingerprint(album) != review['album_sha256']):
         raise ValueError('Reviewed evidence changed; review again before publication')
+    if review.get('source_sha256') is not None and hashlib.sha256((ROOT/f"raw/discogs/releases/{review['discogs_id']}.json").read_bytes()).hexdigest() != review['source_sha256']:
+        raise ValueError('Reviewed source changed; review recording evidence again')
     if review.get('review_kind') == 'source-split-finale':
         from qobuz_choral_finale_review import assess_finale
         return assess_finale(row, album, review)
@@ -171,6 +173,28 @@ def reviewed_candidate(row, album, review):
     return {**public_album(album), **evidence, 'discovery': 'reviewed-pilot-lead',
             'completeness': result['completeness'], 'recording_review': result['recording_review'],
             'review_sources': result['sources']}
+
+
+def apply_recording_review(row,album,review,candidates):
+    """A validated saved review takes precedence over a scored candidate."""
+    extra=reviewed_candidate(row,album,review)
+    if extra:
+        return [c for c in candidates if c['id']!=extra['id']]+[extra]
+    result=[]
+    for candidate in candidates:
+        if candidate['id']!=review['album_id']:
+            result.append(candidate)
+            continue
+        # Preserve the work signals, but never turn a recording hold/rejection
+        # into an accepted label merely because the scorer improves later.
+        held={**candidate,'status':'unchecked','confidence':None,
+              'recording_review_decision':review['decision'],
+              'recording_review':review['recording_review'],
+              'review_sources':review['sources'],
+              'reasons':[review['recording_review'],*review['limitations'],
+                         *candidate.get('reasons',[])]}
+        result.append(held)
+    return result
 
 
 def report():
