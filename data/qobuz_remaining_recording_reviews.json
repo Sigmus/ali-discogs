@@ -4275,6 +4275,73 @@
         "Missing provenance is not evidence of different audio or catalogue absence.",
         "No recording dates borrowed from source LP notes; no exact pressing/mastering claim."
       ]
+    },
+    {
+      "discogs_id": "13655367",
+      "album_id": "0002894776360",
+      "target_sha256": "cb89fdfc2955530aa73247c04470e389aa1a91e48cca15f1d2fdfc2038f00a3a",
+      "album_sha256": "1cbd8d5b54bf77d8211977df39f7540443c7f9a6169dfdd4443d90cb071fc752",
+      "source_sha256": "4a3c94d42f16d880b5d1908fd7e2f6941a2e12c16cdf9d81dac94dbf33117862",
+      "decision": "probable",
+      "sources": [
+        "https://www.discogs.com/release/13655367",
+        "https://www.prestomusic.com/classical/products/7950776--emil-gilels-beethoven-sonatas"
+      ],
+      "recording_review": "Source DG2530253 notes Berlin January1972; the exact DG4776360 catalogue lists both sonatas recorded13January1972 at UFA-Tonstudio Berlin. All seven distinct movements carry Gilels and Beethoven credits. Source A3b Attacca Prestissimo is the coda of the Waldstein finale, explicitly included in the exact digital finale title, not a third work.",
+      "limitations": [
+        "Recording-family support, not independent take, pressing or mastering verification.",
+        "Source1978 is the LP issue year; January1972 is its stated recording month, not inferred from release date.",
+        "Source splits Waldstein finale A3a/A3b; digital joins Rondo and Prestissimo. Timings differ, including summed source finale9:10 versus digital9:19; not an audio-identity claim.",
+        "Digital reissue credits include a VideoScriptEditor role on Op101; this is not evidence of a different performance or an additional source performer."
+      ],
+      "target_unit_groups": [
+        {
+          "source_titles": [
+            "Klaviersonate Nr. 21 C-dur Op. 53 »Waldstein-Sonate«  ",
+            "Attacca Prestissimo"
+          ],
+          "canonical_title": "Piano Sonata No. 21 in C Major, Op. 53"
+        },
+        {
+          "source_titles": [
+            "Klaviersonate Nr. 28 A-dur Op. 101"
+          ],
+          "canonical_title": "Piano Sonata No. 28 in A Major, Op. 101"
+        }
+      ],
+      "works": [
+        {
+          "target": "Klaviersonate Nr. 21 C-dur Op. 53 »Waldstein-Sonate«  ",
+          "movements": [
+            1,
+            2,
+            3
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Exact source nested movements A1/A2/A3a and adjacent A3b; final digital title explicitly Rondo and Prestissimo.",
+          "reason": "All source sections accounted for; finale coda is joined, not dropped.",
+          "reviewed_sections": {
+            "610583": {
+              "track_sha256": "23ef17661272a78f6dd79ccfcef86e47f1cbf5e63745a9a4365e10d9e55386d9",
+              "movements": [
+                3
+              ]
+            }
+          }
+        },
+        {
+          "target": "Klaviersonate Nr. 28 A-dur Op. 101",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ],
+          "scope": "reviewed-whole-work",
+          "source": "Four nested source B-side movements and exact ordered digital movement titles.",
+          "reason": "Complete four-movement sonata with positive required pianist credits."
+        }
+      ]
     }
   ]
 }

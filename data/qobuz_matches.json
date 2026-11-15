@@ -32,7 +32,7 @@
   "richter_review_fingerprint": "a14865f86e46150593e39bfa285fa6c7c61c8f46147b8094c0cb048fd02118ab",
   "round2_review_fingerprint": "be60742c3d35f5a9aa67f200642f7fcde98a52562a46130e043db8f4aa7c851e",
   "round2_metadata_fingerprint": "9db62d7bf62d4b77f5acf422dfde77959f845f4dc00b2ac0e10c02ccea295860",
-  "remaining_review_fingerprint": "8b52b4ce5446b32a02ecd923805e4e9b9a5b502f5926ea604bd4e02b3c2f6171",
+  "remaining_review_fingerprint": "859c468f03aa924ea6750b87ffa31d601e3aaa73e2a657173fb3af793eaef38c",
   "remaining_metadata_fingerprint": "393b2d12e176160ab311b65267b38bdc8c205222e12f792bf07eba5c1fcfafbf",
   "remaining_followup_metadata_fingerprint": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
   "seven_album_metadata_fingerprint": "139f9b336c68b56ea22c18362cb0481c026366c5d359142f2bb702fe1233a4fc",
@@ -53735,14 +53735,143 @@
       ]
     },
     "13655367": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0002894776360",
+        "name": "Beethoven: The Piano Sonatas",
+        "artists": [
+          "Emil Gilels"
+        ],
+        "label": "Deutsche Grammophon (DG)",
+        "release_date": "2006-01-01",
+        "image": "https://static.qobuz.com/images/covers/60/63/0002894776360_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/beethoven-the-piano-sonatas-emil-gilels/0002894776360"
+      },
+      "candidates": [
+        {
+          "id": "0002894776360",
+          "name": "Beethoven: The Piano Sonatas",
+          "artists": [
+            "Emil Gilels"
+          ],
+          "label": "Deutsche Grammophon (DG)",
+          "release_date": "2006-01-01",
+          "image": "https://static.qobuz.com/images/covers/60/63/0002894776360_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/beethoven-the-piano-sonatas-emil-gilels/0002894776360",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 2,
+          "target_count": 2,
+          "required_performers": [
+            "Emil Gilels"
+          ],
+          "programme": [
+            {
+              "target": "Klaviersonate Nr. 21 C-dur Op. 53 »Waldstein-Sonate«  ",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                610565,
+                610574,
+                610583
+              ]
+            },
+            {
+              "target": "Klaviersonate Nr. 28 A-dur Op. 101",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                610531,
+                610540,
+                610549,
+                610558
+              ]
+            }
+          ],
+          "reasons": [
+            "Each target item has supporting work and performer credits.",
+            "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+            "Source DG2530253 notes Berlin January1972; the exact DG4776360 catalogue lists both sonatas recorded13January1972 at UFA-Tonstudio Berlin. All seven distinct movements carry Gilels and Beethoven credits. Source A3b Attacca Prestissimo is the coda of the Waldstein finale, explicitly included in the exact digital finale title, not a third work.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Recording-family support, not independent take, pressing or mastering verification.",
+            "Source1978 is the LP issue year; January1972 is its stated recording month, not inferred from release date.",
+            "Source splits Waldstein finale A3a/A3b; digital joins Rondo and Prestissimo. Timings differ, including summed source finale9:10 versus digital9:19; not an audio-identity claim.",
+            "Digital reissue credits include a VideoScriptEditor role on Op101; this is not evidence of a different performance or an additional source performer."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Klaviersonate Nr. 21 C-dur Op. 53 »Waldstein-Sonate«  ",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "track_ids": [
+                  610565,
+                  610574,
+                  610583
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "Exact source nested movements A1/A2/A3a and adjacent A3b; final digital title explicitly Rondo and Prestissimo.",
+                "reason": "All source sections accounted for; finale coda is joined, not dropped."
+              },
+              {
+                "target": "Klaviersonate Nr. 28 A-dur Op. 101",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3,
+                  4
+                ],
+                "track_ids": [
+                  610531,
+                  610540,
+                  610549,
+                  610558
+                ],
+                "scope": "reviewed-whole-work",
+                "source": "Four nested source B-side movements and exact ordered digital movement titles.",
+                "reason": "Complete four-movement sonata with positive required pianist credits."
+              }
+            ],
+            "overlapping_target_tracks": false
+          },
+          "recording_review": "Source DG2530253 notes Berlin January1972; the exact DG4776360 catalogue lists both sonatas recorded13January1972 at UFA-Tonstudio Berlin. All seven distinct movements carry Gilels and Beethoven credits. Source A3b Attacca Prestissimo is the coda of the Waldstein finale, explicitly included in the exact digital finale title, not a third work.",
+          "review_sources": [
+            "https://www.discogs.com/release/13655367",
+            "https://www.prestomusic.com/classical/products/7950776--emil-gilels-beethoven-sonatas"
+          ]
+        }
+      ],
       "query": "emil gilels beethoven waldsteinsonate op 53 sonate nr 28 op 101",
       "searched_at": "2026-11-12T15:30:34.821317+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Each target item has supporting work and performer credits.",
+        "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+        "Source DG2530253 notes Berlin January1972; the exact DG4776360 catalogue lists both sonatas recorded13January1972 at UFA-Tonstudio Berlin. All seven distinct movements carry Gilels and Beethoven credits. Source A3b Attacca Prestissimo is the coda of the Waldstein finale, explicitly included in the exact digital finale title, not a third work.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Recording-family support, not independent take, pressing or mastering verification.",
+        "Source1978 is the LP issue year; January1972 is its stated recording month, not inferred from release date.",
+        "Source splits Waldstein finale A3a/A3b; digital joins Rondo and Prestissimo. Timings differ, including summed source finale9:10 versus digital9:19; not an audio-identity claim.",
+        "Digital reissue credits include a VideoScriptEditor role on Op101; this is not evidence of a different performance or an additional source performer."
       ]
     },
     "17748481": {

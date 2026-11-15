@@ -8,10 +8,10 @@ and cache commands. This directory owns current planning.
 
 ## Current state
 
-- Branch main; last known push7945944. Later work committed locally; no deployment
-  verified. Inspect Git before claiming remote state.
+- Branch main; pushed through cf7f263 on15November. Later work remains local;
+  deployment not verified. Inspect Git before claiming remote state.
 - Collection741copies/740unique. Saved labels: Spotify254Found/273Probable/
-  210NotFound/4Unchecked; Qobuz12Found/128Probable/601Unchecked copies.
+  210NotFound/4Unchecked; Qobuz12Found/129Probable/600Unchecked copies.
 - Qobuz publication `data/qobuz_matches.json` is separate from Spotify collection
   results. Labels/scores are saved data; Qobuz85/95 are heuristic levels, not
   probabilities. Legacy Spotify labels are not comparable accuracy measurements.
@@ -85,7 +85,8 @@ and cache commands. This directory owns current planning.
 Prefer reliable matches to higher counts. No unbounded new-hit downloads, warning
 retries, pushes or deployment. Bitches Brew credit exception remains a proposal.
 Do not invent identity, overwrite source text or loosen credit gates for counts.
-Current pass:192script tests, UI normalization/build pass.600unchecked unique:
-412work/credit,160metadata,18withheld,3recording rejections,6empty,1source hold.
-No Qobuz calls/push; only Karajan7064777accepted status changed.
+Current pass:194script tests, UI normalization/build pass.599unchecked unique:
+411work/credit,160metadata,18withheld,3recording rejections,6empty,1source hold.
+Gilels13655367now Probable: exact joined-finale proof and January1972family.
+Push through cf7f263 completed; subsequent review local, no Qobuz calls.
 [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).

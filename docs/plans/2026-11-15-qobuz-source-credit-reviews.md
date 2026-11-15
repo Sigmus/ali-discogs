@@ -150,3 +150,15 @@ source titles; do not bypass that guard or discard repeated Allegretto labels.
 Next: source-position-safe review using existing kinds if possible; a new review
 kind needs concrete scope. Audit assertions verify35unique tracks and all named
 pianist credits. No code/publication change, provider calls or push.
+
+### 2026-11-15 — Push and Gilels joined-finale review
+
+Pushed main7945944..cf7f263 as requested; deployment not checked. Continued
+offline. Gilels13655367/0002894776360now Probable85 using existing target-unit
+grouping: source A3b Attacca Prestissimo belongs to the Waldstein finale, whose
+exact digital title explicitly contains Prestissimo. Seven distinct movements
+cover Op53/101; source and exact reissue catalogue identify January1972Berlin.
+Retained timing and transfer/mastering caveats. Regressions reject rehashed
+missing coda/movement and wrong pianist.194script tests, UI normalization/build
+pass. Only13655367accepted status changes. Counts12Found/129Probable/600Unchecked
+copies. Next cached Campanella numbered-piece binding; no Qobuz calls.
