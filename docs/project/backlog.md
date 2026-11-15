@@ -25,8 +25,9 @@ explicit numbered-piece reviews. Schnabel4694861now Probable after source
 heading/band review preserving repeated tempo labels and preventing cross-sonata
 borrowing. Furtwängler3737065section/transfer uncertainties and Prêtre13671866
 diagnostic retained. Prêtre13bands/20sections now mapped; original-image named
-Debost/Cazauran credit gaps enforce Unchecked. Next: Böhm6810640Vienna5/8explicit
-work fields and recording-family review. Instrument-scope exemption unadopted. Kubelik/Ozawa/
+Debost/Cazauran credit gaps enforce Unchecked. Böhm6810640Vienna5/8now Probable
+with source-image1977live proof and work-field bindings. Next Reiner2463301
+Kije/Nightingale. Instrument-scope exemption unadopted. Kubelik/Ozawa/
 Soltani/Rolla five photographer leads now explicitly withheld. Five Barenboim EMI
 LPs blocked against later DG cycle:2chronological rejections,3undated holds.
 Recording-review precedence enforced with regression tests; no label changes. Casals6628473/23950082now have complete diagnostic

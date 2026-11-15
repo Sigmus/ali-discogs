@@ -32,7 +32,7 @@
   "richter_review_fingerprint": "a14865f86e46150593e39bfa285fa6c7c61c8f46147b8094c0cb048fd02118ab",
   "round2_review_fingerprint": "be60742c3d35f5a9aa67f200642f7fcde98a52562a46130e043db8f4aa7c851e",
   "round2_metadata_fingerprint": "9db62d7bf62d4b77f5acf422dfde77959f845f4dc00b2ac0e10c02ccea295860",
-  "remaining_review_fingerprint": "aefd7e459b4d20b74b0a1e35f889c75112aaf00ccd7148b373b168530e17cf44",
+  "remaining_review_fingerprint": "7e02d4aad8102b4f1f49e3d89e6095cd023ce818703164a7fe61fdd1461ec0d5",
   "remaining_metadata_fingerprint": "393b2d12e176160ab311b65267b38bdc8c205222e12f792bf07eba5c1fcfafbf",
   "remaining_followup_metadata_fingerprint": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
   "seven_album_metadata_fingerprint": "139f9b336c68b56ea22c18362cb0481c026366c5d359142f2bb702fe1233a4fc",
@@ -56940,14 +56940,114 @@
       ]
     },
     "6810640": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0002894318282",
+        "name": "Schubert: Symphonies Nos.5 & 8 / Dvorák: Symphony No.9 / Schumann: Symphony No.4",
+        "artists": [
+          "Wiener Philharmonic Orchestra"
+        ],
+        "label": "Deutsche Grammophon (DG)",
+        "release_date": "1990-01-01",
+        "image": "https://static.qobuz.com/images/covers/82/82/0002894318282_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/schubert-symphonies-nos5-8-dvorak-symphony-no9-schumann-symphony-no4-karl-bohm/0002894318282"
+      },
+      "candidates": [
+        {
+          "id": "0002894318282",
+          "name": "Schubert: Symphonies Nos.5 & 8 / Dvorák: Symphony No.9 / Schumann: Symphony No.4",
+          "artists": [
+            "Wiener Philharmonic Orchestra"
+          ],
+          "label": "Deutsche Grammophon (DG)",
+          "release_date": "1990-01-01",
+          "image": "https://static.qobuz.com/images/covers/82/82/0002894318282_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/schubert-symphonies-nos5-8-dvorak-symphony-no9-schumann-symphony-no4-karl-bohm/0002894318282",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 2,
+          "target_count": 2,
+          "required_performers": [
+            "Karl Böhm",
+            "Wiener Philharmoniker"
+          ],
+          "programme": [
+            {
+              "target": "Symphonie N°8 En Si Mineur, D. 759 \"Inachevée\"",
+              "work_tracks": 2,
+              "credited_tracks": 2,
+              "track_ids": [
+                8760921,
+                8760923
+              ]
+            },
+            {
+              "target": "Symphonie N°5 En Si Bémol Majeur, D. 485",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                8760941,
+                8760943,
+                8760945,
+                8760947
+              ]
+            }
+          ],
+          "reasons": [
+            "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+            "Original DG2531373liner explicitly identifies the Unfinished as live SchubertiadeHohenems1977; both exact digital work-field tracks carry the same1977Hohenemslive marker, required Böhm/Vienna and Schubert credits. Source sideBuses2531279matrix and1980phonogram mark; producerMayer/engineerHermanns align with digital Fifth. Universal documents Vienna FifthDecember1979and HohenemsUnfinishedJune1977. Complete2+4movement programmes supported; unrelated Dvorak/Schumann tracks excluded.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Recording-family support, not independently verified takes or identical LP/digital mastering.",
+            "Source1982issue and sideB1980phonogram dates are not recording-session dates. No year inferred from ISRC or digital1990reissue metadata.",
+            "Unfinished source12:47/12:06versus digital13:01/12:19; differences retained, not explained as applause without evidence. Fifth individual timings differ2–6seconds.",
+            "The primary complete-recordings listing corroborates session families; it is a different box, not the exact digital candidate barcode. Source/candidate labels, programme, named producers and explicit live marker provide the bounded connection."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Symphonie N°8 En Si Mineur, D. 759 \"Inachevée\"",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  8760921,
+                  8760923
+                ]
+              },
+              {
+                "target": "Symphonie N°5 En Si Bémol Majeur, D. 485",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  8760941,
+                  8760943,
+                  8760945,
+                  8760947
+                ]
+              }
+            ]
+          },
+          "recording_review": "Original DG2531373liner explicitly identifies the Unfinished as live SchubertiadeHohenems1977; both exact digital work-field tracks carry the same1977Hohenemslive marker, required Böhm/Vienna and Schubert credits. Source sideBuses2531279matrix and1980phonogram mark; producerMayer/engineerHermanns align with digital Fifth. Universal documents Vienna FifthDecember1979and HohenemsUnfinishedJune1977. Complete2+4movement programmes supported; unrelated Dvorak/Schumann tracks excluded.",
+          "review_sources": [
+            "https://www.discogs.com/release/6810640",
+            "https://www.universal-music.co.jp/karl-bohm/products/uccg-5214/",
+            "https://www.universal-music.co.jp/karl-bohm/products/486-1193/"
+          ]
+        }
+      ],
       "query": "karl bohm schubert symphonies ndeg8 inachevee ndeg5 en si bemol majeur",
       "searched_at": "2026-11-12T15:41:05.328154+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+        "Original DG2531373liner explicitly identifies the Unfinished as live SchubertiadeHohenems1977; both exact digital work-field tracks carry the same1977Hohenemslive marker, required Böhm/Vienna and Schubert credits. Source sideBuses2531279matrix and1980phonogram mark; producerMayer/engineerHermanns align with digital Fifth. Universal documents Vienna FifthDecember1979and HohenemsUnfinishedJune1977. Complete2+4movement programmes supported; unrelated Dvorak/Schumann tracks excluded.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Recording-family support, not independently verified takes or identical LP/digital mastering.",
+        "Source1982issue and sideB1980phonogram dates are not recording-session dates. No year inferred from ISRC or digital1990reissue metadata.",
+        "Unfinished source12:47/12:06versus digital13:01/12:19; differences retained, not explained as applause without evidence. Fifth individual timings differ2–6seconds.",
+        "The primary complete-recordings listing corroborates session families; it is a different box, not the exact digital candidate barcode. Source/candidate labels, programme, named producers and explicit live marker provide the bounded connection."
       ]
     },
     "4491358": {

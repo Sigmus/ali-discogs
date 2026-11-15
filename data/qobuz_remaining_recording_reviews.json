@@ -5082,6 +5082,152 @@
         "Raw and normalized collection remain unchanged; missing source credits are retained in this hash-bound review.",
         "Combined-band timings also differ; neither matching total duration nor score instrumentation alone verifies this recording."
       ]
+    },
+    {
+      "discogs_id": "6810640",
+      "album_id": "0002894318282",
+      "review_kind": "bound-tracks",
+      "target_sha256": "aac0e0ce242451489f798de5a87f85f7fd7747f53d77be70a3855b6935bd3597",
+      "album_sha256": "39504db402dc6e760ddd7e01210156f3568da2eea18f88b8978efdfcc6193e3e",
+      "source_sha256": "5f7382cad06a9fa8e040060a2cd7c89375ce5f64adc57af36d639507c3c13eeb",
+      "external_source_files": [
+        {
+          "path": "data/review_sources/bohm-6810640/liner.jpg",
+          "sha256": "baf6de53da8b4b8726bf48d9d7984c81d64f4893d51af01592ff11b310d6fd15",
+          "source_url": "https://i.discogs.com/0BqnGXtoTgFAFUkGcfztdyYfqKYhVjQB2741fBp6F-w/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY4MTA2/NDAtMTQyNzExNDAx/Ny0xNzgwLmpwZWc.jpeg"
+        },
+        {
+          "path": "data/review_sources/bohm-6810640/side-a.jpg",
+          "sha256": "202081b9aa845027c3f34981749dd1ddfa992d7f99f0e9a9a446066342e137d4",
+          "source_url": "https://i.discogs.com/LyheYEG-3LU7s4wLO20q0im6bqluLpWXF2os-W8_hfM/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY4MTA2/NDAtMTQyNzExNDAx/NS0yMTgzLmpwZWc.jpeg"
+        },
+        {
+          "path": "data/review_sources/bohm-6810640/side-b.jpg",
+          "sha256": "53426bf17a272f2af4015519dbef4aa28b6010ad046dbade52ac60508bfe8177",
+          "source_url": "https://i.discogs.com/zfWtLJlJsqGTpSQVD_ACue6R6BCnEMbRHjUxF5bGqvk/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY4MTA2/NDAtMTQyNzExNDAx/Ny01Mjg0LmpwZWc.jpeg"
+        }
+      ],
+      "decision": "probable",
+      "required_performers": [
+        "Karl Böhm",
+        "Wiener Philharmoniker"
+      ],
+      "adds": [
+        {
+          "target": "Symphonie N°8 En Si Mineur, D. 759 \"Inachevée\"",
+          "track_id": 8760921,
+          "title_contains": "1. Allegro moderato",
+          "work_equals": "Symphony No. 8 In B Minor, D.759 - \"Unfinished\""
+        },
+        {
+          "target": "Symphonie N°8 En Si Mineur, D. 759 \"Inachevée\"",
+          "track_id": 8760923,
+          "title_contains": "2. Andante con moto",
+          "work_equals": "Symphony No. 8 In B Minor, D.759 - \"Unfinished\""
+        }
+      ],
+      "expected": {
+        "Symphonie N°8 En Si Mineur, D. 759 \"Inachevée\"": [
+          8760921,
+          8760923
+        ],
+        "Symphonie N°5 En Si Bémol Majeur, D. 485": [
+          8760941,
+          8760943,
+          8760945,
+          8760947
+        ]
+      },
+      "extra_track_ids": [
+        8760925,
+        8760927,
+        8760929,
+        8760931,
+        8760933,
+        8760935,
+        8760937,
+        8760939
+      ],
+      "numbered_movement_runs": [
+        {
+          "target": "Symphonie N°8 En Si Mineur, D. 759 \"Inachevée\"",
+          "movements": [
+            1,
+            2
+          ]
+        },
+        {
+          "target": "Symphonie N°5 En Si Bémol Majeur, D. 485",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ],
+      "marks": [
+        {
+          "track_id": 8760921,
+          "text": "1. Allegro moderato",
+          "composer_equals": "Franz Schubert",
+          "version_equals": "Live At Pfarrkirche, Hohenems / 1977",
+          "isrc_equals": "DEF057702251",
+          "reference_duration_seconds": 767
+        },
+        {
+          "track_id": 8760923,
+          "text": "2. Andante con moto",
+          "composer_equals": "Franz Schubert",
+          "version_equals": "Live At Pfarrkirche, Hohenems / 1977",
+          "isrc_equals": "DEF057702252",
+          "reference_duration_seconds": 726
+        },
+        {
+          "track_id": 8760941,
+          "text": "Schubert: Symphony No. 5 In B Flat, D.485: I. Allegro",
+          "composer_equals": "Franz Schubert",
+          "version_equals": null,
+          "isrc_equals": "DEF057901101",
+          "reference_duration_seconds": 343
+        },
+        {
+          "track_id": 8760943,
+          "text": "Schubert: Symphony No. 5 In B Flat, D.485: II. Andante con moto",
+          "composer_equals": "Franz Schubert",
+          "version_equals": null,
+          "isrc_equals": "DEF057901102",
+          "reference_duration_seconds": 640
+        },
+        {
+          "track_id": 8760945,
+          "text": "Schubert: Symphony No. 5 In B Flat, D.485: III. Menuetto (Allegro molto)",
+          "composer_equals": "Franz Schubert",
+          "version_equals": null,
+          "isrc_equals": "DEF057901103",
+          "reference_duration_seconds": 350
+        },
+        {
+          "track_id": 8760947,
+          "text": "Schubert: Symphony No. 5 In B Flat, D.485: IV. Allegro vivace",
+          "composer_equals": "Franz Schubert",
+          "version_equals": null,
+          "isrc_equals": "DEF057901104",
+          "reference_duration_seconds": 348
+        }
+      ],
+      "sources": [
+        "https://www.discogs.com/release/6810640",
+        "https://www.universal-music.co.jp/karl-bohm/products/uccg-5214/",
+        "https://www.universal-music.co.jp/karl-bohm/products/486-1193/"
+      ],
+      "recording_review": "Original DG2531373liner explicitly identifies the Unfinished as live SchubertiadeHohenems1977; both exact digital work-field tracks carry the same1977Hohenemslive marker, required Böhm/Vienna and Schubert credits. Source sideBuses2531279matrix and1980phonogram mark; producerMayer/engineerHermanns align with digital Fifth. Universal documents Vienna FifthDecember1979and HohenemsUnfinishedJune1977. Complete2+4movement programmes supported; unrelated Dvorak/Schumann tracks excluded.",
+      "limitations": [
+        "Recording-family support, not independently verified takes or identical LP/digital mastering.",
+        "Source1982issue and sideB1980phonogram dates are not recording-session dates. No year inferred from ISRC or digital1990reissue metadata.",
+        "Unfinished source12:47/12:06versus digital13:01/12:19; differences retained, not explained as applause without evidence. Fifth individual timings differ2–6seconds.",
+        "The primary complete-recordings listing corroborates session families; it is a different box, not the exact digital candidate barcode. Source/candidate labels, programme, named producers and explicit live marker provide the bounded connection."
+      ]
     }
   ]
 }

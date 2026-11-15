@@ -11,7 +11,7 @@ and cache commands. This directory owns current planning.
 - Branch main; pushed through cf7f263 on15November. Later work remains local;
   deployment not verified. Inspect Git before claiming remote state.
 - Collection741copies/740unique. Saved labels: Spotify254Found/273Probable/
-  210NotFound/4Unchecked; Qobuz12Found/131Probable/598Unchecked copies.
+  210NotFound/4Unchecked; Qobuz12Found/132Probable/597Unchecked copies.
 - Qobuz publication `data/qobuz_matches.json` is separate from Spotify collection
   results. Labels/scores are saved data; Qobuz85/95 are heuristic levels, not
   probabilities. Legacy Spotify labels are not comparable accuracy measurements.
@@ -78,7 +78,8 @@ and cache commands. This directory owns current planning.
    bands;13bands/20sections now mapped. Original liner/label names M.Cazauran
    and M.Debost absent from candidate credits; explicit image-bound hold saved.
    Matching sideBtotal21:20does not resolve large per-band timing differences.
-   Next: Böhm6810640Vienna Schubert5/8work-field and recording-family review.
+   Böhm6810640now Probable with source-image1977live proof and exact2+4movement
+   bindings. Next: Reiner2463301Kije/Nightingale explicit work-field review.
    [Source-credit plan](../plans/2026-11-15-qobuz-source-credit-reviews.md).
 2. Keep Casals/Gieseking transfer identity unresolved until recording-specific
    evidence exists. Source correction alone does not authorize promotion.
@@ -90,8 +91,8 @@ and cache commands. This directory owns current planning.
 Prefer reliable matches to higher counts. No unbounded new-hit downloads, warning
 retries, pushes or deployment. Bitches Brew credit exception remains a proposal.
 Do not invent identity, overwrite source text or loosen credit gates for counts.
-Current pass:202script tests, UI normalization/build pass.597unchecked unique:
-406work/credit,160metadata,21withheld,3recording rejections,6empty,1source hold.
+Current pass:204script tests, UI normalization/build pass.596unchecked unique:
+405work/credit,160metadata,21withheld,3recording rejections,6empty,1source hold.
 Gilels13655367and Campanella10100439now Probable. Böhm9932700held for missing
 Rosamunde; Barenboim9861630held for unresolved EMI/DG recording-family link.
 Push through cf7f263 completed; subsequent review local, no Qobuz calls.

@@ -222,3 +222,17 @@ band accounting, reused/missing sections, equal-total trap and broken image proo
 12Found/131Probable/598Unchecked copies. Inventory597uncheckedunique:406work/credit,
 160metadata,21withheld,3rejections,6empty,1source hold. Five public LP images
 inspected; no Qobuz requests or push. Next cached Böhm6810640Vienna5/8review.
+
+### 2026-11-15 — Böhm Vienna Schubert5/8 accepted with live provenance
+
+6810640/0002894318282now Probable85. Two bare-title Unfinished tracks bound to
+exact D759work fields and1977Hohenemslive versions; four Fifth movements supported.
+Original LP liner explicitly identifies liveSchubertiadeHohenems1977; sideBlabel
+uses2531279matrix/1980phonogram. Source producer/engineer assignments align with
+digital per-work credits. Universal primary sources corroborate HohenemsJune1977
+and ViennaFifthDecember1979recording families. Source1982/phonogram dates kept
+separate; no date inferred from ISRC. All six require Schubert Composer/Böhm/Vienna,
+exact ISRC/version/title marks and source-timing tolerance; eight unrelated tracks
+excluded. Timing/take/mastering caveats retained. Image proof saved/hash-validated.
+204script tests, UI normalization/build pass. Only6810640accepted status changes;
+12Found/132Probable/597Unchecked copies. No Qobuz request/push. Next Reiner2463301.
