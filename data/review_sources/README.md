@@ -47,3 +47,10 @@ or authenticated requests are included.
   Saved PNGs are hashed in the2236260review; source publication is not proof of
   third-party digital transfer/mastering. Publisher B-flat-major label retained
   as a discrepancy against LP B-flat-minor wording. Full45page PDF not committed.
+
+
+- `6628473-suite-3-label-browser.png` and `...suite-4-label-browser.png`: browser
+  captures of original Angel COLH17label gallery, inspected15November. Suite3
+  explicitly BWV1009and Suite4BWV1010. Raw image URLs and capture hashes in
+  `qobuz_casals_source_audit.json`; captures retain gallery context. Original image
+  download unavailable; these are screenshots, not original image files.

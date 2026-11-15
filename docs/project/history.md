@@ -1719,3 +1719,17 @@ Shared binding test fixture updated to include seven-album archive (otherwise
 prior Yepes hold was missing its album). An overlapping publication writer caused
 one preservation-check failure; final suite rerun sequentially after regeneration.
 No provider requests, push/deployment. Next Casals original-source conflict review.
+
+
+### 2026-11-15 — Casals label resolves catalogue typo; reusable credit-role fix
+
+COLH17original labels inspected in browser:Suite3BWV1009andSuite4BWV1010with
+1936/1939month/year labels. Saved screenshot evidence/hash provenance and separate
+correction proposal; cached Discogs1008source and normalized collection unchanged.
+Casals blocked also by liner author Guglielmo Barblan incorrectly required as a
+performer because note title says Violoncello. Fixed annotation role parsing for
+future normalizations, retaining genuine vocal annotations. Diagnostic old/new
+builder audit740details:9nonperforming-credit removals,1violinist/conductor order
+change. No provider/result refresh. Source-corrected shadow has full work support
+but Nar Classical candidate has no recording-session/take markers; no promotion.
+All173script tests and UI normalization pass. No Qobuz requests, push/deployment.

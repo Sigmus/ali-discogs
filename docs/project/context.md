@@ -92,15 +92,15 @@ new-hit downloads, automatic promotions, pushes or deployment. Bitches Brew’s
 credit exception remains a proposal. Preserve source/hash-bound review safeguards;
 never loosen credits or invent recording identity to improve a count.
 
-Next action: inspect original Casals6628473 source for Suite3/BWV1008 conflict,
-then review23950082 suite context. Preserve source text until evidence reconciles it.
-Ciccolini2236260 reviewed Probable85: six exact tracks/timings, two source-side
-composers, positive performer/Composer credits and Warner1957recording-family
-corroboration. Third-party mastering and mono/stereo remain unverified.
-Optional bound-track Composer-role mark protects mixed-composer mappings; no global
-key/name/title aliases. Selected source PDF pages saved and hash-bound.
+Next action: bounded Qobuz review for Casals6628473 using saved source-label
+correction and nonperforming-credit evidence; recording provenance still unresolved.
+Then23950082suite context. Original COLH17label confirms Suite3BWV1009, not saved
+1008; correction proposal saved separately, raw/normalized source unchanged.
+Role parser fixed for future normalization: bracketed liner/photo/technician text
+cannot create performers. Diagnostic740release audit:9false credits,1order change;
+genuine previously recognized singers retained. No collection refresh applied.
+Ciccolini2236260Probable committed45604e7; counts12Found/125Probable/604Unchecked
+copies. No further publication changes. All173script tests and UI normalization pass.
 [Seven-album follow-up](../plans/2026-11-15-qobuz-metadata-followup.md).
-Only2236260published record changed;603unchecked unique. All170script tests
-pass after regeneration; UI normalization/build pass. No provider retrieval,
-push/deployment. Public Warner source downloaded for review.
+No Qobuz calls, push/deployment. Discogs browser source research only.
 [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).

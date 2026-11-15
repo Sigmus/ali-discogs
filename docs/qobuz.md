@@ -444,3 +444,11 @@ sides can therefore use explicit mappings without a global title/key translation
 or borrowing a composer from another work. Existing reviews without the mark keep
 their prior checks. Source/target/album hashes, full programmes and performer
 requirements still apply.
+
+
+Discogs normalization now ignores bracketed descriptive annotations when deciding
+credit roles. A liner-note title mentioning cello does not make its author a
+cellist. Previously recognized genuine vocal annotations remain supported. This
+fix affects future builds of match items; refreshing saved collection/results is
+a separate operation and must preserve or re-review source-bound evidence.
+The15November Casals/source-role audit is diagnostic; no bulk refresh was applied.

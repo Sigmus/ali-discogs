@@ -1,0 +1,954 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-15",
+  "scope": "Compare old/new builders on synthetic basic information from each saved release detail; diagnostic only, not collection refresh.",
+  "unique_releases_checked": 740,
+  "affected": [
+    {
+      "discogs_id": "6628473",
+      "source_sha256": "5f42bdca1cea15161fe4bb732d6375aa08bbf8d9deca7ce16e02ca63bf227e91",
+      "changes": {
+        "performers": {
+          "before": [
+            "Pablo Casals",
+            "Guglielmo Barblan"
+          ],
+          "after": [
+            "Pablo Casals"
+          ]
+        }
+      },
+      "source_roles": [
+        {
+          "name": "Pablo Casals",
+          "role": "Cello"
+        },
+        {
+          "name": "Johann Sebastian Bach",
+          "role": "Composed By"
+        },
+        {
+          "name": "Paul Tortelier",
+          "role": "Liner Notes [\"The Interpretation Of Pablo Casals\"]"
+        },
+        {
+          "name": "Guglielmo Barblan",
+          "role": "Liner Notes [\"The Violoncello Before 1720\"]"
+        },
+        {
+          "name": "Tristram Cary",
+          "role": "Liner Notes [Notes On Suites Nos. 3 & 4]"
+        },
+        {
+          "name": "Hélène Janbreau",
+          "role": "Photography By [Photo Of Casals]"
+        }
+      ],
+      "saved_performers": [
+        "Pablo Casals",
+        "Guglielmo Barblan"
+      ]
+    },
+    {
+      "discogs_id": "5972183",
+      "source_sha256": "634d6c60764b32ca2eb755ed2d0b57c00343c95ef79c8ad9daac6f580986b390",
+      "changes": {
+        "performers": {
+          "before": [
+            "Georg Solti",
+            "Chicago Symphony Orchestra",
+            "Yvonne Minton",
+            "Roger Dettmer"
+          ],
+          "after": [
+            "Georg Solti",
+            "Chicago Symphony Orchestra",
+            "Yvonne Minton"
+          ]
+        },
+        "key_performers": {
+          "before": [
+            "Georg Solti"
+          ],
+          "after": [
+            "Georg Solti",
+            "Yvonne Minton"
+          ]
+        }
+      },
+      "source_roles": [
+        {
+          "name": "Gustav Mahler",
+          "role": "Composed By"
+        },
+        {
+          "name": "Georg Solti",
+          "role": "Conductor"
+        },
+        {
+          "name": "Yvonne Minton",
+          "role": "Contralto Vocals"
+        },
+        {
+          "name": "Decca Publicity Art Department",
+          "role": "Design [Box Front And Booklet]"
+        },
+        {
+          "name": "W (12)",
+          "role": "Lacquer Cut By"
+        },
+        {
+          "name": "Deryck Cooke",
+          "role": "Liner Notes"
+        },
+        {
+          "name": "Roger Dettmer",
+          "role": "Liner Notes [\"Georg Solti &  Chicago Symphony Orchestra\"]"
+        },
+        {
+          "name": "Chicago Symphony Orchestra",
+          "role": "Orchestra"
+        },
+        {
+          "name": "William Blake",
+          "role": "Painting [Box Cover]"
+        },
+        {
+          "name": "Anthony Altaffer",
+          "role": "Photography By [Georg Solti]"
+        },
+        {
+          "name": "Hans Wild (2)",
+          "role": "Photography By [Rodin's Bust Of Mahler]"
+        },
+        {
+          "name": "Laura Mardon",
+          "role": "Text By [Booklet: English Translation Of Sung Texts]"
+        }
+      ],
+      "saved_performers": [
+        "Georg Solti",
+        "Chicago Symphony Orchestra",
+        "Yvonne Minton",
+        "Roger Dettmer"
+      ]
+    },
+    {
+      "discogs_id": "3386012",
+      "source_sha256": "d69150a26755dbdc38308d1d1ec6a542026157ee50c8a398c361a67e7bedc6ab",
+      "changes": {
+        "performers": {
+          "before": [
+            "Georg Solti",
+            "Chicago Symphony Orchestra",
+            "Yvonne Minton",
+            "Roger Dettmer"
+          ],
+          "after": [
+            "Georg Solti",
+            "Chicago Symphony Orchestra",
+            "Yvonne Minton"
+          ]
+        },
+        "key_performers": {
+          "before": [
+            "Georg Solti"
+          ],
+          "after": [
+            "Georg Solti",
+            "Yvonne Minton"
+          ]
+        }
+      },
+      "source_roles": [
+        {
+          "name": "Gustav Mahler",
+          "role": "Composed By"
+        },
+        {
+          "name": "Georg Solti",
+          "role": "Conductor"
+        },
+        {
+          "name": "Yvonne Minton",
+          "role": "Contralto Vocals"
+        },
+        {
+          "name": "Decca Publicity Art Department",
+          "role": "Design [Box Front And Booklet]"
+        },
+        {
+          "name": "Dale Clevenger",
+          "role": "Horn [Solo]"
+        },
+        {
+          "name": "W (12)",
+          "role": "Lacquer Cut By"
+        },
+        {
+          "name": "Roger Dettmer",
+          "role": "Liner Notes [\"Georg Solti & The Chicago Symphony Orchestra\"]"
+        },
+        {
+          "name": "Deryck Cooke",
+          "role": "Liner Notes [Mahler's 5th]"
+        },
+        {
+          "name": "Chicago Symphony Orchestra",
+          "role": "Orchestra"
+        },
+        {
+          "name": "William Blake",
+          "role": "Painting [Box Cover]"
+        },
+        {
+          "name": "Anthony Altaffer",
+          "role": "Photography By [Georg Solti]"
+        },
+        {
+          "name": "Hans Wild (2)",
+          "role": "Photography By [Rodin's Bust Of Mahler]"
+        },
+        {
+          "name": "Friedel Becker",
+          "role": "Text By [Booklet: English Translation Of Sung Texts]"
+        },
+        {
+          "name": "Adolph Herseth",
+          "role": "Trumpet [Solo]"
+        }
+      ],
+      "saved_performers": [
+        "Georg Solti",
+        "Chicago Symphony Orchestra",
+        "Yvonne Minton",
+        "Roger Dettmer"
+      ]
+    },
+    {
+      "discogs_id": "1638548",
+      "source_sha256": "d7ce14a6b46fd035f22c75ebea24cc4202ab0c769bb82edd758594eb4e346573",
+      "changes": {
+        "performers": {
+          "before": [
+            "Seiji Ozawa",
+            "San Francisco Symphony",
+            "Tom Tracy"
+          ],
+          "after": [
+            "Seiji Ozawa",
+            "San Francisco Symphony"
+          ]
+        },
+        "key_performers": {
+          "before": [
+            "Seiji Ozawa",
+            "Tom Tracy"
+          ],
+          "after": [
+            "Seiji Ozawa"
+          ]
+        }
+      },
+      "source_roles": [
+        {
+          "name": "Seiji Ozawa",
+          "role": "Conductor"
+        },
+        {
+          "name": "Jürgen Schmutzler",
+          "role": "Cover"
+        },
+        {
+          "name": "Lutz Bode",
+          "role": "Design"
+        },
+        {
+          "name": "Jack Hunt",
+          "role": "Engineer [Recording]"
+        },
+        {
+          "name": "Heuwell Tircuit",
+          "role": "Liner Notes [English]"
+        },
+        {
+          "name": "Heinz Becker (3)",
+          "role": "Liner Notes [German]"
+        },
+        {
+          "name": "San Francisco Symphony",
+          "role": "Orchestra"
+        },
+        {
+          "name": "Klaus Hennch",
+          "role": "Photography By [Ozawa]"
+        },
+        {
+          "name": "Tom Tracy",
+          "role": "Photography By [San Francisco Symphony Orchestra]"
+        },
+        {
+          "name": "Thomas Mowrey",
+          "role": "Recording Supervisor, Producer"
+        }
+      ],
+      "saved_performers": [
+        "Seiji Ozawa",
+        "San Francisco Symphony",
+        "Tom Tracy"
+      ]
+    },
+    {
+      "discogs_id": "29719858",
+      "source_sha256": "b410ae26315408da255e212e49749a39ad4a5dbf6f2c6837fb14a2287936dd60",
+      "changes": {
+        "performers": {
+          "before": [
+            "Kian Soltani",
+            "Staatskapelle Berlin",
+            "Daniel Barenboim",
+            "Alexander Kovalev (3)",
+            "Claire Sojung Henkel",
+            "Isa von Wedemeyer",
+            "Johanna Helm",
+            "Nikolaus Popa",
+            "Teresa Beldi",
+            "Cellists Of The Staatskapelle Berlin",
+            "Peter Adamik"
+          ],
+          "after": [
+            "Kian Soltani",
+            "Staatskapelle Berlin",
+            "Daniel Barenboim",
+            "Alexander Kovalev (3)",
+            "Claire Sojung Henkel",
+            "Isa von Wedemeyer",
+            "Johanna Helm",
+            "Nikolaus Popa",
+            "Teresa Beldi",
+            "Cellists Of The Staatskapelle Berlin"
+          ]
+        }
+      },
+      "source_roles": [
+        {
+          "name": "Jochen Rudelt",
+          "role": "Booklet Editor"
+        },
+        {
+          "name": "Texthouse",
+          "role": "Booklet Editor"
+        },
+        {
+          "name": "Alexander Kovalev (3)",
+          "role": "Cello [Cellists Of The Staatskapelle Berlin]"
+        },
+        {
+          "name": "Claire Sojung Henkel",
+          "role": "Cello [Cellists Of The Staatskapelle Berlin]"
+        },
+        {
+          "name": "Isa von Wedemeyer",
+          "role": "Cello [Cellists Of The Staatskapelle Berlin]"
+        },
+        {
+          "name": "Johanna Helm",
+          "role": "Cello [Cellists Of The Staatskapelle Berlin]"
+        },
+        {
+          "name": "Nikolaus Popa",
+          "role": "Cello [Cellists Of The Staatskapelle Berlin]"
+        },
+        {
+          "name": "Teresa Beldi",
+          "role": "Cello [Cellists Of The Staatskapelle Berlin]"
+        },
+        {
+          "name": "Antonín Dvořák",
+          "role": "Composed By"
+        },
+        {
+          "name": "Harald Hoffmann",
+          "role": "Cover, Photography By [Cover Photo ©]"
+        },
+        {
+          "name": "Roland Demus",
+          "role": "Design"
+        },
+        {
+          "name": "Florian Karg",
+          "role": "Design [Vinyl Adaption]"
+        },
+        {
+          "name": "Otto Tolonen (2)",
+          "role": "Double Bass"
+        },
+        {
+          "name": "René Möller",
+          "role": "Engineer [Recording Engineers (Tonmeister)]"
+        },
+        {
+          "name": "Sebastian Nattkemper",
+          "role": "Engineer [Recording Engineers (Tonmeister)]"
+        },
+        {
+          "name": "Wolfgang Schiefermair",
+          "role": "Engineer [Recording Engineers (Tonmeister)]"
+        },
+        {
+          "name": "Cellists Of The Staatskapelle Berlin",
+          "role": "Ensemble"
+        },
+        {
+          "name": "Angelika Meissner",
+          "role": "Executive-Producer"
+        },
+        {
+          "name": "Daniel Krieger",
+          "role": "Lacquer Cut By"
+        },
+        {
+          "name": "Kian Soltani",
+          "role": "Liner Notes [German/Deutsch]"
+        },
+        {
+          "name": "Texthouse",
+          "role": "Liner Notes [Translation]"
+        },
+        {
+          "name": "Dorothea Schlegel",
+          "role": "Management [Manager Scores & Publishing]"
+        },
+        {
+          "name": "Archive Photos",
+          "role": "Photography By [Photos: Dvořák ©]"
+        },
+        {
+          "name": "akg-images",
+          "role": "Photography By [Photos: Dvořák ©]"
+        },
+        {
+          "name": "Peter Adamik",
+          "role": "Photography By [Photos: Orchestra ©]"
+        },
+        {
+          "name": "Friedemann Engelbrecht",
+          "role": "Producer [Recording Producer]"
+        },
+        {
+          "name": "Lea Schneider",
+          "role": "Product Manager [Product Management Vinyl Adaption]"
+        },
+        {
+          "name": "Malene Hill",
+          "role": "Production Manager"
+        },
+        {
+          "name": "Lars Hoffmann (4)",
+          "role": "Production Manager [Creative Production Manager Vinyl Adaption]"
+        },
+        {
+          "name": "Andreas Fischer (22)",
+          "role": "Project Manager"
+        },
+        {
+          "name": "Kian Soltani",
+          "role": "Soloist, Cello [Solo Cello]"
+        }
+      ],
+      "saved_performers": [
+        "Kian Soltani",
+        "Staatskapelle Berlin",
+        "Daniel Barenboim",
+        "Alexander Kovalev (3)",
+        "Claire Sojung Henkel",
+        "Isa von Wedemeyer",
+        "Johanna Helm",
+        "Nikolaus Popa",
+        "Teresa Beldi",
+        "Cellists Of The Staatskapelle Berlin",
+        "Peter Adamik"
+      ]
+    },
+    {
+      "discogs_id": "14398300",
+      "source_sha256": "182257809c8ec63f825315131f22c506a3f2992182823a61059e37f08d81e6c1",
+      "changes": {
+        "performers": {
+          "before": [
+            "Rafael Kubelik",
+            "Symphonie-Orchester Des Bayerischen Rundfunks",
+            "Werner Neumeister"
+          ],
+          "after": [
+            "Rafael Kubelik",
+            "Symphonie-Orchester Des Bayerischen Rundfunks"
+          ]
+        },
+        "key_performers": {
+          "before": [
+            "Rafael Kubelik",
+            "Werner Neumeister"
+          ],
+          "after": [
+            "Rafael Kubelik"
+          ]
+        }
+      },
+      "source_roles": [
+        {
+          "name": "Gustav Mahler",
+          "role": "Composed By"
+        },
+        {
+          "name": "Rafael Kubelik",
+          "role": "Conductor"
+        },
+        {
+          "name": "Günter Hermanns",
+          "role": "Engineer [Toningenieure]"
+        },
+        {
+          "name": "Heinz Wildhagen",
+          "role": "Engineer [Toningenieure]"
+        },
+        {
+          "name": "Constantin Floros",
+          "role": "Liner Notes"
+        },
+        {
+          "name": "Hans Rutz",
+          "role": "Liner Notes"
+        },
+        {
+          "name": "Heinz Wildhagen",
+          "role": "Liner Notes"
+        },
+        {
+          "name": "Karl Schumann",
+          "role": "Liner Notes"
+        },
+        {
+          "name": "Henri Lichtenberger",
+          "role": "Lyrics By [Booklet Sung Text French Version/Translation]"
+        },
+        {
+          "name": "Symphonie-Orchester Des Bayerischen Rundfunks",
+          "role": "Orchestra"
+        },
+        {
+          "name": "Werner Neumeister",
+          "role": "Photography By [Rafael Kubelik Photo And The Bavarian Radio Symphony Orchestra Performing Symphony No. 8]"
+        },
+        {
+          "name": "Dr. Wilfried Daenicke",
+          "role": "Producer"
+        },
+        {
+          "name": "Otto Gerdes",
+          "role": "Producer"
+        },
+        {
+          "name": "Hans Weber",
+          "role": "Recorded By [Aufnahmeleiter]"
+        }
+      ],
+      "saved_performers": [
+        "Rafael Kubelik",
+        "Symphonie-Orchester Des Bayerischen Rundfunks",
+        "Werner Neumeister"
+      ]
+    },
+    {
+      "discogs_id": "13708175",
+      "source_sha256": "d4a858211c1aeb77087784bd66e8dce3a5ddcbab77fc76f66a8c26008f5d911b",
+      "changes": {
+        "performers": {
+          "before": [
+            "Rafael Kubelik",
+            "Symphonie-Orchester Des Bayerischen Rundfunks",
+            "Werner Neumeister"
+          ],
+          "after": [
+            "Rafael Kubelik",
+            "Symphonie-Orchester Des Bayerischen Rundfunks"
+          ]
+        },
+        "key_performers": {
+          "before": [
+            "Rafael Kubelik",
+            "Werner Neumeister"
+          ],
+          "after": [
+            "Rafael Kubelik"
+          ]
+        }
+      },
+      "source_roles": [
+        {
+          "name": "Gustav Mahler",
+          "role": "Composed By"
+        },
+        {
+          "name": "Rafael Kubelik",
+          "role": "Conductor"
+        },
+        {
+          "name": "Günter Hermanns",
+          "role": "Engineer [Toningenieure]"
+        },
+        {
+          "name": "Heinz Wildhagen",
+          "role": "Engineer [Toningenieure]"
+        },
+        {
+          "name": "Constantin Floros",
+          "role": "Liner Notes"
+        },
+        {
+          "name": "Hans Rutz",
+          "role": "Liner Notes"
+        },
+        {
+          "name": "Heinz Wildhagen",
+          "role": "Liner Notes"
+        },
+        {
+          "name": "Karl Schumann",
+          "role": "Liner Notes"
+        },
+        {
+          "name": "Henri Lichtenberger",
+          "role": "Lyrics By [Booklet Sung Text French Version/Translation]"
+        },
+        {
+          "name": "Symphonie-Orchester Des Bayerischen Rundfunks",
+          "role": "Orchestra"
+        },
+        {
+          "name": "Werner Neumeister",
+          "role": "Photography By [Rafael Kubelik Photo And The Bavarian Radio Symphony Orchestra Performing Symphony No. 8]"
+        },
+        {
+          "name": "Dr. Wilfried Daenicke",
+          "role": "Producer"
+        },
+        {
+          "name": "Otto Gerdes",
+          "role": "Producer"
+        },
+        {
+          "name": "Hans Weber",
+          "role": "Recorded By [Aufnahmeleiter]"
+        }
+      ],
+      "saved_performers": [
+        "Rafael Kubelik",
+        "Symphonie-Orchester Des Bayerischen Rundfunks",
+        "Werner Neumeister"
+      ]
+    },
+    {
+      "discogs_id": "5987607",
+      "source_sha256": "68c08e7843288ebfc15ddbf538c852f46a36d5fc4db2a3ac9d7dc461ac6233da",
+      "changes": {
+        "performers": {
+          "before": [
+            "János Rolla",
+            "Liszt Ferenc Chamber Orchestra",
+            "Zsuzsa Pertis",
+            "Miklos Spanyi",
+            "Anna Sándor",
+            "Mária Frank",
+            "Pál Kelemen",
+            "Huschit János",
+            "György Lovas",
+            "Lili Áldor",
+            "Zoltán Tfirst",
+            "Éva Isépy",
+            "György Kiss",
+            "Kálmán Kostyál",
+            "Péter Gazda",
+            "Zsuzsa Weisz"
+          ],
+          "after": [
+            "János Rolla",
+            "Liszt Ferenc Chamber Orchestra",
+            "Zsuzsa Pertis",
+            "Miklos Spanyi",
+            "Anna Sándor",
+            "Mária Frank",
+            "Pál Kelemen",
+            "György Lovas",
+            "Lili Áldor",
+            "Zoltán Tfirst",
+            "Éva Isépy",
+            "György Kiss",
+            "Kálmán Kostyál",
+            "Péter Gazda",
+            "Zsuzsa Weisz"
+          ]
+        }
+      },
+      "source_roles": [
+        {
+          "name": "Anna Sándor",
+          "role": "Cello"
+        },
+        {
+          "name": "Mária Frank",
+          "role": "Cello"
+        },
+        {
+          "name": "Pál Kelemen",
+          "role": "Cello"
+        },
+        {
+          "name": "Johann Sebastian Bach",
+          "role": "Composed By"
+        },
+        {
+          "name": "János Rolla",
+          "role": "Conductor"
+        },
+        {
+          "name": "László Som",
+          "role": "Double Bass"
+        },
+        {
+          "name": "István Berényi",
+          "role": "Engineer [Balance]"
+        },
+        {
+          "name": "Miklós Szűts",
+          "role": "Graphics, Design"
+        },
+        {
+          "name": "Zsuzsa Pertis",
+          "role": "Harpsichord"
+        },
+        {
+          "name": "Miklos Spanyi",
+          "role": "Harpsichord, Soloist"
+        },
+        {
+          "name": "Zsuzsa Pertis",
+          "role": "Harpsichord, Soloist"
+        },
+        {
+          "name": "Bartha Dénes",
+          "role": "Liner Notes [Booklet]"
+        },
+        {
+          "name": "Liszt Ferenc Chamber Orchestra",
+          "role": "Orchestra"
+        },
+        {
+          "name": "Miklos Spanyi",
+          "role": "Organ, Soloist"
+        },
+        {
+          "name": "Huschit János",
+          "role": "Photography By [Booklet - Liszt Ferenc Chamber Orchestra]"
+        },
+        {
+          "name": "Tibor Erkel",
+          "role": "Producer [Recording]"
+        },
+        {
+          "name": "András Pista",
+          "role": "Viola"
+        },
+        {
+          "name": "Ernö Klepoch",
+          "role": "Viola"
+        },
+        {
+          "name": "Gábor Pongrácz",
+          "role": "Viola"
+        },
+        {
+          "name": "György Lovas",
+          "role": "Violin [1st]"
+        },
+        {
+          "name": "János Rolla",
+          "role": "Violin [1st]"
+        },
+        {
+          "name": "Lili Áldor",
+          "role": "Violin [1st]"
+        },
+        {
+          "name": "Zoltán Tfirst",
+          "role": "Violin [1st]"
+        },
+        {
+          "name": "Éva Isépy",
+          "role": "Violin [1st]"
+        },
+        {
+          "name": "György Kiss",
+          "role": "Violin [2nd]"
+        },
+        {
+          "name": "Kálmán Kostyál",
+          "role": "Violin [2nd]"
+        },
+        {
+          "name": "Péter Gazda",
+          "role": "Violin [2nd]"
+        },
+        {
+          "name": "Zsuzsa Weisz",
+          "role": "Violin [2nd]"
+        }
+      ],
+      "saved_performers": [
+        "János Rolla",
+        "Liszt Ferenc Chamber Orchestra",
+        "Zsuzsa Pertis",
+        "Miklos Spanyi",
+        "Anna Sándor",
+        "Mária Frank",
+        "Pál Kelemen",
+        "Huschit János",
+        "György Lovas",
+        "Lili Áldor",
+        "Zoltán Tfirst",
+        "Éva Isépy",
+        "György Kiss",
+        "Kálmán Kostyál",
+        "Péter Gazda",
+        "Zsuzsa Weisz"
+      ]
+    },
+    {
+      "discogs_id": "11933784",
+      "source_sha256": "9b92230aa09fee0918573d6e3430328ff94bca9a56936aecc0dfce9b4b654c68",
+      "changes": {
+        "performers": {
+          "before": [
+            "Louis Auriacombe",
+            "Georges Armand",
+            "Orchestre De Chambre De Toulouse"
+          ],
+          "after": [
+            "Louis Auriacombe",
+            "Orchestre De Chambre De Toulouse",
+            "Georges Armand"
+          ]
+        },
+        "key_performers": {
+          "before": [
+            "Louis Auriacombe"
+          ],
+          "after": [
+            "Louis Auriacombe",
+            "Georges Armand"
+          ]
+        }
+      },
+      "source_roles": [
+        {
+          "name": "Antonio Vivaldi",
+          "role": "Composed By"
+        },
+        {
+          "name": "Louis Auriacombe",
+          "role": "Conductor"
+        },
+        {
+          "name": "Giuseppe Arcimboldo",
+          "role": "Illustration [Peinture du Musée du Louvre]"
+        },
+        {
+          "name": "Roger-Viollet",
+          "role": "Illustration [Portrait de Vivaldi Documentation Roger-Viollet]"
+        },
+        {
+          "name": "Marc Pincherle",
+          "role": "Liner Notes"
+        },
+        {
+          "name": "Orchestre De Chambre De Toulouse",
+          "role": "Orchestra"
+        },
+        {
+          "name": "Snark International",
+          "role": "Photography By [Cover]"
+        },
+        {
+          "name": "Gérard Neuvecelle",
+          "role": "Photography By [Intérieur Auriacombe et Orchestre]"
+        },
+        {
+          "name": "Georges Armand",
+          "role": "Violin [Conductor 1er violin]"
+        }
+      ],
+      "saved_performers": [
+        "Louis Auriacombe",
+        "Georges Armand",
+        "Orchestre De Chambre De Toulouse"
+      ]
+    },
+    {
+      "discogs_id": "14766559",
+      "source_sha256": "e1505b5e2d20afd3f3ab2c20c2d9373ae6c3988aaa26e1c1c3d8c98a7ff89723",
+      "changes": {
+        "performers": {
+          "before": [
+            "Fazıl Say",
+            "Franz Nistl"
+          ],
+          "after": [
+            "Fazıl Say"
+          ]
+        }
+      },
+      "source_roles": [
+        {
+          "name": "Ludwig van Beethoven",
+          "role": "Composed By"
+        },
+        {
+          "name": "Paul Mitchell (9)",
+          "role": "Design"
+        },
+        {
+          "name": "Jean-Martial Golaz",
+          "role": "Engineer, Mastered By, Edited By, Producer [Recording Producer]"
+        },
+        {
+          "name": "Heino Leja",
+          "role": "Lacquer Cut By"
+        },
+        {
+          "name": "Fazıl Say",
+          "role": "Liner Notes"
+        },
+        {
+          "name": "Marco Borggreve",
+          "role": "Photography By"
+        },
+        {
+          "name": "Fazıl Say",
+          "role": "Piano"
+        },
+        {
+          "name": "Franz Nistl",
+          "role": "Technician [Piano tuner-technician]"
+        }
+      ],
+      "saved_performers": [
+        "Fazıl Say",
+        "Franz Nistl"
+      ]
+    }
+  ],
+  "limitations": [
+    "Saved collection and provider publications not rewritten. Existing review hashes unchanged.",
+    "Main artists remain independent; bracketed role annotations excluded; explicit Vocals still recognized."
+  ]
+}

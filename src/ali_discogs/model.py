@@ -7,6 +7,32 @@ from ali_discogs.paths import raw_dir
 from ali_discogs.text import ENS_T, is_composer, norm, short_title, surname
 
 
+def credit_role_text(role):
+    """Discard bracketed annotations before interpreting an actual credit role."""
+    text, depth = [], 0
+    for char in role:
+        if char == '[':
+            depth += 1
+        elif char == ']' and depth:
+            depth -= 1
+        elif not depth:
+            text.append(char)
+    return ''.join(text).lower()
+
+
+PERFORMER_WORDS = ('conductor', 'orchestra', 'soloist', 'piano', 'violin', 'cello',
+                   'ensemble', 'performer', 'soprano', 'tenor', 'baritone', 'choir', 'chorus')
+
+
+def performing_credit(role):
+    text = credit_role_text(role)
+    if any(word in text for word in PERFORMER_WORDS):
+        return True
+    # Preserve already-recognized singers such as Vocals [Soprano] and
+    # Alto Vocals [Choir]; annotations cannot turn a liner author into one.
+    return 'vocals' in text and any(word in role.lower() for word in PERFORMER_WORDS)
+
+
 def build_item(release):
     b = release['basic_information']
     det = {}
@@ -18,14 +44,14 @@ def build_item(release):
     extra = det.get('extraartists', []) if det else []
     composers, performers = [], []
     for x in extra:
-        role = x.get('role', '').lower()
+        role = credit_role_text(x.get('role', ''))
         if 'composed' in role or 'written' in role:
             composers.append(x['name'])
     for tr in (det.get('tracklist', []) if det else []):
         for x in tr.get('extraartists', []):
-            if 'composed' in x.get('role', '').lower():
+            if 'composed' in credit_role_text(x.get('role', '')):
                 composers.append(x['name'])
-    conductors = [x['name'] for x in extra if 'conductor' in x.get('role', '').lower() and 'chorus' not in x.get('role', '').lower()]
+    conductors = [x['name'] for x in extra if 'conductor' in credit_role_text(x.get('role', '')) and 'chorus' not in credit_role_text(x.get('role', ''))]
     for a in artists:
         if any(norm(a) == norm(c) for c in conductors):
             performers.append(a)
@@ -34,8 +60,8 @@ def build_item(release):
         else:
             performers.append(a)
     for x in extra:
-        role = x.get('role', '').lower()
-        if any(k in role for k in ('conductor', 'orchestra', 'soloist', 'piano', 'violin', 'cello', 'ensemble', 'performer', 'soprano', 'tenor', 'baritone', 'choir', 'chorus')):
+        role = credit_role_text(x.get('role', ''))
+        if performing_credit(x.get('role', '')):
             if x['name'] not in performers and (not is_composer(x['name']) or 'conductor' in role):
                 performers.append(x['name'])
     if not performers and artists and not composers:

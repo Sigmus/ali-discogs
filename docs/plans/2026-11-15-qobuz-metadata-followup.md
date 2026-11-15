@@ -168,3 +168,28 @@ after candidate rehash. No provider retrieval calls or push/deployment.
 Final170script tests pass against stable regenerated publication; shared binding
 fixture includes the seven-album metadata archive. UI normalization/build pass.
 Only2236260release changes; labels12Found/125Probable/604Unchecked copies.
+
+
+## Casals6628473 source reconciliation and role-parser audit
+
+Original Angel COLH17side1label visibly prints Suite3CmajorBWV1009, November1936;
+side2prints Suite4EflatBWV1010, June1939. Saved browser screenshots/provenance.
+Cached/live Discogs text incorrectly says1008forSuite3. Exact correction proposal
+is source/target/hash-bound in qobuz_casals_source_audit.json, not activated and
+not an upstream edit. No global1008/1009equivalence. Original download failed;
+browser screenshot evidence is explicitly identified as a capture, not raw image.
+
+Second blocker: normalized performer Guglielmo Barblan is actually a liner-note
+author. Instrument word Violoncello appears only inside the note-title annotation.
+Model role parsing now excludes bracketed annotation text before deciding roles;
+keeps previously recognized genuine Vocals[Soprano]/AltoVocals[Choir] performers.
+Audit compares old/new builders against740saved details using synthetic basic
+information:9releases lose nonperforming credits,1has a violinist/conductor order
+change. This is diagnostic, not a full refresh or count of accepted matches.
+No saved collection, Spotify result or existing evidence hash overwritten.
+
+Shadow Casals correction + removal of liner author gives full work support, but
+Nar Classical2022candidate has no session/take markers. Do not borrow1930srecording
+identity from source/programme alone. Remains Unchecked. Next apply evidence only
+inside a bounded source-aware Qobuz review, validate complete suites/recording
+provenance, then23950082suite context. No new provider retrieval authorized.

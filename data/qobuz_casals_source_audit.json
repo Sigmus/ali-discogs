@@ -1,0 +1,79 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-15",
+  "discogs_id": "6628473",
+  "target_sha256": "9948425c31f198eae62a58b7954ef2bb9afa26b73519d979f55d80a3468e6da3",
+  "source_sha256": "5f42bdca1cea15161fe4bb732d6375aa08bbf8d9deca7ce16e02ca63bf227e91",
+  "album_id": "ekesky8cfu5wb",
+  "album_sha256": "fe486ab400200d778dfed49d3cfc0669f476237c8c7cf1098c88b97edc65f5a9",
+  "status": "source_reconciliation_supported_not_activated",
+  "source_evidence": [
+    {
+      "path": "data/review_sources/6628473-suite-3-label-browser.png",
+      "sha256": "a8b12f58f9cdb0adc8e6d929eef52086f84a16d21a746e387b8c97ffce0522d0",
+      "source_image_url": "https://i.discogs.com/SryM-BoNVeou4hSBRzIJBJpEa1QQLWC-gxiIhn2IsDM/rs:fit/g:sm/q:90/h:598/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY2Mjg0/NzMtMTUyMjA2NTE5/Ni00NjYxLmpwZWc.jpeg",
+      "capture": "Browser screenshot of original label gallery, not original image download."
+    },
+    {
+      "path": "data/review_sources/6628473-suite-4-label-browser.png",
+      "sha256": "630516f20f20ad1c4540f9bbaf2eb14ba1e750ea34f3cdb1baf0369f1e8cf74a",
+      "source_image_url": "https://i.discogs.com/ykx9nfc4NKBQUqykwNIuHzQM_X3mACOKEEc9THZb-Y0/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTY2Mjg0/NzMtMTUyMjA2NTE5/MS04Nzk1LmpwZWc.jpeg",
+      "capture": "Browser screenshot of original label gallery, not original image download."
+    }
+  ],
+  "proposed_target_title_correction": {
+    "Suite No. 3 In C Major, BWV.1008 For 'Cello Unaccompanied": "Suite No. 3 In C Major, BWV.1009 For 'Cello Unaccompanied"
+  },
+  "nonperforming_source_credit": {
+    "name": "Guglielmo Barblan",
+    "role": "Liner Notes [\"The Violoncello Before 1720\"]"
+  },
+  "shadow_assessment": {
+    "status": "probable",
+    "confidence": 0.85,
+    "coverage": 1.0,
+    "covered": 2,
+    "target_count": 2,
+    "required_performers": [
+      "Pablo Casals"
+    ],
+    "programme": [
+      {
+        "target": "Suite No. 3 In C Major, BWV.1009 For 'Cello Unaccompanied",
+        "work_tracks": 6,
+        "credited_tracks": 6,
+        "track_ids": [
+          175894806,
+          175894807,
+          175894808,
+          175894809,
+          175894810,
+          175894811
+        ]
+      },
+      {
+        "target": "Suite No. 4 In E Flat Major, BWV.1010 For 'Cello Unaccompanied",
+        "work_tracks": 6,
+        "credited_tracks": 6,
+        "track_ids": [
+          175894812,
+          175894813,
+          175894814,
+          175894815,
+          175894816,
+          175894817
+        ]
+      }
+    ],
+    "reasons": [
+      "Each target item has supporting work and performer credits.",
+      "Grouped movements or extra recordings require review; recording identity is not confirmed."
+    ]
+  },
+  "limitations": [
+    "No raw or normalized source overwrite and no publication review activated.",
+    "Label3prints Suite3CmajorBWV1009, November1936; label4prints Suite4EflatBWV1010, June1939.",
+    "Nar Classical2022candidate has no recording date/take markers. Do not transfer source1930s identity from performer/programme alone."
+  ],
+  "next_action": "Apply exact source correction and nonperforming-credit reconciliation only within source-bound Qobuz review; inspect recording provenance before any acceptance."
+}
