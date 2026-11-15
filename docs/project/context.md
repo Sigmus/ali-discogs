@@ -12,7 +12,7 @@ explorer. [README](../../README.md) owns setup and architecture;
   table headers). Retrieval complete; first offline screen/audit complete. Deployment not verified.
 - Collection: 741 copies / 740 unique releases. Current saved labels: Spotify
   254 Found / 273 Probable / 210 Not found / 4 Unchecked; Qobuz
-  12 Found / 124 Probable / 605 Unchecked copies (15 November snapshot).
+  12 Found / 125 Probable / 604 Unchecked copies (15 November snapshot).
 - Spotify’s legacy album-level labels and stricter Qobuz evidence levels are
   not comparable accuracy or catalogue-coverage measurements. Both status and
   score are saved data. Qobuz 95/85 are heuristic levels, not probabilities.
@@ -92,15 +92,15 @@ new-hit downloads, automatic promotions, pushes or deployment. Bitches Brew’s
 credit exception remains a proposal. Preserve source/hash-bound review safeguards;
 never loosen credits or invent recording identity to improve a count.
 
-Next action: review Ciccolini2236260 source-key/work mapping and recording family
-against cached six-track candidate; preserve composer/credit checks.
-Yepes2857544 digital candidate withheld: missing BWV1006a final Gigue, split
-Menuets mask omission in equal27-track totals, guitar arrangement labels differ
-from source baroque lute. Spelling-only correction cannot establish completeness.
-Hash-bound withhold and structured audit saved; no global BWV parser change.
-Bernstein/Gieseking findings retained in the
-[seven-album follow-up](../plans/2026-11-15-qobuz-metadata-followup.md).
-Match labels unchanged:12Found/124Probable/605Unchecked copies (604unique).
-All168script tests, UI normalization/build pass; all release records unchanged.
-No provider calls, push/deployment.
+Next action: inspect original Casals6628473 source for Suite3/BWV1008 conflict,
+then review23950082 suite context. Preserve source text until evidence reconciles it.
+Ciccolini2236260 reviewed Probable85: six exact tracks/timings, two source-side
+composers, positive performer/Composer credits and Warner1957recording-family
+corroboration. Third-party mastering and mono/stereo remain unverified.
+Optional bound-track Composer-role mark protects mixed-composer mappings; no global
+key/name/title aliases. Selected source PDF pages saved and hash-bound.
+[Seven-album follow-up](../plans/2026-11-15-qobuz-metadata-followup.md).
+Only2236260published record changed;603unchecked unique. All170script tests
+pass after regeneration; UI normalization/build pass. No provider retrieval,
+push/deployment. Public Warner source downloaded for review.
 [Backlog](backlog.md), [decisions](decisions.md), [history](history.md).

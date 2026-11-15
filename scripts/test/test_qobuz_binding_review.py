@@ -21,6 +21,9 @@ class BindingReviewTests(unittest.TestCase):
         follow = json.loads(gzip.decompress((ROOT/'data/qobuz_empty_search_follow_metadata.json.gz').read_bytes()))
         for record in follow['metadata']:
             cls.albums[str(record['album']['id'])] = record['album']
+        seven = json.loads(gzip.decompress((ROOT/'data/qobuz_metadata_followup_2026_11_15.json.gz').read_bytes()))
+        for record in seven['metadata']:
+            cls.albums[str(record['album']['id'])] = record['album']
         cls.reviews = {r['discogs_id']: r for r in json.loads((ROOT/'data/qobuz_binding_reviews.json').read_text())['releases']}
 
     def review(self, discogs_id):

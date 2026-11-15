@@ -17,13 +17,15 @@ hash-bound incomplete-programme hold now keeps it Unchecked. Reconciliation is
 proposed, not applied. Gilels’s reviewed composer guard remains active.
 The user-approved [seven-album batch](../plans/2026-11-15-qobuz-metadata-followup.md)
 is complete:7albums/97tracks, validated/exported without warnings. Next: offline
-Ciccolini2236260 multilingual work/source-key and recording-family review.
+Casals6628473original-source Suite3/BWV1008 reconciliation, then23950082suite
+context. Ciccolini2236260now Probable after explicit source-side/timing/recording
+review; third-party transfer/mono-stereo caveats retained.
 Yepes2857544 reviewed withheld: final BWV1006aGigue absent and instrument
 metadata unresolved; equal27track counts hide split Menuets versus missing finale.
 Bernstein3956949 now Probable after official LP-catalogue/recording-family and
 source-programme review. Gieseking8962178all17pieces supported, but BNF transfer
 session/take unresolved; keep Unchecked. Exact Felix composer identity remains
-active.168script tests pass.
+active; mixed-composer bound tracks require positive Composer-role marks.
 Source-attribution discovery remains separate from reviewed scopes; Nabucco/Mozart
 credit/catalogue gaps remain unresolved.
 160remaining metadata-needed releases are not a fetch mandate. Follow the

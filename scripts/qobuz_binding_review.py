@@ -178,6 +178,12 @@ def assess_bindings(row, album, review):
             reference = mark['reference_duration_seconds']
             if not isinstance(duration, (int, float)) or abs(duration-reference) > max(5, .03*reference):
                 blockers.append('reference-duration')
+        if 'composer_equals' in mark:
+            from qobuz_work_groups import role_entries
+            from qobuz_composer_identity import composer_key
+            names = {composer_key(name) for name, roles in role_entries(track) if 'composer' in roles}
+            if names != {composer_key(mark['composer_equals'])}:
+                blockers.append('recording-composer')
         for field in ('version', 'isrc'):
             if field+'_equals' in mark and track.get(field) != mark[field+'_equals']:
                 blockers.append('recording-'+field)

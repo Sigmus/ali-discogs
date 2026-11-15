@@ -1701,3 +1701,21 @@ catalogue normalization or source overwrite. Shadow spelling-fix regression show
 Every published release record remains unchanged (provenance only); UI normalization
 and static build pass. Inventory now422work/credit,160metadata,8withheld,7completeness,
 6empty,1source hold. Next cached Ciccolini2236260work/source-key/recording review.
+
+
+### 2026-11-15 — Ciccolini mixed-composer programme reviewed
+
+Source2236260explicit composer sides and three movement labels map the six
+cached concerto tracks. Warner CD4discography corroborates Silvestri/French
+National Orchestra1957family; all six reference timings equal candidate. Saved
+visually inspected pages2–3with source hashes. Publisher key-label discrepancy
+retained. Hash-bound existing-kind review requires complete runs, named credits,
+exactISRCs/timings and positive per-track Composer-role marks. No global key/title
+aliases or source rewrite. Probable85only; third-party transfer, exact takes and
+mono/stereo unverified. Only2236260release record changes:12Found/125Probable/
+604Unchecked copies. All170script tests and UI normalization/static build pass.
+
+Shared binding test fixture updated to include seven-album archive (otherwise
+prior Yepes hold was missing its album). An overlapping publication writer caused
+one preservation-check failure; final suite rerun sequentially after regeneration.
+No provider requests, push/deployment. Next Casals original-source conflict review.

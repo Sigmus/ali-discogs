@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "matcher_version": "qobuz-work-groups-v2+explicit-target-credits+reviewed-leads+opera-source-roles+prelude-fugue-pairs+container-headings+bound-tracks+heading-over-groups+cached-half+side-ranges+scene-sides+catalogue-comma-movements+reviewed-source-composers+source-programme-holds+reviewed-felix-composer-identity",
+  "matcher_version": "qobuz-work-groups-v2+explicit-target-credits+reviewed-leads+opera-source-roles+prelude-fugue-pairs+container-headings+bound-tracks+heading-over-groups+cached-half+side-ranges+scene-sides+catalogue-comma-movements+reviewed-source-composers+source-programme-holds+reviewed-felix-composer-identity+bound-composer-role-marks",
   "score_kind": "heuristic",
   "metadata_completed_at": "2026-11-13T00:15:30.593902+00:00",
   "search_manifest_fingerprint": "72bfbc0de0c0d8ee65c624b6ebe07db7be6ef0f10b6ba5fd4f468d54f812e802",
@@ -32,7 +32,7 @@
   "richter_review_fingerprint": "a14865f86e46150593e39bfa285fa6c7c61c8f46147b8094c0cb048fd02118ab",
   "round2_review_fingerprint": "be60742c3d35f5a9aa67f200642f7fcde98a52562a46130e043db8f4aa7c851e",
   "round2_metadata_fingerprint": "9db62d7bf62d4b77f5acf422dfde77959f845f4dc00b2ac0e10c02ccea295860",
-  "remaining_review_fingerprint": "42be61a1f7f2f3336b1c6edf6aa8af22623e835b8d6c0c9d5c49058b1101706b",
+  "remaining_review_fingerprint": "563a3d8521fa469deabe8ec12a44116a10a1a962d48d34cd46e8d26cbfa5b628",
   "remaining_metadata_fingerprint": "393b2d12e176160ab311b65267b38bdc8c205222e12f792bf07eba5c1fcfafbf",
   "remaining_followup_metadata_fingerprint": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
   "seven_album_metadata_fingerprint": "139f9b336c68b56ea22c18362cb0481c026366c5d359142f2bb702fe1233a4fc",
@@ -101956,14 +101956,115 @@
       ]
     },
     "2236260": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "fvtmapqjxeh6b",
+        "name": "Tchaïkovsky Concerto No. 1, Rachmaninov Concerto No. 2",
+        "artists": [
+          "Aldo Ciccolini"
+        ],
+        "label": "Vinyle Numérique",
+        "release_date": "2023-01-13",
+        "image": "https://static.qobuz.com/images/covers/6b/eh/fvtmapqjxeh6b_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/tchaikovsky-concerto-no-1-rachmaninov-concerto-no-2-aldo-ciccolini-constantin-silvestri-orchestre-national-de-france/fvtmapqjxeh6b"
+      },
+      "candidates": [
+        {
+          "id": "fvtmapqjxeh6b",
+          "name": "Tchaïkovsky Concerto No. 1, Rachmaninov Concerto No. 2",
+          "artists": [
+            "Aldo Ciccolini"
+          ],
+          "label": "Vinyle Numérique",
+          "release_date": "2023-01-13",
+          "image": "https://static.qobuz.com/images/covers/6b/eh/fvtmapqjxeh6b_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/tchaikovsky-concerto-no-1-rachmaninov-concerto-no-2-aldo-ciccolini-constantin-silvestri-orchestre-national-de-france/fvtmapqjxeh6b",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 2,
+          "target_count": 2,
+          "required_performers": [
+            "Constantin Silvestri",
+            "Aldo Ciccolini",
+            "Orchestre National De France"
+          ],
+          "programme": [
+            {
+              "target": "Concerto N° 1 En Si Bémol Mineur (Pour Piano Et Orchestre)",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                193451727,
+                193451728,
+                193451729
+              ]
+            },
+            {
+              "target": "Concerto N° 2 En Ut Mineur (Pour Piano Et Orchestre)",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                193451730,
+                193451731,
+                193451732
+              ]
+            }
+          ],
+          "reasons": [
+            "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+            "Source credits Tchaikovsky on sideA and Rachmaninoff on sideB, with Ciccolini/Silvestri/French National Orchestra. Warner CD4discography documents the same two concertos with that ensemble in1957, distinct from Ciccolini/Cluytens1951. All six saved digital tracks have matching named credits and Composer roles, ordered movements and timings equal to Warner listing. Supports Probable recording-family correspondence, not authenticated third-party transfer or exact LP takes.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Candidate is Vinyle Numerique2023, not the Warner edition; mastering and exact transfer provenance unverified.",
+            "Warner booklet labels Tchaikovsky Op23 B-flat major; source says B-flat minor. Preserve publisher naming discrepancy; no global key correction.",
+            "Source has no movement timings or session dates. Warner timings corroborate family but do not prove audio identity.",
+            "Exact LP pressing, takes and mono/stereo transfer remain unverified."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Concerto N° 1 En Si Bémol Mineur (Pour Piano Et Orchestre)",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  193451727,
+                  193451728,
+                  193451729
+                ]
+              },
+              {
+                "target": "Concerto N° 2 En Ut Mineur (Pour Piano Et Orchestre)",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  193451730,
+                  193451731,
+                  193451732
+                ]
+              }
+            ]
+          },
+          "recording_review": "Source credits Tchaikovsky on sideA and Rachmaninoff on sideB, with Ciccolini/Silvestri/French National Orchestra. Warner CD4discography documents the same two concertos with that ensemble in1957, distinct from Ciccolini/Cluytens1951. All six saved digital tracks have matching named credits and Composer roles, ordered movements and timings equal to Warner listing. Supports Probable recording-family correspondence, not authenticated third-party transfer or exact LP takes.",
+          "review_sources": [
+            "https://www.warnerclassics.com/sites/default/files/2025-05/Aldo%20Ciccolini.pdf#page=2",
+            "https://www.warnerclassics.com/sites/default/files/2025-05/Aldo%20Ciccolini.pdf#page=3",
+            "https://www.discogs.com/release/2236260"
+          ]
+        }
+      ],
       "query": "constantin silvestri tchaikovsky concerto ndeg 1 concerto ndeg 2",
       "searched_at": "2026-11-12T16:42:09.484733+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+        "Source credits Tchaikovsky on sideA and Rachmaninoff on sideB, with Ciccolini/Silvestri/French National Orchestra. Warner CD4discography documents the same two concertos with that ensemble in1957, distinct from Ciccolini/Cluytens1951. All six saved digital tracks have matching named credits and Composer roles, ordered movements and timings equal to Warner listing. Supports Probable recording-family correspondence, not authenticated third-party transfer or exact LP takes.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Candidate is Vinyle Numerique2023, not the Warner edition; mastering and exact transfer provenance unverified.",
+        "Warner booklet labels Tchaikovsky Op23 B-flat major; source says B-flat minor. Preserve publisher naming discrepancy; no global key correction.",
+        "Source has no movement timings or session dates. Warner timings corroborate family but do not prove audio identity.",
+        "Exact LP pressing, takes and mono/stereo transfer remain unverified."
       ]
     },
     "3737065": {

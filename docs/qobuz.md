@@ -436,3 +436,11 @@ credit and does not infer identity from surname or structured Composer fields
 alone. `scripts/qobuz_composer_identity.py` owns the narrow rule; legacy scoring
 and saved collection text are unchanged. See the
 [identity review](plans/2026-11-15-qobuz-composer-identity.md).
+
+Bound-track reviews may require `composer_equals` in a track mark. This checks a
+positive Composer-role name using the reviewed composer identity policy; neither
+album-level names nor a structured field alone satisfy it. Mixed-composer source
+sides can therefore use explicit mappings without a global title/key translation
+or borrowing a composer from another work. Existing reviews without the mark keep
+their prior checks. Source/target/album hashes, full programmes and performer
+requirements still apply.

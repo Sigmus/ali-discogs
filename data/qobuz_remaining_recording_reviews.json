@@ -3338,6 +3338,158 @@
         "Digital1979 release date is not treated as a session date.",
         "Exact LP pressing, takes and digital mastering remain unverified; timing similarity is supporting evidence only."
       ]
+    },
+    {
+      "discogs_id": "2236260",
+      "album_id": "fvtmapqjxeh6b",
+      "review_kind": "bound-tracks",
+      "decision": "probable",
+      "target_sha256": "f8a4a709950ab1735ec63d61e8e0140e07baad4c8df4e9184ea7b09c408a3624",
+      "album_sha256": "e6703c6d7d137b9628a4d8a86f462ba7c03f1efa3e61e30b66648b6ab96ba761",
+      "source_sha256": "29032a9644305b8a853adbd5e797943d6581da16bbe978fa4fade88f5acd1d21",
+      "pulls": [],
+      "adds": [
+        {
+          "target": "Concerto N° 1 En Si Bémol Mineur (Pour Piano Et Orchestre)",
+          "track_id": 193451727,
+          "title_contains": "Piano Concerto No. 1, Op. 23:",
+          "reason": "Source side composer, concerto number/key and three movement labels map this exact file group; no global multilingual alias."
+        },
+        {
+          "target": "Concerto N° 1 En Si Bémol Mineur (Pour Piano Et Orchestre)",
+          "track_id": 193451728,
+          "title_contains": "Piano Concerto No. 1, Op. 23:",
+          "reason": "Source side composer, concerto number/key and three movement labels map this exact file group; no global multilingual alias."
+        },
+        {
+          "target": "Concerto N° 1 En Si Bémol Mineur (Pour Piano Et Orchestre)",
+          "track_id": 193451729,
+          "title_contains": "Piano Concerto No. 1, Op. 23:",
+          "reason": "Source side composer, concerto number/key and three movement labels map this exact file group; no global multilingual alias."
+        },
+        {
+          "target": "Concerto N° 2 En Ut Mineur (Pour Piano Et Orchestre)",
+          "track_id": 193451730,
+          "title_contains": "Piano Concerto No. 2, Op. 18:",
+          "reason": "Source side composer, concerto number/key and three movement labels map this exact file group; no global multilingual alias."
+        },
+        {
+          "target": "Concerto N° 2 En Ut Mineur (Pour Piano Et Orchestre)",
+          "track_id": 193451731,
+          "title_contains": "Piano Concerto No. 2, Op. 18:",
+          "reason": "Source side composer, concerto number/key and three movement labels map this exact file group; no global multilingual alias."
+        },
+        {
+          "target": "Concerto N° 2 En Ut Mineur (Pour Piano Et Orchestre)",
+          "track_id": 193451732,
+          "title_contains": "Piano Concerto No. 2, Op. 18:",
+          "reason": "Source side composer, concerto number/key and three movement labels map this exact file group; no global multilingual alias."
+        }
+      ],
+      "expected": {
+        "Concerto N° 1 En Si Bémol Mineur (Pour Piano Et Orchestre)": [
+          193451727,
+          193451728,
+          193451729
+        ],
+        "Concerto N° 2 En Ut Mineur (Pour Piano Et Orchestre)": [
+          193451730,
+          193451731,
+          193451732
+        ]
+      },
+      "extra_track_ids": [],
+      "required_performers": [
+        "Aldo Ciccolini",
+        "Constantin Silvestri",
+        "Orchestre National De France"
+      ],
+      "numbered_movement_runs": [
+        {
+          "target": "Concerto N° 1 En Si Bémol Mineur (Pour Piano Et Orchestre)",
+          "movements": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "target": "Concerto N° 2 En Ut Mineur (Pour Piano Et Orchestre)",
+          "movements": [
+            1,
+            2,
+            3
+          ]
+        }
+      ],
+      "marks": [
+        {
+          "track_id": 193451727,
+          "text": "Piano Concerto No. 1, Op. 23:",
+          "reference_duration_seconds": 1181,
+          "isrc_equals": "FR10S2371392",
+          "composer_equals": "Pyotr Tchaikovsky"
+        },
+        {
+          "track_id": 193451728,
+          "text": "Piano Concerto No. 1, Op. 23:",
+          "reference_duration_seconds": 395,
+          "isrc_equals": "FR10S2371393",
+          "composer_equals": "Pyotr Tchaikovsky"
+        },
+        {
+          "track_id": 193451729,
+          "text": "Piano Concerto No. 1, Op. 23:",
+          "reference_duration_seconds": 368,
+          "isrc_equals": "FR10S2371394",
+          "composer_equals": "Pyotr Tchaikovsky"
+        },
+        {
+          "track_id": 193451730,
+          "text": "Piano Concerto No. 2, Op. 18:",
+          "reference_duration_seconds": 634,
+          "isrc_equals": "FR10S2371395",
+          "composer_equals": "Sergei Rachmaninoff"
+        },
+        {
+          "track_id": 193451731,
+          "text": "Piano Concerto No. 2, Op. 18:",
+          "reference_duration_seconds": 762,
+          "isrc_equals": "FR10S2371396",
+          "composer_equals": "Sergei Rachmaninoff"
+        },
+        {
+          "track_id": 193451732,
+          "text": "Piano Concerto No. 2, Op. 18:",
+          "reference_duration_seconds": 701,
+          "isrc_equals": "FR10S2371397",
+          "composer_equals": "Sergei Rachmaninoff"
+        }
+      ],
+      "external_source_files": [
+        {
+          "path": "data/review_sources/ciccolini-warner-discography-page-2.png",
+          "sha256": "1ab2d1559b498cda58e77b68923987ad6206e968b8c15129c2b962eab2cb7b4c",
+          "source": "https://www.warnerclassics.com/sites/default/files/2025-05/Aldo%20Ciccolini.pdf#page=2"
+        },
+        {
+          "path": "data/review_sources/ciccolini-warner-discography-page-3.png",
+          "sha256": "0a696cce27799baf38496ae6cac1cf30ade333674431a1879fda4389b1b25ccd",
+          "source": "https://www.warnerclassics.com/sites/default/files/2025-05/Aldo%20Ciccolini.pdf#page=3"
+        }
+      ],
+      "sources": [
+        "https://www.warnerclassics.com/sites/default/files/2025-05/Aldo%20Ciccolini.pdf#page=2",
+        "https://www.warnerclassics.com/sites/default/files/2025-05/Aldo%20Ciccolini.pdf#page=3",
+        "https://www.discogs.com/release/2236260"
+      ],
+      "recording_review": "Source credits Tchaikovsky on sideA and Rachmaninoff on sideB, with Ciccolini/Silvestri/French National Orchestra. Warner CD4discography documents the same two concertos with that ensemble in1957, distinct from Ciccolini/Cluytens1951. All six saved digital tracks have matching named credits and Composer roles, ordered movements and timings equal to Warner listing. Supports Probable recording-family correspondence, not authenticated third-party transfer or exact LP takes.",
+      "limitations": [
+        "Candidate is Vinyle Numerique2023, not the Warner edition; mastering and exact transfer provenance unverified.",
+        "Warner booklet labels Tchaikovsky Op23 B-flat major; source says B-flat minor. Preserve publisher naming discrepancy; no global key correction.",
+        "Source has no movement timings or session dates. Warner timings corroborate family but do not prove audio identity.",
+        "Exact LP pressing, takes and mono/stereo transfer remain unverified."
+      ]
     }
   ]
 }

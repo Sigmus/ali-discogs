@@ -40,3 +40,10 @@ or authenticated requests are included.
   Victor LM20086sources. Both show Albéniz's Sevillana, absent from the cached
   thirteen-track source. Eight side-one works plus six side-two works give14.
   Source-programme hold binds photo/source/target hashes; raw data stays intact.
+
+- `ciccolini-warner-discography-page-2.png` and `...page-3.png`: visually inspected
+  PDF pages2–3 from Warner's 2025 Ciccolini discography, CD4programme/credits/timings.
+  Source: https://www.warnerclassics.com/sites/default/files/2025-05/Aldo%20Ciccolini.pdf
+  Saved PNGs are hashed in the2236260review; source publication is not proof of
+  third-party digital transfer/mastering. Publisher B-flat-major label retained
+  as a discrepancy against LP B-flat-minor wording. Full45page PDF not committed.

@@ -141,3 +141,30 @@ source rewrite, added movement or new review kind. Shadow suffix correction give
 rejects observed1,2,3,4,4,5. Known complete-source programme and instrument/recording
 checks are independent of work similarity or whole-album track counts. Structured
 source/candidate audit saved. Keep Unchecked; new metadata/search scope not started.
+
+
+## Ciccolini2236260 — source-side and recording-family review
+
+15November: LP source explicitly credits Tchaikovsky toA and Rachmaninoff toB;
+each side has three movement labels. Warner's Ciccolini discography CD4(PDF
+pages2–3) identifies Silvestri/French National Orchestra and1957SalleWagram
+sessions; CD3separately identifies Cluytens/Conservatoire1951. Visually inspected
+and saved source pages with hashes. All six candidate timings match CD4exactly.
+
+Existing bound-track review maps each source side to its numbered concerto,
+requiring complete distinct three-movement runs, all named performers, exact
+ISRCs and reference timings. Added optional positive Composer-role mark to existing
+validator so rehashed mixed-composer substitutions cannot pass. No global French
+key/title/composer alias or raw/normalized source rewrite. Candidate remains a
+third-party VinyleNumerique2023transfer, not authenticated Warner mastering.
+Publisher's B-flat-major text differs from source B-flat-minor; preserve discrepancy.
+Probable85recording family only; exact LP pressing/takes/mono-stereo unverified.
+
+Two regressions exercise full two-concerto accounting and wrong composer/role,
+Cluytens/orchestra substitution, missing movement, timing andISRC changes even
+after candidate rehash. No provider retrieval calls or push/deployment.
+
+
+Final170script tests pass against stable regenerated publication; shared binding
+fixture includes the seven-album metadata archive. UI normalization/build pass.
+Only2236260release changes; labels12Found/125Probable/604Unchecked copies.

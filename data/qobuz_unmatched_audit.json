@@ -19,7 +19,7 @@
     "qobuz_remaining_followup_metadata.json.gz": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
     "qobuz_metadata_followup_2026_11_15.json.gz": "139f9b336c68b56ea22c18362cb0481c026366c5d359142f2bb702fe1233a4fc",
     "collection_matches.json": "a214eee877d4749fa957b3d2a293c2925d7ba0621259f2742139a6cd86f928c8",
-    "qobuz_matches.json": "bcc0ca372113c54f23b59fa45825abd179e0cc44eea06c90c25d961dda1efbd1",
+    "qobuz_matches.json": "42c1d38f0baa2b08324f0770b5afcbd8a51e24602ce9925fc07009753b3d770d",
     "qobuz_work_inventory.json": "47b8e955b99c37b132e66daea61590490d249f94a520740d702bec5caa5019ce",
     "qobuz_binding_reviews.json": "15011d55b3994780820341a2670ac924efd89fa509001cba6dc2b56533af4f75",
     "qobuz_opera_recording_reviews.json": "6e26d528eb7de78d372635218404a57534332ea1cd3d92e89e90e7a18066f85b",
@@ -27,14 +27,14 @@
     "qobuz_source_programme_reviews.json": "5469466141e2816720bf35e6b54abeb18daf3f12bf6fec1b4f9e794da0db098b"
   },
   "summary": {
-    "work_or_credit_unresolved": 422,
+    "work_or_credit_unresolved": 421,
     "metadata_needed": 160,
     "reviewed_withheld": 8,
     "completeness_review_needed": 7,
     "no_saved_hits": 6,
     "source_programme_review_needed": 1
   },
-  "unmatched_unique_releases": 604,
+  "unmatched_unique_releases": 603,
   "entries": [
     {
       "discogs_id": "594243",
@@ -13906,38 +13906,6 @@
       "saved_hits": 8,
       "uncached_hits": 8,
       "cached_candidates": []
-    },
-    {
-      "discogs_id": "2236260",
-      "title": "Concerto N° 1 / Concerto N° 2",
-      "category": "work_or_credit_unresolved",
-      "saved_hits": 10,
-      "uncached_hits": 9,
-      "cached_candidates": [
-        {
-          "album_id": "fvtmapqjxeh6b",
-          "title": "Tchaïkovsky Concerto No. 1, Rachmaninov Concerto No. 2",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Concerto N° 1 En Si Bémol Mineur (Pour Piano Et Orchestre)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Concerto N° 2 En Ut Mineur (Pour Piano Et Orchestre)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        }
-      ]
     },
     {
       "discogs_id": "2268139",
