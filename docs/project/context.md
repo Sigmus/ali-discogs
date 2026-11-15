@@ -69,8 +69,11 @@ and cache commands. This directory owns current planning.
    Recording-review precedence enforced;12evidence records changed, no label changes.
    Karajan7064777now Probable85: all28tracks/five symphonies, including split
    Lobgesang Sinfonia. Source key discrepancy and recording caveats preserved.
-   Casals5838140also held for unresolved transfer identity. Next: audit cached
-   partial-programme leads9792325/4694861/11938919, without new requests.
+   Casals5838140also held for unresolved transfer identity. Partial audit saved:
+   Landowska9792325candidate lacks K333; Lipatti11938919candidate lacks Op58.
+   Schnabel4694861has10source sonata headings/35distinct credited movements;
+   scorer emits24units including ambiguous isolated tempo labels. Next: verify
+   source-position-safe grouping against existing review kinds, without requests.
    [Source-credit plan](../plans/2026-11-15-qobuz-source-credit-reviews.md).
 2. Keep Casals/Gieseking transfer identity unresolved until recording-specific
    evidence exists. Source correction alone does not authorize promotion.

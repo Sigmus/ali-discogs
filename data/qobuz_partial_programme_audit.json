@@ -1,0 +1,543 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-15",
+  "network_requests": 0,
+  "publication_changes": false,
+  "releases": [
+    {
+      "discogs_id": "9792325",
+      "album_id": "e1lsj7ytcfa8b",
+      "target_sha256": "fae3d191def70fd75f79736683601ebc544a3167d3c5c43480eafe81d5ba2a2b",
+      "album_sha256": "387cf009ffa42666fc74e525540b0cfaae2a7c10d8bffd970b35f5107aebd585",
+      "source_sha256": "05ace955a220ec40d011c41ba00e2b99ad6a20afba1b3ab60983f06be41e85b0",
+      "outcome": "incomplete-cached-candidate",
+      "missing_source_work": "Sonata No. 13 In B Flat, K333",
+      "programme": [
+        {
+          "target": "Sonata No. 9 In D, K311",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            172951426,
+            172951427,
+            172951428
+          ]
+        },
+        {
+          "target": "Sonata No. 13 In B Flat, K333",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Sonata No. 5 In G, K283",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            172951423,
+            172951424,
+            172951425
+          ]
+        },
+        {
+          "target": "Rondo In A Minor, K511",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            172951429
+          ]
+        },
+        {
+          "target": "Sonata No. 4 In E Flat, K282",
+          "work_tracks": 3,
+          "credited_tracks": 3,
+          "track_ids": [
+            172951420,
+            172951421,
+            172951422
+          ]
+        },
+        {
+          "target": "Country Dances K606",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            172951430
+          ]
+        }
+      ],
+      "candidate_track_titles": [
+        "Piano Sonata No. 4 in E Flat Major, K. 282: I. Adagio",
+        "Piano Sonata No. 4 in E Flat Major, K. 282: K. 282 II. Menuetto",
+        "Piano Sonata No. 4 in E Flat Major, K. 282: K. 282 III. Allegro",
+        "Piano Sonata No. 5 in G Major, K. 283: I. Allegro",
+        "Piano Sonata No. 5 in G Major, K 283: II. Andante",
+        "Piano Sonata No. 5 in G Major, K 283: III. Presto",
+        "Piano Sonata No. 9 in D Major, K 311: I. Allegro Con Spirito",
+        "Piano Sonata No. 9 in D Major, K 311: II. Andante Con Espressione",
+        "Piano Sonata No. 9 in D Major, K 311: III. Rondo Allegro",
+        "Rondo in A Minor, K. 511",
+        "Country Dances, K. 606"
+      ],
+      "limitation": "Exact candidate programme gap; not evidence that Qobuz lacks the work or another complete release. No publication change."
+    },
+    {
+      "discogs_id": "11938919",
+      "album_id": "5099996593059",
+      "target_sha256": "e3b5af12b3127f87405a884409705b9c7d8687f55574e95c39ff725ae6c3f154",
+      "album_sha256": "b7ebceb7026950cd458529cb35fb97bee04e878f49a2db245254ad1abd782a2e",
+      "source_sha256": "86bafedd5a8b66fe356d7ad5f004318359d8a1ec49a3deb07e4b7165df43efb0",
+      "outcome": "incomplete-cached-candidate",
+      "missing_source_work": "Sonate No 3, En Si Mineur, Op. 58",
+      "programme": [
+        {
+          "target": "Sonate No 3, En Si Mineur, Op. 58",
+          "work_tracks": 0,
+          "credited_tracks": 0,
+          "track_ids": []
+        },
+        {
+          "target": "Barcarolle En Fa Dièse Majeur, Op. 60.",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            1792327
+          ]
+        },
+        {
+          "target": "Mazurka No 32, En Ut Dièse Mineur, Op. 50, No 3.",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            1792329
+          ]
+        },
+        {
+          "target": "Nocturne No 8, En Ré Bémol Majeur, Op. 27 No 2.",
+          "work_tracks": 1,
+          "credited_tracks": 1,
+          "track_ids": [
+            1792328
+          ]
+        }
+      ],
+      "candidate_track_titles": [
+        "Waltz No. 4 in F Major, Op. 34 No. 3",
+        "Waltz No. 5 in A-Flat Major, Op. 42",
+        "Waltz No. 6 in D-Flat Major, Op. 64 No. 1 \"Minute\"",
+        "Waltz No. 9 in A-Flat Major, Op. Posth. 69 No. 1 \"Farewell\"",
+        "Waltz No. 7 in C-Sharp Minor, Op. 64 No. 2",
+        "Waltz No. 11 in G-Flat Major, Op. Posth. 70 No. 1",
+        "Waltz No. 10 in B Minor, Op. Posth. 69 No. 2",
+        "Waltz No. 14 in E Minor, Op. Posth.",
+        "Waltz No. 3 in A Minor, Op. 34 No. 2",
+        "Waltz No. 8 in A-Flat Major, Op. 64 No. 3",
+        "Waltz No. 12 in F Minor, Op. Posth. 70 No. 2",
+        "Waltz No. 13 in D-Flat Major, Op. Posth. 70 No. 3",
+        "Grande valse brillante in E-Flat Major, Op. 18",
+        "Waltz No. 2 in A-Flat Major, Op. 34 No. 1",
+        "Barcarolle in F-Sharp Major, Op. 60",
+        "Nocturne No. 8 in D-Flat Major, Op. 27 No. 2",
+        "Mazurka No. 32 in C-Sharp Minor, Op. 50 No. 3"
+      ],
+      "limitation": "Exact candidate programme gap; not evidence that Qobuz lacks the work or another complete release. No publication change."
+    },
+    {
+      "discogs_id": "4694861",
+      "album_id": "0190295866983",
+      "target_sha256": "c5c06bf2e4b3875aed35afac5656dc7ea0d7c31ec932846723f836867dd5a1a3",
+      "album_sha256": "97f88cb739a80256c19fc8a521ded2d3e8c779121df51be71cbf927d7d74335c",
+      "source_sha256": "5f23375fd609e2207b23ed8e050580ffe7223fd4c008925aaa67bd491f308cfa",
+      "outcome": "source-heading-diagnostic-only",
+      "works": [
+        {
+          "source_heading": "Sonata No. 1 In F Minor, Op. 2 No. 1",
+          "source_movements": [
+            {
+              "position": "A1",
+              "title": "Allegro"
+            },
+            {
+              "position": "A2",
+              "title": "Adagio"
+            },
+            {
+              "position": "A3",
+              "title": "Minuetto"
+            },
+            {
+              "position": "A4",
+              "title": "Prestissimo"
+            }
+          ],
+          "candidate_tracks": [
+            {
+              "id": 36924043,
+              "title": "Piano Sonata No. 1 in F Minor, Op. 2 No. 1: I. Allegro",
+              "sha256": "d7357f68dc8f4829fcb1f19b7962162b7893c692a584a24040fa1b1c4925c50d"
+            },
+            {
+              "id": 36924044,
+              "title": "Piano Sonata No. 1 in F Minor, Op. 2 No. 1: II. Adagio",
+              "sha256": "cd8b14985e6e5a2ef436786ed1e9a868e25a315057186d1700638d209b433674"
+            },
+            {
+              "id": 36924045,
+              "title": "Piano Sonata No. 1 in F Minor, Op. 2 No. 1: III. Menuetto. Allegretto - Trio",
+              "sha256": "1c7243407928d285547f3b5b0bae7f80e9b2cd283666415f3c9905ce0d39cd05"
+            },
+            {
+              "id": 36924046,
+              "title": "Piano Sonata No. 1 in F Minor, Op. 2 No. 1: IV. Prestissimo",
+              "sha256": "746eb20b1276c2c5b12ce206b02adc6bc92fbdb3f8692d806f67e4a235ffa420"
+            }
+          ]
+        },
+        {
+          "source_heading": "Sonata No. 2 In A, Op. 2 No. 2",
+          "source_movements": [
+            {
+              "position": "B1",
+              "title": "Allegro Vivace"
+            },
+            {
+              "position": "B2",
+              "title": "Largo Appassionato"
+            },
+            {
+              "position": "B3",
+              "title": "Scherzo"
+            },
+            {
+              "position": "B4",
+              "title": "Rondo"
+            }
+          ],
+          "candidate_tracks": [
+            {
+              "id": 36924055,
+              "title": "Piano Sonata No. 2 in A Major, Op. 2 No. 2: I. Allegro vivace",
+              "sha256": "79df3d0f39da85cbe1ead87fe770ebbcf21bc53f69320f258cb83c64577c6d09"
+            },
+            {
+              "id": 36924056,
+              "title": "Piano Sonata No. 2 in A Major, Op. 2 No. 2: II. Largo appassionato",
+              "sha256": "304d421b5e9bba9d5b05df6872d8372933c2ab4ba88c792348bf7e59e29af90d"
+            },
+            {
+              "id": 36924057,
+              "title": "Piano Sonata No. 2 in A Major, Op. 2 No. 2: III. Scherzo. Allegretto",
+              "sha256": "64009d5f79f79529ffbc541384d0d813352d1405497213f848be52e3d3c15369"
+            },
+            {
+              "id": 36924058,
+              "title": "Piano Sonata No. 2 in A Major, Op. 2 No. 2: IV. Rondo. Grazioso",
+              "sha256": "8456a9fa6f808bf5a532fb82605b345dd91539240d93f66b4b82391a83f5e8b9"
+            }
+          ]
+        },
+        {
+          "source_heading": "Sonata No. 3 In C, Op. 2 No. 3",
+          "source_movements": [
+            {
+              "position": "C1",
+              "title": "Allegro Con Brio"
+            },
+            {
+              "position": "C2",
+              "title": "Adagio"
+            },
+            {
+              "position": "C3",
+              "title": "Scherzo"
+            },
+            {
+              "position": "C4",
+              "title": "Allegro Assai"
+            }
+          ],
+          "candidate_tracks": [
+            {
+              "id": 36924047,
+              "title": "Piano Sonata No. 3 in C Major, Op. 2 No. 3: I. Allegro con brio",
+              "sha256": "6d06caa8b7b59b7ffd5397ce6fd08c625b96030154931ba79450987b23586920"
+            },
+            {
+              "id": 36924048,
+              "title": "Piano Sonata No. 3 in C Major, Op. 2 No. 3: II. Adagio",
+              "sha256": "b12e319e1801f409fa7dd2e3191d1d29ce802969973bea36d90d6b1525b17310"
+            },
+            {
+              "id": 36924049,
+              "title": "Piano Sonata No. 3 in C Major, Op. 2 No. 3: III. Scherzo. Allegro - Trio",
+              "sha256": "0061acbd29c45b753114e2b6eb03a7db37f55b0e8aa13ded752db6878a92c363"
+            },
+            {
+              "id": 36924050,
+              "title": "Piano Sonata No. 3 in C Major, Op. 2 No. 3: IV. Allegro assai",
+              "sha256": "a35038abc779ce798f129f3216835f0a6d1750085bdea7641aa780f8de9dfc9d"
+            }
+          ]
+        },
+        {
+          "source_heading": "Sonata No. 4 In E Flat, Op. 7",
+          "source_movements": [
+            {
+              "position": "D1",
+              "title": "Molto Allegro Con Brio"
+            },
+            {
+              "position": "D2",
+              "title": "Largo, Con Gran Espressione"
+            },
+            {
+              "position": "D3",
+              "title": "Allegro"
+            },
+            {
+              "position": "D4",
+              "title": "Rondo"
+            }
+          ],
+          "candidate_tracks": [
+            {
+              "id": 36924051,
+              "title": "Piano Sonata No. 4 in E-Flat Major, Op. 7: I. Allegro molto e con brio",
+              "sha256": "994e8045e78e891b1fffb8098cacd292b1bd156596865d5695470083933bac60"
+            },
+            {
+              "id": 36924052,
+              "title": "Piano Sonata No. 4 in E-Flat Major, Op. 7: II. Largo con gran espressione",
+              "sha256": "42702576c68ff9b152601496bf8e1e7ad78ce8ea58112e2c798532aa881caef6"
+            },
+            {
+              "id": 36924053,
+              "title": "Piano Sonata No. 4 in E-Flat Major, Op. 7: III. Allegro",
+              "sha256": "71a17a0ce21b6e60f90812de274981f628c42254c17d87e01620182caa912370"
+            },
+            {
+              "id": 36924054,
+              "title": "Piano Sonata No. 4 in E-Flat Major, Op. 7: IV. Rondo. Poco allegretto e grazioso",
+              "sha256": "9510262cdfac687b08efc220964e945843edfc11ae90ac13e4ab41bb15092827"
+            }
+          ]
+        },
+        {
+          "source_heading": "Sonata No. 5 In C Minor, Op. 10 No. 1",
+          "source_movements": [
+            {
+              "position": "E1",
+              "title": "Allegro Molto E Con Brio"
+            },
+            {
+              "position": "E2",
+              "title": "Molto Adagio"
+            },
+            {
+              "position": "E3",
+              "title": "Finale"
+            }
+          ],
+          "candidate_tracks": [
+            {
+              "id": 36924059,
+              "title": "Piano Sonata No. 5 in C Minor, Op. 10 No. 1: I. Allegro molto e con brio",
+              "sha256": "bc213b20b0479eabe259d10e727b800270ed5306b456e069ac44d2df6aa36335"
+            },
+            {
+              "id": 36924060,
+              "title": "Piano Sonata No. 5 in C Minor, Op. 10 No. 1: II. Adagio molto",
+              "sha256": "f996f19b5f0865ee39edf78d17c25b11f42a0c4e6b74478dd07ad155affc57a9"
+            },
+            {
+              "id": 36924061,
+              "title": "Piano Sonata No. 5 in C Minor, Op. 10 No. 1: III. Finale. Prestissimo",
+              "sha256": "6a268b0566d7d36e372c9c2874e55f6199785e032a7a48e3065773bc48b5284f"
+            }
+          ]
+        },
+        {
+          "source_heading": "Sonata No. 6 In F, Op. 10 No. 2",
+          "source_movements": [
+            {
+              "position": "E4",
+              "title": "Allegro"
+            },
+            {
+              "position": "E5",
+              "title": "Allegretto"
+            },
+            {
+              "position": "E6",
+              "title": "Presto"
+            }
+          ],
+          "candidate_tracks": [
+            {
+              "id": 36924062,
+              "title": "Piano Sonata No. 6 in F Major, Op. 10 No. 2: I. Allegro",
+              "sha256": "cf2329137d36e6f11b519adf73787281bd3056cc6804a3bf5ad104d9288a40fa"
+            },
+            {
+              "id": 36924063,
+              "title": "Piano Sonata No. 6 in F Major, Op. 10 No. 2: II. Allegretto",
+              "sha256": "38a5a5a9f2b04bbe593569dc505e2f0a9a75663a27e1c9d932b0d684700941ec"
+            },
+            {
+              "id": 36924064,
+              "title": "Piano Sonata No. 6 in F Major, Op. 10 No. 2: III. Presto",
+              "sha256": "c08e4b74563c234126d44dd2750cff43cb1d89c7dec1f01606b139e75ee02fdf"
+            }
+          ]
+        },
+        {
+          "source_heading": "Sonata No. 7 In D, Op. 10 No. 3",
+          "source_movements": [
+            {
+              "position": "F1",
+              "title": "Presto"
+            },
+            {
+              "position": "F2",
+              "title": "Largo E Mesto"
+            },
+            {
+              "position": "F3",
+              "title": "Minuetto (Allegro)"
+            },
+            {
+              "position": "F4",
+              "title": "Rondo (Allegro)"
+            }
+          ],
+          "candidate_tracks": [
+            {
+              "id": 36924065,
+              "title": "Piano Sonata No. 7 in D Major, Op. 10 No. 3: I. Presto",
+              "sha256": "b2197ebe1ca3b8de08fe37367e02bc25e70671cbd7b9ebe172c060e107a16476"
+            },
+            {
+              "id": 36924066,
+              "title": "Piano Sonata No. 7 in D Major, Op. 10 No. 3: II. Largo e mesto",
+              "sha256": "7298df4062231deee8862d7a252d2cbfdcb8e6421989e36f72bfae7c20ec1f25"
+            },
+            {
+              "id": 36924067,
+              "title": "Piano Sonata No. 7 in D Major, Op. 10 No. 3: III. Menuetto. Allegro - Trio",
+              "sha256": "64c3e9a3e2b98a302778e81470608c14b4077f818c9b03d28f6cb08b723d143d"
+            },
+            {
+              "id": 36924068,
+              "title": "Piano Sonata No. 7 in D Major, Op. 10 No. 3: IV. Rondo. Allegro",
+              "sha256": "46bc91ebea7816f353e5cc102a3f4c9564898ae3c69f63f5af77774b82859884"
+            }
+          ]
+        },
+        {
+          "source_heading": "Sonata No. 8 In C Minor, Op. 13",
+          "source_movements": [
+            {
+              "position": "G1",
+              "title": "Grave - Molto Allegro E Con Brio"
+            },
+            {
+              "position": "G2",
+              "title": "Adagio Cantabile"
+            },
+            {
+              "position": "G3",
+              "title": "Rondo"
+            }
+          ],
+          "candidate_tracks": [
+            {
+              "id": 36924069,
+              "title": "Piano Sonata No. 8 in C Minor, Op. 13 \"Pathétique\": I. Grave - Allegro di molto e con brio",
+              "sha256": "38260d94733abb3b73ce1afecb0e61ec19377956c8b36e39b6ee41610ba8df2c"
+            },
+            {
+              "id": 36924070,
+              "title": "Piano Sonata No. 8 in C Minor, Op. 13 \"Pathétique\": II. Adagio cantabile",
+              "sha256": "bce67142762567ddde0069201658917c33e85e1fb446ebf867d9a92b49acce79"
+            },
+            {
+              "id": 36924071,
+              "title": "Piano Sonata No. 8 in C Minor, Op. 13 \"Pathétique\": III. Rondo. Allegro",
+              "sha256": "f5d770036af16757ad9ac5a4e4563286ea7977b3eec091ec315205dbfca2cea1"
+            }
+          ]
+        },
+        {
+          "source_heading": "Sonata No. 9 In E, Op. 14 No. 1",
+          "source_movements": [
+            {
+              "position": "G4",
+              "title": "Allegro"
+            },
+            {
+              "position": "H1",
+              "title": "Allegretto"
+            },
+            {
+              "position": "H2",
+              "title": "Rondo"
+            }
+          ],
+          "candidate_tracks": [
+            {
+              "id": 36924072,
+              "title": "Piano Sonata No. 9 in E Major, Op. 14 No. 1: I. Allegro",
+              "sha256": "994e9fb79d0cb7ad90c3a3ade9c9db4477a4746996e662e3bd5ad1aeaa276595"
+            },
+            {
+              "id": 36924073,
+              "title": "Piano Sonata No. 9 in E Major, Op. 14 No. 1: II. Allegretto",
+              "sha256": "e0933100a084c2194be7ce958927b5e62fb75127d50a1e52cb9b3e50a1d19dc1"
+            },
+            {
+              "id": 36924074,
+              "title": "Piano Sonata No. 9 in E Major, Op. 14 No. 1: III. Rondo. Allegro comodo",
+              "sha256": "8b7ae9c449a4be917024c6b728bd93d4c93fce97f475f3b7be7c9fec818cd66b"
+            }
+          ]
+        },
+        {
+          "source_heading": "Sonata No. 10 In G, Op. 14 No. 2",
+          "source_movements": [
+            {
+              "position": "H3",
+              "title": "Allegro"
+            },
+            {
+              "position": "H4",
+              "title": "Andante"
+            },
+            {
+              "position": "H5",
+              "title": "Scherzo"
+            }
+          ],
+          "candidate_tracks": [
+            {
+              "id": 36924075,
+              "title": "Piano Sonata No. 10 in G Major, Op. 14 No. 2: I. Allegro",
+              "sha256": "f64cc12cd19527244ffcb903c2bf0f9ceee64f488833024746f251d352a14076"
+            },
+            {
+              "id": 36924076,
+              "title": "Piano Sonata No. 10 in G Major, Op. 14 No. 2: II. Andante",
+              "sha256": "ea674e37b0213938b33b56cd1074067888e6b0d03926af24701f4898bce044e6"
+            },
+            {
+              "id": 36924077,
+              "title": "Piano Sonata No. 10 in G Major, Op. 14 No. 2: III. Scherzo. Allegro assai",
+              "sha256": "b44fd367a086cc04d0c32562c3b8db832d1cd63efc484edc3b722dd6c4cc6074"
+            }
+          ]
+        }
+      ],
+      "distinct_tracks": 35,
+      "limitation": "Ten source headings account for35distinct movements with positive pianist credits. Current scorer emits24units, including isolated tempo labels that can collide across sonatas. This diagnostic does not authorize publication or discard repeated source labels. A source-position-safe grouping review must retain every child and test cross-work movement collisions before acceptance."
+    }
+  ]
+}

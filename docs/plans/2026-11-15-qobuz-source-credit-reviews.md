@@ -136,3 +136,17 @@ remains Unchecked: complete programme does not establish Nar transfer identity.
 changed. Qobuz12Found/128Probable/601Unchecked copies;600unchecked unique:
 412work/credit,160metadata,18withheld,3recording rejections,6empty,1source hold.
 No provider calls, push or deployment. Continue cached partial-programme audits.
+
+### 2026-11-15 — Three partial-programme leads audited offline
+
+Saved hash-bound `data/qobuz_partial_programme_audit.json`. Landowska9792325
+/e1lsj7ytcfa8b lacks source K333; Lipatti11938919/5099996593059 lacks Op58.
+No claim of service-wide absence and no publication change. Schnabel4694861
+/0190295866983 contains35distinct pianist-credited movements for all ten source
+sonata headings. Current scorer emits24units including isolated tempo labels,
+which can collide across works. Saved all source positions/children and exact
+track fingerprints as a diagnostic only. Existing grouping rejects duplicate
+source titles; do not bypass that guard or discard repeated Allegretto labels.
+Next: source-position-safe review using existing kinds if possible; a new review
+kind needs concrete scope. Audit assertions verify35unique tracks and all named
+pianist credits. No code/publication change, provider calls or push.
