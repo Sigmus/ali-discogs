@@ -2077,3 +2077,40 @@ No requests made during preparation; completion/ranking remain pending.
 Launched the936album worker22:19CET with idle-sleep assertion. At 2026-11-15 22:20 CET,
 2/936completed, status running; first output14complete tracks,
 no live warnings.233script tests pass. Retrieval/export/ranking still pending.
+
+
+### 2026-11-16 — Metadata caching safely paused
+
+936album run stopped02:26CET at862completed/74remaining after an album/get
+network/JSON failure,865HTTP attempts. STOP preserved; no retry/resume. Partial
+export validates862albums/22297tracks. No matching/publication changes.
+User direction required before resuming; no running ETA.
+
+
+### 2026-11-16 — Authorized metadata resume
+
+User approved resuming the paused936album batch. Offline validation reconfirmed
+862complete saved albums, failure state preserved, no concurrent worker. Resumed
+08:00CET with caffeinate and unchanged pacing/warning stops;74albums remain.
+
+
+### 2026-11-16 — Full candidate cache complete
+
+936/936albums for160releases complete08:20CET; 23632tracks independently validated
+against manifest, album counts and unique track IDs. Resume76HTTP attempts, no new
+warning. Whitelisted archive saved; integration/shared-cache/URL checks and ranking
+remain pending. Match publication unchanged.
+
+
+### 2026-11-16 — Candidate cache shared and160leads ranked
+
+Validated936albums/23632tracks; integrated offline inventory loader with complete
+scope validation.3440successful request responses shared, all2504prior responses
+preserved byte-for-byte;2100canonical URLs cover all new albums.160lead ranking:
+2supported complete programmes,16full support needing completeness,38partial,
+104zero-current-rule support. Whole-inventory queues regenerated; no provider
+calls, source rewrites or publication/Spotify changes.235script tests pass,
+including scope completeness and ranking/hold-preservation checks. Fixture429
+messages are mocked, not live warnings. Next recording-family reviews:
+Menuhin/Furtwängler6798013andFerras/Karajan12803844, then16full-support leads.
+No push/deployment.

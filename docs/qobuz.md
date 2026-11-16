@@ -543,3 +543,13 @@ Do not rerun an active worker or remove STOP without user direction. Progress/lo
 are under `.qobuz-poc/uncached160-2026-11-15/`. Full manifest, immutable evidence
 hashes, per-album checkpoints and existing request cache make the run resumable.
 [Plan and completion checklist](plans/2026-11-15-qobuz-uncached160.md).
+
+
+Completed936album batch is validated by `qobuz_uncached160.load_completed()`
+before the offline unmatched inventory reads it. Run
+`uv run --with requests python scripts/qobuz_uncached160_ranking.py` after rebuilding
+the inventory to rank every one of the160frozen releases. Ranking favors supported
+complete programmes, then complete source-unit support needing completeness checks,
+then partial/zero support; held/rejected pairs are excluded. This diagnostic path
+never updates publication labels. Canonical routes and shareable request cache
+were rebuilt offline, preserving all prior successful responses.

@@ -46,3 +46,62 @@ status running; first album14complete tracks. No live warnings in log.
 Expected baseline finish around03:00–03:30CET on16November, subject to pagination
 and latency. No matching/publication updates during retrieval. Inspect current
 progress/log rather than treating this dated observation as live status.
+
+### 16 November — safely paused on network/JSON failure
+
+Worker stopped02:26CET after862/936albums (92.1%);74remain.865HTTP attempts.
+Reason: `album/get: network/JSON failure; no matches classified.` No HTTP status
+was reported, so this is not evidence of a rate limit. STOP is present; no retry
+or resume performed. Partial whitelisted archive validates862albums/22297tracks,
+with matching IDs/counts and unique track IDs. Await user direction before resume.
+No running ETA while paused.
+
+### 16 November08:00CET — user-authorized resume
+
+User explicitly approved resume after the network/JSON failure. Offline export
+revalidated all862saved outputs first. Original failure progress preserved as
+`previous-run-*.json`; explicit local resume authorization saved. Confirmed no
+existing worker, then removed STOP and resumed with caffeinate, PID6178.936album
+manifest and existing checkpoints unchanged; only74remaining albums need fetch.
+Same15second spacing/120second rests; any new warning stops again.
+
+### 16 November08:20CET — retrieval complete
+
+936/936distinct manifest albums exported and independently validated: 23632tracks,
+exact IDs, complete counts and unique track IDs. User-authorized resume used76HTTP
+attempts, with no new warning; completed08:20:44CET. Prior862outputs preserved.
+Whitelisted archive saved. Offline loader integration, shared request archive/URL
+validation and evidence ranking remain next; publication labels unchanged.
+
+### 16 November — offline integration and ranking
+
+New archive is validated as a complete frozen scope before inventory loading.
+Shared request cache3440responses (936added); every2504prior member preserved
+byte-for-byte. Canonical index2100routes, including all936new albums. No provider
+requests during integration, and published Qobuz/Spotify labels unchanged.
+
+`data/qobuz_uncached160_ranking.json` retains all160releases and all unheld cached
+candidates, with source/metadata inventory fingerprints. Ranking is workflow
+priority, not calibrated confidence or acceptance:
+
+- 2supported complete programmes: Brahms6798013(Menuhin/Furtwängler/Lucerne) and
+  12803844(Ferras/Karajan/Berlin), needing recording-family/source-credit review.
+- 16fully supported source-unit programmes still need completeness checks.
+- 38partial programme support.
+- 104no support under current rules, not proof that the service lacks the recording.
+
+Full unmatched inventory:497work/credit,57withheld,19completeness,2recording-review,
+4rejected-recording,6empty,1source hold; no metadata-needed entries. Old recording
+holds/rejections remain saved: an alternative becoming reviewable does not erase
+a held pair. No global parser/credit-rule change. New metadata deliberately feeds
+diagnostics first; publication matcher is not expanded to auto-promote new hits.
+
+Reproduce with `uv run --with requests python scripts/qobuz_unmatched_audit.py`,
+then `uv run --with requests python scripts/qobuz_uncached160_ranking.py`.
+Next perform recording reviews of the two complete leads, then the16full-support
+leads, preserving transfer, source and named-credit uncertainty.
+
+Validation:235script tests pass; publication and collection byte hashes unchanged.
+Full scope/ranking false-positive tests include excluded held candidates and
+missing-release rejection. The earlier fixed305release screen is preserved; the
+current full unmatched inventory and160ranking own this new diagnostic checkpoint.

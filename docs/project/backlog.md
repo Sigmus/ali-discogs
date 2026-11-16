@@ -8,14 +8,14 @@ in the [14 November archive](../plans/2026-11-14-backlog-detail-archive.md).
 
 ## AD-008 — Qobuz evidence and matching refinement
 
-Status: agreed priority; all-candidate metadata caching authorized before ranking.
+Status: agreed priority; candidate cache integrated, offline recording reviews next.
 
 Use the [offline follow-up](../plans/2026-11-14-qobuz-offline-followup.md) and
 [source-credit review plan](../plans/2026-11-15-qobuz-source-credit-reviews.md).
 Completed cases and validations are in history; current counts in context.
 The12+305pass and prior metadata follow-ups are validated/shared. User now authorizes
 caching all936uncached saved-hit albums for160metadata-needed releases before
-ranking. [Scope/run plan](../plans/2026-11-15-qobuz-uncached160.md). No new searches.
+ranking; retrieval and offline ranking are now complete. [Scope/run plan](../plans/2026-11-15-qobuz-uncached160.md). No new searches.
 
 The [fourteen-case batch](../plans/2026-11-15-qobuz-priority14-batch.md) is complete:
 2 Probable recording-family matches, 12 explicit holds. Complete review does not
@@ -24,10 +24,12 @@ mean complete match. Evidence, frozen IDs, alternatives and next actions are in
 
 All26secondary recording reviews are complete:7Probable,18withheld and1specific
 wrong-recording rejection, including the [final23batch](../plans/2026-11-15-qobuz-secondary23.md).
-No open priority/secondary leads remain. Cache the authorized936albums, validate
-and share evidence, then rank from full programme/credit data.357work/credit cases
-remain:354zero-current-
-support and3known constraints. Zero support needs source/lead/rule investigation,
+The earlier priority/secondary batches are complete. New936album cache is
+validated/shared and160leads ranked:2supported complete,16full support needing
+completeness,38partial,104zero-current-rule support. First review Brahms6798013
+and12803844recording families/source credits, then16full-support leads. Current
+whole-inventory work/credit queue:13priority,27secondary,454zero-current-support
+and3known constraints. Zero support needs source/lead/rule investigation,
 not automatic API retrieval. Revisit explicit holds only with new evidence or a
 validated scoped rule; partial source support is triage, not confidence.
 Source N°/opus members and separate digital work fields remain recurring parsing

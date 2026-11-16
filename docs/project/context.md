@@ -1,6 +1,6 @@
 # Ali Discogs
 
-Updated: 2026-11-15, Europe/Amsterdam
+Updated: 2026-11-16, Europe/Amsterdam
 
 Static explorer for ajozi’s Discogs collection and Spotify/Qobuz evidence.
 [README](../../README.md) owns setup/build; [Qobuz guide](../qobuz.md) owns evidence
@@ -35,8 +35,8 @@ and cache commands. This directory owns current planning.
   299of305releases have search hits;6empty, not proof of absence.
 - Nine-album follow-up216tracks complete. Approved15November seven-album follow-up
   complete7albums/97tracks,9HTTP attempts, no warnings. Run/sleep assertion ended.
-- Shared request archive2504responses; all2497prior members preserved. Canonical
-  index1164URLs. Credentials/live run state ignored; portable evidence committed.
+- Shared request archive3440responses; all2504prior members preserved. Canonical
+  index2100URLs. New936album cache validated; credentials/live run state ignored.
 - [Run plan](../plans/2026-11-14-qobuz-remaining-retrieval.md),
   [seven-album follow-up](../plans/2026-11-15-qobuz-metadata-followup.md).
 
@@ -77,18 +77,19 @@ and cache commands. This directory owns current planning.
   It cannot combine credits across different operas. LP-side audio cuts unverified.
 - 231script tests, UI normalization, static build and local detail checks pass.
   Exactly4Unchecked→Probable publication changes; collection/Spotify unchanged.
-- 586unchecked unique:357work/credit,160metadata,58withheld,4rejected recordings,
-  6empty,1source hold. Work/credit queue:354zero-current-support,3known constraints;
-  no open priority/secondary leads. No new Qobuz calls or push/deployment.
+- 586unchecked unique after full-cache diagnostics:497work/credit,57withheld,
+  19completeness,2recording-review,4rejected-recording,6empty,1source hold.
+  No metadata-needed releases remain in this dated inventory; labels unchanged.
 
 ## Next action and limits
 
-Active: user authorized caching all saved candidates for160metadata-needed
-releases before ranking:936distinct albums,1080release/album associations.
-[Fixed-scope retrieval plan](../plans/2026-11-15-qobuz-uncached160.md). Slow resumable
-worker launched22:19CET under caffeinate; first album14tracks, no warning.
-Inspect `.qobuz-poc/uncached160-2026-11-15/progress.json` and log before acting. No new
-searches, audio, automatic promotions or warning retries. Then rank offline.
+936album cache integrated into offline inventory/ranking;23632tracks validated.
+[Run/results](../plans/2026-11-15-qobuz-uncached160.md).160release ranking:
+2complete supported programmes,16full support needing completeness checks,
+38partial support,104no current-rule support (not catalogue absence).
+Next review Brahms6798013(Menuhin/Furtwängler) and12803844(Ferras/Karajan)
+recording families and all source credits; then the16full-support leads.
+Publication/Spotify unchanged. No new calls, automatic promotions or push.
 
 Continue verified cached reviews/commits autonomously. No unbounded retrieval,
 warning retries, automatic push/deployment, source rewrites or musical-credit

@@ -8,9 +8,11 @@ from qobuz_snapshot import load_snapshot
 from qobuz_completeness import check_programme
 
 def audit():
+    from qobuz_uncached160 import load_completed
+    load_completed()
     snapshot=load_snapshot();albums=dict(snapshot['albums'])
     hits={rid:{str(a['id']) for a in x['search']['albums']['items']} for rid,x in snapshot['searches'].items()}
-    sources=['qobuz_evidence.json.gz','qobuz_comparison_evidence.json.gz','qobuz_round2_metadata.json.gz','qobuz_query_trial_metadata.json.gz','qobuz_round2_searches.json.gz','qobuz_query_trial_searches.json.gz','qobuz_query_validation.json.gz','qobuz_unmatched_metadata.json.gz','qobuz_metadata_needed.json.gz','qobuz_empty_searches.json.gz','qobuz_empty_search_metadata.json.gz','qobuz_empty_search_follow_metadata.json.gz','qobuz_remaining_metadata.json.gz','qobuz_remaining_search.json.gz','qobuz_remaining_followup_metadata.json.gz','qobuz_metadata_followup_2026_11_15.json.gz']
+    sources=['qobuz_evidence.json.gz','qobuz_comparison_evidence.json.gz','qobuz_round2_metadata.json.gz','qobuz_query_trial_metadata.json.gz','qobuz_round2_searches.json.gz','qobuz_query_trial_searches.json.gz','qobuz_query_validation.json.gz','qobuz_unmatched_metadata.json.gz','qobuz_metadata_needed.json.gz','qobuz_empty_searches.json.gz','qobuz_empty_search_metadata.json.gz','qobuz_empty_search_follow_metadata.json.gz','qobuz_remaining_metadata.json.gz','qobuz_remaining_search.json.gz','qobuz_remaining_followup_metadata.json.gz','qobuz_metadata_followup_2026_11_15.json.gz','qobuz_uncached160_metadata.json.gz']
     for name in sources[1:]:
         data=json.loads(gzip.decompress((ROOT/'data'/name).read_bytes()))
         for x in data.get('metadata',[]):
@@ -46,7 +48,7 @@ def audit():
         entries.append({'discogs_id':rid,'title':rows[rid]['title'],'category':category,'saved_hits':len(hits.get(rid,set())),'uncached_hits':len(hits.get(rid,set())-albums.keys()),'cached_candidates':candidates})
         if published[rid].get('source_programme_review'):
             entries[-1]['source_programme_review']=published[rid]['source_programme_review']
-    report={'schema_version':1,'reviewed_on':'2026-11-15','source_hashes':{name:hashlib.sha256((ROOT/'data'/name).read_bytes()).hexdigest() for name in [*sources,*review_sources,'collection_matches.json','qobuz_matches.json','qobuz_work_inventory.json','qobuz_binding_reviews.json','qobuz_opera_recording_reviews.json','qobuz_source_composer_reviews.json','qobuz_source_programme_reviews.json']},'summary':dict(Counter(e['category'] for e in entries)),'unmatched_unique_releases':len(entries),'entries':entries,'limitations':['Offline triage after the14November remaining retrieval and nine-album follow-up. A downloaded album is not an accepted match, and an empty query is not confirmed absence.','Recorded withholds stay in the inventory as reviewed_withheld and are not open leads.','Categories prioritize available cached evidence; a release may also have uncached alternatives.']}
+    report={'schema_version':1,'reviewed_on':'2026-11-16','source_hashes':{name:hashlib.sha256((ROOT/'data'/name).read_bytes()).hexdigest() for name in [*sources,*review_sources,'collection_matches.json','qobuz_matches.json','qobuz_work_inventory.json','qobuz_binding_reviews.json','qobuz_opera_recording_reviews.json','qobuz_source_composer_reviews.json','qobuz_source_programme_reviews.json']},'summary':dict(Counter(e['category'] for e in entries)),'unmatched_unique_releases':len(entries),'entries':entries,'limitations':['Offline triage including the completed936album candidate cache on16November. A downloaded album is not an accepted match, and an empty query is not confirmed absence.','Recorded withholds stay in the inventory as reviewed_withheld and are not open leads.','Categories prioritize available cached evidence; a release may also have uncached alternatives.']}
     (ROOT/'data/qobuz_unmatched_audit.json').write_text(json.dumps(report,ensure_ascii=False,indent=2)+'\n')
     print(json.dumps(report['summary']));return report
 if __name__=='__main__':audit()

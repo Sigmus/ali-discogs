@@ -82,6 +82,23 @@ def export(manifest):
     return payload
 
 
+def load_completed():
+    """Validate the full portable batch without permitting any provider request."""
+    scope = json.loads(SCOPE.read_text())
+    data = json.loads(gzip.decompress(ARCHIVE.read_bytes()))
+    expected = [e['album_id'] for e in scope['entries']]
+    records = data['metadata']
+    if (data['schema_version'] != 1 or data['scope_sha256'] != digest(SCOPE)
+            or data['completed'] != data['total'] or data['total'] != len(expected)
+            or len(records) != len(expected)
+            or [str(x['album']['id']) for x in records] != expected
+            or len(set(expected)) != len(expected)):
+        raise ValueError('Incomplete or changed portable936album batch')
+    for record, entry in zip(records, scope['entries']):
+        validate_record(record, {'discogs_id': entry['discogs_ids'][0], 'album_id': entry['album_id']})
+    return data
+
+
 def main():
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument('--fetch', action='store_true')
