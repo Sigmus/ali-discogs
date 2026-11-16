@@ -16707,6 +16707,487 @@
         "No global role waiver, fuzzy identity merge, source rewrite or automatic diagnostic promotion.",
         "Source and cached musician/programme evidence do not verify exact LP transfer, pressing, takes or mastering."
       ]
+    },
+    {
+      "discogs_id": "2394378",
+      "album_id": "meii6q1oknq6a",
+      "target_sha256": "ba13f984cb7d281ead160e0d5fb8d5d9719eb2fd431b745bd13038521348732b",
+      "album_sha256": "79d564cf1ba29e9ed7d67dc0ef6410a0084ad7063e2f750e44d7f670dc125619",
+      "source_sha256": "1af45a4aa812a7caabd1ec6114c02ae8002822511e6580db6ef269fe5b0e9da6",
+      "decision": "withhold",
+      "recording_review": "Source explicitly identifies the1938Berlin studio recording. Archipel candidate has compatible works/cast/timings but no saved session/date/take markers tying its transfer to1938. The other DG collection explicitly comprises1944-1953live recordings.",
+      "sources": [
+        "https://www.discogs.com/release/2394378"
+      ],
+      "limitations": [
+        "No source rewrite, global alias, associated-role waiver or automatic work-field promotion.",
+        "Recording-family acceptance does not verify exact LP pressing, mastering, digital transfer or take identity."
+      ]
+    },
+    {
+      "discogs_id": "2636984",
+      "album_id": "0886445221237",
+      "target_sha256": "65e6c4b50f0a7d75aec9ba1c3c590040a9b3a9f1af517333cd73bf2e5a46eb9a",
+      "album_sha256": "b4f4c91c98e8f01c1c1e3753113a1bbfe93b093a335f00abc02d508d0e7d801d",
+      "source_sha256": "17f6cdebdf3f3c447c1235691459b2d7bbc759130a2321d5118df5b69a432f0e",
+      "decision": "withhold",
+      "recording_review": "The complete Gould/Stokowski Emperor has American Symphony Orchestra only as Associated Performer. The BNF alternative is Gould/Krips/Buffalo, a different recording. Source joins movementsII/III in one band; matching duration cannot replace orchestra-role evidence.",
+      "sources": [
+        "https://www.discogs.com/release/2636984"
+      ],
+      "limitations": [
+        "No source rewrite, global alias, associated-role waiver or automatic work-field promotion.",
+        "Recording-family acceptance does not verify exact LP pressing, mastering, digital transfer or take identity."
+      ]
+    },
+    {
+      "discogs_id": "3000291",
+      "album_id": "0886446609843",
+      "target_sha256": "184dfca7283d96b2186729b685b30e8011943b70a060a21cf080fc36918f1eaa",
+      "album_sha256": "d742d9cc8d131646c69e6dc233423920315a80cfe396a4619c50a4c8b042762f",
+      "source_sha256": "95247e7f7d38c2cf2824ed9939e58aeea77b6479fc10b9385b9c217ceb0c8cb6",
+      "decision": "withhold",
+      "recording_review": "Zukerman/Barenboim Elgar has London Philharmonic only as Associated Performer. The DG alternative is Perlman/Chicago, so it cannot fill the source credits.",
+      "sources": [
+        "https://www.discogs.com/release/3000291"
+      ],
+      "limitations": [
+        "No source rewrite, global alias, associated-role waiver or automatic work-field promotion.",
+        "Recording-family acceptance does not verify exact LP pressing, mastering, digital transfer or take identity."
+      ]
+    },
+    {
+      "discogs_id": "4259729",
+      "album_id": "0090266177929",
+      "target_sha256": "8ff021f1e860f023f59f2295e4dc7dda667a38ea67411fde688033792300bf6f",
+      "album_sha256": "b51a3ccac4146ebfd023a8e0da8b0b3d5e0bbe8a8ccfe686209e72497edbebaf",
+      "source_sha256": "812472a51dd80743132f1dc6d848b6a7968031c03a2397af1c93c14320f704f5",
+      "decision": "probable",
+      "recording_review": "All six source movements of Sibelius and Prokofiev2 are retained in the older Heifetz collection with explicit work-scoped Chicago/Hendl and Boston/Munch performance credits. Existing source-band review and1959recording-family corroboration suffice; associated-only modern alternatives are not used.",
+      "sources": [
+        "https://www.discogs.com/release/4259729",
+        "https://jaschaheifetz.org/rca_chrono.html",
+        "https://jaschaheifetz.com/about/concerts/"
+      ],
+      "limitations": [
+        "No source rewrite, global alias, associated-role waiver or automatic work-field promotion.",
+        "Recording-family acceptance does not verify exact LP pressing, mastering, digital transfer or take identity."
+      ],
+      "review_kind": "source-leaf-bands",
+      "source_outline_sha256": "01c119d73ef5c273c7d366d2fd8a9a56d4f30a942e3b0c4ea011a8faab355e91",
+      "source_leaves": [
+        {
+          "path": [
+            0,
+            0
+          ],
+          "source_work": "Concerto In D Minor, Op. 47",
+          "title": "I  Allegro Moderato",
+          "position": "A1",
+          "duration": "13:27"
+        },
+        {
+          "path": [
+            0,
+            1
+          ],
+          "source_work": "Concerto In D Minor, Op. 47",
+          "title": "II Adagio Di Molto",
+          "position": "A2",
+          "duration": "6:11"
+        },
+        {
+          "path": [
+            0,
+            2
+          ],
+          "source_work": "Concerto In D Minor, Op. 47",
+          "title": "III Allegro, Ma Non Tanto",
+          "position": "A3",
+          "duration": "6:39"
+        },
+        {
+          "path": [
+            1,
+            0
+          ],
+          "source_work": "Concerto No. 2 In G Minor, Op. 63",
+          "title": "I Allegro Moderato",
+          "position": "B1",
+          "duration": "8:54"
+        },
+        {
+          "path": [
+            1,
+            1
+          ],
+          "source_work": "Concerto No. 2 In G Minor, Op. 63",
+          "title": "II Andante Assai",
+          "position": "B2",
+          "duration": "7:52"
+        },
+        {
+          "path": [
+            1,
+            2
+          ],
+          "source_work": "Concerto No. 2 In G Minor, Op. 63",
+          "title": "III Allegro Ben Marcato",
+          "position": "B3",
+          "duration": "5:59"
+        }
+      ],
+      "source_heading_groups": [],
+      "bindings": [
+        {
+          "source_path": [
+            0,
+            0
+          ],
+          "track_ids": [
+            457479
+          ],
+          "track_sha256": [
+            "a538aafe871d4cd35d6ea8d929444d9c24f7c8a5198d548ee8a14f65f73679ff"
+          ],
+          "required_performers": [
+            "Jascha Heifetz",
+            "Walter Hendl",
+            "Chicago Symphony Orchestra"
+          ],
+          "composer": "Jean Sibelius"
+        },
+        {
+          "source_path": [
+            0,
+            1
+          ],
+          "track_ids": [
+            457480
+          ],
+          "track_sha256": [
+            "6f7bfa0822975b587ed37190d4f6d7c1caafeed2bba1aabd4c15263a01caa407"
+          ],
+          "required_performers": [
+            "Jascha Heifetz",
+            "Walter Hendl",
+            "Chicago Symphony Orchestra"
+          ],
+          "composer": "Jean Sibelius"
+        },
+        {
+          "source_path": [
+            0,
+            2
+          ],
+          "track_ids": [
+            457481
+          ],
+          "track_sha256": [
+            "c9280e4e143922a6b7d220975d572c7d33abaece806e284c1dd26a6d90c0c9e5"
+          ],
+          "required_performers": [
+            "Jascha Heifetz",
+            "Walter Hendl",
+            "Chicago Symphony Orchestra"
+          ],
+          "composer": "Jean Sibelius"
+        },
+        {
+          "source_path": [
+            1,
+            0
+          ],
+          "track_ids": [
+            457482
+          ],
+          "track_sha256": [
+            "67a2e5e25345edd6f93e5aef9d2e8c1f1bf85b25993b6f908d5fd8e8d92e285f"
+          ],
+          "required_performers": [
+            "Jascha Heifetz",
+            "Charles Munch",
+            "Boston Symphony Orchestra"
+          ],
+          "composer": "Sergei Prokofiev"
+        },
+        {
+          "source_path": [
+            1,
+            1
+          ],
+          "track_ids": [
+            457483
+          ],
+          "track_sha256": [
+            "9497f25378c6aeaab4862167c801098a9cc14d0919e71937453541b361131f0d"
+          ],
+          "required_performers": [
+            "Jascha Heifetz",
+            "Charles Munch",
+            "Boston Symphony Orchestra"
+          ],
+          "composer": "Sergei Prokofiev"
+        },
+        {
+          "source_path": [
+            1,
+            2
+          ],
+          "track_ids": [
+            457484
+          ],
+          "track_sha256": [
+            "397d4fd8eef5f560822a5298331825695d2c7f27e454d1ca9ecbf500cea66f40"
+          ],
+          "required_performers": [
+            "Jascha Heifetz",
+            "Charles Munch",
+            "Boston Symphony Orchestra"
+          ],
+          "composer": "Sergei Prokofiev"
+        }
+      ],
+      "selected_track_fingerprints": {
+        "457479": "a538aafe871d4cd35d6ea8d929444d9c24f7c8a5198d548ee8a14f65f73679ff",
+        "457480": "6f7bfa0822975b587ed37190d4f6d7c1caafeed2bba1aabd4c15263a01caa407",
+        "457481": "c9280e4e143922a6b7d220975d572c7d33abaece806e284c1dd26a6d90c0c9e5",
+        "457482": "67a2e5e25345edd6f93e5aef9d2e8c1f1bf85b25993b6f908d5fd8e8d92e285f",
+        "457483": "9497f25378c6aeaab4862167c801098a9cc14d0919e71937453541b361131f0d",
+        "457484": "397d4fd8eef5f560822a5298331825695d2c7f27e454d1ca9ecbf500cea66f40"
+      },
+      "extra_track_ids": [
+        457465,
+        457466,
+        457467,
+        457468,
+        457469,
+        457470,
+        457471,
+        457472,
+        457473,
+        457474,
+        457475,
+        457476,
+        457477,
+        457478,
+        457485,
+        457486,
+        457487,
+        457488,
+        457489,
+        457490,
+        457491,
+        457492,
+        457493,
+        457494,
+        457495,
+        457496,
+        457497,
+        457498,
+        457499,
+        457500,
+        457501,
+        457502,
+        457503,
+        457504,
+        457505,
+        457506,
+        457507
+      ],
+      "external_source_files": [
+        {
+          "path": "data/review_sources/work9-4259729/source-observation.txt",
+          "source_url": "https://jaschaheifetz.org/rca_chrono.html",
+          "sha256": "3cffc98a82be304203ee93756ea4044498c2a0a53ae8303230b7f6b8119648fd"
+        }
+      ]
+    },
+    {
+      "discogs_id": "6681884",
+      "album_id": "0090266303625",
+      "target_sha256": "107b18560682eef5a0d52e4920a7a40952eaeba889c0b6e11a8d80a8d7ad7226",
+      "album_sha256": "5b55acc1c69657600b90082e87c3d0250c94f88c9bd0e2b46b4b7eb5f5e56eef",
+      "source_sha256": "cdb779f10a57a16c59d8c14b04bdcef65c509fcaef19b7dbcff83c7f3e7e4f9b",
+      "decision": "withhold",
+      "recording_review": "The RCA collection gives both Busoni and Beethoven Composer roles on the Op19 tracks, conflicting with the source single-composer attribution. BNF has Symphony Of The Air Orchestra naming; Past Classics spells Artur where source says Arthur. No global alias or composer-role removal.",
+      "sources": [
+        "https://www.discogs.com/release/6681884"
+      ],
+      "limitations": [
+        "No source rewrite, global alias, associated-role waiver or automatic work-field promotion.",
+        "Recording-family acceptance does not verify exact LP pressing, mastering, digital transfer or take identity."
+      ]
+    },
+    {
+      "discogs_id": "6820841",
+      "album_id": "0886445533378",
+      "target_sha256": "9fb6e31bea4d1bb567fe474371dd6bffc46da88b94a9dfb6a5c88d0a47787182",
+      "album_sha256": "d51c9b60874da2fb91bef541d871874a16551235b3b0f2621c7b9573354f441b",
+      "source_sha256": "2f128436f2c3d38e6b2acde0ca10baba62c723806940debe98fd4712397286e1",
+      "decision": "withhold",
+      "recording_review": "The RCA Horowitz/Toscanini candidates have NBC Symphony only as Associated Performer. Saland omits the pianist from track performer strings; One Media packs orchestra/conductor into a single credit phrase with TCHAIKOVSKY surname-only composer.",
+      "sources": [
+        "https://www.discogs.com/release/6820841"
+      ],
+      "limitations": [
+        "No source rewrite, global alias, associated-role waiver or automatic work-field promotion.",
+        "Recording-family acceptance does not verify exact LP pressing, mastering, digital transfer or take identity."
+      ]
+    },
+    {
+      "discogs_id": "7278935",
+      "album_id": "meii6q1oknq6a",
+      "target_sha256": "fc1e3bc7dc3c638f0b8c9030b7df0497bb4dc19bad52a63428947b75b48d6465",
+      "album_sha256": "79d564cf1ba29e9ed7d67dc0ef6410a0084ad7063e2f750e44d7f670dc125619",
+      "source_sha256": "53b224044d5878af8152f1ff9ded16ff2d3c30b76a068a5af53efe35af2da0b1",
+      "decision": "withhold",
+      "recording_review": "Source booklet names the1938Berlin masters2RA3345-3356 and1958LP transfer2XRA10005-10006. Archipel metadata does not bind its digital transfer to those masters. Matching work/cast is insufficient; DG alternative is a later live collection.",
+      "sources": [
+        "https://www.discogs.com/release/7278935"
+      ],
+      "limitations": [
+        "No source rewrite, global alias, associated-role waiver or automatic work-field promotion.",
+        "Recording-family acceptance does not verify exact LP pressing, mastering, digital transfer or take identity."
+      ]
+    },
+    {
+      "discogs_id": "9703869",
+      "album_id": "r6iyk63tjvskc",
+      "target_sha256": "9d8dcadc937b000b42b4ac11ff5b34dcd1fc86e47518b8b9adc082d7bf50e66e",
+      "album_sha256": "cc47f5753d6ae9fa5235bf9236fc4295c76bbec7cfcfbb45a3de15a918ea64df",
+      "source_sha256": "71d66fb835a856c281fc486e1453dc52db12e4301c2c76de36f0096a39c970f7",
+      "decision": "withhold",
+      "recording_review": "The Sony reissue has both sonatas, positive cello/piano/composer roles and compatible individual band timings. Raw Chopin container says17:07, exactly its first three band durations; all four source bands sum23:22, including the6:15finale. Preserve the contradiction and transfer/session uncertainty.",
+      "sources": [
+        "https://www.discogs.com/release/9703869"
+      ],
+      "limitations": [
+        "No source rewrite, global alias, associated-role waiver or automatic work-field promotion.",
+        "Recording-family acceptance does not verify exact LP pressing, mastering, digital transfer or take identity."
+      ]
+    },
+    {
+      "discogs_id": "10851475",
+      "album_id": "0886443008809",
+      "target_sha256": "c1062f262654534465fd1ba2b236ec8f04056a1aadcce87f314421aa6fc0373e",
+      "album_sha256": "1505b4152edffb684ac4fdf1d0e183d202808d8558329403c666294d3ec44028",
+      "source_sha256": "d8fb4558189ed10cd98d482d2a38a6832238bc21fdc06afed544399740b72b2a",
+      "decision": "probable",
+      "recording_review": "All three source Sibelius movements have explicit Heifetz/Hendl/Chicago performance and composer credits in the older RCA reissue. Artist RCA chronology and reissuer catalogue corroborate the January1959family. No associated-only credit is relied upon.",
+      "sources": [
+        "https://www.discogs.com/release/10851475",
+        "https://jaschaheifetz.org/rca_chrono.html",
+        "https://jaschaheifetz.com/about/concerts/"
+      ],
+      "limitations": [
+        "No source rewrite, global alias, associated-role waiver or automatic work-field promotion.",
+        "Recording-family acceptance does not verify exact LP pressing, mastering, digital transfer or take identity."
+      ],
+      "review_kind": "source-leaf-bands",
+      "source_outline_sha256": "7722bf6555a038f8830e5b73ceb65b5794af0f9839f5152f21c3ab4ef14fb780",
+      "source_leaves": [
+        {
+          "path": [
+            0,
+            0
+          ],
+          "source_work": "Concerto In D Minor, Op. 47",
+          "title": "First Movement: Allegro Moderato",
+          "position": "A",
+          "duration": ""
+        },
+        {
+          "path": [
+            0,
+            1
+          ],
+          "source_work": "Concerto In D Minor, Op. 47",
+          "title": "Second Movement: Adagio Di Molto",
+          "position": "B1",
+          "duration": ""
+        },
+        {
+          "path": [
+            0,
+            2
+          ],
+          "source_work": "Concerto In D Minor, Op. 47",
+          "title": "Third Movement: Allegro, Ma Non Tanto",
+          "position": "B2",
+          "duration": ""
+        }
+      ],
+      "source_heading_groups": [],
+      "bindings": [
+        {
+          "source_path": [
+            0,
+            0
+          ],
+          "track_ids": [
+            3851975
+          ],
+          "track_sha256": [
+            "ed9e2f573d45f8848b441c26d792468a17d1ea3c34cf3e10646a9f76f498bc71"
+          ],
+          "required_performers": [
+            "Walter Hendl",
+            "Jascha Heifetz",
+            "Chicago Symphony Orchestra"
+          ],
+          "composer": "Jean Sibelius"
+        },
+        {
+          "source_path": [
+            0,
+            1
+          ],
+          "track_ids": [
+            3851976
+          ],
+          "track_sha256": [
+            "ebd9404163ac613a630aa7f4025180378d99202d41811e44a7650be9d3207fc1"
+          ],
+          "required_performers": [
+            "Walter Hendl",
+            "Jascha Heifetz",
+            "Chicago Symphony Orchestra"
+          ],
+          "composer": "Jean Sibelius"
+        },
+        {
+          "source_path": [
+            0,
+            2
+          ],
+          "track_ids": [
+            3851977
+          ],
+          "track_sha256": [
+            "18f7638d85e4211c2d21ee8bfd464439916670bf3533e402b2b25f67126a6858"
+          ],
+          "required_performers": [
+            "Walter Hendl",
+            "Jascha Heifetz",
+            "Chicago Symphony Orchestra"
+          ],
+          "composer": "Jean Sibelius"
+        }
+      ],
+      "selected_track_fingerprints": {
+        "3851975": "ed9e2f573d45f8848b441c26d792468a17d1ea3c34cf3e10646a9f76f498bc71",
+        "3851976": "ebd9404163ac613a630aa7f4025180378d99202d41811e44a7650be9d3207fc1",
+        "3851977": "18f7638d85e4211c2d21ee8bfd464439916670bf3533e402b2b25f67126a6858"
+      },
+      "extra_track_ids": [],
+      "external_source_files": [
+        {
+          "path": "data/review_sources/work9-10851475/source-observation.txt",
+          "source_url": "https://jaschaheifetz.org/rca_chrono.html",
+          "sha256": "3cffc98a82be304203ee93756ea4044498c2a0a53ae8303230b7f6b8119648fd"
+        }
+      ]
     }
   ]
 }

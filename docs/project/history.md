@@ -2240,3 +2240,19 @@ PaulKuen/PaulKuentz retained as distinct evidence; no fuzzy alias. Sample not
 random, counts not promotion estimates. [Results](../plans/2026-11-16-qobuz-credit171.md).
 No Qobuz calls, source rewrite, global rule change or push. Next cached review:
 2394378then2636984among nine work-context leads; original credit cohort159open.
+
+
+### 2026-11-16 — Nine work-context leads reviewed
+
+All9decisions saved with complete raw source programmes/notes, alternatives and
+hashes. Heifetz4259729(Sibelius/Prokofiev LP) and10851475(Sibelius)Probable85using
+older cached positive performance credits and source-derived work scopes; no
+associated-role waiver. Seven holds:1938Furtwängler transfer identity(two LPs),
+Gould/Elgar/Horowitzassociated-only orchestras, Rubinstein co-composer/identity
+conflicts, Piatigorsky container duration/source reconciliation. [Results](../plans/2026-11-16-qobuz-work-context9.md).
+Exactly2status changes and7workflow-review changes; every out-of-scope release
+payload and Spotify/collection bytes unchanged.274script tests, normalization,
+build and9validator pass; queues/groups refreshed.12Found/166Probable/222reviewed/
+341Unchecked copies. All11frozen work-context gains reviewed; original171cohort
+now21decisions(3Probable/18holds),150without saved decisions. No provider calls
+or push. Next proposed step:bounded compact-vocal-role semantic/impact diagnostic.

@@ -616,3 +616,11 @@ It records exact per-track declared-but-unaccepted roles and an experiment using
 explicit work fields on bare numbered titles. Different takes, instruments and
 recording identity still need review. Sample decisions reproduce with
 `uv run --with requests python scripts/qobuz_credit12_audit.py`.
+
+
+`uv run --with requests python scripts/qobuz_work_context9_audit.py` reproduces the
+nine follow-up recording decisions and alternatives. The paired Heifetz LP uses
+source-derived work scopes with positive credits from an older cached reissue;
+it does not change associated-role acceptance or apply diagnostic work fields
+across the collection. Historical-transfer and source-container timing holds
+remain explicit decisions.

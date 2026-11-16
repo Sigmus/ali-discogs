@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "reviewed_on": "2026-11-15",
-  "population": "341 unique releases currently categorized work_or_credit_unresolved",
+  "population": "332 unique releases currently categorized work_or_credit_unresolved",
   "rules": {
     "priority_review": "Unheld cached candidate supports >=50% of current source units; known/reviewed blockers excluded.",
     "secondary_partial_lead": "Some current support, below50%; known/reviewed blockers excluded.",
@@ -11,7 +11,7 @@
   },
   "counts": {
     "known_constraint": 3,
-    "no_current_supported_units": 338
+    "no_current_supported_units": 329
   },
   "entries": [
     {
@@ -173,14 +173,6 @@
       "uncached_hits": 0
     },
     {
-      "discogs_id": "2394378",
-      "title": "Symphony No. 6 In B Minor/\"Pathétique\"",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894740302",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
       "discogs_id": "2402801",
       "title": "La Traviata",
       "queue": "no_current_supported_units",
@@ -235,14 +227,6 @@
       "best_cached_album_id": "0886445085297",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 0
-    },
-    {
-      "discogs_id": "2636984",
-      "title": "Piano Concerto No. 5 \"Emperor\" / \"L'Empereur\"",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0886443628663",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 4
     },
     {
       "discogs_id": "2712474",
@@ -337,14 +321,6 @@
       "title": "The Ring Of The Nibelung (Das Rheingold, Die Walküre, Siegfried, Götterdämmerung)",
       "queue": "no_current_supported_units",
       "best_cached_album_id": "qs49hef2mbbsb",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "3000291",
-      "title": "Violin Concerto = Concerto Pour Violon = Violinkonzerte",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894455642",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 0
     },
@@ -753,14 +729,6 @@
       "title": "Harmoniemesse",
       "queue": "no_current_supported_units",
       "best_cached_album_id": "rg2a94dpi2oab",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "4259729",
-      "title": "Concerto / Concerto No. 2",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0090266177929",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 0
     },
@@ -1301,14 +1269,6 @@
       "uncached_hits": 0
     },
     {
-      "discogs_id": "6681884",
-      "title": "Concerto No.2",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0090266303625",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
       "discogs_id": "6781135",
       "title": "Kid Ory And His Creole Jazz Band",
       "queue": "no_current_supported_units",
@@ -1329,14 +1289,6 @@
       "title": "Die Meistersinger von Nürnberg",
       "queue": "no_current_supported_units",
       "best_cached_album_id": "0002894406062",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "6820841",
-      "title": "Concerto No. 1 In B Flat Minor, Op. 23",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0883629684345",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 0
     },
@@ -1443,14 +1395,6 @@
       "best_cached_album_id": "0002894760949",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 0
-    },
-    {
-      "discogs_id": "7278935",
-      "title": "Symphony N° 6 In B Minor \"Pathétique\"",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894740302",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 5
     },
     {
       "discogs_id": "7291425",
@@ -1909,14 +1853,6 @@
       "uncached_hits": 0
     },
     {
-      "discogs_id": "9703869",
-      "title": "Sonatas For Cello And Piano",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "i8kw6oaysze4b",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
       "discogs_id": "9732615",
       "title": "Kantaten - Cantatas",
       "queue": "no_current_supported_units",
@@ -2059,14 +1995,6 @@
       "best_cached_album_id": "0002894740302",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 8
-    },
-    {
-      "discogs_id": "10851475",
-      "title": "Violin Concerto",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0090266177929",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
     },
     {
       "discogs_id": "11058952",
@@ -2749,5 +2677,5 @@
       "uncached_hits": 0
     }
   ],
-  "inventory_sha256": "7fdc86f85fb6b29d4e5a225155ddb2771c51ccdb2d2961651c00f47ea7e7365e"
+  "inventory_sha256": "ad2adf122ed42de81b3a4c838f0ec4320423ba8ef3414a959c5e49a7e045b9eb"
 }

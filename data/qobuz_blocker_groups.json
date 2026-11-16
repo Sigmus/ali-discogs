@@ -1,27 +1,30 @@
 {
   "schema_version": 1,
   "reviewed_on": "2026-11-16",
-  "unique_unresolved_releases": 564,
+  "unique_unresolved_releases": 562,
   "review_state_counts": {
-    "no_saved_decision": 349,
-    "reviewed_unresolved": 215
+    "no_saved_decision": 340,
+    "reviewed_unresolved": 222
   },
   "planning_families": {
-    "credit_evidence": 211,
+    "credit_evidence": 205,
     "no_cached_candidate": 6,
     "other_saved_blocker": 58,
     "partial_programme_or_completeness": 5,
-    "recording_identity": 37,
-    "source_programme_mapping": 68,
+    "recording_identity": 40,
+    "source_programme_mapping": 69,
     "work_title_or_catalogue_mapping_unresolved": 179
   },
   "groups": {
-    "credit_support_unresolved": 159,
+    "credit_support_unresolved": 150,
     "no_cached_candidate": 6,
     "partial_programme_or_completeness": 5,
     "saved:aria-work-cast-scope": 1,
     "saved:arrangement-and-recording-identity": 1,
     "saved:associated-only-orchestra": 1,
+    "saved:associated-orchestra": 1,
+    "saved:associated-orchestra-and-packed-credit": 1,
+    "saved:associated-orchestra-and-wrong-alternative": 1,
     "saved:book-pairs-and-session": 1,
     "saved:book-two-source-range-and-take": 1,
     "saved:box-programme-map": 1,
@@ -29,6 +32,7 @@
     "saved:catalogue-programme": 1,
     "saved:catalogue_and_source_key": 1,
     "saved:chopin-coupling-incomplete": 1,
+    "saved:co-composer-and-identity": 1,
     "saved:compilation-takes-incomplete": 1,
     "saved:complete-programme-sparse-credits": 1,
     "saved:composer-and-band-map": 1,
@@ -62,6 +66,7 @@
     "saved:flat-programme-and-identity": 1,
     "saved:haintink-cycle-and-split-source": 1,
     "saved:harp-programme-and-transcription": 1,
+    "saved:historical-transfer-identity": 2,
     "saved:incomplete-box": 2,
     "saved:incomplete-box-and-casts": 1,
     "saved:incomplete-cycle-and-members": 1,
@@ -121,6 +126,7 @@
     "saved:single-work-vocal-sections-and-raw-credits": 1,
     "saved:source-choir-organ": 1,
     "saved:source-composer-conflict": 1,
+    "saved:source-container-duration-conflict": 1,
     "saved:source-credits": 1,
     "saved:source-heading-and-programme": 1,
     "saved:source-number-and-movement-order": 2,
@@ -590,13 +596,13 @@
     {
       "discogs_id": "2394378",
       "title": "Symphony No. 6 In B Minor/\"Pathétique\"",
-      "review_state": "no_saved_decision",
-      "group": "credit_support_unresolved",
-      "planning_family": "credit_evidence",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:historical-transfer-identity",
+      "planning_family": "recording_identity",
       "cached_candidate_count": 3,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Source explicitly identifies the1938Berlin studio recording. Archipel candidate has compatible works/cast/timings but no saved session/date/take markers tying its transfer to1938. The other DG collection explicitly comprises1944-1953live recordings.",
+      "next_action": "Corroborate the Archipel transfer/session against the1938source matrices before a recording-family promotion."
     },
     {
       "discogs_id": "2402801",
@@ -711,13 +717,13 @@
     {
       "discogs_id": "2636984",
       "title": "Piano Concerto No. 5 \"Emperor\" / \"L'Empereur\"",
-      "review_state": "no_saved_decision",
-      "group": "credit_support_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:associated-orchestra",
       "planning_family": "credit_evidence",
       "cached_candidate_count": 4,
       "uncached_hits": 4,
-      "finding": null,
-      "next_action": null
+      "finding": "The complete Gould/Stokowski Emperor has American Symphony Orchestra only as Associated Performer. The BNF alternative is Gould/Krips/Buffalo, a different recording. Source joins movementsII/III in one band; matching duration cannot replace orchestra-role evidence.",
+      "next_action": "Resolve provider-specific orchestra-role semantics or obtain a positively credited reissue; retain the joined source band."
     },
     {
       "discogs_id": "2666680",
@@ -964,13 +970,13 @@
     {
       "discogs_id": "3000291",
       "title": "Violin Concerto = Concerto Pour Violon = Violinkonzerte",
-      "review_state": "no_saved_decision",
-      "group": "credit_support_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:associated-orchestra-and-wrong-alternative",
       "planning_family": "credit_evidence",
       "cached_candidate_count": 4,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Zukerman/Barenboim Elgar has London Philharmonic only as Associated Performer. The DG alternative is Perlman/Chicago, so it cannot fill the source credits.",
+      "next_action": "Obtain positive source-orchestra evidence and corroborate the Zukerman recording without borrowing the Perlman cast."
     },
     {
       "discogs_id": "3018585",
@@ -1752,17 +1758,6 @@
       "uncached_hits": 0,
       "finding": "The310trackWarnerfile contains all four named operas with Furtwängler/RomeRAIorchestra on every track; the source choir appears on12Götterdämmerungtracks. The source lists that choir globally across four independent operas, without work-scoped assignments. Do not relax that requirement by merging the entire cycle into one credit group. SourceRheingold sideBalso saysScene1part1before Scene2conclusion; exact side proof is unresolved. Milan1950and other-ensemble alternatives remain distinct.",
       "next_action": "Verify original booklet chorus/work scopes and source scene wording, then design a bounded four-opera review without importing credits between works."
-    },
-    {
-      "discogs_id": "4259729",
-      "title": "Concerto / Concerto No. 2",
-      "review_state": "no_saved_decision",
-      "group": "credit_support_unresolved",
-      "planning_family": "credit_evidence",
-      "cached_candidate_count": 3,
-      "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
     },
     {
       "discogs_id": "4268630",
@@ -2911,13 +2906,13 @@
     {
       "discogs_id": "6681884",
       "title": "Concerto No.2",
-      "review_state": "no_saved_decision",
-      "group": "credit_support_unresolved",
-      "planning_family": "credit_evidence",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:co-composer-and-identity",
+      "planning_family": "recording_identity",
       "cached_candidate_count": 5,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "The RCA collection gives both Busoni and Beethoven Composer roles on the Op19 tracks, conflicting with the source single-composer attribution. BNF has Symphony Of The Air Orchestra naming; Past Classics spells Artur where source says Arthur. No global alias or composer-role removal.",
+      "next_action": "Verify cadenza/composer semantics and exact pianist/orchestra identities or obtain a fully consistent positively credited reissue."
     },
     {
       "discogs_id": "6711178",
@@ -2977,13 +2972,13 @@
     {
       "discogs_id": "6820841",
       "title": "Concerto No. 1 In B Flat Minor, Op. 23",
-      "review_state": "no_saved_decision",
-      "group": "credit_support_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:associated-orchestra-and-packed-credit",
       "planning_family": "credit_evidence",
       "cached_candidate_count": 5,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "The RCA Horowitz/Toscanini candidates have NBC Symphony only as Associated Performer. Saland omits the pianist from track performer strings; One Media packs orchestra/conductor into a single credit phrase with TCHAIKOVSKY surname-only composer.",
+      "next_action": "Verify a positively credited complete source recording and session; do not infer separate musician roles from a packed prose string."
     },
     {
       "discogs_id": "6831914",
@@ -3241,13 +3236,13 @@
     {
       "discogs_id": "7278935",
       "title": "Symphony N° 6 In B Minor \"Pathétique\"",
-      "review_state": "no_saved_decision",
-      "group": "credit_support_unresolved",
-      "planning_family": "credit_evidence",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:historical-transfer-identity",
+      "planning_family": "recording_identity",
       "cached_candidate_count": 3,
       "uncached_hits": 5,
-      "finding": null,
-      "next_action": null
+      "finding": "Source booklet names the1938Berlin masters2RA3345-3356 and1958LP transfer2XRA10005-10006. Archipel metadata does not bind its digital transfer to those masters. Matching work/cast is insufficient; DG alternative is a later live collection.",
+      "next_action": "Find primary transfer/session corroboration for the Archipel candidate or another exact1938family reissue."
     },
     {
       "discogs_id": "7291425",
@@ -4264,13 +4259,13 @@
     {
       "discogs_id": "9703869",
       "title": "Sonatas For Cello And Piano",
-      "review_state": "no_saved_decision",
-      "group": "credit_support_unresolved",
-      "planning_family": "credit_evidence",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:source-container-duration-conflict",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 2,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "The Sony reissue has both sonatas, positive cello/piano/composer roles and compatible individual band timings. Raw Chopin container says17:07, exactly its first three band durations; all four source bands sum23:22, including the6:15finale. Preserve the contradiction and transfer/session uncertainty.",
+      "next_action": "Inspect original source labels/booklet to reconcile the container subtotal and corroborate the full RCA2875recording family before promotion."
     },
     {
       "discogs_id": "9707819",
@@ -4656,17 +4651,6 @@
       "uncached_hits": 0,
       "finding": "Landowska's full Well-Tempered Clavier title is cached, but source pair structure, all BWV identities and transfer/session family lack an accepted mapping.",
       "next_action": "Bind the entire source book sequence and retain unresolved transfer provenance."
-    },
-    {
-      "discogs_id": "10851475",
-      "title": "Violin Concerto",
-      "review_state": "no_saved_decision",
-      "group": "credit_support_unresolved",
-      "planning_family": "credit_evidence",
-      "cached_candidate_count": 5,
-      "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
     },
     {
       "discogs_id": "10867313",
@@ -6364,13 +6348,14 @@
     "Grouping authorizes no new retrieval, identity alias, role waiver or automatic promotion."
   ],
   "source_hashes": {
-    "data/qobuz_unmatched_audit.json": "7fdc86f85fb6b29d4e5a225155ddb2771c51ccdb2d2961651c00f47ea7e7365e",
-    "data/qobuz_matches.json": "7e80f0a28ddb26b43d4b3a50a865a5abf53e973b57b75956b882dffafbe171a4",
+    "data/qobuz_unmatched_audit.json": "ad2adf122ed42de81b3a4c838f0ec4320423ba8ef3414a959c5e49a7e045b9eb",
+    "data/qobuz_matches.json": "a4bfd7024bcb06d8bac7a74eca98a4f8abef67780dcb7bbffd4b9c6193bdf11f",
     "data/qobuz_credit12_recording_audit.json": "f720a1cc1c5beec68dbe0b3ae45b80e5fd003d272f4cc5ca872f6863e1105092",
     "data/qobuz_final_cached2_recording_audit.json": "0d6a38e1817de98fc971d7a0e9c92f972c24e0eff503fc569951030c0e29da73",
     "data/qobuz_fullsupport16_recording_audit.json": "4187655cdfbfbc21fc9895b0818c8755a72596608a5ce7d1579ac38e1901510a",
     "data/qobuz_partial38_recording_audit.json": "cd4607193942f467815228cf9fa831887e0439f27146b9cf7d3f3637663f698d",
     "data/qobuz_secondary23_recording_audit.json": "7a2c245c90f30b437f1e4fba32c38b3ce6932eefb29af9232332f80a7358ca38",
+    "data/qobuz_work_context9_recording_audit.json": "1ebe1ea51d3862297c4573606aa05dc92e606e27eb75c98dd661f5e683754fb4",
     "data/qobuz_zero104_recording_audit.json": "bbf837b84c3acdb9e80462c4a5ae8d8cbf285f830c45e33ab7dd1eadc40b1712"
   }
 }

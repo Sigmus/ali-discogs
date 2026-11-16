@@ -38,11 +38,13 @@ Final two supported cached leads reviewed:9283162Probable;15660391held.
 [Results and grouping](../plans/2026-11-16-qobuz-final-cached-leads.md).
 The diverse12credit-support sample is now reviewed:Reiner1896362Probable,
 11explicit holds. [Diagnostic/results](../plans/2026-11-16-qobuz-credit171.md).
-Frozen171machine scan found11work-field gains;9remain unreviewed, starting
-2394378/2636984. Continue existing source-bound recording review; no automatic
-work-field promotion. The current unreviewed split is159credit-support,
-179work/title,6no cached candidate and5completeness cases.
-The broader341work/credit inventory remains separate. Zero support needs source/
+All11work-field gains are reviewed, including the [nine-case follow-up](../plans/2026-11-16-qobuz-work-context9.md):2HeifetzProbable/7holds.
+Current unreviewed split:150credit-support,179work/title,6no cached candidate and
+5completeness cases. Next proposed diagnostic: compact vocal-role spellings,
+source requirements and exact bounded publication impact. Do not adopt a live
+role alias without semantics/negative-case evidence; associated-role policy and
+missing-member requirements remain unchanged.
+The broader332work/credit inventory remains separate. Zero support needs source/
 lead/rule investigation, not automatic API retrieval. Revisit explicit holds only
 with new evidence or a validated scoped rule; partial source support is triage,
 not confidence. No new retrieval or broad policy change follows from completion.

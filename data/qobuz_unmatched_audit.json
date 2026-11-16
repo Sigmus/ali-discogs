@@ -22,22 +22,22 @@
     "qobuz_lead_reviews.json": "bc731b95eadb23cb1a13d735a4e7410615ae06f260b2c4a381ed4a29e229265e",
     "qobuz_binding_reviews.json": "eab7d007faef231024862226e943305bd4a4aab65143bd18c45b96b811286b77",
     "qobuz_opera_recording_reviews.json": "6e26d528eb7de78d372635218404a57534332ea1cd3d92e89e90e7a18066f85b",
-    "qobuz_remaining_recording_reviews.json": "8d99b595b415f698e6931287b2a8e64e790de66325e6b345233cab92eeb158e5",
+    "qobuz_remaining_recording_reviews.json": "50c8987c435edd1766cc380ac53ef3c5e8300003b3305c5c1152438c4691f941",
     "collection_matches.json": "a214eee877d4749fa957b3d2a293c2925d7ba0621259f2742139a6cd86f928c8",
-    "qobuz_matches.json": "7e80f0a28ddb26b43d4b3a50a865a5abf53e973b57b75956b882dffafbe171a4",
+    "qobuz_matches.json": "a4bfd7024bcb06d8bac7a74eca98a4f8abef67780dcb7bbffd4b9c6193bdf11f",
     "qobuz_work_inventory.json": "47b8e955b99c37b132e66daea61590490d249f94a520740d702bec5caa5019ce",
     "qobuz_source_composer_reviews.json": "1cce69d6df99a54b444f6a210d84c5c69b3139eb4ed1355e821708d1fb59b83c",
     "qobuz_source_programme_reviews.json": "5469466141e2816720bf35e6b54abeb18daf3f12bf6fec1b4f9e794da0db098b"
   },
   "summary": {
-    "work_or_credit_unresolved": 341,
-    "reviewed_withheld": 207,
+    "work_or_credit_unresolved": 332,
+    "reviewed_withheld": 214,
     "completeness_review_needed": 5,
     "recording_review_rejected": 4,
     "no_saved_hits": 6,
     "source_programme_review_needed": 1
   },
-  "unmatched_unique_releases": 564,
+  "unmatched_unique_releases": 562,
   "entries": [
     {
       "discogs_id": "594243",
@@ -26390,7 +26390,7 @@
     {
       "discogs_id": "2394378",
       "title": "Symphony No. 6 In B Minor/\"Pathétique\"",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 3,
       "uncached_hits": 0,
       "cached_candidates": [
@@ -26435,7 +26435,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Symphony No. 6 In B Minor, Op. 74 (\"Pathétique) ",
@@ -27828,7 +27828,7 @@
     {
       "discogs_id": "2636984",
       "title": "Piano Concerto No. 5 \"Emperor\" / \"L'Empereur\"",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 8,
       "uncached_hits": 4,
       "cached_candidates": [
@@ -27873,7 +27873,7 @@
           "status": "unchecked",
           "completeness": "incomplete",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Piano Concerto No. 5 E-Flat Major / Es-Dur / Mi Bémol, Op. 73 \"Emperor\" / \"L'Empereur\"",
@@ -33028,7 +33028,7 @@
     {
       "discogs_id": "3000291",
       "title": "Violin Concerto = Concerto Pour Violon = Violinkonzerte",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 4,
       "uncached_hits": 0,
       "cached_candidates": [
@@ -33090,7 +33090,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Violin Concerto = Concerto Pour Violon = Violinkonzerte, Op. 61",
@@ -53111,222 +53111,6 @@
               "work_tracks": 16,
               "credited_tracks": 0,
               "track_ids": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "discogs_id": "4259729",
-      "title": "Concerto / Concerto No. 2",
-      "category": "work_or_credit_unresolved",
-      "saved_hits": 3,
-      "uncached_hits": 0,
-      "cached_candidates": [
-        {
-          "album_id": "0090266177929",
-          "title": "The Heifetz Collection Vol. 11-15 - The Concerto Collection",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Concerto In D Minor, Op. 47",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": [],
-              "required_performers": [
-                "Jascha Heifetz",
-                "Walter Hendl",
-                "Chicago Symphony Orchestra"
-              ],
-              "target_credit_scope": {
-                "source": "cached Discogs explicit work/position credits",
-                "positions": [
-                  "A1",
-                  "A2",
-                  "A3"
-                ],
-                "performers": [
-                  {
-                    "name": "Walter Hendl",
-                    "role": "Conductor"
-                  },
-                  {
-                    "name": "Chicago Symphony Orchestra",
-                    "role": "Orchestra"
-                  }
-                ]
-              }
-            },
-            {
-              "target": "Concerto No. 2 In G Minor, Op. 63",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": [],
-              "required_performers": [
-                "Jascha Heifetz",
-                "Charles Munch",
-                "Boston Symphony Orchestra"
-              ],
-              "target_credit_scope": {
-                "source": "cached Discogs explicit work/position credits",
-                "positions": [
-                  "B1",
-                  "B2",
-                  "B3"
-                ],
-                "performers": [
-                  {
-                    "name": "Charles Munch",
-                    "role": "Conductor"
-                  },
-                  {
-                    "name": "Boston Symphony Orchestra",
-                    "role": "Orchestra"
-                  }
-                ]
-              }
-            }
-          ]
-        },
-        {
-          "album_id": "0886445075557",
-          "title": "Sibelius: Violin Concerto in D Minor, Op. 47 - Prokofiev: Violin Concerto No. 2 in G Minor, Op. 63 - Glazunov: Violin Concerto in A Minor, Op. 82",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Concerto In D Minor, Op. 47",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": [],
-              "required_performers": [
-                "Jascha Heifetz",
-                "Walter Hendl",
-                "Chicago Symphony Orchestra"
-              ],
-              "target_credit_scope": {
-                "source": "cached Discogs explicit work/position credits",
-                "positions": [
-                  "A1",
-                  "A2",
-                  "A3"
-                ],
-                "performers": [
-                  {
-                    "name": "Walter Hendl",
-                    "role": "Conductor"
-                  },
-                  {
-                    "name": "Chicago Symphony Orchestra",
-                    "role": "Orchestra"
-                  }
-                ]
-              }
-            },
-            {
-              "target": "Concerto No. 2 In G Minor, Op. 63",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": [],
-              "required_performers": [
-                "Jascha Heifetz",
-                "Charles Munch",
-                "Boston Symphony Orchestra"
-              ],
-              "target_credit_scope": {
-                "source": "cached Discogs explicit work/position credits",
-                "positions": [
-                  "B1",
-                  "B2",
-                  "B3"
-                ],
-                "performers": [
-                  {
-                    "name": "Charles Munch",
-                    "role": "Conductor"
-                  },
-                  {
-                    "name": "Boston Symphony Orchestra",
-                    "role": "Orchestra"
-                  }
-                ]
-              }
-            }
-          ]
-        },
-        {
-          "album_id": "3614599678297",
-          "title": "Sibelius Violin Concerto in D Minor, Prokofiev Violin Concerto No. 2 and Glazunov Violin Concerto in A Minor",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Concerto In D Minor, Op. 47",
-              "work_tracks": 3,
-              "credited_tracks": 0,
-              "track_ids": [],
-              "required_performers": [
-                "Jascha Heifetz",
-                "Walter Hendl",
-                "Chicago Symphony Orchestra"
-              ],
-              "target_credit_scope": {
-                "source": "cached Discogs explicit work/position credits",
-                "positions": [
-                  "A1",
-                  "A2",
-                  "A3"
-                ],
-                "performers": [
-                  {
-                    "name": "Walter Hendl",
-                    "role": "Conductor"
-                  },
-                  {
-                    "name": "Chicago Symphony Orchestra",
-                    "role": "Orchestra"
-                  }
-                ]
-              }
-            },
-            {
-              "target": "Concerto No. 2 In G Minor, Op. 63",
-              "work_tracks": 3,
-              "credited_tracks": 0,
-              "track_ids": [],
-              "required_performers": [
-                "Jascha Heifetz",
-                "Charles Munch",
-                "Boston Symphony Orchestra"
-              ],
-              "target_credit_scope": {
-                "source": "cached Discogs explicit work/position credits",
-                "positions": [
-                  "B1",
-                  "B2",
-                  "B3"
-                ],
-                "performers": [
-                  {
-                    "name": "Charles Munch",
-                    "role": "Conductor"
-                  },
-                  {
-                    "name": "Boston Symphony Orchestra",
-                    "role": "Orchestra"
-                  }
-                ]
-              }
             }
           ]
         }
@@ -123435,7 +123219,7 @@
     {
       "discogs_id": "6681884",
       "title": "Concerto No.2",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 5,
       "uncached_hits": 0,
       "cached_candidates": [
@@ -123446,7 +123230,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Concerto No. 2, In B-Flat, Op. 19",
@@ -124956,7 +124740,7 @@
     {
       "discogs_id": "6820841",
       "title": "Concerto No. 1 In B Flat Minor, Op. 23",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 5,
       "uncached_hits": 0,
       "cached_candidates": [
@@ -124984,7 +124768,7 @@
           "status": "unchecked",
           "completeness": "incomplete",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Concerto No. 1 In B-Flat Minor, Op. 23",
@@ -131549,7 +131333,7 @@
     {
       "discogs_id": "7278935",
       "title": "Symphony N° 6 In B Minor \"Pathétique\"",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 8,
       "uncached_hits": 5,
       "cached_candidates": [
@@ -131594,7 +131378,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Symphony No. 6 In B Minor, Op. 74 \"Pathétique\"",
@@ -163155,7 +162939,7 @@
     {
       "discogs_id": "9703869",
       "title": "Sonatas For Cello And Piano",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 2,
       "uncached_hits": 0,
       "cached_candidates": [
@@ -163189,7 +162973,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Sonata Sonata For Cello And Piano, Op. 65",
@@ -173315,100 +173099,6 @@
             {
               "target": "Preludio E Fuga N. 24 In Si Min.",
               "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "discogs_id": "10851475",
-      "title": "Violin Concerto",
-      "category": "work_or_credit_unresolved",
-      "saved_hits": 5,
-      "uncached_hits": 0,
-      "cached_candidates": [
-        {
-          "album_id": "0090266177929",
-          "title": "The Heifetz Collection Vol. 11-15 - The Concerto Collection",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Concerto In D Minor, Op. 47",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "0743216347025",
-          "title": "Artists Of The Century: Jascha Heifetz",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Concerto In D Minor, Op. 47",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "0886443008809",
-          "title": "Sibelius: Violin Concerto in D Minor, Op. 47",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Concerto In D Minor, Op. 47",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "0886445075557",
-          "title": "Sibelius: Violin Concerto in D Minor, Op. 47 - Prokofiev: Violin Concerto No. 2 in G Minor, Op. 63 - Glazunov: Violin Concerto in A Minor, Op. 82",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Concerto In D Minor, Op. 47",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "3614599678297",
-          "title": "Sibelius Violin Concerto in D Minor, Prokofiev Violin Concerto No. 2 and Glazunov Violin Concerto in A Minor",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Concerto In D Minor, Op. 47",
-              "work_tracks": 3,
               "credited_tracks": 0,
               "track_ids": []
             }
