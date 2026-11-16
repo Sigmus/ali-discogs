@@ -2170,3 +2170,11 @@ normalization and build pass; exactly6Unchecked→Probable, collection/Spotify
 unchanged.12Found/159Probable/570Unchecked copies.160lead queue now17resolved,
 39reviewed holds,104open zero-rule cases. Source-role audit recorded as proposal.
 No push/deployment.
+
+
+### 2026-11-16 —38case batch pushed
+
+At user request, main advanced ab1c72f→3632140successfully. All38reviews, six
+new Probable matches,32holds and source-band validation are shared. Pages
+deployment not verified. Next recommendation remains cached9283162then15660391,
+followed by104zero-current-rule cases; no execution implied by status briefing.
