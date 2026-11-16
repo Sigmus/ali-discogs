@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "reviewed_on": "2026-11-15",
+  "reviewed_on": "2026-11-16",
   "releases": [
     {
       "discogs_id": "4491358",
@@ -17188,6 +17188,1384 @@
           "sha256": "3cffc98a82be304203ee93756ea4044498c2a0a53ae8303230b7f6b8119648fd"
         }
       ]
+    },
+    {
+      "discogs_id": "2845131",
+      "album_id": "0090266303625",
+      "target_sha256": "0ab7fae501daffd75682dd6bd7f3e5b0d1797d5318cce74112257d72735554b7",
+      "source_sha256": "1ca9d41e8e33dcb8579889ff70dceee6f809bf0b0014eb692101c18518577658",
+      "album_sha256": "5b55acc1c69657600b90082e87c3d0250c94f88c9bd0e2b46b4b7eb5f5e56eef",
+      "decision": "withhold",
+      "recording_review": "The old RCA candidate credits Busoni and Beethoven as Composer on all three Op.15 tracks. The modern alternative has Symphony of the Air only as Associated Performer. Full work support does not resolve either credit-policy conflict.",
+      "sources": [
+        "https://www.discogs.com/release/2845131",
+        "https://natlib.govt.nz/records/22157156",
+        "https://www.worldradiohistory.com/Archive-All-Audio/Archive-High-Fidelity/50s/High-Fidelity-1957-Feb.pdf"
+      ],
+      "limitations": [
+        "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
+        "No source rewrite, global work-title promotion, composer/performer alias or associated-role waiver."
+      ],
+      "external_source_files": [
+        {
+          "path": "data/review_sources/title9-rubinstein/source-observation.txt",
+          "sha256": "09ff441c454d2bbf2db68811f640f840fa1212db43d48ac92a4555758efea094"
+        }
+      ]
+    },
+    {
+      "discogs_id": "4431461",
+      "album_id": "0886445085785",
+      "target_sha256": "e0c1c4356b2e31c12b232523fa4e8ad71addfc873c0fbe447552582706fca9a5",
+      "source_sha256": "d5ce67731f727b86367204c80a44199259a80facb4da88e4703ff401bd905cff",
+      "album_sha256": "68bd81e1a726126048d0db49a6a2be871883252c670a6d9dc96b1684ed03a9b1",
+      "decision": "probable",
+      "recording_review": "Gould’s official album index identifies the1983Sonatas12/13programme. The Sony remaster retains all eight ordered source bands, identical composer/pianist and the source production team. Every printed band duration fits the existing tolerance, supporting this Columbia recording family.",
+      "sources": [
+        "https://www.discogs.com/release/4431461",
+        "https://glenngould.com/music/",
+        "https://glenngould.com/music/beethoven-sonatas-no-12-op-26-no-13-op-27-no-1/"
+      ],
+      "limitations": [
+        "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
+        "No source rewrite, global work-title promotion, composer/performer alias or associated-role waiver."
+      ],
+      "external_source_files": [
+        {
+          "path": "data/review_sources/title9-gould/source-observation.txt",
+          "sha256": "58e0e55ab3eefb4095e5cedf6bd2a7b2554e83ea9e141052bb9b3f1de7528565"
+        }
+      ],
+      "review_kind": "source-leaf-bands",
+      "source_outline_sha256": "856425ff655ac60d14186df23f90bd84232f4c33c0f9336f3b64e77daf0fd550",
+      "source_leaves": [
+        {
+          "path": [
+            0,
+            0
+          ],
+          "source_work": "Sonata No. 12, Op. 26 (A-flat Major / As-dur / La Bémol Majeur)",
+          "title": "I – Andante Con Variazioni",
+          "position": "A1",
+          "duration": "10:03"
+        },
+        {
+          "path": [
+            0,
+            1
+          ],
+          "source_work": "Sonata No. 12, Op. 26 (A-flat Major / As-dur / La Bémol Majeur)",
+          "title": "II – Scherzo: Allegro Molto",
+          "position": "A2",
+          "duration": "3:06"
+        },
+        {
+          "path": [
+            0,
+            2
+          ],
+          "source_work": "Sonata No. 12, Op. 26 (A-flat Major / As-dur / La Bémol Majeur)",
+          "title": "III – Marcia Funebre Sulla Morte D'un Eroe",
+          "position": "A3",
+          "duration": "7:05"
+        },
+        {
+          "path": [
+            0,
+            3
+          ],
+          "source_work": "Sonata No. 12, Op. 26 (A-flat Major / As-dur / La Bémol Majeur)",
+          "title": "IV – Allegro",
+          "position": "A4",
+          "duration": "2:42"
+        },
+        {
+          "path": [
+            1,
+            0
+          ],
+          "source_work": "Sonata No. 13, Op. 27, No. 1 (\"Sonata Quasi Una Fantasia\") (E-flat Major / Es-dur / Mi Bémol Majeur)",
+          "title": "I – Andante",
+          "position": "B1",
+          "duration": "7:52"
+        },
+        {
+          "path": [
+            1,
+            1
+          ],
+          "source_work": "Sonata No. 13, Op. 27, No. 1 (\"Sonata Quasi Una Fantasia\") (E-flat Major / Es-dur / Mi Bémol Majeur)",
+          "title": "II – Allegro Molto E Vivace",
+          "position": "B2",
+          "duration": "2:01"
+        },
+        {
+          "path": [
+            1,
+            2
+          ],
+          "source_work": "Sonata No. 13, Op. 27, No. 1 (\"Sonata Quasi Una Fantasia\") (E-flat Major / Es-dur / Mi Bémol Majeur)",
+          "title": "III – Adagio Con Espressione",
+          "position": "B3",
+          "duration": "3:47"
+        },
+        {
+          "path": [
+            1,
+            3
+          ],
+          "source_work": "Sonata No. 13, Op. 27, No. 1 (\"Sonata Quasi Una Fantasia\") (E-flat Major / Es-dur / Mi Bémol Majeur)",
+          "title": "IV – Allegro Vivace",
+          "position": "B4",
+          "duration": "7:19"
+        }
+      ],
+      "source_heading_groups": [],
+      "bindings": [
+        {
+          "source_path": [
+            0,
+            0
+          ],
+          "track_ids": [
+            26886394
+          ],
+          "track_sha256": [
+            "5c83183eed48d2503c9098e59d0595c101dc3397d339d47e9220470754ea681f"
+          ],
+          "required_performers": [
+            "Glenn Gould"
+          ],
+          "composer": "Ludwig van Beethoven"
+        },
+        {
+          "source_path": [
+            0,
+            1
+          ],
+          "track_ids": [
+            26886396
+          ],
+          "track_sha256": [
+            "925fe2782d3b13912c6843cf2cec186e1cda790235896eacf0f2b70d05a1d169"
+          ],
+          "required_performers": [
+            "Glenn Gould"
+          ],
+          "composer": "Ludwig van Beethoven"
+        },
+        {
+          "source_path": [
+            0,
+            2
+          ],
+          "track_ids": [
+            26886398
+          ],
+          "track_sha256": [
+            "b5681293ff0865fdc470c5b4c2d4306e3d856ad3ba6d51edb72e0d592f0dcd13"
+          ],
+          "required_performers": [
+            "Glenn Gould"
+          ],
+          "composer": "Ludwig van Beethoven"
+        },
+        {
+          "source_path": [
+            0,
+            3
+          ],
+          "track_ids": [
+            26886400
+          ],
+          "track_sha256": [
+            "3e20a5f2cbbe4d2b6ff52491a8166b6bcc9c5f4889e412f9ee2a75240e51d0ad"
+          ],
+          "required_performers": [
+            "Glenn Gould"
+          ],
+          "composer": "Ludwig van Beethoven"
+        },
+        {
+          "source_path": [
+            1,
+            0
+          ],
+          "track_ids": [
+            26886402
+          ],
+          "track_sha256": [
+            "3b87dec0d7441d545f262939c88f736add167858a46542bc97ee0e7088a51930"
+          ],
+          "required_performers": [
+            "Glenn Gould"
+          ],
+          "composer": "Ludwig van Beethoven"
+        },
+        {
+          "source_path": [
+            1,
+            1
+          ],
+          "track_ids": [
+            26886404
+          ],
+          "track_sha256": [
+            "75bf5475cd6e98a6f106c81168f912e349c678e9dbe1ead591952d71be51dcaa"
+          ],
+          "required_performers": [
+            "Glenn Gould"
+          ],
+          "composer": "Ludwig van Beethoven"
+        },
+        {
+          "source_path": [
+            1,
+            2
+          ],
+          "track_ids": [
+            26886406
+          ],
+          "track_sha256": [
+            "84e037868ea0100bf05f29d84e5a0182bf20fa8cbbc269841ae65363a2a43098"
+          ],
+          "required_performers": [
+            "Glenn Gould"
+          ],
+          "composer": "Ludwig van Beethoven"
+        },
+        {
+          "source_path": [
+            1,
+            3
+          ],
+          "track_ids": [
+            26886408
+          ],
+          "track_sha256": [
+            "8d3431093bb5f4185d69de29ddc8669af302572820309769f5e241b91d178dff"
+          ],
+          "required_performers": [
+            "Glenn Gould"
+          ],
+          "composer": "Ludwig van Beethoven"
+        }
+      ],
+      "extra_track_ids": [],
+      "selected_track_fingerprints": {
+        "26886394": "5c83183eed48d2503c9098e59d0595c101dc3397d339d47e9220470754ea681f",
+        "26886396": "925fe2782d3b13912c6843cf2cec186e1cda790235896eacf0f2b70d05a1d169",
+        "26886398": "b5681293ff0865fdc470c5b4c2d4306e3d856ad3ba6d51edb72e0d592f0dcd13",
+        "26886400": "3e20a5f2cbbe4d2b6ff52491a8166b6bcc9c5f4889e412f9ee2a75240e51d0ad",
+        "26886402": "3b87dec0d7441d545f262939c88f736add167858a46542bc97ee0e7088a51930",
+        "26886404": "75bf5475cd6e98a6f106c81168f912e349c678e9dbe1ead591952d71be51dcaa",
+        "26886406": "84e037868ea0100bf05f29d84e5a0182bf20fa8cbbc269841ae65363a2a43098",
+        "26886408": "8d3431093bb5f4185d69de29ddc8669af302572820309769f5e241b91d178dff"
+      }
+    },
+    {
+      "discogs_id": "8567942",
+      "album_id": "0828765570220",
+      "target_sha256": "b8ce1740d76eb4d33f587ff07722b41f4ebe37d8da4c04cd3fded15a92077e88",
+      "source_sha256": "0165c0bbc322008907377272f3162d12e2e87b233da28330a33e3eb576ff1933",
+      "album_sha256": "187ed50bb5d60fdb1da054567f823f456176e5ae7b499a3f751db15378ef9908",
+      "decision": "probable",
+      "recording_review": "The raw RCA LM1757notes identify the Fifth as the22March1952broadcast. Pristine’s RCA-family reissue documentation corroborates that Fifth and the10November1952Eighth. The older RCA complete-cycle candidate has both programmes with positive NBC/Toscanini/Beethoven roles; all eight digital movements are mapped, including the LP’s joined third/fourth band. The original diagnostic candidate is associated-orchestra-only and is not selected.",
+      "sources": [
+        "https://www.discogs.com/release/8567942",
+        "https://www.pristineclassical.com/products/pasc597",
+        "https://www.pristineclassical.com/products/pasc598",
+        "https://www.pristineclassical.com/products/pasc120"
+      ],
+      "limitations": [
+        "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
+        "No source rewrite, global work-title promotion, composer/performer alias or associated-role waiver."
+      ],
+      "external_source_files": [
+        {
+          "path": "data/review_sources/title9-toscanini/source-observation.txt",
+          "sha256": "7c76ef9e987f57f4e82e901839058ed7dd46c10002ed545b200372b6e8832400"
+        }
+      ],
+      "review_kind": "source-leaf-bands",
+      "source_outline_sha256": "20f4717d47528e6229c6a441019f66aa7d92788baccf26c5acd55d5aa42047e2",
+      "source_leaves": [
+        {
+          "path": [
+            0,
+            0
+          ],
+          "source_work": "Symphony No. 5, In C Minor, Op. 67",
+          "title": "First Movement: Allegro Con Brio",
+          "position": "A1",
+          "duration": ""
+        },
+        {
+          "path": [
+            0,
+            1
+          ],
+          "source_work": "Symphony No. 5, In C Minor, Op. 67",
+          "title": "Second Movement: Andante Con Moto",
+          "position": "A2",
+          "duration": ""
+        },
+        {
+          "path": [
+            0,
+            2
+          ],
+          "source_work": "Symphony No. 5, In C Minor, Op. 67",
+          "title": "Third Movement: Allegro, Fourth Movement: Allegro",
+          "position": "A3",
+          "duration": ""
+        },
+        {
+          "path": [
+            1,
+            0
+          ],
+          "source_work": "Symphony No. 8, In F, Op. 93",
+          "title": "First Movement: Allegro Vivace E Con Brio",
+          "position": "B1",
+          "duration": ""
+        },
+        {
+          "path": [
+            1,
+            1
+          ],
+          "source_work": "Symphony No. 8, In F, Op. 93",
+          "title": "Second Movement: Allegretto Scherzando",
+          "position": "B2",
+          "duration": ""
+        },
+        {
+          "path": [
+            1,
+            2
+          ],
+          "source_work": "Symphony No. 8, In F, Op. 93",
+          "title": "Third Movement: Tempo Di Menuetto",
+          "position": "B3",
+          "duration": ""
+        },
+        {
+          "path": [
+            1,
+            3
+          ],
+          "source_work": "Symphony No. 8, In F, Op. 93",
+          "title": "Fourth Movement: Allegro Vivace",
+          "position": "B4",
+          "duration": ""
+        }
+      ],
+      "source_heading_groups": [],
+      "bindings": [
+        {
+          "source_path": [
+            0,
+            0
+          ],
+          "track_ids": [
+            196432
+          ],
+          "track_sha256": [
+            "7640089301f3bae42411fde93c8c2f98f8840e61997f10c6a84c198332cd7f5e"
+          ],
+          "required_performers": [
+            "Arturo Toscanini",
+            "NBC Symphony Orchestra"
+          ],
+          "composer": "Ludwig Van Beethoven"
+        },
+        {
+          "source_path": [
+            0,
+            1
+          ],
+          "track_ids": [
+            196433
+          ],
+          "track_sha256": [
+            "e6c646e1a31b62ce63737d96d7d05cf1e53dc0b18c332f421c02ed76739413e1"
+          ],
+          "required_performers": [
+            "Arturo Toscanini",
+            "NBC Symphony Orchestra"
+          ],
+          "composer": "Ludwig Van Beethoven"
+        },
+        {
+          "source_path": [
+            0,
+            2
+          ],
+          "track_ids": [
+            196434,
+            196435
+          ],
+          "track_sha256": [
+            "e7ee26967a80425a1d932fb28b5e6261bdfa6d0a570e7bfae1631f1b07c594f4",
+            "6c471176c16049f19e67122efaa9ee28f0f70c5f4149d7e4ef44a4ebac249f91"
+          ],
+          "required_performers": [
+            "Arturo Toscanini",
+            "NBC Symphony Orchestra"
+          ],
+          "composer": "Ludwig Van Beethoven"
+        },
+        {
+          "source_path": [
+            1,
+            0
+          ],
+          "track_ids": [
+            196445
+          ],
+          "track_sha256": [
+            "1603fc0c53562bb4e1e3cc6e452ab4ea3fe4828c53775d4f686c3ffff687cc1a"
+          ],
+          "required_performers": [
+            "Arturo Toscanini",
+            "NBC Symphony Orchestra"
+          ],
+          "composer": "Ludwig Van Beethoven"
+        },
+        {
+          "source_path": [
+            1,
+            1
+          ],
+          "track_ids": [
+            196446
+          ],
+          "track_sha256": [
+            "d95ad732305727c30b97f128e67585d769815503cd59321631d80ea75b804720"
+          ],
+          "required_performers": [
+            "Arturo Toscanini",
+            "NBC Symphony Orchestra"
+          ],
+          "composer": "Ludwig Van Beethoven"
+        },
+        {
+          "source_path": [
+            1,
+            2
+          ],
+          "track_ids": [
+            196447
+          ],
+          "track_sha256": [
+            "f06f76a26ac4d2799a3e8ba1ca2080b5e38aea1f155e88fd6dafec2b8e91b823"
+          ],
+          "required_performers": [
+            "Arturo Toscanini",
+            "NBC Symphony Orchestra"
+          ],
+          "composer": "Ludwig Van Beethoven"
+        },
+        {
+          "source_path": [
+            1,
+            3
+          ],
+          "track_ids": [
+            196448
+          ],
+          "track_sha256": [
+            "abae34d8d257c497e64d8aae68b56c4594cb79536845b1f0470535e2f9982693"
+          ],
+          "required_performers": [
+            "Arturo Toscanini",
+            "NBC Symphony Orchestra"
+          ],
+          "composer": "Ludwig Van Beethoven"
+        }
+      ],
+      "extra_track_ids": [
+        196416,
+        196417,
+        196418,
+        196419,
+        196420,
+        196421,
+        196422,
+        196423,
+        196424,
+        196425,
+        196426,
+        196427,
+        196428,
+        196429,
+        196430,
+        196431,
+        196436,
+        196437,
+        196438,
+        196439,
+        196440,
+        196441,
+        196442,
+        196443,
+        196444,
+        196449,
+        196450,
+        196451,
+        196452
+      ],
+      "selected_track_fingerprints": {
+        "196432": "7640089301f3bae42411fde93c8c2f98f8840e61997f10c6a84c198332cd7f5e",
+        "196433": "e6c646e1a31b62ce63737d96d7d05cf1e53dc0b18c332f421c02ed76739413e1",
+        "196434": "e7ee26967a80425a1d932fb28b5e6261bdfa6d0a570e7bfae1631f1b07c594f4",
+        "196435": "6c471176c16049f19e67122efaa9ee28f0f70c5f4149d7e4ef44a4ebac249f91",
+        "196445": "1603fc0c53562bb4e1e3cc6e452ab4ea3fe4828c53775d4f686c3ffff687cc1a",
+        "196446": "d95ad732305727c30b97f128e67585d769815503cd59321631d80ea75b804720",
+        "196447": "f06f76a26ac4d2799a3e8ba1ca2080b5e38aea1f155e88fd6dafec2b8e91b823",
+        "196448": "abae34d8d257c497e64d8aae68b56c4594cb79536845b1f0470535e2f9982693"
+      }
+    },
+    {
+      "discogs_id": "8860718",
+      "album_id": "0828765570220",
+      "target_sha256": "3e43b650aeb616ddd3454e27d7d5f067a8433e8e1433d84524a9f13ecb1c6e59",
+      "source_sha256": "333adac8c19cd2311f9058913815709bd50ca12498e3c8b1e271c4071a2f5d74",
+      "album_sha256": "187ed50bb5d60fdb1da054567f823f456176e5ae7b499a3f751db15378ef9908",
+      "decision": "withhold",
+      "recording_review": "The RCA Seventh has positive Toscanini/NBC credits and compatible programme; the other cached cycle explicitly identifies1939. The raw RCA Italiana A12R-0005 source supplies neither session dates nor timings, and the inspected publisher evidence binds the RCA1951family but not this exact Italian source issue.",
+      "sources": [
+        "https://www.discogs.com/release/8860718",
+        "https://www.pristineclassical.com/products/pasc597",
+        "https://www.pristineclassical.com/products/pasc598",
+        "https://www.pristineclassical.com/products/pasc120"
+      ],
+      "limitations": [
+        "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
+        "No source rewrite, global work-title promotion, composer/performer alias or associated-role waiver."
+      ],
+      "external_source_files": [
+        {
+          "path": "data/review_sources/title9-toscanini/source-observation.txt",
+          "sha256": "7c76ef9e987f57f4e82e901839058ed7dd46c10002ed545b200372b6e8832400"
+        }
+      ]
+    },
+    {
+      "discogs_id": "11883662",
+      "album_id": "0828765570220",
+      "target_sha256": "2f52396d4463a53a678a254ddb81313d3912e5d52fd66c1cae595e07f7fe8862",
+      "source_sha256": "fa2592d9c7cd7b324ba54bea31fb8857565f22b180f9538e2ab48b198141a1fe",
+      "album_sha256": "187ed50bb5d60fdb1da054567f823f456176e5ae7b499a3f751db15378ef9908",
+      "decision": "probable",
+      "recording_review": "The raw source specifies Carnegie Hall31March/1April1952. Pristine’s publisher documents that Ninth with Farrell/Merriman/Peerce/Scott and RobertShawChorale, agreeing with the positively credited RCA candidate. Only source movementsII–IVare mapped; movementIis an explicit candidate extra, not an omitted LP band or a claim that this LP contains the whole Ninth.",
+      "sources": [
+        "https://www.discogs.com/release/11883662",
+        "https://www.pristineclassical.com/products/pasc597",
+        "https://www.pristineclassical.com/products/pasc598",
+        "https://www.pristineclassical.com/products/pasc120"
+      ],
+      "limitations": [
+        "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
+        "No source rewrite, global work-title promotion, composer/performer alias or associated-role waiver."
+      ],
+      "external_source_files": [
+        {
+          "path": "data/review_sources/title9-toscanini/source-observation.txt",
+          "sha256": "7c76ef9e987f57f4e82e901839058ed7dd46c10002ed545b200372b6e8832400"
+        }
+      ],
+      "review_kind": "source-leaf-bands",
+      "source_outline_sha256": "e1e9bc93ef66bef765776c5bff9c96c11c60a132c41f0afad1116be57da99e21",
+      "source_leaves": [
+        {
+          "path": [
+            0,
+            0
+          ],
+          "source_work": "Sinfonia N°9 In Re Minore, Op.125 \"Corale\"",
+          "title": "Molto Vivace; Presto",
+          "position": "A1",
+          "duration": ""
+        },
+        {
+          "path": [
+            0,
+            1
+          ],
+          "source_work": "Sinfonia N°9 In Re Minore, Op.125 \"Corale\"",
+          "title": "Adagio Molto E Cantabile; Andante Moderato; Adagio",
+          "position": "A2",
+          "duration": ""
+        },
+        {
+          "path": [
+            0,
+            2
+          ],
+          "source_work": "Sinfonia N°9 In Re Minore, Op.125 \"Corale\"",
+          "title": "Presto; Allegro Assai; Presto; Allegro Assai Vivace; Alla Marcia; Andante Maestoso; Allegro Energico Sempre Ben Marcato; Allegro Ma Non Tanto; Prestissimo ",
+          "position": "B1",
+          "duration": ""
+        }
+      ],
+      "source_heading_groups": [],
+      "bindings": [
+        {
+          "source_path": [
+            0,
+            0
+          ],
+          "track_ids": [
+            196450
+          ],
+          "track_sha256": [
+            "81cb0ae57016aaba3c8210ed5a4d83c1b96dd64aa89a04c78781c28596facfef"
+          ],
+          "required_performers": [
+            "Arturo Toscanini",
+            "NBC Symphony Orchestra"
+          ],
+          "composer": "Ludwig van Beethoven"
+        },
+        {
+          "source_path": [
+            0,
+            1
+          ],
+          "track_ids": [
+            196451
+          ],
+          "track_sha256": [
+            "bcaddc806a30de7f0dcbb84e42ccfcb2755d5eb2bb7cd526fb55b10bbb333053"
+          ],
+          "required_performers": [
+            "Arturo Toscanini",
+            "NBC Symphony Orchestra"
+          ],
+          "composer": "Ludwig van Beethoven"
+        },
+        {
+          "source_path": [
+            0,
+            2
+          ],
+          "track_ids": [
+            196452
+          ],
+          "track_sha256": [
+            "a253e4b573fa9b5cc078d724e7a28c824a1a6892b7c1b537a281c0ea6062e19c"
+          ],
+          "required_performers": [
+            "Arturo Toscanini",
+            "NBC Symphony Orchestra"
+          ],
+          "composer": "Ludwig van Beethoven"
+        }
+      ],
+      "extra_track_ids": [
+        196416,
+        196417,
+        196418,
+        196419,
+        196420,
+        196421,
+        196422,
+        196423,
+        196424,
+        196425,
+        196426,
+        196427,
+        196428,
+        196429,
+        196430,
+        196431,
+        196432,
+        196433,
+        196434,
+        196435,
+        196436,
+        196437,
+        196438,
+        196439,
+        196440,
+        196441,
+        196442,
+        196443,
+        196444,
+        196445,
+        196446,
+        196447,
+        196448,
+        196449
+      ],
+      "selected_track_fingerprints": {
+        "196450": "81cb0ae57016aaba3c8210ed5a4d83c1b96dd64aa89a04c78781c28596facfef",
+        "196451": "bcaddc806a30de7f0dcbb84e42ccfcb2755d5eb2bb7cd526fb55b10bbb333053",
+        "196452": "a253e4b573fa9b5cc078d724e7a28c824a1a6892b7c1b537a281c0ea6062e19c"
+      }
+    },
+    {
+      "discogs_id": "11885637",
+      "album_id": "0828765570220",
+      "target_sha256": "c5bd5a9da33cc6e892b9f2168920e49d3e2b9dbdce94728ba6ad5a7d7bef6047",
+      "source_sha256": "e12ab4e1a79ee7a563e0468682849bfc3e3582e5e9c181ce06061dd1dcb2d330",
+      "album_sha256": "187ed50bb5d60fdb1da054567f823f456176e5ae7b499a3f751db15378ef9908",
+      "decision": "probable",
+      "recording_review": "The raw LP notes identify the Eighth on10November1952and Ninth on31March/1April1952, agreeing with Pristine’s RCA-family recording documentation and the older RCA candidate. Map all four Eighth movements and only the first Ninth movement. Other Ninth movements remain candidate extras. The source Allegro Scherzando wording is preserved against digital Allegretto scherzando, not globally corrected.",
+      "sources": [
+        "https://www.discogs.com/release/11885637",
+        "https://www.pristineclassical.com/products/pasc597",
+        "https://www.pristineclassical.com/products/pasc598",
+        "https://www.pristineclassical.com/products/pasc120"
+      ],
+      "limitations": [
+        "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
+        "No source rewrite, global work-title promotion, composer/performer alias or associated-role waiver."
+      ],
+      "external_source_files": [
+        {
+          "path": "data/review_sources/title9-toscanini/source-observation.txt",
+          "sha256": "7c76ef9e987f57f4e82e901839058ed7dd46c10002ed545b200372b6e8832400"
+        }
+      ],
+      "review_kind": "source-leaf-bands",
+      "source_outline_sha256": "189ea723a6e02e9c4e68554d7ad01e97ea260376d0b4d1faddcecefa5e70b0cc",
+      "source_leaves": [
+        {
+          "path": [
+            0,
+            0
+          ],
+          "source_work": "Sinfonia N° 8 In Fa Maggiore, Op. 93",
+          "title": "Allegro Vivace E Con Brio",
+          "position": "A1",
+          "duration": ""
+        },
+        {
+          "path": [
+            0,
+            1
+          ],
+          "source_work": "Sinfonia N° 8 In Fa Maggiore, Op. 93",
+          "title": "Allegro Scherzando",
+          "position": "A2",
+          "duration": ""
+        },
+        {
+          "path": [
+            0,
+            2
+          ],
+          "source_work": "Sinfonia N° 8 In Fa Maggiore, Op. 93",
+          "title": "Tempo Di Minuetto",
+          "position": "A3",
+          "duration": ""
+        },
+        {
+          "path": [
+            0,
+            3
+          ],
+          "source_work": "Sinfonia N° 8 In Fa Maggiore, Op. 93",
+          "title": "Allegro Vivace",
+          "position": "B1",
+          "duration": ""
+        },
+        {
+          "path": [
+            1,
+            0
+          ],
+          "source_work": "Sinfonia N° 9 In Re Minore, Op.125 \"Corale\"",
+          "title": "Allegro Ma Non Troppo, Un Poco Maestoso",
+          "position": "B2",
+          "duration": ""
+        }
+      ],
+      "source_heading_groups": [],
+      "bindings": [
+        {
+          "source_path": [
+            0,
+            0
+          ],
+          "track_ids": [
+            196445
+          ],
+          "track_sha256": [
+            "1603fc0c53562bb4e1e3cc6e452ab4ea3fe4828c53775d4f686c3ffff687cc1a"
+          ],
+          "required_performers": [
+            "Arturo Toscanini",
+            "NBC Symphony Orchestra"
+          ],
+          "composer": "Ludwig van Beethoven"
+        },
+        {
+          "source_path": [
+            0,
+            1
+          ],
+          "track_ids": [
+            196446
+          ],
+          "track_sha256": [
+            "d95ad732305727c30b97f128e67585d769815503cd59321631d80ea75b804720"
+          ],
+          "required_performers": [
+            "Arturo Toscanini",
+            "NBC Symphony Orchestra"
+          ],
+          "composer": "Ludwig van Beethoven"
+        },
+        {
+          "source_path": [
+            0,
+            2
+          ],
+          "track_ids": [
+            196447
+          ],
+          "track_sha256": [
+            "f06f76a26ac4d2799a3e8ba1ca2080b5e38aea1f155e88fd6dafec2b8e91b823"
+          ],
+          "required_performers": [
+            "Arturo Toscanini",
+            "NBC Symphony Orchestra"
+          ],
+          "composer": "Ludwig van Beethoven"
+        },
+        {
+          "source_path": [
+            0,
+            3
+          ],
+          "track_ids": [
+            196448
+          ],
+          "track_sha256": [
+            "abae34d8d257c497e64d8aae68b56c4594cb79536845b1f0470535e2f9982693"
+          ],
+          "required_performers": [
+            "Arturo Toscanini",
+            "NBC Symphony Orchestra"
+          ],
+          "composer": "Ludwig van Beethoven"
+        },
+        {
+          "source_path": [
+            1,
+            0
+          ],
+          "track_ids": [
+            196449
+          ],
+          "track_sha256": [
+            "01525df707d78ce66c74b989bdabe4edd321689eb17cfd3ac582f63a71492b1d"
+          ],
+          "required_performers": [
+            "Arturo Toscanini",
+            "NBC Symphony Orchestra"
+          ],
+          "composer": "Ludwig van Beethoven"
+        }
+      ],
+      "extra_track_ids": [
+        196416,
+        196417,
+        196418,
+        196419,
+        196420,
+        196421,
+        196422,
+        196423,
+        196424,
+        196425,
+        196426,
+        196427,
+        196428,
+        196429,
+        196430,
+        196431,
+        196432,
+        196433,
+        196434,
+        196435,
+        196436,
+        196437,
+        196438,
+        196439,
+        196440,
+        196441,
+        196442,
+        196443,
+        196444,
+        196450,
+        196451,
+        196452
+      ],
+      "selected_track_fingerprints": {
+        "196445": "1603fc0c53562bb4e1e3cc6e452ab4ea3fe4828c53775d4f686c3ffff687cc1a",
+        "196446": "d95ad732305727c30b97f128e67585d769815503cd59321631d80ea75b804720",
+        "196447": "f06f76a26ac4d2799a3e8ba1ca2080b5e38aea1f155e88fd6dafec2b8e91b823",
+        "196448": "abae34d8d257c497e64d8aae68b56c4594cb79536845b1f0470535e2f9982693",
+        "196449": "01525df707d78ce66c74b989bdabe4edd321689eb17cfd3ac582f63a71492b1d"
+      }
+    },
+    {
+      "discogs_id": "11887204",
+      "album_id": "0828765570220",
+      "target_sha256": "cd7103d5f5c53e3089ae99947e16967ae540816f4065dd22e85c3a6a211698dc",
+      "source_sha256": "e36e008877999565244e5c55598666aa7b264b6620fc2010ed3bec452303ecb1",
+      "album_sha256": "187ed50bb5d60fdb1da054567f823f456176e5ae7b499a3f751db15378ef9908",
+      "decision": "probable",
+      "recording_review": "Source notes explicitly date the Fourth3February1951and Fifth22March1952, corroborated by Pristine’s RCA-family documentation. The older RCA complete cycle supplies all eight positively credited movements. The1939diagnostic best is a different cycle and is not selected. Source Fourth finale says Adagio Ma Non Troppo while the digital work and publisher say Allegro ma non troppo; this discrepancy is retained in this exact source-position mapping, never a global tempo alias.",
+      "sources": [
+        "https://www.discogs.com/release/11887204",
+        "https://www.pristineclassical.com/products/pasc597",
+        "https://www.pristineclassical.com/products/pasc598",
+        "https://www.pristineclassical.com/products/pasc120"
+      ],
+      "limitations": [
+        "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
+        "No source rewrite, global work-title promotion, composer/performer alias or associated-role waiver."
+      ],
+      "external_source_files": [
+        {
+          "path": "data/review_sources/title9-toscanini/source-observation.txt",
+          "sha256": "7c76ef9e987f57f4e82e901839058ed7dd46c10002ed545b200372b6e8832400"
+        }
+      ],
+      "review_kind": "source-leaf-bands",
+      "source_outline_sha256": "4e3760d38dfe2c3a9ab1f04ed66905b4fac95fa13bd82af00609fff1c0174899",
+      "source_leaves": [
+        {
+          "path": [
+            0,
+            0
+          ],
+          "source_work": "Sinfonia N. 4 In Si Bemolle Maggiore, Op. 60",
+          "title": "I. Adagio; Allegro Vivace",
+          "position": "A1",
+          "duration": ""
+        },
+        {
+          "path": [
+            0,
+            1
+          ],
+          "source_work": "Sinfonia N. 4 In Si Bemolle Maggiore, Op. 60",
+          "title": "II. Adagio",
+          "position": "A2",
+          "duration": ""
+        },
+        {
+          "path": [
+            0,
+            2
+          ],
+          "source_work": "Sinfonia N. 4 In Si Bemolle Maggiore, Op. 60",
+          "title": "III. Minuetto; Allegro Vivace; Trio; Un Poco Meno Allegro",
+          "position": "A3",
+          "duration": ""
+        },
+        {
+          "path": [
+            0,
+            3
+          ],
+          "source_work": "Sinfonia N. 4 In Si Bemolle Maggiore, Op. 60",
+          "title": "IV. Adagio Ma Non Troppo",
+          "position": "A4",
+          "duration": ""
+        },
+        {
+          "path": [
+            1,
+            0
+          ],
+          "source_work": "Sinfornia N. 5 In Do Minore, Op. 67",
+          "title": "I. Allegro Con Brio",
+          "position": "B1",
+          "duration": ""
+        },
+        {
+          "path": [
+            1,
+            1
+          ],
+          "source_work": "Sinfornia N. 5 In Do Minore, Op. 67",
+          "title": "II. Andante Con Moto",
+          "position": "B2",
+          "duration": ""
+        },
+        {
+          "path": [
+            1,
+            2
+          ],
+          "source_work": "Sinfornia N. 5 In Do Minore, Op. 67",
+          "title": "III. Allegro",
+          "position": "B3",
+          "duration": ""
+        },
+        {
+          "path": [
+            1,
+            3
+          ],
+          "source_work": "Sinfornia N. 5 In Do Minore, Op. 67",
+          "title": "IV. Allegro",
+          "position": "B4",
+          "duration": ""
+        }
+      ],
+      "source_heading_groups": [],
+      "bindings": [
+        {
+          "source_path": [
+            0,
+            0
+          ],
+          "track_ids": [
+            196428
+          ],
+          "track_sha256": [
+            "2bdc22cb53beba3e4f912c0edaf8e1d6e0219a57ff32950b14f449bfe2d98b26"
+          ],
+          "required_performers": [
+            "Arturo Toscanini",
+            "NBC Symphony Orchestra"
+          ],
+          "composer": "Ludwig van Beethoven"
+        },
+        {
+          "source_path": [
+            0,
+            1
+          ],
+          "track_ids": [
+            196429
+          ],
+          "track_sha256": [
+            "52e0897407cf51e4dbe6ce0d310a60e66829eb09792d8e7a9bfe9281651e9ad3"
+          ],
+          "required_performers": [
+            "Arturo Toscanini",
+            "NBC Symphony Orchestra"
+          ],
+          "composer": "Ludwig van Beethoven"
+        },
+        {
+          "source_path": [
+            0,
+            2
+          ],
+          "track_ids": [
+            196430
+          ],
+          "track_sha256": [
+            "73bf45205fcb99a22413ed034188b0f761093967d87597a849c7e8f4d4064bcb"
+          ],
+          "required_performers": [
+            "Arturo Toscanini",
+            "NBC Symphony Orchestra"
+          ],
+          "composer": "Ludwig van Beethoven"
+        },
+        {
+          "source_path": [
+            0,
+            3
+          ],
+          "track_ids": [
+            196431
+          ],
+          "track_sha256": [
+            "33773541151b039c9d988bf4695176b23c9f491dfd32195c2fa31f3ed9e5d2fa"
+          ],
+          "required_performers": [
+            "Arturo Toscanini",
+            "NBC Symphony Orchestra"
+          ],
+          "composer": "Ludwig van Beethoven"
+        },
+        {
+          "source_path": [
+            1,
+            0
+          ],
+          "track_ids": [
+            196432
+          ],
+          "track_sha256": [
+            "7640089301f3bae42411fde93c8c2f98f8840e61997f10c6a84c198332cd7f5e"
+          ],
+          "required_performers": [
+            "Arturo Toscanini",
+            "NBC Symphony Orchestra"
+          ],
+          "composer": "Ludwig van Beethoven"
+        },
+        {
+          "source_path": [
+            1,
+            1
+          ],
+          "track_ids": [
+            196433
+          ],
+          "track_sha256": [
+            "e6c646e1a31b62ce63737d96d7d05cf1e53dc0b18c332f421c02ed76739413e1"
+          ],
+          "required_performers": [
+            "Arturo Toscanini",
+            "NBC Symphony Orchestra"
+          ],
+          "composer": "Ludwig van Beethoven"
+        },
+        {
+          "source_path": [
+            1,
+            2
+          ],
+          "track_ids": [
+            196434
+          ],
+          "track_sha256": [
+            "e7ee26967a80425a1d932fb28b5e6261bdfa6d0a570e7bfae1631f1b07c594f4"
+          ],
+          "required_performers": [
+            "Arturo Toscanini",
+            "NBC Symphony Orchestra"
+          ],
+          "composer": "Ludwig van Beethoven"
+        },
+        {
+          "source_path": [
+            1,
+            3
+          ],
+          "track_ids": [
+            196435
+          ],
+          "track_sha256": [
+            "6c471176c16049f19e67122efaa9ee28f0f70c5f4149d7e4ef44a4ebac249f91"
+          ],
+          "required_performers": [
+            "Arturo Toscanini",
+            "NBC Symphony Orchestra"
+          ],
+          "composer": "Ludwig van Beethoven"
+        }
+      ],
+      "extra_track_ids": [
+        196416,
+        196417,
+        196418,
+        196419,
+        196420,
+        196421,
+        196422,
+        196423,
+        196424,
+        196425,
+        196426,
+        196427,
+        196436,
+        196437,
+        196438,
+        196439,
+        196440,
+        196441,
+        196442,
+        196443,
+        196444,
+        196445,
+        196446,
+        196447,
+        196448,
+        196449,
+        196450,
+        196451,
+        196452
+      ],
+      "selected_track_fingerprints": {
+        "196428": "2bdc22cb53beba3e4f912c0edaf8e1d6e0219a57ff32950b14f449bfe2d98b26",
+        "196429": "52e0897407cf51e4dbe6ce0d310a60e66829eb09792d8e7a9bfe9281651e9ad3",
+        "196430": "73bf45205fcb99a22413ed034188b0f761093967d87597a849c7e8f4d4064bcb",
+        "196431": "33773541151b039c9d988bf4695176b23c9f491dfd32195c2fa31f3ed9e5d2fa",
+        "196432": "7640089301f3bae42411fde93c8c2f98f8840e61997f10c6a84c198332cd7f5e",
+        "196433": "e6c646e1a31b62ce63737d96d7d05cf1e53dc0b18c332f421c02ed76739413e1",
+        "196434": "e7ee26967a80425a1d932fb28b5e6261bdfa6d0a570e7bfae1631f1b07c594f4",
+        "196435": "6c471176c16049f19e67122efaa9ee28f0f70c5f4149d7e4ef44a4ebac249f91"
+      }
+    },
+    {
+      "discogs_id": "13166114",
+      "album_id": "0828765570220",
+      "target_sha256": "1e9473096d60ac0f1fd50215847803a2a0a1a26c1d9e68d3eafb4fde866068cc",
+      "source_sha256": "b2a6d1934c9df80089e5cbf3e70b6e91a4be4d825e2b1bd8f68d661679a3b1b8",
+      "album_sha256": "187ed50bb5d60fdb1da054567f823f456176e5ae7b499a3f751db15378ef9908",
+      "decision": "withhold",
+      "recording_review": "The diagnostic best candidate is explicitly the1939cycle. A later RCA alternative has a complete positively credited Eroica, but source VL45808/322461 has no saved session notes or timings establishing which Toscanini recording was issued. The RCA-family publisher identifies1953, not this source issue.",
+      "sources": [
+        "https://www.discogs.com/release/13166114",
+        "https://www.pristineclassical.com/products/pasc597",
+        "https://www.pristineclassical.com/products/pasc598",
+        "https://www.pristineclassical.com/products/pasc120"
+      ],
+      "limitations": [
+        "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
+        "No source rewrite, global work-title promotion, composer/performer alias or associated-role waiver."
+      ],
+      "external_source_files": [
+        {
+          "path": "data/review_sources/title9-toscanini/source-observation.txt",
+          "sha256": "7c76ef9e987f57f4e82e901839058ed7dd46c10002ed545b200372b6e8832400"
+        }
+      ]
+    },
+    {
+      "discogs_id": "16996626",
+      "album_id": "0090266303625",
+      "target_sha256": "7167acb4f54def449ee1ff2692c9b96eb314186916647e23d8d8cad09fe75789",
+      "source_sha256": "fbec51256e0d4d0d37163fe8e0bf966ebf34ea67b2a66fe953cf09f0cd01791e",
+      "album_sha256": "5b55acc1c69657600b90082e87c3d0250c94f88c9bd0e2b46b4b7eb5f5e56eef",
+      "decision": "probable",
+      "recording_review": "The National Library of New Zealand catalogue records Rubinstein/Krips/Symphony of the Air’s complete RCA Beethoven concerto cycle at Manhattan Center6–16December1956. The saved RCA63036collection contains the complete three-movement Emperor with those positive musicians and Beethoven alone as Composer. The contemporaneous February1957HighFidelity eyewitness account corroborates the stereo RCA sessions. This supports the recording family rather than an exact1958LSC2124pressing or digital master.",
+      "sources": [
+        "https://www.discogs.com/release/16996626",
+        "https://natlib.govt.nz/records/22157156",
+        "https://www.worldradiohistory.com/Archive-All-Audio/Archive-High-Fidelity/50s/High-Fidelity-1957-Feb.pdf"
+      ],
+      "limitations": [
+        "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
+        "No source rewrite, global work-title promotion, composer/performer alias or associated-role waiver."
+      ],
+      "external_source_files": [
+        {
+          "path": "data/review_sources/title9-rubinstein/source-observation.txt",
+          "sha256": "09ff441c454d2bbf2db68811f640f840fa1212db43d48ac92a4555758efea094"
+        }
+      ],
+      "review_kind": "source-leaf-bands",
+      "source_outline_sha256": "4283cd06b8e958bea1670188c8811756e0210d2a54a45d0f8dc181f277c71e79",
+      "source_leaves": [
+        {
+          "path": [
+            0,
+            0
+          ],
+          "source_work": "Concerto No. 5, In E-Flat, Op. 73 (\"Emperor\")",
+          "title": "Allegro",
+          "position": "A",
+          "duration": ""
+        },
+        {
+          "path": [
+            0,
+            1
+          ],
+          "source_work": "Concerto No. 5, In E-Flat, Op. 73 (\"Emperor\")",
+          "title": "Adagio Un Poco Mosso",
+          "position": "B1",
+          "duration": ""
+        },
+        {
+          "path": [
+            0,
+            2
+          ],
+          "source_work": "Concerto No. 5, In E-Flat, Op. 73 (\"Emperor\")",
+          "title": "Rondo: Allegro",
+          "position": "B2",
+          "duration": ""
+        }
+      ],
+      "source_heading_groups": [],
+      "bindings": [
+        {
+          "source_path": [
+            0,
+            0
+          ],
+          "track_ids": [
+            191161
+          ],
+          "track_sha256": [
+            "4ac890716b0ec23aad8bfb6203c1d3ba079af39a7997167e2dbf8d4769b7cad2"
+          ],
+          "required_performers": [
+            "Josef Krips",
+            "Arthur Rubinstein",
+            "Symphony Of The Air"
+          ],
+          "composer": "Ludwig Van Beethoven"
+        },
+        {
+          "source_path": [
+            0,
+            1
+          ],
+          "track_ids": [
+            191162
+          ],
+          "track_sha256": [
+            "6dd1fbed313a126fc73a14f2e06047a8430d4d8f49de89673ebe1fb5c1379b82"
+          ],
+          "required_performers": [
+            "Josef Krips",
+            "Arthur Rubinstein",
+            "Symphony Of The Air"
+          ],
+          "composer": "Ludwig Van Beethoven"
+        },
+        {
+          "source_path": [
+            0,
+            2
+          ],
+          "track_ids": [
+            191163
+          ],
+          "track_sha256": [
+            "ffdfd9e967a249c80908a76a66077f8ad43d8d39730465200d36ee5d5209c08d"
+          ],
+          "required_performers": [
+            "Josef Krips",
+            "Arthur Rubinstein",
+            "Symphony Of The Air"
+          ],
+          "composer": "Ludwig Van Beethoven"
+        }
+      ],
+      "extra_track_ids": [
+        191149,
+        191150,
+        191151,
+        191152,
+        191153,
+        191154,
+        191155,
+        191156,
+        191157,
+        191158,
+        191159,
+        191160,
+        191164,
+        191165,
+        191166,
+        191167,
+        191168
+      ],
+      "selected_track_fingerprints": {
+        "191161": "4ac890716b0ec23aad8bfb6203c1d3ba079af39a7997167e2dbf8d4769b7cad2",
+        "191162": "6dd1fbed313a126fc73a14f2e06047a8430d4d8f49de89673ebe1fb5c1379b82",
+        "191163": "ffdfd9e967a249c80908a76a66077f8ad43d8d39730465200d36ee5d5209c08d"
+      }
     }
   ]
 }

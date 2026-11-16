@@ -11,7 +11,7 @@ and cache commands. This directory owns current planning.
 - Branch main; enrichment pushed through3632140 on16November at user request.
   Local enrichment/review-progress checkpoints not pushed. Pages not verified.
 - Collection741copies/740unique. Saved labels: Spotify254Found/273Probable/
-  210NotFound/4Unchecked; Qobuz12Found/166Probable/563Unchecked copies.
+  210NotFound/4Unchecked; Qobuz12Found/172Probable/557Unchecked copies.
 - Qobuz publication `data/qobuz_matches.json` is separate from Spotify collection
   results. Labels/scores are saved data; Qobuz85/95 are heuristic levels, not
   probabilities. Legacy Spotify labels are not comparable accuracy measurements.
@@ -25,7 +25,7 @@ and cache commands. This directory owns current planning.
   defaults to frequency with individual Alphabetical checkbox. Search after
   Decade; outlined Clear/Pin icons after Search, delayed theme-aware tooltips.
 - Subtle filter band with optional pin; table headers always sticky.
-- Qobuz UI separates222Reviewed · unresolved from341Unchecked copies. Saved
+- Qobuz UI separates225Reviewed · unresolved from332Unchecked copies. Saved
   review progress is independent of match status; detail shows the saved blocker.
   Table sorts all columns; other views offer Year/Composer only.
 
@@ -59,9 +59,9 @@ and cache commands. This directory owns current planning.
   recording decisions remain in history and their linked frozen audits.
 - Earlier38partial-support reviews:6Probable/32holds. All104zero-rule reviews:
   3Probable/101holds. Frozen audits retain sources, alternatives and next actions.
-- Latest281script tests pass; current role/title experiments are read-only.
-  Publication, collection/Spotify, production matcher and cache bytes unchanged.
-- 562unchecked unique:332work/credit,214withheld,5completeness,4rejected,
+- Latest285script tests pass; title9batch adds6Probable/3explicit holds.
+  Collection/Spotify, production matcher and cache bytes unchanged.
+- 556unchecked unique:323work/credit,217withheld,5completeness,4rejected,
   6empty,1source hold. Reviewed holds remain searchable evidence, not Not found.
 - Key holds include named ensemble members/chorus masters, associated-only roles,
   Oistrach identity, source-role conflicts, incomplete or unbound recording families.
@@ -85,9 +85,10 @@ Credit cohort remains150without saved decisions. Vocal-role copy experiment
 improves only two already-held partial Rheingold programmes; no complete candidate
 or status/confidence gains. Live role parser unchanged.
 [Results](../plans/2026-11-16-qobuz-vocal-role-diagnostic.md).
-Title179copy-only scan yields28new leads:9full-support/complete,13full-support
-needing completeness,6partial. Next review the leading9recording families,
-starting2845131then4431461. [Frozen queue](../plans/2026-11-16-qobuz-title179.md).
+Title179leading9review complete:6Probable/3holds; alternative RCAcycle used
+where diagnostic best had wrong dates or associated-only credits. LP excerpts
+stay excerpts. [Results](../plans/2026-11-16-qobuz-title9.md). Next review the
+13full-support leads needing completeness, then6partial;19pending in frozen queue.
 Broader source-role parser audit is proposed, not adopted. Krips finale is not
 proven missing; joined-band mapping remains unresolved.
 

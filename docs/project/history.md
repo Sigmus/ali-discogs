@@ -2275,3 +2275,18 @@ then4431461, using original cached evidence and source/recording safeguards.
 provider cache bytes unchanged. No provider calls, promotions, new workflow
 review decisions or push/deployment. Shared diagnostic evidence and source hashes
 retain the experiments for later work.
+
+## 2026-11-16 — Nine leading title-context recording reviews
+
+Completed user-authorized nine-case batch:6Probable85(Gould4431461;
+Toscanini8567942,11883662,11885637,11887204;Rubinstein16996626),3holds
+(2845131composer conflict;8860718/13166114source recording provenance).
+Reviewed all frozen alternatives and an older positively credited RCA alternative
+for8567942; wrong1939cycle and associated-only leads are not accepted. Retained
+LP excerpts, joined source band, raw tempo discrepancies and edition limitations.
+Primary-source observations and source/album/track hashes saved in
+`data/qobuz_title9_recording_audit.json`; existing review kinds only.
+285script tests, normalization/static build, all9browser detail checks and exact
+publication diff pass. Spotify/source/cache/scorer unchanged. Qobuz UI copies:
+12Found/172Probable/225Reviewed · unresolved/332Unchecked. Remaining title leads:
+13completeness+6partial. Local commit; no push/deployment.

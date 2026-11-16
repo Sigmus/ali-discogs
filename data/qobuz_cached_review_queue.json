@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "reviewed_on": "2026-11-15",
-  "population": "332 unique releases currently categorized work_or_credit_unresolved",
+  "population": "323 unique releases currently categorized work_or_credit_unresolved",
   "rules": {
     "priority_review": "Unheld cached candidate supports >=50% of current source units; known/reviewed blockers excluded.",
     "secondary_partial_lead": "Some current support, below50%; known/reviewed blockers excluded.",
@@ -11,7 +11,7 @@
   },
   "counts": {
     "known_constraint": 3,
-    "no_current_supported_units": 329
+    "no_current_supported_units": 320
   },
   "entries": [
     {
@@ -257,14 +257,6 @@
       "title": "Concerto In D Minor / The Swan Of Tuonela",
       "queue": "no_current_supported_units",
       "best_cached_album_id": "guwvjbdj2drhc",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "2845131",
-      "title": "Concerto No.1 In C, Op. 15",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0090266303625",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 0
     },
@@ -761,14 +753,6 @@
       "title": "Parsifal",
       "queue": "no_current_supported_units",
       "best_cached_album_id": "0002894406062",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "4431461",
-      "title": "Sonatas No. 12, Op. 26 & No. 13, Op. 27, No. 1",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0886445085785",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 0
     },
@@ -1685,14 +1669,6 @@
       "uncached_hits": 0
     },
     {
-      "discogs_id": "8567942",
-      "title": "Symphonies Nos. 5 & 8",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0886443267329",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
       "discogs_id": "8606394",
       "title": "Ballettsuite »Gayaneh« / Orchestersuite »Der Goldene Hahn«",
       "queue": "no_current_supported_units",
@@ -1723,14 +1699,6 @@
       "best_cached_album_id": "3610153693980",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 0
-    },
-    {
-      "discogs_id": "8860718",
-      "title": "Sinfonia N°. 7 In La Maggiore, Op. 92",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0828765570220",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 4
     },
     {
       "discogs_id": "8881993",
@@ -2093,36 +2061,12 @@
       "uncached_hits": 0
     },
     {
-      "discogs_id": "11883662",
-      "title": "Sinfonia N°9 In Re Minore, Op.125 \"Corale\" (II, III, IV Mov.)",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0828765570220",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 5
-    },
-    {
-      "discogs_id": "11885637",
-      "title": "Sinfonia N°8 / Sinfonia N°9 (I Mov.)",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0828765570220",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 5
-    },
-    {
       "discogs_id": "11885669",
       "title": "Sinfonia N°7",
       "queue": "no_current_supported_units",
       "best_cached_album_id": "0886446344348",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 1
-    },
-    {
-      "discogs_id": "11887204",
-      "title": "Sinfonia N°4  - Sinfonia N°5",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0017685120329",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 2
     },
     {
       "discogs_id": "11933784",
@@ -2243,14 +2187,6 @@
       "best_cached_album_id": "0884977911558",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 0
-    },
-    {
-      "discogs_id": "13166114",
-      "title": "Sinfonia N.3 \"Eroica\"",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0017685120329",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 4
     },
     {
       "discogs_id": "13170249",
@@ -2451,14 +2387,6 @@
       "best_cached_album_id": "0886446344348",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 1
-    },
-    {
-      "discogs_id": "16996626",
-      "title": "Concerto No. 5 (\"Emperor\")",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0090266303625",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
     },
     {
       "discogs_id": "17470435",
@@ -2677,5 +2605,5 @@
       "uncached_hits": 0
     }
   ],
-  "inventory_sha256": "ad2adf122ed42de81b3a4c838f0ec4320423ba8ef3414a959c5e49a7e045b9eb"
+  "inventory_sha256": "f8132f97601c8cad488e56fa1d616ca8998880a0a1827a15613cd5ef89aff408"
 }

@@ -4,83 +4,10 @@
   "frozen_release_count": 179,
   "diagnostic_sha256": "f2a79c5a8f0da3afe863f72042d99ab9b7c776733eb010cb479e8a91630d3cbb",
   "counts": {
-    "full_support_complete_programme": 9,
     "full_support_needs_completeness": 13,
     "partial_support": 6
   },
   "entries": [
-    {
-      "discogs_id": "2845131",
-      "title": "Concerto No.1 In C, Op. 15",
-      "bucket": "full_support_complete_programme",
-      "best_album_id": "0090266303625",
-      "experimental_coverage": 1.0,
-      "completeness": "complete"
-    },
-    {
-      "discogs_id": "4431461",
-      "title": "Sonatas No. 12, Op. 26 & No. 13, Op. 27, No. 1",
-      "bucket": "full_support_complete_programme",
-      "best_album_id": "0886445085785",
-      "experimental_coverage": 1.0,
-      "completeness": "complete"
-    },
-    {
-      "discogs_id": "8567942",
-      "title": "Symphonies Nos. 5 & 8",
-      "bucket": "full_support_complete_programme",
-      "best_album_id": "0886443267329",
-      "experimental_coverage": 1.0,
-      "completeness": "complete"
-    },
-    {
-      "discogs_id": "8860718",
-      "title": "Sinfonia N°. 7 In La Maggiore, Op. 92",
-      "bucket": "full_support_complete_programme",
-      "best_album_id": "0828765570220",
-      "experimental_coverage": 1.0,
-      "completeness": "complete"
-    },
-    {
-      "discogs_id": "11883662",
-      "title": "Sinfonia N°9 In Re Minore, Op.125 \"Corale\" (II, III, IV Mov.)",
-      "bucket": "full_support_complete_programme",
-      "best_album_id": "0828765570220",
-      "experimental_coverage": 1.0,
-      "completeness": "complete"
-    },
-    {
-      "discogs_id": "11885637",
-      "title": "Sinfonia N°8 / Sinfonia N°9 (I Mov.)",
-      "bucket": "full_support_complete_programme",
-      "best_album_id": "0828765570220",
-      "experimental_coverage": 1.0,
-      "completeness": "complete"
-    },
-    {
-      "discogs_id": "11887204",
-      "title": "Sinfonia N°4  - Sinfonia N°5",
-      "bucket": "full_support_complete_programme",
-      "best_album_id": "0017685120329",
-      "experimental_coverage": 1.0,
-      "completeness": "complete"
-    },
-    {
-      "discogs_id": "13166114",
-      "title": "Sinfonia N.3 \"Eroica\"",
-      "bucket": "full_support_complete_programme",
-      "best_album_id": "0017685120329",
-      "experimental_coverage": 1.0,
-      "completeness": "complete"
-    },
-    {
-      "discogs_id": "16996626",
-      "title": "Concerto No. 5 (\"Emperor\")",
-      "bucket": "full_support_complete_programme",
-      "best_album_id": "0090266303625",
-      "experimental_coverage": 1.0,
-      "completeness": "complete"
-    },
     {
       "discogs_id": "2845198",
       "title": "Concerto No. 3, In C Minor, Op. 37",
@@ -234,8 +161,115 @@
       "completeness": "unknown"
     }
   ],
-  "resolved_entries": [],
-  "reviewed_unresolved_entries": [],
+  "resolved_entries": [
+    {
+      "discogs_id": "4431461",
+      "title": "Sonatas No. 12, Op. 26 & No. 13, Op. 27, No. 1",
+      "bucket": "full_support_complete_programme",
+      "best_album_id": "0886445085785",
+      "experimental_coverage": 1.0,
+      "completeness": "complete",
+      "published_status": "probable"
+    },
+    {
+      "discogs_id": "8567942",
+      "title": "Symphonies Nos. 5 & 8",
+      "bucket": "full_support_complete_programme",
+      "best_album_id": "0886443267329",
+      "experimental_coverage": 1.0,
+      "completeness": "complete",
+      "published_status": "probable"
+    },
+    {
+      "discogs_id": "11883662",
+      "title": "Sinfonia N°9 In Re Minore, Op.125 \"Corale\" (II, III, IV Mov.)",
+      "bucket": "full_support_complete_programme",
+      "best_album_id": "0828765570220",
+      "experimental_coverage": 1.0,
+      "completeness": "complete",
+      "published_status": "probable"
+    },
+    {
+      "discogs_id": "11885637",
+      "title": "Sinfonia N°8 / Sinfonia N°9 (I Mov.)",
+      "bucket": "full_support_complete_programme",
+      "best_album_id": "0828765570220",
+      "experimental_coverage": 1.0,
+      "completeness": "complete",
+      "published_status": "probable"
+    },
+    {
+      "discogs_id": "11887204",
+      "title": "Sinfonia N°4  - Sinfonia N°5",
+      "bucket": "full_support_complete_programme",
+      "best_album_id": "0017685120329",
+      "experimental_coverage": 1.0,
+      "completeness": "complete",
+      "published_status": "probable"
+    },
+    {
+      "discogs_id": "16996626",
+      "title": "Concerto No. 5 (\"Emperor\")",
+      "bucket": "full_support_complete_programme",
+      "best_album_id": "0090266303625",
+      "experimental_coverage": 1.0,
+      "completeness": "complete",
+      "published_status": "probable"
+    }
+  ],
+  "reviewed_unresolved_entries": [
+    {
+      "discogs_id": "2845131",
+      "title": "Concerto No.1 In C, Op. 15",
+      "bucket": "full_support_complete_programme",
+      "best_album_id": "0090266303625",
+      "experimental_coverage": 1.0,
+      "completeness": "complete",
+      "saved_review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The old RCA candidate credits Busoni and Beethoven as Composer on all three Op.15 tracks. The modern alternative has Symphony of the Air only as Associated Performer. Full work support does not resolve either credit-policy conflict.",
+        "limitations": [
+          "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
+          "No source rewrite, global work-title promotion, composer/performer alias or associated-role waiver."
+        ]
+      }
+    },
+    {
+      "discogs_id": "8860718",
+      "title": "Sinfonia N°. 7 In La Maggiore, Op. 92",
+      "bucket": "full_support_complete_programme",
+      "best_album_id": "0828765570220",
+      "experimental_coverage": 1.0,
+      "completeness": "complete",
+      "saved_review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The RCA Seventh has positive Toscanini/NBC credits and compatible programme; the other cached cycle explicitly identifies1939. The raw RCA Italiana A12R-0005 source supplies neither session dates nor timings, and the inspected publisher evidence binds the RCA1951family but not this exact Italian source issue.",
+        "limitations": [
+          "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
+          "No source rewrite, global work-title promotion, composer/performer alias or associated-role waiver."
+        ]
+      }
+    },
+    {
+      "discogs_id": "13166114",
+      "title": "Sinfonia N.3 \"Eroica\"",
+      "bucket": "full_support_complete_programme",
+      "best_album_id": "0017685120329",
+      "experimental_coverage": 1.0,
+      "completeness": "complete",
+      "saved_review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The diagnostic best candidate is explicitly the1939cycle. A later RCA alternative has a complete positively credited Eroica, but source VL45808/322461 has no saved session notes or timings establishing which Toscanini recording was issued. The RCA-family publisher identifies1953, not this source issue.",
+        "limitations": [
+          "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
+          "No source rewrite, global work-title promotion, composer/performer alias or associated-role waiver."
+        ]
+      }
+    }
+  ],
   "limitations": [
     "Experimental candidate evidence, not accepted recordings or completed reviews.",
     "Use original cached payloads, raw musical credits and recording corroboration before any promotion."

@@ -1,19 +1,19 @@
 {
   "schema_version": 1,
   "reviewed_on": "2026-11-16",
-  "unique_unresolved_releases": 562,
+  "unique_unresolved_releases": 556,
   "review_state_counts": {
-    "no_saved_decision": 340,
-    "reviewed_unresolved": 222
+    "no_saved_decision": 331,
+    "reviewed_unresolved": 225
   },
   "planning_families": {
     "credit_evidence": 205,
     "no_cached_candidate": 6,
-    "other_saved_blocker": 58,
+    "other_saved_blocker": 59,
     "partial_programme_or_completeness": 5,
-    "recording_identity": 40,
+    "recording_identity": 42,
     "source_programme_mapping": 69,
-    "work_title_or_catalogue_mapping_unresolved": 179
+    "work_title_or_catalogue_mapping_unresolved": 170
   },
   "groups": {
     "credit_support_unresolved": 150,
@@ -38,6 +38,7 @@
     "saved:composer-and-band-map": 1,
     "saved:conductor-and-programme": 1,
     "saved:conductor-credit": 1,
+    "saved:conflicting-composer-metadata": 1,
     "saved:conflicting-session-marker-and-transfer": 1,
     "saved:conflicting_named_singer": 2,
     "saved:cortot-session-pairing": 1,
@@ -119,6 +120,7 @@
     "saved:recital-programme-map": 1,
     "saved:recorded-legacy-box-incomplete": 1,
     "saved:recording-family-conflict": 1,
+    "saved:recording-provenance-unresolved": 2,
     "saved:recording-unbound": 3,
     "saved:recording_family": 1,
     "saved:reject-recording": 3,
@@ -150,7 +152,7 @@
     "saved:work-scoped-pianist": 1,
     "saved:wrong-cast-moldau": 1,
     "saved:wrong_accompanist_and_programme": 1,
-    "work_title_or_catalogue_mapping_unresolved": 179
+    "work_title_or_catalogue_mapping_unresolved": 170
   },
   "entries": [
     {
@@ -849,13 +851,13 @@
     {
       "discogs_id": "2845131",
       "title": "Concerto No.1 In C, Op. 15",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:conflicting-composer-metadata",
+      "planning_family": "other_saved_blocker",
       "cached_candidate_count": 2,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "The old RCA candidate credits Busoni and Beethoven as Composer on all three Op.15 tracks. The modern alternative has Symphony of the Air only as Associated Performer. Full work support does not resolve either credit-policy conflict.",
+      "next_action": "Obtain a source-supported correction for the co-composer metadata or review associated-role semantics separately; do not delete Busoni or borrow orchestra credits."
     },
     {
       "discogs_id": "2845198",
@@ -1832,17 +1834,6 @@
       "group": "credit_support_unresolved",
       "planning_family": "credit_evidence",
       "cached_candidate_count": 3,
-      "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
-    },
-    {
-      "discogs_id": "4431461",
-      "title": "Sonatas No. 12, Op. 26 & No. 13, Op. 27, No. 1",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
-      "cached_candidate_count": 2,
       "uncached_hits": 0,
       "finding": null,
       "next_action": null
@@ -3872,17 +3863,6 @@
       "next_action": null
     },
     {
-      "discogs_id": "8567942",
-      "title": "Symphonies Nos. 5 & 8",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
-      "cached_candidate_count": 1,
-      "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
-    },
-    {
       "discogs_id": "8606394",
       "title": "Ballettsuite »Gayaneh« / Orchestersuite »Der Goldene Hahn«",
       "review_state": "no_saved_decision",
@@ -3951,13 +3931,13 @@
     {
       "discogs_id": "8860718",
       "title": "Sinfonia N°. 7 In La Maggiore, Op. 92",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:recording-provenance-unresolved",
+      "planning_family": "recording_identity",
       "cached_candidate_count": 5,
       "uncached_hits": 4,
-      "finding": null,
-      "next_action": null
+      "finding": "The RCA Seventh has positive Toscanini/NBC credits and compatible programme; the other cached cycle explicitly identifies1939. The raw RCA Italiana A12R-0005 source supplies neither session dates nor timings, and the inspected publisher evidence binds the RCA1951family but not this exact Italian source issue.",
+      "next_action": "Bind source A12R-0005 to its session/master family using original sleeve/label or an authoritative catalogue; retain both cached cycles."
     },
     {
       "discogs_id": "8881993",
@@ -4917,28 +4897,6 @@
       "next_action": null
     },
     {
-      "discogs_id": "11883662",
-      "title": "Sinfonia N°9 In Re Minore, Op.125 \"Corale\" (II, III, IV Mov.)",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
-      "cached_candidate_count": 5,
-      "uncached_hits": 5,
-      "finding": null,
-      "next_action": null
-    },
-    {
-      "discogs_id": "11885637",
-      "title": "Sinfonia N°8 / Sinfonia N°9 (I Mov.)",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
-      "cached_candidate_count": 5,
-      "uncached_hits": 5,
-      "finding": null,
-      "next_action": null
-    },
-    {
       "discogs_id": "11885669",
       "title": "Sinfonia N°7",
       "review_state": "no_saved_decision",
@@ -4946,17 +4904,6 @@
       "planning_family": "work_title_or_catalogue_mapping_unresolved",
       "cached_candidate_count": 4,
       "uncached_hits": 1,
-      "finding": null,
-      "next_action": null
-    },
-    {
-      "discogs_id": "11887204",
-      "title": "Sinfonia N°4  - Sinfonia N°5",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
-      "cached_candidate_count": 8,
-      "uncached_hits": 2,
       "finding": null,
       "next_action": null
     },
@@ -5260,13 +5207,13 @@
     {
       "discogs_id": "13166114",
       "title": "Sinfonia N.3 \"Eroica\"",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:recording-provenance-unresolved",
+      "planning_family": "recording_identity",
       "cached_candidate_count": 6,
       "uncached_hits": 4,
-      "finding": null,
-      "next_action": null
+      "finding": "The diagnostic best candidate is explicitly the1939cycle. A later RCA alternative has a complete positively credited Eroica, but source VL45808/322461 has no saved session notes or timings establishing which Toscanini recording was issued. The RCA-family publisher identifies1953, not this source issue.",
+      "next_action": "Inspect the source label/sleeve or authoritative issue catalogue to establish its recording date; do not infer it from the1980reissue year."
     },
     {
       "discogs_id": "13170249",
@@ -5795,17 +5742,6 @@
       "uncached_hits": 0,
       "finding": "RCA48joined-paircandidate contains complete WTCbooks includingBookII, but source specifically requests24BookIIpairsBWV870–893with side-range headings and Salzburg1972/73notes. Separate48split-track/liveInnsbruck1973editions also appear. Existing paired-review adapters cover different exact source forms; no complete24pair/source-range and same-take binding is saved here.",
       "next_action": "Verify all24BookIIpairs, structural side ranges and Salzburgfamily; never substitute Innsbrucklive or BookI."
-    },
-    {
-      "discogs_id": "16996626",
-      "title": "Concerto No. 5 (\"Emperor\")",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
-      "cached_candidate_count": 3,
-      "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
     },
     {
       "discogs_id": "17256520",
@@ -6348,13 +6284,14 @@
     "Grouping authorizes no new retrieval, identity alias, role waiver or automatic promotion."
   ],
   "source_hashes": {
-    "data/qobuz_unmatched_audit.json": "ad2adf122ed42de81b3a4c838f0ec4320423ba8ef3414a959c5e49a7e045b9eb",
-    "data/qobuz_matches.json": "a4bfd7024bcb06d8bac7a74eca98a4f8abef67780dcb7bbffd4b9c6193bdf11f",
+    "data/qobuz_unmatched_audit.json": "f8132f97601c8cad488e56fa1d616ca8998880a0a1827a15613cd5ef89aff408",
+    "data/qobuz_matches.json": "a6ba747da67820b0146ae8269590f419acccaa77be75b2c2e8e2a2b8a1be9b6e",
     "data/qobuz_credit12_recording_audit.json": "f720a1cc1c5beec68dbe0b3ae45b80e5fd003d272f4cc5ca872f6863e1105092",
     "data/qobuz_final_cached2_recording_audit.json": "0d6a38e1817de98fc971d7a0e9c92f972c24e0eff503fc569951030c0e29da73",
     "data/qobuz_fullsupport16_recording_audit.json": "4187655cdfbfbc21fc9895b0818c8755a72596608a5ce7d1579ac38e1901510a",
     "data/qobuz_partial38_recording_audit.json": "cd4607193942f467815228cf9fa831887e0439f27146b9cf7d3f3637663f698d",
     "data/qobuz_secondary23_recording_audit.json": "7a2c245c90f30b437f1e4fba32c38b3ce6932eefb29af9232332f80a7358ca38",
+    "data/qobuz_title9_recording_audit.json": "79fc8ec4f68e790f354fa56722eca0aea7d82a771627cd201ee68e462becaef2",
     "data/qobuz_work_context9_recording_audit.json": "1ebe1ea51d3862297c4573606aa05dc92e606e27eb75c98dd661f5e683754fb4",
     "data/qobuz_zero104_recording_audit.json": "bbf837b84c3acdb9e80462c4a5ae8d8cbf285f830c45e33ab7dd1eadc40b1712"
   }

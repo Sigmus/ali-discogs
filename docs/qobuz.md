@@ -635,3 +635,10 @@ Read-only hypotheses, kept outside the production matching path:
   explicit work fields on the frozen179title cohort and rebuilds its review queue.
   Completed accepted/held releases stay out of pending. Neither experiment writes
   matches, source/cache data, confidence or review-completion labels.
+
+`uv run --with requests python scripts/qobuz_title9_audit.py` validates the nine
+leading title179recording decisions, including excerpts, joined LP source band,
+strict composer guards and high-score hold precedence. Six use existing
+source-leaf reviews; three remain explicit holds. The frozen title diagnostic
+remains unchanged; queue only is refreshed against saved publication decisions.
+See [batch](plans/2026-11-16-qobuz-title9.md). No live work-field policy adoption.

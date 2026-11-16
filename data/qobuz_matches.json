@@ -35,7 +35,7 @@
   "richter_review_fingerprint": "a14865f86e46150593e39bfa285fa6c7c61c8f46147b8094c0cb048fd02118ab",
   "round2_review_fingerprint": "be60742c3d35f5a9aa67f200642f7fcde98a52562a46130e043db8f4aa7c851e",
   "round2_metadata_fingerprint": "9db62d7bf62d4b77f5acf422dfde77959f845f4dc00b2ac0e10c02ccea295860",
-  "remaining_review_fingerprint": "50c8987c435edd1766cc380ac53ef3c5e8300003b3305c5c1152438c4691f941",
+  "remaining_review_fingerprint": "28036a242fdb7f7eb8716ffca33ade579034735ae4fdd51b7f4202e130008197",
   "remaining_metadata_fingerprint": "393b2d12e176160ab311b65267b38bdc8c205222e12f792bf07eba5c1fcfafbf",
   "remaining_followup_metadata_fingerprint": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
   "seven_album_metadata_fingerprint": "139f9b336c68b56ea22c18362cb0481c026366c5d359142f2bb702fe1233a4fc",
@@ -11814,9 +11814,19 @@
       }
     },
     "4431461": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0886445085785",
+        "name": "Beethoven: Piano Sonatas No. 12, Op. 26 & No. 13, Op. 27, No. 1 - Gould Remastered",
+        "artists": [
+          "Glenn Gould"
+        ],
+        "label": "Sony Classical",
+        "release_date": "1993-12-04",
+        "image": "https://static.qobuz.com/images/covers/85/57/0886445085785_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/beethoven-piano-sonatas-no-12-op-26-no-13-op-27-no-1-gould-remastered-glenn-gould/0886445085785"
+      },
       "candidates": [
         {
           "id": "0886445085785",
@@ -11828,30 +11838,274 @@
           "release_date": "1993-12-04",
           "image": "https://static.qobuz.com/images/covers/85/57/0886445085785_230.jpg",
           "url": "https://www.qobuz.com/fr-fr/album/beethoven-piano-sonatas-no-12-op-26-no-13-op-27-no-1-gould-remastered-glenn-gould/0886445085785",
-          "status": "unchecked",
-          "confidence": null,
-          "coverage": 0.0,
-          "covered": 0,
-          "target_count": 2,
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 8,
+          "target_count": 8,
           "required_performers": [
             "Glenn Gould"
           ],
           "programme": [
             {
-              "target": "Sonata No. 12, Op. 26 (A-flat Major / As-dur / La Bémol Majeur)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "target": "A1: I – Andante Con Variazioni",
+              "source_path": [
+                0,
+                0
+              ],
+              "track_ids": [
+                26886394
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Glenn Gould"
+              ]
             },
             {
-              "target": "Sonata No. 13, Op. 27, No. 1 (\"Sonata Quasi Una Fantasia\") (E-flat Major / Es-dur / Mi Bémol Majeur)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "target": "A2: II – Scherzo: Allegro Molto",
+              "source_path": [
+                0,
+                1
+              ],
+              "track_ids": [
+                26886396
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Glenn Gould"
+              ]
+            },
+            {
+              "target": "A3: III – Marcia Funebre Sulla Morte D'un Eroe",
+              "source_path": [
+                0,
+                2
+              ],
+              "track_ids": [
+                26886398
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Glenn Gould"
+              ]
+            },
+            {
+              "target": "A4: IV – Allegro",
+              "source_path": [
+                0,
+                3
+              ],
+              "track_ids": [
+                26886400
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Glenn Gould"
+              ]
+            },
+            {
+              "target": "B1: I – Andante",
+              "source_path": [
+                1,
+                0
+              ],
+              "track_ids": [
+                26886402
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Glenn Gould"
+              ]
+            },
+            {
+              "target": "B2: II – Allegro Molto E Vivace",
+              "source_path": [
+                1,
+                1
+              ],
+              "track_ids": [
+                26886404
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Glenn Gould"
+              ]
+            },
+            {
+              "target": "B3: III – Adagio Con Espressione",
+              "source_path": [
+                1,
+                2
+              ],
+              "track_ids": [
+                26886406
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Glenn Gould"
+              ]
+            },
+            {
+              "target": "B4: IV – Allegro Vivace",
+              "source_path": [
+                1,
+                3
+              ],
+              "track_ids": [
+                26886408
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Glenn Gould"
+              ]
             }
           ],
           "reasons": [
-            "0/2 target items supported after composer/work grouping; unresolved."
+            "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+            "Gould’s official album index identifies the1983Sonatas12/13programme. The Sony remaster retains all eight ordered source bands, identical composer/pianist and the source production team. Every printed band duration fits the existing tolerance, supporting this Columbia recording family.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
+            "No source rewrite, global work-title promotion, composer/performer alias or associated-role waiver."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "A1: I – Andante Con Variazioni",
+                "source_path": [
+                  0,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  26886394
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 603,
+                "digital_duration_seconds": 600,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A2: II – Scherzo: Allegro Molto",
+                "source_path": [
+                  0,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  26886396
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 186,
+                "digital_duration_seconds": 185,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A3: III – Marcia Funebre Sulla Morte D'un Eroe",
+                "source_path": [
+                  0,
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  26886398
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 425,
+                "digital_duration_seconds": 422,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A4: IV – Allegro",
+                "source_path": [
+                  0,
+                  3
+                ],
+                "status": "complete",
+                "track_ids": [
+                  26886400
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 162,
+                "digital_duration_seconds": 159,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B1: I – Andante",
+                "source_path": [
+                  1,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  26886402
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 472,
+                "digital_duration_seconds": 471,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B2: II – Allegro Molto E Vivace",
+                "source_path": [
+                  1,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  26886404
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 121,
+                "digital_duration_seconds": 121,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B3: III – Adagio Con Espressione",
+                "source_path": [
+                  1,
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  26886406
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 227,
+                "digital_duration_seconds": 227,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B4: IV – Allegro Vivace",
+                "source_path": [
+                  1,
+                  3
+                ],
+                "status": "complete",
+                "track_ids": [
+                  26886408
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 439,
+                "digital_duration_seconds": 440,
+                "source_duration_notes": []
+              }
+            ]
+          },
+          "recording_review": "Gould’s official album index identifies the1983Sonatas12/13programme. The Sony remaster retains all eight ordered source bands, identical composer/pianist and the source production team. Every printed band duration fits the existing tolerance, supporting this Columbia recording family.",
+          "review_sources": [
+            "https://www.discogs.com/release/4431461",
+            "https://glenngould.com/music/",
+            "https://glenngould.com/music/beethoven-sonatas-no-12-op-26-no-13-op-27-no-1/"
           ]
         },
         {
@@ -11894,7 +12148,11 @@
       "query": "glenn gould beethoven sonatas no 12 op 26 no 13 op 27 no",
       "searched_at": "2026-11-12T14:48:16.692198+00:00",
       "reasons": [
-        "0/2 target items supported after composer/work grouping; unresolved."
+        "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+        "Gould’s official album index identifies the1983Sonatas12/13programme. The Sony remaster retains all eight ordered source bands, identical composer/pianist and the source production team. Every printed band duration fits the existing tolerance, supporting this Columbia recording family.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
+        "No source rewrite, global work-title promotion, composer/performer alias or associated-role waiver."
       ]
     },
     "6268701": {
@@ -126028,7 +126286,16 @@
       "searched_at": "2026-11-12T17:15:13.150451+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The RCA Seventh has positive Toscanini/NBC credits and compatible programme; the other cached cycle explicitly identifies1939. The raw RCA Italiana A12R-0005 source supplies neither session dates nor timings, and the inspected publisher evidence binds the RCA1951family but not this exact Italian source issue.",
+        "limitations": [
+          "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
+          "No source rewrite, global work-title promotion, composer/performer alias or associated-role waiver."
+        ]
+      }
     },
     "4716365": {
       "status": "unchecked",
@@ -128490,10 +128757,158 @@
       ]
     },
     "16996626": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0090266303625",
+        "name": "Beethoven: Piano Concertos Nos. 1-5; Sonata No. 18; Haydn: Andante & Variations",
+        "artists": [
+          "Arthur Rubinstein"
+        ],
+        "label": "RCA Red Seal",
+        "release_date": "1999-10-12",
+        "image": "https://static.qobuz.com/images/covers/25/36/0090266303625_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/beethoven-piano-concertos-nos-1-5-sonata-no-18-haydn-andante-variations-rubinstein-collection-vol-36/0090266303625"
+      },
       "candidates": [
+        {
+          "id": "0090266303625",
+          "name": "Beethoven: Piano Concertos Nos. 1-5; Sonata No. 18; Haydn: Andante & Variations",
+          "artists": [
+            "Arthur Rubinstein"
+          ],
+          "label": "RCA Red Seal",
+          "release_date": "1999-10-12",
+          "image": "https://static.qobuz.com/images/covers/25/36/0090266303625_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/beethoven-piano-concertos-nos-1-5-sonata-no-18-haydn-andante-variations-rubinstein-collection-vol-36/0090266303625",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 3,
+          "target_count": 3,
+          "required_performers": [
+            "Josef Krips",
+            "Arthur Rubinstein",
+            "Symphony Of The Air"
+          ],
+          "programme": [
+            {
+              "target": "A: Allegro",
+              "source_path": [
+                0,
+                0
+              ],
+              "track_ids": [
+                191161
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Josef Krips",
+                "Arthur Rubinstein",
+                "Symphony Of The Air"
+              ]
+            },
+            {
+              "target": "B1: Adagio Un Poco Mosso",
+              "source_path": [
+                0,
+                1
+              ],
+              "track_ids": [
+                191162
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Josef Krips",
+                "Arthur Rubinstein",
+                "Symphony Of The Air"
+              ]
+            },
+            {
+              "target": "B2: Rondo: Allegro",
+              "source_path": [
+                0,
+                2
+              ],
+              "track_ids": [
+                191163
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Josef Krips",
+                "Arthur Rubinstein",
+                "Symphony Of The Air"
+              ]
+            }
+          ],
+          "reasons": [
+            "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+            "The National Library of New Zealand catalogue records Rubinstein/Krips/Symphony of the Air’s complete RCA Beethoven concerto cycle at Manhattan Center6–16December1956. The saved RCA63036collection contains the complete three-movement Emperor with those positive musicians and Beethoven alone as Composer. The contemporaneous February1957HighFidelity eyewitness account corroborates the stereo RCA sessions. This supports the recording family rather than an exact1958LSC2124pressing or digital master.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
+            "No source rewrite, global work-title promotion, composer/performer alias or associated-role waiver."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "A: Allegro",
+                "source_path": [
+                  0,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  191161
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 1213,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B1: Adagio Un Poco Mosso",
+                "source_path": [
+                  0,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  191162
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 504,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B2: Rondo: Allegro",
+                "source_path": [
+                  0,
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  191163
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 584,
+                "source_duration_notes": []
+              }
+            ]
+          },
+          "recording_review": "The National Library of New Zealand catalogue records Rubinstein/Krips/Symphony of the Air’s complete RCA Beethoven concerto cycle at Manhattan Center6–16December1956. The saved RCA63036collection contains the complete three-movement Emperor with those positive musicians and Beethoven alone as Composer. The contemporaneous February1957HighFidelity eyewitness account corroborates the stereo RCA sessions. This supports the recording family rather than an exact1958LSC2124pressing or digital master.",
+          "review_sources": [
+            "https://www.discogs.com/release/16996626",
+            "https://natlib.govt.nz/records/22157156",
+            "https://www.worldradiohistory.com/Archive-All-Audio/Archive-High-Fidelity/50s/High-Fidelity-1957-Feb.pdf"
+          ]
+        },
         {
           "id": "0886446202419",
           "name": "Beethoven: Piano Concerto No. 5 in E-Flat Major, Op. 73 \"Emperor\"",
@@ -128559,44 +128974,16 @@
             "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
           ],
           "work_group_policy": "qobuz-work-groups-v1"
-        },
-        {
-          "id": "0090266303625",
-          "name": "Beethoven: Piano Concertos Nos. 1-5; Sonata No. 18; Haydn: Andante & Variations",
-          "artists": [
-            "Arthur Rubinstein"
-          ],
-          "label": "RCA Red Seal",
-          "release_date": "1999-10-12",
-          "image": "https://static.qobuz.com/images/covers/25/36/0090266303625_230.jpg",
-          "url": "https://www.qobuz.com/fr-fr/album/beethoven-piano-concertos-nos-1-5-sonata-no-18-haydn-andante-variations-rubinstein-collection-vol-36/0090266303625",
-          "status": "unchecked",
-          "confidence": null,
-          "coverage": 0.0,
-          "covered": 0,
-          "target_count": 1,
-          "required_performers": [
-            "Josef Krips",
-            "Arthur Rubinstein",
-            "Symphony Of The Air"
-          ],
-          "programme": [
-            {
-              "target": "Concerto No. 5, In E-Flat, Op. 73 (\"Emperor\")",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ],
-          "reasons": [
-            "0/1 target items supported after composer/work grouping; unresolved."
-          ]
         }
       ],
       "query": "josef krips beethoven concerto no 5 emperor",
       "searched_at": "2026-11-12T17:17:58.049652+00:00",
       "reasons": [
-        "0/1 target items supported after composer/work grouping; unresolved."
+        "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+        "The National Library of New Zealand catalogue records Rubinstein/Krips/Symphony of the Air’s complete RCA Beethoven concerto cycle at Manhattan Center6–16December1956. The saved RCA63036collection contains the complete three-movement Emperor with those positive musicians and Beethoven alone as Composer. The contemporaneous February1957HighFidelity eyewitness account corroborates the stereo RCA sessions. This supports the recording family rather than an exact1958LSC2124pressing or digital master.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
+        "No source rewrite, global work-title promotion, composer/performer alias or associated-role waiver."
       ]
     },
     "12122769": {
@@ -131384,7 +131771,17 @@
             }
           ],
           "reasons": [
+            "The old RCA candidate credits Busoni and Beethoven as Composer on all three Op.15 tracks. The modern alternative has Symphony of the Air only as Associated Performer. Full work support does not resolve either credit-policy conflict.",
+            "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
+            "No source rewrite, global work-title promotion, composer/performer alias or associated-role waiver.",
             "0/1 target items supported after composer/work grouping; unresolved."
+          ],
+          "recording_review_decision": "withhold",
+          "recording_review": "The old RCA candidate credits Busoni and Beethoven as Composer on all three Op.15 tracks. The modern alternative has Symphony of the Air only as Associated Performer. Full work support does not resolve either credit-policy conflict.",
+          "review_sources": [
+            "https://www.discogs.com/release/2845131",
+            "https://natlib.govt.nz/records/22157156",
+            "https://www.worldradiohistory.com/Archive-All-Audio/Archive-High-Fidelity/50s/High-Fidelity-1957-Feb.pdf"
           ]
         }
       ],
@@ -131392,7 +131789,16 @@
       "searched_at": "2026-11-12T17:22:28.250309+00:00",
       "reasons": [
         "0/1 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The old RCA candidate credits Busoni and Beethoven as Composer on all three Op.15 tracks. The modern alternative has Symphony of the Air only as Associated Performer. Full work support does not resolve either credit-policy conflict.",
+        "limitations": [
+          "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
+          "No source rewrite, global work-title promotion, composer/performer alias or associated-role waiver."
+        ]
+      }
     },
     "6681884": {
       "status": "unchecked",
@@ -134080,10 +134486,281 @@
       ]
     },
     "8567942": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0828765570220",
+        "name": "Beethoven: Symphonies 1-9",
+        "artists": [
+          "Arturo Toscanini"
+        ],
+        "label": "RCA Red Seal",
+        "release_date": "2003-10-17",
+        "image": "https://static.qobuz.com/images/covers/20/02/0828765570220_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/beethoven-symphonies-1-9-arturo-toscanini/0828765570220"
+      },
       "candidates": [
+        {
+          "id": "0828765570220",
+          "name": "Beethoven: Symphonies 1-9",
+          "artists": [
+            "Arturo Toscanini"
+          ],
+          "label": "RCA Red Seal",
+          "release_date": "2003-10-17",
+          "image": "https://static.qobuz.com/images/covers/20/02/0828765570220_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/beethoven-symphonies-1-9-arturo-toscanini/0828765570220",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 7,
+          "target_count": 7,
+          "required_performers": [
+            "Arturo Toscanini",
+            "NBC Symphony Orchestra"
+          ],
+          "programme": [
+            {
+              "target": "A1: First Movement: Allegro Con Brio",
+              "source_path": [
+                0,
+                0
+              ],
+              "track_ids": [
+                196432
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Arturo Toscanini",
+                "NBC Symphony Orchestra"
+              ]
+            },
+            {
+              "target": "A2: Second Movement: Andante Con Moto",
+              "source_path": [
+                0,
+                1
+              ],
+              "track_ids": [
+                196433
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Arturo Toscanini",
+                "NBC Symphony Orchestra"
+              ]
+            },
+            {
+              "target": "A3: Third Movement: Allegro, Fourth Movement: Allegro",
+              "source_path": [
+                0,
+                2
+              ],
+              "track_ids": [
+                196434,
+                196435
+              ],
+              "work_tracks": 2,
+              "credited_tracks": 2,
+              "required_performers": [
+                "Arturo Toscanini",
+                "NBC Symphony Orchestra"
+              ]
+            },
+            {
+              "target": "B1: First Movement: Allegro Vivace E Con Brio",
+              "source_path": [
+                1,
+                0
+              ],
+              "track_ids": [
+                196445
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Arturo Toscanini",
+                "NBC Symphony Orchestra"
+              ]
+            },
+            {
+              "target": "B2: Second Movement: Allegretto Scherzando",
+              "source_path": [
+                1,
+                1
+              ],
+              "track_ids": [
+                196446
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Arturo Toscanini",
+                "NBC Symphony Orchestra"
+              ]
+            },
+            {
+              "target": "B3: Third Movement: Tempo Di Menuetto",
+              "source_path": [
+                1,
+                2
+              ],
+              "track_ids": [
+                196447
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Arturo Toscanini",
+                "NBC Symphony Orchestra"
+              ]
+            },
+            {
+              "target": "B4: Fourth Movement: Allegro Vivace",
+              "source_path": [
+                1,
+                3
+              ],
+              "track_ids": [
+                196448
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Arturo Toscanini",
+                "NBC Symphony Orchestra"
+              ]
+            }
+          ],
+          "reasons": [
+            "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+            "The raw RCA LM1757notes identify the Fifth as the22March1952broadcast. Pristine’s RCA-family reissue documentation corroborates that Fifth and the10November1952Eighth. The older RCA complete-cycle candidate has both programmes with positive NBC/Toscanini/Beethoven roles; all eight digital movements are mapped, including the LP’s joined third/fourth band. The original diagnostic candidate is associated-orchestra-only and is not selected.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
+            "No source rewrite, global work-title promotion, composer/performer alias or associated-role waiver."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "A1: First Movement: Allegro Con Brio",
+                "source_path": [
+                  0,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  196432
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 433,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A2: Second Movement: Andante Con Moto",
+                "source_path": [
+                  0,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  196433
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 535,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A3: Third Movement: Allegro, Fourth Movement: Allegro",
+                "source_path": [
+                  0,
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  196434,
+                  196435
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 790,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B1: First Movement: Allegro Vivace E Con Brio",
+                "source_path": [
+                  1,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  196445
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 573,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B2: Second Movement: Allegretto Scherzando",
+                "source_path": [
+                  1,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  196446
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 222,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B3: Third Movement: Tempo Di Menuetto",
+                "source_path": [
+                  1,
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  196447
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 283,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B4: Fourth Movement: Allegro Vivace",
+                "source_path": [
+                  1,
+                  3
+                ],
+                "status": "complete",
+                "track_ids": [
+                  196448
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 447,
+                "source_duration_notes": []
+              }
+            ]
+          },
+          "recording_review": "The raw RCA LM1757notes identify the Fifth as the22March1952broadcast. Pristine’s RCA-family reissue documentation corroborates that Fifth and the10November1952Eighth. The older RCA complete-cycle candidate has both programmes with positive NBC/Toscanini/Beethoven roles; all eight digital movements are mapped, including the LP’s joined third/fourth band. The original diagnostic candidate is associated-orchestra-only and is not selected.",
+          "review_sources": [
+            "https://www.discogs.com/release/8567942",
+            "https://www.pristineclassical.com/products/pasc597",
+            "https://www.pristineclassical.com/products/pasc598",
+            "https://www.pristineclassical.com/products/pasc120"
+          ]
+        },
         {
           "id": "0886443267329",
           "name": "Symphonies Nos. 5, 6, 7 & 8",
@@ -134125,7 +134802,11 @@
       "query": "arturo toscanini beethoven symphonies nos 5 8",
       "searched_at": "2026-11-12T17:25:13.220161+00:00",
       "reasons": [
-        "0/2 target items supported after composer/work grouping; unresolved."
+        "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+        "The raw RCA LM1757notes identify the Fifth as the22March1952broadcast. Pristine’s RCA-family reissue documentation corroborates that Fifth and the10November1952Eighth. The older RCA complete-cycle candidate has both programmes with positive NBC/Toscanini/Beethoven roles; all eight digital movements are mapped, including the LP’s joined third/fourth band. The original diagnostic candidate is associated-orchestra-only and is not selected.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
+        "No source rewrite, global work-title promotion, composer/performer alias or associated-role waiver."
       ]
     },
     "4226783": {
@@ -141384,14 +142065,319 @@
       ]
     },
     "11887204": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0828765570220",
+        "name": "Beethoven: Symphonies 1-9",
+        "artists": [
+          "Arturo Toscanini"
+        ],
+        "label": "RCA Red Seal",
+        "release_date": "2003-10-17",
+        "image": "https://static.qobuz.com/images/covers/20/02/0828765570220_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/beethoven-symphonies-1-9-arturo-toscanini/0828765570220"
+      },
+      "candidates": [
+        {
+          "id": "0828765570220",
+          "name": "Beethoven: Symphonies 1-9",
+          "artists": [
+            "Arturo Toscanini"
+          ],
+          "label": "RCA Red Seal",
+          "release_date": "2003-10-17",
+          "image": "https://static.qobuz.com/images/covers/20/02/0828765570220_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/beethoven-symphonies-1-9-arturo-toscanini/0828765570220",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 8,
+          "target_count": 8,
+          "required_performers": [
+            "Arturo Toscanini",
+            "NBC Symphony Orchestra"
+          ],
+          "programme": [
+            {
+              "target": "A1: I. Adagio; Allegro Vivace",
+              "source_path": [
+                0,
+                0
+              ],
+              "track_ids": [
+                196428
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Arturo Toscanini",
+                "NBC Symphony Orchestra"
+              ]
+            },
+            {
+              "target": "A2: II. Adagio",
+              "source_path": [
+                0,
+                1
+              ],
+              "track_ids": [
+                196429
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Arturo Toscanini",
+                "NBC Symphony Orchestra"
+              ]
+            },
+            {
+              "target": "A3: III. Minuetto; Allegro Vivace; Trio; Un Poco Meno Allegro",
+              "source_path": [
+                0,
+                2
+              ],
+              "track_ids": [
+                196430
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Arturo Toscanini",
+                "NBC Symphony Orchestra"
+              ]
+            },
+            {
+              "target": "A4: IV. Adagio Ma Non Troppo",
+              "source_path": [
+                0,
+                3
+              ],
+              "track_ids": [
+                196431
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Arturo Toscanini",
+                "NBC Symphony Orchestra"
+              ]
+            },
+            {
+              "target": "B1: I. Allegro Con Brio",
+              "source_path": [
+                1,
+                0
+              ],
+              "track_ids": [
+                196432
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Arturo Toscanini",
+                "NBC Symphony Orchestra"
+              ]
+            },
+            {
+              "target": "B2: II. Andante Con Moto",
+              "source_path": [
+                1,
+                1
+              ],
+              "track_ids": [
+                196433
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Arturo Toscanini",
+                "NBC Symphony Orchestra"
+              ]
+            },
+            {
+              "target": "B3: III. Allegro",
+              "source_path": [
+                1,
+                2
+              ],
+              "track_ids": [
+                196434
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Arturo Toscanini",
+                "NBC Symphony Orchestra"
+              ]
+            },
+            {
+              "target": "B4: IV. Allegro",
+              "source_path": [
+                1,
+                3
+              ],
+              "track_ids": [
+                196435
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Arturo Toscanini",
+                "NBC Symphony Orchestra"
+              ]
+            }
+          ],
+          "reasons": [
+            "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+            "Source notes explicitly date the Fourth3February1951and Fifth22March1952, corroborated by Pristine’s RCA-family documentation. The older RCA complete cycle supplies all eight positively credited movements. The1939diagnostic best is a different cycle and is not selected. Source Fourth finale says Adagio Ma Non Troppo while the digital work and publisher say Allegro ma non troppo; this discrepancy is retained in this exact source-position mapping, never a global tempo alias.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
+            "No source rewrite, global work-title promotion, composer/performer alias or associated-role waiver."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "A1: I. Adagio; Allegro Vivace",
+                "source_path": [
+                  0,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  196428
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 601,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A2: II. Adagio",
+                "source_path": [
+                  0,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  196429
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 529,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A3: III. Minuetto; Allegro Vivace; Trio; Un Poco Meno Allegro",
+                "source_path": [
+                  0,
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  196430
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 300,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A4: IV. Adagio Ma Non Troppo",
+                "source_path": [
+                  0,
+                  3
+                ],
+                "status": "complete",
+                "track_ids": [
+                  196431
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 418,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B1: I. Allegro Con Brio",
+                "source_path": [
+                  1,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  196432
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 433,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B2: II. Andante Con Moto",
+                "source_path": [
+                  1,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  196433
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 535,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B3: III. Allegro",
+                "source_path": [
+                  1,
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  196434
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 285,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B4: IV. Allegro",
+                "source_path": [
+                  1,
+                  3
+                ],
+                "status": "complete",
+                "track_ids": [
+                  196435
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 505,
+                "source_duration_notes": []
+              }
+            ]
+          },
+          "recording_review": "Source notes explicitly date the Fourth3February1951and Fifth22March1952, corroborated by Pristine’s RCA-family documentation. The older RCA complete cycle supplies all eight positively credited movements. The1939diagnostic best is a different cycle and is not selected. Source Fourth finale says Adagio Ma Non Troppo while the digital work and publisher say Allegro ma non troppo; this discrepancy is retained in this exact source-position mapping, never a global tempo alias.",
+          "review_sources": [
+            "https://www.discogs.com/release/11887204",
+            "https://www.pristineclassical.com/products/pasc597",
+            "https://www.pristineclassical.com/products/pasc598",
+            "https://www.pristineclassical.com/products/pasc120"
+          ]
+        }
+      ],
       "query": "arturo toscanini beethoven sinfonia ndeg4 sinfonia ndeg5",
       "searched_at": "2026-11-12T17:32:28.888723+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+        "Source notes explicitly date the Fourth3February1951and Fifth22March1952, corroborated by Pristine’s RCA-family documentation. The older RCA complete cycle supplies all eight positively credited movements. The1939diagnostic best is a different cycle and is not selected. Source Fourth finale says Adagio Ma Non Troppo while the digital work and publisher say Allegro ma non troppo; this discrepancy is retained in this exact source-position mapping, never a global tempo alias.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
+        "No source rewrite, global work-title promotion, composer/performer alias or associated-role waiver."
       ]
     },
     "11951556": {
@@ -141562,25 +142548,387 @@
       ]
     },
     "11885637": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0828765570220",
+        "name": "Beethoven: Symphonies 1-9",
+        "artists": [
+          "Arturo Toscanini"
+        ],
+        "label": "RCA Red Seal",
+        "release_date": "2003-10-17",
+        "image": "https://static.qobuz.com/images/covers/20/02/0828765570220_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/beethoven-symphonies-1-9-arturo-toscanini/0828765570220"
+      },
+      "candidates": [
+        {
+          "id": "0828765570220",
+          "name": "Beethoven: Symphonies 1-9",
+          "artists": [
+            "Arturo Toscanini"
+          ],
+          "label": "RCA Red Seal",
+          "release_date": "2003-10-17",
+          "image": "https://static.qobuz.com/images/covers/20/02/0828765570220_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/beethoven-symphonies-1-9-arturo-toscanini/0828765570220",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 5,
+          "target_count": 5,
+          "required_performers": [
+            "Arturo Toscanini",
+            "NBC Symphony Orchestra"
+          ],
+          "programme": [
+            {
+              "target": "A1: Allegro Vivace E Con Brio",
+              "source_path": [
+                0,
+                0
+              ],
+              "track_ids": [
+                196445
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Arturo Toscanini",
+                "NBC Symphony Orchestra"
+              ]
+            },
+            {
+              "target": "A2: Allegro Scherzando",
+              "source_path": [
+                0,
+                1
+              ],
+              "track_ids": [
+                196446
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Arturo Toscanini",
+                "NBC Symphony Orchestra"
+              ]
+            },
+            {
+              "target": "A3: Tempo Di Minuetto",
+              "source_path": [
+                0,
+                2
+              ],
+              "track_ids": [
+                196447
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Arturo Toscanini",
+                "NBC Symphony Orchestra"
+              ]
+            },
+            {
+              "target": "B1: Allegro Vivace",
+              "source_path": [
+                0,
+                3
+              ],
+              "track_ids": [
+                196448
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Arturo Toscanini",
+                "NBC Symphony Orchestra"
+              ]
+            },
+            {
+              "target": "B2: Allegro Ma Non Troppo, Un Poco Maestoso",
+              "source_path": [
+                1,
+                0
+              ],
+              "track_ids": [
+                196449
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Arturo Toscanini",
+                "NBC Symphony Orchestra"
+              ]
+            }
+          ],
+          "reasons": [
+            "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+            "The raw LP notes identify the Eighth on10November1952and Ninth on31March/1April1952, agreeing with Pristine’s RCA-family recording documentation and the older RCA candidate. Map all four Eighth movements and only the first Ninth movement. Other Ninth movements remain candidate extras. The source Allegro Scherzando wording is preserved against digital Allegretto scherzando, not globally corrected.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
+            "No source rewrite, global work-title promotion, composer/performer alias or associated-role waiver."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "A1: Allegro Vivace E Con Brio",
+                "source_path": [
+                  0,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  196445
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 573,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A2: Allegro Scherzando",
+                "source_path": [
+                  0,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  196446
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 222,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A3: Tempo Di Minuetto",
+                "source_path": [
+                  0,
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  196447
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 283,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B1: Allegro Vivace",
+                "source_path": [
+                  0,
+                  3
+                ],
+                "status": "complete",
+                "track_ids": [
+                  196448
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 447,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B2: Allegro Ma Non Troppo, Un Poco Maestoso",
+                "source_path": [
+                  1,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  196449
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 811,
+                "source_duration_notes": []
+              }
+            ]
+          },
+          "recording_review": "The raw LP notes identify the Eighth on10November1952and Ninth on31March/1April1952, agreeing with Pristine’s RCA-family recording documentation and the older RCA candidate. Map all four Eighth movements and only the first Ninth movement. Other Ninth movements remain candidate extras. The source Allegro Scherzando wording is preserved against digital Allegretto scherzando, not globally corrected.",
+          "review_sources": [
+            "https://www.discogs.com/release/11885637",
+            "https://www.pristineclassical.com/products/pasc597",
+            "https://www.pristineclassical.com/products/pasc598",
+            "https://www.pristineclassical.com/products/pasc120"
+          ]
+        }
+      ],
       "query": "arturo toscanini beethoven sinfonia ndeg8 sinfonia ndeg9 i mov",
       "searched_at": "2026-11-12T17:32:58.959257+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+        "The raw LP notes identify the Eighth on10November1952and Ninth on31March/1April1952, agreeing with Pristine’s RCA-family recording documentation and the older RCA candidate. Map all four Eighth movements and only the first Ninth movement. Other Ninth movements remain candidate extras. The source Allegro Scherzando wording is preserved against digital Allegretto scherzando, not globally corrected.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
+        "No source rewrite, global work-title promotion, composer/performer alias or associated-role waiver."
       ]
     },
     "11883662": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0828765570220",
+        "name": "Beethoven: Symphonies 1-9",
+        "artists": [
+          "Arturo Toscanini"
+        ],
+        "label": "RCA Red Seal",
+        "release_date": "2003-10-17",
+        "image": "https://static.qobuz.com/images/covers/20/02/0828765570220_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/beethoven-symphonies-1-9-arturo-toscanini/0828765570220"
+      },
+      "candidates": [
+        {
+          "id": "0828765570220",
+          "name": "Beethoven: Symphonies 1-9",
+          "artists": [
+            "Arturo Toscanini"
+          ],
+          "label": "RCA Red Seal",
+          "release_date": "2003-10-17",
+          "image": "https://static.qobuz.com/images/covers/20/02/0828765570220_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/beethoven-symphonies-1-9-arturo-toscanini/0828765570220",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 3,
+          "target_count": 3,
+          "required_performers": [
+            "Arturo Toscanini",
+            "NBC Symphony Orchestra"
+          ],
+          "programme": [
+            {
+              "target": "A1: Molto Vivace; Presto",
+              "source_path": [
+                0,
+                0
+              ],
+              "track_ids": [
+                196450
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Arturo Toscanini",
+                "NBC Symphony Orchestra"
+              ]
+            },
+            {
+              "target": "A2: Adagio Molto E Cantabile; Andante Moderato; Adagio",
+              "source_path": [
+                0,
+                1
+              ],
+              "track_ids": [
+                196451
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Arturo Toscanini",
+                "NBC Symphony Orchestra"
+              ]
+            },
+            {
+              "target": "B1: Presto; Allegro Assai; Presto; Allegro Assai Vivace; Alla Marcia; Andante Maestoso; Allegro Energico Sempre Ben Marcato; Allegro Ma Non Tanto; Prestissimo ",
+              "source_path": [
+                0,
+                2
+              ],
+              "track_ids": [
+                196452
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Arturo Toscanini",
+                "NBC Symphony Orchestra"
+              ]
+            }
+          ],
+          "reasons": [
+            "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+            "The raw source specifies Carnegie Hall31March/1April1952. Pristine’s publisher documents that Ninth with Farrell/Merriman/Peerce/Scott and RobertShawChorale, agreeing with the positively credited RCA candidate. Only source movementsII–IVare mapped; movementIis an explicit candidate extra, not an omitted LP band or a claim that this LP contains the whole Ninth.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
+            "No source rewrite, global work-title promotion, composer/performer alias or associated-role waiver."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "A1: Molto Vivace; Presto",
+                "source_path": [
+                  0,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  196450
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 794,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A2: Adagio Molto E Cantabile; Andante Moderato; Adagio",
+                "source_path": [
+                  0,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  196451
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 866,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B1: Presto; Allegro Assai; Presto; Allegro Assai Vivace; Alla Marcia; Andante Maestoso; Allegro Energico Sempre Ben Marcato; Allegro Ma Non Tanto; Prestissimo ",
+                "source_path": [
+                  0,
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  196452
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 1409,
+                "source_duration_notes": []
+              }
+            ]
+          },
+          "recording_review": "The raw source specifies Carnegie Hall31March/1April1952. Pristine’s publisher documents that Ninth with Farrell/Merriman/Peerce/Scott and RobertShawChorale, agreeing with the positively credited RCA candidate. Only source movementsII–IVare mapped; movementIis an explicit candidate extra, not an omitted LP band or a claim that this LP contains the whole Ninth.",
+          "review_sources": [
+            "https://www.discogs.com/release/11883662",
+            "https://www.pristineclassical.com/products/pasc597",
+            "https://www.pristineclassical.com/products/pasc598",
+            "https://www.pristineclassical.com/products/pasc120"
+          ]
+        }
+      ],
       "query": "arturo toscanini beethoven sinfonia ndeg9 in re minore op 125 corale ii iii",
       "searched_at": "2026-11-12T17:33:14.702868+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+        "The raw source specifies Carnegie Hall31March/1April1952. Pristine’s publisher documents that Ninth with Farrell/Merriman/Peerce/Scott and RobertShawChorale, agreeing with the positively credited RCA candidate. Only source movementsII–IVare mapped; movementIis an explicit candidate extra, not an omitted LP band or a claim that this LP contains the whole Ninth.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
+        "No source rewrite, global work-title promotion, composer/performer alias or associated-role waiver."
       ]
     },
     "18195607": {
@@ -141612,7 +142960,16 @@
       "searched_at": "2026-11-12T17:33:43.909709+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The diagnostic best candidate is explicitly the1939cycle. A later RCA alternative has a complete positively credited Eroica, but source VL45808/322461 has no saved session notes or timings establishing which Toscanini recording was issued. The RCA-family publisher identifies1953, not this source issue.",
+        "limitations": [
+          "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
+          "No source rewrite, global work-title promotion, composer/performer alias or associated-role waiver."
+        ]
+      }
     },
     "10757104": {
       "status": "probable",
