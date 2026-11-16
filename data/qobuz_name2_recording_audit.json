@@ -1,0 +1,483 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-16",
+  "status": "complete",
+  "frozen_release_ids": [
+    "11876845",
+    "21490438"
+  ],
+  "entries": [
+    {
+      "discogs_id": "11876845",
+      "title": "Violin Concerto",
+      "outcome": "probable",
+      "finding_kind": "source_bound_ensemble_name",
+      "finding": "Official Bernstein discography identifies Brahms Op77, Francescatti and New York Philharmonic, Manhattan Center, 15 April 1961; MS6471 agrees with the raw LP catalogue number. Cached album uses New York Philharmonic at album level and New York Philharmonic Orchestra on these tracks. Complete three-movement source programme is bound in order; ensemble spelling equivalence is restricted to these frozen source/candidate hashes.",
+      "next_action": "Retain pressing/transfer and unavailable source timing limitations.",
+      "target_sha256": "9f97e5892a79f3708a0f745719bb6d9f8198850f92a21bc9850372195357dc3f",
+      "source_sha256": "968a398a682ee51b0975672377ac44bebd11d1280ceb5a66f7805d81d508d61d",
+      "review_album_id": "dds4ccexc73aa",
+      "review_album_sha256": "b145ab5d20feced4b7ed9a8e6088a3d5156891b3ee1b985e9a28df11de7d2904",
+      "source_programme": [
+        {
+          "position": "",
+          "type_": "index",
+          "title": "Concerto For Violin And Orchestra In D Major, Op. 77",
+          "duration": "",
+          "sub_tracks": [
+            {
+              "position": "A1",
+              "type_": "track",
+              "title": "Allegro Non Troppo",
+              "duration": ""
+            },
+            {
+              "position": "B1",
+              "type_": "track",
+              "title": "Adagio",
+              "duration": ""
+            },
+            {
+              "position": "B2",
+              "type_": "track",
+              "title": "Allegro Giosco, Ma Non Troppo Vivace",
+              "duration": ""
+            }
+          ]
+        }
+      ],
+      "source_credits": [
+        {
+          "name": "Johannes Brahms",
+          "anv": "",
+          "join": "",
+          "role": "Composed By",
+          "tracks": "",
+          "id": 304975,
+          "resource_url": "https://api.discogs.com/artists/304975"
+        },
+        {
+          "name": "Leonard Bernstein",
+          "anv": "",
+          "join": "",
+          "role": "Conductor",
+          "tracks": "",
+          "id": 299702,
+          "resource_url": "https://api.discogs.com/artists/299702"
+        },
+        {
+          "name": "New York Philharmonic",
+          "anv": "",
+          "join": "",
+          "role": "Orchestra",
+          "tracks": "",
+          "id": 327356,
+          "resource_url": "https://api.discogs.com/artists/327356"
+        },
+        {
+          "name": "John McClure",
+          "anv": "",
+          "join": "",
+          "role": "Producer",
+          "tracks": "",
+          "id": 381298,
+          "resource_url": "https://api.discogs.com/artists/381298"
+        },
+        {
+          "name": "Zino Francescatti",
+          "anv": "",
+          "join": "",
+          "role": "Violin",
+          "tracks": "",
+          "id": 838588,
+          "resource_url": "https://api.discogs.com/artists/838588"
+        }
+      ],
+      "source_notes": "STEREO\nConcerto for Violin and Orchestra in D Major, Op.77\nHas blue centre labels\n",
+      "selected_track_fingerprints": {
+        "54083239": "daa4bb526788d3ee07eb6f7d6fb95aab8ab7ee13082fb6162166ea5b3cff1dfc",
+        "54083240": "c9c4e4a896801958c40730b6adaf2d515244cde4af77963d970e55249cec259f",
+        "54083241": "6d7d073ed718eea8b4390a7fea933bf608a46a13ab6e1818b7d457c9a3ca30de",
+        "54083242": "ed9539aa6ba0336745a4d85fbaab6fef396fb2200656bd8f0f285bc4ee2a96fc",
+        "54083243": "8b0de134c8ecb82c147b8aab64b4a02b6eabfaafd25ce2c7ba66eb7a5fe8f9e3",
+        "54083244": "eb76bdd9215dfef44569706b227a218efb5d34217b874a79e5dfa09953102ef3"
+      },
+      "cached_alternative_checks": [
+        {
+          "album_id": "0002894100292",
+          "title": "Brahms: Violin Concerto Op.77",
+          "album_sha256": "8a9ee09c70ef37ff670fa61fdb0f150e6393f8320bfd3ef5d19506b966e63877",
+          "track_manifest_sha256": "352ffbe07447ac7353406ab174e0b81fcd26e379ee068a3fe4eee65551eb6d14",
+          "tracks_count": 3,
+          "track_titles": [
+            "I. Allegro non troppo (Cadenza: Reger)",
+            "II. Adagio",
+            "III. Allegro giocoso, ma non troppo vivace"
+          ]
+        },
+        {
+          "album_id": "0002894455952",
+          "title": "Brahms: Violin Concertos Opp.77 & 102",
+          "album_sha256": "fee7aac0a2948e19da248e68da4ac5b8ca633393a487538c5b5a551a45b739fe",
+          "track_manifest_sha256": "c7d2558fd99bb14538b89e84331e911bba9c4878f840a6a8d0d9b585d6162da2",
+          "tracks_count": 6,
+          "track_titles": [
+            "I. Allegro non troppo (Cadenza: Reger)",
+            "II. Adagio",
+            "III. Allegro giocoso, ma non troppo vivace",
+            "I. Allegro",
+            "II. Andante",
+            "III. Vivace non troppo"
+          ]
+        },
+        {
+          "album_id": "0002894749302",
+          "title": "Brahms: Complete Symphonies; Orchestral Works; Concertos",
+          "album_sha256": "f73610a761b4c8b83f9809ab56a87de4137ed2434874c218bd64a6093bf642ed",
+          "track_manifest_sha256": "aa4d2724bf2decee66a026fe96716c6def9e64bdc72da5aa7665ead1510f26f7",
+          "tracks_count": 25,
+          "track_titles": [
+            "I. Un poco sostenuto – Allegro",
+            "II. Andante sostenuto",
+            "III. Un poco allegretto e grazioso",
+            "IV. Adagio – Più andante – Allegro non troppo, ma con brio – Più allegro",
+            "I. Allegro non troppo",
+            "II. Adagio non troppo",
+            "III. Allegretto grazioso (quasi andantino)",
+            "IV. Allegro con spirito",
+            "Brahms: Academic Festival Overture, Op. 80",
+            "I. Allegro con brio",
+            "II. Andante",
+            "III. Poco allegretto",
+            "IV. Allegro",
+            "Brahms: Variations on a Theme by Haydn, Op. 56a",
+            "I. Allegro non troppo",
+            "II. Andante moderato",
+            "III. Allegro giocoso",
+            "IV. Allegro energico e passionato",
+            "Brahms: Tragic Overture, Op. 81",
+            "I. Allegro non troppo (Cadenza: Reger)",
+            "II. Adagio",
+            "III. Allegro giocoso, ma non troppo vivace",
+            "I. Allegro",
+            "II. Andante",
+            "III. Vivace non troppo"
+          ]
+        },
+        {
+          "album_id": "dds4ccexc73aa",
+          "title": "Brahms: Violin Concerto, Op. 77 - Sibelius: Violin Concerto, Op. 47",
+          "album_sha256": "b145ab5d20feced4b7ed9a8e6088a3d5156891b3ee1b985e9a28df11de7d2904",
+          "track_manifest_sha256": "1f45077f1f18c4eae3d483fc238f5ad43ab5110439652afefc9da0643748576a",
+          "tracks_count": 6,
+          "track_titles": [
+            "I. Allegro non troppo",
+            "II. Adagio",
+            "III. Allegro giocoso, ma non troppo vivace - Poco piu presto",
+            "I. Allegro moderato",
+            "II. Adagio di molto",
+            "III. Allegro, ma non tanto"
+          ]
+        },
+        {
+          "album_id": "k576i2s7c8wua",
+          "title": "Best of Leonard Bernstein",
+          "album_sha256": "f3ef2fe8de8974a3bdb8fd547b572ef532368392c1a3b52db32b144c39a6a2f6",
+          "track_manifest_sha256": "ae848ff0a92465f78f4004cf0e6f853990d92c43733fe8b87a5cbefc7a2c7fbe",
+          "tracks_count": 30,
+          "track_titles": [
+            "I. Allegro vivace",
+            "III. Allegretto - Presto",
+            "IV. Adagietto. Sehr langsam",
+            "IV. Finale. Allegro molto",
+            "III. Allegro giocoso - Poco meno presto",
+            "III. Rondo - Molto allegro",
+            "Doppio movimento",
+            "IV. Allegro non troppo",
+            "Rhapsody in Blue",
+            "Candide Overture",
+            "III. Times Square: 1944",
+            "Act I: Maria",
+            "Act I: Tonight",
+            "Act I: America",
+            "Make Our Garden Grow (From \"Candide\")",
+            "IV. Agathon (Adagio)",
+            "I. Devotions before Mass: 2. Hymn and Psalm: \"A Simple Song\"",
+            "V. Meditation No. 1",
+            "c. The Seven Stages: Variations 8-14",
+            "Prelude",
+            "VI. Three Dance Variations: Variation I (Galop)",
+            "Variation II (Waltz)",
+            "Variation III (Danzon)",
+            "III. Riffs",
+            "I. Prologue - Allegro moderato",
+            "II. Somewhere - Adagio",
+            "III. Scherzo - Vivace leggiero",
+            "IV. Mambo - Meno presto",
+            "Lonely Town (From \"On the Town\") [Arr. for Violin & Orchestra]",
+            "Take Care of This House (From \"1600 Pennsylvania Avenue\")"
+          ]
+        }
+      ],
+      "result": {
+        "discogs_id": "11876845",
+        "album_id": "dds4ccexc73aa",
+        "decision": "probable",
+        "recording_review": "Official Bernstein discography identifies Brahms Op77, Francescatti and New York Philharmonic, Manhattan Center, 15 April 1961; MS6471 agrees with the raw LP catalogue number. Cached album uses New York Philharmonic at album level and New York Philharmonic Orchestra on these tracks. Complete three-movement source programme is bound in order; ensemble spelling equivalence is restricted to these frozen source/candidate hashes.",
+        "sources": [
+          "https://leonardbernstein.com/discography?page=6&performer=New+York+Philharmonic",
+          "https://www.discogs.com/release/11876845"
+        ],
+        "limitations": [
+          "Recording-family Probable only; exact LP pressing, take identity and transfer/mastering are not verified.",
+          "Raw LP source has no movement durations; no source timing agreement is claimed.",
+          "The digital coupling is extra and is not used to complete the source programme."
+        ],
+        "eligible": true,
+        "blockers": [],
+        "completeness": {
+          "status": "complete",
+          "works": [
+            {
+              "target": "Concerto For Violin And Orchestra In D Major, Op. 77",
+              "status": "complete",
+              "scope": "reviewed-bound-tracks",
+              "track_ids": [
+                54083239,
+                54083240,
+                54083241
+              ]
+            }
+          ]
+        }
+      }
+    },
+    {
+      "discogs_id": "21490438",
+      "title": "Concerto N. 5 \" L'Imperatore\"",
+      "outcome": "probable",
+      "finding_kind": "source_bound_ensemble_name",
+      "finding": "Praga publisher lists Fischer, Furtwangler and The Philharmonia Orchestra; London 19–20 February 1951 for the concerto, with Vienna symphony coupling. All three published concerto timings agree with the cache. This binds the abbreviated track ensemble name to the source orchestra within this recording review only. Complete three-movement source programme is bound in order; ensemble spelling equivalence is restricted to these frozen source/candidate hashes.",
+      "next_action": "Retain pressing/transfer and unavailable source timing limitations.",
+      "target_sha256": "c631b8eeb6e786e70520eb509f0ac30e5d89375ec684457fe93382e80deb78b4",
+      "source_sha256": "b2b2d52912a09e8c5b61e93f481e723b6247a69043cf6345c56320eb189723e0",
+      "review_album_id": "q1ipa0nqgx7qa",
+      "review_album_sha256": "17bdfb99e30ae7941a04874d19fb006d8ad3cc2ca90cbe530c00420b4642acf4",
+      "source_programme": [
+        {
+          "position": "",
+          "type_": "index",
+          "title": "Concerto N.5 Per Pianoforte E Orchestra In Mi Bemolle Maggiore, Op. 73 \"L'Imperatore\"",
+          "duration": "",
+          "sub_tracks": [
+            {
+              "position": "A",
+              "type_": "track",
+              "title": "1° Mov.: Allegro",
+              "duration": ""
+            },
+            {
+              "position": "B1",
+              "type_": "track",
+              "title": "2° Mov.: Adagio, Un Poco Mosso",
+              "duration": ""
+            },
+            {
+              "position": "B2",
+              "type_": "track",
+              "title": "3° Mov.: Rondò (Allegro)",
+              "duration": ""
+            }
+          ]
+        }
+      ],
+      "source_credits": [
+        {
+          "name": "Ludwig van Beethoven",
+          "anv": "Beethoven",
+          "join": "",
+          "role": "Composed By",
+          "tracks": "",
+          "id": 95544,
+          "resource_url": "https://api.discogs.com/artists/95544"
+        },
+        {
+          "name": "Wilhelm Furtwängler",
+          "anv": "Wilhelm Furtwangler",
+          "join": "",
+          "role": "Conductor",
+          "tracks": "",
+          "id": 839640,
+          "resource_url": "https://api.discogs.com/artists/839640"
+        },
+        {
+          "name": "Philharmonia Orchestra",
+          "anv": "Orchestra Philharmonia di Londra",
+          "join": "",
+          "role": "Orchestra",
+          "tracks": "",
+          "id": 454293,
+          "resource_url": "https://api.discogs.com/artists/454293"
+        },
+        {
+          "name": "Auguste Renoir",
+          "anv": "Renoir",
+          "join": "",
+          "role": "Painting [Front cover]",
+          "tracks": "",
+          "id": 2256664,
+          "resource_url": "https://api.discogs.com/artists/2256664"
+        },
+        {
+          "name": "Edwin Fischer",
+          "anv": "",
+          "join": "",
+          "role": "Piano",
+          "tracks": "",
+          "id": 922635,
+          "resource_url": "https://api.discogs.com/artists/922635"
+        }
+      ],
+      "source_notes": "Catalog number on cover: 3 C053-00803\nCatalog number on labels: 3C 053-00803\nMade in Italy",
+      "selected_track_fingerprints": {
+        "138618118": "5b976f78223f1cdbfca04c101d9e3b086fa89ba6d5247f2104e26febb241f08a",
+        "138618119": "c12c085608984564b1401f300fc9df2afc06bab0ffa5f4c3ef1c8cd504f219d1",
+        "138618120": "59616204d23c1f177b6df0110fcb44aba32c7c9cf739b02ac9df1ce7e3d5f3cd",
+        "138618121": "7f4a42118683b5e36ff5370edeba85fd48ee9d1cccabbdda9baad86b024aadda",
+        "138618122": "17e866995420d12f8d11cbe8b9a493f22f021c8d174191ff292c5810e7f02e7d",
+        "138618123": "88e9d5b5e0c059171467151b9429094b03620cbf777b449eded40c17ba2486c3",
+        "138618124": "9d4a0b0c3958c7621994efdd684fe271263dc73cb18b959228301faa3a863884"
+      },
+      "cached_alternative_checks": [
+        {
+          "album_id": "0002894740302",
+          "title": "Wilhelm Furtwängler (Beethoven, Schubert, Schumann, Brahms, Bruckner, Strauss, Wagner, Weber, Tchaikovsky, Franck, Ravel / Live Recordings 1944-1953)",
+          "album_sha256": "818a264dda4be3a646b8447079fbc716e8c5b65ef0865ce4e24377722ffea5d5",
+          "track_manifest_sha256": "c1947c1fedea303a5774a04e61d0533cfb094d79096e11ffd574840faa134ff2",
+          "tracks_count": 39,
+          "track_titles": [
+            "Beethoven: Leonore: Overture No. 3, Op. 72b",
+            "Beethoven: Symphony No. 7 in A Major, Op. 92: I. Poco sostenuto – Vivace",
+            "Beethoven: Symphony No. 7 in A Major, Op. 92: II. Allegretto",
+            "Beethoven: Symphony No. 7 in A Major, Op. 92: III. Presto – Assai meno presto",
+            "Beethoven: Symphony No. 7 in A Major, Op. 92: IV. Finale. Allegro con brio",
+            "Schubert: Symphony No. 8 in B Minor, D. 759 \"Unfinished\": I. Allegro moderato",
+            "Schubert: Symphony No. 8 in B Minor, D. 759 \"Unfinished\": II. Andante con moto",
+            "Schumann: Overture Manfred, Op. 115",
+            "Brahms: Variations on a Theme by Haydn, Op. 56a",
+            "Brahms: Symphony No. 2 in D Major, Op. 73: I. Allegro non troppo",
+            "Brahms: Symphony No. 2 in D Major, Op. 73: II. Adagio non troppo",
+            "Brahms: Symphony No. 2 in D Major, Op. 73: III. Allegretto grazioso (quasi andantino)",
+            "Brahms: Symphony No. 2 in D Major, Op. 73: IV. Allegro con spirito",
+            "Bruckner: Symphony No. 8 in C Minor, WAB 108 (Ed. Furtwängler): I. Allegro moderato",
+            "Bruckner: Symphony No. 8 in C Minor, WAB 108 (Ed. Furtwängler): II. Scherzo. Allegro Moderato – Trio. Langsam",
+            "Bruckner: Symphony No. 8 in C Minor, WAB 108 (Ed. Furtwängler): III. Adagio. Feierlich langsam, doch nicht schleppend",
+            "Bruckner: Symphony No. 8 in C Minor, WAB 108 (Ed. Furtwängler): IV. Finale. Feierlich, nicht schnell",
+            "R. Strauss: Don Juan, Op. 20, TrV 156",
+            "Tchaikovsky: Symphony No. 6 in B Minor, Op. 74 \"Pathétique\": I. Adagio – Allegro non troppo",
+            "Tchaikovsky: Symphony No. 6 in B Minor, Op. 74 \"Pathétique\": II. Allegro con grazia",
+            "Tchaikovsky: Symphony No. 6 in B Minor, Op. 74 \"Pathétique\": III. Scherzo. Allegro molto vivace",
+            "Tchaikovsky: Symphony No. 6 in B Minor, Op. 74 \"Pathétique\": IV. Finale – Adagio lamentoso",
+            "Hindemith: Symphonic Metamorphosis of Themes by Carl Maria von Weber: I. Allegro",
+            "Hindemith: Symphonic Metamorphosis of Themes by Carl Maria von Weber: II. Turandot. Scherzo",
+            "Hindemith: Symphonic Metamorphosis of Themes by Carl Maria von Weber: III. Andantino",
+            "Hindemith: Symphonic Metamorphosis of Themes by Carl Maria von Weber: IV. Marsch",
+            "Franck: Symphony in D Minor, CFF 130: I. Lento – Allegro non troppo",
+            "Franck: Symphony in D Minor, CFF 130: II. Allegretto",
+            "Franck: Symphony in D Minor, CFF 130: III. Allegro non troppo",
+            "Ravel: Rapsodie espagnole, M. 54: I. Prélude à la nuit",
+            "Ravel: Rapsodie espagnole, M. 54: II. Malagueña",
+            "Ravel: Rapsodie espagnole, M. 54: III. Habanera",
+            "Ravel: Rapsodie espagnole, M. 54: IV. Feria",
+            "Wagner: Die Meistersinger von Nürnberg: Overture (Concert Version)",
+            "Wagner: Tannhäuser: Overture (Concert Version)",
+            "Wagner: Tristan und Isolde, Act I: Prelude",
+            "Wagner: Tristan und Isolde, Act III: Liebestod (Concert Version)",
+            "Wagner: Götterdämmerung, Act III: Siegfried's Funeral March (Concert Version)",
+            "Wagner: Parsifal, Act III: Karfreitagszauber \"Good Friday Music\" (Concert Version)"
+          ]
+        },
+        {
+          "album_id": "q1ipa0nqgx7qa",
+          "title": "Ludwig van Beethoven: Piano Concerto No. 5 \"Emperor\" & Symphony No. 5",
+          "album_sha256": "17bdfb99e30ae7941a04874d19fb006d8ad3cc2ca90cbe530c00420b4642acf4",
+          "track_manifest_sha256": "9b16203bc5073bfc11aae96b74ffc4e79c8e55903401f068d86444f8cb13c317",
+          "tracks_count": 7,
+          "track_titles": [
+            "I. Allegro",
+            "II. Adagio un poco mosso - attacca",
+            "III. Rondo. Allegro",
+            "Symphony No. 5 in C Minor, Op. 67: I. Allegro con brio",
+            "Symphony No. 5 in C Minor, Op. 67: II. Andante con moto",
+            "Symphony No. 5 in C Minor, Op. 67: III. Allegro (Scherzo)",
+            "Symphony No. 5 in C Minor, Op. 67: IV. Allegro"
+          ]
+        },
+        {
+          "album_id": "u2gtrj05aqv5a",
+          "title": "Beethoven: Symphony No. 9 \"Choral\" (Live)",
+          "album_sha256": "4b71d8fdeb4b473f400dc56fff26918465bb675c76747d9eeef5c573125845c1",
+          "track_manifest_sha256": "15adcedf105722100760a9d04406a252cdabf71fabf80792b8d8e295f78149bf",
+          "tracks_count": 12,
+          "track_titles": [
+            "Symphony No. 9 in D Minor, Op. 125 \"Choral\": Ambience I (Live)",
+            "Symphony No. 9 in D Minor, Op. 125 \"Choral\": I. Allegro ma non troppo, un poco maestoso (Live)",
+            "Symphony No. 9 in D Minor, Op. 125 \"Choral\": Ambience II (Live)",
+            "Symphony No. 9 in D Minor, Op. 125 \"Choral\": II. Molto vivace - Presto (Live)",
+            "Symphony No. 9 in D Minor, Op. 125 \"Choral\": Ambience III (Live)",
+            "Symphony No. 9 in D Minor, Op. 125 \"Choral\": III. Adagio molto e cantabile - Andante moderato (Live)",
+            "Symphony No. 9 in D Minor, Op. 125 \"Choral\": IV. (a) Presto - Allegro assai (Live)",
+            "Symphony No. 9 in D Minor, Op. 125 \"Choral\": IV. (b) Presto - Recitativo. \"O Freunde, nicht diese Töne!\" (Live)",
+            "Symphony No. 9 in D Minor, Op. 125 \"Choral\": IV. (c) Allegro assai vivace. \"Froh, froh, wie seine Sonnen\" (Live)",
+            "Symphony No. 9 in D Minor, Op. 125 \"Choral\": IV. (d) Andante maestoso. \"Seid umschlungen, Millionen\" (Live)",
+            "Symphony No. 9 in D Minor, Op. 125 \"Choral\": IV. (e) Allegro ma non tanto. \"Freude, Tochter aus Elysium\" (Live)",
+            "Leonora Overture No. 2, Op. 72a"
+          ]
+        }
+      ],
+      "result": {
+        "discogs_id": "21490438",
+        "album_id": "q1ipa0nqgx7qa",
+        "decision": "probable",
+        "recording_review": "Praga publisher lists Fischer, Furtwangler and The Philharmonia Orchestra; London 19–20 February 1951 for the concerto, with Vienna symphony coupling. All three published concerto timings agree with the cache. This binds the abbreviated track ensemble name to the source orchestra within this recording review only. Complete three-movement source programme is bound in order; ensemble spelling equivalence is restricted to these frozen source/candidate hashes.",
+        "sources": [
+          "https://pragadigitals.bandcamp.com/album/ludwig-van-beethoven-piano-concerto-no-5-emperor-symphony-no-5-2",
+          "https://www.discogs.com/release/21490438"
+        ],
+        "limitations": [
+          "Recording-family Probable only; exact LP pressing, take identity and transfer/mastering are not verified.",
+          "Raw LP source has no movement durations; no source timing agreement is claimed.",
+          "The digital coupling is extra and is not used to complete the source programme.",
+          "Raw LP is catalogued Stereo; historic recording and Praga remaster do not establish that LP stereo processing or transfer. No stereo/mono equivalence claim."
+        ],
+        "eligible": true,
+        "blockers": [],
+        "completeness": {
+          "status": "complete",
+          "works": [
+            {
+              "target": "Concerto N.5 Per Pianoforte E Orchestra In Mi Bemolle Maggiore, Op. 73 \"L'Imperatore\"",
+              "status": "complete",
+              "scope": "reviewed-bound-tracks",
+              "track_ids": [
+                138618118,
+                138618119,
+                138618120
+              ]
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "summary": {
+    "reviewed": 2,
+    "probable": 2
+  },
+  "accepted_release_ids": [
+    "11876845",
+    "21490438"
+  ],
+  "qobuz_requests": 0,
+  "limitations": "Existing bound-track review kind, two recording-specific ensemble aliases; no global name/role change. No source duration or exact-transfer claim."
+}

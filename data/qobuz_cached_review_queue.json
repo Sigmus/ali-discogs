@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "reviewed_on": "2026-11-15",
-  "population": "301 unique releases currently categorized work_or_credit_unresolved",
+  "population": "299 unique releases currently categorized work_or_credit_unresolved",
   "rules": {
     "priority_review": "Unheld cached candidate supports >=50% of current source units; known/reviewed blockers excluded.",
     "secondary_partial_lead": "Some current support, below50%; known/reviewed blockers excluded.",
@@ -11,7 +11,7 @@
   },
   "counts": {
     "known_constraint": 3,
-    "no_current_supported_units": 298
+    "no_current_supported_units": 296
   },
   "entries": [
     {
@@ -1909,14 +1909,6 @@
       "uncached_hits": 3
     },
     {
-      "discogs_id": "11876845",
-      "title": "Violin Concerto",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894100292",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
       "discogs_id": "11885669",
       "title": "Sinfonia N°7",
       "queue": "no_current_supported_units",
@@ -2325,14 +2317,6 @@
       "uncached_hits": 4
     },
     {
-      "discogs_id": "21490438",
-      "title": "Concerto N. 5 \" L'Imperatore\"",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894740302",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 7
-    },
-    {
       "discogs_id": "23201027",
       "title": "Walter Gieseking Volume 3 - Beethoven Sonate",
       "queue": "no_current_supported_units",
@@ -2429,5 +2413,5 @@
       "uncached_hits": 0
     }
   ],
-  "inventory_sha256": "6dd8065a2ca3243bdaa4e303ce2c2b35059040444ced10e96df16aea78bcdb28"
+  "inventory_sha256": "dc9fab92d4214a8f3460dd10c055700432bd342a431c6ce0b58e2d2548d84531"
 }

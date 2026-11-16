@@ -22,22 +22,22 @@
     "qobuz_lead_reviews.json": "bc731b95eadb23cb1a13d735a4e7410615ae06f260b2c4a381ed4a29e229265e",
     "qobuz_binding_reviews.json": "eab7d007faef231024862226e943305bd4a4aab65143bd18c45b96b811286b77",
     "qobuz_opera_recording_reviews.json": "6e26d528eb7de78d372635218404a57534332ea1cd3d92e89e90e7a18066f85b",
-    "qobuz_remaining_recording_reviews.json": "02c625d302ba85a933ceb43c628cddf12748eaab95f0d1ce49fdc61b08620fd7",
+    "qobuz_remaining_recording_reviews.json": "058c87151b1925b69ac902bddae6515886769a94c86c9bcd1cf4cff91e879d73",
     "collection_matches.json": "a214eee877d4749fa957b3d2a293c2925d7ba0621259f2742139a6cd86f928c8",
-    "qobuz_matches.json": "4c3d0ed0889b40ef621f10e37d2555eebe44aa8af05614431ddf7de532a27899",
+    "qobuz_matches.json": "6a8e09699544c6a3e15930d4f6023b961d1230feded18a97d8fea85cd09199d0",
     "qobuz_work_inventory.json": "47b8e955b99c37b132e66daea61590490d249f94a520740d702bec5caa5019ce",
     "qobuz_source_composer_reviews.json": "1cce69d6df99a54b444f6a210d84c5c69b3139eb4ed1355e821708d1fb59b83c",
     "qobuz_source_programme_reviews.json": "5469466141e2816720bf35e6b54abeb18daf3f12bf6fec1b4f9e794da0db098b"
   },
   "summary": {
-    "work_or_credit_unresolved": 301,
+    "work_or_credit_unresolved": 299,
     "reviewed_withheld": 228,
     "completeness_review_needed": 5,
     "recording_review_rejected": 4,
     "no_saved_hits": 6,
     "source_programme_review_needed": 1
   },
-  "unmatched_unique_releases": 545,
+  "unmatched_unique_releases": 543,
   "entries": [
     {
       "discogs_id": "594243",
@@ -178871,100 +178871,6 @@
       ]
     },
     {
-      "discogs_id": "11876845",
-      "title": "Violin Concerto",
-      "category": "work_or_credit_unresolved",
-      "saved_hits": 5,
-      "uncached_hits": 0,
-      "cached_candidates": [
-        {
-          "album_id": "0002894100292",
-          "title": "Brahms: Violin Concerto Op.77",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "incomplete",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Concerto For Violin And Orchestra In D Major, Op. 77",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "0002894455952",
-          "title": "Brahms: Violin Concertos Opp.77 & 102",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "incomplete",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Concerto For Violin And Orchestra In D Major, Op. 77",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "0002894749302",
-          "title": "Brahms: Complete Symphonies; Orchestral Works; Concertos",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "incomplete",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Concerto For Violin And Orchestra In D Major, Op. 77",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "dds4ccexc73aa",
-          "title": "Brahms: Violin Concerto, Op. 77 - Sibelius: Violin Concerto, Op. 47",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "incomplete",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Concerto For Violin And Orchestra In D Major, Op. 77",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "k576i2s7c8wua",
-          "title": "Best of Leonard Bernstein",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "incomplete",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Concerto For Violin And Orchestra In D Major, Op. 77",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        }
-      ]
-    },
-    {
       "discogs_id": "11885669",
       "title": "Sinfonia N°7",
       "category": "work_or_credit_unresolved",
@@ -207475,66 +207381,6 @@
             },
             {
               "target": "La Majeur Op.1 No.14",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "discogs_id": "21490438",
-      "title": "Concerto N. 5 \" L'Imperatore\"",
-      "category": "work_or_credit_unresolved",
-      "saved_hits": 10,
-      "uncached_hits": 7,
-      "cached_candidates": [
-        {
-          "album_id": "0002894740302",
-          "title": "Wilhelm Furtwängler (Beethoven, Schubert, Schumann, Brahms, Bruckner, Strauss, Wagner, Weber, Tchaikovsky, Franck, Ravel / Live Recordings 1944-1953)",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "incomplete",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Concerto N.5 Per Pianoforte E Orchestra In Mi Bemolle Maggiore, Op. 73 \"L'Imperatore\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "q1ipa0nqgx7qa",
-          "title": "Ludwig van Beethoven: Piano Concerto No. 5 \"Emperor\" & Symphony No. 5",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "incomplete",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Concerto N.5 Per Pianoforte E Orchestra In Mi Bemolle Maggiore, Op. 73 \"L'Imperatore\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "u2gtrj05aqv5a",
-          "title": "Beethoven: Symphony No. 9 \"Choral\" (Live)",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "incomplete",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Concerto N.5 Per Pianoforte E Orchestra In Mi Bemolle Maggiore, Op. 73 \"L'Imperatore\"",
               "work_tracks": 0,
               "credited_tracks": 0,
               "track_ids": []

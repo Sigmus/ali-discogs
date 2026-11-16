@@ -22600,6 +22600,267 @@
         "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
         "No source rewrite, timing waiver, global work-field/catalogue normalization, performer alias or role waiver."
       ]
+    },
+    {
+      "discogs_id": "11876845",
+      "album_id": "dds4ccexc73aa",
+      "review_kind": "bound-tracks",
+      "decision": "probable",
+      "target_sha256": "9f97e5892a79f3708a0f745719bb6d9f8198850f92a21bc9850372195357dc3f",
+      "album_sha256": "b145ab5d20feced4b7ed9a8e6088a3d5156891b3ee1b985e9a28df11de7d2904",
+      "source_sha256": "968a398a682ee51b0975672377ac44bebd11d1280ceb5a66f7805d81d508d61d",
+      "external_source_files": [
+        {
+          "path": "data/review_sources/ensemble-name-11876845/primary-observation.json",
+          "sha256": "95a67f7f094eb4ca579f4219cc602829bccd9412e9dc2e6756601911c833e132"
+        }
+      ],
+      "required_performers": [
+        "Zino Francescatti",
+        "Leonard Bernstein",
+        "New York Philharmonic"
+      ],
+      "performer_aliases": [
+        {
+          "source": "New York Philharmonic",
+          "file": "New York Philharmonic Orchestra",
+          "reason": "Official Bernstein discography identifies Brahms Op77, Francescatti and New York Philharmonic, Manhattan Center, 15 April 1961; MS6471 agrees with the raw LP catalogue number. Cached album uses New York Philharmonic at album level and New York Philharmonic Orchestra on these tracks."
+        }
+      ],
+      "adds": [
+        {
+          "track_id": 54083239,
+          "target": "Concerto For Violin And Orchestra In D Major, Op. 77",
+          "title_contains": "I. Allegro non troppo",
+          "work_equals": "Violin Concerto, Op. 77",
+          "duration_seconds": 1269
+        },
+        {
+          "track_id": 54083240,
+          "target": "Concerto For Violin And Orchestra In D Major, Op. 77",
+          "title_contains": "II. Adagio",
+          "work_equals": "Violin Concerto, Op. 77",
+          "duration_seconds": 549
+        },
+        {
+          "track_id": 54083241,
+          "target": "Concerto For Violin And Orchestra In D Major, Op. 77",
+          "title_contains": "III. Allegro giocoso, ma non troppo vivace - Poco piu presto",
+          "work_equals": "Violin Concerto, Op. 77",
+          "duration_seconds": 471
+        }
+      ],
+      "expected": {
+        "Concerto For Violin And Orchestra In D Major, Op. 77": [
+          54083239,
+          54083240,
+          54083241
+        ]
+      },
+      "extra_track_ids": [
+        54083242,
+        54083243,
+        54083244
+      ],
+      "movement_runs": true,
+      "marks": [
+        {
+          "track_id": 54083239,
+          "text": "I. Allegro non troppo",
+          "composer_equals": "Johannes Brahms",
+          "isrc_equals": "USSM10200526"
+        },
+        {
+          "track_id": 54083240,
+          "text": "II. Adagio",
+          "composer_equals": "Johannes Brahms",
+          "isrc_equals": "USSM10200527"
+        },
+        {
+          "track_id": 54083241,
+          "text": "III. Allegro giocoso, ma non troppo vivace - Poco piu presto",
+          "composer_equals": "Johannes Brahms",
+          "isrc_equals": "USSM10200528"
+        }
+      ],
+      "source_band_bindings": [
+        {
+          "source_path": [
+            0,
+            0
+          ],
+          "position": "A1",
+          "title": "Allegro Non Troppo",
+          "track_ids": [
+            54083239
+          ]
+        },
+        {
+          "source_path": [
+            0,
+            1
+          ],
+          "position": "B1",
+          "title": "Adagio",
+          "track_ids": [
+            54083240
+          ]
+        },
+        {
+          "source_path": [
+            0,
+            2
+          ],
+          "position": "B2",
+          "title": "Allegro Giosco, Ma Non Troppo Vivace",
+          "track_ids": [
+            54083241
+          ]
+        }
+      ],
+      "recording_review": "Official Bernstein discography identifies Brahms Op77, Francescatti and New York Philharmonic, Manhattan Center, 15 April 1961; MS6471 agrees with the raw LP catalogue number. Cached album uses New York Philharmonic at album level and New York Philharmonic Orchestra on these tracks. Complete three-movement source programme is bound in order; ensemble spelling equivalence is restricted to these frozen source/candidate hashes.",
+      "sources": [
+        "https://leonardbernstein.com/discography?page=6&performer=New+York+Philharmonic",
+        "https://www.discogs.com/release/11876845"
+      ],
+      "limitations": [
+        "Recording-family Probable only; exact LP pressing, take identity and transfer/mastering are not verified.",
+        "Raw LP source has no movement durations; no source timing agreement is claimed.",
+        "The digital coupling is extra and is not used to complete the source programme."
+      ]
+    },
+    {
+      "discogs_id": "21490438",
+      "album_id": "q1ipa0nqgx7qa",
+      "review_kind": "bound-tracks",
+      "decision": "probable",
+      "target_sha256": "c631b8eeb6e786e70520eb509f0ac30e5d89375ec684457fe93382e80deb78b4",
+      "album_sha256": "17bdfb99e30ae7941a04874d19fb006d8ad3cc2ca90cbe530c00420b4642acf4",
+      "source_sha256": "b2b2d52912a09e8c5b61e93f481e723b6247a69043cf6345c56320eb189723e0",
+      "external_source_files": [
+        {
+          "path": "data/review_sources/ensemble-name-21490438/primary-observation.json",
+          "sha256": "48626173cb6a9b7b7392ff09fc150562d0cdd320b4514052e42dcef3c2999bbb"
+        }
+      ],
+      "required_performers": [
+        "Wilhelm Furtwängler",
+        "Edwin Fischer",
+        "Philharmonia Orchestra"
+      ],
+      "performer_aliases": [
+        {
+          "source": "Philharmonia Orchestra",
+          "file": "The Philharmonia",
+          "reason": "Praga publisher lists Fischer, Furtwangler and The Philharmonia Orchestra; London 19–20 February 1951 for the concerto, with Vienna symphony coupling. All three published concerto timings agree with the cache. This binds the abbreviated track ensemble name to the source orchestra within this recording review only."
+        }
+      ],
+      "adds": [
+        {
+          "track_id": 138618118,
+          "target": "Concerto N.5 Per Pianoforte E Orchestra In Mi Bemolle Maggiore, Op. 73 \"L'Imperatore\"",
+          "title_contains": "I. Allegro",
+          "work_equals": "Piano Concerto No. 5 in E-Flat Major, Op. 73 \"Emperor\"",
+          "duration_seconds": 1242
+        },
+        {
+          "track_id": 138618119,
+          "target": "Concerto N.5 Per Pianoforte E Orchestra In Mi Bemolle Maggiore, Op. 73 \"L'Imperatore\"",
+          "title_contains": "II. Adagio un poco mosso - attacca",
+          "work_equals": "Piano Concerto No. 5 in E-Flat Major, Op. 73 \"Emperor\"",
+          "duration_seconds": 470
+        },
+        {
+          "track_id": 138618120,
+          "target": "Concerto N.5 Per Pianoforte E Orchestra In Mi Bemolle Maggiore, Op. 73 \"L'Imperatore\"",
+          "title_contains": "III. Rondo. Allegro",
+          "work_equals": "Piano Concerto No. 5 in E-Flat Major, Op. 73 \"Emperor\"",
+          "duration_seconds": 629
+        }
+      ],
+      "expected": {
+        "Concerto N.5 Per Pianoforte E Orchestra In Mi Bemolle Maggiore, Op. 73 \"L'Imperatore\"": [
+          138618118,
+          138618119,
+          138618120
+        ]
+      },
+      "extra_track_ids": [
+        138618121,
+        138618122,
+        138618123,
+        138618124
+      ],
+      "movement_runs": true,
+      "marks": [
+        {
+          "track_id": 138618118,
+          "text": "I. Allegro",
+          "composer_equals": "Ludwig van Beethoven",
+          "isrc_equals": "FRP4Y1402340",
+          "reference_duration_seconds": 1242
+        },
+        {
+          "track_id": 138618119,
+          "text": "II. Adagio un poco mosso - attacca",
+          "composer_equals": "Ludwig van Beethoven",
+          "isrc_equals": "FRP4Y1402350",
+          "reference_duration_seconds": 470
+        },
+        {
+          "track_id": 138618120,
+          "text": "III. Rondo. Allegro",
+          "composer_equals": "Ludwig van Beethoven",
+          "isrc_equals": "FRP4Y1402360",
+          "reference_duration_seconds": 629
+        }
+      ],
+      "source_band_bindings": [
+        {
+          "source_path": [
+            0,
+            0
+          ],
+          "position": "A",
+          "title": "1° Mov.: Allegro",
+          "track_ids": [
+            138618118
+          ]
+        },
+        {
+          "source_path": [
+            0,
+            1
+          ],
+          "position": "B1",
+          "title": "2° Mov.: Adagio, Un Poco Mosso",
+          "track_ids": [
+            138618119
+          ]
+        },
+        {
+          "source_path": [
+            0,
+            2
+          ],
+          "position": "B2",
+          "title": "3° Mov.: Rondò (Allegro)",
+          "track_ids": [
+            138618120
+          ]
+        }
+      ],
+      "recording_review": "Praga publisher lists Fischer, Furtwangler and The Philharmonia Orchestra; London 19–20 February 1951 for the concerto, with Vienna symphony coupling. All three published concerto timings agree with the cache. This binds the abbreviated track ensemble name to the source orchestra within this recording review only. Complete three-movement source programme is bound in order; ensemble spelling equivalence is restricted to these frozen source/candidate hashes.",
+      "sources": [
+        "https://pragadigitals.bandcamp.com/album/ludwig-van-beethoven-piano-concerto-no-5-emperor-symphony-no-5-2",
+        "https://www.discogs.com/release/21490438"
+      ],
+      "limitations": [
+        "Recording-family Probable only; exact LP pressing, take identity and transfer/mastering are not verified.",
+        "Raw LP source has no movement durations; no source timing agreement is claimed.",
+        "The digital coupling is extra and is not used to complete the source programme.",
+        "Raw LP is catalogued Stereo; historic recording and Praga remaster do not establish that LP stereo processing or transfer. No stereo/mono equivalence claim."
+      ]
     }
   ]
 }

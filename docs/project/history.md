@@ -2375,3 +2375,16 @@ Primary Bernstein discography and Praga publisher corroboration located for
 307script tests pass; fixture429/STOP is simulated. No Qobuz/audio calls or
 cache/source/Spotify changes. Local checkpoint; no push/deploy.
 [Results and concrete next action](../plans/2026-11-16-qobuz-musician21.md).
+
+## 2026-11-16 — Two ensemble-name recording reviews
+
+11876845Francescatti/Bernstein Brahms and21490438Fischer/Furtwangler Emperor now
+Probable85via existing bound-track adapter and recording-specific ensemble names.
+Both complete three-movement programmes; all soloist/conductor/orchestra roles
+remain required. Primary Bernstein catalogue corroboratesMS6471; Praga publisher
+corroborates Emperor cast/date and all3timings. LP timings unavailable; exact
+pressing/transfer not verified, Fischer Stereo source flag retained/disclosed.
+Only2publication records changed; original21triage unchanged.311script tests,
+normalization/build and both local detail smoke checks pass; onlyfavicon404.
+No Qobuz/audio requests, global policy change, push or deploy.
+[Audit and continuation](../plans/2026-11-16-qobuz-name2.md).

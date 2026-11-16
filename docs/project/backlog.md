@@ -39,7 +39,7 @@ Final two supported cached leads reviewed:9283162Probable;15660391held.
 The diverse12credit-support sample is now reviewed:Reiner1896362Probable,
 11explicit holds. [Diagnostic/results](../plans/2026-11-16-qobuz-credit171.md).
 All11work-field gains are reviewed, including the [nine-case follow-up](../plans/2026-11-16-qobuz-work-context9.md):2HeifetzProbable/7holds.
-Current unreviewed split:150credit-support,148work/title,6no cached candidate and
+Current unreviewed split:150credit-support,146work/title,6no cached candidate and
 5completeness cases. Vocal-role diagnostic complete: no candidate status/confidence changes or new
 complete source-unit support; live normalization deferred ([results](../plans/2026-11-16-qobuz-vocal-role-diagnostic.md)).
 All28title179diagnostic leads reviewed:15Probable/13holds,0pending. The remaining
@@ -52,9 +52,10 @@ reviewed:Heifetz7065721and user-approved Gould2548602Probable; Dido24278222split
 hold ([results](../plans/2026-11-16-qobuz-title3.md)). Queue2resolved/1held/0pending.
 All21musician-gap cases triaged:11programme/cast,6missing positive credits,
 2collective-identity issues,2bounded name-review leads. No match decisions or
-rules changed. Next agreed cached-review work:corroborate11876845then21490438,
-check full bindings/timings with existing review kinds. No general alias/role
-policy adopted. [Audit and next action](../plans/2026-11-16-qobuz-musician21.md).
+rules changed by triage. Both name leads now source-bound Probable85;
+[recording decisions/limits](../plans/2026-11-16-qobuz-name2.md). Next cached work:
+inspect8535848trio collective identity, preserving every member and existing
+policy limits. No general alias/role policy adopted. [Audit and next action](../plans/2026-11-16-qobuz-musician21.md).
 Timing sensitivity complete:onlyGould cleared proposed35%/consensus scenarios in
 30mapped reviews;11other timing-mentioned holds lack full leaf maps. User approved
 only a hash-bound Gould timing exception, now applied; global tolerance unchanged

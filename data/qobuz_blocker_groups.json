@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "reviewed_on": "2026-11-16",
-  "unique_unresolved_releases": 545,
+  "unique_unresolved_releases": 543,
   "review_state_counts": {
-    "no_saved_decision": 309,
+    "no_saved_decision": 307,
     "reviewed_unresolved": 236
   },
   "planning_families": {
@@ -13,7 +13,7 @@
     "partial_programme_or_completeness": 5,
     "recording_identity": 44,
     "source_programme_mapping": 73,
-    "work_title_or_catalogue_mapping_unresolved": 148
+    "work_title_or_catalogue_mapping_unresolved": 146
   },
   "groups": {
     "credit_support_unresolved": 150,
@@ -161,7 +161,7 @@
     "saved:work-scoped-pianist": 1,
     "saved:wrong-cast-moldau": 1,
     "saved:wrong_accompanist_and_programme": 1,
-    "work_title_or_catalogue_mapping_unresolved": 148
+    "work_title_or_catalogue_mapping_unresolved": 146
   },
   "entries": [
     {
@@ -4796,17 +4796,6 @@
       "next_action": "Find the original16piece session/reissue and verify both missing source pieces/performer; keep24trackrecital partial."
     },
     {
-      "discogs_id": "11876845",
-      "title": "Violin Concerto",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
-      "cached_candidate_count": 5,
-      "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
-    },
-    {
       "discogs_id": "11885669",
       "title": "Sinfonia N°7",
       "review_state": "no_saved_decision",
@@ -5863,17 +5852,6 @@
       "next_action": "Locate the actual duo recital and verify composer, work and instrumentation for every source sonata."
     },
     {
-      "discogs_id": "21490438",
-      "title": "Concerto N. 5 \" L'Imperatore\"",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
-      "cached_candidate_count": 3,
-      "uncached_hits": 7,
-      "finding": null,
-      "next_action": null
-    },
-    {
       "discogs_id": "21794359",
       "title": "Il Clavicembalo Ben Temperato Libro I",
       "review_state": "reviewed_unresolved",
@@ -6172,11 +6150,12 @@
     "Grouping authorizes no new retrieval, identity alias, role waiver or automatic promotion."
   ],
   "source_hashes": {
-    "data/qobuz_unmatched_audit.json": "6dd8065a2ca3243bdaa4e303ce2c2b35059040444ced10e96df16aea78bcdb28",
-    "data/qobuz_matches.json": "4c3d0ed0889b40ef621f10e37d2555eebe44aa8af05614431ddf7de532a27899",
+    "data/qobuz_unmatched_audit.json": "dc9fab92d4214a8f3460dd10c055700432bd342a431c6ce0b58e2d2548d84531",
+    "data/qobuz_matches.json": "6a8e09699544c6a3e15930d4f6023b961d1230feded18a97d8fea85cd09199d0",
     "data/qobuz_credit12_recording_audit.json": "f720a1cc1c5beec68dbe0b3ae45b80e5fd003d272f4cc5ca872f6863e1105092",
     "data/qobuz_final_cached2_recording_audit.json": "0d6a38e1817de98fc971d7a0e9c92f972c24e0eff503fc569951030c0e29da73",
     "data/qobuz_fullsupport16_recording_audit.json": "4187655cdfbfbc21fc9895b0818c8755a72596608a5ce7d1579ac38e1901510a",
+    "data/qobuz_name2_recording_audit.json": "62a557a54ab7285eabc379d15d0710d60d56f6ba3a748879e01b28eed3f3a8ba",
     "data/qobuz_partial38_recording_audit.json": "cd4607193942f467815228cf9fa831887e0439f27146b9cf7d3f3637663f698d",
     "data/qobuz_secondary23_recording_audit.json": "7a2c245c90f30b437f1e4fba32c38b3ce6932eefb29af9232332f80a7358ca38",
     "data/qobuz_title19_recording_audit.json": "fdbab134fb3332d958416505c1e2d97507b341eba4161856a156abbc9a3935be",
