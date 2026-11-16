@@ -581,3 +581,11 @@ are mandatory. See `scripts/qobuz_source_leaf_review.py`.
 frozen decisions, full alternative manifests and high-score hold precedence.
 The generic16case validator now accepts a fixed expected batch count; existing
 16case/38case entrypoints retain their respective frozen sizes.
+
+`uv run --with requests python scripts/qobuz_zero104_audit.py` validates the
+104 zero-support reviews, including all frozen candidate IDs/title inventories,
+raw source programmes/credits and hold precedence. The report is
+`data/qobuz_zero104_recording_audit.json`. Title-only work coverage and musician
+names occurring somewhere in an album are explicitly diagnostic, never credit
+or recording acceptance. Three source-band mappings reuse the existing review
+kind; no general matching threshold, performer alias or credit waiver changed.

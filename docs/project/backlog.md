@@ -1,6 +1,6 @@
 # Backlog
 
-Updated: 2026-11-15, Europe/Amsterdam
+Updated: 2026-11-16, Europe/Amsterdam
 
 Only active work and proposals belong here. IDs stay stable. Completed work is
 in [history](history.md); previous detailed case notes and plan links are preserved
@@ -30,12 +30,15 @@ completeness,38partial,104zero-current-rule support. Both complete Brahms leads
 are now reviewed/Probable ([results](../plans/2026-11-16-qobuz-brahms2.md)).
 All16full-support leads reviewed:9Probable/7holds. All38partial-support leads now
 reviewed:6Probable/32holds ([latest batch](../plans/2026-11-16-qobuz-partial38.md)).
-All160initial leads now have17accepted families,39recording holds and104open
-zero-current-rule cases. Next inspect those104offline to distinguish source/
-parser/credit gaps from wrong or incomplete programmes. Existing whole-inventory
-work/credit queue remains a separate population; inspect refreshed JSON counts. Zero support needs source/lead/rule investigation,
-not automatic API retrieval. Revisit explicit holds only with new evidence or a
-validated scoped rule; partial source support is triage, not confidence.
+All104zero-current-rule cases reviewed:3Probable/101explicit holds
+([results](../plans/2026-11-16-qobuz-zero104.md)). The frozen160lead cohort is
+complete:20accepted families,140reviewed holds,0open. Each hold retains specific
+prerequisites for reopening, not an automatic return to the work queue.
+Next recommended cached reviews:9283162then15660391, outside the completed cohort.
+The broader355work/credit inventory remains separate. Zero support needs source/
+lead/rule investigation, not automatic API retrieval. Revisit explicit holds only
+with new evidence or a validated scoped rule; partial source support is triage,
+not confidence. No new retrieval or broad policy change follows from completion.
 Source N°/opus members and separate digital work fields remain recurring parsing
 gaps; a global rule would need a bounded collection diff and false-positive tests.
 Continue verified cached enrichment and commits autonomously within agreed scope.

@@ -9,9 +9,9 @@ and cache commands. This directory owns current planning.
 ## Current state
 
 - Branch main; enrichment pushed through3632140 on16November at user request.
-  GitHub Pages deployment not verified; inspect Git before claiming remote state.
+  New104case batch verified locally, not pushed. Pages deployment not verified.
 - Collection741copies/740unique. Saved labels: Spotify254Found/273Probable/
-  210NotFound/4Unchecked; Qobuz12Found/159Probable/570Unchecked copies.
+  210NotFound/4Unchecked; Qobuz12Found/162Probable/567Unchecked copies.
 - Qobuz publication `data/qobuz_matches.json` is separate from Spotify collection
   results. Labels/scores are saved data; Qobuz85/95 are heuristic levels, not
   probabilities. Legacy Spotify labels are not comparable accuracy measurements.
@@ -69,23 +69,28 @@ and cache commands. This directory owns current planning.
 - New Probable: Kertész9297226,Pollini4031075,Barbirolli6748142,Karajan10707559,
   Gilels17748481,Pires5980586. Exact source-band/heading coverage, positive credits
   and recording-family corroboration; pressing/takes/mastering unverified.
-- 250script tests, normalization and static build pass. Exact6label changes;
-  collection/Spotify unchanged.569unchecked unique:459work/credit,94withheld,
-  5completeness,4rejected,6empty,1source hold.
-- Key holds: BlackMoldauis Fiedler/BostonPops in candidate; Quartet rawFarulliviola
-  and OistrakhrawEllisharp retained; Haebler19waltzalternative exists but source
-  labels conflict. Partial metadata/rule support is not catalogue absence.
+- All104zero-rule reviews complete:3Probable,101explicit holds.
+  [Results](../plans/2026-11-16-qobuz-zero104.md): Heifetz8923384,
+  Mitropoulos6544574 and Schuricht36163426 use existing source-band validation.
+  Full alternative inventories, raw roles, evidence hashes and next actions saved.
+- 256script tests, normalization and static build pass. Exactly3label changes;
+  collection/Spotify and all out-of-scope release payloads unchanged.
+- 566unchecked unique:355work/credit,195withheld,5completeness,4rejected,
+  6empty,1source hold. Reviewed holds remain searchable evidence, not Not found.
+- Key holds include named ensemble members/chorus masters, associated-only roles,
+  Oistrach identity, source-role conflicts, incomplete or unbound recording families.
+  No general alias, threshold or credit waiver adopted.
 
 ## Next action and limits
 
-936album cache integrated;23632tracks validated. Within160original leads,
-17recording families accepted and39explicit holds reviewed;104zero-current-rule
-cases remain open. [Latest handoff](../plans/2026-11-16-qobuz-partial38.md).
-Next: inspect cached priority9283162(Schubert8/overtures), then15660391piano
-concertos; these two sit outside the160release scope.104zero-rule cases follow.
-Separate source/credit/parser gaps from wrong programmes. No new calls
-or automatic promotions. Broader source-role parser audit is proposed, not adopted.
-Krips finale is not proven missing; joined-band mapping remains unresolved.
+936album cache integrated;23632tracks validated. All160original leads reviewed:
+20recording families accepted,140explicit holds,0open in that frozen cohort.
+Completed reviews do not imply all recordings are matched. No new provider calls.
+Next inspect cached9283162(Schubert) then15660391(Mozart); these two are outside
+this completed batch. Broader355work/credit inventory is a separate population.
+Revisit each held case only when its saved evidence/rule prerequisite is met.
+Broader source-role parser audit is proposed, not adopted. Krips finale is not
+proven missing; joined-band mapping remains unresolved.
 
 Continue verified cached reviews/commits autonomously. No unbounded retrieval,
 warning retries, automatic push/deployment, source rewrites or musical-credit

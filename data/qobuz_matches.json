@@ -35,7 +35,7 @@
   "richter_review_fingerprint": "a14865f86e46150593e39bfa285fa6c7c61c8f46147b8094c0cb048fd02118ab",
   "round2_review_fingerprint": "be60742c3d35f5a9aa67f200642f7fcde98a52562a46130e043db8f4aa7c851e",
   "round2_metadata_fingerprint": "9db62d7bf62d4b77f5acf422dfde77959f845f4dc00b2ac0e10c02ccea295860",
-  "remaining_review_fingerprint": "bb2bfa03e14344ccffc9911c84338dd86b664b3d53f8d49aa4c940551cbf199c",
+  "remaining_review_fingerprint": "24c20c7643d4b439d3dd1a88a0a68f9ca94c6651032ffa98908304ff3b319a52",
   "remaining_metadata_fingerprint": "393b2d12e176160ab311b65267b38bdc8c205222e12f792bf07eba5c1fcfafbf",
   "remaining_followup_metadata_fingerprint": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
   "seven_album_metadata_fingerprint": "139f9b336c68b56ea22c18362cb0481c026366c5d359142f2bb702fe1233a4fc",
@@ -108562,14 +108562,162 @@
       ]
     },
     "36163426": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "btegd89k63vxa",
+        "name": "Bruckner: Symphonies Nos. 3, 8 & 9",
+        "artists": [
+          "Wiener Philharmonic Orchestra"
+        ],
+        "label": "Warner Classics",
+        "release_date": "2024-07-20",
+        "image": "https://static.qobuz.com/images/covers/xa/3v/btegd89k63vxa_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/bruckner-symphonies-nos-3-8-9-wiener-philharmoniker-carl-schuricht/btegd89k63vxa"
+      },
+      "candidates": [
+        {
+          "id": "btegd89k63vxa",
+          "name": "Bruckner: Symphonies Nos. 3, 8 & 9",
+          "artists": [
+            "Wiener Philharmonic Orchestra"
+          ],
+          "label": "Warner Classics",
+          "release_date": "2024-07-20",
+          "image": "https://static.qobuz.com/images/covers/xa/3v/btegd89k63vxa_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/bruckner-symphonies-nos-3-8-9-wiener-philharmoniker-carl-schuricht/btegd89k63vxa",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 3,
+          "target_count": 3,
+          "required_performers": [
+            "Carl Schuricht",
+            "Wiener Philharmoniker"
+          ],
+          "programme": [
+            {
+              "target": "A: 1er Mouvement : Feierlich Misterioso",
+              "source_path": [
+                0,
+                0
+              ],
+              "track_ids": [
+                277256531
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Carl Schuricht",
+                "Wiener Philharmoniker"
+              ]
+            },
+            {
+              "target": "B1: 2e : Scherzo (Bewegt, Lebhaft) Et Trio (Schnell)",
+              "source_path": [
+                0,
+                1
+              ],
+              "track_ids": [
+                277256532
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Carl Schuricht",
+                "Wiener Philharmoniker"
+              ]
+            },
+            {
+              "target": "B2: 3e : Adagio (Langsam, Feierlich)",
+              "source_path": [
+                0,
+                2
+              ],
+              "track_ids": [
+                277256533
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Carl Schuricht",
+                "Wiener Philharmoniker"
+              ]
+            }
+          ],
+          "reasons": [
+            "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+            "Warner Music Japan publisher catalogue12011, inspected16November2026 via indexed primary text; direct page fetch failed. Schuricht Bruckner9 is dated20-22November1961, Musikverein Vienna, agreeing with raw source notes. The cached Warner three-symphony set supplies the Ninth as three positively credited Schuricht/Vienna movements with durations1536/629/1215seconds. The BNF alternative has suspiciously redistributed movement durations1521/1039/791; it is not selected. The accepted family leaves transfer, exact takes and mastering unverified; the other eight box tracks are extras.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+            "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "A: 1er Mouvement : Feierlich Misterioso",
+                "source_path": [
+                  0,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  277256531
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 1536,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B1: 2e : Scherzo (Bewegt, Lebhaft) Et Trio (Schnell)",
+                "source_path": [
+                  0,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  277256532
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 629,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B2: 3e : Adagio (Langsam, Feierlich)",
+                "source_path": [
+                  0,
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  277256533
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 1215,
+                "source_duration_notes": []
+              }
+            ]
+          },
+          "recording_review": "Warner Music Japan publisher catalogue12011, inspected16November2026 via indexed primary text; direct page fetch failed. Schuricht Bruckner9 is dated20-22November1961, Musikverein Vienna, agreeing with raw source notes. The cached Warner three-symphony set supplies the Ninth as three positively credited Schuricht/Vienna movements with durations1536/629/1215seconds. The BNF alternative has suspiciously redistributed movement durations1521/1039/791; it is not selected. The accepted family leaves transfer, exact takes and mastering unverified; the other eight box tracks are extras.",
+          "review_sources": [
+            "https://www.discogs.com/release/36163426",
+            "https://wmg.jp/discography/12011"
+          ]
+        }
+      ],
       "query": "carl schuricht bruckner symphonie ndeg 9",
       "searched_at": "2026-11-12T16:43:24.665667+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+        "Warner Music Japan publisher catalogue12011, inspected16November2026 via indexed primary text; direct page fetch failed. Schuricht Bruckner9 is dated20-22November1961, Musikverein Vienna, agreeing with raw source notes. The cached Warner three-symphony set supplies the Ninth as three positively credited Schuricht/Vienna movements with durations1536/629/1215seconds. The BNF alternative has suspiciously redistributed movement durations1521/1039/791; it is not selected. The accepted family leaves transfer, exact takes and mastering unverified; the other eight box tracks are extras.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+        "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
       ]
     },
     "8274997": {
@@ -111403,14 +111551,330 @@
       ]
     },
     "6544574": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "3614591439346",
+        "name": "Prokofiev: Suites extraites de Roméo et Juliette, extraits",
+        "artists": [
+          "New York Philharmonic"
+        ],
+        "label": "BNF Collection",
+        "release_date": "1958-01-01",
+        "image": "https://static.qobuz.com/images/covers/46/93/3614591439346_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/prokofiev-suites-extraites-de-romeo-et-juliette-extraits-new-york-philharmonic-dimitri-mitropoulos/3614591439346"
+      },
+      "candidates": [
+        {
+          "id": "3614591439346",
+          "name": "Prokofiev: Suites extraites de Roméo et Juliette, extraits",
+          "artists": [
+            "New York Philharmonic"
+          ],
+          "label": "BNF Collection",
+          "release_date": "1958-01-01",
+          "image": "https://static.qobuz.com/images/covers/46/93/3614591439346_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/prokofiev-suites-extraites-de-romeo-et-juliette-extraits-new-york-philharmonic-dimitri-mitropoulos/3614591439346",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 9,
+          "target_count": 9,
+          "required_performers": [
+            "Dimitri Mitropoulos",
+            "New York Philharmonic"
+          ],
+          "programme": [
+            {
+              "target": "A1: The Montagues And Capulets (Suite 2, N°1)",
+              "source_path": [
+                0
+              ],
+              "track_ids": [
+                23378138
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Dimitri Mitropoulos",
+                "New York Philharmonic"
+              ]
+            },
+            {
+              "target": "A2: Juliet - The Little Girl  (Suite 2, N°2)",
+              "source_path": [
+                1
+              ],
+              "track_ids": [
+                23378140
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Dimitri Mitropoulos",
+                "New York Philharmonic"
+              ]
+            },
+            {
+              "target": "A3: Folk Dance (Suite 1, N°1)",
+              "source_path": [
+                2
+              ],
+              "track_ids": [
+                23378142
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Dimitri Mitropoulos",
+                "New York Philharmonic"
+              ]
+            },
+            {
+              "target": "A4: Romeo And Mercutio Masked (Suite 1, N°5)",
+              "source_path": [
+                3
+              ],
+              "track_ids": [
+                23378144
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Dimitri Mitropoulos",
+                "New York Philharmonic"
+              ]
+            },
+            {
+              "target": "A5: Balcony Scene (Suite 1, N°6)",
+              "source_path": [
+                4
+              ],
+              "track_ids": [
+                23378146
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Dimitri Mitropoulos",
+                "New York Philharmonic"
+              ]
+            },
+            {
+              "target": "B1: Death Of Tybalt (Suite 1. N°7)",
+              "source_path": [
+                5
+              ],
+              "track_ids": [
+                23378148
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Dimitri Mitropoulos",
+                "New York Philharmonic"
+              ]
+            },
+            {
+              "target": "B2: Romeo And Juliet Before Parting (Suite 2, N°5)",
+              "source_path": [
+                6
+              ],
+              "track_ids": [
+                23378150
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Dimitri Mitropoulos",
+                "New York Philharmonic"
+              ]
+            },
+            {
+              "target": "B3: Friar Laurence (Suite 2, N°3)",
+              "source_path": [
+                7
+              ],
+              "track_ids": [
+                23378152
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Dimitri Mitropoulos",
+                "New York Philharmonic"
+              ]
+            },
+            {
+              "target": "B4: Romeo At Juliet's Tomb (Suite 2, N°7)",
+              "source_path": [
+                8
+              ],
+              "track_ids": [
+                23378154
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Dimitri Mitropoulos",
+                "New York Philharmonic"
+              ]
+            }
+          ],
+          "reasons": [
+            "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+            "Sony Music Japan catalogue SICC10383-85, inspected16November2026. Disc3 lists the same nine Romeo and Juliet suite excerpts, New York Philharmonic, Dimitri Mitropoulos, recorded11November1957 at Hotel St George, Brooklyn. Raw CBS60279 notes say1957; cached BNF1958 stereo reissue gives the same ordered nine pieces and positive composer/orchestra/conductor credits. All source durations fit the existing5second/3percent tolerance. Sergey Prokofiev is the full-name transliteration in these cached composer roles, source Sergei Prokofiev; no performer identity or global alias is added. Recording family only; exact transfer/takes remain unverified.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+            "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "A1: The Montagues And Capulets (Suite 2, N°1)",
+                "source_path": [
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  23378138
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 312,
+                "digital_duration_seconds": 316,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A2: Juliet - The Little Girl  (Suite 2, N°2)",
+                "source_path": [
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  23378140
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 250,
+                "digital_duration_seconds": 255,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A3: Folk Dance (Suite 1, N°1)",
+                "source_path": [
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  23378142
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 255,
+                "digital_duration_seconds": 260,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A4: Romeo And Mercutio Masked (Suite 1, N°5)",
+                "source_path": [
+                  3
+                ],
+                "status": "complete",
+                "track_ids": [
+                  23378144
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 130,
+                "digital_duration_seconds": 134,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A5: Balcony Scene (Suite 1, N°6)",
+                "source_path": [
+                  4
+                ],
+                "status": "complete",
+                "track_ids": [
+                  23378146
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 397,
+                "digital_duration_seconds": 398,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B1: Death Of Tybalt (Suite 1. N°7)",
+                "source_path": [
+                  5
+                ],
+                "status": "complete",
+                "track_ids": [
+                  23378148
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 275,
+                "digital_duration_seconds": 282,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B2: Romeo And Juliet Before Parting (Suite 2, N°5)",
+                "source_path": [
+                  6
+                ],
+                "status": "complete",
+                "track_ids": [
+                  23378150
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 492,
+                "digital_duration_seconds": 501,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B3: Friar Laurence (Suite 2, N°3)",
+                "source_path": [
+                  7
+                ],
+                "status": "complete",
+                "track_ids": [
+                  23378152
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 157,
+                "digital_duration_seconds": 160,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B4: Romeo At Juliet's Tomb (Suite 2, N°7)",
+                "source_path": [
+                  8
+                ],
+                "status": "complete",
+                "track_ids": [
+                  23378154
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 344,
+                "digital_duration_seconds": 348,
+                "source_duration_notes": []
+              }
+            ]
+          },
+          "recording_review": "Sony Music Japan catalogue SICC10383-85, inspected16November2026. Disc3 lists the same nine Romeo and Juliet suite excerpts, New York Philharmonic, Dimitri Mitropoulos, recorded11November1957 at Hotel St George, Brooklyn. Raw CBS60279 notes say1957; cached BNF1958 stereo reissue gives the same ordered nine pieces and positive composer/orchestra/conductor credits. All source durations fit the existing5second/3percent tolerance. Sergey Prokofiev is the full-name transliteration in these cached composer roles, source Sergei Prokofiev; no performer identity or global alias is added. Recording family only; exact transfer/takes remain unverified.",
+          "review_sources": [
+            "https://www.discogs.com/release/6544574",
+            "https://www.sonymusic.co.jp/artist/dimitrimitropoulos/info/536141"
+          ]
+        }
+      ],
       "query": "dimitri mitropoulos prokofiev romeo and juliet excerpts auszuge extraits",
       "searched_at": "2026-11-12T16:50:10.228594+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+        "Sony Music Japan catalogue SICC10383-85, inspected16November2026. Disc3 lists the same nine Romeo and Juliet suite excerpts, New York Philharmonic, Dimitri Mitropoulos, recorded11November1957 at Hotel St George, Brooklyn. Raw CBS60279 notes say1957; cached BNF1958 stereo reissue gives the same ordered nine pieces and positive composer/orchestra/conductor credits. All source durations fit the existing5second/3percent tolerance. Sergey Prokofiev is the full-name transliteration in these cached composer roles, source Sergei Prokofiev; no performer identity or global alias is added. Recording family only; exact transfer/takes remain unverified.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+        "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
       ]
     },
     "6105272": {
@@ -127082,14 +127546,267 @@
       ]
     },
     "8923384": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0886443007918",
+        "name": "Beethoven: Sonata No. 3 in E-Flat, Op. 12, No. 3, Sonata No. 6, Op. 30, No. 1 in A",
+        "artists": [
+          "Jascha Heifetz"
+        ],
+        "label": "RCA Red Seal",
+        "release_date": "1955-01-01",
+        "image": "https://static.qobuz.com/images/covers/18/79/0886443007918_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/beethoven-sonata-no-3-in-e-flat-op-12-no-3-sonata-no-6-op-30-no-1-in-a-jascha-heifetz/0886443007918"
+      },
+      "candidates": [
+        {
+          "id": "0886443007918",
+          "name": "Beethoven: Sonata No. 3 in E-Flat, Op. 12, No. 3, Sonata No. 6, Op. 30, No. 1 in A",
+          "artists": [
+            "Jascha Heifetz"
+          ],
+          "label": "RCA Red Seal",
+          "release_date": "1955-01-01",
+          "image": "https://static.qobuz.com/images/covers/18/79/0886443007918_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/beethoven-sonata-no-3-in-e-flat-op-12-no-3-sonata-no-6-op-30-no-1-in-a-jascha-heifetz/0886443007918",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 6,
+          "target_count": 6,
+          "required_performers": [
+            "Jascha Heifetz",
+            "Emanuel Bay"
+          ],
+          "programme": [
+            {
+              "target": "A1: First Movement: Allegro con spirito",
+              "source_path": [
+                0,
+                0
+              ],
+              "track_ids": [
+                3635502
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Jascha Heifetz",
+                "Emanuel Bay"
+              ]
+            },
+            {
+              "target": "A2: Second Movement: Adagio con molto espressione",
+              "source_path": [
+                0,
+                1
+              ],
+              "track_ids": [
+                3635503
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Jascha Heifetz",
+                "Emanuel Bay"
+              ]
+            },
+            {
+              "target": "A3: Third Movement: Rondo: Allegro molto",
+              "source_path": [
+                0,
+                2
+              ],
+              "track_ids": [
+                3635504
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Jascha Heifetz",
+                "Emanuel Bay"
+              ]
+            },
+            {
+              "target": "B1: First Movement: Allegro",
+              "source_path": [
+                1,
+                0
+              ],
+              "track_ids": [
+                3635505
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Jascha Heifetz",
+                "Emanuel Bay"
+              ]
+            },
+            {
+              "target": "B2: Second Movement: Adagio molto espressione",
+              "source_path": [
+                1,
+                1
+              ],
+              "track_ids": [
+                3635506
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Jascha Heifetz",
+                "Emanuel Bay"
+              ]
+            },
+            {
+              "target": "B3: Third Movement: Allegretto con variazioni",
+              "source_path": [
+                1,
+                2
+              ],
+              "track_ids": [
+                3635507,
+                3635508,
+                3635509,
+                3635510,
+                3635511,
+                3635512,
+                3635513
+              ],
+              "work_tracks": 7,
+              "credited_tracks": 7,
+              "required_performers": [
+                "Jascha Heifetz",
+                "Emanuel Bay"
+              ]
+            }
+          ],
+          "reasons": [
+            "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+            "Artist RCA chronology, inspected16November2026 via indexed primary text; direct page timed out. Beethoven Sonatas3 and6 with Emanuel Bay are dated15 and16October1952, RCA Hollywood. These dates and pianist agree with the raw LM1912 notes. The cached RCA12track album has the two works, both musicians positively credited on every band; the last source movement is split into theme and six variations. This supports the recording family, not exact LP transfer, mastering or takes.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+            "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "A1: First Movement: Allegro con spirito",
+                "source_path": [
+                  0,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  3635502
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 500,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A2: Second Movement: Adagio con molto espressione",
+                "source_path": [
+                  0,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  3635503
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 315,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A3: Third Movement: Rondo: Allegro molto",
+                "source_path": [
+                  0,
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  3635504
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 254,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B1: First Movement: Allegro",
+                "source_path": [
+                  1,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  3635505
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 432,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B2: Second Movement: Adagio molto espressione",
+                "source_path": [
+                  1,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  3635506
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 410,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B3: Third Movement: Allegretto con variazioni",
+                "source_path": [
+                  1,
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  3635507,
+                  3635508,
+                  3635509,
+                  3635510,
+                  3635511,
+                  3635512,
+                  3635513
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 466,
+                "source_duration_notes": []
+              }
+            ]
+          },
+          "recording_review": "Artist RCA chronology, inspected16November2026 via indexed primary text; direct page timed out. Beethoven Sonatas3 and6 with Emanuel Bay are dated15 and16October1952, RCA Hollywood. These dates and pianist agree with the raw LM1912 notes. The cached RCA12track album has the two works, both musicians positively credited on every band; the last source movement is split into theme and six variations. This supports the recording family, not exact LP transfer, mastering or takes.",
+          "review_sources": [
+            "https://www.discogs.com/release/8923384",
+            "https://jaschaheifetz.org/rca_chrono.html"
+          ]
+        }
+      ],
       "query": "jascha heifetz beethoven sonatas nos 3 and 6",
       "searched_at": "2026-11-12T17:19:58.037925+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+        "Artist RCA chronology, inspected16November2026 via indexed primary text; direct page timed out. Beethoven Sonatas3 and6 with Emanuel Bay are dated15 and16October1952, RCA Hollywood. These dates and pianist agree with the raw LM1912 notes. The cached RCA12track album has the two works, both musicians positively credited on every band; the last source movement is split into theme and six variations. This supports the recording family, not exact LP transfer, mastering or takes.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+        "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
       ]
     },
     "7065721": {

@@ -42,7 +42,8 @@ def main():
     resolved = [{'discogs_id': rid, 'status': publication[rid]['status']}
                 for rid in scope['release_ids'] if publication[rid]['status'] != 'unchecked']
     reviewed = []
-    for name in ['qobuz_fullsupport16_recording_audit.json', 'qobuz_partial38_recording_audit.json']:
+    for name in ['qobuz_fullsupport16_recording_audit.json', 'qobuz_partial38_recording_audit.json',
+                 'qobuz_zero104_recording_audit.json']:
         review_path = ROOT/'data'/name
         batch = json.loads(review_path.read_text()) if review_path.exists() else {}
         if batch.get('status') == 'complete':
