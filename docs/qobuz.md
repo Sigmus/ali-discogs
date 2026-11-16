@@ -563,3 +563,21 @@ credit support; otherwise validation fails. This reuses existing conductor/
 orchestra-throughout and soloist-within-one-work rules, never another recording.
 `uv run --with requests python scripts/qobuz_fullsupport16_audit.py` reproduces
 all16decisions, alternative manifests and high-score hold precedence.
+
+
+### Reviewed raw source bands
+
+`source-leaf-bands` preserves every raw source leaf's tree path, position, title
+and duration, exact selected track fingerprints, composer and source-derived
+musician requirements. Structural headings have explicit covered-source paths.
+No track reuse, missing source leaf or undeclared candidate extra is allowed.
+`source_duration_notes` freezes any individually reviewed printed/digital timing
+discrepancy; without it the existing5second/3percent check fails closed.
+`source_composer_spellings` records explicit full-name source/file spelling
+corroboration within that exact review; no global alias. Recording-family sources
+are mandatory. See `scripts/qobuz_source_leaf_review.py`.
+
+`uv run --with requests python scripts/qobuz_partial38_audit.py` validates all38
+frozen decisions, full alternative manifests and high-score hold precedence.
+The generic16case validator now accepts a fixed expected batch count; existing
+16case/38case entrypoints retain their respective frozen sizes.

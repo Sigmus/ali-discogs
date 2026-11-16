@@ -501,3 +501,19 @@ that same group. Missing soloist from the whole group or another selected take
 fails closed. No new credit-role semantics, global scoring or performer waiver.
 First bounded use: Kempff10583401concertos2/4.
 [16-case batch](../plans/2026-11-16-qobuz-fullsupport16.md).
+
+
+### 2026-11-16 — Complete raw source-band mapping
+
+Within the authorized38case batch, a `source-leaf-bands` review may map raw source
+leaves by exact tree path/position to distinct frozen digital tracks. Entire raw
+outline and every structural heading's covered paths are retained. Every musical
+leaf must be mapped; no missing band, reused track or unnamed candidate extra.
+Positive per-track composer and existing explicit source-work musician scopes
+remain required. This is manual hash-bound recording-family evidence, not a
+global fuzzy title/parser/credit change. Pollini's six-second printed/digital
+timing discrepancy and Karajan's exact full Rossini spelling variant are explicit
+review fields with corroboration; they never silently alter source or create
+general take/identity equivalences. Raw roles outside current normalization
+(held harp/viola cases) remain limitations needing a separate audit.
+[38-case results](../plans/2026-11-16-qobuz-partial38.md).

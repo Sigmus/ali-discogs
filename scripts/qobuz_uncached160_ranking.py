@@ -41,11 +41,13 @@ def main():
     publication = json.loads((ROOT/'data/qobuz_matches.json').read_text())['releases']
     resolved = [{'discogs_id': rid, 'status': publication[rid]['status']}
                 for rid in scope['release_ids'] if publication[rid]['status'] != 'unchecked']
-    review_path = ROOT/'data/qobuz_fullsupport16_recording_audit.json'
-    batch = json.loads(review_path.read_text()) if review_path.exists() else {}
-    reviewed = ([{'discogs_id': e['discogs_id'], 'decision': e['outcome'], 'finding': e['finding']}
-                 for e in batch.get('entries', []) if e['outcome'] != 'probable']
-                if batch.get('status') == 'complete' else [])
+    reviewed = []
+    for name in ['qobuz_fullsupport16_recording_audit.json', 'qobuz_partial38_recording_audit.json']:
+        review_path = ROOT/'data'/name
+        batch = json.loads(review_path.read_text()) if review_path.exists() else {}
+        if batch.get('status') == 'complete':
+            reviewed.extend({'discogs_id': e['discogs_id'], 'decision': e['outcome'], 'finding': e['finding']}
+                            for e in batch.get('entries', []) if e['outcome'] != 'probable')
     reviewed_ids = {e['discogs_id'] for e in reviewed}
     pending_ids = [rid for rid in scope['release_ids']
                    if publication[rid]['status'] == 'unchecked' and rid not in reviewed_ids]

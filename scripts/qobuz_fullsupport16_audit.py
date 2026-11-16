@@ -5,9 +5,9 @@ from qobuz_lead_review import ROOT, assess, target_fingerprint, fingerprint, app
 from qobuz_credit_role_audit import load_albums
 
 
-def validate(report, rows, albums, reviews):
+def validate(report, rows, albums, reviews, expected_count=16):
     ids = report['frozen_release_ids']
-    if len(ids) != 16 or len(set(ids)) != 16 or ids != [e['discogs_id'] for e in report['entries']]:
+    if len(ids) != expected_count or len(set(ids)) != expected_count or ids != [e['discogs_id'] for e in report['entries']]:
         raise ValueError('The complete16release scope changed')
     counts = Counter()
     for entry in report['entries']:
@@ -35,7 +35,7 @@ def validate(report, rows, albums, reviews):
             if future[0]['status'] != 'unchecked':
                 raise ValueError('Future high score bypassed a saved hold')
         counts[r['decision']] += 1
-    if report['summary'] != {'reviewed': 16, **dict(counts)}:
+    if report['summary'] != {'reviewed': expected_count, **dict(counts)}:
         raise ValueError('Frozen16summary changed')
     return report['summary']
 

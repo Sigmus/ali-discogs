@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "matcher_version": "qobuz-work-groups-v2+explicit-target-credits+reviewed-leads+opera-source-roles+prelude-fugue-pairs+container-headings+bound-tracks+heading-over-groups+cached-half+side-ranges+scene-sides+catalogue-comma-movements+reviewed-source-composers+source-programme-holds+reviewed-felix-composer-identity+bound-composer-role-marks+source-bound-work-credits+recording-review-precedence+source-vocal-programme+reviewed-source-display+reviewed-contiguous-group-completeness",
+  "matcher_version": "qobuz-work-groups-v2+explicit-target-credits+reviewed-leads+opera-source-roles+prelude-fugue-pairs+container-headings+bound-tracks+heading-over-groups+cached-half+side-ranges+scene-sides+catalogue-comma-movements+reviewed-source-composers+source-programme-holds+reviewed-felix-composer-identity+bound-composer-role-marks+source-bound-work-credits+recording-review-precedence+source-vocal-programme+reviewed-source-display+reviewed-contiguous-group-completeness+source-leaf-bands",
   "score_kind": "heuristic",
   "metadata_completed_at": "2026-11-13T00:15:30.593902+00:00",
   "search_manifest_fingerprint": "72bfbc0de0c0d8ee65c624b6ebe07db7be6ef0f10b6ba5fd4f468d54f812e802",
@@ -10,6 +10,7 @@
   "target_credits_fingerprint": "0d62915c08feb0b282c88664d0c4e44721315769af06aa78146c4e2768c3029e",
   "source_programme_review_fingerprint": "5469466141e2816720bf35e6b54abeb18daf3f12bf6fec1b4f9e794da0db098b",
   "composer_identity_policy_fingerprint": "0d15522d61137e3a80902c461e5f88458c611003d0f9938a538858c49804f9c0",
+  "source_leaf_policy_fingerprint": "f004d51cc5452ee438d420434421ad7f67d5b9c237d0219f8b64667c1858be11",
   "uncached160_metadata_fingerprint": "a1638e0120a6260cc80795af913a9021b63ee7a0d6a5c0a5d26be13b1e772ac3",
   "vocal_programme_policy_fingerprint": "aa64d218d38c7088d6948d643101b164387bea21528c48dd5a8a0ab7d9fd9491",
   "source_composer_review_fingerprint": "1cce69d6df99a54b444f6a210d84c5c69b3139eb4ed1355e821708d1fb59b83c",
@@ -34,7 +35,7 @@
   "richter_review_fingerprint": "a14865f86e46150593e39bfa285fa6c7c61c8f46147b8094c0cb048fd02118ab",
   "round2_review_fingerprint": "be60742c3d35f5a9aa67f200642f7fcde98a52562a46130e043db8f4aa7c851e",
   "round2_metadata_fingerprint": "9db62d7bf62d4b77f5acf422dfde77959f845f4dc00b2ac0e10c02ccea295860",
-  "remaining_review_fingerprint": "6f7fabb24880dfe78d2aa49ce048a2db787275512d29908b635e6d1fc6c48a8c",
+  "remaining_review_fingerprint": "bb2bfa03e14344ccffc9911c84338dd86b664b3d53f8d49aa4c940551cbf199c",
   "remaining_metadata_fingerprint": "393b2d12e176160ab311b65267b38bdc8c205222e12f792bf07eba5c1fcfafbf",
   "remaining_followup_metadata_fingerprint": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
   "seven_album_metadata_fingerprint": "139f9b336c68b56ea22c18362cb0481c026366c5d359142f2bb702fe1233a4fc",
@@ -43175,14 +43176,183 @@
       ]
     },
     "9297226": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0002894307732",
+        "name": "Schubert: The Symphonies",
+        "artists": [
+          "Wiener Philharmonic Orchestra"
+        ],
+        "label": "Decca Music Group Ltd.",
+        "release_date": "1991-01-01",
+        "image": "https://static.qobuz.com/images/covers/32/77/0002894307732_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/schubert-the-symphonies-wiener-philharmoniker-istvan-kertesz/0002894307732"
+      },
+      "candidates": [
+        {
+          "id": "0002894307732",
+          "name": "Schubert: The Symphonies",
+          "artists": [
+            "Wiener Philharmonic Orchestra"
+          ],
+          "label": "Decca Music Group Ltd.",
+          "release_date": "1991-01-01",
+          "image": "https://static.qobuz.com/images/covers/32/77/0002894307732_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/schubert-the-symphonies-wiener-philharmoniker-istvan-kertesz/0002894307732",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 4,
+          "target_count": 4,
+          "required_performers": [
+            "István Kertész",
+            "Wiener Philharmoniker"
+          ],
+          "programme": [
+            {
+              "target": "A1: Andante - Allegro Ma Non Troppo",
+              "source_path": [
+                0
+              ],
+              "track_ids": [
+                527158
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "István Kertész",
+                "Wiener Philharmoniker"
+              ]
+            },
+            {
+              "target": "A2: Andante Con Moto",
+              "source_path": [
+                1
+              ],
+              "track_ids": [
+                527162
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "István Kertész",
+                "Wiener Philharmoniker"
+              ]
+            },
+            {
+              "target": "B1: Scherzo, Allegro Vivace",
+              "source_path": [
+                2
+              ],
+              "track_ids": [
+                527166
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "István Kertész",
+                "Wiener Philharmoniker"
+              ]
+            },
+            {
+              "target": "B2: Allegro Vivace",
+              "source_path": [
+                3
+              ],
+              "track_ids": [
+                527169
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "István Kertész",
+                "Wiener Philharmoniker"
+              ]
+            }
+          ],
+          "reasons": [
+            "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+            "Universal identifies Kertesz/Vienna SchubertD944as November1963Sofiensaal. Source DeccaSXL6089lists its four movements; saved Decca4307732has all four with Kertesz/Vienna/Schubert positive credits. Bare source tempo titles had matched multiple symphonies; exact source positions now bind only the four D944movements. Other symphonies are extras; source exact pressing/takes unverified.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "A1: Andante - Allegro Ma Non Troppo",
+                "source_path": [
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  527158
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 811,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A2: Andante Con Moto",
+                "source_path": [
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  527162
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 827,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B1: Scherzo, Allegro Vivace",
+                "source_path": [
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  527166
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 666,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B2: Allegro Vivace",
+                "source_path": [
+                  3
+                ],
+                "status": "complete",
+                "track_ids": [
+                  527169
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 704,
+                "source_duration_notes": []
+              }
+            ]
+          },
+          "recording_review": "Universal identifies Kertesz/Vienna SchubertD944as November1963Sofiensaal. Source DeccaSXL6089lists its four movements; saved Decca4307732has all four with Kertesz/Vienna/Schubert positive credits. Bare source tempo titles had matched multiple symphonies; exact source positions now bind only the four D944movements. Other symphonies are extras; source exact pressing/takes unverified.",
+          "review_sources": [
+            "https://www.discogs.com/release/9297226",
+            "https://www.universal-music.co.jp/p/uccd-7424/"
+          ]
+        }
+      ],
       "query": "istvan kertesz schubert sinfonia no 9 la grande en do mayor",
       "searched_at": "2026-11-12T15:18:18.432163+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+        "Universal identifies Kertesz/Vienna SchubertD944as November1963Sofiensaal. Source DeccaSXL6089lists its four movements; saved Decca4307732has all four with Kertesz/Vienna/Schubert positive credits. Bare source tempo titles had matched multiple symphonies; exact source positions now bind only the four D944movements. Other symphonies are extras; source exact pressing/takes unverified.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
       ]
     },
     "9283162": {
@@ -55003,14 +55173,258 @@
       ]
     },
     "4031075": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0002894474312",
+        "name": "Stravinsky,  Prokofiev, Webern, Boulez",
+        "artists": [
+          "Maurizio Pollini"
+        ],
+        "label": "Deutsche Grammophon (DG)",
+        "release_date": "1991-01-01",
+        "image": "https://static.qobuz.com/images/covers/12/43/0002894474312_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/stravinsky-prokofiev-webern-boulez-maurizio-pollini/0002894474312"
+      },
+      "candidates": [
+        {
+          "id": "0002894474312",
+          "name": "Stravinsky,  Prokofiev, Webern, Boulez",
+          "artists": [
+            "Maurizio Pollini"
+          ],
+          "label": "Deutsche Grammophon (DG)",
+          "release_date": "1991-01-01",
+          "image": "https://static.qobuz.com/images/covers/12/43/0002894474312_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/stravinsky-prokofiev-webern-boulez-maurizio-pollini/0002894474312",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 6,
+          "target_count": 6,
+          "required_performers": [
+            "Maurizio Pollini"
+          ],
+          "programme": [
+            {
+              "target": "A1: 1. Danse Russe. Allegro Giusto",
+              "source_path": [
+                0,
+                0
+              ],
+              "track_ids": [
+                543181
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Maurizio Pollini"
+              ]
+            },
+            {
+              "target": "A2: 2. Chez Pétrouchka",
+              "source_path": [
+                0,
+                1
+              ],
+              "track_ids": [
+                543182
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Maurizio Pollini"
+              ]
+            },
+            {
+              "target": "A3: 3. La Semaine Grasse. Con Moto - Allegretto - Tempo Giusto - Agitato",
+              "source_path": [
+                0,
+                2
+              ],
+              "track_ids": [
+                543183
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Maurizio Pollini"
+              ]
+            },
+            {
+              "target": "B1: 1. Allegro Inquieto - Andantino",
+              "source_path": [
+                1,
+                0
+              ],
+              "track_ids": [
+                543184
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Maurizio Pollini"
+              ]
+            },
+            {
+              "target": "B2: 2. Andante Caloroso",
+              "source_path": [
+                1,
+                1
+              ],
+              "track_ids": [
+                543185
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Maurizio Pollini"
+              ]
+            },
+            {
+              "target": "B3: 3. Precipitato",
+              "source_path": [
+                1,
+                2
+              ],
+              "track_ids": [
+                543186
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Maurizio Pollini"
+              ]
+            }
+          ],
+          "reasons": [
+            "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+            "Primary university catalogue describes Pollini Stravinsky/Prokofiev DGprogramme as recorded MunichSeptember1971, with Webern/BoulezJuly1976extras. Source DG2530225has three Petrushkamovements and ProkofievSonata7three movements. All six are positively credited in cached DG4474312with matching source producer/engineer family. French Petrushkatitle failed lexical matching; no orchestral ballet is substituted.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged.",
+            "Source Precipitato timing3:11versus file3:17is retained as a reviewed six-second discrepancy; matching1971recording family does not verify exact transfer/take."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "A1: 1. Danse Russe. Allegro Giusto",
+                "source_path": [
+                  0,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  543181
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 150,
+                "digital_duration_seconds": 154,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A2: 2. Chez Pétrouchka",
+                "source_path": [
+                  0,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  543182
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 258,
+                "digital_duration_seconds": 257,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A3: 3. La Semaine Grasse. Con Moto - Allegretto - Tempo Giusto - Agitato",
+                "source_path": [
+                  0,
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  543183
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 503,
+                "digital_duration_seconds": 510,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B1: 1. Allegro Inquieto - Andantino",
+                "source_path": [
+                  1,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  543184
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 447,
+                "digital_duration_seconds": 457,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B2: 2. Andante Caloroso",
+                "source_path": [
+                  1,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  543185
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 368,
+                "digital_duration_seconds": 372,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B3: 3. Precipitato",
+                "source_path": [
+                  1,
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  543186
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 191,
+                "digital_duration_seconds": 197,
+                "source_duration_notes": [
+                  {
+                    "source_path": [
+                      1,
+                      2
+                    ],
+                    "source_seconds": 191,
+                    "digital_seconds": 197,
+                    "reason": "Source Precipitato band says3:11while the hash-bound digital track is3:17. Primary catalogue independently identifies the same1971DGrecording family; a six-second timing/transfer difference is retained, not evidence of exact take or pressing equality."
+                  }
+                ]
+              }
+            ]
+          },
+          "recording_review": "Primary university catalogue describes Pollini Stravinsky/Prokofiev DGprogramme as recorded MunichSeptember1971, with Webern/BoulezJuly1976extras. Source DG2530225has three Petrushkamovements and ProkofievSonata7three movements. All six are positively credited in cached DG4474312with matching source producer/engineer family. French Petrushkatitle failed lexical matching; no orchestral ballet is substituted.",
+          "review_sources": [
+            "https://www.discogs.com/release/4031075",
+            "https://ci.nii.ac.jp/ncid/BA87029242"
+          ]
+        }
+      ],
       "query": "maurizio pollini stravinsky petrouchka sonate nr 7 op 83",
       "searched_at": "2026-11-12T15:30:04.672152+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+        "Primary university catalogue describes Pollini Stravinsky/Prokofiev DGprogramme as recorded MunichSeptember1971, with Webern/BoulezJuly1976extras. Source DG2530225has three Petrushkamovements and ProkofievSonata7three movements. All six are positively credited in cached DG4474312with matching source producer/engineer family. French Petrushkatitle failed lexical matching; no orchestral ballet is substituted.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged.",
+        "Source Precipitato timing3:11versus file3:17is retained as a reviewed six-second discrepancy; matching1971recording family does not verify exact transfer/take."
       ]
     },
     "6678433": {
@@ -55426,14 +55840,189 @@
       ]
     },
     "17748481": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "m6u4fb18bgxda",
+        "name": "Brahms: Piano Concertos Nos. 1 & 2, 4 Ballades, Fantasias",
+        "artists": [
+          "Emil Gilels"
+        ],
+        "label": "Deutsche Grammophon (DG)",
+        "release_date": "2016-11-23",
+        "image": "https://static.qobuz.com/images/covers/da/gx/m6u4fb18bgxda_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/brahms-piano-concertos-nos-1-2-4-ballades-fantasias-berliner-philharmoniker-emil-gilels-eugen-jochum/m6u4fb18bgxda"
+      },
+      "candidates": [
+        {
+          "id": "m6u4fb18bgxda",
+          "name": "Brahms: Piano Concertos Nos. 1 & 2, 4 Ballades, Fantasias",
+          "artists": [
+            "Emil Gilels"
+          ],
+          "label": "Deutsche Grammophon (DG)",
+          "release_date": "2016-11-23",
+          "image": "https://static.qobuz.com/images/covers/da/gx/m6u4fb18bgxda_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/brahms-piano-concertos-nos-1-2-4-ballades-fantasias-berliner-philharmoniker-emil-gilels-eugen-jochum/m6u4fb18bgxda",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 4,
+          "target_count": 4,
+          "required_performers": [
+            "Eugen Jochum",
+            "Emil Gilels",
+            "Berliner Philharmoniker"
+          ],
+          "programme": [
+            {
+              "target": "A1: Allegro Non Troppo",
+              "source_path": [
+                0
+              ],
+              "track_ids": [
+                189468459
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Eugen Jochum",
+                "Emil Gilels",
+                "Berliner Philharmoniker"
+              ]
+            },
+            {
+              "target": "A2: Allegro Appassionato",
+              "source_path": [
+                1
+              ],
+              "track_ids": [
+                189468460
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Eugen Jochum",
+                "Emil Gilels",
+                "Berliner Philharmoniker"
+              ]
+            },
+            {
+              "target": "B1: Andante",
+              "source_path": [
+                2
+              ],
+              "track_ids": [
+                189468461
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Eugen Jochum",
+                "Emil Gilels",
+                "Berliner Philharmoniker"
+              ]
+            },
+            {
+              "target": "B2: Allegro Grazioso",
+              "source_path": [
+                3
+              ],
+              "track_ids": [
+                189468462
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Eugen Jochum",
+                "Emil Gilels",
+                "Berliner Philharmoniker"
+              ]
+            }
+          ],
+          "reasons": [
+            "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+            "DGpublisher identifies the Gilels/Jochum/Berlin Brahms concerto family. Source Op83lists four bare-tempo bands; cached DGanthology has all four exact numbered concerto2movements, matching cast/composer. Source durations18:04/9:21/13:59/9:42compare to18:15/9:24/13:59/9:45within the existing3percent tolerance. Source AllegroGrazioso versus digital AllegrettoGrazioso is retained, not silently rewritten.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+          ],
+          "work_group_policy": "qobuz-work-groups-v1",
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "A1: Allegro Non Troppo",
+                "source_path": [
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  189468459
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 1084,
+                "digital_duration_seconds": 1095,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A2: Allegro Appassionato",
+                "source_path": [
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  189468460
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 561,
+                "digital_duration_seconds": 564,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B1: Andante",
+                "source_path": [
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  189468461
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 839,
+                "digital_duration_seconds": 839,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B2: Allegro Grazioso",
+                "source_path": [
+                  3
+                ],
+                "status": "complete",
+                "track_ids": [
+                  189468462
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 582,
+                "digital_duration_seconds": 585,
+                "source_duration_notes": []
+              }
+            ]
+          },
+          "recording_review": "DGpublisher identifies the Gilels/Jochum/Berlin Brahms concerto family. Source Op83lists four bare-tempo bands; cached DGanthology has all four exact numbered concerto2movements, matching cast/composer. Source durations18:04/9:21/13:59/9:42compare to18:15/9:24/13:59/9:45within the existing3percent tolerance. Source AllegroGrazioso versus digital AllegrettoGrazioso is retained, not silently rewritten.",
+          "review_sources": [
+            "https://www.discogs.com/release/17748481",
+            "https://www.deutschegrammophon.com/en/catalogue/products/brahms-piano-concertos-no-1-2-gilels-jochum-13097"
+          ]
+        }
+      ],
       "query": "eugen jochum brahms klavierkonzert nr 2 b dur opus 83",
       "searched_at": "2026-11-12T15:30:49.539873+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+        "DGpublisher identifies the Gilels/Jochum/Berlin Brahms concerto family. Source Op83lists four bare-tempo bands; cached DGanthology has all four exact numbered concerto2movements, matching cast/composer. Source durations18:04/9:21/13:59/9:42compare to18:15/9:24/13:59/9:45within the existing3percent tolerance. Source AllegroGrazioso versus digital AllegrettoGrazioso is retained, not silently rewritten.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
       ]
     },
     "17623039": {
@@ -65490,14 +66079,214 @@
       ]
     },
     "10707559": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0002894135872",
+        "name": "Smetana: The Moldau / Liszt: Les Préludes; Hungarian Rhapsody No.5 / Weber: Invitation to the Dance / Rossini: \"William Tell\" Overture",
+        "artists": [
+          "Berliner Philharmoniker"
+        ],
+        "label": "Deutsche Grammophon (DG)",
+        "release_date": "1984-01-01",
+        "image": "https://static.qobuz.com/images/covers/72/58/0002894135872_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/smetana-the-moldau-liszt-les-preludes-hungarian-rhapsody-no5-weber-invitation-to-the-dance-rossini-william-tell-overture-berliner-philharmoniker-herbert-von-karajan/0002894135872"
+      },
+      "candidates": [
+        {
+          "id": "0002894135872",
+          "name": "Smetana: The Moldau / Liszt: Les Préludes; Hungarian Rhapsody No.5 / Weber: Invitation to the Dance / Rossini: \"William Tell\" Overture",
+          "artists": [
+            "Berliner Philharmoniker"
+          ],
+          "label": "Deutsche Grammophon (DG)",
+          "release_date": "1984-01-01",
+          "image": "https://static.qobuz.com/images/covers/72/58/0002894135872_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/smetana-the-moldau-liszt-les-preludes-hungarian-rhapsody-no5-weber-invitation-to-the-dance-rossini-william-tell-overture-berliner-philharmoniker-herbert-von-karajan/0002894135872",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 5,
+          "target_count": 5,
+          "required_performers": [
+            "Herbert von Karajan",
+            "Berliner Philharmoniker"
+          ],
+          "programme": [
+            {
+              "target": "A1: Die Moldau",
+              "source_path": [
+                0
+              ],
+              "track_ids": [
+                516770
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Herbert von Karajan",
+                "Berliner Philharmoniker"
+              ]
+            },
+            {
+              "target": "A2: Les Préludes",
+              "source_path": [
+                1
+              ],
+              "track_ids": [
+                516771
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Herbert von Karajan",
+                "Berliner Philharmoniker"
+              ]
+            },
+            {
+              "target": "B1: Aufforderung Zum Tanz Op.65",
+              "source_path": [
+                2
+              ],
+              "track_ids": [
+                516772
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Herbert von Karajan",
+                "Berliner Philharmoniker"
+              ]
+            },
+            {
+              "target": "B2: Ungarische Rhapsodie Nr.5 E-Moll",
+              "source_path": [
+                3
+              ],
+              "track_ids": [
+                516773
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Herbert von Karajan",
+                "Berliner Philharmoniker"
+              ]
+            },
+            {
+              "target": "B3: Wilhelm Tell - Ouvertère",
+              "source_path": [
+                4
+              ],
+              "track_ids": [
+                516774
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Herbert von Karajan",
+                "Berliner Philharmoniker"
+              ]
+            }
+          ],
+          "reasons": [
+            "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+            "DGpublisher identifies413587with the same five named orchestral selections and Berlin/Karajan, released1984. Source413587-1specifies new digital recordings NewYear1983/early1984. Cached4135872has all five, positive source musicians and respective composers; translation/Moldau/Vltava and HungarianRhapsody5orchestral naming are bound explicitly. No earlier1967Moldau or Rhapsody2substitution.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged.",
+            "Full-name source GioacchinoRossini/fileGioachinoRossini spelling is reconciled only within this exact source/album review; no global alias."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "A1: Die Moldau",
+                "source_path": [
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  516770
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 737,
+                "digital_duration_seconds": 739,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A2: Les Préludes",
+                "source_path": [
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  516771
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 1000,
+                "digital_duration_seconds": 1008,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B1: Aufforderung Zum Tanz Op.65",
+                "source_path": [
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  516772
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 623,
+                "digital_duration_seconds": 631,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B2: Ungarische Rhapsodie Nr.5 E-Moll",
+                "source_path": [
+                  3
+                ],
+                "status": "complete",
+                "track_ids": [
+                  516773
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 785,
+                "digital_duration_seconds": 783,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B3: Wilhelm Tell - Ouvertère",
+                "source_path": [
+                  4
+                ],
+                "status": "complete",
+                "track_ids": [
+                  516774
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 698,
+                "digital_duration_seconds": 706,
+                "source_duration_notes": []
+              }
+            ]
+          },
+          "recording_review": "DGpublisher identifies413587with the same five named orchestral selections and Berlin/Karajan, released1984. Source413587-1specifies new digital recordings NewYear1983/early1984. Cached4135872has all five, positive source musicians and respective composers; translation/Moldau/Vltava and HungarianRhapsody5orchestral naming are bound explicitly. No earlier1967Moldau or Rhapsody2substitution.",
+          "review_sources": [
+            "https://www.discogs.com/release/10707559",
+            "https://www.deutschegrammophon.com/en/catalogue/products/karajan-liszt-rossini-smetana-weber-7707"
+          ]
+        }
+      ],
       "query": "herbert von karajan smetana les preludes die moldau guillaume tell ouverture aufforderung zum tanz",
       "searched_at": "2026-11-12T15:51:50.947723+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+        "DGpublisher identifies413587with the same five named orchestral selections and Berlin/Karajan, released1984. Source413587-1specifies new digital recordings NewYear1983/early1984. Cached4135872has all five, positive source musicians and respective composers; translation/Moldau/Vltava and HungarianRhapsody5orchestral naming are bound explicitly. No earlier1967Moldau or Rhapsody2substitution.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged.",
+        "Full-name source GioacchinoRossini/fileGioachinoRossini spelling is reconciled only within this exact source/album review; no global alias."
       ]
     },
     "3000698": {
@@ -87757,14 +88546,995 @@
       ]
     },
     "5980586": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0825646036363",
+        "name": "Schumann : Kinderszenen, Waldszenen & Bunte Blätter",
+        "artists": [
+          "Maria João Pires"
+        ],
+        "label": "Warner Classics International",
+        "release_date": "1985-01-01",
+        "image": "https://static.qobuz.com/images/covers/63/63/0825646036363_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/schumann-kinderszenen-waldszenen-bunte-blatter-maria-joao-pires/0825646036363"
+      },
+      "candidates": [
+        {
+          "id": "0825646036363",
+          "name": "Schumann : Kinderszenen, Waldszenen & Bunte Blätter",
+          "artists": [
+            "Maria João Pires"
+          ],
+          "label": "Warner Classics International",
+          "release_date": "1985-01-01",
+          "image": "https://static.qobuz.com/images/covers/63/63/0825646036363_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/schumann-kinderszenen-waldszenen-bunte-blatter-maria-joao-pires/0825646036363",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 31,
+          "target_count": 31,
+          "required_performers": [
+            "Maria João Pires"
+          ],
+          "programme": [
+            {
+              "target": "A1: Von Fremden Ländern Und Menschen",
+              "source_path": [
+                0,
+                0
+              ],
+              "track_ids": [
+                2679243
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Maria João Pires"
+              ]
+            },
+            {
+              "target": "A2: Kuriose Geschichte",
+              "source_path": [
+                0,
+                1
+              ],
+              "track_ids": [
+                2679244
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Maria João Pires"
+              ]
+            },
+            {
+              "target": "A3: Hasche-Mann",
+              "source_path": [
+                0,
+                2
+              ],
+              "track_ids": [
+                2679245
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Maria João Pires"
+              ]
+            },
+            {
+              "target": "A4: Bittendes Kind",
+              "source_path": [
+                0,
+                3
+              ],
+              "track_ids": [
+                2679246
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Maria João Pires"
+              ]
+            },
+            {
+              "target": "A5: Glückes Genug",
+              "source_path": [
+                0,
+                4
+              ],
+              "track_ids": [
+                2679247
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Maria João Pires"
+              ]
+            },
+            {
+              "target": "A6: Wichtige Begebenheit",
+              "source_path": [
+                0,
+                5
+              ],
+              "track_ids": [
+                2679248
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Maria João Pires"
+              ]
+            },
+            {
+              "target": "A7: Träumerei",
+              "source_path": [
+                0,
+                6
+              ],
+              "track_ids": [
+                2679249
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Maria João Pires"
+              ]
+            },
+            {
+              "target": "A8: Am Kamin",
+              "source_path": [
+                0,
+                7
+              ],
+              "track_ids": [
+                2679250
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Maria João Pires"
+              ]
+            },
+            {
+              "target": "A9: Ritter Vom Steckenpferd",
+              "source_path": [
+                0,
+                8
+              ],
+              "track_ids": [
+                2679251
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Maria João Pires"
+              ]
+            },
+            {
+              "target": "A10: Fast Zu Ernst",
+              "source_path": [
+                0,
+                9
+              ],
+              "track_ids": [
+                2679252
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Maria João Pires"
+              ]
+            },
+            {
+              "target": "A11: Fürchtenmachen",
+              "source_path": [
+                0,
+                10
+              ],
+              "track_ids": [
+                2679253
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Maria João Pires"
+              ]
+            },
+            {
+              "target": "A12: Kind Am Einschlummern",
+              "source_path": [
+                0,
+                11
+              ],
+              "track_ids": [
+                2679254
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Maria João Pires"
+              ]
+            },
+            {
+              "target": "A13: Der Dichter Spricht",
+              "source_path": [
+                0,
+                12
+              ],
+              "track_ids": [
+                2679255
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Maria João Pires"
+              ]
+            },
+            {
+              "target": "B1: Eintritt",
+              "source_path": [
+                1,
+                0
+              ],
+              "track_ids": [
+                2679256
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Maria João Pires"
+              ]
+            },
+            {
+              "target": "B2: Jäger Auf Der Lauer",
+              "source_path": [
+                1,
+                1
+              ],
+              "track_ids": [
+                2679257
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Maria João Pires"
+              ]
+            },
+            {
+              "target": "B3: Einsame Blumen",
+              "source_path": [
+                1,
+                2
+              ],
+              "track_ids": [
+                2679258
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Maria João Pires"
+              ]
+            },
+            {
+              "target": "B4: Verrufene Stelle",
+              "source_path": [
+                1,
+                3
+              ],
+              "track_ids": [
+                2679259
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Maria João Pires"
+              ]
+            },
+            {
+              "target": "B5: Freundliche Landschaft",
+              "source_path": [
+                1,
+                4
+              ],
+              "track_ids": [
+                2679260
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Maria João Pires"
+              ]
+            },
+            {
+              "target": "B6: Herberge",
+              "source_path": [
+                1,
+                5
+              ],
+              "track_ids": [
+                2679261
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Maria João Pires"
+              ]
+            },
+            {
+              "target": "B7: Vogel Als Prophet",
+              "source_path": [
+                1,
+                6
+              ],
+              "track_ids": [
+                2679262
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Maria João Pires"
+              ]
+            },
+            {
+              "target": "B8: Jagdlied",
+              "source_path": [
+                1,
+                7
+              ],
+              "track_ids": [
+                2679263
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Maria João Pires"
+              ]
+            },
+            {
+              "target": "B9: Abschied",
+              "source_path": [
+                1,
+                8
+              ],
+              "track_ids": [
+                2679264
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Maria João Pires"
+              ]
+            },
+            {
+              "target": "B10a: Nicht Schnell, Mit Innigkeit",
+              "source_path": [
+                3,
+                0
+              ],
+              "track_ids": [
+                2679265
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Maria João Pires"
+              ]
+            },
+            {
+              "target": "B10b: Sehr Rasch",
+              "source_path": [
+                3,
+                1
+              ],
+              "track_ids": [
+                2679266
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Maria João Pires"
+              ]
+            },
+            {
+              "target": "B10c: Frisch",
+              "source_path": [
+                3,
+                2
+              ],
+              "track_ids": [
+                2679267
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Maria João Pires"
+              ]
+            },
+            {
+              "target": "B11a: Ziemlich Langsam",
+              "source_path": [
+                4,
+                0
+              ],
+              "track_ids": [
+                2679268
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Maria João Pires"
+              ]
+            },
+            {
+              "target": "B11b: Schnell",
+              "source_path": [
+                4,
+                1
+              ],
+              "track_ids": [
+                2679269
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Maria João Pires"
+              ]
+            },
+            {
+              "target": "B11c: Ziemlich Langsam, Sehr Gesangvoll",
+              "source_path": [
+                4,
+                2
+              ],
+              "track_ids": [
+                2679270
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Maria João Pires"
+              ]
+            },
+            {
+              "target": "B11d: Langsam",
+              "source_path": [
+                4,
+                3
+              ],
+              "track_ids": [
+                2679271
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Maria João Pires"
+              ]
+            },
+            {
+              "target": "B11e: Sehr Langsam",
+              "source_path": [
+                4,
+                4
+              ],
+              "track_ids": [
+                2679272
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Maria João Pires"
+              ]
+            },
+            {
+              "target": "B12: 4. Präludium",
+              "source_path": [
+                5
+              ],
+              "track_ids": [
+                2679273
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Maria João Pires"
+              ]
+            }
+          ],
+          "reasons": [
+            "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+            "Warner publisher dates Pires Schumann family to August1984, matching raw EratoNUM75178notes. The cached Warner/Erato alternative, not the13trackKinderszenen-only lead, contains31complete source pieces:13Kinderszenen,9Waldszenen,3Stucklein,5Albumblatterand Op99No10Prelude. BunteBlatter headings are structural; no entire group is dropped or treated as a phantom work. Positive Pires/Schumann credits throughout.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+          ],
+          "work_group_policy": "qobuz-work-groups-v1",
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "A1: Von Fremden Ländern Und Menschen",
+                "source_path": [
+                  0,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  2679243
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 100,
+                "digital_duration_seconds": 100,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A2: Kuriose Geschichte",
+                "source_path": [
+                  0,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  2679244
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 60,
+                "digital_duration_seconds": 60,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A3: Hasche-Mann",
+                "source_path": [
+                  0,
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  2679245
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 35,
+                "digital_duration_seconds": 34,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A4: Bittendes Kind",
+                "source_path": [
+                  0,
+                  3
+                ],
+                "status": "complete",
+                "track_ids": [
+                  2679246
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 105,
+                "digital_duration_seconds": 104,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A5: Glückes Genug",
+                "source_path": [
+                  0,
+                  4
+                ],
+                "status": "complete",
+                "track_ids": [
+                  2679247
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 68,
+                "digital_duration_seconds": 66,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A6: Wichtige Begebenheit",
+                "source_path": [
+                  0,
+                  5
+                ],
+                "status": "complete",
+                "track_ids": [
+                  2679248
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 52,
+                "digital_duration_seconds": 53,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A7: Träumerei",
+                "source_path": [
+                  0,
+                  6
+                ],
+                "status": "complete",
+                "track_ids": [
+                  2679249
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 195,
+                "digital_duration_seconds": 194,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A8: Am Kamin",
+                "source_path": [
+                  0,
+                  7
+                ],
+                "status": "complete",
+                "track_ids": [
+                  2679250
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 54,
+                "digital_duration_seconds": 54,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A9: Ritter Vom Steckenpferd",
+                "source_path": [
+                  0,
+                  8
+                ],
+                "status": "complete",
+                "track_ids": [
+                  2679251
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 38,
+                "digital_duration_seconds": 38,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A10: Fast Zu Ernst",
+                "source_path": [
+                  0,
+                  9
+                ],
+                "status": "complete",
+                "track_ids": [
+                  2679252
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 118,
+                "digital_duration_seconds": 117,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A11: Fürchtenmachen",
+                "source_path": [
+                  0,
+                  10
+                ],
+                "status": "complete",
+                "track_ids": [
+                  2679253
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 123,
+                "digital_duration_seconds": 123,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A12: Kind Am Einschlummern",
+                "source_path": [
+                  0,
+                  11
+                ],
+                "status": "complete",
+                "track_ids": [
+                  2679254
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 106,
+                "digital_duration_seconds": 106,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A13: Der Dichter Spricht",
+                "source_path": [
+                  0,
+                  12
+                ],
+                "status": "complete",
+                "track_ids": [
+                  2679255
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 173,
+                "digital_duration_seconds": 177,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B1: Eintritt",
+                "source_path": [
+                  1,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  2679256
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 106,
+                "digital_duration_seconds": 110,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B2: Jäger Auf Der Lauer",
+                "source_path": [
+                  1,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  2679257
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 77,
+                "digital_duration_seconds": 77,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B3: Einsame Blumen",
+                "source_path": [
+                  1,
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  2679258
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 115,
+                "digital_duration_seconds": 114,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B4: Verrufene Stelle",
+                "source_path": [
+                  1,
+                  3
+                ],
+                "status": "complete",
+                "track_ids": [
+                  2679259
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 180,
+                "digital_duration_seconds": 179,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B5: Freundliche Landschaft",
+                "source_path": [
+                  1,
+                  4
+                ],
+                "status": "complete",
+                "track_ids": [
+                  2679260
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 63,
+                "digital_duration_seconds": 62,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B6: Herberge",
+                "source_path": [
+                  1,
+                  5
+                ],
+                "status": "complete",
+                "track_ids": [
+                  2679261
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 117,
+                "digital_duration_seconds": 117,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B7: Vogel Als Prophet",
+                "source_path": [
+                  1,
+                  6
+                ],
+                "status": "complete",
+                "track_ids": [
+                  2679262
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 180,
+                "digital_duration_seconds": 181,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B8: Jagdlied",
+                "source_path": [
+                  1,
+                  7
+                ],
+                "status": "complete",
+                "track_ids": [
+                  2679263
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 143,
+                "digital_duration_seconds": 142,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B9: Abschied",
+                "source_path": [
+                  1,
+                  8
+                ],
+                "status": "complete",
+                "track_ids": [
+                  2679264
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 174,
+                "digital_duration_seconds": 175,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B10a: Nicht Schnell, Mit Innigkeit",
+                "source_path": [
+                  3,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  2679265
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 91,
+                "digital_duration_seconds": 96,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B10b: Sehr Rasch",
+                "source_path": [
+                  3,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  2679266
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 56,
+                "digital_duration_seconds": 56,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B10c: Frisch",
+                "source_path": [
+                  3,
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  2679267
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 45,
+                "digital_duration_seconds": 47,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B11a: Ziemlich Langsam",
+                "source_path": [
+                  4,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  2679268
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 123,
+                "digital_duration_seconds": 123,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B11b: Schnell",
+                "source_path": [
+                  4,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  2679269
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 42,
+                "digital_duration_seconds": 41,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B11c: Ziemlich Langsam, Sehr Gesangvoll",
+                "source_path": [
+                  4,
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  2679270
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 86,
+                "digital_duration_seconds": 85,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B11d: Langsam",
+                "source_path": [
+                  4,
+                  3
+                ],
+                "status": "complete",
+                "track_ids": [
+                  2679271
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 82,
+                "digital_duration_seconds": 81,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B11e: Sehr Langsam",
+                "source_path": [
+                  4,
+                  4
+                ],
+                "status": "complete",
+                "track_ids": [
+                  2679272
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 97,
+                "digital_duration_seconds": 97,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B12: 4. Präludium",
+                "source_path": [
+                  5
+                ],
+                "status": "complete",
+                "track_ids": [
+                  2679273
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 85,
+                "digital_duration_seconds": 87,
+                "source_duration_notes": []
+              }
+            ]
+          },
+          "recording_review": "Warner publisher dates Pires Schumann family to August1984, matching raw EratoNUM75178notes. The cached Warner/Erato alternative, not the13trackKinderszenen-only lead, contains31complete source pieces:13Kinderszenen,9Waldszenen,3Stucklein,5Albumblatterand Op99No10Prelude. BunteBlatter headings are structural; no entire group is dropped or treated as a phantom work. Positive Pires/Schumann credits throughout.",
+          "review_sources": [
+            "https://www.discogs.com/release/5980586",
+            "https://wmg.jp/pires/discography/7669"
+          ]
+        }
+      ],
       "query": "maria joao pires schumann kinderszenen op 15 scenes d enfants scenes from childhood waldszenen",
       "searched_at": "2026-11-12T16:06:22.312212+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+        "Warner publisher dates Pires Schumann family to August1984, matching raw EratoNUM75178notes. The cached Warner/Erato alternative, not the13trackKinderszenen-only lead, contains31complete source pieces:13Kinderszenen,9Waldszenen,3Stucklein,5Albumblatterand Op99No10Prelude. BunteBlatter headings are structural; no entire group is dropped or treated as a phantom work. Positive Pires/Schumann credits throughout.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
       ]
     },
     "20901739": {
@@ -99405,14 +101175,384 @@
       ]
     },
     "6748142": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "li90nizo543uc",
+        "name": "Mahler: Symphony No. 5 & Rückert-Lieder",
+        "artists": [
+          "Sir John Barbirolli"
+        ],
+        "label": "Warner Classics",
+        "release_date": "1969-01-01",
+        "image": "https://static.qobuz.com/images/covers/uc/43/li90nizo543uc_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/mahler-symphony-no-5-ruckert-lieder-sir-john-barbirolli/li90nizo543uc"
+      },
+      "candidates": [
+        {
+          "id": "li90nizo543uc",
+          "name": "Mahler: Symphony No. 5 & Rückert-Lieder",
+          "artists": [
+            "Sir John Barbirolli"
+          ],
+          "label": "Warner Classics",
+          "release_date": "1969-01-01",
+          "image": "https://static.qobuz.com/images/covers/uc/43/li90nizo543uc_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/mahler-symphony-no-5-ruckert-lieder-sir-john-barbirolli/li90nizo543uc",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 10,
+          "target_count": 10,
+          "required_performers": [
+            "Sir John Barbirolli",
+            "Janet Baker",
+            "New Philharmonia Orchestra"
+          ],
+          "programme": [
+            {
+              "target": "A1: Part I - 1st Movement: Funeral March",
+              "source_path": [
+                0,
+                0
+              ],
+              "track_ids": [
+                103508667
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Sir John Barbirolli",
+                "New Philharmonia Orchestra"
+              ]
+            },
+            {
+              "target": "A2: Part I - 2nd Movement: Stormy, With Utmost Vehemence",
+              "source_path": [
+                0,
+                1
+              ],
+              "track_ids": [
+                103508668
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Sir John Barbirolli",
+                "New Philharmonia Orchestra"
+              ]
+            },
+            {
+              "target": "B: Part II - 3rd Movement: Scherzo",
+              "source_path": [
+                0,
+                2
+              ],
+              "track_ids": [
+                103508669
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Sir John Barbirolli",
+                "New Philharmonia Orchestra"
+              ]
+            },
+            {
+              "target": "C1.1: Part III - 4th Movement: Adagietto",
+              "source_path": [
+                0,
+                3
+              ],
+              "track_ids": [
+                103508670
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Sir John Barbirolli",
+                "New Philharmonia Orchestra"
+              ]
+            },
+            {
+              "target": "C1.2: Part III - 5th Movement: Rondo-Finale",
+              "source_path": [
+                0,
+                4
+              ],
+              "track_ids": [
+                103508671
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Sir John Barbirolli",
+                "New Philharmonia Orchestra"
+              ]
+            },
+            {
+              "target": "D1: Blicke Mir Nicht In Die Lieder",
+              "source_path": [
+                1,
+                0
+              ],
+              "track_ids": [
+                103508672
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Sir John Barbirolli",
+                "New Philharmonia Orchestra",
+                "Janet Baker"
+              ]
+            },
+            {
+              "target": "D2: Ich Atmet' Einen Linden Duft",
+              "source_path": [
+                1,
+                1
+              ],
+              "track_ids": [
+                103508673
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Sir John Barbirolli",
+                "New Philharmonia Orchestra",
+                "Janet Baker"
+              ]
+            },
+            {
+              "target": "D3: Um Mitternacht",
+              "source_path": [
+                1,
+                2
+              ],
+              "track_ids": [
+                103508674
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Sir John Barbirolli",
+                "New Philharmonia Orchestra",
+                "Janet Baker"
+              ]
+            },
+            {
+              "target": "D4: Liebst Du Um Schönheit",
+              "source_path": [
+                1,
+                3
+              ],
+              "track_ids": [
+                103508675
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Sir John Barbirolli",
+                "New Philharmonia Orchestra",
+                "Janet Baker"
+              ]
+            },
+            {
+              "target": "D5: Ich Bin Der Welt Abhanden Gekommen",
+              "source_path": [
+                1,
+                4
+              ],
+              "track_ids": [
+                103508676
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Sir John Barbirolli",
+                "New Philharmonia Orchestra",
+                "Janet Baker"
+              ]
+            }
+          ],
+          "reasons": [
+            "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+            "Warner identifies this Barbirolli/NewPhilharmonia Mahler5/Ruckert coupling as1969and JanetBaker as song soloist. Source HMVfirst issue has five symphony movements and five explicitly named songs. All ten exact bands are present; source nested mezzo credit and existing target-credit policy require Baker only on the five songs. No singer is borrowed across works or made optional on her source songs.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+          ],
+          "work_group_policy": "qobuz-work-groups-v1",
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "A1: Part I - 1st Movement: Funeral March",
+                "source_path": [
+                  0,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  103508667
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 826,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A2: Part I - 2nd Movement: Stormy, With Utmost Vehemence",
+                "source_path": [
+                  0,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  103508668
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 914,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B: Part II - 3rd Movement: Scherzo",
+                "source_path": [
+                  0,
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  103508669
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 1083,
+                "source_duration_notes": []
+              },
+              {
+                "target": "C1.1: Part III - 4th Movement: Adagietto",
+                "source_path": [
+                  0,
+                  3
+                ],
+                "status": "complete",
+                "track_ids": [
+                  103508670
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 590,
+                "source_duration_notes": []
+              },
+              {
+                "target": "C1.2: Part III - 5th Movement: Rondo-Finale",
+                "source_path": [
+                  0,
+                  4
+                ],
+                "status": "complete",
+                "track_ids": [
+                  103508671
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 1052,
+                "source_duration_notes": []
+              },
+              {
+                "target": "D1: Blicke Mir Nicht In Die Lieder",
+                "source_path": [
+                  1,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  103508672
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 94,
+                "source_duration_notes": []
+              },
+              {
+                "target": "D2: Ich Atmet' Einen Linden Duft",
+                "source_path": [
+                  1,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  103508673
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 161,
+                "source_duration_notes": []
+              },
+              {
+                "target": "D3: Um Mitternacht",
+                "source_path": [
+                  1,
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  103508674
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 352,
+                "source_duration_notes": []
+              },
+              {
+                "target": "D4: Liebst Du Um Schönheit",
+                "source_path": [
+                  1,
+                  3
+                ],
+                "status": "complete",
+                "track_ids": [
+                  103508675
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 147,
+                "source_duration_notes": []
+              },
+              {
+                "target": "D5: Ich Bin Der Welt Abhanden Gekommen",
+                "source_path": [
+                  1,
+                  4
+                ],
+                "status": "complete",
+                "track_ids": [
+                  103508676
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 410,
+                "source_duration_notes": []
+              }
+            ]
+          },
+          "recording_review": "Warner identifies this Barbirolli/NewPhilharmonia Mahler5/Ruckert coupling as1969and JanetBaker as song soloist. Source HMVfirst issue has five symphony movements and five explicitly named songs. All ten exact bands are present; source nested mezzo credit and existing target-credit policy require Baker only on the five songs. No singer is borrowed across works or made optional on her source songs.",
+          "review_sources": [
+            "https://www.discogs.com/release/6748142",
+            "https://wmg.jp/john-barbirolli/discography/23679"
+          ]
+        }
+      ],
       "query": "sir john barbirolli mahler symphony no 5 with five ruckert songs",
       "searched_at": "2026-11-12T16:22:38.367415+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+        "Warner identifies this Barbirolli/NewPhilharmonia Mahler5/Ruckert coupling as1969and JanetBaker as song soloist. Source HMVfirst issue has five symphony movements and five explicitly named songs. All ten exact bands are present; source nested mezzo credit and existing target-credit policy require Baker only on the five songs. No singer is borrowed across works or made optional on her source songs.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
       ]
     },
     "1730282": {

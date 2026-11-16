@@ -28,12 +28,12 @@ The earlier priority/secondary batches are complete. New936album cache is
 validated/shared and160leads ranked:2supported complete,16full support needing
 completeness,38partial,104zero-current-rule support. Both complete Brahms leads
 are now reviewed/Probable ([results](../plans/2026-11-16-qobuz-brahms2.md)).
-All16full-support leads now reviewed:9Probable/7holds
-([batch results](../plans/2026-11-16-qobuz-fullsupport16.md)). Next38partial-support
-leads: inspect complete programme/credit gaps and only then choose bounded reviews.
-104zero-current-rule cases follow. Current
-whole-inventory work/credit queue:13priority,27secondary,454zero-current-support
-and3known constraints. Zero support needs source/lead/rule investigation,
+All16full-support leads reviewed:9Probable/7holds. All38partial-support leads now
+reviewed:6Probable/32holds ([latest batch](../plans/2026-11-16-qobuz-partial38.md)).
+All160initial leads now have17accepted families,39recording holds and104open
+zero-current-rule cases. Next inspect those104offline to distinguish source/
+parser/credit gaps from wrong or incomplete programmes. Existing whole-inventory
+work/credit queue remains a separate population; inspect refreshed JSON counts. Zero support needs source/lead/rule investigation,
 not automatic API retrieval. Revisit explicit holds only with new evidence or a
 validated scoped rule; partial source support is triage, not confidence.
 Source N°/opus members and separate digital work fields remain recurring parsing
@@ -84,3 +84,17 @@ present the limitation. Keep the release unchecked meanwhile.
 [Case evidence](../plans/2026-11-13-bitches-brew-credits.md).
 
 Done when: the exception and wording are accepted or rejected in a decision.
+
+
+## AD-010 — Audit musical source-role coverage
+
+Status: suggested after the current bounded reviews; not implementation approval.
+
+Raw source roles for harp, viola and drums can be omitted by current normalized
+requirements (Ellis, Farulli and earlier MiltonBananaexamples). Design an offline
+whole-collection diagnostic comparing raw musical roles to normalized requirements,
+including work scopes and nonperformer exclusions. Do not add generic ensemble-
+member, associated-performer or missing-credit waivers. Existing holds persist.
+
+Done when: reproducible bounded discrepancy inventory and regression scope exist;
+any normalization change has separate validated publication-impact review.

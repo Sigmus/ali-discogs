@@ -11473,6 +11473,2457 @@
           ]
         }
       ]
+    },
+    {
+      "discogs_id": "11765180",
+      "album_id": "0724357401555",
+      "target_sha256": "050d364ae8a0a08061f77a74bbda4e1cdd858747bcd550207b3d5472ff9fcf11",
+      "album_sha256": "42bcdac6a4b4cc293838ecf7b86589b4ee352b1aef4d8effdeaf95b76e4a537b",
+      "source_sha256": "14effd3185c88d2d1fd217de51b7f967b9bd7ae277b4ed1ad6c31775d323f87a",
+      "sources": [
+        "https://www.discogs.com/release/11765180"
+      ],
+      "limitations": [
+        "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+      ],
+      "decision": "withhold",
+      "recording_review": "The24trackAngelSpanishGuitarVirtuoso supplies14of16source pieces but its complete title list has neither LaMajaDeGoya nor the source Fandango. Other cached albums supply similarly named pieces without a verified complete source16piece/AngelRomero recording. No arbitrary union of different programmes.",
+      "works": []
+    },
+    {
+      "discogs_id": "9297226",
+      "album_id": "0002894307732",
+      "target_sha256": "8c524c4b52af8fc0fb40e346b989701d37ad906e1d2e3d2e381d493964efb108",
+      "album_sha256": "ea93fd6c47971c11cc50401b468a5d624b2218429bab6261a4b6ee4231fdabc3",
+      "source_sha256": "8d58e5b857d06481a892fae970d4423593a00918fdf2bc168976836fb2223c4c",
+      "sources": [
+        "https://www.discogs.com/release/9297226",
+        "https://www.universal-music.co.jp/p/uccd-7424/"
+      ],
+      "limitations": [
+        "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+      ],
+      "decision": "probable",
+      "review_kind": "source-leaf-bands",
+      "source_outline_sha256": "780158d3bdafac2423997d7263bd39e0749f9f314b8f5df6605756b03cabc730",
+      "source_leaves": [
+        {
+          "path": [
+            0
+          ],
+          "source_work": "Andante - Allegro Ma Non Troppo",
+          "title": "Andante - Allegro Ma Non Troppo",
+          "position": "A1",
+          "duration": ""
+        },
+        {
+          "path": [
+            1
+          ],
+          "source_work": "Andante Con Moto",
+          "title": "Andante Con Moto",
+          "position": "A2",
+          "duration": ""
+        },
+        {
+          "path": [
+            2
+          ],
+          "source_work": "Scherzo, Allegro Vivace",
+          "title": "Scherzo, Allegro Vivace",
+          "position": "B1",
+          "duration": ""
+        },
+        {
+          "path": [
+            3
+          ],
+          "source_work": "Allegro Vivace",
+          "title": "Allegro Vivace",
+          "position": "B2",
+          "duration": ""
+        }
+      ],
+      "bindings": [
+        {
+          "source_path": [
+            0
+          ],
+          "track_ids": [
+            527158
+          ],
+          "track_sha256": [
+            "d925f4e5c654679f7584235864d06e7d2fccb884afad11f9e6868714fa8637bb"
+          ],
+          "required_performers": [
+            "István Kertész",
+            "Wiener Philharmoniker"
+          ],
+          "composer": "Franz Schubert"
+        },
+        {
+          "source_path": [
+            1
+          ],
+          "track_ids": [
+            527162
+          ],
+          "track_sha256": [
+            "97554d641059782fc1b7e41d420d704ecf05afdf835a42bd975326ff115113b8"
+          ],
+          "required_performers": [
+            "István Kertész",
+            "Wiener Philharmoniker"
+          ],
+          "composer": "Franz Schubert"
+        },
+        {
+          "source_path": [
+            2
+          ],
+          "track_ids": [
+            527166
+          ],
+          "track_sha256": [
+            "c8f3d76cbc675646b24791027817b98908b299ee3b75cd5d529b1363139961da"
+          ],
+          "required_performers": [
+            "István Kertész",
+            "Wiener Philharmoniker"
+          ],
+          "composer": "Franz Schubert"
+        },
+        {
+          "source_path": [
+            3
+          ],
+          "track_ids": [
+            527169
+          ],
+          "track_sha256": [
+            "358a983d85a49db3d7e57c5321ec3c1324d7381ffef0709416fc29add4f4ceba"
+          ],
+          "required_performers": [
+            "István Kertész",
+            "Wiener Philharmoniker"
+          ],
+          "composer": "Franz Schubert"
+        }
+      ],
+      "selected_track_fingerprints": {
+        "527158": "d925f4e5c654679f7584235864d06e7d2fccb884afad11f9e6868714fa8637bb",
+        "527162": "97554d641059782fc1b7e41d420d704ecf05afdf835a42bd975326ff115113b8",
+        "527166": "c8f3d76cbc675646b24791027817b98908b299ee3b75cd5d529b1363139961da",
+        "527169": "358a983d85a49db3d7e57c5321ec3c1324d7381ffef0709416fc29add4f4ceba"
+      },
+      "extra_track_ids": [
+        527139,
+        527143,
+        527147,
+        527151,
+        527155,
+        527159,
+        527163,
+        527167,
+        527170,
+        527140,
+        527144,
+        527148,
+        527152,
+        527156,
+        527160,
+        527164,
+        527168,
+        527171,
+        527141,
+        527145,
+        527149,
+        527153,
+        527157,
+        527161,
+        527165,
+        527142,
+        527146,
+        527150,
+        527154
+      ],
+      "recording_review": "Universal identifies Kertesz/Vienna SchubertD944as November1963Sofiensaal. Source DeccaSXL6089lists its four movements; saved Decca4307732has all four with Kertesz/Vienna/Schubert positive credits. Bare source tempo titles had matched multiple symphonies; exact source positions now bind only the four D944movements. Other symphonies are extras; source exact pressing/takes unverified.",
+      "external_source_files": [
+        {
+          "path": "data/review_sources/partial38-9297226/source-observation.txt",
+          "sha256": "cfd52982a1c1020bba242e3d7688fb532fb8ce1605cf3c7ea08e7e69f942bd39",
+          "source_url": "https://www.universal-music.co.jp/p/uccd-7424/"
+        }
+      ],
+      "source_heading_groups": []
+    },
+    {
+      "discogs_id": "6210807",
+      "album_id": "0002894636262",
+      "target_sha256": "81604cb0199814af0c0ccc0ae2aae9e1b2684ec1523d51e8fd7bb9d82b9de38b",
+      "album_sha256": "69118015504e78aa6bb14b72b635fcdf5f6f7a01b7e762ea9b72a199bd0e921c",
+      "source_sha256": "34bc3a13c3fd33e092904051300f072be87b8672549b377640a2fba5076bc2f4",
+      "sources": [
+        "https://www.discogs.com/release/6210807"
+      ],
+      "limitations": [
+        "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+      ],
+      "decision": "withhold",
+      "recording_review": "First DG4636262has Symphony9andEgmont but noLeonoreIII. BNFandlaterDG4795348can supply all three named works; DGLeonorehas bare untyped Berlin orchestra credits and the existing strict programme/performer rules do not validate the full set. The extra Leonore must not be borrowed from another conductor or a different orchestra. Source finale/voice and recording-family scope need explicit review.",
+      "works": []
+    },
+    {
+      "discogs_id": "6652276",
+      "album_id": "0002894788453",
+      "target_sha256": "fe1bab1471eca6900612a727fa61ca33c1480d1478a746323eaff952624e3304",
+      "album_sha256": "57178985a046590d9310268f5213d859828660d45c342191c41db4c2dab5f329",
+      "source_sha256": "5b03bc65304ff412426c4d5b3a25f13415bbfd25c956d31815b70d79cc2b6e09",
+      "sources": [
+        "https://www.discogs.com/release/6652276"
+      ],
+      "limitations": [
+        "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+      ],
+      "decision": "withhold",
+      "recording_review": "ThePhase4anthology contains matching Black/LSOdances, but the selected Moldau23676500credits ArthurFiedler/BostonPops, not source StanleyBlack/LSO. Identical composition title cannot supply source performer identity; other cached alternatives do not establish the full same-cast source programme.",
+      "works": []
+    },
+    {
+      "discogs_id": "2681944",
+      "album_id": "rmi6mvnpjr7aa",
+      "target_sha256": "5ae2e4df03b7d800f477e8e9960a97e7dabc5418c79b299861f2330497f9025c",
+      "album_sha256": "97acc30d743241f3ec9ef22ba8c22cc9d9534bb2f5affb62051f4ea839030bba",
+      "source_sha256": "eb005fc6371b10ef07604c02ec4cfdb13cbe6ca62fb72a4388f7410d37ee27d8",
+      "sources": [
+        "https://www.discogs.com/release/2681944"
+      ],
+      "limitations": [
+        "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+      ],
+      "decision": "withhold",
+      "recording_review": "PipelineMusic13tracks contain BermanProkofievSonata8but not source Rachmaninoff6MomentsMusicaux. Other cached Berman albums contain the Rachmaninoffset or live/other sessions, without a verified complete source coupling and source DGrecording identity.",
+      "works": []
+    },
+    {
+      "discogs_id": "4031075",
+      "album_id": "0002894474312",
+      "target_sha256": "e7a8e2cf165426d319b5849234844ac0f2464420ba9a4152563119563f523f32",
+      "album_sha256": "775cb825ba4330cbd386f69fc77394855189272db18a7a2d62fce220538a36cc",
+      "source_sha256": "77dc6710fb2a5bcaa33eb8c5dd62e19591cef3a81d3e9cc883cc249096bb206e",
+      "sources": [
+        "https://www.discogs.com/release/4031075",
+        "https://ci.nii.ac.jp/ncid/BA87029242"
+      ],
+      "limitations": [
+        "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged.",
+        "Source Precipitato timing3:11versus file3:17is retained as a reviewed six-second discrepancy; matching1971recording family does not verify exact transfer/take."
+      ],
+      "decision": "probable",
+      "review_kind": "source-leaf-bands",
+      "source_outline_sha256": "751e9947ffacba1fb87c1257523f7ae5bba9f29b643c8ffc12ead00f30398b1a",
+      "source_leaves": [
+        {
+          "path": [
+            0,
+            0
+          ],
+          "source_work": "Trois Mouvements De Pétrouchka",
+          "title": "1. Danse Russe. Allegro Giusto",
+          "position": "A1",
+          "duration": "2:30"
+        },
+        {
+          "path": [
+            0,
+            1
+          ],
+          "source_work": "Trois Mouvements De Pétrouchka",
+          "title": "2. Chez Pétrouchka",
+          "position": "A2",
+          "duration": "4:18"
+        },
+        {
+          "path": [
+            0,
+            2
+          ],
+          "source_work": "Trois Mouvements De Pétrouchka",
+          "title": "3. La Semaine Grasse. Con Moto - Allegretto - Tempo Giusto - Agitato",
+          "position": "A3",
+          "duration": "8:23"
+        },
+        {
+          "path": [
+            1,
+            0
+          ],
+          "source_work": "Sonate Nr. 7 Op. 83",
+          "title": "1. Allegro Inquieto - Andantino",
+          "position": "B1",
+          "duration": "7:27"
+        },
+        {
+          "path": [
+            1,
+            1
+          ],
+          "source_work": "Sonate Nr. 7 Op. 83",
+          "title": "2. Andante Caloroso",
+          "position": "B2",
+          "duration": "6:08"
+        },
+        {
+          "path": [
+            1,
+            2
+          ],
+          "source_work": "Sonate Nr. 7 Op. 83",
+          "title": "3. Precipitato",
+          "position": "B3",
+          "duration": "3:11"
+        }
+      ],
+      "bindings": [
+        {
+          "source_path": [
+            0,
+            0
+          ],
+          "track_ids": [
+            543181
+          ],
+          "track_sha256": [
+            "53011a0a3e61803f4273208007b4fb0708fdbbd1b389f7e173514c9dc031ca38"
+          ],
+          "required_performers": [
+            "Maurizio Pollini"
+          ],
+          "composer": "Igor Stravinsky"
+        },
+        {
+          "source_path": [
+            0,
+            1
+          ],
+          "track_ids": [
+            543182
+          ],
+          "track_sha256": [
+            "729ce1f4d69d763579eecc7859e6604d9180299eb636f6a4d8f0a500d165d1db"
+          ],
+          "required_performers": [
+            "Maurizio Pollini"
+          ],
+          "composer": "Igor Stravinsky"
+        },
+        {
+          "source_path": [
+            0,
+            2
+          ],
+          "track_ids": [
+            543183
+          ],
+          "track_sha256": [
+            "a6bc98d0b40b4c0c795f65dfb963a3fced234d99f61291e407be9228542b03e0"
+          ],
+          "required_performers": [
+            "Maurizio Pollini"
+          ],
+          "composer": "Igor Stravinsky"
+        },
+        {
+          "source_path": [
+            1,
+            0
+          ],
+          "track_ids": [
+            543184
+          ],
+          "track_sha256": [
+            "6ae60fe947c74316bcc4f6ec9918d31eafc3737d88f066d6c8d7ed767c70cd5c"
+          ],
+          "required_performers": [
+            "Maurizio Pollini"
+          ],
+          "composer": "Sergei Prokofiev"
+        },
+        {
+          "source_path": [
+            1,
+            1
+          ],
+          "track_ids": [
+            543185
+          ],
+          "track_sha256": [
+            "cde370d831ca0090e8167ecc201fbf31a47c2b78e00424cd3b21c582fda5e92a"
+          ],
+          "required_performers": [
+            "Maurizio Pollini"
+          ],
+          "composer": "Sergei Prokofiev"
+        },
+        {
+          "source_path": [
+            1,
+            2
+          ],
+          "track_ids": [
+            543186
+          ],
+          "track_sha256": [
+            "c43d8a87f710797519470212d99595334a09e82ed722766ae4e803a1faaf855c"
+          ],
+          "required_performers": [
+            "Maurizio Pollini"
+          ],
+          "composer": "Sergei Prokofiev"
+        }
+      ],
+      "selected_track_fingerprints": {
+        "543181": "53011a0a3e61803f4273208007b4fb0708fdbbd1b389f7e173514c9dc031ca38",
+        "543182": "729ce1f4d69d763579eecc7859e6604d9180299eb636f6a4d8f0a500d165d1db",
+        "543183": "a6bc98d0b40b4c0c795f65dfb963a3fced234d99f61291e407be9228542b03e0",
+        "543184": "6ae60fe947c74316bcc4f6ec9918d31eafc3737d88f066d6c8d7ed767c70cd5c",
+        "543185": "cde370d831ca0090e8167ecc201fbf31a47c2b78e00424cd3b21c582fda5e92a",
+        "543186": "c43d8a87f710797519470212d99595334a09e82ed722766ae4e803a1faaf855c"
+      },
+      "extra_track_ids": [
+        543187,
+        543188,
+        543189,
+        543190,
+        543191,
+        543192,
+        543193
+      ],
+      "recording_review": "Primary university catalogue describes Pollini Stravinsky/Prokofiev DGprogramme as recorded MunichSeptember1971, with Webern/BoulezJuly1976extras. Source DG2530225has three Petrushkamovements and ProkofievSonata7three movements. All six are positively credited in cached DG4474312with matching source producer/engineer family. French Petrushkatitle failed lexical matching; no orchestral ballet is substituted.",
+      "external_source_files": [
+        {
+          "path": "data/review_sources/partial38-4031075/source-observation.txt",
+          "sha256": "f61f62d3b8532dd8110bbaf08459fe4b1ec72d2af151906b5e884eebcca0c918",
+          "source_url": "https://ci.nii.ac.jp/ncid/BA87029242"
+        }
+      ],
+      "source_duration_notes": [
+        {
+          "source_path": [
+            1,
+            2
+          ],
+          "source_seconds": 191,
+          "digital_seconds": 197,
+          "reason": "Source Precipitato band says3:11while the hash-bound digital track is3:17. Primary catalogue independently identifies the same1971DGrecording family; a six-second timing/transfer difference is retained, not evidence of exact take or pressing equality."
+        }
+      ],
+      "source_heading_groups": []
+    },
+    {
+      "discogs_id": "6748142",
+      "album_id": "li90nizo543uc",
+      "target_sha256": "3903e4ce7283da8d31496fba96024275fb6f990c3872330ba0d64d972431f431",
+      "album_sha256": "15512c7c68007489e55a1a24dc1b6be066fb5da0b6177627986198155b540ee8",
+      "source_sha256": "50b3281787dac56101017f9e1ba80691e54586e82f17100fdf9ec8590377c23a",
+      "sources": [
+        "https://www.discogs.com/release/6748142",
+        "https://wmg.jp/john-barbirolli/discography/23679"
+      ],
+      "limitations": [
+        "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+      ],
+      "decision": "probable",
+      "review_kind": "source-leaf-bands",
+      "source_outline_sha256": "eb5a58e52abd7577c88784a32839589675081b99276a7141489736023611fc29",
+      "source_leaves": [
+        {
+          "path": [
+            0,
+            0
+          ],
+          "source_work": "Symphony No. 5",
+          "title": "Part I - 1st Movement: Funeral March",
+          "position": "A1",
+          "duration": ""
+        },
+        {
+          "path": [
+            0,
+            1
+          ],
+          "source_work": "Symphony No. 5",
+          "title": "Part I - 2nd Movement: Stormy, With Utmost Vehemence",
+          "position": "A2",
+          "duration": ""
+        },
+        {
+          "path": [
+            0,
+            2
+          ],
+          "source_work": "Symphony No. 5",
+          "title": "Part II - 3rd Movement: Scherzo",
+          "position": "B",
+          "duration": ""
+        },
+        {
+          "path": [
+            0,
+            3
+          ],
+          "source_work": "Symphony No. 5",
+          "title": "Part III - 4th Movement: Adagietto",
+          "position": "C1.1",
+          "duration": ""
+        },
+        {
+          "path": [
+            0,
+            4
+          ],
+          "source_work": "Symphony No. 5",
+          "title": "Part III - 5th Movement: Rondo-Finale",
+          "position": "C1.2",
+          "duration": ""
+        },
+        {
+          "path": [
+            1,
+            0
+          ],
+          "source_work": "Five Rückert Songs",
+          "title": "Blicke Mir Nicht In Die Lieder",
+          "position": "D1",
+          "duration": ""
+        },
+        {
+          "path": [
+            1,
+            1
+          ],
+          "source_work": "Five Rückert Songs",
+          "title": "Ich Atmet' Einen Linden Duft",
+          "position": "D2",
+          "duration": ""
+        },
+        {
+          "path": [
+            1,
+            2
+          ],
+          "source_work": "Five Rückert Songs",
+          "title": "Um Mitternacht",
+          "position": "D3",
+          "duration": ""
+        },
+        {
+          "path": [
+            1,
+            3
+          ],
+          "source_work": "Five Rückert Songs",
+          "title": "Liebst Du Um Schönheit",
+          "position": "D4",
+          "duration": ""
+        },
+        {
+          "path": [
+            1,
+            4
+          ],
+          "source_work": "Five Rückert Songs",
+          "title": "Ich Bin Der Welt Abhanden Gekommen",
+          "position": "D5",
+          "duration": ""
+        }
+      ],
+      "bindings": [
+        {
+          "source_path": [
+            0,
+            0
+          ],
+          "track_ids": [
+            103508667
+          ],
+          "track_sha256": [
+            "e1ecf1a6c2c2d80ff50e89e19a137bae164dccb8801cd988b8aba9223b7265e1"
+          ],
+          "required_performers": [
+            "Sir John Barbirolli",
+            "New Philharmonia Orchestra"
+          ],
+          "composer": "Gustav Mahler"
+        },
+        {
+          "source_path": [
+            0,
+            1
+          ],
+          "track_ids": [
+            103508668
+          ],
+          "track_sha256": [
+            "e8b01e9a8a0c454168a9870bb452ccd91494a2af6d8842ee888f7c4475e44be4"
+          ],
+          "required_performers": [
+            "Sir John Barbirolli",
+            "New Philharmonia Orchestra"
+          ],
+          "composer": "Gustav Mahler"
+        },
+        {
+          "source_path": [
+            0,
+            2
+          ],
+          "track_ids": [
+            103508669
+          ],
+          "track_sha256": [
+            "3910ef06bcc36a508147b720cac600a14e18b47e1e17d2a4b314a07c24a91fa7"
+          ],
+          "required_performers": [
+            "Sir John Barbirolli",
+            "New Philharmonia Orchestra"
+          ],
+          "composer": "Gustav Mahler"
+        },
+        {
+          "source_path": [
+            0,
+            3
+          ],
+          "track_ids": [
+            103508670
+          ],
+          "track_sha256": [
+            "c45b0605c0e964d89c206c504d31392436c936ad04f7eb684ed4bee3c72cfcd6"
+          ],
+          "required_performers": [
+            "Sir John Barbirolli",
+            "New Philharmonia Orchestra"
+          ],
+          "composer": "Gustav Mahler"
+        },
+        {
+          "source_path": [
+            0,
+            4
+          ],
+          "track_ids": [
+            103508671
+          ],
+          "track_sha256": [
+            "5e40f2b4be45133e8a1c7f803b99ccd94585f5ea182d064b560264d1a4c949e0"
+          ],
+          "required_performers": [
+            "Sir John Barbirolli",
+            "New Philharmonia Orchestra"
+          ],
+          "composer": "Gustav Mahler"
+        },
+        {
+          "source_path": [
+            1,
+            0
+          ],
+          "track_ids": [
+            103508672
+          ],
+          "track_sha256": [
+            "cc39cfca2c13b55e66c0de919fa9739121698697ce13b1b917c534843829f9a9"
+          ],
+          "required_performers": [
+            "Sir John Barbirolli",
+            "New Philharmonia Orchestra",
+            "Janet Baker"
+          ],
+          "composer": "Gustav Mahler"
+        },
+        {
+          "source_path": [
+            1,
+            1
+          ],
+          "track_ids": [
+            103508673
+          ],
+          "track_sha256": [
+            "1b5c202cae242174f830cdddbcc807f4f4f06df6a784ad936232550de974f71e"
+          ],
+          "required_performers": [
+            "Sir John Barbirolli",
+            "New Philharmonia Orchestra",
+            "Janet Baker"
+          ],
+          "composer": "Gustav Mahler"
+        },
+        {
+          "source_path": [
+            1,
+            2
+          ],
+          "track_ids": [
+            103508674
+          ],
+          "track_sha256": [
+            "f116966c0407d48333082095aae0cb9e8fb635669d0769951c68cc601a69de02"
+          ],
+          "required_performers": [
+            "Sir John Barbirolli",
+            "New Philharmonia Orchestra",
+            "Janet Baker"
+          ],
+          "composer": "Gustav Mahler"
+        },
+        {
+          "source_path": [
+            1,
+            3
+          ],
+          "track_ids": [
+            103508675
+          ],
+          "track_sha256": [
+            "de4d23b248f05453773946271da12ca6362ee4251e6833ef4e3e54df36115df1"
+          ],
+          "required_performers": [
+            "Sir John Barbirolli",
+            "New Philharmonia Orchestra",
+            "Janet Baker"
+          ],
+          "composer": "Gustav Mahler"
+        },
+        {
+          "source_path": [
+            1,
+            4
+          ],
+          "track_ids": [
+            103508676
+          ],
+          "track_sha256": [
+            "2dedb01ca98c26c7ec6407bb9f9e683815442f27dd8a859d31adc0435f3abd85"
+          ],
+          "required_performers": [
+            "Sir John Barbirolli",
+            "New Philharmonia Orchestra",
+            "Janet Baker"
+          ],
+          "composer": "Gustav Mahler"
+        }
+      ],
+      "selected_track_fingerprints": {
+        "103508667": "e1ecf1a6c2c2d80ff50e89e19a137bae164dccb8801cd988b8aba9223b7265e1",
+        "103508668": "e8b01e9a8a0c454168a9870bb452ccd91494a2af6d8842ee888f7c4475e44be4",
+        "103508669": "3910ef06bcc36a508147b720cac600a14e18b47e1e17d2a4b314a07c24a91fa7",
+        "103508670": "c45b0605c0e964d89c206c504d31392436c936ad04f7eb684ed4bee3c72cfcd6",
+        "103508671": "5e40f2b4be45133e8a1c7f803b99ccd94585f5ea182d064b560264d1a4c949e0",
+        "103508672": "cc39cfca2c13b55e66c0de919fa9739121698697ce13b1b917c534843829f9a9",
+        "103508673": "1b5c202cae242174f830cdddbcc807f4f4f06df6a784ad936232550de974f71e",
+        "103508674": "f116966c0407d48333082095aae0cb9e8fb635669d0769951c68cc601a69de02",
+        "103508675": "de4d23b248f05453773946271da12ca6362ee4251e6833ef4e3e54df36115df1",
+        "103508676": "2dedb01ca98c26c7ec6407bb9f9e683815442f27dd8a859d31adc0435f3abd85"
+      },
+      "extra_track_ids": [],
+      "recording_review": "Warner identifies this Barbirolli/NewPhilharmonia Mahler5/Ruckert coupling as1969and JanetBaker as song soloist. Source HMVfirst issue has five symphony movements and five explicitly named songs. All ten exact bands are present; source nested mezzo credit and existing target-credit policy require Baker only on the five songs. No singer is borrowed across works or made optional on her source songs.",
+      "external_source_files": [
+        {
+          "path": "data/review_sources/partial38-6748142/source-observation.txt",
+          "sha256": "0158bb595ae84b2b06c11ea9ac0cc4c97e8f928eb14e0decaff4a02eb8e2377d",
+          "source_url": "https://wmg.jp/john-barbirolli/discography/23679"
+        }
+      ],
+      "source_heading_groups": []
+    },
+    {
+      "discogs_id": "9093524",
+      "album_id": "0077776402253",
+      "target_sha256": "92f11286d327d49083924f2ac80e41d74122a2890c47c7250f50bfcb71bc7385",
+      "album_sha256": "bd745972020c9c249ada87c1296e86805c56b325fdae88146cf14269aab3a737",
+      "source_sha256": "d181c7773ca979be0f5e2983053aa3f5d60939889c2b2390ef6de4ab3d56c5be",
+      "sources": [
+        "https://www.discogs.com/release/9093524"
+      ],
+      "limitations": [
+        "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+      ],
+      "decision": "withhold",
+      "recording_review": "The8tracklead has Lark but not Symphony6. The larger Boult9symphonycollection contains Symphony6and Lark material, but source work-specific violin soloist and recording provenance must be bound explicitly; matching Boult/orchestra alone does not identify the source Lark take. No source requirement is dropped.",
+      "works": []
+    },
+    {
+      "discogs_id": "9298124",
+      "album_id": "k1fzv07nbcobc",
+      "target_sha256": "04c80920cf853490cf8cfd706dddc6cfb2b57af77dfd1f6264edf755a695a283",
+      "album_sha256": "86a2bfc8df2d643523596027ef3d9e3c5986d570d533eafc85d6f7dc81020bd5",
+      "source_sha256": "164d2298f5c897246f82435b4a8750c740a2fefac4d37b530709f5fb5174c21a",
+      "sources": [
+        "https://www.discogs.com/release/9298124"
+      ],
+      "limitations": [
+        "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+      ],
+      "decision": "withhold",
+      "recording_review": "The3tracklead only has Hindemith concerto. Complete cached Deccaalternatives contain Bruch/Hindemith but source Bruch names harpist OsianEllis and Horenstein, while Hindemith conducts his own work. Ellie harp credit/full positive orchestral scopes are not validated by current scored groups. Five source Bruch sections versus four digital tracks also need joined introduction mapping.",
+      "works": []
+    },
+    {
+      "discogs_id": "9707819",
+      "album_id": "dfrctkagpn1sc",
+      "target_sha256": "073c99f832080dc526fbd7c8b0168ac5adf9487901ee205272e87cff243078bf",
+      "album_sha256": "77d2c7d7519b73c6d38d269acb562177aa1473d40ac24ef9d8049738716b2dbd",
+      "source_sha256": "5c8dd02d88c98ce7ea1cdebcd68d2f471c61f8fc5621fcde75c7382ea749e884",
+      "sources": [
+        "https://www.discogs.com/release/9707819"
+      ],
+      "limitations": [
+        "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+      ],
+      "decision": "withhold",
+      "recording_review": "APR/Warneralternatives contain ChopinSonata3and some Liszt material, but the exact source Chopin/LisztBminor pairing and transfers/takes are not established. The bare Bminor source title must not be assigned to another Liszt piece or ChopinSonata2.",
+      "works": []
+    },
+    {
+      "discogs_id": "11647374",
+      "album_id": "5099909799356",
+      "target_sha256": "013b2204a570bd819a3b8225e7913c3f7b98c51e13969ab2f1aaa53760248e4d",
+      "album_sha256": "731316e05a2ed1595183d3632fa892744821a6bac3ecb3b143e13c8849fbb22e",
+      "source_sha256": "4c8eb4e594cd0d9666dd8bc6d9726bfe6e1ab6e7002dc3456693e1d3f15c24d9",
+      "sources": [
+        "https://www.discogs.com/release/11647374"
+      ],
+      "limitations": [
+        "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+      ],
+      "decision": "withhold",
+      "recording_review": "Source pairs SchumannSpring and MendelssohnReformation with source Philharmonia/Muti. The main candidate only has Schumann symphonies; cached Mendelssohnalternatives use NewPhilharmonia or a Vienna live session. Orchestra naming/session identity and a complete source coupling are unresolved.",
+      "works": []
+    },
+    {
+      "discogs_id": "17748481",
+      "album_id": "m6u4fb18bgxda",
+      "target_sha256": "d6d9466aa81eb4e1081db9f25a5b419e353d244973762cab72fbcfe1545bccbe",
+      "album_sha256": "386bc3337ba4a5a642896e7b1bc441035f67313889f2430e86700165c975e777",
+      "source_sha256": "6a4de772621ea33b51e03899251f74f0acaec35c75dacf1fec3b5b7c369c2acf",
+      "sources": [
+        "https://www.discogs.com/release/17748481",
+        "https://www.deutschegrammophon.com/en/catalogue/products/brahms-piano-concertos-no-1-2-gilels-jochum-13097"
+      ],
+      "limitations": [
+        "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+      ],
+      "decision": "probable",
+      "review_kind": "source-leaf-bands",
+      "source_outline_sha256": "2bb0fa181d75762bf2ff0195d5d68ad7243f36c651160988cb2456314925e069",
+      "source_leaves": [
+        {
+          "path": [
+            0
+          ],
+          "source_work": "Allegro Non Troppo",
+          "title": "Allegro Non Troppo",
+          "position": "A1",
+          "duration": "18:04"
+        },
+        {
+          "path": [
+            1
+          ],
+          "source_work": "Allegro Appassionato",
+          "title": "Allegro Appassionato",
+          "position": "A2",
+          "duration": "9:21"
+        },
+        {
+          "path": [
+            2
+          ],
+          "source_work": "Andante",
+          "title": "Andante",
+          "position": "B1",
+          "duration": "13:59"
+        },
+        {
+          "path": [
+            3
+          ],
+          "source_work": "Allegro Grazioso",
+          "title": "Allegro Grazioso",
+          "position": "B2",
+          "duration": "9:42"
+        }
+      ],
+      "bindings": [
+        {
+          "source_path": [
+            0
+          ],
+          "track_ids": [
+            189468459
+          ],
+          "track_sha256": [
+            "af07a0a37feca5f045395fee04abd4454a14e99d14418a5c3442e86b3c260f01"
+          ],
+          "required_performers": [
+            "Eugen Jochum",
+            "Emil Gilels",
+            "Berliner Philharmoniker"
+          ],
+          "composer": "Johannes Brahms"
+        },
+        {
+          "source_path": [
+            1
+          ],
+          "track_ids": [
+            189468460
+          ],
+          "track_sha256": [
+            "b8217991851608e5200a5c32f7c73c0cf4d73218c967d377d786177819c8580a"
+          ],
+          "required_performers": [
+            "Eugen Jochum",
+            "Emil Gilels",
+            "Berliner Philharmoniker"
+          ],
+          "composer": "Johannes Brahms"
+        },
+        {
+          "source_path": [
+            2
+          ],
+          "track_ids": [
+            189468461
+          ],
+          "track_sha256": [
+            "2014ac52fd5ad6a2bc320a980fb6db6e8c5cf9e797638d7076a04354b4c50acc"
+          ],
+          "required_performers": [
+            "Eugen Jochum",
+            "Emil Gilels",
+            "Berliner Philharmoniker"
+          ],
+          "composer": "Johannes Brahms"
+        },
+        {
+          "source_path": [
+            3
+          ],
+          "track_ids": [
+            189468462
+          ],
+          "track_sha256": [
+            "309e01745035574682c9c414a267bc412f484ff77423c905c903433ff786eb2e"
+          ],
+          "required_performers": [
+            "Eugen Jochum",
+            "Emil Gilels",
+            "Berliner Philharmoniker"
+          ],
+          "composer": "Johannes Brahms"
+        }
+      ],
+      "selected_track_fingerprints": {
+        "189468459": "af07a0a37feca5f045395fee04abd4454a14e99d14418a5c3442e86b3c260f01",
+        "189468460": "b8217991851608e5200a5c32f7c73c0cf4d73218c967d377d786177819c8580a",
+        "189468461": "2014ac52fd5ad6a2bc320a980fb6db6e8c5cf9e797638d7076a04354b4c50acc",
+        "189468462": "309e01745035574682c9c414a267bc412f484ff77423c905c903433ff786eb2e"
+      },
+      "extra_track_ids": [
+        189468452,
+        189468453,
+        189468454,
+        189468455,
+        189468456,
+        189468457,
+        189468458,
+        189468463,
+        189468464,
+        189468465,
+        189468466,
+        189468467,
+        189468468,
+        189468469
+      ],
+      "recording_review": "DGpublisher identifies the Gilels/Jochum/Berlin Brahms concerto family. Source Op83lists four bare-tempo bands; cached DGanthology has all four exact numbered concerto2movements, matching cast/composer. Source durations18:04/9:21/13:59/9:42compare to18:15/9:24/13:59/9:45within the existing3percent tolerance. Source AllegroGrazioso versus digital AllegrettoGrazioso is retained, not silently rewritten.",
+      "external_source_files": [
+        {
+          "path": "data/review_sources/partial38-17748481/source-observation.txt",
+          "sha256": "f4b3f25679d9e470e94dd911b338336080caa24a955b4321ab0054c0673c6861",
+          "source_url": "https://www.deutschegrammophon.com/en/catalogue/products/brahms-piano-concertos-no-1-2-gilels-jochum-13097"
+        }
+      ],
+      "source_heading_groups": []
+    },
+    {
+      "discogs_id": "7752066",
+      "album_id": "0002894782622",
+      "target_sha256": "b59d42298fc5def85d9d96e44112c24603606cdd46d6b9ce62c783c37f6f5a81",
+      "album_sha256": "12872525fd9a991bd2e085e3b542ed5ac2e84261b093d770604b19f229075e6c",
+      "source_sha256": "c6c0589a79483e0e5c411f4c45c9892b7fc10f43a5b70673e0aef45dd31e844c",
+      "sources": [
+        "https://www.discogs.com/release/7752066"
+      ],
+      "limitations": [
+        "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+      ],
+      "decision": "withhold",
+      "recording_review": "The53trackBrendelbox contains many source works under Deutschrather than opus titles. The raw18groupPhilipsprogramme also includes grouped dances/ecossaises, Wanderer and source side/band structures; no complete18work/movement mapping or source-cycle/take verification is established. Low coverage is not proof the ten unmatched labels mean absent audio.",
+      "works": []
+    },
+    {
+      "discogs_id": "8182960",
+      "album_id": "0002894812561",
+      "target_sha256": "ca1d792b9d8260ccfc31b05f7a7d3324f21383a3bb56aa2583a8a06a00f0f854",
+      "album_sha256": "1baa593f0750cf9dc8fadcca0982cea00134fb5920900e736b3c1855382c4ba1",
+      "source_sha256": "3cca60654034977423c730ad44258a9b4ec198edaec8edcba6e9ff21cf80e471",
+      "sources": [
+        "https://www.discogs.com/release/8182960"
+      ],
+      "limitations": [
+        "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+      ],
+      "decision": "withhold",
+      "recording_review": "The24trackAuriacombe/Witoldcandidate supplies orchestral suites, while source additionally requires Brandenburg3/4/5and the two-piano concertoBWV1061. Other cached hits are suites/excerpts/different performers, not a verified full seven-work source set.",
+      "works": []
+    },
+    {
+      "discogs_id": "10707559",
+      "album_id": "0002894135872",
+      "target_sha256": "aecfbdf60b9ba9cddf7090b55ea25eb247aa5dad4d2ce1e0103b806670dfeb89",
+      "album_sha256": "868e699a3f832f12449b3fbf6401b07837b0a6b3f2aa40d438a520cdac65920a",
+      "source_sha256": "e4317a38382df1a832e1ab682d4e94d76d267becd1769db68ea5a083abdf2f43",
+      "sources": [
+        "https://www.discogs.com/release/10707559",
+        "https://www.deutschegrammophon.com/en/catalogue/products/karajan-liszt-rossini-smetana-weber-7707"
+      ],
+      "limitations": [
+        "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged.",
+        "Full-name source GioacchinoRossini/fileGioachinoRossini spelling is reconciled only within this exact source/album review; no global alias."
+      ],
+      "decision": "probable",
+      "review_kind": "source-leaf-bands",
+      "source_outline_sha256": "f366a8616c56299ddbdd8d10d33be39e12e7889122ab37dffe3c22a0bac31acb",
+      "source_leaves": [
+        {
+          "path": [
+            0
+          ],
+          "source_work": "Die Moldau",
+          "title": "Die Moldau",
+          "position": "A1",
+          "duration": "12:17"
+        },
+        {
+          "path": [
+            1
+          ],
+          "source_work": "Les Préludes",
+          "title": "Les Préludes",
+          "position": "A2",
+          "duration": "16:40"
+        },
+        {
+          "path": [
+            2
+          ],
+          "source_work": "Aufforderung Zum Tanz Op.65",
+          "title": "Aufforderung Zum Tanz Op.65",
+          "position": "B1",
+          "duration": "10:23"
+        },
+        {
+          "path": [
+            3
+          ],
+          "source_work": "Ungarische Rhapsodie Nr.5 E-Moll",
+          "title": "Ungarische Rhapsodie Nr.5 E-Moll",
+          "position": "B2",
+          "duration": "13:05"
+        },
+        {
+          "path": [
+            4
+          ],
+          "source_work": "Wilhelm Tell - Ouvertère",
+          "title": "Wilhelm Tell - Ouvertère",
+          "position": "B3",
+          "duration": "11:38"
+        }
+      ],
+      "bindings": [
+        {
+          "source_path": [
+            0
+          ],
+          "track_ids": [
+            516770
+          ],
+          "track_sha256": [
+            "090cd5f99e72cc1fe95c84f628675690616de31563c936ff3be3b71171a181fa"
+          ],
+          "required_performers": [
+            "Herbert von Karajan",
+            "Berliner Philharmoniker"
+          ],
+          "composer": "Bedrich Smetana"
+        },
+        {
+          "source_path": [
+            1
+          ],
+          "track_ids": [
+            516771
+          ],
+          "track_sha256": [
+            "53534a7e2fb8389ab9a591cd96d7416d5cdcf6e3f8058bf391ac3d23aabf5609"
+          ],
+          "required_performers": [
+            "Herbert von Karajan",
+            "Berliner Philharmoniker"
+          ],
+          "composer": "Franz Liszt"
+        },
+        {
+          "source_path": [
+            2
+          ],
+          "track_ids": [
+            516772
+          ],
+          "track_sha256": [
+            "adb9afd590a2fe4ae800fa834ef9521c73ef28a5af7d9fdf71b8bef4d6ecf482"
+          ],
+          "required_performers": [
+            "Herbert von Karajan",
+            "Berliner Philharmoniker"
+          ],
+          "composer": "Carl Maria Von Weber"
+        },
+        {
+          "source_path": [
+            3
+          ],
+          "track_ids": [
+            516773
+          ],
+          "track_sha256": [
+            "c4cdb26d88005ca41d7f364e8886d444af0d53ae4a06f5790548ca726eb9a8bb"
+          ],
+          "required_performers": [
+            "Herbert von Karajan",
+            "Berliner Philharmoniker"
+          ],
+          "composer": "Franz Liszt"
+        },
+        {
+          "source_path": [
+            4
+          ],
+          "track_ids": [
+            516774
+          ],
+          "track_sha256": [
+            "6c84f1f04b6de188050bb80dbfaa388fa2f07f085107b291c78079a6c5e9e958"
+          ],
+          "required_performers": [
+            "Herbert von Karajan",
+            "Berliner Philharmoniker"
+          ],
+          "composer": "Gioachino Rossini"
+        }
+      ],
+      "selected_track_fingerprints": {
+        "516770": "090cd5f99e72cc1fe95c84f628675690616de31563c936ff3be3b71171a181fa",
+        "516771": "53534a7e2fb8389ab9a591cd96d7416d5cdcf6e3f8058bf391ac3d23aabf5609",
+        "516772": "adb9afd590a2fe4ae800fa834ef9521c73ef28a5af7d9fdf71b8bef4d6ecf482",
+        "516773": "c4cdb26d88005ca41d7f364e8886d444af0d53ae4a06f5790548ca726eb9a8bb",
+        "516774": "6c84f1f04b6de188050bb80dbfaa388fa2f07f085107b291c78079a6c5e9e958"
+      },
+      "extra_track_ids": [],
+      "recording_review": "DGpublisher identifies413587with the same five named orchestral selections and Berlin/Karajan, released1984. Source413587-1specifies new digital recordings NewYear1983/early1984. Cached4135872has all five, positive source musicians and respective composers; translation/Moldau/Vltava and HungarianRhapsody5orchestral naming are bound explicitly. No earlier1967Moldau or Rhapsody2substitution.",
+      "external_source_files": [
+        {
+          "path": "data/review_sources/partial38-10707559/source-observation.txt",
+          "sha256": "eb0d5dd0bcb9401876a611ff4f04d32f57bec4e610923182b0895f89c92fa022",
+          "source_url": "https://www.deutschegrammophon.com/en/catalogue/products/karajan-liszt-rossini-smetana-weber-7707"
+        }
+      ],
+      "source_composer_spellings": [
+        {
+          "source_name": "Gioacchino Rossini",
+          "file_name": "Gioachino Rossini",
+          "reason": "Exact source DG413587-1and publisher DG4135872both identify Rossini WilliamTellOverture with Karajan/Berlin. The full-name c/chspelling variant is confined to this frozen source/album mapping, not a surname or family alias."
+        }
+      ],
+      "source_heading_groups": []
+    },
+    {
+      "discogs_id": "16423914",
+      "album_id": "3610154253367",
+      "target_sha256": "1f4f9233bf41e54d03061bce821702b8ca6288ae235d0a6f18839f26c795a7c5",
+      "album_sha256": "0f531e42e3b3b88f374384461436a14b56904aaff0ac2bdee47b094ff497d523",
+      "source_sha256": "eb1c9a5ed4ff675a9eaab405d58224a40da3ff9b3f2047ebc7e381e10efaa5cc",
+      "sources": [
+        "https://www.discogs.com/release/16423914"
+      ],
+      "limitations": [
+        "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+      ],
+      "decision": "withhold",
+      "recording_review": "TheWarnerrecitalalternative includes the two exact liveBesancon1950Schubertimpromptus, while theBNFlead only covers Bach/Mozart. No saved candidate establishes all13source waltzes plus that live programme. Distinguish prior separately reviewed studio14waltzes from this final recital.",
+      "works": []
+    },
+    {
+      "discogs_id": "5940193",
+      "album_id": "0002894552542",
+      "target_sha256": "29739f68a3017d5b0ce4d37fe5355610ee2c73acdcc23e1e02bede7f8545bf5d",
+      "album_sha256": "2ac38b098efc3bd4d93dc0b91a3bde6cba5c34b3c74bc77a08fcde3ef5f9a3d8",
+      "source_sha256": "7be0e99f0f6449d5a5724c3d474b8519187580515557db014e157ce1b4ccf869",
+      "sources": [
+        "https://www.discogs.com/release/5940193"
+      ],
+      "limitations": [
+        "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+      ],
+      "decision": "withhold",
+      "recording_review": "The86trackBoskovskyanthology contains several translated source waltzes/polkas, but no complete eight-piece source concert-year/take mapping is established. Similarly named GypsyBaron overture/entrymarch in other albums can have a different conductor.",
+      "works": []
+    },
+    {
+      "discogs_id": "7830338",
+      "album_id": "j3wvrfjcqfgpa",
+      "target_sha256": "a2a3d25525b7b56aa488d2e553e603c0fb69233d5648045995a8d9eb403ee84b",
+      "album_sha256": "3807dc87953ca73b53280fbbc9694d394e22cd086a1c1ad5005359cffdb75ddc",
+      "source_sha256": "329b8d8a3ed9116efc723c99cfd5b9b1101890c51e6b39f16224b6c25aab06ea",
+      "sources": [
+        "https://www.discogs.com/release/7830338"
+      ],
+      "limitations": [
+        "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+      ],
+      "decision": "withhold",
+      "recording_review": "Saved WalterSonycandidate supplies WagnerSiegfriedIdyll but not full source Bruckner7coupling. Separate Bruckner7files and Wagnerpreludes require original ColumbiaSymphony/source-family and full-programme/take corroboration. No automatic multi-file release union.",
+      "works": []
+    },
+    {
+      "discogs_id": "2349914",
+      "album_id": "0002894685492",
+      "target_sha256": "27faf5652558fee279eac359e0f97c52641cbfda9a4588ffcf790fca70dce48f",
+      "album_sha256": "df259cef9c7592c3351e3809aa4d152a9dacc4a33ebb4bcadfbd5e373d20cc85",
+      "source_sha256": "6f590eac2eee016960f6fdb83458f13d025a3e325c4d9511dd43fc8361a97033",
+      "sources": [
+        "https://www.discogs.com/release/2349914"
+      ],
+      "limitations": [
+        "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+      ],
+      "decision": "withhold",
+      "recording_review": "Saved Marrineralbums contain Brandenburgconcertos and another MusicalOffering, but source includes three disc headings, appendices, flat movement bands, MusicalOfferingcanons/triosonata and named instrumentalists. Complete one-candidate source accounting and appendix/version/take mapping are unresolved.",
+      "works": []
+    },
+    {
+      "discogs_id": "1252193",
+      "album_id": "0088807233722",
+      "target_sha256": "d875fb3e28adb8a7acd3ebc541402c649425be7f546b1257e0495fdd16c23192",
+      "album_sha256": "ea861ec137e8995fc4ab6f5ff4f83e4b0763b46fc4c952ea6809f2b821d3e1cd",
+      "source_sha256": "8aedb26d1f6f44993dbce1b131ebe10fcfc702a25a182ce8e26bc6d712199064",
+      "sources": [
+        "https://www.discogs.com/release/1252193"
+      ],
+      "limitations": [
+        "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+      ],
+      "decision": "withhold",
+      "recording_review": "TheMasseyHallquintetcandidate has six pieces, including Wee under its AllensAlley alias, while the16tracksource includes additional trio/solo material such as SureThing/MyDevotion. Other Parkercompilations do not prove the same extended concert/takes/cast.",
+      "works": []
+    },
+    {
+      "discogs_id": "1665223",
+      "album_id": "0002894746122",
+      "target_sha256": "e2928a2aa82e73cb410491461b1119b09648ff71f21dd836b004e6714d5c455e",
+      "album_sha256": "6f3c509fc9ac200b954d975c69896583d737cef857aff64626a0073332bc4ffd",
+      "source_sha256": "f6a09e847393b7f5642d18c8e2633b051b894199b715f7603a2937351037456d",
+      "sources": [
+        "https://www.discogs.com/release/1665223"
+      ],
+      "limitations": [
+        "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+      ],
+      "decision": "withhold",
+      "recording_review": "SavedSaintSaensfiles supply Bacchanale/DanseMacabreand possibly Deluge, but no full source Barenboim/Paris seven-piece Berlioz/SaintSaens/Dukasset is verified. BerliozCarnavalRomain must not be confused with SaintSaensCarnavalDesAnimaux; similarly named Dukas in a compilation may use another cast.",
+      "works": []
+    },
+    {
+      "discogs_id": "2861399",
+      "album_id": "i69zcubh0ecua",
+      "target_sha256": "ea148b4a1ef629b798ec63921d07e7190b862ace46f5d845a78d32491f4c8985",
+      "album_sha256": "3ccaa07ae1fa401e226bd426e3ba9db7e502d3f67a527321fa634d51bc0c6680",
+      "source_sha256": "57184416c3de85d0a433c91b91398b80d7c3414cfaac04a6a1785ccfdf2b0b76",
+      "sources": [
+        "https://www.discogs.com/release/2861399"
+      ],
+      "limitations": [
+        "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+      ],
+      "decision": "withhold",
+      "recording_review": "NinaSimonebestlead supplies four source songs; other saved studio albums cover different subsets. Source15songcompilation mixes material requiring version/live/studio identity; title matches do not establish the entire programme or same takes.",
+      "works": []
+    },
+    {
+      "discogs_id": "14134908",
+      "album_id": "q15nv0i0kv1ga",
+      "target_sha256": "74fbb98786a242fe108a674ee9181c457834c9323ff77cd72584c703e9034000",
+      "album_sha256": "5cbcbaf692022683097e7134cc1ccb12fa8343cb5b02b9c85d7bb6b7d780d8e0",
+      "source_sha256": "99f2cdb4641353bbbbfd0ff83f70b8f0b3d119afe0d3b130d10fdb90ba3c3647",
+      "sources": [
+        "https://www.discogs.com/release/14134908"
+      ],
+      "limitations": [
+        "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+      ],
+      "decision": "withhold",
+      "recording_review": "ThebestVoxlead has17waltzes, but another saved Philipsfamilyfilegpw49l128mrpbhas19. Source No10saysOp60No2rather than expectedOp69No2and other keys/numbered-posthumous labels differ. Do not claim two waltzes globally absent or silently correct source labels.",
+      "works": []
+    },
+    {
+      "discogs_id": "8253419",
+      "album_id": "5060122343251",
+      "target_sha256": "f21542c1d5257bea8d53327e5018c07965f33ef0ec1e5f72f0474176431d0390",
+      "album_sha256": "816e0e2d46fbaec8a6c588e18b38ab90d9af1f0a1835ee7ceab53ce767e410d8",
+      "source_sha256": "bb0680befaf747f3b714f50f39224aece25c8722dc4dd3a6beadba4d3af2e488",
+      "sources": [
+        "https://www.discogs.com/release/8253419"
+      ],
+      "limitations": [
+        "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+      ],
+      "decision": "withhold",
+      "recording_review": "PastClassicsfourtracks contain full-labelled BWV826/992/906and FischerPassacaglia with positive Landowska credits. Source uses Schmiederlabels; title alias alone cannot establish completeness within joined multi-movement tracks or exact recording/transfer identity. Other files include different Bach programmes.",
+      "works": []
+    },
+    {
+      "discogs_id": "10146327",
+      "album_id": "0886445075649",
+      "target_sha256": "38e7bdab9e8a6f896e36fc2da45a53c67c6043cda5ccafc73343d95b10998a1d",
+      "album_sha256": "8345516786cf68ddfb3218d51b44c41f320676c6f01c83a5bd7481a1de895f3f",
+      "source_sha256": "f838300aa6b0ba24b5f871533862cd0a665ea9bc57cd5deb51c93a1513b65398",
+      "sources": [
+        "https://www.discogs.com/release/10146327"
+      ],
+      "limitations": [
+        "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+      ],
+      "decision": "withhold",
+      "recording_review": "SourceCBS60264requires DvorakTrioOp65,StravinskySuiteItalienne,KodalyDuo and Handel/HalvorsenPassacaglia at CarnegieHall with three named musicians. SavedDuoCollectioncovers some duos, while other files cover trio; pianist Pennario is not required on duos but must be verified on the trio. Full same-source/take coverage is unresolved.",
+      "works": []
+    },
+    {
+      "discogs_id": "5980586",
+      "album_id": "0825646036363",
+      "target_sha256": "3f3b1acbdb53d6227f67fe80119affdc202797e29c2da681d65425ba148eb802",
+      "album_sha256": "9fe6ea0204520540b1af444177177b23d58270bc3ac8600ef3971436fbad084b",
+      "source_sha256": "9b33080387981c3a69fc4f10574856ef7eb2a302a25a192089ab0204a8ade633",
+      "sources": [
+        "https://www.discogs.com/release/5980586",
+        "https://wmg.jp/pires/discography/7669"
+      ],
+      "limitations": [
+        "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+      ],
+      "decision": "probable",
+      "review_kind": "source-leaf-bands",
+      "source_outline_sha256": "31fd4a9e044e9c79f1c7e13a3a809ef577dab4765ae8cff804be00ffc4938a96",
+      "source_leaves": [
+        {
+          "path": [
+            0,
+            0
+          ],
+          "source_work": "Kinderszenen, Op. 15 - Scènes D'Enfants / Scenes From Childhood",
+          "title": "Von Fremden Ländern Und Menschen",
+          "position": "A1",
+          "duration": "1:40"
+        },
+        {
+          "path": [
+            0,
+            1
+          ],
+          "source_work": "Kinderszenen, Op. 15 - Scènes D'Enfants / Scenes From Childhood",
+          "title": "Kuriose Geschichte",
+          "position": "A2",
+          "duration": "1:00"
+        },
+        {
+          "path": [
+            0,
+            2
+          ],
+          "source_work": "Kinderszenen, Op. 15 - Scènes D'Enfants / Scenes From Childhood",
+          "title": "Hasche-Mann",
+          "position": "A3",
+          "duration": "0:35"
+        },
+        {
+          "path": [
+            0,
+            3
+          ],
+          "source_work": "Kinderszenen, Op. 15 - Scènes D'Enfants / Scenes From Childhood",
+          "title": "Bittendes Kind",
+          "position": "A4",
+          "duration": "1:45"
+        },
+        {
+          "path": [
+            0,
+            4
+          ],
+          "source_work": "Kinderszenen, Op. 15 - Scènes D'Enfants / Scenes From Childhood",
+          "title": "Glückes Genug",
+          "position": "A5",
+          "duration": "1:08"
+        },
+        {
+          "path": [
+            0,
+            5
+          ],
+          "source_work": "Kinderszenen, Op. 15 - Scènes D'Enfants / Scenes From Childhood",
+          "title": "Wichtige Begebenheit",
+          "position": "A6",
+          "duration": "0:52"
+        },
+        {
+          "path": [
+            0,
+            6
+          ],
+          "source_work": "Kinderszenen, Op. 15 - Scènes D'Enfants / Scenes From Childhood",
+          "title": "Träumerei",
+          "position": "A7",
+          "duration": "3:15"
+        },
+        {
+          "path": [
+            0,
+            7
+          ],
+          "source_work": "Kinderszenen, Op. 15 - Scènes D'Enfants / Scenes From Childhood",
+          "title": "Am Kamin",
+          "position": "A8",
+          "duration": "0:54"
+        },
+        {
+          "path": [
+            0,
+            8
+          ],
+          "source_work": "Kinderszenen, Op. 15 - Scènes D'Enfants / Scenes From Childhood",
+          "title": "Ritter Vom Steckenpferd",
+          "position": "A9",
+          "duration": "0:38"
+        },
+        {
+          "path": [
+            0,
+            9
+          ],
+          "source_work": "Kinderszenen, Op. 15 - Scènes D'Enfants / Scenes From Childhood",
+          "title": "Fast Zu Ernst",
+          "position": "A10",
+          "duration": "1:58"
+        },
+        {
+          "path": [
+            0,
+            10
+          ],
+          "source_work": "Kinderszenen, Op. 15 - Scènes D'Enfants / Scenes From Childhood",
+          "title": "Fürchtenmachen",
+          "position": "A11",
+          "duration": "2:03"
+        },
+        {
+          "path": [
+            0,
+            11
+          ],
+          "source_work": "Kinderszenen, Op. 15 - Scènes D'Enfants / Scenes From Childhood",
+          "title": "Kind Am Einschlummern",
+          "position": "A12",
+          "duration": "1:46"
+        },
+        {
+          "path": [
+            0,
+            12
+          ],
+          "source_work": "Kinderszenen, Op. 15 - Scènes D'Enfants / Scenes From Childhood",
+          "title": "Der Dichter Spricht",
+          "position": "A13",
+          "duration": "2:53"
+        },
+        {
+          "path": [
+            1,
+            0
+          ],
+          "source_work": "Waldszenen, Op. 82 - Scènes De La Forêt - Forest Scenes",
+          "title": "Eintritt",
+          "position": "B1",
+          "duration": "1:46"
+        },
+        {
+          "path": [
+            1,
+            1
+          ],
+          "source_work": "Waldszenen, Op. 82 - Scènes De La Forêt - Forest Scenes",
+          "title": "Jäger Auf Der Lauer",
+          "position": "B2",
+          "duration": "1:17"
+        },
+        {
+          "path": [
+            1,
+            2
+          ],
+          "source_work": "Waldszenen, Op. 82 - Scènes De La Forêt - Forest Scenes",
+          "title": "Einsame Blumen",
+          "position": "B3",
+          "duration": "1:55"
+        },
+        {
+          "path": [
+            1,
+            3
+          ],
+          "source_work": "Waldszenen, Op. 82 - Scènes De La Forêt - Forest Scenes",
+          "title": "Verrufene Stelle",
+          "position": "B4",
+          "duration": "3:00"
+        },
+        {
+          "path": [
+            1,
+            4
+          ],
+          "source_work": "Waldszenen, Op. 82 - Scènes De La Forêt - Forest Scenes",
+          "title": "Freundliche Landschaft",
+          "position": "B5",
+          "duration": "1:03"
+        },
+        {
+          "path": [
+            1,
+            5
+          ],
+          "source_work": "Waldszenen, Op. 82 - Scènes De La Forêt - Forest Scenes",
+          "title": "Herberge",
+          "position": "B6",
+          "duration": "1:57"
+        },
+        {
+          "path": [
+            1,
+            6
+          ],
+          "source_work": "Waldszenen, Op. 82 - Scènes De La Forêt - Forest Scenes",
+          "title": "Vogel Als Prophet",
+          "position": "B7",
+          "duration": "3:00"
+        },
+        {
+          "path": [
+            1,
+            7
+          ],
+          "source_work": "Waldszenen, Op. 82 - Scènes De La Forêt - Forest Scenes",
+          "title": "Jagdlied",
+          "position": "B8",
+          "duration": "2:23"
+        },
+        {
+          "path": [
+            1,
+            8
+          ],
+          "source_work": "Waldszenen, Op. 82 - Scènes De La Forêt - Forest Scenes",
+          "title": "Abschied",
+          "position": "B9",
+          "duration": "2:54"
+        },
+        {
+          "path": [
+            3,
+            0
+          ],
+          "source_work": "1. Drei Stücklein",
+          "title": "Nicht Schnell, Mit Innigkeit",
+          "position": "B10a",
+          "duration": "1:31"
+        },
+        {
+          "path": [
+            3,
+            1
+          ],
+          "source_work": "1. Drei Stücklein",
+          "title": "Sehr Rasch",
+          "position": "B10b",
+          "duration": "0:56"
+        },
+        {
+          "path": [
+            3,
+            2
+          ],
+          "source_work": "1. Drei Stücklein",
+          "title": "Frisch",
+          "position": "B10c",
+          "duration": "0:45"
+        },
+        {
+          "path": [
+            4,
+            0
+          ],
+          "source_work": "2. Albumblätter",
+          "title": "Ziemlich Langsam",
+          "position": "B11a",
+          "duration": "2:03"
+        },
+        {
+          "path": [
+            4,
+            1
+          ],
+          "source_work": "2. Albumblätter",
+          "title": "Schnell",
+          "position": "B11b",
+          "duration": "0:42"
+        },
+        {
+          "path": [
+            4,
+            2
+          ],
+          "source_work": "2. Albumblätter",
+          "title": "Ziemlich Langsam, Sehr Gesangvoll",
+          "position": "B11c",
+          "duration": "1:26"
+        },
+        {
+          "path": [
+            4,
+            3
+          ],
+          "source_work": "2. Albumblätter",
+          "title": "Langsam",
+          "position": "B11d",
+          "duration": "1:22"
+        },
+        {
+          "path": [
+            4,
+            4
+          ],
+          "source_work": "2. Albumblätter",
+          "title": "Sehr Langsam",
+          "position": "B11e",
+          "duration": "1:37"
+        },
+        {
+          "path": [
+            5
+          ],
+          "source_work": "4. Präludium",
+          "title": "4. Präludium",
+          "position": "B12",
+          "duration": "1:25"
+        }
+      ],
+      "bindings": [
+        {
+          "source_path": [
+            0,
+            0
+          ],
+          "track_ids": [
+            2679243
+          ],
+          "track_sha256": [
+            "5bcd86ecc1f34b986965ff5dcd54e9be9768e346902c1acd2e1518b2c2d2bf27"
+          ],
+          "required_performers": [
+            "Maria João Pires"
+          ],
+          "composer": "Robert Schumann"
+        },
+        {
+          "source_path": [
+            0,
+            1
+          ],
+          "track_ids": [
+            2679244
+          ],
+          "track_sha256": [
+            "3d95bf8adb2989f6afe9b9681ff084c8f8f2426d0ebb2429f5e8bb49c789b2da"
+          ],
+          "required_performers": [
+            "Maria João Pires"
+          ],
+          "composer": "Robert Schumann"
+        },
+        {
+          "source_path": [
+            0,
+            2
+          ],
+          "track_ids": [
+            2679245
+          ],
+          "track_sha256": [
+            "d71876e4818b9f0fa04b548b426fc4a426f11f8b3eb110cf957c9e47dec94c2f"
+          ],
+          "required_performers": [
+            "Maria João Pires"
+          ],
+          "composer": "Robert Schumann"
+        },
+        {
+          "source_path": [
+            0,
+            3
+          ],
+          "track_ids": [
+            2679246
+          ],
+          "track_sha256": [
+            "083fe5aefa7ccd8111a1d192d5b80972bea27f3fde5dbe688384ea9f479a763f"
+          ],
+          "required_performers": [
+            "Maria João Pires"
+          ],
+          "composer": "Robert Schumann"
+        },
+        {
+          "source_path": [
+            0,
+            4
+          ],
+          "track_ids": [
+            2679247
+          ],
+          "track_sha256": [
+            "c1e0bfad2432e20a96c76c7ece06dcb1f37bc85c449f414416dbc4692be67fbd"
+          ],
+          "required_performers": [
+            "Maria João Pires"
+          ],
+          "composer": "Robert Schumann"
+        },
+        {
+          "source_path": [
+            0,
+            5
+          ],
+          "track_ids": [
+            2679248
+          ],
+          "track_sha256": [
+            "9afaedbb32fb50f91397b6f85770a1c6e8a036f7d333c44355a3438d77556df9"
+          ],
+          "required_performers": [
+            "Maria João Pires"
+          ],
+          "composer": "Robert Schumann"
+        },
+        {
+          "source_path": [
+            0,
+            6
+          ],
+          "track_ids": [
+            2679249
+          ],
+          "track_sha256": [
+            "5ce0924d4b307ad5a1fad8e1537779029e028439e59e5cb09498cae7e44b8539"
+          ],
+          "required_performers": [
+            "Maria João Pires"
+          ],
+          "composer": "Robert Schumann"
+        },
+        {
+          "source_path": [
+            0,
+            7
+          ],
+          "track_ids": [
+            2679250
+          ],
+          "track_sha256": [
+            "4a23291c56235745815bf49dc24c6aaa430523d85a2bd7a61a2a8f8828c8aafb"
+          ],
+          "required_performers": [
+            "Maria João Pires"
+          ],
+          "composer": "Robert Schumann"
+        },
+        {
+          "source_path": [
+            0,
+            8
+          ],
+          "track_ids": [
+            2679251
+          ],
+          "track_sha256": [
+            "04fe23790e0768f9c06b02c798c4647e5ce4895a785e4f324f6b217bf76902c7"
+          ],
+          "required_performers": [
+            "Maria João Pires"
+          ],
+          "composer": "Robert Schumann"
+        },
+        {
+          "source_path": [
+            0,
+            9
+          ],
+          "track_ids": [
+            2679252
+          ],
+          "track_sha256": [
+            "1fc0519a2cc0514d17717201d7f9d2904321eec50c64d2f0026831234c86dab3"
+          ],
+          "required_performers": [
+            "Maria João Pires"
+          ],
+          "composer": "Robert Schumann"
+        },
+        {
+          "source_path": [
+            0,
+            10
+          ],
+          "track_ids": [
+            2679253
+          ],
+          "track_sha256": [
+            "ec59aa6342599e4cb16a9dc2c21d19d07aba60067f398ad5123b034b6f641ca8"
+          ],
+          "required_performers": [
+            "Maria João Pires"
+          ],
+          "composer": "Robert Schumann"
+        },
+        {
+          "source_path": [
+            0,
+            11
+          ],
+          "track_ids": [
+            2679254
+          ],
+          "track_sha256": [
+            "0d4659cc6aaceb902200d62cea498d672527bc3151ab5434606ad9be7ce96269"
+          ],
+          "required_performers": [
+            "Maria João Pires"
+          ],
+          "composer": "Robert Schumann"
+        },
+        {
+          "source_path": [
+            0,
+            12
+          ],
+          "track_ids": [
+            2679255
+          ],
+          "track_sha256": [
+            "e73dcb53dc4441ff404277e02112e3d306d881cd9a99859dba9b926e0c6c859a"
+          ],
+          "required_performers": [
+            "Maria João Pires"
+          ],
+          "composer": "Robert Schumann"
+        },
+        {
+          "source_path": [
+            1,
+            0
+          ],
+          "track_ids": [
+            2679256
+          ],
+          "track_sha256": [
+            "3b11eeec161d7cb2fbde40e64f83f41cc46c477e2fcc6fa2e47cd535e5e3e89a"
+          ],
+          "required_performers": [
+            "Maria João Pires"
+          ],
+          "composer": "Robert Schumann"
+        },
+        {
+          "source_path": [
+            1,
+            1
+          ],
+          "track_ids": [
+            2679257
+          ],
+          "track_sha256": [
+            "c484f02102254ab6f1624b7c5139445c6acb452c62ba8e1468badb188780a665"
+          ],
+          "required_performers": [
+            "Maria João Pires"
+          ],
+          "composer": "Robert Schumann"
+        },
+        {
+          "source_path": [
+            1,
+            2
+          ],
+          "track_ids": [
+            2679258
+          ],
+          "track_sha256": [
+            "0cf3356b96f7ee4a783f9a1356322282c65261581424ffad6f073ec03ed9f0e7"
+          ],
+          "required_performers": [
+            "Maria João Pires"
+          ],
+          "composer": "Robert Schumann"
+        },
+        {
+          "source_path": [
+            1,
+            3
+          ],
+          "track_ids": [
+            2679259
+          ],
+          "track_sha256": [
+            "26dcbac1969ccfa0662844d5962b589e1ed4fdaa69ee414d32ab301bced44edf"
+          ],
+          "required_performers": [
+            "Maria João Pires"
+          ],
+          "composer": "Robert Schumann"
+        },
+        {
+          "source_path": [
+            1,
+            4
+          ],
+          "track_ids": [
+            2679260
+          ],
+          "track_sha256": [
+            "b87fd80eab8f612cbf91ca9dbddf1c203594f0d268e43635551abe7c0eba27ab"
+          ],
+          "required_performers": [
+            "Maria João Pires"
+          ],
+          "composer": "Robert Schumann"
+        },
+        {
+          "source_path": [
+            1,
+            5
+          ],
+          "track_ids": [
+            2679261
+          ],
+          "track_sha256": [
+            "883c3466afe9a82b9c6e60d29bb5b2c2aabe2a66fb723d23acc118ce97eddbec"
+          ],
+          "required_performers": [
+            "Maria João Pires"
+          ],
+          "composer": "Robert Schumann"
+        },
+        {
+          "source_path": [
+            1,
+            6
+          ],
+          "track_ids": [
+            2679262
+          ],
+          "track_sha256": [
+            "a2907c13035d4e36c637d4b1beeb71a1016d790837fc2cf8a6030166a01f946a"
+          ],
+          "required_performers": [
+            "Maria João Pires"
+          ],
+          "composer": "Robert Schumann"
+        },
+        {
+          "source_path": [
+            1,
+            7
+          ],
+          "track_ids": [
+            2679263
+          ],
+          "track_sha256": [
+            "df7ff6de9377fe6ed70911a427e885d02165edb1bc0e654fa82da66defc20477"
+          ],
+          "required_performers": [
+            "Maria João Pires"
+          ],
+          "composer": "Robert Schumann"
+        },
+        {
+          "source_path": [
+            1,
+            8
+          ],
+          "track_ids": [
+            2679264
+          ],
+          "track_sha256": [
+            "80e90a5ebbbc56aa8705a83d272679aed17d9c48b1fdbecf98c3c8e8c387e846"
+          ],
+          "required_performers": [
+            "Maria João Pires"
+          ],
+          "composer": "Robert Schumann"
+        },
+        {
+          "source_path": [
+            3,
+            0
+          ],
+          "track_ids": [
+            2679265
+          ],
+          "track_sha256": [
+            "4d2d96062b4ace894d086e24ae170e8a90d3cef9221d94ed5817fbec9f490873"
+          ],
+          "required_performers": [
+            "Maria João Pires"
+          ],
+          "composer": "Robert Schumann"
+        },
+        {
+          "source_path": [
+            3,
+            1
+          ],
+          "track_ids": [
+            2679266
+          ],
+          "track_sha256": [
+            "b478a478a11057a3d672858ec4b9b8c27617822f64f677c238707766e52f930c"
+          ],
+          "required_performers": [
+            "Maria João Pires"
+          ],
+          "composer": "Robert Schumann"
+        },
+        {
+          "source_path": [
+            3,
+            2
+          ],
+          "track_ids": [
+            2679267
+          ],
+          "track_sha256": [
+            "8b547e62820470d8c24c8e461fd39a710892e2c986b01b6e55442121ccd8f33a"
+          ],
+          "required_performers": [
+            "Maria João Pires"
+          ],
+          "composer": "Robert Schumann"
+        },
+        {
+          "source_path": [
+            4,
+            0
+          ],
+          "track_ids": [
+            2679268
+          ],
+          "track_sha256": [
+            "844277b547fb876c9a39ec3dc00f52b3e3fe8e6573af17fada647591bf712d2e"
+          ],
+          "required_performers": [
+            "Maria João Pires"
+          ],
+          "composer": "Robert Schumann"
+        },
+        {
+          "source_path": [
+            4,
+            1
+          ],
+          "track_ids": [
+            2679269
+          ],
+          "track_sha256": [
+            "0d8943f218de81e4ae99b2aa98644a32ce9bc757184fa33b3fc06d1bfa18bf27"
+          ],
+          "required_performers": [
+            "Maria João Pires"
+          ],
+          "composer": "Robert Schumann"
+        },
+        {
+          "source_path": [
+            4,
+            2
+          ],
+          "track_ids": [
+            2679270
+          ],
+          "track_sha256": [
+            "3aae523c5f324a70dc4eea66d999b507f79ce8a927de1c4ceb40417a36021a10"
+          ],
+          "required_performers": [
+            "Maria João Pires"
+          ],
+          "composer": "Robert Schumann"
+        },
+        {
+          "source_path": [
+            4,
+            3
+          ],
+          "track_ids": [
+            2679271
+          ],
+          "track_sha256": [
+            "0c5922610170cc5d9512c6f731e5763c7b4acffc81495b5234bd9791940cdb9a"
+          ],
+          "required_performers": [
+            "Maria João Pires"
+          ],
+          "composer": "Robert Schumann"
+        },
+        {
+          "source_path": [
+            4,
+            4
+          ],
+          "track_ids": [
+            2679272
+          ],
+          "track_sha256": [
+            "2e49118c2ca1ed2cb985e4236525ad094556a58f7d8583c6b2942bfab34d46f4"
+          ],
+          "required_performers": [
+            "Maria João Pires"
+          ],
+          "composer": "Robert Schumann"
+        },
+        {
+          "source_path": [
+            5
+          ],
+          "track_ids": [
+            2679273
+          ],
+          "track_sha256": [
+            "87800c46443e9291d495557f7a76dbfa3f50fe64a524b44800904d44360ecaf2"
+          ],
+          "required_performers": [
+            "Maria João Pires"
+          ],
+          "composer": "Robert Schumann"
+        }
+      ],
+      "selected_track_fingerprints": {
+        "2679243": "5bcd86ecc1f34b986965ff5dcd54e9be9768e346902c1acd2e1518b2c2d2bf27",
+        "2679244": "3d95bf8adb2989f6afe9b9681ff084c8f8f2426d0ebb2429f5e8bb49c789b2da",
+        "2679245": "d71876e4818b9f0fa04b548b426fc4a426f11f8b3eb110cf957c9e47dec94c2f",
+        "2679246": "083fe5aefa7ccd8111a1d192d5b80972bea27f3fde5dbe688384ea9f479a763f",
+        "2679247": "c1e0bfad2432e20a96c76c7ece06dcb1f37bc85c449f414416dbc4692be67fbd",
+        "2679248": "9afaedbb32fb50f91397b6f85770a1c6e8a036f7d333c44355a3438d77556df9",
+        "2679249": "5ce0924d4b307ad5a1fad8e1537779029e028439e59e5cb09498cae7e44b8539",
+        "2679250": "4a23291c56235745815bf49dc24c6aaa430523d85a2bd7a61a2a8f8828c8aafb",
+        "2679251": "04fe23790e0768f9c06b02c798c4647e5ce4895a785e4f324f6b217bf76902c7",
+        "2679252": "1fc0519a2cc0514d17717201d7f9d2904321eec50c64d2f0026831234c86dab3",
+        "2679253": "ec59aa6342599e4cb16a9dc2c21d19d07aba60067f398ad5123b034b6f641ca8",
+        "2679254": "0d4659cc6aaceb902200d62cea498d672527bc3151ab5434606ad9be7ce96269",
+        "2679255": "e73dcb53dc4441ff404277e02112e3d306d881cd9a99859dba9b926e0c6c859a",
+        "2679256": "3b11eeec161d7cb2fbde40e64f83f41cc46c477e2fcc6fa2e47cd535e5e3e89a",
+        "2679257": "c484f02102254ab6f1624b7c5139445c6acb452c62ba8e1468badb188780a665",
+        "2679258": "0cf3356b96f7ee4a783f9a1356322282c65261581424ffad6f073ec03ed9f0e7",
+        "2679259": "26dcbac1969ccfa0662844d5962b589e1ed4fdaa69ee414d32ab301bced44edf",
+        "2679260": "b87fd80eab8f612cbf91ca9dbddf1c203594f0d268e43635551abe7c0eba27ab",
+        "2679261": "883c3466afe9a82b9c6e60d29bb5b2c2aabe2a66fb723d23acc118ce97eddbec",
+        "2679262": "a2907c13035d4e36c637d4b1beeb71a1016d790837fc2cf8a6030166a01f946a",
+        "2679263": "df7ff6de9377fe6ed70911a427e885d02165edb1bc0e654fa82da66defc20477",
+        "2679264": "80e90a5ebbbc56aa8705a83d272679aed17d9c48b1fdbecf98c3c8e8c387e846",
+        "2679265": "4d2d96062b4ace894d086e24ae170e8a90d3cef9221d94ed5817fbec9f490873",
+        "2679266": "b478a478a11057a3d672858ec4b9b8c27617822f64f677c238707766e52f930c",
+        "2679267": "8b547e62820470d8c24c8e461fd39a710892e2c986b01b6e55442121ccd8f33a",
+        "2679268": "844277b547fb876c9a39ec3dc00f52b3e3fe8e6573af17fada647591bf712d2e",
+        "2679269": "0d8943f218de81e4ae99b2aa98644a32ce9bc757184fa33b3fc06d1bfa18bf27",
+        "2679270": "3aae523c5f324a70dc4eea66d999b507f79ce8a927de1c4ceb40417a36021a10",
+        "2679271": "0c5922610170cc5d9512c6f731e5763c7b4acffc81495b5234bd9791940cdb9a",
+        "2679272": "2e49118c2ca1ed2cb985e4236525ad094556a58f7d8583c6b2942bfab34d46f4",
+        "2679273": "87800c46443e9291d495557f7a76dbfa3f50fe64a524b44800904d44360ecaf2"
+      },
+      "extra_track_ids": [],
+      "recording_review": "Warner publisher dates Pires Schumann family to August1984, matching raw EratoNUM75178notes. The cached Warner/Erato alternative, not the13trackKinderszenen-only lead, contains31complete source pieces:13Kinderszenen,9Waldszenen,3Stucklein,5Albumblatterand Op99No10Prelude. BunteBlatter headings are structural; no entire group is dropped or treated as a phantom work. Positive Pires/Schumann credits throughout.",
+      "external_source_files": [
+        {
+          "path": "data/review_sources/partial38-5980586/source-observation.txt",
+          "sha256": "1faa24861efb318e83d29b90f4dba258662b8433cc00f4c776f4bb8ebb75b620",
+          "source_url": "https://wmg.jp/pires/discography/7669"
+        }
+      ],
+      "source_heading_groups": [
+        {
+          "source_path": [
+            2
+          ],
+          "title": "Bunte Blätter, Op. 99 (1, 2, 4) - Feuilles Multicolores / Leaves Of Different Colours",
+          "covered_source_paths": [
+            [
+              3,
+              0
+            ],
+            [
+              3,
+              1
+            ],
+            [
+              3,
+              2
+            ],
+            [
+              4,
+              0
+            ],
+            [
+              4,
+              1
+            ],
+            [
+              4,
+              2
+            ],
+            [
+              4,
+              3
+            ],
+            [
+              4,
+              4
+            ],
+            [
+              5
+            ]
+          ]
+        }
+      ]
+    },
+    {
+      "discogs_id": "9297425",
+      "album_id": "0002894757331",
+      "target_sha256": "6d933e909cfcd8c027727f92a8fd7c95c0fae489b8c197e2d279316147512685",
+      "album_sha256": "503960a1497cfb2bfb57e9f1eea01d20e4f234cb7eda8dafb152429d591babb3",
+      "source_sha256": "7be05d0dad2b2f05ee656ba2e2389b31832bdab4ea64cf3cdd493fcf0e6f2cb1",
+      "sources": [
+        "https://www.discogs.com/release/9297425"
+      ],
+      "limitations": [
+        "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+      ],
+      "decision": "withhold",
+      "recording_review": "Source five groups include MarchesK408/2and3,12GermanDancesK586,twoK463andsevenK65aminuets. FullMozart225provides dance sets but saved march metadata live in another volume; a complete source programme in one candidate with verified identity is not established.",
+      "works": []
+    },
+    {
+      "discogs_id": "16463043",
+      "album_id": "0035626094928",
+      "target_sha256": "d1d9a32e3bdbc0bf0b60647c000c54502ed9a7a92aa1083f626a15110137143e",
+      "album_sha256": "6e552b95adf748dc2bfe7dd8132b45cdaa9776ce03516973812f2a4686cdcb27",
+      "source_sha256": "30bcd9607e01985910420cfa434d9b0f50c346c14004f8e40c79228e51eb1676",
+      "sources": [
+        "https://www.discogs.com/release/16463043"
+      ],
+      "limitations": [
+        "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+      ],
+      "decision": "withhold",
+      "recording_review": "RCA48joined-paircandidate contains complete WTCbooks includingBookII, but source specifically requests24BookIIpairsBWV870–893with side-range headings and Salzburg1972/73notes. Separate48split-track/liveInnsbruck1973editions also appear. Existing paired-review adapters cover different exact source forms; no complete24pair/source-range and same-take binding is saved here.",
+      "works": []
+    },
+    {
+      "discogs_id": "2819374",
+      "album_id": "0002894592022",
+      "target_sha256": "0cbf1d971b7c299027948b05542971f932d23fc38c984fb1d19e0857dfacd01e",
+      "album_sha256": "3c73710e44cad9bf6759ca594a682b94631c232712d3576c32cd9b406c566dcf",
+      "source_sha256": "bf6fdf0115b6b36c66000a41cfded0fdfedd47912eb907acd531dfa687733a13",
+      "sources": [
+        "https://www.discogs.com/release/2819374"
+      ],
+      "limitations": [
+        "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+      ],
+      "decision": "withhold",
+      "recording_review": "DG50trackalternativecontains concerto1and the four named source mazurkas, so the source fillers are not globally absent. Concerto metadata includes composer/production strings without positive Vasary/Semkow/Berlincredit across the group; original six-tracklead only has concertos. No borrowing soloist/conductor from mazurkas.",
+      "works": []
+    },
+    {
+      "discogs_id": "10423743",
+      "album_id": "0002894757331",
+      "target_sha256": "aed973164454ae6de32a692266a56924ea09101908c372316461c034e42163c1",
+      "album_sha256": "503960a1497cfb2bfb57e9f1eea01d20e4f234cb7eda8dafb152429d591babb3",
+      "source_sha256": "f9eeb2c40b5dba3d96f94e72328f4c3e11546b51cf11db0ccc5fa0422c076f6e",
+      "sources": [
+        "https://www.discogs.com/release/10423743"
+      ],
+      "limitations": [
+        "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+      ],
+      "decision": "withhold",
+      "recording_review": "Source asks K215,K509,K462,K408/1,K567,K267. CachedMozart225contains complete dance sets including joined K509Nos1–6, but exact source marches/member numbering and full same-file source coverage remain unresolved across saved volumes. Joined six dances are not one absent set.",
+      "works": []
+    },
+    {
+      "discogs_id": "2329424",
+      "album_id": "3614592182814",
+      "target_sha256": "a0364ebad22a33b4b3942b10da428ec92fdc73488cdc28fd8562a2ae8a73dbf4",
+      "album_sha256": "95eeaa9fb5ba69f14cac65d27f3949ef59b5cf5d6019a2069d41dc0ff5d52ec8",
+      "source_sha256": "51c1ce7aa5900bf84c3a9408c9d5230a394b129516efabb157d6451852256a6e",
+      "sources": [
+        "https://www.discogs.com/release/2329424"
+      ],
+      "limitations": [
+        "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+      ],
+      "decision": "withhold",
+      "recording_review": "SavedUninskysonataalbum supplies sonata2while other files have source etudes. No verified same-source candidate supplies both source Military/Heroicpolonaises plus all named etudes and the full sonata. Sonatas2and3are not interchangeable fillers.",
+      "works": []
+    },
+    {
+      "discogs_id": "4191410",
+      "album_id": "o28w5rn5t2obc",
+      "target_sha256": "b2a1cb40aca3f736648b362561abe25c960673d1a2e3e19d1b8e879f7a548f4f",
+      "album_sha256": "42208c8867d7abbfbec49a329da2725c5f347074ef2daf2dfd8d1b654da0a465",
+      "source_sha256": "62816a38f31a55ed9c1cd6d9c9d30b3224fa95450dfc20dacc2de7e05c78ed68",
+      "sources": [
+        "https://www.discogs.com/release/4191410"
+      ],
+      "limitations": [
+        "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+      ],
+      "decision": "withhold",
+      "recording_review": "SourceZabaletaset includes BachBWV1006aarrangement,Handel/Corelli-derivedsonata,variations and other sonatas. Cached recitals cover different subsets; source transcription identities and catalogue/work boundaries cannot be inferred from shared harp titles.",
+      "works": []
+    },
+    {
+      "discogs_id": "8264477",
+      "album_id": "5099909500358",
+      "target_sha256": "993550017d31f30b2039dc1fc902ca72b461ee2685e17e9e0ac86de49512693e",
+      "album_sha256": "ffae222c545a63d2319163aa0bb686260c1c19ae61f4a8a5de8aaf43ef92d2ec",
+      "source_sha256": "24f36fb01e4d72516c3315f5cdadc223f42a7ae36dfd9508b498f1990bb6d1ff",
+      "sources": [
+        "https://www.discogs.com/release/8264477"
+      ],
+      "limitations": [
+        "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+      ],
+      "decision": "withhold",
+      "recording_review": "Mesple74trackanthology contains some source opera arias, but source nine nested numbers across seven operas require exact aria/version mapping and Marty/Parisopera orchestra credits. An opera heading alone or unrelated RomeoJulietorchestral track is not a vocal performance match.",
+      "works": []
+    },
+    {
+      "discogs_id": "10868192",
+      "album_id": "s01yolts1bb0a",
+      "target_sha256": "9cf95775bf6f6f03c0cfc0ab5b5d8ac2b7e13b0f5df4313423686b00d18469e3",
+      "album_sha256": "ec0801a4315e1465c8d95ce52c70c749eac418610b54185301c1a43d327eb562",
+      "source_sha256": "8d3b2163e69d6bb2b5842a205973641e8a14c1c33409052725fefbfec4980a11",
+      "sources": [
+        "https://www.discogs.com/release/10868192"
+      ],
+      "limitations": [
+        "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+      ],
+      "decision": "withhold",
+      "recording_review": "Giesekinglarge source has PartitaNoampersand,Suite5keywording and mixedScarlattiLcatalogues/Schubertopusgroups. Saved100/112trackanthologies contain relevant pieces but no complete source23group/take mapping. Source BerceuseOp60andother labels are not automatically corrected.",
+      "works": []
+    },
+    {
+      "discogs_id": "11059547",
+      "album_id": "t353g451zlhda",
+      "target_sha256": "dc2f6640fedf0221302d66d4a722c33ad4d2d4aac1b90db4e7ca0d20eed5a903",
+      "album_sha256": "be8a3054ebfdc67ce6488014a31b6c9a1533c1a543fb01c4fdab46aafb4ffa0d",
+      "source_sha256": "3ae5801101a9db169a5ae904413f4e6d3dd3e78c94f67ec7611b363be79e49d5",
+      "sources": [
+        "https://www.discogs.com/release/11059547"
+      ],
+      "limitations": [
+        "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+      ],
+      "decision": "withhold",
+      "recording_review": "SavedNeumann/Dvorakfiles contain selected symphonies, while the44trackDeccaCompleteSymphoniescandidate uses other conductors/orchestras for much of the programme. No full source Neumann/CzechPhilharmonicnine-symphony recording cycle is verified; source8has three listed bands needing finale accounting.",
+      "works": []
+    },
+    {
+      "discogs_id": "7597643",
+      "album_id": "0002894830446",
+      "target_sha256": "1d6a90afeae02659188592c99e9af40184af678ab9db23c8aabe77ea25a2bd9c",
+      "album_sha256": "974493d0e9fd467e00da731a9ef97c593f42a2f681a28af04982d8b8bf80d57f",
+      "source_sha256": "bb5a2737f4efcba5568e4be34c55aff4819f44d03ccf4066d602162509a105bb",
+      "sources": [
+        "https://www.discogs.com/release/7597643"
+      ],
+      "limitations": [
+        "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+      ],
+      "decision": "withhold",
+      "recording_review": "SavedHaitink44trackanthology and35trackcycle contain many symphonies, but source requires ten(0–9)with edition wording and split slow movements across sides. Some alternatives use Jochum or another version. Full source0/version/side structure and cycle identity are not yet bound; no global claim of absence.",
+      "works": []
+    },
+    {
+      "discogs_id": "17256520",
+      "album_id": "3614595247336",
+      "target_sha256": "4a9fcded71150cdb4b28341ba6b6732cf717584d8f9bed779a5667289fd20f52",
+      "album_sha256": "86af6861eb84918b6655f4754dd43a23aad060b616c4b046adcf978e1b2852e7",
+      "source_sha256": "05a9de6782676cbe5c4843dd6c84ad43e0bfa8ec9e3d519e1998019092c9d3a9",
+      "sources": [
+        "https://www.discogs.com/release/17256520"
+      ],
+      "limitations": [
+        "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+      ],
+      "decision": "withhold",
+      "recording_review": "CachedPhilips71trackcompleteQuartettoItalianocycle plausibly covers all quartets and GrosseFuge. Rawsource also names PieroFarulli(viola), absent normalized principal list; saved tracks often only credit ensemble. All source names, Op130alternatefinale/GrosseFuge and source grouped/split Op135must be explicitly accounted for. No ensemble-to-members waiver.",
+      "works": []
+    },
+    {
+      "discogs_id": "4575174",
+      "album_id": "bn0ko4pji8z8b",
+      "target_sha256": "c53f4b11395f94d1e3a275357a078a41370e7d405dd83642e597e04e6baff234",
+      "album_sha256": "9725ac2e7f1272bc4c668e47dfdc1998d23d315bb858b0a67bd2c0b724a82aa3",
+      "source_sha256": "810cec9f92040eca23ecde8cb3037d1cbcfe575049a64ea4516d317b7a960e9b",
+      "sources": [
+        "https://www.discogs.com/release/4575174"
+      ],
+      "limitations": [
+        "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+      ],
+      "decision": "withhold",
+      "recording_review": "Source31LPStravinskyRecordedLegacycontains rehearsal/spoken documents, songs, operas, ballets and choral works. Saved limited orchestral/concerto candidates cannot verify that full corpus; title-only SymphonyOp1support does not validate the box, and composer may not be the performer on other files.",
+      "works": []
     }
   ]
 }

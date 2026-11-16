@@ -2151,3 +2151,22 @@ User requested push: main advanced from2c5742ato4adc1e5successfully, including
 all23reviews,936album cache/ranking, twoBrahms and16full-support reviews.
 GitHub Pages deployment not checked. Next recommendation:38partial-support leads
 using cached programme/credit evidence; no new retrieval implied.
+
+
+### 2026-11-16 — All38partial-support recording reviews complete
+
+6Probable/32explicit holds, no new Qobuz calls. Accepted9297226KertészSchubert9,
+4031075PolliniPetrushka/Prokofiev7,6748142BarbirolliMahler5/Rückert,
+10707559Karajan1984recital,17748481GilelsBrahms2,5980586Pires31Schumannpieces.
+Every raw source leaf/structural heading and selected track is frozen; existing
+source-work credits reused, including Bakeronlyonher songs. Explicit six-second
+Pollini timing discrepancy and full Rossini spelling retained as bounded reviews,
+not global take/identity rules. BlackMoldaucandidate is Fiedler/BostonPops; raw
+Farulliviola/Ellisharp credit omissions remain held, not waived. Haebler has a
+19waltzalternative but source labels conflict. All38source/candidate/alternative
+hashes, track title lists, findings and next actions saved in the
+[batch results](../plans/2026-11-16-qobuz-partial38.md).250script tests,
+normalization and build pass; exactly6Unchecked→Probable, collection/Spotify
+unchanged.12Found/159Probable/570Unchecked copies.160lead queue now17resolved,
+39reviewed holds,104open zero-rule cases. Source-role audit recorded as proposal.
+No push/deployment.

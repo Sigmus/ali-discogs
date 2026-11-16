@@ -59,6 +59,9 @@ def assess(row, album, review):
     if review.get('source_sha256') is not None and hashlib.sha256((ROOT/f"raw/discogs/releases/{review['discogs_id']}.json").read_bytes()).hexdigest() != review['source_sha256']:
         raise ValueError('Reviewed source changed; review recording evidence again')
     validate_external_sources(review)
+    if review.get('review_kind') == 'source-leaf-bands':
+        from qobuz_source_leaf_review import assess_leaves
+        return assess_leaves(row, album, review)
     if review.get('review_kind') == 'source-vocal-programme':
         from qobuz_vocal_programme_review import assess_vocal_programme
         return assess_vocal_programme(row, album, review)

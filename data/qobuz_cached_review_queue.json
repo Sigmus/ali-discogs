@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "reviewed_on": "2026-11-15",
-  "population": "497 unique releases currently categorized work_or_credit_unresolved",
+  "population": "459 unique releases currently categorized work_or_credit_unresolved",
   "rules": {
     "priority_review": "Unheld cached candidate supports >=50% of current source units; known/reviewed blockers excluded.",
     "secondary_partial_lead": "Some current support, below50%; known/reviewed blockers excluded.",
@@ -11,8 +11,8 @@
   },
   "counts": {
     "known_constraint": 3,
-    "priority_review": 13,
-    "secondary_partial_lead": 27,
+    "priority_review": 1,
+    "secondary_partial_lead": 1,
     "no_current_supported_units": 454
   },
   "entries": [
@@ -25,14 +25,6 @@
       "uncached_hits": 0,
       "constraint": "Recording-transfer provenance unresolved",
       "evidence": "data/qobuz_gieseking_programme_audit.json"
-    },
-    {
-      "discogs_id": "11765180",
-      "title": "Classiques Espagnols Pour La Guitare",
-      "queue": "priority_review",
-      "best_cached_album_id": "0724357401555",
-      "supported_source_unit_fraction": 0.875,
-      "uncached_hits": 0
     },
     {
       "discogs_id": "15221307",
@@ -53,30 +45,6 @@
       "uncached_hits": 2
     },
     {
-      "discogs_id": "9297226",
-      "title": "Sinfonía No.9 - La Grande En \"Do\" Mayor",
-      "queue": "priority_review",
-      "best_cached_album_id": "0002894307732",
-      "supported_source_unit_fraction": 0.75,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "6210807",
-      "title": "IX. Sinfonie - Egmont-Ouverture - Leonore III",
-      "queue": "priority_review",
-      "best_cached_album_id": "0002894636262",
-      "supported_source_unit_fraction": 0.6666666666666666,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "6652276",
-      "title": "Slavonic Dances / The Moldau / The Bartered Bride (Polka - Dance Of The Comedians)",
-      "queue": "priority_review",
-      "best_cached_album_id": "0002894788453",
-      "supported_source_unit_fraction": 0.6666666666666666,
-      "uncached_hits": 0
-    },
-    {
       "discogs_id": "7609610",
       "title": "Bitches Brew",
       "queue": "known_constraint",
@@ -87,284 +55,12 @@
       "evidence": "docs/plans/2026-11-13-bitches-brew-credits.md"
     },
     {
-      "discogs_id": "2681944",
-      "title": "Sonate Nr. 8 B-dur = B Flat Major / 6 Moments Musicaux",
-      "queue": "priority_review",
-      "best_cached_album_id": "rmi6mvnpjr7aa",
-      "supported_source_unit_fraction": 0.5,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "4031075",
-      "title": "»Pétrouchka« / Sonate Nr. 7 Op. 83",
-      "queue": "priority_review",
-      "best_cached_album_id": "0002894474312",
-      "supported_source_unit_fraction": 0.5,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "6748142",
-      "title": "Symphony No. 5 With Five Rückert Songs",
-      "queue": "priority_review",
-      "best_cached_album_id": "li90nizo543uc",
-      "supported_source_unit_fraction": 0.5,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "9093524",
-      "title": "Symphony No. 6, The Lark Ascending",
-      "queue": "priority_review",
-      "best_cached_album_id": "0077776402253",
-      "supported_source_unit_fraction": 0.5,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "9298124",
-      "title": "Fantasia Escosesa / Concierto Para Violin",
-      "queue": "priority_review",
-      "best_cached_album_id": "k1fzv07nbcobc",
-      "supported_source_unit_fraction": 0.5,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "9707819",
-      "title": "Alfred Cortot 3 - Klaviersonate Nr.3 H-moll Op.58 / Klaviersonate H-moll",
-      "queue": "priority_review",
-      "best_cached_album_id": "dfrctkagpn1sc",
-      "supported_source_unit_fraction": 0.5,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "11647374",
-      "title": "Symphony No. 1 (\"Spring\") / Symphony No. 5 (\"Reformation\")",
-      "queue": "priority_review",
-      "best_cached_album_id": "5099909799356",
-      "supported_source_unit_fraction": 0.5,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "17748481",
-      "title": "Klavierkonzert Nr. 2 B-dur, Opus 83",
-      "queue": "priority_review",
-      "best_cached_album_id": "m6u4fb18bgxda",
-      "supported_source_unit_fraction": 0.5,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "7752066",
-      "title": "Piano Works - Klavierwerke - Musique Pour Piano - 1822-1828",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "0002894782622",
-      "supported_source_unit_fraction": 0.4444444444444444,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "8182960",
-      "title": "Concertos Brandenbourgeouis Nos. 3, 4 Et 5, Suites No. 1,2 \"Badinerie\", 3 \"Aria\" - Concertos Pour 2 Pianos",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "0002894812561",
-      "supported_source_unit_fraction": 0.42857142857142855,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "10707559",
-      "title": "Les Préludes • Die Moldau • Guillaume Tell (Ouverture) • Aufforderung Zum Tanz • Invitation à la Valse • Ungarische Rhapsodie • Rhapsodie Hongroise No. 5",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "0002894135872",
-      "supported_source_unit_fraction": 0.4,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "16423914",
-      "title": "His Last Recital: Besançon Festival - September 16, 1950",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "3610154253367",
-      "supported_source_unit_fraction": 0.4,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "5940193",
-      "title": "New Year´s Concert",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "0002894552542",
-      "supported_source_unit_fraction": 0.375,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "7830338",
-      "title": "Symphony No. 7 In E Major (Original Version); Siegfried Idyll; Prelude To \"Lohengrin\"",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "j3wvrfjcqfgpa",
-      "supported_source_unit_fraction": 0.3333333333333333,
-      "uncached_hits": 0
-    },
-    {
       "discogs_id": "15660391",
       "title": "Zijn Mooiste Pianoconcerten",
       "queue": "secondary_partial_lead",
       "best_cached_album_id": "0724358663259",
       "supported_source_unit_fraction": 0.3333333333333333,
       "uncached_hits": 4
-    },
-    {
-      "discogs_id": "2349914",
-      "title": "Bach, Musicien De Cour : Les Concertos Brandebourgeois, L'Offrande Musicale",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "0002894685492",
-      "supported_source_unit_fraction": 0.3157894736842105,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "1252193",
-      "title": "The Greatest Jazz Concert Ever",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "0088807233722",
-      "supported_source_unit_fraction": 0.3125,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "1665223",
-      "title": "Le Carnaval Romain - Ouverture De \"Béatrice Et Bénédict\"  - Marche Hongroise / L'Apprenti Sorcier / Danse Macabre - Bacchanale De \"Samson Et Dalila\" - Le Déluge",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "0002894746122",
-      "supported_source_unit_fraction": 0.2857142857142857,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "2861399",
-      "title": "Ne Me Quitte Pas",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "i69zcubh0ecua",
-      "supported_source_unit_fraction": 0.26666666666666666,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "14134908",
-      "title": "Intégrale Des 19 Valses",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "q15nv0i0kv1ga",
-      "supported_source_unit_fraction": 0.2631578947368421,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "8253419",
-      "title": "Landowska The Art Of The Harpsichord",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "5060122343251",
-      "supported_source_unit_fraction": 0.25,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "10146327",
-      "title": "Piano Trio, Op. 65 / Suite Italienne / Duo / Passacaglia",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "0886445075649",
-      "supported_source_unit_fraction": 0.25,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "5980586",
-      "title": "Kinderszenen, Op.15 Scènes D'Enfants - Scenes From Childhood / Waldszenen, Op. 82 - Scènes De La Forêt - Forest Scenes",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "rbamhstmy460b",
-      "supported_source_unit_fraction": 0.2,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "9297425",
-      "title": "Complete Dances & Marches (Volume 2)",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "0002894757331",
-      "supported_source_unit_fraction": 0.2,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "16463043",
-      "title": "Il Clavicembalo Ben Temperato  Vol II",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "0035626094928",
-      "supported_source_unit_fraction": 0.2,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "2819374",
-      "title": "Klavierkonzert Nr. 1 E-moll ∙ 4 Mazurkas",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "0002894592022",
-      "supported_source_unit_fraction": 0.16666666666666666,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "10423743",
-      "title": "Intégrales Des Marches Et Danses Allemandes (Volume 1)",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "0002894757331",
-      "supported_source_unit_fraction": 0.16666666666666666,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "2329424",
-      "title": "Sonate N°2 'Funèbre' / Polonaises: N°3 'Militaire' / N°6 'Héroïque' / Études Opus 10 N°7, N°8 / N°3 'Tristesse / N°12 'Révolutionnaire'",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "3614592182814",
-      "supported_source_unit_fraction": 0.14285714285714285,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "4191410",
-      "title": "Untitled",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "o28w5rn5t2obc",
-      "supported_source_unit_fraction": 0.14285714285714285,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "8264477",
-      "title": "L'Art De La Coloratura (Volume 1 - Airs D'Opéras Français)",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "5099909500358",
-      "supported_source_unit_fraction": 0.14285714285714285,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "10868192",
-      "title": "Volume 5 - Grandi Opere Pianistiche",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "s01yolts1bb0a",
-      "supported_source_unit_fraction": 0.13043478260869565,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "11059547",
-      "title": "Symphonien 1-9, Vollständige Ausgabe",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "t353g451zlhda",
-      "supported_source_unit_fraction": 0.1111111111111111,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "7597643",
-      "title": "Sämtliche 10 Sinfonien",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "0002894830446",
-      "supported_source_unit_fraction": 0.1,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "17256520",
-      "title": "Sämtliche Streichquartette Und Große Fuge Op. 133",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "3614595247336",
-      "supported_source_unit_fraction": 0.09090909090909091,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "4575174",
-      "title": "Stravinsky The Recorded Legacy",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "bn0ko4pji8z8b",
-      "supported_source_unit_fraction": 0.007246376811594203,
-      "uncached_hits": 0
     },
     {
       "discogs_id": "594243",
@@ -3999,5 +3695,5 @@
       "uncached_hits": 0
     }
   ],
-  "inventory_sha256": "830ca5f18efd79dc300c034ebb03609565a2eff677ec85b538e4c15be7e2e5a0"
+  "inventory_sha256": "207bb64e9ac626c40bda745d34ce7bae97853d21e5956a463a23b406a29deed8"
 }

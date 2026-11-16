@@ -13,7 +13,7 @@ sys.path.insert(0, str(Path(__file__).resolve().parents[1] / 'src'))
 from ali_discogs.text import tnorm, norm, ORCH_ALIASES, is_composer
 
 ROOT = Path(__file__).resolve().parents[1]
-VERSION = 'qobuz-work-groups-v2+explicit-target-credits+reviewed-leads+opera-source-roles+prelude-fugue-pairs+container-headings+bound-tracks+heading-over-groups+cached-half+side-ranges+scene-sides+catalogue-comma-movements+reviewed-source-composers+source-programme-holds+reviewed-felix-composer-identity+bound-composer-role-marks+source-bound-work-credits+recording-review-precedence+source-vocal-programme+reviewed-source-display+reviewed-contiguous-group-completeness'
+VERSION = 'qobuz-work-groups-v2+explicit-target-credits+reviewed-leads+opera-source-roles+prelude-fugue-pairs+container-headings+bound-tracks+heading-over-groups+cached-half+side-ranges+scene-sides+catalogue-comma-movements+reviewed-source-composers+source-programme-holds+reviewed-felix-composer-identity+bound-composer-role-marks+source-bound-work-credits+recording-review-precedence+source-vocal-programme+reviewed-source-display+reviewed-contiguous-group-completeness+source-leaf-bands'
 
 
 def credits_v1(track):
@@ -459,6 +459,7 @@ def generate():
               'target_credits_fingerprint': hashlib.sha256(target_credits_path.read_bytes()).hexdigest(),
               'source_programme_review_fingerprint': hashlib.sha256((ROOT/'data/qobuz_source_programme_reviews.json').read_bytes()).hexdigest(),
               'composer_identity_policy_fingerprint': hashlib.sha256((ROOT/'scripts/qobuz_composer_identity.py').read_bytes()).hexdigest(),
+              'source_leaf_policy_fingerprint': hashlib.sha256((ROOT/'scripts/qobuz_source_leaf_review.py').read_bytes()).hexdigest(),
               'uncached160_metadata_fingerprint': hashlib.sha256((ROOT/'data/qobuz_uncached160_metadata.json.gz').read_bytes()).hexdigest(),
               'vocal_programme_policy_fingerprint': hashlib.sha256((ROOT/'scripts/qobuz_vocal_programme_review.py').read_bytes()).hexdigest(),
               'source_composer_review_fingerprint': hashlib.sha256((ROOT/'data/qobuz_source_composer_reviews.json').read_bytes()).hexdigest(),
