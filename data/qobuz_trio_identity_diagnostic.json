@@ -1,0 +1,194 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-16",
+  "discogs_id": "8535848",
+  "album_id": "wtgrq4n06qkbb",
+  "target_sha256": "6fcd628cad76f20730be4688a44933f5630673e68142c3e6163459ae94b56bb3",
+  "source_sha256": "0f9c3b16374435c3da3dad1dc8560a0d8c74b75f5a5e8691389ef4e5d6a25e5f",
+  "album_sha256": "65bb2e8e2be7c11587da3b4c73fa36b716e84cd5cd128ef437f715ebe6ff2377",
+  "source_outline_sha256": "0874874cc0825ec53971b7bab10b612078b9136f84ece790b3bbfb960fbe4a59",
+  "required_members": [
+    "Eugene Istomin",
+    "Isaac Stern",
+    "Leonard Rose"
+  ],
+  "collective": "The Istomin/Stern/Rose Trio",
+  "bindings": [
+    {
+      "source_path": [
+        0,
+        0
+      ],
+      "source_work": "Piano Trio № 1 D Minor, Op. 49",
+      "source_title": "I – Molto Allegro Ed Agitato",
+      "source_position": "A1",
+      "source_seconds": 558,
+      "track_id": 57631267,
+      "track_title": "I. Molto allegro ed agitato",
+      "digital_work": "Piano Trio No. 1 in D Minor, Op. 49",
+      "digital_seconds": 557,
+      "delta_seconds": -1,
+      "within_existing_tolerance": true,
+      "missing_members": [],
+      "collective_positively_declared": false,
+      "composer_positive": true,
+      "track_sha256": "5685ec62511debb6084a0ae22ed46503b1da428dbfabc998fb348e4cb2f5003b"
+    },
+    {
+      "source_path": [
+        0,
+        1
+      ],
+      "source_work": "Piano Trio № 1 D Minor, Op. 49",
+      "source_title": "II – Andante Con Moto Tranquillo",
+      "source_position": "A2",
+      "source_seconds": 396,
+      "track_id": 57631268,
+      "track_title": "II. Andante con moto tranquillo",
+      "digital_work": "Piano Trio No. 1 in D Minor, Op. 49",
+      "digital_seconds": 396,
+      "delta_seconds": 0,
+      "within_existing_tolerance": true,
+      "missing_members": [],
+      "collective_positively_declared": false,
+      "composer_positive": true,
+      "track_sha256": "d4fe6acbdc8d928a7e234ac611ea2df3cbf511c73d7383dd250c61b862e9656a"
+    },
+    {
+      "source_path": [
+        0,
+        2
+      ],
+      "source_work": "Piano Trio № 1 D Minor, Op. 49",
+      "source_title": "III – Scherzo: Leggiero E Vivace",
+      "source_position": "A3",
+      "source_seconds": 223,
+      "track_id": 57631269,
+      "track_title": "III. Scherzo. Leggiero e vivace",
+      "digital_work": "Piano Trio No. 1 in D Minor, Op. 49",
+      "digital_seconds": 223,
+      "delta_seconds": 0,
+      "within_existing_tolerance": true,
+      "missing_members": [],
+      "collective_positively_declared": false,
+      "composer_positive": true,
+      "track_sha256": "b61a05db66c3f4fc3577bf95c630eddf7c39aad379472b4e9c7dfda9969fa169"
+    },
+    {
+      "source_path": [
+        0,
+        3
+      ],
+      "source_work": "Piano Trio № 1 D Minor, Op. 49",
+      "source_title": "IV – Finale: Allegro Assai Appassionato",
+      "source_position": "A4",
+      "source_seconds": 495,
+      "track_id": 57631270,
+      "track_title": "IV. Finale. Allegro assai appassionato",
+      "digital_work": "Piano Trio No. 1 in D Minor, Op. 49",
+      "digital_seconds": 494,
+      "delta_seconds": -1,
+      "within_existing_tolerance": true,
+      "missing_members": [],
+      "collective_positively_declared": false,
+      "composer_positive": true,
+      "track_sha256": "3a4be2e3814c05014bb50bead3a5369dd26a8e055e119a5eac3a66f97441d3ea"
+    },
+    {
+      "source_path": [
+        1,
+        0
+      ],
+      "source_work": "Piano Trio № 2 C Minor, Op. 66",
+      "source_title": "I – Allegro Energico E Con Fuoco",
+      "source_position": "B1",
+      "source_seconds": 621,
+      "track_id": 57631271,
+      "track_title": "I. Allegro energico e con fuoco",
+      "digital_work": "Piano Trio No. 2 in C Minor, Op. 66",
+      "digital_seconds": 622,
+      "delta_seconds": 1,
+      "within_existing_tolerance": true,
+      "missing_members": [],
+      "collective_positively_declared": false,
+      "composer_positive": true,
+      "track_sha256": "eb7524c4cd0e6be185d6e5fe299b181b2e5a5d2ef4431fca1b9857d84f4c5339"
+    },
+    {
+      "source_path": [
+        1,
+        1
+      ],
+      "source_work": "Piano Trio № 2 C Minor, Op. 66",
+      "source_title": "II – Andante Espressivo",
+      "source_position": "B2",
+      "source_seconds": 424,
+      "track_id": 57631272,
+      "track_title": "II. Andante espressivo",
+      "digital_work": "Piano Trio No. 2 in C Minor, Op. 66",
+      "digital_seconds": 424,
+      "delta_seconds": 0,
+      "within_existing_tolerance": true,
+      "missing_members": [],
+      "collective_positively_declared": false,
+      "composer_positive": true,
+      "track_sha256": "432d88b0cb2662798a91c84b5dac78dc2f0935111cbf6e25268839e2ad6c32e7"
+    },
+    {
+      "source_path": [
+        1,
+        2
+      ],
+      "source_work": "Piano Trio № 2 C Minor, Op. 66",
+      "source_title": "III – Scherzo: Molto Allegro – Quasi Presto",
+      "source_position": "B3",
+      "source_seconds": 225,
+      "track_id": 57631273,
+      "track_title": "III. Scherzo. Molto allegro quasi presto",
+      "digital_work": "Piano Trio No. 2 in C Minor, Op. 66",
+      "digital_seconds": 225,
+      "delta_seconds": 0,
+      "within_existing_tolerance": true,
+      "missing_members": [],
+      "collective_positively_declared": false,
+      "composer_positive": true,
+      "track_sha256": "02f8379a363e4aa12d7ebe45c3865c972e675310385df9b86b083c1ba9cdca8a"
+    },
+    {
+      "source_path": [
+        1,
+        3
+      ],
+      "source_work": "Piano Trio № 2 C Minor, Op. 66",
+      "source_title": "IV – Finale: Allegro Appassionato",
+      "source_position": "B4",
+      "source_seconds": 475,
+      "track_id": 57631274,
+      "track_title": "IV. Finale. Allegro appassionato",
+      "digital_work": "Piano Trio No. 2 in C Minor, Op. 66",
+      "digital_seconds": 477,
+      "delta_seconds": 2,
+      "within_existing_tolerance": true,
+      "missing_members": [],
+      "collective_positively_declared": false,
+      "composer_positive": true,
+      "track_sha256": "a39ff83c0a859a2348bfd3ef8a92f7ffea20fbfef4f86ce3e116bb7c5c45133d"
+    }
+  ],
+  "summary": {
+    "source_leaves": 8,
+    "candidate_tracks": 8,
+    "all_members_positively_credited": true,
+    "all_composer_checks_pass": true,
+    "all_source_timings_pass": true,
+    "collective_declarations": 0
+  },
+  "proposal_status": "not_adopted",
+  "publication_changed": false,
+  "qobuz_requests": 0,
+  "limitation": "Ordered source/candidate mapping and positive members support a proposed bounded collective decomposition. No existing review kind encodes that rule. No acceptance or exact pressing/take/transfer claim.",
+  "external_source_file": {
+    "path": "data/review_sources/trio-8535848/primary-observation.json",
+    "sha256": "a194fa6d83cedf5e2857572797c77c67d3c3d96e167c85e8a13395a9051a5902"
+  }
+}

@@ -92,8 +92,11 @@ hash-bound timing exception retains all3discrepancies; global tolerance unchange
 All21musician-gap cases triaged:11programme/cast,6missing positive credits,
 2collective-identity issues,2name leads. Both leads now Probable85 with existing
 source-bound aliases:11876845Francescatti/Bernstein and21490438Fischer/Furtwangler.
-[Review/limits](../plans/2026-11-16-qobuz-name2.md). Next:inspect8535848trio
-collective identity with all members retained; no general alias or credit waiver.
+[Review/limits](../plans/2026-11-16-qobuz-name2.md).8535848trio diagnostic complete:
+8/8positive members/composer/timings; collective label absent. Four targeted tests
+pass; publication unchanged. [Bounded proposal](../plans/2026-11-16-qobuz-trio-identity.md)
+needs adoption before a new collective-decomposition rule; no member waiver.
+Next action: adopt or defer that exact source-bound proposal, then reassess.
 Broader source-role parser audit is proposed, not adopted. Krips finale is not
 proven missing; joined-band mapping remains unresolved.
 

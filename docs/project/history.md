@@ -2388,3 +2388,13 @@ Only2publication records changed; original21triage unchanged.311script tests,
 normalization/build and both local detail smoke checks pass; onlyfavicon404.
 No Qobuz/audio requests, global policy change, push or deploy.
 [Audit and continuation](../plans/2026-11-16-qobuz-name2.md).
+
+## 2026-11-16 — Trio collective identity diagnostic
+
+8535848/wtgrq4n06qkbb:all8source bands map in order, source/cache timings differ
+by0–2seconds, all3named instrumentalists/composer positively declared on each.
+Artist primary account corroborates collective membership; no audio/provider call.
+Four targeted diagnostic safeguards pass. Saved hashes/proposal; no ledger,
+publication or matcher change. Promotion requires a new bounded collective
+conjunction; left as open proposal per autonomous-pass limits. Local commit only.
+[Evidence and proposal](../plans/2026-11-16-qobuz-trio-identity.md).

@@ -54,8 +54,9 @@ All21musician-gap cases triaged:11programme/cast,6missing positive credits,
 2collective-identity issues,2bounded name-review leads. No match decisions or
 rules changed by triage. Both name leads now source-bound Probable85;
 [recording decisions/limits](../plans/2026-11-16-qobuz-name2.md). Next cached work:
-inspect8535848trio collective identity, preserving every member and existing
-policy limits. No general alias/role policy adopted. [Audit and next action](../plans/2026-11-16-qobuz-musician21.md).
+8535848trio diagnostic complete:all8timings and named-member credits pass.
+Collective-decomposition rule is an open proposal, not authorized implementation;
+[adoption/acceptance criteria](../plans/2026-11-16-qobuz-trio-identity.md). No general alias/role policy adopted. [Audit and next action](../plans/2026-11-16-qobuz-musician21.md).
 Timing sensitivity complete:onlyGould cleared proposed35%/consensus scenarios in
 30mapped reviews;11other timing-mentioned holds lack full leaf maps. User approved
 only a hash-bound Gould timing exception, now applied; global tolerance unchanged

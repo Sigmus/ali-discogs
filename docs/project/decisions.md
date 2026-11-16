@@ -541,3 +541,13 @@ verified transcription errors or claim listening/exact takes/pressing/mastering.
 The global max5second/3%tolerance stays unchanged. No automatic35%or majority/
 consensus policy adopted, and no missing-band or musician/composer gate waived.
 [Impact and limits](../plans/2026-11-16-qobuz-timing-sensitivity.md).
+
+### 2026-11-16 — Proposed source-bound trio collective decomposition
+
+Not adopted.8535848names The Istomin/Stern/Rose Trio and all3individual players;
+wtgrq4n06qkbbpositively credits those3instrumentalists on all8matching movements,
+with source timings within2seconds. Istomin's own account corroborates membership.
+Propose an exact source-bound all-members conjunction, never a one-member alias
+or arbitrary ensemble-membership waiver. Existing adapters preserve the collective
+requirement; promotion needs separately adopted rule/support. Publication unchanged.
+[Evidence, safeguards and next action](../plans/2026-11-16-qobuz-trio-identity.md).
