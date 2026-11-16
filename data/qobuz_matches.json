@@ -35,7 +35,7 @@
   "richter_review_fingerprint": "a14865f86e46150593e39bfa285fa6c7c61c8f46147b8094c0cb048fd02118ab",
   "round2_review_fingerprint": "be60742c3d35f5a9aa67f200642f7fcde98a52562a46130e043db8f4aa7c851e",
   "round2_metadata_fingerprint": "9db62d7bf62d4b77f5acf422dfde77959f845f4dc00b2ac0e10c02ccea295860",
-  "remaining_review_fingerprint": "b091b15a94ebe95fd1cde8533328b77a3d39b425609bdb6c29952dbb426c7fa4",
+  "remaining_review_fingerprint": "a74658b8b2c67d76b6f21fb603135dffb29719cf14e76c232cb309d3afbc8317",
   "remaining_metadata_fingerprint": "393b2d12e176160ab311b65267b38bdc8c205222e12f792bf07eba5c1fcfafbf",
   "remaining_followup_metadata_fingerprint": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
   "seven_album_metadata_fingerprint": "139f9b336c68b56ea22c18362cb0481c026366c5d359142f2bb702fe1233a4fc",
@@ -11766,15 +11766,38 @@
             }
           ],
           "reasons": [
+            "Brandenburg programme exists, but inspected track declarations omit Abbado and I Solisti del Teatro Alla Scala. Album-level names cannot silently replace positive track credits.",
+            "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+            "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+            "Copy-only title/work context does not establish complete recording identity or positive credits.",
             "0/6 target items supported after composer/work grouping; unresolved."
+          ],
+          "recording_review_decision": "withhold",
+          "recording_review": "Brandenburg programme exists, but inspected track declarations omit Abbado and I Solisti del Teatro Alla Scala. Album-level names cannot silently replace positive track credits.",
+          "review_sources": [
+            "https://www.discogs.com/release/3788392"
           ]
         }
       ],
       "query": "claudio abbado bach brandenburg concertos",
       "searched_at": "2026-11-12T14:46:31.456744+00:00",
       "reasons": [
+        "Brandenburg programme exists, but inspected track declarations omit Abbado and I Solisti del Teatro Alla Scala. Album-level names cannot silently replace positive track credits.",
+        "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+        "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+        "Copy-only title/work context does not establish complete recording identity or positive credits.",
         "0/6 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Brandenburg programme exists, but inspected track declarations omit Abbado and I Solisti del Teatro Alla Scala. Album-level names cannot silently replace positive track credits.",
+        "limitations": [
+          "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+          "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+          "Copy-only title/work context does not establish complete recording identity or positive credits."
+        ]
+      }
     },
     "1458083": {
       "status": "probable",
@@ -12364,10 +12387,19 @@
             }
           ],
           "reasons": [
+            "Octet candidate has all eight named players but no source Marlboro ensemble and pairs Mozart Concertone, not the source Mendelssohn Trio. Other candidate pairs Italian Symphony with Octet. Do not combine digital editions.",
+            "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+            "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+            "Copy-only title/work context does not establish complete recording identity or positive credits.",
             "0/2 target items supported after composer/work grouping; unresolved.",
             "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
           ],
-          "work_group_policy": "qobuz-work-groups-v1"
+          "work_group_policy": "qobuz-work-groups-v1",
+          "recording_review_decision": "withhold",
+          "recording_review": "Octet candidate has all eight named players but no source Marlboro ensemble and pairs Mozart Concertone, not the source Mendelssohn Trio. Other candidate pairs Italian Symphony with Octet. Do not combine digital editions.",
+          "review_sources": [
+            "https://www.discogs.com/release/10344924"
+          ]
         }
       ],
       "query": "alexander schneider bartholdy octet",
@@ -12375,7 +12407,17 @@
       "reasons": [
         "0/2 target items supported after composer/work grouping; unresolved.",
         "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Octet candidate has all eight named players but no source Marlboro ensemble and pairs Mozart Concertone, not the source Mendelssohn Trio. Other candidate pairs Italian Symphony with Octet. Do not combine digital editions.",
+        "limitations": [
+          "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+          "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+          "Copy-only title/work context does not establish complete recording identity or positive credits."
+        ]
+      }
     },
     "2712284": {
       "status": "unchecked",
@@ -14679,7 +14721,17 @@
       "searched_at": "2026-11-12T14:49:46.823452+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Saved solo Serkin Bach anthology supports solo couplings, not both three-piano concertos with the source musicians. Work scope cannot fill the missing programme.",
+        "limitations": [
+          "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+          "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+          "Copy-only title/work context does not establish complete recording identity or positive credits."
+        ]
+      }
     },
     "1469965": {
       "status": "probable",
@@ -24416,10 +24468,19 @@
             }
           ],
           "reasons": [
+            "Stern-directed source specifies Columbia Chamber/String orchestras and Zakin on Haydn. Compatible track strings omit required declarations; Szell/Cleveland Mozart alternative is a different cast.",
+            "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+            "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+            "Copy-only title/work context does not establish complete recording identity or positive credits.",
             "0/2 target items supported after composer/work grouping; unresolved.",
             "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
           ],
-          "work_group_policy": "qobuz-work-groups-v1"
+          "work_group_policy": "qobuz-work-groups-v1",
+          "recording_review_decision": "withhold",
+          "recording_review": "Stern-directed source specifies Columbia Chamber/String orchestras and Zakin on Haydn. Compatible track strings omit required declarations; Szell/Cleveland Mozart alternative is a different cast.",
+          "review_sources": [
+            "https://www.discogs.com/release/8971581"
+          ]
         },
         {
           "id": "rmrqn4cldc22b",
@@ -24670,7 +24731,17 @@
       "reasons": [
         "0/2 target items supported after composer/work grouping; unresolved.",
         "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Stern-directed source specifies Columbia Chamber/String orchestras and Zakin on Haydn. Compatible track strings omit required declarations; Szell/Cleveland Mozart alternative is a different cast.",
+        "limitations": [
+          "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+          "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+          "Copy-only title/work context does not establish complete recording identity or positive credits."
+        ]
+      }
     },
     "3103644": {
       "status": "unchecked",
@@ -25012,10 +25083,19 @@
             }
           ],
           "reasons": [
+            "Compatible Agon/Canticum candidate declares orchestra/chorus as Associated Performer, with a chorus-name difference and source scope issues. Alternative Gielen cast differs; no role waiver.",
+            "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+            "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+            "Copy-only title/work context does not establish complete recording identity or positive credits.",
             "0/2 target items supported after composer/work grouping; unresolved.",
             "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
           ],
-          "work_group_policy": "qobuz-work-groups-v1"
+          "work_group_policy": "qobuz-work-groups-v1",
+          "recording_review_decision": "withhold",
+          "recording_review": "Compatible Agon/Canticum candidate declares orchestra/chorus as Associated Performer, with a chorus-name difference and source scope issues. Alternative Gielen cast differs; no role waiver.",
+          "review_sources": [
+            "https://www.discogs.com/release/4519809"
+          ]
         },
         {
           "id": "pt8g5qypj4bxa",
@@ -25098,9 +25178,23 @@
       "query": "igor stravinsky agon canticum sacrum",
       "searched_at": "2026-11-12T15:00:32.226971+00:00",
       "reasons": [
+        "Compatible Agon/Canticum candidate declares orchestra/chorus as Associated Performer, with a chorus-name difference and source scope issues. Alternative Gielen cast differs; no role waiver.",
+        "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+        "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+        "Copy-only title/work context does not establish complete recording identity or positive credits.",
         "0/2 target items supported after composer/work grouping; unresolved.",
         "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Compatible Agon/Canticum candidate declares orchestra/chorus as Associated Performer, with a chorus-name difference and source scope issues. Alternative Gielen cast differs; no role waiver.",
+        "limitations": [
+          "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+          "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+          "Copy-only title/work context does not establish complete recording identity or positive credits."
+        ]
+      }
     },
     "6472687": {
       "status": "probable",
@@ -27543,7 +27637,16 @@
             }
           ],
           "reasons": [
+            "Compatible Walter Requiem has Westminster Choir versus source Westminster Symphonic Choir and omits chorus master John Finley Williamson. An ensemble-name alias alone is insufficient.",
+            "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+            "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+            "Copy-only title/work context does not establish complete recording identity or positive credits.",
             "0/1 target items supported after composer/work grouping; unresolved."
+          ],
+          "recording_review_decision": "withhold",
+          "recording_review": "Compatible Walter Requiem has Westminster Choir versus source Westminster Symphonic Choir and omits chorus master John Finley Williamson. An ensemble-name alias alone is insufficient.",
+          "review_sources": [
+            "https://www.discogs.com/release/5521001"
           ]
         },
         {
@@ -27586,7 +27689,17 @@
       "searched_at": "2026-11-12T15:04:02.340704+00:00",
       "reasons": [
         "0/1 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Compatible Walter Requiem has Westminster Choir versus source Westminster Symphonic Choir and omits chorus master John Finley Williamson. An ensemble-name alias alone is insufficient.",
+        "limitations": [
+          "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+          "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+          "Copy-only title/work context does not establish complete recording identity or positive credits."
+        ]
+      }
     },
     "7609610": {
       "status": "unchecked",
@@ -58210,15 +58323,38 @@
             }
           ],
           "reasons": [
+            "Relevant Strauss anthology tracks declare Szell or Bohm with Vienna/Dresden, not source Karajan/Berlin. Same work titles do not establish the recording.",
+            "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+            "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+            "Copy-only title/work context does not establish complete recording identity or positive credits.",
             "0/9 target items supported after composer/work grouping; unresolved."
+          ],
+          "recording_review_decision": "withhold",
+          "recording_review": "Relevant Strauss anthology tracks declare Szell or Bohm with Vienna/Dresden, not source Karajan/Berlin. Same work titles do not establish the recording.",
+          "review_sources": [
+            "https://www.discogs.com/release/8823847"
           ]
         }
       ],
       "query": "herbert von karajan jr a vienne au temps des strauss",
       "searched_at": "2026-11-12T15:28:04.603515+00:00",
       "reasons": [
+        "Relevant Strauss anthology tracks declare Szell or Bohm with Vienna/Dresden, not source Karajan/Berlin. Same work titles do not establish the recording.",
+        "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+        "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+        "Copy-only title/work context does not establish complete recording identity or positive credits.",
         "0/9 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Relevant Strauss anthology tracks declare Szell or Bohm with Vienna/Dresden, not source Karajan/Berlin. Same work titles do not establish the recording.",
+        "limitations": [
+          "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+          "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+          "Copy-only title/work context does not establish complete recording identity or positive credits."
+        ]
+      }
     },
     "7506575": {
       "status": "unchecked",
@@ -65648,15 +65784,38 @@
             }
           ],
           "reasons": [
+            "Opera Intermezzi supplies excerpts with Berlin/Karajan, not the complete La Scala operas and source cast.",
+            "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+            "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+            "Copy-only title/work context does not establish complete recording identity or positive credits.",
             "0/12 target items supported after composer/work grouping; unresolved."
+          ],
+          "recording_review_decision": "withhold",
+          "recording_review": "Opera Intermezzi supplies excerpts with Berlin/Karajan, not the complete La Scala operas and source cast.",
+          "review_sources": [
+            "https://www.discogs.com/release/3798658"
           ]
         }
       ],
       "query": "herbert von karajan mascagni cavalleria rusticana i pagliacci",
       "searched_at": "2026-11-12T15:45:35.604360+00:00",
       "reasons": [
+        "Opera Intermezzi supplies excerpts with Berlin/Karajan, not the complete La Scala operas and source cast.",
+        "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+        "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+        "Copy-only title/work context does not establish complete recording identity or positive credits.",
         "0/12 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Opera Intermezzi supplies excerpts with Berlin/Karajan, not the complete La Scala operas and source cast.",
+        "limitations": [
+          "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+          "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+          "Copy-only title/work context does not establish complete recording identity or positive credits."
+        ]
+      }
     },
     "2380440": {
       "status": "unchecked",
@@ -66744,15 +66903,38 @@
             }
           ],
           "reasons": [
+            "Saved complete Tchaikovsky cycle is Abbado/Chicago; source names Tilson Thomas, Atzmon and Mravinsky with other orchestras. No generic cast repair.",
+            "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+            "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+            "Copy-only title/work context does not establish complete recording identity or positive credits.",
             "0/12 target items supported after composer/work grouping; unresolved."
+          ],
+          "recording_review_decision": "withhold",
+          "recording_review": "Saved complete Tchaikovsky cycle is Abbado/Chicago; source names Tilson Thomas, Atzmon and Mravinsky with other orchestras. No generic cast repair.",
+          "review_sources": [
+            "https://www.discogs.com/release/9932683"
           ]
         }
       ],
       "query": "michael tilson thomas tchaikovsky 6 symphonies",
       "searched_at": "2026-11-12T15:46:35.398744+00:00",
       "reasons": [
+        "Saved complete Tchaikovsky cycle is Abbado/Chicago; source names Tilson Thomas, Atzmon and Mravinsky with other orchestras. No generic cast repair.",
+        "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+        "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+        "Copy-only title/work context does not establish complete recording identity or positive credits.",
         "0/12 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Saved complete Tchaikovsky cycle is Abbado/Chicago; source names Tilson Thomas, Atzmon and Mravinsky with other orchestras. No generic cast repair.",
+        "limitations": [
+          "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+          "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+          "Copy-only title/work context does not establish complete recording identity or positive credits."
+        ]
+      }
     },
     "9932637": {
       "status": "probable",
@@ -71705,7 +71887,17 @@
       "searched_at": "2026-11-12T15:53:06.158872+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Four-symphony Brahms candidate omits concerto, variations and Requiem from the source box. Global cast scope and roleless ensemble strings are additional blockers.",
+        "limitations": [
+          "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+          "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+          "Copy-only title/work context does not establish complete recording identity or positive credits."
+        ]
+      }
     },
     "11562013": {
       "status": "probable",
@@ -73278,7 +73470,17 @@
       "searched_at": "2026-11-12T15:54:06.174663+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Four-symphony candidate omits the violin concerto, Haydn Variations and Requiem. Global singers/choir and roleless orchestra strings add credit gaps; scope cleanup cannot supply missing works.",
+        "limitations": [
+          "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+          "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+          "Copy-only title/work context does not establish complete recording identity or positive credits."
+        ]
+      }
     },
     "8606394": {
       "status": "unchecked",
@@ -75623,7 +75825,16 @@
             }
           ],
           "reasons": [
+            "Source names four orchestras; the compatible complete Brahms cycle declares Berlin. Source work allocation must be established; do not delete the other source ensembles.",
+            "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+            "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+            "Copy-only title/work context does not establish complete recording identity or positive credits.",
             "0/4 target items supported after composer/work grouping; unresolved."
+          ],
+          "recording_review_decision": "withhold",
+          "recording_review": "Source names four orchestras; the compatible complete Brahms cycle declares Berlin. Source work allocation must be established; do not delete the other source ensembles.",
+          "review_sources": [
+            "https://www.discogs.com/release/6052186"
           ]
         },
         {
@@ -75790,8 +76001,22 @@
       "query": "claudio abbado brahms 4 symphonies",
       "searched_at": "2026-11-12T15:58:21.076913+00:00",
       "reasons": [
+        "Source names four orchestras; the compatible complete Brahms cycle declares Berlin. Source work allocation must be established; do not delete the other source ensembles.",
+        "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+        "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+        "Copy-only title/work context does not establish complete recording identity or positive credits.",
         "0/4 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Source names four orchestras; the compatible complete Brahms cycle declares Berlin. Source work allocation must be established; do not delete the other source ensembles.",
+        "limitations": [
+          "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+          "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+          "Copy-only title/work context does not establish complete recording identity or positive credits."
+        ]
+      }
     },
     "13708175": {
       "status": "unchecked",
@@ -82325,7 +82550,17 @@
       "searched_at": "2026-11-12T16:04:52.269688+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Saved Richter concerto uses Abendroth/USSR Symphony, not Muti/Philharmonia, and does not establish the source Andante Favori coupling.",
+        "limitations": [
+          "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+          "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+          "Copy-only title/work context does not establish complete recording identity or positive credits."
+        ]
+      }
     },
     "8881993": {
       "status": "unchecked",
@@ -106359,18 +106594,41 @@
             }
           ],
           "reasons": [
+            "Savaria cantata candidate does not declare all explicitly named source instrumentalists, including Falvay and Balazs. Ensemble membership cannot replace their required credits.",
+            "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+            "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+            "Copy-only title/work context does not establish complete recording identity or positive credits.",
             "0/4 target items supported after composer/work grouping; unresolved.",
             "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
           ],
-          "work_group_policy": "qobuz-work-groups-v1"
+          "work_group_policy": "qobuz-work-groups-v1",
+          "recording_review_decision": "withhold",
+          "recording_review": "Savaria cantata candidate does not declare all explicitly named source instrumentalists, including Falvay and Balazs. Ensemble membership cannot replace their required credits.",
+          "review_sources": [
+            "https://www.discogs.com/release/5806510"
+          ]
         }
       ],
       "query": "pal nemeth bach cantatas nos 57 58 59 152",
       "searched_at": "2026-11-12T16:23:52.984493+00:00",
       "reasons": [
+        "Savaria cantata candidate does not declare all explicitly named source instrumentalists, including Falvay and Balazs. Ensemble membership cannot replace their required credits.",
+        "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+        "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+        "Copy-only title/work context does not establish complete recording identity or positive credits.",
         "0/4 target items supported after composer/work grouping; unresolved.",
         "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Savaria cantata candidate does not declare all explicitly named source instrumentalists, including Falvay and Balazs. Ensemble membership cannot replace their required credits.",
+        "limitations": [
+          "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+          "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+          "Copy-only title/work context does not establish complete recording identity or positive credits."
+        ]
+      }
     },
     "3908329": {
       "status": "unchecked",
@@ -117800,7 +118058,17 @@
       "searched_at": "2026-11-12T16:53:10.544638+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Modern Borodin quartet candidate has a different named lineup, lacks source pianist Luba Edlina and does not establish the Stravinsky coupling. Ensemble label does not replace historic members.",
+        "limitations": [
+          "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+          "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+          "Copy-only title/work context does not establish complete recording identity or positive credits."
+        ]
+      }
     },
     "3949380": {
       "status": "unchecked",
@@ -132824,7 +133092,17 @@
             }
           ],
           "reasons": [
+            "Milstein/Piatigorsky/Reiner candidate b949vmcya5zta declares RCA Victor Symphony Orchestra, not the source Robin Hood Dell Orchestra of Philadelphia. This is not a simple Philadelphia spelling repair; require recording-specific historical proof. Colburn archive corroborates the historical paired edition but does not equate its two orchestras or independently bind the Praga discrepancy. No verified metadata-error claim.",
+            "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+            "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+            "Copy-only title/work context does not establish complete recording identity or positive credits.",
             "0/1 target items supported after composer/work grouping; unresolved."
+          ],
+          "recording_review_decision": "withhold",
+          "recording_review": "Milstein/Piatigorsky/Reiner candidate b949vmcya5zta declares RCA Victor Symphony Orchestra, not the source Robin Hood Dell Orchestra of Philadelphia. This is not a simple Philadelphia spelling repair; require recording-specific historical proof. Colburn archive corroborates the historical paired edition but does not equate its two orchestras or independently bind the Praga discrepancy. No verified metadata-error claim.",
+          "review_sources": [
+            "https://www.discogs.com/release/7956843",
+            "https://piatigorskyarchives.colburnschool.edu/resources/"
           ]
         },
         {
@@ -132864,8 +133142,22 @@
       "query": "fritz reiner brahms double concerto in a minor op 102",
       "searched_at": "2026-11-12T17:19:12.931792+00:00",
       "reasons": [
+        "Milstein/Piatigorsky/Reiner candidate b949vmcya5zta declares RCA Victor Symphony Orchestra, not the source Robin Hood Dell Orchestra of Philadelphia. This is not a simple Philadelphia spelling repair; require recording-specific historical proof. Colburn archive corroborates the historical paired edition but does not equate its two orchestras or independently bind the Praga discrepancy. No verified metadata-error claim.",
+        "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+        "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+        "Copy-only title/work context does not establish complete recording identity or positive credits.",
         "0/1 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Milstein/Piatigorsky/Reiner candidate b949vmcya5zta declares RCA Victor Symphony Orchestra, not the source Robin Hood Dell Orchestra of Philadelphia. This is not a simple Philadelphia spelling repair; require recording-specific historical proof. Colburn archive corroborates the historical paired edition but does not equate its two orchestras or independently bind the Praga discrepancy. No verified metadata-error claim.",
+        "limitations": [
+          "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+          "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+          "Copy-only title/work context does not establish complete recording identity or positive credits."
+        ]
+      }
     },
     "7118750": {
       "status": "unchecked",
@@ -132876,7 +133168,17 @@
       "searched_at": "2026-11-12T17:19:28.028178+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Anthology Mozart No.5 tracks have Stern/Szell or Goldberg/Kletzki; Heifetz appears on a different work. Never borrow album-wide cast across works.",
+        "limitations": [
+          "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+          "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+          "Copy-only title/work context does not establish complete recording identity or positive credits."
+        ]
+      }
     },
     "4169669": {
       "status": "unchecked",
@@ -138661,7 +138963,16 @@
             }
           ],
           "reasons": [
+            "Source Zagreb ensemble has an Italian ANV, but compatible nine-track candidate uses Associated Performer for I Solisti di Zagreb. Identity repair alone does not satisfy positive ensemble roles; other saved albums do not establish the whole source programme.",
+            "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+            "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+            "Copy-only title/work context does not establish complete recording identity or positive credits.",
             "0/3 target items supported after composer/work grouping; unresolved."
+          ],
+          "recording_review_decision": "withhold",
+          "recording_review": "Source Zagreb ensemble has an Italian ANV, but compatible nine-track candidate uses Associated Performer for I Solisti di Zagreb. Identity repair alone does not satisfy positive ensemble roles; other saved albums do not establish the whole source programme.",
+          "review_sources": [
+            "https://www.discogs.com/release/8199658"
           ]
         },
         {
@@ -138754,8 +139065,22 @@
       "query": "antonio janigro boccherini concertos for cello",
       "searched_at": "2026-11-12T17:26:27.999095+00:00",
       "reasons": [
+        "Source Zagreb ensemble has an Italian ANV, but compatible nine-track candidate uses Associated Performer for I Solisti di Zagreb. Identity repair alone does not satisfy positive ensemble roles; other saved albums do not establish the whole source programme.",
+        "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+        "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+        "Copy-only title/work context does not establish complete recording identity or positive credits.",
         "0/3 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Source Zagreb ensemble has an Italian ANV, but compatible nine-track candidate uses Associated Performer for I Solisti di Zagreb. Identity repair alone does not satisfy positive ensemble roles; other saved albums do not establish the whole source programme.",
+        "limitations": [
+          "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+          "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+          "Copy-only title/work context does not establish complete recording identity or positive credits."
+        ]
+      }
     },
     "2845198": {
       "status": "unchecked",

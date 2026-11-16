@@ -2410,3 +2410,23 @@ normalization/build and local8/8Probable/disclosure smoke check pass. Favicon404
 and unavailablecachedQobuzthumbnail noted; no API calls/auth/rate warning.
 UIcopies12Found/186Probable/236Reviewed · unresolved/307Unchecked. No push/deploy.
 [Approval, evidence, continuation](../plans/2026-11-16-qobuz-trio-identity.md).
+
+## 2026-11-16 — Eighteen-case cached musician-gap batch
+
+User authorized remaining18as onebatch. All37release/candidate comparisons
+rechecked against source/target/album/track hashes:18explicit holds,0promotions.
+11programme/cast blockers,6missing positive musician declarations,1RobinHoodDell/
+RCA attribution conflict. Source requirements and prioracceptedmatches preserved.
+Colburn archive corroborates historical paired edition, not interchangeable
+orchestra names; Naxos search result observed, direct403notretried. No Qobuz calls.
+Only18publication records changed, allmatch statuses/confidence unchanged; saved
+review progress now254Reviewed · unresolved/289Unchecked copies. Original21cohort
+complete3accepted/18held. Older metadata-needed archive was omitted from generator
+review pool; explicit review lookup now uses fullvalidatedlocalarchive with
+conflict/completeness checks, without expanding scored candidates.
+[Audit, blockers and next action](../plans/2026-11-16-qobuz-musician18.md).
+
+Validation:326script tests, normalization/static build and local reviewed-blocker
+smoke check pass; onlyfavicon404. Allstatus/confidence labels unchanged, original
+source/cache/Spotify bytes preserved. Fixture429/STOP is simulated; incidental
+test export restored. Local commit, no push/deploy.

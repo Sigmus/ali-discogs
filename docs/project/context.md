@@ -25,7 +25,7 @@ and cache commands. This directory owns current planning.
   defaults to frequency with individual Alphabetical checkbox. Search after
   Decade; outlined Clear/Pin icons after Search, delayed theme-aware tooltips.
 - Subtle filter band with optional pin; table headers always sticky.
-- Qobuz UI separates236Reviewed · unresolved from307Unchecked copies. Saved
+- Qobuz UI separates254Reviewed · unresolved from289Unchecked copies. Saved
   review progress is independent of match status; detail shows the saved blocker.
   Table sorts all columns; other views offer Year/Composer only.
 
@@ -42,9 +42,6 @@ and cache commands. This directory owns current planning.
 
 ## Offline review checkpoint
 
-- Seven-album/eight-release review: Weissenberg1662708, Bernstein3956949 and
-  Ciccolini2236260Probable85; Yepes2857544withheld (missing finale, instrument
-  uncertainty); Casals6628473/23950082, Pollini4101347 and Barenboim8274997unresolved.
 - Recording-family acceptance never verifies exact LP pressing/takes/mastering.
   Preserve source discrepancies, unknown transfer provenance and missing credits.
 - Gilels15221307source-bound composer guard prevents Medtner/Beethoven Op22collision.
@@ -59,9 +56,10 @@ and cache commands. This directory owns current planning.
   recording decisions remain in history and their linked frozen audits.
 - Earlier38partial-support reviews:6Probable/32holds. All104zero-rule reviews:
   3Probable/101holds. Frozen audits retain sources, alternatives and next actions.
-- Latest320script tests pass; approved trio review adds1Probable.
-  Collection/Spotify, production matcher and cache bytes unchanged.
-- 542unchecked unique:298work/credit,228withheld,5completeness,4rejected,
+- Latest326script tests pass; remaining18batch adds18explicit holds.
+  Collection/Spotify, scoring rules and cache bytes unchanged; explicit review
+  lookup now includes the older metadata-needed archive.
+- 542unchecked unique:280work/credit,246withheld,5completeness,4rejected,
   6empty,1source hold. Reviewed holds remain searchable evidence, not Not found.
 - Key holds include named ensemble members/chorus masters, associated-only roles,
   Oistrach identity, source-role conflicts, incomplete or unbound recording families.
@@ -72,21 +70,14 @@ and cache commands. This directory owns current planning.
 936album cache integrated;23632tracks validated. All160original leads reviewed:
 20recording families accepted,140explicit holds,0open in that frozen cohort.
 Completed reviews do not imply all recordings are matched. No new provider calls.
-Earlier supported cached leads and source/recording holds remain in their
-[completed review history](history.md); no hold is cleared by diagnostic support.
-Twelve credit-support cases reviewed:Reiner1896362Probable;11explicit holds.
-All11work-context gains from the frozen171diagnostic are now reviewed.
-Earlier work-context9follow-up:2HeifetzProbable/7holds.
-[Results and preserved blockers](../plans/2026-11-16-qobuz-work-context9.md).
-Credit cohort remains150without saved decisions. Vocal-role copy experiment
-improves only two already-held partial Rheingold programmes; no complete candidate
-or status/confidence gains. Live role parser unchanged.
-[Results](../plans/2026-11-16-qobuz-vocal-role-diagnostic.md).
+Earlier source/recording holds and completed work-context reviews remain in
+[history](history.md).150credit-support cases still lack saved decisions. Vocal-role
+and source-role experiments remain diagnostic; no role waiver adopted.
 All28title-context leads reviewed:15Probable/13holds,0pending.
 Frozen151title/work diagnostic complete:409pairs; all3gains now reviewed.
 Heifetz7065721and Gould2548602Probable; Dido24278222split-act mapping held.
 [Three-case results](../plans/2026-11-16-qobuz-title3.md). Queue:2resolved/1held/
-0pending;145title/work cases still have no saved decision. Gould’s approved
+0pending;127title/work cases still have no saved decision. Gould’s approved
 hash-bound timing exception retains all3discrepancies; global tolerance unchanged.
 [Analysis/approval](../plans/2026-11-16-qobuz-timing-sensitivity.md).
 All21musician-gap cases triaged:11programme/cast,6missing positive credits,
@@ -96,8 +87,11 @@ source-bound aliases:11876845Francescatti/Bernstein and21490438Fischer/Furtwangl
 8/8positive members/composer/timings; user approved exact collective decomposition.
 NowProbable85with exact source/candidate/approval hashes, every member/instrument
 required on every band. [Approval/limits](../plans/2026-11-16-qobuz-trio-identity.md).
-Next: inspect7956843RobinHoodDell/RCA recording identity using primary evidence;
-no general ensemble alias or membership waiver.
+Remaining18musician-gap reviews complete:18holds,37candidate comparisons,
+0promotions. [Results/reopening prerequisites](../plans/2026-11-16-qobuz-musician18.md).
+Original21cohort now3accepted/18held; no open cases. RobinHoodDell/RCA attribution
+remains unresolved, not an alias. Next suggested batch:read-only triage of40frozen
+catalogue-ID-gap cases; no new provider calls or rule adoption.
 Broader source-role parser audit is proposed, not adopted. Krips finale is not
 proven missing; joined-band mapping remains unresolved.
 

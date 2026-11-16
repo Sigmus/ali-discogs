@@ -1,0 +1,16 @@
+{
+  "reviewed_on": "2026-11-16",
+  "kind": "reviewer observations; no audio or provider requests",
+  "sources": [
+    {
+      "url": "https://piatigorskyarchives.colburnschool.edu/resources/",
+      "observation": "Colburn Piatigorsky Archives lists a 1976 RCA reissue pairing the Brahms Double Concerto and Saint-Saens Cello Concerto, naming Milstein, Reiner, Piatigorsky and both Robin Hood Dell and RCA Symphony orchestras. This does not say the orchestra names are synonyms; the paired works must remain separate."
+    },
+    {
+      "url": "https://www.naxos.com/CatalogueDetail/?id=8.111051",
+      "observation": "Publisher search result identifies Milstein/Piatigorsky's Brahms collaboration with Reiner and Philadelphia Robin Hood Dell Orchestra. Direct page returned403; not retried. No claim to have inspected that full page."
+    }
+  ],
+  "cached_candidate": "b949vmcya5zta",
+  "finding": "Cached Praga Brahms tracks explicitly declare RCA Victor Symphony Orchestra; the Saint-Saens coupling uses the same orchestra. Historical source corroborates Robin Hood Dell source cast but does not independently bind this Praga track-level discrepancy. Keep unresolved; no general orchestra alias or verified metadata-error claim."
+}

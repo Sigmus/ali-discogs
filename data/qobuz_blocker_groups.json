@@ -3,17 +3,17 @@
   "reviewed_on": "2026-11-16",
   "unique_unresolved_releases": 542,
   "review_state_counts": {
-    "no_saved_decision": 306,
-    "reviewed_unresolved": 236
+    "no_saved_decision": 288,
+    "reviewed_unresolved": 254
   },
   "planning_families": {
-    "credit_evidence": 208,
+    "credit_evidence": 214,
     "no_cached_candidate": 6,
     "other_saved_blocker": 61,
     "partial_programme_or_completeness": 5,
-    "recording_identity": 44,
+    "recording_identity": 56,
     "source_programme_mapping": 73,
-    "work_title_or_catalogue_mapping_unresolved": 145
+    "work_title_or_catalogue_mapping_unresolved": 127
   },
   "groups": {
     "credit_support_unresolved": 150,
@@ -60,6 +60,7 @@
     "saved:ensemble-identity": 1,
     "saved:ensemble-name-and-extra-credit": 1,
     "saved:ensemble-role-and-members": 1,
+    "saved:ensemble_identity_unresolved": 1,
     "saved:exact-ensemble-identity": 1,
     "saved:explicit-instrument-role-and-identity": 1,
     "saved:extended-jazz-programme": 1,
@@ -78,6 +79,7 @@
     "saved:incomplete-programme": 1,
     "saved:incomplete-programme-and-cast": 3,
     "saved:incomplete-source-box": 1,
+    "saved:incomplete_or_conflicting_recording": 11,
     "saved:joined-finale-label-not-proven-absent": 1,
     "saved:joined-work-transfer-unverified": 1,
     "saved:large-programme-catalogue-gaps": 1,
@@ -94,6 +96,7 @@
     "saved:missing_box_programme": 1,
     "saved:missing_box_programme_and_transfer": 1,
     "saved:missing_musician_credit": 1,
+    "saved:missing_positive_credit": 6,
     "saved:missing_programme": 6,
     "saved:missing_programme_and_arrangement": 1,
     "saved:missing_scene_and_different_cast": 1,
@@ -161,7 +164,7 @@
     "saved:work-scoped-pianist": 1,
     "saved:wrong-cast-moldau": 1,
     "saved:wrong_accompanist_and_programme": 1,
-    "work_title_or_catalogue_mapping_unresolved": 145
+    "work_title_or_catalogue_mapping_unresolved": 127
   },
   "entries": [
     {
@@ -200,13 +203,13 @@
     {
       "discogs_id": "1012732",
       "title": "Die 4 Symphonien · Das Violinkonzert · Die Haydn-Variationen · Ein Deutsches Requiem",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:incomplete_or_conflicting_recording",
+      "planning_family": "recording_identity",
       "cached_candidate_count": 1,
       "uncached_hits": 8,
-      "finding": null,
-      "next_action": null
+      "finding": "Four-symphony candidate omits the violin concerto, Haydn Variations and Requiem. Global singers/choir and roleless orchestra strings add credit gaps; scope cleanup cannot supply missing works.",
+      "next_action": "Find a complete single edition covering all seven source works with the source cast; scope fixes alone cannot complete this candidate."
     },
     {
       "discogs_id": "1035152",
@@ -1454,13 +1457,13 @@
     {
       "discogs_id": "3788392",
       "title": "Brandenburg Concertos = Brandenburgische Konzerte = Concertos Brandebourgeois",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:missing_positive_credit",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 1,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Brandenburg programme exists, but inspected track declarations omit Abbado and I Solisti del Teatro Alla Scala. Album-level names cannot silently replace positive track credits.",
+      "next_action": "Obtain positive work-specific Abbado/La Scala declarations; album-level artist names do not meet the current track-credit rule."
     },
     {
       "discogs_id": "3789771",
@@ -1476,13 +1479,13 @@
     {
       "discogs_id": "3798658",
       "title": "Cavalleria Rusticana / I Pagliacci",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:incomplete_or_conflicting_recording",
+      "planning_family": "recording_identity",
       "cached_candidate_count": 1,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Opera Intermezzi supplies excerpts with Berlin/Karajan, not the complete La Scala operas and source cast.",
+      "next_action": "Find the actual complete La Scala opera recording and cast rather than Berlin intermezzo excerpts."
     },
     {
       "discogs_id": "3849153",
@@ -1883,13 +1886,13 @@
     {
       "discogs_id": "4519809",
       "title": "Agon / Canticum Sacrum",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:missing_positive_credit",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 2,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Compatible Agon/Canticum candidate declares orchestra/chorus as Associated Performer, with a chorus-name difference and source scope issues. Alternative Gielen cast differs; no role waiver.",
+      "next_action": "Establish source work/cast scopes and positive orchestra/chorus declarations; Associated Performer policy remains unadopted."
     },
     {
       "discogs_id": "4553901",
@@ -2334,13 +2337,13 @@
     {
       "discogs_id": "5521001",
       "title": "A German Requiem",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:missing_positive_credit",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 3,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Compatible Walter Requiem has Westminster Choir versus source Westminster Symphonic Choir and omits chorus master John Finley Williamson. An ensemble-name alias alone is insufficient.",
+      "next_action": "Resolve exact choir naming and obtain positive John Finley Williamson chorus-master evidence."
     },
     {
       "discogs_id": "5584497",
@@ -2411,13 +2414,13 @@
     {
       "discogs_id": "5806510",
       "title": "Cantatas Nos 57, 58, 59 & 152",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:missing_positive_credit",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 1,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Savaria cantata candidate does not declare all explicitly named source instrumentalists, including Falvay and Balazs. Ensemble membership cannot replace their required credits.",
+      "next_action": "Obtain declarations for all named source instrumentalists with their exact work scopes; do not infer them from Capella Savaria."
     },
     {
       "discogs_id": "5820114",
@@ -2521,13 +2524,13 @@
     {
       "discogs_id": "6052186",
       "title": "4 Symphonies",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:incomplete_or_conflicting_recording",
+      "planning_family": "recording_identity",
       "cached_candidate_count": 4,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Source names four orchestras; the compatible complete Brahms cycle declares Berlin. Source work allocation must be established; do not delete the other source ensembles.",
+      "next_action": "Establish source orchestra allocation and recording provenance for each symphony before comparing candidate cycles."
     },
     {
       "discogs_id": "6088033",
@@ -2972,13 +2975,13 @@
     {
       "discogs_id": "6907296",
       "title": "Concertos For Three Pianos Nos. 1 & 2 / Italian Concerto / Chromatic Fantasy & Fugue",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:incomplete_or_conflicting_recording",
+      "planning_family": "recording_identity",
       "cached_candidate_count": 1,
       "uncached_hits": 4,
-      "finding": null,
-      "next_action": null
+      "finding": "Saved solo Serkin Bach anthology supports solo couplings, not both three-piano concertos with the source musicians. Work scope cannot fill the missing programme.",
+      "next_action": "Find both three-piano concertos and all source soloists in one complete edition, not just solo couplings."
     },
     {
       "discogs_id": "6929259",
@@ -3093,13 +3096,13 @@
     {
       "discogs_id": "7118750",
       "title": "Concerto No. 5 In A, K. 219 (\"Turkish\") / Romances Nos. 1 And 2",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:incomplete_or_conflicting_recording",
+      "planning_family": "recording_identity",
       "cached_candidate_count": 6,
       "uncached_hits": 4,
-      "finding": null,
-      "next_action": null
+      "finding": "Anthology Mozart No.5 tracks have Stern/Szell or Goldberg/Kletzki; Heifetz appears on a different work. Never borrow album-wide cast across works.",
+      "next_action": "Find Heifetz/Sargent/LSO Mozart K219 and both source Beethoven romances; do not borrow Heifetz from another work."
     },
     {
       "discogs_id": "7185862",
@@ -3511,13 +3514,13 @@
     {
       "discogs_id": "7956843",
       "title": "Double Concerto in A Minor, Op. 102",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:ensemble_identity_unresolved",
+      "planning_family": "recording_identity",
       "cached_candidate_count": 2,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Milstein/Piatigorsky/Reiner candidate b949vmcya5zta declares RCA Victor Symphony Orchestra, not the source Robin Hood Dell Orchestra of Philadelphia. This is not a simple Philadelphia spelling repair; require recording-specific historical proof. Colburn archive corroborates the historical paired edition but does not equate its two orchestras or independently bind the Praga discrepancy. No verified metadata-error claim.",
+      "next_action": "Corroborate the exact Praga Brahms recording and orchestra attribution independently; no Robin Hood Dell/RCA alias or metadata correction yet."
     },
     {
       "discogs_id": "7971104",
@@ -3621,13 +3624,13 @@
     {
       "discogs_id": "8199658",
       "title": "Concertos For Cello",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:missing_positive_credit",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 3,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Source Zagreb ensemble has an Italian ANV, but compatible nine-track candidate uses Associated Performer for I Solisti di Zagreb. Identity repair alone does not satisfy positive ensemble roles; other saved albums do not establish the whole source programme.",
+      "next_action": "Resolve work identities and positive Zagreb ensemble roles across all three concertos, not Associated Performer-only membership."
     },
     {
       "discogs_id": "8252155",
@@ -3797,13 +3800,13 @@
     {
       "discogs_id": "8823847",
       "title": "A Vienne Au Temps Des Strauss",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:incomplete_or_conflicting_recording",
+      "planning_family": "recording_identity",
       "cached_candidate_count": 1,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Relevant Strauss anthology tracks declare Szell or Bohm with Vienna/Dresden, not source Karajan/Berlin. Same work titles do not establish the recording.",
+      "next_action": "Find source Karajan/Berlin performances of the complete Strauss programme, not other conductors in an anthology."
     },
     {
       "discogs_id": "8827360",
@@ -3951,13 +3954,13 @@
     {
       "discogs_id": "8971581",
       "title": "Concerto No. 3 In G Major For Violin And Orchestra K. 216 / Concerto No. 1 in C Major For Violin And String Orchestra",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:missing_positive_credit",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 5,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Stern-directed source specifies Columbia Chamber/String orchestras and Zakin on Haydn. Compatible track strings omit required declarations; Szell/Cleveland Mozart alternative is a different cast.",
+      "next_action": "Obtain positive Columbia Chamber/String orchestra and Haydn Zakin declarations within their source work scopes."
     },
     {
       "discogs_id": "8982341",
@@ -4281,13 +4284,13 @@
     {
       "discogs_id": "9932683",
       "title": "6 Symphonies",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:incomplete_or_conflicting_recording",
+      "planning_family": "recording_identity",
       "cached_candidate_count": 1,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Saved complete Tchaikovsky cycle is Abbado/Chicago; source names Tilson Thomas, Atzmon and Mravinsky with other orchestras. No generic cast repair.",
+      "next_action": "Find the source multi-conductor/multi-orchestra Tchaikovsky box recording families, not the Abbado/Chicago cycle."
     },
     {
       "discogs_id": "9932691",
@@ -4391,24 +4394,24 @@
     {
       "discogs_id": "10301402",
       "title": "Die 4 Symphonien · Das Violinkonzert · Die Haydn-Variationen · Ein Deutsches Requiem",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:incomplete_or_conflicting_recording",
+      "planning_family": "recording_identity",
       "cached_candidate_count": 1,
       "uncached_hits": 8,
-      "finding": null,
-      "next_action": null
+      "finding": "Four-symphony Brahms candidate omits concerto, variations and Requiem from the source box. Global cast scope and roleless ensemble strings are additional blockers.",
+      "next_action": "Find the whole seven-work Brahms source programme with source cast; four symphonies alone remain partial."
     },
     {
       "discogs_id": "10344924",
       "title": "Octet = Octuor / Trio No. 1 In D Minor = D-moll = Ré Mineur",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:incomplete_or_conflicting_recording",
+      "planning_family": "recording_identity",
       "cached_candidate_count": 2,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Octet candidate has all eight named players but no source Marlboro ensemble and pairs Mozart Concertone, not the source Mendelssohn Trio. Other candidate pairs Italian Symphony with Octet. Do not combine digital editions.",
+      "next_action": "Find both source Mendelssohn works in a complete edition with all eight octet musicians and trio cast; collective proof alone is insufficient."
     },
     {
       "discogs_id": "10391853",
@@ -5238,13 +5241,13 @@
     {
       "discogs_id": "13792797",
       "title": "Concerto N. 3 In Do Minore Per Pianoforte & Andante Favori In Fa",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:incomplete_or_conflicting_recording",
+      "planning_family": "recording_identity",
       "cached_candidate_count": 1,
       "uncached_hits": 9,
-      "finding": null,
-      "next_action": null
+      "finding": "Saved Richter concerto uses Abendroth/USSR Symphony, not Muti/Philharmonia, and does not establish the source Andante Favori coupling.",
+      "next_action": "Find Richter/Muti/Philharmonia Beethoven3 with source Andante Favori; Abendroth is a different recording."
     },
     {
       "discogs_id": "13847676",
@@ -5799,13 +5802,13 @@
     {
       "discogs_id": "20451211",
       "title": "Quintetto Per Archi E Pianoforte / Tre Pezzi Per Quartetto D’archi (1914)",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:incomplete_or_conflicting_recording",
+      "planning_family": "recording_identity",
       "cached_candidate_count": 1,
       "uncached_hits": 7,
-      "finding": null,
-      "next_action": null
+      "finding": "Modern Borodin quartet candidate has a different named lineup, lacks source pianist Luba Edlina and does not establish the Stravinsky coupling. Ensemble label does not replace historic members.",
+      "next_action": "Find the historic Borodin lineup with Edlina plus Stravinsky coupling, not the modern quartet lineup."
     },
     {
       "discogs_id": "20521609",
@@ -6139,11 +6142,12 @@
     "Grouping authorizes no new retrieval, identity alias, role waiver or automatic promotion."
   ],
   "source_hashes": {
-    "data/qobuz_unmatched_audit.json": "2b91fd3868670425419000b9b53e8f0465af9caa7ea565bd53b1a9533ed6f850",
-    "data/qobuz_matches.json": "746e0081f622a2472ddbb54b49fc642c04f9675235cf3e8eddc4f08b189be3fb",
+    "data/qobuz_unmatched_audit.json": "e97811cd944860a4f2b3a94c05714724af9356e60b8772c3c9e2d50ce51774af",
+    "data/qobuz_matches.json": "951d0a05a2385e40ae64a29c9be9b5b5c04bee7b425a94c6f7480c8854aacb29",
     "data/qobuz_credit12_recording_audit.json": "f720a1cc1c5beec68dbe0b3ae45b80e5fd003d272f4cc5ca872f6863e1105092",
     "data/qobuz_final_cached2_recording_audit.json": "0d6a38e1817de98fc971d7a0e9c92f972c24e0eff503fc569951030c0e29da73",
     "data/qobuz_fullsupport16_recording_audit.json": "4187655cdfbfbc21fc9895b0818c8755a72596608a5ce7d1579ac38e1901510a",
+    "data/qobuz_musician18_recording_audit.json": "9c8bd7a26f44ae68417d4239f83c776c6f18779705caddb47fe7037e792d1e2e",
     "data/qobuz_name2_recording_audit.json": "62a557a54ab7285eabc379d15d0710d60d56f6ba3a748879e01b28eed3f3a8ba",
     "data/qobuz_partial38_recording_audit.json": "cd4607193942f467815228cf9fa831887e0439f27146b9cf7d3f3637663f698d",
     "data/qobuz_secondary23_recording_audit.json": "7a2c245c90f30b437f1e4fba32c38b3ce6932eefb29af9232332f80a7358ca38",

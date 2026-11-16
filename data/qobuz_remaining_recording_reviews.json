@@ -23164,6 +23164,319 @@
           "composer": "Felix Mendelssohn-Bartholdy"
         }
       ]
+    },
+    {
+      "discogs_id": "1012732",
+      "album_id": "0002894798228",
+      "target_sha256": "1346350a7de6a525a44c4e6bcfe531141d933e95ef0e75e1b6ee8768a6a4b551",
+      "source_sha256": "6ea58acccd10d524e7f9e5435651eac40a195d75c2298d183dbe49a356b97dcb",
+      "album_sha256": "2b4872fc2f0f94bda03f445fde34bd40a9e2ad1c869e0d721c0c7310cd02a849",
+      "decision": "withhold",
+      "recording_review": "Four-symphony candidate omits the violin concerto, Haydn Variations and Requiem. Global singers/choir and roleless orchestra strings add credit gaps; scope cleanup cannot supply missing works.",
+      "sources": [
+        "https://www.discogs.com/release/1012732"
+      ],
+      "limitations": [
+        "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+        "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+        "Copy-only title/work context does not establish complete recording identity or positive credits."
+      ]
+    },
+    {
+      "discogs_id": "3788392",
+      "album_id": "0002894779462",
+      "target_sha256": "42844f7d0795877130cc75c6dbe299d5954bebf6419f04bb8cca82e693a2e643",
+      "source_sha256": "4c8ad23c2c844a3160bf3bd95a872ec7c35b337b5f88f14857ada96362ba3b23",
+      "album_sha256": "7db3d59c039cec6f4e76b9dd709ec56c79dab0ed6920da22356aae80cc52a013",
+      "decision": "withhold",
+      "recording_review": "Brandenburg programme exists, but inspected track declarations omit Abbado and I Solisti del Teatro Alla Scala. Album-level names cannot silently replace positive track credits.",
+      "sources": [
+        "https://www.discogs.com/release/3788392"
+      ],
+      "limitations": [
+        "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+        "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+        "Copy-only title/work context does not establish complete recording identity or positive credits."
+      ]
+    },
+    {
+      "discogs_id": "3798658",
+      "album_id": "0002894777163",
+      "target_sha256": "7c444fd81f098d3c2a52ed69b0cabd60999da79f231e6e275aeac2db0a1a0aea",
+      "source_sha256": "0313b45d867b4e00dca44c387189325ae3af13abbbdc771bba019f7f048d6b3e",
+      "album_sha256": "88c3a4a6bf2273efdc6aeae39abee3eb2ba6b127ccd7746da62d6a088bd7f580",
+      "decision": "withhold",
+      "recording_review": "Opera Intermezzi supplies excerpts with Berlin/Karajan, not the complete La Scala operas and source cast.",
+      "sources": [
+        "https://www.discogs.com/release/3798658"
+      ],
+      "limitations": [
+        "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+        "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+        "Copy-only title/work context does not establish complete recording identity or positive credits."
+      ]
+    },
+    {
+      "discogs_id": "4519809",
+      "album_id": "0886445689518",
+      "target_sha256": "a3a74727f62c00b3a6a56fcf1b21c250413e46008b1f439ac4823dc298284bdc",
+      "source_sha256": "d175eb64a2eda75f0177f06ab710f60ef4e0eaefe7bacd0ff927adbadc51739e",
+      "album_sha256": "576d222fcc207475fe889bbf90c117b515d0b91434d889aab22791da1834a69c",
+      "decision": "withhold",
+      "recording_review": "Compatible Agon/Canticum candidate declares orchestra/chorus as Associated Performer, with a chorus-name difference and source scope issues. Alternative Gielen cast differs; no role waiver.",
+      "sources": [
+        "https://www.discogs.com/release/4519809"
+      ],
+      "limitations": [
+        "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+        "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+        "Copy-only title/work context does not establish complete recording identity or positive credits."
+      ]
+    },
+    {
+      "discogs_id": "5521001",
+      "album_id": "0074646446928",
+      "target_sha256": "d7ae30ac43006b9b09bfedf23101a6c09e2b8c6ff014177590c6ec1e238af0cb",
+      "source_sha256": "e62d50f082a71bafaa50e729e68b22e305aa6c10086309565af318311a29e884",
+      "album_sha256": "8da004dc9abd7b8a08035646642cc60d908cf9cf320124dd7a37a3db0f6dc11b",
+      "decision": "withhold",
+      "recording_review": "Compatible Walter Requiem has Westminster Choir versus source Westminster Symphonic Choir and omits chorus master John Finley Williamson. An ensemble-name alias alone is insufficient.",
+      "sources": [
+        "https://www.discogs.com/release/5521001"
+      ],
+      "limitations": [
+        "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+        "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+        "Copy-only title/work context does not establish complete recording identity or positive credits."
+      ]
+    },
+    {
+      "discogs_id": "5806510",
+      "album_id": "o4h1iekhxkkjb",
+      "target_sha256": "400a742b3f80fea33ea3db0de37c1b27af031fc6894652e0b844410d144e7c8e",
+      "source_sha256": "21e0e3615f91cefd199b892057b3728766d0a6ac1a68289b6bf18d9c0091cb27",
+      "album_sha256": "8057f7486ecece4b0bf6fdcd4010f1135a02d84e79a8ea8db4d7b2452f92a9d0",
+      "decision": "withhold",
+      "recording_review": "Savaria cantata candidate does not declare all explicitly named source instrumentalists, including Falvay and Balazs. Ensemble membership cannot replace their required credits.",
+      "sources": [
+        "https://www.discogs.com/release/5806510"
+      ],
+      "limitations": [
+        "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+        "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+        "Copy-only title/work context does not establish complete recording identity or positive credits."
+      ]
+    },
+    {
+      "discogs_id": "6052186",
+      "album_id": "0002894356832",
+      "target_sha256": "7da66051dff6b99d5308fc9b31e2b59babdea6ef2dea9ff086162d6fc5994327",
+      "source_sha256": "a1378f3a1394771df247764a53ef72b66066ee7d4c7451b18fea9a62521b5b5e",
+      "album_sha256": "c0f0d909ebc572eacf088e11489b5a2ebc930c9cbf8a73a1a16e9e1848854f7f",
+      "decision": "withhold",
+      "recording_review": "Source names four orchestras; the compatible complete Brahms cycle declares Berlin. Source work allocation must be established; do not delete the other source ensembles.",
+      "sources": [
+        "https://www.discogs.com/release/6052186"
+      ],
+      "limitations": [
+        "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+        "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+        "Copy-only title/work context does not establish complete recording identity or positive credits."
+      ]
+    },
+    {
+      "discogs_id": "6907296",
+      "album_id": "0886446492919",
+      "target_sha256": "0904d83f2502e2e5ceab2b4bdb1933038023efffcd6a1888aa38092658c92f48",
+      "source_sha256": "65c20f7ff62a11b61c953b557b88f78e9c94e33e6952487813564542ea9833d4",
+      "album_sha256": "99e6d3796a0d177ab4904dd04f43ee3a279c1f3c928fa4ebb0f26e13fd62787f",
+      "decision": "withhold",
+      "recording_review": "Saved solo Serkin Bach anthology supports solo couplings, not both three-piano concertos with the source musicians. Work scope cannot fill the missing programme.",
+      "sources": [
+        "https://www.discogs.com/release/6907296"
+      ],
+      "limitations": [
+        "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+        "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+        "Copy-only title/work context does not establish complete recording identity or positive credits."
+      ]
+    },
+    {
+      "discogs_id": "7118750",
+      "album_id": "3700551778164",
+      "target_sha256": "58c733c2ff90cbbd988e7150f44b25a90e64fd0999c840f65ad2272cc26dc87a",
+      "source_sha256": "bb8900c430808f2fc8e7b51f19dadb936f7b39fa88461d874bbf11fe6613149a",
+      "album_sha256": "b0526aa738e6de1260884870ab51ac2ff3c755e951ebd70f84080018c852e2c4",
+      "decision": "withhold",
+      "recording_review": "Anthology Mozart No.5 tracks have Stern/Szell or Goldberg/Kletzki; Heifetz appears on a different work. Never borrow album-wide cast across works.",
+      "sources": [
+        "https://www.discogs.com/release/7118750"
+      ],
+      "limitations": [
+        "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+        "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+        "Copy-only title/work context does not establish complete recording identity or positive credits."
+      ]
+    },
+    {
+      "discogs_id": "7956843",
+      "album_id": "b949vmcya5zta",
+      "target_sha256": "2a556c8a51764ef772d9767060b97f4b051d35b017e84d3b2bdff20174c9aff7",
+      "source_sha256": "fdefcbfe646a3a387e2789bdcd0237681e1cfb017aa2e863df419d90487a399d",
+      "album_sha256": "22205d98480d5bfc0bfb360f215597bea9f6df925c5258be97630ed1684d0888",
+      "decision": "withhold",
+      "recording_review": "Milstein/Piatigorsky/Reiner candidate b949vmcya5zta declares RCA Victor Symphony Orchestra, not the source Robin Hood Dell Orchestra of Philadelphia. This is not a simple Philadelphia spelling repair; require recording-specific historical proof. Colburn archive corroborates the historical paired edition but does not equate its two orchestras or independently bind the Praga discrepancy. No verified metadata-error claim.",
+      "sources": [
+        "https://www.discogs.com/release/7956843",
+        "https://piatigorskyarchives.colburnschool.edu/resources/"
+      ],
+      "limitations": [
+        "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+        "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+        "Copy-only title/work context does not establish complete recording identity or positive credits."
+      ],
+      "external_source_files": [
+        {
+          "path": "data/review_sources/musician18-7956843/primary-observation.json",
+          "sha256": "9742061ef8f4751fc2f103499d78904cb68e6bbe35dd5653d80b7c0491136434"
+        }
+      ]
+    },
+    {
+      "discogs_id": "8199658",
+      "album_id": "0886446035987",
+      "target_sha256": "d04bbccf49362151578c21e62ebd97b0f1c787dc4ae7f1d8982fce368f6d4cf0",
+      "source_sha256": "9f776fe3c57907c8ab8c56149972298f9a1ae7f6cc34ff361c353d8463fb8cb1",
+      "album_sha256": "4ef650234db7849d98f2bee0fa9050c4728b7000826ac06d5211b2cc115db2b9",
+      "decision": "withhold",
+      "recording_review": "Source Zagreb ensemble has an Italian ANV, but compatible nine-track candidate uses Associated Performer for I Solisti di Zagreb. Identity repair alone does not satisfy positive ensemble roles; other saved albums do not establish the whole source programme.",
+      "sources": [
+        "https://www.discogs.com/release/8199658"
+      ],
+      "limitations": [
+        "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+        "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+        "Copy-only title/work context does not establish complete recording identity or positive credits."
+      ]
+    },
+    {
+      "discogs_id": "8823847",
+      "album_id": "z6b0ygyv08rsb",
+      "target_sha256": "2f6c5f162398955d611a4e29d4204e31d372c32b817287a63af0755d929ed515",
+      "source_sha256": "240036aae04dfdb459c6419948a74806b40b6689d45de2a7a26830200bf8924b",
+      "album_sha256": "eb88a4b95b91af86515db9dfa1162778ea3a8b9f6f3cfe8e3fd7b4e1a21b56b0",
+      "decision": "withhold",
+      "recording_review": "Relevant Strauss anthology tracks declare Szell or Bohm with Vienna/Dresden, not source Karajan/Berlin. Same work titles do not establish the recording.",
+      "sources": [
+        "https://www.discogs.com/release/8823847"
+      ],
+      "limitations": [
+        "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+        "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+        "Copy-only title/work context does not establish complete recording identity or positive credits."
+      ]
+    },
+    {
+      "discogs_id": "8971581",
+      "album_id": "0074644595222",
+      "target_sha256": "8665001450c8aea9419f93c874ec1f01ca948390a13d1866d2ef9cc1ee29e2b1",
+      "source_sha256": "14b31d1216d83362188dc6250fa6d3ea0e8e5670b1c9b2cde88cc02ad98f024c",
+      "album_sha256": "10ada642d5aa8ba2cb95bbe2d3ed5ee2459376c96240061086b22f38888e3a91",
+      "decision": "withhold",
+      "recording_review": "Stern-directed source specifies Columbia Chamber/String orchestras and Zakin on Haydn. Compatible track strings omit required declarations; Szell/Cleveland Mozart alternative is a different cast.",
+      "sources": [
+        "https://www.discogs.com/release/8971581"
+      ],
+      "limitations": [
+        "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+        "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+        "Copy-only title/work context does not establish complete recording identity or positive credits."
+      ]
+    },
+    {
+      "discogs_id": "9932683",
+      "album_id": "0828768880722",
+      "target_sha256": "cef4609f24417bfd6e854914b0c96abf97f5858fc387ca2287b16864d1ae2d0c",
+      "source_sha256": "6c96ec3aff5235630be5e6108baca87c258b18f5e83c659ed1e79eda5ecf1fd1",
+      "album_sha256": "6c28478d5f60cddd739a1a85a415482e585b1ae7f89f01a9cd7c76b733d2f966",
+      "decision": "withhold",
+      "recording_review": "Saved complete Tchaikovsky cycle is Abbado/Chicago; source names Tilson Thomas, Atzmon and Mravinsky with other orchestras. No generic cast repair.",
+      "sources": [
+        "https://www.discogs.com/release/9932683"
+      ],
+      "limitations": [
+        "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+        "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+        "Copy-only title/work context does not establish complete recording identity or positive credits."
+      ]
+    },
+    {
+      "discogs_id": "10301402",
+      "album_id": "0002894798228",
+      "target_sha256": "7401e85c3d14aa4a18d0a9e2885b4947bd71eafe0331ec05871ad9a96bae2872",
+      "source_sha256": "8be8e281aac129e48c0ed556c27ecdb3dab7b411fa03fb2214abc6e8302ecbcc",
+      "album_sha256": "2b4872fc2f0f94bda03f445fde34bd40a9e2ad1c869e0d721c0c7310cd02a849",
+      "decision": "withhold",
+      "recording_review": "Four-symphony Brahms candidate omits concerto, variations and Requiem from the source box. Global cast scope and roleless ensemble strings are additional blockers.",
+      "sources": [
+        "https://www.discogs.com/release/10301402"
+      ],
+      "limitations": [
+        "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+        "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+        "Copy-only title/work context does not establish complete recording identity or positive credits."
+      ]
+    },
+    {
+      "discogs_id": "10344924",
+      "album_id": "bcayx0r21ppdb",
+      "target_sha256": "6699285a9f25b27f554418d4f071f7b69a2dd4db70bc193cdbb9c1e560ed9267",
+      "source_sha256": "e2cab1e2eeec3dd7d0b0bd1ab14329d1f8cf41ce3992677763caeb41f05c634d",
+      "album_sha256": "0de44674a4c4bbf301e4b3593a9ce6ea3bf38e8656b349a84d1ed2217e5537d9",
+      "decision": "withhold",
+      "recording_review": "Octet candidate has all eight named players but no source Marlboro ensemble and pairs Mozart Concertone, not the source Mendelssohn Trio. Other candidate pairs Italian Symphony with Octet. Do not combine digital editions.",
+      "sources": [
+        "https://www.discogs.com/release/10344924"
+      ],
+      "limitations": [
+        "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+        "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+        "Copy-only title/work context does not establish complete recording identity or positive credits."
+      ]
+    },
+    {
+      "discogs_id": "13792797",
+      "album_id": "jmajme053bi4a",
+      "target_sha256": "2573832f35c1f4ef31111119131cefa085e8f15859b1a4e611e5e9e97ca3ba47",
+      "source_sha256": "d8a0440ff9e8f59dc661970a836de4046d0f75e969eaaa4399144488dc4a287a",
+      "album_sha256": "304610e38aa7959e06173ab3a1ec4a7e043304e2034bc738b93e9a18cfe71663",
+      "decision": "withhold",
+      "recording_review": "Saved Richter concerto uses Abendroth/USSR Symphony, not Muti/Philharmonia, and does not establish the source Andante Favori coupling.",
+      "sources": [
+        "https://www.discogs.com/release/13792797"
+      ],
+      "limitations": [
+        "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+        "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+        "Copy-only title/work context does not establish complete recording identity or positive credits."
+      ]
+    },
+    {
+      "discogs_id": "20451211",
+      "album_id": "g4nhgjv3d6wbc",
+      "target_sha256": "684b6aa7b2efbab0ec3c77e3a31467d8c3248a18415e253ad5999074af5f3da1",
+      "source_sha256": "16935b05fd22fdb636c813362e4ace0297a6e1ee0965842dd91d128bc49ec818",
+      "album_sha256": "e64b84c7051673461f548b8fb0dd995fa67468d3eaea0a467e5be3dac9b7ceaa",
+      "decision": "withhold",
+      "recording_review": "Modern Borodin quartet candidate has a different named lineup, lacks source pianist Luba Edlina and does not establish the Stravinsky coupling. Ensemble label does not replace historic members.",
+      "sources": [
+        "https://www.discogs.com/release/20451211"
+      ],
+      "limitations": [
+        "This hold concerns the inspected cached editions, not proof that Qobuz lacks the recording.",
+        "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
+        "Copy-only title/work context does not establish complete recording identity or positive credits."
+      ]
     }
   ]
 }
