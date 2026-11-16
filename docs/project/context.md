@@ -8,7 +8,7 @@ and cache commands. This directory owns current planning.
 
 ## Current state
 
-- Branch main; enrichment pushed through2c5742a on15November at user request.
+- Branch main; enrichment pushed through4adc1e5 on16November at user request.
   GitHub Pages deployment not verified; inspect Git before claiming remote state.
 - Collection741copies/740unique. Saved labels: Spotify254Found/273Probable/
   210NotFound/4Unchecked; Qobuz12Found/153Probable/576Unchecked copies.

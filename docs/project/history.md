@@ -2143,3 +2143,11 @@ and AbbadoDecca-versus-DGsessions remain explicit.242script tests, normalization
 and static build pass. Exactly9Unchecked→Probable; collection/Spotify unchanged.
 Totals12Found/153Probable/576Unchecked copies. No new Qobuz calls or push/deployment.
 [Full16results](../plans/2026-11-16-qobuz-fullsupport16.md). Next38partial leads.
+
+
+### 2026-11-16 — Enrichment/cache work pushed
+
+User requested push: main advanced from2c5742ato4adc1e5successfully, including
+all23reviews,936album cache/ranking, twoBrahms and16full-support reviews.
+GitHub Pages deployment not checked. Next recommendation:38partial-support leads
+using cached programme/credit evidence; no new retrieval implied.
