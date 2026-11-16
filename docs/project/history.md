@@ -2114,3 +2114,15 @@ including scope completeness and ranking/hold-preservation checks. Fixture429
 messages are mocked, not live warnings. Next recording-family reviews:
 Menuhin/Furtwängler6798013andFerras/Karajan12803844, then16full-support leads.
 No push/deployment.
+
+
+### 2026-11-16 — First two full-cache recording matches
+
+Menuhin/Furtwängler6798013andFerras/Karajan12803844reviewed against complete
+three-movement cached BrahmsOp77programmes, raw musical source credits and primary
+festival/publisher family evidence. Both Probable85; no exact pressing/take claim.
+[Evidence/results](../plans/2026-11-16-qobuz-brahms2.md).237script tests plus6targeted
+checks, normalization and static build pass. Exact two-release publication diff;
+collection/Spotify unchanged.12Found/144Probable/585Unchecked copies. No Qobuz
+calls, parser/credit exceptions or push/deployment. Ranking tracks resolved cases
+separately; next16full-support leads, starting1660485.

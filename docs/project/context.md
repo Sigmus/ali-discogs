@@ -11,7 +11,7 @@ and cache commands. This directory owns current planning.
 - Branch main; enrichment pushed through2c5742a on15November at user request.
   GitHub Pages deployment not verified; inspect Git before claiming remote state.
 - Collection741copies/740unique. Saved labels: Spotify254Found/273Probable/
-  210NotFound/4Unchecked; Qobuz12Found/142Probable/587Unchecked copies.
+  210NotFound/4Unchecked; Qobuz12Found/144Probable/585Unchecked copies.
 - Qobuz publication `data/qobuz_matches.json` is separate from Spotify collection
   results. Labels/scores are saved data; Qobuz85/95 are heuristic levels, not
   probabilities. Legacy Spotify labels are not comparable accuracy measurements.
@@ -77,19 +77,20 @@ and cache commands. This directory owns current planning.
   It cannot combine credits across different operas. LP-side audio cuts unverified.
 - 231script tests, UI normalization, static build and local detail checks pass.
   Exactly4Unchecked→Probable publication changes; collection/Spotify unchanged.
-- 586unchecked unique after full-cache diagnostics:497work/credit,57withheld,
-  19completeness,2recording-review,4rejected-recording,6empty,1source hold.
+- 584unchecked unique after full-cache diagnostics:497work/credit,57withheld,
+  19completeness,4rejected-recording,6empty,1source hold.
   No metadata-needed releases remain in this dated inventory; labels unchanged.
 
 ## Next action and limits
 
 936album cache integrated into offline inventory/ranking;23632tracks validated.
 [Run/results](../plans/2026-11-15-qobuz-uncached160.md).160release ranking:
-2complete supported programmes,16full support needing completeness checks,
-38partial support,104no current-rule support (not catalogue absence).
-Next review Brahms6798013(Menuhin/Furtwängler) and12803844(Ferras/Karajan)
-recording families and all source credits; then the16full-support leads.
-Publication/Spotify unchanged. No new calls, automatic promotions or push.
+First2complete leads reviewed: Brahms6798013(Menuhin/Furtwängler) and12803844
+(Ferras/Karajan) now Probable85, with source-bound three-movement/credit checks.
+[Review/results](../plans/2026-11-16-qobuz-brahms2.md).237tests, normalization/build
+pass; exactly2publication changes, collection/Spotify unchanged. No new calls/push.
+Next: review the16full-support leads for completeness and recording family,
+starting1660485;38partial and104zero-current-rule cases remain afterwards.
 
 Continue verified cached reviews/commits autonomously. No unbounded retrieval,
 warning retries, automatic push/deployment, source rewrites or musical-credit

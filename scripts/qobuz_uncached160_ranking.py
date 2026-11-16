@@ -38,13 +38,18 @@ def main():
     scope = json.loads(SCOPE.read_text())
     path = ROOT/'data/qobuz_unmatched_audit.json'
     inventory = json.loads(path.read_text())
-    entries = rank(inventory['entries'], scope['release_ids'])
+    publication = json.loads((ROOT/'data/qobuz_matches.json').read_text())['releases']
+    resolved = [{'discogs_id': rid, 'status': publication[rid]['status']}
+                for rid in scope['release_ids'] if publication[rid]['status'] != 'unchecked']
+    pending_ids = [rid for rid in scope['release_ids'] if publication[rid]['status'] == 'unchecked']
+    entries = rank(inventory['entries'], pending_ids)
     if any(e['uncached_hits'] for e in entries):
         raise ValueError('A frozen release still has uncached search candidates')
     result = {'schema_version': 1, 'reviewed_on': '2026-11-16',
               'scope_sha256': hashlib.sha256(SCOPE.read_bytes()).hexdigest(),
               'inventory_sha256': hashlib.sha256(path.read_bytes()).hexdigest(),
               'counts': dict(Counter(e['bucket'] for e in entries)), 'entries': entries,
+              'resolved_entries': resolved, 'frozen_release_count': len(scope['release_ids']),
               'limitations': ['Workflow ranking, not calibrated confidence or recording acceptance.',
                 'Coverage requires current programme/composer/performer rules; zero support may reflect parser gaps.',
                 'Complete programme still needs recording-family and source-credit review.',

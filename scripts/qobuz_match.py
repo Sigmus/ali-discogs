@@ -400,6 +400,15 @@ def generate():
         if aid in round2_albums and round2_albums[aid] != album:
             raise ValueError('Conflicting seven-album metadata')
         round2_albums[aid] = album
+    # New cache is available only to explicit hash-bound recording reviews here.
+    # Adding cached metadata must never auto-promote every saved search hit.
+    from qobuz_uncached160 import load_completed
+    uncached160 = load_completed()
+    for record in uncached160['metadata']:
+        album = record['album']; aid = str(album['id'])
+        if aid in round2_albums and round2_albums[aid] != album:
+            raise ValueError('Conflicting full candidate-cache album')
+        round2_albums[aid] = album
     for review in remaining_reviews['releases']:
         if review['discogs_id'] in round2_reviews:
             raise ValueError('Duplicate remaining review')
@@ -450,6 +459,7 @@ def generate():
               'target_credits_fingerprint': hashlib.sha256(target_credits_path.read_bytes()).hexdigest(),
               'source_programme_review_fingerprint': hashlib.sha256((ROOT/'data/qobuz_source_programme_reviews.json').read_bytes()).hexdigest(),
               'composer_identity_policy_fingerprint': hashlib.sha256((ROOT/'scripts/qobuz_composer_identity.py').read_bytes()).hexdigest(),
+              'uncached160_metadata_fingerprint': hashlib.sha256((ROOT/'data/qobuz_uncached160_metadata.json.gz').read_bytes()).hexdigest(),
               'vocal_programme_policy_fingerprint': hashlib.sha256((ROOT/'scripts/qobuz_vocal_programme_review.py').read_bytes()).hexdigest(),
               'source_composer_review_fingerprint': hashlib.sha256((ROOT/'data/qobuz_source_composer_reviews.json').read_bytes()).hexdigest(),
               'work_inventory_fingerprint': hashlib.sha256(inventory_path.read_bytes()).hexdigest(),

@@ -1,0 +1,606 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-16",
+  "summary": {
+    "reviewed": 2,
+    "probable": 2
+  },
+  "entries": [
+    {
+      "discogs_id": "6798013",
+      "album_id": "r0y4npi02v3ea",
+      "target_sha256": "1ab50ffd6a7ed59dee844d894bbfb5470b2fc03a52bad51fa259643f2632ec21",
+      "source_sha256": "77b8c2d61ff619a41ec844fc3bc7397679e37dd0e3166c1a33edc0209d9b9b6c",
+      "album_sha256": "d1ad7a7134a1e6f6f17899b4b486104da3fee897b350c11a470369b876b887ae",
+      "track_fingerprints": {
+        "60925180": "feebc0064e70474d8013b469137a926758fc0be518aba35cdb9d0ee170bee7a3",
+        "60925181": "a1e970e47f137e5943337cfcfa94587b14f07a1125fbe4e21c08883ef75584a8",
+        "60925182": "88945d450174f51754a4d220ffd1ff8aa11ed8fb99124505cdecedcf1fec994e"
+      },
+      "source_tracklist": [
+        {
+          "position": "",
+          "type_": "index",
+          "title": "Konzert Für Violine Und Orchester D-Dur Op. 77",
+          "duration": "",
+          "sub_tracks": [
+            {
+              "position": "A",
+              "type_": "track",
+              "title": "1. Satz: Allegro Non Troppo",
+              "duration": ""
+            },
+            {
+              "position": "B1",
+              "type_": "track",
+              "title": "2. Satz: Adagio",
+              "duration": ""
+            },
+            {
+              "position": "B2",
+              "type_": "track",
+              "title": "3. Satz: Allegro Giocoso",
+              "duration": ""
+            }
+          ]
+        }
+      ],
+      "source_extraartists": [
+        {
+          "name": "Johannes Brahms",
+          "anv": "",
+          "join": "",
+          "role": "Composed By",
+          "tracks": "",
+          "id": 304975,
+          "resource_url": "https://api.discogs.com/artists/304975"
+        },
+        {
+          "name": "Wilhelm Furtwängler",
+          "anv": "",
+          "join": "",
+          "role": "Conductor",
+          "tracks": "",
+          "id": 839640,
+          "resource_url": "https://api.discogs.com/artists/839640"
+        },
+        {
+          "name": "Uwe Kraemer",
+          "anv": "",
+          "join": "",
+          "role": "Liner Notes",
+          "tracks": "",
+          "id": 1639142,
+          "resource_url": "https://api.discogs.com/artists/1639142"
+        },
+        {
+          "name": "Lucerne Festival Orchestra",
+          "anv": "Orchester Der Festspiele Luzern",
+          "join": "",
+          "role": "Orchestra",
+          "tracks": "",
+          "id": 1200733,
+          "resource_url": "https://api.discogs.com/artists/1200733"
+        },
+        {
+          "name": "Yehudi Menuhin",
+          "anv": "",
+          "join": "",
+          "role": "Violin",
+          "tracks": "",
+          "id": 532086,
+          "resource_url": "https://api.discogs.com/artists/532086"
+        }
+      ],
+      "required_musicians": [
+        "Wilhelm Furtwängler",
+        "Yehudi Menuhin",
+        "Lucerne Festival Orchestra"
+      ],
+      "result": {
+        "discogs_id": "6798013",
+        "album_id": "r0y4npi02v3ea",
+        "decision": "probable",
+        "recording_review": "Lucerne Festival describes Menuhin/Furtwängler recording Brahms concerto in studio conditions on29–31August1949. It distinguishes the historic festival ensemble from the orchestra established in2003. Cached Warner recording credits Menuhin/Furtwängler/Lucerne on all three Brahms Op77movements. Source Dacapo/EMI mono reissue has the same musical cast and complete three-movement programme. Digital2019release and2016ISRC years are not asserted as session dates.",
+        "sources": [
+          "https://www.discogs.com/release/6798013",
+          "https://www.lucernefestival.ch/en/magazine/the-festival-as-recording-studio/124"
+        ],
+        "limitations": [
+          "Primary festival account corroborates the historical1949studio recording family, not a live-concert designation. Raw source notes are absent and LP reissue date unknown. Exact transfer, takes and physical pressing are not established.",
+          "Probable recording-family match; no exact pressing, take, mastering or audio verification. All raw musical source credits remain required; nonmusical liner/photography credits are not performing musicians."
+        ],
+        "eligible": true,
+        "completeness": {
+          "status": "complete",
+          "works": [
+            {
+              "target": "Konzert Für Violine Und Orchester D-Dur Op. 77",
+              "status": "complete",
+              "expected_movements": [
+                1,
+                2,
+                3
+              ],
+              "observed_movements": [
+                1,
+                2,
+                3
+              ],
+              "track_ids": [
+                60925180,
+                60925181,
+                60925182
+              ],
+              "scope": "whole-work",
+              "source": "Raw source three nested movements, reviewed Brahms Op77 programme",
+              "reason": "All three numbered movements, positive source musician credits and publisher recording-family corroboration."
+            }
+          ],
+          "overlapping_target_tracks": false
+        }
+      },
+      "cached_alternatives": [
+        {
+          "album_id": "r0y4npi02v3ea",
+          "title": "Brahms: Violin Concerto, Op. 77",
+          "coverage": 1.0,
+          "status": "probable",
+          "completeness": "complete",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Konzert Für Violine Und Orchester D-Dur Op. 77",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                60925180,
+                60925181,
+                60925182
+              ]
+            }
+          ]
+        },
+        {
+          "album_id": "xkzc9ok4ax9ec",
+          "title": "Brahms: Variations on a Theme by Haydn, Op. 56a & Violin Concerto, Op. 77",
+          "coverage": 1.0,
+          "status": "probable",
+          "completeness": "complete",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Konzert Für Violine Und Orchester D-Dur Op. 77",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                132767554,
+                132767555,
+                132767556
+              ]
+            }
+          ]
+        },
+        {
+          "album_id": "ikq52x9x4nqwc",
+          "title": "Violin concertos op. 64 & op. 77 by mendelssohn & brahms",
+          "coverage": 1.0,
+          "status": "probable",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Konzert Für Violine Und Orchester D-Dur Op. 77",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                119393544,
+                119393545,
+                119393546
+              ]
+            }
+          ]
+        },
+        {
+          "album_id": "0724357586559",
+          "title": "Dvorak : Cello Concerto/Brahms : Double Concerto",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "incomplete",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Konzert Für Violine Und Orchester D-Dur Op. 77",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ]
+        },
+        {
+          "album_id": "0825646361458",
+          "title": "Brahms : String Sextets Nos 1 & 2",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "incomplete",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Konzert Für Violine Und Orchester D-Dur Op. 77",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ]
+        },
+        {
+          "album_id": "3610150165732",
+          "title": "Brahms : Danses hongroises - Schumann : Concerto pour violon en ré mineur",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "incomplete",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Konzert Für Violine Und Orchester D-Dur Op. 77",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ]
+        },
+        {
+          "album_id": "3610156246923",
+          "title": "Brahms: Concerto pour violon, Op. 77",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "incomplete",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Konzert Für Violine Und Orchester D-Dur Op. 77",
+              "work_tracks": 3,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ]
+        },
+        {
+          "album_id": "3610156497219",
+          "title": "Brahms: Concerto pour violon, Op. 77 ",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "incomplete",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Konzert Für Violine Und Orchester D-Dur Op. 77",
+              "work_tracks": 3,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ]
+        }
+      ],
+      "limitations": [
+        "Primary festival account corroborates the historical1949studio recording family, not a live-concert designation. Raw source notes are absent and LP reissue date unknown. Exact transfer, takes and physical pressing are not established.",
+        "Probable recording-family match; no exact pressing, take, mastering or audio verification. All raw musical source credits remain required; nonmusical liner/photography credits are not performing musicians."
+      ]
+    },
+    {
+      "discogs_id": "12803844",
+      "album_id": "mojfj0xdu7u5b",
+      "target_sha256": "13ce7bbe852a7919d8469c2347a18128962a7547a730292495e582364236abce",
+      "source_sha256": "a74e68ee3f5adf46ddf306277764bb515c1bfae8694736ca71db05a149a63136",
+      "album_sha256": "462c8aabf80c15e7ec07978e34deec9de463b16ae06c20b25f1cf0d395ec4cc5",
+      "track_fingerprints": {
+        "197221609": "f74e08fe94278f8455d40fdafd9e1c6af5016b00d8a5f8d84cfbe8623675b935",
+        "197221610": "b87291f085f211634a0b28b8d7be14b30932ad1ca14823a77d193dea21983cbc",
+        "197221611": "40ab986cbcf4e2f1a970a0ab1d810b88afbf1a15aee1b91d454f6975e7ec4470"
+      },
+      "source_tracklist": [
+        {
+          "position": "",
+          "type_": "index",
+          "title": "Konzert Für Violine Und Orchester D-dur, Op. 77",
+          "duration": "",
+          "sub_tracks": [
+            {
+              "position": "A1 ",
+              "type_": "track",
+              "title": "1. Satz : Allegro Non Troppo",
+              "duration": ""
+            },
+            {
+              "position": "B1",
+              "type_": "track",
+              "title": "2. Satz : Adagio",
+              "duration": ""
+            },
+            {
+              "position": "B2",
+              "type_": "track",
+              "title": "3. Satz : Allegro Gracioso Ma Non Troppo Vivace",
+              "duration": ""
+            }
+          ]
+        }
+      ],
+      "source_extraartists": [
+        {
+          "name": "Johannes Brahms",
+          "anv": "Brahms",
+          "join": "",
+          "role": "Composed By",
+          "tracks": "",
+          "id": 304975,
+          "resource_url": "https://api.discogs.com/artists/304975"
+        },
+        {
+          "name": "Herbert von Karajan",
+          "anv": "",
+          "join": "",
+          "role": "Conductor",
+          "tracks": "",
+          "id": 283122,
+          "resource_url": "https://api.discogs.com/artists/283122"
+        },
+        {
+          "name": "Ursula Von Rauchhaupt",
+          "anv": "",
+          "join": "",
+          "role": "Liner Notes",
+          "tracks": "",
+          "id": 1687693,
+          "resource_url": "https://api.discogs.com/artists/1687693"
+        },
+        {
+          "name": "Berliner Philharmoniker",
+          "anv": "Orchestre Philharmonique De Berlin",
+          "join": "",
+          "role": "Orchestra",
+          "tracks": "",
+          "id": 260744,
+          "resource_url": "https://api.discogs.com/artists/260744"
+        },
+        {
+          "name": "Studio Saint Marc",
+          "anv": "",
+          "join": "",
+          "role": "Photography By",
+          "tracks": "",
+          "id": 2302659,
+          "resource_url": "https://api.discogs.com/artists/2302659"
+        },
+        {
+          "name": "Christian Ferras",
+          "anv": "",
+          "join": "",
+          "role": "Violin",
+          "tracks": "",
+          "id": 849674,
+          "resource_url": "https://api.discogs.com/artists/849674"
+        }
+      ],
+      "required_musicians": [
+        "Herbert von Karajan",
+        "Christian Ferras",
+        "Berliner Philharmoniker"
+      ],
+      "result": {
+        "discogs_id": "12803844",
+        "album_id": "mojfj0xdu7u5b",
+        "decision": "probable",
+        "recording_review": "Eloquence publisher identifies ChristianFerrasEdition CD9 as Brahms/Karajan, recorded Berlin4–6May1964, issued as DG138930 inOctober1964, with Weber/Hermanns/Martin production credits. Source DG138930names Ferras/Karajan/Berlin. Cached digital Vol9contains all three BrahmsOp77movements, positive named cast/composer credits and the same production names; first movement identifies Kreisler cadenza. Source finale Gracioso wording is retained versus digital giocoso, not normalized away.",
+        "sources": [
+          "https://www.discogs.com/release/12803844",
+          "https://www.eloquenceclassics.com/releases-archive/christian-ferras-edition/"
+        ],
+        "limitations": [
+          "Publisher1964session and source catalogue support the recording family. Digital1964-01-01 is a release-year placeholder, not an asserted January session. Source French reissue is undated; exact pressing/mastering/takes unverified.",
+          "Probable recording-family match; no exact pressing, take, mastering or audio verification. All raw musical source credits remain required; nonmusical liner/photography credits are not performing musicians."
+        ],
+        "eligible": true,
+        "completeness": {
+          "status": "complete",
+          "works": [
+            {
+              "target": "Konzert Für Violine Und Orchester D-dur, Op. 77",
+              "status": "complete",
+              "expected_movements": [
+                1,
+                2,
+                3
+              ],
+              "observed_movements": [
+                1,
+                2,
+                3
+              ],
+              "track_ids": [
+                197221609,
+                197221610,
+                197221611
+              ],
+              "scope": "whole-work",
+              "source": "Raw source three nested movements, reviewed Brahms Op77 programme",
+              "reason": "All three numbered movements, positive source musician credits and publisher recording-family corroboration."
+            }
+          ],
+          "overlapping_target_tracks": false
+        }
+      },
+      "cached_alternatives": [
+        {
+          "album_id": "mojfj0xdu7u5b",
+          "title": "Brahms: Violin Concerto in D Major, Op. 77",
+          "coverage": 1.0,
+          "status": "probable",
+          "completeness": "complete",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Konzert Für Violine Und Orchester D-dur, Op. 77",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                197221609,
+                197221610,
+                197221611
+              ]
+            }
+          ]
+        },
+        {
+          "album_id": "0002894777486",
+          "title": "Brahms: Violin Concerto; Violin Sonata No.1",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "incomplete",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Konzert Für Violine Und Orchester D-dur, Op. 77",
+              "work_tracks": 3,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ]
+        },
+        {
+          "album_id": "3610156952589",
+          "title": "Brahms: Concerto pour violon, Op. 77 ",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "incomplete",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Konzert Für Violine Und Orchester D-dur, Op. 77",
+              "work_tracks": 3,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ]
+        },
+        {
+          "album_id": "3614591677311",
+          "title": "Brahms: Violin Concerto in D Major",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "incomplete",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Konzert Für Violine Und Orchester D-dur, Op. 77",
+              "work_tracks": 3,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ]
+        },
+        {
+          "album_id": "kjz8dblkouiic",
+          "title": "Brahms: Double Concerto, Op. 102 - Beethoven: Violin Sonata, Op. 12 No. 1",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "incomplete",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Konzert Für Violine Und Orchester D-dur, Op. 77",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ]
+        },
+        {
+          "album_id": "kpsfgiiao7m5b",
+          "title": "Brahms: Violin Concerto in D Major, Op. 77 - Dvořák: Symphony No. 8 in G Major, Op. 88, B. 163",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "incomplete",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Konzert Für Violine Und Orchester D-dur, Op. 77",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ]
+        },
+        {
+          "album_id": "tbgjadwfp4xpa",
+          "title": "Violin Concerto in D Major, Op. 77",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "incomplete",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Konzert Für Violine Und Orchester D-dur, Op. 77",
+              "work_tracks": 3,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ]
+        },
+        {
+          "album_id": "uuptqa53snk9b",
+          "title": "Brahms: Violin Sonatas Nos. 1-3; Scherzo from F.A.E.-Sonata",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "incomplete",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Konzert Für Violine Und Orchester D-dur, Op. 77",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ]
+        }
+      ],
+      "limitations": [
+        "Publisher1964session and source catalogue support the recording family. Digital1964-01-01 is a release-year placeholder, not an asserted January session. Source French reissue is undated; exact pressing/mastering/takes unverified.",
+        "Probable recording-family match; no exact pressing, take, mastering or audio verification. All raw musical source credits remain required; nonmusical liner/photography credits are not performing musicians."
+      ]
+    }
+  ],
+  "qobuz_requests": 0,
+  "publication_validation": {
+    "status_changes": [
+      [
+        "6798013",
+        "unchecked",
+        "probable"
+      ],
+      [
+        "12803844",
+        "unchecked",
+        "probable"
+      ]
+    ],
+    "script_tests_passed": 237,
+    "followup_targeted_tests_passed": 6
+  }
+}

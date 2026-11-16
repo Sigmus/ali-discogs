@@ -10039,6 +10039,80 @@
       "batch": "2026-11-15-secondary23",
       "blocker_kind": "conflicting_named_singer",
       "next_action": "Resolve the provider singer identity and source-complete scene/cast mapping; no fuzzy Kuen/Kuentz alias or borrowed excerpt credits."
+    },
+    {
+      "discogs_id": "6798013",
+      "album_id": "r0y4npi02v3ea",
+      "target_sha256": "1ab50ffd6a7ed59dee844d894bbfb5470b2fc03a52bad51fa259643f2632ec21",
+      "album_sha256": "d1ad7a7134a1e6f6f17899b4b486104da3fee897b350c11a470369b876b887ae",
+      "source_sha256": "77b8c2d61ff619a41ec844fc3bc7397679e37dd0e3166c1a33edc0209d9b9b6c",
+      "decision": "probable",
+      "works": [
+        {
+          "target": "Konzert Für Violine Und Orchester D-Dur Op. 77",
+          "movements": [
+            1,
+            2,
+            3
+          ],
+          "scope": "whole-work",
+          "source": "Raw source three nested movements, reviewed Brahms Op77 programme",
+          "reason": "All three numbered movements, positive source musician credits and publisher recording-family corroboration."
+        }
+      ],
+      "sources": [
+        "https://www.discogs.com/release/6798013",
+        "https://www.lucernefestival.ch/en/magazine/the-festival-as-recording-studio/124"
+      ],
+      "recording_review": "Lucerne Festival describes Menuhin/Furtwängler recording Brahms concerto in studio conditions on29–31August1949. It distinguishes the historic festival ensemble from the orchestra established in2003. Cached Warner recording credits Menuhin/Furtwängler/Lucerne on all three Brahms Op77movements. Source Dacapo/EMI mono reissue has the same musical cast and complete three-movement programme. Digital2019release and2016ISRC years are not asserted as session dates.",
+      "limitations": [
+        "Primary festival account corroborates the historical1949studio recording family, not a live-concert designation. Raw source notes are absent and LP reissue date unknown. Exact transfer, takes and physical pressing are not established.",
+        "Probable recording-family match; no exact pressing, take, mastering or audio verification. All raw musical source credits remain required; nonmusical liner/photography credits are not performing musicians."
+      ],
+      "external_source_files": [
+        {
+          "path": "data/review_sources/brahms2-6798013/publisher-observation.txt",
+          "sha256": "523599476a6169a3d5bdfce0801c333d9f61334a954abf09aa763c19b52a8230",
+          "source_url": "https://www.lucernefestival.ch/en/magazine/the-festival-as-recording-studio/124"
+        }
+      ]
+    },
+    {
+      "discogs_id": "12803844",
+      "album_id": "mojfj0xdu7u5b",
+      "target_sha256": "13ce7bbe852a7919d8469c2347a18128962a7547a730292495e582364236abce",
+      "album_sha256": "462c8aabf80c15e7ec07978e34deec9de463b16ae06c20b25f1cf0d395ec4cc5",
+      "source_sha256": "a74e68ee3f5adf46ddf306277764bb515c1bfae8694736ca71db05a149a63136",
+      "decision": "probable",
+      "works": [
+        {
+          "target": "Konzert Für Violine Und Orchester D-dur, Op. 77",
+          "movements": [
+            1,
+            2,
+            3
+          ],
+          "scope": "whole-work",
+          "source": "Raw source three nested movements, reviewed Brahms Op77 programme",
+          "reason": "All three numbered movements, positive source musician credits and publisher recording-family corroboration."
+        }
+      ],
+      "sources": [
+        "https://www.discogs.com/release/12803844",
+        "https://www.eloquenceclassics.com/releases-archive/christian-ferras-edition/"
+      ],
+      "recording_review": "Eloquence publisher identifies ChristianFerrasEdition CD9 as Brahms/Karajan, recorded Berlin4–6May1964, issued as DG138930 inOctober1964, with Weber/Hermanns/Martin production credits. Source DG138930names Ferras/Karajan/Berlin. Cached digital Vol9contains all three BrahmsOp77movements, positive named cast/composer credits and the same production names; first movement identifies Kreisler cadenza. Source finale Gracioso wording is retained versus digital giocoso, not normalized away.",
+      "limitations": [
+        "Publisher1964session and source catalogue support the recording family. Digital1964-01-01 is a release-year placeholder, not an asserted January session. Source French reissue is undated; exact pressing/mastering/takes unverified.",
+        "Probable recording-family match; no exact pressing, take, mastering or audio verification. All raw musical source credits remain required; nonmusical liner/photography credits are not performing musicians."
+      ],
+      "external_source_files": [
+        {
+          "path": "data/review_sources/brahms2-12803844/publisher-observation.txt",
+          "sha256": "0e5879b4d806499b1faf467b33985bd5055c6ac93e57ad23b5a154078a132210",
+          "source_url": "https://www.eloquenceclassics.com/releases-archive/christian-ferras-edition/"
+        }
+      ]
     }
   ]
 }

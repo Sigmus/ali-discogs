@@ -10,12 +10,13 @@
   "target_credits_fingerprint": "0d62915c08feb0b282c88664d0c4e44721315769af06aa78146c4e2768c3029e",
   "source_programme_review_fingerprint": "5469466141e2816720bf35e6b54abeb18daf3f12bf6fec1b4f9e794da0db098b",
   "composer_identity_policy_fingerprint": "0d15522d61137e3a80902c461e5f88458c611003d0f9938a538858c49804f9c0",
+  "uncached160_metadata_fingerprint": "a1638e0120a6260cc80795af913a9021b63ee7a0d6a5c0a5d26be13b1e772ac3",
   "vocal_programme_policy_fingerprint": "aa64d218d38c7088d6948d643101b164387bea21528c48dd5a8a0ab7d9fd9491",
   "source_composer_review_fingerprint": "1cce69d6df99a54b444f6a210d84c5c69b3139eb4ed1355e821708d1fb59b83c",
   "work_inventory_fingerprint": "47b8e955b99c37b132e66daea61590490d249f94a520740d702bec5caa5019ce",
   "lead_review_fingerprint": "bc731b95eadb23cb1a13d735a4e7410615ae06f260b2c4a381ed4a29e229265e",
   "comparison_evidence_fingerprint": "c38df992ab44bbc892ffacafa19d74cc1495d7579d3d6da670653204dca25e57",
-  "album_urls_fingerprint": "cc96960927a0b449cea200e923abef5d11526d5994a70e2eb9f5f9619cc4b380",
+  "album_urls_fingerprint": "279e6adf15e687c61a1d9d799feb3c22bdba105a6b84323994ec328f956f495e",
   "opera_review_fingerprint": "6e26d528eb7de78d372635218404a57534332ea1cd3d92e89e90e7a18066f85b",
   "pair_review_fingerprint": "7709aa57ef7815fda88766badd3064939bccb142bd0e97389a0f5f011c54cd84",
   "container_review_fingerprint": "aa8a8e530114e05869e1215561786073250faca3c9349b66059ea59ff3c535e0",
@@ -33,7 +34,7 @@
   "richter_review_fingerprint": "a14865f86e46150593e39bfa285fa6c7c61c8f46147b8094c0cb048fd02118ab",
   "round2_review_fingerprint": "be60742c3d35f5a9aa67f200642f7fcde98a52562a46130e043db8f4aa7c851e",
   "round2_metadata_fingerprint": "9db62d7bf62d4b77f5acf422dfde77959f845f4dc00b2ac0e10c02ccea295860",
-  "remaining_review_fingerprint": "0f14e5e71d093d0e3b4c71287922655f67c5f2f7c2cbae7a8cd7bf501f6ce536",
+  "remaining_review_fingerprint": "437cb6b148497f094d8c6365a8be452e2b046c22ae3199b1794693d9a85391cb",
   "remaining_metadata_fingerprint": "393b2d12e176160ab311b65267b38bdc8c205222e12f792bf07eba5c1fcfafbf",
   "remaining_followup_metadata_fingerprint": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
   "seven_album_metadata_fingerprint": "139f9b336c68b56ea22c18362cb0481c026366c5d359142f2bb702fe1233a4fc",
@@ -25010,14 +25011,105 @@
       ]
     },
     "6798013": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "r0y4npi02v3ea",
+        "name": "Brahms: Violin Concerto, Op. 77",
+        "artists": [
+          "Yehudi Menuhin"
+        ],
+        "label": "Warner Classics",
+        "release_date": "2019-04-12",
+        "image": "https://static.qobuz.com/images/covers/ea/v3/r0y4npi02v3ea_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/brahms-violin-concerto-op-77-yehudi-menuhin/r0y4npi02v3ea"
+      },
+      "candidates": [
+        {
+          "id": "r0y4npi02v3ea",
+          "name": "Brahms: Violin Concerto, Op. 77",
+          "artists": [
+            "Yehudi Menuhin"
+          ],
+          "label": "Warner Classics",
+          "release_date": "2019-04-12",
+          "image": "https://static.qobuz.com/images/covers/ea/v3/r0y4npi02v3ea_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/brahms-violin-concerto-op-77-yehudi-menuhin/r0y4npi02v3ea",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 1,
+          "target_count": 1,
+          "required_performers": [
+            "Wilhelm Furtwängler",
+            "Yehudi Menuhin",
+            "Lucerne Festival Orchestra"
+          ],
+          "programme": [
+            {
+              "target": "Konzert Für Violine Und Orchester D-Dur Op. 77",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                60925180,
+                60925181,
+                60925182
+              ]
+            }
+          ],
+          "reasons": [
+            "Each target item has supporting work and performer credits.",
+            "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+            "Lucerne Festival describes Menuhin/Furtwängler recording Brahms concerto in studio conditions on29–31August1949. It distinguishes the historic festival ensemble from the orchestra established in2003. Cached Warner recording credits Menuhin/Furtwängler/Lucerne on all three Brahms Op77movements. Source Dacapo/EMI mono reissue has the same musical cast and complete three-movement programme. Digital2019release and2016ISRC years are not asserted as session dates.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Primary festival account corroborates the historical1949studio recording family, not a live-concert designation. Raw source notes are absent and LP reissue date unknown. Exact transfer, takes and physical pressing are not established.",
+            "Probable recording-family match; no exact pressing, take, mastering or audio verification. All raw musical source credits remain required; nonmusical liner/photography credits are not performing musicians."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Konzert Für Violine Und Orchester D-Dur Op. 77",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "track_ids": [
+                  60925180,
+                  60925181,
+                  60925182
+                ],
+                "scope": "whole-work",
+                "source": "Raw source three nested movements, reviewed Brahms Op77 programme",
+                "reason": "All three numbered movements, positive source musician credits and publisher recording-family corroboration."
+              }
+            ],
+            "overlapping_target_tracks": false
+          },
+          "recording_review": "Lucerne Festival describes Menuhin/Furtwängler recording Brahms concerto in studio conditions on29–31August1949. It distinguishes the historic festival ensemble from the orchestra established in2003. Cached Warner recording credits Menuhin/Furtwängler/Lucerne on all three Brahms Op77movements. Source Dacapo/EMI mono reissue has the same musical cast and complete three-movement programme. Digital2019release and2016ISRC years are not asserted as session dates.",
+          "review_sources": [
+            "https://www.discogs.com/release/6798013",
+            "https://www.lucernefestival.ch/en/magazine/the-festival-as-recording-studio/124"
+          ]
+        }
+      ],
       "query": "wilhelm furtwangler brahms violinkonzert d dur op 77",
       "searched_at": "2026-11-12T15:04:32.348381+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Each target item has supporting work and performer credits.",
+        "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+        "Lucerne Festival describes Menuhin/Furtwängler recording Brahms concerto in studio conditions on29–31August1949. It distinguishes the historic festival ensemble from the orchestra established in2003. Cached Warner recording credits Menuhin/Furtwängler/Lucerne on all three Brahms Op77movements. Source Dacapo/EMI mono reissue has the same musical cast and complete three-movement programme. Digital2019release and2016ISRC years are not asserted as session dates.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Primary festival account corroborates the historical1949studio recording family, not a live-concert designation. Raw source notes are absent and LP reissue date unknown. Exact transfer, takes and physical pressing are not established.",
+        "Probable recording-family match; no exact pressing, take, mastering or audio verification. All raw musical source credits remain required; nonmusical liner/photography credits are not performing musicians."
       ]
     },
     "9707819": {
@@ -67738,14 +67830,105 @@
       ]
     },
     "12803844": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "mojfj0xdu7u5b",
+        "name": "Brahms: Violin Concerto in D Major, Op. 77",
+        "artists": [
+          "Christian Ferras"
+        ],
+        "label": "Universal Music Australia Pty. Ltd.",
+        "release_date": "1964-01-01",
+        "image": "https://static.qobuz.com/images/covers/5b/7u/mojfj0xdu7u5b_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/brahms-violin-concerto-in-d-major-op-77-berliner-philharmoniker-herbert-von-karajan-christian-ferras/mojfj0xdu7u5b"
+      },
+      "candidates": [
+        {
+          "id": "mojfj0xdu7u5b",
+          "name": "Brahms: Violin Concerto in D Major, Op. 77",
+          "artists": [
+            "Christian Ferras"
+          ],
+          "label": "Universal Music Australia Pty. Ltd.",
+          "release_date": "1964-01-01",
+          "image": "https://static.qobuz.com/images/covers/5b/7u/mojfj0xdu7u5b_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/brahms-violin-concerto-in-d-major-op-77-berliner-philharmoniker-herbert-von-karajan-christian-ferras/mojfj0xdu7u5b",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 1,
+          "target_count": 1,
+          "required_performers": [
+            "Herbert von Karajan",
+            "Christian Ferras",
+            "Berliner Philharmoniker"
+          ],
+          "programme": [
+            {
+              "target": "Konzert Für Violine Und Orchester D-dur, Op. 77",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                197221609,
+                197221610,
+                197221611
+              ]
+            }
+          ],
+          "reasons": [
+            "Each target item has supporting work and performer credits.",
+            "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+            "Eloquence publisher identifies ChristianFerrasEdition CD9 as Brahms/Karajan, recorded Berlin4–6May1964, issued as DG138930 inOctober1964, with Weber/Hermanns/Martin production credits. Source DG138930names Ferras/Karajan/Berlin. Cached digital Vol9contains all three BrahmsOp77movements, positive named cast/composer credits and the same production names; first movement identifies Kreisler cadenza. Source finale Gracioso wording is retained versus digital giocoso, not normalized away.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Publisher1964session and source catalogue support the recording family. Digital1964-01-01 is a release-year placeholder, not an asserted January session. Source French reissue is undated; exact pressing/mastering/takes unverified.",
+            "Probable recording-family match; no exact pressing, take, mastering or audio verification. All raw musical source credits remain required; nonmusical liner/photography credits are not performing musicians."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Konzert Für Violine Und Orchester D-dur, Op. 77",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "track_ids": [
+                  197221609,
+                  197221610,
+                  197221611
+                ],
+                "scope": "whole-work",
+                "source": "Raw source three nested movements, reviewed Brahms Op77 programme",
+                "reason": "All three numbered movements, positive source musician credits and publisher recording-family corroboration."
+              }
+            ],
+            "overlapping_target_tracks": false
+          },
+          "recording_review": "Eloquence publisher identifies ChristianFerrasEdition CD9 as Brahms/Karajan, recorded Berlin4–6May1964, issued as DG138930 inOctober1964, with Weber/Hermanns/Martin production credits. Source DG138930names Ferras/Karajan/Berlin. Cached digital Vol9contains all three BrahmsOp77movements, positive named cast/composer credits and the same production names; first movement identifies Kreisler cadenza. Source finale Gracioso wording is retained versus digital giocoso, not normalized away.",
+          "review_sources": [
+            "https://www.discogs.com/release/12803844",
+            "https://www.eloquenceclassics.com/releases-archive/christian-ferras-edition/"
+          ]
+        }
+      ],
       "query": "herbert von karajan brahms concerto pour violon et orchestre en re majeur",
       "searched_at": "2026-11-12T15:55:51.331326+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Each target item has supporting work and performer credits.",
+        "Grouped movements or extra recordings require review; recording identity is not confirmed.",
+        "Eloquence publisher identifies ChristianFerrasEdition CD9 as Brahms/Karajan, recorded Berlin4–6May1964, issued as DG138930 inOctober1964, with Weber/Hermanns/Martin production credits. Source DG138930names Ferras/Karajan/Berlin. Cached digital Vol9contains all three BrahmsOp77movements, positive named cast/composer credits and the same production names; first movement identifies Kreisler cadenza. Source finale Gracioso wording is retained versus digital giocoso, not normalized away.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Publisher1964session and source catalogue support the recording family. Digital1964-01-01 is a release-year placeholder, not an asserted January session. Source French reissue is undated; exact pressing/mastering/takes unverified.",
+        "Probable recording-family match; no exact pressing, take, mastering or audio verification. All raw musical source credits remain required; nonmusical liner/photography credits are not performing musicians."
       ]
     },
     "3652175": {

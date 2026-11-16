@@ -26,8 +26,9 @@ All26secondary recording reviews are complete:7Probable,18withheld and1specific
 wrong-recording rejection, including the [final23batch](../plans/2026-11-15-qobuz-secondary23.md).
 The earlier priority/secondary batches are complete. New936album cache is
 validated/shared and160leads ranked:2supported complete,16full support needing
-completeness,38partial,104zero-current-rule support. First review Brahms6798013
-and12803844recording families/source credits, then16full-support leads. Current
+completeness,38partial,104zero-current-rule support. Both complete Brahms leads
+are now reviewed/Probable ([results](../plans/2026-11-16-qobuz-brahms2.md)).
+Next16full-support leads, starting1660485, then partials. Current
 whole-inventory work/credit queue:13priority,27secondary,454zero-current-support
 and3known constraints. Zero support needs source/lead/rule investigation,
 not automatic API retrieval. Revisit explicit holds only with new evidence or a
