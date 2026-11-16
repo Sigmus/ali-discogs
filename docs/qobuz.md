@@ -649,3 +649,11 @@ all source bands, full suite groups, joined movements, work-specific musicians
 and exact source-bound annotated composer strings. All28diagnostic leads now have
 saved recording decisions; the untouched original179diagnostic is retained.
 See [results](plans/2026-11-16-qobuz-title19.md). No live work-field rule adopted.
+
+`uv run --with requests python scripts/qobuz_title151_diagnostic.py` freezes and
+reproduces the remaining151title/work root-cause diagnostic. It tests own-track
+work fields and exact catalogue formatting on copies, retains source-credit
+lookup keys, rejects title collisions and catalogue-overwrite attempts, and guards
+all shared caches/publication/source inputs. Its3ranked leads need full source-band
+and recording review; diagnostics never mark a release reviewed or accepted.
+[Results/limitations](plans/2026-11-16-qobuz-title151-diagnostic.md).

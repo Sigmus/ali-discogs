@@ -1,0 +1,31 @@
+{
+  "schema_version": 1,
+  "diagnostic_sha256": "818a33211417d1a7a778493c9a38c96cfcdca3f085d5019c5015c5bb3d5d0025",
+  "entries": [
+    {
+      "discogs_id": "2548602",
+      "title": "The Six Last Sonatas",
+      "album_id": "0886445085297",
+      "experimental_coverage": 1.0,
+      "completeness": "unknown",
+      "workflow": "candidate_review_needed"
+    },
+    {
+      "discogs_id": "7065721",
+      "title": "Sonatas No. 10, K. 378 · No. 15, K. 454",
+      "album_id": "0886443760844",
+      "experimental_coverage": 1.0,
+      "completeness": "unknown",
+      "workflow": "candidate_review_needed"
+    },
+    {
+      "discogs_id": "24278222",
+      "title": "Dido And Aeneas",
+      "album_id": "cp3h8mx581qma",
+      "experimental_coverage": 0.25,
+      "completeness": "unknown",
+      "workflow": "candidate_review_needed"
+    }
+  ],
+  "limitations": "Diagnostic leads only; no match/workflow labels changed. Prior saved constraints remain authoritative."
+}

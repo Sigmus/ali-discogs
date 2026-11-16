@@ -42,13 +42,16 @@ All11work-field gains are reviewed, including the [nine-case follow-up](../plans
 Current unreviewed split:150credit-support,151work/title,6no cached candidate and
 5completeness cases. Vocal-role diagnostic complete: no candidate status/confidence changes or new
 complete source-unit support; live normalization deferred ([results](../plans/2026-11-16-qobuz-vocal-role-diagnostic.md)).
-All28title179diagnostic leads reviewed across two batches:15Probable/13holds,
-0pending. Latest19:9Probable/10holds, full programmes and source-bound positive
-musicians retained ([results](../plans/2026-11-16-qobuz-title19.md)). Next suggested
-work:offline root-cause diagnostic of the151remaining work/title cases that gained
-nothing from the explicit-work experiment, alongside150remaining credit cases.
-No global work-field/alias policy or automated promotion adopted. The broader
-304work/credit inventory remains separate. Zero support needs source/
+All28title179diagnostic leads reviewed:15Probable/13holds,0pending. The remaining
+151case read-only root-cause diagnostic is complete:409pairs,2full-unit and1partial
+lead, no coverage regressions in this bounded scope.21work-title cases reveal
+musician gaps,40lack shared recognized catalogue IDs and83need work-identity
+interpretation. Source flags and eight diagnostic spot checks retain the detail.
+[Results](../plans/2026-11-16-qobuz-title151-diagnostic.md). Next recommended batch:
+Gould2548602and Heifetz7065721source-band/completeness/recording checks, then
+partial Dido24278222. All3remain diagnostic leads with unknown completeness.
+No publication/workflow, live rule, alias or role-policy change. The broader
+304work/credit inventory and150credit cases remain separate. Zero support needs source/
 lead/rule investigation, not automatic API retrieval. Revisit explicit holds only
 with new evidence or a validated scoped rule; partial source support is triage,
 not confidence. No new retrieval or broad policy change follows from completion.

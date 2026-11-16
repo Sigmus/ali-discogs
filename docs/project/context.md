@@ -59,7 +59,7 @@ and cache commands. This directory owns current planning.
   recording decisions remain in history and their linked frozen audits.
 - Earlier38partial-support reviews:6Probable/32holds. All104zero-rule reviews:
   3Probable/101holds. Frozen audits retain sources, alternatives and next actions.
-- Latest290script tests pass; title19batch adds9Probable/10explicit holds.
+- Latest296script tests pass; title151diagnostic adds3review leads, no matches.
   Collection/Spotify, production matcher and cache bytes unchanged.
 - 547unchecked unique:304work/credit,227withheld,5completeness,4rejected,
   6empty,1source hold. Reviewed holds remain searchable evidence, not Not found.
@@ -72,24 +72,22 @@ and cache commands. This directory owns current planning.
 936album cache integrated;23632tracks validated. All160original leads reviewed:
 20recording families accepted,140explicit holds,0open in that frozen cohort.
 Completed reviews do not imply all recordings are matched. No new provider calls.
-Final supported cached leads reviewed:9283162SchubertProbable (complete five-band
-mapping, archival SXL6090/CD linkage);15660391Mozart held (six-concerto box,
-partial reissues and missing track-level orchestra credits). No open supported
-cached leads remain. [Results/groups](../plans/2026-11-16-qobuz-final-cached-leads.md).
+Earlier supported cached leads and source/recording holds remain in their
+[completed review history](history.md); no hold is cleared by diagnostic support.
 Twelve credit-support cases reviewed:Reiner1896362Probable;11explicit holds.
 All11work-context gains from the frozen171diagnostic are now reviewed.
-Nine-case follow-up:Heifetz4259729/10851475Probable;7holds, including associated
-orchestra roles, Furtwängler1938transfer identity, Rubinstein co-composer metadata
-and Piatigorsky container duration. [Results](../plans/2026-11-16-qobuz-work-context9.md).
+Earlier work-context9follow-up:2HeifetzProbable/7holds.
+[Results and preserved blockers](../plans/2026-11-16-qobuz-work-context9.md).
 Credit cohort remains150without saved decisions. Vocal-role copy experiment
 improves only two already-held partial Rheingold programmes; no complete candidate
 or status/confidence gains. Live role parser unchanged.
 [Results](../plans/2026-11-16-qobuz-vocal-role-diagnostic.md).
-All28title-context leads reviewed:15Probable/13holds,0pending. Latest19batch:
-9Probable/10holds; preserved complete programmes, source musicians and recording
-limitations. [Results](../plans/2026-11-16-qobuz-title19.md). Next:diagnose the
-remaining151unreviewed title/work cases with no gain from explicit work fields;
-start offline root-cause grouping before any new rule or retrieval proposal.
+All28title-context leads reviewed:15Probable/13holds,0pending.
+Remaining151title/work diagnostic complete:409pairs,2full-unit and1partial lead;
+no production rule or publication change.21work-title cases expose musician gaps;
+40lack shared recognized catalogue IDs,83need work-identity interpretation.
+[Results](../plans/2026-11-16-qobuz-title151-diagnostic.md). Next:review Gould2548602
+and Heifetz7065721for complete source bands/recording, then partial Dido24278222.
 Broader source-role parser audit is proposed, not adopted. Krips finale is not
 proven missing; joined-band mapping remains unresolved.
 

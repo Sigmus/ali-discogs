@@ -2305,3 +2305,19 @@ publication diff pass. Only19release records changed; Spotify/source/caches inta
 UIcopies12Found/181Probable/235Reviewed · unresolved/313Unchecked. All28title
 leads now15accepted/13held/0pending; next suggested diagnostic is the151remaining
 work/title cases. Docs/queues updated; local commit only, no push/deployment.
+
+## 2026-11-16 — Remaining151title/work root-cause diagnostic
+
+Frozen151cases/409saved pairs; all source/cache/publication inputs fingerprinted.
+Copy-only own-track work context yields Heifetz7065721full support and
+Dido24278222partial1/4; exact Hoboken notation adds Gould2548602full support.
+All3need completeness/recording review. No coverage regressions in bounded scope,
+no adopted live rule. Machine groups:83unsupported title/catalogue anchor,
+40no shared recognized catalogue ID,21work/musician gaps,3composer guards,
+1shared-ID structure,2full-unit/1partial leads. Flags overlap; no absence claims.
+Eight source/cache spot checks retain concrete distinctions, including old Casals
+constraints. Same-track cast on47releases is triage only, never work/recording proof.
+All296script tests pass; scope/report hashes and unchanged guarded publication,
+collection/Spotify, source/cache and production-scoring bytes verified. Saved
+`data/qobuz_title151_{scope,diagnostic,ranking}.json`; no labels/workflow reviews
+changed. Docs updated. Local checkpoint only; no provider requests/push/deploy.
