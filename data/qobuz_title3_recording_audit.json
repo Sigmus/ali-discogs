@@ -1,0 +1,1395 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-16",
+  "status": "complete",
+  "frozen_release_ids": [
+    "2548602",
+    "7065721",
+    "24278222"
+  ],
+  "entries": [
+    {
+      "discogs_id": "2548602",
+      "title": "The Six Last Sonatas",
+      "outcome": "withhold",
+      "finding_kind": "source-band-duration-discrepancy",
+      "finding": "The official Gould page corroborates the complete1982Haydn family and all15movements, with the same source/file production team. However source B4is3:50versus3:39digital, C5is3:27versus2:22, and D3is3:40versus3:47: three bands exceed existing tolerance. The first XVI49band is also printedIIAllegro versus digitalIAllegro. A single source-image request returned403; no visual timing correction or duration waiver is justified.",
+      "next_action": "Inspect original label/booklet timings and transfer provenance before reconciling these exact discrepancies; complete work coverage alone is insufficient.",
+      "target_sha256": "a76df7bf7fb02ebb4695706b53121773dde8f122d2542d0cd98855a91b9af633",
+      "source_sha256": "9a04db2a0f1c45e78e39613b88cad2441b12f2841239d1a5ffe9f9f1ccab93af",
+      "review_album_id": "0886445085297",
+      "review_album_sha256": "dec9f74637e656bfc4ef39540d8caf2fca0c692e74b3675c72e8de07004b8015",
+      "source_programme": [
+        {
+          "position": "",
+          "type_": "index",
+          "title": "Sonata No. 56 D Major / D-Dur / Re Majeur, Hoboken XVI/42",
+          "duration": "",
+          "sub_tracks": [
+            {
+              "position": "A1",
+              "type_": "track",
+              "title": "I - Andante Con Espressione",
+              "duration": "8:50"
+            },
+            {
+              "position": "A2",
+              "type_": "track",
+              "title": "II - Vivace Assai",
+              "duration": "2:10"
+            }
+          ]
+        },
+        {
+          "position": "",
+          "type_": "index",
+          "title": "Sonata No. 58 C Major / C-Dur / UT Majeur, Hoboken XVI/48",
+          "duration": "",
+          "sub_tracks": [
+            {
+              "position": "A3",
+              "type_": "track",
+              "title": "I - Andante Con Espressione",
+              "duration": "12:51"
+            },
+            {
+              "position": "B1",
+              "type_": "track",
+              "title": "II - Rondo: Presto",
+              "duration": "3:20"
+            }
+          ]
+        },
+        {
+          "position": "",
+          "type_": "index",
+          "title": "Sonata No. 59 E Flat Major / Es-Dur / Mi Bemol Majeur , Hoboken XVI/49",
+          "duration": "",
+          "sub_tracks": [
+            {
+              "position": "B2",
+              "type_": "track",
+              "title": "II - Allegro",
+              "duration": "4:40"
+            },
+            {
+              "position": "B3",
+              "type_": "track",
+              "title": "II - Adagio E Cantabile",
+              "duration": "8:50"
+            },
+            {
+              "position": "B4",
+              "type_": "track",
+              "title": "III - Finale: Tempo Di Minuetto",
+              "duration": "3:50"
+            }
+          ]
+        },
+        {
+          "position": "",
+          "type_": "index",
+          "title": "Sonata No. 60 C Major / C-Dur / Ut Majeur, Hoboken XVI/50",
+          "duration": "",
+          "sub_tracks": [
+            {
+              "position": "C1",
+              "type_": "track",
+              "title": "I - Allegro",
+              "duration": "5:30"
+            },
+            {
+              "position": "C2",
+              "type_": "track",
+              "title": "II - Adagio",
+              "duration": "5:33"
+            },
+            {
+              "position": "C3",
+              "type_": "track",
+              "title": "III - Allegro Molto",
+              "duration": "2:26"
+            }
+          ]
+        },
+        {
+          "position": "",
+          "type_": "index",
+          "title": "Sonata No. 61 D Major / D-Dur / Re Majeur, Hoboken XVI/51",
+          "duration": "",
+          "sub_tracks": [
+            {
+              "position": "C4",
+              "type_": "track",
+              "title": "I - Andante",
+              "duration": "3:25"
+            },
+            {
+              "position": "C5",
+              "type_": "track",
+              "title": "II - Finale: Presto",
+              "duration": "3:27"
+            }
+          ]
+        },
+        {
+          "position": "",
+          "type_": "index",
+          "title": "Sonata No. 62 E-Flat Major / Es-Dur / Mi Bemol Majeur, Hoboken XVI/52",
+          "duration": "",
+          "sub_tracks": [
+            {
+              "position": "D1",
+              "type_": "track",
+              "title": "I - Allegro",
+              "duration": "5:15"
+            },
+            {
+              "position": "D2",
+              "type_": "track",
+              "title": "II - Adagio",
+              "duration": "7:30"
+            },
+            {
+              "position": "D3",
+              "type_": "track",
+              "title": "III - Finale: Presto",
+              "duration": "3:40"
+            }
+          ]
+        }
+      ],
+      "source_credits": [
+        {
+          "name": "Henrietta Condak",
+          "anv": "",
+          "join": "",
+          "role": "Art Direction",
+          "tracks": "",
+          "id": 723685,
+          "resource_url": "https://api.discogs.com/artists/723685"
+        },
+        {
+          "name": "Joseph Haydn",
+          "anv": "Haydn",
+          "join": "",
+          "role": "Composed By",
+          "tracks": "",
+          "id": 108568,
+          "resource_url": "https://api.discogs.com/artists/108568"
+        },
+        {
+          "name": "Cliff Condak",
+          "anv": "",
+          "join": "",
+          "role": "Cover [Art]",
+          "tracks": "",
+          "id": 1899022,
+          "resource_url": "https://api.discogs.com/artists/1899022"
+        },
+        {
+          "name": "John Johnson (3)",
+          "anv": "",
+          "join": "",
+          "role": "Engineer",
+          "tracks": "",
+          "id": 466433,
+          "resource_url": "https://api.discogs.com/artists/466433"
+        },
+        {
+          "name": "Marty Greenblatt",
+          "anv": "Martin Greenblatt",
+          "join": "",
+          "role": "Engineer",
+          "tracks": "",
+          "id": 425816,
+          "resource_url": "https://api.discogs.com/artists/425816"
+        },
+        {
+          "name": "Ray Moore",
+          "anv": "",
+          "join": "",
+          "role": "Engineer",
+          "tracks": "",
+          "id": 384856,
+          "resource_url": "https://api.discogs.com/artists/384856"
+        },
+        {
+          "name": "Stan Tonkel",
+          "anv": "",
+          "join": "",
+          "role": "Engineer",
+          "tracks": "",
+          "id": 372225,
+          "resource_url": "https://api.discogs.com/artists/372225"
+        },
+        {
+          "name": "Christa Landon",
+          "anv": "",
+          "join": "",
+          "role": "Liner Notes [English, German, French]",
+          "tracks": "",
+          "id": 1943762,
+          "resource_url": "https://api.discogs.com/artists/1943762"
+        },
+        {
+          "name": "Michael Danner (3)",
+          "anv": "",
+          "join": "",
+          "role": "Liner Notes [Übersetzung]",
+          "tracks": "",
+          "id": 1656004,
+          "resource_url": "https://api.discogs.com/artists/1656004"
+        },
+        {
+          "name": "Glenn Gould",
+          "anv": "",
+          "join": "",
+          "role": "Piano",
+          "tracks": "",
+          "id": 517160,
+          "resource_url": "https://api.discogs.com/artists/517160"
+        },
+        {
+          "name": "Glenn Gould",
+          "anv": "",
+          "join": "",
+          "role": "Producer",
+          "tracks": "",
+          "id": 517160,
+          "resource_url": "https://api.discogs.com/artists/517160"
+        },
+        {
+          "name": "Samuel H. Carter",
+          "anv": "",
+          "join": "",
+          "role": "Producer",
+          "tracks": "",
+          "id": 836830,
+          "resource_url": "https://api.discogs.com/artists/836830"
+        },
+        {
+          "name": "Richard Einhorn",
+          "anv": "",
+          "join": "",
+          "role": "Producer [Editing Assistance]",
+          "tracks": "",
+          "id": 711105,
+          "resource_url": "https://api.discogs.com/artists/711105"
+        }
+      ],
+      "source_notes": "Released in a gatefold cover with a double foldout sleeve.\n\nFirst cat# on back cover, spine and inside gatefold. 2nd on labels. 3rd, between brackets, on labels\n\nFront cover info:\n\"Digital Recording Audiophile Pressing\" at top center.\nFull title string: \"Les Six Dernieres Sonates - Die Sechs Letzten Sonaten - The Six Last Sonatas Piano-Klavier 56 58 59 60 61 62\"\nNo cat# under CBS Masterworks logo on top left.\n\nInside gatefold info:\nCredited liner notes (initiated on back cover) in English, German and French: Christa Landon, Vienna 1964.\n\"© 1964 by Universal Edition A.G. Wien assigned 1973 to Werner «Urtext Edition, ....\".\n\nSpine string: \"D2 36947 Haydn: The Six Last Sonatas/Les Six Dernieres Sonates/Die Sechs Letzten Sonaten Glenn Gould CBS Masterworks Digital\".\n\nBack cover info:\n\"This recording is playable on all record playback equipment\".\n© 1982 CBS Inc.\n℗ 1982 CBS Inc.\nPrinted in Holland.\nTracklist: \"The selections are P.D.\".\nLiner notes (continued and credited inside gatefold) in English, German and French.\n\nCenter-labels info:\nRim text message in English. \n\"Digital Recording\", 2x \"CBS Masterworks\" and 3x CBS Masterworks logo in circle, inside rim text. \n℗ 1982 CBS Inc.\nMade in Germany",
+      "selected_track_fingerprints": {
+        "26889126": "d5e7379d574852f237c7e74315f38c406ed5b431a7d756bf4d6c8cfb2307c46d",
+        "26889128": "bf72c2a9faa91c26f660f6c2a5ba809095fb23f58118dea18217d9c449644e92",
+        "26889130": "8ab19a6462986ae01c92837d7cf3d07c4d6b3c1dbab97e85a16f8a83e99068cb",
+        "26889132": "13e192f50037f89fa872f584bf8373b91ddd8ebb341becfd75863d9aa58ab241",
+        "26889134": "538e0f8684e5601b72a7c131b22d4dd1448e7870b8417c90bd3f0be820422743",
+        "26889136": "6c244b4676850ba732611a9d59a05bd6e78177e8ced62b13df591d6719c6bd18",
+        "26889138": "54072cc1a1188dd67b9b2a823ef652b146feefa847a056196aaec3a7c153b200",
+        "26889140": "7f42e4feb33ac35e1117539b544e87fe98b0de90dc6cbab55221ccf830263792",
+        "26889142": "7cb54bcd3fbf0255a67a8c2988b2e200e98cbcbe3a202d538508472411d9fe38",
+        "26889144": "89df88622ec7f58730b93a1b0d8aa8f39b6ae3d9cfb72ea17ff202f45b90fda4",
+        "26889146": "743bffbb8dba4e69c57ac2f82cfd362a34e760fa870882707de0a0919f732f48",
+        "26889148": "403f548c31a15e32fd32874c7a22e3d6aa4809fae72d4244c37ada717c01ec51",
+        "26889150": "4652d7be3ff825106e5e5c953beddaa82e49fa39dd5dc5d2b9c13ceedfe166de",
+        "26889152": "e81094bc2b62939338300a41c544af2e99766296fdd433336fa0e1680c026740",
+        "26889154": "b532383a5482d429b4e7e646351b1116666fa023a387f32bd49f3e59f364c275"
+      },
+      "cached_alternative_checks": [
+        {
+          "album_id": "0886445085297",
+          "title": "Haydn: The 6 Last Piano Sonatas (Remastered)",
+          "album_sha256": "dec9f74637e656bfc4ef39540d8caf2fca0c692e74b3675c72e8de07004b8015",
+          "track_manifest_sha256": "bb14bf55978f1c53e6ebaba080e2bef3e32f46c7cbf88fb8cf8a7b9ed774a42f",
+          "tracks_count": 15,
+          "track_titles": [
+            "I. Andante con espressione",
+            "II. Vivace assai",
+            "I. Andante con espressione",
+            "II. Rondo - Presto",
+            "I. Allegro",
+            "II. Adagio e cantabile",
+            "III. Finale - Tempo di Minuet",
+            "I. Allegro",
+            "II. Adagio",
+            "III. Allegro molto",
+            "I. Andante",
+            "II. Finale - Presto",
+            "I. Allegro",
+            "II. Adagio",
+            "III. Finale - Presto"
+          ]
+        }
+      ],
+      "result": {
+        "discogs_id": "2548602",
+        "album_id": "0886445085297",
+        "decision": "withhold",
+        "recording_review": "The official Gould page corroborates the complete1982Haydn family and all15movements, with the same source/file production team. However source B4is3:50versus3:39digital, C5is3:27versus2:22, and D3is3:40versus3:47: three bands exceed existing tolerance. The first XVI49band is also printedIIAllegro versus digitalIAllegro. A single source-image request returned403; no visual timing correction or duration waiver is justified.",
+        "sources": [
+          "https://www.discogs.com/release/2548602",
+          "https://glenngould.com/music/haydn-the-six-last-sonatas/"
+        ],
+        "limitations": [
+          "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
+          "No source rewrite, timing waiver, global work-field/catalogue normalization, performer alias or role waiver."
+        ],
+        "eligible": false,
+        "blockers": [
+          "source-band-duration"
+        ],
+        "completeness": {
+          "status": "unknown",
+          "works": [
+            {
+              "target": "A1: I - Andante Con Espressione",
+              "source_path": [
+                0,
+                0
+              ],
+              "status": "unknown",
+              "track_ids": [
+                26889126
+              ],
+              "scope": "reviewed-complete-source-band",
+              "source_duration_seconds": 530,
+              "digital_duration_seconds": 526,
+              "source_duration_notes": []
+            },
+            {
+              "target": "A2: II - Vivace Assai",
+              "source_path": [
+                0,
+                1
+              ],
+              "status": "unknown",
+              "track_ids": [
+                26889128
+              ],
+              "scope": "reviewed-complete-source-band",
+              "source_duration_seconds": 130,
+              "digital_duration_seconds": 131,
+              "source_duration_notes": []
+            },
+            {
+              "target": "A3: I - Andante Con Espressione",
+              "source_path": [
+                1,
+                0
+              ],
+              "status": "unknown",
+              "track_ids": [
+                26889130
+              ],
+              "scope": "reviewed-complete-source-band",
+              "source_duration_seconds": 771,
+              "digital_duration_seconds": 772,
+              "source_duration_notes": []
+            },
+            {
+              "target": "B1: II - Rondo: Presto",
+              "source_path": [
+                1,
+                1
+              ],
+              "status": "unknown",
+              "track_ids": [
+                26889132
+              ],
+              "scope": "reviewed-complete-source-band",
+              "source_duration_seconds": 200,
+              "digital_duration_seconds": 202,
+              "source_duration_notes": []
+            },
+            {
+              "target": "B2: II - Allegro",
+              "source_path": [
+                2,
+                0
+              ],
+              "status": "unknown",
+              "track_ids": [
+                26889134
+              ],
+              "scope": "reviewed-complete-source-band",
+              "source_duration_seconds": 280,
+              "digital_duration_seconds": 286,
+              "source_duration_notes": []
+            },
+            {
+              "target": "B3: II - Adagio E Cantabile",
+              "source_path": [
+                2,
+                1
+              ],
+              "status": "unknown",
+              "track_ids": [
+                26889136
+              ],
+              "scope": "reviewed-complete-source-band",
+              "source_duration_seconds": 530,
+              "digital_duration_seconds": 527,
+              "source_duration_notes": []
+            },
+            {
+              "target": "B4: III - Finale: Tempo Di Minuetto",
+              "source_path": [
+                2,
+                2
+              ],
+              "status": "unknown",
+              "track_ids": [
+                26889138
+              ],
+              "scope": "reviewed-complete-source-band",
+              "source_duration_seconds": 230,
+              "digital_duration_seconds": 219,
+              "source_duration_notes": []
+            },
+            {
+              "target": "C1: I - Allegro",
+              "source_path": [
+                3,
+                0
+              ],
+              "status": "unknown",
+              "track_ids": [
+                26889140
+              ],
+              "scope": "reviewed-complete-source-band",
+              "source_duration_seconds": 330,
+              "digital_duration_seconds": 332,
+              "source_duration_notes": []
+            },
+            {
+              "target": "C2: II - Adagio",
+              "source_path": [
+                3,
+                1
+              ],
+              "status": "unknown",
+              "track_ids": [
+                26889142
+              ],
+              "scope": "reviewed-complete-source-band",
+              "source_duration_seconds": 333,
+              "digital_duration_seconds": 333,
+              "source_duration_notes": []
+            },
+            {
+              "target": "C3: III - Allegro Molto",
+              "source_path": [
+                3,
+                2
+              ],
+              "status": "unknown",
+              "track_ids": [
+                26889144
+              ],
+              "scope": "reviewed-complete-source-band",
+              "source_duration_seconds": 146,
+              "digital_duration_seconds": 146,
+              "source_duration_notes": []
+            },
+            {
+              "target": "C4: I - Andante",
+              "source_path": [
+                4,
+                0
+              ],
+              "status": "unknown",
+              "track_ids": [
+                26889146
+              ],
+              "scope": "reviewed-complete-source-band",
+              "source_duration_seconds": 205,
+              "digital_duration_seconds": 205,
+              "source_duration_notes": []
+            },
+            {
+              "target": "C5: II - Finale: Presto",
+              "source_path": [
+                4,
+                1
+              ],
+              "status": "unknown",
+              "track_ids": [
+                26889148
+              ],
+              "scope": "reviewed-complete-source-band",
+              "source_duration_seconds": 207,
+              "digital_duration_seconds": 142,
+              "source_duration_notes": []
+            },
+            {
+              "target": "D1: I - Allegro",
+              "source_path": [
+                5,
+                0
+              ],
+              "status": "unknown",
+              "track_ids": [
+                26889150
+              ],
+              "scope": "reviewed-complete-source-band",
+              "source_duration_seconds": 315,
+              "digital_duration_seconds": 317,
+              "source_duration_notes": []
+            },
+            {
+              "target": "D2: II - Adagio",
+              "source_path": [
+                5,
+                1
+              ],
+              "status": "unknown",
+              "track_ids": [
+                26889152
+              ],
+              "scope": "reviewed-complete-source-band",
+              "source_duration_seconds": 450,
+              "digital_duration_seconds": 453,
+              "source_duration_notes": []
+            },
+            {
+              "target": "D3: III - Finale: Presto",
+              "source_path": [
+                5,
+                2
+              ],
+              "status": "unknown",
+              "track_ids": [
+                26889154
+              ],
+              "scope": "reviewed-complete-source-band",
+              "source_duration_seconds": 220,
+              "digital_duration_seconds": 227,
+              "source_duration_notes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "discogs_id": "7065721",
+      "title": "Sonatas No. 10, K. 378 · No. 15, K. 454",
+      "outcome": "probable",
+      "finding_kind": "source-leaf-recording-family",
+      "finding": "Artist RCA chronology and official session list identify the Heifetz/BrooksSmith December1954RadioRecorders family, distinct from earlier EmanuelBay versions. The saved Sony sonata collection supplies all six LM1958source movements with positive Heifetz Violin, BrooksSmith Piano and Mozart Composer roles. Every source band maps to one distinct frozen track; remaining collection tracks are extras.",
+      "next_action": "Retain exact-pressing/take/mastering limitations; this complete frozen programme needs no further action.",
+      "target_sha256": "729b89066e236673ddabae9f5d657a9b0f377a617a6b1fefead36030348ef0f8",
+      "source_sha256": "91ff000ea5614b93649b0d2986078614d1dbd52dc12bfe116f2fee25e2e60755",
+      "review_album_id": "0886443760844",
+      "review_album_sha256": "2a9f9cf58a5eab14c32f39922aa80d1b3a8152d8243788ce2f980bc53d0ba9da",
+      "source_programme": [
+        {
+          "position": "",
+          "type_": "index",
+          "title": "Sonata No. 10, In B-Flat, K. 378",
+          "duration": "",
+          "sub_tracks": [
+            {
+              "position": "A1",
+              "type_": "track",
+              "title": "Allegro Moderato",
+              "duration": ""
+            },
+            {
+              "position": "A2",
+              "type_": "track",
+              "title": "Andantino Sostenuto E Cantabile",
+              "duration": ""
+            },
+            {
+              "position": "A3",
+              "type_": "track",
+              "title": "Rondo Allegro",
+              "duration": ""
+            }
+          ]
+        },
+        {
+          "position": "",
+          "type_": "index",
+          "title": "Sonata No. 15, In B-Flat, K. 454",
+          "duration": "",
+          "sub_tracks": [
+            {
+              "position": "B1",
+              "type_": "track",
+              "title": "Largo; Allegro",
+              "duration": ""
+            },
+            {
+              "position": "B2",
+              "type_": "track",
+              "title": "Andante",
+              "duration": ""
+            },
+            {
+              "position": "B3",
+              "type_": "track",
+              "title": "Allegretto",
+              "duration": ""
+            }
+          ]
+        }
+      ],
+      "source_credits": [
+        {
+          "name": "Wolfgang Amadeus Mozart",
+          "anv": "",
+          "join": "",
+          "role": "Composed By",
+          "tracks": "",
+          "id": 95546,
+          "resource_url": "https://api.discogs.com/artists/95546"
+        },
+        {
+          "name": "Brooks Smith (2)",
+          "anv": "",
+          "join": "",
+          "role": "Piano",
+          "tracks": "",
+          "id": 1861950,
+          "resource_url": "https://api.discogs.com/artists/1861950"
+        },
+        {
+          "name": "Louis Biancolli",
+          "anv": "",
+          "join": "",
+          "role": "Sleeve Notes",
+          "tracks": "",
+          "id": 1735751,
+          "resource_url": "https://api.discogs.com/artists/1735751"
+        },
+        {
+          "name": "Jascha Heifetz",
+          "anv": "",
+          "join": "",
+          "role": "Violin",
+          "tracks": "",
+          "id": 526590,
+          "resource_url": "https://api.discogs.com/artists/526590"
+        }
+      ],
+      "source_notes": "'White Dog' Labels\nA \"New Orthophonic\" High Fidelity Recording\nMade in U.S.A.\nPrinted in U.S.A.",
+      "selected_track_fingerprints": {
+        "7847916": "c1be92d9ce150df68725756cae28192f78ef970bb5d9f7f7c9de16c86f63a4f1",
+        "7847917": "de618c5a4eeaa12e6776ad112233f00b0fac02c80ecfcabe33a87f96e641f894",
+        "7847918": "a82b8fa483c57e278c966215fb8ae845a27770f6bfa44763e841c21c1e1f4615",
+        "7847919": "bd5502c19f37f59061d8b35ebe570b3a0c6efc59a5cc9ccb37c800e5f874906e",
+        "7847920": "1d9620ae26509d3c9e8cca62a6115cec717e3b05110513a923fe61dd908be518",
+        "7847921": "11ea230da98775f9272171c2c2c8336a38330a429d85c9d0bdbaabbda72f707a",
+        "7847922": "e95966e176201dbf8252fbb75a3dae8b617665206e2cbe2dab838c9610a199bb",
+        "7847923": "69e831e4faac4cef5827b00722b616b4bb358307075c65bf3c50d68790129d9f",
+        "7847924": "3167d50662a438f47e5bebc2ab5a648d53729522dd16bf9d83bb478dde4a1d50",
+        "7847925": "74cc34d8436f31ba2127969131a481842480ef5e282902b82dd849769a778d0c",
+        "7847926": "263a843e5c756609044de6cc0d02d16f38420030aa40bdd57f2e30fb486c6336",
+        "7847927": "ddb28e99763c8c188c3d183da08211de5c51545b2cfaf9c71a174e736da5ced6",
+        "7847928": "ba1d7e340d7a4a7dd3769078a2dbf3d83743097fb2799938b358156b4f347606",
+        "7847929": "1336ac800ed748d999084ec217e26b8d457bff5dd91cd765244cf4df0adfc898",
+        "7847930": "3637b60c56e3600c52f2a881c257ff0a6b98e6c57e8ac289d5505a03e507dce5",
+        "7847931": "f75215da545cc129ab8e9defc078fc0c996273f099766be51280fac119771e17",
+        "7847932": "f55b39675bf0bc304d1f8c4cab3a248d2db4d69ab8dc3ac9d3ef4a2fe53e7282",
+        "7847933": "355309dfce0162691a4cf53041fbb7fc24d510ccc8a4a59d9cf4d544d38a23df",
+        "7847934": "7531abdead41ec49eee05a75e5f05977f932405e959348e61161edad6e730741",
+        "7847935": "0e8ad911d326770abc27c07a1ee087ebc19fbb2e30a7bd185e15d63b927c50b7",
+        "7847936": "c243b5dc942a9d9771e67a0b9d497a7374ccb664d5d71c42fc8a99b8b7065757",
+        "7847937": "2f2a7e14c45c8b7e1d94635e5c91477c9812a84ef92afce0c3eabcda84827f23",
+        "7847938": "4cf0dce9a14b8a47f4a7ae3ead1bc91c753833dae0e9887a5af31fbc2d605d8e",
+        "7847939": "faca0b2949c57d7bcb47ba66956a50987ca8352fc95053c00756cd6e096a4df0",
+        "7847940": "13490cd3ace543c8d347a1c78d8f656a2319ddd9bc78c89037076a868000899f",
+        "7847941": "a61b1a60cd6cc8b8e927dc659ac0577e4ce70d37095aef4c8c7b34366a88287b",
+        "7847942": "e9b46a15e8ff1196fd73b80e57e8c7a014946076d55c666b2faadda3b5d8e1a7",
+        "7847943": "ea0adf646b3a333d91b452a8ae74551e271f4be3bdd549620c5364bc0bdeb62d",
+        "7847944": "b69b2716f0afce317542ac1b2bf20fd9f8db93f91368b63d27ebb91b07705a2f",
+        "7847945": "b4d743dac147fb18ee0c6f27c8d5cb3347c2f633522c72e73c4c06270c0ab273",
+        "7847946": "50f11ac1c882cc8c9aec99a9839c7ab78b58917cae87f5c57dea13d56907bb1d",
+        "7847947": "f13a89bf5ed547863cd4a8f41ff22cc12e58d49e4f21f865d3c3f5e361d8667a",
+        "7847948": "995b6ec158f7120883a48368da7abb1d8815969f5ac81f0c302a568d2aeab2d1",
+        "7847949": "b2ca3089fe1ec187697a92638ac6f84bd59fdc4ad41fa3cd07c77e8cf8edf39e",
+        "7847950": "89e7474ae3f6a915f697b2f36cba115fc8c54aea3f7defac6d74d4d8987e563d",
+        "7847951": "21848ea5b59aa8330b4aa603ebc4f0dece03903542c58ba4fc7153fc870439e3",
+        "7847952": "dc23be6ec77cea679abc0c4851865a83ccce3c3d6c4ad5f1b0b63c24f2146039",
+        "7847953": "8cb66a53440be70535fdb395d70e704499040b5a7bbea39c3644b882ee4765f8",
+        "7847954": "094ff40f48204e36058da72efe8499b53d8f0e5dc46ba01a3edce6dbbb65802d",
+        "7847955": "6b5a4738197e859425aecca0406d79c10a24b3df05f7dd024408b8f7efb8eabd",
+        "7847956": "01c9050b3647004bada5de033254602067309689c88a586493dd809824c20415",
+        "7847957": "bbd5f8f6d9e8a0e2834b171bc9127d84b8f7a0c79b7a8145de7e789787530e37",
+        "7847958": "ad24acc347818906abe3b644aefbd195aa3b9ffc504b36a9a63af7fd65e2e9ee",
+        "7847959": "7d2572334d013612ffe2c68d58bc27e52c173abd8ba64c77ba3d2a6fddde36ab",
+        "7847960": "824bef103c0edf7f18e805392f4c02ad8d4c0b3118c2ab87f7587a74eaaf1120",
+        "7847961": "da76bfb37d85c6e4781fedd1ad2c58996fa9790b8804fc3fd0df4511771b3cf5",
+        "7847962": "7fa1a3ec1d13243dad1a1899943ddb4572744c3090b7fdd1824c476cd1a2548c",
+        "7847963": "307da9bbfa766f47dd2b3f21c585c6a691da75a089b5ed9ce91ced552d3a3f3a",
+        "7847964": "60c0bc2381b638ba243d159937c56f50bf704e8df40f917d0861fe382f195b1e",
+        "7847965": "2518f00d2c8bc7e704bc96731e1665c5cfc5572574abb943ca91bee5b6104710",
+        "7847966": "9b9be2841372a403ad343b47dae9f3a22eaa46167b0fad175f0e3fa34c41ce17",
+        "7847967": "f0968bd6472d7eb8cbf240e04e29104c09dce3af2163c94f99cf371da6a0ddda",
+        "7847968": "1c258ffb73242e20826c72e42b3f3f602d4b7201dd0ae863e8a876189af7ab1a",
+        "7847969": "f332391f8c4e94c4545665c368dfa22731361634ca4294ffa6736ff23db94be9",
+        "7847970": "21c5ad80983648ee76221bb1376e83c0aa5586f28c2510f38baf34631f80a89a",
+        "7847971": "2bb273b8fecaa535ff7a2a680135691b09fb7948f4ce0dfc5f62f6c1e2b48f15",
+        "7847972": "42f91a326076909a92bf246f530fa1e18f9b7642302b301ff264b0a87de847f2",
+        "7847973": "e6d0d26a4fe985768e624cc7280c3abfcce2d4e0b86de17c011f9754eae6b613",
+        "7847974": "bec44f34bb4c2d3a8a839240e9aaf041d2d447c2e3022a24e857adb0cd7ea3b6",
+        "7847975": "d500351936eb57a91ede5991497c973497a3fb9838ef5dd61dbefc8182048a14",
+        "7847976": "1074433abf8b935af8f1a5b6d9fd98c8b887680b90ec41ab428957e74748f9e2",
+        "7847977": "9706ec895983f8656d0ecd26a7aff93fc8d97f95df8ae0a28c04153def2c6a40",
+        "7847978": "47e988531fcb2b922e18b9d69193d9c842811f3cacff60061dc987f85d9b5761",
+        "7847979": "f9c7ade98ec33be602629b789137c01703d4e38f3986866b2e054876fbe3532d",
+        "7847980": "e8a92f9a639cf7fd759a766ffd46b537b645b5805ee27eb7f632b21386cae573",
+        "7847981": "ce7209e52097a46d4bcb9a32b813da1a7fba6afe9108de28e212f9fd095771ba",
+        "7847982": "481727280d960727dbfb8a72a5cb11c82fb8c927a2e9d2bacea4c28db5c6f3bb",
+        "7847983": "42cebfa01e89393d178a0f173bb1b45b170d95b1c6f01d28f1152c139762c027",
+        "7847984": "b10c1a12d4177f132f4c46da61fde84778fc8cccf0ca561e1ab6adf5e23dce9e",
+        "7847985": "03d5f58e30e3a2981a30254fd43c18ac2f3542d2631e6bb7738fe94f4cc0b5f8",
+        "7847986": "9c917191b6f16cd6ca01c46afb4d0e0fa5ed9aca8ffd37a6d8ba2110025ccaee",
+        "7847987": "b2a6a75c92d5eccaecb4bb35076e000faccc288b5e5660b9bfa4cddfe4a9213f",
+        "7847988": "1587e379e5c11f5cc87a560dc880b7fd338e16015028de8178c4751fdee17430",
+        "7847989": "630ccd9a9ed5b27daa06cc12af63ee3602aebab4456c406655b70163ce06419a",
+        "7847990": "180438e7f2f8feb954875adc999f6cea8272aa8125de68302709dcd5cbf24349",
+        "7847991": "8611267a6afd0cfb228cf509c7632273459c7f6095e756ee7edb3ac1d3675534",
+        "7847992": "8f94b7c56acf9dc76d4b2318b752f3a2e0cb1b7f486b996222063237b4f5ba4f",
+        "7847993": "0f47f7824957614ee1b8d59bc5b831bfa4199c854c77dc0e31d7977383f0a610",
+        "7847994": "3ea91c9afd5a112b260286dbe0feccd1d490902f7728df47a31ba0a053d62ca1",
+        "7847995": "90c0adedea15c1a939a7402a1df6b801e86febf237299d4dd1354bad845dfa90",
+        "7847996": "9adae0f89fc51918af3a57c8335bbbab8f68162185f8f08a376557f24484031b",
+        "7847997": "08317f8d93a51296d5b9d451efb42f5bbb3e79259dd8e6190629dab1c45939d9",
+        "7847998": "5e91135ae2d97ff52dce1c3d1710f64e32a42e8d0ef1eb52a10478f656d5028e",
+        "7847999": "139735a9a250c4c1e823c3a14a94f33c993faf2ed63d7b43469281d07c7e43fc",
+        "7848000": "ebf581e1449e38ee3e547e34b6ac85e2b91fe56bb848a415e1cd590b91da367f",
+        "7848002": "6427a6efc6ad6f1971bc518c393b8b8f3c685093327282ef0f9806e9cd8e3ed5",
+        "7848003": "588994bd81d63810ba077e24de38a65d7456e43c18f4c3f41b5f9d06ba85e2b7",
+        "7848004": "1ed1bdd41edea79369f0a7cf6bb8e083ffdb3478a728b5359c20b7e7af7605e0",
+        "7848005": "328e3cff9f3922cf61c70344a56d7f0ff03191769d1ae7e63d081df39051dd7f",
+        "7848006": "68c21ea24cf1bb765d11fe753a9fec2e0c8c8a55ce3f256c5c57eb741dba41ad",
+        "7848007": "91eadee1fa469e754c66c5b3e5a315ba67386eb92824fe28aff8b32c1e47cd52",
+        "7848008": "0a46bb97328e9da4d7d20b881197cb87bc5f3c77aae08f9f2f25beb6149c282c",
+        "7848009": "795e7573c41951bdc0d03b142bf0e5f90eedc9b176f4b6ac9ca0901f746a9687",
+        "7848010": "dc05735cad579382cceb2f916618c2d479d238e63df75cd1ceef84581a770f78",
+        "7848011": "d5766ca3be70a1750090b94b12bcf754a638d06a6055bd2a736ef427c40cabde",
+        "7848012": "9e3344e99d116b1a2b780bd1c6f3d68fd0a17f6af4671e5ae344414ba0027067",
+        "7848013": "04eb80fde6de5575332f19b9cca565cd4674534ed34677f28c2d641968849d37",
+        "7848014": "2b16bb46fe70b092ae46e5d5ea615bc085aa7593d54f6034c8af6533a5f6a1bf",
+        "7848015": "3cb774fb45efdc10a4d2e82ebe123a3bc7e3a9feb016df7de1522a457a16ff6b",
+        "7848016": "c1d8f08f8a64698c7b44933a1e1ba8fec81bf5ea85e6fceefa677cef89a7efa1",
+        "7848017": "e68212dfd3d945f13076013e48fdb8e1056732844fc2f3f9acc14b09b974f2a6",
+        "7848018": "c05188793384d5e43f9e9848d699a9dac3fff0c0ceb5e1c77b2636d69614f2ab",
+        "7848019": "c291a36fd8e5d8111bc801668f5dd3dc8b4c1fe1fa2616dc3d386cf19df99dc1",
+        "7848020": "f400400bb5128bdc75a2dfc66ae667d81ea86b7e2106cee96e036fa3f9bef824",
+        "7848021": "939cf0d2240c58e9b58ff82626e83b74f7068745ba20651b1a73031163344279",
+        "7848022": "b9e96fcd5f46a44f97178672269e05df07e6ba5d23b702870adc45133ae79902",
+        "7848023": "e054700f84204badc5d23d94efbd0770d1ffcee7a38452a902b7999cb68ad372",
+        "7848024": "b5e6c88af7965b58c1a2afc07790c1a6b621dec013bfce7ad410cc387b2d0675",
+        "7848025": "51d251937fd1a11aea79c7bb61f00be36fffe7caf5920e4174be3cafe7c99dfe",
+        "7848026": "a8f5250397d80df7a24406ed0d9bc17655537ffe03abb0c907dec501698ab4e8",
+        "7848027": "63734731c5cb5d340df12691470f47df0c95cf19ab8b6578abeed8f65a5dbf03",
+        "7848028": "aaa16fb8c74efb2201afbaf7eb6943d2718ff22e50cc4fd563fde62c24cb88d9",
+        "7848029": "45815bcaa4bb734a7e9bd59d8938527471939f94a5f719f9ff154627eebca11e",
+        "7848030": "827820a3b5f388d8e33a38bed6e539f8beafb9cad8caabfb837ba3d87db6a3a7",
+        "7848031": "63aef95ca88129e0875e57a306bb19e1b4a4e2d8e220e809e4353c53d84cc929",
+        "7848032": "6abf8de2a3c59f3be09a067776db5314c9087c2fff997e018c4f359350a99b6b",
+        "7848033": "7ea5c881151f38d2e9af0eb5cd19de2b4a29a649882904cd921e991b0a06462e",
+        "7848034": "29ede0b20f46c334fca4f09b7ad8f989cd1c7d4d4f411060d03d867b3f759bb9",
+        "7848035": "6f95e5b285067e0d896b0f3e29af69c7b7d49f83cfb5faea126c3599058ee528",
+        "7848036": "189654d199cd06561c27cea38be27db2ea72eec086d4b6b91c48333560daf169",
+        "7848037": "e2041800c0ac9eb742d1f0c2be32cfa5b9fb9124e0ebb4250ec767a0fa344cc0",
+        "7848038": "ad188c731b92e7d75acdde818e2a8c2a7f9e5bc505c549f54f8fe355164f2d90",
+        "7848039": "683558ce78f4172e439759a700dc2d447d473bc88ab7ca0faa07b5b45ff6ca88",
+        "7848040": "e5540bda2c10dd0e09df86d7f3daa403641a697a73e32672602c1e13689382be",
+        "7848041": "7faf18fa6fc0b7b3697f09968a549a58d122e35445fc2cc9cacbf0c75ea516b0",
+        "7848042": "157055111655271575d771a694c279b9967bbb27368966a7c6a8d978fe75c4e2",
+        "7848043": "596ee187ccf6e78876a48ecd51e9d07911885b584a0f3d79d444f11a70ca1fdc",
+        "7848044": "ea43e0a7185fdf2b6ecef0a58f11f3c2e95ed28fb41ea10176f7bc02f5055e68",
+        "7848045": "f390deb80bfc6f27d41effc0b495f4013f55eaed8084ff58c05f6fae6cda6abe"
+      },
+      "cached_alternative_checks": [
+        {
+          "album_id": "0886443760844",
+          "title": "Jascha Heifetz plays Sonatas for Violin",
+          "album_sha256": "2a9f9cf58a5eab14c32f39922aa80d1b3a8152d8243788ce2f980bc53d0ba9da",
+          "track_manifest_sha256": "ac9cc7e800bfed66b4a2a3301ca4c1b45297cbccaa58a27dce73a7b39b5b9015",
+          "tracks_count": 129,
+          "track_titles": [
+            "Adagio",
+            "Fugue: Allegro",
+            "Siciliano",
+            "Presto",
+            "Grave",
+            "Fugue",
+            "Andante",
+            "Allegro",
+            "Adagio",
+            "Fugue: Alla breve",
+            "Largo",
+            "Allegro assai",
+            "Largo maestoso",
+            "Allegro",
+            "Larghetto",
+            "Allegro con brio",
+            "Allegro moderato",
+            "Andantino sostenuto e cantabile",
+            "Rondo: Allegro",
+            "Largo - Allegro",
+            "Andante",
+            "Rondo: Allegretto",
+            "Allegretto spiritoso",
+            "Vivace",
+            "Grave",
+            "Allegro assai",
+            "I. Allegro con brio",
+            "II. Tema con variazioni. Andante con moto",
+            "Variation I",
+            "Variation II",
+            "Variation III",
+            "Variation IV",
+            "III. Rondo. Allegro",
+            "I. Allegro vivace",
+            "II. Andante più tosto allegretto",
+            "III. Allegro piacevole",
+            "I. Allegro con spirito",
+            "II. Adagio con molta espressione",
+            "III. Rondo. Allegro molto",
+            "I. Presto",
+            "II. Andante scherzoso, più allegretto",
+            "III. Allegro molto",
+            "I. Allegro",
+            "II. Adagio molto espressivo",
+            "III. Scherzo. Allegro molto",
+            "IV. Trio",
+            "V. Rondo. Allegro ma non troppo",
+            "I. Allegro",
+            "II. Adagio molto espressivo",
+            "III. Tema. Allegretto With Variations",
+            "Variation I",
+            "Variation II",
+            "Variation III",
+            "Variation IV",
+            "Variation V",
+            "Variation VI. Allegro ma non tanto",
+            "I. Allegro con brio",
+            "II. Adagio cantabile",
+            "III. Scherzo. Allegro -",
+            "Trio",
+            "IV. Finale. Allegro - Presto",
+            "I. Allegro assai",
+            "II. Tempo di minuetto, ma molto moderato e grazioso",
+            "III. Allegro vivace",
+            "I. Adagio sostenuto - Presto",
+            "II. Tema - Andante",
+            "II. Variation I",
+            "II. Variation II",
+            "II. Variation III",
+            "II. Variation IV",
+            "III. Finale - Presto",
+            "I. Allegro moderato",
+            "II. Adagio espressivo",
+            "III. Scherzo. Allegro, Trio",
+            "IV. Poco allegretto",
+            "I. Allegro",
+            "II. Adagio",
+            "III. Un poco presto e con sentimento",
+            "IV. Presto agitato",
+            "Allegro giusto",
+            "Andante",
+            "Menuetto: Allegro vivace",
+            "Allegro moderato",
+            "Allegro, ma non troppo",
+            "Improvisation: Andante cantabile",
+            "Finale: Andante - Allegro",
+            "Lento doloroso - Allegro vivace",
+            "Allegretto tranquillo",
+            "Allegro animato",
+            "Moderato",
+            "Andante espressivo",
+            "Passacaglia: Allegro moderato ma energico",
+            "Allegro vivo",
+            "Intermède: Fantasque et léger",
+            "Finale: Très animé",
+            "Allegro molto",
+            "Andante",
+            "Allegro vivo",
+            "Allegro quasi presto",
+            "I. Allegro agitato",
+            "Adagio",
+            "III. Allegretto moderato",
+            "Allegro molto",
+            "Agitato",
+            "Molto quieto",
+            "Moderato",
+            "Andante moderato",
+            "Animato",
+            "Tempo I - Animato - Moderato",
+            "L'istesso tempo (ma un poco lento)",
+            "Moderato assai \"Credo in unum Deum!...\"",
+            "Più lento \"Gloria in excelsis Deo\"",
+            "Animato - Moderato - Allegro moderato - Tempo iniziale",
+            "Molto quieto",
+            "I. Molto moderato",
+            "II. Allegro furioso",
+            "III. Quasi fantasia",
+            "I. Allegro",
+            "II. Andante",
+            "III. Presto",
+            "Vivace ma non troppo",
+            "Adagio",
+            "Allegro molto moderato",
+            "Allegro amabile",
+            "Andante tranquillo; Vivace",
+            "Allegretto grazioso",
+            "Allegro molto ed appassionato",
+            "Allegretto espressivo alla Romanza; Allegro molto; Tempo I",
+            "Allegro animato"
+          ]
+        },
+        {
+          "album_id": "3700551778164",
+          "title": "Mozart: Concertos pour violon, Symphonie concertante",
+          "album_sha256": "b0526aa738e6de1260884870ab51ac2ff3c755e951ebd70f84080018c852e2c4",
+          "track_manifest_sha256": "adeb0d9513ebe3944024d3b2a35fdd06c06c67bf154db14b0bf51658532f2bac",
+          "tracks_count": 21,
+          "track_titles": [
+            "I. Allegro",
+            "II. Adagio",
+            "III. Rondeau. Allegro",
+            "I. Allegro moderato",
+            "II. Adagio",
+            "III. Presto",
+            "I. Allegro moderato",
+            "II. Andante",
+            "III. Rondeau. Allegro",
+            "Adagio for Violin and Orchestra in E Major, K. 261",
+            "Rondo for violin and Orchestra in C Major, K. 373",
+            "II. Adagio",
+            "I. Allegro",
+            "II. Andante cantabile",
+            "III. Rondeau. Andante grazioso",
+            "I. Allegro aperto",
+            "II. Adagio",
+            "III. Rondeau. Tempo di Menuetto",
+            "I. Allegro maestoso",
+            "II. Andante",
+            "III. Presto"
+          ]
+        }
+      ],
+      "result": {
+        "discogs_id": "7065721",
+        "album_id": "0886443760844",
+        "decision": "probable",
+        "recording_review": "Artist RCA chronology and official session list identify the Heifetz/BrooksSmith December1954RadioRecorders family, distinct from earlier EmanuelBay versions. The saved Sony sonata collection supplies all six LM1958source movements with positive Heifetz Violin, BrooksSmith Piano and Mozart Composer roles. Every source band maps to one distinct frozen track; remaining collection tracks are extras.",
+        "sources": [
+          "https://www.discogs.com/release/7065721",
+          "https://jaschaheifetz.org/rca_chrono.html",
+          "https://jaschaheifetz.com/about/concerts/"
+        ],
+        "limitations": [
+          "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
+          "No source rewrite, timing waiver, global work-field/catalogue normalization, performer alias or role waiver."
+        ],
+        "eligible": true,
+        "blockers": [],
+        "completeness": {
+          "status": "complete",
+          "works": [
+            {
+              "target": "A1: Allegro Moderato",
+              "source_path": [
+                0,
+                0
+              ],
+              "status": "complete",
+              "track_ids": [
+                7847932
+              ],
+              "scope": "reviewed-complete-source-band",
+              "source_duration_seconds": null,
+              "digital_duration_seconds": 498,
+              "source_duration_notes": []
+            },
+            {
+              "target": "A2: Andantino Sostenuto E Cantabile",
+              "source_path": [
+                0,
+                1
+              ],
+              "status": "complete",
+              "track_ids": [
+                7847933
+              ],
+              "scope": "reviewed-complete-source-band",
+              "source_duration_seconds": null,
+              "digital_duration_seconds": 270,
+              "source_duration_notes": []
+            },
+            {
+              "target": "A3: Rondo Allegro",
+              "source_path": [
+                0,
+                2
+              ],
+              "status": "complete",
+              "track_ids": [
+                7847934
+              ],
+              "scope": "reviewed-complete-source-band",
+              "source_duration_seconds": null,
+              "digital_duration_seconds": 241,
+              "source_duration_notes": []
+            },
+            {
+              "target": "B1: Largo; Allegro",
+              "source_path": [
+                1,
+                0
+              ],
+              "status": "complete",
+              "track_ids": [
+                7847935
+              ],
+              "scope": "reviewed-complete-source-band",
+              "source_duration_seconds": null,
+              "digital_duration_seconds": 420,
+              "source_duration_notes": []
+            },
+            {
+              "target": "B2: Andante",
+              "source_path": [
+                1,
+                1
+              ],
+              "status": "complete",
+              "track_ids": [
+                7847936
+              ],
+              "scope": "reviewed-complete-source-band",
+              "source_duration_seconds": null,
+              "digital_duration_seconds": 411,
+              "source_duration_notes": []
+            },
+            {
+              "target": "B3: Allegretto",
+              "source_path": [
+                1,
+                2
+              ],
+              "status": "complete",
+              "track_ids": [
+                7847937
+              ],
+              "scope": "reviewed-complete-source-band",
+              "source_duration_seconds": null,
+              "digital_duration_seconds": 351,
+              "source_duration_notes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "discogs_id": "24278222",
+      "title": "Dido And Aeneas",
+      "outcome": "withhold",
+      "finding_kind": "split-act-source-boundaries",
+      "finding": "Five cached alternatives inspected. Saland omits required Schwarzkopf/Jones credits; the finer Warner/Naxos studio candidates retain the named cast but do not establish where source Act2FirstPart ends and Conclusion begins. The five-track reissue has two scenes, not verified LP-side boundaries. The live alternative has a different cast, including no source Schwarzkopf evidence. Existing single-vocal-work review supports specific Otello/Passion forms, not this four-band source; no cut, scene/side equivalence or new adapter is invented.",
+      "next_action": "Corroborate original ActIIband boundaries, or separately scope a complete-opera review preserving both source bands without asserting cuts; retain all named singers/conductor and distinguish studio/live families.",
+      "target_sha256": "95aa4dc79430120c2ff16d5f2c02511dcf2b7f93ccef98049c1180a2e88cfbd8",
+      "source_sha256": "69a4d21e188f328a0747f2f3a88db9b288542e1a007e1c754a1bf0e4971289e3",
+      "review_album_id": "cp3h8mx581qma",
+      "review_album_sha256": "10aec93d5bef2d65de1d462e683732b2c377c6ac881cdc67319728af2e5c73f4",
+      "source_programme": [
+        {
+          "position": "A1",
+          "type_": "track",
+          "title": "Act 1",
+          "duration": ""
+        },
+        {
+          "position": "A2",
+          "type_": "track",
+          "title": "Act 2 (First Part)",
+          "duration": ""
+        },
+        {
+          "position": "B1",
+          "type_": "track",
+          "title": "Act 2 (Conclusion)",
+          "duration": ""
+        },
+        {
+          "position": "B2",
+          "type_": "track",
+          "title": "Act 3",
+          "duration": ""
+        }
+      ],
+      "source_credits": [
+        {
+          "name": "Henry Purcell",
+          "anv": "",
+          "join": "",
+          "role": "Composed By",
+          "tracks": "",
+          "id": 65796,
+          "resource_url": "https://api.discogs.com/artists/65796"
+        }
+      ],
+      "source_notes": "Royal warrant sleeve \"To Her Majesty Queen Mary\"",
+      "selected_track_fingerprints": {
+        "300377313": "2efd7bb1f212ebfa7c7a7f830cc2c90e71cb70ee73782e6eaff2c858c2213f33",
+        "300377314": "6c20838530eef35fedd2a9bb12875d0e82cd472da7e71eb5546d815ef1547019",
+        "300377315": "90778d0c373f4316eb7855ad1a3b6e473fa6f3adf7733d4041f8807d5188626f",
+        "300377316": "351d77627a8122323f69dbd20bf9856cf6a8cf2e63a1c4675b58642e0a738457",
+        "300377317": "60a97fab42769f9ef6894463f83db71c4450895ddbe20695887675cf8b6de0bd",
+        "300377318": "fb2fe5a123b5a67563ccc33c8f548c0e75f88b20091624204fd4f8197cf4b109",
+        "300377319": "222a52dfda9bfa4bdf5731cbae498ac8c99fc0ec66cdfa7760da1f927c974a29",
+        "300377320": "baf833b66516577ffa54a25d82b898b3387c5e91bfd97fb4a6d097b789ec294f",
+        "300377321": "31173e751647c66d2f674643dee9a3ff5c4513b6943e2357559736cd84ac1f8a",
+        "300377322": "8fae9b69dd53d73471c208ec343887b1f6ccaf4949446932f481fcc38df8ab70",
+        "300377323": "83c48594c0df548e1749c392bb8d3d15b57b6ee1b9a3f3b17ca00e23b335708f",
+        "300377324": "97a5369467d3002c024948449aa44512b632720a8e8340ee0dc87d9f1240bda3",
+        "300377325": "1428a3dccd977381f6ae966344aad65ba44dfd6fb5b4079a1fcd17ae376b76bc",
+        "300377326": "a42e12bb0b5840b588d38ffdcad45568175ada5ee912bc0542f99d35dda3a4be",
+        "300377327": "fa294c58b32c521e25f92f34904d6d10cf5f3d6dd2b1ca391da4f996994d7665",
+        "300377328": "20dcdc7472c530299a6ddef921334d397fccae5599996d20e452b623d762cf30",
+        "300377329": "67cdc0841f1d0a18f3e4aac51e031af64da9827661704503acfe2077f14449a4",
+        "300377330": "086ad021f967d40d2a3e26253574fb44b2ec52046c0009313524c647c861063b",
+        "300377331": "7988562ed988cf2a557e90c24ecd66d98541ab5696c1da6940b93bf2e92064fe",
+        "300377332": "6298b70758503f4e3cc7564bf665669ab529118fe02db6380d1b80c3a14a2ff2",
+        "300377333": "4cede908ac5146302cf59a16290345bb8ef594d6c2593fdef6c613270be29819",
+        "300377334": "685d3ba8c5e01f82591fd4164bb3c64ac539b2d147867a19ab5ee951c0bb57f6",
+        "300377335": "16907a91db902e0b1446485b1172d159a18341a7538f098bc5f381ffe1d9b20a",
+        "300377336": "a33619c942f5b7df5d2e37d57911fdd516c5b4fc784c75c80c5f76f916b8f226",
+        "300377337": "72e070bfe08d4ef3e99bccc7b384d8e7248b8ee07df6e4372b55063789fe20e8",
+        "300377338": "5110aa32ec2ec066a59eff26438f6d24eb0780492909331681a148959490ea25",
+        "300377339": "3174ccaffec0c0e4b8e537451676927c9bddca7f8453f19b347d6b1f31dbebc6",
+        "300377340": "40967933c4f9e5a61bc674dc937534f13e17734d6d37583f657b9d5e7d6d4079",
+        "300377341": "f3ac12fca3b4d0508b4ea6dd39b252301d42126b3e3c7de6b02c2882bb618348",
+        "300377342": "6322f9483ffb15a0b9b7cdddf56346669313166ec8f88cd067687a1f352d37ef",
+        "300377343": "0697802c573993d7fcad7716fd51fddc4e084a4ec5a59c85d153f924ecae48e0",
+        "300377344": "72430886f8784d4a375039722b22daca22c142b6b2efb906fdc2d6a167a69ffb",
+        "300377345": "8c9506cea1452cbb0893b707aac9c0e0110b862fe06897273969a6216ae0b36a",
+        "300377346": "7994f74f5afc6c0c5649ac7620cbc2eddf670cacf366f0c2f8f49f1687662b04",
+        "300377347": "0edc6a256ee12bd184b957bec3f1c15cd0df2636f0237b021f65e783f8ff5ea7",
+        "300377348": "02583a0ed915493851807a77d6c8e901b1c32b110d9ff73f2480f3de3e20df96",
+        "300377349": "47e3c8f848e5c1e78fe67bc9ec1b1be4303f884532b96a6a5f5db6e8f66deb22",
+        "300377350": "a5d4135024b6d6674a217e1c71012683c72b88f5ad41f6c8563197efe9b8c96c",
+        "300377351": "ae107411c02b1a631e2c5a9abe80fd7c208149dde1be523921bfe33c456a5bb5",
+        "300377352": "5fe0811a3eacc1a4267c19711b8a9d0c5ce41b98f12b9bd285539163f7a92fc6",
+        "300377353": "192a1007519ec84b2ae6c9caebe4db9126f77c96404a9f65951b9f2c876675b2"
+      },
+      "cached_alternative_checks": [
+        {
+          "album_id": "0883629832272",
+          "title": "Purcell: Dido & Aeneas",
+          "album_sha256": "60ac29a18912d7c496bf72563103955a3ab7e0e736d2d533eca147031f78a522",
+          "track_manifest_sha256": "506b2c275afa37d9213d31218518fc825d9f770c25e2c84d1f7fe31ca19ae8a0",
+          "tracks_count": 4,
+          "track_titles": [
+            "Dido & Aeneas: Overture",
+            "Dido & Aeneas: Act the First",
+            "Dido & Aeneas: Act the Second",
+            "Dido & Aeneas: Act the Third"
+          ]
+        },
+        {
+          "album_id": "5099950969050",
+          "title": "Purcell: Dido and Aeneas",
+          "album_sha256": "4e7f19129c5c00a7bbebc244d2b9d8195e0fcb2e0cc05bd8aced0038422dc51c",
+          "track_manifest_sha256": "8a984719c3a81ec3052ea383e502c10dccf111444ac71f8c7e6c9b5b917f62e8",
+          "tracks_count": 40,
+          "track_titles": [
+            "Dido and Aeneas, Z. 626: Overture",
+            "Dido and Aeneas, Z. 626, Act I: Song. \"Shake the Cloud from off Your Brow\" - Chorus. \"Banish Sorrow, Banish Care\" (Belinda, Chorus)",
+            "Dido and Aeneas, Z. 626, Act I: Song. \"Ah Belinda, I Am Press'd with Torment\" (Dido)",
+            "Dido and Aeneas, Z. 626, Act I: Duet. \"Grief Increases by Concealing\" - Chorus. \"When Monarchs Unite, How Happy Their State\" (Belinda, Dido, Chorus)",
+            "Dido and Aeneas, Z. 626, Act I: Duet. \"Whence Could so Much Virtue Spring?\" (Dido, Belinda)",
+            "Dido and Aeneas, Z. 626, Act I: Duet and Chorus. \"Fear no Danger to Ensue\" (Belinda, Chorus)",
+            "Dido and Aeneas, Z. 626, Act I: Trio. \"See Your Royal Guest Appears\" (Belinda, Aeneas, Dido)",
+            "Dido and Aeneas, Z. 626, Act I: Chorus. \"Cupid Only Throws the Dart\" (Chorus)",
+            "Dido and Aeneas, Z. 626, Act I: Duet. \"If Not for Mine, for Empire's Sake\" (Aeneas)",
+            "Dido and Aeneas, Z. 626, Act I: Song. \"Pursue Thy Conquest, Love\" (Belinda)",
+            "Dido and Aeneas, Z. 626, Act I: Chorus. \"To the Hills and the Vales\" (Chorus)",
+            "Dido and Aeneas, Z. 626, Act I: The Triumphing Dance",
+            "Dido and Aeneas, Z. 626, Act II: Prelude for the Witches",
+            "Dido and Aeneas, Z. 626, Act II: Song. \"Wayward Sisters, You That Fright\" (Sorceress)",
+            "Dido and Aeneas, Z. 626, Act II: Chorus. \"Harm's Our Delight\" (Chorus)",
+            "Dido and Aeneas, Z. 626, Act II: Song and Chorus. \"The Queen of Carthage\" (Sorceress)",
+            "Dido and Aeneas, Z. 626, Act II: Trio. \"Ruin'd E're the Set of Sun?\" - \"Ho Ho Ho\" (First Witch, Second Witch, Sorceress, Chorus)",
+            "Dido and Aeneas, Z. 626, Act II: Duet. \"But Ere We This Perform\" (First Witch, Second Witch)",
+            "Dido and Aeneas, Z. 626, Act II: Chorus. \"In Our Deep Vaulted Cell\" (Chorus)",
+            "Dido and Aeneas, Z. 626, Act II: Echo Dance of Furies",
+            "Dido and Aeneas, Z. 626, Act II: Ritornello",
+            "Dido and Aeneas, Z. 626, Act II: Song and Chorus. \"Thanks to These Lonesome Vales\" (Belinda, Chorus)",
+            "Dido and Aeneas, Z. 626, Act II: Song. \"Oft She Visits This Lone Mountain\" (Second Woman)",
+            "Dido and Aeneas, Z. 626, Act II: Duet. \"Behold Upon My Bending Spear\" (Aeneas, Dido)",
+            "Dido and Aeneas, Z. 626, Act II: Song and Chorus. \"Haste, Haste to Town\" (Belinda, Chorus)",
+            "Dido and Aeneas, Z. 626, Act II: Duet. \"Stay Prince\" (Spirit, Aeneas)",
+            "Dido and Aeneas, Z. 626, Act II: Chorus. \"Then Since Our Chorus Have Sped\" (Chorus)",
+            "Dido and Aeneas, Z. 626, Act III: Song and Chorus. \"Come Away\" (Sailor, Chorus)",
+            "Dido and Aeneas, Z. 626, Act III: The Sailors' Dance",
+            "Dido and Aeneas, Z. 626, Act III: Duet. \"See, See the Flags\" (Sorceress, First Witch, Second Witch)",
+            "Dido and Aeneas, Z. 626, Act III: Song. \"Our Next Motion\" (Sorceress)",
+            "Dido and Aeneas, Z. 626, Act III: Chorus. \"Destruction's Our Delight\" (Chorus)",
+            "Dido and Aeneas, Z. 626, Act III: The Witches' Dance",
+            "Dido and Aeneas, Z. 626, Act III: Trio. \"Your Counsel All Is Urged in Vain\" (Dido, Belinda, Aeneas)",
+            "Dido and Aeneas, Z. 626, Act III: Chorus. \"Great Minds Against Themselves Conspire\" (Chorus)",
+            "Dido and Aeneas, Z. 626, Act III: Recitative. \"Thy Hand, Belinda\" (Dido)",
+            "Dido and Aeneas, Z. 626, Act III: Song. \"When I Am Laid in Earth\" (Dido)",
+            "Dido and Aeneas, Z. 626, Act III: Chorus. \"With Drooping Wings\" (Chorus)",
+            "Dido and Aeneas, Z. 626, Act III: Recitative. \"Thy Hand, Belinda\"",
+            "Dido and Aeneas, Z. 626, Act III: Song. \"When I Am Laid in Earth\""
+          ]
+        },
+        {
+          "album_id": "a8h4e5jgwnusa",
+          "title": "Purcell: Dido & Aeneas",
+          "album_sha256": "cf048b07debeaa33ab15db65a6190fed35ad39dbe05c69ae434cf4fa6b4a596d",
+          "track_manifest_sha256": "7f0e4e4d25ca04dbdafc5ce2722d3c0435d46303174dd0e9b532204a42fd548c",
+          "tracks_count": 5,
+          "track_titles": [
+            "Dido & Aeneas: Prologue",
+            "Dido & Aeneas: Act I",
+            "Dido & Aeneas: Act II, Scene I",
+            "Dido & Aeneas: Act II, Scene II",
+            "Dido & Aeneas: Act III"
+          ]
+        },
+        {
+          "album_id": "cp3h8mx581qma",
+          "title": "Purcell: Dido and Aeneas (Flagstad, Schwarzkopf, Hemsley) (1952)",
+          "album_sha256": "10aec93d5bef2d65de1d462e683732b2c377c6ac881cdc67319728af2e5c73f4",
+          "track_manifest_sha256": "00115e5e75ccca15d8c55a88691ad0125ca1db9b9433825d0bd1185e5ed1f84a",
+          "tracks_count": 41,
+          "track_titles": [
+            "Overture",
+            "Shake the cloud from off your brow (Belinda, Chorus)",
+            "Ah! Belinda, I am press'd with torment ",
+            "Grief increases by concealing (Belinda, Dido, Chorus)",
+            "Whence could so much virtue spring? (Dido, Belinda)",
+            "Fear no danger to ensue (Belinda, 2nd Woman and Chorus)",
+            "See, your Royal guest appears (Belinda, Aeneas, Dido)",
+            "Cupid only throws the dart (Chorus)",
+            "If not for mine, for Empire's sake ",
+            "Pursue thy conquest, Love (Belinda)",
+            "To the hills and the vales (Chorus)",
+            "The Triumphing Dance",
+            "Prelude for the Witches",
+            "Wayward sisters (Sorceress, 1st Witch)",
+            "Harm's our delight (Chorus)",
+            "The Queen of Carthage, whom we hate (Sorceress, Chorus)",
+            "Ruin'd ere the set of sun? (1st and 2nd Witches, Sorceress, Chorus)",
+            "But, ere we This perform (1st and 2nd Witches)",
+            "In our deep vaulted cell (Chorus)",
+            "Echo Dance of Furies",
+            "Ritornelle",
+            "Thanks to these lonesome vales (Belinda, Chorus)",
+            "Oft she visits This lone mountain (2nd Woman)",
+            "Behold, upon my bended spear (Aeneas, Dido)",
+            "Haste to town (Belinda, Chorus)",
+            "Stay, Prince! And hear great Jove's command (Spirit, Aeneas)",
+            "Then since our Charm's have sped (Chorus)",
+            "Prelude - Come away, fellow sailors (Sailor, Chorus)",
+            "The Sailor's Dance",
+            "See, the flags and streamers curling (Sorceress, 1st and 2nd Witches)",
+            "Our next motion (Sorceress)",
+            "Destruction's our delight (Chorus)",
+            "The Witches' Dance",
+            "Your counsel all Is urg'd in vain (Dido, Belinda, Aeneas)",
+            "Great minds against themselves conspire (Chorus)",
+            "Thy hand, Belinda; darkness shades me ",
+            "When I am laid in earth ",
+            "With drooping wings ye cupids come (Chorus)",
+            "Aria. Erbarme dich, mein Gott",
+            "Frondi tenere e belle… Ombra mai fu, \"Largo\"",
+            "Thy hand, Belinda … When I am laid in earth"
+          ]
+        },
+        {
+          "album_id": "su0ve8u3fob6a",
+          "title": "Henry Purcell: Dido and Aeneas, Z. 626 (Live)",
+          "album_sha256": "0d7cff50c2ddb131ae31eba5229a8322bbb9da356b35b307b285970f9f4594e0",
+          "track_manifest_sha256": "d7ede7b868818887df57959d2348eb007b59f54aa78ff3388ce23f3234cc0c8a",
+          "tracks_count": 36,
+          "track_titles": [
+            "Overture (Live)",
+            "Shake the Cloud from Off Your Brow (Belinda, Chorus) [Live]",
+            "Ah! Belinda, I Am Prest with Torment  [Live]",
+            "Grief Increases by Concealing (Belinda, Dido, Chorus) [Live]",
+            "Whence Could So Much Virtue Spring? (Dido, Belinda) [Live]",
+            "Fear No Danger to Ensue (First Woman, Second Woman, Chorus) [Live]",
+            "See, Your Royal Guest Appears (Belinda, Aeneas, Dido, Chorus) [Live]",
+            "To the Hills and the Vales (Chorus) [Live]",
+            "The Triumphing Dance (Live)",
+            "Wayward Sisters, You That Fright (Sorceress, First Witch, Chorus) [Live]",
+            "The Queen of Carthage (Sorceress, Chorus, First Witch, Second Witch) [Live]",
+            "But, Ere We This Perform (First Witch, Second Witch) [Live]",
+            "In Our Deep Vaulted Cell the Charm We'll Prepare (Chorus) [Live]",
+            "Echo Dance (Live)",
+            "Thanks to These Lonesome Vales (Belinda, Chorus) [Live]",
+            "Oft She Visits This Lone Mountain (Second Woman) [Live]",
+            "Behold, upon My Bending Spear (Aenas, Dido, Belinda, Chorus) [Live]",
+            "Stay, Prince, and Hear Great Jove's Command (Spirit, Aeneas) [Live]",
+            "Then Since Our Charmes Have Sped (Chorus, Sorceress) [Live]",
+            "The Groves Dance (Live)",
+            "Come Away, Fellow Sailors (Sailor, Chorus) [Live]",
+            "The Sailors' Dance (Live)",
+            "See, the Flags and Streamers Curling (Sorceress, First Witch, Second Witch, Chorus) [Live]",
+            "The Witches' Dance (Live)",
+            "Your Counsel All Is Urg'd in Vain (Dido, Belinda, Aenas) [Live]",
+            "Thus on the Fatal Banks of Nile (Dido, Aeneas) [Live]",
+            "But Death, Alas! I Cannot Shun (Dido, Chorus) [Live]",
+            "Thy Hand, Belinda, Darkness Shades Me  [Live]",
+            "When I Am Laid in Earth  [Live]",
+            "With Drooping Wings Ye Cupids Come (Chorus) [Live]",
+            "Your Counsel All Is Urg'd in Vain (Dido, Belinda, Aeneas) [Sung in Norwegian] [Live]",
+            "Thus on the Fatal Banks of Nile (Dido, Aeneas) [Sung in Norwegian] [Live]",
+            "Bet Death, Alas! I Cannot Shun (Dido, Chorus) [Sung in Norwegian] [Live]",
+            "Thy Hand, Belinda, Darkness Shades Me  [Sung in Norwegian] [Live]",
+            "When I Am Laid in Earth  [Sung in Norwegian] [Live]",
+            "With Drooping Wings Ye Cupids Come (Chorus) [Sung in Norwegian] [Live]"
+          ]
+        }
+      ],
+      "result": {
+        "discogs_id": "24278222",
+        "album_id": "cp3h8mx581qma",
+        "decision": "withhold",
+        "recording_review": "Five cached alternatives inspected. Saland omits required Schwarzkopf/Jones credits; the finer Warner/Naxos studio candidates retain the named cast but do not establish where source Act2FirstPart ends and Conclusion begins. The five-track reissue has two scenes, not verified LP-side boundaries. The live alternative has a different cast, including no source Schwarzkopf evidence. Existing single-vocal-work review supports specific Otello/Passion forms, not this four-band source; no cut, scene/side equivalence or new adapter is invented.",
+        "sources": [
+          "https://www.discogs.com/release/24278222"
+        ],
+        "limitations": [
+          "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
+          "No source rewrite, timing waiver, global work-field/catalogue normalization, performer alias or role waiver."
+        ],
+        "eligible": false,
+        "completeness": {
+          "status": "unknown",
+          "works": []
+        }
+      }
+    }
+  ],
+  "summary": {
+    "reviewed": 3,
+    "withhold": 2,
+    "probable": 1
+  },
+  "accepted_release_ids": [
+    "7065721"
+  ],
+  "qobuz_requests": 0,
+  "publication_validation": {
+    "changed_release_ids": [
+      "2548602",
+      "24278222",
+      "7065721"
+    ],
+    "only_frozen_scope_changed": true,
+    "spotify_collection_unchanged": true
+  }
+}

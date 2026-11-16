@@ -35,7 +35,7 @@
   "richter_review_fingerprint": "a14865f86e46150593e39bfa285fa6c7c61c8f46147b8094c0cb048fd02118ab",
   "round2_review_fingerprint": "be60742c3d35f5a9aa67f200642f7fcde98a52562a46130e043db8f4aa7c851e",
   "round2_metadata_fingerprint": "9db62d7bf62d4b77f5acf422dfde77959f845f4dc00b2ac0e10c02ccea295860",
-  "remaining_review_fingerprint": "cdfdf73c7193a86cf1523697450f60dff2142ed40d69394577d677990b4d0116",
+  "remaining_review_fingerprint": "fa8d5877b31a38f2f2c8f62421e3c8948d3ebdadae7b4cd8b3bac0118d85a74b",
   "remaining_metadata_fingerprint": "393b2d12e176160ab311b65267b38bdc8c205222e12f792bf07eba5c1fcfafbf",
   "remaining_followup_metadata_fingerprint": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
   "seven_album_metadata_fingerprint": "139f9b336c68b56ea22c18362cb0481c026366c5d359142f2bb702fe1233a4fc",
@@ -17059,15 +17059,36 @@
             }
           ],
           "reasons": [
+            "The official Gould page corroborates the complete1982Haydn family and all15movements, with the same source/file production team. However source B4is3:50versus3:39digital, C5is3:27versus2:22, and D3is3:40versus3:47: three bands exceed existing tolerance. The first XVI49band is also printedIIAllegro versus digitalIAllegro. A single source-image request returned403; no visual timing correction or duration waiver is justified.",
+            "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
+            "No source rewrite, timing waiver, global work-field/catalogue normalization, performer alias or role waiver.",
             "0/6 target items supported after composer/work grouping; unresolved."
+          ],
+          "recording_review_decision": "withhold",
+          "recording_review": "The official Gould page corroborates the complete1982Haydn family and all15movements, with the same source/file production team. However source B4is3:50versus3:39digital, C5is3:27versus2:22, and D3is3:40versus3:47: three bands exceed existing tolerance. The first XVI49band is also printedIIAllegro versus digitalIAllegro. A single source-image request returned403; no visual timing correction or duration waiver is justified.",
+          "review_sources": [
+            "https://www.discogs.com/release/2548602",
+            "https://glenngould.com/music/haydn-the-six-last-sonatas/"
           ]
         }
       ],
       "query": "glenn gould haydn the six last sonatas",
       "searched_at": "2026-11-12T14:52:47.151960+00:00",
       "reasons": [
+        "The official Gould page corroborates the complete1982Haydn family and all15movements, with the same source/file production team. However source B4is3:50versus3:39digital, C5is3:27versus2:22, and D3is3:40versus3:47: three bands exceed existing tolerance. The first XVI49band is also printedIIAllegro versus digitalIAllegro. A single source-image request returned403; no visual timing correction or duration waiver is justified.",
+        "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
+        "No source rewrite, timing waiver, global work-field/catalogue normalization, performer alias or role waiver.",
         "0/6 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The official Gould page corroborates the complete1982Haydn family and all15movements, with the same source/file production team. However source B4is3:50versus3:39digital, C5is3:27versus2:22, and D3is3:40versus3:47: three bands exceed existing tolerance. The first XVI49band is also printedIIAllegro versus digitalIAllegro. A single source-image request returned403; no visual timing correction or duration waiver is justified.",
+        "limitations": [
+          "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
+          "No source rewrite, timing waiver, global work-field/catalogue normalization, performer alias or role waiver."
+        ]
+      }
     },
     "10046721": {
       "status": "unchecked",
@@ -98249,7 +98270,15 @@
             }
           ],
           "reasons": [
+            "Five cached alternatives inspected. Saland omits required Schwarzkopf/Jones credits; the finer Warner/Naxos studio candidates retain the named cast but do not establish where source Act2FirstPart ends and Conclusion begins. The five-track reissue has two scenes, not verified LP-side boundaries. The live alternative has a different cast, including no source Schwarzkopf evidence. Existing single-vocal-work review supports specific Otello/Passion forms, not this four-band source; no cut, scene/side equivalence or new adapter is invented.",
+            "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
+            "No source rewrite, timing waiver, global work-field/catalogue normalization, performer alias or role waiver.",
             "0/4 target items supported after composer/work grouping; unresolved."
+          ],
+          "recording_review_decision": "withhold",
+          "recording_review": "Five cached alternatives inspected. Saland omits required Schwarzkopf/Jones credits; the finer Warner/Naxos studio candidates retain the named cast but do not establish where source Act2FirstPart ends and Conclusion begins. The five-track reissue has two scenes, not verified LP-side boundaries. The live alternative has a different cast, including no source Schwarzkopf evidence. Existing single-vocal-work review supports specific Otello/Passion forms, not this four-band source; no cut, scene/side equivalence or new adapter is invented.",
+          "review_sources": [
+            "https://www.discogs.com/release/24278222"
           ]
         },
         {
@@ -98407,7 +98436,16 @@
       "searched_at": "2026-11-12T16:18:53.830067+00:00",
       "reasons": [
         "0/4 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Five cached alternatives inspected. Saland omits required Schwarzkopf/Jones credits; the finer Warner/Naxos studio candidates retain the named cast but do not establish where source Act2FirstPart ends and Conclusion begins. The five-track reissue has two scenes, not verified LP-side boundaries. The live alternative has a different cast, including no source Schwarzkopf evidence. Existing single-vocal-work review supports specific Otello/Passion forms, not this four-band source; no cut, scene/side equivalence or new adapter is invented.",
+        "limitations": [
+          "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
+          "No source rewrite, timing waiver, global work-field/catalogue normalization, performer alias or role waiver."
+        ]
+      }
     },
     "3290606": {
       "status": "unchecked",
@@ -132328,14 +132366,256 @@
       ]
     },
     "7065721": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0886443760844",
+        "name": "Jascha Heifetz plays Sonatas for Violin",
+        "artists": [
+          "Jascha Heifetz"
+        ],
+        "label": "RCA Red Seal",
+        "release_date": "2013-02-26",
+        "image": "https://static.qobuz.com/images/covers/44/08/0886443760844_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/jascha-heifetz-plays-sonatas-for-violin-jascha-heifetz/0886443760844"
+      },
+      "candidates": [
+        {
+          "id": "0886443760844",
+          "name": "Jascha Heifetz plays Sonatas for Violin",
+          "artists": [
+            "Jascha Heifetz"
+          ],
+          "label": "RCA Red Seal",
+          "release_date": "2013-02-26",
+          "image": "https://static.qobuz.com/images/covers/44/08/0886443760844_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/jascha-heifetz-plays-sonatas-for-violin-jascha-heifetz/0886443760844",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 6,
+          "target_count": 6,
+          "required_performers": [
+            "Jascha Heifetz",
+            "Brooks Smith (2)"
+          ],
+          "programme": [
+            {
+              "target": "A1: Allegro Moderato",
+              "source_path": [
+                0,
+                0
+              ],
+              "track_ids": [
+                7847932
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Jascha Heifetz",
+                "Brooks Smith (2)"
+              ]
+            },
+            {
+              "target": "A2: Andantino Sostenuto E Cantabile",
+              "source_path": [
+                0,
+                1
+              ],
+              "track_ids": [
+                7847933
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Jascha Heifetz",
+                "Brooks Smith (2)"
+              ]
+            },
+            {
+              "target": "A3: Rondo Allegro",
+              "source_path": [
+                0,
+                2
+              ],
+              "track_ids": [
+                7847934
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Jascha Heifetz",
+                "Brooks Smith (2)"
+              ]
+            },
+            {
+              "target": "B1: Largo; Allegro",
+              "source_path": [
+                1,
+                0
+              ],
+              "track_ids": [
+                7847935
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Jascha Heifetz",
+                "Brooks Smith (2)"
+              ]
+            },
+            {
+              "target": "B2: Andante",
+              "source_path": [
+                1,
+                1
+              ],
+              "track_ids": [
+                7847936
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Jascha Heifetz",
+                "Brooks Smith (2)"
+              ]
+            },
+            {
+              "target": "B3: Allegretto",
+              "source_path": [
+                1,
+                2
+              ],
+              "track_ids": [
+                7847937
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Jascha Heifetz",
+                "Brooks Smith (2)"
+              ]
+            }
+          ],
+          "reasons": [
+            "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+            "Artist RCA chronology and official session list identify the Heifetz/BrooksSmith December1954RadioRecorders family, distinct from earlier EmanuelBay versions. The saved Sony sonata collection supplies all six LM1958source movements with positive Heifetz Violin, BrooksSmith Piano and Mozart Composer roles. Every source band maps to one distinct frozen track; remaining collection tracks are extras.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
+            "No source rewrite, timing waiver, global work-field/catalogue normalization, performer alias or role waiver."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "A1: Allegro Moderato",
+                "source_path": [
+                  0,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  7847932
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 498,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A2: Andantino Sostenuto E Cantabile",
+                "source_path": [
+                  0,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  7847933
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 270,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A3: Rondo Allegro",
+                "source_path": [
+                  0,
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  7847934
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 241,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B1: Largo; Allegro",
+                "source_path": [
+                  1,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  7847935
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 420,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B2: Andante",
+                "source_path": [
+                  1,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  7847936
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 411,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B3: Allegretto",
+                "source_path": [
+                  1,
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  7847937
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 351,
+                "source_duration_notes": []
+              }
+            ]
+          },
+          "recording_review": "Artist RCA chronology and official session list identify the Heifetz/BrooksSmith December1954RadioRecorders family, distinct from earlier EmanuelBay versions. The saved Sony sonata collection supplies all six LM1958source movements with positive Heifetz Violin, BrooksSmith Piano and Mozart Composer roles. Every source band maps to one distinct frozen track; remaining collection tracks are extras.",
+          "review_sources": [
+            "https://www.discogs.com/release/7065721",
+            "https://jaschaheifetz.org/rca_chrono.html",
+            "https://jaschaheifetz.com/about/concerts/"
+          ]
+        }
+      ],
       "query": "jascha heifetz mozart sonatas no 10 k 378 no 15 k 454",
       "searched_at": "2026-11-12T17:20:12.826356+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+        "Artist RCA chronology and official session list identify the Heifetz/BrooksSmith December1954RadioRecorders family, distinct from earlier EmanuelBay versions. The saved Sony sonata collection supplies all six LM1958source movements with positive Heifetz Violin, BrooksSmith Piano and Mozart Composer roles. Every source band maps to one distinct frozen track; remaining collection tracks are extras.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
+        "No source rewrite, timing waiver, global work-field/catalogue normalization, performer alias or role waiver."
       ]
     },
     "4197603": {

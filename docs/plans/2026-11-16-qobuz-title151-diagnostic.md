@@ -87,3 +87,11 @@ conflicting-catalogue refusal and distinct root-cause grouping.
 All296script tests pass.151case/409pair scope, ranked-report hash and every
 guarded input fingerprint verified. No publication, workflow-review, raw/cache,
 Spotify or production-scoring bytes changed; no provider calls, push or deployment.
+
+## All three gains reviewed
+
+[Three-case batch](2026-11-16-qobuz-title3.md) completed:Heifetz7065721Probable,
+Gould2548602held for saved source timings, Dido24278222held for split-act mapping.
+Original diagnostic bytes remain unchanged; gain queue now1resolved/2held/0pending.
+No live work-field/catalogue rule was adopted. Remaining148current title/work
+cases still have no saved publication review decision.

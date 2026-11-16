@@ -21784,6 +21784,787 @@
         "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
       ],
       "external_source_files": []
+    },
+    {
+      "discogs_id": "2548602",
+      "album_id": "0886445085297",
+      "target_sha256": "a76df7bf7fb02ebb4695706b53121773dde8f122d2542d0cd98855a91b9af633",
+      "source_sha256": "9a04db2a0f1c45e78e39613b88cad2441b12f2841239d1a5ffe9f9f1ccab93af",
+      "album_sha256": "dec9f74637e656bfc4ef39540d8caf2fca0c692e74b3675c72e8de07004b8015",
+      "decision": "withhold",
+      "recording_review": "The official Gould page corroborates the complete1982Haydn family and all15movements, with the same source/file production team. However source B4is3:50versus3:39digital, C5is3:27versus2:22, and D3is3:40versus3:47: three bands exceed existing tolerance. The first XVI49band is also printedIIAllegro versus digitalIAllegro. A single source-image request returned403; no visual timing correction or duration waiver is justified.",
+      "sources": [
+        "https://www.discogs.com/release/2548602",
+        "https://glenngould.com/music/haydn-the-six-last-sonatas/"
+      ],
+      "external_source_files": [
+        {
+          "path": "data/review_sources/title3-2548602/source-observation.txt",
+          "sha256": "74d5c32984489a899486826c2913f9bc5209330173939c18873106088a51ea81"
+        }
+      ],
+      "limitations": [
+        "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
+        "No source rewrite, timing waiver, global work-field/catalogue normalization, performer alias or role waiver."
+      ],
+      "review_kind": "source-leaf-bands",
+      "source_outline_sha256": "1065d7a4932e4fc3933ba5ea70d979f2c610df2ee87a9ea751f361200dff3a10",
+      "source_leaves": [
+        {
+          "path": [
+            0,
+            0
+          ],
+          "source_work": "Sonata No. 56 D Major / D-Dur / Re Majeur, Hoboken XVI/42",
+          "title": "I - Andante Con Espressione",
+          "position": "A1",
+          "duration": "8:50"
+        },
+        {
+          "path": [
+            0,
+            1
+          ],
+          "source_work": "Sonata No. 56 D Major / D-Dur / Re Majeur, Hoboken XVI/42",
+          "title": "II - Vivace Assai",
+          "position": "A2",
+          "duration": "2:10"
+        },
+        {
+          "path": [
+            1,
+            0
+          ],
+          "source_work": "Sonata No. 58 C Major / C-Dur / UT Majeur, Hoboken XVI/48",
+          "title": "I - Andante Con Espressione",
+          "position": "A3",
+          "duration": "12:51"
+        },
+        {
+          "path": [
+            1,
+            1
+          ],
+          "source_work": "Sonata No. 58 C Major / C-Dur / UT Majeur, Hoboken XVI/48",
+          "title": "II - Rondo: Presto",
+          "position": "B1",
+          "duration": "3:20"
+        },
+        {
+          "path": [
+            2,
+            0
+          ],
+          "source_work": "Sonata No. 59 E Flat Major / Es-Dur / Mi Bemol Majeur , Hoboken XVI/49",
+          "title": "II - Allegro",
+          "position": "B2",
+          "duration": "4:40"
+        },
+        {
+          "path": [
+            2,
+            1
+          ],
+          "source_work": "Sonata No. 59 E Flat Major / Es-Dur / Mi Bemol Majeur , Hoboken XVI/49",
+          "title": "II - Adagio E Cantabile",
+          "position": "B3",
+          "duration": "8:50"
+        },
+        {
+          "path": [
+            2,
+            2
+          ],
+          "source_work": "Sonata No. 59 E Flat Major / Es-Dur / Mi Bemol Majeur , Hoboken XVI/49",
+          "title": "III - Finale: Tempo Di Minuetto",
+          "position": "B4",
+          "duration": "3:50"
+        },
+        {
+          "path": [
+            3,
+            0
+          ],
+          "source_work": "Sonata No. 60 C Major / C-Dur / Ut Majeur, Hoboken XVI/50",
+          "title": "I - Allegro",
+          "position": "C1",
+          "duration": "5:30"
+        },
+        {
+          "path": [
+            3,
+            1
+          ],
+          "source_work": "Sonata No. 60 C Major / C-Dur / Ut Majeur, Hoboken XVI/50",
+          "title": "II - Adagio",
+          "position": "C2",
+          "duration": "5:33"
+        },
+        {
+          "path": [
+            3,
+            2
+          ],
+          "source_work": "Sonata No. 60 C Major / C-Dur / Ut Majeur, Hoboken XVI/50",
+          "title": "III - Allegro Molto",
+          "position": "C3",
+          "duration": "2:26"
+        },
+        {
+          "path": [
+            4,
+            0
+          ],
+          "source_work": "Sonata No. 61 D Major / D-Dur / Re Majeur, Hoboken XVI/51",
+          "title": "I - Andante",
+          "position": "C4",
+          "duration": "3:25"
+        },
+        {
+          "path": [
+            4,
+            1
+          ],
+          "source_work": "Sonata No. 61 D Major / D-Dur / Re Majeur, Hoboken XVI/51",
+          "title": "II - Finale: Presto",
+          "position": "C5",
+          "duration": "3:27"
+        },
+        {
+          "path": [
+            5,
+            0
+          ],
+          "source_work": "Sonata No. 62 E-Flat Major / Es-Dur / Mi Bemol Majeur, Hoboken XVI/52",
+          "title": "I - Allegro",
+          "position": "D1",
+          "duration": "5:15"
+        },
+        {
+          "path": [
+            5,
+            1
+          ],
+          "source_work": "Sonata No. 62 E-Flat Major / Es-Dur / Mi Bemol Majeur, Hoboken XVI/52",
+          "title": "II - Adagio",
+          "position": "D2",
+          "duration": "7:30"
+        },
+        {
+          "path": [
+            5,
+            2
+          ],
+          "source_work": "Sonata No. 62 E-Flat Major / Es-Dur / Mi Bemol Majeur, Hoboken XVI/52",
+          "title": "III - Finale: Presto",
+          "position": "D3",
+          "duration": "3:40"
+        }
+      ],
+      "source_heading_groups": [],
+      "bindings": [
+        {
+          "source_path": [
+            0,
+            0
+          ],
+          "track_ids": [
+            26889126
+          ],
+          "track_sha256": [
+            "d5e7379d574852f237c7e74315f38c406ed5b431a7d756bf4d6c8cfb2307c46d"
+          ],
+          "required_performers": [
+            "Glenn Gould"
+          ],
+          "composer": "Joseph Haydn"
+        },
+        {
+          "source_path": [
+            0,
+            1
+          ],
+          "track_ids": [
+            26889128
+          ],
+          "track_sha256": [
+            "bf72c2a9faa91c26f660f6c2a5ba809095fb23f58118dea18217d9c449644e92"
+          ],
+          "required_performers": [
+            "Glenn Gould"
+          ],
+          "composer": "Joseph Haydn"
+        },
+        {
+          "source_path": [
+            1,
+            0
+          ],
+          "track_ids": [
+            26889130
+          ],
+          "track_sha256": [
+            "8ab19a6462986ae01c92837d7cf3d07c4d6b3c1dbab97e85a16f8a83e99068cb"
+          ],
+          "required_performers": [
+            "Glenn Gould"
+          ],
+          "composer": "Joseph Haydn"
+        },
+        {
+          "source_path": [
+            1,
+            1
+          ],
+          "track_ids": [
+            26889132
+          ],
+          "track_sha256": [
+            "13e192f50037f89fa872f584bf8373b91ddd8ebb341becfd75863d9aa58ab241"
+          ],
+          "required_performers": [
+            "Glenn Gould"
+          ],
+          "composer": "Joseph Haydn"
+        },
+        {
+          "source_path": [
+            2,
+            0
+          ],
+          "track_ids": [
+            26889134
+          ],
+          "track_sha256": [
+            "538e0f8684e5601b72a7c131b22d4dd1448e7870b8417c90bd3f0be820422743"
+          ],
+          "required_performers": [
+            "Glenn Gould"
+          ],
+          "composer": "Joseph Haydn"
+        },
+        {
+          "source_path": [
+            2,
+            1
+          ],
+          "track_ids": [
+            26889136
+          ],
+          "track_sha256": [
+            "6c244b4676850ba732611a9d59a05bd6e78177e8ced62b13df591d6719c6bd18"
+          ],
+          "required_performers": [
+            "Glenn Gould"
+          ],
+          "composer": "Joseph Haydn"
+        },
+        {
+          "source_path": [
+            2,
+            2
+          ],
+          "track_ids": [
+            26889138
+          ],
+          "track_sha256": [
+            "54072cc1a1188dd67b9b2a823ef652b146feefa847a056196aaec3a7c153b200"
+          ],
+          "required_performers": [
+            "Glenn Gould"
+          ],
+          "composer": "Joseph Haydn"
+        },
+        {
+          "source_path": [
+            3,
+            0
+          ],
+          "track_ids": [
+            26889140
+          ],
+          "track_sha256": [
+            "7f42e4feb33ac35e1117539b544e87fe98b0de90dc6cbab55221ccf830263792"
+          ],
+          "required_performers": [
+            "Glenn Gould"
+          ],
+          "composer": "Joseph Haydn"
+        },
+        {
+          "source_path": [
+            3,
+            1
+          ],
+          "track_ids": [
+            26889142
+          ],
+          "track_sha256": [
+            "7cb54bcd3fbf0255a67a8c2988b2e200e98cbcbe3a202d538508472411d9fe38"
+          ],
+          "required_performers": [
+            "Glenn Gould"
+          ],
+          "composer": "Joseph Haydn"
+        },
+        {
+          "source_path": [
+            3,
+            2
+          ],
+          "track_ids": [
+            26889144
+          ],
+          "track_sha256": [
+            "89df88622ec7f58730b93a1b0d8aa8f39b6ae3d9cfb72ea17ff202f45b90fda4"
+          ],
+          "required_performers": [
+            "Glenn Gould"
+          ],
+          "composer": "Joseph Haydn"
+        },
+        {
+          "source_path": [
+            4,
+            0
+          ],
+          "track_ids": [
+            26889146
+          ],
+          "track_sha256": [
+            "743bffbb8dba4e69c57ac2f82cfd362a34e760fa870882707de0a0919f732f48"
+          ],
+          "required_performers": [
+            "Glenn Gould"
+          ],
+          "composer": "Joseph Haydn"
+        },
+        {
+          "source_path": [
+            4,
+            1
+          ],
+          "track_ids": [
+            26889148
+          ],
+          "track_sha256": [
+            "403f548c31a15e32fd32874c7a22e3d6aa4809fae72d4244c37ada717c01ec51"
+          ],
+          "required_performers": [
+            "Glenn Gould"
+          ],
+          "composer": "Joseph Haydn"
+        },
+        {
+          "source_path": [
+            5,
+            0
+          ],
+          "track_ids": [
+            26889150
+          ],
+          "track_sha256": [
+            "4652d7be3ff825106e5e5c953beddaa82e49fa39dd5dc5d2b9c13ceedfe166de"
+          ],
+          "required_performers": [
+            "Glenn Gould"
+          ],
+          "composer": "Joseph Haydn"
+        },
+        {
+          "source_path": [
+            5,
+            1
+          ],
+          "track_ids": [
+            26889152
+          ],
+          "track_sha256": [
+            "e81094bc2b62939338300a41c544af2e99766296fdd433336fa0e1680c026740"
+          ],
+          "required_performers": [
+            "Glenn Gould"
+          ],
+          "composer": "Joseph Haydn"
+        },
+        {
+          "source_path": [
+            5,
+            2
+          ],
+          "track_ids": [
+            26889154
+          ],
+          "track_sha256": [
+            "b532383a5482d429b4e7e646351b1116666fa023a387f32bd49f3e59f364c275"
+          ],
+          "required_performers": [
+            "Glenn Gould"
+          ],
+          "composer": "Joseph Haydn"
+        }
+      ],
+      "extra_track_ids": [],
+      "selected_track_fingerprints": {
+        "26889126": "d5e7379d574852f237c7e74315f38c406ed5b431a7d756bf4d6c8cfb2307c46d",
+        "26889128": "bf72c2a9faa91c26f660f6c2a5ba809095fb23f58118dea18217d9c449644e92",
+        "26889130": "8ab19a6462986ae01c92837d7cf3d07c4d6b3c1dbab97e85a16f8a83e99068cb",
+        "26889132": "13e192f50037f89fa872f584bf8373b91ddd8ebb341becfd75863d9aa58ab241",
+        "26889134": "538e0f8684e5601b72a7c131b22d4dd1448e7870b8417c90bd3f0be820422743",
+        "26889136": "6c244b4676850ba732611a9d59a05bd6e78177e8ced62b13df591d6719c6bd18",
+        "26889138": "54072cc1a1188dd67b9b2a823ef652b146feefa847a056196aaec3a7c153b200",
+        "26889140": "7f42e4feb33ac35e1117539b544e87fe98b0de90dc6cbab55221ccf830263792",
+        "26889142": "7cb54bcd3fbf0255a67a8c2988b2e200e98cbcbe3a202d538508472411d9fe38",
+        "26889144": "89df88622ec7f58730b93a1b0d8aa8f39b6ae3d9cfb72ea17ff202f45b90fda4",
+        "26889146": "743bffbb8dba4e69c57ac2f82cfd362a34e760fa870882707de0a0919f732f48",
+        "26889148": "403f548c31a15e32fd32874c7a22e3d6aa4809fae72d4244c37ada717c01ec51",
+        "26889150": "4652d7be3ff825106e5e5c953beddaa82e49fa39dd5dc5d2b9c13ceedfe166de",
+        "26889152": "e81094bc2b62939338300a41c544af2e99766296fdd433336fa0e1680c026740",
+        "26889154": "b532383a5482d429b4e7e646351b1116666fa023a387f32bd49f3e59f364c275"
+      }
+    },
+    {
+      "discogs_id": "7065721",
+      "album_id": "0886443760844",
+      "target_sha256": "729b89066e236673ddabae9f5d657a9b0f377a617a6b1fefead36030348ef0f8",
+      "source_sha256": "91ff000ea5614b93649b0d2986078614d1dbd52dc12bfe116f2fee25e2e60755",
+      "album_sha256": "2a9f9cf58a5eab14c32f39922aa80d1b3a8152d8243788ce2f980bc53d0ba9da",
+      "decision": "probable",
+      "recording_review": "Artist RCA chronology and official session list identify the Heifetz/BrooksSmith December1954RadioRecorders family, distinct from earlier EmanuelBay versions. The saved Sony sonata collection supplies all six LM1958source movements with positive Heifetz Violin, BrooksSmith Piano and Mozart Composer roles. Every source band maps to one distinct frozen track; remaining collection tracks are extras.",
+      "sources": [
+        "https://www.discogs.com/release/7065721",
+        "https://jaschaheifetz.org/rca_chrono.html",
+        "https://jaschaheifetz.com/about/concerts/"
+      ],
+      "external_source_files": [
+        {
+          "path": "data/review_sources/title3-7065721/source-observation.txt",
+          "sha256": "afc61b0b7f91d73789bbc3f2f5a078444beef5e7d4f5ebd5801b2dee47a3e2b2"
+        }
+      ],
+      "limitations": [
+        "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
+        "No source rewrite, timing waiver, global work-field/catalogue normalization, performer alias or role waiver."
+      ],
+      "review_kind": "source-leaf-bands",
+      "source_outline_sha256": "7c7bae5eb09698dc352964d041b30030525f58ddbad7933d3d00300459d81461",
+      "source_leaves": [
+        {
+          "path": [
+            0,
+            0
+          ],
+          "source_work": "Sonata No. 10, In B-Flat, K. 378",
+          "title": "Allegro Moderato",
+          "position": "A1",
+          "duration": ""
+        },
+        {
+          "path": [
+            0,
+            1
+          ],
+          "source_work": "Sonata No. 10, In B-Flat, K. 378",
+          "title": "Andantino Sostenuto E Cantabile",
+          "position": "A2",
+          "duration": ""
+        },
+        {
+          "path": [
+            0,
+            2
+          ],
+          "source_work": "Sonata No. 10, In B-Flat, K. 378",
+          "title": "Rondo Allegro",
+          "position": "A3",
+          "duration": ""
+        },
+        {
+          "path": [
+            1,
+            0
+          ],
+          "source_work": "Sonata No. 15, In B-Flat, K. 454",
+          "title": "Largo; Allegro",
+          "position": "B1",
+          "duration": ""
+        },
+        {
+          "path": [
+            1,
+            1
+          ],
+          "source_work": "Sonata No. 15, In B-Flat, K. 454",
+          "title": "Andante",
+          "position": "B2",
+          "duration": ""
+        },
+        {
+          "path": [
+            1,
+            2
+          ],
+          "source_work": "Sonata No. 15, In B-Flat, K. 454",
+          "title": "Allegretto",
+          "position": "B3",
+          "duration": ""
+        }
+      ],
+      "source_heading_groups": [],
+      "bindings": [
+        {
+          "source_path": [
+            0,
+            0
+          ],
+          "track_ids": [
+            7847932
+          ],
+          "track_sha256": [
+            "f55b39675bf0bc304d1f8c4cab3a248d2db4d69ab8dc3ac9d3ef4a2fe53e7282"
+          ],
+          "required_performers": [
+            "Jascha Heifetz",
+            "Brooks Smith (2)"
+          ],
+          "composer": "Wolfgang Amadeus Mozart"
+        },
+        {
+          "source_path": [
+            0,
+            1
+          ],
+          "track_ids": [
+            7847933
+          ],
+          "track_sha256": [
+            "355309dfce0162691a4cf53041fbb7fc24d510ccc8a4a59d9cf4d544d38a23df"
+          ],
+          "required_performers": [
+            "Jascha Heifetz",
+            "Brooks Smith (2)"
+          ],
+          "composer": "Wolfgang Amadeus Mozart"
+        },
+        {
+          "source_path": [
+            0,
+            2
+          ],
+          "track_ids": [
+            7847934
+          ],
+          "track_sha256": [
+            "7531abdead41ec49eee05a75e5f05977f932405e959348e61161edad6e730741"
+          ],
+          "required_performers": [
+            "Jascha Heifetz",
+            "Brooks Smith (2)"
+          ],
+          "composer": "Wolfgang Amadeus Mozart"
+        },
+        {
+          "source_path": [
+            1,
+            0
+          ],
+          "track_ids": [
+            7847935
+          ],
+          "track_sha256": [
+            "0e8ad911d326770abc27c07a1ee087ebc19fbb2e30a7bd185e15d63b927c50b7"
+          ],
+          "required_performers": [
+            "Jascha Heifetz",
+            "Brooks Smith (2)"
+          ],
+          "composer": "Wolfgang Amadeus Mozart"
+        },
+        {
+          "source_path": [
+            1,
+            1
+          ],
+          "track_ids": [
+            7847936
+          ],
+          "track_sha256": [
+            "c243b5dc942a9d9771e67a0b9d497a7374ccb664d5d71c42fc8a99b8b7065757"
+          ],
+          "required_performers": [
+            "Jascha Heifetz",
+            "Brooks Smith (2)"
+          ],
+          "composer": "Wolfgang Amadeus Mozart"
+        },
+        {
+          "source_path": [
+            1,
+            2
+          ],
+          "track_ids": [
+            7847937
+          ],
+          "track_sha256": [
+            "2f2a7e14c45c8b7e1d94635e5c91477c9812a84ef92afce0c3eabcda84827f23"
+          ],
+          "required_performers": [
+            "Jascha Heifetz",
+            "Brooks Smith (2)"
+          ],
+          "composer": "Wolfgang Amadeus Mozart"
+        }
+      ],
+      "extra_track_ids": [
+        7847916,
+        7847917,
+        7847918,
+        7847919,
+        7847920,
+        7847921,
+        7847922,
+        7847923,
+        7847924,
+        7847925,
+        7847926,
+        7847927,
+        7847928,
+        7847929,
+        7847930,
+        7847931,
+        7847938,
+        7847939,
+        7847940,
+        7847941,
+        7847942,
+        7847943,
+        7847944,
+        7847945,
+        7847946,
+        7847947,
+        7847948,
+        7847949,
+        7847950,
+        7847951,
+        7847952,
+        7847953,
+        7847954,
+        7847955,
+        7847956,
+        7847957,
+        7847958,
+        7847959,
+        7847960,
+        7847961,
+        7847962,
+        7847963,
+        7847964,
+        7847965,
+        7847966,
+        7847967,
+        7847968,
+        7847969,
+        7847970,
+        7847971,
+        7847972,
+        7847973,
+        7847974,
+        7847975,
+        7847976,
+        7847977,
+        7847978,
+        7847979,
+        7847980,
+        7847981,
+        7847982,
+        7847983,
+        7847984,
+        7847985,
+        7847986,
+        7847987,
+        7847988,
+        7847989,
+        7847990,
+        7847991,
+        7847992,
+        7847993,
+        7847994,
+        7847995,
+        7847996,
+        7847997,
+        7847998,
+        7847999,
+        7848000,
+        7848002,
+        7848003,
+        7848004,
+        7848005,
+        7848006,
+        7848007,
+        7848008,
+        7848009,
+        7848010,
+        7848011,
+        7848012,
+        7848013,
+        7848014,
+        7848015,
+        7848016,
+        7848017,
+        7848018,
+        7848019,
+        7848020,
+        7848021,
+        7848022,
+        7848023,
+        7848024,
+        7848025,
+        7848026,
+        7848027,
+        7848028,
+        7848029,
+        7848030,
+        7848031,
+        7848032,
+        7848033,
+        7848034,
+        7848035,
+        7848036,
+        7848037,
+        7848038,
+        7848039,
+        7848040,
+        7848041,
+        7848042,
+        7848043,
+        7848044,
+        7848045
+      ],
+      "selected_track_fingerprints": {
+        "7847932": "f55b39675bf0bc304d1f8c4cab3a248d2db4d69ab8dc3ac9d3ef4a2fe53e7282",
+        "7847933": "355309dfce0162691a4cf53041fbb7fc24d510ccc8a4a59d9cf4d544d38a23df",
+        "7847934": "7531abdead41ec49eee05a75e5f05977f932405e959348e61161edad6e730741",
+        "7847935": "0e8ad911d326770abc27c07a1ee087ebc19fbb2e30a7bd185e15d63b927c50b7",
+        "7847936": "c243b5dc942a9d9771e67a0b9d497a7374ccb664d5d71c42fc8a99b8b7065757",
+        "7847937": "2f2a7e14c45c8b7e1d94635e5c91477c9812a84ef92afce0c3eabcda84827f23"
+      }
+    },
+    {
+      "discogs_id": "24278222",
+      "album_id": "cp3h8mx581qma",
+      "target_sha256": "95aa4dc79430120c2ff16d5f2c02511dcf2b7f93ccef98049c1180a2e88cfbd8",
+      "source_sha256": "69a4d21e188f328a0747f2f3a88db9b288542e1a007e1c754a1bf0e4971289e3",
+      "album_sha256": "10aec93d5bef2d65de1d462e683732b2c377c6ac881cdc67319728af2e5c73f4",
+      "decision": "withhold",
+      "recording_review": "Five cached alternatives inspected. Saland omits required Schwarzkopf/Jones credits; the finer Warner/Naxos studio candidates retain the named cast but do not establish where source Act2FirstPart ends and Conclusion begins. The five-track reissue has two scenes, not verified LP-side boundaries. The live alternative has a different cast, including no source Schwarzkopf evidence. Existing single-vocal-work review supports specific Otello/Passion forms, not this four-band source; no cut, scene/side equivalence or new adapter is invented.",
+      "sources": [
+        "https://www.discogs.com/release/24278222"
+      ],
+      "external_source_files": [],
+      "limitations": [
+        "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
+        "No source rewrite, timing waiver, global work-field/catalogue normalization, performer alias or role waiver."
+      ]
     }
   ]
 }

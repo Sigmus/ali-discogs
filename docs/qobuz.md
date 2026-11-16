@@ -657,3 +657,10 @@ lookup keys, rejects title collisions and catalogue-overwrite attempts, and guar
 all shared caches/publication/source inputs. Its3ranked leads need full source-band
 and recording review; diagnostics never mark a release reviewed or accepted.
 [Results/limitations](plans/2026-11-16-qobuz-title151-diagnostic.md).
+
+`uv run --with requests python scripts/qobuz_title3_audit.py` validates the three
+leads from the151case diagnostic. Heifetz has a frozen six-band positive mapping;
+Gould keeps all15bands but source timing conflicts fail closed, and Dido retains
+its four source bands plus all five inspected alternatives without invented cuts.
+The original diagnostic stays immutable; ranked workflow now reflects explicit
+recording decisions. [Results](plans/2026-11-16-qobuz-title3.md).

@@ -1,10 +1,10 @@
 {
   "schema_version": 1,
   "reviewed_on": "2026-11-16",
-  "unique_unresolved_releases": 547,
+  "unique_unresolved_releases": 546,
   "review_state_counts": {
-    "no_saved_decision": 312,
-    "reviewed_unresolved": 235
+    "no_saved_decision": 309,
+    "reviewed_unresolved": 237
   },
   "planning_families": {
     "credit_evidence": 208,
@@ -12,8 +12,8 @@
     "other_saved_blocker": 61,
     "partial_programme_or_completeness": 5,
     "recording_identity": 44,
-    "source_programme_mapping": 72,
-    "work_title_or_catalogue_mapping_unresolved": 151
+    "source_programme_mapping": 74,
+    "work_title_or_catalogue_mapping_unresolved": 148
   },
   "groups": {
     "credit_support_unresolved": 150,
@@ -133,6 +133,7 @@
     "saved:separate-bruckner-wagner-recordings": 1,
     "saved:single-work-vocal-sections-and-raw-credits": 1,
     "saved:source-band-and-musician-gap": 1,
+    "saved:source-band-duration-discrepancy": 1,
     "saved:source-choir-organ": 1,
     "saved:source-composer-conflict": 1,
     "saved:source-container-duration-conflict": 1,
@@ -147,6 +148,7 @@
     "saved:source-scope-and-instrument-role": 1,
     "saved:source-soloist-and-one-file-scope": 1,
     "saved:source-typos-large-piano-box": 1,
+    "saved:split-act-source-boundaries": 1,
     "saved:split-programme": 1,
     "saved:split-programme-identity": 1,
     "saved:split-programme-recording-identity": 1,
@@ -160,7 +162,7 @@
     "saved:work-scoped-pianist": 1,
     "saved:wrong-cast-moldau": 1,
     "saved:wrong_accompanist_and_programme": 1,
-    "work_title_or_catalogue_mapping_unresolved": 151
+    "work_title_or_catalogue_mapping_unresolved": 148
   },
   "entries": [
     {
@@ -705,13 +707,13 @@
     {
       "discogs_id": "2548602",
       "title": "The Six Last Sonatas",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:source-band-duration-discrepancy",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 1,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "The official Gould page corroborates the complete1982Haydn family and all15movements, with the same source/file production team. However source B4is3:50versus3:39digital, C5is3:27versus2:22, and D3is3:40versus3:47: three bands exceed existing tolerance. The first XVI49band is also printedIIAllegro versus digitalIAllegro. A single source-image request returned403; no visual timing correction or duration waiver is justified.",
+      "next_action": "Inspect original label/booklet timings and transfer provenance before reconciling these exact discrepancies; complete work coverage alone is insufficient."
     },
     {
       "discogs_id": "2628957",
@@ -3055,17 +3057,6 @@
       "uncached_hits": 0,
       "finding": "The complete Barenboim Mozart cycle contains K238/K537, but the relevant track performer strings omit English Chamber Orchestra.",
       "next_action": "Retain the orchestra requirement; obtain positive work-specific orchestral credit and session corroboration."
-    },
-    {
-      "discogs_id": "7065721",
-      "title": "Sonatas No. 10, K. 378 · No. 15, K. 454",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
-      "cached_candidate_count": 2,
-      "uncached_hits": 7,
-      "finding": null,
-      "next_action": null
     },
     {
       "discogs_id": "7070218",
@@ -5974,13 +5965,13 @@
     {
       "discogs_id": "24278222",
       "title": "Dido And Aeneas",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:split-act-source-boundaries",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 5,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Five cached alternatives inspected. Saland omits required Schwarzkopf/Jones credits; the finer Warner/Naxos studio candidates retain the named cast but do not establish where source Act2FirstPart ends and Conclusion begins. The five-track reissue has two scenes, not verified LP-side boundaries. The live alternative has a different cast, including no source Schwarzkopf evidence. Existing single-vocal-work review supports specific Otello/Passion forms, not this four-band source; no cut, scene/side equivalence or new adapter is invented.",
+      "next_action": "Corroborate original ActIIband boundaries, or separately scope a complete-opera review preserving both source bands without asserting cuts; retain all named singers/conductor and distinguish studio/live families."
     },
     {
       "discogs_id": "24963823",
@@ -6193,14 +6184,15 @@
     "Grouping authorizes no new retrieval, identity alias, role waiver or automatic promotion."
   ],
   "source_hashes": {
-    "data/qobuz_unmatched_audit.json": "b7e01f5328f830d01b57cf8aa31f8637432af39d1ee38224f642b9dd45b69524",
-    "data/qobuz_matches.json": "2a866c3fd42a5e493b216fe41e62ff8384f9eb976a687508b6e9147b48ea60a8",
+    "data/qobuz_unmatched_audit.json": "8532e7cbc0b42ffb9343c3e3aa1504a74fec91526c26c5e092da1e05aac494d2",
+    "data/qobuz_matches.json": "de5549a72f871ba0d2878845741b4fd8d51cd4728a5c96a1b55020285719dccd",
     "data/qobuz_credit12_recording_audit.json": "f720a1cc1c5beec68dbe0b3ae45b80e5fd003d272f4cc5ca872f6863e1105092",
     "data/qobuz_final_cached2_recording_audit.json": "0d6a38e1817de98fc971d7a0e9c92f972c24e0eff503fc569951030c0e29da73",
     "data/qobuz_fullsupport16_recording_audit.json": "4187655cdfbfbc21fc9895b0818c8755a72596608a5ce7d1579ac38e1901510a",
     "data/qobuz_partial38_recording_audit.json": "cd4607193942f467815228cf9fa831887e0439f27146b9cf7d3f3637663f698d",
     "data/qobuz_secondary23_recording_audit.json": "7a2c245c90f30b437f1e4fba32c38b3ce6932eefb29af9232332f80a7358ca38",
     "data/qobuz_title19_recording_audit.json": "fdbab134fb3332d958416505c1e2d97507b341eba4161856a156abbc9a3935be",
+    "data/qobuz_title3_recording_audit.json": "748a83cdabaf5df710f601a899c80de32759be654557c570b2dbdef430b7c8b2",
     "data/qobuz_title9_recording_audit.json": "79fc8ec4f68e790f354fa56722eca0aea7d82a771627cd201ee68e462becaef2",
     "data/qobuz_work_context9_recording_audit.json": "1ebe1ea51d3862297c4573606aa05dc92e606e27eb75c98dd661f5e683754fb4",
     "data/qobuz_zero104_recording_audit.json": "bbf837b84c3acdb9e80462c4a5ae8d8cbf285f830c45e33ab7dd1eadc40b1712"

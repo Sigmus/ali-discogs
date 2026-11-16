@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "reviewed_on": "2026-11-15",
-  "population": "304 unique releases currently categorized work_or_credit_unresolved",
+  "population": "301 unique releases currently categorized work_or_credit_unresolved",
   "rules": {
     "priority_review": "Unheld cached candidate supports >=50% of current source units; known/reviewed blockers excluded.",
     "secondary_partial_lead": "Some current support, below50%; known/reviewed blockers excluded.",
@@ -11,7 +11,7 @@
   },
   "counts": {
     "known_constraint": 3,
-    "no_current_supported_units": 301
+    "no_current_supported_units": 298
   },
   "entries": [
     {
@@ -217,14 +217,6 @@
       "title": "Ella And Louis Again Vol. 1",
       "queue": "no_current_supported_units",
       "best_cached_album_id": "3610157330331",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "2548602",
-      "title": "The Six Last Sonatas",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0886445085297",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 0
     },
@@ -1259,14 +1251,6 @@
       "best_cached_album_id": "0002894378192",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 6
-    },
-    {
-      "discogs_id": "7065721",
-      "title": "Sonatas No. 10, K. 378 · No. 15, K. 454",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0886443760844",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 7
     },
     {
       "discogs_id": "7103881",
@@ -2365,14 +2349,6 @@
       "uncached_hits": 4
     },
     {
-      "discogs_id": "24278222",
-      "title": "Dido And Aeneas",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0883629832272",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
       "discogs_id": "24963823",
       "title": "Sinfonia N.4 , Egmont, Musica di Scena",
       "queue": "no_current_supported_units",
@@ -2453,5 +2429,5 @@
       "uncached_hits": 0
     }
   ],
-  "inventory_sha256": "b7e01f5328f830d01b57cf8aa31f8637432af39d1ee38224f642b9dd45b69524"
+  "inventory_sha256": "8532e7cbc0b42ffb9343c3e3aa1504a74fec91526c26c5e092da1e05aac494d2"
 }

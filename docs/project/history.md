@@ -2321,3 +2321,18 @@ All296script tests pass; scope/report hashes and unchanged guarded publication,
 collection/Spotify, source/cache and production-scoring bytes verified. Saved
 `data/qobuz_title151_{scope,diagnostic,ranking}.json`; no labels/workflow reviews
 changed. Docs updated. Local checkpoint only; no provider requests/push/deploy.
+
+## 2026-11-16 — Three151diagnostic gains reviewed
+
+7065721Heifetz/BrooksSmith MozartK378/K454Probable85: six distinct positive
+Violin/Piano/Composer tracks, original LM1958programme and artist RCA chronology/
+official1954session list. Gould2548602held: three saved source timing discrepancies,
+including207vs142seconds; no duration waiver. Original-image request returned403
+once, no source-image visual claim. Dido24278222held: all5alternatives inspected,
+existing review forms cannot assert source ActIIsplit; live cast remains separate.
+Source/target/album/track hashes and reopening actions retained in title3audit.
+All300script tests, normalization/static build,3detail-browser checks and exact
+3record publication diff pass. Only existing missing favicon404in browser.
+Spotify/source/caches/production matcher unchanged; no Qobuz request. UIcopies:
+12Found/182Probable/237Reviewed · unresolved/310Unchecked. Frozen151diagnostic
+unchanged; gain queue1resolved/2held/0pending. Local commit only; no push/deploy.
