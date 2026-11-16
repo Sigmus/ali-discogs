@@ -2398,3 +2398,15 @@ Four targeted diagnostic safeguards pass. Saved hashes/proposal; no ledger,
 publication or matcher change. Promotion requires a new bounded collective
 conjunction; left as open proposal per autonomous-pass limits. Local commit only.
 [Evidence and proposal](../plans/2026-11-16-qobuz-trio-identity.md).
+
+## 2026-11-16 — User-approved trio collective review
+
+User inspected links, confirmed same album and approved8535848/wtgrq4n06qkbb.
+NowProbable85with8source bands, originaltimings/composer checks and all3exact
+members/instruments required pertrack. Collective/source member IDs and exact
+raw/target/album hashes bind archived approval; no general ensemble inference.
+Onlytrio publication record changed; raw/cache/Spotify untouched.320script tests,
+normalization/build and local8/8Probable/disclosure smoke check pass. Favicon404
+and unavailablecachedQobuzthumbnail noted; no API calls/auth/rate warning.
+UIcopies12Found/186Probable/236Reviewed · unresolved/307Unchecked. No push/deploy.
+[Approval, evidence, continuation](../plans/2026-11-16-qobuz-trio-identity.md).

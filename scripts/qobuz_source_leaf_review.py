@@ -40,8 +40,50 @@ def source_headings(raw):
     return groups
 
 
+
+def collective_members(raw, review):
+    """One explicitly approved collective, never inferred ensemble membership."""
+    spec = review.get('source_collective_members')
+    if spec is None:
+        return None
+    expected = {'collective': 'The Istomin/Stern/Rose Trio', 'source_artist_id': 2593786,
+        'members': [{'name': 'Eugene Istomin', 'source_artist_id': 1205069, 'source_role': 'Piano', 'digital_role': 'piano'},
+                    {'name': 'Isaac Stern', 'source_artist_id': 379809, 'source_role': 'Violin', 'digital_role': 'violin'},
+                    {'name': 'Leonard Rose', 'source_artist_id': 1312375, 'source_role': 'Violoncello', 'digital_role': 'cello'}]}
+    if (review['discogs_id'] != '8535848' or review['album_id'] != 'wtgrq4n06qkbb'
+            or spec != expected
+            or not any(a['id'] == spec['source_artist_id'] and a['name'] == spec['collective'] for a in raw['artists'])):
+        raise ValueError('Collective decomposition is approved only for the exact trio/source/candidate')
+    for member in spec['members']:
+        if not any(a['id'] == member['source_artist_id'] and a['name'] == member['name']
+                   and a['role'] == member['source_role'] and not a.get('tracks') for a in raw['extraartists']):
+            raise ValueError('Approved collective source lineup changed')
+    approval = next((s for s in review['external_source_files']
+                     if s['path'] == 'data/review_sources/trio-8535848/approval.json'), None)
+    if approval is None:
+        raise ValueError('Collective decomposition requires saved user approval')
+    saved = json.loads((ROOT/approval['path']).read_text())
+    if (saved['decision'] != 'approved' or saved['collective_spec'] != spec
+            or any(saved[k] != review[k] for k in ('discogs_id','album_id','target_sha256','source_sha256','album_sha256'))):
+        raise ValueError('Collective approval does not bind this evidence')
+    return spec
+
+
+def collective_credited(spec, required, track):
+    found = credits(track)
+    if spec is None:
+        return all(agrees(n, found) for n in required)
+    if spec['collective'] not in required or any(m['name'] not in required for m in spec['members']):
+        raise ValueError('Collective or individual source requirement was omitted')
+    declared = role_entries(track)
+    return (all(agrees(n, found) for n in required if n != spec['collective'])
+            and all(any(name == m['name'] and m['digital_role'] in roles for name, roles in declared)
+                    for m in spec['members']))
+
+
 def assess_leaves(row, album, review):
     raw = json.loads((ROOT/f"raw/discogs/releases/{review['discogs_id']}.json").read_text())
+    collective = collective_members(raw, review)
     leaves = source_leaves(raw)
     if (fingerprint(raw['tracklist']) != review['source_outline_sha256']
             or leaves != review['source_leaves']
@@ -82,7 +124,7 @@ def assess_leaves(row, album, review):
             composers = {composer_key(n) for n, roles in role_entries(track) if 'composer' in roles}
             if composers != {composer_key(composer)}:
                 blockers.append('composer')
-            if all(agrees(n, credits(track)) for n in required):
+            if collective_credited(collective, required, track):
                 credited += 1
             else:
                 blockers.append('performer')

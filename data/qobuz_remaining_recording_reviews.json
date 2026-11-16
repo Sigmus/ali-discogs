@@ -22861,6 +22861,309 @@
         "The digital coupling is extra and is not used to complete the source programme.",
         "Raw LP is catalogued Stereo; historic recording and Praga remaster do not establish that LP stereo processing or transfer. No stereo/mono equivalence claim."
       ]
+    },
+    {
+      "discogs_id": "8535848",
+      "album_id": "wtgrq4n06qkbb",
+      "review_kind": "source-leaf-bands",
+      "decision": "probable",
+      "target_sha256": "6fcd628cad76f20730be4688a44933f5630673e68142c3e6163459ae94b56bb3",
+      "source_sha256": "3db739edcb0e694269176f198a5ebfeeadb510ce73ef5a42f4c757e409d6e746",
+      "album_sha256": "65bb2e8e2be7c11587da3b4c73fa36b716e84cd5cd128ef437f715ebe6ff2377",
+      "source_outline_sha256": "0874874cc0825ec53971b7bab10b612078b9136f84ece790b3bbfb960fbe4a59",
+      "source_leaves": [
+        {
+          "path": [
+            0,
+            0
+          ],
+          "source_work": "Piano Trio № 1 D Minor, Op. 49",
+          "title": "I – Molto Allegro Ed Agitato",
+          "position": "A1",
+          "duration": "9:18"
+        },
+        {
+          "path": [
+            0,
+            1
+          ],
+          "source_work": "Piano Trio № 1 D Minor, Op. 49",
+          "title": "II – Andante Con Moto Tranquillo",
+          "position": "A2",
+          "duration": "6:36"
+        },
+        {
+          "path": [
+            0,
+            2
+          ],
+          "source_work": "Piano Trio № 1 D Minor, Op. 49",
+          "title": "III – Scherzo: Leggiero E Vivace",
+          "position": "A3",
+          "duration": "3:43"
+        },
+        {
+          "path": [
+            0,
+            3
+          ],
+          "source_work": "Piano Trio № 1 D Minor, Op. 49",
+          "title": "IV – Finale: Allegro Assai Appassionato",
+          "position": "A4",
+          "duration": "8:15"
+        },
+        {
+          "path": [
+            1,
+            0
+          ],
+          "source_work": "Piano Trio № 2 C Minor, Op. 66",
+          "title": "I – Allegro Energico E Con Fuoco",
+          "position": "B1",
+          "duration": "10:21"
+        },
+        {
+          "path": [
+            1,
+            1
+          ],
+          "source_work": "Piano Trio № 2 C Minor, Op. 66",
+          "title": "II – Andante Espressivo",
+          "position": "B2",
+          "duration": "7:04"
+        },
+        {
+          "path": [
+            1,
+            2
+          ],
+          "source_work": "Piano Trio № 2 C Minor, Op. 66",
+          "title": "III – Scherzo: Molto Allegro – Quasi Presto",
+          "position": "B3",
+          "duration": "3:45"
+        },
+        {
+          "path": [
+            1,
+            3
+          ],
+          "source_work": "Piano Trio № 2 C Minor, Op. 66",
+          "title": "IV – Finale: Allegro Appassionato",
+          "position": "B4",
+          "duration": "7:55"
+        }
+      ],
+      "source_heading_groups": [],
+      "source_collective_members": {
+        "collective": "The Istomin/Stern/Rose Trio",
+        "source_artist_id": 2593786,
+        "members": [
+          {
+            "name": "Eugene Istomin",
+            "source_artist_id": 1205069,
+            "source_role": "Piano",
+            "digital_role": "piano"
+          },
+          {
+            "name": "Isaac Stern",
+            "source_artist_id": 379809,
+            "source_role": "Violin",
+            "digital_role": "violin"
+          },
+          {
+            "name": "Leonard Rose",
+            "source_artist_id": 1312375,
+            "source_role": "Violoncello",
+            "digital_role": "cello"
+          }
+        ]
+      },
+      "extra_track_ids": [],
+      "selected_track_fingerprints": {
+        "57631267": "5685ec62511debb6084a0ae22ed46503b1da428dbfabc998fb348e4cb2f5003b",
+        "57631268": "d4fe6acbdc8d928a7e234ac611ea2df3cbf511c73d7383dd250c61b862e9656a",
+        "57631269": "b61a05db66c3f4fc3577bf95c630eddf7c39aad379472b4e9c7dfda9969fa169",
+        "57631270": "3a4be2e3814c05014bb50bead3a5369dd26a8e055e119a5eac3a66f97441d3ea",
+        "57631271": "eb7524c4cd0e6be185d6e5fe299b181b2e5a5d2ef4431fca1b9857d84f4c5339",
+        "57631272": "432d88b0cb2662798a91c84b5dac78dc2f0935111cbf6e25268839e2ad6c32e7",
+        "57631273": "02f8379a363e4aa12d7ebe45c3865c972e675310385df9b86b083c1ba9cdca8a",
+        "57631274": "a39ff83c0a859a2348bfd3ef8a92f7ffea20fbfef4f86ce3e116bb7c5c45133d"
+      },
+      "recording_review": "User confirms the same album. Both complete Mendelssohn trios retain every source band and source timing within two seconds. The exact Istomin/Stern/Rose collective is represented by all three individually instrument-credited musicians on every track, under explicit source/candidate-bound approval.",
+      "sources": [
+        "https://www.discogs.com/release/8535848",
+        "https://www.eugeneistomin.com/great-musical-collaborations/trio-istomin-stern-rose/istomin-tells-the-story-of-the-trio/",
+        "https://www.eugeneistomin.com/great-musical-collaborations/trio-istomin-stern-rose/after-1970/"
+      ],
+      "limitations": [
+        "Recording-family Probable only, not verified exact LP pressing, takes or mastering/transfer.",
+        "Source label dates 1966/1980 are retained; Op66 primary session date is July1979. Label/ISRC years do not establish exact sessions.",
+        "No general ensemble-membership or missing-musician waiver; approval applies to this exact source and cached candidate."
+      ],
+      "external_source_files": [
+        {
+          "path": "data/review_sources/trio-8535848/primary-observation.json",
+          "sha256": "a194fa6d83cedf5e2857572797c77c67d3c3d96e167c85e8a13395a9051a5902"
+        },
+        {
+          "path": "data/review_sources/trio-8535848/approval.json",
+          "sha256": "f756775e584aabaa4889ab190097ebe844b94a732d54d8e897faf8ce4782119c"
+        }
+      ],
+      "bindings": [
+        {
+          "source_path": [
+            0,
+            0
+          ],
+          "track_ids": [
+            57631267
+          ],
+          "track_sha256": [
+            "5685ec62511debb6084a0ae22ed46503b1da428dbfabc998fb348e4cb2f5003b"
+          ],
+          "required_performers": [
+            "Eugene Istomin",
+            "The Istomin/Stern/Rose Trio",
+            "Isaac Stern",
+            "Leonard Rose"
+          ],
+          "composer": "Felix Mendelssohn-Bartholdy"
+        },
+        {
+          "source_path": [
+            0,
+            1
+          ],
+          "track_ids": [
+            57631268
+          ],
+          "track_sha256": [
+            "d4fe6acbdc8d928a7e234ac611ea2df3cbf511c73d7383dd250c61b862e9656a"
+          ],
+          "required_performers": [
+            "Eugene Istomin",
+            "The Istomin/Stern/Rose Trio",
+            "Isaac Stern",
+            "Leonard Rose"
+          ],
+          "composer": "Felix Mendelssohn-Bartholdy"
+        },
+        {
+          "source_path": [
+            0,
+            2
+          ],
+          "track_ids": [
+            57631269
+          ],
+          "track_sha256": [
+            "b61a05db66c3f4fc3577bf95c630eddf7c39aad379472b4e9c7dfda9969fa169"
+          ],
+          "required_performers": [
+            "Eugene Istomin",
+            "The Istomin/Stern/Rose Trio",
+            "Isaac Stern",
+            "Leonard Rose"
+          ],
+          "composer": "Felix Mendelssohn-Bartholdy"
+        },
+        {
+          "source_path": [
+            0,
+            3
+          ],
+          "track_ids": [
+            57631270
+          ],
+          "track_sha256": [
+            "3a4be2e3814c05014bb50bead3a5369dd26a8e055e119a5eac3a66f97441d3ea"
+          ],
+          "required_performers": [
+            "Eugene Istomin",
+            "The Istomin/Stern/Rose Trio",
+            "Isaac Stern",
+            "Leonard Rose"
+          ],
+          "composer": "Felix Mendelssohn-Bartholdy"
+        },
+        {
+          "source_path": [
+            1,
+            0
+          ],
+          "track_ids": [
+            57631271
+          ],
+          "track_sha256": [
+            "eb7524c4cd0e6be185d6e5fe299b181b2e5a5d2ef4431fca1b9857d84f4c5339"
+          ],
+          "required_performers": [
+            "Eugene Istomin",
+            "The Istomin/Stern/Rose Trio",
+            "Isaac Stern",
+            "Leonard Rose"
+          ],
+          "composer": "Felix Mendelssohn-Bartholdy"
+        },
+        {
+          "source_path": [
+            1,
+            1
+          ],
+          "track_ids": [
+            57631272
+          ],
+          "track_sha256": [
+            "432d88b0cb2662798a91c84b5dac78dc2f0935111cbf6e25268839e2ad6c32e7"
+          ],
+          "required_performers": [
+            "Eugene Istomin",
+            "The Istomin/Stern/Rose Trio",
+            "Isaac Stern",
+            "Leonard Rose"
+          ],
+          "composer": "Felix Mendelssohn-Bartholdy"
+        },
+        {
+          "source_path": [
+            1,
+            2
+          ],
+          "track_ids": [
+            57631273
+          ],
+          "track_sha256": [
+            "02f8379a363e4aa12d7ebe45c3865c972e675310385df9b86b083c1ba9cdca8a"
+          ],
+          "required_performers": [
+            "Eugene Istomin",
+            "The Istomin/Stern/Rose Trio",
+            "Isaac Stern",
+            "Leonard Rose"
+          ],
+          "composer": "Felix Mendelssohn-Bartholdy"
+        },
+        {
+          "source_path": [
+            1,
+            3
+          ],
+          "track_ids": [
+            57631274
+          ],
+          "track_sha256": [
+            "a39ff83c0a859a2348bfd3ef8a92f7ffea20fbfef4f86ce3e116bb7c5c45133d"
+          ],
+          "required_performers": [
+            "Eugene Istomin",
+            "The Istomin/Stern/Rose Trio",
+            "Isaac Stern",
+            "Leonard Rose"
+          ],
+          "composer": "Felix Mendelssohn-Bartholdy"
+        }
+      ]
     }
   ]
 }

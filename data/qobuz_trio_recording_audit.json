@@ -1,0 +1,347 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-16",
+  "status": "complete",
+  "frozen_release_ids": [
+    "8535848"
+  ],
+  "entries": [
+    {
+      "discogs_id": "8535848",
+      "title": "Trio № 1, Op. 49 / Trio № 2, Op. 66",
+      "outcome": "probable",
+      "finding_kind": "approved_source_collective_members",
+      "finding": "User confirms the same album. Both complete Mendelssohn trios retain every source band and source timing within two seconds. The exact Istomin/Stern/Rose collective is represented by all three individually instrument-credited musicians on every track, under explicit source/candidate-bound approval.",
+      "next_action": "Retain all members/roles and exact pressing/transfer limitations.",
+      "target_sha256": "6fcd628cad76f20730be4688a44933f5630673e68142c3e6163459ae94b56bb3",
+      "source_sha256": "3db739edcb0e694269176f198a5ebfeeadb510ce73ef5a42f4c757e409d6e746",
+      "review_album_id": "wtgrq4n06qkbb",
+      "review_album_sha256": "65bb2e8e2be7c11587da3b4c73fa36b716e84cd5cd128ef437f715ebe6ff2377",
+      "source_programme": [
+        {
+          "position": "",
+          "type_": "index",
+          "title": "Piano Trio № 1 D Minor, Op. 49",
+          "extraartists": [
+            {
+              "name": "Felix Mendelssohn-Bartholdy",
+              "anv": "",
+              "join": "",
+              "role": "Composed By",
+              "tracks": "",
+              "id": 623293,
+              "resource_url": "https://api.discogs.com/artists/623293"
+            }
+          ],
+          "duration": "",
+          "sub_tracks": [
+            {
+              "position": "A1",
+              "type_": "track",
+              "title": "I – Molto Allegro Ed Agitato",
+              "duration": "9:18"
+            },
+            {
+              "position": "A2",
+              "type_": "track",
+              "title": "II – Andante Con Moto Tranquillo",
+              "duration": "6:36"
+            },
+            {
+              "position": "A3",
+              "type_": "track",
+              "title": "III – Scherzo: Leggiero E Vivace",
+              "duration": "3:43"
+            },
+            {
+              "position": "A4",
+              "type_": "track",
+              "title": "IV – Finale: Allegro Assai Appassionato",
+              "duration": "8:15"
+            }
+          ]
+        },
+        {
+          "position": "",
+          "type_": "index",
+          "title": "Piano Trio № 2 C Minor, Op. 66",
+          "extraartists": [
+            {
+              "name": "Felix Mendelssohn-Bartholdy",
+              "anv": "",
+              "join": "",
+              "role": "Composed By",
+              "tracks": "",
+              "id": 623293,
+              "resource_url": "https://api.discogs.com/artists/623293"
+            }
+          ],
+          "duration": "",
+          "sub_tracks": [
+            {
+              "position": "B1",
+              "type_": "track",
+              "title": "I – Allegro Energico E Con Fuoco",
+              "duration": "10:21"
+            },
+            {
+              "position": "B2",
+              "type_": "track",
+              "title": "II – Andante Espressivo",
+              "duration": "7:04"
+            },
+            {
+              "position": "B3",
+              "type_": "track",
+              "title": "III – Scherzo: Molto Allegro – Quasi Presto",
+              "duration": "3:45"
+            },
+            {
+              "position": "B4",
+              "type_": "track",
+              "title": "IV – Finale: Allegro Appassionato",
+              "duration": "7:55"
+            }
+          ]
+        }
+      ],
+      "source_credits": [
+        {
+          "name": "Christopher Austopchuk",
+          "anv": "",
+          "join": "",
+          "role": "Design [Cover Design]",
+          "tracks": "",
+          "id": 1829981,
+          "resource_url": "https://api.discogs.com/artists/1829981"
+        },
+        {
+          "name": "Bud Graham",
+          "anv": "",
+          "join": "",
+          "role": "Engineer",
+          "tracks": "",
+          "id": 608361,
+          "resource_url": "https://api.discogs.com/artists/608361"
+        },
+        {
+          "name": "Fred Plaut",
+          "anv": "",
+          "join": "",
+          "role": "Engineer",
+          "tracks": "",
+          "id": 384857,
+          "resource_url": "https://api.discogs.com/artists/384857"
+        },
+        {
+          "name": "John Guerriere",
+          "anv": "",
+          "join": "",
+          "role": "Engineer",
+          "tracks": "",
+          "id": 579796,
+          "resource_url": "https://api.discogs.com/artists/579796"
+        },
+        {
+          "name": "Eugene Istomin",
+          "anv": "",
+          "join": "",
+          "role": "Piano",
+          "tracks": "",
+          "id": 1205069,
+          "resource_url": "https://api.discogs.com/artists/1205069"
+        },
+        {
+          "name": "Andrew Kazdin",
+          "anv": "",
+          "join": "",
+          "role": "Producer",
+          "tracks": "",
+          "id": 342540,
+          "resource_url": "https://api.discogs.com/artists/342540"
+        },
+        {
+          "name": "Isaac Stern",
+          "anv": "",
+          "join": "",
+          "role": "Violin",
+          "tracks": "",
+          "id": 379809,
+          "resource_url": "https://api.discogs.com/artists/379809"
+        },
+        {
+          "name": "Leonard Rose",
+          "anv": "",
+          "join": "",
+          "role": "Violoncello",
+          "tracks": "",
+          "id": 1312375,
+          "resource_url": "https://api.discogs.com/artists/1312375"
+        }
+      ],
+      "source_notes": "Sleeve:\n[A] Previously released on MS 7083 [see the Master Release, [m763389]]\n© 1981 CBS Inc.\n℗ 1981 CBS Inc.\nManufactured by CBS Records\nPrinted in Holland\n\nLabels: \nMade in Germany\n℗ 1966 / 1980 CBS Inc.",
+      "selected_track_fingerprints": {
+        "57631267": "5685ec62511debb6084a0ae22ed46503b1da428dbfabc998fb348e4cb2f5003b",
+        "57631268": "d4fe6acbdc8d928a7e234ac611ea2df3cbf511c73d7383dd250c61b862e9656a",
+        "57631269": "b61a05db66c3f4fc3577bf95c630eddf7c39aad379472b4e9c7dfda9969fa169",
+        "57631270": "3a4be2e3814c05014bb50bead3a5369dd26a8e055e119a5eac3a66f97441d3ea",
+        "57631271": "eb7524c4cd0e6be185d6e5fe299b181b2e5a5d2ef4431fca1b9857d84f4c5339",
+        "57631272": "432d88b0cb2662798a91c84b5dac78dc2f0935111cbf6e25268839e2ad6c32e7",
+        "57631273": "02f8379a363e4aa12d7ebe45c3865c972e675310385df9b86b083c1ba9cdca8a",
+        "57631274": "a39ff83c0a859a2348bfd3ef8a92f7ffea20fbfef4f86ce3e116bb7c5c45133d"
+      },
+      "cached_alternative_checks": [],
+      "result": {
+        "discogs_id": "8535848",
+        "album_id": "wtgrq4n06qkbb",
+        "decision": "probable",
+        "recording_review": "User confirms the same album. Both complete Mendelssohn trios retain every source band and source timing within two seconds. The exact Istomin/Stern/Rose collective is represented by all three individually instrument-credited musicians on every track, under explicit source/candidate-bound approval.",
+        "sources": [
+          "https://www.discogs.com/release/8535848",
+          "https://www.eugeneistomin.com/great-musical-collaborations/trio-istomin-stern-rose/istomin-tells-the-story-of-the-trio/",
+          "https://www.eugeneistomin.com/great-musical-collaborations/trio-istomin-stern-rose/after-1970/"
+        ],
+        "limitations": [
+          "Recording-family Probable only, not verified exact LP pressing, takes or mastering/transfer.",
+          "Source label dates 1966/1980 are retained; Op66 primary session date is July1979. Label/ISRC years do not establish exact sessions.",
+          "No general ensemble-membership or missing-musician waiver; approval applies to this exact source and cached candidate."
+        ],
+        "eligible": true,
+        "blockers": [],
+        "completeness": {
+          "status": "complete",
+          "works": [
+            {
+              "target": "A1: I – Molto Allegro Ed Agitato",
+              "source_path": [
+                0,
+                0
+              ],
+              "status": "complete",
+              "track_ids": [
+                57631267
+              ],
+              "scope": "reviewed-complete-source-band",
+              "source_duration_seconds": 558,
+              "digital_duration_seconds": 557,
+              "source_duration_notes": []
+            },
+            {
+              "target": "A2: II – Andante Con Moto Tranquillo",
+              "source_path": [
+                0,
+                1
+              ],
+              "status": "complete",
+              "track_ids": [
+                57631268
+              ],
+              "scope": "reviewed-complete-source-band",
+              "source_duration_seconds": 396,
+              "digital_duration_seconds": 396,
+              "source_duration_notes": []
+            },
+            {
+              "target": "A3: III – Scherzo: Leggiero E Vivace",
+              "source_path": [
+                0,
+                2
+              ],
+              "status": "complete",
+              "track_ids": [
+                57631269
+              ],
+              "scope": "reviewed-complete-source-band",
+              "source_duration_seconds": 223,
+              "digital_duration_seconds": 223,
+              "source_duration_notes": []
+            },
+            {
+              "target": "A4: IV – Finale: Allegro Assai Appassionato",
+              "source_path": [
+                0,
+                3
+              ],
+              "status": "complete",
+              "track_ids": [
+                57631270
+              ],
+              "scope": "reviewed-complete-source-band",
+              "source_duration_seconds": 495,
+              "digital_duration_seconds": 494,
+              "source_duration_notes": []
+            },
+            {
+              "target": "B1: I – Allegro Energico E Con Fuoco",
+              "source_path": [
+                1,
+                0
+              ],
+              "status": "complete",
+              "track_ids": [
+                57631271
+              ],
+              "scope": "reviewed-complete-source-band",
+              "source_duration_seconds": 621,
+              "digital_duration_seconds": 622,
+              "source_duration_notes": []
+            },
+            {
+              "target": "B2: II – Andante Espressivo",
+              "source_path": [
+                1,
+                1
+              ],
+              "status": "complete",
+              "track_ids": [
+                57631272
+              ],
+              "scope": "reviewed-complete-source-band",
+              "source_duration_seconds": 424,
+              "digital_duration_seconds": 424,
+              "source_duration_notes": []
+            },
+            {
+              "target": "B3: III – Scherzo: Molto Allegro – Quasi Presto",
+              "source_path": [
+                1,
+                2
+              ],
+              "status": "complete",
+              "track_ids": [
+                57631273
+              ],
+              "scope": "reviewed-complete-source-band",
+              "source_duration_seconds": 225,
+              "digital_duration_seconds": 225,
+              "source_duration_notes": []
+            },
+            {
+              "target": "B4: IV – Finale: Allegro Appassionato",
+              "source_path": [
+                1,
+                3
+              ],
+              "status": "complete",
+              "track_ids": [
+                57631274
+              ],
+              "scope": "reviewed-complete-source-band",
+              "source_duration_seconds": 475,
+              "digital_duration_seconds": 477,
+              "source_duration_notes": []
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "summary": {
+    "reviewed": 1,
+    "probable": 1
+  },
+  "accepted_release_ids": [
+    "8535848"
+  ],
+  "qobuz_requests": 0
+}

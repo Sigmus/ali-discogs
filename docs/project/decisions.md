@@ -551,3 +551,15 @@ Propose an exact source-bound all-members conjunction, never a one-member alias
 or arbitrary ensemble-membership waiver. Existing adapters preserve the collective
 requirement; promotion needs separately adopted rule/support. Publication unchanged.
 [Evidence, safeguards and next action](../plans/2026-11-16-qobuz-trio-identity.md).
+
+### 2026-11-16 — Adopted exact trio collective decomposition
+
+Supersedes the preceding unadopted proposal for8535848/wtgrq4n06qkbbonly. User
+inspected the album links, confirmed the same album and approved proceeding.
+Represent source collective ID2593786by the conjunction of exact source members
+Istomin/Piano, Stern/Violin, Rose/Violoncello and their positive digital instrument
+roles on every band. Preserve alloriginal individual/collective requirements,
+source lineup IDs, raw/target/album/track hashes, external approval and full8band
+timing/composer checks. Exact target/candidate restriction prevents propagation
+to other ensembles/releases. No inferred membership or credit waiver.
+[Approval/implementation](../plans/2026-11-16-qobuz-trio-identity.md).

@@ -39,7 +39,7 @@ Final two supported cached leads reviewed:9283162Probable;15660391held.
 The diverse12credit-support sample is now reviewed:Reiner1896362Probable,
 11explicit holds. [Diagnostic/results](../plans/2026-11-16-qobuz-credit171.md).
 All11work-field gains are reviewed, including the [nine-case follow-up](../plans/2026-11-16-qobuz-work-context9.md):2HeifetzProbable/7holds.
-Current unreviewed split:150credit-support,146work/title,6no cached candidate and
+Current unreviewed split:150credit-support,145work/title,6no cached candidate and
 5completeness cases. Vocal-role diagnostic complete: no candidate status/confidence changes or new
 complete source-unit support; live normalization deferred ([results](../plans/2026-11-16-qobuz-vocal-role-diagnostic.md)).
 All28title179diagnostic leads reviewed:15Probable/13holds,0pending. The remaining
@@ -55,8 +55,10 @@ All21musician-gap cases triaged:11programme/cast,6missing positive credits,
 rules changed by triage. Both name leads now source-bound Probable85;
 [recording decisions/limits](../plans/2026-11-16-qobuz-name2.md). Next cached work:
 8535848trio diagnostic complete:all8timings and named-member credits pass.
-Collective-decomposition rule is an open proposal, not authorized implementation;
-[adoption/acceptance criteria](../plans/2026-11-16-qobuz-trio-identity.md). No general alias/role policy adopted. [Audit and next action](../plans/2026-11-16-qobuz-musician21.md).
+User confirmed same album and approved exact-source collective decomposition;
+nowProbable85, all3members/instruments still required on each of8bands.
+[Approval/limits](../plans/2026-11-16-qobuz-trio-identity.md). Next cached review:
+7956843RobinHoodDell/RCA identity; no general alias or missing-member waiver. No general alias/role policy adopted. [Audit and next action](../plans/2026-11-16-qobuz-musician21.md).
 Timing sensitivity complete:onlyGould cleared proposed35%/consensus scenarios in
 30mapped reviews;11other timing-mentioned holds lack full leaf maps. User approved
 only a hash-bound Gould timing exception, now applied; global tolerance unchanged

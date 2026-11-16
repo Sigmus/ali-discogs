@@ -1,0 +1,34 @@
+{
+  "discogs_id": "8535848",
+  "album_id": "wtgrq4n06qkbb",
+  "target_sha256": "6fcd628cad76f20730be4688a44933f5630673e68142c3e6163459ae94b56bb3",
+  "source_sha256": "3db739edcb0e694269176f198a5ebfeeadb510ce73ef5a42f4c757e409d6e746",
+  "album_sha256": "65bb2e8e2be7c11587da3b4c73fa36b716e84cd5cd128ef437f715ebe6ff2377",
+  "decision": "approved",
+  "approved_on": "2026-11-16",
+  "user_statement": "it's the same album, it's correct, go ahead",
+  "collective_spec": {
+    "collective": "The Istomin/Stern/Rose Trio",
+    "source_artist_id": 2593786,
+    "members": [
+      {
+        "name": "Eugene Istomin",
+        "source_artist_id": 1205069,
+        "source_role": "Piano",
+        "digital_role": "piano"
+      },
+      {
+        "name": "Isaac Stern",
+        "source_artist_id": 379809,
+        "source_role": "Violin",
+        "digital_role": "violin"
+      },
+      {
+        "name": "Leonard Rose",
+        "source_artist_id": 1312375,
+        "source_role": "Violoncello",
+        "digital_role": "cello"
+      }
+    ]
+  }
+}

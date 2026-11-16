@@ -1,9 +1,9 @@
 {
   "schema_version": 1,
   "reviewed_on": "2026-11-16",
-  "unique_unresolved_releases": 543,
+  "unique_unresolved_releases": 542,
   "review_state_counts": {
-    "no_saved_decision": 307,
+    "no_saved_decision": 306,
     "reviewed_unresolved": 236
   },
   "planning_families": {
@@ -13,7 +13,7 @@
     "partial_programme_or_completeness": 5,
     "recording_identity": 44,
     "source_programme_mapping": 73,
-    "work_title_or_catalogue_mapping_unresolved": 146
+    "work_title_or_catalogue_mapping_unresolved": 145
   },
   "groups": {
     "credit_support_unresolved": 150,
@@ -161,7 +161,7 @@
     "saved:work-scoped-pianist": 1,
     "saved:wrong-cast-moldau": 1,
     "saved:wrong_accompanist_and_programme": 1,
-    "work_title_or_catalogue_mapping_unresolved": 146
+    "work_title_or_catalogue_mapping_unresolved": 145
   },
   "entries": [
     {
@@ -3773,17 +3773,6 @@
       "next_action": null
     },
     {
-      "discogs_id": "8535848",
-      "title": "Trio № 1, Op. 49 / Trio № 2, Op. 66",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
-      "cached_candidate_count": 1,
-      "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
-    },
-    {
       "discogs_id": "8606394",
       "title": "Ballettsuite »Gayaneh« / Orchestersuite »Der Goldene Hahn«",
       "review_state": "no_saved_decision",
@@ -6150,8 +6139,8 @@
     "Grouping authorizes no new retrieval, identity alias, role waiver or automatic promotion."
   ],
   "source_hashes": {
-    "data/qobuz_unmatched_audit.json": "dc9fab92d4214a8f3460dd10c055700432bd342a431c6ce0b58e2d2548d84531",
-    "data/qobuz_matches.json": "6a8e09699544c6a3e15930d4f6023b961d1230feded18a97d8fea85cd09199d0",
+    "data/qobuz_unmatched_audit.json": "2b91fd3868670425419000b9b53e8f0465af9caa7ea565bd53b1a9533ed6f850",
+    "data/qobuz_matches.json": "746e0081f622a2472ddbb54b49fc642c04f9675235cf3e8eddc4f08b189be3fb",
     "data/qobuz_credit12_recording_audit.json": "f720a1cc1c5beec68dbe0b3ae45b80e5fd003d272f4cc5ca872f6863e1105092",
     "data/qobuz_final_cached2_recording_audit.json": "0d6a38e1817de98fc971d7a0e9c92f972c24e0eff503fc569951030c0e29da73",
     "data/qobuz_fullsupport16_recording_audit.json": "4187655cdfbfbc21fc9895b0818c8755a72596608a5ce7d1579ac38e1901510a",
@@ -6161,6 +6150,7 @@
     "data/qobuz_title19_recording_audit.json": "fdbab134fb3332d958416505c1e2d97507b341eba4161856a156abbc9a3935be",
     "data/qobuz_title3_recording_audit.json": "207f4d59065602a91b6c89bc056d470a2f8a9ad32631a43c2a58f7ce8c58485c",
     "data/qobuz_title9_recording_audit.json": "79fc8ec4f68e790f354fa56722eca0aea7d82a771627cd201ee68e462becaef2",
+    "data/qobuz_trio_recording_audit.json": "4ef7f1ed0b4a7b9fc5e0a5101cf7b62fbf9d2d157878212ac63576ca558113de",
     "data/qobuz_work_context9_recording_audit.json": "1ebe1ea51d3862297c4573606aa05dc92e606e27eb75c98dd661f5e683754fb4",
     "data/qobuz_zero104_recording_audit.json": "bbf837b84c3acdb9e80462c4a5ae8d8cbf285f830c45e33ab7dd1eadc40b1712"
   }
