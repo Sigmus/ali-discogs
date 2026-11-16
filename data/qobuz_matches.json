@@ -35,7 +35,7 @@
   "richter_review_fingerprint": "a14865f86e46150593e39bfa285fa6c7c61c8f46147b8094c0cb048fd02118ab",
   "round2_review_fingerprint": "be60742c3d35f5a9aa67f200642f7fcde98a52562a46130e043db8f4aa7c851e",
   "round2_metadata_fingerprint": "9db62d7bf62d4b77f5acf422dfde77959f845f4dc00b2ac0e10c02ccea295860",
-  "remaining_review_fingerprint": "fa8d5877b31a38f2f2c8f62421e3c8948d3ebdadae7b4cd8b3bac0118d85a74b",
+  "remaining_review_fingerprint": "02c625d302ba85a933ceb43c628cddf12748eaab95f0d1ce49fdc61b08620fd7",
   "remaining_metadata_fingerprint": "393b2d12e176160ab311b65267b38bdc8c205222e12f792bf07eba5c1fcfafbf",
   "remaining_followup_metadata_fingerprint": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
   "seven_album_metadata_fingerprint": "139f9b336c68b56ea22c18362cb0481c026366c5d359142f2bb702fe1233a4fc",
@@ -16998,9 +16998,19 @@
       }
     },
     "2548602": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0886445085297",
+        "name": "Haydn: The 6 Last Piano Sonatas (Remastered)",
+        "artists": [
+          "Glenn Gould"
+        ],
+        "label": "Sony Classical",
+        "release_date": "2015-09-11",
+        "image": "https://static.qobuz.com/images/covers/97/52/0886445085297_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/haydn-the-6-last-piano-sonatas-remastered-glenn-gould/0886445085297"
+      },
       "candidates": [
         {
           "id": "0886445085297",
@@ -17012,60 +17022,512 @@
           "release_date": "2015-09-11",
           "image": "https://static.qobuz.com/images/covers/97/52/0886445085297_230.jpg",
           "url": "https://www.qobuz.com/fr-fr/album/haydn-the-6-last-piano-sonatas-remastered-glenn-gould/0886445085297",
-          "status": "unchecked",
-          "confidence": null,
-          "coverage": 0.0,
-          "covered": 0,
-          "target_count": 6,
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 15,
+          "target_count": 15,
           "required_performers": [
             "Glenn Gould"
           ],
           "programme": [
             {
-              "target": "Sonata No. 56 D Major / D-Dur / Re Majeur, Hoboken XVI/42",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "target": "A1: I - Andante Con Espressione",
+              "source_path": [
+                0,
+                0
+              ],
+              "track_ids": [
+                26889126
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Glenn Gould"
+              ]
             },
             {
-              "target": "Sonata No. 58 C Major / C-Dur / UT Majeur, Hoboken XVI/48",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "target": "A2: II - Vivace Assai",
+              "source_path": [
+                0,
+                1
+              ],
+              "track_ids": [
+                26889128
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Glenn Gould"
+              ]
             },
             {
-              "target": "Sonata No. 59 E Flat Major / Es-Dur / Mi Bemol Majeur , Hoboken XVI/49",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "target": "A3: I - Andante Con Espressione",
+              "source_path": [
+                1,
+                0
+              ],
+              "track_ids": [
+                26889130
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Glenn Gould"
+              ]
             },
             {
-              "target": "Sonata No. 60 C Major / C-Dur / Ut Majeur, Hoboken XVI/50",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "target": "B1: II - Rondo: Presto",
+              "source_path": [
+                1,
+                1
+              ],
+              "track_ids": [
+                26889132
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Glenn Gould"
+              ]
             },
             {
-              "target": "Sonata No. 61 D Major / D-Dur / Re Majeur, Hoboken XVI/51",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "target": "B2: II - Allegro",
+              "source_path": [
+                2,
+                0
+              ],
+              "track_ids": [
+                26889134
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Glenn Gould"
+              ]
             },
             {
-              "target": "Sonata No. 62 E-Flat Major / Es-Dur / Mi Bemol Majeur, Hoboken XVI/52",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "target": "B3: II - Adagio E Cantabile",
+              "source_path": [
+                2,
+                1
+              ],
+              "track_ids": [
+                26889136
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Glenn Gould"
+              ]
+            },
+            {
+              "target": "B4: III - Finale: Tempo Di Minuetto",
+              "source_path": [
+                2,
+                2
+              ],
+              "track_ids": [
+                26889138
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Glenn Gould"
+              ]
+            },
+            {
+              "target": "C1: I - Allegro",
+              "source_path": [
+                3,
+                0
+              ],
+              "track_ids": [
+                26889140
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Glenn Gould"
+              ]
+            },
+            {
+              "target": "C2: II - Adagio",
+              "source_path": [
+                3,
+                1
+              ],
+              "track_ids": [
+                26889142
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Glenn Gould"
+              ]
+            },
+            {
+              "target": "C3: III - Allegro Molto",
+              "source_path": [
+                3,
+                2
+              ],
+              "track_ids": [
+                26889144
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Glenn Gould"
+              ]
+            },
+            {
+              "target": "C4: I - Andante",
+              "source_path": [
+                4,
+                0
+              ],
+              "track_ids": [
+                26889146
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Glenn Gould"
+              ]
+            },
+            {
+              "target": "C5: II - Finale: Presto",
+              "source_path": [
+                4,
+                1
+              ],
+              "track_ids": [
+                26889148
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Glenn Gould"
+              ]
+            },
+            {
+              "target": "D1: I - Allegro",
+              "source_path": [
+                5,
+                0
+              ],
+              "track_ids": [
+                26889150
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Glenn Gould"
+              ]
+            },
+            {
+              "target": "D2: II - Adagio",
+              "source_path": [
+                5,
+                1
+              ],
+              "track_ids": [
+                26889152
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Glenn Gould"
+              ]
+            },
+            {
+              "target": "D3: III - Finale: Presto",
+              "source_path": [
+                5,
+                2
+              ],
+              "track_ids": [
+                26889154
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Glenn Gould"
+              ]
             }
           ],
           "reasons": [
-            "The official Gould page corroborates the complete1982Haydn family and all15movements, with the same source/file production team. However source B4is3:50versus3:39digital, C5is3:27versus2:22, and D3is3:40versus3:47: three bands exceed existing tolerance. The first XVI49band is also printedIIAllegro versus digitalIAllegro. A single source-image request returned403; no visual timing correction or duration waiver is justified.",
-            "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
-            "No source rewrite, timing waiver, global work-field/catalogue normalization, performer alias or role waiver.",
-            "0/6 target items supported after composer/work grouping; unresolved."
+            "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+            "User-confirmed Gould1982Haydn recording family, corroborated by the official artist album page, all15source movements and matching production team. User approved three explicit timing exceptions: B4 3:50 vs3:39, C5 3:27 vs2:22, D3 3:40 vs3:47. These discrepancies remain unresolved metadata differences, not verified transcription errors. Existing positive pianist/composer and every source-band/track hash still pass; global timing tolerance is unchanged.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+            "Reviewed timing discrepancies retained: B4 230/219s, C5 207/142s, D3 220/227s. The source first XVI49band labelIIversus digitalIis preserved.",
+            "No audio-listening claim or verified printed-label correction; this user-approved exception applies only to these source/album/track hashes.",
+            "Global timing tolerance remains max5seconds/3%; no automatic consensus rule, source rewrite, musician waiver or alias."
           ],
-          "recording_review_decision": "withhold",
-          "recording_review": "The official Gould page corroborates the complete1982Haydn family and all15movements, with the same source/file production team. However source B4is3:50versus3:39digital, C5is3:27versus2:22, and D3is3:40versus3:47: three bands exceed existing tolerance. The first XVI49band is also printedIIAllegro versus digitalIAllegro. A single source-image request returned403; no visual timing correction or duration waiver is justified.",
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "A1: I - Andante Con Espressione",
+                "source_path": [
+                  0,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  26889126
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 530,
+                "digital_duration_seconds": 526,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A2: II - Vivace Assai",
+                "source_path": [
+                  0,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  26889128
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 130,
+                "digital_duration_seconds": 131,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A3: I - Andante Con Espressione",
+                "source_path": [
+                  1,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  26889130
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 771,
+                "digital_duration_seconds": 772,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B1: II - Rondo: Presto",
+                "source_path": [
+                  1,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  26889132
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 200,
+                "digital_duration_seconds": 202,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B2: II - Allegro",
+                "source_path": [
+                  2,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  26889134
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 280,
+                "digital_duration_seconds": 286,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B3: II - Adagio E Cantabile",
+                "source_path": [
+                  2,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  26889136
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 530,
+                "digital_duration_seconds": 527,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B4: III - Finale: Tempo Di Minuetto",
+                "source_path": [
+                  2,
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  26889138
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 230,
+                "digital_duration_seconds": 219,
+                "source_duration_notes": [
+                  {
+                    "source_path": [
+                      2,
+                      2
+                    ],
+                    "source_seconds": 230,
+                    "digital_seconds": 219,
+                    "reason": "User identified the same album and explicitly approved this recording-family timing exception after reviewing the saved discrepancies. All15source bands, positive Gould/Haydn credits and official1982album evidence remain required. The differing durations are retained, not declared proven transcription errors."
+                  }
+                ]
+              },
+              {
+                "target": "C1: I - Allegro",
+                "source_path": [
+                  3,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  26889140
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 330,
+                "digital_duration_seconds": 332,
+                "source_duration_notes": []
+              },
+              {
+                "target": "C2: II - Adagio",
+                "source_path": [
+                  3,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  26889142
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 333,
+                "digital_duration_seconds": 333,
+                "source_duration_notes": []
+              },
+              {
+                "target": "C3: III - Allegro Molto",
+                "source_path": [
+                  3,
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  26889144
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 146,
+                "digital_duration_seconds": 146,
+                "source_duration_notes": []
+              },
+              {
+                "target": "C4: I - Andante",
+                "source_path": [
+                  4,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  26889146
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 205,
+                "digital_duration_seconds": 205,
+                "source_duration_notes": []
+              },
+              {
+                "target": "C5: II - Finale: Presto",
+                "source_path": [
+                  4,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  26889148
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 207,
+                "digital_duration_seconds": 142,
+                "source_duration_notes": [
+                  {
+                    "source_path": [
+                      4,
+                      1
+                    ],
+                    "source_seconds": 207,
+                    "digital_seconds": 142,
+                    "reason": "User identified the same album and explicitly approved this recording-family timing exception after reviewing the saved discrepancies. All15source bands, positive Gould/Haydn credits and official1982album evidence remain required. The differing durations are retained, not declared proven transcription errors."
+                  }
+                ]
+              },
+              {
+                "target": "D1: I - Allegro",
+                "source_path": [
+                  5,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  26889150
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 315,
+                "digital_duration_seconds": 317,
+                "source_duration_notes": []
+              },
+              {
+                "target": "D2: II - Adagio",
+                "source_path": [
+                  5,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  26889152
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 450,
+                "digital_duration_seconds": 453,
+                "source_duration_notes": []
+              },
+              {
+                "target": "D3: III - Finale: Presto",
+                "source_path": [
+                  5,
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  26889154
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 220,
+                "digital_duration_seconds": 227,
+                "source_duration_notes": [
+                  {
+                    "source_path": [
+                      5,
+                      2
+                    ],
+                    "source_seconds": 220,
+                    "digital_seconds": 227,
+                    "reason": "User identified the same album and explicitly approved this recording-family timing exception after reviewing the saved discrepancies. All15source bands, positive Gould/Haydn credits and official1982album evidence remain required. The differing durations are retained, not declared proven transcription errors."
+                  }
+                ]
+              }
+            ]
+          },
+          "recording_review": "User-confirmed Gould1982Haydn recording family, corroborated by the official artist album page, all15source movements and matching production team. User approved three explicit timing exceptions: B4 3:50 vs3:39, C5 3:27 vs2:22, D3 3:40 vs3:47. These discrepancies remain unresolved metadata differences, not verified transcription errors. Existing positive pianist/composer and every source-band/track hash still pass; global timing tolerance is unchanged.",
           "review_sources": [
             "https://www.discogs.com/release/2548602",
             "https://glenngould.com/music/haydn-the-six-last-sonatas/"
@@ -17075,20 +17537,14 @@
       "query": "glenn gould haydn the six last sonatas",
       "searched_at": "2026-11-12T14:52:47.151960+00:00",
       "reasons": [
-        "The official Gould page corroborates the complete1982Haydn family and all15movements, with the same source/file production team. However source B4is3:50versus3:39digital, C5is3:27versus2:22, and D3is3:40versus3:47: three bands exceed existing tolerance. The first XVI49band is also printedIIAllegro versus digitalIAllegro. A single source-image request returned403; no visual timing correction or duration waiver is justified.",
-        "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
-        "No source rewrite, timing waiver, global work-field/catalogue normalization, performer alias or role waiver.",
-        "0/6 target items supported after composer/work grouping; unresolved."
-      ],
-      "review": {
-        "state": "reviewed_unresolved",
-        "decision": "withhold",
-        "reason": "The official Gould page corroborates the complete1982Haydn family and all15movements, with the same source/file production team. However source B4is3:50versus3:39digital, C5is3:27versus2:22, and D3is3:40versus3:47: three bands exceed existing tolerance. The first XVI49band is also printedIIAllegro versus digitalIAllegro. A single source-image request returned403; no visual timing correction or duration waiver is justified.",
-        "limitations": [
-          "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
-          "No source rewrite, timing waiver, global work-field/catalogue normalization, performer alias or role waiver."
-        ]
-      }
+        "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+        "User-confirmed Gould1982Haydn recording family, corroborated by the official artist album page, all15source movements and matching production team. User approved three explicit timing exceptions: B4 3:50 vs3:39, C5 3:27 vs2:22, D3 3:40 vs3:47. These discrepancies remain unresolved metadata differences, not verified transcription errors. Existing positive pianist/composer and every source-band/track hash still pass; global timing tolerance is unchanged.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+        "Reviewed timing discrepancies retained: B4 230/219s, C5 207/142s, D3 220/227s. The source first XVI49band labelIIversus digitalIis preserved.",
+        "No audio-listening claim or verified printed-label correction; this user-approved exception applies only to these source/album/track hashes.",
+        "Global timing tolerance remains max5seconds/3%; no automatic consensus rule, source rewrite, musician waiver or alias."
+      ]
     },
     "10046721": {
       "status": "unchecked",

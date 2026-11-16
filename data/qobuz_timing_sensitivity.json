@@ -1,0 +1,5459 @@
+{
+  "schema_version": 1,
+  "observed_on": "2026-11-16",
+  "status": "proposal-diagnostic-only",
+  "mapped_review_count": 30,
+  "mapped_review_decisions": {
+    "probable": 29,
+    "withhold": 1
+  },
+  "summary": {
+    "current_3pct_or_5sec": {
+      "would_clear_timing_gate_ids": [],
+      "previously_accepted_regressions": []
+    },
+    "5pct_or_5sec": {
+      "would_clear_timing_gate_ids": [],
+      "previously_accepted_regressions": []
+    },
+    "10pct_or_5sec": {
+      "would_clear_timing_gate_ids": [],
+      "previously_accepted_regressions": []
+    },
+    "20pct_or_5sec": {
+      "would_clear_timing_gate_ids": [],
+      "previously_accepted_regressions": []
+    },
+    "35pct_or_5sec": {
+      "would_clear_timing_gate_ids": [
+        "2548602"
+      ],
+      "previously_accepted_regressions": []
+    },
+    "3pct_or_15sec": {
+      "would_clear_timing_gate_ids": [],
+      "previously_accepted_regressions": []
+    },
+    "consensus_90pct_close_one_flagged_outlier": {
+      "would_clear_timing_gate_ids": [
+        "2548602"
+      ],
+      "previously_accepted_regressions": []
+    }
+  },
+  "entries": [
+    {
+      "discogs_id": "9297226",
+      "title": "Sinfonía No.9 - La Grande En \"Do\" Mayor",
+      "decision": "probable",
+      "album_id": "0002894307732",
+      "source_sha256": "8d58e5b857d06481a892fae970d4423593a00918fdf2bc168976836fb2223c4c",
+      "album_sha256": "ea93fd6c47971c11cc50401b468a5d624b2218429bab6261a4b6ee4231fdabc3",
+      "other_mechanical_blockers": [],
+      "bands": [
+        {
+          "target": "A1: Andante - Allegro Ma Non Troppo",
+          "source_path": [
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            527158
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 811,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A2: Andante Con Moto",
+          "source_path": [
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            527162
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 827,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B1: Scherzo, Allegro Vivace",
+          "source_path": [
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            527166
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 666,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B2: Allegro Vivace",
+          "source_path": [
+            3
+          ],
+          "status": "complete",
+          "track_ids": [
+            527169
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 704,
+          "source_duration_notes": []
+        }
+      ],
+      "scenarios": {
+        "current_3pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "5pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "10pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "20pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "35pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "3pct_or_15sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "consensus_90pct_close_one_flagged_outlier": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        }
+      }
+    },
+    {
+      "discogs_id": "4031075",
+      "title": "»Pétrouchka« / Sonate Nr. 7 Op. 83",
+      "decision": "probable",
+      "album_id": "0002894474312",
+      "source_sha256": "77dc6710fb2a5bcaa33eb8c5dd62e19591cef3a81d3e9cc883cc249096bb206e",
+      "album_sha256": "775cb825ba4330cbd386f69fc77394855189272db18a7a2d62fce220538a36cc",
+      "other_mechanical_blockers": [],
+      "bands": [
+        {
+          "target": "A1: 1. Danse Russe. Allegro Giusto",
+          "source_path": [
+            0,
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            543181
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 150,
+          "digital_duration_seconds": 154,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A2: 2. Chez Pétrouchka",
+          "source_path": [
+            0,
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            543182
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 258,
+          "digital_duration_seconds": 257,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A3: 3. La Semaine Grasse. Con Moto - Allegretto - Tempo Giusto - Agitato",
+          "source_path": [
+            0,
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            543183
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 503,
+          "digital_duration_seconds": 510,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B1: 1. Allegro Inquieto - Andantino",
+          "source_path": [
+            1,
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            543184
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 447,
+          "digital_duration_seconds": 457,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B2: 2. Andante Caloroso",
+          "source_path": [
+            1,
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            543185
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 368,
+          "digital_duration_seconds": 372,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B3: 3. Precipitato",
+          "source_path": [
+            1,
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            543186
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 191,
+          "digital_duration_seconds": 197,
+          "source_duration_notes": [
+            {
+              "source_path": [
+                1,
+                2
+              ],
+              "source_seconds": 191,
+              "digital_seconds": 197,
+              "reason": "Source Precipitato band says3:11while the hash-bound digital track is3:17. Primary catalogue independently identifies the same1971DGrecording family; a six-second timing/transfer difference is retained, not evidence of exact take or pressing equality."
+            }
+          ]
+        }
+      ],
+      "scenarios": {
+        "current_3pct_or_5sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 5,
+          "outliers": []
+        },
+        "5pct_or_5sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 5,
+          "outliers": []
+        },
+        "10pct_or_5sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 5,
+          "outliers": []
+        },
+        "20pct_or_5sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 5,
+          "outliers": []
+        },
+        "35pct_or_5sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 5,
+          "outliers": []
+        },
+        "3pct_or_15sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 5,
+          "outliers": []
+        },
+        "consensus_90pct_close_one_flagged_outlier": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 5,
+          "outliers": []
+        }
+      }
+    },
+    {
+      "discogs_id": "6748142",
+      "title": "Symphony No. 5 With Five Rückert Songs",
+      "decision": "probable",
+      "album_id": "li90nizo543uc",
+      "source_sha256": "50b3281787dac56101017f9e1ba80691e54586e82f17100fdf9ec8590377c23a",
+      "album_sha256": "15512c7c68007489e55a1a24dc1b6be066fb5da0b6177627986198155b540ee8",
+      "other_mechanical_blockers": [],
+      "bands": [
+        {
+          "target": "A1: Part I - 1st Movement: Funeral March",
+          "source_path": [
+            0,
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            103508667
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 826,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A2: Part I - 2nd Movement: Stormy, With Utmost Vehemence",
+          "source_path": [
+            0,
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            103508668
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 914,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B: Part II - 3rd Movement: Scherzo",
+          "source_path": [
+            0,
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            103508669
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 1083,
+          "source_duration_notes": []
+        },
+        {
+          "target": "C1.1: Part III - 4th Movement: Adagietto",
+          "source_path": [
+            0,
+            3
+          ],
+          "status": "complete",
+          "track_ids": [
+            103508670
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 590,
+          "source_duration_notes": []
+        },
+        {
+          "target": "C1.2: Part III - 5th Movement: Rondo-Finale",
+          "source_path": [
+            0,
+            4
+          ],
+          "status": "complete",
+          "track_ids": [
+            103508671
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 1052,
+          "source_duration_notes": []
+        },
+        {
+          "target": "D1: Blicke Mir Nicht In Die Lieder",
+          "source_path": [
+            1,
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            103508672
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 94,
+          "source_duration_notes": []
+        },
+        {
+          "target": "D2: Ich Atmet' Einen Linden Duft",
+          "source_path": [
+            1,
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            103508673
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 161,
+          "source_duration_notes": []
+        },
+        {
+          "target": "D3: Um Mitternacht",
+          "source_path": [
+            1,
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            103508674
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 352,
+          "source_duration_notes": []
+        },
+        {
+          "target": "D4: Liebst Du Um Schönheit",
+          "source_path": [
+            1,
+            3
+          ],
+          "status": "complete",
+          "track_ids": [
+            103508675
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 147,
+          "source_duration_notes": []
+        },
+        {
+          "target": "D5: Ich Bin Der Welt Abhanden Gekommen",
+          "source_path": [
+            1,
+            4
+          ],
+          "status": "complete",
+          "track_ids": [
+            103508676
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 410,
+          "source_duration_notes": []
+        }
+      ],
+      "scenarios": {
+        "current_3pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "5pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "10pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "20pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "35pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "3pct_or_15sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "consensus_90pct_close_one_flagged_outlier": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        }
+      }
+    },
+    {
+      "discogs_id": "17748481",
+      "title": "Klavierkonzert Nr. 2 B-dur, Opus 83",
+      "decision": "probable",
+      "album_id": "m6u4fb18bgxda",
+      "source_sha256": "6a4de772621ea33b51e03899251f74f0acaec35c75dacf1fec3b5b7c369c2acf",
+      "album_sha256": "386bc3337ba4a5a642896e7b1bc441035f67313889f2430e86700165c975e777",
+      "other_mechanical_blockers": [],
+      "bands": [
+        {
+          "target": "A1: Allegro Non Troppo",
+          "source_path": [
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            189468459
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 1084,
+          "digital_duration_seconds": 1095,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A2: Allegro Appassionato",
+          "source_path": [
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            189468460
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 561,
+          "digital_duration_seconds": 564,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B1: Andante",
+          "source_path": [
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            189468461
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 839,
+          "digital_duration_seconds": 839,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B2: Allegro Grazioso",
+          "source_path": [
+            3
+          ],
+          "status": "complete",
+          "track_ids": [
+            189468462
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 582,
+          "digital_duration_seconds": 585,
+          "source_duration_notes": []
+        }
+      ],
+      "scenarios": {
+        "current_3pct_or_5sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 4,
+          "outliers": []
+        },
+        "5pct_or_5sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 4,
+          "outliers": []
+        },
+        "10pct_or_5sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 4,
+          "outliers": []
+        },
+        "20pct_or_5sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 4,
+          "outliers": []
+        },
+        "35pct_or_5sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 4,
+          "outliers": []
+        },
+        "3pct_or_15sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 4,
+          "outliers": []
+        },
+        "consensus_90pct_close_one_flagged_outlier": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 4,
+          "outliers": []
+        }
+      }
+    },
+    {
+      "discogs_id": "10707559",
+      "title": "Les Préludes • Die Moldau • Guillaume Tell (Ouverture) • Aufforderung Zum Tanz • Invitation à la Valse • Ungarische Rhapsodie • Rhapsodie Hongroise No. 5",
+      "decision": "probable",
+      "album_id": "0002894135872",
+      "source_sha256": "e4317a38382df1a832e1ab682d4e94d76d267becd1769db68ea5a083abdf2f43",
+      "album_sha256": "868e699a3f832f12449b3fbf6401b07837b0a6b3f2aa40d438a520cdac65920a",
+      "other_mechanical_blockers": [],
+      "bands": [
+        {
+          "target": "A1: Die Moldau",
+          "source_path": [
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            516770
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 737,
+          "digital_duration_seconds": 739,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A2: Les Préludes",
+          "source_path": [
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            516771
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 1000,
+          "digital_duration_seconds": 1008,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B1: Aufforderung Zum Tanz Op.65",
+          "source_path": [
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            516772
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 623,
+          "digital_duration_seconds": 631,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B2: Ungarische Rhapsodie Nr.5 E-Moll",
+          "source_path": [
+            3
+          ],
+          "status": "complete",
+          "track_ids": [
+            516773
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 785,
+          "digital_duration_seconds": 783,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B3: Wilhelm Tell - Ouvertère",
+          "source_path": [
+            4
+          ],
+          "status": "complete",
+          "track_ids": [
+            516774
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 698,
+          "digital_duration_seconds": 706,
+          "source_duration_notes": []
+        }
+      ],
+      "scenarios": {
+        "current_3pct_or_5sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 5,
+          "outliers": []
+        },
+        "5pct_or_5sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 5,
+          "outliers": []
+        },
+        "10pct_or_5sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 5,
+          "outliers": []
+        },
+        "20pct_or_5sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 5,
+          "outliers": []
+        },
+        "35pct_or_5sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 5,
+          "outliers": []
+        },
+        "3pct_or_15sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 5,
+          "outliers": []
+        },
+        "consensus_90pct_close_one_flagged_outlier": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 5,
+          "outliers": []
+        }
+      }
+    },
+    {
+      "discogs_id": "5980586",
+      "title": "Kinderszenen, Op.15 Scènes D'Enfants - Scenes From Childhood / Waldszenen, Op. 82 - Scènes De La Forêt - Forest Scenes",
+      "decision": "probable",
+      "album_id": "0825646036363",
+      "source_sha256": "9b33080387981c3a69fc4f10574856ef7eb2a302a25a192089ab0204a8ade633",
+      "album_sha256": "9fe6ea0204520540b1af444177177b23d58270bc3ac8600ef3971436fbad084b",
+      "other_mechanical_blockers": [],
+      "bands": [
+        {
+          "target": "A1: Von Fremden Ländern Und Menschen",
+          "source_path": [
+            0,
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            2679243
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 100,
+          "digital_duration_seconds": 100,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A2: Kuriose Geschichte",
+          "source_path": [
+            0,
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            2679244
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 60,
+          "digital_duration_seconds": 60,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A3: Hasche-Mann",
+          "source_path": [
+            0,
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            2679245
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 35,
+          "digital_duration_seconds": 34,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A4: Bittendes Kind",
+          "source_path": [
+            0,
+            3
+          ],
+          "status": "complete",
+          "track_ids": [
+            2679246
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 105,
+          "digital_duration_seconds": 104,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A5: Glückes Genug",
+          "source_path": [
+            0,
+            4
+          ],
+          "status": "complete",
+          "track_ids": [
+            2679247
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 68,
+          "digital_duration_seconds": 66,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A6: Wichtige Begebenheit",
+          "source_path": [
+            0,
+            5
+          ],
+          "status": "complete",
+          "track_ids": [
+            2679248
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 52,
+          "digital_duration_seconds": 53,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A7: Träumerei",
+          "source_path": [
+            0,
+            6
+          ],
+          "status": "complete",
+          "track_ids": [
+            2679249
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 195,
+          "digital_duration_seconds": 194,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A8: Am Kamin",
+          "source_path": [
+            0,
+            7
+          ],
+          "status": "complete",
+          "track_ids": [
+            2679250
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 54,
+          "digital_duration_seconds": 54,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A9: Ritter Vom Steckenpferd",
+          "source_path": [
+            0,
+            8
+          ],
+          "status": "complete",
+          "track_ids": [
+            2679251
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 38,
+          "digital_duration_seconds": 38,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A10: Fast Zu Ernst",
+          "source_path": [
+            0,
+            9
+          ],
+          "status": "complete",
+          "track_ids": [
+            2679252
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 118,
+          "digital_duration_seconds": 117,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A11: Fürchtenmachen",
+          "source_path": [
+            0,
+            10
+          ],
+          "status": "complete",
+          "track_ids": [
+            2679253
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 123,
+          "digital_duration_seconds": 123,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A12: Kind Am Einschlummern",
+          "source_path": [
+            0,
+            11
+          ],
+          "status": "complete",
+          "track_ids": [
+            2679254
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 106,
+          "digital_duration_seconds": 106,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A13: Der Dichter Spricht",
+          "source_path": [
+            0,
+            12
+          ],
+          "status": "complete",
+          "track_ids": [
+            2679255
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 173,
+          "digital_duration_seconds": 177,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B1: Eintritt",
+          "source_path": [
+            1,
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            2679256
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 106,
+          "digital_duration_seconds": 110,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B2: Jäger Auf Der Lauer",
+          "source_path": [
+            1,
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            2679257
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 77,
+          "digital_duration_seconds": 77,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B3: Einsame Blumen",
+          "source_path": [
+            1,
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            2679258
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 115,
+          "digital_duration_seconds": 114,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B4: Verrufene Stelle",
+          "source_path": [
+            1,
+            3
+          ],
+          "status": "complete",
+          "track_ids": [
+            2679259
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 180,
+          "digital_duration_seconds": 179,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B5: Freundliche Landschaft",
+          "source_path": [
+            1,
+            4
+          ],
+          "status": "complete",
+          "track_ids": [
+            2679260
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 63,
+          "digital_duration_seconds": 62,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B6: Herberge",
+          "source_path": [
+            1,
+            5
+          ],
+          "status": "complete",
+          "track_ids": [
+            2679261
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 117,
+          "digital_duration_seconds": 117,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B7: Vogel Als Prophet",
+          "source_path": [
+            1,
+            6
+          ],
+          "status": "complete",
+          "track_ids": [
+            2679262
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 180,
+          "digital_duration_seconds": 181,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B8: Jagdlied",
+          "source_path": [
+            1,
+            7
+          ],
+          "status": "complete",
+          "track_ids": [
+            2679263
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 143,
+          "digital_duration_seconds": 142,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B9: Abschied",
+          "source_path": [
+            1,
+            8
+          ],
+          "status": "complete",
+          "track_ids": [
+            2679264
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 174,
+          "digital_duration_seconds": 175,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B10a: Nicht Schnell, Mit Innigkeit",
+          "source_path": [
+            3,
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            2679265
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 91,
+          "digital_duration_seconds": 96,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B10b: Sehr Rasch",
+          "source_path": [
+            3,
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            2679266
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 56,
+          "digital_duration_seconds": 56,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B10c: Frisch",
+          "source_path": [
+            3,
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            2679267
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 45,
+          "digital_duration_seconds": 47,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B11a: Ziemlich Langsam",
+          "source_path": [
+            4,
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            2679268
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 123,
+          "digital_duration_seconds": 123,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B11b: Schnell",
+          "source_path": [
+            4,
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            2679269
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 42,
+          "digital_duration_seconds": 41,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B11c: Ziemlich Langsam, Sehr Gesangvoll",
+          "source_path": [
+            4,
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            2679270
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 86,
+          "digital_duration_seconds": 85,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B11d: Langsam",
+          "source_path": [
+            4,
+            3
+          ],
+          "status": "complete",
+          "track_ids": [
+            2679271
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 82,
+          "digital_duration_seconds": 81,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B11e: Sehr Langsam",
+          "source_path": [
+            4,
+            4
+          ],
+          "status": "complete",
+          "track_ids": [
+            2679272
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 97,
+          "digital_duration_seconds": 97,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B12: 4. Präludium",
+          "source_path": [
+            5
+          ],
+          "status": "complete",
+          "track_ids": [
+            2679273
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 85,
+          "digital_duration_seconds": 87,
+          "source_duration_notes": []
+        }
+      ],
+      "scenarios": {
+        "current_3pct_or_5sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 31,
+          "outliers": []
+        },
+        "5pct_or_5sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 31,
+          "outliers": []
+        },
+        "10pct_or_5sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 31,
+          "outliers": []
+        },
+        "20pct_or_5sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 31,
+          "outliers": []
+        },
+        "35pct_or_5sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 31,
+          "outliers": []
+        },
+        "3pct_or_15sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 31,
+          "outliers": []
+        },
+        "consensus_90pct_close_one_flagged_outlier": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 31,
+          "outliers": []
+        }
+      }
+    },
+    {
+      "discogs_id": "6544574",
+      "title": "Romeo And Juliet (Excerpts-Auszüge-Extraits)",
+      "decision": "probable",
+      "album_id": "3614591439346",
+      "source_sha256": "ec64ce52ea7592f0c322063796bb040d67456b40bfb8cdffd6db6b3fd1e2efba",
+      "album_sha256": "85605b5c415fce19ef8239cc1a39662bf3883b37014cdeace6f892eabe6d9016",
+      "other_mechanical_blockers": [],
+      "bands": [
+        {
+          "target": "A1: The Montagues And Capulets (Suite 2, N°1)",
+          "source_path": [
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            23378138
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 312,
+          "digital_duration_seconds": 316,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A2: Juliet - The Little Girl  (Suite 2, N°2)",
+          "source_path": [
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            23378140
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 250,
+          "digital_duration_seconds": 255,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A3: Folk Dance (Suite 1, N°1)",
+          "source_path": [
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            23378142
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 255,
+          "digital_duration_seconds": 260,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A4: Romeo And Mercutio Masked (Suite 1, N°5)",
+          "source_path": [
+            3
+          ],
+          "status": "complete",
+          "track_ids": [
+            23378144
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 130,
+          "digital_duration_seconds": 134,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A5: Balcony Scene (Suite 1, N°6)",
+          "source_path": [
+            4
+          ],
+          "status": "complete",
+          "track_ids": [
+            23378146
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 397,
+          "digital_duration_seconds": 398,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B1: Death Of Tybalt (Suite 1. N°7)",
+          "source_path": [
+            5
+          ],
+          "status": "complete",
+          "track_ids": [
+            23378148
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 275,
+          "digital_duration_seconds": 282,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B2: Romeo And Juliet Before Parting (Suite 2, N°5)",
+          "source_path": [
+            6
+          ],
+          "status": "complete",
+          "track_ids": [
+            23378150
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 492,
+          "digital_duration_seconds": 501,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B3: Friar Laurence (Suite 2, N°3)",
+          "source_path": [
+            7
+          ],
+          "status": "complete",
+          "track_ids": [
+            23378152
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 157,
+          "digital_duration_seconds": 160,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B4: Romeo At Juliet's Tomb (Suite 2, N°7)",
+          "source_path": [
+            8
+          ],
+          "status": "complete",
+          "track_ids": [
+            23378154
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 344,
+          "digital_duration_seconds": 348,
+          "source_duration_notes": []
+        }
+      ],
+      "scenarios": {
+        "current_3pct_or_5sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 9,
+          "outliers": []
+        },
+        "5pct_or_5sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 9,
+          "outliers": []
+        },
+        "10pct_or_5sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 9,
+          "outliers": []
+        },
+        "20pct_or_5sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 9,
+          "outliers": []
+        },
+        "35pct_or_5sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 9,
+          "outliers": []
+        },
+        "3pct_or_15sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 9,
+          "outliers": []
+        },
+        "consensus_90pct_close_one_flagged_outlier": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 9,
+          "outliers": []
+        }
+      }
+    },
+    {
+      "discogs_id": "8923384",
+      "title": "Sonatas Nos. 3 and 6",
+      "decision": "probable",
+      "album_id": "0886443007918",
+      "source_sha256": "9f70ca6af11352d1536357ff75f7fddecb5020a8a36e37760b21eebc5c78c373",
+      "album_sha256": "9144abba6cca51fffe4c72d8ff3acdbb55f04d92a6073710f233eeb508f09189",
+      "other_mechanical_blockers": [],
+      "bands": [
+        {
+          "target": "A1: First Movement: Allegro con spirito",
+          "source_path": [
+            0,
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            3635502
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 500,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A2: Second Movement: Adagio con molto espressione",
+          "source_path": [
+            0,
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            3635503
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 315,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A3: Third Movement: Rondo: Allegro molto",
+          "source_path": [
+            0,
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            3635504
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 254,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B1: First Movement: Allegro",
+          "source_path": [
+            1,
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            3635505
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 432,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B2: Second Movement: Adagio molto espressione",
+          "source_path": [
+            1,
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            3635506
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 410,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B3: Third Movement: Allegretto con variazioni",
+          "source_path": [
+            1,
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            3635507,
+            3635508,
+            3635509,
+            3635510,
+            3635511,
+            3635512,
+            3635513
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 466,
+          "source_duration_notes": []
+        }
+      ],
+      "scenarios": {
+        "current_3pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "5pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "10pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "20pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "35pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "3pct_or_15sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "consensus_90pct_close_one_flagged_outlier": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        }
+      }
+    },
+    {
+      "discogs_id": "36163426",
+      "title": "Symphonie N° 9",
+      "decision": "probable",
+      "album_id": "btegd89k63vxa",
+      "source_sha256": "bbcd0fb66897e19852c48ded0f808a6c603b1a6a7eddfc3b47e3b503a15e99bc",
+      "album_sha256": "e336ef5a308c18773f2b78d6928139084d74462ad9be80f207bb4dd63ef52107",
+      "other_mechanical_blockers": [],
+      "bands": [
+        {
+          "target": "A: 1er Mouvement : Feierlich Misterioso",
+          "source_path": [
+            0,
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            277256531
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 1536,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B1: 2e : Scherzo (Bewegt, Lebhaft) Et Trio (Schnell)",
+          "source_path": [
+            0,
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            277256532
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 629,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B2: 3e : Adagio (Langsam, Feierlich)",
+          "source_path": [
+            0,
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            277256533
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 1215,
+          "source_duration_notes": []
+        }
+      ],
+      "scenarios": {
+        "current_3pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "5pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "10pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "20pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "35pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "3pct_or_15sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "consensus_90pct_close_one_flagged_outlier": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        }
+      }
+    },
+    {
+      "discogs_id": "9283162",
+      "title": "Symphony No. 8 In B Minor, The Unfinished / Overtures • Des Teufels Lustschloss, In The Italian Style In C, Fierrabras",
+      "decision": "probable",
+      "album_id": "0002894307732",
+      "source_sha256": "2835fcf54fa6ba286da2b5f11bbac37711c9dbb2d66264fcfda06a13fa587443",
+      "album_sha256": "ea93fd6c47971c11cc50401b468a5d624b2218429bab6261a4b6ee4231fdabc3",
+      "other_mechanical_blockers": [],
+      "bands": [
+        {
+          "target": "A1: 1. Allegro Moderato",
+          "source_path": [
+            0,
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            527157
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 930,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A2: 2. Andante Con Moto",
+          "source_path": [
+            0,
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            527161
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 722,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B1: Overture \"Des Teufels Luftschloss\"",
+          "source_path": [
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            527170
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 510,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B2: Overture In The Italian Style In C",
+          "source_path": [
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            527165
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 455,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B3: Overture \"Fierrabras\"",
+          "source_path": [
+            3
+          ],
+          "status": "complete",
+          "track_ids": [
+            527171
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 530,
+          "source_duration_notes": []
+        }
+      ],
+      "scenarios": {
+        "current_3pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "5pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "10pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "20pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "35pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "3pct_or_15sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "consensus_90pct_close_one_flagged_outlier": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        }
+      }
+    },
+    {
+      "discogs_id": "1896362",
+      "title": "Pathétique Symphony",
+      "decision": "probable",
+      "album_id": "0090266124626",
+      "source_sha256": "5797116f7607f64bbdc89f86fe1a8b53a7b5f6b1b9dea5750e4ee1bfcf82a1e7",
+      "album_sha256": "4fb4cca5a49f0f73230682ec1f5eb1c0875c7bc6ae623e40f2409c6e497e4006",
+      "other_mechanical_blockers": [],
+      "bands": [
+        {
+          "target": "A1: First Movement: Adagio; Allegro Non Troppo",
+          "source_path": [
+            0,
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            192486
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 1081,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A2: Second Movement: Allegro Con Grazia",
+          "source_path": [
+            0,
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            192487
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 471,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B1: Third Movement: Allegro Molto Vivace",
+          "source_path": [
+            0,
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            192488
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 522,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B2: Fourth Movement: Finale: Adagio Lamentoso",
+          "source_path": [
+            0,
+            3
+          ],
+          "status": "complete",
+          "track_ids": [
+            192489
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 644,
+          "source_duration_notes": []
+        }
+      ],
+      "scenarios": {
+        "current_3pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "5pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "10pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "20pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "35pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "3pct_or_15sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "consensus_90pct_close_one_flagged_outlier": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        }
+      }
+    },
+    {
+      "discogs_id": "4259729",
+      "title": "Concerto / Concerto No. 2",
+      "decision": "probable",
+      "album_id": "0090266177929",
+      "source_sha256": "812472a51dd80743132f1dc6d848b6a7968031c03a2397af1c93c14320f704f5",
+      "album_sha256": "b51a3ccac4146ebfd023a8e0da8b0b3d5e0bbe8a8ccfe686209e72497edbebaf",
+      "other_mechanical_blockers": [],
+      "bands": [
+        {
+          "target": "A1: I  Allegro Moderato",
+          "source_path": [
+            0,
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            457479
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 807,
+          "digital_duration_seconds": 814,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A2: II Adagio Di Molto",
+          "source_path": [
+            0,
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            457480
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 371,
+          "digital_duration_seconds": 376,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A3: III Allegro, Ma Non Tanto",
+          "source_path": [
+            0,
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            457481
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 399,
+          "digital_duration_seconds": 401,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B1: I Allegro Moderato",
+          "source_path": [
+            1,
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            457482
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 534,
+          "digital_duration_seconds": 539,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B2: II Andante Assai",
+          "source_path": [
+            1,
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            457483
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 472,
+          "digital_duration_seconds": 477,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B3: III Allegro Ben Marcato",
+          "source_path": [
+            1,
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            457484
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 359,
+          "digital_duration_seconds": 363,
+          "source_duration_notes": []
+        }
+      ],
+      "scenarios": {
+        "current_3pct_or_5sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 6,
+          "outliers": []
+        },
+        "5pct_or_5sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 6,
+          "outliers": []
+        },
+        "10pct_or_5sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 6,
+          "outliers": []
+        },
+        "20pct_or_5sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 6,
+          "outliers": []
+        },
+        "35pct_or_5sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 6,
+          "outliers": []
+        },
+        "3pct_or_15sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 6,
+          "outliers": []
+        },
+        "consensus_90pct_close_one_flagged_outlier": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 6,
+          "outliers": []
+        }
+      }
+    },
+    {
+      "discogs_id": "10851475",
+      "title": "Violin Concerto",
+      "decision": "probable",
+      "album_id": "0886443008809",
+      "source_sha256": "d8fb4558189ed10cd98d482d2a38a6832238bc21fdc06afed544399740b72b2a",
+      "album_sha256": "1505b4152edffb684ac4fdf1d0e183d202808d8558329403c666294d3ec44028",
+      "other_mechanical_blockers": [],
+      "bands": [
+        {
+          "target": "A: First Movement: Allegro Moderato",
+          "source_path": [
+            0,
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            3851975
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 817,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B1: Second Movement: Adagio Di Molto",
+          "source_path": [
+            0,
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            3851976
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 379,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B2: Third Movement: Allegro, Ma Non Tanto",
+          "source_path": [
+            0,
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            3851977
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 409,
+          "source_duration_notes": []
+        }
+      ],
+      "scenarios": {
+        "current_3pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "5pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "10pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "20pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "35pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "3pct_or_15sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "consensus_90pct_close_one_flagged_outlier": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        }
+      }
+    },
+    {
+      "discogs_id": "4431461",
+      "title": "Sonatas No. 12, Op. 26 & No. 13, Op. 27, No. 1",
+      "decision": "probable",
+      "album_id": "0886445085785",
+      "source_sha256": "d5ce67731f727b86367204c80a44199259a80facb4da88e4703ff401bd905cff",
+      "album_sha256": "68bd81e1a726126048d0db49a6a2be871883252c670a6d9dc96b1684ed03a9b1",
+      "other_mechanical_blockers": [],
+      "bands": [
+        {
+          "target": "A1: I – Andante Con Variazioni",
+          "source_path": [
+            0,
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            26886394
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 603,
+          "digital_duration_seconds": 600,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A2: II – Scherzo: Allegro Molto",
+          "source_path": [
+            0,
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            26886396
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 186,
+          "digital_duration_seconds": 185,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A3: III – Marcia Funebre Sulla Morte D'un Eroe",
+          "source_path": [
+            0,
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            26886398
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 425,
+          "digital_duration_seconds": 422,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A4: IV – Allegro",
+          "source_path": [
+            0,
+            3
+          ],
+          "status": "complete",
+          "track_ids": [
+            26886400
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 162,
+          "digital_duration_seconds": 159,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B1: I – Andante",
+          "source_path": [
+            1,
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            26886402
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 472,
+          "digital_duration_seconds": 471,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B2: II – Allegro Molto E Vivace",
+          "source_path": [
+            1,
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            26886404
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 121,
+          "digital_duration_seconds": 121,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B3: III – Adagio Con Espressione",
+          "source_path": [
+            1,
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            26886406
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 227,
+          "digital_duration_seconds": 227,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B4: IV – Allegro Vivace",
+          "source_path": [
+            1,
+            3
+          ],
+          "status": "complete",
+          "track_ids": [
+            26886408
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 439,
+          "digital_duration_seconds": 440,
+          "source_duration_notes": []
+        }
+      ],
+      "scenarios": {
+        "current_3pct_or_5sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 8,
+          "outliers": []
+        },
+        "5pct_or_5sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 8,
+          "outliers": []
+        },
+        "10pct_or_5sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 8,
+          "outliers": []
+        },
+        "20pct_or_5sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 8,
+          "outliers": []
+        },
+        "35pct_or_5sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 8,
+          "outliers": []
+        },
+        "3pct_or_15sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 8,
+          "outliers": []
+        },
+        "consensus_90pct_close_one_flagged_outlier": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 8,
+          "outliers": []
+        }
+      }
+    },
+    {
+      "discogs_id": "8567942",
+      "title": "Symphonies Nos. 5 & 8",
+      "decision": "probable",
+      "album_id": "0828765570220",
+      "source_sha256": "0165c0bbc322008907377272f3162d12e2e87b233da28330a33e3eb576ff1933",
+      "album_sha256": "187ed50bb5d60fdb1da054567f823f456176e5ae7b499a3f751db15378ef9908",
+      "other_mechanical_blockers": [],
+      "bands": [
+        {
+          "target": "A1: First Movement: Allegro Con Brio",
+          "source_path": [
+            0,
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            196432
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 433,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A2: Second Movement: Andante Con Moto",
+          "source_path": [
+            0,
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            196433
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 535,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A3: Third Movement: Allegro, Fourth Movement: Allegro",
+          "source_path": [
+            0,
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            196434,
+            196435
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 790,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B1: First Movement: Allegro Vivace E Con Brio",
+          "source_path": [
+            1,
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            196445
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 573,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B2: Second Movement: Allegretto Scherzando",
+          "source_path": [
+            1,
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            196446
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 222,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B3: Third Movement: Tempo Di Menuetto",
+          "source_path": [
+            1,
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            196447
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 283,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B4: Fourth Movement: Allegro Vivace",
+          "source_path": [
+            1,
+            3
+          ],
+          "status": "complete",
+          "track_ids": [
+            196448
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 447,
+          "source_duration_notes": []
+        }
+      ],
+      "scenarios": {
+        "current_3pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "5pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "10pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "20pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "35pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "3pct_or_15sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "consensus_90pct_close_one_flagged_outlier": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        }
+      }
+    },
+    {
+      "discogs_id": "11883662",
+      "title": "Sinfonia N°9 In Re Minore, Op.125 \"Corale\" (II, III, IV Mov.)",
+      "decision": "probable",
+      "album_id": "0828765570220",
+      "source_sha256": "fa2592d9c7cd7b324ba54bea31fb8857565f22b180f9538e2ab48b198141a1fe",
+      "album_sha256": "187ed50bb5d60fdb1da054567f823f456176e5ae7b499a3f751db15378ef9908",
+      "other_mechanical_blockers": [],
+      "bands": [
+        {
+          "target": "A1: Molto Vivace; Presto",
+          "source_path": [
+            0,
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            196450
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 794,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A2: Adagio Molto E Cantabile; Andante Moderato; Adagio",
+          "source_path": [
+            0,
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            196451
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 866,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B1: Presto; Allegro Assai; Presto; Allegro Assai Vivace; Alla Marcia; Andante Maestoso; Allegro Energico Sempre Ben Marcato; Allegro Ma Non Tanto; Prestissimo ",
+          "source_path": [
+            0,
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            196452
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 1409,
+          "source_duration_notes": []
+        }
+      ],
+      "scenarios": {
+        "current_3pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "5pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "10pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "20pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "35pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "3pct_or_15sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "consensus_90pct_close_one_flagged_outlier": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        }
+      }
+    },
+    {
+      "discogs_id": "11885637",
+      "title": "Sinfonia N°8 / Sinfonia N°9 (I Mov.)",
+      "decision": "probable",
+      "album_id": "0828765570220",
+      "source_sha256": "e12ab4e1a79ee7a563e0468682849bfc3e3582e5e9c181ce06061dd1dcb2d330",
+      "album_sha256": "187ed50bb5d60fdb1da054567f823f456176e5ae7b499a3f751db15378ef9908",
+      "other_mechanical_blockers": [],
+      "bands": [
+        {
+          "target": "A1: Allegro Vivace E Con Brio",
+          "source_path": [
+            0,
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            196445
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 573,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A2: Allegro Scherzando",
+          "source_path": [
+            0,
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            196446
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 222,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A3: Tempo Di Minuetto",
+          "source_path": [
+            0,
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            196447
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 283,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B1: Allegro Vivace",
+          "source_path": [
+            0,
+            3
+          ],
+          "status": "complete",
+          "track_ids": [
+            196448
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 447,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B2: Allegro Ma Non Troppo, Un Poco Maestoso",
+          "source_path": [
+            1,
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            196449
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 811,
+          "source_duration_notes": []
+        }
+      ],
+      "scenarios": {
+        "current_3pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "5pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "10pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "20pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "35pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "3pct_or_15sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "consensus_90pct_close_one_flagged_outlier": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        }
+      }
+    },
+    {
+      "discogs_id": "11887204",
+      "title": "Sinfonia N°4  - Sinfonia N°5",
+      "decision": "probable",
+      "album_id": "0828765570220",
+      "source_sha256": "e36e008877999565244e5c55598666aa7b264b6620fc2010ed3bec452303ecb1",
+      "album_sha256": "187ed50bb5d60fdb1da054567f823f456176e5ae7b499a3f751db15378ef9908",
+      "other_mechanical_blockers": [],
+      "bands": [
+        {
+          "target": "A1: I. Adagio; Allegro Vivace",
+          "source_path": [
+            0,
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            196428
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 601,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A2: II. Adagio",
+          "source_path": [
+            0,
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            196429
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 529,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A3: III. Minuetto; Allegro Vivace; Trio; Un Poco Meno Allegro",
+          "source_path": [
+            0,
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            196430
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 300,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A4: IV. Adagio Ma Non Troppo",
+          "source_path": [
+            0,
+            3
+          ],
+          "status": "complete",
+          "track_ids": [
+            196431
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 418,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B1: I. Allegro Con Brio",
+          "source_path": [
+            1,
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            196432
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 433,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B2: II. Andante Con Moto",
+          "source_path": [
+            1,
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            196433
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 535,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B3: III. Allegro",
+          "source_path": [
+            1,
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            196434
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 285,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B4: IV. Allegro",
+          "source_path": [
+            1,
+            3
+          ],
+          "status": "complete",
+          "track_ids": [
+            196435
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 505,
+          "source_duration_notes": []
+        }
+      ],
+      "scenarios": {
+        "current_3pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "5pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "10pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "20pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "35pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "3pct_or_15sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "consensus_90pct_close_one_flagged_outlier": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        }
+      }
+    },
+    {
+      "discogs_id": "16996626",
+      "title": "Concerto No. 5 (\"Emperor\")",
+      "decision": "probable",
+      "album_id": "0090266303625",
+      "source_sha256": "fbec51256e0d4d0d37163fe8e0bf966ebf34ea67b2a66fe953cf09f0cd01791e",
+      "album_sha256": "5b55acc1c69657600b90082e87c3d0250c94f88c9bd0e2b46b4b7eb5f5e56eef",
+      "other_mechanical_blockers": [],
+      "bands": [
+        {
+          "target": "A: Allegro",
+          "source_path": [
+            0,
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            191161
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 1213,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B1: Adagio Un Poco Mosso",
+          "source_path": [
+            0,
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            191162
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 504,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B2: Rondo: Allegro",
+          "source_path": [
+            0,
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            191163
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 584,
+          "source_duration_notes": []
+        }
+      ],
+      "scenarios": {
+        "current_3pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "5pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "10pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "20pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "35pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "3pct_or_15sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "consensus_90pct_close_one_flagged_outlier": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        }
+      }
+    },
+    {
+      "discogs_id": "2930473",
+      "title": "Die Fünf Klavierkonzerte",
+      "decision": "probable",
+      "album_id": "av98godsw1g2b",
+      "source_sha256": "115f13b865d492b5d352f5f90b54dee64d9d578eb522dd75ca3f43ceb38e5e70",
+      "album_sha256": "fe9e3fcdedb2c5a40a241733a79b8bae7e5add9579bce1a80a7b3fe83658aedd",
+      "other_mechanical_blockers": [],
+      "bands": [
+        {
+          "target": "A: 1. Satz: Allegro Con Brio",
+          "source_path": [
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            57834700
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 993,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B1: 2. Satz: Largo",
+          "source_path": [
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            57834701
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 740,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B2: 3. Satz: Rondo: Allegro Scherzando",
+          "source_path": [
+            3
+          ],
+          "status": "complete",
+          "track_ids": [
+            57834702
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 514,
+          "source_duration_notes": []
+        },
+        {
+          "target": "C1: 1. Satz: Allegro Con Brio",
+          "source_path": [
+            5
+          ],
+          "status": "complete",
+          "track_ids": [
+            57834703
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 778,
+          "source_duration_notes": []
+        },
+        {
+          "target": "C2: 2. Satz: Adagio",
+          "source_path": [
+            6
+          ],
+          "status": "complete",
+          "track_ids": [
+            57834704
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 539,
+          "source_duration_notes": []
+        },
+        {
+          "target": "C3: 3. Satz: Rondo: Molto Allegro",
+          "source_path": [
+            7
+          ],
+          "status": "complete",
+          "track_ids": [
+            57834705
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 338,
+          "source_duration_notes": []
+        },
+        {
+          "target": "D1: 1. Satz: Allegro Moderato",
+          "source_path": [
+            9
+          ],
+          "status": "complete",
+          "track_ids": [
+            57834706
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 1088,
+          "source_duration_notes": []
+        },
+        {
+          "target": "D2: 2. Satz: Andante Con Moto",
+          "source_path": [
+            10
+          ],
+          "status": "complete",
+          "track_ids": [
+            57834707
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 308,
+          "source_duration_notes": []
+        },
+        {
+          "target": "D3: 3. Satz: Rondo: Vivace",
+          "source_path": [
+            11
+          ],
+          "status": "complete",
+          "track_ids": [
+            57834708
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 547,
+          "source_duration_notes": []
+        },
+        {
+          "target": "E: 1. Satz: Allegro Con Brio",
+          "source_path": [
+            13
+          ],
+          "status": "complete",
+          "track_ids": [
+            57834709
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 923,
+          "source_duration_notes": []
+        },
+        {
+          "target": "F1: 2. Satz: Largo",
+          "source_path": [
+            14
+          ],
+          "status": "complete",
+          "track_ids": [
+            57834710
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 587,
+          "source_duration_notes": []
+        },
+        {
+          "target": "F2: 3. Satz: Rondo: Allegro",
+          "source_path": [
+            15
+          ],
+          "status": "complete",
+          "track_ids": [
+            57834711
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 513,
+          "source_duration_notes": []
+        },
+        {
+          "target": "G: 1. Satz: Allegro",
+          "source_path": [
+            17
+          ],
+          "status": "complete",
+          "track_ids": [
+            57834712
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 1167,
+          "source_duration_notes": []
+        },
+        {
+          "target": "H1: 2. Satz: Adagio Un Poco Mosso",
+          "source_path": [
+            18
+          ],
+          "status": "complete",
+          "track_ids": [
+            57834713
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 505,
+          "source_duration_notes": []
+        },
+        {
+          "target": "H2: 3. Satz: Rondo: Allegro Ma Non Tanto",
+          "source_path": [
+            19
+          ],
+          "status": "complete",
+          "track_ids": [
+            57834714
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 578,
+          "source_duration_notes": []
+        }
+      ],
+      "scenarios": {
+        "current_3pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "5pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "10pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "20pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "35pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "3pct_or_15sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "consensus_90pct_close_one_flagged_outlier": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        }
+      }
+    },
+    {
+      "discogs_id": "3334175",
+      "title": "Violin Concertos (No. 1 In D Major No. 2 In G Minor)",
+      "decision": "probable",
+      "album_id": "rwruoiy8hkl5a",
+      "source_sha256": "1516db8ed9aa3de797f37270f6048f57375006203056b2c6b28d2ff2591ec414",
+      "album_sha256": "aa81f09d9669c408ee2ef39fca4459175176852a3507c31a60a820a971152777",
+      "other_mechanical_blockers": [],
+      "bands": [
+        {
+          "target": "A1: I Andantino: Andante Assai",
+          "source_path": [
+            0,
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            97151403
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 565,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A2: II Scherzo: Vivacissimo",
+          "source_path": [
+            0,
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            97151404
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 218,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A3: III Moderato",
+          "source_path": [
+            0,
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            97151405
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 479,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B1: I Allegro Moderato",
+          "source_path": [
+            1,
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            97151406
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 628,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B2: II Andante Assai",
+          "source_path": [
+            1,
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            97151407
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 574,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B3: III Allegro, Ben Marcato",
+          "source_path": [
+            1,
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            97151408
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 361,
+          "source_duration_notes": []
+        }
+      ],
+      "scenarios": {
+        "current_3pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "5pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "10pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "20pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "35pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "3pct_or_15sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "consensus_90pct_close_one_flagged_outlier": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        }
+      }
+    },
+    {
+      "discogs_id": "5756277",
+      "title": "Violin Concerto No.3 In G Major, K. 216 - Violin Concerto No.4 In D Major, K 218",
+      "decision": "probable",
+      "album_id": "k8oyqi4mqkmpc",
+      "source_sha256": "b4361025bf702ed678d1313421d10165001092cadeea632f896bb51fedba14cb",
+      "album_sha256": "8afa0a9bc7de0cf0e991db3d0ddb20240f299e9ad49f508122422a694bdc2e67",
+      "other_mechanical_blockers": [],
+      "bands": [
+        {
+          "target": "A1: I. Allegro",
+          "source_path": [
+            0,
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            57591633
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 638,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A2: II. Adagio",
+          "source_path": [
+            0,
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            57591634
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 489,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A3: III. Rondò (Allegro)",
+          "source_path": [
+            0,
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            57591635
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 418,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B1: I. Allegro",
+          "source_path": [
+            1,
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            57591636
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 613,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B2: II. Andante Cantabile ",
+          "source_path": [
+            1,
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            57591637
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 499,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B3: III. Rondeau ( Andante Grazioso, Allegro Ma Non Troppo)",
+          "source_path": [
+            1,
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            57591638
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 459,
+          "source_duration_notes": []
+        }
+      ],
+      "scenarios": {
+        "current_3pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "5pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "10pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "20pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "35pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "3pct_or_15sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "consensus_90pct_close_one_flagged_outlier": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        }
+      }
+    },
+    {
+      "discogs_id": "6268701",
+      "title": "The French Suites = Französischen Suiten = Suites Françaises / Overture In The French Style, BWV 831 = Ouvertüre Nach Französischer Art = Ouverture À La Française",
+      "decision": "probable",
+      "album_id": "0886444938174",
+      "source_sha256": "d564208f14b854a78f33418b4c8cebe93b5e785698465fd62dbdb2717ab7cf18",
+      "album_sha256": "d4eaecd422c295162f6156ea14e3ea1a598a8d8f3e86f3acf5a80388f6b0846b",
+      "other_mechanical_blockers": [],
+      "bands": [
+        {
+          "target": "A1: Suite No. 1 (D Minor / D-Moll / Ré Mineur), BWV 812",
+          "source_path": [
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            24137623,
+            24137627,
+            24137630,
+            24137634,
+            24137636,
+            24137638
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 676,
+          "digital_duration_seconds": 671,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A2: Suite No. 2 (C Minor / C-Moll / Ut Mineur), BWV 813",
+          "source_path": [
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            24137640,
+            24137642,
+            24137644,
+            24137646,
+            24137648,
+            24137650
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 572,
+          "digital_duration_seconds": 559,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B1: Suite No. 3 (B Minor / H-Moll / Si Mineur), BWV 814",
+          "source_path": [
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            24137652,
+            24137654,
+            24137656,
+            24137658,
+            24137660,
+            24137662
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 536,
+          "digital_duration_seconds": 529,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B2: Suite No. 4 (E Flat Major / Es-Dur / Mi Bémol Majeur), BWV 815",
+          "source_path": [
+            3
+          ],
+          "status": "complete",
+          "track_ids": [
+            24137664,
+            24137666,
+            24137668,
+            24137671,
+            24137674,
+            24137677,
+            24137680
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 553,
+          "digital_duration_seconds": 542,
+          "source_duration_notes": []
+        },
+        {
+          "target": "C1: Suite No. 5 (G Major / G-Dur / Sol Majeur), BWV 816",
+          "source_path": [
+            4
+          ],
+          "status": "complete",
+          "track_ids": [
+            24137684,
+            24137687,
+            24137690,
+            24137694,
+            24137697,
+            24137701,
+            24137704
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 657,
+          "digital_duration_seconds": 654,
+          "source_duration_notes": []
+        },
+        {
+          "target": "C2: Suite No. 6 (E Major / E-Dur / Mi Majeur), BWV 817",
+          "source_path": [
+            5
+          ],
+          "status": "complete",
+          "track_ids": [
+            24137707,
+            24137710,
+            24137713,
+            24137715,
+            24137717,
+            24137719,
+            24137721,
+            24137723
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 630,
+          "digital_duration_seconds": 626,
+          "source_duration_notes": []
+        },
+        {
+          "target": "D1: Ouverture",
+          "source_path": [
+            6,
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            24137725
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 592,
+          "digital_duration_seconds": 589,
+          "source_duration_notes": []
+        },
+        {
+          "target": "D2: Courante - Gavotte I - Gavotte II - Passepied I - Passepied II - Sarabande - Bourrée I - Barrée II - Gigue - Echo",
+          "source_path": [
+            6,
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            24137727,
+            24137729,
+            24137731,
+            24137733,
+            24137735,
+            24137737,
+            24137739,
+            24137743,
+            24137746,
+            24137750
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 923,
+          "digital_duration_seconds": 921,
+          "source_duration_notes": []
+        }
+      ],
+      "scenarios": {
+        "current_3pct_or_5sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 8,
+          "outliers": []
+        },
+        "5pct_or_5sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 8,
+          "outliers": []
+        },
+        "10pct_or_5sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 8,
+          "outliers": []
+        },
+        "20pct_or_5sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 8,
+          "outliers": []
+        },
+        "35pct_or_5sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 8,
+          "outliers": []
+        },
+        "3pct_or_15sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 8,
+          "outliers": []
+        },
+        "consensus_90pct_close_one_flagged_outlier": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 8,
+          "outliers": []
+        }
+      }
+    },
+    {
+      "discogs_id": "7766716",
+      "title": "Concerto No. 1 In D Minor For Piano And Orchestra, Op. 15",
+      "decision": "probable",
+      "album_id": "0886446469928",
+      "source_sha256": "12786ebfaf5693b8f6e6bc965c564552563aadf2e89e381efb8e011467c72a0f",
+      "album_sha256": "6c5edc2eedef2a7935121f7f932b569328e337adda29600a24dcce6cd7eb7977",
+      "other_mechanical_blockers": [],
+      "bands": [
+        {
+          "target": "A: First Movement: Maestoso",
+          "source_path": [
+            0,
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            42627018
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 1186,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B1: Second Movement: Adagio",
+          "source_path": [
+            0,
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            42627020
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 801,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B2: Third Movement: Rondo (Allegro Non Troppo)",
+          "source_path": [
+            0,
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            42627022
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 643,
+          "source_duration_notes": []
+        }
+      ],
+      "scenarios": {
+        "current_3pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "5pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "10pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "20pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "35pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "3pct_or_15sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "consensus_90pct_close_one_flagged_outlier": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        }
+      }
+    },
+    {
+      "discogs_id": "8103249",
+      "title": "Mozart Violin Concertos",
+      "decision": "probable",
+      "album_id": "b8lm68nol2zyb",
+      "source_sha256": "c5179f30d2c624ca291c8b00decd06749c7f322be3e09574c28db8e807ba3219",
+      "album_sha256": "65f86e9028b1f3c0050f90b46443ae368309fc44e94dcab4e571a4445b8c8b4c",
+      "other_mechanical_blockers": [],
+      "bands": [
+        {
+          "target": "A1: Allegro Moderato",
+          "source_path": [
+            0,
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            50280827
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 406,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A2: Adagio",
+          "source_path": [
+            0,
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            50280828
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 510,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A3: Presto",
+          "source_path": [
+            0,
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            50280829
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 336,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B1: Allegro Aperto",
+          "source_path": [
+            1,
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            50280830
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 578,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B2: Adagio",
+          "source_path": [
+            1,
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            50280831
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 652,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B3: Tempo Di Menuetto; Allegro",
+          "source_path": [
+            1,
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            50280832
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 527,
+          "source_duration_notes": []
+        }
+      ],
+      "scenarios": {
+        "current_3pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "5pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "10pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "20pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "35pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "3pct_or_15sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "consensus_90pct_close_one_flagged_outlier": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        }
+      }
+    },
+    {
+      "discogs_id": "10598540",
+      "title": "Concerto No. 1 / Concerto No. 4 (For The Left Hand)",
+      "decision": "probable",
+      "album_id": "5099751700227",
+      "source_sha256": "425b683e729dff4e864914386cf1589be6a92f82b5ede1da351ef4eecc39c082",
+      "album_sha256": "8fee141b15a980665c1c7f3daacb3c155607e8aa433fe731ad449ad450ebffae",
+      "other_mechanical_blockers": [],
+      "bands": [
+        {
+          "target": "A1: I - Allegro Moderato",
+          "source_path": [
+            0,
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            175164
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 559,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A2: II - Andante; III - Allegro Molto",
+          "source_path": [
+            0,
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            175165,
+            175166
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 863,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B1: I - Vivace",
+          "source_path": [
+            1,
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            175167
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 255,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B2: II - Andante",
+          "source_path": [
+            1,
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            175168
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 624,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B3: III - Moderato",
+          "source_path": [
+            1,
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            175169
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 485,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B4: IV - Vivace",
+          "source_path": [
+            1,
+            3
+          ],
+          "status": "complete",
+          "track_ids": [
+            175170
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 86,
+          "source_duration_notes": []
+        }
+      ],
+      "scenarios": {
+        "current_3pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "5pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "10pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "20pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "35pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "3pct_or_15sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "consensus_90pct_close_one_flagged_outlier": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        }
+      }
+    },
+    {
+      "discogs_id": "12524051",
+      "title": "Six Evolutions - Cello Suites",
+      "decision": "probable",
+      "album_id": "ha5y5btyaellb",
+      "source_sha256": "67dec5a089e75d6219d96c3754340eae73d09f94badbac7d1066b26f0e5d7d12",
+      "album_sha256": "1a953696da0c67d77c82b0f73bd97650dd301454499b12ee263f4f0193bc9d89",
+      "other_mechanical_blockers": [],
+      "bands": [
+        {
+          "target": "A-1: Prélude",
+          "source_path": [
+            0,
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            50631687
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 150,
+          "digital_duration_seconds": 150,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A-2: Allemande",
+          "source_path": [
+            0,
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            50631688
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 255,
+          "digital_duration_seconds": 255,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A-3: Courante",
+          "source_path": [
+            0,
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            50631689
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 154,
+          "digital_duration_seconds": 154,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A-4: Sarabande",
+          "source_path": [
+            0,
+            3
+          ],
+          "status": "complete",
+          "track_ids": [
+            50631690
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 150,
+          "digital_duration_seconds": 150,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A-5: Menuets I & II",
+          "source_path": [
+            0,
+            4
+          ],
+          "status": "complete",
+          "track_ids": [
+            50631691
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 207,
+          "digital_duration_seconds": 207,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A-6: Gigue",
+          "source_path": [
+            0,
+            5
+          ],
+          "status": "complete",
+          "track_ids": [
+            50631692
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 117,
+          "digital_duration_seconds": 117,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B-1: Prélude",
+          "source_path": [
+            1,
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            50631693
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 252,
+          "digital_duration_seconds": 252,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B-2: Allemande",
+          "source_path": [
+            1,
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            50631694
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 207,
+          "digital_duration_seconds": 207,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B-3: Courante",
+          "source_path": [
+            1,
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            50631695
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 108,
+          "digital_duration_seconds": 108,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B-4: Sarabande",
+          "source_path": [
+            1,
+            3
+          ],
+          "status": "complete",
+          "track_ids": [
+            50631696
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 247,
+          "digital_duration_seconds": 247,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B-5: Menuets I & II",
+          "source_path": [
+            1,
+            4
+          ],
+          "status": "complete",
+          "track_ids": [
+            50631697
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 181,
+          "digital_duration_seconds": 181,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B-6: Gigue",
+          "source_path": [
+            1,
+            5
+          ],
+          "status": "complete",
+          "track_ids": [
+            50631698
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 147,
+          "digital_duration_seconds": 147,
+          "source_duration_notes": []
+        },
+        {
+          "target": "C-1: Prélude",
+          "source_path": [
+            2,
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            50631699
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 194,
+          "digital_duration_seconds": 194,
+          "source_duration_notes": []
+        },
+        {
+          "target": "C-2: Allemande",
+          "source_path": [
+            2,
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            50631700
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 224,
+          "digital_duration_seconds": 224,
+          "source_duration_notes": []
+        },
+        {
+          "target": "C-3: Courante",
+          "source_path": [
+            2,
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            50631701
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 188,
+          "digital_duration_seconds": 188,
+          "source_duration_notes": []
+        },
+        {
+          "target": "C-4: Sarabande",
+          "source_path": [
+            2,
+            3
+          ],
+          "status": "complete",
+          "track_ids": [
+            50631702
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 216,
+          "digital_duration_seconds": 216,
+          "source_duration_notes": []
+        },
+        {
+          "target": "C-5: Bourées I & II",
+          "source_path": [
+            2,
+            4
+          ],
+          "status": "complete",
+          "track_ids": [
+            50631703
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 219,
+          "digital_duration_seconds": 219,
+          "source_duration_notes": []
+        },
+        {
+          "target": "C-6: Gigue",
+          "source_path": [
+            2,
+            5
+          ],
+          "status": "complete",
+          "track_ids": [
+            50631704
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 177,
+          "digital_duration_seconds": 177,
+          "source_duration_notes": []
+        },
+        {
+          "target": "D-1: Prélude",
+          "source_path": [
+            3,
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            50631705
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 292,
+          "digital_duration_seconds": 292,
+          "source_duration_notes": []
+        },
+        {
+          "target": "D-2: Allemande",
+          "source_path": [
+            3,
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            50631706
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 263,
+          "digital_duration_seconds": 263,
+          "source_duration_notes": []
+        },
+        {
+          "target": "D-3: Courante",
+          "source_path": [
+            3,
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            50631707
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 231,
+          "digital_duration_seconds": 231,
+          "source_duration_notes": []
+        },
+        {
+          "target": "D-4: Sarabande",
+          "source_path": [
+            3,
+            3
+          ],
+          "status": "complete",
+          "track_ids": [
+            50631708
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 248,
+          "digital_duration_seconds": 248,
+          "source_duration_notes": []
+        },
+        {
+          "target": "D-5: Bourées I & II",
+          "source_path": [
+            3,
+            4
+          ],
+          "status": "complete",
+          "track_ids": [
+            50631709
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 296,
+          "digital_duration_seconds": 296,
+          "source_duration_notes": []
+        },
+        {
+          "target": "D-6: Gigue",
+          "source_path": [
+            3,
+            5
+          ],
+          "status": "complete",
+          "track_ids": [
+            50631710
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 182,
+          "digital_duration_seconds": 182,
+          "source_duration_notes": []
+        },
+        {
+          "target": "E-1: Prélude",
+          "source_path": [
+            4,
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            50631711
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 397,
+          "digital_duration_seconds": 397,
+          "source_duration_notes": []
+        },
+        {
+          "target": "E-2: Allemande",
+          "source_path": [
+            4,
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            50631712
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 346,
+          "digital_duration_seconds": 346,
+          "source_duration_notes": []
+        },
+        {
+          "target": "E-3: Courante",
+          "source_path": [
+            4,
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            50631713
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 128,
+          "digital_duration_seconds": 128,
+          "source_duration_notes": []
+        },
+        {
+          "target": "E-4: Sarabande",
+          "source_path": [
+            4,
+            3
+          ],
+          "status": "complete",
+          "track_ids": [
+            50631714
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 190,
+          "digital_duration_seconds": 190,
+          "source_duration_notes": []
+        },
+        {
+          "target": "E-5: Gavottes I & II",
+          "source_path": [
+            4,
+            4
+          ],
+          "status": "complete",
+          "track_ids": [
+            50631715
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 268,
+          "digital_duration_seconds": 268,
+          "source_duration_notes": []
+        },
+        {
+          "target": "E-6: Gigue",
+          "source_path": [
+            4,
+            5
+          ],
+          "status": "complete",
+          "track_ids": [
+            50631716
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 167,
+          "digital_duration_seconds": 167,
+          "source_duration_notes": []
+        },
+        {
+          "target": "F-1: Prélude",
+          "source_path": [
+            5,
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            50631717
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 284,
+          "digital_duration_seconds": 284,
+          "source_duration_notes": []
+        },
+        {
+          "target": "F-2: Allemande",
+          "source_path": [
+            5,
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            50631718
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 399,
+          "digital_duration_seconds": 399,
+          "source_duration_notes": []
+        },
+        {
+          "target": "F-3: Courante",
+          "source_path": [
+            5,
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            50631719
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 231,
+          "digital_duration_seconds": 231,
+          "source_duration_notes": []
+        },
+        {
+          "target": "F-4: Sarabande",
+          "source_path": [
+            5,
+            3
+          ],
+          "status": "complete",
+          "track_ids": [
+            50631720
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 241,
+          "digital_duration_seconds": 241,
+          "source_duration_notes": []
+        },
+        {
+          "target": "F-5: Gavottes I & II",
+          "source_path": [
+            5,
+            4
+          ],
+          "status": "complete",
+          "track_ids": [
+            50631721
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 218,
+          "digital_duration_seconds": 218,
+          "source_duration_notes": []
+        },
+        {
+          "target": "F-6: Gigue",
+          "source_path": [
+            5,
+            5
+          ],
+          "status": "complete",
+          "track_ids": [
+            50631722
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 225,
+          "digital_duration_seconds": 225,
+          "source_duration_notes": []
+        }
+      ],
+      "scenarios": {
+        "current_3pct_or_5sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 36,
+          "outliers": []
+        },
+        "5pct_or_5sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 36,
+          "outliers": []
+        },
+        "10pct_or_5sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 36,
+          "outliers": []
+        },
+        "20pct_or_5sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 36,
+          "outliers": []
+        },
+        "35pct_or_5sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 36,
+          "outliers": []
+        },
+        "3pct_or_15sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 36,
+          "outliers": []
+        },
+        "consensus_90pct_close_one_flagged_outlier": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 36,
+          "outliers": []
+        }
+      }
+    },
+    {
+      "discogs_id": "23764721",
+      "title": "Concerto No. 20 In D Minor For Piano And Orchestra (K. 466)",
+      "decision": "probable",
+      "album_id": "5099751286325",
+      "source_sha256": "606e96d74634167265a7bf2f95f8844fc2f0d06d22a8aa470851901f1922e98e",
+      "album_sha256": "4761296d0b3938ea93986079bf5d8a43c332109fe2619416bbaa28b74f13b79d",
+      "other_mechanical_blockers": [],
+      "bands": [
+        {
+          "target": "A1: Allegro",
+          "source_path": [
+            0,
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            171005
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 750,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B1: Romance",
+          "source_path": [
+            0,
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            171006
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 541,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B2: Allegro Assai",
+          "source_path": [
+            0,
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            171007
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 426,
+          "source_duration_notes": []
+        }
+      ],
+      "scenarios": {
+        "current_3pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "5pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "10pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "20pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "35pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "3pct_or_15sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "consensus_90pct_close_one_flagged_outlier": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        }
+      }
+    },
+    {
+      "discogs_id": "2548602",
+      "title": "The Six Last Sonatas",
+      "decision": "withhold",
+      "album_id": "0886445085297",
+      "source_sha256": "9a04db2a0f1c45e78e39613b88cad2441b12f2841239d1a5ffe9f9f1ccab93af",
+      "album_sha256": "dec9f74637e656bfc4ef39540d8caf2fca0c692e74b3675c72e8de07004b8015",
+      "other_mechanical_blockers": [],
+      "bands": [
+        {
+          "target": "A1: I - Andante Con Espressione",
+          "source_path": [
+            0,
+            0
+          ],
+          "status": "unknown",
+          "track_ids": [
+            26889126
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 530,
+          "digital_duration_seconds": 526,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A2: II - Vivace Assai",
+          "source_path": [
+            0,
+            1
+          ],
+          "status": "unknown",
+          "track_ids": [
+            26889128
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 130,
+          "digital_duration_seconds": 131,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A3: I - Andante Con Espressione",
+          "source_path": [
+            1,
+            0
+          ],
+          "status": "unknown",
+          "track_ids": [
+            26889130
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 771,
+          "digital_duration_seconds": 772,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B1: II - Rondo: Presto",
+          "source_path": [
+            1,
+            1
+          ],
+          "status": "unknown",
+          "track_ids": [
+            26889132
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 200,
+          "digital_duration_seconds": 202,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B2: II - Allegro",
+          "source_path": [
+            2,
+            0
+          ],
+          "status": "unknown",
+          "track_ids": [
+            26889134
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 280,
+          "digital_duration_seconds": 286,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B3: II - Adagio E Cantabile",
+          "source_path": [
+            2,
+            1
+          ],
+          "status": "unknown",
+          "track_ids": [
+            26889136
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 530,
+          "digital_duration_seconds": 527,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B4: III - Finale: Tempo Di Minuetto",
+          "source_path": [
+            2,
+            2
+          ],
+          "status": "unknown",
+          "track_ids": [
+            26889138
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 230,
+          "digital_duration_seconds": 219,
+          "source_duration_notes": []
+        },
+        {
+          "target": "C1: I - Allegro",
+          "source_path": [
+            3,
+            0
+          ],
+          "status": "unknown",
+          "track_ids": [
+            26889140
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 330,
+          "digital_duration_seconds": 332,
+          "source_duration_notes": []
+        },
+        {
+          "target": "C2: II - Adagio",
+          "source_path": [
+            3,
+            1
+          ],
+          "status": "unknown",
+          "track_ids": [
+            26889142
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 333,
+          "digital_duration_seconds": 333,
+          "source_duration_notes": []
+        },
+        {
+          "target": "C3: III - Allegro Molto",
+          "source_path": [
+            3,
+            2
+          ],
+          "status": "unknown",
+          "track_ids": [
+            26889144
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 146,
+          "digital_duration_seconds": 146,
+          "source_duration_notes": []
+        },
+        {
+          "target": "C4: I - Andante",
+          "source_path": [
+            4,
+            0
+          ],
+          "status": "unknown",
+          "track_ids": [
+            26889146
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 205,
+          "digital_duration_seconds": 205,
+          "source_duration_notes": []
+        },
+        {
+          "target": "C5: II - Finale: Presto",
+          "source_path": [
+            4,
+            1
+          ],
+          "status": "unknown",
+          "track_ids": [
+            26889148
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 207,
+          "digital_duration_seconds": 142,
+          "source_duration_notes": []
+        },
+        {
+          "target": "D1: I - Allegro",
+          "source_path": [
+            5,
+            0
+          ],
+          "status": "unknown",
+          "track_ids": [
+            26889150
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 315,
+          "digital_duration_seconds": 317,
+          "source_duration_notes": []
+        },
+        {
+          "target": "D2: II - Adagio",
+          "source_path": [
+            5,
+            1
+          ],
+          "status": "unknown",
+          "track_ids": [
+            26889152
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 450,
+          "digital_duration_seconds": 453,
+          "source_duration_notes": []
+        },
+        {
+          "target": "D3: III - Finale: Presto",
+          "source_path": [
+            5,
+            2
+          ],
+          "status": "unknown",
+          "track_ids": [
+            26889154
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": 220,
+          "digital_duration_seconds": 227,
+          "source_duration_notes": []
+        }
+      ],
+      "scenarios": {
+        "current_3pct_or_5sec": {
+          "applicable": true,
+          "passes": false,
+          "timed_bands": 15,
+          "outliers": [
+            {
+              "target": "B4: III - Finale: Tempo Di Minuetto",
+              "source_seconds": 230,
+              "digital_seconds": 219
+            },
+            {
+              "target": "C5: II - Finale: Presto",
+              "source_seconds": 207,
+              "digital_seconds": 142
+            },
+            {
+              "target": "D3: III - Finale: Presto",
+              "source_seconds": 220,
+              "digital_seconds": 227
+            }
+          ]
+        },
+        "5pct_or_5sec": {
+          "applicable": true,
+          "passes": false,
+          "timed_bands": 15,
+          "outliers": [
+            {
+              "target": "C5: II - Finale: Presto",
+              "source_seconds": 207,
+              "digital_seconds": 142
+            }
+          ]
+        },
+        "10pct_or_5sec": {
+          "applicable": true,
+          "passes": false,
+          "timed_bands": 15,
+          "outliers": [
+            {
+              "target": "C5: II - Finale: Presto",
+              "source_seconds": 207,
+              "digital_seconds": 142
+            }
+          ]
+        },
+        "20pct_or_5sec": {
+          "applicable": true,
+          "passes": false,
+          "timed_bands": 15,
+          "outliers": [
+            {
+              "target": "C5: II - Finale: Presto",
+              "source_seconds": 207,
+              "digital_seconds": 142
+            }
+          ]
+        },
+        "35pct_or_5sec": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 15,
+          "outliers": []
+        },
+        "3pct_or_15sec": {
+          "applicable": true,
+          "passes": false,
+          "timed_bands": 15,
+          "outliers": [
+            {
+              "target": "C5: II - Finale: Presto",
+              "source_seconds": 207,
+              "digital_seconds": 142
+            }
+          ]
+        },
+        "consensus_90pct_close_one_flagged_outlier": {
+          "applicable": true,
+          "passes": true,
+          "timed_bands": 15,
+          "outliers": [
+            {
+              "target": "C5: II - Finale: Presto",
+              "source_seconds": 207,
+              "digital_seconds": 142
+            }
+          ]
+        }
+      }
+    },
+    {
+      "discogs_id": "7065721",
+      "title": "Sonatas No. 10, K. 378 · No. 15, K. 454",
+      "decision": "probable",
+      "album_id": "0886443760844",
+      "source_sha256": "91ff000ea5614b93649b0d2986078614d1dbd52dc12bfe116f2fee25e2e60755",
+      "album_sha256": "2a9f9cf58a5eab14c32f39922aa80d1b3a8152d8243788ce2f980bc53d0ba9da",
+      "other_mechanical_blockers": [],
+      "bands": [
+        {
+          "target": "A1: Allegro Moderato",
+          "source_path": [
+            0,
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            7847932
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 498,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A2: Andantino Sostenuto E Cantabile",
+          "source_path": [
+            0,
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            7847933
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 270,
+          "source_duration_notes": []
+        },
+        {
+          "target": "A3: Rondo Allegro",
+          "source_path": [
+            0,
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            7847934
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 241,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B1: Largo; Allegro",
+          "source_path": [
+            1,
+            0
+          ],
+          "status": "complete",
+          "track_ids": [
+            7847935
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 420,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B2: Andante",
+          "source_path": [
+            1,
+            1
+          ],
+          "status": "complete",
+          "track_ids": [
+            7847936
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 411,
+          "source_duration_notes": []
+        },
+        {
+          "target": "B3: Allegretto",
+          "source_path": [
+            1,
+            2
+          ],
+          "status": "complete",
+          "track_ids": [
+            7847937
+          ],
+          "scope": "reviewed-complete-source-band",
+          "source_duration_seconds": null,
+          "digital_duration_seconds": 351,
+          "source_duration_notes": []
+        }
+      ],
+      "scenarios": {
+        "current_3pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "5pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "10pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "20pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "35pct_or_5sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "3pct_or_15sec": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        },
+        "consensus_90pct_close_one_flagged_outlier": {
+          "applicable": false,
+          "passes": true,
+          "timed_bands": 0,
+          "outliers": []
+        }
+      }
+    }
+  ],
+  "held_reviews_mentioning_timing": [
+    {
+      "discogs_id": "12690141",
+      "title": "Symphonie N°2 En Ré Majeur, Op 36 (2eme disque)",
+      "review_kind": null,
+      "finding": "Old best tefounqisk5ki is Karajan, not the Klemperer named on the source labels, and lacks the two overtures. Shared cached Warner vrg5q0y8vzvaa has all six source bands, but generic tempos currently cross-match other symphonies. Prometheus is336seconds versus saved4:14(254seconds):82seconds unexplained. Source labels confirm titles/Klemperer/stereo but do not print durations."
+    },
+    {
+      "discogs_id": "22222342",
+      "title": "Partitas ・ Toccatas",
+      "review_kind": null,
+      "finding": "The source has13physical works under three headings, not16independent works. Forty Partita movements have explicit BWV work fields; all seven Toccatas are cached. BWV914occurs twice:519seconds on disc17and516on disc67; source8:36and VolII favour the latter but timing alone is not take identity. The official Gould discography confirms the late VolIIprogramme; safe catalogue-range/container validation and source-box/edition corroboration are still required. Source-image retrieval was unavailable(Discogs image HTTP403); no Qobuz calls were made."
+    },
+    {
+      "discogs_id": "10552903",
+      "title": "Die Großen Sinfonien",
+      "review_kind": null,
+      "finding": "All20source symphonies have credited candidate support, but completeness is not established by title coverage. Source K184has two bands: MoltoPresto3:00and Andante–Allegro5:04; digital only labels MoltoPresto3:04and Andante5:06. The duration strongly permits a joined Andante/Allegro, so do not claim the finale is missing. Both full/nearfullcached versions have the short label; K181alsojoined, K297includes alternate Andante. No exact joined-section/source20work map adopted."
+    },
+    {
+      "discogs_id": "2394378",
+      "title": "Symphony No. 6 In B Minor/\"Pathétique\"",
+      "review_kind": null,
+      "finding": "Source explicitly identifies the1938Berlin studio recording. Archipel candidate has compatible works/cast/timings but no saved session/date/take markers tying its transfer to1938. The other DG collection explicitly comprises1944-1953live recordings."
+    },
+    {
+      "discogs_id": "2636984",
+      "title": "Piano Concerto No. 5 \"Emperor\" / \"L'Empereur\"",
+      "review_kind": null,
+      "finding": "The complete Gould/Stokowski Emperor has American Symphony Orchestra only as Associated Performer. The BNF alternative is Gould/Krips/Buffalo, a different recording. Source joins movementsII/III in one band; matching duration cannot replace orchestra-role evidence."
+    },
+    {
+      "discogs_id": "9703869",
+      "title": "Sonatas For Cello And Piano",
+      "review_kind": null,
+      "finding": "The Sony reissue has both sonatas, positive cello/piano/composer roles and compatible individual band timings. Raw Chopin container says17:07, exactly its first three band durations; all four source bands sum23:22, including the6:15finale. Preserve the contradiction and transfer/session uncertainty."
+    },
+    {
+      "discogs_id": "8860718",
+      "title": "Sinfonia N°. 7 In La Maggiore, Op. 92",
+      "review_kind": null,
+      "finding": "The RCA Seventh has positive Toscanini/NBC credits and compatible programme; the other cached cycle explicitly identifies1939. The raw RCA Italiana A12R-0005 source supplies neither session dates nor timings, and the inspected publisher evidence binds the RCA1951family but not this exact Italian source issue."
+    },
+    {
+      "discogs_id": "13166114",
+      "title": "Sinfonia N.3 \"Eroica\"",
+      "review_kind": null,
+      "finding": "The diagnostic best candidate is explicitly the1939cycle. A later RCA alternative has a complete positively credited Eroica, but source VL45808/322461 has no saved session notes or timings establishing which Toscanini recording was issued. The RCA-family publisher identifies1953, not this source issue."
+    },
+    {
+      "discogs_id": "5349319",
+      "title": "Piano Sonatas",
+      "review_kind": null,
+      "finding": "The31movement compilation covers the listed sonatas, but source sonata6says A major whereas digital metadata says F major; source sonata2finale says Allegro Assai whereas the file says Rondo Grazioso. Multiple printed timings exceed existing per-band tolerance (for example3:48versus3:55,2:39versus2:45). Separate remasters cover only subsets."
+    },
+    {
+      "discogs_id": "7946604",
+      "title": "Concerto In A Minor For Piano And Orchestra, Op. 54",
+      "review_kind": null,
+      "finding": "The1948ML4041source splits the first movement into six named bands/sections, while all complete candidates provide one unsplit first-movement track. Candidate timings differ substantially across Serkin/Ormandy recording families, including the explicitly1950–56collection; no saved primary evidence binds one transfer to the source LP or its internal boundaries."
+    },
+    {
+      "discogs_id": "16108064",
+      "title": "Sinfonia N.1 - Sinfonia N°2",
+      "review_kind": null,
+      "finding": "The full cached candidate explicitly identifies the1939Toscanini cycle. The1980Victrola/Fabbri source has no session notes or band timings establishing that recording family. The other saved alternative supplies only Symphony2with associated-only orchestra credits."
+    },
+    {
+      "discogs_id": "2548602",
+      "title": "The Six Last Sonatas",
+      "review_kind": "source-leaf-bands",
+      "finding": "The official Gould page corroborates the complete1982Haydn family and all15movements, with the same source/file production team. However source B4is3:50versus3:39digital, C5is3:27versus2:22, and D3is3:40versus3:47: three bands exceed existing tolerance. The first XVI49band is also printedIIAllegro versus digitalIAllegro. A single source-image request returned403; no visual timing correction or duration waiver is justified."
+    }
+  ],
+  "other_timing_mentions_without_complete_leaf_map": [
+    "12690141",
+    "22222342",
+    "10552903",
+    "2394378",
+    "2636984",
+    "9703869",
+    "8860718",
+    "13166114",
+    "5349319",
+    "7946604",
+    "16108064"
+  ],
+  "source_hashes": {
+    "data/qobuz_remaining_recording_reviews.json": "fa8d5877b31a38f2f2c8f62421e3c8948d3ebdadae7b4cd8b3bac0118d85a74b",
+    "data/qobuz_matches.json": "de5549a72f871ba0d2878845741b4fd8d51cd4728a5c96a1b55020285719dccd",
+    "data/collection_matches.json": "a214eee877d4749fa957b3d2a293c2925d7ba0621259f2742139a6cd86f928c8"
+  },
+  "provider_calls": 0,
+  "publication_changed": false,
+  "policy_adopted": false,
+  "limitations": [
+    "This measures30existing complete source-band mappings, not every cached candidate or all unmatched albums.",
+    "A cleared timing gate is not automatic recording acceptance; saved decisions and other source/recording constraints remain.",
+    "Generic holds without frozen full-band maps cannot be assigned honest promotion counts by changing a number.",
+    "Consensus is an illustrative proposal: >=10timed bands, >=90%within max15sec/3%, one outlier <=90sec/35%, total absolute error <=3%.",
+    "No missing band, reused track, absent musician, composer conflict, wrong instrument or unverified recording is waived.",
+    "Source timings are saved metadata, not newly verified printed-label or listening measurements."
+  ]
+}

@@ -664,3 +664,9 @@ Gould keeps all15bands but source timing conflicts fail closed, and Dido retains
 its four source bands plus all five inspected alternatives without invented cuts.
 The original diagnostic stays immutable; ranked workflow now reflects explicit
 recording decisions. [Results](plans/2026-11-16-qobuz-title3.md).
+
+Gould2548602now has three user-approved hash-bound source_duration_notes, not a
+new tolerance. Exact source/digital values and the superseded hold are retained
+in the approval artifact; changing a reviewed track duration fails revalidation.
+`qobuz_title3_audit.py` now verifies2Probable/1hold; removing the timing notes
+restores the original blocker. [Decision/impact](plans/2026-11-16-qobuz-timing-sensitivity.md).

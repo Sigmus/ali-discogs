@@ -48,11 +48,15 @@ lead, no coverage regressions in this bounded scope.21work-title cases reveal
 musician gaps,40lack shared recognized catalogue IDs and83need work-identity
 interpretation. Source flags and eight diagnostic spot checks retain the detail.
 [Diagnostic](../plans/2026-11-16-qobuz-title151-diagnostic.md). All3gains now
-reviewed:Heifetz7065721Probable, Gould2548602timing hold, Dido24278222split-act
-hold ([results](../plans/2026-11-16-qobuz-title3.md)). Queue1resolved/2held/0pending.
+reviewed:Heifetz7065721and user-approved Gould2548602Probable; Dido24278222split-act
+hold ([results](../plans/2026-11-16-qobuz-title3.md)). Queue2resolved/1held/0pending.
 Next suggested work:inspect21diagnostic work-title/musician-gap cases, preserving
 exact roles/names/source scopes; no alias or role-policy adoption authorized.
-No live formatting change. The broader301work/credit inventory and150credit
+Timing sensitivity complete:onlyGould cleared proposed35%/consensus scenarios in
+30mapped reviews;11other timing-mentioned holds lack full leaf maps. User approved
+only a hash-bound Gould timing exception, now applied; global tolerance unchanged
+([analysis/approval](../plans/2026-11-16-qobuz-timing-sensitivity.md)).
+No broad timing/formatting change. The broader301work/credit inventory and150credit
 cases remain separate. Zero support needs source/
 lead/rule investigation, not automatic API retrieval. Revisit explicit holds only
 with new evidence or a validated scoped rule; partial source support is triage,

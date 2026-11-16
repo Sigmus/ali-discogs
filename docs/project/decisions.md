@@ -528,3 +528,16 @@ those cases; `Unchecked` means no such saved decision, even if searches or
 metadata diagnostics already ran. Do not infer manual review from zero scores,
 empty results or missing metadata. Found/Probable remain accepted match states.
 The review reason is visible even when its album was absent from first-pass hits.
+
+### 2026-11-16 — Gould’s approved recording-family timing exception
+
+Adopted by explicit user approval for2548602/0886445085297only. Retain the full
+15band positive Gould/Haydn mapping and official recording-family corroboration;
+record three source/digital pairs230/219,207/142and220/227seconds as reviewed
+source_duration_notes bound to exact source/album/track hashes. User identifies
+the same album and approves accepting Probable85despite those metadata differences.
+Archive the preceding hold and approval evidence. Do not label discrepancies
+verified transcription errors or claim listening/exact takes/pressing/mastering.
+The global max5second/3%tolerance stays unchanged. No automatic35%or majority/
+consensus policy adopted, and no missing-band or musician/composer gate waived.
+[Impact and limits](../plans/2026-11-16-qobuz-timing-sensitivity.md).

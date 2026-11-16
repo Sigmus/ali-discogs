@@ -1,0 +1,454 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-16",
+  "discogs_id": "2548602",
+  "album_id": "0886445085297",
+  "target_sha256": "a76df7bf7fb02ebb4695706b53121773dde8f122d2542d0cd98855a91b9af633",
+  "source_sha256": "9a04db2a0f1c45e78e39613b88cad2441b12f2841239d1a5ffe9f9f1ccab93af",
+  "album_sha256": "dec9f74637e656bfc4ef39540d8caf2fca0c692e74b3675c72e8de07004b8015",
+  "user_identification": "this is the same album",
+  "user_approval": "yep, do it – then, what's next?",
+  "approved_action": "Accept this recording family as Probable85 with three explicit timing exceptions; retain strict global tolerance and all source/credit/track checks.",
+  "limitations": [
+    "User identified the album and approved the documented exception; no audio listening or exact take/mastering verification is claimed.",
+    "Discrepancies are not proven transcription errors; source-image access was unavailable."
+  ],
+  "superseded_review": {
+    "discogs_id": "2548602",
+    "album_id": "0886445085297",
+    "target_sha256": "a76df7bf7fb02ebb4695706b53121773dde8f122d2542d0cd98855a91b9af633",
+    "source_sha256": "9a04db2a0f1c45e78e39613b88cad2441b12f2841239d1a5ffe9f9f1ccab93af",
+    "album_sha256": "dec9f74637e656bfc4ef39540d8caf2fca0c692e74b3675c72e8de07004b8015",
+    "decision": "withhold",
+    "recording_review": "The official Gould page corroborates the complete1982Haydn family and all15movements, with the same source/file production team. However source B4is3:50versus3:39digital, C5is3:27versus2:22, and D3is3:40versus3:47: three bands exceed existing tolerance. The first XVI49band is also printedIIAllegro versus digitalIAllegro. A single source-image request returned403; no visual timing correction or duration waiver is justified.",
+    "sources": [
+      "https://www.discogs.com/release/2548602",
+      "https://glenngould.com/music/haydn-the-six-last-sonatas/"
+    ],
+    "external_source_files": [
+      {
+        "path": "data/review_sources/title3-2548602/source-observation.txt",
+        "sha256": "74d5c32984489a899486826c2913f9bc5209330173939c18873106088a51ea81"
+      }
+    ],
+    "limitations": [
+      "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
+      "No source rewrite, timing waiver, global work-field/catalogue normalization, performer alias or role waiver."
+    ],
+    "review_kind": "source-leaf-bands",
+    "source_outline_sha256": "1065d7a4932e4fc3933ba5ea70d979f2c610df2ee87a9ea751f361200dff3a10",
+    "source_leaves": [
+      {
+        "path": [
+          0,
+          0
+        ],
+        "source_work": "Sonata No. 56 D Major / D-Dur / Re Majeur, Hoboken XVI/42",
+        "title": "I - Andante Con Espressione",
+        "position": "A1",
+        "duration": "8:50"
+      },
+      {
+        "path": [
+          0,
+          1
+        ],
+        "source_work": "Sonata No. 56 D Major / D-Dur / Re Majeur, Hoboken XVI/42",
+        "title": "II - Vivace Assai",
+        "position": "A2",
+        "duration": "2:10"
+      },
+      {
+        "path": [
+          1,
+          0
+        ],
+        "source_work": "Sonata No. 58 C Major / C-Dur / UT Majeur, Hoboken XVI/48",
+        "title": "I - Andante Con Espressione",
+        "position": "A3",
+        "duration": "12:51"
+      },
+      {
+        "path": [
+          1,
+          1
+        ],
+        "source_work": "Sonata No. 58 C Major / C-Dur / UT Majeur, Hoboken XVI/48",
+        "title": "II - Rondo: Presto",
+        "position": "B1",
+        "duration": "3:20"
+      },
+      {
+        "path": [
+          2,
+          0
+        ],
+        "source_work": "Sonata No. 59 E Flat Major / Es-Dur / Mi Bemol Majeur , Hoboken XVI/49",
+        "title": "II - Allegro",
+        "position": "B2",
+        "duration": "4:40"
+      },
+      {
+        "path": [
+          2,
+          1
+        ],
+        "source_work": "Sonata No. 59 E Flat Major / Es-Dur / Mi Bemol Majeur , Hoboken XVI/49",
+        "title": "II - Adagio E Cantabile",
+        "position": "B3",
+        "duration": "8:50"
+      },
+      {
+        "path": [
+          2,
+          2
+        ],
+        "source_work": "Sonata No. 59 E Flat Major / Es-Dur / Mi Bemol Majeur , Hoboken XVI/49",
+        "title": "III - Finale: Tempo Di Minuetto",
+        "position": "B4",
+        "duration": "3:50"
+      },
+      {
+        "path": [
+          3,
+          0
+        ],
+        "source_work": "Sonata No. 60 C Major / C-Dur / Ut Majeur, Hoboken XVI/50",
+        "title": "I - Allegro",
+        "position": "C1",
+        "duration": "5:30"
+      },
+      {
+        "path": [
+          3,
+          1
+        ],
+        "source_work": "Sonata No. 60 C Major / C-Dur / Ut Majeur, Hoboken XVI/50",
+        "title": "II - Adagio",
+        "position": "C2",
+        "duration": "5:33"
+      },
+      {
+        "path": [
+          3,
+          2
+        ],
+        "source_work": "Sonata No. 60 C Major / C-Dur / Ut Majeur, Hoboken XVI/50",
+        "title": "III - Allegro Molto",
+        "position": "C3",
+        "duration": "2:26"
+      },
+      {
+        "path": [
+          4,
+          0
+        ],
+        "source_work": "Sonata No. 61 D Major / D-Dur / Re Majeur, Hoboken XVI/51",
+        "title": "I - Andante",
+        "position": "C4",
+        "duration": "3:25"
+      },
+      {
+        "path": [
+          4,
+          1
+        ],
+        "source_work": "Sonata No. 61 D Major / D-Dur / Re Majeur, Hoboken XVI/51",
+        "title": "II - Finale: Presto",
+        "position": "C5",
+        "duration": "3:27"
+      },
+      {
+        "path": [
+          5,
+          0
+        ],
+        "source_work": "Sonata No. 62 E-Flat Major / Es-Dur / Mi Bemol Majeur, Hoboken XVI/52",
+        "title": "I - Allegro",
+        "position": "D1",
+        "duration": "5:15"
+      },
+      {
+        "path": [
+          5,
+          1
+        ],
+        "source_work": "Sonata No. 62 E-Flat Major / Es-Dur / Mi Bemol Majeur, Hoboken XVI/52",
+        "title": "II - Adagio",
+        "position": "D2",
+        "duration": "7:30"
+      },
+      {
+        "path": [
+          5,
+          2
+        ],
+        "source_work": "Sonata No. 62 E-Flat Major / Es-Dur / Mi Bemol Majeur, Hoboken XVI/52",
+        "title": "III - Finale: Presto",
+        "position": "D3",
+        "duration": "3:40"
+      }
+    ],
+    "source_heading_groups": [],
+    "bindings": [
+      {
+        "source_path": [
+          0,
+          0
+        ],
+        "track_ids": [
+          26889126
+        ],
+        "track_sha256": [
+          "d5e7379d574852f237c7e74315f38c406ed5b431a7d756bf4d6c8cfb2307c46d"
+        ],
+        "required_performers": [
+          "Glenn Gould"
+        ],
+        "composer": "Joseph Haydn"
+      },
+      {
+        "source_path": [
+          0,
+          1
+        ],
+        "track_ids": [
+          26889128
+        ],
+        "track_sha256": [
+          "bf72c2a9faa91c26f660f6c2a5ba809095fb23f58118dea18217d9c449644e92"
+        ],
+        "required_performers": [
+          "Glenn Gould"
+        ],
+        "composer": "Joseph Haydn"
+      },
+      {
+        "source_path": [
+          1,
+          0
+        ],
+        "track_ids": [
+          26889130
+        ],
+        "track_sha256": [
+          "8ab19a6462986ae01c92837d7cf3d07c4d6b3c1dbab97e85a16f8a83e99068cb"
+        ],
+        "required_performers": [
+          "Glenn Gould"
+        ],
+        "composer": "Joseph Haydn"
+      },
+      {
+        "source_path": [
+          1,
+          1
+        ],
+        "track_ids": [
+          26889132
+        ],
+        "track_sha256": [
+          "13e192f50037f89fa872f584bf8373b91ddd8ebb341becfd75863d9aa58ab241"
+        ],
+        "required_performers": [
+          "Glenn Gould"
+        ],
+        "composer": "Joseph Haydn"
+      },
+      {
+        "source_path": [
+          2,
+          0
+        ],
+        "track_ids": [
+          26889134
+        ],
+        "track_sha256": [
+          "538e0f8684e5601b72a7c131b22d4dd1448e7870b8417c90bd3f0be820422743"
+        ],
+        "required_performers": [
+          "Glenn Gould"
+        ],
+        "composer": "Joseph Haydn"
+      },
+      {
+        "source_path": [
+          2,
+          1
+        ],
+        "track_ids": [
+          26889136
+        ],
+        "track_sha256": [
+          "6c244b4676850ba732611a9d59a05bd6e78177e8ced62b13df591d6719c6bd18"
+        ],
+        "required_performers": [
+          "Glenn Gould"
+        ],
+        "composer": "Joseph Haydn"
+      },
+      {
+        "source_path": [
+          2,
+          2
+        ],
+        "track_ids": [
+          26889138
+        ],
+        "track_sha256": [
+          "54072cc1a1188dd67b9b2a823ef652b146feefa847a056196aaec3a7c153b200"
+        ],
+        "required_performers": [
+          "Glenn Gould"
+        ],
+        "composer": "Joseph Haydn"
+      },
+      {
+        "source_path": [
+          3,
+          0
+        ],
+        "track_ids": [
+          26889140
+        ],
+        "track_sha256": [
+          "7f42e4feb33ac35e1117539b544e87fe98b0de90dc6cbab55221ccf830263792"
+        ],
+        "required_performers": [
+          "Glenn Gould"
+        ],
+        "composer": "Joseph Haydn"
+      },
+      {
+        "source_path": [
+          3,
+          1
+        ],
+        "track_ids": [
+          26889142
+        ],
+        "track_sha256": [
+          "7cb54bcd3fbf0255a67a8c2988b2e200e98cbcbe3a202d538508472411d9fe38"
+        ],
+        "required_performers": [
+          "Glenn Gould"
+        ],
+        "composer": "Joseph Haydn"
+      },
+      {
+        "source_path": [
+          3,
+          2
+        ],
+        "track_ids": [
+          26889144
+        ],
+        "track_sha256": [
+          "89df88622ec7f58730b93a1b0d8aa8f39b6ae3d9cfb72ea17ff202f45b90fda4"
+        ],
+        "required_performers": [
+          "Glenn Gould"
+        ],
+        "composer": "Joseph Haydn"
+      },
+      {
+        "source_path": [
+          4,
+          0
+        ],
+        "track_ids": [
+          26889146
+        ],
+        "track_sha256": [
+          "743bffbb8dba4e69c57ac2f82cfd362a34e760fa870882707de0a0919f732f48"
+        ],
+        "required_performers": [
+          "Glenn Gould"
+        ],
+        "composer": "Joseph Haydn"
+      },
+      {
+        "source_path": [
+          4,
+          1
+        ],
+        "track_ids": [
+          26889148
+        ],
+        "track_sha256": [
+          "403f548c31a15e32fd32874c7a22e3d6aa4809fae72d4244c37ada717c01ec51"
+        ],
+        "required_performers": [
+          "Glenn Gould"
+        ],
+        "composer": "Joseph Haydn"
+      },
+      {
+        "source_path": [
+          5,
+          0
+        ],
+        "track_ids": [
+          26889150
+        ],
+        "track_sha256": [
+          "4652d7be3ff825106e5e5c953beddaa82e49fa39dd5dc5d2b9c13ceedfe166de"
+        ],
+        "required_performers": [
+          "Glenn Gould"
+        ],
+        "composer": "Joseph Haydn"
+      },
+      {
+        "source_path": [
+          5,
+          1
+        ],
+        "track_ids": [
+          26889152
+        ],
+        "track_sha256": [
+          "e81094bc2b62939338300a41c544af2e99766296fdd433336fa0e1680c026740"
+        ],
+        "required_performers": [
+          "Glenn Gould"
+        ],
+        "composer": "Joseph Haydn"
+      },
+      {
+        "source_path": [
+          5,
+          2
+        ],
+        "track_ids": [
+          26889154
+        ],
+        "track_sha256": [
+          "b532383a5482d429b4e7e646351b1116666fa023a387f32bd49f3e59f364c275"
+        ],
+        "required_performers": [
+          "Glenn Gould"
+        ],
+        "composer": "Joseph Haydn"
+      }
+    ],
+    "extra_track_ids": [],
+    "selected_track_fingerprints": {
+      "26889126": "d5e7379d574852f237c7e74315f38c406ed5b431a7d756bf4d6c8cfb2307c46d",
+      "26889128": "bf72c2a9faa91c26f660f6c2a5ba809095fb23f58118dea18217d9c449644e92",
+      "26889130": "8ab19a6462986ae01c92837d7cf3d07c4d6b3c1dbab97e85a16f8a83e99068cb",
+      "26889132": "13e192f50037f89fa872f584bf8373b91ddd8ebb341becfd75863d9aa58ab241",
+      "26889134": "538e0f8684e5601b72a7c131b22d4dd1448e7870b8417c90bd3f0be820422743",
+      "26889136": "6c244b4676850ba732611a9d59a05bd6e78177e8ced62b13df591d6719c6bd18",
+      "26889138": "54072cc1a1188dd67b9b2a823ef652b146feefa847a056196aaec3a7c153b200",
+      "26889140": "7f42e4feb33ac35e1117539b544e87fe98b0de90dc6cbab55221ccf830263792",
+      "26889142": "7cb54bcd3fbf0255a67a8c2988b2e200e98cbcbe3a202d538508472411d9fe38",
+      "26889144": "89df88622ec7f58730b93a1b0d8aa8f39b6ae3d9cfb72ea17ff202f45b90fda4",
+      "26889146": "743bffbb8dba4e69c57ac2f82cfd362a34e760fa870882707de0a0919f732f48",
+      "26889148": "403f548c31a15e32fd32874c7a22e3d6aa4809fae72d4244c37ada717c01ec51",
+      "26889150": "4652d7be3ff825106e5e5c953beddaa82e49fa39dd5dc5d2b9c13ceedfe166de",
+      "26889152": "e81094bc2b62939338300a41c544af2e99766296fdd433336fa0e1680c026740",
+      "26889154": "b532383a5482d429b4e7e646351b1116666fa023a387f32bd49f3e59f364c275"
+    }
+  }
+}

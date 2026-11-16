@@ -95,3 +95,7 @@ Gould2548602held for saved source timings, Dido24278222held for split-act mappin
 Original diagnostic bytes remain unchanged; gain queue now1resolved/2held/0pending.
 No live work-field/catalogue rule was adopted. Remaining148current title/work
 cases still have no saved publication review decision.
+
+Gould’s subsequent user-approved recording-specific timing exception makes the
+current gain queue2resolved/1Didohold/0pending. Original diagnostic remains intact;
+no global title/formatting/timing policy adopted. See the title3reassessment.

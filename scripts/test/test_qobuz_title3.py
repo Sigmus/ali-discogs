@@ -19,10 +19,14 @@ class TitleThreeReviewTests(unittest.TestCase):
 
     def test_all_three_decisions_and_future_hold_precedence(self):
         self.assertEqual(validate(self.report, self.rows, self.albums, self.reviews, expected_count=3),
-                         {'reviewed': 3, 'withhold': 2, 'probable': 1})
+                         {'reviewed': 3, 'probable': 2, 'withhold': 1})
 
     def test_full_haydn_titles_do_not_waive_source_timings(self):
-        review = self.reviews['2548602']
+        review = copy.deepcopy(self.reviews['2548602'])
+        approved, _ = assess(self.rows['2548602'], self.albums[review['album_id']], review)
+        self.assertTrue(approved['eligible'])
+        self.assertEqual(len(review['source_duration_notes']), 3)
+        del review['source_duration_notes']
         result, _ = assess(self.rows['2548602'], self.albums[review['album_id']], review)
         self.assertFalse(result['eligible'])
         self.assertIn('source-band-duration', result['blockers'])
@@ -30,6 +34,17 @@ class TitleThreeReviewTests(unittest.TestCase):
         self.assertEqual((work['source_duration_seconds'], work['digital_duration_seconds']), (207, 142))
         self.assertEqual(len(review['bindings']), 15)
         self.assertFalse(review.get('source_duration_notes'))
+
+    def test_gould_exception_cannot_move_to_changed_track_durations(self):
+        review = copy.deepcopy(self.reviews['2548602'])
+        album = copy.deepcopy(self.albums[review['album_id']])
+        track = next(t for t in album['tracks']['items'] if t['id'] == review['bindings'][11]['track_ids'][0])
+        track['duration'] += 1
+        review['album_sha256'] = fingerprint(album)
+        review['bindings'][11]['track_sha256'] = [fingerprint(track)]
+        review['selected_track_fingerprints'][str(track['id'])] = fingerprint(track)
+        with self.assertRaisesRegex(ValueError, 'duration discrepancy changed'):
+            assess(self.rows['2548602'], album, review)
 
     def test_heifetz_complete_movements_cannot_omit_source_pianist(self):
         review = copy.deepcopy(self.reviews['7065721'])

@@ -11,10 +11,10 @@
     {
       "discogs_id": "2548602",
       "title": "The Six Last Sonatas",
-      "outcome": "withhold",
-      "finding_kind": "source-band-duration-discrepancy",
-      "finding": "The official Gould page corroborates the complete1982Haydn family and all15movements, with the same source/file production team. However source B4is3:50versus3:39digital, C5is3:27versus2:22, and D3is3:40versus3:47: three bands exceed existing tolerance. The first XVI49band is also printedIIAllegro versus digitalIAllegro. A single source-image request returned403; no visual timing correction or duration waiver is justified.",
-      "next_action": "Inspect original label/booklet timings and transfer provenance before reconciling these exact discrepancies; complete work coverage alone is insufficient.",
+      "outcome": "probable",
+      "finding_kind": "reviewed-recording-family-timing-exception",
+      "finding": "User-confirmed Gould1982Haydn recording family, corroborated by the official artist album page, all15source movements and matching production team. User approved three explicit timing exceptions: B4 3:50 vs3:39, C5 3:27 vs2:22, D3 3:40 vs3:47. These discrepancies remain unresolved metadata differences, not verified transcription errors. Existing positive pianist/composer and every source-band/track hash still pass; global timing tolerance is unchanged.",
+      "next_action": "Retain the three timing discrepancies and exact-edition limitations; do not generalize this exception.",
       "target_sha256": "a76df7bf7fb02ebb4695706b53121773dde8f122d2542d0cd98855a91b9af633",
       "source_sha256": "9a04db2a0f1c45e78e39613b88cad2441b12f2841239d1a5ffe9f9f1ccab93af",
       "review_album_id": "0886445085297",
@@ -325,22 +325,22 @@
       "result": {
         "discogs_id": "2548602",
         "album_id": "0886445085297",
-        "decision": "withhold",
-        "recording_review": "The official Gould page corroborates the complete1982Haydn family and all15movements, with the same source/file production team. However source B4is3:50versus3:39digital, C5is3:27versus2:22, and D3is3:40versus3:47: three bands exceed existing tolerance. The first XVI49band is also printedIIAllegro versus digitalIAllegro. A single source-image request returned403; no visual timing correction or duration waiver is justified.",
+        "decision": "probable",
+        "recording_review": "User-confirmed Gould1982Haydn recording family, corroborated by the official artist album page, all15source movements and matching production team. User approved three explicit timing exceptions: B4 3:50 vs3:39, C5 3:27 vs2:22, D3 3:40 vs3:47. These discrepancies remain unresolved metadata differences, not verified transcription errors. Existing positive pianist/composer and every source-band/track hash still pass; global timing tolerance is unchanged.",
         "sources": [
           "https://www.discogs.com/release/2548602",
           "https://glenngould.com/music/haydn-the-six-last-sonatas/"
         ],
         "limitations": [
-          "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
-          "No source rewrite, timing waiver, global work-field/catalogue normalization, performer alias or role waiver."
+          "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+          "Reviewed timing discrepancies retained: B4 230/219s, C5 207/142s, D3 220/227s. The source first XVI49band labelIIversus digitalIis preserved.",
+          "No audio-listening claim or verified printed-label correction; this user-approved exception applies only to these source/album/track hashes.",
+          "Global timing tolerance remains max5seconds/3%; no automatic consensus rule, source rewrite, musician waiver or alias."
         ],
-        "eligible": false,
-        "blockers": [
-          "source-band-duration"
-        ],
+        "eligible": true,
+        "blockers": [],
         "completeness": {
-          "status": "unknown",
+          "status": "complete",
           "works": [
             {
               "target": "A1: I - Andante Con Espressione",
@@ -348,7 +348,7 @@
                 0,
                 0
               ],
-              "status": "unknown",
+              "status": "complete",
               "track_ids": [
                 26889126
               ],
@@ -363,7 +363,7 @@
                 0,
                 1
               ],
-              "status": "unknown",
+              "status": "complete",
               "track_ids": [
                 26889128
               ],
@@ -378,7 +378,7 @@
                 1,
                 0
               ],
-              "status": "unknown",
+              "status": "complete",
               "track_ids": [
                 26889130
               ],
@@ -393,7 +393,7 @@
                 1,
                 1
               ],
-              "status": "unknown",
+              "status": "complete",
               "track_ids": [
                 26889132
               ],
@@ -408,7 +408,7 @@
                 2,
                 0
               ],
-              "status": "unknown",
+              "status": "complete",
               "track_ids": [
                 26889134
               ],
@@ -423,7 +423,7 @@
                 2,
                 1
               ],
-              "status": "unknown",
+              "status": "complete",
               "track_ids": [
                 26889136
               ],
@@ -438,14 +438,24 @@
                 2,
                 2
               ],
-              "status": "unknown",
+              "status": "complete",
               "track_ids": [
                 26889138
               ],
               "scope": "reviewed-complete-source-band",
               "source_duration_seconds": 230,
               "digital_duration_seconds": 219,
-              "source_duration_notes": []
+              "source_duration_notes": [
+                {
+                  "source_path": [
+                    2,
+                    2
+                  ],
+                  "source_seconds": 230,
+                  "digital_seconds": 219,
+                  "reason": "User identified the same album and explicitly approved this recording-family timing exception after reviewing the saved discrepancies. All15source bands, positive Gould/Haydn credits and official1982album evidence remain required. The differing durations are retained, not declared proven transcription errors."
+                }
+              ]
             },
             {
               "target": "C1: I - Allegro",
@@ -453,7 +463,7 @@
                 3,
                 0
               ],
-              "status": "unknown",
+              "status": "complete",
               "track_ids": [
                 26889140
               ],
@@ -468,7 +478,7 @@
                 3,
                 1
               ],
-              "status": "unknown",
+              "status": "complete",
               "track_ids": [
                 26889142
               ],
@@ -483,7 +493,7 @@
                 3,
                 2
               ],
-              "status": "unknown",
+              "status": "complete",
               "track_ids": [
                 26889144
               ],
@@ -498,7 +508,7 @@
                 4,
                 0
               ],
-              "status": "unknown",
+              "status": "complete",
               "track_ids": [
                 26889146
               ],
@@ -513,14 +523,24 @@
                 4,
                 1
               ],
-              "status": "unknown",
+              "status": "complete",
               "track_ids": [
                 26889148
               ],
               "scope": "reviewed-complete-source-band",
               "source_duration_seconds": 207,
               "digital_duration_seconds": 142,
-              "source_duration_notes": []
+              "source_duration_notes": [
+                {
+                  "source_path": [
+                    4,
+                    1
+                  ],
+                  "source_seconds": 207,
+                  "digital_seconds": 142,
+                  "reason": "User identified the same album and explicitly approved this recording-family timing exception after reviewing the saved discrepancies. All15source bands, positive Gould/Haydn credits and official1982album evidence remain required. The differing durations are retained, not declared proven transcription errors."
+                }
+              ]
             },
             {
               "target": "D1: I - Allegro",
@@ -528,7 +548,7 @@
                 5,
                 0
               ],
-              "status": "unknown",
+              "status": "complete",
               "track_ids": [
                 26889150
               ],
@@ -543,7 +563,7 @@
                 5,
                 1
               ],
-              "status": "unknown",
+              "status": "complete",
               "track_ids": [
                 26889152
               ],
@@ -558,16 +578,280 @@
                 5,
                 2
               ],
-              "status": "unknown",
+              "status": "complete",
               "track_ids": [
                 26889154
               ],
               "scope": "reviewed-complete-source-band",
               "source_duration_seconds": 220,
               "digital_duration_seconds": 227,
-              "source_duration_notes": []
+              "source_duration_notes": [
+                {
+                  "source_path": [
+                    5,
+                    2
+                  ],
+                  "source_seconds": 220,
+                  "digital_seconds": 227,
+                  "reason": "User identified the same album and explicitly approved this recording-family timing exception after reviewing the saved discrepancies. All15source bands, positive Gould/Haydn credits and official1982album evidence remain required. The differing durations are retained, not declared proven transcription errors."
+                }
+              ]
             }
           ]
+        }
+      },
+      "superseded_decision": {
+        "outcome": "withhold",
+        "finding_kind": "source-band-duration-discrepancy",
+        "finding": "The official Gould page corroborates the complete1982Haydn family and all15movements, with the same source/file production team. However source B4is3:50versus3:39digital, C5is3:27versus2:22, and D3is3:40versus3:47: three bands exceed existing tolerance. The first XVI49band is also printedIIAllegro versus digitalIAllegro. A single source-image request returned403; no visual timing correction or duration waiver is justified.",
+        "next_action": "Inspect original label/booklet timings and transfer provenance before reconciling these exact discrepancies; complete work coverage alone is insufficient.",
+        "result": {
+          "discogs_id": "2548602",
+          "album_id": "0886445085297",
+          "decision": "withhold",
+          "recording_review": "The official Gould page corroborates the complete1982Haydn family and all15movements, with the same source/file production team. However source B4is3:50versus3:39digital, C5is3:27versus2:22, and D3is3:40versus3:47: three bands exceed existing tolerance. The first XVI49band is also printedIIAllegro versus digitalIAllegro. A single source-image request returned403; no visual timing correction or duration waiver is justified.",
+          "sources": [
+            "https://www.discogs.com/release/2548602",
+            "https://glenngould.com/music/haydn-the-six-last-sonatas/"
+          ],
+          "limitations": [
+            "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
+            "No source rewrite, timing waiver, global work-field/catalogue normalization, performer alias or role waiver."
+          ],
+          "eligible": false,
+          "blockers": [
+            "source-band-duration"
+          ],
+          "completeness": {
+            "status": "unknown",
+            "works": [
+              {
+                "target": "A1: I - Andante Con Espressione",
+                "source_path": [
+                  0,
+                  0
+                ],
+                "status": "unknown",
+                "track_ids": [
+                  26889126
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 530,
+                "digital_duration_seconds": 526,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A2: II - Vivace Assai",
+                "source_path": [
+                  0,
+                  1
+                ],
+                "status": "unknown",
+                "track_ids": [
+                  26889128
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 130,
+                "digital_duration_seconds": 131,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A3: I - Andante Con Espressione",
+                "source_path": [
+                  1,
+                  0
+                ],
+                "status": "unknown",
+                "track_ids": [
+                  26889130
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 771,
+                "digital_duration_seconds": 772,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B1: II - Rondo: Presto",
+                "source_path": [
+                  1,
+                  1
+                ],
+                "status": "unknown",
+                "track_ids": [
+                  26889132
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 200,
+                "digital_duration_seconds": 202,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B2: II - Allegro",
+                "source_path": [
+                  2,
+                  0
+                ],
+                "status": "unknown",
+                "track_ids": [
+                  26889134
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 280,
+                "digital_duration_seconds": 286,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B3: II - Adagio E Cantabile",
+                "source_path": [
+                  2,
+                  1
+                ],
+                "status": "unknown",
+                "track_ids": [
+                  26889136
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 530,
+                "digital_duration_seconds": 527,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B4: III - Finale: Tempo Di Minuetto",
+                "source_path": [
+                  2,
+                  2
+                ],
+                "status": "unknown",
+                "track_ids": [
+                  26889138
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 230,
+                "digital_duration_seconds": 219,
+                "source_duration_notes": []
+              },
+              {
+                "target": "C1: I - Allegro",
+                "source_path": [
+                  3,
+                  0
+                ],
+                "status": "unknown",
+                "track_ids": [
+                  26889140
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 330,
+                "digital_duration_seconds": 332,
+                "source_duration_notes": []
+              },
+              {
+                "target": "C2: II - Adagio",
+                "source_path": [
+                  3,
+                  1
+                ],
+                "status": "unknown",
+                "track_ids": [
+                  26889142
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 333,
+                "digital_duration_seconds": 333,
+                "source_duration_notes": []
+              },
+              {
+                "target": "C3: III - Allegro Molto",
+                "source_path": [
+                  3,
+                  2
+                ],
+                "status": "unknown",
+                "track_ids": [
+                  26889144
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 146,
+                "digital_duration_seconds": 146,
+                "source_duration_notes": []
+              },
+              {
+                "target": "C4: I - Andante",
+                "source_path": [
+                  4,
+                  0
+                ],
+                "status": "unknown",
+                "track_ids": [
+                  26889146
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 205,
+                "digital_duration_seconds": 205,
+                "source_duration_notes": []
+              },
+              {
+                "target": "C5: II - Finale: Presto",
+                "source_path": [
+                  4,
+                  1
+                ],
+                "status": "unknown",
+                "track_ids": [
+                  26889148
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 207,
+                "digital_duration_seconds": 142,
+                "source_duration_notes": []
+              },
+              {
+                "target": "D1: I - Allegro",
+                "source_path": [
+                  5,
+                  0
+                ],
+                "status": "unknown",
+                "track_ids": [
+                  26889150
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 315,
+                "digital_duration_seconds": 317,
+                "source_duration_notes": []
+              },
+              {
+                "target": "D2: II - Adagio",
+                "source_path": [
+                  5,
+                  1
+                ],
+                "status": "unknown",
+                "track_ids": [
+                  26889152
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 450,
+                "digital_duration_seconds": 453,
+                "source_duration_notes": []
+              },
+              {
+                "target": "D3: III - Finale: Presto",
+                "source_path": [
+                  5,
+                  2
+                ],
+                "status": "unknown",
+                "track_ids": [
+                  26889154
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 220,
+                "digital_duration_seconds": 227,
+                "source_duration_notes": []
+              }
+            ]
+          }
         }
       }
     },
@@ -1376,20 +1660,19 @@
   ],
   "summary": {
     "reviewed": 3,
-    "withhold": 2,
-    "probable": 1
+    "probable": 2,
+    "withhold": 1
   },
   "accepted_release_ids": [
+    "2548602",
     "7065721"
   ],
   "qobuz_requests": 0,
   "publication_validation": {
     "changed_release_ids": [
-      "2548602",
-      "24278222",
-      "7065721"
+      "2548602"
     ],
-    "only_frozen_scope_changed": true,
+    "only_user_approved_reassessment_changed": true,
     "spotify_collection_unchanged": true
   }
 }

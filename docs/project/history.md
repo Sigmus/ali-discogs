@@ -2336,3 +2336,28 @@ All300script tests, normalization/static build,3detail-browser checks and exact
 Spotify/source/caches/production matcher unchanged; no Qobuz request. UIcopies:
 12Found/182Probable/237Reviewed · unresolved/310Unchecked. Frozen151diagnostic
 unchanged; gain queue1resolved/2held/0pending. Local commit only; no push/deploy.
+
+## 2026-11-16 — Read-only timing tolerance impact
+
+User identifies Gould album and asks about relaxation/other promotions. Tested
+30complete source-leaf mappings:29alreadyProbable/1held.5%,10%,20%or15second
+floor alone clear no held case;35%or illustrative90%album-consensus clears only
+Gould’s timing gate,0other mapped holds.11other timing-mentioned holds lack full
+leaf maps and retain other issues; no whole-catalogue promotion count claimed.
+Recommend explicit recording-backed timing exception, not global35%tolerance.
+Three scenario safeguards pass. Publication/reviews/collection unchanged; no
+provider calls, policy adoption, promotion or push. Analysis saved in plan/report.
+
+## 2026-11-16 — Approved Gould timing exception
+
+User identifies same album and explicitly approves Probable with recorded timing
+exception.2548602nowProbable85; B4 230/219s,C5 207/142s,D3 220/227s retained in
+exact hash-bound notes. All15source bands, positive pianist/composer checks and
+artist-family corroboration preserved. Prior hold/approval archived; no verified
+transcription-error, listening or exact-take claim. Global max5s/3%unchanged;
+no automatic consensus policy. OnlyGouldpublication record changed.
+304script tests, normalization/static build and local UI Probable/disclosure checks
+pass; onlyexistingfavicon404. Source/cache/Spotify/scorer unchanged;0Qobuzcalls.
+UIcopies12Found/183Probable/236Reviewed · unresolved/310Unchecked. Source title3
+batch now2Probable/1Didohold; queue2resolved/1held. Local commit, no push/deploy.
+Next suggested batch:21work-title/musician-gap cases using existing cached evidence.
