@@ -35,7 +35,7 @@
   "richter_review_fingerprint": "a14865f86e46150593e39bfa285fa6c7c61c8f46147b8094c0cb048fd02118ab",
   "round2_review_fingerprint": "be60742c3d35f5a9aa67f200642f7fcde98a52562a46130e043db8f4aa7c851e",
   "round2_metadata_fingerprint": "9db62d7bf62d4b77f5acf422dfde77959f845f4dc00b2ac0e10c02ccea295860",
-  "remaining_review_fingerprint": "a74658b8b2c67d76b6f21fb603135dffb29719cf14e76c232cb309d3afbc8317",
+  "remaining_review_fingerprint": "6370ab8abf942110e812311fff6ee5c7aff40702d75c151267200da3887230f1",
   "remaining_metadata_fingerprint": "393b2d12e176160ab311b65267b38bdc8c205222e12f792bf07eba5c1fcfafbf",
   "remaining_followup_metadata_fingerprint": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
   "seven_album_metadata_fingerprint": "139f9b336c68b56ea22c18362cb0481c026366c5d359142f2bb702fe1233a4fc",
@@ -2152,15 +2152,38 @@
             }
           ],
           "reasons": [
+            "Source bundles20Scarlatti Longo numbers into six LP bands; cached Landowska sonatas use Kirkpatrick K numbers. Needs an explicit complete L/K/key concordance and band mapping, including source L.S27/punctuation/key anomalies; no numerical alias.",
+            "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+            "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+            "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording.",
             "0/6 target items supported after composer/work grouping; unresolved."
+          ],
+          "recording_review_decision": "withhold",
+          "recording_review": "Source bundles20Scarlatti Longo numbers into six LP bands; cached Landowska sonatas use Kirkpatrick K numbers. Needs an explicit complete L/K/key concordance and band mapping, including source L.S27/punctuation/key anomalies; no numerical alias.",
+          "review_sources": [
+            "https://www.discogs.com/release/8121703"
           ]
         }
       ],
       "query": "wanda landowska scarlatti twenty harpsichord sonatas",
       "searched_at": "2026-11-12T14:30:30.282272+00:00",
       "reasons": [
+        "Source bundles20Scarlatti Longo numbers into six LP bands; cached Landowska sonatas use Kirkpatrick K numbers. Needs an explicit complete L/K/key concordance and band mapping, including source L.S27/punctuation/key anomalies; no numerical alias.",
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording.",
         "0/6 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Source bundles20Scarlatti Longo numbers into six LP bands; cached Landowska sonatas use Kirkpatrick K numbers. Needs an explicit complete L/K/key concordance and band mapping, including source L.S27/punctuation/key anomalies; no numerical alias.",
+        "limitations": [
+          "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+          "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+          "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+        ]
+      }
     },
     "8534837": {
       "status": "unchecked",
@@ -2182,7 +2205,17 @@
       "searched_at": "2026-11-12T14:31:00.505322+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Source Landowska Volume2 lists a different set of20Longo numbers; cached20sonatas use Kirkpatrick numbers. Need exact concordance and full programme proof; shared performer and number of tracks are insufficient.",
+        "limitations": [
+          "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+          "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+          "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+        ]
+      }
     },
     "23950082": {
       "status": "unchecked",
@@ -5972,7 +6005,17 @@
       "searched_at": "2026-11-12T14:38:16.042171+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Source Gilbert/Pinnock harpsichord collection is represented only by Yo-Yo Ma cello suites in the frozen candidates; different instrumentation/programme.",
+        "limitations": [
+          "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+          "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+          "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+        ]
+      }
     },
     "15587453": {
       "status": "unchecked",
@@ -5983,7 +6026,17 @@
       "searched_at": "2026-11-12T14:38:31.388940+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Saved Yo-Yo Ma cello suites cannot represent source large harpsichord collection of English/French suites, partitas and other keyboard works.",
+        "limitations": [
+          "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+          "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+          "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+        ]
+      }
     },
     "14157833": {
       "status": "unchecked",
@@ -19413,7 +19466,17 @@
       "searched_at": "2026-11-12T14:54:32.329758+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Gould complete Columbia collection does not establish the six source late Mozart symphonies and source orchestral recording family.",
+        "limitations": [
+          "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+          "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+          "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+        ]
+      }
     },
     "2930473": {
       "status": "probable",
@@ -19982,7 +20045,17 @@
       "searched_at": "2026-11-12T14:55:32.375991+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Saved Rilling cantata collection contains a different listed cantata selection, not both source BWV72/58; source named instrumentalists remain required.",
+        "limitations": [
+          "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+          "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+          "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+        ]
+      }
     },
     "17470435": {
       "status": "unchecked",
@@ -39521,7 +39594,17 @@
       "searched_at": "2026-11-12T15:17:33.584271+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Saved Beethoven piano-sonata editions may support Moonlight alone; they do not supply all five source piano concertos and their complete recording cast.",
+        "limitations": [
+          "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+          "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+          "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+        ]
+      }
     },
     "13011163": {
       "status": "unchecked",
@@ -56828,7 +56911,16 @@
             }
           ],
           "reasons": [
+            "Saved Maazel Tchaikovsky4/cross-composer anthologies do not establish source Tchaikovsky3 Op29 with Vienna. Do not equate symphony numbers or borrow a conductor from another work.",
+            "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+            "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+            "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording.",
             "0/1 target items supported after composer/work grouping; unresolved."
+          ],
+          "recording_review_decision": "withhold",
+          "recording_review": "Saved Maazel Tchaikovsky4/cross-composer anthologies do not establish source Tchaikovsky3 Op29 with Vienna. Do not equate symphony numbers or borrow a conductor from another work.",
+          "review_sources": [
+            "https://www.discogs.com/release/36884278"
           ]
         },
         {
@@ -56867,7 +56959,17 @@
       "searched_at": "2026-11-12T15:23:19.428117+00:00",
       "reasons": [
         "0/1 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Saved Maazel Tchaikovsky4/cross-composer anthologies do not establish source Tchaikovsky3 Op29 with Vienna. Do not equate symphony numbers or borrow a conductor from another work.",
+        "limitations": [
+          "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+          "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+          "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+        ]
+      }
     },
     "9876105": {
       "status": "unchecked",
@@ -58365,7 +58467,17 @@
       "searched_at": "2026-11-12T15:28:19.668888+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Saved Grieg Peer Gynt/Sibelius Pelleas coupling differs from source Finlandia, Valse Triste, Swan of Tuonela and Tapiola. Source Swan opus numbering is an additional identity issue, not a fix for missing programme.",
+        "limitations": [
+          "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+          "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+          "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+        ]
+      }
     },
     "10183213": {
       "status": "unchecked",
@@ -62528,7 +62640,17 @@
       "searched_at": "2026-11-12T15:38:35.310803+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Saved Furtwangler anthology and Vienna symphony edition do not establish Pollini/Bohm Beethoven PianoConcerto3 Op37.",
+        "limitations": [
+          "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+          "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+          "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+        ]
+      }
     },
     "3956949": {
       "status": "probable",
@@ -62675,15 +62797,38 @@
             }
           ],
           "reasons": [
+            "Saved Beethoven3 plus Leonore3 is not source Beethoven7 Op92.",
+            "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+            "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+            "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording.",
             "0/1 target items supported after composer/work grouping; unresolved."
+          ],
+          "recording_review_decision": "withhold",
+          "recording_review": "Saved Beethoven3 plus Leonore3 is not source Beethoven7 Op92.",
+          "review_sources": [
+            "https://www.discogs.com/release/9419646"
           ]
         }
       ],
       "query": "herbert von karajan beethoven symphonie nr 7",
       "searched_at": "2026-11-12T15:39:05.336257+00:00",
       "reasons": [
+        "Saved Beethoven3 plus Leonore3 is not source Beethoven7 Op92.",
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording.",
         "0/1 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Saved Beethoven3 plus Leonore3 is not source Beethoven7 Op92.",
+        "limitations": [
+          "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+          "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+          "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+        ]
+      }
     },
     "11504801": {
       "status": "unchecked",
@@ -64578,7 +64723,17 @@
       "searched_at": "2026-11-12T15:43:20.282542+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Saved Markevitch/Haskil Mozart piano concertos K466/K491 do not supply source Coronation Mass K317, Exsultate K165 and Incarnatus K427.",
+        "limitations": [
+          "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+          "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+          "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+        ]
+      }
     },
     "8418209": {
       "status": "probable",
@@ -74158,15 +74313,38 @@
             }
           ],
           "reasons": [
+            "Cherkassky encore anthology has other Chopin pieces, including Op22, not the complete seven source polonaises Op26/40/44/53/61.",
+            "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+            "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+            "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording.",
             "0/7 target items supported after composer/work grouping; unresolved."
+          ],
+          "recording_review_decision": "withhold",
+          "recording_review": "Cherkassky encore anthology has other Chopin pieces, including Op22, not the complete seven source polonaises Op26/40/44/53/61.",
+          "review_sources": [
+            "https://www.discogs.com/release/1372856"
           ]
         }
       ],
       "query": "shura cherkassky chopin polonaises",
       "searched_at": "2026-11-12T15:56:21.233246+00:00",
       "reasons": [
+        "Cherkassky encore anthology has other Chopin pieces, including Op22, not the complete seven source polonaises Op26/40/44/53/61.",
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording.",
         "0/7 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Cherkassky encore anthology has other Chopin pieces, including Op22, not the complete seven source polonaises Op26/40/44/53/61.",
+        "limitations": [
+          "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+          "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+          "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+        ]
+      }
     },
     "12329947": {
       "status": "unchecked",
@@ -75605,10 +75783,217 @@
       }
     },
     "28448206": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0002894694782",
+        "name": "Berlioz: Symphonie fantastique",
+        "artists": [
+          "Boston Symphony Orchestra"
+        ],
+        "label": "Deutsche Grammophon (DG)",
+        "release_date": "1973-01-01",
+        "image": "https://static.qobuz.com/images/covers/82/47/0002894694782_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/berlioz-symphonie-fantastique-boston-symphony-orchestra-seiji-ozawa/0002894694782"
+      },
       "candidates": [
+        {
+          "id": "0002894694782",
+          "name": "Berlioz: Symphonie fantastique",
+          "artists": [
+            "Boston Symphony Orchestra"
+          ],
+          "label": "Deutsche Grammophon (DG)",
+          "release_date": "1973-01-01",
+          "image": "https://static.qobuz.com/images/covers/82/47/0002894694782_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/berlioz-symphonie-fantastique-boston-symphony-orchestra-seiji-ozawa/0002894694782",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 5,
+          "target_count": 5,
+          "required_performers": [
+            "Seiji Ozawa",
+            "Boston Symphony Orchestra"
+          ],
+          "programme": [
+            {
+              "target": "A1: Rêveries. Passions Largo - Allegro Agitato E Appassionato Assai - Tempo I - Religiosamente",
+              "source_path": [
+                0,
+                0
+              ],
+              "track_ids": [
+                5326696
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Seiji Ozawa",
+                "Boston Symphony Orchestra"
+              ]
+            },
+            {
+              "target": "A2: Un Bal. Valse. Allegro Non Troppo",
+              "source_path": [
+                0,
+                1
+              ],
+              "track_ids": [
+                5326697
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Seiji Ozawa",
+                "Boston Symphony Orchestra"
+              ]
+            },
+            {
+              "target": "B1: Scène Aux Champs. Adagio",
+              "source_path": [
+                0,
+                2
+              ],
+              "track_ids": [
+                5326698
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Seiji Ozawa",
+                "Boston Symphony Orchestra"
+              ]
+            },
+            {
+              "target": "B2: Marche Au Supplice. Allegretto Non Troppo",
+              "source_path": [
+                0,
+                3
+              ],
+              "track_ids": [
+                5326699
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Seiji Ozawa",
+                "Boston Symphony Orchestra"
+              ]
+            },
+            {
+              "target": "B3: Songe D'une Nuit Du Sabbat. Larghetto - Allegro Assai - Allegro - Lontano - Ronde Du Sabbat - Deus Irae",
+              "source_path": [
+                0,
+                4
+              ],
+              "track_ids": [
+                5326700
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Seiji Ozawa",
+                "Boston Symphony Orchestra"
+              ]
+            }
+          ],
+          "reasons": [
+            "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+            "DG publisher corroborates source catalogue4864506, Ozawa/Boston and the five-movement SymphonieFantastique. Official shop identifies Op14/H48 rather than raw Op24. All five source/digital movements, cast and timings align; preserve raw discrepancy and do not claim identical OriginalSourceLP mastering.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+            "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+            "Raw source heading says Op24; official DG identifies Op14/H48. Preserve this discrepancy. OriginalSourceLP analogue mastering is not verified as equal to this digital edition; one Romeo/Juliet extra is excluded."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "A1: Rêveries. Passions Largo - Allegro Agitato E Appassionato Assai - Tempo I - Religiosamente",
+                "source_path": [
+                  0,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  5326696
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 777,
+                "digital_duration_seconds": 781,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A2: Un Bal. Valse. Allegro Non Troppo",
+                "source_path": [
+                  0,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  5326697
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 377,
+                "digital_duration_seconds": 377,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B1: Scène Aux Champs. Adagio",
+                "source_path": [
+                  0,
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  5326698
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 867,
+                "digital_duration_seconds": 864,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B2: Marche Au Supplice. Allegretto Non Troppo",
+                "source_path": [
+                  0,
+                  3
+                ],
+                "status": "complete",
+                "track_ids": [
+                  5326699
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 238,
+                "digital_duration_seconds": 240,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B3: Songe D'une Nuit Du Sabbat. Larghetto - Allegro Assai - Allegro - Lontano - Ronde Du Sabbat - Deus Irae",
+                "source_path": [
+                  0,
+                  4
+                ],
+                "status": "complete",
+                "track_ids": [
+                  5326700
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 548,
+                "digital_duration_seconds": 549,
+                "source_duration_notes": []
+              }
+            ]
+          },
+          "recording_review": "DG publisher corroborates source catalogue4864506, Ozawa/Boston and the five-movement SymphonieFantastique. Official shop identifies Op14/H48 rather than raw Op24. All five source/digital movements, cast and timings align; preserve raw discrepancy and do not claim identical OriginalSourceLP mastering.",
+          "review_sources": [
+            "https://www.discogs.com/release/28448206",
+            "https://www.deutschegrammophon.com/en/catalogue/products/berlioz-symphonie-fantastique-ozawa-13103",
+            "https://store.deutschegrammophon.com/en-en/products/seiji-ozawa-boston-symphony-orchestra-berlioz-symphonie-fantastique"
+          ]
+        },
         {
           "id": "gw6kj6uvbg9na",
           "name": "Berlioz: Symphonie Fantastique",
@@ -75650,37 +76035,6 @@
           "release_date": "2016-08-10",
           "image": "https://static.qobuz.com/images/covers/xa/c3/vdswjx5jgc3xa_230.jpg",
           "url": "https://www.qobuz.com/fr-fr/album/berlioz-symphonie-fantastique-seiji-ozawa-saito-kinen-orchestra/vdswjx5jgc3xa",
-          "status": "unchecked",
-          "confidence": null,
-          "coverage": 0.0,
-          "covered": 0,
-          "target_count": 1,
-          "required_performers": [
-            "Seiji Ozawa",
-            "Boston Symphony Orchestra"
-          ],
-          "programme": [
-            {
-              "target": "Symphonie Fantastique Op. 24",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ],
-          "reasons": [
-            "0/1 target items supported after composer/work grouping; unresolved."
-          ]
-        },
-        {
-          "id": "0002894694782",
-          "name": "Berlioz: Symphonie fantastique",
-          "artists": [
-            "Boston Symphony Orchestra"
-          ],
-          "label": "Deutsche Grammophon (DG)",
-          "release_date": "1973-01-01",
-          "image": "https://static.qobuz.com/images/covers/82/47/0002894694782_230.jpg",
-          "url": "https://www.qobuz.com/fr-fr/album/berlioz-symphonie-fantastique-boston-symphony-orchestra-seiji-ozawa/0002894694782",
           "status": "unchecked",
           "confidence": null,
           "coverage": 0.0,
@@ -75768,7 +76122,12 @@
       "query": "seiji ozawa berlioz symphonie fantastique",
       "searched_at": "2026-11-12T15:58:21.072686+00:00",
       "reasons": [
-        "0/1 target items supported after composer/work grouping; unresolved."
+        "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+        "DG publisher corroborates source catalogue4864506, Ozawa/Boston and the five-movement SymphonieFantastique. Official shop identifies Op14/H48 rather than raw Op24. All five source/digital movements, cast and timings align; preserve raw discrepancy and do not claim identical OriginalSourceLP mastering.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Raw source heading says Op24; official DG identifies Op14/H48. Preserve this discrepancy. OriginalSourceLP analogue mastering is not verified as equal to this digital edition; one Romeo/Juliet extra is excluded."
       ]
     },
     "6052186": {
@@ -82016,7 +82375,17 @@
       "searched_at": "2026-11-12T16:01:36.351565+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Saved Gieseking Debussy piano works do not supply source multi-composer concerto box.",
+        "limitations": [
+          "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+          "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+          "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+        ]
+      }
     },
     "7002243": {
       "status": "probable",
@@ -82176,7 +82545,17 @@
       "searched_at": "2026-11-12T16:04:07.571493+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Saved Gieseking Debussy album does not supply source Beethoven sonata collection. Source duplicate/incorrect opus labels are separate issues, not proof this candidate matches.",
+        "limitations": [
+          "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+          "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+          "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+        ]
+      }
     },
     "33198774": {
       "status": "unchecked",
@@ -82187,7 +82566,17 @@
       "searched_at": "2026-11-12T16:04:22.420783+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Saved Gieseking Debussy piano album is not source Mozart wind-and-piano QuintetK452.",
+        "limitations": [
+          "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+          "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+          "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+        ]
+      }
     },
     "3044759": {
       "status": "unchecked",
@@ -92384,10 +92773,19 @@
             }
           ],
           "reasons": [
+            "Handel source uses opus/ordinal and split-band work names; saved wedding/relaxing anthologies do not establish the entire harp/flute/double/grosso/oboe programme. Any HWV equivalences require exact work-level proof.",
+            "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+            "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+            "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording.",
             "0/6 target items supported after composer/work grouping; unresolved.",
             "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
           ],
-          "work_group_policy": "qobuz-work-groups-v1"
+          "work_group_policy": "qobuz-work-groups-v1",
+          "recording_review_decision": "withhold",
+          "recording_review": "Handel source uses opus/ordinal and split-band work names; saved wedding/relaxing anthologies do not establish the entire harp/flute/double/grosso/oboe programme. Any HWV equivalences require exact work-level proof.",
+          "review_sources": [
+            "https://www.discogs.com/release/12534352"
+          ]
         }
       ],
       "query": "jean francois paillard handel concerto pour harpe et orchestre",
@@ -92395,7 +92793,17 @@
       "reasons": [
         "0/6 target items supported after composer/work grouping; unresolved.",
         "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Handel source uses opus/ordinal and split-band work names; saved wedding/relaxing anthologies do not establish the entire harp/flute/double/grosso/oboe programme. Any HWV equivalences require exact work-level proof.",
+        "limitations": [
+          "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+          "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+          "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+        ]
+      }
     },
     "22663367": {
       "status": "unchecked",
@@ -94697,7 +95105,16 @@
             }
           ],
           "reasons": [
+            "Same opus-parent clues find scattered Etudes, not both complete sets by source Monique Haas. Duchable/other pianists must not substitute for Haas.",
+            "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+            "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+            "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording.",
             "0/2 target items supported after composer/work grouping; unresolved."
+          ],
+          "recording_review_decision": "withhold",
+          "recording_review": "Same opus-parent clues find scattered Etudes, not both complete sets by source Monique Haas. Duchable/other pianists must not substitute for Haas.",
+          "review_sources": [
+            "https://www.discogs.com/release/6232060"
           ]
         },
         {
@@ -94740,8 +95157,22 @@
       "query": "monique haas chopin les etudes",
       "searched_at": "2026-11-12T16:09:07.124941+00:00",
       "reasons": [
+        "Same opus-parent clues find scattered Etudes, not both complete sets by source Monique Haas. Duchable/other pianists must not substitute for Haas.",
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording.",
         "0/2 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Same opus-parent clues find scattered Etudes, not both complete sets by source Monique Haas. Duchable/other pianists must not substitute for Haas.",
+        "limitations": [
+          "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+          "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+          "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+        ]
+      }
     },
     "20282824": {
       "status": "unchecked",
@@ -94752,7 +95183,17 @@
       "searched_at": "2026-11-12T16:09:22.181184+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Pires solo anthology has22positively credited Op28preludes, not all24plus source Op45. Set-parent clue is partial support only; repeated source key labels need preserved verification.",
+        "limitations": [
+          "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+          "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+          "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+        ]
+      }
     },
     "5940478": {
       "status": "unchecked",
@@ -94815,9 +95256,19 @@
       }
     },
     "2383222": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "f73xe4lyik2jc",
+        "name": "Chopin: Études, Op. 10 & 25",
+        "artists": [
+          "François-René Duchable"
+        ],
+        "label": "Warner Classics",
+        "release_date": "1981-07-01",
+        "image": "https://static.qobuz.com/images/covers/jc/k2/f73xe4lyik2jc_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/chopin-etudes-op-10-25-francois-rene-duchable/f73xe4lyik2jc"
+      },
       "candidates": [
         {
           "id": "f73xe4lyik2jc",
@@ -94829,30 +95280,754 @@
           "release_date": "1981-07-01",
           "image": "https://static.qobuz.com/images/covers/jc/k2/f73xe4lyik2jc_230.jpg",
           "url": "https://www.qobuz.com/fr-fr/album/chopin-etudes-op-10-25-francois-rene-duchable/f73xe4lyik2jc",
-          "status": "unchecked",
-          "confidence": null,
-          "coverage": 0.0,
-          "covered": 0,
-          "target_count": 2,
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 24,
+          "target_count": 24,
           "required_performers": [
             "François-René Duchâble"
           ],
           "programme": [
             {
-              "target": "Etudes Opus 10",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "target": "A1: En Do Majeur",
+              "source_path": [
+                0,
+                0
+              ],
+              "track_ids": [
+                165305041
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "François-René Duchâble"
+              ]
             },
             {
-              "target": "Etudes Opus 25",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "target": "A2: En La Mineur",
+              "source_path": [
+                0,
+                1
+              ],
+              "track_ids": [
+                165305042
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "François-René Duchâble"
+              ]
+            },
+            {
+              "target": "A3: En Mi Majeur",
+              "source_path": [
+                0,
+                2
+              ],
+              "track_ids": [
+                165305043
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "François-René Duchâble"
+              ]
+            },
+            {
+              "target": "A4: En Do Dièse Mineur",
+              "source_path": [
+                0,
+                3
+              ],
+              "track_ids": [
+                165305044
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "François-René Duchâble"
+              ]
+            },
+            {
+              "target": "A5: En Sol Bémol Majeur",
+              "source_path": [
+                0,
+                4
+              ],
+              "track_ids": [
+                165305045
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "François-René Duchâble"
+              ]
+            },
+            {
+              "target": "A6: En Mi Bémol Mineur",
+              "source_path": [
+                0,
+                5
+              ],
+              "track_ids": [
+                165305046
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "François-René Duchâble"
+              ]
+            },
+            {
+              "target": "A7: En Do Majeur",
+              "source_path": [
+                0,
+                6
+              ],
+              "track_ids": [
+                165305047
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "François-René Duchâble"
+              ]
+            },
+            {
+              "target": "A8: En Fa Majeur",
+              "source_path": [
+                0,
+                7
+              ],
+              "track_ids": [
+                165305048
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "François-René Duchâble"
+              ]
+            },
+            {
+              "target": "A9: En Fa Mineur",
+              "source_path": [
+                0,
+                8
+              ],
+              "track_ids": [
+                165305049
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "François-René Duchâble"
+              ]
+            },
+            {
+              "target": "A10: En La Bémol Majeur",
+              "source_path": [
+                0,
+                9
+              ],
+              "track_ids": [
+                165305050
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "François-René Duchâble"
+              ]
+            },
+            {
+              "target": "A11: En Mi Bémol Majeur",
+              "source_path": [
+                0,
+                10
+              ],
+              "track_ids": [
+                165305051
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "François-René Duchâble"
+              ]
+            },
+            {
+              "target": "A12: En Do Mineur",
+              "source_path": [
+                0,
+                11
+              ],
+              "track_ids": [
+                165305052
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "François-René Duchâble"
+              ]
+            },
+            {
+              "target": "B1: En La Bémol Majeur",
+              "source_path": [
+                1,
+                0
+              ],
+              "track_ids": [
+                165305053
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "François-René Duchâble"
+              ]
+            },
+            {
+              "target": "B2: En Fa Mineur",
+              "source_path": [
+                1,
+                1
+              ],
+              "track_ids": [
+                165305054
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "François-René Duchâble"
+              ]
+            },
+            {
+              "target": "B3: En Fa Majeur",
+              "source_path": [
+                1,
+                2
+              ],
+              "track_ids": [
+                165305055
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "François-René Duchâble"
+              ]
+            },
+            {
+              "target": "B4: En La Mineur",
+              "source_path": [
+                1,
+                3
+              ],
+              "track_ids": [
+                165305056
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "François-René Duchâble"
+              ]
+            },
+            {
+              "target": "B5: En Mi Mineur",
+              "source_path": [
+                1,
+                4
+              ],
+              "track_ids": [
+                165305057
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "François-René Duchâble"
+              ]
+            },
+            {
+              "target": "B6: En Sol Dièse Mineur",
+              "source_path": [
+                1,
+                5
+              ],
+              "track_ids": [
+                165305058
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "François-René Duchâble"
+              ]
+            },
+            {
+              "target": "B7: En Do Dièse Mineur",
+              "source_path": [
+                1,
+                6
+              ],
+              "track_ids": [
+                165305059
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "François-René Duchâble"
+              ]
+            },
+            {
+              "target": "B8: En Ré Bémol Majeur",
+              "source_path": [
+                1,
+                7
+              ],
+              "track_ids": [
+                165305060
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "François-René Duchâble"
+              ]
+            },
+            {
+              "target": "B9: En Sol Bémol Majeur",
+              "source_path": [
+                1,
+                8
+              ],
+              "track_ids": [
+                165305061
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "François-René Duchâble"
+              ]
+            },
+            {
+              "target": "B10: En Si Mineur",
+              "source_path": [
+                1,
+                9
+              ],
+              "track_ids": [
+                165305062
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "François-René Duchâble"
+              ]
+            },
+            {
+              "target": "B11: En La Mineur",
+              "source_path": [
+                1,
+                10
+              ],
+              "track_ids": [
+                165305063
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "François-René Duchâble"
+              ]
+            },
+            {
+              "target": "B12: En Do Mineur",
+              "source_path": [
+                1,
+                11
+              ],
+              "track_ids": [
+                165305064
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "François-René Duchâble"
+              ]
             }
           ],
           "reasons": [
-            "0/2 target items supported after composer/work grouping; unresolved."
+            "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+            "All24 source key/position leaves correspond to candidate f73xe4lyik2jc explicit Op10Nos1–12 and Op25Nos1–12, with positive Duchable and Chopin on every track. Review through full source-leaf bindings, not general opus-parent acceptance.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+            "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+            "Source has no movement durations; no LP/digital timing agreement claimed. All24source-key/position leaves are individually bound; a few anthology etudes cannot substitute for complete sets."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "A1: En Do Majeur",
+                "source_path": [
+                  0,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  165305041
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 121,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A2: En La Mineur",
+                "source_path": [
+                  0,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  165305042
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 87,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A3: En Mi Majeur",
+                "source_path": [
+                  0,
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  165305043
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 247,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A4: En Do Dièse Mineur",
+                "source_path": [
+                  0,
+                  3
+                ],
+                "status": "complete",
+                "track_ids": [
+                  165305044
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 140,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A5: En Sol Bémol Majeur",
+                "source_path": [
+                  0,
+                  4
+                ],
+                "status": "complete",
+                "track_ids": [
+                  165305045
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 102,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A6: En Mi Bémol Mineur",
+                "source_path": [
+                  0,
+                  5
+                ],
+                "status": "complete",
+                "track_ids": [
+                  165305046
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 233,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A7: En Do Majeur",
+                "source_path": [
+                  0,
+                  6
+                ],
+                "status": "complete",
+                "track_ids": [
+                  165305047
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 97,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A8: En Fa Majeur",
+                "source_path": [
+                  0,
+                  7
+                ],
+                "status": "complete",
+                "track_ids": [
+                  165305048
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 148,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A9: En Fa Mineur",
+                "source_path": [
+                  0,
+                  8
+                ],
+                "status": "complete",
+                "track_ids": [
+                  165305049
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 128,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A10: En La Bémol Majeur",
+                "source_path": [
+                  0,
+                  9
+                ],
+                "status": "complete",
+                "track_ids": [
+                  165305050
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 132,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A11: En Mi Bémol Majeur",
+                "source_path": [
+                  0,
+                  10
+                ],
+                "status": "complete",
+                "track_ids": [
+                  165305051
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 154,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A12: En Do Mineur",
+                "source_path": [
+                  0,
+                  11
+                ],
+                "status": "complete",
+                "track_ids": [
+                  165305052
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 157,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B1: En La Bémol Majeur",
+                "source_path": [
+                  1,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  165305053
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 155,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B2: En Fa Mineur",
+                "source_path": [
+                  1,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  165305054
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 95,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B3: En Fa Majeur",
+                "source_path": [
+                  1,
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  165305055
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 110,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B4: En La Mineur",
+                "source_path": [
+                  1,
+                  3
+                ],
+                "status": "complete",
+                "track_ids": [
+                  165305056
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 108,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B5: En Mi Mineur",
+                "source_path": [
+                  1,
+                  4
+                ],
+                "status": "complete",
+                "track_ids": [
+                  165305057
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 188,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B6: En Sol Dièse Mineur",
+                "source_path": [
+                  1,
+                  5
+                ],
+                "status": "complete",
+                "track_ids": [
+                  165305058
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 116,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B7: En Do Dièse Mineur",
+                "source_path": [
+                  1,
+                  6
+                ],
+                "status": "complete",
+                "track_ids": [
+                  165305059
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 348,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B8: En Ré Bémol Majeur",
+                "source_path": [
+                  1,
+                  7
+                ],
+                "status": "complete",
+                "track_ids": [
+                  165305060
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 74,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B9: En Sol Bémol Majeur",
+                "source_path": [
+                  1,
+                  8
+                ],
+                "status": "complete",
+                "track_ids": [
+                  165305061
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 62,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B10: En Si Mineur",
+                "source_path": [
+                  1,
+                  9
+                ],
+                "status": "complete",
+                "track_ids": [
+                  165305062
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 241,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B11: En La Mineur",
+                "source_path": [
+                  1,
+                  10
+                ],
+                "status": "complete",
+                "track_ids": [
+                  165305063
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 219,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B12: En Do Mineur",
+                "source_path": [
+                  1,
+                  11
+                ],
+                "status": "complete",
+                "track_ids": [
+                  165305064
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 140,
+                "source_duration_notes": []
+              }
+            ]
+          },
+          "recording_review": "All24 source key/position leaves correspond to candidate f73xe4lyik2jc explicit Op10Nos1–12 and Op25Nos1–12, with positive Duchable and Chopin on every track. Review through full source-leaf bindings, not general opus-parent acceptance.",
+          "review_sources": [
+            "https://www.discogs.com/release/2383222",
+            "https://www.warnerclassics.com/release/chopin-etudes"
           ]
         },
         {
@@ -94931,7 +96106,12 @@
       "query": "francois rene duchable chopin etudes op 10 op 25",
       "searched_at": "2026-11-12T16:10:22.551014+00:00",
       "reasons": [
-        "0/2 target items supported after composer/work grouping; unresolved."
+        "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+        "All24 source key/position leaves correspond to candidate f73xe4lyik2jc explicit Op10Nos1–12 and Op25Nos1–12, with positive Duchable and Chopin on every track. Review through full source-leaf bindings, not general opus-parent acceptance.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Source has no movement durations; no LP/digital timing agreement claimed. All24source-key/position leaves are individually bound; a few anthology etudes cannot substitute for complete sets."
       ]
     },
     "5883743": {
@@ -94943,7 +96123,17 @@
       "searched_at": "2026-11-12T16:10:37.517402+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Saved Pires solo anthologies do not establish both source Chopin concertos and Krakowiak with Jordan/Monte-Carlo orchestra.",
+        "limitations": [
+          "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+          "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+          "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+        ]
+      }
     },
     "10675304": {
       "status": "unchecked",
@@ -96117,7 +97307,17 @@
       "searched_at": "2026-11-12T16:13:37.932495+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Shostakovich Symphony8 Op65 is not source Symphony4 Op43. Do not relax the symphony number.",
+        "limitations": [
+          "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+          "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+          "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+        ]
+      }
     },
     "3646455": {
       "status": "unchecked",
@@ -101370,18 +102570,41 @@
             }
           ],
           "reasons": [
+            "Saved Richter Beethoven piano/triple concertos are not source multi-composer violin concerto box. Opus coincidences cannot repair instrumentation/composer gaps.",
+            "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+            "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+            "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording.",
             "0/7 target items supported after composer/work grouping; unresolved.",
             "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
           ],
-          "work_group_policy": "qobuz-work-groups-v1"
+          "work_group_policy": "qobuz-work-groups-v1",
+          "recording_review_decision": "withhold",
+          "recording_review": "Saved Richter Beethoven piano/triple concertos are not source multi-composer violin concerto box. Opus coincidences cannot repair instrumentation/composer gaps.",
+          "review_sources": [
+            "https://www.discogs.com/release/10563889"
+          ]
         }
       ],
       "query": "david oistrach beethoven plays concertos",
       "searched_at": "2026-11-12T16:19:53.215331+00:00",
       "reasons": [
+        "Saved Richter Beethoven piano/triple concertos are not source multi-composer violin concerto box. Opus coincidences cannot repair instrumentation/composer gaps.",
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording.",
         "0/7 target items supported after composer/work grouping; unresolved.",
         "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Saved Richter Beethoven piano/triple concertos are not source multi-composer violin concerto box. Opus coincidences cannot repair instrumentation/composer gaps.",
+        "limitations": [
+          "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+          "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+          "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+        ]
+      }
     },
     "5454594": {
       "status": "unchecked",
@@ -106221,7 +107444,17 @@
       "searched_at": "2026-11-12T16:22:54.101885+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Saved Klemperer candidates are Passions/Mass or anthology excerpts, not source Hungarian Magnificat BWV243 plus Brandenburg5 BWV1050 and its named players.",
+        "limitations": [
+          "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+          "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+          "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+        ]
+      }
     },
     "4230971": {
       "status": "unchecked",
@@ -106262,15 +107495,38 @@
             }
           ],
           "reasons": [
+            "HobXXII:14 and Harmoniemesse identify a compatible programme, but source Lubomir Matl is undeclared, singers are AssociatedPerformer-only and source Joseph Haydn differs from track Franz Joseph Haydn. Source splits Credo/EtIncarnatus while cache joins them; no missing-credit waiver.",
+            "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+            "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+            "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording.",
             "0/1 target items supported after composer/work grouping; unresolved."
+          ],
+          "recording_review_decision": "withhold",
+          "recording_review": "HobXXII:14 and Harmoniemesse identify a compatible programme, but source Lubomir Matl is undeclared, singers are AssociatedPerformer-only and source Joseph Haydn differs from track Franz Joseph Haydn. Source splits Credo/EtIncarnatus while cache joins them; no missing-credit waiver.",
+          "review_sources": [
+            "https://www.discogs.com/release/4230971"
           ]
         }
       ],
       "query": "janos ferencsik haydn harmoniemesse",
       "searched_at": "2026-11-12T16:23:07.993963+00:00",
       "reasons": [
+        "HobXXII:14 and Harmoniemesse identify a compatible programme, but source Lubomir Matl is undeclared, singers are AssociatedPerformer-only and source Joseph Haydn differs from track Franz Joseph Haydn. Source splits Credo/EtIncarnatus while cache joins them; no missing-credit waiver.",
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording.",
         "0/1 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "HobXXII:14 and Harmoniemesse identify a compatible programme, but source Lubomir Matl is undeclared, singers are AssociatedPerformer-only and source Joseph Haydn differs from track Franz Joseph Haydn. Source splits Credo/EtIncarnatus while cache joins them; no missing-credit waiver.",
+        "limitations": [
+          "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+          "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+          "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+        ]
+      }
     },
     "5987607": {
       "status": "unchecked",
@@ -107848,7 +109104,17 @@
       "searched_at": "2026-11-12T16:26:08.457724+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Source Beethoven4 plus Egmont songs/excerpts cites Op64; canonical Egmont is Op84. Complete-symphony candidate supplies a Symphony4 clue, but source unscoped Nilsson and whole Egmont coupling still need recording/band/cast proof. No source correction or singer waiver.",
+        "limitations": [
+          "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+          "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+          "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+        ]
+      }
     },
     "26149832": {
       "status": "probable",
@@ -109322,7 +110588,17 @@
       "searched_at": "2026-11-12T16:34:24.299937+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Saved Wagner operas/Bach anthology do not establish the whole source vocal recital of Wagner/Brahms/Bach/Gluck/Handel; no borrowing across different works or casts.",
+        "limitations": [
+          "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+          "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+          "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+        ]
+      }
     },
     "8918375": {
       "status": "unchecked",
@@ -116207,7 +117483,17 @@
       "searched_at": "2026-11-12T16:49:10.270205+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Saved Rilling cantata selection does not establish both source BWV149/188; ensemble label alone does not fill absent works.",
+        "limitations": [
+          "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+          "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+          "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+        ]
+      }
     },
     "7309632": {
       "status": "unchecked",
@@ -117463,7 +118749,17 @@
       "searched_at": "2026-11-12T16:51:55.297830+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Saved Mozart concertos/Schubert four-hand FantasyD940 do not supply source Schubert MomentsMusicauxOp94 and Schumann NachtstuckeOp23.",
+        "limitations": [
+          "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+          "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+          "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+        ]
+      }
     },
     "16463043": {
       "status": "unchecked",
@@ -120028,7 +121324,17 @@
       "searched_at": "2026-11-12T16:56:25.120085+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Saved Bach EasterOratorio BWV249/BWV200 does not supply source Gloria plus Magnificat BWV243.",
+        "limitations": [
+          "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+          "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+          "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+        ]
+      }
     },
     "1421356": {
       "status": "unchecked",
@@ -120660,7 +121966,17 @@
       "searched_at": "2026-11-12T16:57:10.277772+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Relaxing anthology does not establish both complete source Bach cantatas BWV199 and BWV209 with the source cast.",
+        "limitations": [
+          "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+          "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+          "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+        ]
+      }
     },
     "11452132": {
       "status": "unchecked",
@@ -121163,7 +122479,17 @@
       "searched_at": "2026-11-12T17:01:26.110772+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Saved Mendelssohn symphony editions do not supply source Songs Without Words and solo variations/rondo programme.",
+        "limitations": [
+          "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+          "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+          "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+        ]
+      }
     },
     "15293035": {
       "status": "unchecked",
@@ -125502,7 +126828,16 @@
             }
           ],
           "reasons": [
+            "Couraud candidates contain BWV249/200/140/150/243/31 rather than source BWV11 and BWV65. Shared conductor is not work identity.",
+            "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+            "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+            "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording.",
             "0/2 target items supported after composer/work grouping; unresolved."
+          ],
+          "recording_review_decision": "withhold",
+          "recording_review": "Couraud candidates contain BWV249/200/140/150/243/31 rather than source BWV11 and BWV65. Shared conductor is not work identity.",
+          "review_sources": [
+            "https://www.discogs.com/release/1640528"
           ]
         },
         {
@@ -125665,8 +127000,22 @@
       "query": "marcel couraud bach bach kantaten",
       "searched_at": "2026-11-12T17:07:56.313622+00:00",
       "reasons": [
+        "Couraud candidates contain BWV249/200/140/150/243/31 rather than source BWV11 and BWV65. Shared conductor is not work identity.",
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording.",
         "0/2 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Couraud candidates contain BWV249/200/140/150/243/31 rather than source BWV11 and BWV65. Shared conductor is not work identity.",
+        "limitations": [
+          "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+          "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+          "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+        ]
+      }
     },
     "4395895": {
       "status": "probable",
@@ -126174,7 +127523,17 @@
       "searched_at": "2026-11-12T17:09:11.219576+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Haebler Mozart piano sonatas do not supply the eight source piano concertos and their orchestras/conductors.",
+        "limitations": [
+          "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+          "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+          "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+        ]
+      }
     },
     "3470778": {
       "status": "unchecked",
@@ -146889,7 +148248,17 @@
       "searched_at": "2026-11-12T17:35:44.188706+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Saved Tchaikovsky/Prokofiev/Bartok piano concertos do not supply source Russian solo recital and specified opus members.",
+        "limitations": [
+          "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+          "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+          "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+        ]
+      }
     },
     "10676527": {
       "status": "unchecked",
@@ -150497,7 +151866,17 @@
       "searched_at": "2026-11-12T17:39:59.081790+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Saved Ameling anthology/Magnificat editions do not establish all four source cantatas BWV128–131 and source cast.",
+        "limitations": [
+          "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+          "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+          "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+        ]
+      }
     },
     "6220295": {
       "status": "unchecked",
@@ -151032,15 +152411,38 @@
             }
           ],
           "reasons": [
+            "CPE Bach chamber music/cantata is not JS Bach source BWV27/118/158/59. Composer identity must remain explicit.",
+            "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+            "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+            "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording.",
             "0/4 target items supported after composer/work grouping; unresolved."
+          ],
+          "recording_review_decision": "withhold",
+          "recording_review": "CPE Bach chamber music/cantata is not JS Bach source BWV27/118/158/59. Composer identity must remain explicit.",
+          "review_sources": [
+            "https://www.discogs.com/release/9732615"
           ]
         }
       ],
       "query": "jaap schroder bach kantaten cantatas",
       "searched_at": "2026-11-12T17:40:44.186875+00:00",
       "reasons": [
+        "CPE Bach chamber music/cantata is not JS Bach source BWV27/118/158/59. Composer identity must remain explicit.",
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording.",
         "0/4 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "CPE Bach chamber music/cantata is not JS Bach source BWV27/118/158/59. Composer identity must remain explicit.",
+        "limitations": [
+          "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+          "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+          "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+        ]
+      }
     },
     "2526032": {
       "status": "unchecked",
@@ -151062,7 +152464,17 @@
       "searched_at": "2026-11-12T17:41:14.374009+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Harnoncourt Matthew Passion BWV244 is not Coffee/Peasant Cantatas BWV211/212.",
+        "limitations": [
+          "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+          "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+          "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+        ]
+      }
     },
     "9104884": {
       "status": "unchecked",
@@ -151491,7 +152903,16 @@
             }
           ],
           "reasons": [
+            "Source dotted BWV1.066/1.067/1.068/1.048/1.049/1.050/1.061 needs notation care, but saved French Suites/anthologies do not establish the complete orchestral source programme.",
+            "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+            "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+            "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording.",
             "0/8 target items supported after composer/work grouping; unresolved."
+          ],
+          "recording_review_decision": "withhold",
+          "recording_review": "Source dotted BWV1.066/1.067/1.068/1.048/1.049/1.050/1.061 needs notation care, but saved French Suites/anthologies do not establish the complete orchestral source programme.",
+          "review_sources": [
+            "https://www.discogs.com/release/7269277"
           ]
         }
       ],
@@ -151499,7 +152920,17 @@
       "searched_at": "2026-11-12T17:43:44.551055+00:00",
       "reasons": [
         "0/8 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Source dotted BWV1.066/1.067/1.068/1.048/1.049/1.050/1.061 needs notation care, but saved French Suites/anthologies do not establish the complete orchestral source programme.",
+        "limitations": [
+          "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+          "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+          "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+        ]
+      }
     },
     "8182960": {
       "status": "unchecked",

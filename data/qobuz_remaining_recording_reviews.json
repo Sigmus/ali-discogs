@@ -23477,6 +23477,1511 @@
         "No source musician, ensemble or programme requirement is waived. No global alias/role/threshold change.",
         "Copy-only title/work context does not establish complete recording identity or positive credits."
       ]
+    },
+    {
+      "discogs_id": "1372856",
+      "album_id": "0083603770822",
+      "target_sha256": "78966e4acf197c7fc9f39344aa6c1896fcf6293a3882a0326a1c6f7a817effba",
+      "source_sha256": "246ac78a59cf28871cf77e6c0a0b2248eb3e92cbf6f7b0367e3ff0c9999c1387",
+      "album_sha256": "9f3d3ed893345c3dad6a958a7280d597582b333ac1cff97728a22952a4587a05",
+      "decision": "withhold",
+      "recording_review": "Cherkassky encore anthology has other Chopin pieces, including Op22, not the complete seven source polonaises Op26/40/44/53/61.",
+      "sources": [
+        "https://www.discogs.com/release/1372856"
+      ],
+      "limitations": [
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+      ]
+    },
+    {
+      "discogs_id": "1640528",
+      "album_id": "3610153847604",
+      "target_sha256": "cc266a009776473e3f6d04be86f75760b27b4d2ced7fa81b17d3a8d66077dbe6",
+      "source_sha256": "7d69051e4ff63657bde1ecdfa74be086f82a592798332a39542b67b73d9625ca",
+      "album_sha256": "ef8ca25f4bf53f4f547d22ec0d69d1e63ce0b1daef30b17f75f3ef7890cf3bb6",
+      "decision": "withhold",
+      "recording_review": "Couraud candidates contain BWV249/200/140/150/243/31 rather than source BWV11 and BWV65. Shared conductor is not work identity.",
+      "sources": [
+        "https://www.discogs.com/release/1640528"
+      ],
+      "limitations": [
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+      ]
+    },
+    {
+      "discogs_id": "1730282",
+      "album_id": "bdqnga93vv6uc",
+      "target_sha256": "1eefc8929bbfa218ffc6e1dc85327bfdc3fc9c28c17eb1d82045bfbdbf720811",
+      "source_sha256": "1ff3f5a95a7349ba0c2dea3962e8b2769090591776510e4616e7562bb16df552",
+      "album_sha256": "42df2d9226f278133d47d0bc321025b1edf2965cadd51d66256f166e5280b83c",
+      "decision": "withhold",
+      "recording_review": "Saved Klemperer candidates are Passions/Mass or anthology excerpts, not source Hungarian Magnificat BWV243 plus Brandenburg5 BWV1050 and its named players.",
+      "sources": [
+        "https://www.discogs.com/release/1730282"
+      ],
+      "limitations": [
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+      ]
+    },
+    {
+      "discogs_id": "2383222",
+      "album_id": "f73xe4lyik2jc",
+      "target_sha256": "970df469bbd9962632b61a4a67d058c03fb01f64b9c5da0fca9aec9acf339d39",
+      "source_sha256": "4490cfaa2b67e93aff99113ba61330f03f8e11c84594236e0974067259cb0b0a",
+      "album_sha256": "39ff038419683895c6e0f399d38fa9d4a8be4ef52386344028925a330652cc83",
+      "decision": "probable",
+      "recording_review": "All24 source key/position leaves correspond to candidate f73xe4lyik2jc explicit Op10Nos1–12 and Op25Nos1–12, with positive Duchable and Chopin on every track. Review through full source-leaf bindings, not general opus-parent acceptance.",
+      "sources": [
+        "https://www.discogs.com/release/2383222",
+        "https://www.warnerclassics.com/release/chopin-etudes"
+      ],
+      "limitations": [
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Source has no movement durations; no LP/digital timing agreement claimed. All24source-key/position leaves are individually bound; a few anthology etudes cannot substitute for complete sets."
+      ],
+      "external_source_files": [
+        {
+          "path": "data/review_sources/catalogue40-duchable/primary-observation.json",
+          "sha256": "cff3df0c2c598338d11724ea497af332373a1643d2e6bdecf311509aaf6f6b29"
+        }
+      ],
+      "review_kind": "source-leaf-bands",
+      "source_outline_sha256": "b18ef806c67c12f1806fa905b62f6412c44ec22081e575d9b98fe8ab0ee48945",
+      "source_leaves": [
+        {
+          "path": [
+            0,
+            0
+          ],
+          "source_work": "Etudes Opus 10",
+          "title": "En Do Majeur",
+          "position": "A1",
+          "duration": ""
+        },
+        {
+          "path": [
+            0,
+            1
+          ],
+          "source_work": "Etudes Opus 10",
+          "title": "En La Mineur",
+          "position": "A2",
+          "duration": ""
+        },
+        {
+          "path": [
+            0,
+            2
+          ],
+          "source_work": "Etudes Opus 10",
+          "title": "En Mi Majeur",
+          "position": "A3",
+          "duration": ""
+        },
+        {
+          "path": [
+            0,
+            3
+          ],
+          "source_work": "Etudes Opus 10",
+          "title": "En Do Dièse Mineur",
+          "position": "A4",
+          "duration": ""
+        },
+        {
+          "path": [
+            0,
+            4
+          ],
+          "source_work": "Etudes Opus 10",
+          "title": "En Sol Bémol Majeur",
+          "position": "A5",
+          "duration": ""
+        },
+        {
+          "path": [
+            0,
+            5
+          ],
+          "source_work": "Etudes Opus 10",
+          "title": "En Mi Bémol Mineur",
+          "position": "A6",
+          "duration": ""
+        },
+        {
+          "path": [
+            0,
+            6
+          ],
+          "source_work": "Etudes Opus 10",
+          "title": "En Do Majeur",
+          "position": "A7",
+          "duration": ""
+        },
+        {
+          "path": [
+            0,
+            7
+          ],
+          "source_work": "Etudes Opus 10",
+          "title": "En Fa Majeur",
+          "position": "A8",
+          "duration": ""
+        },
+        {
+          "path": [
+            0,
+            8
+          ],
+          "source_work": "Etudes Opus 10",
+          "title": "En Fa Mineur",
+          "position": "A9",
+          "duration": ""
+        },
+        {
+          "path": [
+            0,
+            9
+          ],
+          "source_work": "Etudes Opus 10",
+          "title": "En La Bémol Majeur",
+          "position": "A10",
+          "duration": ""
+        },
+        {
+          "path": [
+            0,
+            10
+          ],
+          "source_work": "Etudes Opus 10",
+          "title": "En Mi Bémol Majeur",
+          "position": "A11",
+          "duration": ""
+        },
+        {
+          "path": [
+            0,
+            11
+          ],
+          "source_work": "Etudes Opus 10",
+          "title": "En Do Mineur",
+          "position": "A12",
+          "duration": ""
+        },
+        {
+          "path": [
+            1,
+            0
+          ],
+          "source_work": "Etudes Opus 25",
+          "title": "En La Bémol Majeur",
+          "position": "B1",
+          "duration": ""
+        },
+        {
+          "path": [
+            1,
+            1
+          ],
+          "source_work": "Etudes Opus 25",
+          "title": "En Fa Mineur",
+          "position": "B2",
+          "duration": ""
+        },
+        {
+          "path": [
+            1,
+            2
+          ],
+          "source_work": "Etudes Opus 25",
+          "title": "En Fa Majeur",
+          "position": "B3",
+          "duration": ""
+        },
+        {
+          "path": [
+            1,
+            3
+          ],
+          "source_work": "Etudes Opus 25",
+          "title": "En La Mineur",
+          "position": "B4",
+          "duration": ""
+        },
+        {
+          "path": [
+            1,
+            4
+          ],
+          "source_work": "Etudes Opus 25",
+          "title": "En Mi Mineur",
+          "position": "B5",
+          "duration": ""
+        },
+        {
+          "path": [
+            1,
+            5
+          ],
+          "source_work": "Etudes Opus 25",
+          "title": "En Sol Dièse Mineur",
+          "position": "B6",
+          "duration": ""
+        },
+        {
+          "path": [
+            1,
+            6
+          ],
+          "source_work": "Etudes Opus 25",
+          "title": "En Do Dièse Mineur",
+          "position": "B7",
+          "duration": ""
+        },
+        {
+          "path": [
+            1,
+            7
+          ],
+          "source_work": "Etudes Opus 25",
+          "title": "En Ré Bémol Majeur",
+          "position": "B8",
+          "duration": ""
+        },
+        {
+          "path": [
+            1,
+            8
+          ],
+          "source_work": "Etudes Opus 25",
+          "title": "En Sol Bémol Majeur",
+          "position": "B9",
+          "duration": ""
+        },
+        {
+          "path": [
+            1,
+            9
+          ],
+          "source_work": "Etudes Opus 25",
+          "title": "En Si Mineur",
+          "position": "B10",
+          "duration": ""
+        },
+        {
+          "path": [
+            1,
+            10
+          ],
+          "source_work": "Etudes Opus 25",
+          "title": "En La Mineur",
+          "position": "B11",
+          "duration": ""
+        },
+        {
+          "path": [
+            1,
+            11
+          ],
+          "source_work": "Etudes Opus 25",
+          "title": "En Do Mineur",
+          "position": "B12",
+          "duration": ""
+        }
+      ],
+      "source_heading_groups": [],
+      "extra_track_ids": [],
+      "selected_track_fingerprints": {
+        "165305041": "04b715f902824423c18b00e06a2d7fa5737545aff2f442a9a8699253446bf08a",
+        "165305042": "bd977dbcd793310fad6f2663cb4722d2760bdee03caf1247e0dab38c50c53a86",
+        "165305043": "f35be9573f3560efe617402c7a6751352d657bfc45fd8ca8fcf8b1f599396f30",
+        "165305044": "6f13190ec09d214e358069435c7687d5f6a16c4127f2c01de0287399ea542766",
+        "165305045": "2d948cb9c5524459adb751dfda07ce890ccb0038ffa192bdbdaa7523666f27bd",
+        "165305046": "403ac237cff60d40091955af59364615271ce9d87d4612e81dc1781e04895a0a",
+        "165305047": "6d9a1ec566c7fd6e870f2e9c4f894479720d9d9e821a0fc7d37c9a9b96a85acc",
+        "165305048": "7fea7cc5e9c908190f794dfdb5767118ea94672982eab6ebb432b58026c8fed3",
+        "165305049": "81187f376888fcd893f7099bd36d732d2ebbc75221e1520cf0bad54884ccbe8d",
+        "165305050": "eb85a8a828ae2660c5ed7bc7e87d9fb300f5e708d82c357de7356df094224227",
+        "165305051": "ca8a30f9105babdc6f0b1263f5747fa4a5328999a3ceee49b3fdd30760f3a5ac",
+        "165305052": "260a959e19e0fc278d8de1e5993ba09848281ae955f9acb414be7b3ca94543e0",
+        "165305053": "cea7667ab8f5244139921d3b90770d852bce6a77b6a0a2ab4ffac40a976a1120",
+        "165305054": "b54675103932743fee27bd2fcf3a25e61d1ca012d9b69fbe913bc437ab261236",
+        "165305055": "638abdd14a1a1bc31997bcdb760e33ad4aa2294711cfa495ceb373773ddcbeb6",
+        "165305056": "92bb5609465f5e9b24bf81bc0293cbef1addd24c0f47efcb1d9ae12dd325c4e7",
+        "165305057": "1418a941a8ef39a47eb9d79d8c7e1242cf9aee232528a3e602336deab5aa7400",
+        "165305058": "fd490afe380aa16b6e62a7fa101afab01d2a41d0fb6e197a195a0e55b270b3f0",
+        "165305059": "b607c22c23decdbeba85d2a1c8cc6f5e125457b8ab16d2cf55d12e0bee1a66e6",
+        "165305060": "4c492fb21764eb27686d939e67ed1303e8405a3f878d3340bbe33b1b21059a23",
+        "165305061": "eb9947a4d7464baa454ba0b43521ec9a6e6ea3dc73f2df0e3bb381f5295f545b",
+        "165305062": "19ee3348f5c052b10f3ccd44f7e6538fba28a07e18162e87a81f60267a82ee57",
+        "165305063": "20450729abab4f488f3975515df85907e5c0eecbeb32ce01b28919f65ccae912",
+        "165305064": "d523b6d0f23b7d129311a119cd73748819f63bf5518d98af308855b78dacf7e9"
+      },
+      "bindings": [
+        {
+          "source_path": [
+            0,
+            0
+          ],
+          "track_ids": [
+            165305041
+          ],
+          "track_sha256": [
+            "04b715f902824423c18b00e06a2d7fa5737545aff2f442a9a8699253446bf08a"
+          ],
+          "required_performers": [
+            "François-René Duchâble"
+          ],
+          "composer": "Frédéric Chopin"
+        },
+        {
+          "source_path": [
+            0,
+            1
+          ],
+          "track_ids": [
+            165305042
+          ],
+          "track_sha256": [
+            "bd977dbcd793310fad6f2663cb4722d2760bdee03caf1247e0dab38c50c53a86"
+          ],
+          "required_performers": [
+            "François-René Duchâble"
+          ],
+          "composer": "Frédéric Chopin"
+        },
+        {
+          "source_path": [
+            0,
+            2
+          ],
+          "track_ids": [
+            165305043
+          ],
+          "track_sha256": [
+            "f35be9573f3560efe617402c7a6751352d657bfc45fd8ca8fcf8b1f599396f30"
+          ],
+          "required_performers": [
+            "François-René Duchâble"
+          ],
+          "composer": "Frédéric Chopin"
+        },
+        {
+          "source_path": [
+            0,
+            3
+          ],
+          "track_ids": [
+            165305044
+          ],
+          "track_sha256": [
+            "6f13190ec09d214e358069435c7687d5f6a16c4127f2c01de0287399ea542766"
+          ],
+          "required_performers": [
+            "François-René Duchâble"
+          ],
+          "composer": "Frédéric Chopin"
+        },
+        {
+          "source_path": [
+            0,
+            4
+          ],
+          "track_ids": [
+            165305045
+          ],
+          "track_sha256": [
+            "2d948cb9c5524459adb751dfda07ce890ccb0038ffa192bdbdaa7523666f27bd"
+          ],
+          "required_performers": [
+            "François-René Duchâble"
+          ],
+          "composer": "Frédéric Chopin"
+        },
+        {
+          "source_path": [
+            0,
+            5
+          ],
+          "track_ids": [
+            165305046
+          ],
+          "track_sha256": [
+            "403ac237cff60d40091955af59364615271ce9d87d4612e81dc1781e04895a0a"
+          ],
+          "required_performers": [
+            "François-René Duchâble"
+          ],
+          "composer": "Frédéric Chopin"
+        },
+        {
+          "source_path": [
+            0,
+            6
+          ],
+          "track_ids": [
+            165305047
+          ],
+          "track_sha256": [
+            "6d9a1ec566c7fd6e870f2e9c4f894479720d9d9e821a0fc7d37c9a9b96a85acc"
+          ],
+          "required_performers": [
+            "François-René Duchâble"
+          ],
+          "composer": "Frédéric Chopin"
+        },
+        {
+          "source_path": [
+            0,
+            7
+          ],
+          "track_ids": [
+            165305048
+          ],
+          "track_sha256": [
+            "7fea7cc5e9c908190f794dfdb5767118ea94672982eab6ebb432b58026c8fed3"
+          ],
+          "required_performers": [
+            "François-René Duchâble"
+          ],
+          "composer": "Frédéric Chopin"
+        },
+        {
+          "source_path": [
+            0,
+            8
+          ],
+          "track_ids": [
+            165305049
+          ],
+          "track_sha256": [
+            "81187f376888fcd893f7099bd36d732d2ebbc75221e1520cf0bad54884ccbe8d"
+          ],
+          "required_performers": [
+            "François-René Duchâble"
+          ],
+          "composer": "Frédéric Chopin"
+        },
+        {
+          "source_path": [
+            0,
+            9
+          ],
+          "track_ids": [
+            165305050
+          ],
+          "track_sha256": [
+            "eb85a8a828ae2660c5ed7bc7e87d9fb300f5e708d82c357de7356df094224227"
+          ],
+          "required_performers": [
+            "François-René Duchâble"
+          ],
+          "composer": "Frédéric Chopin"
+        },
+        {
+          "source_path": [
+            0,
+            10
+          ],
+          "track_ids": [
+            165305051
+          ],
+          "track_sha256": [
+            "ca8a30f9105babdc6f0b1263f5747fa4a5328999a3ceee49b3fdd30760f3a5ac"
+          ],
+          "required_performers": [
+            "François-René Duchâble"
+          ],
+          "composer": "Frédéric Chopin"
+        },
+        {
+          "source_path": [
+            0,
+            11
+          ],
+          "track_ids": [
+            165305052
+          ],
+          "track_sha256": [
+            "260a959e19e0fc278d8de1e5993ba09848281ae955f9acb414be7b3ca94543e0"
+          ],
+          "required_performers": [
+            "François-René Duchâble"
+          ],
+          "composer": "Frédéric Chopin"
+        },
+        {
+          "source_path": [
+            1,
+            0
+          ],
+          "track_ids": [
+            165305053
+          ],
+          "track_sha256": [
+            "cea7667ab8f5244139921d3b90770d852bce6a77b6a0a2ab4ffac40a976a1120"
+          ],
+          "required_performers": [
+            "François-René Duchâble"
+          ],
+          "composer": "Frédéric Chopin"
+        },
+        {
+          "source_path": [
+            1,
+            1
+          ],
+          "track_ids": [
+            165305054
+          ],
+          "track_sha256": [
+            "b54675103932743fee27bd2fcf3a25e61d1ca012d9b69fbe913bc437ab261236"
+          ],
+          "required_performers": [
+            "François-René Duchâble"
+          ],
+          "composer": "Frédéric Chopin"
+        },
+        {
+          "source_path": [
+            1,
+            2
+          ],
+          "track_ids": [
+            165305055
+          ],
+          "track_sha256": [
+            "638abdd14a1a1bc31997bcdb760e33ad4aa2294711cfa495ceb373773ddcbeb6"
+          ],
+          "required_performers": [
+            "François-René Duchâble"
+          ],
+          "composer": "Frédéric Chopin"
+        },
+        {
+          "source_path": [
+            1,
+            3
+          ],
+          "track_ids": [
+            165305056
+          ],
+          "track_sha256": [
+            "92bb5609465f5e9b24bf81bc0293cbef1addd24c0f47efcb1d9ae12dd325c4e7"
+          ],
+          "required_performers": [
+            "François-René Duchâble"
+          ],
+          "composer": "Frédéric Chopin"
+        },
+        {
+          "source_path": [
+            1,
+            4
+          ],
+          "track_ids": [
+            165305057
+          ],
+          "track_sha256": [
+            "1418a941a8ef39a47eb9d79d8c7e1242cf9aee232528a3e602336deab5aa7400"
+          ],
+          "required_performers": [
+            "François-René Duchâble"
+          ],
+          "composer": "Frédéric Chopin"
+        },
+        {
+          "source_path": [
+            1,
+            5
+          ],
+          "track_ids": [
+            165305058
+          ],
+          "track_sha256": [
+            "fd490afe380aa16b6e62a7fa101afab01d2a41d0fb6e197a195a0e55b270b3f0"
+          ],
+          "required_performers": [
+            "François-René Duchâble"
+          ],
+          "composer": "Frédéric Chopin"
+        },
+        {
+          "source_path": [
+            1,
+            6
+          ],
+          "track_ids": [
+            165305059
+          ],
+          "track_sha256": [
+            "b607c22c23decdbeba85d2a1c8cc6f5e125457b8ab16d2cf55d12e0bee1a66e6"
+          ],
+          "required_performers": [
+            "François-René Duchâble"
+          ],
+          "composer": "Frédéric Chopin"
+        },
+        {
+          "source_path": [
+            1,
+            7
+          ],
+          "track_ids": [
+            165305060
+          ],
+          "track_sha256": [
+            "4c492fb21764eb27686d939e67ed1303e8405a3f878d3340bbe33b1b21059a23"
+          ],
+          "required_performers": [
+            "François-René Duchâble"
+          ],
+          "composer": "Frédéric Chopin"
+        },
+        {
+          "source_path": [
+            1,
+            8
+          ],
+          "track_ids": [
+            165305061
+          ],
+          "track_sha256": [
+            "eb9947a4d7464baa454ba0b43521ec9a6e6ea3dc73f2df0e3bb381f5295f545b"
+          ],
+          "required_performers": [
+            "François-René Duchâble"
+          ],
+          "composer": "Frédéric Chopin"
+        },
+        {
+          "source_path": [
+            1,
+            9
+          ],
+          "track_ids": [
+            165305062
+          ],
+          "track_sha256": [
+            "19ee3348f5c052b10f3ccd44f7e6538fba28a07e18162e87a81f60267a82ee57"
+          ],
+          "required_performers": [
+            "François-René Duchâble"
+          ],
+          "composer": "Frédéric Chopin"
+        },
+        {
+          "source_path": [
+            1,
+            10
+          ],
+          "track_ids": [
+            165305063
+          ],
+          "track_sha256": [
+            "20450729abab4f488f3975515df85907e5c0eecbeb32ce01b28919f65ccae912"
+          ],
+          "required_performers": [
+            "François-René Duchâble"
+          ],
+          "composer": "Frédéric Chopin"
+        },
+        {
+          "source_path": [
+            1,
+            11
+          ],
+          "track_ids": [
+            165305064
+          ],
+          "track_sha256": [
+            "d523b6d0f23b7d129311a119cd73748819f63bf5518d98af308855b78dacf7e9"
+          ],
+          "required_performers": [
+            "François-René Duchâble"
+          ],
+          "composer": "Frédéric Chopin"
+        }
+      ]
+    },
+    {
+      "discogs_id": "3094204",
+      "album_id": "3610156118138",
+      "target_sha256": "9bc5728f1b8fa00187586797866b621c1122fc42a12176854a05f2304ed81756",
+      "source_sha256": "aac44d56960eea24cde095b6e155c1794f91c29078e499392dc805ca94ba932e",
+      "album_sha256": "b166e6bf7a1f0a25a5da9a7bd0258a0aa7befd139e26c2ad41de546056dfe239",
+      "decision": "withhold",
+      "recording_review": "Saved Markevitch/Haskil Mozart piano concertos K466/K491 do not supply source Coronation Mass K317, Exsultate K165 and Incarnatus K427.",
+      "sources": [
+        "https://www.discogs.com/release/3094204"
+      ],
+      "limitations": [
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+      ]
+    },
+    {
+      "discogs_id": "4230971",
+      "album_id": "rg2a94dpi2oab",
+      "target_sha256": "f6ce15cd1ea1c571025399feeca5f4480c8060c22a07df8748e028b46f6763fa",
+      "source_sha256": "5f388a2cd10e38f2edc323c21ae15143db8ab25dbb22b1916bb2f06ca56b5e19",
+      "album_sha256": "789461f0f7bc2348b52cac9f64c87da7c416ec133dc5c56cc1275542d101ab45",
+      "decision": "withhold",
+      "recording_review": "HobXXII:14 and Harmoniemesse identify a compatible programme, but source Lubomir Matl is undeclared, singers are AssociatedPerformer-only and source Joseph Haydn differs from track Franz Joseph Haydn. Source splits Credo/EtIncarnatus while cache joins them; no missing-credit waiver.",
+      "sources": [
+        "https://www.discogs.com/release/4230971"
+      ],
+      "limitations": [
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+      ]
+    },
+    {
+      "discogs_id": "4932429",
+      "album_id": "a8zmo8ing00oa",
+      "target_sha256": "a25d3d53a3a4f7f4df9a7d31f58d8c94bae37dc3f052047b3e7f8fab8452717c",
+      "source_sha256": "b53d7fd79f4a238a92fbe3bc7f6d8f2205b0ded1c194c92b238e50972a6f34ca",
+      "album_sha256": "e5ab065cba50335b241940288cbddf523b4cf5c34c6780cde6cd6c4f209a56c4",
+      "decision": "withhold",
+      "recording_review": "Harnoncourt Matthew Passion BWV244 is not Coffee/Peasant Cantatas BWV211/212.",
+      "sources": [
+        "https://www.discogs.com/release/4932429"
+      ],
+      "limitations": [
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+      ]
+    },
+    {
+      "discogs_id": "5519819",
+      "album_id": "ha5y5btyaellb",
+      "target_sha256": "a13a1f65160183fdec43fca402757937d9b1eacd0f82ae9cbc6383c483408b7a",
+      "source_sha256": "5018c5cc43a328b5a3b44d4ae766e981943aef5318e03982faece4bb9e13b671",
+      "album_sha256": "1a953696da0c67d77c82b0f73bd97650dd301454499b12ee263f4f0193bc9d89",
+      "decision": "withhold",
+      "recording_review": "Source Gilbert/Pinnock harpsichord collection is represented only by Yo-Yo Ma cello suites in the frozen candidates; different instrumentation/programme.",
+      "sources": [
+        "https://www.discogs.com/release/5519819"
+      ],
+      "limitations": [
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+      ]
+    },
+    {
+      "discogs_id": "5634634",
+      "album_id": "zcagbe356rypb",
+      "target_sha256": "1afd87e632a59cdfcda9404cf02a2874c70ff79992650c11ab79cc1b59c92520",
+      "source_sha256": "4f94d46243aa25e3685de01f4e8f45d54be4ff7a93db7bf27a00117305956719",
+      "album_sha256": "04f684aacb58e6b4129e6cdb923fd7f4a92b81f2a143606637b79a294bb80a85",
+      "decision": "withhold",
+      "recording_review": "Haebler Mozart piano sonatas do not supply the eight source piano concertos and their orchestras/conductors.",
+      "sources": [
+        "https://www.discogs.com/release/5634634"
+      ],
+      "limitations": [
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+      ]
+    },
+    {
+      "discogs_id": "5883743",
+      "album_id": "0825646631988",
+      "target_sha256": "5f71f690cc0a2c8b86f6e93480675ea8b19ce6ba481ef9097ce1a1476feda9b5",
+      "source_sha256": "8eecb470d73b80e11c51cb8981656302517423333ca5e9990adbda1a07d16962",
+      "album_sha256": "20f488d4abdeadf3155883a4104b548bb820e60142981fd9af91ad3ed3023e40",
+      "decision": "withhold",
+      "recording_review": "Saved Pires solo anthologies do not establish both source Chopin concertos and Krakowiak with Jordan/Monte-Carlo orchestra.",
+      "sources": [
+        "https://www.discogs.com/release/5883743"
+      ],
+      "limitations": [
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+      ]
+    },
+    {
+      "discogs_id": "6232060",
+      "album_id": "oo2bydzjcqnbb",
+      "target_sha256": "1aa96578f6f91018babc768f40ac1b627314822988308f01c888e465f071a451",
+      "source_sha256": "22877331b5c5c7818ed4cb6188063d407c9fbe86d6ad42659293c98fb0b0e837",
+      "album_sha256": "e46f515e1f1abcf84a3091486e819c9569d813a350184cf38f795c10fca6d7d2",
+      "decision": "withhold",
+      "recording_review": "Same opus-parent clues find scattered Etudes, not both complete sets by source Monique Haas. Duchable/other pianists must not substitute for Haas.",
+      "sources": [
+        "https://www.discogs.com/release/6232060"
+      ],
+      "limitations": [
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+      ]
+    },
+    {
+      "discogs_id": "6371624",
+      "album_id": "0094635084955",
+      "target_sha256": "5d664e049244ece08cca5368679a0405b47291306f6107b87deddb4533fd104e",
+      "source_sha256": "4daff24a564850098e038a08966923db249ca7289d6713d1c22e83cf60f15284",
+      "album_sha256": "71143bc971a4d5aab54f9d2143f116af1f86ca3dacd34003723de38c60478f88",
+      "decision": "withhold",
+      "recording_review": "Saved Tchaikovsky/Prokofiev/Bartok piano concertos do not supply source Russian solo recital and specified opus members.",
+      "sources": [
+        "https://www.discogs.com/release/6371624"
+      ],
+      "limitations": [
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+      ]
+    },
+    {
+      "discogs_id": "6623341",
+      "album_id": "cynfhe7easi4a",
+      "target_sha256": "b06cb278a904dcee634c208f3d4acc43f2b7c8c26198bbbd39cb4e9add95e477",
+      "source_sha256": "f378849901e6f5ec82c6ef26d159c82bd9bf25ed6498765a71cac0d9f0229981",
+      "album_sha256": "20f228a80a68180f9ca0286b86d1e8fe78ab3cdb4e21bf0e3f6db8a22cb573be",
+      "decision": "withhold",
+      "recording_review": "Relaxing anthology does not establish both complete source Bach cantatas BWV199 and BWV209 with the source cast.",
+      "sources": [
+        "https://www.discogs.com/release/6623341"
+      ],
+      "limitations": [
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+      ]
+    },
+    {
+      "discogs_id": "6837646",
+      "album_id": "0886445221237",
+      "target_sha256": "5379a78755e8a02700990e9dff4d0fc647d69c44b6f9e00f2de42ccc3fc7f54f",
+      "source_sha256": "11f3731f3c17b239967e3dade99cbb9ccd342b4b1c507a126bfa819914d5fd94",
+      "album_sha256": "b4f4c91c98e8f01c1c1e3753113a1bbfe93b093a335f00abc02d508d0e7d801d",
+      "decision": "withhold",
+      "recording_review": "Gould complete Columbia collection does not establish the six source late Mozart symphonies and source orchestral recording family.",
+      "sources": [
+        "https://www.discogs.com/release/6837646"
+      ],
+      "limitations": [
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+      ]
+    },
+    {
+      "discogs_id": "6993029",
+      "album_id": "0002894378192",
+      "target_sha256": "b71a79f60f94798390933b2bacb8995abc54196f65c71fa4f2ebe6bb42d7cf78",
+      "source_sha256": "115b84948f97e8c691329daa24832e8d8cba35aacc9585f79b574cbf3401cdc9",
+      "album_sha256": "6243e52bcd83fc2ac749e02cc0fb9b403cc4915e8a40f714ca05d931503f83c4",
+      "decision": "withhold",
+      "recording_review": "Shostakovich Symphony8 Op65 is not source Symphony4 Op43. Do not relax the symphony number.",
+      "sources": [
+        "https://www.discogs.com/release/6993029"
+      ],
+      "limitations": [
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+      ]
+    },
+    {
+      "discogs_id": "7269277",
+      "album_id": "0002894760949",
+      "target_sha256": "351b89944e7f9beeaa35b40f5fa8dfc0cfa949b1676ae4d3607fadd0a3e255de",
+      "source_sha256": "5f039e2e6a1f3af2a9a0971b31e732f62fc8725f215940b4f5db62f1e1e8d1d1",
+      "album_sha256": "8f019ae50a497d945a97dada36af4073a966efb279871c78d2b83677fc39b1c3",
+      "decision": "withhold",
+      "recording_review": "Source dotted BWV1.066/1.067/1.068/1.048/1.049/1.050/1.061 needs notation care, but saved French Suites/anthologies do not establish the complete orchestral source programme.",
+      "sources": [
+        "https://www.discogs.com/release/7269277"
+      ],
+      "limitations": [
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+      ]
+    },
+    {
+      "discogs_id": "7334505",
+      "album_id": "a6g9640whj71a",
+      "target_sha256": "f93a6ef114181402d54a0b28691bf814806de49c75a5b90c088fb04e68ecc3c5",
+      "source_sha256": "9b359e96ddc6077528e6f78ed70a010ea957b3ddc2c535582f2d84c413273c25",
+      "album_sha256": "dd6ea8bdff1ec79d97249443fcb9d327cbbcff7a76a649d761be7a06e61ceb41",
+      "decision": "withhold",
+      "recording_review": "Saved Rilling cantata collection contains a different listed cantata selection, not both source BWV72/58; source named instrumentalists remain required.",
+      "sources": [
+        "https://www.discogs.com/release/7334505"
+      ],
+      "limitations": [
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+      ]
+    },
+    {
+      "discogs_id": "7358646",
+      "album_id": "0002894777581",
+      "target_sha256": "b1229ab6bcf5a9c394a085ef862043f5a1b676b1c06320b7646230a57bab8fa8",
+      "source_sha256": "498c784b9a367a618521ba3f66baa6b6cb5cdc2bb1cf7cd410106af613f52898",
+      "album_sha256": "46b3801d204096a02cbe9ae49ca64af875bf02eb61ac89faa65bf8cfd441f91e",
+      "decision": "withhold",
+      "recording_review": "Saved Mendelssohn symphony editions do not supply source Songs Without Words and solo variations/rondo programme.",
+      "sources": [
+        "https://www.discogs.com/release/7358646"
+      ],
+      "limitations": [
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+      ]
+    },
+    {
+      "discogs_id": "7506575",
+      "album_id": "0002894100262",
+      "target_sha256": "edc252679a06c3c8d4bc7e5230bcd5b35d2433509d7e0c943c56821091264620",
+      "source_sha256": "78da24c8d9c81376962c6b93cb2a296da3b50ece68b476a847a989b5e0fcb1b7",
+      "album_sha256": "bc99288598701aec54eb66ac490aa078f1dc2413a5e6e0187cbd3e76842686fd",
+      "decision": "withhold",
+      "recording_review": "Saved Grieg Peer Gynt/Sibelius Pelleas coupling differs from source Finlandia, Valse Triste, Swan of Tuonela and Tapiola. Source Swan opus numbering is an additional identity issue, not a fix for missing programme.",
+      "sources": [
+        "https://www.discogs.com/release/7506575"
+      ],
+      "limitations": [
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+      ]
+    },
+    {
+      "discogs_id": "7975379",
+      "album_id": "a6g9640whj71a",
+      "target_sha256": "10c368dfddaf44fa5ed8ae4866ecdba3a26326a71cfdf3920c699fbab92c8af5",
+      "source_sha256": "a707a12c6e5d8d709cf5838041defc5d1f029606c6b30a0599f01c9d1d2c4d8a",
+      "album_sha256": "dd6ea8bdff1ec79d97249443fcb9d327cbbcff7a76a649d761be7a06e61ceb41",
+      "decision": "withhold",
+      "recording_review": "Saved Rilling cantata selection does not establish both source BWV149/188; ensemble label alone does not fill absent works.",
+      "sources": [
+        "https://www.discogs.com/release/7975379"
+      ],
+      "limitations": [
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+      ]
+    },
+    {
+      "discogs_id": "8121703",
+      "album_id": "ujhzfrl46gycc",
+      "target_sha256": "3fc668d18192146fa1e82204c23dd099958fa4acb796eea0ec8321b5783fa50f",
+      "source_sha256": "b40e8a4690b36f8347b361a6d5593dde0abff91d8e0415625bbc2199c35c7b41",
+      "album_sha256": "76123de019463a3c5d1c9f7d76af04c902468505d4386f22598947d88e561d25",
+      "decision": "withhold",
+      "recording_review": "Source bundles20Scarlatti Longo numbers into six LP bands; cached Landowska sonatas use Kirkpatrick K numbers. Needs an explicit complete L/K/key concordance and band mapping, including source L.S27/punctuation/key anomalies; no numerical alias.",
+      "sources": [
+        "https://www.discogs.com/release/8121703"
+      ],
+      "limitations": [
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+      ]
+    },
+    {
+      "discogs_id": "9280880",
+      "album_id": "bvc3arolnncza",
+      "target_sha256": "757505eb613cb92e79fa3b14d658ed639eaa5dc9ac2ff43870fcf39f3d9cb67d",
+      "source_sha256": "deab40498a469b79f6ad4b79721f3c14c4ec38043fd2ead0ef75a114cee22f37",
+      "album_sha256": "814f79204e139509a0b9692c2648960e8ce276cb82bc7bd36e23ca653fcf2151",
+      "decision": "withhold",
+      "recording_review": "Saved Gieseking Debussy piano works do not supply source multi-composer concerto box.",
+      "sources": [
+        "https://www.discogs.com/release/9280880"
+      ],
+      "limitations": [
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+      ]
+    },
+    {
+      "discogs_id": "9350033",
+      "album_id": "0002894740302",
+      "target_sha256": "ea8cf16bf7e23d7985a3a67b07f4bba1dc6dd8b0f5d363124a79f759110c97e9",
+      "source_sha256": "7433acf483991aea562292c65315759f4ff6b53c0168ea9a3ce376de83930420",
+      "album_sha256": "818a264dda4be3a646b8447079fbc716e8c5b65ef0865ce4e24377722ffea5d5",
+      "decision": "withhold",
+      "recording_review": "Saved Furtwangler anthology and Vienna symphony edition do not establish Pollini/Bohm Beethoven PianoConcerto3 Op37.",
+      "sources": [
+        "https://www.discogs.com/release/9350033"
+      ],
+      "limitations": [
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+      ]
+    },
+    {
+      "discogs_id": "9419646",
+      "album_id": "0002894762648",
+      "target_sha256": "bcd4af682bc00bd781d186862d393730c0d8bfd821fabc4bb9506e2a11238ca1",
+      "source_sha256": "ddbea24d37afd7e06b755a45a594a4d87b255e9bb9e689ffbf7e50ed5dac8287",
+      "album_sha256": "58d40098ceb75193ef8e1c6179cd12b41b21706c17962945bfb945dfc3d7f615",
+      "decision": "withhold",
+      "recording_review": "Saved Beethoven3 plus Leonore3 is not source Beethoven7 Op92.",
+      "sources": [
+        "https://www.discogs.com/release/9419646"
+      ],
+      "limitations": [
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+      ]
+    },
+    {
+      "discogs_id": "9732615",
+      "album_id": "0054727743528",
+      "target_sha256": "f63a96760e214d577cf1907fe383c0a0b4cc1068d70985fe9f8b7e2854b06d4f",
+      "source_sha256": "2fa58655a595d72080682899d26065748504163a1bce6d532e9c10252245582c",
+      "album_sha256": "c2817fbf2d328069c78bc83d53e781cf00a8e6d7843a5bca9c72b02c563ed748",
+      "decision": "withhold",
+      "recording_review": "CPE Bach chamber music/cantata is not JS Bach source BWV27/118/158/59. Composer identity must remain explicit.",
+      "sources": [
+        "https://www.discogs.com/release/9732615"
+      ],
+      "limitations": [
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+      ]
+    },
+    {
+      "discogs_id": "10563889",
+      "album_id": "jmajme053bi4a",
+      "target_sha256": "00f4f7438829e31fbb9f86111c6a910111b048913c87e70602351ce8bf0aa471",
+      "source_sha256": "2c87ea1d61c342a03fed16fb874c74f0f53faa04c3ac2910437a0e09e7d886c1",
+      "album_sha256": "304610e38aa7959e06173ab3a1ec4a7e043304e2034bc738b93e9a18cfe71663",
+      "decision": "withhold",
+      "recording_review": "Saved Richter Beethoven piano/triple concertos are not source multi-composer violin concerto box. Opus coincidences cannot repair instrumentation/composer gaps.",
+      "sources": [
+        "https://www.discogs.com/release/10563889"
+      ],
+      "limitations": [
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+      ]
+    },
+    {
+      "discogs_id": "11553633",
+      "album_id": "ujhzfrl46gycc",
+      "target_sha256": "76c75878e63764e518c8e123048d0e44a35cdf252aeff418cef9c494c5300760",
+      "source_sha256": "35c4b4e2a1d69cd4595fb0bba585ed11ad7cd6fdc4a8a8682c926b44aa4900a7",
+      "album_sha256": "76123de019463a3c5d1c9f7d76af04c902468505d4386f22598947d88e561d25",
+      "decision": "withhold",
+      "recording_review": "Source Landowska Volume2 lists a different set of20Longo numbers; cached20sonatas use Kirkpatrick numbers. Need exact concordance and full programme proof; shared performer and number of tracks are insufficient.",
+      "sources": [
+        "https://www.discogs.com/release/11553633"
+      ],
+      "limitations": [
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+      ]
+    },
+    {
+      "discogs_id": "11629381",
+      "album_id": "0002894786191",
+      "target_sha256": "f3cdda700bc28adff50d4a664c7ed947ed656ff8f4b570bc244d1788b18610c7",
+      "source_sha256": "bec1415b15477c694e3f1af8476958d2ef9b7bfc9bf685e6d7938c2b7f7cdf4b",
+      "album_sha256": "2068b231fc77f9e7d5465a5af19b6f44dc92192635aa430810a901342759d1c7",
+      "decision": "withhold",
+      "recording_review": "Saved Wagner operas/Bach anthology do not establish the whole source vocal recital of Wagner/Brahms/Bach/Gluck/Handel; no borrowing across different works or casts.",
+      "sources": [
+        "https://www.discogs.com/release/11629381"
+      ],
+      "limitations": [
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+      ]
+    },
+    {
+      "discogs_id": "12534352",
+      "album_id": "0825646741304",
+      "target_sha256": "8c74c7047ef5f5bde59e219b4cce2cb7a52b5997952c6c35554be4149b54005a",
+      "source_sha256": "3438fe40c5c3f9977188cee4b4c4fdf2595355fdd5c4e027ad043660e4b68dcd",
+      "album_sha256": "24e8fdada97a5e1ed70edacff64eb6fd80cdf8928006334ca0339b51b6edb671",
+      "decision": "withhold",
+      "recording_review": "Handel source uses opus/ordinal and split-band work names; saved wedding/relaxing anthologies do not establish the entire harp/flute/double/grosso/oboe programme. Any HWV equivalences require exact work-level proof.",
+      "sources": [
+        "https://www.discogs.com/release/12534352"
+      ],
+      "limitations": [
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+      ]
+    },
+    {
+      "discogs_id": "14113741",
+      "album_id": "3610153847604",
+      "target_sha256": "e5f23109725bb0eae2191a05c7c5d682169065043b93196dc8f7fbe40f931476",
+      "source_sha256": "e847f392f707d2429960e398fa2899f854abcdea996b6318144ba4e85d686974",
+      "album_sha256": "ef8ca25f4bf53f4f547d22ec0d69d1e63ce0b1daef30b17f75f3ef7890cf3bb6",
+      "decision": "withhold",
+      "recording_review": "Saved Bach EasterOratorio BWV249/BWV200 does not supply source Gloria plus Magnificat BWV243.",
+      "sources": [
+        "https://www.discogs.com/release/14113741"
+      ],
+      "limitations": [
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+      ]
+    },
+    {
+      "discogs_id": "14669582",
+      "album_id": "0743212661729",
+      "target_sha256": "85a653ec536d7a58b4f3b77ad3f45ba9c1bcf5e700783850f1bf4dae58f3d2cb",
+      "source_sha256": "75a944a8dd13aa4cadbd1133ba69e387cb7cb932eac9742bdefdfe6be26811e2",
+      "album_sha256": "1b1bf6f9492327265bf12e51c35e1a26c34dee51c14151977f42822c4259758e",
+      "decision": "withhold",
+      "recording_review": "Saved Ameling anthology/Magnificat editions do not establish all four source cantatas BWV128–131 and source cast.",
+      "sources": [
+        "https://www.discogs.com/release/14669582"
+      ],
+      "limitations": [
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+      ]
+    },
+    {
+      "discogs_id": "15587453",
+      "album_id": "ha5y5btyaellb",
+      "target_sha256": "b938ac6f7b229cc20e4d9c18e37e84ffcb7fa9d47b2d8024eaa7f7569dcc1b46",
+      "source_sha256": "db921326df6a4abdf219a4b81e69d82a77b019387e97f4075ea1ec791f84de3e",
+      "album_sha256": "1a953696da0c67d77c82b0f73bd97650dd301454499b12ee263f4f0193bc9d89",
+      "decision": "withhold",
+      "recording_review": "Saved Yo-Yo Ma cello suites cannot represent source large harpsichord collection of English/French suites, partitas and other keyboard works.",
+      "sources": [
+        "https://www.discogs.com/release/15587453"
+      ],
+      "limitations": [
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+      ]
+    },
+    {
+      "discogs_id": "20282824",
+      "album_id": "lyyeuel6gdx7a",
+      "target_sha256": "3148e31ae17769340cbc8dd5e0488f2f2c5a1fba755b173942277099ff52828e",
+      "source_sha256": "b5e71bda00703e99b34b8b0c710be8c78bdc11a7613045b76e856dd6472a5bf4",
+      "album_sha256": "7ae0426adbf0601e2e8b1a7e2ba888f20b5a27e47d198a06a5084f72e7c362a3",
+      "decision": "withhold",
+      "recording_review": "Pires solo anthology has22positively credited Op28preludes, not all24plus source Op45. Set-parent clue is partial support only; repeated source key labels need preserved verification.",
+      "sources": [
+        "https://www.discogs.com/release/20282824"
+      ],
+      "limitations": [
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+      ]
+    },
+    {
+      "discogs_id": "23201027",
+      "album_id": "bvc3arolnncza",
+      "target_sha256": "318bb89aaa8377372944c4fde31e0d95e49c214f1d5676267dac583b2cdd3501",
+      "source_sha256": "0e418eddbaccd765749d3ae2f440b20c1ce9644f88dc9315ffcdf6542e7a73e9",
+      "album_sha256": "814f79204e139509a0b9692c2648960e8ce276cb82bc7bd36e23ca653fcf2151",
+      "decision": "withhold",
+      "recording_review": "Saved Gieseking Debussy album does not supply source Beethoven sonata collection. Source duplicate/incorrect opus labels are separate issues, not proof this candidate matches.",
+      "sources": [
+        "https://www.discogs.com/release/23201027"
+      ],
+      "limitations": [
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+      ]
+    },
+    {
+      "discogs_id": "24963823",
+      "album_id": "vrg5q0y8vzvaa",
+      "target_sha256": "c8bde3d1e40fd73be62da7804ac0300e9a54dcc9766a9f6c30b925ce49e60994",
+      "source_sha256": "13d7855abed580659b306b840cbf372afd36e3f6e590f4ac9edaa4d5e2dc897f",
+      "album_sha256": "5a5fd43cf348d1644ea86c314ca21d91975d5b9e06ee29642a5ed9de3bcccee9",
+      "decision": "withhold",
+      "recording_review": "Source Beethoven4 plus Egmont songs/excerpts cites Op64; canonical Egmont is Op84. Complete-symphony candidate supplies a Symphony4 clue, but source unscoped Nilsson and whole Egmont coupling still need recording/band/cast proof. No source correction or singer waiver.",
+      "sources": [
+        "https://www.discogs.com/release/24963823"
+      ],
+      "limitations": [
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+      ]
+    },
+    {
+      "discogs_id": "26346215",
+      "album_id": "0002894636522",
+      "target_sha256": "bc76689b0121f6082b83b269a9a23e8d3fb095b9d4d5dc1981a153a03f90fa7e",
+      "source_sha256": "4846018b7ef85f9cfe11fc3451247fd8d79d596fe909a09371dd3f7fc8aaac71",
+      "album_sha256": "65ac800906004d4aa8312ff726fab471b04e97b4c5172ccf1f261cd28b404d0b",
+      "decision": "withhold",
+      "recording_review": "Saved Mozart concertos/Schubert four-hand FantasyD940 do not supply source Schubert MomentsMusicauxOp94 and Schumann NachtstuckeOp23.",
+      "sources": [
+        "https://www.discogs.com/release/26346215"
+      ],
+      "limitations": [
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+      ]
+    },
+    {
+      "discogs_id": "28448206",
+      "album_id": "0002894694782",
+      "target_sha256": "2ce78d974fce7b384265f035205ef15d56b9adff3ce2796ff8e87586ec3132e7",
+      "source_sha256": "ac2df7dbed7b77d34031378cb7e84ada7dd5c073eeb214f125bc5eb67111a715",
+      "album_sha256": "35e920a1ab528f325534d0dda6e5fff4a73b5bb93c8958af091fd5d94e5ff243",
+      "decision": "probable",
+      "recording_review": "DG publisher corroborates source catalogue4864506, Ozawa/Boston and the five-movement SymphonieFantastique. Official shop identifies Op14/H48 rather than raw Op24. All five source/digital movements, cast and timings align; preserve raw discrepancy and do not claim identical OriginalSourceLP mastering.",
+      "sources": [
+        "https://www.discogs.com/release/28448206",
+        "https://www.deutschegrammophon.com/en/catalogue/products/berlioz-symphonie-fantastique-ozawa-13103",
+        "https://store.deutschegrammophon.com/en-en/products/seiji-ozawa-boston-symphony-orchestra-berlioz-symphonie-fantastique"
+      ],
+      "limitations": [
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Raw source heading says Op24; official DG identifies Op14/H48. Preserve this discrepancy. OriginalSourceLP analogue mastering is not verified as equal to this digital edition; one Romeo/Juliet extra is excluded."
+      ],
+      "external_source_files": [
+        {
+          "path": "data/review_sources/catalogue40-ozawa/primary-observation.json",
+          "sha256": "5880409d6fda3505634b1ca299155ea4f83e3260944acf225c42238f66121f22"
+        }
+      ],
+      "review_kind": "source-leaf-bands",
+      "source_outline_sha256": "3d93dcd6d57af90a394114b8a79a8ae4b23173be72b4267554d6b76ab2c1940a",
+      "source_leaves": [
+        {
+          "path": [
+            0,
+            0
+          ],
+          "source_work": "Symphonie Fantastique Op. 24",
+          "title": "Rêveries. Passions Largo - Allegro Agitato E Appassionato Assai - Tempo I - Religiosamente",
+          "position": "A1",
+          "duration": "12:57"
+        },
+        {
+          "path": [
+            0,
+            1
+          ],
+          "source_work": "Symphonie Fantastique Op. 24",
+          "title": "Un Bal. Valse. Allegro Non Troppo",
+          "position": "A2",
+          "duration": "6:17"
+        },
+        {
+          "path": [
+            0,
+            2
+          ],
+          "source_work": "Symphonie Fantastique Op. 24",
+          "title": "Scène Aux Champs. Adagio",
+          "position": "B1",
+          "duration": "14:27"
+        },
+        {
+          "path": [
+            0,
+            3
+          ],
+          "source_work": "Symphonie Fantastique Op. 24",
+          "title": "Marche Au Supplice. Allegretto Non Troppo",
+          "position": "B2",
+          "duration": "3:58"
+        },
+        {
+          "path": [
+            0,
+            4
+          ],
+          "source_work": "Symphonie Fantastique Op. 24",
+          "title": "Songe D'une Nuit Du Sabbat. Larghetto - Allegro Assai - Allegro - Lontano - Ronde Du Sabbat - Deus Irae",
+          "position": "B3",
+          "duration": "9:08"
+        }
+      ],
+      "source_heading_groups": [],
+      "extra_track_ids": [
+        5326701
+      ],
+      "selected_track_fingerprints": {
+        "5326696": "7a76285fefa6c7e29d277d51f06340bd583e73562d8ed685b0c6d02acd09b8b4",
+        "5326697": "ab68911b885a28727c12291d2d3e72c6b0f695005d1479a9c3a409843a89a19f",
+        "5326698": "9f1e0ae1b244ee6feb8754cd9c911e0b1193d42de7dcfba5b67ff5640543469a",
+        "5326699": "6a0f52e650b708d3673487c0ef8e45abf5c4c37d6eda832f6c0232f064a9ae6e",
+        "5326700": "17fc5dcbbc578c388996f2758b80d9616ccabc8f7f70e3ac147b816a961a797f"
+      },
+      "bindings": [
+        {
+          "source_path": [
+            0,
+            0
+          ],
+          "track_ids": [
+            5326696
+          ],
+          "track_sha256": [
+            "7a76285fefa6c7e29d277d51f06340bd583e73562d8ed685b0c6d02acd09b8b4"
+          ],
+          "required_performers": [
+            "Seiji Ozawa",
+            "Boston Symphony Orchestra"
+          ],
+          "composer": "Hector Berlioz"
+        },
+        {
+          "source_path": [
+            0,
+            1
+          ],
+          "track_ids": [
+            5326697
+          ],
+          "track_sha256": [
+            "ab68911b885a28727c12291d2d3e72c6b0f695005d1479a9c3a409843a89a19f"
+          ],
+          "required_performers": [
+            "Seiji Ozawa",
+            "Boston Symphony Orchestra"
+          ],
+          "composer": "Hector Berlioz"
+        },
+        {
+          "source_path": [
+            0,
+            2
+          ],
+          "track_ids": [
+            5326698
+          ],
+          "track_sha256": [
+            "9f1e0ae1b244ee6feb8754cd9c911e0b1193d42de7dcfba5b67ff5640543469a"
+          ],
+          "required_performers": [
+            "Seiji Ozawa",
+            "Boston Symphony Orchestra"
+          ],
+          "composer": "Hector Berlioz"
+        },
+        {
+          "source_path": [
+            0,
+            3
+          ],
+          "track_ids": [
+            5326699
+          ],
+          "track_sha256": [
+            "6a0f52e650b708d3673487c0ef8e45abf5c4c37d6eda832f6c0232f064a9ae6e"
+          ],
+          "required_performers": [
+            "Seiji Ozawa",
+            "Boston Symphony Orchestra"
+          ],
+          "composer": "Hector Berlioz"
+        },
+        {
+          "source_path": [
+            0,
+            4
+          ],
+          "track_ids": [
+            5326700
+          ],
+          "track_sha256": [
+            "17fc5dcbbc578c388996f2758b80d9616ccabc8f7f70e3ac147b816a961a797f"
+          ],
+          "required_performers": [
+            "Seiji Ozawa",
+            "Boston Symphony Orchestra"
+          ],
+          "composer": "Hector Berlioz"
+        }
+      ]
+    },
+    {
+      "discogs_id": "29097343",
+      "album_id": "0002894757198",
+      "target_sha256": "54fa78a420a54737b8333370b26b40604f1517703162631d7b5f7b2f9350eaa0",
+      "source_sha256": "350e84609233775206d155682a2b2bec568e1bc39037ecff6c7164e8086c2674",
+      "album_sha256": "6e6f17d3c7df3436c2dd646c34ad1de03cf45796539c04af89486c7331a101a4",
+      "decision": "withhold",
+      "recording_review": "Saved Beethoven piano-sonata editions may support Moonlight alone; they do not supply all five source piano concertos and their complete recording cast.",
+      "sources": [
+        "https://www.discogs.com/release/29097343"
+      ],
+      "limitations": [
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+      ]
+    },
+    {
+      "discogs_id": "33198774",
+      "album_id": "bvc3arolnncza",
+      "target_sha256": "e184a3d2b690f4d4734eb7ea11f0b14052d3e1a47f866d89d6259ce82ae231cc",
+      "source_sha256": "99ed500c2577d879aa70c53fd6d490b042415ef425e2b96a3ba5705cee79cf35",
+      "album_sha256": "814f79204e139509a0b9692c2648960e8ce276cb82bc7bd36e23ca653fcf2151",
+      "decision": "withhold",
+      "recording_review": "Saved Gieseking Debussy piano album is not source Mozart wind-and-piano QuintetK452.",
+      "sources": [
+        "https://www.discogs.com/release/33198774"
+      ],
+      "limitations": [
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+      ]
+    },
+    {
+      "discogs_id": "36884278",
+      "album_id": "0002894794461",
+      "target_sha256": "b292b44c0432780e08084e23449568072b856cdd32c4afa657f2f628750a068b",
+      "source_sha256": "4c13c9034007a1be6da52a73e3c67d7e20b40c6bb2e648115af549dbb5cbbffa",
+      "album_sha256": "c9498301dec113906994be82b11b24b9e46c4bb61ce11ecf03ed0d0c01c990ef",
+      "decision": "withhold",
+      "recording_review": "Saved Maazel Tchaikovsky4/cross-composer anthologies do not establish source Tchaikovsky3 Op29 with Vienna. Do not equate symphony numbers or borrow a conductor from another work.",
+      "sources": [
+        "https://www.discogs.com/release/36884278"
+      ],
+      "limitations": [
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer are not verified.",
+        "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
+        "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
+      ]
     }
   ]
 }

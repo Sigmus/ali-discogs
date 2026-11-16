@@ -563,3 +563,13 @@ source lineup IDs, raw/target/album/track hashes, external approval and full8ban
 timing/composer checks. Exact target/candidate restriction prevents propagation
 to other ensembles/releases. No inferred membership or credit waiver.
 [Approval/implementation](../plans/2026-11-16-qobuz-trio-identity.md).
+
+### 2026-11-16 — Source-bound catalogue review, no global substitution
+
+Existing source-leaf review mechanism applied to2383222completeOp10/25sets and
+28448206Berlioz programme. Bare opus sets are not equated to individual members;
+all24source leaves are required. RawBerliozOp24is preserved alongside publisher
+Op14/H48corroboration, fullfive-band/cast/timing proof and transfer limitations.
+This does not adopt a general number correction, Longo/Kirkpatrick alias, opus
+parent completeness shortcut or role waiver. Diagnostic notation copies remain
+separate from production scoring. [Evidence](../plans/2026-11-16-qobuz-catalogue40.md).

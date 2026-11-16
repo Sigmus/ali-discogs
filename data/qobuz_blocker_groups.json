@@ -1,19 +1,19 @@
 {
   "schema_version": 1,
   "reviewed_on": "2026-11-16",
-  "unique_unresolved_releases": 542,
+  "unique_unresolved_releases": 540,
   "review_state_counts": {
-    "no_saved_decision": 288,
-    "reviewed_unresolved": 254
+    "no_saved_decision": 248,
+    "reviewed_unresolved": 292
   },
   "planning_families": {
-    "credit_evidence": 214,
+    "credit_evidence": 215,
     "no_cached_candidate": 6,
-    "other_saved_blocker": 61,
+    "other_saved_blocker": 63,
     "partial_programme_or_completeness": 5,
     "recording_identity": 56,
-    "source_programme_mapping": 73,
-    "work_title_or_catalogue_mapping_unresolved": 127
+    "source_programme_mapping": 108,
+    "work_title_or_catalogue_mapping_unresolved": 87
   },
   "groups": {
     "credit_support_unresolved": 150,
@@ -44,6 +44,7 @@
     "saved:cortot-session-pairing": 1,
     "saved:credit-identity": 3,
     "saved:credit-identity-and-programme": 1,
+    "saved:cross_catalogue_concordance_needed": 2,
     "saved:cycle_chorus_scope_and_source": 1,
     "saved:dangerous-near-name": 1,
     "saved:different-cast": 1,
@@ -56,6 +57,7 @@
     "saved:different-recording-family": 1,
     "saved:different-soloist": 1,
     "saved:different_recording": 1,
+    "saved:different_saved_programme": 30,
     "saved:edition-and-ensemble": 1,
     "saved:ensemble-identity": 1,
     "saved:ensemble-name-and-extra-credit": 1,
@@ -107,9 +109,14 @@
     "saved:named-members-and-box": 1,
     "saved:neumann-cycle-incomplete": 1,
     "saved:nineteen-source-waltz-conflicts": 1,
+    "saved:notation_plus_other_blockers": 1,
     "saved:orchestra-identity": 3,
     "saved:organ-programme-map": 1,
     "saved:pair-structure-and-session": 1,
+    "saved:partial_opus_set": 1,
+    "saved:partial_or_wrong_cast_opus_set": 1,
+    "saved:partial_programme": 1,
+    "saved:partial_programme_and_catalogue_systems": 1,
     "saved:performer-identity-and-session": 1,
     "saved:programme-and-cast": 1,
     "saved:programme-and-identity": 1,
@@ -150,6 +157,7 @@
     "saved:source-scope-and-instrument-role": 1,
     "saved:source-soloist-and-one-file-scope": 1,
     "saved:source-typos-large-piano-box": 1,
+    "saved:source_number_and_partial_coupling": 1,
     "saved:split-act-source-boundaries": 1,
     "saved:split-programme": 1,
     "saved:split-programme-identity": 1,
@@ -164,7 +172,7 @@
     "saved:work-scoped-pianist": 1,
     "saved:wrong-cast-moldau": 1,
     "saved:wrong_accompanist_and_programme": 1,
-    "work_title_or_catalogue_mapping_unresolved": 127
+    "work_title_or_catalogue_mapping_unresolved": 87
   },
   "entries": [
     {
@@ -269,13 +277,13 @@
     {
       "discogs_id": "1372856",
       "title": "Polonaises",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_saved_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 1,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Cherkassky encore anthology has other Chopin pieces, including Op22, not the complete seven source polonaises Op26/40/44/53/61.",
+      "next_action": "Reopen only with exact complete source programme/cast or independently corroborated catalogue/recording evidence; retain the recorded specific blocker."
     },
     {
       "discogs_id": "1421356",
@@ -346,13 +354,13 @@
     {
       "discogs_id": "1640528",
       "title": "Bach Kantaten",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_saved_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 5,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Couraud candidates contain BWV249/200/140/150/243/31 rather than source BWV11 and BWV65. Shared conductor is not work identity.",
+      "next_action": "Reopen only with exact complete source programme/cast or independently corroborated catalogue/recording evidence; retain the recorded specific blocker."
     },
     {
       "discogs_id": "1656511",
@@ -401,13 +409,13 @@
     {
       "discogs_id": "1730282",
       "title": "Magnificat · Brandenburg Concerto No. 5",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_saved_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 4,
       "uncached_hits": 1,
-      "finding": null,
-      "next_action": null
+      "finding": "Saved Klemperer candidates are Passions/Mass or anthology excerpts, not source Hungarian Magnificat BWV243 plus Brandenburg5 BWV1050 and its named players.",
+      "next_action": "Reopen only with exact complete source programme/cast or independently corroborated catalogue/recording evidence; retain the recorded specific blocker."
     },
     {
       "discogs_id": "1846030",
@@ -581,17 +589,6 @@
       "group": "credit_support_unresolved",
       "planning_family": "credit_evidence",
       "cached_candidate_count": 5,
-      "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
-    },
-    {
-      "discogs_id": "2383222",
-      "title": "Etudes - Op.10 & Op.25",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
-      "cached_candidate_count": 3,
       "uncached_hits": 0,
       "finding": null,
       "next_action": null
@@ -1017,13 +1014,13 @@
     {
       "discogs_id": "3094204",
       "title": "Krönungsmesse - Exsultate, Jubilate - Et Incarnatus Est",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_saved_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 5,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Saved Markevitch/Haskil Mozart piano concertos K466/K491 do not supply source Coronation Mass K317, Exsultate K165 and Incarnatus K427.",
+      "next_action": "Reopen only with exact complete source programme/cast or independently corroborated catalogue/recording evidence; retain the recorded specific blocker."
     },
     {
       "discogs_id": "3100828",
@@ -1721,13 +1718,13 @@
     {
       "discogs_id": "4230971",
       "title": "Harmoniemesse",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:notation_plus_other_blockers",
+      "planning_family": "other_saved_blocker",
       "cached_candidate_count": 1,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "HobXXII:14 and Harmoniemesse identify a compatible programme, but source Lubomir Matl is undeclared, singers are AssociatedPerformer-only and source Joseph Haydn differs from track Franz Joseph Haydn. Source splits Credo/EtIncarnatus while cache joins them; no missing-credit waiver.",
+      "next_action": "Reopen only with exact complete source programme/cast or independently corroborated catalogue/recording evidence; retain the recorded specific blocker."
     },
     {
       "discogs_id": "4256464",
@@ -2007,13 +2004,13 @@
     {
       "discogs_id": "4932429",
       "title": "Bauern-Kantate, Kaffee-Kantate",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_saved_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 1,
       "uncached_hits": 4,
-      "finding": null,
-      "next_action": null
+      "finding": "Harnoncourt Matthew Passion BWV244 is not Coffee/Peasant Cantatas BWV211/212.",
+      "next_action": "Reopen only with exact complete source programme/cast or independently corroborated catalogue/recording evidence; retain the recorded specific blocker."
     },
     {
       "discogs_id": "4975184",
@@ -2315,13 +2312,13 @@
     {
       "discogs_id": "5519819",
       "title": "Cembalowerke I",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_saved_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 1,
       "uncached_hits": 9,
-      "finding": null,
-      "next_action": null
+      "finding": "Source Gilbert/Pinnock harpsichord collection is represented only by Yo-Yo Ma cello suites in the frozen candidates; different instrumentation/programme.",
+      "next_action": "Reopen only with exact complete source programme/cast or independently corroborated catalogue/recording evidence; retain the recorded specific blocker."
     },
     {
       "discogs_id": "5519993",
@@ -2381,13 +2378,13 @@
     {
       "discogs_id": "5634634",
       "title": "8 Klavierkonzerte",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_saved_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 1,
       "uncached_hits": 5,
-      "finding": null,
-      "next_action": null
+      "finding": "Haebler Mozart piano sonatas do not supply the eight source piano concertos and their orchestras/conductors.",
+      "next_action": "Reopen only with exact complete source programme/cast or independently corroborated catalogue/recording evidence; retain the recorded specific blocker."
     },
     {
       "discogs_id": "5735182",
@@ -2458,13 +2455,13 @@
     {
       "discogs_id": "5883743",
       "title": "Les Deux Concertos Pour Piano (La Krakowiak, En Fa Majeur Op.14)",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_saved_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 2,
       "uncached_hits": 8,
-      "finding": null,
-      "next_action": null
+      "finding": "Saved Pires solo anthologies do not establish both source Chopin concertos and Krakowiak with Jordan/Monte-Carlo orchestra.",
+      "next_action": "Reopen only with exact complete source programme/cast or independently corroborated catalogue/recording evidence; retain the recorded specific blocker."
     },
     {
       "discogs_id": "5916574",
@@ -2612,13 +2609,13 @@
     {
       "discogs_id": "6232060",
       "title": "Les Etudes",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:partial_or_wrong_cast_opus_set",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 2,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Same opus-parent clues find scattered Etudes, not both complete sets by source Monique Haas. Duchable/other pianists must not substitute for Haas.",
+      "next_action": "Reopen only with exact complete source programme/cast or independently corroborated catalogue/recording evidence; retain the recorded specific blocker."
     },
     {
       "discogs_id": "6232111",
@@ -2689,13 +2686,13 @@
     {
       "discogs_id": "6371624",
       "title": "Interpreta I Grandi Autori Russi",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_saved_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 1,
       "uncached_hits": 8,
-      "finding": null,
-      "next_action": null
+      "finding": "Saved Tchaikovsky/Prokofiev/Bartok piano concertos do not supply source Russian solo recital and specified opus members.",
+      "next_action": "Reopen only with exact complete source programme/cast or independently corroborated catalogue/recording evidence; retain the recorded specific blocker."
     },
     {
       "discogs_id": "6387921",
@@ -2799,13 +2796,13 @@
     {
       "discogs_id": "6623341",
       "title": "Cantata BWV 199 • Cantata BWV 209",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_saved_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 1,
       "uncached_hits": 6,
-      "finding": null,
-      "next_action": null
+      "finding": "Relaxing anthology does not establish both complete source Bach cantatas BWV199 and BWV209 with the source cast.",
+      "next_action": "Reopen only with exact complete source programme/cast or independently corroborated catalogue/recording evidence; retain the recorded specific blocker."
     },
     {
       "discogs_id": "6628473",
@@ -2942,13 +2939,13 @@
     {
       "discogs_id": "6837646",
       "title": "Les 6 Dernières Symphonies",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_saved_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 1,
       "uncached_hits": 7,
-      "finding": null,
-      "next_action": null
+      "finding": "Gould complete Columbia collection does not establish the six source late Mozart symphonies and source orchestral recording family.",
+      "next_action": "Reopen only with exact complete source programme/cast or independently corroborated catalogue/recording evidence; retain the recorded specific blocker."
     },
     {
       "discogs_id": "6848787",
@@ -3030,13 +3027,13 @@
     {
       "discogs_id": "6993029",
       "title": "Sinfonie Nr. 4",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_saved_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 1,
       "uncached_hits": 6,
-      "finding": null,
-      "next_action": null
+      "finding": "Shostakovich Symphony8 Op65 is not source Symphony4 Op43. Do not relax the symphony number.",
+      "next_action": "Reopen only with exact complete source programme/cast or independently corroborated catalogue/recording evidence; retain the recorded specific blocker."
     },
     {
       "discogs_id": "7057910",
@@ -3162,13 +3159,13 @@
     {
       "discogs_id": "7269277",
       "title": "J.S. Bach",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_saved_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 5,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Source dotted BWV1.066/1.067/1.068/1.048/1.049/1.050/1.061 needs notation care, but saved French Suites/anthologies do not establish the complete orchestral source programme.",
+      "next_action": "Reopen only with exact complete source programme/cast or independently corroborated catalogue/recording evidence; retain the recorded specific blocker."
     },
     {
       "discogs_id": "7278935",
@@ -3206,13 +3203,13 @@
     {
       "discogs_id": "7334505",
       "title": "BWV 72 Alles Nur Nach Gottes Wille / BWV 58 Ach Gott, Wie Manches Herzeleid",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_saved_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 1,
       "uncached_hits": 6,
-      "finding": null,
-      "next_action": null
+      "finding": "Saved Rilling cantata collection contains a different listed cantata selection, not both source BWV72/58; source named instrumentalists remain required.",
+      "next_action": "Reopen only with exact complete source programme/cast or independently corroborated catalogue/recording evidence; retain the recorded specific blocker."
     },
     {
       "discogs_id": "7341892",
@@ -3228,13 +3225,13 @@
     {
       "discogs_id": "7358646",
       "title": "Felix Mendelssohn Bartholdy – 11 Romanze Senza Parole",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_saved_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 2,
       "uncached_hits": 5,
-      "finding": null,
-      "next_action": null
+      "finding": "Saved Mendelssohn symphony editions do not supply source Songs Without Words and solo variations/rondo programme.",
+      "next_action": "Reopen only with exact complete source programme/cast or independently corroborated catalogue/recording evidence; retain the recorded specific blocker."
     },
     {
       "discogs_id": "7421796",
@@ -3272,13 +3269,13 @@
     {
       "discogs_id": "7506575",
       "title": "Finlandia • Valse Triste • Der Schwan Von Tuonela • Tapiola",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_saved_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 1,
       "uncached_hits": 6,
-      "finding": null,
-      "next_action": null
+      "finding": "Saved Grieg Peer Gynt/Sibelius Pelleas coupling differs from source Finlandia, Valse Triste, Swan of Tuonela and Tapiola. Source Swan opus numbering is an additional identity issue, not a fix for missing programme.",
+      "next_action": "Reopen only with exact complete source programme/cast or independently corroborated catalogue/recording evidence; retain the recorded specific blocker."
     },
     {
       "discogs_id": "7551719",
@@ -3547,13 +3544,13 @@
     {
       "discogs_id": "7975379",
       "title": "BWV 149 Man Singet Mit Freuden Vom Sieg / BWV 188 Ich Habe Meine Zuversicht.",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_saved_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 1,
       "uncached_hits": 4,
-      "finding": null,
-      "next_action": null
+      "finding": "Saved Rilling cantata selection does not establish both source BWV149/188; ensemble label alone does not fill absent works.",
+      "next_action": "Reopen only with exact complete source programme/cast or independently corroborated catalogue/recording evidence; retain the recorded specific blocker."
     },
     {
       "discogs_id": "7990485",
@@ -3602,13 +3599,13 @@
     {
       "discogs_id": "8121703",
       "title": "Twenty Harpsichord Sonatas",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:cross_catalogue_concordance_needed",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 1,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Source bundles20Scarlatti Longo numbers into six LP bands; cached Landowska sonatas use Kirkpatrick K numbers. Needs an explicit complete L/K/key concordance and band mapping, including source L.S27/punctuation/key anomalies; no numerical alias.",
+      "next_action": "Reopen only with exact complete source programme/cast or independently corroborated catalogue/recording evidence; retain the recorded specific blocker."
     },
     {
       "discogs_id": "8182960",
@@ -4042,13 +4039,13 @@
     {
       "discogs_id": "9280880",
       "title": "Volume 4 I Concerti",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_saved_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 1,
       "uncached_hits": 5,
-      "finding": null,
-      "next_action": null
+      "finding": "Saved Gieseking Debussy piano works do not supply source multi-composer concerto box.",
+      "next_action": "Reopen only with exact complete source programme/cast or independently corroborated catalogue/recording evidence; retain the recorded specific blocker."
     },
     {
       "discogs_id": "9297209",
@@ -4097,13 +4094,13 @@
     {
       "discogs_id": "9350033",
       "title": "Klavierkonzert • Piano Concerto No.3",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_saved_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 2,
       "uncached_hits": 8,
-      "finding": null,
-      "next_action": null
+      "finding": "Saved Furtwangler anthology and Vienna symphony edition do not establish Pollini/Bohm Beethoven PianoConcerto3 Op37.",
+      "next_action": "Reopen only with exact complete source programme/cast or independently corroborated catalogue/recording evidence; retain the recorded specific blocker."
     },
     {
       "discogs_id": "9384678",
@@ -4130,13 +4127,13 @@
     {
       "discogs_id": "9419646",
       "title": "Symphonie Nr. 7",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_saved_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 1,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Saved Beethoven3 plus Leonore3 is not source Beethoven7 Op92.",
+      "next_action": "Reopen only with exact complete source programme/cast or independently corroborated catalogue/recording evidence; retain the recorded specific blocker."
     },
     {
       "discogs_id": "9458258",
@@ -4174,13 +4171,13 @@
     {
       "discogs_id": "9732615",
       "title": "Kantaten - Cantatas",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_saved_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 1,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "CPE Bach chamber music/cantata is not JS Bach source BWV27/118/158/59. Composer identity must remain explicit.",
+      "next_action": "Reopen only with exact complete source programme/cast or independently corroborated catalogue/recording evidence; retain the recorded specific blocker."
     },
     {
       "discogs_id": "9769609",
@@ -4482,13 +4479,13 @@
     {
       "discogs_id": "10563889",
       "title": "Plays Concertos",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_saved_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 1,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Saved Richter Beethoven piano/triple concertos are not source multi-composer violin concerto box. Opus coincidences cannot repair instrumentation/composer gaps.",
+      "next_action": "Reopen only with exact complete source programme/cast or independently corroborated catalogue/recording evidence; retain the recorded specific blocker."
     },
     {
       "discogs_id": "10675304",
@@ -4713,13 +4710,13 @@
     {
       "discogs_id": "11553633",
       "title": "Sonatas, Volume 2",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:cross_catalogue_concordance_needed",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 1,
       "uncached_hits": 4,
-      "finding": null,
-      "next_action": null
+      "finding": "Source Landowska Volume2 lists a different set of20Longo numbers; cached20sonatas use Kirkpatrick numbers. Need exact concordance and full programme proof; shared performer and number of tracks are insufficient.",
+      "next_action": "Reopen only with exact complete source programme/cast or independently corroborated catalogue/recording evidence; retain the recorded specific blocker."
     },
     {
       "discogs_id": "11584908",
@@ -4746,13 +4743,13 @@
     {
       "discogs_id": "11629381",
       "title": "Wagner, Brahms, Airs de Bach, Gluck, Haendel",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_saved_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 3,
       "uncached_hits": 7,
-      "finding": null,
-      "next_action": null
+      "finding": "Saved Wagner operas/Bach anthology do not establish the whole source vocal recital of Wagner/Brahms/Bach/Gluck/Handel; no borrowing across different works or casts.",
+      "next_action": "Reopen only with exact complete source programme/cast or independently corroborated catalogue/recording evidence; retain the recorded specific blocker."
     },
     {
       "discogs_id": "11647374",
@@ -4955,13 +4952,13 @@
     {
       "discogs_id": "12534352",
       "title": "Concerto Pour Harpe Et Orchestre",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:partial_programme_and_catalogue_systems",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 2,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Handel source uses opus/ordinal and split-band work names; saved wedding/relaxing anthologies do not establish the entire harp/flute/double/grosso/oboe programme. Any HWV equivalences require exact work-level proof.",
+      "next_action": "Reopen only with exact complete source programme/cast or independently corroborated catalogue/recording evidence; retain the recorded specific blocker."
     },
     {
       "discogs_id": "12554746",
@@ -5329,13 +5326,13 @@
     {
       "discogs_id": "14113741",
       "title": "Magnificat - Gloria",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_saved_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 1,
       "uncached_hits": 9,
-      "finding": null,
-      "next_action": null
+      "finding": "Saved Bach EasterOratorio BWV249/BWV200 does not supply source Gloria plus Magnificat BWV243.",
+      "next_action": "Reopen only with exact complete source programme/cast or independently corroborated catalogue/recording evidence; retain the recorded specific blocker."
     },
     {
       "discogs_id": "14123645",
@@ -5395,13 +5392,13 @@
     {
       "discogs_id": "14669582",
       "title": "Das Kantatenwerk Vol.32, BWV 128-131",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_saved_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 2,
       "uncached_hits": 3,
-      "finding": null,
-      "next_action": null
+      "finding": "Saved Ameling anthology/Magnificat editions do not establish all four source cantatas BWV128–131 and source cast.",
+      "next_action": "Reopen only with exact complete source programme/cast or independently corroborated catalogue/recording evidence; retain the recorded specific blocker."
     },
     {
       "discogs_id": "14704151",
@@ -5516,13 +5513,13 @@
     {
       "discogs_id": "15587453",
       "title": "Cembalowerke II",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_saved_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 1,
       "uncached_hits": 9,
-      "finding": null,
-      "next_action": null
+      "finding": "Saved Yo-Yo Ma cello suites cannot represent source large harpsichord collection of English/French suites, partitas and other keyboard works.",
+      "next_action": "Reopen only with exact complete source programme/cast or independently corroborated catalogue/recording evidence; retain the recorded specific blocker."
     },
     {
       "discogs_id": "15660391",
@@ -5780,13 +5777,13 @@
     {
       "discogs_id": "20282824",
       "title": "Les Preludes Op.28 - Prelude Op.45",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:partial_opus_set",
+      "planning_family": "other_saved_blocker",
       "cached_candidate_count": 3,
       "uncached_hits": 6,
-      "finding": null,
-      "next_action": null
+      "finding": "Pires solo anthology has22positively credited Op28preludes, not all24plus source Op45. Set-parent clue is partial support only; repeated source key labels need preserved verification.",
+      "next_action": "Reopen only with exact complete source programme/cast or independently corroborated catalogue/recording evidence; retain the recorded specific blocker."
     },
     {
       "discogs_id": "20380558",
@@ -5901,13 +5898,13 @@
     {
       "discogs_id": "23201027",
       "title": "Walter Gieseking Volume 3 - Beethoven Sonate",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_saved_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 1,
       "uncached_hits": 9,
-      "finding": null,
-      "next_action": null
+      "finding": "Saved Gieseking Debussy album does not supply source Beethoven sonata collection. Source duplicate/incorrect opus labels are separate issues, not proof this candidate matches.",
+      "next_action": "Reopen only with exact complete source programme/cast or independently corroborated catalogue/recording evidence; retain the recorded specific blocker."
     },
     {
       "discogs_id": "23950082",
@@ -5934,13 +5931,13 @@
     {
       "discogs_id": "24963823",
       "title": "Sinfonia N.4 , Egmont, Musica di Scena",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:source_number_and_partial_coupling",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 5,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Source Beethoven4 plus Egmont songs/excerpts cites Op64; canonical Egmont is Op84. Complete-symphony candidate supplies a Symphony4 clue, but source unscoped Nilsson and whole Egmont coupling still need recording/band/cast proof. No source correction or singer waiver.",
+      "next_action": "Reopen only with exact complete source programme/cast or independently corroborated catalogue/recording evidence; retain the recorded specific blocker."
     },
     {
       "discogs_id": "25538239",
@@ -5956,13 +5953,13 @@
     {
       "discogs_id": "26346215",
       "title": "Moments Musicaux /  Nachtstücke",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_saved_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 1,
       "uncached_hits": 9,
-      "finding": null,
-      "next_action": null
+      "finding": "Saved Mozart concertos/Schubert four-hand FantasyD940 do not supply source Schubert MomentsMusicauxOp94 and Schumann NachtstuckeOp23.",
+      "next_action": "Reopen only with exact complete source programme/cast or independently corroborated catalogue/recording evidence; retain the recorded specific blocker."
     },
     {
       "discogs_id": "26797586",
@@ -6009,26 +6006,15 @@
       "next_action": null
     },
     {
-      "discogs_id": "28448206",
-      "title": "Symphonie Fantastique",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
-      "cached_candidate_count": 5,
-      "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
-    },
-    {
       "discogs_id": "29097343",
       "title": "Die 5 Klavierkonzerte - \"Mondschein-Sonate\"",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:partial_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 4,
       "uncached_hits": 3,
-      "finding": null,
-      "next_action": null
+      "finding": "Saved Beethoven piano-sonata editions may support Moonlight alone; they do not supply all five source piano concertos and their complete recording cast.",
+      "next_action": "Reopen only with exact complete source programme/cast or independently corroborated catalogue/recording evidence; retain the recorded specific blocker."
     },
     {
       "discogs_id": "29719858",
@@ -6066,13 +6052,13 @@
     {
       "discogs_id": "33198774",
       "title": "Walter Gieseking Volume 6 - Souvenirs",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_saved_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 1,
       "uncached_hits": 6,
-      "finding": null,
-      "next_action": null
+      "finding": "Saved Gieseking Debussy piano album is not source Mozart wind-and-piano QuintetK452.",
+      "next_action": "Reopen only with exact complete source programme/cast or independently corroborated catalogue/recording evidence; retain the recorded specific blocker."
     },
     {
       "discogs_id": "33352196",
@@ -6121,13 +6107,13 @@
     {
       "discogs_id": "36884278",
       "title": "Symphony No.3",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_saved_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 5,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Saved Maazel Tchaikovsky4/cross-composer anthologies do not establish source Tchaikovsky3 Op29 with Vienna. Do not equate symphony numbers or borrow a conductor from another work.",
+      "next_action": "Reopen only with exact complete source programme/cast or independently corroborated catalogue/recording evidence; retain the recorded specific blocker."
     }
   ],
   "provider_calls": 0,
@@ -6142,8 +6128,9 @@
     "Grouping authorizes no new retrieval, identity alias, role waiver or automatic promotion."
   ],
   "source_hashes": {
-    "data/qobuz_unmatched_audit.json": "e97811cd944860a4f2b3a94c05714724af9356e60b8772c3c9e2d50ce51774af",
-    "data/qobuz_matches.json": "951d0a05a2385e40ae64a29c9be9b5b5c04bee7b425a94c6f7480c8854aacb29",
+    "data/qobuz_unmatched_audit.json": "aab3fc90ed8850a073b0afa6132561dc5e7a04614794023ca005018cbfdb5ec5",
+    "data/qobuz_matches.json": "e5951decaa541cf3c9cc07ae588c2321f59d35aa08c98886d593bdfb5ba36339",
+    "data/qobuz_catalogue40_recording_audit.json": "67d2cdb0cd161671d405df2fb0a941cb19b6b6e72167791869aa08c97215eed4",
     "data/qobuz_credit12_recording_audit.json": "f720a1cc1c5beec68dbe0b3ae45b80e5fd003d272f4cc5ca872f6863e1105092",
     "data/qobuz_final_cached2_recording_audit.json": "0d6a38e1817de98fc971d7a0e9c92f972c24e0eff503fc569951030c0e29da73",
     "data/qobuz_fullsupport16_recording_audit.json": "4187655cdfbfbc21fc9895b0818c8755a72596608a5ce7d1579ac38e1901510a",

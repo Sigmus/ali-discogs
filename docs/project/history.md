@@ -2430,3 +2430,19 @@ Validation:326script tests, normalization/static build and local reviewed-blocke
 smoke check pass; onlyfavicon404. Allstatus/confidence labels unchanged, original
 source/cache/Spotify bytes preserved. Fixture429/STOP is simulated; incidental
 test export restored. Local commit, no push/deploy.
+
+## 2026-11-16 — Forty catalogue-gap recording reviews
+
+All40frozen cases/82candidate comparisons complete:2Probable85(Duchable2383222,
+Ozawa28448206),38explicit holds. Complete24Etudes parent/member source mapping
+and5Berlioz source/cast/timing bands accepted through existing source-leaf reviews.
+Warner/DGprimary corroboration saved; rawBerliozOp24vs officialOp14/H48disclosed,
+not silently rewritten. OriginalSourceLP transfer/mastering not verified.
+Remaining30wrong saved programmes and8partial/notation/credit/cross-catalogue
+issues retain specific blockers. No general opus-parent, catalogue, composer or
+role relaxation. Copydiagnostics distinguish parent-set clues from complete sets.
+333script tests, normalization/build,2acceptedlocaldetails and1retainedblocker
+smoke checks pass; onlyfavicon404. Only40publication records changed; only2labels
+changed. Source/cache/Spotify/earlierdiagnostic unchanged;0Qobuz/audio calls.
+UIcopies12Found/188Probable/292Reviewed · unresolved/249Unchecked. Local commit,
+no push/deploy. [Results and next focused batch](../plans/2026-11-16-qobuz-catalogue40.md).
