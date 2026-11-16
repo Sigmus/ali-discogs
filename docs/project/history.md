@@ -2361,3 +2361,17 @@ pass; onlyexistingfavicon404. Source/cache/Spotify/scorer unchanged;0Qobuzcalls.
 UIcopies12Found/183Probable/236Reviewed · unresolved/310Unchecked. Source title3
 batch now2Probable/1Didohold; queue2resolved/1held. Local commit, no push/deploy.
 Next suggested batch:21work-title/musician-gap cases using existing cached evidence.
+
+## 2026-11-16 — Twenty-one musician-gap cases triaged
+
+All21frozen title-context musician-gap cases inspected against raw programmes,
+source casts and saved candidate track declarations. Dominant blockers:11incomplete
+or conflicting recordings,6missing positive credits,2ensemble/collective identity
+issues,2bounded name-review leads. No alias/role waiver, ledger decision, match
+label or confidence change. Reproducible report preserves source/target/album
+hashes and original diagnostic observations; original diagnostic unchanged.
+Primary Bernstein discography and Praga publisher corroboration located for
+11876845and21490438; full source-bound recording reviews still outstanding.
+307script tests pass; fixture429/STOP is simulated. No Qobuz/audio calls or
+cache/source/Spotify changes. Local checkpoint; no push/deploy.
+[Results and concrete next action](../plans/2026-11-16-qobuz-musician21.md).
