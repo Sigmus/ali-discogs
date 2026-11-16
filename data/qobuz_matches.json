@@ -62,7 +62,16 @@
       "searched_at": "2026-11-12T14:24:00.570295+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The Bartholdy candidates contain selected Mendelssohn quartets/quintets, not a verified complete quartet cycle and source-named lineup.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "1855288": {
       "status": "probable",
@@ -145,7 +154,16 @@
       "searched_at": "2026-11-12T14:24:30.433714+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Münchinger's orchestral Bach box is a lead, but source Brandenburg1/3/6 need explicit complete movement and recording-family selection.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "15081257": {
       "status": "unchecked",
@@ -1559,7 +1577,16 @@
       "searched_at": "2026-11-12T14:27:31.134359+00:00",
       "reasons": [
         "1/2 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The source lists two LP sides, Part1and Conclusion, and explicitly says revised1947version. The five-tableau-parts candidate is not a mapping of those two sides: its TableauIIIpt1is a false Part1collision. Alternative3614596571638explicitly states1947Version, MonoVersion and has the whole ballet, but exact side partition and transfer provenance remain unverified.",
+        "limitations": [
+          "This is a candidate-specific review, not catalogue-wide absence or a rejection of every possible edition.",
+          "No raw source, normalized collection, Spotify labels or global credit/threshold policy changed."
+        ]
+      }
     },
     "16423914": {
       "status": "unchecked",
@@ -1570,7 +1597,15 @@
       "searched_at": "2026-11-12T14:27:45.533705+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "TheWarnerrecitalalternative includes the two exact liveBesancon1950Schubertimpromptus, while theBNFlead only covers Bach/Mozart. No saved candidate establishes all13source waltzes plus that live programme. Distinguish prior separately reviewed studio14waltzes from this final recital.",
+        "limitations": [
+          "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+        ]
+      }
     },
     "3476755": {
       "status": "unchecked",
@@ -1719,7 +1754,16 @@
       "searched_at": "2026-11-12T14:28:30.285136+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The matching Haydn/Schubert trio title and Cortot/Thibaud/Casals names are cached, but flat movements still need a source-bound programme and session mapping.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "8357595": {
       "status": "unchecked",
@@ -1730,7 +1774,15 @@
       "searched_at": "2026-11-12T14:28:45.602663+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "All three source BWV1052/1056/1055concertos appear complete in9BNFtracks. Source explicitly dates sessions January1933/April1938/October1936; digital album broadly says RecordedIn1933. This cannot establish all three session identities. Soloist/orchestra positive credits do not independently prove Fischer conductor role or transfer/takes. Other cached candidates are different works.",
+        "limitations": [
+          "Recording-family evidence does not verify exact pressing, mastering, session takes or audio. Raw source, normalized collection and Spotify remain unchanged."
+        ]
+      }
     },
     "5838140": {
       "status": "unchecked",
@@ -1741,7 +1793,16 @@
       "searched_at": "2026-11-12T14:29:00.651772+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Programme/performer support for Casals Suites1and2 does not establish this LP transfer. Saved Nar Classical2022album has no session/take/version metadata binding its audio to the source edition. Keep Unchecked, consistent with the other two Casals LPs against this candidate.",
+        "limitations": [
+          "Missing provenance is not evidence of different audio or catalogue absence.",
+          "No recording dates borrowed from source LP notes; no exact pressing/mastering claim."
+        ]
+      }
     },
     "6628473": {
       "status": "unchecked",
@@ -2665,7 +2726,16 @@
         "This is a candidate-specific review, not catalogue-wide absence or a rejection of every possible edition.",
         "No raw source, normalized collection, Spotify labels or global credit/threshold policy changed.",
         "5/8 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Five concertos and three solo variation cycles are present. The solo cycles have Gilels but no Szell/Cleveland; the source gives no exact work-scoped conductor/orchestra assignments accepted by current rules. G182/WoO71 and G191/WoO80 need explicit source-catalogue reconciliation, including theme/variation spans. Do not demand orchestral players in piano solos, but do not silently invent their source scopes either.",
+        "limitations": [
+          "This is a candidate-specific review, not catalogue-wide absence or a rejection of every possible edition.",
+          "No raw source, normalized collection, Spotify labels or global credit/threshold policy changed."
+        ]
+      }
     },
     "8316658": {
       "status": "found",
@@ -3997,7 +4067,16 @@
       "searched_at": "2026-11-12T14:33:15.944701+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Violin recital/concerto leads do not establish both source Mendelssohn double concerto and F-major sonata with Urbini/Gulli/Cavallo/Angelicum.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "10872447": {
       "status": "unchecked",
@@ -4008,7 +4087,16 @@
       "searched_at": "2026-11-12T14:33:30.485080+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Sebestyén's Bach keyboard collections do not establish the selected transcribed concertos listed by the source.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "5149154": {
       "status": "unchecked",
@@ -4041,7 +4129,16 @@
       "searched_at": "2026-11-12T14:34:15.834761+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The source BWV80/140 cantata pair is not established by the saved St John Passion, Christmas Oratorio and song candidates.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "14338491": {
       "status": "probable",
@@ -4380,7 +4477,16 @@
         "No raw source, normalized collection, Spotify labels or global credit/threshold policy changed.",
         "1/2 target items supported after composer/work grouping; unresolved.",
         "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Both masses map to six movements each. Renate Krahmer is positively credited in BWV236DomineDeus, but absent from BWV235credits; source currently lists singers globally. Work-group union cannot justify importing a soprano into a work without that solo. Preserve the source credit until exact source/score scope is validated; no generic voice-role exemption.",
+        "limitations": [
+          "This is a candidate-specific review, not catalogue-wide absence or a rejection of every possible edition.",
+          "No raw source, normalized collection, Spotify labels or global credit/threshold policy changed."
+        ]
+      }
     },
     "12851527": {
       "status": "unchecked",
@@ -4391,7 +4497,16 @@
       "searched_at": "2026-11-12T14:35:15.643902+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Bach masses/cantatas do not establish the source sacred songs with Speiser, Schreier and Bilgram.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "2857544": {
       "status": "unchecked",
@@ -4402,7 +4517,17 @@
       "searched_at": "2026-11-12T14:35:30.725233+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Withheld: source baroque-lute set includes BWV1006a final Gigue (D6); this digital album ends that suite at Bourree, while splitting the Menuets into two tracks. Equal27-track totals do not establish completeness. Several digital works are labelled guitar arrangements, inconsistent with the source baroque-lute credit. Fixing spaced BWV1006 a alone would not justify acceptance.",
+        "limitations": [
+          "Digital arrangement labels could contain metadata errors; instrument/session identity remains unresolved, not proven different audio.",
+          "No global BWV suffix normalization, source correction or inferred missing movement.",
+          "Source session dates1972/1973 do not identify the dates of this digital compilation."
+        ]
+      }
     },
     "3406649": {
       "status": "unchecked",
@@ -5840,7 +5965,16 @@
       "searched_at": "2026-11-12T14:38:46.233782+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The Bach cantata anthologies need a complete source Ascension/Pentecost/Trinity BWV inventory and work-scoped vocal casts; generic anthology names are insufficient.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "18452035": {
       "status": "unchecked",
@@ -6719,7 +6853,16 @@
       "searched_at": "2026-11-12T14:40:31.503268+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Cached Django Reinhardt compilations are not evidence of the source Guitars Unlimited recording of the same standards.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "7467218": {
       "status": "unchecked",
@@ -6730,7 +6873,15 @@
       "searched_at": "2026-11-12T14:40:46.446657+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Separate source pressing has the same complete six-BWV programme and the same BWV829No4versusNo5and BWV828Aria/Sarabande order conflicts. All40tracks present, not missing a partita. First-partita two minuets share one band. Must preserve separate source hash and not inherit another pressing approval.",
+        "limitations": [
+          "Recording-family evidence does not verify exact pressing, mastering, session takes or audio. Raw source, normalized collection and Spotify remain unchanged."
+        ]
+      }
     },
     "10899046": {
       "status": "unchecked",
@@ -6741,7 +6892,16 @@
       "searched_at": "2026-11-12T14:41:01.749835+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The cached Kuijken solo violin sonatas/partitas and orchestral Bach works are not the source six violin/harpsichord sonatas BWV1014-1019 with Leonhardt.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "3337609": {
       "status": "unchecked",
@@ -7367,7 +7527,16 @@
       "searched_at": "2026-11-12T14:42:01.394381+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Burton Greene Quartet catalogue hits do not establish One World Music's complete programme or the same quartet personnel.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "8291074": {
       "status": "probable",
@@ -8498,7 +8667,16 @@
       "searched_at": "2026-11-12T14:43:16.435957+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The Walter Fifth Symphony lead does not establish the source Ninth plus additional vocal material and Mildred Miller credit.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "3408094": {
       "status": "unchecked",
@@ -9005,7 +9183,16 @@
         "This is a candidate-specific review, not catalogue-wide absence or a rejection of every possible edition.",
         "No raw source, normalized collection, Spotify labels or global credit/threshold policy changed.",
         "15/30 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The source is the1974CBSGM15Bernstein/New York Philharmonic Mahler box. DG0002894778668is a different cycle: Symphony1has Royal Concertgebouw credits, not the source orchestra. Some NYPhil works cannot establish the complete CBS cycle. The other cached DGcollection has no Mahler composer tracks.",
+        "limitations": [
+          "This is a candidate-specific review, not catalogue-wide absence or a rejection of every possible edition.",
+          "No raw source, normalized collection, Spotify labels or global credit/threshold policy changed."
+        ]
+      }
     },
     "6686688": {
       "status": "probable",
@@ -9959,7 +10146,16 @@
       "searched_at": "2026-11-12T14:44:46.689547+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Walter Mahler1/2 candidates do not establish the full source centenary box including Symphony4 and its vocal cast.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "7830338": {
       "status": "unchecked",
@@ -9970,7 +10166,15 @@
       "searched_at": "2026-11-12T14:45:01.648099+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Saved WalterSonycandidate supplies WagnerSiegfriedIdyll but not full source Bruckner7coupling. Separate Bruckner7files and Wagnerpreludes require original ColumbiaSymphony/source-family and full-programme/take corroboration. No automatic multi-file release union.",
+        "limitations": [
+          "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+        ]
+      }
     },
     "4382754": {
       "status": "unchecked",
@@ -11060,7 +11264,16 @@
       "searched_at": "2026-11-12T14:47:16.488058+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The matching Symphony 1/Cello Concerto album needs separate Ormandy/Philadelphia and Bernstein/New York work-scoped casts, not a global cast shared across both works.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "1470008": {
       "status": "unchecked",
@@ -11534,7 +11747,16 @@
         "This is a candidate-specific review, not catalogue-wide absence or a rejection of every possible edition.",
         "No raw source, normalized collection, Spotify labels or global credit/threshold policy changed.",
         "8/16 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The source has13physical works under three headings, not16independent works. Forty Partita movements have explicit BWV work fields; all seven Toccatas are cached. BWV914occurs twice:519seconds on disc17and516on disc67; source8:36and VolII favour the latter but timing alone is not take identity. The official Gould discography confirms the late VolIIprogramme; safe catalogue-range/container validation and source-box/edition corroboration are still required. Source-image retrieval was unavailable(Discogs image HTTP403); no Qobuz calls were made.",
+        "limitations": [
+          "This is a candidate-specific review, not catalogue-wide absence or a rejection of every possible edition.",
+          "No raw source, normalized collection, Spotify labels or global credit/threshold policy changed."
+        ]
+      }
     },
     "4431461": {
       "status": "unchecked",
@@ -12307,7 +12529,16 @@
       "searched_at": "2026-11-12T14:49:01.830551+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The Haydn mass candidates do not establish all four source masses and their distinct soloists, choirs, organists and conductors.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "4975184": {
       "status": "unchecked",
@@ -12700,7 +12931,16 @@
       "searched_at": "2026-11-12T14:49:31.864293+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The Stravinsky original-jacket box is a lead; the source revised1947 Petrushka plus Pulcinella and the Columbia Chamber Symphony credit require explicit selection.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "6907296": {
       "status": "unchecked",
@@ -15266,7 +15506,16 @@
       "searched_at": "2026-11-12T14:50:31.633828+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Hammerklavier is cached, but this does not establish the source Bagatelles Op119 or the same Serkin recording family.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "4575174": {
       "status": "unchecked",
@@ -15277,7 +15526,15 @@
       "searched_at": "2026-11-12T14:52:32.264448+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Source31LPStravinskyRecordedLegacycontains rehearsal/spoken documents, songs, operas, ballets and choral works. Saved limited orchestral/concerto candidates cannot verify that full corpus; title-only SymphonyOp1support does not validate the box, and composer may not be the performer on other files.",
+        "limitations": [
+          "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+        ]
+      }
     },
     "2548602": {
       "status": "unchecked",
@@ -15360,7 +15617,16 @@
       "searched_at": "2026-11-12T14:53:02.454897+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Multiple Serkin Emperor recordings are cached; matching the concerto does not establish the source Bruno Walter/New York Philharmonic session.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "6781135": {
       "status": "unchecked",
@@ -16830,7 +17096,16 @@
       "searched_at": "2026-11-12T14:55:02.552627+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The only Sonaten zum Sonntag compilation does not establish the entire Sellheim cello/piano source recital.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "18963583": {
       "status": "unchecked",
@@ -16841,7 +17116,16 @@
       "searched_at": "2026-11-12T14:55:17.880505+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The Walter Brahms collection contains Academic Festival Overture Op80but no Dvorak Symphony8Op88. The other cached Brahms Requiem/Alto Rhapsody cannot supply that missing symphony.",
+        "limitations": [
+          "This is a candidate-specific review, not catalogue-wide absence or a rejection of every possible edition.",
+          "No raw source, normalized collection, Spotify labels or global credit/threshold policy changed."
+        ]
+      }
     },
     "7334505": {
       "status": "unchecked",
@@ -17018,7 +17302,17 @@
         "Source, normalized collection and Spotify data remain unchanged.",
         "3/16 target items supported after composer/work grouping; unresolved.",
         "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The anthology is not the source sixteen-song Moore recital. Its unique Abendempfindung and DerZauberer entries credit WalterGieseking, not source accompanist GeraldMoore; other song titles/versions are partial or ambiguous. Correct singer and some Moore songs do not establish all sixteen source recordings.",
+        "limitations": [
+          "This is a candidate-specific recording review, not proof of service-wide absence.",
+          "Other cached alternatives were inspected separately; no uncertain source musician, named piece or conflicting provider identity was waived.",
+          "Source, normalized collection and Spotify data remain unchanged."
+        ]
+      }
     },
     "2628957": {
       "status": "unchecked",
@@ -17224,7 +17518,16 @@
         "No raw source, normalized collection, Spotify labels or global credit/threshold policy changed.",
         "5/9 target items supported after composer/work grouping; unresolved.",
         "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Warner track66036548 has no performers declaration. The cached Casta Diva alternative njqf4yj9ms02b has all nine arias and positive singer/conductor/orchestra credits, with the last two arias reordered. Its Album of1953 marker is not independent proof of the original Columbia33CX1069transfer or session identity; recitative/act/title discrepancies remain explicit.",
+        "limitations": [
+          "This is a candidate-specific review, not catalogue-wide absence or a rejection of every possible edition.",
+          "No raw source, normalized collection, Spotify labels or global credit/threshold policy changed."
+        ]
+      }
     },
     "3789771": {
       "status": "unchecked",
@@ -18367,7 +18670,17 @@
       "searched_at": "2026-11-12T14:57:02.348143+00:00",
       "reasons": [
         "4/9 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The source nine-piece sequence matches the publisher’sfirst Chopin LP recital, Paris24–25June1952. Both cached176trackcollections have the nine compositions, but the selected takes have no positive1952session binding and cannot inherit the accepted1958waltz-cycle identity. Single-work/étude/nocturne alternatives are partial. Programme equality and pianist name alone do not verify this early recital family.",
+        "limitations": [
+          "This is a candidate-specific recording review, not proof of service-wide absence.",
+          "Other cached alternatives were inspected separately; no uncertain source musician, named piece or conflicting provider identity was waived.",
+          "Source, normalized collection and Spotify data remain unchanged."
+        ]
+      }
     },
     "14782388": {
       "status": "unchecked",
@@ -18378,7 +18691,16 @@
       "searched_at": "2026-11-12T14:57:17.592913+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Commette organ recitals are cached but source Musique d'Orgue III still needs exact piece/version and full-band identification.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "15693042": {
       "status": "unchecked",
@@ -19747,7 +20069,15 @@
       "searched_at": "2026-11-12T14:58:17.394151+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "SourceCBS60264requires DvorakTrioOp65,StravinskySuiteItalienne,KodalyDuo and Handel/HalvorsenPassacaglia at CarnegieHall with three named musicians. SavedDuoCollectioncovers some duos, while other files cover trio; pianist Pennario is not required on duos but must be verified on the trio. Full same-source/take coverage is unresolved.",
+        "limitations": [
+          "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+        ]
+      }
     },
     "8470218": {
       "status": "unchecked",
@@ -22249,7 +22579,15 @@
         "The coupling is Bruch’s G minor concerto, not the concerto numbered 3 on the LP.",
         "1/2 target items supported after composer/work grouping; unresolved.",
         "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Francescatti’s Paganini Op. 6 is in this file. Violin Concerto No. 3 is not. The second work is Bruch’s Op. 26.",
+        "limitations": [
+          "The coupling is Bruch’s G minor concerto, not the concerto numbered 3 on the LP."
+        ]
+      }
     },
     "4046757": {
       "status": "unchecked",
@@ -22889,7 +23227,17 @@
       "searched_at": "2026-11-12T15:02:02.351670+00:00",
       "reasons": [
         "1/4 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "No cached candidate contains all four orchestral suites. The strongest full coupling has Suites2and3; another has Suite4; the SundayBrunch sampler supplies only the Gavottes from Suite1. The Prades anthology lacks the source Marlboro ensemble. A complete Suite1was not found in the shared Casals cache.",
+        "limitations": [
+          "This is a candidate-specific recording review, not proof of service-wide absence.",
+          "Other cached alternatives were inspected separately; no uncertain source musician, named piece or conflicting provider identity was waived.",
+          "Source, normalized collection and Spotify data remain unchanged."
+        ]
+      }
     },
     "2767598": {
       "status": "unchecked",
@@ -23916,7 +24264,17 @@
       "searched_at": "2026-11-12T15:03:32.762033+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Five-trackBNFfile contains four Psyché orchestral selections and Rédemption, but no LeChasseurMaudit. Exact target source names the missing work; the shared-cache Cluytens scan also found no Chasseur/AccursedHuntsman recording.",
+        "limitations": [
+          "This is a candidate-specific recording review, not proof of service-wide absence.",
+          "Other cached alternatives were inspected separately; no uncertain source musician, named piece or conflicting provider identity was waived.",
+          "Source, normalized collection and Spotify data remain unchanged."
+        ]
+      }
     },
     "9855113": {
       "status": "probable",
@@ -25197,7 +25555,15 @@
       "searched_at": "2026-11-12T15:04:47.536383+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "APR/Warneralternatives contain ChopinSonata3and some Liszt material, but the exact source Chopin/LisztBminor pairing and transfers/takes are not established. The bare Bminor source title must not be assigned to another Liszt piece or ChopinSonata2.",
+        "limitations": [
+          "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+        ]
+      }
     },
     "6848787": {
       "status": "unchecked",
@@ -25208,7 +25574,15 @@
       "searched_at": "2026-11-12T15:06:48.644793+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Nar Classical15tracks supply all named sonatas and fillers with performer-specific evidence, but do not establish original EMI/COLH transfer/take identity. Raw source Op102/1has three side bands versus two digital movements, and Op5/2joins sections into one band. Source explicit pianist scopes must be preserved; no global requirement for every pianist on every work. Other cached editions are partial, different partners or cannot establish same transfer.",
+        "limitations": [
+          "Recording-family evidence does not verify exact pressing, mastering, session takes or audio. Raw source, normalized collection and Spotify remain unchanged."
+        ]
+      }
     },
     "4256464": {
       "status": "unchecked",
@@ -25609,7 +25983,17 @@
         "Source, normalized collection and Spotify data remain unchanged.",
         "1/8 target items supported after composer/work grouping; unresolved.",
         "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The310trackWarnerfile contains all four named operas with Furtwängler/RomeRAIorchestra on every track; the source choir appears on12Götterdämmerungtracks. The source lists that choir globally across four independent operas, without work-scoped assignments. Do not relax that requirement by merging the entire cycle into one credit group. SourceRheingold sideBalso saysScene1part1before Scene2conclusion; exact side proof is unresolved. Milan1950and other-ensemble alternatives remain distinct.",
+        "limitations": [
+          "This is a candidate-specific recording review, not proof of service-wide absence.",
+          "Other cached alternatives were inspected separately; no uncertain source musician, named piece or conflicting provider identity was waived.",
+          "Source, normalized collection and Spotify data remain unchanged."
+        ]
+      }
     },
     "8597411": {
       "status": "found",
@@ -26173,7 +26557,16 @@
       "searched_at": "2026-11-12T15:07:48.523019+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "La Stravaganza is cached, but the twelve Op.4 concertos require a complete RV/opus-to-source mapping and source-named soloist checks.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "4469662": {
       "status": "unchecked",
@@ -27724,7 +28117,15 @@
         "The five concertos do not make the symphonic poem present.",
         "5/6 target items supported after composer/work grouping; unresolved.",
         "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "La Jeunesse d’Hercule, Op. 50, is a 16:58 filler on Decca D244D3. The cached album contains only the five piano concertos and has no Op. 50.",
+        "limitations": [
+          "The five concertos do not make the symphonic poem present."
+        ]
+      }
     },
     "7871589": {
       "status": "probable",
@@ -28525,7 +28926,17 @@
       "searched_at": "2026-11-12T15:11:18.385314+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The ActIIIexcerpt album lacks the ActIIdeath-announcement recording and source SetSvanholm. The separate anthology has that ActIIexcerpt but not the complete source ActIII. Later full Solti Walküre/Ring candidates have different casts; a Flagstad credit elsewhere in the Ring cannot identify her in this source ActIII.",
+        "limitations": [
+          "This is a candidate-specific recording review, not proof of service-wide absence.",
+          "Other cached alternatives were inspected separately; no uncertain source musician, named piece or conflicting provider identity was waived.",
+          "Source, normalized collection and Spotify data remain unchanged."
+        ]
+      }
     },
     "7801996": {
       "status": "unchecked",
@@ -28536,7 +28947,16 @@
       "searched_at": "2026-11-12T15:11:33.394757+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The only saved candidate is Anna Moffo selected arias, not the source Rossini Stabat Mater with Raskin/Lehane/Caracciolo.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "28104379": {
       "status": "unchecked",
@@ -29911,7 +30331,15 @@
       "searched_at": "2026-11-12T15:12:48.472205+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "ThePhase4anthology contains matching Black/LSOdances, but the selected Moldau23676500credits ArthurFiedler/BostonPops, not source StanleyBlack/LSO. Identical composition title cannot supply source performer identity; other cached alternatives do not establish the full same-cast source programme.",
+        "limitations": [
+          "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+        ]
+      }
     },
     "2772163": {
       "status": "unchecked",
@@ -29922,7 +30350,16 @@
       "searched_at": "2026-11-12T15:13:03.653646+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The complete dances collection is not itself a verified source Serenade K.203 plus horn Rondo K.371 with the source horn/violin soloists.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "7095769": {
       "status": "probable",
@@ -32818,7 +33255,17 @@
         "Source/role/work matching gaps remain; no source normalization or partial acceptance.",
         "0/2 target items supported after composer/work grouping; unresolved.",
         "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Withheld: source names Dale Clevenger (horn solo, sideB) and Adolph Herseth (trumpet solo, A1), neither credited in cached digital tracks. Roger Dettmer is only a liner author, but removing that false requirement does not supply the missing soloist evidence. No inference from Chicago Symphony membership or a similar reissue.",
+        "limitations": [
+          "Missing credit metadata is not proof these musicians did not perform.",
+          "Recording-family similarity cannot replace positive source-named soloist checks.",
+          "Source/role/work matching gaps remain; no source normalization or partial acceptance."
+        ]
+      }
     },
     "5800193": {
       "status": "unchecked",
@@ -34818,7 +35265,16 @@
       "searched_at": "2026-11-12T15:16:03.991498+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The exact Dances and Marches Vol.3 title is cached; zero rule support is not evidence of absence. Its source dance groups still lack a validated whole-programme binding.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "11345826": {
       "status": "unchecked",
@@ -42981,7 +43437,17 @@
         "Source, normalized collection and Spotify data remain unchanged.",
         "1/22 target items supported after composer/work grouping; unresolved.",
         "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "This separate Decca pressing has the same PaulKuen-versus-digitalPaulKuentz conflict in full candidates. BNFpartial excerpts cannot supply full-file credits or the whole opera. Its source programme/secondary cast and fingerprints are separate from1989694; no review is copied across pressings without validation.",
+        "limitations": [
+          "This is a candidate-specific recording review, not proof of service-wide absence.",
+          "Other cached alternatives were inspected separately; no uncertain source musician, named piece or conflicting provider identity was waived.",
+          "Source, normalized collection and Spotify data remain unchanged."
+        ]
+      }
     },
     "4726971": {
       "status": "unchecked",
@@ -43559,7 +44025,15 @@
       "searched_at": "2026-11-12T15:19:03.692710+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Source five groups include MarchesK408/2and3,12GermanDancesK586,twoK463andsevenK65aminuets. FullMozart225provides dance sets but saved march metadata live in another volume; a complete source programme in one candidate with verified identity is not established.",
+        "limitations": [
+          "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+        ]
+      }
     },
     "12769125": {
       "status": "unchecked",
@@ -43570,7 +44044,16 @@
       "searched_at": "2026-11-12T15:21:04.356596+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "A Schumann Rhenish candidate exists, but it does not establish the source Mendelssohn overture pairing under Frühbeck/London.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "22645613": {
       "status": "unchecked",
@@ -43581,7 +44064,16 @@
       "searched_at": "2026-11-12T15:21:19.825521+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The candidate pairs Mozart13/20, not source20/25, and does not establish Münchinger/Stuttgart for the whole source.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "3154926": {
       "status": "probable",
@@ -43991,7 +44483,17 @@
       "searched_at": "2026-11-12T15:22:19.947581+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Beethoven32and Galuppi Cmajor are present; the source Scarlatti numbers352/104/483are not explicitly typed as a catalogue. Digital K11/K159/K322require a verified historical crosswalk. The first source Scarlatti item says Cmajor while K11is labelled Cminor. No original label/score evidence resolves that discrepancy.",
+        "limitations": [
+          "This is a candidate-specific recording review, not proof of service-wide absence.",
+          "Other cached alternatives were inspected separately; no uncertain source musician, named piece or conflicting provider identity was waived.",
+          "Source, normalized collection and Spotify data remain unchanged."
+        ]
+      }
     },
     "7678883": {
       "status": "probable",
@@ -52726,7 +53228,17 @@
         "Source, normalized collection and Spotify data remain unchanged.",
         "2/31 target items supported after composer/work grouping; unresolved.",
         "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The complete Solti candidates credit PaulKuentz where the source names PaulKuen(Mime), sometimes with conflicting bass/tenor roles. No name equivalence is adopted. The BNFextract contains an explicit PaulKuen credit, but only two Rheingold excerpts and no complete source programme; it cannot lend credits to the full files. Raw source also names secondary singers beyond the normalized principal list, which must remain required.",
+        "limitations": [
+          "This is a candidate-specific recording review, not proof of service-wide absence.",
+          "Other cached alternatives were inspected separately; no uncertain source musician, named piece or conflicting provider identity was waived.",
+          "Source, normalized collection and Spotify data remain unchanged."
+        ]
+      }
     },
     "10423743": {
       "status": "unchecked",
@@ -52737,7 +53249,15 @@
       "searched_at": "2026-11-12T15:23:04.947816+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Source asks K215,K509,K462,K408/1,K567,K267. CachedMozart225contains complete dance sets including joined K509Nos1–6, but exact source marches/member numbering and full same-file source coverage remain unresolved across saved volumes. Joined six dances are not one absent set.",
+        "limitations": [
+          "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+        ]
+      }
     },
     "36884278": {
       "status": "unchecked",
@@ -52926,7 +53446,16 @@
       "searched_at": "2026-11-12T15:23:49.597158+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The cached Dvorak symphonies and related orchestral compilations do not establish both source string serenades under Solti/Kubelik.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "4149781": {
       "status": "unchecked",
@@ -53109,7 +53638,15 @@
       "searched_at": "2026-11-12T15:24:19.718953+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The3tracklead only has Hindemith concerto. Complete cached Deccaalternatives contain Bruch/Hindemith but source Bruch names harpist OsianEllis and Horenstein, while Hindemith conducts his own work. Ellie harp credit/full positive orchestral scopes are not validated by current scored groups. Five source Bruch sections versus four digital tracks also need joined introduction mapping.",
+        "limitations": [
+          "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+        ]
+      }
     },
     "5254294": {
       "status": "unchecked",
@@ -53391,7 +53928,15 @@
       "searched_at": "2026-11-12T15:25:19.780933+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Source DeccaSXL6363has1968phonogram/reissue evidence. Selected DG4714672contains later DGAbbado/LSOgroups; primary publisher distinguishes the earlier Decca readings, and DGselectedISRCsretain1984/1985family markers. Same conductor/orchestra/work is not sufficient to equate different sessions. Other cached partial DGorlive albums do not establish the source Decca coupling.",
+        "limitations": [
+          "Recording-family evidence does not verify exact pressing, mastering, session takes or audio. Raw source, normalized collection and Spotify remain unchanged."
+        ]
+      }
     },
     "5940193": {
       "status": "unchecked",
@@ -53402,7 +53947,15 @@
       "searched_at": "2026-11-12T15:25:34.603759+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The86trackBoskovskyanthology contains several translated source waltzes/polkas, but no complete eight-piece source concert-year/take mapping is established. Similarly named GypsyBaron overture/entrymarch in other albums can have a different conductor.",
+        "limitations": [
+          "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+        ]
+      }
     },
     "7577224": {
       "status": "unchecked",
@@ -53677,7 +54230,16 @@
       "searched_at": "2026-11-12T15:26:04.546812+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Concerti grossi1/2 and3/4 appear in separate cached albums. The current publication cannot claim a complete single-album match from their union.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "5133001": {
       "status": "unchecked",
@@ -53688,7 +54250,16 @@
       "searched_at": "2026-11-12T15:26:19.516653+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The Nielsen anthology is not a verified complete Jensen Symphonies1/5 programme; accepted Jensen performance evidence is missing.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "2955185": {
       "status": "probable",
@@ -54022,7 +54593,15 @@
       "searched_at": "2026-11-12T15:27:04.495283+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Source requires Böhm/Berlin for both Mozart symphonies40/41. Candidate K550tracks credit Bernstein/Vienna, while K551tracks support Böhm/Berlin. Credits cannot be borrowed across symphonies.",
+        "limitations": [
+          "Exact cached candidate is incomplete or contains a conflicting source-required recording. This is not evidence of Qobuz-wide absence or a rejection of another candidate."
+        ]
+      }
     },
     "12159256": {
       "status": "probable",
@@ -55170,7 +55749,16 @@
       "searched_at": "2026-11-12T15:29:49.462726+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The Carter/Ives/Porter/Dvorak programme contains the Dvorak quintet lead; ensemble-level metadata does not establish every named Boston chamber player in the source.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "4031075": {
       "status": "probable",
@@ -56790,7 +57378,17 @@
       "reasons": [
         "4/20 target items supported after composer/work grouping; unresolved.",
         "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "reject-recording",
+        "reason": "The full FourSeasons candidate explicitly credits Anne-SophieMutter/WienerPhilharmoniker, whereas the source names MichelSchwalbé/BerlinerPhilharmoniker and EberhardFinke. Berlin appears only on the extra Massenet track. Other cached correct-family candidates contain isolated movements, not the full twelve-movement source.",
+        "limitations": [
+          "This is a candidate-specific recording review, not proof of service-wide absence.",
+          "Other cached alternatives were inspected separately; no uncertain source musician, named piece or conflicting provider identity was waived.",
+          "Source, normalized collection and Spotify data remain unchanged."
+        ]
+      }
     },
     "1638548": {
       "status": "unchecked",
@@ -56859,7 +57457,17 @@
         "Removing the false photographer credit alone does not resolve source work/positive musical credit gaps.",
         "No inference from album artists, ensemble membership or composer-only track credits.",
         "0/3 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Withheld: Saved candidate is a20track mixed-artist compilation; the Prokofiev Romeo excerpt names Boston Symphony, not the source San Francisco Symphony. It does not support the complete two-work LP programme.",
+        "limitations": [
+          "Missing metadata is not proof the musicians did not perform.",
+          "Removing the false photographer credit alone does not resolve source work/positive musical credit gaps.",
+          "No inference from album artists, ensemble membership or composer-only track credits."
+        ]
+      }
     },
     "1660485": {
       "status": "probable",
@@ -57775,7 +58383,15 @@
       "searched_at": "2026-11-12T15:35:50.311155+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "PipelineMusic13tracks contain BermanProkofievSonata8but not source Rachmaninoff6MomentsMusicaux. Other cached Berman albums contain the Rachmaninoffset or live/other sessions, without a verified complete source coupling and source DGrecording identity.",
+        "limitations": [
+          "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+        ]
+      }
     },
     "6315199": {
       "status": "unchecked",
@@ -58010,7 +58626,15 @@
       "searched_at": "2026-11-12T15:36:50.294255+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "All23digital mass sections are present, not just the one fully-scored AgnusDei section. Source has five larger Kyrie/Gloria/Credo/Sanctus/Agnus bands. Raw source organist RudolfScholz is absent normalized principal list but must remain required, alongside four singers, choir and chorus master. Positive credits vary by section; existing strict whole-track policy only supports one section. No reviewed five-band/23section mapping or source-bound complete-mass credit treatment is adopted here. Do not drop Scholz or borrow singers between unrelated Mozart works.",
+        "limitations": [
+          "Recording-family evidence does not verify exact pressing, mastering, session takes or audio. Raw source, normalized collection and Spotify remain unchanged."
+        ]
+      }
     },
     "7974483": {
       "status": "unchecked",
@@ -58805,7 +59429,16 @@
       "searched_at": "2026-11-12T15:40:05.361319+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The orchestral compilation does not establish all six source overture/dance works under Barenboim/Chicago.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "2497053": {
       "status": "unchecked",
@@ -59181,7 +59814,15 @@
       "searched_at": "2026-11-12T15:40:50.461297+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "SavedSaintSaensfiles supply Bacchanale/DanseMacabreand possibly Deluge, but no full source Barenboim/Paris seven-piece Berlioz/SaintSaens/Dukasset is verified. BerliozCarnavalRomain must not be confused with SaintSaensCarnavalDesAnimaux; similarly named Dukas in a compilation may use another cast.",
+        "limitations": [
+          "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+        ]
+      }
     },
     "6810640": {
       "status": "probable",
@@ -59839,7 +60480,16 @@
       "searched_at": "2026-11-12T15:42:20.228528+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Strauss waltz compilations do not establish the complete source Karajan Blue Danube programme and recording family.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "2347781": {
       "status": "unchecked",
@@ -60632,7 +61282,16 @@
       "searched_at": "2026-11-12T15:43:35.185963+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The live Mozart/Bach/Dallapiccola recital is not a verified complete match to the Ciani BWV830/853/877 source programme.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "11599278": {
       "status": "unchecked",
@@ -64373,7 +65032,16 @@
       "searched_at": "2026-11-12T15:47:35.347066+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The Brahms string chamber box does not cover every source chamber work and its many named instrumentalists; horn/clarinet trio leads are separate.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "5501768": {
       "status": "unchecked",
@@ -64384,7 +65052,16 @@
       "searched_at": "2026-11-12T15:49:36.465268+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The Mozart quintet cycle is cached, but source Amadeus member names and additional viola identity are not all proven by accepted credits.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "2996680": {
       "status": "probable",
@@ -66761,7 +67438,17 @@
         "Other cached alternatives were inspected separately; no uncertain source musician, named piece or conflicting provider identity was waived.",
         "Source, normalized collection and Spotify data remain unchanged.",
         "1/9 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The source comprises Vyšehrad,Vltava,FromBohemia’sWoodsandFields,andTábor. Best candidate contains only the first three, plus Dvorak dances. Other candidates lack still more source works or the Boston ensemble. No Kubelik Tábor was found in the shared performer-bound cache scan. Parent/tempo headings are not additional works, but that does not supply Tábor.",
+        "limitations": [
+          "This is a candidate-specific recording review, not proof of service-wide absence.",
+          "Other cached alternatives were inspected separately; no uncertain source musician, named piece or conflicting provider identity was waived.",
+          "Source, normalized collection and Spotify data remain unchanged."
+        ]
+      }
     },
     "3675625": {
       "status": "probable",
@@ -67629,7 +68316,17 @@
         "No inference from album artists, ensemble membership or composer-only track credits.",
         "0/7 target items supported after composer/work grouping; unresolved.",
         "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Withheld: Source names six cello-ensemble members plus double-bass soloist; cached candidate gives ensemble-level labels but not those individual cellists. Work-field/context and ensemble scope also remain unresolved. Do not borrow personnel from ensemble membership.",
+        "limitations": [
+          "Missing metadata is not proof the musicians did not perform.",
+          "Removing the false photographer credit alone does not resolve source work/positive musical credit gaps.",
+          "No inference from album artists, ensemble membership or composer-only track credits."
+        ]
+      }
     },
     "10301402": {
       "status": "unchecked",
@@ -68778,7 +69475,15 @@
       "searched_at": "2026-11-12T15:54:06.165226+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "First DG4636262has Symphony9andEgmont but noLeonoreIII. BNFandlaterDG4795348can supply all three named works; DGLeonorehas bare untyped Berlin orchestra credits and the existing strict programme/performer rules do not validate the full set. The extra Leonore must not be borrowed from another conductor or a different orchestra. Source finale/voice and recording-family scope need explicit review.",
+        "limitations": [
+          "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+        ]
+      }
     },
     "10391853": {
       "status": "unchecked",
@@ -69218,7 +69923,16 @@
       "searched_at": "2026-11-12T15:54:21.222496+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The Beethoven9/Egmont/LeonoreIII programme is cached, but raw source chorus master Karl Forster remains required and unverified.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "14123645": {
       "status": "unchecked",
@@ -69240,7 +69954,15 @@
       "searched_at": "2026-11-12T15:54:51.054961+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "DG50trackalternativecontains concerto1and the four named source mazurkas, so the source fillers are not globally absent. Concerto metadata includes composer/production strings without positive Vasary/Semkow/Berlincredit across the group; original six-tracklead only has concertos. No borrowing soloist/conductor from mazurkas.",
+        "limitations": [
+          "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+        ]
+      }
     },
     "10583401": {
       "status": "probable",
@@ -69505,7 +70227,15 @@
       "searched_at": "2026-11-12T15:55:36.388268+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "SourceZabaletaset includes BachBWV1006aarrangement,Handel/Corelli-derivedsonata,variations and other sonatas. Cached recitals cover different subsets; source transcription identities and catalogue/work boundaries cannot be inferred from shared harp titles.",
+        "limitations": [
+          "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+        ]
+      }
     },
     "12803844": {
       "status": "probable",
@@ -71011,7 +71741,15 @@
         "Source DG2720062includes eight symphonies plus three Rosamunde selections on sideJ. Cached candidate has only30symphony movements and no Rosamunde overture or ballet selections. A complete symphony cycle is an incomplete match for this source programme.",
         "Source calls Symphony2Dmajor while candidate says Bflat; retained discrepancy. This hold is established by missing Rosamunde, not the key discrepancy. No assertion that Qobuz lacks a complete alternative.",
         "5/9 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Source DG2720062includes eight symphonies plus three Rosamunde selections on sideJ. Cached candidate has only30symphony movements and no Rosamunde overture or ballet selections. A complete symphony cycle is an incomplete match for this source programme.",
+        "limitations": [
+          "Source calls Symphony2Dmajor while candidate says Bflat; retained discrepancy. This hold is established by missing Rosamunde, not the key discrepancy. No assertion that Qobuz lacks a complete alternative."
+        ]
+      }
     },
     "14398300": {
       "status": "unchecked",
@@ -71255,7 +71993,17 @@
         "No inference from album artists, ensemble membership or composer-only track credits.",
         "0/10 target items supported after composer/work grouping; unresolved.",
         "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Withheld: Neither Kubelik nor the Bavarian Radio orchestra is positively credited on any of42tracks; album-level artist fields cannot supply track/group credit evidence.",
+        "limitations": [
+          "Missing metadata is not proof the musicians did not perform.",
+          "Removing the false photographer credit alone does not resolve source work/positive musical credit gaps.",
+          "No inference from album artists, ensemble membership or composer-only track credits."
+        ]
+      }
     },
     "9932691": {
       "status": "unchecked",
@@ -71266,7 +72014,16 @@
       "searched_at": "2026-11-12T15:58:06.174332+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The London Symphonies set is cached, but accepted Jochum performance credit is absent from the diagnostic's title-matching tracks.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "28448206": {
       "status": "unchecked",
@@ -71774,7 +72531,17 @@
         "Removing the false photographer credit alone does not resolve source work/positive musical credit gaps.",
         "No inference from album artists, ensemble membership or composer-only track credits.",
         "0/11 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Withheld: Neither Kubelik nor the Bavarian Radio orchestra is positively credited on any of42tracks; album-level artist fields cannot supply track/group credit evidence.",
+        "limitations": [
+          "Missing metadata is not proof the musicians did not perform.",
+          "Removing the false photographer credit alone does not resolve source work/positive musical credit gaps.",
+          "No inference from album artists, ensemble membership or composer-only track credits."
+        ]
+      }
     },
     "7623505": {
       "status": "unchecked",
@@ -71902,7 +72669,16 @@
       "searched_at": "2026-11-12T15:58:51.180680+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The saved Leonhardt candidates include Anna Magdalena pieces, cantatas and concertos; they do not establish his complete BWV846-893 source programme.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "7077802": {
       "status": "unchecked",
@@ -71913,7 +72689,15 @@
       "searched_at": "2026-11-12T15:58:51.183718+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "All six BWV825–830programmes and40digital tracks are present. Source labels BWV829as PartitaNr4inGmajor although digital has No5, and BWV828source lists Sarabande before Aria whereas digital orders Aria before Sarabande. MinuetsI/IIare combined, not a missing track. Same discrepancies survive the other full Warner anthology; full recording-family/source-label reconciliation is unresolved.",
+        "limitations": [
+          "Recording-family evidence does not verify exact pressing, mastering, session takes or audio. Raw source, normalized collection and Spotify remain unchanged."
+        ]
+      }
     },
     "10220921": {
       "status": "unchecked",
@@ -72393,7 +73177,17 @@
       "searched_at": "2026-11-12T15:59:51.261821+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Source is an undated EMI/HMV/La Voce del Padrone edition; candidate DG tracks explicitly say Recorded1981–1984. No evidence binds this LP to that later DG cycle. Keep recording identity unresolved; matching works/pianist alone are insufficient.",
+        "limitations": [
+          "Do not infer absence of the EMI recording from this rejected/unresolved DG lead.",
+          "Label difference alone is not proof of different audio; dated1970LPs have an additional chronological exclusion.",
+          "No programme-completeness or title/parser improvement can supply recording identity."
+        ]
+      }
     },
     "12977198": {
       "status": "unchecked",
@@ -73348,7 +74142,17 @@
         "Other cached alternatives were inspected separately; no uncertain source musician, named piece or conflicting provider identity was waived.",
         "Source, normalized collection and Spotify data remain unchanged.",
         "5/72 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The10LPsource requires Debussy,Ravel and Grieg. Volume122has17Debussytracks; Volume120has23Schubert/Schumann/Debussytracks. Neither contains the required Ravel and Grieg source programmes, and their transfer provenance is unverified. Duplicate/mistyped source catalogue labels remain explicit.",
+        "limitations": [
+          "This is a candidate-specific recording review, not proof of service-wide absence.",
+          "Other cached alternatives were inspected separately; no uncertain source musician, named piece or conflicting provider identity was waived.",
+          "Source, normalized collection and Spotify data remain unchanged."
+        ]
+      }
     },
     "11938972": {
       "status": "probable",
@@ -77590,7 +78394,16 @@
       "searched_at": "2026-11-12T16:01:21.457070+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The concerto/etudes title is plausible, but the normalized source incorrectly requires composer Saint-Saens as a performer; raw role evidence must be reconciled first.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "9280880": {
       "status": "unchecked",
@@ -77742,7 +78555,15 @@
       "searched_at": "2026-11-12T16:03:52.608318+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Giesekinglarge source has PartitaNoampersand,Suite5keywording and mixedScarlattiLcatalogues/Schubertopusgroups. Saved100/112trackanthologies contain relevant pieces but no complete source23group/take mapping. Source BerceuseOp60andother labels are not automatically corrected.",
+        "limitations": [
+          "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+        ]
+      }
     },
     "23201027": {
       "status": "unchecked",
@@ -88532,7 +89353,17 @@
         "Source, normalized collection and Spotify data remain unchanged.",
         "1/4 target items supported after composer/work grouping; unresolved.",
         "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Complete Fireworks candidates pair it with WaterMusic or other Handel concertos, not the source Pachelbel Canon and two suites. The Jubilee sampler has only the Fireworks overture; the Canon anthology lacks Paillard. Source explicitly requests the original wind/percussion Fireworks version, which title equality alone does not establish.",
+        "limitations": [
+          "This is a candidate-specific recording review, not proof of service-wide absence.",
+          "Other cached alternatives were inspected separately; no uncertain source musician, named piece or conflicting provider identity was waived.",
+          "Source, normalized collection and Spotify data remain unchanged."
+        ]
+      }
     },
     "33352196": {
       "status": "unchecked",
@@ -88543,7 +89374,16 @@
       "searched_at": "2026-11-12T16:06:07.241183+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Laskine harp recitals and Debussy/Mozart collections are partial leads, not a verified complete Pleins Feux programme with its guest musicians.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "5980586": {
       "status": "probable",
@@ -89546,7 +90386,16 @@
       "searched_at": "2026-11-12T16:06:37.474256+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The Handel/Telemann/Bach trio compilation is not a verified match to all four Suk/Ruzickova violin-and-harpsichord sonatas.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "8827360": {
       "status": "unchecked",
@@ -89557,7 +90406,16 @@
       "searched_at": "2026-11-12T16:06:52.319943+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The Werner Bach candidates are other cantatas, not a verified Easter Oratorio BWV249 with the source cast.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "33491129": {
       "status": "unchecked",
@@ -89568,7 +90426,16 @@
       "searched_at": "2026-11-12T16:07:07.787866+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The Pastor Robert oboe and unrelated compilation leads do not establish Ars Nova Brass/Darasse's source Cuivres et Orgue programme.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "5032079": {
       "status": "unchecked",
@@ -89579,7 +90446,16 @@
       "searched_at": "2026-11-12T16:07:22.530963+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Rampal Bach flute compilations are leads, but BWV1067, the E-minor flute concerto and BWV209 Sinfonia need explicit identification and Paillard session corroboration.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "8400797": {
       "status": "unchecked",
@@ -89792,7 +90668,16 @@
       "searched_at": "2026-11-12T16:07:52.310118+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The two-flute Cimarosa and Mercadante candidates do not establish the entire source pairing with Clementine and Rampal under Scimone.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "9521183": {
       "status": "found",
@@ -90001,7 +90886,16 @@
       "searched_at": "2026-11-12T16:08:22.404306+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The only cached candidate is a Bagdasarjanz violin/piano album, not Sgrizzi's harpsichord chaconnes and suites.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "3997747": {
       "status": "unchecked",
@@ -90257,7 +91151,16 @@
       "searched_at": "2026-11-12T16:09:37.252821+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The candidate includes Divertimento17 in its title, but its saved tracks have no performers strings; album-title identity cannot replace positive track credits.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "14704151": {
       "status": "unchecked",
@@ -90268,7 +91171,16 @@
       "searched_at": "2026-11-12T16:09:52.436341+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The source Quatre Symphonies is Haydn6/7/8/22, not the Schumann1-4 suggested by several cached album titles.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "8392283": {
       "status": "unchecked",
@@ -90279,7 +91191,16 @@
       "searched_at": "2026-11-12T16:10:07.286630+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The Lausanne anthology and Haydn opera/trumpet candidates do not establish Jordan's full Seasons and source vocal cast.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "2383222": {
       "status": "unchecked",
@@ -90530,7 +91451,16 @@
       "searched_at": "2026-11-12T16:11:07.370982+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Suk and Hlaváček have performance roles, but Prague Chamber Orchestra is only Associated Performer on the saved concerto tracks.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "12214914": {
       "status": "unchecked",
@@ -90541,7 +91471,16 @@
       "searched_at": "2026-11-12T16:11:22.465876+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The only Bruckner4/7 candidate does not establish the additional source Siegfried Idyll or the full Atzmon/Basel programme.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "7525022": {
       "status": "probable",
@@ -90860,7 +91799,15 @@
       "searched_at": "2026-11-12T16:11:52.561490+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "SavedUninskysonataalbum supplies sonata2while other files have source etudes. No verified same-source candidate supplies both source Military/Heroicpolonaises plus all named etudes and the full sonata. Sonatas2and3are not interchangeable fillers.",
+        "limitations": [
+          "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+        ]
+      }
     },
     "15714625": {
       "status": "unchecked",
@@ -90871,7 +91818,16 @@
       "searched_at": "2026-11-12T16:12:07.513945+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The Bruch/virtuoso lead is Michael Rabin, not source Arthur Grumiaux; other Saint-Saens names do not establish the source concerto/encore programme.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "3569461": {
       "status": "unchecked",
@@ -90882,7 +91838,16 @@
       "searched_at": "2026-11-12T16:12:22.514075+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The cached candidates are Danish songs, not a verified Bernstein Espansiva symphony with its two source vocal soloists.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "2906025": {
       "status": "unchecked",
@@ -92052,7 +93017,15 @@
       "searched_at": "2026-11-12T16:14:37.773128+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Source pairs SchumannSpring and MendelssohnReformation with source Philharmonia/Muti. The main candidate only has Schumann symphonies; cached Mendelssohnalternatives use NewPhilharmonia or a Vienna live session. Orchestra naming/session identity and a complete source coupling are unresolved.",
+        "limitations": [
+          "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+        ]
+      }
     },
     "8324181": {
       "status": "unchecked",
@@ -93959,7 +94932,16 @@
         "No raw source, normalized collection, Spotify labels or global credit/threshold policy changed.",
         "3/6 target items supported after composer/work grouping; unresolved.",
         "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The du Pré candidate contains both Haydn concertos, Schumann, Elgar and Dvorak concerto, but not Dvorak Silent Woods Op68. Matching collection/album names do not establish full programme parity. No Silent Woods/Waldesruhe/Klid with du Pré was found in the complete1164-album cache scan.",
+        "limitations": [
+          "This is a candidate-specific review, not catalogue-wide absence or a rejection of every possible edition.",
+          "No raw source, normalized collection, Spotify labels or global credit/threshold policy changed."
+        ]
+      }
     },
     "6329478": {
       "status": "unchecked",
@@ -94574,7 +95556,16 @@
       "searched_at": "2026-11-12T16:18:38.254728+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The complete Alban Berg Beethoven quartets contain the works; source-named quartet members remain unverified in accepted performance credits.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "24278222": {
       "status": "unchecked",
@@ -95450,7 +96441,15 @@
       "searched_at": "2026-11-12T16:19:24.143006+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The8tracklead has Lark but not Symphony6. The larger Boult9symphonycollection contains Symphony6and Lark material, but source work-specific violin soloist and recording provenance must be bound explicitly; matching Boult/orchestra alone does not identify the source Lark take. No source requirement is dropped.",
+        "limitations": [
+          "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+        ]
+      }
     },
     "6929259": {
       "status": "unchecked",
@@ -100006,7 +101005,17 @@
         "Source, normalized collection and Spotify data remain unchanged.",
         "18/79 target items supported after composer/work grouping; unresolved.",
         "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The79source roots contain8instrument-family headings and71named demonstrations; the digital file has61tracks. Some joins are plausible(e.g.two source bagpipe examples become Bagpipes), while Trumpet/Harp/Regal/Sackbut/Viol labels omit titles or cover multiple source entries. No source-booklet proof binds all71demonstrations to61outputs. Counts alone do not prove absence, and headings/unnamed joins cannot silently erase named examples.",
+        "limitations": [
+          "This is a candidate-specific recording review, not proof of service-wide absence.",
+          "Other cached alternatives were inspected separately; no uncertain source musician, named piece or conflicting provider identity was waived.",
+          "Source, normalized collection and Spotify data remain unchanged."
+        ]
+      }
     },
     "3018585": {
       "status": "unchecked",
@@ -100980,7 +101989,17 @@
       "searched_at": "2026-11-12T16:22:08.189697+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Dresden-version acts and the Staatsoper alias are not enough. Four named Edelknaben are absent, Karl Schmidt is Director rather than Chorus Master, Act III scene 2 is unlabelled, and one credit names Orchester der Deutschen Oper Berlin.",
+        "limitations": [
+          "Four credited page singers are absent and cannot be dropped to force a match.",
+          "Chorus Master and Director are different recording roles.",
+          "Orchester der Deutschen Oper Berlin is a conflicting ensemble credit, not an alias."
+        ]
+      }
     },
     "7620758": {
       "status": "unchecked",
@@ -101742,7 +102761,17 @@
         "No inference from album artists, ensemble membership or composer-only track credits.",
         "0/1 target items supported after composer/work grouping; unresolved.",
         "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Withheld: Source names individual string players; cached tracks identify Rolla, Spanyi, Pertis and Budapest Franz Liszt Chamber Orchestra without those additional named players. Orchestra-name variation and work context also need review; no source-player credit waiver.",
+        "limitations": [
+          "Missing metadata is not proof the musicians did not perform.",
+          "Removing the false photographer credit alone does not resolve source work/positive musical credit gaps.",
+          "No inference from album artists, ensemble membership or composer-only track credits."
+        ]
+      }
     },
     "12554746": {
       "status": "unchecked",
@@ -101949,7 +102978,16 @@
       "searched_at": "2026-11-12T16:24:08.334047+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The Seven Last Words candidate does not establish the source's entire oratorio plus Salve Regina and all organ/choir credits.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "594243": {
       "status": "unchecked",
@@ -102855,7 +103893,15 @@
         "Audrey is a bonus track on this Discogs edition, from a 1954 session with different personnel. The Legacy Edition has the seven 1959 pieces and other bonuses, and it does not contain Audrey.",
         "The seven 1959 pieces do not make the bonus track present.",
         "7/8 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Audrey is a bonus track on this Discogs edition, from a 1954 session with different personnel. The Legacy Edition has the seven 1959 pieces and other bonuses, and it does not contain Audrey.",
+        "limitations": [
+          "The seven 1959 pieces do not make the bonus track present."
+        ]
+      }
     },
     "11971084": {
       "status": "unchecked",
@@ -103521,7 +104567,16 @@
       "searched_at": "2026-11-12T16:27:08.200853+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Dufay Mass/anthology titles do not establish Munrow's Early Music Consort source recording and complete Se la face ay pale mass.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "3667210": {
       "status": "probable",
@@ -104068,7 +105123,17 @@
       "searched_at": "2026-11-12T16:29:23.577159+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Source is an undated EMI/HMV/La Voce del Padrone edition; candidate DG tracks explicitly say Recorded1981–1984. No evidence binds this LP to that later DG cycle. Keep recording identity unresolved; matching works/pianist alone are insufficient.",
+        "limitations": [
+          "Do not infer absence of the EMI recording from this rejected/unresolved DG lead.",
+          "Label difference alone is not proof of different audio; dated1970LPs have an additional chronological exclusion.",
+          "No programme-completeness or title/parser improvement can supply recording identity."
+        ]
+      }
     },
     "9866788": {
       "status": "unchecked",
@@ -104079,7 +105144,17 @@
       "searched_at": "2026-11-12T16:29:38.345085+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Source is an undated EMI/HMV/La Voce del Padrone edition; candidate DG tracks explicitly say Recorded1981–1984. No evidence binds this LP to that later DG cycle. Keep recording identity unresolved; matching works/pianist alone are insufficient.",
+        "limitations": [
+          "Do not infer absence of the EMI recording from this rejected/unresolved DG lead.",
+          "Label difference alone is not proof of different audio; dated1970LPs have an additional chronological exclusion.",
+          "No programme-completeness or title/parser improvement can supply recording identity."
+        ]
+      }
     },
     "25538239": {
       "status": "unchecked",
@@ -104090,7 +105165,16 @@
       "searched_at": "2026-11-12T16:29:53.835559+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Stephen Bishop/Kovacevich identity and the source Beethoven recital selections need primary-backed reconciliation; a broad complete-concerto box is not a complete source match.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "9861630": {
       "status": "unchecked",
@@ -104101,7 +105185,15 @@
       "searched_at": "2026-11-12T16:30:08.462874+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Undated LaVoceDelPadrone3C06301916source belongs to the EMI-label sonata series. Candidate DGcycle explicitly marks1981–1984recordings. Recording-family connection to the earlier EMI series is not established; programme/pianist agreement alone cannot establish it.",
+        "limitations": [
+          "Source is undated: label difference alone does not prove different audio. Withhold, not chronological rejection; no source year invented."
+        ]
+      }
     },
     "7864758": {
       "status": "unchecked",
@@ -104112,7 +105204,17 @@
       "searched_at": "2026-11-12T16:30:23.599236+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "reject-recording",
+        "reason": "Source LP is dated1970, predating the candidate DG tracks explicitly marked Recorded1981–1984. This cannot be the source LP recording.",
+        "limitations": [
+          "Do not infer absence of the EMI recording from this rejected/unresolved DG lead.",
+          "Label difference alone is not proof of different audio; dated1970LPs have an additional chronological exclusion.",
+          "No programme-completeness or title/parser improvement can supply recording identity."
+        ]
+      }
     },
     "9876728": {
       "status": "unchecked",
@@ -104123,7 +105225,17 @@
       "searched_at": "2026-11-12T16:32:24.992665+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "reject-recording",
+        "reason": "Source LP is dated1970, predating the candidate DG tracks explicitly marked Recorded1981–1984. This cannot be the source LP recording.",
+        "limitations": [
+          "Do not infer absence of the EMI recording from this rejected/unresolved DG lead.",
+          "Label difference alone is not proof of different audio; dated1970LPs have an additional chronological exclusion.",
+          "No programme-completeness or title/parser improvement can supply recording identity."
+        ]
+      }
     },
     "20066470": {
       "status": "unchecked",
@@ -104338,7 +105450,16 @@
       "reasons": [
         "5/10 target items supported after composer/work grouping; unresolved.",
         "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "All ten source marches map in order to BNF3614596596822StereoVersion, with Kurtz/Philharmonia and appropriate composers positively credited; the alternate3614596847115is explicitly MonoVersion. Source notes say Stéréo. No independent transfer/session provenance has been established, and source arrangements name Guiraud and Winter absent from digital declarations. Full programme alone is not exact recording/arrangement proof.",
+        "limitations": [
+          "This is a candidate-specific review, not catalogue-wide absence or a rejection of every possible edition.",
+          "No raw source, normalized collection, Spotify labels or global credit/threshold policy changed."
+        ]
+      }
     },
     "20588539": {
       "status": "unchecked",
@@ -104349,7 +105470,16 @@
       "searched_at": "2026-11-12T16:32:54.301631+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The Warner cache contains Symphony4four movements plus all four explicitly listed Egmont excerpts. Nilsson is positively credited only on the two songs, not the symphony, overture or KlärchensTod. Raw source gives no precise work-level soloist assignment. No generic principal-soprano scope exemption was introduced.",
+        "limitations": [
+          "This is a candidate-specific review, not catalogue-wide absence or a rejection of every possible edition.",
+          "No raw source, normalized collection, Spotify labels or global credit/threshold policy changed."
+        ]
+      }
     },
     "7248321": {
       "status": "unchecked",
@@ -104360,7 +105490,16 @@
       "searched_at": "2026-11-12T16:33:09.291791+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The selected Barenboim sampler has only K467Andante, not the complete concerto, and no Symphony40K550. The other cached Mozart piano-concerto collection has K467but still no K550.",
+        "limitations": [
+          "This is a candidate-specific review, not catalogue-wide absence or a rejection of every possible edition.",
+          "No raw source, normalized collection, Spotify labels or global credit/threshold policy changed."
+        ]
+      }
     },
     "2961241": {
       "status": "unchecked",
@@ -104371,7 +105510,16 @@
       "searched_at": "2026-11-12T16:33:24.544804+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The large Warner box is a programme lead, but source-named orchestral players cannot be replaced by an English Chamber Orchestra album credit.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "3614511": {
       "status": "unchecked",
@@ -104382,7 +105530,16 @@
       "searched_at": "2026-11-12T16:33:39.381981+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The candidate explicitly names BWV147 and the motets, but source choir/ensemble/musician requirements are not fully supported together.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "11295304": {
       "status": "unchecked",
@@ -104393,7 +105550,16 @@
       "searched_at": "2026-11-12T16:33:54.396261+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The flute/harp candidate substitutes a clarinet concerto for the source violin/viola Sinfonia Concertante; source soloists also need work-scoped verification.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "13872783": {
       "status": "unchecked",
@@ -105166,7 +106332,16 @@
       "searched_at": "2026-11-12T16:35:09.382637+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The piano-concerto candidates do not establish both additional source Liszt works, Totentanz and Hungarian Fantasy, with Cziffra junior/Paris.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "4021412": {
       "status": "unchecked",
@@ -105835,7 +107010,15 @@
       "searched_at": "2026-11-12T16:36:24.295227+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Source requires Mozart concertosK467andK595. Cached candidate has K467and K550symphony; K595is absent. Same pianist/orchestra/title overlap is insufficient for the full programme.",
+        "limitations": [
+          "Exact cached candidate is incomplete or contains a conflicting source-required recording. This is not evidence of Qobuz-wide absence or a rejection of another candidate."
+        ]
+      }
     },
     "6387921": {
       "status": "unchecked",
@@ -105857,7 +107040,16 @@
       "searched_at": "2026-11-12T16:36:54.387146+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Klemperer's Bruckner4-9 set is a strong title lead, but the source Ninth requires an explicit three-movement selection and New Philharmonia/session evidence.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "1846030": {
       "status": "unchecked",
@@ -105868,7 +107060,16 @@
       "searched_at": "2026-11-12T16:37:09.413765+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The Triple Concerto is represented, but the source Oistrach identity and all five named musicians are not established together by the accepted track credits.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "1662708": {
       "status": "probable",
@@ -105983,7 +107184,16 @@
       "searched_at": "2026-11-12T16:37:39.643473+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Weissenberg Schumann recital candidates do not yet establish this Fantaisie Op17 plus complete Kinderszenen source recording; partial recognized titles are insufficient.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "8264477": {
       "status": "unchecked",
@@ -105994,7 +107204,15 @@
       "searched_at": "2026-11-12T16:37:54.283014+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Mesple74trackanthology contains some source opera arias, but source nine nested numbers across seven operas require exact aria/version mapping and Marty/Parisopera orchestra credits. An opera heading alone or unrelated RomeoJulietorchestral track is not a vocal performance match.",
+        "limitations": [
+          "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+        ]
+      }
     },
     "5089404": {
       "status": "unchecked",
@@ -106005,7 +107223,16 @@
       "searched_at": "2026-11-12T16:38:09.376202+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The cached Grieg concerto leads do not establish the source Franck Symphonic Variations plus Grieg pairing with both Cziffras.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "11410740": {
       "status": "unchecked",
@@ -106599,7 +107826,16 @@
       "searched_at": "2026-11-12T16:39:24.359092+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Old best tefounqisk5ki is Karajan, not the Klemperer named on the source labels, and lacks the two overtures. Shared cached Warner vrg5q0y8vzvaa has all six source bands, but generic tempos currently cross-match other symphonies. Prometheus is336seconds versus saved4:14(254seconds):82seconds unexplained. Source labels confirm titles/Klemperer/stereo but do not print durations.",
+        "limitations": [
+          "This is a candidate-specific review, not catalogue-wide absence or a rejection of every possible edition.",
+          "No raw source, normalized collection, Spotify labels or global credit/threshold policy changed."
+        ]
+      }
     },
     "5267091": {
       "status": "unchecked",
@@ -106610,7 +107846,16 @@
       "searched_at": "2026-11-12T16:39:39.150765+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The live Dvorak programme lead does not establish the source Prêtre/Paris orchestra New World recording.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "11765180": {
       "status": "unchecked",
@@ -106621,7 +107866,15 @@
       "searched_at": "2026-11-12T16:39:54.481716+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The24trackAngelSpanishGuitarVirtuoso supplies14of16source pieces but its complete title list has neither LaMajaDeGoya nor the source Fandango. Other cached albums supply similarly named pieces without a verified complete source16piece/AngelRomero recording. No arbitrary union of different programmes.",
+        "limitations": [
+          "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+        ]
+      }
     },
     "4465318": {
       "status": "unchecked",
@@ -106964,7 +108217,16 @@
       "searched_at": "2026-11-12T16:40:24.388233+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The Chaliapin compilations require aria-by-aria language/work mapping and conductor/orchestra scopes. Source Rimsky-Korsakov attribution must not become a performing credit.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "7159852": {
       "status": "probable",
@@ -107169,7 +108431,16 @@
       "searched_at": "2026-11-12T16:40:54.373162+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The exact K478/K516 programme exists, but Pro Arte quartet spelling/member identity and Hobday/Schnabel work scopes remain unresolved.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "9932960": {
       "status": "unchecked",
@@ -107180,7 +108451,16 @@
       "searched_at": "2026-11-12T16:41:09.602431+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The Menuhin Mozart concerto leads need the source Bath orchestra identity, source session and both complete concertos; album-wide Menuhin is insufficient.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "13671866": {
       "status": "unchecked",
@@ -107600,7 +108880,17 @@
         "Combined-band timings also differ; neither matching total duration nor score instrumentation alone verifies this recording.",
         "7/15 target items supported after composer/work grouping; unresolved.",
         "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Original CVL1920liner names M.Cazauran double bass; sideA label additionally names M.Debost flute. Neither surname appears in any of the20candidate track credits. The cached Discogs extraartists omitted both musicians. Complete combined-band mapping does not supply missing source-named performers or establish take/transfer identity.",
+        "limitations": [
+          "Source-image credit evidence, not proof these musicians did not perform on the digital recording.",
+          "Raw and normalized collection remain unchanged; missing source credits are retained in this hash-bound review.",
+          "Combined-band timings also differ; neither matching total duration nor score instrumentation alone verifies this recording."
+        ]
+      }
     },
     "7213530": {
       "status": "unchecked",
@@ -107611,7 +108901,16 @@
       "searched_at": "2026-11-12T16:41:40.624417+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The full Beethoven concerto work is recognized, but Oistrach/Oistrakh and the exact Cluytens/French National orchestra family remain unbound.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "4374524": {
       "status": "unchecked",
@@ -108033,7 +109332,17 @@
         "Source metadata calls the section Dmajor; the sleeve inspection independently establishes No2wording, not a score/key correction.",
         "Five digital tracks and matching named conductor/orchestra do not independently establish the exact source transfer. Preserve raw/normalized source and Unchecked.",
         "2/7 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Original FALP317sleeve explicitly prints Entr’acteNo2, matching the cached source numeral. Digital track16234555is labelled No5EntracteIII. The discrepancy is not merely a normalized-source transcription error and cannot be silently corrected. Exact section identity and BNFtransfer recording provenance remain unresolved.",
+        "limitations": [
+          "Different source/digital labels are not proof of different audio; numbering/label errors need independent section or recording evidence.",
+          "Source metadata calls the section Dmajor; the sleeve inspection independently establishes No2wording, not a score/key correction.",
+          "Five digital tracks and matching named conductor/orchestra do not independently establish the exact source transfer. Preserve raw/normalized source and Unchecked."
+        ]
+      }
     },
     "9343746": {
       "status": "probable",
@@ -108559,7 +109868,16 @@
       "searched_at": "2026-11-12T16:43:09.139379+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The EMI ten-rhapsody candidate has the source work numbers, but the LP explicitly says M.H.V. Budapest while the cached EMI metadata names Macleod producers. Same pianist/work does not settle that provenance.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "36163426": {
       "status": "probable",
@@ -108893,7 +110211,16 @@
       "searched_at": "2026-11-12T16:44:24.650967+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Cached Menuhin Op64 concerto pairings do not establish the source additional D-minor1822 concerto with Frühbeck/London.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "7119504": {
       "status": "probable",
@@ -109228,7 +110555,16 @@
       "searched_at": "2026-11-12T16:46:55.674399+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The Academy in Concert candidate is a strong programme lead, but Albinoni/Giazotto co-composition, Mendelssohn name spelling and multi-dance band boundaries need explicit source reconciliation.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "7057910": {
       "status": "unchecked",
@@ -109239,7 +110575,16 @@
       "searched_at": "2026-11-12T16:47:10.439998+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The complete Barenboim Mozart cycle contains K238/K537, but the relevant track performer strings omit English Chamber Orchestra.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "11933784": {
       "status": "unchecked",
@@ -109756,7 +111101,15 @@
         "Ciccolini’s Op. 17 is in this file. The G minor concerto, Op. 22, is not. The second concerto here is Op. 29.",
         "The file pairs Op. 17 with Op. 29, not Op. 22.",
         "1/2 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Ciccolini’s Op. 17 is in this file. The G minor concerto, Op. 22, is not. The second concerto here is Op. 29.",
+        "limitations": [
+          "The file pairs Op. 17 with Op. 29, not Op. 22."
+        ]
+      }
     },
     "8264568": {
       "status": "probable",
@@ -111019,7 +112372,16 @@
       "searched_at": "2026-11-12T16:48:55.056284+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The complete Shostakovich concerto work is recognized, but source David Oistrach is not accepted as the cached Oistrakh spelling; Maxim and New Philharmonia must be tied to this family.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "8840038": {
       "status": "unchecked",
@@ -111115,7 +112477,16 @@
       "searched_at": "2026-11-12T16:49:25.066974+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The Horst Stein Sibelius collection cannot establish the source Ansermet Fourth Symphony/Tapiola recording.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "34875983": {
       "status": "probable",
@@ -111897,7 +113268,16 @@
       "searched_at": "2026-11-12T16:50:42.034187+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The symphony box has Shostakovich14 but does not establish the source Gosman/Leningrad/Dolukhanova/Nesterenko cast.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "34330297": {
       "status": "unchecked",
@@ -112282,7 +113662,16 @@
       "searched_at": "2026-11-12T16:51:10.297017+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The Berman recital leads do not establish both source sonatas in the same recording family; one recognized Scriabin work is insufficient.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "5603972": {
       "status": "unchecked",
@@ -112293,7 +113682,16 @@
       "searched_at": "2026-11-12T16:51:25.099185+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The Scriabin candidates and Rachmaninoff compilations do not establish the full source Isle of the Dead/Poem of Ecstasy pair with its Svetlanov orchestra identity.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "10867313": {
       "status": "unchecked",
@@ -112304,7 +113702,16 @@
       "searched_at": "2026-11-12T16:51:40.147885+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The Third Symphony work is cached, but source Svetlanov orchestra naming and positive movement-level cast are unresolved.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "26346215": {
       "status": "unchecked",
@@ -112326,7 +113733,15 @@
       "searched_at": "2026-11-12T16:52:10.181645+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "RCA48joined-paircandidate contains complete WTCbooks includingBookII, but source specifically requests24BookIIpairsBWV870–893with side-range headings and Salzburg1972/73notes. Separate48split-track/liveInnsbruck1973editions also appear. Existing paired-review adapters cover different exact source forms; no complete24pair/source-range and same-take binding is saved here.",
+        "limitations": [
+          "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+        ]
+      }
     },
     "15263974": {
       "status": "unchecked",
@@ -112564,7 +113979,17 @@
         "Other cached alternatives were inspected separately; no uncertain source musician, named piece or conflicting provider identity was waived.",
         "Source, normalized collection and Spotify data remain unchanged.",
         "1/3 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The best file contains all three Venezia e Napoli pieces but no Liszt Bminor Sonata or MephistoWaltz1. Other cached files are partial Années/concerto, Schubert Bflat Sonata, Liszt études, or a concerto file without Berman. Shared-cache performer-bound scans found neither missing Liszt work. No union of partial files is published as the LP.",
+        "limitations": [
+          "This is a candidate-specific recording review, not proof of service-wide absence.",
+          "Other cached alternatives were inspected separately; no uncertain source musician, named piece or conflicting provider identity was waived.",
+          "Source, normalized collection and Spotify data remain unchanged."
+        ]
+      }
     },
     "18770818": {
       "status": "probable",
@@ -112903,7 +114328,16 @@
       "searched_at": "2026-11-12T16:53:25.814839+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Cached Brahms sonatas and Prokofiev leads do not establish both source sonatas in one Oistrach/Richter recording family; Oistrach spelling also blocks accepted identity.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "8079435": {
       "status": "unchecked",
@@ -113501,7 +114935,16 @@
       "searched_at": "2026-11-12T16:53:55.555666+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Richter's complete Well-Tempered Clavier is cached, but the source Book I pair/heading structure needs a validated mapping; the Innsbruck live alternative must not be confused with studio takes.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "5261325": {
       "status": "unchecked",
@@ -114752,7 +116195,16 @@
       "searched_at": "2026-11-12T16:55:55.283359+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Gulda Plays Bach and clavichord recital candidates do not establish all 24 Book II prelude/fugue pairs in this source.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "2993801": {
       "status": "unchecked",
@@ -115468,7 +116920,16 @@
       "searched_at": "2026-11-12T16:57:25.227173+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The BWV206/207 title is cached, but the complete source BWV206 vocal/choir/orchestra cast and sections are not established by accepted credits.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "6091545": {
       "status": "unchecked",
@@ -115490,7 +116951,16 @@
       "searched_at": "2026-11-12T16:57:55.548269+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The Devil's Trill/Mozart leads need the source Frida Bauer pianist and Oistrach identity, plus every additional source recital item.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "12774826": {
       "status": "probable",
@@ -115596,7 +117066,16 @@
       "searched_at": "2026-11-12T16:58:25.807060+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The Don Giovanni candidate is plausible for Rosbaud/Aix, but source singer Marcello Cortis and the entire opera cast/programme are not fully established.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "3066447": {
       "status": "unchecked",
@@ -115607,7 +117086,15 @@
       "searched_at": "2026-11-12T16:58:40.606258+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "reject-recording",
+        "reason": "Target notes date the EMI performances to 1966–1969; the selected DG catalogue 4631272 is documented by Presto with 1981–1984 Paris recordings. Same pianist and works do not establish the same recording.",
+        "limitations": [
+          "The candidate is excluded, not evidence that Qobuz lacks the EMI recording."
+        ]
+      }
     },
     "12150531": {
       "status": "unchecked",
@@ -115906,7 +117393,15 @@
       "searched_at": "2026-11-12T17:01:11.123517+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "ThebestVoxlead has17waltzes, but another saved Philipsfamilyfilegpw49l128mrpbhas19. Source No10saysOp60No2rather than expectedOp69No2and other keys/numbered-posthumous labels differ. Do not claim two waltzes globally absent or silently correct source labels.",
+        "limitations": [
+          "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+        ]
+      }
     },
     "7358646": {
       "status": "unchecked",
@@ -116408,7 +117903,15 @@
       "searched_at": "2026-11-12T17:02:41.065094+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "SavedHaitink44trackanthology and35trackcycle contain many symphonies, but source requires ten(0–9)with edition wording and split slow movements across sides. Some alternatives use Jochum or another version. Full source0/version/side structure and cycle identity are not yet bound; no global claim of absence.",
+        "limitations": [
+          "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+        ]
+      }
     },
     "4219540": {
       "status": "unchecked",
@@ -116430,7 +117933,16 @@
       "searched_at": "2026-11-12T17:03:11.034981+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The Chopin Complete Edition contains source works, but this compilation does not itself establish Arrau/Inbal/London across the complete piano-and-orchestra programme.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "6534486": {
       "status": "unchecked",
@@ -116441,7 +117953,17 @@
       "searched_at": "2026-11-12T17:03:26.019377+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The14LPsource contains a large solo repertoire and both piano concertos. The111trackfile includes many nocturnes,waltzes,polonaises,preludes and études, but no concerto; the six other cached alternatives are solo programmes too. None supplies the full box, Hollreiser/Vienna concertos and source-only works in one edition. This is not just a small sampler or a threshold problem.",
+        "limitations": [
+          "This is a candidate-specific recording review, not proof of service-wide absence.",
+          "Other cached alternatives were inspected separately; no uncertain source musician, named piece or conflicting provider identity was waived.",
+          "Source, normalized collection and Spotify data remain unchanged."
+        ]
+      }
     },
     "10100439": {
       "status": "probable",
@@ -116823,7 +118345,15 @@
       "searched_at": "2026-11-12T17:03:56.122787+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "All20source symphonies have credited candidate support, but completeness is not established by title coverage. Source K184has two bands: MoltoPresto3:00and Andante–Allegro5:04; digital only labels MoltoPresto3:04and Andante5:06. The duration strongly permits a joined Andante/Allegro, so do not claim the finale is missing. Both full/nearfullcached versions have the short label; K181alsojoined, K297includes alternate Andante. No exact joined-section/source20work map adopted.",
+        "limitations": [
+          "Recording-family evidence does not verify exact pressing, mastering, session takes or audio. Raw source, normalized collection and Spotify remain unchanged."
+        ]
+      }
     },
     "7752066": {
       "status": "unchecked",
@@ -116834,7 +118364,15 @@
       "searched_at": "2026-11-12T17:04:11.565673+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The53trackBrendelbox contains many source works under Deutschrather than opus titles. The raw18groupPhilipsprogramme also includes grouped dances/ecossaises, Wanderer and source side/band structures; no complete18work/movement mapping or source-cycle/take verification is established. Low coverage is not proof the ten unmatched labels mean absent audio.",
+        "limitations": [
+          "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+        ]
+      }
     },
     "4023547": {
       "status": "unchecked",
@@ -117352,7 +118890,15 @@
       "searched_at": "2026-11-12T17:04:41.268279+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "CachedPhilips71trackcompleteQuartettoItalianocycle plausibly covers all quartets and GrosseFuge. Rawsource also names PieroFarulli(viola), absent normalized principal list; saved tracks often only credit ensemble. All source names, Op130alternatefinale/GrosseFuge and source grouped/split Op135must be explicitly accounted for. No ensemble-to-members waiver.",
+        "limitations": [
+          "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+        ]
+      }
     },
     "1607240": {
       "status": "probable",
@@ -119231,7 +120777,16 @@
       "searched_at": "2026-11-12T17:06:11.503695+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The Mendelssohn complete-symphony candidate recognizes the source works, but raw chorus master Wilhelm Pitz is not established by accepted credits.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "7860424": {
       "status": "unchecked",
@@ -121235,7 +122790,15 @@
         "Two F-major sonatas stay unmatched. One has no Köchel number. The other is labelled KV 322, which is not a piano sonata. K. 332 and K. 533/494 are present and are not assigned to either title.",
         "KV 322 is not relabelled to another F-major sonata.",
         "17/19 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Two F-major sonatas stay unmatched. One has no Köchel number. The other is labelled KV 322, which is not a piano sonata. K. 332 and K. 533/494 are present and are not assigned to either title.",
+        "limitations": [
+          "KV 322 is not relabelled to another F-major sonata."
+        ]
+      }
     },
     "19183792": {
       "status": "unchecked",
@@ -121899,7 +123462,15 @@
       "searched_at": "2026-11-12T17:10:26.473802+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Saved Marrineralbums contain Brandenburgconcertos and another MusicalOffering, but source includes three disc headings, appendices, flat movement bands, MusicalOfferingcanons/triosonata and named instrumentalists. Complete one-candidate source accounting and appendix/version/take mapping are unresolved.",
+        "limitations": [
+          "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+        ]
+      }
     },
     "11938919": {
       "status": "unchecked",
@@ -121910,7 +123481,15 @@
       "searched_at": "2026-11-12T17:10:41.436633+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Candidate contains Barcarolle/Mazurka/Nocturne but lacks the source ChopinOp58sonata.",
+        "limitations": [
+          "Exact cached candidate is incomplete or contains a conflicting source-required recording. This is not evidence of Qobuz-wide absence or a rejection of another candidate."
+        ]
+      }
     },
     "5085113": {
       "status": "unchecked",
@@ -122009,7 +123588,15 @@
       "searched_at": "2026-11-12T17:11:11.493067+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "TheMasseyHallquintetcandidate has six pieces, including Wee under its AllensAlley alias, while the16tracksource includes additional trio/solo material such as SureThing/MyDevotion. Other Parkercompilations do not prove the same extended concert/takes/cast.",
+        "limitations": [
+          "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+        ]
+      }
     },
     "13419516": {
       "status": "unchecked",
@@ -123982,7 +125569,16 @@
       "searched_at": "2026-11-12T17:12:41.283884+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The Theresienmesse metadata has the vocal cast and chorus master, but raw source concertmaster Franzjosef Maier is additional required musical evidence.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "14073855": {
       "status": "unchecked",
@@ -123993,7 +125589,16 @@
       "searched_at": "2026-11-12T17:12:56.621289+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The opera/choral candidates do not establish the source Mahler Eighth with the Rome RAI cast.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "13927062": {
       "status": "unchecked",
@@ -124004,7 +125609,17 @@
       "searched_at": "2026-11-12T17:13:12.215074+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The sole cached file contains only the three movements of PianoConcerto1. Source additionally contains fourteen waltzes and six polonaises; none is in that file. The source pianist appears in its title but not the normalized performer list, which must not be silently treated as a complete credit model.",
+        "limitations": [
+          "This is a candidate-specific recording review, not proof of service-wide absence.",
+          "Other cached alternatives were inspected separately; no uncertain source musician, named piece or conflicting provider identity was waived.",
+          "Source, normalized collection and Spotify data remain unchanged."
+        ]
+      }
     },
     "8860718": {
       "status": "unchecked",
@@ -124093,7 +125708,16 @@
       "searched_at": "2026-11-12T17:15:42.730090+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Landowska's full Well-Tempered Clavier title is cached, but source pair structure, all BWV identities and transfer/session family lack an accepted mapping.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "2279849": {
       "status": "found",
@@ -125233,6 +126857,12 @@
           "https://i.discogs.com/K05ECCFUVyQHevZdl878sp8vuZtg_SPDg1tE_1uXOTM/rs:fit/g:sm/q:90/h:600/w:594/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc5NzEx/MDQtMTQ1MjY3OTEy/Mi03MjcxLmpwZWc.jpeg",
           "https://i.discogs.com/JY56GL8UKx9-uNZg-vUNQu3gd_uO1pDoHx7oXjNbMQY/rs:fit/g:sm/q:90/h:597/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9SLTc5NzEx/MDQtMTQ1MjY3OTEz/MS0zMDY5LmpwZWc.jpeg"
         ]
+      },
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "source-programme-hold",
+        "reason": "The saved tracklist omits Albéniz’s Sevillana, shown on the original RCA label and cover. The complete LP programme needs review before a match can be accepted.",
+        "limitations": []
       }
     },
     "7926224": {
@@ -125586,7 +127216,15 @@
       "searched_at": "2026-11-12T17:17:27.967940+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Candidate lacks source MozartK333sonata; other five source works do not make a complete match.",
+        "limitations": [
+          "Exact cached candidate is incomplete or contains a conflicting source-required recording. This is not evidence of Qobuz-wide absence or a rejection of another candidate."
+        ]
+      }
     },
     "13203869": {
       "status": "unchecked",
@@ -128375,7 +130013,15 @@
       "searched_at": "2026-11-12T17:20:58.253583+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "PastClassicsfourtracks contain full-labelled BWV826/992/906and FischerPassacaglia with positive Landowska credits. Source uses Schmiederlabels; title alias alone cannot establish completeness within joined multi-movement tracks or exact recording/transfer identity. Other files include different Bach programmes.",
+        "limitations": [
+          "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+        ]
+      }
     },
     "2218786": {
       "status": "probable",
@@ -129499,7 +131145,15 @@
         "Source SaintSaens concerto requires Wallenstein/SymphonyOfTheAir. Candidate SaintSaens tracks credit Ormandy/Philadelphia instead. Matching Rubinstein and the Franck coupling cannot supply the source concerto recording.",
         "Exact cached candidate is incomplete or contains a conflicting source-required recording. This is not evidence of Qobuz-wide absence or a rejection of another candidate.",
         "1/2 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Source SaintSaens concerto requires Wallenstein/SymphonyOfTheAir. Candidate SaintSaens tracks credit Ormandy/Philadelphia instead. Matching Rubinstein and the Franck coupling cannot supply the source concerto recording.",
+        "limitations": [
+          "Exact cached candidate is incomplete or contains a conflicting source-required recording. This is not evidence of Qobuz-wide absence or a rejection of another candidate."
+        ]
+      }
     },
     "4719816": {
       "status": "found",
@@ -132203,7 +133857,19 @@
         "Source issue1958is not a session date. Public CSO session evidence refers to the recording family, not the exact Sonycandidatebarcode.",
         "The orchestra name is present: this is role/evidence-policy uncertainty, not an absent-name or wrong-orchestra claim. Spaced Associated Performer is currently inconsistently accepted by token parsing; this discovery does not authorize a broad acceptance change.",
         "1/2 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Complete5+8work-field mapping is diagnostic only. ChineseMarch279922682lists ChicagoSymphonyOrchestra solely as AssociatedPerformer, which the current CamelCase recording-credit parser does not accept. DDEXdescribes an association used for work identification; no automatic recording-role equivalence or credit borrowing from the other sections is adopted.",
+        "limitations": [
+          "Recording-family support, not independent exact-take or mastering verification.",
+          "Source is mono LM2150; CSO discusses the LivingStereo release of this coupling. Candidate metadata does not explicitly establish channel configuration or same mono transfer. No mono/stereo take equivalence claimed.",
+          "The source lists the symphonic poem as one LPside; the digital candidate indexes it into eight sections. All eight exact indexed titles/work fields are retained; no generic last-track-only acceptance.",
+          "Source issue1958is not a session date. Public CSO session evidence refers to the recording family, not the exact Sonycandidatebarcode.",
+          "The orchestra name is present: this is role/evidence-policy uncertainty, not an absent-name or wrong-orchestra claim. Spaced Associated Performer is currently inconsistently accepted by token parsing; this discovery does not authorize a broad acceptance change."
+        ]
+      }
     },
     "1896362": {
       "status": "unchecked",
@@ -133215,7 +134881,16 @@
       "searched_at": "2026-11-12T17:29:44.168452+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The Grieg concerto/encores candidate is plausible, but matching one concerto does not settle every source encore, recording family and Wallenstein scope.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "5163525": {
       "status": "unchecked",
@@ -137324,7 +138999,15 @@
       "searched_at": "2026-11-12T17:30:28.831173+00:00",
       "reasons": [
         "2/4 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Furtwängler’s Unfinished and a Rosamunde entracte are in this file. The Merry Wives of Windsor and Oberon overtures are not.",
+        "limitations": [
+          "An ambience track and an alternate Rosamunde entracte are not the two overtures."
+        ]
+      }
     },
     "7990485": {
       "status": "unchecked",
@@ -139008,7 +140691,16 @@
       "searched_at": "2026-11-12T17:33:29.086623+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The Toscanini Edition Vol.2 candidate title alone does not establish every source work and vocal/instrumental cast in Arte di Toscanini Volume2.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "13166114": {
       "status": "unchecked",
@@ -139444,7 +141136,16 @@
       "searched_at": "2026-11-12T17:35:13.895292+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Ferrier Bach/Handel arias and B-minor Mass candidates do not supply the source complete St Matthew Passion.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "7186111": {
       "status": "unchecked",
@@ -139455,7 +141156,16 @@
       "searched_at": "2026-11-12T17:35:29.592991+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The cello sonata/polonaise candidates do not establish Richter on the entire source Romantic Cello programme; other Rostropovich recordings cannot supply his credit.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "6371624": {
       "status": "unchecked",
@@ -139477,7 +141187,16 @@
       "searched_at": "2026-11-12T17:35:59.043541+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Hindemith leads do not establish the source Shostakovich1/Hindemith concerto pair with Oistrach/Rozhdestvensky/Soviet orchestra.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "3337623": {
       "status": "unchecked",
@@ -139910,7 +141629,16 @@
       "searched_at": "2026-11-12T17:36:44.236971+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The matching Mahler song-cycle title exists, but source conductors/orchestras differ by cycle and need explicit work-scoped verification.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "5832068": {
       "status": "unchecked",
@@ -140746,7 +142474,17 @@
       "searched_at": "2026-11-12T17:37:59.091034+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The only candidate is the100trackcomplete sonata set, not this variations/short-pieces volume. Shared Schnabel cache scans found no source DiabelliOp120,EroicaVariationsOp35,Op34,Op129,Op33,Op126orOp77recordings. One supported short item cannot replace the source programme.",
+        "limitations": [
+          "This is a candidate-specific recording review, not proof of service-wide absence.",
+          "Other cached alternatives were inspected separately; no uncertain source musician, named piece or conflicting provider identity was waived.",
+          "Source, normalized collection and Spotify data remain unchanged."
+        ]
+      }
     },
     "4694861": {
       "status": "probable",
@@ -141325,7 +143063,16 @@
       "searched_at": "2026-11-12T17:38:29.008575+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Cached Furtwängler orchestral Wagner/Mozart/Beethoven records do not establish a complete Walküre.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "12524051": {
       "status": "unchecked",
@@ -141408,7 +143155,15 @@
       "searched_at": "2026-11-12T17:38:59.040319+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "SavedNeumann/Dvorakfiles contain selected symphonies, while the44trackDeccaCompleteSymphoniescandidate uses other conductors/orchestras for much of the programme. No full source Neumann/CzechPhilharmonicnine-symphony recording cycle is verified; source8has three listed bands needing finale accounting.",
+        "limitations": [
+          "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+        ]
+      }
     },
     "3346884": {
       "status": "unchecked",
@@ -141915,7 +143670,16 @@
       "searched_at": "2026-11-12T17:39:43.937267+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Pictures at an Exhibition is cached, but Bohemian Philharmonic source naming and Pedrotti's exact orchestra/session are unverified.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "14669582": {
       "status": "unchecked",
@@ -142502,7 +144266,16 @@
       "searched_at": "2026-11-12T17:41:29.589778+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The Fourteen Waltzes title is cached, but individual source waltz identities/order and Malcuzynsky name variants still need recording-family reconciliation.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "3347307": {
       "status": "unchecked",
@@ -142513,7 +144286,16 @@
       "searched_at": "2026-11-12T17:41:44.069641+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The Bach/Buxtehude vocal compilation is only a lead; source choirs and organist are not all established by accepted per-work credits.",
+        "limitations": [
+          "Recording-family evidence is not exact LP pressing, transfer, mastering or take verification.",
+          "A held lead does not establish absence from Qobuz; title-only diagnostics are not acceptance."
+        ]
+      }
     },
     "7269277": {
       "status": "unchecked",
@@ -142921,7 +144703,15 @@
       "searched_at": "2026-11-12T17:44:00.266670+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The24trackAuriacombe/Witoldcandidate supplies orchestral suites, while source additionally requires Brandenburg3/4/5and the two-piano concertoBWV1061. Other cached hits are suites/excerpts/different performers, not a verified full seven-work source set.",
+        "limitations": [
+          "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+        ]
+      }
     },
     "2526909": {
       "status": "unchecked",
@@ -145469,7 +147259,17 @@
       "reasons": [
         "1/8 target items supported after composer/work grouping; unresolved.",
         "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "All eight source songs are present, but Jobim has only ComposerLyricist credits on Ipanema and Desafinado, not positive musical participation. OGrandeAmor names JoãoGilbertoQuintet rather than an independently verified solo-artist alias. Source drummer MiltonBanana is absent from all three cached original-album editions. Expanded/single edits and later live albums do not fill these credits.",
+        "limitations": [
+          "This is a candidate-specific recording review, not proof of service-wide absence.",
+          "Other cached alternatives were inspected separately; no uncertain source musician, named piece or conflicting provider identity was waived.",
+          "Source, normalized collection and Spotify data remain unchanged."
+        ]
+      }
     },
     "2861399": {
       "status": "unchecked",
@@ -145480,7 +147280,15 @@
       "searched_at": "2026-11-12T17:45:29.674673+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "NinaSimonebestlead supplies four source songs; other saved studio albums cover different subsets. Source15songcompilation mixes material requiring version/live/studio identity; title matches do not establish the entire programme or same takes.",
+        "limitations": [
+          "Probable concerns recording family, never exact pressing, transfer, mastering or session takes. Source/collection/Spotify and global credit policy remain unchanged."
+        ]
+      }
     },
     "5140330": {
       "status": "unchecked",

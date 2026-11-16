@@ -2195,3 +2195,16 @@ changes, all out-of-scope release payloads and collection/Spotify bytes unchange
 12Found/162Probable/567Unchecked copies. Frozen160cohort now20accepted/140held/
 0open; broader inventory566unchecked unique. Offline queue/ranking refreshed.
 No provider calls, push or deployment. Next recommendation:cached9283162then15660391.
+
+
+### 2026-11-16 — Show Qobuz review progress separately
+
+At user request, publish optional explicit unresolved review metadata independently
+of match status, including holds outside first-pass search hits. Explorer table,
+Captions/Shelf, Qobuz filter/count/sort and detail now distinguish203Reviewed ·
+unresolved copies from364Unchecked;12Found/162Probable unchanged. Detail shows
+the saved blocker and limitations. Underlying statuses, scores, albums and all
+candidate payloads match the previous publication exactly; Spotify untouched.
+Four new helper tests plus filter/normalization regressions pass; full260script
+tests and static build pass. Browser verified203filtered rows and Rosbaud Don
+Giovanni's saved singer/programme blocker. No provider calls or push.

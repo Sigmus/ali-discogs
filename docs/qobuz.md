@@ -589,3 +589,14 @@ raw source programmes/credits and hold precedence. The report is
 names occurring somewhere in an album are explicitly diagnostic, never credit
 or recording acceptance. Three source-band mappings reuse the existing review
 kind; no general matching threshold, performer alias or credit waiver changed.
+
+
+### Review progress in the explorer
+
+The sidecar's optional `review` object has `state: reviewed_unresolved`, the saved
+decision, reason and limitations. It is produced from explicit unresolved recording
+reviews/source-programme holds, independently of candidate search membership.
+Underlying `status`, confidence and candidates remain unchanged for compatibility
+with audit/inventory tools. The explorer derives the `reviewed_unresolved` filter,
+sort and label only when evidence status is `unchecked`; other unaccepted cases
+remain Unchecked. This means no saved review decision, not no prior search.

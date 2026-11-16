@@ -517,3 +517,14 @@ review fields with corroboration; they never silently alter source or create
 general take/identity equivalences. Raw roles outside current normalization
 (held harp/viola cases) remain limitations needing a separate audit.
 [38-case results](../plans/2026-11-16-qobuz-partial38.md).
+
+
+### 2026-11-16 — Separate Qobuz review progress from match evidence
+
+Adopted at user request. Keep underlying Qobuz match statuses/confidence unchanged.
+Publish optional `review` metadata only for an explicit unresolved saved recording
+or source-programme decision. UI shows/filter-sorts `Reviewed · unresolved` for
+those cases; `Unchecked` means no such saved decision, even if searches or
+metadata diagnostics already ran. Do not infer manual review from zero scores,
+empty results or missing metadata. Found/Probable remain accepted match states.
+The review reason is visible even when its album was absent from first-pass hits.

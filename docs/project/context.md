@@ -24,8 +24,10 @@ and cache commands. This directory owns current planning.
 - Six searchable multi-select filters: OR within field, AND across fields. Each
   defaults to frequency with individual Alphabetical checkbox. Search after
   Decade; outlined Clear/Pin icons after Search, delayed theme-aware tooltips.
-- Subtle full-width filter band; optional sticky pin below header. Table headers
-  always sticky. Table sorts all columns; other views offer Year/Composer only.
+- Subtle filter band with optional pin; table headers always sticky.
+- Qobuz UI separates203Reviewed · unresolved from364Unchecked copies. Saved
+  review progress is independent of match status; detail shows the saved blocker.
+  Table sorts all columns; other views offer Year/Composer only.
 
 ## Retrieval complete
 
@@ -73,7 +75,7 @@ and cache commands. This directory owns current planning.
   [Results](../plans/2026-11-16-qobuz-zero104.md): Heifetz8923384,
   Mitropoulos6544574 and Schuricht36163426 use existing source-band validation.
   Full alternative inventories, raw roles, evidence hashes and next actions saved.
-- 256script tests, normalization and static build pass. Exactly3label changes;
+- Latest260script tests, normalization and static build pass. Batch had3label changes;
   collection/Spotify and all out-of-scope release payloads unchanged.
 - 566unchecked unique:355work/credit,195withheld,5completeness,4rejected,
   6empty,1source hold. Reviewed holds remain searchable evidence, not Not found.

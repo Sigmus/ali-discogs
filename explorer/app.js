@@ -24,6 +24,7 @@
     pending: "pending",
     queued: "pending",
     unchecked: "unchecked",
+    reviewed_unresolved: "reviewed_unresolved",
     skipped: "unchecked",
     unknown: "unchecked"
   };
@@ -32,7 +33,8 @@
     probable: "Probable",
     not_found: "Not found",
     pending: "Pending",
-    unchecked: "Unchecked"
+    unchecked: "Unchecked",
+    reviewed_unresolved: "Reviewed · unresolved"
   };
   const SORTS = ["composer", "artist", "title", "year", "label", "confidence", "performers", "spotify", "qobuz"];
   const THEME_KEY = "ali-discogs-theme";
@@ -204,6 +206,8 @@
       best_candidate: best,
       programme_review: v.programme_review && typeof v.programme_review === "object"
         ? { status: text(v.programme_review.status), reason: text(v.programme_review.reason), limitation: text(v.programme_review.limitation) } : null,
+      review: v.review && typeof v.review === "object"
+        ? { state: text(v.review.state), reason: text(v.review.reason), limitations: asArray(v.review.limitations).map(text).filter(Boolean) } : null,
       search_url: safeUrl(v.search_url || v.searchUrl || v.search),
       alternates: alternatesOf(v.alternates || v.alternatives || v.candidates || v.others || [])
         .filter(a => !best || !a.id || a.id !== best.id)
@@ -213,7 +217,9 @@
     return items.map(it => {
       const review = reviews[String(it.discogs.id)] || null;
       if (!review) return it;
-      return {...it, qobuzReview: review, qobuz: serviceOf({...review,
+      const status = review.status === "unchecked" && review.review?.state === "reviewed_unresolved"
+        ? "reviewed_unresolved" : review.status;
+      return {...it, qobuzReview: review, qobuz: serviceOf({...review, status,
         search_url: it.qobuz.search_url,
         alternates: review.candidates.filter(a => !review.album || a.id !== review.album.id)})};
     });
@@ -399,12 +405,12 @@
       c = strNullLast(credits(a), credits(b), dir);
     }
     else if (state.sort === "qobuz") {
-      const rank = { found: 0, probable: 1, not_found: 2, pending: 3, unchecked: 4 };
+      const rank = { found: 0, probable: 1, not_found: 2, reviewed_unresolved: 3, pending: 4, unchecked: 5 };
       c = (rank[a.qobuz.status] - rank[b.qobuz.status]) * dir ||
         numNullLast(a.qobuz.confidence, b.qobuz.confidence, -dir);
     }
     else if (state.sort === "spotify") {
-      const rank = { found: 0, probable: 1, not_found: 2, pending: 3, unchecked: 4 };
+      const rank = { found: 0, probable: 1, not_found: 2, reviewed_unresolved: 3, pending: 4, unchecked: 5 };
       c = (rank[a.spotify.status] - rank[b.spotify.status]) * dir ||
         numNullLast(a.spotify.confidence, b.spotify.confidence, -dir);
     }
@@ -422,6 +428,7 @@
   function tally(items) {
     const blank = () => ({ found: 0, probable: 0, not_found: 0, pending: 0, unchecked: 0 });
     const out = { spotify: blank(), qobuz: blank(), neither: 0, both: 0, total: items.length };
+    out.qobuz.reviewed_unresolved = 0;
     items.forEach(it => {
       ["spotify", "qobuz"].forEach(key => {
         const status = it[key].status;
@@ -535,7 +542,7 @@
       next.view = view === "covers" || view === "captions" ? "captions" : view === "shelf" ? "shelf" : "";
       const statuses = ["", "found", "probable", "not_found", "pending", "unchecked"];
       next.sp = next.sp.filter(value => statuses.includes(value));
-      next.qb = next.qb.filter(value => statuses.includes(value));
+      next.qb = next.qb.filter(value => [...statuses, "reviewed_unresolved"].includes(value));
       Object.assign(state, next);
     }
     function writeHash() {
@@ -744,7 +751,8 @@
       const review = it.qobuzReview;
       if (!review) return serviceHtml("Qobuz", it.qobuz);
       return `<section class="svc"><div class="svc-h"><span class="svc-name">Qobuz</span><span class="status ${esc(it.qobuz.status)}">${esc(statusText(it.qobuz))}</span></div>
-        <p class="quiet">${esc(review.reasons.join(" "))}</p>
+        <p class="quiet">${esc(review.review?.reason || review.reasons.join(" "))}</p>
+        ${review.review?.limitations?.length ? `<p class="quiet">${esc(review.review.limitations.join(" "))}</p>` : ""}
         <p class="quiet">Scores describe programme and credit evidence; they are not a calibrated probability or listening verification.</p>
         <p class="quiet">Searched ${esc(addedLabel(review.searched_at))} · Query: ${esc(review.query)}</p>
         <ul class="qobuz-candidates">${review.candidates.map(a => `<li>${safeUrl(a.image) ? `<img src="${esc(safeUrl(a.image))}" alt="" loading="lazy">` : ""}<div>${matchHtml({...a, confidence: null}, "")}<p class="quiet">${esc(statusText(a))} · ${a.covered}/${a.target_count} programme items supported</p><p class="quiet">${esc(a.reasons.join(" "))}</p><details><summary>Programme evidence</summary><ul>${a.programme.map(m => `<li>${esc(m.target)}: ${m.recording_group ? `${m.credited_tracks} tracks supported by recording-group credits` : m.credited_tracks ? "matching work and credits" : m.work_tracks ? "required credits not supported" : "work unresolved"}${m.inherited_title_context ? `; ${m.inherited_title_context.length} movement titles use the preceding work context` : ""}</li>`).join("")}</ul></details></div></li>`).join("")}</ul>
@@ -858,7 +866,7 @@
     function showNotice() {
       const waiting = items.length && items.every(it =>
         (it.spotify.status === "pending" || it.spotify.status === "unchecked") &&
-        (it.qobuz.status === "pending" || it.qobuz.status === "unchecked"));
+        (["pending", "unchecked", "reviewed_unresolved"].includes(it.qobuz.status)));
       if (sample) {
         notice.hidden = false;
         notice.className = "notice sample";

@@ -242,6 +242,22 @@ assert.equal(sortedQobuz.at(-1).qobuz.status, 'unchecked');
 assert.equal(withQobuz.length, 741);
 console.log('Qobuz sidecar merge and sorting ok');
 
+// Workflow progress does not promote a held album or leak into Spotify labels.
+const progressData = JSON.parse(JSON.stringify(qobuzData.releases));
+progressData['1846030'] = {status: 'unchecked', confidence: null, album: null,
+  candidates: [], review: {state: 'reviewed_unresolved', reason: 'Named musicians unresolved.', limitations: []}};
+const progressItems = enrichAll(applyQobuz(collectionFrom(real), progressData));
+const held = progressItems.find(it => it.discogs.id === 1846030);
+assert.equal(held.qobuz.status, 'reviewed_unresolved');
+assert.equal(held.qobuz.album, null);
+assert.equal(held.qobuz.confidence, null);
+assert.equal(held.qobuz.review.reason, 'Named musicians unresolved.');
+assert.equal(held.spotify.status, collectionFrom(real).find(it => it.discogs.id === 1846030).spotify.status);
+assert.ok(query(progressItems, {...empty, qb: ['reviewed_unresolved']}).some(it => it.discogs.id === 1846030));
+assert.ok(!query(progressItems, {...empty, qb: ['unchecked']}).some(it => it.discogs.id === 1846030));
+assert.ok(tally(progressItems).qobuz.reviewed_unresolved > 0);
+console.log('Explicit Qobuz review progress and filtering ok');
+
 assert.equal(realCounts.spotify.unchecked, 4);
 for (const id of [1012732, 9458258]) {
   const svc = collection.find(it => it.discogs.id === id).spotify;

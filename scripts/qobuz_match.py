@@ -206,6 +206,20 @@ def expanded_candidate(row, album, inventory):
             'completeness': completeness}
 
 
+def review_progress(status, saved_review=None, source_hold=None):
+    """Expose an explicit unresolved decision without changing match evidence."""
+    if status != 'unchecked':
+        return None
+    if saved_review and saved_review['decision'] != 'probable':
+        return {'state': 'reviewed_unresolved', 'decision': saved_review['decision'],
+                'reason': saved_review['recording_review'],
+                'limitations': saved_review['limitations']}
+    if source_hold:
+        return {'state': 'reviewed_unresolved', 'decision': 'source-programme-hold',
+                'reason': source_hold['reason'], 'limitations': []}
+    return None
+
+
 def generate():
     rows = {r['discogs_id']: r for r in json.loads((ROOT/'data/collection_matches.json').read_text())}
     snapshot = load_snapshot()
@@ -450,6 +464,12 @@ def generate():
         if source_hold:
             results[str(rid)]['source_programme_review']={'status':'incomplete-source',**source_hold}
             if not candidates:results[str(rid)]['reasons']=[source_hold['reason']]
+        # Review progress is distinct from match confidence. Keep the evidence
+        # status unchanged, including when the held album wasn't in first-pass hits.
+        progress = review_progress(results[str(rid)]['status'],
+            round2_reviews.get(str(rid)) or lead_reviews.get(str(rid)), source_hold)
+        if progress:
+            results[str(rid)]['review'] = progress
     output = {'schema_version': 1, 'matcher_version': VERSION, 'score_kind': 'heuristic',
               'metadata_completed_at': snapshot['metadata_completed_at'],
               'search_manifest_fingerprint': manifest['fingerprint'],
