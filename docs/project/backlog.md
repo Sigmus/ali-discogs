@@ -36,10 +36,13 @@ complete:20accepted families,140reviewed holds,0open. Each hold retains specific
 prerequisites for reopening, not an automatic return to the work queue.
 Final two supported cached leads reviewed:9283162Probable;15660391held.
 [Results and grouping](../plans/2026-11-16-qobuz-final-cached-leads.md).
-Next inspect a bounded sample of171credit-support cases for reusable causes,
-then179work/title mapping cases;6no-cached-candidate and5completeness cases are
-separate. Saved holds retain prerequisites; no open supported cached lead remains.
-The broader353work/credit inventory remains separate. Zero support needs source/
+The diverse12credit-support sample is now reviewed:Reiner1896362Probable,
+11explicit holds. [Diagnostic/results](../plans/2026-11-16-qobuz-credit171.md).
+Frozen171machine scan found11work-field gains;9remain unreviewed, starting
+2394378/2636984. Continue existing source-bound recording review; no automatic
+work-field promotion. The current unreviewed split is159credit-support,
+179work/title,6no cached candidate and5completeness cases.
+The broader341work/credit inventory remains separate. Zero support needs source/
 lead/rule investigation, not automatic API retrieval. Revisit explicit holds only
 with new evidence or a validated scoped rule; partial source support is triage,
 not confidence. No new retrieval or broad policy change follows from completion.

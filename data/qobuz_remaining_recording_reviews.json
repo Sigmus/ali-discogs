@@ -16375,6 +16375,338 @@
         "Recording-family acceptance does not verify the exact pressing, take, transfer or mastering.",
         "Uncached alternatives remain outside this offline review; a hold is not evidence of catalogue absence."
       ]
+    },
+    {
+      "discogs_id": "669978",
+      "album_id": "0074643679022",
+      "target_sha256": "f92fe8ba515f17abed48cf95fc1c33ac3646c7e0401beda57b0eda153d9cc5ab",
+      "album_sha256": "bf713975199cb353fc4fcb08e95223f443f72daa0d1c95a6113753dd7c576aa0",
+      "source_sha256": "562cd13ac93a82c6ff41f08d94cc274fea76e642797061363d5a484cc9cd724a",
+      "decision": "withhold",
+      "recording_review": "Required guitarists occur on the matching work but their Guitar role is not accepted; Robert Irving name variants add an identity gap. No associated-role waiver.",
+      "sources": [
+        "https://www.discogs.com/release/669978"
+      ],
+      "limitations": [
+        "No global role waiver, fuzzy identity merge, source rewrite or automatic diagnostic promotion.",
+        "Source and cached musician/programme evidence do not verify exact LP transfer, pressing, takes or mastering."
+      ]
+    },
+    {
+      "discogs_id": "1724303",
+      "album_id": "0886444331401",
+      "target_sha256": "2d2001607da06a1a2495e43e56df39a73ec5c8c1c858073740b7d28ad243ce1f",
+      "album_sha256": "becf1516a8473fb46c672752632888c2469e36f4ab302fe1f109448ec9745b00",
+      "source_sha256": "5a21032ed40122ae1231128faab71794a000f6d5825177e91f3fe95b719c9b04",
+      "decision": "withhold",
+      "recording_review": "Various is required as a performer; global featuring musicians are imposed across tracks. Some exact guitar/brass names also have unaccepted instrument roles.",
+      "sources": [
+        "https://www.discogs.com/release/1724303"
+      ],
+      "limitations": [
+        "No global role waiver, fuzzy identity merge, source rewrite or automatic diagnostic promotion.",
+        "Source and cached musician/programme evidence do not verify exact LP transfer, pressing, takes or mastering."
+      ]
+    },
+    {
+      "discogs_id": "1132104",
+      "album_id": "0002894631652",
+      "target_sha256": "4f709efbcebba453460822075e79363acd65b7c5ffd26bda1701b66f3932dc9a",
+      "album_sha256": "7beef7dd100b4802ed4b618829a67035002bcce387fbce36060e7aefd69db835",
+      "source_sha256": "d6ee44720435a54b5eb6586c5fa15c40ae9a60e22f14783887c98fb00900d513",
+      "decision": "withhold",
+      "recording_review": "Prague String Quartet is declared with an unaccepted role; source individual players remain missing. Accepting the ensemble role alone cannot resolve this LP.",
+      "sources": [
+        "https://www.discogs.com/release/1132104"
+      ],
+      "limitations": [
+        "No global role waiver, fuzzy identity merge, source rewrite or automatic diagnostic promotion.",
+        "Source and cached musician/programme evidence do not verify exact LP transfer, pressing, takes or mastering."
+      ]
+    },
+    {
+      "discogs_id": "2170750",
+      "album_id": "0002894164402",
+      "target_sha256": "8460cf135d997d895c77c16e8e40f6f21697a05516e68f53f6542b9447984689",
+      "album_sha256": "3d16a2f5bffd689adbbcfc73615d53af42e2bb3bfcfad8f74aebc23840715de0",
+      "source_sha256": "70da6856412782978fee929eb79caadc26ccb1a5b0d279ff6e56b8063fe7b0e3",
+      "decision": "withhold",
+      "recording_review": "The actual Arrau nocturne cycle has positive piano/artist evidence but source Op.9/1-style titles do not map under current rules. Generic compilations give misleading work-only hits.",
+      "sources": [
+        "https://www.discogs.com/release/2170750"
+      ],
+      "limitations": [
+        "No global role waiver, fuzzy identity merge, source rewrite or automatic diagnostic promotion.",
+        "Source and cached musician/programme evidence do not verify exact LP transfer, pressing, takes or mastering."
+      ]
+    },
+    {
+      "discogs_id": "1035152",
+      "album_id": "0002894778122",
+      "target_sha256": "40fd6d65a7108935c5ab64caa79e5d9cbe32fc6ea27f3efda30aa54de972795c",
+      "album_sha256": "c2f173c3decaf75a30cd9e712f84b4c92ecf6247a0389e8df33c82bd8ba39953",
+      "source_sha256": "843722166ae2ee3b564c5b6bb590ede4b54a98a3108f4ed8543993830a4f56cc",
+      "decision": "withhold",
+      "recording_review": "The Richter box contains relevant work fields and Warsaw orchestra spelling; two source conductors lack track scopes. Global casts cannot be borrowed between solo pieces and concertos.",
+      "sources": [
+        "https://www.discogs.com/release/1035152"
+      ],
+      "limitations": [
+        "No global role waiver, fuzzy identity merge, source rewrite or automatic diagnostic promotion.",
+        "Source and cached musician/programme evidence do not verify exact LP transfer, pressing, takes or mastering."
+      ]
+    },
+    {
+      "discogs_id": "1723557",
+      "album_id": "0886446607627",
+      "target_sha256": "2179ee9c7cc68bedc0480256a8b8122089a7ac6937318773379c24b524e14c36",
+      "album_sha256": "ec7e6491e4b9659147bdd9184dfe3925c1bfd4904e69efdd0f8cf757a45740c7",
+      "source_sha256": "91b6683dbf7cd48fdbcad2d2384e19d0fb380d42dcd36f4305f725ded653f7e3",
+      "decision": "withhold",
+      "recording_review": "Explicit work-field prefixing recovers current-rule support for the Stern/Barenboim concerto, but New York Philharmonic is only Associated Performer. The current spaced-role parser accepts performer as a token.",
+      "sources": [
+        "https://www.discogs.com/release/1723557"
+      ],
+      "limitations": [
+        "No global role waiver, fuzzy identity merge, source rewrite or automatic diagnostic promotion.",
+        "Source and cached musician/programme evidence do not verify exact LP transfer, pressing, takes or mastering."
+      ]
+    },
+    {
+      "discogs_id": "1896362",
+      "album_id": "0090266124626",
+      "target_sha256": "b4cc95f8d97fb1bc21e01c647007fcf498718e0104b9518f32cf5462dbe2c751",
+      "album_sha256": "4fb4cca5a49f0f73230682ec1f5eb1c0875c7bc6ae623e40f2409c6e497e4006",
+      "source_sha256": "5797116f7607f64bbdc89f86fe1a8b53a7b5f6b1b9dea5750e4ee1bfcf82a1e7",
+      "decision": "probable",
+      "recording_review": "Complete four-movement Reiner/Chicago RCA Pathetique programme is source-bound to192486-192489 with positive conductor/orchestra/composer roles. HDTT reissue catalogue corroborates the1957RCA family and Mohr/Layton production, with compatible four-movement timings. Existing source-leaf review is used; no automatic work-field promotion.",
+      "sources": [
+        "https://www.discogs.com/release/1896362",
+        "https://www.highdeftapetransfers.ca/products/tchaikovsky-symphony-no-6-fritz-reiner-chicago-symphony-orchestra"
+      ],
+      "limitations": [
+        "No global role waiver, fuzzy identity merge, source rewrite or automatic diagnostic promotion.",
+        "Source and cached musician/programme evidence do not verify exact LP transfer, pressing, takes or mastering."
+      ],
+      "review_kind": "source-leaf-bands",
+      "source_outline_sha256": "03f97d52fbf3010731f33c6b8f0b38ad1f51c1907f0da915d328ff1392a0e272",
+      "source_leaves": [
+        {
+          "path": [
+            0,
+            0
+          ],
+          "source_work": "Symphony No. 6, In B Minor, Op. 74 (\"Pathétique\")",
+          "title": "First Movement: Adagio; Allegro Non Troppo",
+          "position": "A1",
+          "duration": ""
+        },
+        {
+          "path": [
+            0,
+            1
+          ],
+          "source_work": "Symphony No. 6, In B Minor, Op. 74 (\"Pathétique\")",
+          "title": "Second Movement: Allegro Con Grazia",
+          "position": "A2",
+          "duration": ""
+        },
+        {
+          "path": [
+            0,
+            2
+          ],
+          "source_work": "Symphony No. 6, In B Minor, Op. 74 (\"Pathétique\")",
+          "title": "Third Movement: Allegro Molto Vivace",
+          "position": "B1",
+          "duration": ""
+        },
+        {
+          "path": [
+            0,
+            3
+          ],
+          "source_work": "Symphony No. 6, In B Minor, Op. 74 (\"Pathétique\")",
+          "title": "Fourth Movement: Finale: Adagio Lamentoso",
+          "position": "B2",
+          "duration": ""
+        }
+      ],
+      "source_heading_groups": [],
+      "bindings": [
+        {
+          "source_path": [
+            0,
+            0
+          ],
+          "track_ids": [
+            192486
+          ],
+          "track_sha256": [
+            "2d8a7a9f10bae2817fb64a78afa8942f50f1726d18acd5f82e6973fa7ed56de4"
+          ],
+          "required_performers": [
+            "Fritz Reiner",
+            "Chicago Symphony Orchestra"
+          ],
+          "composer": "Piotr Ilich Tchaikovsky"
+        },
+        {
+          "source_path": [
+            0,
+            1
+          ],
+          "track_ids": [
+            192487
+          ],
+          "track_sha256": [
+            "8e0933246eab74e15547a00b05a99ed9220018ab801a022ac9ecc87f8e13fd97"
+          ],
+          "required_performers": [
+            "Fritz Reiner",
+            "Chicago Symphony Orchestra"
+          ],
+          "composer": "Piotr Ilich Tchaikovsky"
+        },
+        {
+          "source_path": [
+            0,
+            2
+          ],
+          "track_ids": [
+            192488
+          ],
+          "track_sha256": [
+            "fd1a643a05f905e2ac71e657a929f237891ebac73de47a4d4ca894c2e20ffe35"
+          ],
+          "required_performers": [
+            "Fritz Reiner",
+            "Chicago Symphony Orchestra"
+          ],
+          "composer": "Piotr Ilich Tchaikovsky"
+        },
+        {
+          "source_path": [
+            0,
+            3
+          ],
+          "track_ids": [
+            192489
+          ],
+          "track_sha256": [
+            "3b92e71035677896a8c2b544d964e11a1b91a8eda1dea3bd586b9f7336257a16"
+          ],
+          "required_performers": [
+            "Fritz Reiner",
+            "Chicago Symphony Orchestra"
+          ],
+          "composer": "Piotr Ilich Tchaikovsky"
+        }
+      ],
+      "source_composer_spellings": [
+        {
+          "source_name": "Pyotr Ilyich Tchaikovsky",
+          "file_name": "Piotr Ilich Tchaikovsky",
+          "reason": "Full-name transliteration bound to the positively corroborated RCA Reiner/Chicago Tchaikovsky6 recording, not a global surname or performer alias."
+        }
+      ],
+      "selected_track_fingerprints": {
+        "192486": "2d8a7a9f10bae2817fb64a78afa8942f50f1726d18acd5f82e6973fa7ed56de4",
+        "192487": "8e0933246eab74e15547a00b05a99ed9220018ab801a022ac9ecc87f8e13fd97",
+        "192488": "fd1a643a05f905e2ac71e657a929f237891ebac73de47a4d4ca894c2e20ffe35",
+        "192489": "3b92e71035677896a8c2b544d964e11a1b91a8eda1dea3bd586b9f7336257a16"
+      },
+      "extra_track_ids": [
+        192490,
+        192491
+      ],
+      "external_source_files": [
+        {
+          "path": "data/review_sources/credit12-1896362/source-observation.txt",
+          "source_url": "https://www.highdeftapetransfers.ca/products/tchaikovsky-symphony-no-6-fritz-reiner-chicago-symphony-orchestra",
+          "sha256": "21fade0509ab720a5208aa262fee0217a5c74f2c14b7c66df7a8db18a68090ad"
+        }
+      ]
+    },
+    {
+      "discogs_id": "2060839",
+      "album_id": "0002894779941",
+      "target_sha256": "fa0c210f07c022ad88fa8e9b9af45f239bd2a44b221b735f6306500b469d237a",
+      "album_sha256": "b4e87ad719073142d33a9c47d5b1ff97df2fd72902b903f2377bc9c937fe1b2a",
+      "source_sha256": "2cd574651c623ea3f4aaec712d459cde858c50a2dab3867a03f1d125d9c1b086",
+      "decision": "withhold",
+      "recording_review": "The strongest matching Jochum family has most source musicians but source chorus master Gerhard Hellwig remains unproven; more generic candidates lack the target cast.",
+      "sources": [
+        "https://www.discogs.com/release/2060839"
+      ],
+      "limitations": [
+        "No global role waiver, fuzzy identity merge, source rewrite or automatic diagnostic promotion.",
+        "Source and cached musician/programme evidence do not verify exact LP transfer, pressing, takes or mastering."
+      ]
+    },
+    {
+      "discogs_id": "1470008",
+      "album_id": "0886445221237",
+      "target_sha256": "37b24101386b75a6b3fff58ae7e3d907343cced621d00888672fc6f2de1debde",
+      "album_sha256": "b4f4c91c98e8f01c1c1e3753113a1bbfe93b093a335f00abc02d508d0e7d801d",
+      "source_sha256": "223a10a9c8258ce89c7f57088342365a9f82cceefff0cd4483c9866b81c9497f",
+      "decision": "withhold",
+      "recording_review": "A generic piano Baroque hit matches the umbrella Art of Fugue title; the full Gould box has the source organ lead but source Contrapunctus1-9 needs an instrument-specific leaf mapping.",
+      "sources": [
+        "https://www.discogs.com/release/1470008"
+      ],
+      "limitations": [
+        "No global role waiver, fuzzy identity merge, source rewrite or automatic diagnostic promotion.",
+        "Source and cached musician/programme evidence do not verify exact LP transfer, pressing, takes or mastering."
+      ]
+    },
+    {
+      "discogs_id": "1524282",
+      "album_id": "0886446030548",
+      "target_sha256": "a0d963d2439c5e72d7e4907f3251e817b74b5352b9291b4c8b310a7be7fc1c0d",
+      "album_sha256": "b4678a296ded863cc1118c711685e181cbc1ac1ccc78eade45c56bd2e2039380",
+      "source_sha256": "80ec0b321eed223699350ca56db6d14cee368c97b43b747eaf812bae2f5f2bc8",
+      "decision": "withhold",
+      "recording_review": "Source Choir of Mount Angel Abbey and cached Choir Of The Abbey Of Mount Angel are near full-name variants. Similar wording alone is not authority evidence.",
+      "sources": [
+        "https://www.discogs.com/release/1524282"
+      ],
+      "limitations": [
+        "No global role waiver, fuzzy identity merge, source rewrite or automatic diagnostic promotion.",
+        "Source and cached musician/programme evidence do not verify exact LP transfer, pressing, takes or mastering."
+      ]
+    },
+    {
+      "discogs_id": "1180104",
+      "album_id": "0002894786191",
+      "target_sha256": "a3b7970ba2fe8b4a93c24897168a6ccececc06d112ebe938255b1eb45c57c3f4",
+      "album_sha256": "2068b231fc77f9e7d5465a5af19b6f44dc92192635aa430810a901342759d1c7",
+      "source_sha256": "507dc14a32a3b5bc285e86250e592c384fed82c7d115e8516f4fd6502fae3c46",
+      "decision": "withhold",
+      "recording_review": "The full Solti lead declares Paul Kuentz while source tenor Mime is Paul Kuen. These names must not be merged by fuzzy matching; an excerpt alternative names Kuen but is not the complete opera.",
+      "sources": [
+        "https://www.discogs.com/release/1180104"
+      ],
+      "limitations": [
+        "No global role waiver, fuzzy identity merge, source rewrite or automatic diagnostic promotion.",
+        "Source and cached musician/programme evidence do not verify exact LP transfer, pressing, takes or mastering."
+      ]
+    },
+    {
+      "discogs_id": "2345819",
+      "album_id": "0002894779797",
+      "target_sha256": "61c456d5a4098006b2e8b66f72f16a137601cf845ecb089f7942361615142fc4",
+      "album_sha256": "27312074f9e51742b5eaf449228842d27dea359837eef36d4d932d22d40c346e",
+      "source_sha256": "f3facbb490ffab7c46807bcc25ebc3383cdc1f66f5b16d334bc11d237cda2250",
+      "decision": "withhold",
+      "recording_review": "Generic Op.61 work hits can be the violin original; the source is the piano arrangement and matching musicians somewhere in the box are insufficient.",
+      "sources": [
+        "https://www.discogs.com/release/2345819"
+      ],
+      "limitations": [
+        "No global role waiver, fuzzy identity merge, source rewrite or automatic diagnostic promotion.",
+        "Source and cached musician/programme evidence do not verify exact LP transfer, pressing, takes or mastering."
+      ]
     }
   ]
 }

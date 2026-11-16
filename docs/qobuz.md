@@ -608,3 +608,11 @@ work-title/credit groups use existing programme diagnostics and do not establish
 recording identity or catalogue absence. Rebuild unmatched inventory first.
 `uv run --with requests python scripts/qobuz_final_cached2_audit.py` verifies the
 last Schubert/Mozart pair, complete alternative manifests and hold precedence.
+
+
+`uv run --with requests python scripts/qobuz_credit171_diagnostic.py` scans the
+frozen credit171candidate manifest without changing scores, source or publication.
+It records exact per-track declared-but-unaccepted roles and an experiment using
+explicit work fields on bare numbered titles. Different takes, instruments and
+recording identity still need review. Sample decisions reproduce with
+`uv run --with requests python scripts/qobuz_credit12_audit.py`.

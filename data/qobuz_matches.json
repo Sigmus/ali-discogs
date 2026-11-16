@@ -35,7 +35,7 @@
   "richter_review_fingerprint": "a14865f86e46150593e39bfa285fa6c7c61c8f46147b8094c0cb048fd02118ab",
   "round2_review_fingerprint": "be60742c3d35f5a9aa67f200642f7fcde98a52562a46130e043db8f4aa7c851e",
   "round2_metadata_fingerprint": "9db62d7bf62d4b77f5acf422dfde77959f845f4dc00b2ac0e10c02ccea295860",
-  "remaining_review_fingerprint": "103903209d20da8ed01bae01951771cd419e432a85b3a2db99938e66f03c39c5",
+  "remaining_review_fingerprint": "8d99b595b415f698e6931287b2a8e64e790de66325e6b345233cab92eeb158e5",
   "remaining_metadata_fingerprint": "393b2d12e176160ab311b65267b38bdc8c205222e12f792bf07eba5c1fcfafbf",
   "remaining_followup_metadata_fingerprint": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
   "seven_album_metadata_fingerprint": "139f9b336c68b56ea22c18362cb0481c026366c5d359142f2bb702fe1233a4fc",
@@ -11361,7 +11361,15 @@
             }
           ],
           "reasons": [
+            "A generic piano Baroque hit matches the umbrella Art of Fugue title; the full Gould box has the source organ lead but source Contrapunctus1-9 needs an instrument-specific leaf mapping.",
+            "No global role waiver, fuzzy identity merge, source rewrite or automatic diagnostic promotion.",
+            "Source and cached musician/programme evidence do not verify exact LP transfer, pressing, takes or mastering.",
             "0/10 target items supported after composer/work grouping; unresolved."
+          ],
+          "recording_review_decision": "withhold",
+          "recording_review": "A generic piano Baroque hit matches the umbrella Art of Fugue title; the full Gould box has the source organ lead but source Contrapunctus1-9 needs an instrument-specific leaf mapping.",
+          "review_sources": [
+            "https://www.discogs.com/release/1470008"
           ]
         },
         {
@@ -11452,8 +11460,20 @@
       "query": "glenn gould bach the art of the fugue die kunst der fuge l",
       "searched_at": "2026-11-12T14:47:31.549805+00:00",
       "reasons": [
+        "A generic piano Baroque hit matches the umbrella Art of Fugue title; the full Gould box has the source organ lead but source Contrapunctus1-9 needs an instrument-specific leaf mapping.",
+        "No global role waiver, fuzzy identity merge, source rewrite or automatic diagnostic promotion.",
+        "Source and cached musician/programme evidence do not verify exact LP transfer, pressing, takes or mastering.",
         "0/10 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "A generic piano Baroque hit matches the umbrella Art of Fugue title; the full Gould box has the source organ lead but source Contrapunctus1-9 needs an instrument-specific leaf mapping.",
+        "limitations": [
+          "No global role waiver, fuzzy identity merge, source rewrite or automatic diagnostic promotion.",
+          "Source and cached musician/programme evidence do not verify exact LP transfer, pressing, takes or mastering."
+        ]
+      }
     },
     "2636984": {
       "status": "unchecked",
@@ -13171,7 +13191,15 @@
             }
           ],
           "reasons": [
+            "Explicit work-field prefixing recovers current-rule support for the Stern/Barenboim concerto, but New York Philharmonic is only Associated Performer. The current spaced-role parser accepts performer as a token.",
+            "No global role waiver, fuzzy identity merge, source rewrite or automatic diagnostic promotion.",
+            "Source and cached musician/programme evidence do not verify exact LP transfer, pressing, takes or mastering.",
             "0/1 target items supported after composer/work grouping; unresolved."
+          ],
+          "recording_review_decision": "withhold",
+          "recording_review": "Explicit work-field prefixing recovers current-rule support for the Stern/Barenboim concerto, but New York Philharmonic is only Associated Performer. The current spaced-role parser accepts performer as a token.",
+          "review_sources": [
+            "https://www.discogs.com/release/1723557"
           ]
         },
         {
@@ -13243,7 +13271,16 @@
       "searched_at": "2026-11-12T14:50:16.756692+00:00",
       "reasons": [
         "0/1 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Explicit work-field prefixing recovers current-rule support for the Stern/Barenboim concerto, but New York Philharmonic is only Associated Performer. The current spaced-role parser accepts performer as a token.",
+        "limitations": [
+          "No global role waiver, fuzzy identity merge, source rewrite or automatic diagnostic promotion.",
+          "Source and cached musician/programme evidence do not verify exact LP transfer, pressing, takes or mastering."
+        ]
+      }
     },
     "2175684": {
       "status": "probable",
@@ -16077,10 +16114,18 @@
             }
           ],
           "reasons": [
+            "Required guitarists occur on the matching work but their Guitar role is not accepted; Robert Irving name variants add an identity gap. No associated-role waiver.",
+            "No global role waiver, fuzzy identity merge, source rewrite or automatic diagnostic promotion.",
+            "Source and cached musician/programme evidence do not verify exact LP transfer, pressing, takes or mastering.",
             "0/6 target items supported after composer/work grouping; unresolved.",
             "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
           ],
-          "work_group_policy": "qobuz-work-groups-v1"
+          "work_group_policy": "qobuz-work-groups-v1",
+          "recording_review_decision": "withhold",
+          "recording_review": "Required guitarists occur on the matching work but their Guitar role is not accepted; Robert Irving name variants add an identity gap. No associated-role waiver.",
+          "review_sources": [
+            "https://www.discogs.com/release/669978"
+          ]
         },
         {
           "id": "h8cnkcaph0izb",
@@ -16838,9 +16883,21 @@
       "query": "miles davis the man with the horn",
       "searched_at": "2026-11-12T14:53:47.330886+00:00",
       "reasons": [
+        "Required guitarists occur on the matching work but their Guitar role is not accepted; Robert Irving name variants add an identity gap. No associated-role waiver.",
+        "No global role waiver, fuzzy identity merge, source rewrite or automatic diagnostic promotion.",
+        "Source and cached musician/programme evidence do not verify exact LP transfer, pressing, takes or mastering.",
         "0/6 target items supported after composer/work grouping; unresolved.",
         "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Required guitarists occur on the matching work but their Guitar role is not accepted; Robert Irving name variants add an identity gap. No associated-role waiver.",
+        "limitations": [
+          "No global role waiver, fuzzy identity merge, source rewrite or automatic diagnostic promotion.",
+          "Source and cached musician/programme evidence do not verify exact LP transfer, pressing, takes or mastering."
+        ]
+      }
     },
     "11876845": {
       "status": "unchecked",
@@ -20047,18 +20104,38 @@
             }
           ],
           "reasons": [
+            "Various is required as a performer; global featuring musicians are imposed across tracks. Some exact guitar/brass names also have unaccepted instrument roles.",
+            "No global role waiver, fuzzy identity merge, source rewrite or automatic diagnostic promotion.",
+            "Source and cached musician/programme evidence do not verify exact LP transfer, pressing, takes or mastering.",
             "0/11 target items supported after composer/work grouping; unresolved.",
             "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
           ],
-          "work_group_policy": "qobuz-work-groups-v1"
+          "work_group_policy": "qobuz-work-groups-v1",
+          "recording_review_decision": "withhold",
+          "recording_review": "Various is required as a performer; global featuring musicians are imposed across tracks. Some exact guitar/brass names also have unaccepted instrument roles.",
+          "review_sources": [
+            "https://www.discogs.com/release/1724303"
+          ]
         }
       ],
       "query": "herbie hancock hancock round midnight original motion picture soundtrack",
       "searched_at": "2026-11-12T14:58:02.526740+00:00",
       "reasons": [
+        "Various is required as a performer; global featuring musicians are imposed across tracks. Some exact guitar/brass names also have unaccepted instrument roles.",
+        "No global role waiver, fuzzy identity merge, source rewrite or automatic diagnostic promotion.",
+        "Source and cached musician/programme evidence do not verify exact LP transfer, pressing, takes or mastering.",
         "0/11 target items supported after composer/work grouping; unresolved.",
         "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Various is required as a performer; global featuring musicians are imposed across tracks. Some exact guitar/brass names also have unaccepted instrument roles.",
+        "limitations": [
+          "No global role waiver, fuzzy identity merge, source rewrite or automatic diagnostic promotion.",
+          "Source and cached musician/programme evidence do not verify exact LP transfer, pressing, takes or mastering."
+        ]
+      }
     },
     "10146327": {
       "status": "unchecked",
@@ -32687,7 +32764,15 @@
             }
           ],
           "reasons": [
+            "The full Solti lead declares Paul Kuentz while source tenor Mime is Paul Kuen. These names must not be merged by fuzzy matching; an excerpt alternative names Kuen but is not the complete opera.",
+            "No global role waiver, fuzzy identity merge, source rewrite or automatic diagnostic promotion.",
+            "Source and cached musician/programme evidence do not verify exact LP transfer, pressing, takes or mastering.",
             "0/1 target items supported after composer/work grouping; unresolved."
+          ],
+          "recording_review_decision": "withhold",
+          "recording_review": "The full Solti lead declares Paul Kuentz while source tenor Mime is Paul Kuen. These names must not be merged by fuzzy matching; an excerpt alternative names Kuen but is not the complete opera.",
+          "review_sources": [
+            "https://www.discogs.com/release/1180104"
           ]
         },
         {
@@ -32826,7 +32911,16 @@
       "searched_at": "2026-11-12T15:14:18.353229+00:00",
       "reasons": [
         "0/1 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The full Solti lead declares Paul Kuentz while source tenor Mime is Paul Kuen. These names must not be merged by fuzzy matching; an excerpt alternative names Kuen but is not the complete opera.",
+        "limitations": [
+          "No global role waiver, fuzzy identity merge, source rewrite or automatic diagnostic promotion.",
+          "Source and cached musician/programme evidence do not verify exact LP transfer, pressing, takes or mastering."
+        ]
+      }
     },
     "13321872": {
       "status": "unchecked",
@@ -55408,7 +55502,15 @@
             }
           ],
           "reasons": [
+            "The strongest matching Jochum family has most source musicians but source chorus master Gerhard Hellwig remains unproven; more generic candidates lack the target cast.",
+            "No global role waiver, fuzzy identity merge, source rewrite or automatic diagnostic promotion.",
+            "Source and cached musician/programme evidence do not verify exact LP transfer, pressing, takes or mastering.",
             "0/7 target items supported after composer/work grouping; unresolved."
+          ],
+          "recording_review_decision": "withhold",
+          "recording_review": "The strongest matching Jochum family has most source musicians but source chorus master Gerhard Hellwig remains unproven; more generic candidates lack the target cast.",
+          "review_sources": [
+            "https://www.discogs.com/release/2060839"
           ]
         },
         {
@@ -55707,8 +55809,20 @@
       "query": "eugen jochum orff carmina burana",
       "searched_at": "2026-11-12T15:28:49.459226+00:00",
       "reasons": [
+        "The strongest matching Jochum family has most source musicians but source chorus master Gerhard Hellwig remains unproven; more generic candidates lack the target cast.",
+        "No global role waiver, fuzzy identity merge, source rewrite or automatic diagnostic promotion.",
+        "Source and cached musician/programme evidence do not verify exact LP transfer, pressing, takes or mastering.",
         "0/7 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The strongest matching Jochum family has most source musicians but source chorus master Gerhard Hellwig remains unproven; more generic candidates lack the target cast.",
+        "limitations": [
+          "No global role waiver, fuzzy identity merge, source rewrite or automatic diagnostic promotion.",
+          "Source and cached musician/programme evidence do not verify exact LP transfer, pressing, takes or mastering."
+        ]
+      }
     },
     "4035824": {
       "status": "unchecked",
@@ -57911,7 +58025,16 @@
       "searched_at": "2026-11-12T15:32:04.679634+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Generic Op.61 work hits can be the violin original; the source is the piano arrangement and matching musicians somewhere in the box are insufficient.",
+        "limitations": [
+          "No global role waiver, fuzzy identity merge, source rewrite or automatic diagnostic promotion.",
+          "Source and cached musician/programme evidence do not verify exact LP transfer, pressing, takes or mastering."
+        ]
+      }
     },
     "2085106": {
       "status": "unchecked",
@@ -58819,7 +58942,16 @@
       "searched_at": "2026-11-12T15:36:35.224251+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Prague String Quartet is declared with an unaccepted role; source individual players remain missing. Accepting the ensemble role alone cannot resolve this LP.",
+        "limitations": [
+          "No global role waiver, fuzzy identity merge, source rewrite or automatic diagnostic promotion.",
+          "Source and cached musician/programme evidence do not verify exact LP transfer, pressing, takes or mastering."
+        ]
+      }
     },
     "2831179": {
       "status": "unchecked",
@@ -69668,7 +69800,16 @@
       "searched_at": "2026-11-12T15:53:51.726071+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The Richter box contains relevant work fields and Warsaw orchestra spelling; two source conductors lack track scopes. Global casts cannot be borrowed between solo pieces and concertos.",
+        "limitations": [
+          "No global role waiver, fuzzy identity merge, source rewrite or automatic diagnostic promotion.",
+          "Source and cached musician/programme evidence do not verify exact LP transfer, pressing, takes or mastering."
+        ]
+      }
     },
     "6210807": {
       "status": "unchecked",
@@ -119248,7 +119389,16 @@
       "searched_at": "2026-11-12T17:05:11.402747+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The actual Arrau nocturne cycle has positive piano/artist evidence but source Op.9/1-style titles do not map under current rules. Generic compilations give misleading work-only hits.",
+        "limitations": [
+          "No global role waiver, fuzzy identity merge, source rewrite or automatic diagnostic promotion.",
+          "Source and cached musician/programme evidence do not verify exact LP transfer, pressing, takes or mastering."
+        ]
+      }
     },
     "15926327": {
       "status": "unchecked",
@@ -134085,9 +134235,19 @@
       }
     },
     "1896362": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0090266124626",
+        "name": "Reiner Conducts Tchaikovsky",
+        "artists": [
+          "Fritz Reiner"
+        ],
+        "label": "Living Stereo",
+        "release_date": "1995-09-01",
+        "image": "https://static.qobuz.com/images/covers/26/46/0090266124626_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/reiner-conducts-tchaikovsky-fritz-reiner/0090266124626"
+      },
       "candidates": [
         {
           "id": "0090266124626",
@@ -134099,25 +134259,158 @@
           "release_date": "1995-09-01",
           "image": "https://static.qobuz.com/images/covers/26/46/0090266124626_230.jpg",
           "url": "https://www.qobuz.com/fr-fr/album/reiner-conducts-tchaikovsky-fritz-reiner/0090266124626",
-          "status": "unchecked",
-          "confidence": null,
-          "coverage": 0.0,
-          "covered": 0,
-          "target_count": 1,
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 4,
+          "target_count": 4,
           "required_performers": [
             "Fritz Reiner",
             "Chicago Symphony Orchestra"
           ],
           "programme": [
             {
-              "target": "Symphony No. 6, In B Minor, Op. 74 (\"Pathétique\")",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "target": "A1: First Movement: Adagio; Allegro Non Troppo",
+              "source_path": [
+                0,
+                0
+              ],
+              "track_ids": [
+                192486
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Fritz Reiner",
+                "Chicago Symphony Orchestra"
+              ]
+            },
+            {
+              "target": "A2: Second Movement: Allegro Con Grazia",
+              "source_path": [
+                0,
+                1
+              ],
+              "track_ids": [
+                192487
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Fritz Reiner",
+                "Chicago Symphony Orchestra"
+              ]
+            },
+            {
+              "target": "B1: Third Movement: Allegro Molto Vivace",
+              "source_path": [
+                0,
+                2
+              ],
+              "track_ids": [
+                192488
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Fritz Reiner",
+                "Chicago Symphony Orchestra"
+              ]
+            },
+            {
+              "target": "B2: Fourth Movement: Finale: Adagio Lamentoso",
+              "source_path": [
+                0,
+                3
+              ],
+              "track_ids": [
+                192489
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Fritz Reiner",
+                "Chicago Symphony Orchestra"
+              ]
             }
           ],
           "reasons": [
-            "0/1 target items supported after composer/work grouping; unresolved."
+            "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+            "Complete four-movement Reiner/Chicago RCA Pathetique programme is source-bound to192486-192489 with positive conductor/orchestra/composer roles. HDTT reissue catalogue corroborates the1957RCA family and Mohr/Layton production, with compatible four-movement timings. Existing source-leaf review is used; no automatic work-field promotion.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "No global role waiver, fuzzy identity merge, source rewrite or automatic diagnostic promotion.",
+            "Source and cached musician/programme evidence do not verify exact LP transfer, pressing, takes or mastering."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "A1: First Movement: Adagio; Allegro Non Troppo",
+                "source_path": [
+                  0,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  192486
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 1081,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A2: Second Movement: Allegro Con Grazia",
+                "source_path": [
+                  0,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  192487
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 471,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B1: Third Movement: Allegro Molto Vivace",
+                "source_path": [
+                  0,
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  192488
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 522,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B2: Fourth Movement: Finale: Adagio Lamentoso",
+                "source_path": [
+                  0,
+                  3
+                ],
+                "status": "complete",
+                "track_ids": [
+                  192489
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 644,
+                "source_duration_notes": []
+              }
+            ]
+          },
+          "recording_review": "Complete four-movement Reiner/Chicago RCA Pathetique programme is source-bound to192486-192489 with positive conductor/orchestra/composer roles. HDTT reissue catalogue corroborates the1957RCA family and Mohr/Layton production, with compatible four-movement timings. Existing source-leaf review is used; no automatic work-field promotion.",
+          "review_sources": [
+            "https://www.discogs.com/release/1896362",
+            "https://www.highdeftapetransfers.ca/products/tchaikovsky-symphony-no-6-fritz-reiner-chicago-symphony-orchestra"
           ]
         },
         {
@@ -134186,7 +134479,11 @@
       "query": "fritz reiner tchaikovsky pathetique symphony",
       "searched_at": "2026-11-12T17:26:13.074603+00:00",
       "reasons": [
-        "0/1 target items supported after composer/work grouping; unresolved."
+        "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+        "Complete four-movement Reiner/Chicago RCA Pathetique programme is source-bound to192486-192489 with positive conductor/orchestra/composer roles. HDTT reissue catalogue corroborates the1957RCA family and Mohr/Layton production, with compatible four-movement timings. Existing source-leaf review is used; no automatic work-field promotion.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "No global role waiver, fuzzy identity merge, source rewrite or automatic diagnostic promotion.",
+        "Source and cached musician/programme evidence do not verify exact LP transfer, pressing, takes or mastering."
       ]
     },
     "8199658": {
@@ -140168,15 +140465,35 @@
             }
           ],
           "reasons": [
+            "Source Choir of Mount Angel Abbey and cached Choir Of The Abbey Of Mount Angel are near full-name variants. Similar wording alone is not authority evidence.",
+            "No global role waiver, fuzzy identity merge, source rewrite or automatic diagnostic promotion.",
+            "Source and cached musician/programme evidence do not verify exact LP transfer, pressing, takes or mastering.",
             "0/9 target items supported after composer/work grouping; unresolved."
+          ],
+          "recording_review_decision": "withhold",
+          "recording_review": "Source Choir of Mount Angel Abbey and cached Choir Of The Abbey Of Mount Angel are near full-name variants. Similar wording alone is not authority evidence.",
+          "review_sources": [
+            "https://www.discogs.com/release/1524282"
           ]
         }
       ],
       "query": "choir of mount angel abbey victoria requiem mass",
       "searched_at": "2026-11-12T17:31:28.874543+00:00",
       "reasons": [
+        "Source Choir of Mount Angel Abbey and cached Choir Of The Abbey Of Mount Angel are near full-name variants. Similar wording alone is not authority evidence.",
+        "No global role waiver, fuzzy identity merge, source rewrite or automatic diagnostic promotion.",
+        "Source and cached musician/programme evidence do not verify exact LP transfer, pressing, takes or mastering.",
         "0/9 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Source Choir of Mount Angel Abbey and cached Choir Of The Abbey Of Mount Angel are near full-name variants. Similar wording alone is not authority evidence.",
+        "limitations": [
+          "No global role waiver, fuzzy identity merge, source rewrite or automatic diagnostic promotion.",
+          "Source and cached musician/programme evidence do not verify exact LP transfer, pressing, takes or mastering."
+        ]
+      }
     },
     "7681255": {
       "status": "unchecked",

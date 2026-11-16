@@ -46,7 +46,7 @@ def build(inventory, reviewed):
 def main():
     path = ROOT/'data/qobuz_unmatched_audit.json'
     reviewed = {}
-    for name in ['qobuz_priority14_batch_audit.json', 'qobuz_secondary23_recording_audit.json', 'qobuz_fullsupport16_recording_audit.json', 'qobuz_partial38_recording_audit.json', 'qobuz_zero104_recording_audit.json', 'qobuz_final_cached2_recording_audit.json']:
+    for name in ['qobuz_priority14_batch_audit.json', 'qobuz_secondary23_recording_audit.json', 'qobuz_fullsupport16_recording_audit.json', 'qobuz_partial38_recording_audit.json', 'qobuz_zero104_recording_audit.json', 'qobuz_final_cached2_recording_audit.json', 'qobuz_credit12_recording_audit.json']:
         source = ROOT/'data'/name
         if not source.exists():
             continue

@@ -2223,3 +2223,20 @@ reviews and361without saved decisions; latter179work/title,171credit support,
 6no cached candidate,5partial/completeness. Groups are diagnostic, not absence
 or promotion claims. [Results](../plans/2026-11-16-qobuz-final-cached-leads.md).
 No provider calls or push. Previous UI checkpoint committed separately asa191a2e.
+
+
+### 2026-11-16 — Credit-support sample and frozen171diagnostic
+
+Reviewed12diverse source/cached-recording cases:Reiner1896362Probable via existing
+four-band mapping and corroborated RCA family;11explicit holds with next actions.
+Full candidate manifests/source hashes retained. Only Reiner's match status
+changed;11workflow labels now Reviewed · unresolved; all out-of-scope release
+payloads and Spotify/collection unchanged.12Found/164Probable/215reviewed/
+350Unchecked copies.271script tests, normalization/build and12validator pass.
+Frozen171read-only diagnostic finds11explicit-work context gains,9still
+unreviewed. Compact vocal/ensemble/instrument role spellings recur; Composer/
+Writer, generic Artist and associated roles are not new acceptance policies.
+PaulKuen/PaulKuentz retained as distinct evidence; no fuzzy alias. Sample not
+random, counts not promotion estimates. [Results](../plans/2026-11-16-qobuz-credit171.md).
+No Qobuz calls, source rewrite, global rule change or push. Next cached review:
+2394378then2636984among nine work-context leads; original credit cohort159open.

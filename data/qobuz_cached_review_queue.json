@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "reviewed_on": "2026-11-15",
-  "population": "353 unique releases currently categorized work_or_credit_unresolved",
+  "population": "341 unique releases currently categorized work_or_credit_unresolved",
   "rules": {
     "priority_review": "Unheld cached candidate supports >=50% of current source units; known/reviewed blockers excluded.",
     "secondary_partial_lead": "Some current support, below50%; known/reviewed blockers excluded.",
@@ -11,7 +11,7 @@
   },
   "counts": {
     "known_constraint": 3,
-    "no_current_supported_units": 350
+    "no_current_supported_units": 338
   },
   "entries": [
     {
@@ -53,14 +53,6 @@
       "uncached_hits": 9
     },
     {
-      "discogs_id": "669978",
-      "title": "The Man With The Horn",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0074643679022",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
       "discogs_id": "1010200",
       "title": "Die Brandenburgischen Konzerte",
       "queue": "no_current_supported_units",
@@ -75,30 +67,6 @@
       "best_cached_album_id": "0002894798228",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 8
-    },
-    {
-      "discogs_id": "1035152",
-      "title": "Klavierkonzert A-Moll Op. 54 · Introduction Und Allegro Appassionato Op. 92 · Novellette Op. 21 No. 1 · Toccata Op. 7",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894778122",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 5
-    },
-    {
-      "discogs_id": "1132104",
-      "title": "Streichquartette No. 8 & No. 10",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894631652",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 6
-    },
-    {
-      "discogs_id": "1180104",
-      "title": "Das Rheingold",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894786191",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
     },
     {
       "discogs_id": "1372856",
@@ -117,26 +85,10 @@
       "uncached_hits": 0
     },
     {
-      "discogs_id": "1470008",
-      "title": "The Art Of The Fugue - Die Kunst Der Fuge - L'art De La Fugue: Contrapunctus 1-9",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0074646845523",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
       "discogs_id": "1512597",
       "title": "Das Musikalische Opfer",
       "queue": "no_current_supported_units",
       "best_cached_album_id": "ax12ux4mx3qma",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "1524282",
-      "title": "Requiem Mass",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0886446030548",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 0
     },
@@ -157,22 +109,6 @@
       "uncached_hits": 0
     },
     {
-      "discogs_id": "1723557",
-      "title": "Violin Concerto",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894630782",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "1724303",
-      "title": "Round Midnight - Original Motion Picture Soundtrack",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0886444331401",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
       "discogs_id": "1730282",
       "title": "Magnificat · Brandenburg Concerto No. 5",
       "queue": "no_current_supported_units",
@@ -181,26 +117,10 @@
       "uncached_hits": 1
     },
     {
-      "discogs_id": "1896362",
-      "title": "Pathétique Symphony",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0090266084524",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
       "discogs_id": "2047925",
       "title": "John Coltrane",
       "queue": "no_current_supported_units",
       "best_cached_album_id": "0060251748620",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "2060839",
-      "title": "Carmina Burana",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894741312",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 0
     },
@@ -219,22 +139,6 @@
       "best_cached_album_id": "3614594381079",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 0
-    },
-    {
-      "discogs_id": "2170750",
-      "title": "Complete / Sämtliche / Les 21 Nocturnes",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894000252",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 2
-    },
-    {
-      "discogs_id": "2345819",
-      "title": "Klavierkonzert D-dur = Piano Concerto In D Major  Übertragung Des Violinkonzertes Op. 61 = Arranged From Violin Concerto, Op. 61",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894631272",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 4
     },
     {
       "discogs_id": "2347781",
@@ -2845,5 +2749,5 @@
       "uncached_hits": 0
     }
   ],
-  "inventory_sha256": "e03975d9b19e6fe51b1a581853285181bb414f4e3fa8965ee36d5ac9212cdb13"
+  "inventory_sha256": "7fdc86f85fb6b29d4e5a225155ddb2771c51ccdb2d2961651c00f47ea7e7365e"
 }
