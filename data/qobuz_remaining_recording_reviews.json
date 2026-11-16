@@ -16162,6 +16162,219 @@
         277256529,
         277256530
       ]
+    },
+    {
+      "discogs_id": "9283162",
+      "album_id": "0002894307732",
+      "target_sha256": "0394c69c642569fb5f7ca4fdc8c4059609403f9085f346567a12c37bf381678b",
+      "album_sha256": "ea93fd6c47971c11cc50401b468a5d624b2218429bab6261a4b6ee4231fdabc3",
+      "source_sha256": "2835fcf54fa6ba286da2b5f11bbac37711c9dbb2d66264fcfda06a13fa587443",
+      "decision": "probable",
+      "recording_review": "Complete SXL6090 programme mapped to five positively credited source bands in Decca4307732. CHARM Decca discography V213 links the LP and CD to the same Kertesz/Vienna1963 session. Raw B1 Luftschloss spelling is preserved; reviewed band maps to Des Teufels Lustschloss D84, not a global title correction.",
+      "sources": [
+        "https://www.discogs.com/release/9283162",
+        "https://charm.kcl.ac.uk/pubs/DeccaV.pdf"
+      ],
+      "limitations": [
+        "Recording-family acceptance does not verify the exact pressing, take, transfer or mastering.",
+        "Uncached alternatives remain outside this offline review; a hold is not evidence of catalogue absence."
+      ],
+      "review_kind": "source-leaf-bands",
+      "source_outline_sha256": "67d3f53406046041f088a88994fada7df70281b047bc3b1756033f9e247656c4",
+      "source_leaves": [
+        {
+          "path": [
+            0,
+            0
+          ],
+          "source_work": "Symphony No. 8 In B Minor \"The Unfinished\"",
+          "title": "1. Allegro Moderato",
+          "position": "A1",
+          "duration": ""
+        },
+        {
+          "path": [
+            0,
+            1
+          ],
+          "source_work": "Symphony No. 8 In B Minor \"The Unfinished\"",
+          "title": "2. Andante Con Moto",
+          "position": "A2",
+          "duration": ""
+        },
+        {
+          "path": [
+            1
+          ],
+          "source_work": "Overture \"Des Teufels Luftschloss\"",
+          "title": "Overture \"Des Teufels Luftschloss\"",
+          "position": "B1",
+          "duration": ""
+        },
+        {
+          "path": [
+            2
+          ],
+          "source_work": "Overture In The Italian Style In C",
+          "title": "Overture In The Italian Style In C",
+          "position": "B2",
+          "duration": ""
+        },
+        {
+          "path": [
+            3
+          ],
+          "source_work": "Overture \"Fierrabras\"",
+          "title": "Overture \"Fierrabras\"",
+          "position": "B3",
+          "duration": ""
+        }
+      ],
+      "source_heading_groups": [],
+      "bindings": [
+        {
+          "source_path": [
+            0,
+            0
+          ],
+          "track_ids": [
+            527157
+          ],
+          "track_sha256": [
+            "904c96a4ec7cf23cd3a0a79747945ccb7c707000c9b349168514f6d86b1f97cb"
+          ],
+          "required_performers": [
+            "István Kertész",
+            "Wiener Philharmoniker"
+          ],
+          "composer": "Franz Schubert"
+        },
+        {
+          "source_path": [
+            0,
+            1
+          ],
+          "track_ids": [
+            527161
+          ],
+          "track_sha256": [
+            "4bd50ff063794fb7769dec3ff6d8b6453969b1fcd757a3dec4e2b5fc7fd32dd8"
+          ],
+          "required_performers": [
+            "István Kertész",
+            "Wiener Philharmoniker"
+          ],
+          "composer": "Franz Schubert"
+        },
+        {
+          "source_path": [
+            1
+          ],
+          "track_ids": [
+            527170
+          ],
+          "track_sha256": [
+            "5f4cec09774bee57dd499bd53537e8b4f80ea26a535d6631b8d7c228abde13c6"
+          ],
+          "required_performers": [
+            "István Kertész",
+            "Wiener Philharmoniker"
+          ],
+          "composer": "Franz Schubert"
+        },
+        {
+          "source_path": [
+            2
+          ],
+          "track_ids": [
+            527165
+          ],
+          "track_sha256": [
+            "d20b4aa2d1bf79354903821fc0826c61a4c1bf3298d7d3ed16b47440c22df46e"
+          ],
+          "required_performers": [
+            "István Kertész",
+            "Wiener Philharmoniker"
+          ],
+          "composer": "Franz Schubert"
+        },
+        {
+          "source_path": [
+            3
+          ],
+          "track_ids": [
+            527171
+          ],
+          "track_sha256": [
+            "40109664e65577ae82777de73e054b788aeea3b03dd1876d13d63376ccf43263"
+          ],
+          "required_performers": [
+            "István Kertész",
+            "Wiener Philharmoniker"
+          ],
+          "composer": "Franz Schubert"
+        }
+      ],
+      "selected_track_fingerprints": {
+        "527157": "904c96a4ec7cf23cd3a0a79747945ccb7c707000c9b349168514f6d86b1f97cb",
+        "527161": "4bd50ff063794fb7769dec3ff6d8b6453969b1fcd757a3dec4e2b5fc7fd32dd8",
+        "527170": "5f4cec09774bee57dd499bd53537e8b4f80ea26a535d6631b8d7c228abde13c6",
+        "527165": "d20b4aa2d1bf79354903821fc0826c61a4c1bf3298d7d3ed16b47440c22df46e",
+        "527171": "40109664e65577ae82777de73e054b788aeea3b03dd1876d13d63376ccf43263"
+      },
+      "extra_track_ids": [
+        527139,
+        527143,
+        527147,
+        527151,
+        527155,
+        527159,
+        527163,
+        527167,
+        527140,
+        527144,
+        527148,
+        527152,
+        527156,
+        527160,
+        527164,
+        527168,
+        527141,
+        527145,
+        527149,
+        527153,
+        527142,
+        527146,
+        527150,
+        527154,
+        527158,
+        527162,
+        527166,
+        527169
+      ],
+      "external_source_files": [
+        {
+          "path": "data/review_sources/cached2-9283162/source-observation.txt",
+          "source_url": "https://charm.kcl.ac.uk/pubs/DeccaV.pdf",
+          "sha256": "dc177923714fb90b63d663284831e91a346a6cbf9aa224a35fa97fa0454fb523"
+        }
+      ]
+    },
+    {
+      "discogs_id": "15660391",
+      "album_id": "5099998461653",
+      "target_sha256": "fe4c1e095317fd73a98ac4ddda6048f870fc227bf0f8b3cc061ddca1658fafd3",
+      "album_sha256": "e1cb53535746a6d8a1266f481fe624eb9147e5e728276b64de49e84c68d80ebc",
+      "source_sha256": "87881a3c1d5f8ab9b1ade36454a033b268aac30db74602f938159fe1598dfae9",
+      "decision": "withhold",
+      "recording_review": "The source box contains Mozart concertos20/21/23/24/26/27. Cached0724358663259 has only21/27. The complete-cycle5099998461653 contains all six works but omits English Chamber Orchestra in track performer strings for20/21/23/26/27. The four-concerto5099963179651 lacks24/26 and also lacks orchestra credits. No album-wide or cross-album credit borrowing.",
+      "sources": [
+        "https://www.discogs.com/release/15660391"
+      ],
+      "limitations": [
+        "Recording-family acceptance does not verify the exact pressing, take, transfer or mastering.",
+        "Uncached alternatives remain outside this offline review; a hold is not evidence of catalogue absence."
+      ]
     }
   ]
 }

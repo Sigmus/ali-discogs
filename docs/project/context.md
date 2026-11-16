@@ -11,7 +11,7 @@ and cache commands. This directory owns current planning.
 - Branch main; enrichment pushed through3632140 on16November at user request.
   New104case batch verified locally, not pushed. Pages deployment not verified.
 - Collection741copies/740unique. Saved labels: Spotify254Found/273Probable/
-  210NotFound/4Unchecked; Qobuz12Found/162Probable/567Unchecked copies.
+  210NotFound/4Unchecked; Qobuz12Found/163Probable/566Unchecked copies.
 - Qobuz publication `data/qobuz_matches.json` is separate from Spotify collection
   results. Labels/scores are saved data; Qobuz85/95 are heuristic levels, not
   probabilities. Legacy Spotify labels are not comparable accuracy measurements.
@@ -25,7 +25,7 @@ and cache commands. This directory owns current planning.
   defaults to frequency with individual Alphabetical checkbox. Search after
   Decade; outlined Clear/Pin icons after Search, delayed theme-aware tooltips.
 - Subtle filter band with optional pin; table headers always sticky.
-- Qobuz UI separates203Reviewed · unresolved from364Unchecked copies. Saved
+- Qobuz UI separates204Reviewed · unresolved from362Unchecked copies. Saved
   review progress is independent of match status; detail shows the saved blocker.
   Table sorts all columns; other views offer Year/Composer only.
 
@@ -54,12 +54,9 @@ and cache commands. This directory owns current planning.
 - Future Discogs normalization strips role annotations;9false-performing credits
   and1ordering change found in740detail diagnostic. Genuine singers preserved.
   No collection refresh or bulk result/score changes applied.
-- Casals original COLH17labels confirm BWV1009/1010; saved1008typo correction and
-  liner-author removal apply only to a hash-bound offline diagnostic. Raw source,
-  normalized collection, legacy score and publication remain unchanged.
-- Both Casals LPs now have source-bound diagnostic mappings:24distinct movements,
-  Suites3–6; complete programmes do not establish Nar Classical transfer identity.
-  Candidate lacks session/take markers, so both remain Unchecked.
+- Casals source-bound mappings retain24movements/Suites3–6 and a1008typo
+  diagnostic; both LPs remain unresolved because Nar Classical transfer identity
+  lacks session/take proof. Raw source, collection and legacy scores unchanged.
 
 ## Cached review progress
 
@@ -75,9 +72,9 @@ and cache commands. This directory owns current planning.
   [Results](../plans/2026-11-16-qobuz-zero104.md): Heifetz8923384,
   Mitropoulos6544574 and Schuricht36163426 use existing source-band validation.
   Full alternative inventories, raw roles, evidence hashes and next actions saved.
-- Latest260script tests, normalization and static build pass. Batch had3label changes;
+- Latest265script tests, normalization and static build pass. Batch had3label changes;
   collection/Spotify and all out-of-scope release payloads unchanged.
-- 566unchecked unique:355work/credit,195withheld,5completeness,4rejected,
+- 565unchecked unique:353work/credit,196withheld,5completeness,4rejected,
   6empty,1source hold. Reviewed holds remain searchable evidence, not Not found.
 - Key holds include named ensemble members/chorus masters, associated-only roles,
   Oistrach identity, source-role conflicts, incomplete or unbound recording families.
@@ -88,9 +85,13 @@ and cache commands. This directory owns current planning.
 936album cache integrated;23632tracks validated. All160original leads reviewed:
 20recording families accepted,140explicit holds,0open in that frozen cohort.
 Completed reviews do not imply all recordings are matched. No new provider calls.
-Next inspect cached9283162(Schubert) then15660391(Mozart); these two are outside
-this completed batch. Broader355work/credit inventory is a separate population.
-Revisit each held case only when its saved evidence/rule prerequisite is met.
+Final supported cached leads reviewed:9283162SchubertProbable (complete five-band
+mapping, archival SXL6090/CD linkage);15660391Mozart held (six-concerto box,
+partial reissues and missing track-level orchestra credits). No open supported
+cached leads remain. [Results/groups](../plans/2026-11-16-qobuz-final-cached-leads.md).
+Next examine a bounded sample of171unreviewed credit-support cases for recurring
+causes;179work/title,6no-cached-candidate and5completeness cases remain separate.
+Grouping is diagnostic; no bulk promotion, identity alias or role waiver.
 Broader source-role parser audit is proposed, not adopted. Krips finale is not
 proven missing; joined-band mapping remains unresolved.
 

@@ -600,3 +600,11 @@ Underlying `status`, confidence and candidates remain unchanged for compatibilit
 with audit/inventory tools. The explorer derives the `reviewed_unresolved` filter,
 sort and label only when evidence status is `unchecked`; other unaccepted cases
 remain Unchecked. This means no saved review decision, not no prior search.
+
+
+`python3 scripts/qobuz_blocker_groups.py` groups unresolved releases for planning
+without rescoring or retrieval. It preserves saved finding labels; unreviewed
+work-title/credit groups use existing programme diagnostics and do not establish
+recording identity or catalogue absence. Rebuild unmatched inventory first.
+`uv run --with requests python scripts/qobuz_final_cached2_audit.py` verifies the
+last Schubert/Mozart pair, complete alternative manifests and hold precedence.

@@ -34,8 +34,12 @@ All104zero-current-rule cases reviewed:3Probable/101explicit holds
 ([results](../plans/2026-11-16-qobuz-zero104.md)). The frozen160lead cohort is
 complete:20accepted families,140reviewed holds,0open. Each hold retains specific
 prerequisites for reopening, not an automatic return to the work queue.
-Next recommended cached reviews:9283162then15660391, outside the completed cohort.
-The broader355work/credit inventory remains separate. Zero support needs source/
+Final two supported cached leads reviewed:9283162Probable;15660391held.
+[Results and grouping](../plans/2026-11-16-qobuz-final-cached-leads.md).
+Next inspect a bounded sample of171credit-support cases for reusable causes,
+then179work/title mapping cases;6no-cached-candidate and5completeness cases are
+separate. Saved holds retain prerequisites; no open supported cached lead remains.
+The broader353work/credit inventory remains separate. Zero support needs source/
 lead/rule investigation, not automatic API retrieval. Revisit explicit holds only
 with new evidence or a validated scoped rule; partial source support is triage,
 not confidence. No new retrieval or broad policy change follows from completion.

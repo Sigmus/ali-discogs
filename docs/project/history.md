@@ -2208,3 +2208,18 @@ candidate payloads match the previous publication exactly; Spotify untouched.
 Four new helper tests plus filter/normalization regressions pass; full260script
 tests and static build pass. Browser verified203filtered rows and Rosbaud Don
 Giovanni's saved singer/programme blocker. No provider calls or push.
+
+
+### 2026-11-16 — Final cached leads and shared blocker inventory
+
+Schubert9283162Probable85: complete five-band source mapping, Decca archiveV213
+LP/CD linkage and positive credits; source Luftschloss spelling preserved.
+Mozart15660391withheld: six-concerto box; credited reissue partial, complete-cycle
+tracks omit required orchestra. All12cached alternatives frozen;6uncached hits
+not fetched. Exact publication diff limited to these two releases; Spotify and
+all other release payloads unchanged.265script tests, normalization/build pass.
+No supported cached leads remain open. Grouped565unresolved unique into204saved
+reviews and361without saved decisions; latter179work/title,171credit support,
+6no cached candidate,5partial/completeness. Groups are diagnostic, not absence
+or promotion claims. [Results](../plans/2026-11-16-qobuz-final-cached-leads.md).
+No provider calls or push. Previous UI checkpoint committed separately asa191a2e.

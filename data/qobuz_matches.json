@@ -35,7 +35,7 @@
   "richter_review_fingerprint": "a14865f86e46150593e39bfa285fa6c7c61c8f46147b8094c0cb048fd02118ab",
   "round2_review_fingerprint": "be60742c3d35f5a9aa67f200642f7fcde98a52562a46130e043db8f4aa7c851e",
   "round2_metadata_fingerprint": "9db62d7bf62d4b77f5acf422dfde77959f845f4dc00b2ac0e10c02ccea295860",
-  "remaining_review_fingerprint": "24c20c7643d4b439d3dd1a88a0a68f9ca94c6651032ffa98908304ff3b319a52",
+  "remaining_review_fingerprint": "103903209d20da8ed01bae01951771cd419e432a85b3a2db99938e66f03c39c5",
   "remaining_metadata_fingerprint": "393b2d12e176160ab311b65267b38bdc8c205222e12f792bf07eba5c1fcfafbf",
   "remaining_followup_metadata_fingerprint": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
   "seven_album_metadata_fingerprint": "139f9b336c68b56ea22c18362cb0481c026366c5d359142f2bb702fe1233a4fc",
@@ -43822,14 +43822,218 @@
       ]
     },
     "9283162": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0002894307732",
+        "name": "Schubert: The Symphonies",
+        "artists": [
+          "Wiener Philharmonic Orchestra"
+        ],
+        "label": "Decca Music Group Ltd.",
+        "release_date": "1991-01-01",
+        "image": "https://static.qobuz.com/images/covers/32/77/0002894307732_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/schubert-the-symphonies-wiener-philharmoniker-istvan-kertesz/0002894307732"
+      },
+      "candidates": [
+        {
+          "id": "0002894307732",
+          "name": "Schubert: The Symphonies",
+          "artists": [
+            "Wiener Philharmonic Orchestra"
+          ],
+          "label": "Decca Music Group Ltd.",
+          "release_date": "1991-01-01",
+          "image": "https://static.qobuz.com/images/covers/32/77/0002894307732_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/schubert-the-symphonies-wiener-philharmoniker-istvan-kertesz/0002894307732",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 5,
+          "target_count": 5,
+          "required_performers": [
+            "István Kertész",
+            "Wiener Philharmoniker"
+          ],
+          "programme": [
+            {
+              "target": "A1: 1. Allegro Moderato",
+              "source_path": [
+                0,
+                0
+              ],
+              "track_ids": [
+                527157
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "István Kertész",
+                "Wiener Philharmoniker"
+              ]
+            },
+            {
+              "target": "A2: 2. Andante Con Moto",
+              "source_path": [
+                0,
+                1
+              ],
+              "track_ids": [
+                527161
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "István Kertész",
+                "Wiener Philharmoniker"
+              ]
+            },
+            {
+              "target": "B1: Overture \"Des Teufels Luftschloss\"",
+              "source_path": [
+                1
+              ],
+              "track_ids": [
+                527170
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "István Kertész",
+                "Wiener Philharmoniker"
+              ]
+            },
+            {
+              "target": "B2: Overture In The Italian Style In C",
+              "source_path": [
+                2
+              ],
+              "track_ids": [
+                527165
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "István Kertész",
+                "Wiener Philharmoniker"
+              ]
+            },
+            {
+              "target": "B3: Overture \"Fierrabras\"",
+              "source_path": [
+                3
+              ],
+              "track_ids": [
+                527171
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "István Kertész",
+                "Wiener Philharmoniker"
+              ]
+            }
+          ],
+          "reasons": [
+            "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+            "Complete SXL6090 programme mapped to five positively credited source bands in Decca4307732. CHARM Decca discography V213 links the LP and CD to the same Kertesz/Vienna1963 session. Raw B1 Luftschloss spelling is preserved; reviewed band maps to Des Teufels Lustschloss D84, not a global title correction.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Recording-family acceptance does not verify the exact pressing, take, transfer or mastering.",
+            "Uncached alternatives remain outside this offline review; a hold is not evidence of catalogue absence."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "A1: 1. Allegro Moderato",
+                "source_path": [
+                  0,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  527157
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 930,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A2: 2. Andante Con Moto",
+                "source_path": [
+                  0,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  527161
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 722,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B1: Overture \"Des Teufels Luftschloss\"",
+                "source_path": [
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  527170
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 510,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B2: Overture In The Italian Style In C",
+                "source_path": [
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  527165
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 455,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B3: Overture \"Fierrabras\"",
+                "source_path": [
+                  3
+                ],
+                "status": "complete",
+                "track_ids": [
+                  527171
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 530,
+                "source_duration_notes": []
+              }
+            ]
+          },
+          "recording_review": "Complete SXL6090 programme mapped to five positively credited source bands in Decca4307732. CHARM Decca discography V213 links the LP and CD to the same Kertesz/Vienna1963 session. Raw B1 Luftschloss spelling is preserved; reviewed band maps to Des Teufels Lustschloss D84, not a global title correction.",
+          "review_sources": [
+            "https://www.discogs.com/release/9283162",
+            "https://charm.kcl.ac.uk/pubs/DeccaV.pdf"
+          ]
+        }
+      ],
       "query": "istvan kertesz schubert symphony no 8 in b minor the unfinished overtures des",
       "searched_at": "2026-11-12T15:18:34.283927+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+        "Complete SXL6090 programme mapped to five positively credited source bands in Decca4307732. CHARM Decca discography V213 links the LP and CD to the same Kertesz/Vienna1963 session. Raw B1 Luftschloss spelling is preserved; reviewed band maps to Des Teufels Lustschloss D84, not a global title correction.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Recording-family acceptance does not verify the exact pressing, take, transfer or mastering.",
+        "Uncached alternatives remain outside this offline review; a hold is not evidence of catalogue absence."
       ]
     },
     "15390424": {
@@ -92485,7 +92689,16 @@
       "searched_at": "2026-11-12T16:13:22.726590+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The source box contains Mozart concertos20/21/23/24/26/27. Cached0724358663259 has only21/27. The complete-cycle5099998461653 contains all six works but omits English Chamber Orchestra in track performer strings for20/21/23/26/27. The four-concerto5099963179651 lacks24/26 and also lacks orchestra credits. No album-wide or cross-album credit borrowing.",
+        "limitations": [
+          "Recording-family acceptance does not verify the exact pressing, take, transfer or mastering.",
+          "Uncached alternatives remain outside this offline review; a hold is not evidence of catalogue absence."
+        ]
+      }
     },
     "6993029": {
       "status": "unchecked",

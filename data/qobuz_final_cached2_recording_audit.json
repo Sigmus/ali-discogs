@@ -1,0 +1,1564 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-16",
+  "status": "complete",
+  "frozen_release_ids": [
+    "9283162",
+    "15660391"
+  ],
+  "entries": [
+    {
+      "discogs_id": "9283162",
+      "title": "Symphony No. 8 In B Minor, The Unfinished / Overtures • Des Teufels Lustschloss, In The Italian Style In C, Fierrabras",
+      "outcome": "probable",
+      "finding_kind": "source-spelling-and-bands",
+      "finding": "Complete SXL6090 programme mapped to five positively credited source bands in Decca4307732. CHARM Decca discography V213 links the LP and CD to the same Kertesz/Vienna1963 session. Raw B1 Luftschloss spelling is preserved; reviewed band maps to Des Teufels Lustschloss D84, not a global title correction.",
+      "next_action": "Retain Probable recording family; exact transfer unverified.",
+      "target_sha256": "0394c69c642569fb5f7ca4fdc8c4059609403f9085f346567a12c37bf381678b",
+      "source_sha256": "2835fcf54fa6ba286da2b5f11bbac37711c9dbb2d66264fcfda06a13fa587443",
+      "review_album_id": "0002894307732",
+      "review_album_sha256": "ea93fd6c47971c11cc50401b468a5d624b2218429bab6261a4b6ee4231fdabc3",
+      "source_programme": [
+        {
+          "position": "",
+          "type_": "index",
+          "title": "Symphony No. 8 In B Minor \"The Unfinished\"",
+          "duration": "",
+          "sub_tracks": [
+            {
+              "position": "A1",
+              "type_": "track",
+              "title": "1. Allegro Moderato",
+              "duration": ""
+            },
+            {
+              "position": "A2",
+              "type_": "track",
+              "title": "2. Andante Con Moto",
+              "duration": ""
+            }
+          ]
+        },
+        {
+          "position": "B1",
+          "type_": "track",
+          "title": "Overture \"Des Teufels Luftschloss\"",
+          "duration": ""
+        },
+        {
+          "position": "B2",
+          "type_": "track",
+          "title": "Overture In The Italian Style In C",
+          "duration": ""
+        },
+        {
+          "position": "B3",
+          "type_": "track",
+          "title": "Overture \"Fierrabras\"",
+          "duration": ""
+        }
+      ],
+      "source_credits": [
+        {
+          "name": "Franz Schubert",
+          "anv": "Schubert",
+          "join": "",
+          "role": "Composed By",
+          "tracks": "",
+          "id": 283469,
+          "resource_url": "https://api.discogs.com/artists/283469"
+        },
+        {
+          "name": "István Kertész",
+          "anv": "Istvan Kertesz",
+          "join": "",
+          "role": "Conductor",
+          "tracks": "",
+          "id": 838929,
+          "resource_url": "https://api.discogs.com/artists/838929"
+        },
+        {
+          "name": "Jack Law",
+          "anv": "",
+          "join": "",
+          "role": "Engineer [Uncredited]",
+          "tracks": "",
+          "id": 1223736,
+          "resource_url": "https://api.discogs.com/artists/1223736"
+        },
+        {
+          "name": "L (16)",
+          "anv": "",
+          "join": "",
+          "role": "Mastered By [Side A]",
+          "tracks": "",
+          "id": 3182906,
+          "resource_url": "https://api.discogs.com/artists/3182906"
+        },
+        {
+          "name": "G (22)",
+          "anv": "",
+          "join": "",
+          "role": "Mastered By [Side B]",
+          "tracks": "",
+          "id": 3182845,
+          "resource_url": "https://api.discogs.com/artists/3182845"
+        },
+        {
+          "name": "Wiener Philharmoniker",
+          "anv": "Vienna Philharmonic Orchestra",
+          "join": "",
+          "role": "Orchestra",
+          "tracks": "",
+          "id": 754974,
+          "resource_url": "https://api.discogs.com/artists/754974"
+        },
+        {
+          "name": "Erik Smith",
+          "anv": "",
+          "join": "",
+          "role": "Sleeve Notes, Producer [Uncredited]",
+          "tracks": "",
+          "id": 383803,
+          "resource_url": "https://api.discogs.com/artists/383803"
+        }
+      ],
+      "selected_track_fingerprints": {
+        "527139": "83295c5a723340cd76181404240fac2093b5181f3462c455fc3dd710276caf7d",
+        "527143": "b8de5e76577a12687cdac7940c8aa13d419abe4d0fd8ffdd9c27a4b1f549cd70",
+        "527147": "23d6f6efc051d38cf320ebf093cba1198e6f8c68078089424d9b499d0da0a289",
+        "527151": "55bb49f617305d852f4bcd8440df5fcbb5da57503487bfd5daad66238a423b8f",
+        "527155": "c5fb2d0d1140f34a69e1123acc8be8b54ae1cdb956ff263172c66fb80d952791",
+        "527159": "540fd379b7ba65f242986a9f7f50de9e900e3c1d912c36a40215678514f0c597",
+        "527163": "2cbfa3583512404e9bdd34ff17452c3a186f32235a4d7d7fc8e55ceefb118420",
+        "527167": "5dd673f75bed7440184600c79dff8a5572467696dcd907ea67b47e647587469f",
+        "527170": "5f4cec09774bee57dd499bd53537e8b4f80ea26a535d6631b8d7c228abde13c6",
+        "527140": "87f8b97ee2d6b313ad38d71d60c42d51ede7b64b59ec94bfe9e9f5ac02517de7",
+        "527144": "fa0052dbdcf296927caf31e2082244c7f73bdcaeacd6fc8d3d0ebf1a8e21ac25",
+        "527148": "b176b32e589a34cb86ee5ab41de202fdaf3491a64476e84fad5af6a3c23ba8f3",
+        "527152": "8db976678ba5669bc749b1230bcd8f8a6e5e249580a2aae44228c64f46569a0b",
+        "527156": "700b44ad3d2d4beff67ba5bb272a984e067094769d1f0116b701039418a2bfa8",
+        "527160": "f3777b6a4faf8ae2359ca97f45fc0540f6df63bffad5afa4dab43a0e02e8a069",
+        "527164": "de7735fc3c5a08138f7aa8d8804f813f57f5acb07ae5351ccbf31cc0470a48ea",
+        "527168": "a4c81abb8254b6db3ffc67064fc2a63b73f1ab7a6c032dfe4dcabbb4c234cb8c",
+        "527171": "40109664e65577ae82777de73e054b788aeea3b03dd1876d13d63376ccf43263",
+        "527141": "e63104aed29d8a31cbf4a9bfc4a07a46426f9b001659ba7eb5644fde4afc515c",
+        "527145": "35661d69ac7e0431e7320d511faaae8a71665ded4ab56612e7effe1e4e0aa737",
+        "527149": "dc8103da2b9fdab2d9c469501a405f91c953b10e43c81170000a186a6604c20b",
+        "527153": "7152168d5382496e20c96cd523d70479f7f7837711ccbd802e41b30d6a69a58c",
+        "527157": "904c96a4ec7cf23cd3a0a79747945ccb7c707000c9b349168514f6d86b1f97cb",
+        "527161": "4bd50ff063794fb7769dec3ff6d8b6453969b1fcd757a3dec4e2b5fc7fd32dd8",
+        "527165": "d20b4aa2d1bf79354903821fc0826c61a4c1bf3298d7d3ed16b47440c22df46e",
+        "527142": "ba2da7876a67db93ec65f219a633624d119ff1619a482a31e90d4d18b601e860",
+        "527146": "2a6597597318fcd9bb04d8aab61f7ac81c39b4ffb8fb9bd1126de2100ba109b3",
+        "527150": "a853c952381b900118ecb5928539faed0e3e758e2cd2ca777f80501fa21a8ea7",
+        "527154": "d6a9b6fc1e92c44e5519e7112ca759e29a5de1ffff1cb2e8ace8b0102185d596",
+        "527158": "d925f4e5c654679f7584235864d06e7d2fccb884afad11f9e6868714fa8637bb",
+        "527162": "97554d641059782fc1b7e41d420d704ecf05afdf835a42bd975326ff115113b8",
+        "527166": "c8f3d76cbc675646b24791027817b98908b299ee3b75cd5d529b1363139961da",
+        "527169": "358a983d85a49db3d7e57c5321ec3c1324d7381ffef0709416fc29add4f4ceba"
+      },
+      "cached_alternative_checks": [
+        {
+          "album_id": "0002894307732",
+          "title": "Schubert: The Symphonies",
+          "coverage": 0.75,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Symphony No. 8 In B Minor \"The Unfinished\"",
+              "work_tracks": 2,
+              "credited_tracks": 2,
+              "track_ids": [
+                527157,
+                527161
+              ]
+            },
+            {
+              "target": "Overture \"Des Teufels Luftschloss\"",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Overture In The Italian Style In C",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                527165
+              ]
+            },
+            {
+              "target": "Overture \"Fierrabras\"",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                527171
+              ]
+            }
+          ],
+          "album_sha256": "ea93fd6c47971c11cc50401b468a5d624b2218429bab6261a4b6ee4231fdabc3",
+          "track_manifest_sha256": "3eaaafd71e8e43d400188715a9334b31fa2bf9f20f0963ef3582d8455de2842c",
+          "tracks_count": 33,
+          "track_titles": [
+            "Schubert: Symphony No. 1 in D Major, D. 82: I. Adagio – Allegro vivace",
+            "Schubert: Symphony No. 1 in D Major, D. 82: II. Andante",
+            "Schubert: Symphony No. 1 in D Major, D. 82: III. Menuetto. Allegro",
+            "Schubert: Symphony No. 1 in D Major, D. 82: IV. Allegro vivace",
+            "Schubert: Symphony No. 2 in B-Flat Major, D. 125: I. Largo – Allegro vivace",
+            "Schubert: Symphony No. 2 in B-Flat Major, D. 125: II. Andante",
+            "Schubert: Symphony No. 2 in B-Flat Major, D. 125: III. Menuetto. Allegro vivace",
+            "Schubert: Symphony No. 2 in B-Flat Major, D. 125: IV. Presto",
+            "Schubert: Des Teufels Lustschloss, D. 84: Overture",
+            "Schubert: Symphony No. 4 in C Minor, D. 417 \"Tragic\": I. Adagio molto – Allegro vivace",
+            "Schubert: Symphony No. 4 in C Minor, D. 417 \"Tragic\": II. Andante",
+            "Schubert: Symphony No. 4 in C Minor, D. 417 \"Tragic\": III. Menuetto. Allegro vivace",
+            "Schubert: Symphony No. 4 in C Minor, D. 417 \"Tragic\": IV. Allegro",
+            "Schubert: Symphony No. 5 in B-Flat Major, D. 485: I. Allegro",
+            "Schubert: Symphony No. 5 in B-Flat Major, D. 485: II. Andante con moto",
+            "Schubert: Symphony No. 5 in B-Flat Major, D. 485: III. Menuetto. Allegro molto",
+            "Schubert: Symphony No. 5 in B-Flat Major, D. 485: IV. Allegro vivace",
+            "Schubert: Fierrabras, D. 796: Overture",
+            "Schubert: Symphony No. 6 in C Major, D. 589: I. Adagio – Allegro",
+            "Schubert: Symphony No. 6 in C Major, D. 589: II. Andante",
+            "Schubert: Symphony No. 6 in C Major, D. 589: III. Scherzo. Presto",
+            "Schubert: Symphony No. 6 in C Major, D. 589: IV. Allegro moderato",
+            "Schubert: Symphony No. 8 in B Minor, D. 759 \"Unfinished\": I. Allegro moderato",
+            "Schubert: Symphony No. 8 in B Minor, D. 759 \"Unfinished\": II. Andante con moto",
+            "Schubert: Overture in the Italian Style: No. 2 in C Major, D.591",
+            "Schubert: Symphony No. 3 in D Major, D. 200: I. Adagio maestoso – Allegro con brio",
+            "Schubert: Symphony No. 3 in D Major, D. 200: II. Allegretto",
+            "Schubert: Symphony No. 3 in D Major, D. 200: III. Menuetto. Vivace",
+            "Schubert: Symphony No. 3 in D Major, D. 200: IV. Presto. Vivace",
+            "Schubert: Symphony No. 9 in C Major, D. 944 \"The Great\": I. Andante – Allegro ma non troppo",
+            "Schubert: Symphony No. 9 in C Major, D. 944 \"The Great\": II. Andante con moto",
+            "Schubert: Symphony No. 9 in C Major, D. 944 \"The Great\": III. Scherzo. Allegro vivace",
+            "Schubert: Symphony No. 9 in C Major, D. 944 \"The Great\": IV. Finale. Allegro vivace"
+          ]
+        },
+        {
+          "album_id": "0002894758542",
+          "title": "Ultimate Schubert",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Symphony No. 8 In B Minor \"The Unfinished\"",
+              "work_tracks": 2,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Overture \"Des Teufels Luftschloss\"",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Overture In The Italian Style In C",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Overture \"Fierrabras\"",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ],
+          "album_sha256": "689a498543cc5bea3e89994d2ea8c6333227b1aad5b6e2ae72a91e17191df9cc",
+          "track_manifest_sha256": "8b493dff3e7c4cf2ac772d17521e77f466ecc41e6a4feca291debbe13c01181a",
+          "tracks_count": 47,
+          "track_titles": [
+            "Schubert: Rosamunde, D. 797: Die Zauberharfe, Overture, D. 644",
+            "Schubert: Rosamunde, D. 797: No. 1, Entracte I in B Minor. Allegro molto moderato",
+            "Schubert: Rosamunde, D. 797: No. 3b, Romance. Der Vollmond strahlt",
+            "Schubert: Rosamunde, D. 797: No. 4, Chorus of Spirits. In der Tiefe wohnt das Licht",
+            "Schubert: Rosamunde, D. 797: No. 3a, Entracte II in D Major. Andante",
+            "Schubert: Rosamunde, D. 797: No. 2, Ballet Music 1. Allegro moderato – Andante un poco assai",
+            "Schubert: Rosamunde, D. 797: No. 6, Shepherds' Melodies",
+            "Schubert: Rosamunde, D. 797: No. 7, Shepherds' Chorus. Hier auf den Fluren",
+            "Schubert: Rosamunde, D. 797: No. 5, Entracte III in B-Flat Major. Andantino",
+            "Schubert: Rosamunde, D. 797: No. 8, Hunters' Chorus. Wie lebt sich's so fröhlich im Grünen",
+            "Schubert: Rosamunde, D. 797: No. 9, Ballet Music 2. Andantino",
+            "Schubert: Symphony No. 8 In B Minor, D.759 - \"Unfinished\": 1. Allegro moderato",
+            "Schubert: Symphony No. 8 In B Minor, D.759 - \"Unfinished\": 2. Andante con moto",
+            "Schubert: Symphony No. 5 in B-Flat Major, D. 485: I. Allegro",
+            "Schubert: Symphony No. 5 in B-Flat Major, D. 485: II. Andante con moto",
+            "Schubert: Symphony No. 5 in B-Flat Major, D. 485: III. Menuetto. Allegro molto",
+            "Schubert: Symphony No. 5 in B-Flat Major, D. 485: IV. Allegro vivace",
+            "Schubert: Symphony No. 9 in C Major, D. 944 \"The Great\": I. Andante – Allegro ma non troppo",
+            "Schubert: Symphony No. 9 in C Major, D. 944 \"The Great\": II. Andante con moto",
+            "Schubert: Symphony No. 9 in C Major, D. 944 \"The Great\": III. Scherzo. Allegro vivace",
+            "Schubert: Symphony No. 9 in C Major, D. 944 \"The Great\": IV. Finale. Allegro vivace",
+            "Schubert: String Quartet No. 14 in D Minor, D.810 -\"Death and the Maiden\": 1. Allegro",
+            "Schubert: String Quartet No. 14 in D Minor, D.810 -\"Death and the Maiden\": 2. Andante con moto",
+            "Schubert: String Quartet No. 14 in D Minor, D.810 -\"Death and the Maiden\": 3. Scherzo (Allegro molto)",
+            "Schubert: String Quartet No. 14 in D Minor, D.810 -\"Death and the Maiden\": 4. Presto",
+            "Schubert: Piano Quintet in A, D.667 - \"The Trout\": 1. Allegro vivace",
+            "Schubert: Piano Quintet in A, D.667 - \"The Trout\": 2. Andante",
+            "Schubert: Piano Quintet in A, D.667 - \"The Trout\": 3. Scherzo (Presto)",
+            "Schubert: Piano Quintet in A, D.667 - \"The Trout\": 4. Tema - Andantino - Variazioni I-V - Allegretto",
+            "Schubert: Piano Quintet in A, D.667 - \"The Trout\": 5. Finale (Allegro giusto)",
+            "Schubert: String Quintet in C, D.956: 1. Allegro ma non troppo",
+            "Schubert: String Quintet in C, D.956: 2. Adagio",
+            "Schubert: String Quintet in C, D.956: 3. Scherzo (Presto) - Trio (Andante sostenuto)",
+            "Schubert: String Quintet in C, D.956: 4. Allegretto",
+            "Schubert: String Quartet No. 12 In C Minor, D.703 - \"Quartettsatz\"",
+            "Schubert: Piano Sonata No. 17 in D, D.850: 1. Allegro vivace",
+            "Schubert: Piano Sonata No. 17 in D, D.850: 2. Con moto",
+            "Schubert: Piano Sonata No. 17 in D, D.850: 3. Scherzo (Allegro vivace)",
+            "Schubert: Piano Sonata No. 17 in D, D.850: 4. Rondo (Allegro moderato)",
+            "Schubert: 4 Impromptus, Op. 90, D.899: No. 3 in G flat: Andante",
+            "Schubert: 4 Impromptus, Op. 90, D.899: No. 4 in A flat: Allegretto",
+            "Schubert: 6 Moments musicaux, Op. 94, D. 780: No. 1 in C Major (Moderato)",
+            "Schubert: 6 Moments musicaux, D. 780: No. 2 in A-Flat Major: Andantino",
+            "Schubert: 6 Moments musicaux, Op. 94, D. 780: No. 3 in F Minor: Allegro moderato",
+            "Schubert: 6 Moments musicaux, Op. 94, D. 780: No. 4 in C-Sharp Minor (Moderato)",
+            "Schubert: 6 Moments musicaux, Op. 94, D. 780: No. 5 in F Minor (Allegro vivace)",
+            "Schubert: 6 Moments musicaux, Op. 94, D. 780: No. 6 in A-Flat Minor (Allegretto)"
+          ]
+        },
+        {
+          "album_id": "0002894786633",
+          "title": "Dvořák : Complete Symphonies - Tone Poems- Overtures - Requiem",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Symphony No. 8 In B Minor \"The Unfinished\"",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Overture \"Des Teufels Luftschloss\"",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Overture In The Italian Style In C",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Overture \"Fierrabras\"",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ],
+          "album_sha256": "28fd5d3c9e1c0ca48da8fd65efad1acf8ccdba2edfd431a8d983fe6f9097bace",
+          "track_manifest_sha256": "7f2a292d8463e34def23df00c05f10575862884a8b7fd619893d5e2885bd34bd",
+          "tracks_count": 62,
+          "track_titles": [
+            "Dvořák: Symphony No. 1 in C Minor, Op. 3, B. 9 \"The Bells of Zlonice\": I. Maestoso – Allegro",
+            "Dvořák: Symphony No. 1 in C Minor, Op. 3, B. 9 \"The Bells of Zlonice\": II. Adagio di molto",
+            "Dvořák: Symphony No. 1 in C Minor, Op. 3, B. 9 \"The Bells of Zlonice\": III. Allegretto",
+            "Dvořák: Symphony No. 1 in C Minor, Op. 3, B. 9 \"The Bells of Zlonice\": IV. Finale. Allegro animato",
+            "Dvořák: Symphony No. 2 in B-Flat Major, Op. 4, B. 12: I. Allegro con moto",
+            "Dvořák: Symphony No. 2 in B-Flat Major, Op. 4, B. 12: II. Poco adagio",
+            "Dvořák: Symphony No. 2 in B-Flat Major, Op. 4, B. 12: III. Scherzo. Allegro con brio",
+            "Dvořák: Symphony No. 2 in B-Flat Major, Op. 4, B. 12: IV. Finale. Allegro con fuoco",
+            "Dvořák: Symphony No. 3 in E-Flat Major, Op. 10, B. 34: I. Allegro moderato",
+            "Dvořák: Symphony No. 3 in E-Flat Major, Op. 10, B. 34: II. Adagio molto, tempo di marcia",
+            "Dvořák: Symphony No. 3 in E-Flat Major, Op. 10, B. 34: III. Finale. Allegro vivace",
+            "Dvořák: Symphony No. 4 in D Minor, Op. 13, B. 41: I. Allegro",
+            "Dvořák: Symphony No. 4 in D Minor, Op. 13, B. 41: II. Andante sostenuto e molto cantabile",
+            "Dvořák: Symphony No. 4 in D Minor, Op. 13, B. 41: III. Scherzo. Allegro feroce",
+            "Dvořák: Symphony No. 4 in D Minor, Op. 13, B. 41: IV. Finale. Allegro con brio",
+            "Dvořák: Symphony No. 5 in F Major, Op. 76, B. 54: I. Allegro, ma non troppo",
+            "Dvořák: Symphony No. 5 in F Major, Op. 76, B. 54: II. Andante con moto",
+            "Dvořák: Symphony No. 5 in F Major, Op. 76, B. 54: III. Scherzo. Andante con moto, quasi l'istesso tempo – Allegro scherzando",
+            "Dvořák: Symphony No. 5 in F Major, Op. 76, B. 54: IV. Finale. Allegro molto",
+            "Dvořák: Symphony No. 6 in D Major, Op. 60, B. 112: I. Allegro non tanto",
+            "Dvořák: Symphony No. 6 in D Major, Op. 60, B. 112: II. Adagio",
+            "Dvořák: Symphony No. 6 in D Major, Op. 60, B. 112: III. Scherzo (Furiant). Presto",
+            "Dvořák: Symphony No. 6 in D Major, Op. 60, B. 112: IV. Finale. Allegro con spirito",
+            "Dvořák: In Nature's Realm, Op. 91, B.168",
+            "Dvořák: Symphony No. 7 in D Minor, Op. 70, B. 141: I. Allegro maestoso",
+            "Dvořák: Symphony No. 7 in D Minor, Op. 70, B. 141: II. Poco adagio",
+            "Dvořák: Symphony No. 7 in D Minor, Op. 70, B. 141: III. Scherzo. Vivace",
+            "Dvořák: Symphony No. 7 in D Minor, Op. 70, B. 141: IV. Finale. Allegro",
+            "Dvořák: Symphony No. 8 in G Major, Op. 88, B. 163: I. Allegro con brio",
+            "Dvořák: Symphony No. 8 in G Major, Op. 88, B. 163: II. Adagio",
+            "Dvořák: Symphony No. 8 in G Major, Op. 88, B. 163: III. Allegretto grazioso – Molto vivace",
+            "Dvořák: Symphony No. 8 in G Major, Op. 88, B. 163: IV. Allegro ma non troppo",
+            "Dvořák: Symphony No. 9 in E Minor, Op. 95, B. 178 \"From the New World\": I. Adagio – Allegro molto",
+            "Dvořák: Symphony No. 9 in E Minor, Op. 95, B. 178 \"From the New World\": II. Largo",
+            "Dvořák: Symphony No. 9 in E Minor, Op. 95, B. 178 \"From the New World\": III. Scherzo. Molto vivace",
+            "Dvořák: Symphony No. 9 in E Minor, Op. 95, B. 178 \"From the New World\": IV. Finale. Allegro con fuoco",
+            "Dvořák: Carnival, Op. 92, B.169",
+            "Dvořák: Scherzo capriccioso, Op. 66, B.131",
+            "Dvořák: My Home, Op. 62, B.125a",
+            "Dvořák: Symphonic Variations, Op. 78, B.70",
+            "Dvořák: Hussite Overture, Op. 67, B.132",
+            "Dvořák: The Water Goblin, Op. 107, B.195",
+            "Dvořák: The Golden Spinning Wheel, Op. 109, B.197",
+            "Dvořák: Requiem, Op. 89, B. 165: I. Requiem aeternam",
+            "Dvořák: Requiem, Op. 89, B. 165: II. Graduale",
+            "Dvořák: Requiem, Op. 89, B. 165: III. Dies irae",
+            "Dvořák: Requiem, Op. 89, B. 165: IV. Tuba mirum",
+            "Dvořák: Requiem, Op. 89, B. 165: V. Quid sum miser",
+            "Dvořák: Requiem, Op. 89, B. 165: VI. Recordare, Jesu pie",
+            "Dvořák: Requiem, Op. 89, B. 165: VII. Confutatis maledictis",
+            "Dvořák: Requiem, Op. 89, B. 165: VIII. Lacrimosa",
+            "Dvořák: Requiem, Op. 89, B. 165: IX. Offertorium. Domine, Jesu Christe",
+            "Dvořák: Requiem, Op. 89, B. 165: X. Hostias",
+            "Dvořák: Requiem, Op. 89, B. 165: XI. Sanctus",
+            "Dvořák: Requiem, Op. 89, B. 165: XII. Pie Jesu",
+            "Dvořák: Requiem, Op. 89, B. 165: XIII. Agnus Dei",
+            "Dvořák: Serenade in D Minor, Op. 44, B.77: 1. Moderato, quasi marcia",
+            "Dvořák: Serenade in D Minor, Op. 44, B.77: 2. Minuetto (Tempo di minuetto)",
+            "Dvořák: Serenade in D Minor, Op. 44, B.77: 3. Andante con moto",
+            "Dvořák: Serenade in D Minor, Op. 44, B.77: 4. Finale (Allegro molto)",
+            "Dvořák: Othello, Op. 93, B.174",
+            "Dvořák: The Noonday Witch, Op. 108, B.196"
+          ]
+        },
+        {
+          "album_id": "0889845584568",
+          "title": "Ludwig van Beethoven: Piano Concerto No. 4 In G Major, Op. 58 - Sonata No. 32 In C Minor, Op. 111 - Franz Schubert: Sonata No. 14 In A Minor, Op. 143 (D. 784) -  Sonata No. 19 In C Minor, Op. Posthumous (D. 958)",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Symphony No. 8 In B Minor \"The Unfinished\"",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Overture \"Des Teufels Luftschloss\"",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Overture In The Italian Style In C",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Overture \"Fierrabras\"",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ],
+          "album_sha256": "0575634af3a44d4ff579a5b72471982714225174b8233b1c40fddf142250fae5",
+          "track_manifest_sha256": "a888a358ba01979fbbc1db34574f5bd06b1fc1cc2fdf839a096f4779c5b87cec",
+          "tracks_count": 11,
+          "track_titles": [
+            "Piano Concerto No. 4 In G Major, Op. 58: I. Allegro Moderato",
+            "Piano Concerto No. 4 In G Major, Op. 58: II. Andante Con Moto - III. Rondo: Vivace",
+            "Sonata No. 32 In C Minor, Op. 111: I. Maestoso - Allegro Con Brio E Appassionato",
+            "Sonata No. 32 In C Minor, Op. 111: II. Arietta - Adagio Molto Semplice E Cantabile",
+            "Sonata No. 14 In A Minor, Op. 143 (D. 784): I. Allegro giusto",
+            "Sonata No. 14 In A Minor, Op. 143 (D. 784): II. Andante",
+            "Sonata No. 14 In A Minor, Op. 143 (D. 784): III. Allegro Vivace",
+            "Sonata No. 19 In C Minor, Op. Posthumous (D. 958): I. Allegro",
+            "Sonata No. 19 In C Minor, Op. Posthumous (D. 958): II. Adagio",
+            "Sonata No. 19 In C Minor, Op. Posthumous (D. 958): III. Menuetto",
+            "Sonata No. 19 In C Minor, Op. Posthumous (D. 958): IV. Allegro"
+          ]
+        },
+        {
+          "album_id": "odlalu1lj2zcb",
+          "title": "Beethoven: Piano Concerto No. 3 in C Minor, Op. 37 - Schubert: Symphony No. 8 in B Minor, D. 759 \"Unfinished\"",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Symphony No. 8 In B Minor \"The Unfinished\"",
+              "work_tracks": 2,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Overture \"Des Teufels Luftschloss\"",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Overture In The Italian Style In C",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Overture \"Fierrabras\"",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ],
+          "album_sha256": "6e56c93fc46235e50f0c3e68f33acde751eb512cc2b8aa62fc36958dd99345ff",
+          "track_manifest_sha256": "319dd8574b9a20780b5864d9a2acc82c87a4f7c77b7cf2f669b43c85600944ae",
+          "tracks_count": 5,
+          "track_titles": [
+            "Piano Concerto No. 3 in C Minor, Op. 37: I. Allegro con brio",
+            "Piano Concerto No. 3 in C Minor, Op. 37: II. Largo",
+            "Piano Concerto No. 3 in C Minor, Op. 37: III. Rondo. Allegro - Presto",
+            "Symphony No. 8 in B Minor, D. 759 \"Unfinished\": I. Allegro moderato",
+            "Symphony No. 8 in B Minor, D. 759 \"Unfinished\": II. Andante con moto"
+          ]
+        },
+        {
+          "album_id": "sq0zt8dr984ta",
+          "title": "Wiener Philharmoniker: Schubert Symphonies",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Symphony No. 8 In B Minor \"The Unfinished\"",
+              "work_tracks": 2,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Overture \"Des Teufels Luftschloss\"",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Overture In The Italian Style In C",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Overture \"Fierrabras\"",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ],
+          "album_sha256": "c38f11f37ac5e640e67253e3841b638e4164433a3fbc1351b108beff9a286a6e",
+          "track_manifest_sha256": "f00001773434677d0e4c189789212eed63559f24b363bd0f93f5aa0733448e75",
+          "tracks_count": 29,
+          "track_titles": [
+            "Schubert: Symphony No. 1 in D Major, D. 82: I. Adagio – Allegro vivace",
+            "Schubert: Symphony No. 1 in D Major, D. 82: II. Andante",
+            "Schubert: Symphony No. 1 in D Major, D. 82: III. Menuetto. Allegro",
+            "Schubert: Symphony No. 1 in D Major, D. 82: IV. Allegro vivace",
+            "Schubert: Symphony No. 2 in B flat, D.125: 1. Largo - Allegro vivace",
+            "Schubert: Symphony No. 2 in B flat, D.125: 2. Andante",
+            "Schubert: Symphony No. 2 in B flat, D.125: 3. Menuetto (Allegro vivace)",
+            "Schubert: Symphony No. 2 in B flat, D.125: 4. Presto",
+            "Schubert: Symphony No. 3 in D, D.200: 1. Adagio maestoso - Allegro con brio",
+            "Schubert: Symphony No. 3 in D, D.200: 2. Allegretto",
+            "Schubert: Symphony No. 3 in D, D.200: 3. Menuetto (Vivace)",
+            "Schubert: Symphony No. 3 in D, D.200: 4. Presto. Vivace",
+            "Schubert: Symphony No. 4 in C minor 'Tragic', D.417: 1. Adagio molto - Allegro vivace",
+            "Schubert: Symphony No. 4 in C minor 'Tragic', D.417: 2. Andante",
+            "Schubert: Symphony No. 4 in C minor 'Tragic', D.417: 3. Menuetto: Allegro vivace",
+            "Schubert: Symphony No. 4 in C minor 'Tragic', D.417: 4. Allegro",
+            "Schubert: Symphony No. 5 in B-Flat Major, D. 485: I. Allegro",
+            "Schubert: Symphony No. 5 in B-Flat Major, D. 485: II. Andante con moto",
+            "Schubert: Symphony No. 5 in B-Flat Major, D. 485: III. Menuetto. Allegro molto",
+            "Schubert: Symphony No. 5 in B-Flat Major, D. 485: IV. Allegro vivace",
+            "Schubert: Symphony No. 6 in C Major, D. 589: I. Adagio – Allegro",
+            "Schubert: Symphony No. 6 in C Major, D. 589: II. Andante",
+            "Schubert: Symphony No. 6 in C Major, D. 589: III. Scherzo. Presto",
+            "Schubert: Symphony No. 6 in C Major, D. 589: IV. Allegro moderato",
+            "Schubert: Symphony No. 8 in B Minor, D. 759 \"Unfinished\": I. Allegro moderato",
+            "Schubert: Symphony No. 8 in B Minor, D. 759 \"Unfinished\": II. Andante con moto",
+            "Schubert: Symphony No. 9 in C Major, D. 944 \"The Great\": I. Andante – Allegro ma non troppo",
+            "Schubert: Symphony No. 9 in C Major, D. 944 \"The Great\": II. Andante con moto",
+            "Schubert: Symphony No. 9 in C Major, D. 944 \"The Great\": III. Scherzo. Allegro vivace"
+          ]
+        }
+      ],
+      "uncached_hits_not_fetched": 2,
+      "result": {
+        "discogs_id": "9283162",
+        "album_id": "0002894307732",
+        "decision": "probable",
+        "recording_review": "Complete SXL6090 programme mapped to five positively credited source bands in Decca4307732. CHARM Decca discography V213 links the LP and CD to the same Kertesz/Vienna1963 session. Raw B1 Luftschloss spelling is preserved; reviewed band maps to Des Teufels Lustschloss D84, not a global title correction.",
+        "sources": [
+          "https://www.discogs.com/release/9283162",
+          "https://charm.kcl.ac.uk/pubs/DeccaV.pdf"
+        ],
+        "limitations": [
+          "Recording-family acceptance does not verify the exact pressing, take, transfer or mastering.",
+          "Uncached alternatives remain outside this offline review; a hold is not evidence of catalogue absence."
+        ],
+        "eligible": true,
+        "blockers": [],
+        "completeness": {
+          "status": "complete",
+          "works": [
+            {
+              "target": "A1: 1. Allegro Moderato",
+              "source_path": [
+                0,
+                0
+              ],
+              "status": "complete",
+              "track_ids": [
+                527157
+              ],
+              "scope": "reviewed-complete-source-band",
+              "source_duration_seconds": null,
+              "digital_duration_seconds": 930,
+              "source_duration_notes": []
+            },
+            {
+              "target": "A2: 2. Andante Con Moto",
+              "source_path": [
+                0,
+                1
+              ],
+              "status": "complete",
+              "track_ids": [
+                527161
+              ],
+              "scope": "reviewed-complete-source-band",
+              "source_duration_seconds": null,
+              "digital_duration_seconds": 722,
+              "source_duration_notes": []
+            },
+            {
+              "target": "B1: Overture \"Des Teufels Luftschloss\"",
+              "source_path": [
+                1
+              ],
+              "status": "complete",
+              "track_ids": [
+                527170
+              ],
+              "scope": "reviewed-complete-source-band",
+              "source_duration_seconds": null,
+              "digital_duration_seconds": 510,
+              "source_duration_notes": []
+            },
+            {
+              "target": "B2: Overture In The Italian Style In C",
+              "source_path": [
+                2
+              ],
+              "status": "complete",
+              "track_ids": [
+                527165
+              ],
+              "scope": "reviewed-complete-source-band",
+              "source_duration_seconds": null,
+              "digital_duration_seconds": 455,
+              "source_duration_notes": []
+            },
+            {
+              "target": "B3: Overture \"Fierrabras\"",
+              "source_path": [
+                3
+              ],
+              "status": "complete",
+              "track_ids": [
+                527171
+              ],
+              "scope": "reviewed-complete-source-band",
+              "source_duration_seconds": null,
+              "digital_duration_seconds": 530,
+              "source_duration_notes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "discogs_id": "15660391",
+      "title": "Zijn Mooiste Pianoconcerten",
+      "outcome": "withhold",
+      "finding_kind": "missing-orchestra-credit",
+      "finding": "The source box contains Mozart concertos20/21/23/24/26/27. Cached0724358663259 has only21/27. The complete-cycle5099998461653 contains all six works but omits English Chamber Orchestra in track performer strings for20/21/23/26/27. The four-concerto5099963179651 lacks24/26 and also lacks orchestra credits. No album-wide or cross-album credit borrowing.",
+      "next_action": "Obtain positive per-work English Chamber Orchestra credits for all six concertos and verify recording identity; do not merge unrelated albums.",
+      "target_sha256": "fe4c1e095317fd73a98ac4ddda6048f870fc227bf0f8b3cc061ddca1658fafd3",
+      "source_sha256": "87881a3c1d5f8ab9b1ade36454a033b268aac30db74602f938159fe1598dfae9",
+      "review_album_id": "5099998461653",
+      "review_album_sha256": "e1cb53535746a6d8a1266f481fe624eb9147e5e728276b64de49e84c68d80ebc",
+      "source_programme": [
+        {
+          "position": "A1",
+          "type_": "track",
+          "title": "Pianoconcert Nr 20 In D, Kv 466",
+          "duration": "32:12"
+        },
+        {
+          "position": "B1",
+          "type_": "track",
+          "title": "Pianoconcert Nr 21 In C, Kv 467",
+          "duration": "30:43"
+        },
+        {
+          "position": "C1",
+          "type_": "track",
+          "title": "Pianoconcert Nr 23 In A, Kv 488",
+          "duration": "26:02"
+        },
+        {
+          "position": "D2",
+          "type_": "track",
+          "title": "Pianoconcert Nr 24 In C, Kv 491",
+          "duration": "31:47"
+        },
+        {
+          "position": "E1",
+          "type_": "track",
+          "title": "Pianoconcert Nr 26 In D, Kv 537 'Krönungs-Konzert'",
+          "duration": "32:12"
+        },
+        {
+          "position": "F1",
+          "type_": "track",
+          "title": "Pianoconcert Nr 27 In Bes, Kv 595",
+          "duration": "32:06"
+        }
+      ],
+      "source_credits": [
+        {
+          "name": "Wolfgang Amadeus Mozart",
+          "anv": "",
+          "join": "",
+          "role": "Composed By",
+          "tracks": "",
+          "id": 95546,
+          "resource_url": "https://api.discogs.com/artists/95546"
+        },
+        {
+          "name": "English Chamber Orchestra",
+          "anv": "",
+          "join": "",
+          "role": "Orchestra",
+          "tracks": "",
+          "id": 415725,
+          "resource_url": "https://api.discogs.com/artists/415725"
+        },
+        {
+          "name": "Daniel Barenboim",
+          "anv": "",
+          "join": "",
+          "role": "Piano, Conductor",
+          "tracks": "",
+          "id": 424576,
+          "resource_url": "https://api.discogs.com/artists/424576"
+        }
+      ],
+      "selected_track_fingerprints": {
+        "10508382": "442b694811d3d925672585902cd756625f59d3fbf50a43d0080cb796af9ca6ca",
+        "10508384": "700c3907ab27daf723fe53015c627bc91df5c5edcf372e955a504acd06d8b919",
+        "10508386": "a84f48d4f6b0c3981832efc30c7d8bdb609bff59c6c6a86e3988ec8421fe2d01",
+        "10508387": "0eb2acddf20afb8f8ad5735e341de569fcb8e13b6e3c15fb6139d76855abf563",
+        "10508388": "0b075700d3af12963605db2c4c6e99391d8aa5201a16c33a064ef5b84d5d96bc",
+        "10508389": "dbddd04bcf1edca8090347550dd7acb1511e8932ab896c2d71fd6c4069917ec3",
+        "10508390": "e37f2b98e2199f0e68693f720978245854aac692e35dbded6ee68a1fe35bb927",
+        "10508391": "179d6b48ac4c5b05a9ac4a79d944a5f7248cf0c1d4424ce1bdf97818de89b077",
+        "10508392": "fa3858bebeed356f48fc20e684a722415846611532a409aa8eefe80b7022d88a",
+        "10508393": "0b0ef415d0ed3c0375bc7452b6bafd236b16474f8fab5f87d40b3f930efeeda6",
+        "10508394": "dfee728eac7ae97340b3e642ecf4d02b7ea2f9ac51d2814a7e62a030efd7147f",
+        "10508395": "561b3c0582744ca95d49147ee89e4bddfc1ac49c6008638227e72aa20936898f",
+        "10508396": "cee8d835cafeae39735f3ed43aba1e7c3e33f2fc754f1cee459cd877d7e069ac",
+        "10508397": "732277c9bfde5cbeae4575ba9503ee801dc76d9e33cb595072ec18364686d5c8",
+        "10508398": "e25c6c83ac943b15eabe734031a6b1abaf200396b692e425c605cc13431aff85",
+        "10508399": "519cfa775b8923410e8cff1392230374c2e2abd9bd4b1f2711f382c9c4d0d49a",
+        "10508400": "ca27d65a34385d7eddf9a9b8e86862abe40564a7967db5b7b5407162dec3e941",
+        "10508401": "a0f33024fc6884327d4d9b4ef99a2a87d72423ff3ffe300754f46fd8394750f6",
+        "10508402": "0fe8608ba98034c410e6900fb4b89f05f109960f4748d6151a6a88a1d0435a46",
+        "10508403": "739a8731332ef853e6c120644268c8511234f995728b42150456472722e18e5d",
+        "10508404": "b843bca7e37e27e996d90b920f3394e2200fb4f8bec88a10abf3390c5ebb030f",
+        "10508405": "dd8d5598b6dfaf865540054346ea802081817966d6e632cfe1ebfd75cc5d6a3a",
+        "10508406": "39ec8636f7944a896bb7fe9fa3a672a092bf27f0721e4d9f5deb8453ea0472a4",
+        "10508407": "24c72f886be4c98426c4dad92180fa3a88c08aa2c08004c757dabd2162e013b8",
+        "10508408": "98b5b60223391b0957e75730e0fb17583e2b87e6c8fcbc9f28fd2b7f4bf88844",
+        "10508409": "1e387f373f097e0ef61ea46d34c77402b955d1b17c6a4dd4fa4e1feba627b8f5",
+        "10508410": "0b8563f7248eb5956dc6fb77bf260c94c1a6dde581ed075d20d177153c105653",
+        "10508411": "a585852ec5c033bb48b2824ccfcde2f039361cbef43efe59a1060e91b1609092",
+        "10508412": "de71de2268b4942505d479e2b67fa789ace2fae8db819b8cefa6da1d1d823d29",
+        "10508413": "c94a4cb46ed77ef902e0348b8340b29c77a2b92905fdd93503bb3a93b99ab9d0",
+        "10508414": "bce5b01de464ad2994c6c40a81d4ef0f9e82ab8eb52314512573238be8c393b7",
+        "10508415": "623b216c81fff3a783523b94fd0ec79cd01bf8530eecdf800c366d7ff37d19c6",
+        "10508416": "d3646490d180a5187431e65705a731fd78444ede9dc5a89b0d9ebff4ad844c38",
+        "10508417": "b36059800ee5f0595eb85d7ebadc16f7740058d64c577440d05ab8c5f6f53f4e",
+        "10508418": "fe9ff33d8cf848192e0c8d3d996622f82feb77ea256afc3ed8863519bd128fa5",
+        "10508419": "a755960d6c160722a56bac69e0965182afb55a42f397f5ff60e2ed98f25373da",
+        "10508420": "d3d09dd9105ec1dccf54ff154a6d1a811d0facf65da2820d312c05f757bda945",
+        "10508421": "bcab215e4a3629bf2c53bdbb1b07d0177433a2276c68003b6d202b7190d42035",
+        "10508422": "3590f214f3b7361831cc343ed8c3ea27878e6ebec4bb15eecc233c74626b0864",
+        "10508423": "ff20c3bcbf60e97080c582db9359c3855e2424a22b980a0112dbec01598792ce",
+        "10508424": "ca90c7f0b034429f18d5e7a6d2779ee28d311706ba0ab36eefa1e4c34208c82f",
+        "10508425": "68dbd4ad1fda35ff6392e77f436bd46d9029d010bb28f2189558c123297052da",
+        "10508426": "e43852afe311fad5967f32c43707e35cb22d5d369f09050611e1d6a9b521bfbd",
+        "10508427": "de92efc8a44d83b1f2cbb47290ccc05a2b668c1e76901b9fa7edfc4778899fb2",
+        "10508428": "94205ab1bf484418b64c164cb02fa0a73d184a6c3c422b997f2f6bd196f4a6bd",
+        "10508429": "51fbf6248a06c4732ff6a5bc5bc7286cafc5d1729009413e034a0ec96ff3e369",
+        "10508430": "b35c1ecb18fd1432203497d3eab80f13b786806746817728131ab9d5a7568161",
+        "10508431": "eba7d5be783b5a719a5862a48ea9fc7d068c906b989319fdca6feabf23f92ec7",
+        "10508432": "f322cab08c766b3caa1e685194e50029537af0250a6dc61fa1314016b4a3256a",
+        "10508433": "2344bf8f2642172c16a6fa51fbbcfc808ff414940e07329a0d19ef468aa9abef",
+        "10508434": "19ec603d0dec4260e3a9dfa140ab27397a2addfc39064be000d9952a53d936d1",
+        "10508435": "209c54970773f6df03a804ac401b0c0d2ef4cf3209e1a5b5d68f66437935a7ad",
+        "10508436": "871ae97a754fb0562d402f5ddcfa215b907627b551fb39ad9b95a4689a4851d9",
+        "10508437": "05d12c6d6c3009d2f048c38fe4cd06cecda6c5cb12e6d8d150906d0c818e5ad0",
+        "10508438": "5e1c35d7b2906b6cce8a15cf2ae20bf07d0faed021045d02b0bb20acab77d4db",
+        "10508439": "9b16e76df49ec827808d1c8588e0135e64f4b09dc93bc33d91bbe751a9024d5a",
+        "10508440": "fef232084cdae1c7aa7638b31032bf753dacd3893f3a2ffaba04f709ce1b99f1",
+        "10508441": "aa93cdfc578410895b97e5d0b281599f6a51afb50497470bb1f2468c1d964941",
+        "10508442": "d605018c2167df3d064f6590939c3e15ca062c835d7173daf5c0476eb3d3b273",
+        "10508443": "08222067b1f638c1b83fcb4800974675e95d269115587391f59702bb2f7e6c2f",
+        "10508444": "e1b8838718c488623f63f7937a620dd89f475d7392d380fda9a71ad8167516b9",
+        "10508445": "623f647f573e358855d4b47a1e9517b27dc28f0db253c0fcb394ec5b48544949",
+        "10508446": "cf1230dda3e24c85b5ff40a10ff388c75f4a9751fc82b6e8c6faaeed37c5cb08",
+        "10508447": "8ecc92fc91e95bd6d3f599294d89c24a67af839476e8341360288d4ab1930c52",
+        "10508448": "271566244b4b830e9fe2166d8a3eec99b120264fb26c9507bfdf590ffb8f1454",
+        "10508449": "2ec9b45869cb3a35611e860f85541f20f108fcbc324f069035c34debaaf9dec0",
+        "10508450": "483c991cf4004ec58aa92d66e0f7897f792441cccee7b8331d4c5d1fcfedefbf",
+        "10508451": "920c9a32bb32cdc59fabbc1c2768e84db8f7e1c1bde5cfb2d3b308e7d8bccdb9",
+        "10508452": "691d7c5b1add81193f788381ed0e1a9ce1d4cc686b29a9c6a9e7f333eac2c07e",
+        "10508453": "1bb9ee46de0e39d64a053b2e766513d9f5f4abcfd9641bf775b846162e6be6c4",
+        "10508454": "070040f9b4abce7ad4bd2f41c80be21fd826c9ae17c1b39df36535f96cf03b05",
+        "10508455": "fa40d27418b49dbed4f6f9b686b2b6c229e61e413925bed131f649e6baf2db89",
+        "10508456": "5bcd2028fb172435b2e0e8c2194c095e7a192ae87d5890610b9db706ce192d32",
+        "10508457": "540077eb1853302873846680575e1adc7ccf665b4643c904970663d5367dcc88",
+        "10508458": "98e643d371ca6972ced39fc8ffc5d24fcbd97ffefff307e3adee55d5e7458c05",
+        "10508459": "41fc25fd807556b1659ec017d271803e22c9201ff46530a9e318b5e4700f1377"
+      },
+      "cached_alternative_checks": [
+        {
+          "album_id": "0724358663259",
+          "title": "Mozart: Piano Concerto Nos. 21 & 27",
+          "coverage": 0.3333333333333333,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Pianoconcert Nr 20 In D, Kv 466",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Pianoconcert Nr 21 In C, Kv 467",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                1054065,
+                1054066,
+                1054067
+              ]
+            },
+            {
+              "target": "Pianoconcert Nr 23 In A, Kv 488",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Pianoconcert Nr 24 In C, Kv 491",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Pianoconcert Nr 26 In D, Kv 537 'Krönungs-Konzert'",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Pianoconcert Nr 27 In Bes, Kv 595",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                1054068,
+                1054069,
+                1054070
+              ]
+            }
+          ],
+          "album_sha256": "4d3925f17ed697873a706632ea26431d7c910206faee31cbabba7d988565a49d",
+          "track_manifest_sha256": "a14deed8f0c56c8fa753a49232d48813f60b77fd28a65321c2ac6300e19ab34e",
+          "tracks_count": 6,
+          "track_titles": [
+            "Piano Concerto No. 21 in C Major, K. 467: I. Allegro maestoso",
+            "Piano Concerto No. 21 in C Major, K. 467: II. Andante",
+            "Piano Concerto No. 21 in C Major, K. 467: III. Allegro vivace assai",
+            "Piano Concerto No. 27 in B-Flat Major, Op. 17, K. 595: I. Allegro",
+            "Piano Concerto No. 27 in B-Flat Major, Op. 17, K. 595: II. Larghetto",
+            "Piano Concerto No. 27 in B-Flat Major, Op. 17, K. 595: III. Allegro"
+          ]
+        },
+        {
+          "album_id": "5099998461653",
+          "title": "Mozart: The Complete Piano Concertos",
+          "coverage": 0.16666666666666666,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Pianoconcert Nr 20 In D, Kv 466",
+              "work_tracks": 3,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Pianoconcert Nr 21 In C, Kv 467",
+              "work_tracks": 3,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Pianoconcert Nr 23 In A, Kv 488",
+              "work_tracks": 3,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Pianoconcert Nr 24 In C, Kv 491",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                10508445,
+                10508446,
+                10508447
+              ]
+            },
+            {
+              "target": "Pianoconcert Nr 26 In D, Kv 537 'Krönungs-Konzert'",
+              "work_tracks": 3,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Pianoconcert Nr 27 In Bes, Kv 595",
+              "work_tracks": 3,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ],
+          "album_sha256": "e1cb53535746a6d8a1266f481fe624eb9147e5e728276b64de49e84c68d80ebc",
+          "track_manifest_sha256": "c70467b5f1437f5413c8475b1938a2b925dafbc09455b8a7d5301fba4dae82cb",
+          "tracks_count": 76,
+          "track_titles": [
+            "Piano Concerto No. 1 in F Major, K. 37: I. Allegro",
+            "Piano Concerto No. 1 in F Major, K. 37: II. Andante (Cadenza by Barenboim)",
+            "Piano Concerto No. 1 in F Major, K. 37: III. Allegro (Cadenza by Barenboim)",
+            "Piano Concerto No. 2 in B-Flat Major, K. 39: I. Allegro spiritoso (Cadenza by Barenboim)",
+            "Piano Concerto No. 2 in B-Flat Major, K. 39: II. Andante",
+            "Piano Concerto No. 2 in B-Flat Major, K. 39: III. Molto allegro",
+            "Piano Concerto No. 3 in D Major, K. 40: I. Allegro maestoso",
+            "Piano Concerto No. 3 in D Major, K. 40: II. Andante",
+            "Piano Concerto No. 3 in D Major, K. 40: III. Presto",
+            "Piano Concerto No. 4 in G Major, K. 41: I. Allegro (Cadenza by Barenboim)",
+            "Piano Concerto No. 4 in G Major, K. 41: II. Andante",
+            "Piano Concerto No. 4 in G Major, K. 41: III. Molto allegro (Cadenza by Barenboim)",
+            "Piano Concerto No. 5 in D Major, K. 175: I. Allegro",
+            "Piano Concerto No. 5 in D Major, K. 175: II. Andante ma un poco adagio",
+            "Piano Concerto No. 5 in D Major, K. 175: III. Allegro (Cadenza by Barenboim)",
+            "Piano Concerto No. 6 in B-Flat Major, K. 238: I. Allegro aperto",
+            "Piano Concerto No. 6 in B-Flat Major, K. 238: II. Andante un poco adagio",
+            "Piano Concerto No. 6 in B-Flat Major, K. 238: III. Rondeau. Allegro",
+            "Piano Concerto No. 8 in C Major, K. 246 \"Lützow\": I. Allegro aperto",
+            "Piano Concerto No. 8 in C Major, K. 246 \"Lützow\": II. Andante",
+            "Piano Concerto No. 8 in C Major, K. 246 \"Lützow\": III. Rondeau. Tempo di menuetto",
+            "Piano Concerto No. 9 in E-Flat Major, K. 271 \"Jeunehomme\": I. Allegro",
+            "Piano Concerto No. 9 in E-Flat Major, K. 271 \"Jeunehomme\": II. Andantino",
+            "Piano Concerto No. 9 in E-Flat Major, K. 271 \"Jeunehomme\": III. Rondeau. Presto",
+            "Piano Concerto No. 25 in C Major, K. 503: I. Allegro maestoso (Cadenza by Barenboim)",
+            "Piano Concerto No. 25 in C Major, K. 503: II. Andante",
+            "Piano Concerto No. 25 in C Major, K. 503: III. Allegretto",
+            "Rondo for Piano and Orchestra in D Major, K. 382",
+            "Piano Concerto No. 11 in F Major, K. 413: I. Allegro",
+            "Piano Concerto No. 11 in F Major, K. 413: II. Larghetto",
+            "Piano Concerto No. 11 in F Major, K. 413: III. Tempo di minuetto",
+            "Piano Concerto No. 12 in A Major, K. 414: I. Allegro",
+            "Piano Concerto No. 12 in A Major, K. 414: II. Andante",
+            "Piano Concerto No. 12 in A Major, K. 414: III. Allegretto",
+            "Piano Concerto No. 13 in C Major, K. 415: I. Allegro",
+            "Piano Concerto No. 13 in C Major, K. 415: II. Andante",
+            "Piano Concerto No. 13 in C Major, K. 415: III. Rondeau. Allegro",
+            "Piano Concerto No. 14 in E-Flat Major, K. 449: I. Allegro vivace",
+            "Piano Concerto No. 14 in E-Flat Major, K. 449: II. Andantino",
+            "Piano Concerto No. 14 in E-Flat Major, K. 449: III. Allegro ma non troppo",
+            "Piano Concerto No. 15 in B-Flat Major, K. 450: I. Allegro",
+            "Piano Concerto No. 15 in B-Flat Major, K. 450: II. Andante",
+            "Piano Concerto No. 15 in B-Flat Major, K. 450: III. Allegro",
+            "Piano Concerto No. 16 in D Major, K. 451: I. Allegro assai",
+            "Piano Concerto No. 16 in D Major, K. 451: II. Andante",
+            "Piano Concerto No. 16 in D Major, K. 451: III. Allegro di molto",
+            "Piano Concerto No. 17 in G Major, Op. 9, K. 453: I. Allegro (Cadenza by Mozart, Arr. Barenboim)",
+            "Piano Concerto No. 17 in G Major, Op. 9, K. 453: II. Andante",
+            "Piano Concerto No. 17 in G Major, Op. 9, K. 453: III. Allegretto",
+            "Piano Concerto No. 26 in D Major, K. 537 \"Coronation\": I. Allegro (Cadenza by Landowska)",
+            "Piano Concerto No. 26 in D Major, K. 537 \"Coronation\": II. Larghetto",
+            "Piano Concerto No. 26 in D Major, K. 537 \"Coronation\": III. Allegretto",
+            "Piano Concerto No. 18 in B-Flat Major, K. 456: I. Allegro vivace",
+            "Piano Concerto No. 18 in B-Flat Major, K. 456: II. Andante un poco sostenuto",
+            "Piano Concerto No. 18 in B-Flat Major, K. 456: III. Allegro vivace",
+            "Piano Concerto No. 19 in F Major, K. 459: I. Allegro",
+            "Piano Concerto No. 19 in F Major, K. 459: II. Allegretto",
+            "Piano Concerto No. 19 in F Major, K. 459: III. Allegro assai",
+            "Piano Concerto No. 20 in D Minor, K. 466: I. Allegro (Cadenza by Beethoven arr. Edwin Fischer)",
+            "Piano Concerto No. 20 in D Minor, K. 466: II. Romance",
+            "Piano Concerto No. 20 in D Minor, K. 466: III. Allegro assai (Cadenza by Barenboim)",
+            "Piano Concerto No. 24 in C Minor, K. 491: I. Allegro (Cadenza by Barenboim)",
+            "Piano Concerto No. 24 in C Minor, K. 491: II. Larghetto",
+            "Piano Concerto No. 24 in C Minor, K. 491: III. Allegretto",
+            "Piano Concerto No. 21 in C Major, K. 467: I. Allegro maestoso (Cadenza by Barenboim)",
+            "Piano Concerto No. 21 in C Major, K. 467: II. Andante",
+            "Piano Concerto No. 21 in C Major, K. 467: III. Allegro vivace assai (Cadenza by Barenboim)",
+            "Piano Concerto No. 27 in B-Flat Major, Op. 17, K. 595: I. Allegro",
+            "Piano Concerto No. 27 in B-Flat Major, Op. 17, K. 595: II. Larghetto",
+            "Piano Concerto No. 27 in B-Flat Major, Op. 17, K. 595: III. Allegro",
+            "Piano Concerto No. 22 in E-Flat Major, K. 482: I. Allegro (Cadenza by Barenboim)",
+            "Piano Concerto No. 22 in E-Flat Major, K. 482: II. Andante",
+            "Piano Concerto No. 22 in E-Flat Major, K. 482: III. Allegro (Cadenza by Edwin Fischer)",
+            "Piano Concerto No. 23 in A Major, K. 488: I. Allegro",
+            "Piano Concerto No. 23 in A Major, K. 488: II. Andante",
+            "Piano Concerto No. 23 in A Major, K. 488: III. Allegro assai"
+          ]
+        },
+        {
+          "album_id": "5099963179651",
+          "title": "Mozart : Concertos pour piano n° 20, 21, 23 & 27",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Pianoconcert Nr 20 In D, Kv 466",
+              "work_tracks": 3,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Pianoconcert Nr 21 In C, Kv 467",
+              "work_tracks": 3,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Pianoconcert Nr 23 In A, Kv 488",
+              "work_tracks": 3,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Pianoconcert Nr 24 In C, Kv 491",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Pianoconcert Nr 26 In D, Kv 537 'Krönungs-Konzert'",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Pianoconcert Nr 27 In Bes, Kv 595",
+              "work_tracks": 3,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ],
+          "album_sha256": "ec302e5e4fbfe8f04456f1e88a89657c2961072491942f4ca8441695dfaaa69c",
+          "track_manifest_sha256": "e98dbe2b572f0b786ce5c6f3d467381d8c85da2651d773bde8580d0e8710f1be",
+          "tracks_count": 13,
+          "track_titles": [
+            "Piano Concerto No. 21 in C Major, K. 467: I. Allegro maestoso (Cadenza by Barenboim)",
+            "Piano Concerto No. 21 in C Major, K. 467: II. Andante",
+            "Piano Concerto No. 21 in C Major, K. 467: III. Allegro vivace assai (Cadenza by Barenboim)",
+            "Piano Concerto No. 20 in D Minor, K. 466: I. Allegro (Cadenza by Beethoven arr. Edwin Fischer)",
+            "Piano Concerto No. 20 in D Minor, K. 466: II. Romance",
+            "Piano Concerto No. 20 in D Minor, K. 466: III. Allegro assai (Cadenza by Barenboim)",
+            "Piano Concerto No. 23 in A Major, K. 488: I. Allegro",
+            "Piano Concerto No. 23 in A Major, K. 488: II. Andante",
+            "Piano Concerto No. 23 in A Major, K. 488: III. Allegro assai",
+            "Piano Concerto No. 27 in B-Flat Major, Op. 17, K. 595: I. Allegro",
+            "Piano Concerto No. 27 in B-Flat Major, Op. 17, K. 595: II. Larghetto",
+            "Piano Concerto No. 27 in B-Flat Major, Op. 17, K. 595: III. Allegro",
+            "Rondo for Piano and Orchestra in D Major, K. 382"
+          ]
+        },
+        {
+          "album_id": "5099970445459",
+          "title": "Mozart: Complete Piano Sonatas and Variations",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Pianoconcert Nr 20 In D, Kv 466",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Pianoconcert Nr 21 In C, Kv 467",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Pianoconcert Nr 23 In A, Kv 488",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Pianoconcert Nr 24 In C, Kv 491",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Pianoconcert Nr 26 In D, Kv 537 'Krönungs-Konzert'",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Pianoconcert Nr 27 In Bes, Kv 595",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ],
+          "album_sha256": "d5680c5ec3af6614bad3f37863f62927e16b1aba58274f73148bfea9ad8e4ae7",
+          "track_manifest_sha256": "40f5948d04d4d3987b506047c551f3b7ee80f8179fb966a293095031f1abb610",
+          "tracks_count": 213,
+          "track_titles": [
+            "Piano Sonata No. 1 in C Major, K. 279: I. Allegro",
+            "Piano Sonata No. 1 in C Major, K. 279: II. Andante",
+            "Piano Sonata No. 1 in C Major, K. 279: III. Allegro",
+            "Piano Sonata No. 2 in F Major, K. 280: I. Allegro assai",
+            "Piano Sonata No. 2 in F Major, K. 280: II. Adagio",
+            "Piano Sonata No. 2 in F Major, K. 280: III. Presto",
+            "Piano Sonata No. 3 in B-Flat Major, K. 281: I. Allegro",
+            "Piano Sonata No. 3 in B-Flat Major, K. 281: II. Andante amoroso",
+            "Piano Sonata No. 3 in B-Flat Major, K. 281: III. Rondeau. Allegro",
+            "Piano Sonata No. 4 in E-Flat Major, K. 282: I. Adagio",
+            "Piano Sonata No. 4 in E-Flat Major, K. 282: II. Minuetti I & II",
+            "Piano Sonata No. 4 in E-Flat Major, K. 282: III. Allegro",
+            "Piano Sonata No. 5 in G Major, K. 283: I. Allegro",
+            "Piano Sonata No. 5 in G Major, K. 283: II. Andante",
+            "Piano Sonata No. 5 in G Major, K. 283: III. Presto",
+            "Piano Sonata No. 6 in D Major, K. 284: I. Allegro",
+            "Piano Sonata No. 6 in D Major, K. 284: II. Rondeau en polonaise. Andante",
+            "Piano Sonata No. 6 in D Major, K. 284: III. Tema con variazoni",
+            "Piano Sonata No. 7 in C Major, K. 309: I. Allegro con spirito",
+            "Piano Sonata No. 7 in C Major, K. 309: II. Andante un poco adagio",
+            "Piano Sonata No. 7 in C Major, K. 309: III. Rondeau. Allegretto grazioso",
+            "Piano Sonata No. 8 in A Minor, K. 310: I. Allegro maestoso",
+            "Piano Sonata No. 8 in A Minor, K. 310: II. Andante cantabile con espressione",
+            "Piano Sonata No. 8 in A Minor, K. 310: III. Presto",
+            "Piano Sonata No. 9 in D Major, K. 311: I. Allegro con spirito",
+            "Piano Sonata No. 9 in D Major, K. 311: II. Andante con espressione",
+            "Piano Sonata No. 9 in D Major, K. 311: III. Rondeau. Allegro",
+            "Piano Sonata No. 10 in C Major, Op. 6 No. 1, K. 330: I. Allegro moderato",
+            "Piano Sonata No. 10 in C Major, Op. 6 No. 1, K. 330: II. Andante cantabile",
+            "Piano Sonata No. 10 in C Major, Op. 6 No. 1, K. 330: III. Allegretto",
+            "Piano Sonata No. 11 in A Major, Op. 6 No. 2, K. 331 \"Alla Turca\": I. Tema con variazioni",
+            "Piano Sonata No. 11 in A Major, Op. 6 No. 2, K. 331 \"Alla Turca\": II. Menuetto",
+            "Piano Sonata No. 11 in A Major, Op. 6 No. 2, K. 331 \"Alla Turca\": III. Allegretto. Turkish March",
+            "Piano Sonata No. 12 in F Major, Op. 6 No. 3, K. 332: I. Allegro",
+            "Piano Sonata No. 12 in F Major, Op. 6 No. 3, K. 332: II. Adagio",
+            "Piano Sonata No. 12 in F Major, Op. 6 No. 3, K. 332: III. Allegro assai",
+            "Piano Sonata No. 13 in B-Flat Major, K. 333: I. Allegro",
+            "Piano Sonata No. 13 in B-Flat Major, K. 333: II. Andante cantabile",
+            "Piano Sonata No. 13 in B-Flat Major, K. 333: III. Allegretto grazioso",
+            "Fantasia for Piano in C Minor, K. 475",
+            "Piano Sonata No. 14 in C Minor, K. 457: I. Molto allegro",
+            "Piano Sonata No. 14 in C Minor, K. 457: II. Adagio",
+            "Piano Sonata No. 14 in C Minor, K. 457: III. Allegro assai",
+            "Piano Sonata No. 15 in F Major, K. 533: I. Allegro",
+            "Piano Sonata No. 15 in F Major, K. 533: II. Andante",
+            "Piano Sonata No. 15 in F Major, K. 533: III. Rondo. Allegretto",
+            "Piano Sonata No. 16 in C Major, K. 545 \"Semplice\": I. Allegro",
+            "Piano Sonata No. 16 in C Major, K. 545 \"Semplice\": II. Andante",
+            "Piano Sonata No. 16 in C Major, K. 545 \"Semplice\": III. Rondo. Allegretto",
+            "Piano Sonata No. 17 in B-Flat Major, K. 570: I. Allegro",
+            "Piano Sonata No. 17 in B-Flat Major, K. 570: II. Adagio",
+            "Piano Sonata No. 17 in B-Flat Major, K. 570: III. Allegretto",
+            "Piano Sonata No. 18 in D Major, K. 576: I. Allegro",
+            "Piano Sonata No. 18 in D Major, K. 576: II. Adagio",
+            "Piano Sonata No. 18 in D Major, K. 576: III. Allegretto",
+            "8 Variations on Graaf's \"Laat ons juichen\" in G Major, K. 24: Theme. Allegretto",
+            "8 Variations on Graaf's \"Laat ons juichen\" in G Major, K. 24: Variation I",
+            "8 Variations on Graaf's \"Laat ons juichen\" in G Major, K. 24: Variation II",
+            "8 Variations on Graaf's \"Laat ons juichen\" in G Major, K. 24: Variation III",
+            "8 Variations on Graaf's \"Laat ons juichen\" in G Major, K. 24: Variation IV",
+            "8 Variations on Graaf's \"Laat ons juichen\" in G Major, K. 24: Variation V",
+            "8 Variations on Graaf's \"Laat ons juichen\" in G Major, K. 24: Variation VI",
+            "8 Variations on Graaf's \"Laat ons juichen\" in G Major, K. 24: Variation VII. Adagio",
+            "8 Variations on Graaf's \"Laat ons juichen\" in G Major, K. 24: Variation VIII. Tempo I",
+            "7 Variations on \"Willem van Nassau\" in D Major, K. 25: Theme. Allegro",
+            "7 Variations on \"Willem van Nassau\" in D Major, K. 25: Variation I",
+            "7 Variations on \"Willem van Nassau\" in D Major, K. 25: Variation II",
+            "7 Variations on \"Willem van Nassau\" in D Major, K. 25: Variation III",
+            "7 Variations on \"Willem van Nassau\" in D Major, K. 25: Variation IV",
+            "7 Variations on \"Willem van Nassau\" in D Major, K. 25: Variation V. Adagio",
+            "7 Variations on \"Willem van Nassau\" in D Major, K. 25: Variation VI",
+            "7 Variations on \"Willem van Nassau\" in D Major, K. 25: Variation VII",
+            "6 Variations on Salieri's \"Mio caro adone\" in G Major, K. 180: Theme. Menuetto",
+            "6 Variations on Salieri's \"Mio caro adone\" in G Major, K. 180: Variation I",
+            "6 Variations on Salieri's \"Mio caro adone\" in G Major, K. 180: Variation II",
+            "6 Variations on Salieri's \"Mio caro adone\" in G Major, K. 180: Variation III",
+            "6 Variations on Salieri's \"Mio caro adone\" in G Major, K. 180: Variation IV",
+            "6 Variations on Salieri's \"Mio caro adone\" in G Major, K. 180: Variation V. Adagio",
+            "6 Variations on Salieri's \"Mio caro adone\" in G Major, K. 180: Variation VI. Allegretto",
+            "12 Variations on Fischer's Minuet in C Major, K. 179: Theme. Menuet",
+            "12 Variations on Fischer's Minuet in C Major, K. 179: Variation I",
+            "12 Variations on Fischer's Minuet in C Major, K. 179: Variation II",
+            "12 Variations on Fischer's Minuet in C Major, K. 179: Variation III",
+            "12 Variations on Fischer's Minuet in C Major, K. 179: Variation IV",
+            "12 Variations on Fischer's Minuet in C Major, K. 179: Variation V",
+            "12 Variations on Fischer's Minuet in C Major, K. 179: Variation VI",
+            "12 Variations on Fischer's Minuet in C Major, K. 179: Variation VII",
+            "12 Variations on Fischer's Minuet in C Major, K. 179: Variation VIII",
+            "12 Variations on Fischer's Minuet in C Major, K. 179: Variation IX",
+            "12 Variations on Fischer's Minuet in C Major, K. 179: Variation X",
+            "12 Variations on Fischer's Minuet in C Major, K. 179: Variation XI. Adagio",
+            "12 Variations on Fischer's Minuet in C Major, K. 179: Variation XII. Allegro",
+            "12 Variations on Baudron's \"Je suis Lindor\" in E-Flat Major, K. 354: Theme. Allegretto",
+            "12 Variations on Baudron's \"Je suis Lindor\" in E-Flat Major, K. 354: Variation I",
+            "12 Variations on Baudron's \"Je suis Lindor\" in E-Flat Major, K. 354: Variation II",
+            "12 Variations on Baudron's \"Je suis Lindor\" in E-Flat Major, K. 354: Variation III",
+            "12 Variations on Baudron's \"Je suis Lindor\" in E-Flat Major, K. 354: Variation IV",
+            "12 Variations on Baudron's \"Je suis Lindor\" in E-Flat Major, K. 354: Variation V",
+            "12 Variations on Baudron's \"Je suis Lindor\" in E-Flat Major, K. 354: Variation VI",
+            "12 Variations on Baudron's \"Je suis Lindor\" in E-Flat Major, K. 354: Variation VII",
+            "12 Variations on Baudron's \"Je suis Lindor\" in E-Flat Major, K. 354: Variation VIII. Tempo di menuetto",
+            "12 Variations on Baudron's \"Je suis Lindor\" in E-Flat Major, K. 354: Variation IX",
+            "12 Variations on Baudron's \"Je suis Lindor\" in E-Flat Major, K. 354: Variation X. Allegretto",
+            "12 Variations on Baudron's \"Je suis Lindor\" in E-Flat Major, K. 354: Variation XI",
+            "12 Variations on Baudron's \"Je suis Lindor\" in E-Flat Major, K. 354: Variation XII. (a) Molto adagio",
+            "12 Variations on Baudron's \"Je suis Lindor\" in E-Flat Major, K. 354: Variation XII. (b) Allegretto",
+            "12 Variations on \"Ah, vous dirai-je maman\" in C Major, K. 265: Theme",
+            "12 Variations on \"Ah, vous dirai-je maman\" in C Major, K. 265: Variation I",
+            "12 Variations on \"Ah, vous dirai-je maman\" in C Major, K. 265: Variation II",
+            "12 Variations on \"Ah, vous dirai-je maman\" in C Major, K. 265: Variation III",
+            "12 Variations on \"Ah, vous dirai-je maman\" in C Major, K. 265: Variation IV",
+            "12 Variations on \"Ah, vous dirai-je maman\" in C Major, K. 265: Variation V",
+            "12 Variations on \"Ah, vous dirai-je maman\" in C Major, K. 265: Variation VI",
+            "12 Variations on \"Ah, vous dirai-je maman\" in C Major, K. 265: Variation VII",
+            "12 Variations on \"Ah, vous dirai-je maman\" in C Major, K. 265: Variation VIII",
+            "12 Variations on \"Ah, vous dirai-je maman\" in C Major, K. 265: Variation IX",
+            "12 Variations on \"Ah, vous dirai-je maman\" in C Major, K. 265: Variation X",
+            "12 Variations on \"Ah, vous dirai-je maman\" in C Major, K. 265: Variation XI",
+            "12 Variations on \"Ah, vous dirai-je maman\" in C Major, K. 265: Variation XII",
+            "12 Variations on \"La belle Françoise\" in E-Flat Major, K. 353: Theme",
+            "12 Variations on \"La belle Françoise\" in E-Flat Major, K. 353: Variation I",
+            "12 Variations on \"La belle Françoise\" in E-Flat Major, K. 353: Variation II",
+            "12 Variations on \"La belle Françoise\" in E-Flat Major, K. 353: Variation III",
+            "12 Variations on \"La belle Françoise\" in E-Flat Major, K. 353: Variation IV",
+            "12 Variations on \"La belle Françoise\" in E-Flat Major, K. 353: Variation V",
+            "12 Variations on \"La belle Françoise\" in E-Flat Major, K. 353: Variation VI",
+            "12 Variations on \"La belle Françoise\" in E-Flat Major, K. 353: Variation VII",
+            "12 Variations on \"La belle Françoise\" in E-Flat Major, K. 353: Variation VIII",
+            "12 Variations on \"La belle Françoise\" in E-Flat Major, K. 353: Variation IX",
+            "12 Variations on \"La belle Françoise\" in E-Flat Major, K. 353: Variation X",
+            "12 Variations on \"La belle Françoise\" in E-Flat Major, K. 353: Variation XI. Adagio",
+            "12 Variations on \"La belle Françoise\" in E-Flat Major, K. 353: Variation XII. Presto",
+            "9 Variations on Dezède's \"Lison dormait\" in C Major, K. 264: Theme. Andante",
+            "9 Variations on Dezède's \"Lison dormait\" in C Major, K. 264: Variation I",
+            "9 Variations on Dezède's \"Lison dormait\" in C Major, K. 264: Variation II",
+            "9 Variations on Dezède's \"Lison dormait\" in C Major, K. 264: Variation III",
+            "9 Variations on Dezède's \"Lison dormait\" in C Major, K. 264: Variation IV",
+            "9 Variations on Dezède's \"Lison dormait\" in C Major, K. 264: Variation V",
+            "9 Variations on Dezède's \"Lison dormait\" in C Major, K. 264: Variation VI",
+            "9 Variations on Dezède's \"Lison dormait\" in C Major, K. 264: Variation VII",
+            "9 Variations on Dezède's \"Lison dormait\" in C Major, K. 264: Variation VIII. Adagio",
+            "9 Variations on Dezède's \"Lison dormait\" in C Major, K. 264: Variation IX. Allegro",
+            "9 Variations on Dezède's \"Lison dormait\" in C Major, K. 264: Tempo di tema",
+            "8 Variations on Grétry's \"Dieu d'amour\" in F Major, K. 352: Theme",
+            "8 Variations on Grétry's \"Dieu d'amour\" in F Major, K. 352: Variation I",
+            "8 Variations on Grétry's \"Dieu d'amour\" in F Major, K. 352: Variation II",
+            "8 Variations on Grétry's \"Dieu d'amour\" in F Major, K. 352: Variation III",
+            "8 Variations on Grétry's \"Dieu d'amour\" in F Major, K. 352: Variation IV",
+            "8 Variations on Grétry's \"Dieu d'amour\" in F Major, K. 352: Variation V",
+            "8 Variations on Grétry's \"Dieu d'amour\" in F Major, K. 352: Variation VI",
+            "8 Variations on Grétry's \"Dieu d'amour\" in F Major, K. 352: Variation VII. Adagio",
+            "8 Variations on Grétry's \"Dieu d'amour\" in F Major, K. 352: Variation VIII. Allegro",
+            "6 Variations on Paisiello's \"Salve tu, Domine\" in F Major, K. 398: Theme",
+            "6 Variations on Paisiello's \"Salve tu, Domine\" in F Major, K. 398: Variation I",
+            "6 Variations on Paisiello's \"Salve tu, Domine\" in F Major, K. 398: Variation II",
+            "6 Variations on Paisiello's \"Salve tu, Domine\" in F Major, K. 398: Variation III",
+            "6 Variations on Paisiello's \"Salve tu, Domine\" in F Major, K. 398: Variation IV",
+            "6 Variations on Paisiello's \"Salve tu, Domine\" in F Major, K. 398: Variation V",
+            "6 Variations on Paisiello's \"Salve tu, Domine\" in F Major, K. 398: Variation VI",
+            "10 Variations on Gluck's \"Unser dummer Pöbel meint\" in G Major, K. 455: Theme. Allegretto",
+            "10 Variations on Gluck's \"Unser dummer Pöbel meint\" in G Major, K. 455: Variation I",
+            "10 Variations on Gluck's \"Unser dummer Pöbel meint\" in G Major, K. 455: Variation II",
+            "10 Variations on Gluck's \"Unser dummer Pöbel meint\" in G Major, K. 455: Variation III",
+            "10 Variations on Gluck's \"Unser dummer Pöbel meint\" in G Major, K. 455: Variation IV",
+            "10 Variations on Gluck's \"Unser dummer Pöbel meint\" in G Major, K. 455: Variation V",
+            "10 Variations on Gluck's \"Unser dummer Pöbel meint\" in G Major, K. 455: Variation VI",
+            "10 Variations on Gluck's \"Unser dummer Pöbel meint\" in G Major, K. 455: Variation VII",
+            "10 Variations on Gluck's \"Unser dummer Pöbel meint\" in G Major, K. 455: Variation VIII",
+            "10 Variations on Gluck's \"Unser dummer Pöbel meint\" in G Major, K. 455: Variation IX. Adagio",
+            "10 Variations on Gluck's \"Unser dummer Pöbel meint\" in G Major, K. 455: Variation X. (a) Allegro",
+            "10 Variations on Gluck's \"Unser dummer Pöbel meint\" in G Major, K. 455: Variation X. (b) Tempo I",
+            "12 Variations on an Allegretto in B-Flat Major, K. 500: Theme. Allegretto",
+            "12 Variations on an Allegretto in B-Flat Major, K. 500: Variation I",
+            "12 Variations on an Allegretto in B-Flat Major, K. 500: Variation II",
+            "12 Variations on an Allegretto in B-Flat Major, K. 500: Variation III",
+            "12 Variations on an Allegretto in B-Flat Major, K. 500: Variation IV",
+            "12 Variations on an Allegretto in B-Flat Major, K. 500: Variation V",
+            "12 Variations on an Allegretto in B-Flat Major, K. 500: Variation VI",
+            "12 Variations on an Allegretto in B-Flat Major, K. 500: Variation VII",
+            "12 Variations on an Allegretto in B-Flat Major, K. 500: Variation VIII",
+            "12 Variations on an Allegretto in B-Flat Major, K. 500: Variation IX",
+            "12 Variations on an Allegretto in B-Flat Major, K. 500: Variation X",
+            "12 Variations on an Allegretto in B-Flat Major, K. 500: Variation XI. Adagio",
+            "12 Variations on an Allegretto in B-Flat Major, K. 500: Variation XII. (a) Allegro",
+            "12 Variations on an Allegretto in B-Flat Major, K. 500: Variation XII. (b) Tempo I",
+            "6 Variations in F Major, K. 54: Theme. Allegretto",
+            "6 Variations in F Major, K. 54: Variation I",
+            "6 Variations in F Major, K. 54: Variation II",
+            "6 Variations in F Major, K. 54: Variation III",
+            "6 Variations in F Major, K. 54: Variation IV",
+            "6 Variations in F Major, K. 54: Variation V",
+            "6 Variations in F Major, K. 54: Variations VI",
+            "9 Variations on Duport's Minuet in D Major, K. 573: Theme",
+            "9 Variations on Duport's Minuet in D Major, K. 573: Variation I",
+            "9 Variations on Duport's Minuet in D Major, K. 573: Variation II",
+            "9 Variations on Duport's Minuet in D Major, K. 573: Variation III",
+            "9 Variations on Duport's Minuet in D Major, K. 573: Variation IV",
+            "9 Variations on Duport's Minuet in D Major, K. 573: Variation V",
+            "9 Variations on Duport's Minuet in D Major, K. 573: Variation VI",
+            "9 Variations on Duport's Minuet in D Major, K. 573: Variation VII",
+            "9 Variations on Duport's Minuet in D Major, K. 573: Variation VIII. Adagio",
+            "9 Variations on Duport's Minuet in D Major, K. 573: Variation IX. (a) Allegro",
+            "9 Variations on Duport's Minuet in D Major, K. 573: Variation IX. (b) Tempo I",
+            "8 Variations on Schack's \"Ein Weib ist das herrlichste Ding\" in F Major, K. 613: Theme",
+            "8 Variations on Schack's \"Ein Weib ist das herrlichste Ding\" in F Major, K. 613: Variation I",
+            "8 Variations on Schack's \"Ein Weib ist das herrlichste Ding\" in F Major, K. 613: Variation II",
+            "8 Variations on Schack's \"Ein Weib ist das herrlichste Ding\" in F Major, K. 613: Variation III",
+            "8 Variations on Schack's \"Ein Weib ist das herrlichste Ding\" in F Major, K. 613: Variation IV",
+            "8 Variations on Schack's \"Ein Weib ist das herrlichste Ding\" in F Major, K. 613: Variation V",
+            "8 Variations on Schack's \"Ein Weib ist das herrlichste Ding\" in F Major, K. 613: Variation VI",
+            "8 Variations on Schack's \"Ein Weib ist das herrlichste Ding\" in F Major, K. 613: Variation VII. Adagio",
+            "8 Variations on Schack's \"Ein Weib ist das herrlichste Ding\" in F Major, K. 613: Variation VIII. (a) Allegro",
+            "8 Variations on Schack's \"Ein Weib ist das herrlichste Ding\" in F Major, K. 613: Variation VIII. (b) Tempo I"
+          ]
+        },
+        {
+          "album_id": "iwohrczwknsfb",
+          "title": "Mozart: Symphony No. 41 \"Jupiter\", Eine kleine Nachtmusik & Requiem",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Pianoconcert Nr 20 In D, Kv 466",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Pianoconcert Nr 21 In C, Kv 467",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Pianoconcert Nr 23 In A, Kv 488",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Pianoconcert Nr 24 In C, Kv 491",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Pianoconcert Nr 26 In D, Kv 537 'Krönungs-Konzert'",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Pianoconcert Nr 27 In Bes, Kv 595",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ],
+          "album_sha256": "4f69dcdb42a02f5fd6a410536fc37111d279d6a0616eaac396951fa4ad808fb3",
+          "track_manifest_sha256": "7102e3658dae5ba7393883bd9f1382e96023df82fcd2915f53c8a740d31e41a6",
+          "tracks_count": 22,
+          "track_titles": [
+            "Symphony No. 41 in C Major, K. 551 \"Jupiter\": I. Allegro vivace",
+            "Symphony No. 41 in C Major, K. 551 \"Jupiter\": II. Andante cantabile",
+            "Symphony No. 41 in C Major, K. 551 \"Jupiter\": III. Menuetto. Allegretto",
+            "Symphony No. 41 in C Major, K. 551 \"Jupiter\": IV. Molto allegro",
+            "Eine kleine Nachtmusik, K. 525: I. Allegro",
+            "Eine kleine Nachtmusik, K. 525: II. Romance. Andante",
+            "Eine kleine Nachtmusik, K. 525: III. Menuetto. Allegretto",
+            "Eine kleine Nachtmusik, K. 525: IV. Rondo. Allegro",
+            "Requiem in D Minor, K. 626: I. Introitus",
+            "Requiem in D Minor, K. 626: II. Kyrie",
+            "Requiem in D Minor, K. 626: III. Dies irae",
+            "Requiem in D Minor, K. 626: IV. Tuba mirum",
+            "Requiem in D Minor, K. 626: V. Rex tremendae",
+            "Requiem in D Minor, K. 626: VI. Recordare",
+            "Requiem in D Minor, K. 626: VII. Confutatis",
+            "Requiem in D Minor, K. 626: VIII. Lacrimosa",
+            "Requiem in D Minor, K. 626: IX. Domine Jesu Christe",
+            "Requiem in D Minor, K. 626: X. Hostias",
+            "Requiem in D Minor, K. 626: XI. Sanctus",
+            "Requiem in D Minor, K. 626: XII. Benedictus",
+            "Requiem in D Minor, K. 626: XIII. Agnus Dei",
+            "Requiem in D Minor, K. 626: XIV. Communio"
+          ]
+        },
+        {
+          "album_id": "ku1fnryzfy9na",
+          "title": "Complete Mozart Trios",
+          "coverage": 0.0,
+          "status": "unchecked",
+          "completeness": "unknown",
+          "reviewed_rejected": false,
+          "reviewed_withheld": false,
+          "programme": [
+            {
+              "target": "Pianoconcert Nr 20 In D, Kv 466",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Pianoconcert Nr 21 In C, Kv 467",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Pianoconcert Nr 23 In A, Kv 488",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Pianoconcert Nr 24 In C, Kv 491",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Pianoconcert Nr 26 In D, Kv 537 'Krönungs-Konzert'",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            },
+            {
+              "target": "Pianoconcert Nr 27 In Bes, Kv 595",
+              "work_tracks": 0,
+              "credited_tracks": 0,
+              "track_ids": []
+            }
+          ],
+          "album_sha256": "d985afa06cc7402121b84a605ff09c70e2d1b27c47e3da236dd6f88ffbd1f76b",
+          "track_manifest_sha256": "b2b057b8face5d2ca3a96e7549a91662c142d3e1ffe3c8a1043f9dbdede90078",
+          "tracks_count": 18,
+          "track_titles": [
+            "Mozart: Divertimento in B-Flat Major, K. 254 - I. Allegro assai",
+            "Mozart: Divertimento in B-Flat Major, K. 254 - II. Adagio",
+            "Mozart: Divertimento in B-Flat Major, K. 254 - III. Rondeau. Tempo di menuetto",
+            "Mozart: Piano Trio in G Major, K. 496 - I. Allegro",
+            "Mozart: Piano Trio in G Major, K. 496 - II. Andante",
+            "Mozart: Piano Trio in G Major, K. 496 - III. Allegretto",
+            "Mozart: Piano Trio in B-Flat Major, K. 502 - I. Allegro",
+            "Mozart: Piano Trio in B-Flat Major, K. 502 - II. Larghetto",
+            "Mozart: Piano Trio in B-Flat Major, K. 502 - III. Allegretto",
+            "Mozart: Piano Trio in E Major, K. 542 - I. Allegro",
+            "Mozart: Piano Trio in E Major, K. 542 - II. Andante grazioso",
+            "Mozart: Piano Trio in E Major, K. 542 - III. Allegro",
+            "Mozart: Piano Trio in C Major, K. 548 - I. Allegro",
+            "Mozart: Piano Trio in C Major, K. 548 - II. Andante cantabile",
+            "Mozart: Piano Trio in C Major, K. 548 - III. Allegro",
+            "Mozart: Piano Trio in G Major, K. 564 - I. Allegro",
+            "Mozart: Piano Trio in G Major, K. 564 - II. Andante",
+            "Mozart: Piano Trio in G Major, K. 564 - III. Allegretto"
+          ]
+        }
+      ],
+      "uncached_hits_not_fetched": 4,
+      "result": {
+        "discogs_id": "15660391",
+        "album_id": "5099998461653",
+        "decision": "withhold",
+        "recording_review": "The source box contains Mozart concertos20/21/23/24/26/27. Cached0724358663259 has only21/27. The complete-cycle5099998461653 contains all six works but omits English Chamber Orchestra in track performer strings for20/21/23/26/27. The four-concerto5099963179651 lacks24/26 and also lacks orchestra credits. No album-wide or cross-album credit borrowing.",
+        "sources": [
+          "https://www.discogs.com/release/15660391"
+        ],
+        "limitations": [
+          "Recording-family acceptance does not verify the exact pressing, take, transfer or mastering.",
+          "Uncached alternatives remain outside this offline review; a hold is not evidence of catalogue absence."
+        ],
+        "eligible": false,
+        "completeness": {
+          "status": "unknown",
+          "works": []
+        }
+      }
+    }
+  ],
+  "summary": {
+    "reviewed": 2,
+    "probable": 1,
+    "withhold": 1
+  },
+  "accepted_release_ids": [
+    "9283162"
+  ],
+  "qobuz_requests": 0,
+  "publication_validation": {
+    "changed_release_ids": [
+      "9283162",
+      "15660391"
+    ],
+    "promoted_release_ids": [
+      "9283162"
+    ],
+    "out_of_scope_payloads_unchanged": true,
+    "collection_and_spotify_unchanged": true,
+    "provider_calls": 0
+  }
+}

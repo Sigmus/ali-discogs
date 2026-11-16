@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "reviewed_on": "2026-11-15",
-  "population": "355 unique releases currently categorized work_or_credit_unresolved",
+  "population": "353 unique releases currently categorized work_or_credit_unresolved",
   "rules": {
     "priority_review": "Unheld cached candidate supports >=50% of current source units; known/reviewed blockers excluded.",
     "secondary_partial_lead": "Some current support, below50%; known/reviewed blockers excluded.",
@@ -11,8 +11,6 @@
   },
   "counts": {
     "known_constraint": 3,
-    "priority_review": 1,
-    "secondary_partial_lead": 1,
     "no_current_supported_units": 350
   },
   "entries": [
@@ -37,14 +35,6 @@
       "evidence": "data/qobuz_source_composer_reviews.json"
     },
     {
-      "discogs_id": "9283162",
-      "title": "Symphony No. 8 In B Minor, The Unfinished / Overtures • Des Teufels Lustschloss, In The Italian Style In C, Fierrabras",
-      "queue": "priority_review",
-      "best_cached_album_id": "0002894307732",
-      "supported_source_unit_fraction": 0.75,
-      "uncached_hits": 2
-    },
-    {
       "discogs_id": "7609610",
       "title": "Bitches Brew",
       "queue": "known_constraint",
@@ -53,14 +43,6 @@
       "uncached_hits": 0,
       "constraint": "Credit exception remains an unadopted proposal",
       "evidence": "docs/plans/2026-11-13-bitches-brew-credits.md"
-    },
-    {
-      "discogs_id": "15660391",
-      "title": "Zijn Mooiste Pianoconcerten",
-      "queue": "secondary_partial_lead",
-      "best_cached_album_id": "0724358663259",
-      "supported_source_unit_fraction": 0.3333333333333333,
-      "uncached_hits": 4
     },
     {
       "discogs_id": "594243",
@@ -2863,5 +2845,5 @@
       "uncached_hits": 0
     }
   ],
-  "inventory_sha256": "9728bc1c554309116edc39fdfba3d0c7c6cd412a53ec831f9fe6d2f56b84791f"
+  "inventory_sha256": "e03975d9b19e6fe51b1a581853285181bb414f4e3fa8965ee36d5ac9212cdb13"
 }
