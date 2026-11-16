@@ -49,14 +49,9 @@ and cache commands. This directory owns current planning.
   Preserve source discrepancies, unknown transfer provenance and missing credits.
 - Gilels15221307source-bound composer guard prevents Medtner/Beethoven Op22collision.
   Rubinstein7971104source label has14works versus saved13; publication hold remains.
-- Exact full-name Felix Mendelssohn identity requires positive Composer-role credit;
-  no surname/performer alias or legacy-score change. [Identity plan](../plans/2026-11-15-qobuz-composer-identity.md).
-- Future Discogs normalization strips role annotations;9false-performing credits
-  and1ordering change found in740detail diagnostic. Genuine singers preserved.
-  No collection refresh or bulk result/score changes applied.
-- Casals source-bound mappings retain24movements/Suites3–6 and a1008typo
-  diagnostic; both LPs remain unresolved because Nar Classical transfer identity
-  lacks session/take proof. Raw source, collection and legacy scores unchanged.
+- Reviewed Mendelssohn composer identity is exact and source-bound; no general
+  performer alias. Source-role normalization/Casals mappings remain diagnostic;
+  raw collection and historical results unchanged, transfer holds retained.
 
 ## Cached review progress
 
@@ -64,8 +59,8 @@ and cache commands. This directory owns current planning.
   recording decisions remain in history and their linked frozen audits.
 - Earlier38partial-support reviews:6Probable/32holds. All104zero-rule reviews:
   3Probable/101holds. Frozen audits retain sources, alternatives and next actions.
-- Latest274script tests, normalization and static build pass. Nine-case batch had2promotions;
-  collection/Spotify and all out-of-scope release payloads unchanged.
+- Latest281script tests pass; current role/title experiments are read-only.
+  Publication, collection/Spotify, production matcher and cache bytes unchanged.
 - 562unchecked unique:332work/credit,214withheld,5completeness,4rejected,
   6empty,1source hold. Reviewed holds remain searchable evidence, not Not found.
 - Key holds include named ensemble members/chorus masters, associated-only roles,
@@ -86,8 +81,13 @@ All11work-context gains from the frozen171diagnostic are now reviewed.
 Nine-case follow-up:Heifetz4259729/10851475Probable;7holds, including associated
 orchestra roles, Furtwängler1938transfer identity, Rubinstein co-composer metadata
 and Piatigorsky container duration. [Results](../plans/2026-11-16-qobuz-work-context9.md).
-Credit cohort now150without saved decisions. Next prepare a bounded compact-vocal
-role semantic/impact diagnostic; no live policy adoption or automatic promotion.
+Credit cohort remains150without saved decisions. Vocal-role copy experiment
+improves only two already-held partial Rheingold programmes; no complete candidate
+or status/confidence gains. Live role parser unchanged.
+[Results](../plans/2026-11-16-qobuz-vocal-role-diagnostic.md).
+Title179copy-only scan yields28new leads:9full-support/complete,13full-support
+needing completeness,6partial. Next review the leading9recording families,
+starting2845131then4431461. [Frozen queue](../plans/2026-11-16-qobuz-title179.md).
 Broader source-role parser audit is proposed, not adopted. Krips finale is not
 proven missing; joined-band mapping remains unresolved.
 

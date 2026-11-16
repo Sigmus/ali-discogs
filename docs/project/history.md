@@ -2256,3 +2256,22 @@ build and9validator pass; queues/groups refreshed.12Found/166Probable/222reviewe
 341Unchecked copies. All11frozen work-context gains reviewed; original171cohort
 now21decisions(3Probable/18holds),150without saved decisions. No provider calls
 or push. Next proposed step:bounded compact-vocal-role semantic/impact diagnostic.
+
+
+### 2026-11-16 — Read-only vocal-role and title179experiments
+
+Compact-vocal-role hypothesis scanned2100cached albums:178affected albums,
+4990tracks/10550role declarations.259saved-reference pairs across157targets
+compared. Only two already-held Rheingold releases gain partial coverage; no
+status/confidence changes, complete candidate gains or coverage regressions.
+DDEX observation does not establish provider compact-role contract; live change
+deferred. [Results](../plans/2026-11-16-qobuz-vocal-role-diagnostic.md).
+Separate frozen179title cohort work-field experiment yields28leads:9full-support/
+complete,13full-support needing completeness,6partial. No live matching change.
+[Resumable ranking](../plans/2026-11-16-qobuz-title179.md) excludes later accepted/
+reviewed holds from pending. Next review the leading9recordings starting2845131
+then4431461, using original cached evidence and source/recording safeguards.
+281script tests pass; publication, Spotify/collection, production policy and
+provider cache bytes unchanged. No provider calls, promotions, new workflow
+review decisions or push/deployment. Shared diagnostic evidence and source hashes
+retain the experiments for later work.

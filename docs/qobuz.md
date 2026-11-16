@@ -624,3 +624,14 @@ source-derived work scopes with positive credits from an older cached reissue;
 it does not change associated-role acceptance or apply diagnostic work fields
 across the collection. Historical-transfer and source-container timing holds
 remain explicit decisions.
+
+
+Read-only hypotheses, kept outside the production matching path:
+
+- `uv run --with requests python scripts/qobuz_vocal_role_diagnostic.py` measures
+  exact compact vocal-role substitutions on temporary copies across saved
+  candidate references; technical/composer/associated roles and names are unchanged.
+- `uv run --with requests python scripts/qobuz_title179_diagnostic.py` measures
+  explicit work fields on the frozen179title cohort and rebuilds its review queue.
+  Completed accepted/held releases stay out of pending. Neither experiment writes
+  matches, source/cache data, confidence or review-completion labels.

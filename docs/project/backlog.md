@@ -40,10 +40,13 @@ The diverse12credit-support sample is now reviewed:Reiner1896362Probable,
 11explicit holds. [Diagnostic/results](../plans/2026-11-16-qobuz-credit171.md).
 All11work-field gains are reviewed, including the [nine-case follow-up](../plans/2026-11-16-qobuz-work-context9.md):2HeifetzProbable/7holds.
 Current unreviewed split:150credit-support,179work/title,6no cached candidate and
-5completeness cases. Next proposed diagnostic: compact vocal-role spellings,
-source requirements and exact bounded publication impact. Do not adopt a live
-role alias without semantics/negative-case evidence; associated-role policy and
-missing-member requirements remain unchanged.
+5completeness cases. Vocal-role diagnostic complete: no candidate status/confidence changes or new
+complete source-unit support; live normalization deferred ([results](../plans/2026-11-16-qobuz-vocal-role-diagnostic.md)).
+Separate title179work-field diagnostic yields28recording leads:9full-support
+and complete under current checks,13needing completeness,6partial. Next recommended
+batch:the9leading recording reviews, starting2845131then4431461
+([frozen queue](../plans/2026-11-16-qobuz-title179.md)). These are diagnostic leads,
+not accepted matches; no live policy/alias adoption or automatic promotion.
 The broader332work/credit inventory remains separate. Zero support needs source/
 lead/rule investigation, not automatic API retrieval. Revisit explicit holds only
 with new evidence or a validated scoped rule; partial source support is triage,
