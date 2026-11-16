@@ -11,13 +11,11 @@ and cache commands. This directory owns current planning.
 - Branch main; enrichment pushed through2c5742a on15November at user request.
   GitHub Pages deployment not verified; inspect Git before claiming remote state.
 - Collection741copies/740unique. Saved labels: Spotify254Found/273Probable/
-  210NotFound/4Unchecked; Qobuz12Found/144Probable/585Unchecked copies.
+  210NotFound/4Unchecked; Qobuz12Found/153Probable/576Unchecked copies.
 - Qobuz publication `data/qobuz_matches.json` is separate from Spotify collection
   results. Labels/scores are saved data; Qobuz85/95 are heuristic levels, not
   probabilities. Legacy Spotify labels are not comparable accuracy measurements.
-  [Validation gap](../plans/2026-11-13-cross-service-validation-gap.md).
 - Local UI http://127.0.0.1:8000/ ; live https://sigmus.github.io/ali-discogs/ .
-  Server/deployment status not rechecked by this source review.
 
 ## UI checkpoint
 
@@ -77,20 +75,22 @@ and cache commands. This directory owns current planning.
   It cannot combine credits across different operas. LP-side audio cuts unverified.
 - 231script tests, UI normalization, static build and local detail checks pass.
   Exactly4Unchecked→Probable publication changes; collection/Spotify unchanged.
-- 584unchecked unique after full-cache diagnostics:497work/credit,57withheld,
-  19completeness,4rejected-recording,6empty,1source hold.
-  No metadata-needed releases remain in this dated inventory; labels unchanged.
+- All16full-support leads reviewed:9Probable,7explicit holds.
+  [Results](../plans/2026-11-16-qobuz-fullsupport16.md) preserve source discrepancies,
+  joined-band uncertainty, transfer gaps and all cached alternatives.
+- 242script tests, normalization and static build pass; exactly9new label changes.
+  Collection/Spotify unchanged.575unchecked unique:497work/credit,62withheld,
+  5completeness,4rejected,6empty,1source hold. Saved batch holds remain independent.
 
 ## Next action and limits
 
-936album cache integrated into offline inventory/ranking;23632tracks validated.
-[Run/results](../plans/2026-11-15-qobuz-uncached160.md).160release ranking:
-First2complete leads reviewed: Brahms6798013(Menuhin/Furtwängler) and12803844
-(Ferras/Karajan) now Probable85, with source-bound three-movement/credit checks.
-[Review/results](../plans/2026-11-16-qobuz-brahms2.md).237tests, normalization/build
-pass; exactly2publication changes, collection/Spotify unchanged. No new calls/push.
-Next: review the16full-support leads for completeness and recording family,
-starting1660485;38partial and104zero-current-rule cases remain afterwards.
+936album cache integrated;23632tracks validated. First2Brahms and next16full-
+support reviews complete:11new Probable in total,7holds. Ranking preserves these
+outcomes separately. [Batch handoff](../plans/2026-11-16-qobuz-fullsupport16.md).
+Next: inspect38partial-support leads, prioritize complete source programmes with
+resolvable parsing/grouping gaps.104zero-current-rule cases follow. No new calls,
+automatic promotions or push. Krips finale is not proven missing; joined-band
+label/timing mapping remains unresolved. No credit-policy proposals adopted.
 
 Continue verified cached reviews/commits autonomously. No unbounded retrieval,
 warning retries, automatic push/deployment, source rewrites or musical-credit

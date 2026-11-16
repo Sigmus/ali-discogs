@@ -41,7 +41,14 @@ def main():
     publication = json.loads((ROOT/'data/qobuz_matches.json').read_text())['releases']
     resolved = [{'discogs_id': rid, 'status': publication[rid]['status']}
                 for rid in scope['release_ids'] if publication[rid]['status'] != 'unchecked']
-    pending_ids = [rid for rid in scope['release_ids'] if publication[rid]['status'] == 'unchecked']
+    review_path = ROOT/'data/qobuz_fullsupport16_recording_audit.json'
+    batch = json.loads(review_path.read_text()) if review_path.exists() else {}
+    reviewed = ([{'discogs_id': e['discogs_id'], 'decision': e['outcome'], 'finding': e['finding']}
+                 for e in batch.get('entries', []) if e['outcome'] != 'probable']
+                if batch.get('status') == 'complete' else [])
+    reviewed_ids = {e['discogs_id'] for e in reviewed}
+    pending_ids = [rid for rid in scope['release_ids']
+                   if publication[rid]['status'] == 'unchecked' and rid not in reviewed_ids]
     entries = rank(inventory['entries'], pending_ids)
     if any(e['uncached_hits'] for e in entries):
         raise ValueError('A frozen release still has uncached search candidates')
@@ -49,7 +56,7 @@ def main():
               'scope_sha256': hashlib.sha256(SCOPE.read_bytes()).hexdigest(),
               'inventory_sha256': hashlib.sha256(path.read_bytes()).hexdigest(),
               'counts': dict(Counter(e['bucket'] for e in entries)), 'entries': entries,
-              'resolved_entries': resolved, 'frozen_release_count': len(scope['release_ids']),
+              'resolved_entries': resolved, 'reviewed_unresolved_entries': reviewed, 'frozen_release_count': len(scope['release_ids']),
               'limitations': ['Workflow ranking, not calibrated confidence or recording acceptance.',
                 'Coverage requires current programme/composer/performer rules; zero support may reflect parser gaps.',
                 'Complete programme still needs recording-family and source-credit review.',

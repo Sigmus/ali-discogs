@@ -553,3 +553,13 @@ complete programmes, then complete source-unit support needing completeness chec
 then partial/zero support; held/rejected pairs are excluded. This diagnostic path
 never updates publication labels. Canonical routes and shareable request cache
 were rebuilt offline, preserving all prior successful responses.
+
+
+`expected_recording_groups` freezes each target's exact existing contiguous-work
+recording-group object inside a source/target/album-bound review. Completeness
+counts only those selected tracks rather than every alternate take in the box.
+Every target must have the identical group/track IDs and full existing-policy
+credit support; otherwise validation fails. This reuses existing conductor/
+orchestra-throughout and soloist-within-one-work rules, never another recording.
+`uv run --with requests python scripts/qobuz_fullsupport16_audit.py` reproduces
+all16decisions, alternative manifests and high-score hold precedence.

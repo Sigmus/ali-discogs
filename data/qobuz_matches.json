@@ -1,6 +1,6 @@
 {
   "schema_version": 1,
-  "matcher_version": "qobuz-work-groups-v2+explicit-target-credits+reviewed-leads+opera-source-roles+prelude-fugue-pairs+container-headings+bound-tracks+heading-over-groups+cached-half+side-ranges+scene-sides+catalogue-comma-movements+reviewed-source-composers+source-programme-holds+reviewed-felix-composer-identity+bound-composer-role-marks+source-bound-work-credits+recording-review-precedence+source-vocal-programme+reviewed-source-display",
+  "matcher_version": "qobuz-work-groups-v2+explicit-target-credits+reviewed-leads+opera-source-roles+prelude-fugue-pairs+container-headings+bound-tracks+heading-over-groups+cached-half+side-ranges+scene-sides+catalogue-comma-movements+reviewed-source-composers+source-programme-holds+reviewed-felix-composer-identity+bound-composer-role-marks+source-bound-work-credits+recording-review-precedence+source-vocal-programme+reviewed-source-display+reviewed-contiguous-group-completeness",
   "score_kind": "heuristic",
   "metadata_completed_at": "2026-11-13T00:15:30.593902+00:00",
   "search_manifest_fingerprint": "72bfbc0de0c0d8ee65c624b6ebe07db7be6ef0f10b6ba5fd4f468d54f812e802",
@@ -34,7 +34,7 @@
   "richter_review_fingerprint": "a14865f86e46150593e39bfa285fa6c7c61c8f46147b8094c0cb048fd02118ab",
   "round2_review_fingerprint": "be60742c3d35f5a9aa67f200642f7fcde98a52562a46130e043db8f4aa7c851e",
   "round2_metadata_fingerprint": "9db62d7bf62d4b77f5acf422dfde77959f845f4dc00b2ac0e10c02ccea295860",
-  "remaining_review_fingerprint": "437cb6b148497f094d8c6365a8be452e2b046c22ae3199b1794693d9a85391cb",
+  "remaining_review_fingerprint": "6f7fabb24880dfe78d2aa49ce048a2db787275512d29908b635e6d1fc6c48a8c",
   "remaining_metadata_fingerprint": "393b2d12e176160ab311b65267b38bdc8c205222e12f792bf07eba5c1fcfafbf",
   "remaining_followup_metadata_fingerprint": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
   "seven_album_metadata_fingerprint": "139f9b336c68b56ea22c18362cb0481c026366c5d359142f2bb702fe1233a4fc",
@@ -23918,14 +23918,89 @@
       ]
     },
     "9855113": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0724356262157",
+        "name": "Bruckner: Symphony 6/Humperdinck & Wagner Overtures",
+        "artists": [
+          "Otto Klemperer"
+        ],
+        "label": "Warner Classics",
+        "release_date": "2003-08-15",
+        "image": "https://static.qobuz.com/images/covers/57/21/0724356262157_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/bruckner-symphony-6-humperdinck-wagner-overtures-otto-klemperer/0724356262157"
+      },
+      "candidates": [
+        {
+          "id": "0724356262157",
+          "name": "Bruckner: Symphony 6/Humperdinck & Wagner Overtures",
+          "artists": [
+            "Otto Klemperer"
+          ],
+          "label": "Warner Classics",
+          "release_date": "2003-08-15",
+          "image": "https://static.qobuz.com/images/covers/57/21/0724356262157_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/bruckner-symphony-6-humperdinck-wagner-overtures-otto-klemperer/0724356262157",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 1,
+          "target_count": 1,
+          "required_performers": [
+            "Otto Klemperer",
+            "New Philharmonia Orchestra"
+          ],
+          "programme": [
+            {
+              "target": "Sinfonie Nr. 6 A-Dur",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                4685781,
+                4685782,
+                4685783,
+                4685784
+              ]
+            }
+          ],
+          "reasons": [
+            "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+            "Warner identifies Klemperer/NewPhilharmonia Bruckner6as November1964KingswayHall, distinct from Symphony5in1967. Source Columbia/EMI00599names the same cast and four movements; cached Warner6262157contains all four with positive Bruckner/conductor/orchestra credits. Wagner/Humperdinck fillers remain extras. Source does not establish a physical pressing or transfer.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Recording-family evidence does not verify exact pressing, mastering, session takes or audio. Raw source, normalized collection and Spotify remain unchanged."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Sinfonie Nr. 6 A-Dur",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  4685781,
+                  4685782,
+                  4685783,
+                  4685784
+                ]
+              }
+            ]
+          },
+          "recording_review": "Warner identifies Klemperer/NewPhilharmonia Bruckner6as November1964KingswayHall, distinct from Symphony5in1967. Source Columbia/EMI00599names the same cast and four movements; cached Warner6262157contains all four with positive Bruckner/conductor/orchestra credits. Wagner/Humperdinck fillers remain extras. Source does not establish a physical pressing or transfer.",
+          "review_sources": [
+            "https://www.discogs.com/release/9855113",
+            "https://wmg.jp/otto-klemperer/discography/29202"
+          ]
+        }
+      ],
       "query": "otto klemperer bruckner sinfonie nr 6 a dur",
       "searched_at": "2026-11-12T15:03:47.824977+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+        "Warner identifies Klemperer/NewPhilharmonia Bruckner6as November1964KingswayHall, distinct from Symphony5in1967. Source Columbia/EMI00599names the same cast and four movements; cached Warner6262157contains all four with positive Bruckner/conductor/orchestra credits. Wagner/Humperdinck fillers remain extras. Source does not establish a physical pressing or transfer.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Recording-family evidence does not verify exact pressing, mastering, session takes or audio. Raw source, normalized collection and Spotify remain unchanged."
       ]
     },
     "5521001": {
@@ -53780,14 +53855,108 @@
       ]
     },
     "12159256": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "gewd7r35fi4ha",
+        "name": "Complete Edition",
+        "artists": [
+          "Geza Anda"
+        ],
+        "label": "Deutsche Grammophon (DG)",
+        "release_date": "2021-10-08",
+        "image": "https://static.qobuz.com/images/covers/ha/i4/gewd7r35fi4ha_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/complete-edition-geza-anda/gewd7r35fi4ha"
+      },
+      "candidates": [
+        {
+          "id": "gewd7r35fi4ha",
+          "name": "Complete Edition",
+          "artists": [
+            "Geza Anda"
+          ],
+          "label": "Deutsche Grammophon (DG)",
+          "release_date": "2021-10-08",
+          "image": "https://static.qobuz.com/images/covers/ha/i4/gewd7r35fi4ha_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/complete-edition-geza-anda/gewd7r35fi4ha",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 2,
+          "target_count": 2,
+          "required_performers": [
+            "Rafael Kubelik",
+            "Géza Anda",
+            "Berliner Philharmoniker"
+          ],
+          "programme": [
+            {
+              "target": "Konzert Für Klavier Und Orchester A-moll Op. 54",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                129583917,
+                129583918,
+                129583919
+              ]
+            },
+            {
+              "target": "Konzert Für Klavier Und Orchester A-moll Op. 16",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                129583914,
+                129583915,
+                129583916
+              ]
+            }
+          ],
+          "reasons": [
+            "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+            "DGidentifies the2021AndaCompleteEdition including Grieg/Schumann and Kubelik/Berlin. Source DG138888pairs SchumannOp54andGriegOp16with Anda/Kubelik/Berlin. Selected groups contain three numbered movements each with positive matching composer and cast; other Grieg recordings in239trackanthology remain extras. Source lacquer/reissue notes are not silently converted into session dates.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Recording-family evidence does not verify exact pressing, mastering, session takes or audio. Raw source, normalized collection and Spotify remain unchanged."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Konzert Für Klavier Und Orchester A-moll Op. 54",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  129583917,
+                  129583918,
+                  129583919
+                ]
+              },
+              {
+                "target": "Konzert Für Klavier Und Orchester A-moll Op. 16",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  129583914,
+                  129583915,
+                  129583916
+                ]
+              }
+            ]
+          },
+          "recording_review": "DGidentifies the2021AndaCompleteEdition including Grieg/Schumann and Kubelik/Berlin. Source DG138888pairs SchumannOp54andGriegOp16with Anda/Kubelik/Berlin. Selected groups contain three numbered movements each with positive matching composer and cast; other Grieg recordings in239trackanthology remain extras. Source lacquer/reissue notes are not silently converted into session dates.",
+          "review_sources": [
+            "https://www.discogs.com/release/12159256",
+            "https://www.deutschegrammophon.com/en/catalogue/products/geza-anda-complete-deutsche-grammophon-recordings-12438"
+          ]
+        }
+      ],
       "query": "rafael kubelik schumann concertos pour piano et orchestre en la mineur",
       "searched_at": "2026-11-12T15:27:19.357240+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+        "DGidentifies the2021AndaCompleteEdition including Grieg/Schumann and Kubelik/Berlin. Source DG138888pairs SchumannOp54andGriegOp16with Anda/Kubelik/Berlin. Selected groups contain three numbered movements each with positive matching composer and cast; other Grieg recordings in239trackanthology remain extras. Source lacquer/reissue notes are not silently converted into session dates.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Recording-family evidence does not verify exact pressing, mastering, session takes or audio. Raw source, normalized collection and Spotify remain unchanged."
       ]
     },
     "4009817": {
@@ -56104,14 +56273,109 @@
       ]
     },
     "1660485": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0002894190672",
+        "name": "Tchaikovsky / Mendelssohn: Violin Concertos",
+        "artists": [
+          "Nathan Milstein"
+        ],
+        "label": "Deutsche Grammophon (DG)",
+        "release_date": "1987-01-01",
+        "image": "https://static.qobuz.com/images/covers/72/06/0002894190672_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/tchaikovsky-mendelssohn-violin-concertos-wiener-philharmoniker-claudio-abbado-nathan-milstein/0002894190672"
+      },
+      "candidates": [
+        {
+          "id": "0002894190672",
+          "name": "Tchaikovsky / Mendelssohn: Violin Concertos",
+          "artists": [
+            "Nathan Milstein"
+          ],
+          "label": "Deutsche Grammophon (DG)",
+          "release_date": "1987-01-01",
+          "image": "https://static.qobuz.com/images/covers/72/06/0002894190672_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/tchaikovsky-mendelssohn-violin-concertos-wiener-philharmoniker-claudio-abbado-nathan-milstein/0002894190672",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 2,
+          "target_count": 2,
+          "required_performers": [
+            "Claudio Abbado",
+            "Nathan Milstein",
+            "Wiener Philharmoniker"
+          ],
+          "programme": [
+            {
+              "target": "Konzert Für Violine Und Orchester D-Dur Op. 35",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                520027,
+                520028,
+                520029
+              ]
+            },
+            {
+              "target": "Konzert Für Violine Und Orchester E-Moll Op. 64",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                520030,
+                520031,
+                520032
+              ]
+            }
+          ],
+          "reasons": [
+            "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+            "Universal publisher identifies Milstein/Vienna/Abbado and the DGproduction family. Source DG2530359pairs TchaikovskyOp35andMendelssohnOp64; cached DG4190672contains all six numbered movements with positive matching soloist, conductor, orchestra and per-track composers. Source1973phonogram date and digital1987release are distinct, not session-date equivalence.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Recording-family evidence does not verify exact pressing, mastering, session takes or audio. Raw source, normalized collection and Spotify remain unchanged."
+          ],
+          "work_group_policy": "qobuz-work-groups-v1",
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Konzert Für Violine Und Orchester D-Dur Op. 35",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  520027,
+                  520028,
+                  520029
+                ]
+              },
+              {
+                "target": "Konzert Für Violine Und Orchester E-Moll Op. 64",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  520030,
+                  520031,
+                  520032
+                ]
+              }
+            ]
+          },
+          "recording_review": "Universal publisher identifies Milstein/Vienna/Abbado and the DGproduction family. Source DG2530359pairs TchaikovskyOp35andMendelssohnOp64; cached DG4190672contains all six numbered movements with positive matching soloist, conductor, orchestra and per-track composers. Source1973phonogram date and digital1987release are distinct, not session-date equivalence.",
+          "review_sources": [
+            "https://www.discogs.com/release/1660485",
+            "https://www.universalmusic.it/musica-classica/album/nathan-milstein-complete-deutsche-grammophon-recording_33149760023/"
+          ]
+        }
+      ],
       "query": "claudio abbado tchaikovsky violinkonzerte",
       "searched_at": "2026-11-12T15:31:34.565574+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+        "Universal publisher identifies Milstein/Vienna/Abbado and the DGproduction family. Source DG2530359pairs TchaikovskyOp35andMendelssohnOp64; cached DG4190672contains all six numbered movements with positive matching soloist, conductor, orchestra and per-track composers. Source1973phonogram date and digital1987release are distinct, not session-date equivalence.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Recording-family evidence does not verify exact pressing, mastering, session takes or audio. Raw source, normalized collection and Spotify remain unchanged."
       ]
     },
     "1917259": {
@@ -65711,14 +65975,489 @@
       ]
     },
     "3675625": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "p7loo00p37ikc",
+        "name": "New Year's Concert in Vienna 1987",
+        "artists": [
+          "Wiener Philharmonic Orchestra"
+        ],
+        "label": "Deutsche Grammophon (DG)",
+        "release_date": "1987-01-01",
+        "image": "https://static.qobuz.com/images/covers/kc/7i/p7loo00p37ikc_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/new-years-concert-in-vienna-1987-herbert-von-karajan-wiener-philharmoniker-kathleen-battle/p7loo00p37ikc"
+      },
+      "candidates": [
+        {
+          "id": "p7loo00p37ikc",
+          "name": "New Year's Concert in Vienna 1987",
+          "artists": [
+            "Wiener Philharmonic Orchestra"
+          ],
+          "label": "Deutsche Grammophon (DG)",
+          "release_date": "1987-01-01",
+          "image": "https://static.qobuz.com/images/covers/kc/7i/p7loo00p37ikc_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/new-years-concert-in-vienna-1987-herbert-von-karajan-wiener-philharmoniker-kathleen-battle/p7loo00p37ikc",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 12,
+          "target_count": 12,
+          "required_performers": [
+            "Herbert Von Karajan",
+            "Kathleen Battle",
+            "Herbert von Karajan",
+            "Wiener Philharmoniker"
+          ],
+          "programme": [
+            {
+              "target": "Die Fledermaus Ouvertüre",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                190342241
+              ],
+              "required_performers": [
+                "Herbert Von Karajan",
+                "Herbert von Karajan",
+                "Wiener Philharmoniker"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            },
+            {
+              "target": "Sphärenklänge Op.235",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                190342242
+              ],
+              "required_performers": [
+                "Herbert Von Karajan",
+                "Herbert von Karajan",
+                "Wiener Philharmoniker"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            },
+            {
+              "target": "Annen-Polka Op.117",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                190342243
+              ],
+              "required_performers": [
+                "Herbert Von Karajan",
+                "Herbert von Karajan",
+                "Wiener Philharmoniker"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            },
+            {
+              "target": "Delirien Op.212",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                190342244
+              ],
+              "required_performers": [
+                "Herbert Von Karajan",
+                "Herbert von Karajan",
+                "Wiener Philharmoniker"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            },
+            {
+              "target": "Vergnügungszug Op.281",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                190342245
+              ],
+              "required_performers": [
+                "Herbert Von Karajan",
+                "Herbert von Karajan",
+                "Wiener Philharmoniker"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            },
+            {
+              "target": "Pizzicato-Polka",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                190342246
+              ],
+              "required_performers": [
+                "Herbert Von Karajan",
+                "Herbert von Karajan",
+                "Wiener Philharmoniker"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            },
+            {
+              "target": "Beliebte Annen-Polka Op.137",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                190342247
+              ],
+              "required_performers": [
+                "Herbert Von Karajan",
+                "Herbert von Karajan",
+                "Wiener Philharmoniker"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            },
+            {
+              "target": "Unter Donner Und Blitz Op.324",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                190342248
+              ],
+              "required_performers": [
+                "Herbert Von Karajan",
+                "Herbert von Karajan",
+                "Wiener Philharmoniker"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            },
+            {
+              "target": "Frühlingsstimmen Op.410",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                190342249
+              ],
+              "required_performers": [
+                "Herbert Von Karajan",
+                "Herbert von Karajan",
+                "Wiener Philharmoniker",
+                "Kathleen Battle"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [
+                  "B4"
+                ],
+                "performers": [
+                  {
+                    "name": "Kathleen Battle",
+                    "role": "Soprano Vocals"
+                  }
+                ]
+              }
+            },
+            {
+              "target": "Ohne Sorgen Op.271",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                190342250
+              ],
+              "required_performers": [
+                "Herbert Von Karajan",
+                "Herbert von Karajan",
+                "Wiener Philharmoniker"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            },
+            {
+              "target": "An Der Schönen Blauen Donau Op.314",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                190342251
+              ],
+              "required_performers": [
+                "Herbert Von Karajan",
+                "Herbert von Karajan",
+                "Wiener Philharmoniker"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            },
+            {
+              "target": "Radetzky-Marsch Op.228",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                190342252
+              ],
+              "required_performers": [
+                "Herbert Von Karajan",
+                "Herbert von Karajan",
+                "Wiener Philharmoniker"
+              ],
+              "target_credit_scope": {
+                "source": "cached Discogs explicit work/position credits",
+                "positions": [],
+                "performers": []
+              }
+            }
+          ],
+          "reasons": [
+            "Each target item has explicit work and performer-role credits; recording identity requires review.",
+            "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups.",
+            "DGpublisher identifies the1987Vienna NewYear concert with Battle/Karajan/Vienna. Cached DG2022reissue has the same event and all12named source pieces; added Kaiserwalzer stays an extra. Source explicit B4Battle credit requires her on VoicesOfSpring, never on instrumental works; existing source-derived scope is retained. Source liveMusikvereinJanuary1987and producer/engineering names corroborate this family.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Recording-family evidence does not verify exact pressing, mastering, session takes or audio. Raw source, normalized collection and Spotify remain unchanged."
+          ],
+          "work_group_policy": "qobuz-work-groups-v1",
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Die Fledermaus Ouvertüre",
+                "status": "complete",
+                "expected_movements": [
+                  null
+                ],
+                "observed_movements": [
+                  null
+                ],
+                "track_ids": [
+                  190342241
+                ],
+                "scope": "listed-target-piece",
+                "source": "Raw named source piece and exact one-track digital match",
+                "reason": "Single complete named piece, existing source-specific Battle requirement and frozen album/source hashes."
+              },
+              {
+                "target": "Sphärenklänge Op.235",
+                "status": "complete",
+                "expected_movements": [
+                  null
+                ],
+                "observed_movements": [
+                  null
+                ],
+                "track_ids": [
+                  190342242
+                ],
+                "scope": "listed-target-piece",
+                "source": "Raw named source piece and exact one-track digital match",
+                "reason": "Single complete named piece, existing source-specific Battle requirement and frozen album/source hashes."
+              },
+              {
+                "target": "Annen-Polka Op.117",
+                "status": "complete",
+                "expected_movements": [
+                  null
+                ],
+                "observed_movements": [
+                  null
+                ],
+                "track_ids": [
+                  190342243
+                ],
+                "scope": "listed-target-piece",
+                "source": "Raw named source piece and exact one-track digital match",
+                "reason": "Single complete named piece, existing source-specific Battle requirement and frozen album/source hashes."
+              },
+              {
+                "target": "Delirien Op.212",
+                "status": "complete",
+                "expected_movements": [
+                  null
+                ],
+                "observed_movements": [
+                  null
+                ],
+                "track_ids": [
+                  190342244
+                ],
+                "scope": "listed-target-piece",
+                "source": "Raw named source piece and exact one-track digital match",
+                "reason": "Single complete named piece, existing source-specific Battle requirement and frozen album/source hashes."
+              },
+              {
+                "target": "Vergnügungszug Op.281",
+                "status": "complete",
+                "expected_movements": [
+                  null
+                ],
+                "observed_movements": [
+                  null
+                ],
+                "track_ids": [
+                  190342245
+                ],
+                "scope": "listed-target-piece",
+                "source": "Raw named source piece and exact one-track digital match",
+                "reason": "Single complete named piece, existing source-specific Battle requirement and frozen album/source hashes."
+              },
+              {
+                "target": "Pizzicato-Polka",
+                "status": "complete",
+                "expected_movements": [
+                  null
+                ],
+                "observed_movements": [
+                  null
+                ],
+                "track_ids": [
+                  190342246
+                ],
+                "scope": "listed-target-piece",
+                "source": "Raw named source piece and exact one-track digital match",
+                "reason": "Single complete named piece, existing source-specific Battle requirement and frozen album/source hashes."
+              },
+              {
+                "target": "Beliebte Annen-Polka Op.137",
+                "status": "complete",
+                "expected_movements": [
+                  null
+                ],
+                "observed_movements": [
+                  null
+                ],
+                "track_ids": [
+                  190342247
+                ],
+                "scope": "listed-target-piece",
+                "source": "Raw named source piece and exact one-track digital match",
+                "reason": "Single complete named piece, existing source-specific Battle requirement and frozen album/source hashes."
+              },
+              {
+                "target": "Unter Donner Und Blitz Op.324",
+                "status": "complete",
+                "expected_movements": [
+                  null
+                ],
+                "observed_movements": [
+                  null
+                ],
+                "track_ids": [
+                  190342248
+                ],
+                "scope": "listed-target-piece",
+                "source": "Raw named source piece and exact one-track digital match",
+                "reason": "Single complete named piece, existing source-specific Battle requirement and frozen album/source hashes."
+              },
+              {
+                "target": "Frühlingsstimmen Op.410",
+                "status": "complete",
+                "expected_movements": [
+                  null
+                ],
+                "observed_movements": [
+                  null
+                ],
+                "track_ids": [
+                  190342249
+                ],
+                "scope": "listed-target-piece",
+                "source": "Raw named source piece and exact one-track digital match",
+                "reason": "Single complete named piece, existing source-specific Battle requirement and frozen album/source hashes."
+              },
+              {
+                "target": "Ohne Sorgen Op.271",
+                "status": "complete",
+                "expected_movements": [
+                  null
+                ],
+                "observed_movements": [
+                  null
+                ],
+                "track_ids": [
+                  190342250
+                ],
+                "scope": "listed-target-piece",
+                "source": "Raw named source piece and exact one-track digital match",
+                "reason": "Single complete named piece, existing source-specific Battle requirement and frozen album/source hashes."
+              },
+              {
+                "target": "An Der Schönen Blauen Donau Op.314",
+                "status": "complete",
+                "expected_movements": [
+                  null
+                ],
+                "observed_movements": [
+                  null
+                ],
+                "track_ids": [
+                  190342251
+                ],
+                "scope": "listed-target-piece",
+                "source": "Raw named source piece and exact one-track digital match",
+                "reason": "Single complete named piece, existing source-specific Battle requirement and frozen album/source hashes."
+              },
+              {
+                "target": "Radetzky-Marsch Op.228",
+                "status": "complete",
+                "expected_movements": [
+                  null
+                ],
+                "observed_movements": [
+                  null
+                ],
+                "track_ids": [
+                  190342252
+                ],
+                "scope": "listed-target-piece",
+                "source": "Raw named source piece and exact one-track digital match",
+                "reason": "Single complete named piece, existing source-specific Battle requirement and frozen album/source hashes."
+              }
+            ],
+            "overlapping_target_tracks": false
+          },
+          "recording_review": "DGpublisher identifies the1987Vienna NewYear concert with Battle/Karajan/Vienna. Cached DG2022reissue has the same event and all12named source pieces; added Kaiserwalzer stays an extra. Source explicit B4Battle credit requires her on VoicesOfSpring, never on instrumental works; existing source-derived scope is retained. Source liveMusikvereinJanuary1987and producer/engineering names corroborate this family.",
+          "review_sources": [
+            "https://www.discogs.com/release/3675625",
+            "https://www.deutschegrammophon.com/en/catalogue/products/new-years-concert-1987-5517"
+          ]
+        }
+      ],
       "query": "herbert von karajan jr neujahrskonzert in wien",
       "searched_at": "2026-11-12T15:52:36.013611+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Each target item has explicit work and performer-role credits; recording identity requires review.",
+        "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups.",
+        "DGpublisher identifies the1987Vienna NewYear concert with Battle/Karajan/Vienna. Cached DG2022reissue has the same event and all12named source pieces; added Kaiserwalzer stays an extra. Source explicit B4Battle credit requires her on VoicesOfSpring, never on instrumental works; existing source-derived scope is retained. Source liveMusikvereinJanuary1987and producer/engineering names corroborate this family.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Recording-family evidence does not verify exact pressing, mastering, session takes or audio. Raw source, normalized collection and Spotify remain unchanged."
       ]
     },
     "29719858": {
@@ -67715,14 +68454,164 @@
       ]
     },
     "10583401": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0002894791133",
+        "name": "The Concerto Recordings : Beethoven - Mozart - Schumann - Brahms - Liszt",
+        "artists": [
+          "Wilhelm Kempff"
+        ],
+        "label": "Deutsche Grammophon (DG)",
+        "release_date": "2013-01-01",
+        "image": "https://static.qobuz.com/images/covers/33/11/0002894791133_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/the-concerto-recordings-beethoven-mozart-schumann-brahms-liszt-wilhelm-kempff/0002894791133"
+      },
+      "candidates": [
+        {
+          "id": "0002894791133",
+          "name": "The Concerto Recordings : Beethoven - Mozart - Schumann - Brahms - Liszt",
+          "artists": [
+            "Wilhelm Kempff"
+          ],
+          "label": "Deutsche Grammophon (DG)",
+          "release_date": "2013-01-01",
+          "image": "https://static.qobuz.com/images/covers/33/11/0002894791133_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/the-concerto-recordings-beethoven-mozart-schumann-brahms-liszt-wilhelm-kempff/0002894791133",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1.0,
+          "covered": 2,
+          "target_count": 2,
+          "required_performers": [
+            "Ferdinand Leitner",
+            "Wilhelm Kempff",
+            "Berliner Philharmoniker"
+          ],
+          "programme": [
+            {
+              "target": "Konzert Für Klavier Und Orchester Nr. 2 B-Dur Op. 19",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                7726293,
+                7726295,
+                7726297
+              ],
+              "recording_group": {
+                "track_ids": [
+                  7726293,
+                  7726295,
+                  7726297
+                ],
+                "anchors": [
+                  "Berliner Philharmoniker",
+                  "Ferdinand Leitner"
+                ],
+                "scope": "contiguous-work-group",
+                "credit_policy": "Anchors on every track; each named performer evidenced within this group; no unknown extra musical main artists."
+              }
+            },
+            {
+              "target": "Konzert Für Klavier Und Orchester Nr. 4 G-Dur Op. 58",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                7726305,
+                7726307,
+                7726309
+              ],
+              "recording_group": {
+                "track_ids": [
+                  7726305,
+                  7726307,
+                  7726309
+                ],
+                "anchors": [
+                  "Berliner Philharmoniker",
+                  "Ferdinand Leitner"
+                ],
+                "scope": "contiguous-work-group",
+                "credit_policy": "Anchors on every track; each named performer evidenced within this group; no unknown extra musical main artists."
+              }
+            }
+          ],
+          "reasons": [
+            "Target works have recording-group performer evidence; credits need not list every soloist on every movement. Recording identity requires review.",
+            "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups.",
+            "DGdistinguishes Kempff/Leitner1961Beethoven cycle from earlier PaulvanKempen recordings. Source DG138775pairs concertos2and4with Leitner/Berlin. Cached DG4791133contains both complete three-movement1961Leitner groups with positive named cast and Beethoven credits; frozen ISRC/title groups exclude earlier alternate concerto recordings. Exact reissue pressing and takes unverified.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Recording-family evidence does not verify exact pressing, mastering, session takes or audio. Raw source, normalized collection and Spotify remain unchanged.",
+            "Kempff is omitted on two individual track credit strings; the existing contiguous-work credit policy supplies positive soloist evidence within each frozen three-movement group. No borrowing from another take, concerto or conductor."
+          ],
+          "work_group_policy": "qobuz-work-groups-v1",
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Konzert Für Klavier Und Orchester Nr. 2 B-Dur Op. 19",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "track_ids": [
+                  7726293,
+                  7726295,
+                  7726297
+                ],
+                "scope": "whole-work-reviewed-contiguous-recording-group",
+                "source": "Three numbered source movements and frozen existing-policy recording group",
+                "reason": "Complete three-movement group; conductor/orchestra throughout and Kempff positively credited within this same group, never another recording."
+              },
+              {
+                "target": "Konzert Für Klavier Und Orchester Nr. 4 G-Dur Op. 58",
+                "status": "complete",
+                "expected_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "observed_movements": [
+                  1,
+                  2,
+                  3
+                ],
+                "track_ids": [
+                  7726305,
+                  7726307,
+                  7726309
+                ],
+                "scope": "whole-work-reviewed-contiguous-recording-group",
+                "source": "Three numbered source movements and frozen existing-policy recording group",
+                "reason": "Complete three-movement group; conductor/orchestra throughout and Kempff positively credited within this same group, never another recording."
+              }
+            ],
+            "overlapping_target_tracks": false
+          },
+          "recording_review": "DGdistinguishes Kempff/Leitner1961Beethoven cycle from earlier PaulvanKempen recordings. Source DG138775pairs concertos2and4with Leitner/Berlin. Cached DG4791133contains both complete three-movement1961Leitner groups with positive named cast and Beethoven credits; frozen ISRC/title groups exclude earlier alternate concerto recordings. Exact reissue pressing and takes unverified.",
+          "review_sources": [
+            "https://www.discogs.com/release/10583401",
+            "https://www.deutschegrammophon.com/de/kuenstler-innen/wilhelm-kempff/pressestimmen/der-jahrhundertpianist-wilhelm-kempff-edition-260561"
+          ]
+        }
+      ],
       "query": "ferdinand leitner beethoven concertos pour piano et orchestre no 2 en si bemol",
       "searched_at": "2026-11-12T15:55:06.777903+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Target works have recording-group performer evidence; credits need not list every soloist on every movement. Recording identity requires review.",
+        "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups.",
+        "DGdistinguishes Kempff/Leitner1961Beethoven cycle from earlier PaulvanKempen recordings. Source DG138775pairs concertos2and4with Leitner/Berlin. Cached DG4791133contains both complete three-movement1961Leitner groups with positive named cast and Beethoven credits; frozen ISRC/title groups exclude earlier alternate concerto recordings. Exact reissue pressing and takes unverified.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Recording-family evidence does not verify exact pressing, mastering, session takes or audio. Raw source, normalized collection and Spotify remain unchanged.",
+        "Kempff is omitted on two individual track credit strings; the existing contiguous-work credit policy supplies positive soloist evidence within each frozen three-movement group. No borrowing from another take, concerto or conductor."
       ]
     },
     "4382530": {
@@ -89470,14 +90359,105 @@
       ]
     },
     "13708354": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "cnsns5fvjhzrb",
+        "name": "Schubert: Piano Works, Trout Quintet, Lieder",
+        "artists": [
+          "Artur Schnabel"
+        ],
+        "label": "Warner Classics",
+        "release_date": "2018-08-24",
+        "image": "https://static.qobuz.com/images/covers/rb/hz/cnsns5fvjhzrb_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/schubert-piano-works-trout-quintet-lieder-artur-schnabel/cnsns5fvjhzrb"
+      },
+      "candidates": [
+        {
+          "id": "cnsns5fvjhzrb",
+          "name": "Schubert: Piano Works, Trout Quintet, Lieder",
+          "artists": [
+            "Artur Schnabel"
+          ],
+          "label": "Warner Classics",
+          "release_date": "2018-08-24",
+          "image": "https://static.qobuz.com/images/covers/rb/hz/cnsns5fvjhzrb_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/schubert-piano-works-trout-quintet-lieder-artur-schnabel/cnsns5fvjhzrb",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 2,
+          "target_count": 2,
+          "required_performers": [
+            "Artur Schnabel"
+          ],
+          "programme": [
+            {
+              "target": "Sonata In B Flat, Op. Post. (D.960)",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                52731843,
+                52731844,
+                52731845,
+                52731846
+              ]
+            },
+            {
+              "target": "Allegretto In C Minor (D.915)",
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "track_ids": [
+                52731827
+              ]
+            }
+          ],
+          "reasons": [
+            "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+            "Foundation-hosted Bloesch discography entries126/141maps COLH33to Schnabel HMV D915(25January1939) and D960(25–26January1939). Source COLH33has the same two works. Choose cached Warner anthology cnsns5fvjhzrb, not BNFtransfer: all four D960movements and complete D915have positive Schnabel/Schubert credits. Foundation catalogue lists this Warner2018anthology. No exact78rpm take or remaster equality asserted.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Recording-family evidence does not verify exact pressing, mastering, session takes or audio. Raw source, normalized collection and Spotify remain unchanged."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Sonata In B Flat, Op. Post. (D.960)",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  52731843,
+                  52731844,
+                  52731845,
+                  52731846
+                ]
+              },
+              {
+                "target": "Allegretto In C Minor (D.915)",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  52731827
+                ]
+              }
+            ]
+          },
+          "recording_review": "Foundation-hosted Bloesch discography entries126/141maps COLH33to Schnabel HMV D915(25January1939) and D960(25–26January1939). Source COLH33has the same two works. Choose cached Warner anthology cnsns5fvjhzrb, not BNFtransfer: all four D960movements and complete D915have positive Schnabel/Schubert credits. Foundation catalogue lists this Warner2018anthology. No exact78rpm take or remaster equality asserted.",
+          "review_sources": [
+            "https://www.discogs.com/release/13708354",
+            "https://schnabelmusicfoundation.org/comceptr/uploads/Artur-Schnabel-A-Discography-by-David-Bloesch.pdf",
+            "https://schnabelmusicfoundation.org/resources/discography/"
+          ]
+        }
+      ],
       "query": "artur schnabel schubert sonata in b flat op post d 960 allegretto in",
       "searched_at": "2026-11-12T16:15:07.645938+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+        "Foundation-hosted Bloesch discography entries126/141maps COLH33to Schnabel HMV D915(25January1939) and D960(25–26January1939). Source COLH33has the same two works. Choose cached Warner anthology cnsns5fvjhzrb, not BNFtransfer: all four D960movements and complete D915have positive Schnabel/Schubert credits. Foundation catalogue lists this Warner2018anthology. No exact78rpm take or remaster equality asserted.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Recording-family evidence does not verify exact pressing, mastering, session takes or audio. Raw source, normalized collection and Spotify remain unchanged."
       ]
     },
     "14027357": {
@@ -91664,14 +92644,155 @@
       ]
     },
     "2671188": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "ukkiq8sj0z2na",
+        "name": "Brahms: The Complete Symphonies, Overtures, Haydn Variations, Violin Concerto, Deutsches Requiem & Alto Rhapsody",
+        "artists": [
+          "Otto Klemperer"
+        ],
+        "label": "Warner Classics",
+        "release_date": "2024-08-23",
+        "image": "https://static.qobuz.com/images/covers/na/z2/ukkiq8sj0z2na_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/brahms-the-complete-symphonies-overtures-haydn-variations-violin-concerto-deutsches-requiem-alto-rhapsody-otto-klemperer/ukkiq8sj0z2na"
+      },
+      "candidates": [
+        {
+          "id": "ukkiq8sj0z2na",
+          "name": "Brahms: The Complete Symphonies, Overtures, Haydn Variations, Violin Concerto, Deutsches Requiem & Alto Rhapsody",
+          "artists": [
+            "Otto Klemperer"
+          ],
+          "label": "Warner Classics",
+          "release_date": "2024-08-23",
+          "image": "https://static.qobuz.com/images/covers/na/z2/ukkiq8sj0z2na_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/brahms-the-complete-symphonies-overtures-haydn-variations-violin-concerto-deutsches-requiem-alto-rhapsody-otto-klemperer/ukkiq8sj0z2na",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 4,
+          "target_count": 4,
+          "required_performers": [
+            "Otto Klemperer",
+            "Philharmonia Orchestra"
+          ],
+          "programme": [
+            {
+              "target": "Sinfonie Nr. 1 C-moll Op. 68",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                284858674,
+                284858675,
+                284858676,
+                284858677
+              ]
+            },
+            {
+              "target": "Sinfonie Nr. 2 D-dur Op. 73",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                284858678,
+                284858679,
+                284858680,
+                284858681
+              ]
+            },
+            {
+              "target": "Sinfonie Nr. 3 F-dur Op. 90",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                284858683,
+                284858684,
+                284858685,
+                284858686
+              ]
+            },
+            {
+              "target": "Sinfonie Nr. 4 E-moll Op. 98",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                284858688,
+                284858689,
+                284858690,
+                284858691
+              ]
+            }
+          ],
+          "reasons": [
+            "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+            "Warner identifies this2024Klemperer Brahms box as remastered from original tapes for the2023complete edition. Source HMV/EMIbox lists four Brahms symphonies with Klemperer/Philharmonia; all16numbered movements have the same positive cast/composer. Other anthology contents remain extras; no credit is borrowed from Requiem or violin concerto.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Recording-family evidence does not verify exact pressing, mastering, session takes or audio. Raw source, normalized collection and Spotify remain unchanged."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Sinfonie Nr. 1 C-moll Op. 68",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  284858674,
+                  284858675,
+                  284858676,
+                  284858677
+                ]
+              },
+              {
+                "target": "Sinfonie Nr. 2 D-dur Op. 73",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  284858678,
+                  284858679,
+                  284858680,
+                  284858681
+                ]
+              },
+              {
+                "target": "Sinfonie Nr. 3 F-dur Op. 90",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  284858683,
+                  284858684,
+                  284858685,
+                  284858686
+                ]
+              },
+              {
+                "target": "Sinfonie Nr. 4 E-moll Op. 98",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  284858688,
+                  284858689,
+                  284858690,
+                  284858691
+                ]
+              }
+            ]
+          },
+          "recording_review": "Warner identifies this2024Klemperer Brahms box as remastered from original tapes for the2023complete edition. Source HMV/EMIbox lists four Brahms symphonies with Klemperer/Philharmonia; all16numbered movements have the same positive cast/composer. Other anthology contents remain extras; no credit is borrowed from Requiem or violin concerto.",
+          "review_sources": [
+            "https://www.discogs.com/release/2671188",
+            "https://www.warnerclassics.com/release/brahms-complete-symphonies-overtures-haydn-variations-violin-concerto-requiem-alto-rhapsody"
+          ]
+        }
+      ],
       "query": "otto klemperer brahms samtliche sinfonien",
       "searched_at": "2026-11-12T16:18:23.354068+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+        "Warner identifies this2024Klemperer Brahms box as remastered from original tapes for the2023complete edition. Source HMV/EMIbox lists four Brahms symphonies with Klemperer/Philharmonia; all16numbered movements have the same positive cast/composer. Other anthology contents remain extras; no credit is borrowed from Requiem or violin concerto.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Recording-family evidence does not verify exact pressing, mastering, session takes or audio. Raw source, normalized collection and Spotify remain unchanged."
       ]
     },
     "4755030": {
@@ -105705,14 +106826,109 @@
       ]
     },
     "6181503": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "ry4m3n5iqb25a",
+        "name": "Beethoven: Violin Sonatas Nos. 5 \"Spring\" & 9 \"Kreutzer\"",
+        "artists": [
+          "Yehudi Menuhin"
+        ],
+        "label": "Warner Classics",
+        "release_date": "1961-01-01",
+        "image": "https://static.qobuz.com/images/covers/5a/b2/ry4m3n5iqb25a_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/beethoven-violin-sonatas-nos-5-spring-9-kreutzer-yehudi-menuhin-hephzibah-menuhin/ry4m3n5iqb25a"
+      },
+      "candidates": [
+        {
+          "id": "ry4m3n5iqb25a",
+          "name": "Beethoven: Violin Sonatas Nos. 5 \"Spring\" & 9 \"Kreutzer\"",
+          "artists": [
+            "Yehudi Menuhin"
+          ],
+          "label": "Warner Classics",
+          "release_date": "1961-01-01",
+          "image": "https://static.qobuz.com/images/covers/5a/b2/ry4m3n5iqb25a_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/beethoven-violin-sonatas-nos-5-spring-9-kreutzer-yehudi-menuhin-hephzibah-menuhin/ry4m3n5iqb25a",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 2,
+          "target_count": 2,
+          "required_performers": [
+            "Yehudi Menuhin",
+            "Hephzibah Menuhin"
+          ],
+          "programme": [
+            {
+              "target": "Sonate N° 9 En La Majeur, Op. 47 \"A Kreutzer\"",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                93997771,
+                93997772,
+                93997773
+              ]
+            },
+            {
+              "target": "Sonate N° 5 En Fa Majeur, Op. 24 \"Printemps\"",
+              "work_tracks": 4,
+              "credited_tracks": 4,
+              "track_ids": [
+                93997767,
+                93997768,
+                93997769,
+                93997770
+              ]
+            }
+          ],
+          "reasons": [
+            "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+            "Warner publisher search record identifies the Menuhin Spring/Kreutzer reissue as1957–1959recordings. Source French HMV1959phonogram lists Yehudi/HephzibahMenuhin; cached Warner contains all three Kreutzer and four Spring movements, explicit violin/piano and Beethoven credits. It is not a different pianist or concerto anthology. Digital1961release placeholder is preserved, not treated as recording date.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Recording-family evidence does not verify exact pressing, mastering, session takes or audio. Raw source, normalized collection and Spotify remain unchanged."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Sonate N° 9 En La Majeur, Op. 47 \"A Kreutzer\"",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  93997771,
+                  93997772,
+                  93997773
+                ]
+              },
+              {
+                "target": "Sonate N° 5 En Fa Majeur, Op. 24 \"Printemps\"",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  93997767,
+                  93997768,
+                  93997769,
+                  93997770
+                ]
+              }
+            ]
+          },
+          "recording_review": "Warner publisher search record identifies the Menuhin Spring/Kreutzer reissue as1957–1959recordings. Source French HMV1959phonogram lists Yehudi/HephzibahMenuhin; cached Warner contains all three Kreutzer and four Spring movements, explicit violin/piano and Beethoven credits. It is not a different pianist or concerto anthology. Digital1961release placeholder is preserved, not treated as recording date.",
+          "review_sources": [
+            "https://www.discogs.com/release/6181503",
+            "https://wmg.jp/yehudimenuhin/discography/22868"
+          ]
+        }
+      ],
       "query": "yehudi menuhin beethoven sonates pour piano et violon ndeg5 printemps ndeg9 a kreutzer",
       "searched_at": "2026-11-12T16:46:40.392859+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+        "Warner publisher search record identifies the Menuhin Spring/Kreutzer reissue as1957–1959recordings. Source French HMV1959phonogram lists Yehudi/HephzibahMenuhin; cached Warner contains all three Kreutzer and four Spring movements, explicit violin/piano and Beethoven credits. It is not a different pianist or concerto anthology. Digital1961release placeholder is preserved, not treated as recording date.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Recording-family evidence does not verify exact pressing, mastering, session takes or audio. Raw source, normalized collection and Spotify remain unchanged."
       ]
     },
     "2268139": {
@@ -112111,14 +113327,88 @@
       ]
     },
     "3144336": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0002894229712",
+        "name": "Beethoven: Violin Concerto/Egmont Overture",
+        "artists": [
+          "Herman Krebbers"
+        ],
+        "label": "Decca Music Group Ltd.",
+        "release_date": "1989-01-01",
+        "image": "https://static.qobuz.com/images/covers/12/97/0002894229712_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/beethoven-violin-concerto-egmont-overture-herman-krebbers-royal-concertgebouw-orchestra-bernard-haitink/0002894229712"
+      },
+      "candidates": [
+        {
+          "id": "0002894229712",
+          "name": "Beethoven: Violin Concerto/Egmont Overture",
+          "artists": [
+            "Herman Krebbers"
+          ],
+          "label": "Decca Music Group Ltd.",
+          "release_date": "1989-01-01",
+          "image": "https://static.qobuz.com/images/covers/12/97/0002894229712_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/beethoven-violin-concerto-egmont-overture-herman-krebbers-royal-concertgebouw-orchestra-bernard-haitink/0002894229712",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 1,
+          "target_count": 1,
+          "required_performers": [
+            "Bernard Haitink",
+            "Herman Krebbers",
+            "Concertgebouworkest"
+          ],
+          "programme": [
+            {
+              "target": "Vioolconcert In D, Op. 61",
+              "work_tracks": 3,
+              "credited_tracks": 3,
+              "track_ids": [
+                522113,
+                522114,
+                522115
+              ]
+            }
+          ],
+          "reasons": [
+            "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+            "Eloquence identifies Krebbers/Haitink/Concertgebouw Beethoven violin concerto, recorded December1973. Source Philips6599851with1975phonogram date names the same cast and Kreisler cadenzas. Cached Decca4229712contains all three movements; positive Kreisler Cadenzor credit is present. Egmont is an extra, not a source requirement; source date is not a session date.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Recording-family evidence does not verify exact pressing, mastering, session takes or audio. Raw source, normalized collection and Spotify remain unchanged."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "Vioolconcert In D, Op. 61",
+                "status": "complete",
+                "scope": "reviewed-bound-tracks",
+                "track_ids": [
+                  522113,
+                  522114,
+                  522115
+                ]
+              }
+            ]
+          },
+          "recording_review": "Eloquence identifies Krebbers/Haitink/Concertgebouw Beethoven violin concerto, recorded December1973. Source Philips6599851with1975phonogram date names the same cast and Kreisler cadenzas. Cached Decca4229712contains all three movements; positive Kreisler Cadenzor credit is present. Egmont is an extra, not a source requirement; source date is not a session date.",
+          "review_sources": [
+            "https://www.discogs.com/release/3144336",
+            "https://www.eloquenceclassics.com/releases-archive/beethoven-the-concertos/"
+          ]
+        }
+      ],
       "query": "bernard haitink beethoven vioolconcert",
       "searched_at": "2026-11-12T17:01:56.098931+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Reviewed track bindings cover every named piece. Extra tracks stay outside that programme.",
+        "Eloquence identifies Krebbers/Haitink/Concertgebouw Beethoven violin concerto, recorded December1973. Source Philips6599851with1975phonogram date names the same cast and Kreisler cadenzas. Cached Decca4229712contains all three movements; positive Kreisler Cadenzor credit is present. Egmont is an extra, not a source requirement; source date is not a session date.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Recording-family evidence does not verify exact pressing, mastering, session takes or audio. Raw source, normalized collection and Spotify remain unchanged."
       ]
     },
     "6029612": {

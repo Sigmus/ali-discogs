@@ -136,6 +136,20 @@ def assess(row, album, review):
             item['target'] = effective['_reviewed_title_sources'].get(item['target'], item['target'])
     else:
         evidence = evaluate(row, album)
+    if review.get('expected_recording_groups'):
+        groups = review['expected_recording_groups']
+        if set(groups) != {p['target'] for p in evidence['programme']}:
+            raise ValueError('Every target needs its exact reviewed recording group')
+        for item in evidence['programme']:
+            group = item.get('recording_group')
+            if (group != groups[item['target']] or not group
+                    or item['track_ids'] != group['track_ids']
+                    or item['credited_tracks'] != len(group['track_ids'])):
+                raise ValueError('Reviewed complete recording group changed')
+            # Existing group policy already checks conductor/orchestra throughout
+            # and every named soloist within this same contiguous work group.
+            # Other recordings in a compilation are extras, not missing movements.
+            item['work_tracks'] = len(group['track_ids'])
     result = {'discogs_id': review['discogs_id'], 'album_id': review['album_id'],
               'decision': review['decision'], 'recording_review': review['recording_review'],
               'sources': review['sources'], 'limitations': review['limitations'],

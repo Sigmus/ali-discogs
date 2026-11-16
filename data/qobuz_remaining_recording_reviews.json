@@ -10113,6 +10113,1366 @@
           "source_url": "https://www.eloquenceclassics.com/releases-archive/christian-ferras-edition/"
         }
       ]
+    },
+    {
+      "discogs_id": "1660485",
+      "album_id": "0002894190672",
+      "target_sha256": "89bb9fcc12d1f304955029999a7bb0a24542aa433a457849c956940af87f810e",
+      "album_sha256": "8cded62b0f69fd67a4463d8eae691f9a77bb02dec157f07078cc7c0f24717870",
+      "source_sha256": "21ddb1ca78af9fdb47cfa3ef71002a8a176867391f921c654e98d5629182576a",
+      "sources": [
+        "https://www.discogs.com/release/1660485",
+        "https://www.universalmusic.it/musica-classica/album/nathan-milstein-complete-deutsche-grammophon-recording_33149760023/"
+      ],
+      "limitations": [
+        "Recording-family evidence does not verify exact pressing, mastering, session takes or audio. Raw source, normalized collection and Spotify remain unchanged."
+      ],
+      "decision": "probable",
+      "recording_review": "Universal publisher identifies Milstein/Vienna/Abbado and the DGproduction family. Source DG2530359pairs TchaikovskyOp35andMendelssohnOp64; cached DG4190672contains all six numbered movements with positive matching soloist, conductor, orchestra and per-track composers. Source1973phonogram date and digital1987release are distinct, not session-date equivalence.",
+      "external_source_files": [
+        {
+          "path": "data/review_sources/fullsupport16-1660485/publisher-observation.txt",
+          "sha256": "637e6f42f9c840b5c4f3cb5abec208cbaa6ac59a82568e7fc0cb3ccd842e29ab",
+          "source_url": "https://www.universalmusic.it/musica-classica/album/nathan-milstein-complete-deutsche-grammophon-recording_33149760023/"
+        }
+      ],
+      "review_kind": "bound-tracks",
+      "expected": {
+        "Konzert Für Violine Und Orchester D-Dur Op. 35": [
+          520027,
+          520028,
+          520029
+        ],
+        "Konzert Für Violine Und Orchester E-Moll Op. 64": [
+          520030,
+          520031,
+          520032
+        ]
+      },
+      "required_performers": [
+        "Claudio Abbado",
+        "Nathan Milstein",
+        "Wiener Philharmoniker"
+      ],
+      "extra_track_ids": [],
+      "adds": [],
+      "marks": [
+        {
+          "track_id": 520027,
+          "text": "Tchaikovsky: Violin Concerto in D Major, Op. 35: I. Allegro moderato",
+          "composer_equals": "Pyotr Ilyich Tchaikovsky",
+          "isrc_equals": "DEF057201181"
+        },
+        {
+          "track_id": 520028,
+          "text": "Tchaikovsky: Violin Concerto in D Major, Op. 35: II. Canzonetta. Andante",
+          "composer_equals": "Pyotr Ilyich Tchaikovsky",
+          "isrc_equals": "DEF057201182"
+        },
+        {
+          "track_id": 520029,
+          "text": "Tchaikovsky: Violin Concerto in D Major, Op. 35: III. Finale. Allegro vivacissimo",
+          "composer_equals": "Pyotr Ilyich Tchaikovsky",
+          "isrc_equals": "DEF057201183"
+        },
+        {
+          "track_id": 520030,
+          "text": "Mendelssohn: Violin Concerto in E Minor, Op. 64: I. Allegro molto appassionato –",
+          "composer_equals": "Felix Mendelssohn",
+          "isrc_equals": "DEF057301841"
+        },
+        {
+          "track_id": 520031,
+          "text": "Mendelssohn: Violin Concerto in E Minor, Op. 64: II. Andante –",
+          "composer_equals": "Felix Mendelssohn",
+          "isrc_equals": "DEF057301842"
+        },
+        {
+          "track_id": 520032,
+          "text": "Mendelssohn: Violin Concerto in E Minor, Op. 64: III. Allegretto non troppo – Allegro molto vivace",
+          "composer_equals": "Felix Mendelssohn",
+          "isrc_equals": "DEF057301843"
+        }
+      ],
+      "numbered_movement_runs": [
+        {
+          "target": "Konzert Für Violine Und Orchester D-Dur Op. 35",
+          "movements": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "target": "Konzert Für Violine Und Orchester E-Moll Op. 64",
+          "movements": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "discogs_id": "2671188",
+      "album_id": "ukkiq8sj0z2na",
+      "target_sha256": "b7a33a06f96338f439cde168f9bbf4cee35de1441e0d8eb64804ebc1a7124cd7",
+      "album_sha256": "f4739bc88a15a189f86d1c654ab4a1519c4f547c21b32eb7d48e29a686170b0e",
+      "source_sha256": "a35e551dc3f787d1d861a90af54719eb16d345757163cbf113cc2e21e01bada7",
+      "sources": [
+        "https://www.discogs.com/release/2671188",
+        "https://www.warnerclassics.com/release/brahms-complete-symphonies-overtures-haydn-variations-violin-concerto-requiem-alto-rhapsody"
+      ],
+      "limitations": [
+        "Recording-family evidence does not verify exact pressing, mastering, session takes or audio. Raw source, normalized collection and Spotify remain unchanged."
+      ],
+      "decision": "probable",
+      "recording_review": "Warner identifies this2024Klemperer Brahms box as remastered from original tapes for the2023complete edition. Source HMV/EMIbox lists four Brahms symphonies with Klemperer/Philharmonia; all16numbered movements have the same positive cast/composer. Other anthology contents remain extras; no credit is borrowed from Requiem or violin concerto.",
+      "external_source_files": [
+        {
+          "path": "data/review_sources/fullsupport16-2671188/publisher-observation.txt",
+          "sha256": "24d6dd6a2fa60f069ed6df96fede762aa174a25f83a70607c082dc2cb68a1dc3",
+          "source_url": "https://www.warnerclassics.com/release/brahms-complete-symphonies-overtures-haydn-variations-violin-concerto-requiem-alto-rhapsody"
+        }
+      ],
+      "review_kind": "bound-tracks",
+      "expected": {
+        "Sinfonie Nr. 1 C-moll Op. 68": [
+          284858674,
+          284858675,
+          284858676,
+          284858677
+        ],
+        "Sinfonie Nr. 2 D-dur Op. 73": [
+          284858678,
+          284858679,
+          284858680,
+          284858681
+        ],
+        "Sinfonie Nr. 3 F-dur Op. 90": [
+          284858683,
+          284858684,
+          284858685,
+          284858686
+        ],
+        "Sinfonie Nr. 4 E-moll Op. 98": [
+          284858688,
+          284858689,
+          284858690,
+          284858691
+        ]
+      },
+      "required_performers": [
+        "Otto Klemperer",
+        "Philharmonia Orchestra"
+      ],
+      "extra_track_ids": [
+        284858664,
+        284858665,
+        284858666,
+        284858667,
+        284858668,
+        284858669,
+        284858670,
+        284858671,
+        284858672,
+        284858673,
+        284858682,
+        284858687,
+        284858692,
+        284858693,
+        284858694,
+        284858695,
+        284858696,
+        284858697,
+        284858698,
+        284858699,
+        284858700,
+        284858701,
+        284858702
+      ],
+      "adds": [],
+      "marks": [
+        {
+          "track_id": 284858674,
+          "text": "Symphony No. 1 in C Minor, Op. 68: I. Un poco sostenuto - Allegro - Meno allegro",
+          "composer_equals": "Johannes Brahms",
+          "isrc_equals": "GBAYC2202863"
+        },
+        {
+          "track_id": 284858675,
+          "text": "Symphony No. 1 in C Minor, Op. 68: II. Andante sostenuto",
+          "composer_equals": "Johannes Brahms",
+          "isrc_equals": "GBAYC2202864"
+        },
+        {
+          "track_id": 284858676,
+          "text": "Symphony No. 1 in C Minor, Op. 68: III. Un poco allegretto e grazioso",
+          "composer_equals": "Johannes Brahms",
+          "isrc_equals": "GBAYC2202865"
+        },
+        {
+          "track_id": 284858677,
+          "text": "Symphony No. 1 in C Minor, Op. 68: IV. Adagio - Più andante - Allegro non troppo, ma con brio - Più allegro",
+          "composer_equals": "Johannes Brahms",
+          "isrc_equals": "GBAYC2202866"
+        },
+        {
+          "track_id": 284858678,
+          "text": "Symphony No. 2 in D Major, Op. 73: I. Allegro non troppo",
+          "composer_equals": "Johannes Brahms",
+          "isrc_equals": "GBAYC2202858"
+        },
+        {
+          "track_id": 284858679,
+          "text": "Symphony No. 2 in D Major, Op. 73: II. Adagio non troppo",
+          "composer_equals": "Johannes Brahms",
+          "isrc_equals": "GBAYC2202859"
+        },
+        {
+          "track_id": 284858680,
+          "text": "Symphony No. 2 in D Major, Op. 73: III. Allegretto grazioso. Quasi andantino - Presto ma non assai - Tempo I",
+          "composer_equals": "Johannes Brahms",
+          "isrc_equals": "GBAYC2202860"
+        },
+        {
+          "track_id": 284858681,
+          "text": "Symphony No. 2 in D Major, Op. 73: IV. Allegro con spirito",
+          "composer_equals": "Johannes Brahms",
+          "isrc_equals": "GBAYC2202861"
+        },
+        {
+          "track_id": 284858683,
+          "text": "Symphony No. 3 in F Major, Op. 90: I. Allegro con brio",
+          "composer_equals": "Johannes Brahms",
+          "isrc_equals": "GBAYC2202871"
+        },
+        {
+          "track_id": 284858684,
+          "text": "Symphony No. 3 in F Major, Op. 90: II. Andante",
+          "composer_equals": "Johannes Brahms",
+          "isrc_equals": "GBAYC2202872"
+        },
+        {
+          "track_id": 284858685,
+          "text": "Symphony No. 3 in F Major, Op. 90: III. Poco allegretto",
+          "composer_equals": "Johannes Brahms",
+          "isrc_equals": "GBAYC2202873"
+        },
+        {
+          "track_id": 284858686,
+          "text": "Symphony No. 3 in F Major, Op. 90: IV. Allegro",
+          "composer_equals": "Johannes Brahms",
+          "isrc_equals": "GBAYC2202874"
+        },
+        {
+          "track_id": 284858688,
+          "text": "Symphony No. 4 in E Minor, Op. 98: I. Allegro non troppo",
+          "composer_equals": "Johannes Brahms",
+          "isrc_equals": "GBAYC2202867"
+        },
+        {
+          "track_id": 284858689,
+          "text": "Symphony No. 4 in E Minor, Op. 98: II. Andante moderato",
+          "composer_equals": "Johannes Brahms",
+          "isrc_equals": "GBAYC2202868"
+        },
+        {
+          "track_id": 284858690,
+          "text": "Symphony No. 4 in E Minor, Op. 98: III. Allegro giocoso",
+          "composer_equals": "Johannes Brahms",
+          "isrc_equals": "GBAYC2202869"
+        },
+        {
+          "track_id": 284858691,
+          "text": "Symphony No. 4 in E Minor, Op. 98: IV. Allegro energico e passionato",
+          "composer_equals": "Johannes Brahms",
+          "isrc_equals": "GBAYC2202870"
+        }
+      ],
+      "numbered_movement_runs": [
+        {
+          "target": "Sinfonie Nr. 1 C-moll Op. 68",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "target": "Sinfonie Nr. 2 D-dur Op. 73",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "target": "Sinfonie Nr. 3 F-dur Op. 90",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "target": "Sinfonie Nr. 4 E-moll Op. 98",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "discogs_id": "2831179",
+      "album_id": "0002894272552",
+      "target_sha256": "f2c11fd9f1d1a642c575325bfc64b4b465affbe49714ba43b83582f7dfdd0392",
+      "album_sha256": "832c844b69155dd7956b407d6f820e26d5b0f14177800736d9e7c56c6df6f89f",
+      "source_sha256": "07feb404987e9a5d3644f1ae8e79a2a84817056b4e9f074d33becf7db8650d1e",
+      "sources": [
+        "https://www.discogs.com/release/2831179"
+      ],
+      "limitations": [
+        "Recording-family evidence does not verify exact pressing, mastering, session takes or audio. Raw source, normalized collection and Spotify remain unchanged."
+      ],
+      "decision": "withhold",
+      "recording_review": "All23digital mass sections are present, not just the one fully-scored AgnusDei section. Source has five larger Kyrie/Gloria/Credo/Sanctus/Agnus bands. Raw source organist RudolfScholz is absent normalized principal list but must remain required, alongside four singers, choir and chorus master. Positive credits vary by section; existing strict whole-track policy only supports one section. No reviewed five-band/23section mapping or source-bound complete-mass credit treatment is adopted here. Do not drop Scholz or borrow singers between unrelated Mozart works.",
+      "works": []
+    },
+    {
+      "discogs_id": "3144336",
+      "album_id": "0002894229712",
+      "target_sha256": "37a4ba1ab96dcd4202c5457ed8b506ef04c5855fca789df21824501b4a1ac875",
+      "album_sha256": "686ec152413597870b6789b2368308324b0bad85270316c0f2b58d3b613e6b25",
+      "source_sha256": "0612d7ff054a5fff2b99f697ef14a3945e48adee22edd1a849971be130e70bac",
+      "sources": [
+        "https://www.discogs.com/release/3144336",
+        "https://www.eloquenceclassics.com/releases-archive/beethoven-the-concertos/"
+      ],
+      "limitations": [
+        "Recording-family evidence does not verify exact pressing, mastering, session takes or audio. Raw source, normalized collection and Spotify remain unchanged."
+      ],
+      "decision": "probable",
+      "recording_review": "Eloquence identifies Krebbers/Haitink/Concertgebouw Beethoven violin concerto, recorded December1973. Source Philips6599851with1975phonogram date names the same cast and Kreisler cadenzas. Cached Decca4229712contains all three movements; positive Kreisler Cadenzor credit is present. Egmont is an extra, not a source requirement; source date is not a session date.",
+      "external_source_files": [
+        {
+          "path": "data/review_sources/fullsupport16-3144336/publisher-observation.txt",
+          "sha256": "c4d6582f6a85983a8b6085b01aa3c7bc430872ad866cf694cffc5e319c985bf5",
+          "source_url": "https://www.eloquenceclassics.com/releases-archive/beethoven-the-concertos/"
+        }
+      ],
+      "review_kind": "bound-tracks",
+      "expected": {
+        "Vioolconcert In D, Op. 61": [
+          522113,
+          522114,
+          522115
+        ]
+      },
+      "required_performers": [
+        "Bernard Haitink",
+        "Herman Krebbers",
+        "Concertgebouworkest"
+      ],
+      "extra_track_ids": [
+        522116
+      ],
+      "adds": [],
+      "marks": [
+        {
+          "track_id": 522113,
+          "text": "Beethoven: Violin Concerto in D Major, Op. 61: I. Allegro ma non troppo",
+          "composer_equals": "Ludwig van Beethoven",
+          "isrc_equals": "NLA507400005"
+        },
+        {
+          "track_id": 522114,
+          "text": "Beethoven: Violin Concerto in D Major, Op. 61: II. Larghetto",
+          "composer_equals": "Ludwig van Beethoven",
+          "isrc_equals": "NLA507400006"
+        },
+        {
+          "track_id": 522115,
+          "text": "Beethoven: Violin Concerto in D Major, Op. 61: III. Rondo. Allegro",
+          "composer_equals": "Ludwig van Beethoven",
+          "isrc_equals": "NLA507400007"
+        }
+      ],
+      "numbered_movement_runs": [
+        {
+          "target": "Vioolconcert In D, Op. 61",
+          "movements": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "discogs_id": "3675625",
+      "album_id": "p7loo00p37ikc",
+      "target_sha256": "37bb444ee9ca11577defc48740a5b07d447e4e2c2921b54cbbbb9042ceaf9349",
+      "album_sha256": "84f93e6c6e28aa0d763d51192f51a7947b4de3eaa707702cc6609407ef123ff0",
+      "source_sha256": "8911c86bfe16d8c0f8b2993912f7b10b3cf86d1a3734d0f7c3746057d66221d5",
+      "sources": [
+        "https://www.discogs.com/release/3675625",
+        "https://www.deutschegrammophon.com/en/catalogue/products/new-years-concert-1987-5517"
+      ],
+      "limitations": [
+        "Recording-family evidence does not verify exact pressing, mastering, session takes or audio. Raw source, normalized collection and Spotify remain unchanged."
+      ],
+      "decision": "probable",
+      "recording_review": "DGpublisher identifies the1987Vienna NewYear concert with Battle/Karajan/Vienna. Cached DG2022reissue has the same event and all12named source pieces; added Kaiserwalzer stays an extra. Source explicit B4Battle credit requires her on VoicesOfSpring, never on instrumental works; existing source-derived scope is retained. Source liveMusikvereinJanuary1987and producer/engineering names corroborate this family.",
+      "external_source_files": [
+        {
+          "path": "data/review_sources/fullsupport16-3675625/publisher-observation.txt",
+          "sha256": "0c4369a451398288759766f6bed16f06284fbf630e1e0c8a2dce4053f4c421bf",
+          "source_url": "https://www.deutschegrammophon.com/en/catalogue/products/new-years-concert-1987-5517"
+        }
+      ],
+      "works": [
+        {
+          "target": "Die Fledermaus Ouvertüre",
+          "movements": [
+            null
+          ],
+          "scope": "listed-target-piece",
+          "source": "Raw named source piece and exact one-track digital match",
+          "reason": "Single complete named piece, existing source-specific Battle requirement and frozen album/source hashes."
+        },
+        {
+          "target": "Sphärenklänge Op.235",
+          "movements": [
+            null
+          ],
+          "scope": "listed-target-piece",
+          "source": "Raw named source piece and exact one-track digital match",
+          "reason": "Single complete named piece, existing source-specific Battle requirement and frozen album/source hashes."
+        },
+        {
+          "target": "Annen-Polka Op.117",
+          "movements": [
+            null
+          ],
+          "scope": "listed-target-piece",
+          "source": "Raw named source piece and exact one-track digital match",
+          "reason": "Single complete named piece, existing source-specific Battle requirement and frozen album/source hashes."
+        },
+        {
+          "target": "Delirien Op.212",
+          "movements": [
+            null
+          ],
+          "scope": "listed-target-piece",
+          "source": "Raw named source piece and exact one-track digital match",
+          "reason": "Single complete named piece, existing source-specific Battle requirement and frozen album/source hashes."
+        },
+        {
+          "target": "Vergnügungszug Op.281",
+          "movements": [
+            null
+          ],
+          "scope": "listed-target-piece",
+          "source": "Raw named source piece and exact one-track digital match",
+          "reason": "Single complete named piece, existing source-specific Battle requirement and frozen album/source hashes."
+        },
+        {
+          "target": "Pizzicato-Polka",
+          "movements": [
+            null
+          ],
+          "scope": "listed-target-piece",
+          "source": "Raw named source piece and exact one-track digital match",
+          "reason": "Single complete named piece, existing source-specific Battle requirement and frozen album/source hashes."
+        },
+        {
+          "target": "Beliebte Annen-Polka Op.137",
+          "movements": [
+            null
+          ],
+          "scope": "listed-target-piece",
+          "source": "Raw named source piece and exact one-track digital match",
+          "reason": "Single complete named piece, existing source-specific Battle requirement and frozen album/source hashes."
+        },
+        {
+          "target": "Unter Donner Und Blitz Op.324",
+          "movements": [
+            null
+          ],
+          "scope": "listed-target-piece",
+          "source": "Raw named source piece and exact one-track digital match",
+          "reason": "Single complete named piece, existing source-specific Battle requirement and frozen album/source hashes."
+        },
+        {
+          "target": "Frühlingsstimmen Op.410",
+          "movements": [
+            null
+          ],
+          "scope": "listed-target-piece",
+          "source": "Raw named source piece and exact one-track digital match",
+          "reason": "Single complete named piece, existing source-specific Battle requirement and frozen album/source hashes."
+        },
+        {
+          "target": "Ohne Sorgen Op.271",
+          "movements": [
+            null
+          ],
+          "scope": "listed-target-piece",
+          "source": "Raw named source piece and exact one-track digital match",
+          "reason": "Single complete named piece, existing source-specific Battle requirement and frozen album/source hashes."
+        },
+        {
+          "target": "An Der Schönen Blauen Donau Op.314",
+          "movements": [
+            null
+          ],
+          "scope": "listed-target-piece",
+          "source": "Raw named source piece and exact one-track digital match",
+          "reason": "Single complete named piece, existing source-specific Battle requirement and frozen album/source hashes."
+        },
+        {
+          "target": "Radetzky-Marsch Op.228",
+          "movements": [
+            null
+          ],
+          "scope": "listed-target-piece",
+          "source": "Raw named source piece and exact one-track digital match",
+          "reason": "Single complete named piece, existing source-specific Battle requirement and frozen album/source hashes."
+        }
+      ]
+    },
+    {
+      "discogs_id": "6181503",
+      "album_id": "ry4m3n5iqb25a",
+      "target_sha256": "267f8d86ae08a3208f685e8f19febe22834a971917271669199bea13922e2319",
+      "album_sha256": "26dede5e20eca1726bfe0657e9ee0a392799c2e89fbca1842bc7c740b0604c87",
+      "source_sha256": "20967add5404e3334b77a1c4ed5ae6790c3232444e8632c496e025f2e0c71243",
+      "sources": [
+        "https://www.discogs.com/release/6181503",
+        "https://wmg.jp/yehudimenuhin/discography/22868"
+      ],
+      "limitations": [
+        "Recording-family evidence does not verify exact pressing, mastering, session takes or audio. Raw source, normalized collection and Spotify remain unchanged."
+      ],
+      "decision": "probable",
+      "recording_review": "Warner publisher search record identifies the Menuhin Spring/Kreutzer reissue as1957–1959recordings. Source French HMV1959phonogram lists Yehudi/HephzibahMenuhin; cached Warner contains all three Kreutzer and four Spring movements, explicit violin/piano and Beethoven credits. It is not a different pianist or concerto anthology. Digital1961release placeholder is preserved, not treated as recording date.",
+      "external_source_files": [
+        {
+          "path": "data/review_sources/fullsupport16-6181503/publisher-observation.txt",
+          "sha256": "df8912b4862099bcb69436acdd06731edd2b2e66a1ac934d4ec1cf4ae855b87f",
+          "source_url": "https://wmg.jp/yehudimenuhin/discography/22868"
+        }
+      ],
+      "review_kind": "bound-tracks",
+      "expected": {
+        "Sonate N° 9 En La Majeur, Op. 47 \"A Kreutzer\"": [
+          93997771,
+          93997772,
+          93997773
+        ],
+        "Sonate N° 5 En Fa Majeur, Op. 24 \"Printemps\"": [
+          93997767,
+          93997768,
+          93997769,
+          93997770
+        ]
+      },
+      "required_performers": [
+        "Yehudi Menuhin",
+        "Hephzibah Menuhin"
+      ],
+      "extra_track_ids": [],
+      "adds": [],
+      "marks": [
+        {
+          "track_id": 93997767,
+          "text": "Violin Sonata No. 5 in F Major, Op. 24 \"Spring\": I. Allegro",
+          "composer_equals": "Ludwig van Beethoven",
+          "isrc_equals": "GBDYG1600193"
+        },
+        {
+          "track_id": 93997768,
+          "text": "Violin Sonata No. 5 in F Major, Op. 24 \"Spring\": II. Adagio molto espressivo",
+          "composer_equals": "Ludwig van Beethoven",
+          "isrc_equals": "GBDYG1600194"
+        },
+        {
+          "track_id": 93997769,
+          "text": "Violin Sonata No. 5 in F Major, Op. 24 \"Spring\": III. Scherzo. Allegro molto - Trio",
+          "composer_equals": "Ludwig van Beethoven",
+          "isrc_equals": "GBDYG1600195"
+        },
+        {
+          "track_id": 93997770,
+          "text": "Violin Sonata No. 5 in F Major, Op. 24 \"Spring\": IV. Rondo. Allegro ma non troppo",
+          "composer_equals": "Ludwig van Beethoven",
+          "isrc_equals": "GBDYG1600196"
+        },
+        {
+          "track_id": 93997771,
+          "text": "Violin Sonata No. 9 in A Major, Op. 47 \"Kreutzer\": I. Adagio sostenuto - Presto",
+          "composer_equals": "Ludwig van Beethoven",
+          "isrc_equals": "GBDYG1600201"
+        },
+        {
+          "track_id": 93997772,
+          "text": "Violin Sonata No. 9 in A Major, Op. 47 \"Kreutzer\": II. Andante con variazioni",
+          "composer_equals": "Ludwig van Beethoven",
+          "isrc_equals": "GBDYG1600202"
+        },
+        {
+          "track_id": 93997773,
+          "text": "Violin Sonata No. 9 in A Major, Op. 47 \"Kreutzer\": III. Finale. Presto",
+          "composer_equals": "Ludwig van Beethoven",
+          "isrc_equals": "GBDYG1600203"
+        }
+      ],
+      "numbered_movement_runs": [
+        {
+          "target": "Sonate N° 9 En La Majeur, Op. 47 \"A Kreutzer\"",
+          "movements": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "target": "Sonate N° 5 En Fa Majeur, Op. 24 \"Printemps\"",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "discogs_id": "6848787",
+      "album_id": "k2nr8m5ezjeob",
+      "target_sha256": "8d6c473006b7935a1e62c3f0f1266a994c595ce1ce94650a02c42a350421daa1",
+      "album_sha256": "3c472f61afbb9d21b154b891c06aa16aa22306b12fab7089021b031a458c581d",
+      "source_sha256": "4474c7a817a0df4ebdcb37db9a95f1732810989197a2f912abea42dd50130d0f",
+      "sources": [
+        "https://www.discogs.com/release/6848787"
+      ],
+      "limitations": [
+        "Recording-family evidence does not verify exact pressing, mastering, session takes or audio. Raw source, normalized collection and Spotify remain unchanged."
+      ],
+      "decision": "withhold",
+      "recording_review": "Nar Classical15tracks supply all named sonatas and fillers with performer-specific evidence, but do not establish original EMI/COLH transfer/take identity. Raw source Op102/1has three side bands versus two digital movements, and Op5/2joins sections into one band. Source explicit pianist scopes must be preserved; no global requirement for every pianist on every work. Other cached editions are partial, different partners or cannot establish same transfer.",
+      "works": []
+    },
+    {
+      "discogs_id": "7077802",
+      "album_id": "0724356233751",
+      "target_sha256": "0fff505b54087baf87876f8d1da9943efc80fb424be3d9cb5347e5a36690a295",
+      "album_sha256": "6130a99e31da7983b854ed9b9ce5d1298ec115b16909adedbf75359715674cff",
+      "source_sha256": "8c9965d21ff5e8823b012ba3f076e8675a1e58982e458bfb23eaf50e80c267ea",
+      "sources": [
+        "https://www.discogs.com/release/7077802"
+      ],
+      "limitations": [
+        "Recording-family evidence does not verify exact pressing, mastering, session takes or audio. Raw source, normalized collection and Spotify remain unchanged."
+      ],
+      "decision": "withhold",
+      "recording_review": "All six BWV825–830programmes and40digital tracks are present. Source labels BWV829as PartitaNr4inGmajor although digital has No5, and BWV828source lists Sarabande before Aria whereas digital orders Aria before Sarabande. MinuetsI/IIare combined, not a missing track. Same discrepancies survive the other full Warner anthology; full recording-family/source-label reconciliation is unresolved.",
+      "works": []
+    },
+    {
+      "discogs_id": "7467218",
+      "album_id": "0724356233751",
+      "target_sha256": "45e22bc85b878edf8dace468d5e2f0a0a4a4be085c941a346f1319f804ff161e",
+      "album_sha256": "6130a99e31da7983b854ed9b9ce5d1298ec115b16909adedbf75359715674cff",
+      "source_sha256": "7e61338e721fafb4ae9452ed84b48cc9f5a01fc44d1b82be1d261b2c7c9b56e7",
+      "sources": [
+        "https://www.discogs.com/release/7467218"
+      ],
+      "limitations": [
+        "Recording-family evidence does not verify exact pressing, mastering, session takes or audio. Raw source, normalized collection and Spotify remain unchanged."
+      ],
+      "decision": "withhold",
+      "recording_review": "Separate source pressing has the same complete six-BWV programme and the same BWV829No4versusNo5and BWV828Aria/Sarabande order conflicts. All40tracks present, not missing a partita. First-partita two minuets share one band. Must preserve separate source hash and not inherit another pressing approval.",
+      "works": []
+    },
+    {
+      "discogs_id": "8357595",
+      "album_id": "3610155572481",
+      "target_sha256": "a2fa053a2b6ab0e8a0642a636b3304bcb2b2d062ad45421f24138a004f19956f",
+      "album_sha256": "61159c4d135835a063ded66189b6440908991cb6d3befe8ba2b004b37f533fc2",
+      "source_sha256": "ae1b0b3894a0c8ce0b18290110d09b11c72036d97c82dba8e05aa971a6b43107",
+      "sources": [
+        "https://www.discogs.com/release/8357595"
+      ],
+      "limitations": [
+        "Recording-family evidence does not verify exact pressing, mastering, session takes or audio. Raw source, normalized collection and Spotify remain unchanged."
+      ],
+      "decision": "withhold",
+      "recording_review": "All three source BWV1052/1056/1055concertos appear complete in9BNFtracks. Source explicitly dates sessions January1933/April1938/October1936; digital album broadly says RecordedIn1933. This cannot establish all three session identities. Soloist/orchestra positive credits do not independently prove Fischer conductor role or transfer/takes. Other cached candidates are different works.",
+      "works": []
+    },
+    {
+      "discogs_id": "9458258",
+      "album_id": "0002894714672",
+      "target_sha256": "958dee275adddee1880d25d1ad829da7cb19da89390c1bd58157eff4b4a3d282",
+      "album_sha256": "f95313371b7aff8a67071c3e9d4c1f51d15b346d28131a9fcd259872be492e04",
+      "source_sha256": "68575f551ad27966584d83090c1a96718948c9a844c9d5eebc94c0e9478dece4",
+      "sources": [
+        "https://www.discogs.com/release/9458258"
+      ],
+      "limitations": [
+        "Recording-family evidence does not verify exact pressing, mastering, session takes or audio. Raw source, normalized collection and Spotify remain unchanged."
+      ],
+      "decision": "withhold",
+      "recording_review": "Source DeccaSXL6363has1968phonogram/reissue evidence. Selected DG4714672contains later DGAbbado/LSOgroups; primary publisher distinguishes the earlier Decca readings, and DGselectedISRCsretain1984/1985family markers. Same conductor/orchestra/work is not sufficient to equate different sessions. Other cached partial DGorlive albums do not establish the source Decca coupling.",
+      "works": []
+    },
+    {
+      "discogs_id": "9855113",
+      "album_id": "0724356262157",
+      "target_sha256": "b91ecee453104a21e458ab2318baffe0842f75f52dc9c65df702f4fbf8790118",
+      "album_sha256": "0ac9842fe7e7644837c232c872060f8ba9c71058c2a86c7c428b4e454e3630e4",
+      "source_sha256": "5c7f447c23e7ebfbda6188cd9a58fe9ad6b2db81300338fcd06fdaf157e87dd0",
+      "sources": [
+        "https://www.discogs.com/release/9855113",
+        "https://wmg.jp/otto-klemperer/discography/29202"
+      ],
+      "limitations": [
+        "Recording-family evidence does not verify exact pressing, mastering, session takes or audio. Raw source, normalized collection and Spotify remain unchanged."
+      ],
+      "decision": "probable",
+      "recording_review": "Warner identifies Klemperer/NewPhilharmonia Bruckner6as November1964KingswayHall, distinct from Symphony5in1967. Source Columbia/EMI00599names the same cast and four movements; cached Warner6262157contains all four with positive Bruckner/conductor/orchestra credits. Wagner/Humperdinck fillers remain extras. Source does not establish a physical pressing or transfer.",
+      "external_source_files": [
+        {
+          "path": "data/review_sources/fullsupport16-9855113/publisher-observation.txt",
+          "sha256": "83df71349ea3c9c0036c5ad7577d27d0d0f212cbc7a0a7f52ba0cc4404c054f9",
+          "source_url": "https://wmg.jp/otto-klemperer/discography/29202"
+        }
+      ],
+      "review_kind": "bound-tracks",
+      "expected": {
+        "Sinfonie Nr. 6 A-Dur": [
+          4685781,
+          4685782,
+          4685783,
+          4685784
+        ]
+      },
+      "required_performers": [
+        "Otto Klemperer",
+        "New Philharmonia Orchestra"
+      ],
+      "extra_track_ids": [
+        4685779,
+        4685780
+      ],
+      "adds": [],
+      "marks": [
+        {
+          "track_id": 4685781,
+          "text": "Symphony No. 6 in A Major, WAB 106: I. Majestoso",
+          "composer_equals": "Anton BRUCKNER",
+          "isrc_equals": "GBAYC0301439"
+        },
+        {
+          "track_id": 4685782,
+          "text": "Symphony No. 6 in A Major, WAB 106: II. Adagio. Sehr feierlich",
+          "composer_equals": "Anton BRUCKNER",
+          "isrc_equals": "GBAYC0301440"
+        },
+        {
+          "track_id": 4685783,
+          "text": "Symphony No. 6 in A Major, WAB 106: III. Scherzo. Nicht schnell - Trio. Langsam",
+          "composer_equals": "Anton BRUCKNER",
+          "isrc_equals": "GBAYC0301441"
+        },
+        {
+          "track_id": 4685784,
+          "text": "Symphony No. 6 in A Major, WAB 106: IV. Bewegt, doch nicht zu schnell",
+          "composer_equals": "Anton BRUCKNER",
+          "isrc_equals": "GBAYC0301442"
+        }
+      ],
+      "numbered_movement_runs": [
+        {
+          "target": "Sinfonie Nr. 6 A-Dur",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ]
+        }
+      ]
+    },
+    {
+      "discogs_id": "10552903",
+      "album_id": "0002894540852",
+      "target_sha256": "f207e5256535a0edf1fb5cf0d7a781de479e6234169e342ef4932baf50420ade",
+      "album_sha256": "aaed6d77077cc156b7cd98dd9be63177f2cc021f2b51f521566c9248f1c4593b",
+      "source_sha256": "da1d88ef5d6e8e0040663090820f4d974d2f3e047ca86c1d201f885bcc83b592",
+      "sources": [
+        "https://www.discogs.com/release/10552903"
+      ],
+      "limitations": [
+        "Recording-family evidence does not verify exact pressing, mastering, session takes or audio. Raw source, normalized collection and Spotify remain unchanged."
+      ],
+      "decision": "withhold",
+      "recording_review": "All20source symphonies have credited candidate support, but completeness is not established by title coverage. Source K184has two bands: MoltoPresto3:00and Andante–Allegro5:04; digital only labels MoltoPresto3:04and Andante5:06. The duration strongly permits a joined Andante/Allegro, so do not claim the finale is missing. Both full/nearfullcached versions have the short label; K181alsojoined, K297includes alternate Andante. No exact joined-section/source20work map adopted.",
+      "works": []
+    },
+    {
+      "discogs_id": "10583401",
+      "album_id": "0002894791133",
+      "target_sha256": "aae97486102751f76c7a11a5780ca58b8fdb78f426d17fbb83d51e1fe7e8d1c1",
+      "album_sha256": "9cf508a6f59457fa4362ea885fc4555f1197e38471847ae9fe06fffc2371aa69",
+      "source_sha256": "ec3f057d4b8198e9a68469f534f4f883703225809027d0dd9043c484c926843e",
+      "sources": [
+        "https://www.discogs.com/release/10583401",
+        "https://www.deutschegrammophon.com/de/kuenstler-innen/wilhelm-kempff/pressestimmen/der-jahrhundertpianist-wilhelm-kempff-edition-260561"
+      ],
+      "limitations": [
+        "Recording-family evidence does not verify exact pressing, mastering, session takes or audio. Raw source, normalized collection and Spotify remain unchanged.",
+        "Kempff is omitted on two individual track credit strings; the existing contiguous-work credit policy supplies positive soloist evidence within each frozen three-movement group. No borrowing from another take, concerto or conductor."
+      ],
+      "decision": "probable",
+      "recording_review": "DGdistinguishes Kempff/Leitner1961Beethoven cycle from earlier PaulvanKempen recordings. Source DG138775pairs concertos2and4with Leitner/Berlin. Cached DG4791133contains both complete three-movement1961Leitner groups with positive named cast and Beethoven credits; frozen ISRC/title groups exclude earlier alternate concerto recordings. Exact reissue pressing and takes unverified.",
+      "external_source_files": [
+        {
+          "path": "data/review_sources/fullsupport16-10583401/publisher-observation.txt",
+          "sha256": "147c43e0cc1fe746fc2f57d188c899a4f7f9e60b0dff178aac9f52fd2a0c348e",
+          "source_url": "https://www.deutschegrammophon.com/de/kuenstler-innen/wilhelm-kempff/pressestimmen/der-jahrhundertpianist-wilhelm-kempff-edition-260561"
+        }
+      ],
+      "works": [
+        {
+          "target": "Konzert Für Klavier Und Orchester Nr. 2 B-Dur Op. 19",
+          "movements": [
+            1,
+            2,
+            3
+          ],
+          "scope": "whole-work-reviewed-contiguous-recording-group",
+          "source": "Three numbered source movements and frozen existing-policy recording group",
+          "reason": "Complete three-movement group; conductor/orchestra throughout and Kempff positively credited within this same group, never another recording."
+        },
+        {
+          "target": "Konzert Für Klavier Und Orchester Nr. 4 G-Dur Op. 58",
+          "movements": [
+            1,
+            2,
+            3
+          ],
+          "scope": "whole-work-reviewed-contiguous-recording-group",
+          "source": "Three numbered source movements and frozen existing-policy recording group",
+          "reason": "Complete three-movement group; conductor/orchestra throughout and Kempff positively credited within this same group, never another recording."
+        }
+      ],
+      "expected_recording_groups": {
+        "Konzert Für Klavier Und Orchester Nr. 2 B-Dur Op. 19": {
+          "track_ids": [
+            7726293,
+            7726295,
+            7726297
+          ],
+          "anchors": [
+            "Berliner Philharmoniker",
+            "Ferdinand Leitner"
+          ],
+          "scope": "contiguous-work-group",
+          "credit_policy": "Anchors on every track; each named performer evidenced within this group; no unknown extra musical main artists."
+        },
+        "Konzert Für Klavier Und Orchester Nr. 4 G-Dur Op. 58": {
+          "track_ids": [
+            7726305,
+            7726307,
+            7726309
+          ],
+          "anchors": [
+            "Berliner Philharmoniker",
+            "Ferdinand Leitner"
+          ],
+          "scope": "contiguous-work-group",
+          "credit_policy": "Anchors on every track; each named performer evidenced within this group; no unknown extra musical main artists."
+        }
+      }
+    },
+    {
+      "discogs_id": "12159256",
+      "album_id": "gewd7r35fi4ha",
+      "target_sha256": "e616b2c115999b54f04858764c36a98aef0629dc1ab0822013bdb9a72a319a0a",
+      "album_sha256": "64a82637ce7fbcd12958ff30e89a33539f441bea08d1041c2408a062f920f7c8",
+      "source_sha256": "c67efecc921dbedd8c05acc2e3ea9beea52e441eff5f1606f8bff29e604cda15",
+      "sources": [
+        "https://www.discogs.com/release/12159256",
+        "https://www.deutschegrammophon.com/en/catalogue/products/geza-anda-complete-deutsche-grammophon-recordings-12438"
+      ],
+      "limitations": [
+        "Recording-family evidence does not verify exact pressing, mastering, session takes or audio. Raw source, normalized collection and Spotify remain unchanged."
+      ],
+      "decision": "probable",
+      "recording_review": "DGidentifies the2021AndaCompleteEdition including Grieg/Schumann and Kubelik/Berlin. Source DG138888pairs SchumannOp54andGriegOp16with Anda/Kubelik/Berlin. Selected groups contain three numbered movements each with positive matching composer and cast; other Grieg recordings in239trackanthology remain extras. Source lacquer/reissue notes are not silently converted into session dates.",
+      "external_source_files": [
+        {
+          "path": "data/review_sources/fullsupport16-12159256/publisher-observation.txt",
+          "sha256": "ea129987286a67098dcf840877d7b14b9d50316f91dbff2d1c647fb50abb19c6",
+          "source_url": "https://www.deutschegrammophon.com/en/catalogue/products/geza-anda-complete-deutsche-grammophon-recordings-12438"
+        }
+      ],
+      "review_kind": "bound-tracks",
+      "expected": {
+        "Konzert Für Klavier Und Orchester A-moll Op. 54": [
+          129583917,
+          129583918,
+          129583919
+        ],
+        "Konzert Für Klavier Und Orchester A-moll Op. 16": [
+          129583914,
+          129583915,
+          129583916
+        ]
+      },
+      "required_performers": [
+        "Rafael Kubelik",
+        "Géza Anda",
+        "Berliner Philharmoniker"
+      ],
+      "extra_track_ids": [
+        129583894,
+        129583895,
+        129583896,
+        129583897,
+        129583898,
+        129583899,
+        129583900,
+        129583901,
+        129583902,
+        129583903,
+        129583904,
+        129583905,
+        129583906,
+        129583907,
+        129583908,
+        129583909,
+        129583910,
+        129583911,
+        129583912,
+        129583913,
+        129583920,
+        129583921,
+        129583922,
+        129583923,
+        129583924,
+        129583925,
+        129583926,
+        129583927,
+        129583928,
+        129583929,
+        129583930,
+        129583931,
+        129583932,
+        129583933,
+        129583934,
+        129583935,
+        129583936,
+        129583937,
+        129583938,
+        129583939,
+        129583940,
+        129583941,
+        129583942,
+        129583943,
+        129583944,
+        129583945,
+        129583946,
+        129583947,
+        129583948,
+        129583949,
+        129583950,
+        129583951,
+        129583952,
+        129583953,
+        129583954,
+        129583955,
+        129583956,
+        129583957,
+        129583958,
+        129583959,
+        129583960,
+        129583961,
+        129583962,
+        129583963,
+        129583964,
+        129583965,
+        129583966,
+        129583967,
+        129583968,
+        129583969,
+        129583970,
+        129583971,
+        129583972,
+        129583973,
+        129583974,
+        129583975,
+        129583976,
+        129583977,
+        129583978,
+        129583979,
+        129583980,
+        129583981,
+        129583982,
+        129583983,
+        129583984,
+        129583985,
+        129583986,
+        129583987,
+        129583988,
+        129583989,
+        129583990,
+        129583991,
+        129583992,
+        129583993,
+        129583994,
+        129583995,
+        129583996,
+        129583997,
+        129583998,
+        129583999,
+        129584000,
+        129584001,
+        129584002,
+        129584003,
+        129584004,
+        129584005,
+        129584006,
+        129584007,
+        129584008,
+        129584009,
+        129584010,
+        129584011,
+        129584012,
+        129584013,
+        129584014,
+        129584015,
+        129584016,
+        129584017,
+        129584018,
+        129584019,
+        129584020,
+        129584021,
+        129584022,
+        129584023,
+        129584024,
+        129584025,
+        129584026,
+        129584027,
+        129584028,
+        129584029,
+        129584030,
+        129584031,
+        129584032,
+        129584033,
+        129584034,
+        129584035,
+        129584036,
+        129584037,
+        129584038,
+        129584039,
+        129584040,
+        129584041,
+        129584042,
+        129584043,
+        129584044,
+        129584045,
+        129584046,
+        129584047,
+        129584048,
+        129584049,
+        129584050,
+        129584051,
+        129584052,
+        129584053,
+        129584054,
+        129584055,
+        129584056,
+        129584057,
+        129584058,
+        129584059,
+        129584060,
+        129584061,
+        129584062,
+        129584063,
+        129584064,
+        129584065,
+        129584066,
+        129584067,
+        129584068,
+        129584069,
+        129584070,
+        129584071,
+        129584072,
+        129584073,
+        129584074,
+        129584075,
+        129584076,
+        129584077,
+        129584078,
+        129584079,
+        129584080,
+        129584081,
+        129584082,
+        129584083,
+        129584084,
+        129584085,
+        129584086,
+        129584087,
+        129584088,
+        129584089,
+        129584090,
+        129584091,
+        129584092,
+        129584093,
+        129584094,
+        129584095,
+        129584096,
+        129584097,
+        129584098,
+        129584099,
+        129584100,
+        129584101,
+        129584102,
+        129584103,
+        129584104,
+        129584105,
+        129584106,
+        129584107,
+        129584108,
+        129584109,
+        129584110,
+        129584111,
+        129584112,
+        129584113,
+        129584114,
+        129584115,
+        129584116,
+        129584117,
+        129584118,
+        129584119,
+        129584120,
+        129584121,
+        129584122,
+        129584123,
+        129584124,
+        129584125,
+        129584126,
+        129584127,
+        129584128,
+        129584129,
+        129584130,
+        129584131,
+        129584132
+      ],
+      "adds": [],
+      "marks": [
+        {
+          "track_id": 129583914,
+          "text": "Grieg: Piano Concerto in A Minor, Op. 16: I. Allegro molto moderato",
+          "composer_equals": "Edvard Grieg",
+          "isrc_equals": "DEF056300421"
+        },
+        {
+          "track_id": 129583915,
+          "text": "Grieg: Piano Concerto in A Minor, Op. 16: II. Adagio",
+          "composer_equals": "Edvard Grieg",
+          "isrc_equals": "DEF056300422"
+        },
+        {
+          "track_id": 129583916,
+          "text": "Grieg: Piano Concerto in A Minor, Op. 16: III. Allegro moderato molto e marcato - Quasi presto - Andante maestoso",
+          "composer_equals": "Edvard Grieg",
+          "isrc_equals": "DEF056300423"
+        },
+        {
+          "track_id": 129583917,
+          "text": "Schumann: Piano Concerto in A Minor, Op. 54: I. Allegro affettuoso",
+          "composer_equals": "Robert Schumann",
+          "isrc_equals": "DEF056300411"
+        },
+        {
+          "track_id": 129583918,
+          "text": "Schumann: Piano Concerto in A Minor, Op. 54: II. Intermezzo (Andantino grazioso)",
+          "composer_equals": "Robert Schumann",
+          "isrc_equals": "DEF056300412"
+        },
+        {
+          "track_id": 129583919,
+          "text": "Schumann: Piano Concerto in A Minor, Op. 54: III. Allegro vivace",
+          "composer_equals": "Robert Schumann",
+          "isrc_equals": "DEF056300413"
+        }
+      ],
+      "numbered_movement_runs": [
+        {
+          "target": "Konzert Für Klavier Und Orchester A-moll Op. 54",
+          "movements": [
+            1,
+            2,
+            3
+          ]
+        },
+        {
+          "target": "Konzert Für Klavier Und Orchester A-moll Op. 16",
+          "movements": [
+            1,
+            2,
+            3
+          ]
+        }
+      ]
+    },
+    {
+      "discogs_id": "13708354",
+      "album_id": "cnsns5fvjhzrb",
+      "target_sha256": "f903f7a7a9240c6bf61ab9fd461897a3bd95dde1e9a12ee0835f4dd8c6668759",
+      "album_sha256": "41c6c24e55939b8505c624138102bc6764fc6d137d0172b03a4d5ba74e41aca5",
+      "source_sha256": "543eac0353fb516f9d4bd78d1f9064910a7d0edbee7d7771bc3229e6aa383c87",
+      "sources": [
+        "https://www.discogs.com/release/13708354",
+        "https://schnabelmusicfoundation.org/comceptr/uploads/Artur-Schnabel-A-Discography-by-David-Bloesch.pdf",
+        "https://schnabelmusicfoundation.org/resources/discography/"
+      ],
+      "limitations": [
+        "Recording-family evidence does not verify exact pressing, mastering, session takes or audio. Raw source, normalized collection and Spotify remain unchanged."
+      ],
+      "decision": "probable",
+      "recording_review": "Foundation-hosted Bloesch discography entries126/141maps COLH33to Schnabel HMV D915(25January1939) and D960(25–26January1939). Source COLH33has the same two works. Choose cached Warner anthology cnsns5fvjhzrb, not BNFtransfer: all four D960movements and complete D915have positive Schnabel/Schubert credits. Foundation catalogue lists this Warner2018anthology. No exact78rpm take or remaster equality asserted.",
+      "external_source_files": [
+        {
+          "path": "data/review_sources/fullsupport16-13708354/publisher-observation.txt",
+          "sha256": "bd80411d144546859f78dcd65f428acca19911b2f6b04a42bff8fc3a2601bcf4",
+          "source_url": "https://schnabelmusicfoundation.org/comceptr/uploads/Artur-Schnabel-A-Discography-by-David-Bloesch.pdf"
+        }
+      ],
+      "review_kind": "bound-tracks",
+      "expected": {
+        "Sonata In B Flat, Op. Post. (D.960)": [
+          52731843,
+          52731844,
+          52731845,
+          52731846
+        ],
+        "Allegretto In C Minor (D.915)": [
+          52731827
+        ]
+      },
+      "required_performers": [
+        "Artur Schnabel"
+      ],
+      "extra_track_ids": [
+        52731819,
+        52731820,
+        52731821,
+        52731822,
+        52731823,
+        52731824,
+        52731825,
+        52731826,
+        52731828,
+        52731829,
+        52731830,
+        52731831,
+        52731832,
+        52731833,
+        52731834,
+        52731835,
+        52731836,
+        52731837,
+        52731838,
+        52731839,
+        52731840,
+        52731841,
+        52731842,
+        52731847,
+        52731848,
+        52731849,
+        52731850,
+        52731851,
+        52731852,
+        52731853,
+        52731854,
+        52731855,
+        52731856,
+        52731857,
+        52731858,
+        52731859,
+        52731860,
+        52731861,
+        52731862,
+        52731863,
+        52731864,
+        52731865,
+        52731866,
+        52731867,
+        52731868,
+        52731869
+      ],
+      "adds": [],
+      "marks": [
+        {
+          "track_id": 52731827,
+          "text": "Allegretto in C Minor, D. 915",
+          "composer_equals": "Franz Schubert",
+          "isrc_equals": "GBDYG1800935"
+        },
+        {
+          "track_id": 52731843,
+          "text": "Piano Sonata No. 21 in B-Flat Major, D. 960: I. Molto moderato",
+          "composer_equals": "Franz Schubert",
+          "isrc_equals": "GBDYG1800951"
+        },
+        {
+          "track_id": 52731844,
+          "text": "Piano Sonata No. 21 in B-Flat Major, D. 960: II. Andante sostenuto",
+          "composer_equals": "Franz Schubert",
+          "isrc_equals": "GBDYG1800952"
+        },
+        {
+          "track_id": 52731845,
+          "text": "Piano Sonata No. 21 in B-Flat Major, D. 960: III. (Scherzo) Allegro vivace con delicatezza",
+          "composer_equals": "Franz Schubert",
+          "isrc_equals": "GBDYG1800953"
+        },
+        {
+          "track_id": 52731846,
+          "text": "Piano Sonata No. 21 in B-Flat Major, D. 960: IV. Allegro ma non troppo",
+          "composer_equals": "Franz Schubert",
+          "isrc_equals": "GBDYG1800954"
+        }
+      ],
+      "numbered_movement_runs": [
+        {
+          "target": "Sonata In B Flat, Op. Post. (D.960)",
+          "movements": [
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "target": "Allegretto In C Minor (D.915)",
+          "movements": [
+            null
+          ]
+        }
+      ]
     }
   ]
 }

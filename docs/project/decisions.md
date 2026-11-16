@@ -488,3 +488,16 @@ frozen track groups and external recording-family proof are mandatory. No credit
 borrowed across operas; no inferred LP-side audio cuts, exact takes or pressing.
 Only the two reviewed source forms are implemented; unsupported forms fail closed.
 [Batch and limits](../plans/2026-11-15-qobuz-secondary23.md).
+
+
+### 2026-11-16 — Reviewed completeness within an existing recording group
+
+A source/target/album-hash-bound review may freeze the exact `recording_group`
+object already accepted by the existing contiguous-work credit policy. Only that
+selected group counts toward completeness; alternate recordings in the compilation
+remain extras. Every target must retain the identical group and credited track
+IDs, with conductor/orchestra throughout and every named soloist evidenced inside
+that same group. Missing soloist from the whole group or another selected take
+fails closed. No new credit-role semantics, global scoring or performer waiver.
+First bounded use: Kempff10583401concertos2/4.
+[16-case batch](../plans/2026-11-16-qobuz-fullsupport16.md).

@@ -46,12 +46,12 @@ def build(inventory, reviewed):
 def main():
     path = ROOT/'data/qobuz_unmatched_audit.json'
     reviewed = {}
-    for name in ['qobuz_priority14_batch_audit.json', 'qobuz_secondary23_recording_audit.json']:
+    for name in ['qobuz_priority14_batch_audit.json', 'qobuz_secondary23_recording_audit.json', 'qobuz_fullsupport16_recording_audit.json']:
         source = ROOT/'data'/name
         if not source.exists():
             continue
         batch = json.loads(source.read_text())
-        if name.startswith('qobuz_secondary23') and batch['status'] != 'complete':
+        if name != 'qobuz_priority14_batch_audit.json' and batch['status'] != 'complete':
             continue
         for entry in batch['entries']:
             if entry['discogs_id'] in reviewed:

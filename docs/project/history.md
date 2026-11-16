@@ -2126,3 +2126,20 @@ checks, normalization and static build pass. Exact two-release publication diff;
 collection/Spotify unchanged.12Found/144Probable/585Unchecked copies. No Qobuz
 calls, parser/credit exceptions or push/deployment. Ranking tracks resolved cases
 separately; next16full-support leads, starting1660485.
+
+
+### 2026-11-16 — All16full-support recording reviews complete
+
+9Probable/7explicit holds, with every source/album/track/alternative frozen.
+Accepted:1660485,2671188,3144336,3675625,6181503,9855113,10583401,12159256,13708354.
+Kempff completeness freezes existing-policy contiguous recording groups; no
+soloist credit borrowed across takes. Battle source-specific B4requirement stays.
+Schnabel uses a Warner alternative corroborated by Foundation COLH33discography.
+Holds:2831179,6848787,7077802,7467218,8357595,9458258,10552903. Krips K184finale
+is not proven missing: source Andante–Allegro5:04versus digital Andante5:06may
+be a joined section; verify rather than invent absence. Leonhardt source number/
+order conflicts, Casals/Fischer provenance, Mass organist/full-section mapping
+and AbbadoDecca-versus-DGsessions remain explicit.242script tests, normalization
+and static build pass. Exactly9Unchecked→Probable; collection/Spotify unchanged.
+Totals12Found/153Probable/576Unchecked copies. No new Qobuz calls or push/deployment.
+[Full16results](../plans/2026-11-16-qobuz-fullsupport16.md). Next38partial leads.

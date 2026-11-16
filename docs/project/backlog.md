@@ -28,7 +28,10 @@ The earlier priority/secondary batches are complete. New936album cache is
 validated/shared and160leads ranked:2supported complete,16full support needing
 completeness,38partial,104zero-current-rule support. Both complete Brahms leads
 are now reviewed/Probable ([results](../plans/2026-11-16-qobuz-brahms2.md)).
-Next16full-support leads, starting1660485, then partials. Current
+All16full-support leads now reviewed:9Probable/7holds
+([batch results](../plans/2026-11-16-qobuz-fullsupport16.md)). Next38partial-support
+leads: inspect complete programme/credit gaps and only then choose bounded reviews.
+104zero-current-rule cases follow. Current
 whole-inventory work/credit queue:13priority,27secondary,454zero-current-support
 and3known constraints. Zero support needs source/lead/rule investigation,
 not automatic API retrieval. Revisit explicit holds only with new evidence or a
