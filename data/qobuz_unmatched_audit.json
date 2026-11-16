@@ -22,22 +22,22 @@
     "qobuz_lead_reviews.json": "bc731b95eadb23cb1a13d735a4e7410615ae06f260b2c4a381ed4a29e229265e",
     "qobuz_binding_reviews.json": "eab7d007faef231024862226e943305bd4a4aab65143bd18c45b96b811286b77",
     "qobuz_opera_recording_reviews.json": "6e26d528eb7de78d372635218404a57534332ea1cd3d92e89e90e7a18066f85b",
-    "qobuz_remaining_recording_reviews.json": "28036a242fdb7f7eb8716ffca33ade579034735ae4fdd51b7f4202e130008197",
+    "qobuz_remaining_recording_reviews.json": "cdfdf73c7193a86cf1523697450f60dff2142ed40d69394577d677990b4d0116",
     "collection_matches.json": "a214eee877d4749fa957b3d2a293c2925d7ba0621259f2742139a6cd86f928c8",
-    "qobuz_matches.json": "a6ba747da67820b0146ae8269590f419acccaa77be75b2c2e8e2a2b8a1be9b6e",
+    "qobuz_matches.json": "2a866c3fd42a5e493b216fe41e62ff8384f9eb976a687508b6e9147b48ea60a8",
     "qobuz_work_inventory.json": "47b8e955b99c37b132e66daea61590490d249f94a520740d702bec5caa5019ce",
     "qobuz_source_composer_reviews.json": "1cce69d6df99a54b444f6a210d84c5c69b3139eb4ed1355e821708d1fb59b83c",
     "qobuz_source_programme_reviews.json": "5469466141e2816720bf35e6b54abeb18daf3f12bf6fec1b4f9e794da0db098b"
   },
   "summary": {
-    "work_or_credit_unresolved": 323,
-    "reviewed_withheld": 217,
+    "work_or_credit_unresolved": 304,
+    "reviewed_withheld": 227,
     "completeness_review_needed": 5,
     "recording_review_rejected": 4,
     "no_saved_hits": 6,
     "source_programme_review_needed": 1
   },
-  "unmatched_unique_releases": 556,
+  "unmatched_unique_releases": 547,
   "entries": [
     {
       "discogs_id": "594243",
@@ -30565,7 +30565,7 @@
     {
       "discogs_id": "2845198",
       "title": "Concerto No. 3, In C Minor, Op. 37",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 2,
       "uncached_hits": 0,
       "cached_candidates": [
@@ -30576,7 +30576,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Concerto No. 3 In C Minor, Op.37",
@@ -32681,56 +32681,6 @@
             },
             {
               "target": "Choral : \"Herr, Ich Glaube\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "discogs_id": "2930473",
-      "title": "Die Fünf Klavierkonzerte",
-      "category": "work_or_credit_unresolved",
-      "saved_hits": 10,
-      "uncached_hits": 9,
-      "cached_candidates": [
-        {
-          "album_id": "av98godsw1g2b",
-          "title": "Beethoven: Piano Concertos 1-5",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "incomplete",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Konzert Nr. 1 C-dur Op 15",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Konzert Nr. 2 B-dur Op 19",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Konzert Nr. 4 G-dur Op 58",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Konzert Nr. 3 C-moll Op 37",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Konzert Nr. 5 Es-dur Op 73",
               "work_tracks": 0,
               "credited_tracks": 0,
               "track_ids": []
@@ -38235,107 +38185,6 @@
             {
               "target": "Agnus Dei",
               "work_tracks": 12,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "discogs_id": "3334175",
-      "title": "Violin Concertos (No. 1 In D Major No. 2 In G Minor)",
-      "category": "work_or_credit_unresolved",
-      "saved_hits": 4,
-      "uncached_hits": 0,
-      "cached_candidates": [
-        {
-          "album_id": "0074644200324",
-          "title": "Celebration - Life With Music",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Violin Concerto No. 1 In D Major, Op. 19",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Violin Concerto No. 2 In G Minor, Op. 63",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "0074644595628",
-          "title": "The Isaac Stern Collection: The Early Concerto Recordings, Vol. 2",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Violin Concerto No. 1 In D Major, Op. 19",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Violin Concerto No. 2 In G Minor, Op. 63",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "0886443471085",
-          "title": "20 Century Classics (Oeuvres de Bartok, Chostakovitch, Debussy, Ives, Mahler, Ravel, Prokofiev, Stravinski, etc.)",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Violin Concerto No. 1 In D Major, Op. 19",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Violin Concerto No. 2 In G Minor, Op. 63",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "rwruoiy8hkl5a",
-          "title": "Prokofiev: Violin Concertos Nos. 1 & 2",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Violin Concerto No. 1 In D Major, Op. 19",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Violin Concerto No. 2 In G Minor, Op. 63",
-              "work_tracks": 0,
               "credited_tracks": 0,
               "track_ids": []
             }
@@ -45008,7 +44857,7 @@
     {
       "discogs_id": "3670806",
       "title": "Isaac Stern 60th Anniversary Celebration From Lincoln Center",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 8,
       "uncached_hits": 0,
       "cached_candidates": [
@@ -45439,7 +45288,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Concerto For Two Violins, BWV 1043 (D Minor)",
@@ -50195,7 +50044,7 @@
     {
       "discogs_id": "4046757",
       "title": "Violin Concerto / Violin Concerto No. 1",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 2,
       "uncached_hits": 0,
       "cached_candidates": [
@@ -50275,7 +50124,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Concerto In E Minor For Violin And Orchestra, Op. 64 ",
@@ -96823,7 +96672,7 @@
     {
       "discogs_id": "5349319",
       "title": "Piano Sonatas",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 5,
       "uncached_hits": 0,
       "cached_candidates": [
@@ -96834,7 +96683,7 @@
           "status": "unchecked",
           "completeness": "incomplete",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Sonata No.1 In F Minor, Op.2 No.1",
@@ -100495,61 +100344,6 @@
             },
             {
               "target": "Part VI - Am Feste Der Erscheinung (On The Feast Of Epiphany)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "discogs_id": "5756277",
-      "title": "Violin Concerto No.3 In G Major, K. 216 - Violin Concerto No.4 In D Major, K 218",
-      "category": "work_or_credit_unresolved",
-      "saved_hits": 2,
-      "uncached_hits": 0,
-      "cached_candidates": [
-        {
-          "album_id": "0074644595222",
-          "title": "The Isaac Stern Collection: The Early Concerto Recordings, Vol. 1",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "incomplete",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Concerto N.3 In Sol Magg. K.216 Per Violino E Orchestra",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Concerto N.4 In Re Magg. K.218 Per Violino E Orchestra",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "k8oyqi4mqkmpc",
-          "title": "Mozart: Violin Concertos Nos. 3, 4 & Serenade in G Major, K. 525 \"Eine kleine Nachtmusik\"",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "incomplete",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Concerto N.3 In Sol Magg. K.216 Per Violino E Orchestra",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Concerto N.4 In Re Magg. K.218 Per Violino E Orchestra",
               "work_tracks": 0,
               "credited_tracks": 0,
               "track_ids": []
@@ -104534,227 +104328,6 @@
             },
             {
               "target": "Mausfallen Sprüchlein",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "discogs_id": "6268701",
-      "title": "The French Suites = Französischen Suiten = Suites Françaises / Overture In The French Style, BWV 831 = Ouvertüre Nach Französischer Art = Ouverture À La Française",
-      "category": "work_or_credit_unresolved",
-      "saved_hits": 4,
-      "uncached_hits": 0,
-      "cached_candidates": [
-        {
-          "album_id": "0886444938174",
-          "title": "Glenn Gould Plays Bach, Vol. 3 - English and French Suites",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Suite No. 1 (D Minor / D-Moll / Ré Mineur), BWV 812",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Suite No. 2 (C Minor / C-Moll / Ut Mineur), BWV 813",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Suite No. 3 (B Minor / H-Moll / Si Mineur), BWV 814",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Suite No. 4 (E Flat Major / Es-Dur / Mi Bémol Majeur), BWV 815",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Suite No. 5 (G Major / G-Dur / Sol Majeur), BWV 816",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Suite No. 6 (E Major / E-Dur / Mi Majeur), BWV 817",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Overture In The French Style, BWV 831",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "0886445077308",
-          "title": "Bach: The French Suites Nos. 1-4, BWV 812-815 - Gould Remastered",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Suite No. 1 (D Minor / D-Moll / Ré Mineur), BWV 812",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Suite No. 2 (C Minor / C-Moll / Ut Mineur), BWV 813",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Suite No. 3 (B Minor / H-Moll / Si Mineur), BWV 814",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Suite No. 4 (E Flat Major / Es-Dur / Mi Bémol Majeur), BWV 815",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Suite No. 5 (G Major / G-Dur / Sol Majeur), BWV 816",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Suite No. 6 (E Major / E-Dur / Mi Majeur), BWV 817",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Overture In The French Style, BWV 831",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "0886445082586",
-          "title": "Bach: The French Suites Nos. 5 & 6, BWV 816 & 817; Overture in the French Style, BWV 831 - Gould Remastered",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Suite No. 1 (D Minor / D-Moll / Ré Mineur), BWV 812",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Suite No. 2 (C Minor / C-Moll / Ut Mineur), BWV 813",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Suite No. 3 (B Minor / H-Moll / Si Mineur), BWV 814",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Suite No. 4 (E Flat Major / Es-Dur / Mi Bémol Majeur), BWV 815",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Suite No. 5 (G Major / G-Dur / Sol Majeur), BWV 816",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Suite No. 6 (E Major / E-Dur / Mi Majeur), BWV 817",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Overture In The French Style, BWV 831",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "0886445221237",
-          "title": "Glenn Gould. The Complete Columbia Album Collection",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Suite No. 1 (D Minor / D-Moll / Ré Mineur), BWV 812",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Suite No. 2 (C Minor / C-Moll / Ut Mineur), BWV 813",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Suite No. 3 (B Minor / H-Moll / Si Mineur), BWV 814",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Suite No. 4 (E Flat Major / Es-Dur / Mi Bémol Majeur), BWV 815",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Suite No. 5 (G Major / G-Dur / Sol Majeur), BWV 816",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Suite No. 6 (E Major / E-Dur / Mi Majeur), BWV 817",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Overture In The French Style, BWV 831",
               "work_tracks": 0,
               "credited_tracks": 0,
               "track_ids": []
@@ -122768,7 +122341,7 @@
     {
       "discogs_id": "6651774",
       "title": "The Rubinstein Story (Concerto No. 2 And Andante Spianato And Grande Polonaise)",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 9,
       "uncached_hits": 5,
       "cached_candidates": [
@@ -122779,7 +122352,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Concerto No. 2 In F Minor, Op. 21",
@@ -127321,7 +126894,7 @@
     {
       "discogs_id": "6953193",
       "title": "Trio (In D Minor) / Concerto For Violin And Cello (In B-flat) / Duo For Violin And Cello",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 2,
       "uncached_hits": 0,
       "cached_candidates": [
@@ -127409,7 +126982,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Trio In D Minor, Op. 32",
@@ -136929,100 +136502,6 @@
       ]
     },
     {
-      "discogs_id": "7766716",
-      "title": "Concerto No. 1 In D Minor For Piano And Orchestra, Op. 15",
-      "category": "work_or_credit_unresolved",
-      "saved_hits": 5,
-      "uncached_hits": 0,
-      "cached_candidates": [
-        {
-          "album_id": "0827969344729",
-          "title": "Brahms: Piano Concerto No. 1, Op. 15 & Handel Variations, Op. 24",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Concerto No. 1 In D Minor For Piano And Orchestra, Op. 15",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "0886446469928",
-          "title": "Brahms: Concerto No. 1 in D Minor for Piano and Orchestra, Op. 15",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Concerto No. 1 In D Minor For Piano And Orchestra, Op. 15",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "es8uyuylipyga",
-          "title": "Brahms: Piano Concerto No. 1 in D Minor, Op. 15",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Concerto No. 1 In D Minor For Piano And Orchestra, Op. 15",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "fagry0psax1db",
-          "title": "Casals Festivals at Prades, Vol. 2 (1953-1962)",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Concerto No. 1 In D Minor For Piano And Orchestra, Op. 15",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "nuva03y4axugb",
-          "title": "Brahms: Piano Concerto No. 1 in D Minor, Op. 15",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Concerto No. 1 In D Minor For Piano And Orchestra, Op. 15",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        }
-      ]
-    },
-    {
       "discogs_id": "7785901",
       "title": "Die Walküre",
       "category": "work_or_credit_unresolved",
@@ -140002,7 +139481,7 @@
     {
       "discogs_id": "7946604",
       "title": "Concerto In A Minor For Piano And Orchestra, Op. 54",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 5,
       "uncached_hits": 0,
       "cached_candidates": [
@@ -140013,7 +139492,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Concerto In A Minor For Piano And Orchestra, Op. 54",
@@ -141929,130 +141408,6 @@
             },
             {
               "target": "Sol Diesis Minore, Allegro (No. 12)",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "discogs_id": "8103249",
-      "title": "Mozart Violin Concertos",
-      "category": "work_or_credit_unresolved",
-      "saved_hits": 5,
-      "uncached_hits": 0,
-      "cached_candidates": [
-        {
-          "album_id": "0074643780827",
-          "title": "Mozart: Violin Concertos Nos. 4 & 5",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "incomplete",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Concerto No. 1 In B-Flat Major For Violin And Orchestra, K. 207",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Concerto No. 5 In A Major For Violin And Orchestra K. 219 \"Turkish\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "3700551778164",
-          "title": "Mozart: Concertos pour violon, Symphonie concertante",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "incomplete",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Concerto No. 1 In B-Flat Major For Violin And Orchestra, K. 207",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Concerto No. 5 In A Major For Violin And Orchestra K. 219 \"Turkish\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "5099706647522",
-          "title": "Mozart: Violin Concertos No. 1 - 5, Sinfonia Concertante, Concertone",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "incomplete",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Concerto No. 1 In B-Flat Major For Violin And Orchestra, K. 207",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Concerto No. 5 In A Major For Violin And Orchestra K. 219 \"Turkish\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "b8lm68nol2zyb",
-          "title": "Mozart: Violin Concertos Nos. 1, 3 & 5",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "incomplete",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Concerto No. 1 In B-Flat Major For Violin And Orchestra, K. 207",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Concerto No. 5 In A Major For Violin And Orchestra K. 219 \"Turkish\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        },
-        {
-          "album_id": "f8zi1nvqs6opa",
-          "title": "Mozart: Violin Concertos Nos. 2 & 4",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "incomplete",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Concerto No. 1 In B-Flat Major For Violin And Orchestra, K. 207",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Concerto No. 5 In A Major For Violin And Orchestra K. 219 \"Turkish\"",
               "work_tracks": 0,
               "credited_tracks": 0,
               "track_ids": []
@@ -146131,7 +145486,7 @@
     {
       "discogs_id": "8470218",
       "title": "The Six Brandenburg Concertos",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 1,
       "uncached_hits": 0,
       "cached_candidates": [
@@ -146142,7 +145497,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Brandenburg Concerto No. 1 In F Major, BWV 1046",
@@ -170996,169 +170351,6 @@
       ]
     },
     {
-      "discogs_id": "10598540",
-      "title": "Concerto No. 1 / Concerto No. 4 (For The Left Hand)",
-      "category": "work_or_credit_unresolved",
-      "saved_hits": 2,
-      "uncached_hits": 0,
-      "cached_candidates": [
-        {
-          "album_id": "5099751700227",
-          "title": "Bartok: Piano Concerto No. 1; Prokofiev: Piano Concerto No. 4 \"For the Left Hand\" [Rudolf Serkin - The Art of Interpretation]",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Concerto No. 1 For Piano And Orchestra",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": [],
-              "required_performers": [
-                "George Szell",
-                "Columbia Symphony Orchestra",
-                "Rudolf Serkin"
-              ],
-              "target_credit_scope": {
-                "source": "cached Discogs explicit work/position credits",
-                "positions": [
-                  "A1",
-                  "A2"
-                ],
-                "performers": [
-                  {
-                    "name": "George Szell",
-                    "role": "Conductor"
-                  },
-                  {
-                    "name": "Columbia Symphony Orchestra",
-                    "role": "Orchestra"
-                  },
-                  {
-                    "name": "Rudolf Serkin",
-                    "role": "Piano"
-                  }
-                ]
-              }
-            },
-            {
-              "target": "Concerto No. 4 For Piano And Orchestra",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": [],
-              "required_performers": [
-                "Eugene Ormandy",
-                "The Philadelphia Orchestra",
-                "Rudolf Serkin"
-              ],
-              "target_credit_scope": {
-                "source": "cached Discogs explicit work/position credits",
-                "positions": [
-                  "B1",
-                  "B2",
-                  "B3",
-                  "B4"
-                ],
-                "performers": [
-                  {
-                    "name": "Eugene Ormandy",
-                    "role": "Conductor"
-                  },
-                  {
-                    "name": "The Philadelphia Orchestra",
-                    "role": "Orchestra"
-                  },
-                  {
-                    "name": "Rudolf Serkin",
-                    "role": "Piano"
-                  }
-                ]
-              }
-            }
-          ]
-        },
-        {
-          "album_id": "dd9dzoeoikkta",
-          "title": "Masterpieces for Piano Left Hand [Ravel, Scriabin, Prokofiev...]",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Concerto No. 1 For Piano And Orchestra",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": [],
-              "required_performers": [
-                "George Szell",
-                "Columbia Symphony Orchestra",
-                "Rudolf Serkin"
-              ],
-              "target_credit_scope": {
-                "source": "cached Discogs explicit work/position credits",
-                "positions": [
-                  "A1",
-                  "A2"
-                ],
-                "performers": [
-                  {
-                    "name": "George Szell",
-                    "role": "Conductor"
-                  },
-                  {
-                    "name": "Columbia Symphony Orchestra",
-                    "role": "Orchestra"
-                  },
-                  {
-                    "name": "Rudolf Serkin",
-                    "role": "Piano"
-                  }
-                ]
-              }
-            },
-            {
-              "target": "Concerto No. 4 For Piano And Orchestra",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": [],
-              "required_performers": [
-                "Eugene Ormandy",
-                "The Philadelphia Orchestra",
-                "Rudolf Serkin"
-              ],
-              "target_credit_scope": {
-                "source": "cached Discogs explicit work/position credits",
-                "positions": [
-                  "B1",
-                  "B2",
-                  "B3",
-                  "B4"
-                ],
-                "performers": [
-                  {
-                    "name": "Eugene Ormandy",
-                    "role": "Conductor"
-                  },
-                  {
-                    "name": "The Philadelphia Orchestra",
-                    "role": "Orchestra"
-                  },
-                  {
-                    "name": "Rudolf Serkin",
-                    "role": "Piano"
-                  }
-                ]
-              }
-            }
-          ]
-        }
-      ]
-    },
-    {
       "discogs_id": "10675304",
       "title": "Tristan Und Isolde",
       "category": "work_or_credit_unresolved",
@@ -176260,7 +175452,7 @@
     {
       "discogs_id": "11061422",
       "title": "Suites For Harpsichord",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 1,
       "uncached_hits": 0,
       "cached_candidates": [
@@ -176271,7 +175463,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Suite No. 2 In F Major",
@@ -181560,62 +180752,6 @@
             },
             {
               "target": "2éme Partie",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "discogs_id": "12524051",
-      "title": "Six Evolutions - Cello Suites",
-      "category": "work_or_credit_unresolved",
-      "saved_hits": 1,
-      "uncached_hits": 0,
-      "cached_candidates": [
-        {
-          "album_id": "ha5y5btyaellb",
-          "title": "Six Evolutions - Bach: Cello Suites",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Unaccompanied Cello Suite No. 1 In G Major, BWV 1007",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Unaccompanied Cello Suite No. 2 In D Minor, BWV 1008",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Unaccompanied Cello Suite No. 3 In C Major, BWV 1009",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Unaccompanied Cello Suite No. 4 In E-flat Major, BWV 1010",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Unaccompanied Cello Suite No. 5 In C Minor, BWV 1011",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Unaccompanied Cello Suite No. 6 In D Major, BWV 1012",
               "work_tracks": 0,
               "credited_tracks": 0,
               "track_ids": []
@@ -201414,7 +200550,7 @@
     {
       "discogs_id": "16108064",
       "title": "Sinfonia N.1 - Sinfonia N°2",
-      "category": "work_or_credit_unresolved",
+      "category": "reviewed_withheld",
       "saved_hits": 5,
       "uncached_hits": 1,
       "cached_candidates": [
@@ -201494,7 +200630,7 @@
           "status": "unchecked",
           "completeness": "unknown",
           "reviewed_rejected": false,
-          "reviewed_withheld": false,
+          "reviewed_withheld": true,
           "programme": [
             {
               "target": "Sinfonia N.1",
@@ -210540,32 +209676,6 @@
             },
             {
               "target": "Sonata N° 31 In La Bemole Maggiore Op 110",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ]
-        }
-      ]
-    },
-    {
-      "discogs_id": "23764721",
-      "title": "Concerto No. 20 In D Minor For Piano And Orchestra (K. 466)",
-      "category": "work_or_credit_unresolved",
-      "saved_hits": 1,
-      "uncached_hits": 0,
-      "cached_candidates": [
-        {
-          "album_id": "5099751286325",
-          "title": "Mozart: Piano Concertos Nos. 9 & 20 [Rudolf Serkin - The Art of Interpretation]",
-          "coverage": 0.0,
-          "status": "unchecked",
-          "completeness": "unknown",
-          "reviewed_rejected": false,
-          "reviewed_withheld": false,
-          "programme": [
-            {
-              "target": "Concerto No. 20 In D Minor For Piano And Orchestra, K. 466",
               "work_tracks": 0,
               "credited_tracks": 0,
               "track_ids": []

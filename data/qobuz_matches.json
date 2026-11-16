@@ -35,7 +35,7 @@
   "richter_review_fingerprint": "a14865f86e46150593e39bfa285fa6c7c61c8f46147b8094c0cb048fd02118ab",
   "round2_review_fingerprint": "be60742c3d35f5a9aa67f200642f7fcde98a52562a46130e043db8f4aa7c851e",
   "round2_metadata_fingerprint": "9db62d7bf62d4b77f5acf422dfde77959f845f4dc00b2ac0e10c02ccea295860",
-  "remaining_review_fingerprint": "28036a242fdb7f7eb8716ffca33ade579034735ae4fdd51b7f4202e130008197",
+  "remaining_review_fingerprint": "cdfdf73c7193a86cf1523697450f60dff2142ed40d69394577d677990b4d0116",
   "remaining_metadata_fingerprint": "393b2d12e176160ab311b65267b38bdc8c205222e12f792bf07eba5c1fcfafbf",
   "remaining_followup_metadata_fingerprint": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
   "seven_album_metadata_fingerprint": "139f9b336c68b56ea22c18362cb0481c026366c5d359142f2bb702fe1233a4fc",
@@ -1891,15 +1891,35 @@
             }
           ],
           "reasons": [
+            "The saved22track anthology includes two versions of the final Harmonious Blacksmith air/variations from Suite5, not the five complete Handel suites printed on the1935source programme. Generic Artist/MainArtist metadata also does not itself verify the harpsichord session.",
+            "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+            "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver.",
             "0/5 target items supported after composer/work grouping; unresolved."
+          ],
+          "recording_review_decision": "withhold",
+          "recording_review": "The saved22track anthology includes two versions of the final Harmonious Blacksmith air/variations from Suite5, not the five complete Handel suites printed on the1935source programme. Generic Artist/MainArtist metadata also does not itself verify the harpsichord session.",
+          "review_sources": [
+            "https://www.discogs.com/release/11061422"
           ]
         }
       ],
       "query": "wanda landowska handel suites for harpsichord",
       "searched_at": "2026-11-12T14:29:45.241472+00:00",
       "reasons": [
+        "The saved22track anthology includes two versions of the final Harmonious Blacksmith air/variations from Suite5, not the five complete Handel suites printed on the1935source programme. Generic Artist/MainArtist metadata also does not itself verify the harpsichord session.",
+        "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+        "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver.",
         "0/5 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The saved22track anthology includes two versions of the final Harmonious Blacksmith air/variations from Suite5, not the five complete Handel suites printed on the1935source programme. Generic Artist/MainArtist metadata also does not itself verify the harpsichord session.",
+        "limitations": [
+          "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+          "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
+        ]
+      }
     },
     "10175959": {
       "status": "probable",
@@ -8060,48 +8080,20 @@
       ]
     },
     "8103249": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "b8lm68nol2zyb",
+        "name": "Mozart: Violin Concertos Nos. 1, 3 & 5",
+        "artists": [
+          "Isaac Stern"
+        ],
+        "label": "Sony Classical",
+        "release_date": "2018-07-20",
+        "image": "https://static.qobuz.com/images/covers/yb/2z/b8lm68nol2zyb_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/mozart-violin-concertos-nos-1-3-5-isaac-stern/b8lm68nol2zyb"
+      },
       "candidates": [
-        {
-          "id": "5099706647522",
-          "name": "Mozart: Violin Concertos No. 1 - 5, Sinfonia Concertante, Concertone",
-          "artists": [
-            "Isaac Stern"
-          ],
-          "label": "Sony Classical",
-          "release_date": "1995-03-28",
-          "image": "https://static.qobuz.com/images/covers/22/75/5099706647522_230.jpg",
-          "url": "https://www.qobuz.com/fr-fr/album/mozart-violin-concertos-no-1-5-sinfonia-concertante-concertone-isaac-stern/5099706647522",
-          "status": "unchecked",
-          "confidence": null,
-          "coverage": 0.0,
-          "covered": 0,
-          "target_count": 2,
-          "required_performers": [
-            "Isaac Stern",
-            "George Szell",
-            "Columbia Symphony Orchestra"
-          ],
-          "programme": [
-            {
-              "target": "Concerto No. 1 In B-Flat Major For Violin And Orchestra, K. 207",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Concerto No. 5 In A Major For Violin And Orchestra K. 219 \"Turkish\"",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ],
-          "reasons": [
-            "0/2 target items supported after composer/work grouping; unresolved."
-          ]
-        },
         {
           "id": "b8lm68nol2zyb",
           "name": "Mozart: Violin Concertos Nos. 1, 3 & 5",
@@ -8112,6 +8104,239 @@
           "release_date": "2018-07-20",
           "image": "https://static.qobuz.com/images/covers/yb/2z/b8lm68nol2zyb_230.jpg",
           "url": "https://www.qobuz.com/fr-fr/album/mozart-violin-concertos-nos-1-3-5-isaac-stern/b8lm68nol2zyb",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 6,
+          "target_count": 6,
+          "required_performers": [
+            "Isaac Stern",
+            "George Szell",
+            "Columbia Symphony Orchestra"
+          ],
+          "programme": [
+            {
+              "target": "A1: Allegro Moderato",
+              "source_path": [
+                0,
+                0
+              ],
+              "track_ids": [
+                50280827
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Isaac Stern",
+                "George Szell",
+                "Columbia Symphony Orchestra"
+              ]
+            },
+            {
+              "target": "A2: Adagio",
+              "source_path": [
+                0,
+                1
+              ],
+              "track_ids": [
+                50280828
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Isaac Stern",
+                "George Szell",
+                "Columbia Symphony Orchestra"
+              ]
+            },
+            {
+              "target": "A3: Presto",
+              "source_path": [
+                0,
+                2
+              ],
+              "track_ids": [
+                50280829
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Isaac Stern",
+                "George Szell",
+                "Columbia Symphony Orchestra"
+              ]
+            },
+            {
+              "target": "B1: Allegro Aperto",
+              "source_path": [
+                1,
+                0
+              ],
+              "track_ids": [
+                50280830
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Isaac Stern",
+                "George Szell",
+                "Columbia Symphony Orchestra"
+              ]
+            },
+            {
+              "target": "B2: Adagio",
+              "source_path": [
+                1,
+                1
+              ],
+              "track_ids": [
+                50280831
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Isaac Stern",
+                "George Szell",
+                "Columbia Symphony Orchestra"
+              ]
+            },
+            {
+              "target": "B3: Tempo Di Menuetto; Allegro",
+              "source_path": [
+                1,
+                2
+              ],
+              "track_ids": [
+                50280832
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Isaac Stern",
+                "George Szell",
+                "Columbia Symphony Orchestra"
+              ]
+            }
+          ],
+          "reasons": [
+            "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+            "The1978festival programme’s CBS catalogue advertisement identifies Stern/Szell/Columbia’s Mozart1/5coupling. The saved Sony reissue provides both complete three-movement source works with positive named cast and Mozart-only Composer; Joachim is explicitly Cadenza, not Composer. Choose the plain full-name composer edition rather than silently stripping dates from another edition.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+            "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "A1: Allegro Moderato",
+                "source_path": [
+                  0,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  50280827
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 406,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A2: Adagio",
+                "source_path": [
+                  0,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  50280828
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 510,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A3: Presto",
+                "source_path": [
+                  0,
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  50280829
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 336,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B1: Allegro Aperto",
+                "source_path": [
+                  1,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  50280830
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 578,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B2: Adagio",
+                "source_path": [
+                  1,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  50280831
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 652,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B3: Tempo Di Menuetto; Allegro",
+                "source_path": [
+                  1,
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  50280832
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 527,
+                "source_duration_notes": []
+              }
+            ]
+          },
+          "recording_review": "The1978festival programme’s CBS catalogue advertisement identifies Stern/Szell/Columbia’s Mozart1/5coupling. The saved Sony reissue provides both complete three-movement source works with positive named cast and Mozart-only Composer; Joachim is explicitly Cadenza, not Composer. Choose the plain full-name composer edition rather than silently stripping dates from another edition.",
+          "review_sources": [
+            "https://www.discogs.com/release/8103249",
+            "https://media.nuitsdefourviere.com/assets/n/daa121c6/1978_programme_de_saison_ndf.pdf"
+          ]
+        },
+        {
+          "id": "5099706647522",
+          "name": "Mozart: Violin Concertos No. 1 - 5, Sinfonia Concertante, Concertone",
+          "artists": [
+            "Isaac Stern"
+          ],
+          "label": "Sony Classical",
+          "release_date": "1995-03-28",
+          "image": "https://static.qobuz.com/images/covers/22/75/5099706647522_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/mozart-violin-concertos-no-1-5-sinfonia-concertante-concertone-isaac-stern/5099706647522",
           "status": "unchecked",
           "confidence": null,
           "coverage": 0.0,
@@ -8258,13 +8483,27 @@
       "query": "isaac stern mozart mozart violin concertos",
       "searched_at": "2026-11-12T14:42:31.417168+00:00",
       "reasons": [
-        "0/2 target items supported after composer/work grouping; unresolved."
+        "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+        "The1978festival programme’s CBS catalogue advertisement identifies Stern/Szell/Columbia’s Mozart1/5coupling. The saved Sony reissue provides both complete three-movement source works with positive named cast and Mozart-only Composer; Joachim is explicitly Cadenza, not Composer. Choose the plain full-name composer edition rather than silently stripping dates from another edition.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+        "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
       ]
     },
     "5756277": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "k8oyqi4mqkmpc",
+        "name": "Mozart: Violin Concertos Nos. 3, 4 & Serenade in G Major, K. 525 \"Eine kleine Nachtmusik\"",
+        "artists": [
+          "Bruno Walter"
+        ],
+        "label": "Sony Classical",
+        "release_date": "1995-04-12",
+        "image": "https://static.qobuz.com/images/covers/pc/km/k8oyqi4mqkmpc_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/mozart-violin-concertos-nos-3-4-serenade-in-g-major-k-525-eine-kleine-nachtmusik-bruno-walter/k8oyqi4mqkmpc"
+      },
       "candidates": [
         {
           "id": "k8oyqi4mqkmpc",
@@ -8276,11 +8515,11 @@
           "release_date": "1995-04-12",
           "image": "https://static.qobuz.com/images/covers/pc/km/k8oyqi4mqkmpc_230.jpg",
           "url": "https://www.qobuz.com/fr-fr/album/mozart-violin-concertos-nos-3-4-serenade-in-g-major-k-525-eine-kleine-nachtmusik-bruno-walter/k8oyqi4mqkmpc",
-          "status": "unchecked",
-          "confidence": null,
-          "coverage": 0.0,
-          "covered": 0,
-          "target_count": 2,
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 6,
+          "target_count": 6,
           "required_performers": [
             "Bruno Walter",
             "Zino Francescatti",
@@ -8288,20 +8527,215 @@
           ],
           "programme": [
             {
-              "target": "Concerto N.3 In Sol Magg. K.216 Per Violino E Orchestra",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "target": "A1: I. Allegro",
+              "source_path": [
+                0,
+                0
+              ],
+              "track_ids": [
+                57591633
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Bruno Walter",
+                "Zino Francescatti",
+                "Columbia Symphony Orchestra"
+              ]
             },
             {
-              "target": "Concerto N.4 In Re Magg. K.218 Per Violino E Orchestra",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "target": "A2: II. Adagio",
+              "source_path": [
+                0,
+                1
+              ],
+              "track_ids": [
+                57591634
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Bruno Walter",
+                "Zino Francescatti",
+                "Columbia Symphony Orchestra"
+              ]
+            },
+            {
+              "target": "A3: III. Rondò (Allegro)",
+              "source_path": [
+                0,
+                2
+              ],
+              "track_ids": [
+                57591635
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Bruno Walter",
+                "Zino Francescatti",
+                "Columbia Symphony Orchestra"
+              ]
+            },
+            {
+              "target": "B1: I. Allegro",
+              "source_path": [
+                1,
+                0
+              ],
+              "track_ids": [
+                57591636
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Bruno Walter",
+                "Zino Francescatti",
+                "Columbia Symphony Orchestra"
+              ]
+            },
+            {
+              "target": "B2: II. Andante Cantabile ",
+              "source_path": [
+                1,
+                1
+              ],
+              "track_ids": [
+                57591637
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Bruno Walter",
+                "Zino Francescatti",
+                "Columbia Symphony Orchestra"
+              ]
+            },
+            {
+              "target": "B3: III. Rondeau ( Andante Grazioso, Allegro Ma Non Troppo)",
+              "source_path": [
+                1,
+                2
+              ],
+              "track_ids": [
+                57591638
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Bruno Walter",
+                "Zino Francescatti",
+                "Columbia Symphony Orchestra"
+              ]
             }
           ],
           "reasons": [
-            "0/2 target items supported after composer/work grouping; unresolved."
+            "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+            "The BnF catalogue independently identifies the CBS Mozart3/4pair with Francescatti/Walter/Columbia Symphony and original1959phonogram. The saved Sony album contains all six ordered source movements with explicit violin,conductor,orchestra,composer roles; serenade tracks are declared extras. Ysaye’s Cadenza credit does not become a conflicting Composer role.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+            "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "A1: I. Allegro",
+                "source_path": [
+                  0,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  57591633
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 638,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A2: II. Adagio",
+                "source_path": [
+                  0,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  57591634
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 489,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A3: III. Rondò (Allegro)",
+                "source_path": [
+                  0,
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  57591635
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 418,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B1: I. Allegro",
+                "source_path": [
+                  1,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  57591636
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 613,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B2: II. Andante Cantabile ",
+                "source_path": [
+                  1,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  57591637
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 499,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B3: III. Rondeau ( Andante Grazioso, Allegro Ma Non Troppo)",
+                "source_path": [
+                  1,
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  57591638
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 459,
+                "source_duration_notes": []
+              }
+            ]
+          },
+          "recording_review": "The BnF catalogue independently identifies the CBS Mozart3/4pair with Francescatti/Walter/Columbia Symphony and original1959phonogram. The saved Sony album contains all six ordered source movements with explicit violin,conductor,orchestra,composer roles; serenade tracks are declared extras. Ysaye’s Cadenza credit does not become a conflicting Composer role.",
+          "review_sources": [
+            "https://www.discogs.com/release/5756277",
+            "https://catalogue.bnf.fr/ark:/12148/cb38117682c"
           ]
         },
         {
@@ -8346,7 +8780,11 @@
       "query": "bruno walter mozart violin concerto no 3 in g major k 216 violin",
       "searched_at": "2026-11-12T14:42:46.423490+00:00",
       "reasons": [
-        "0/2 target items supported after composer/work grouping; unresolved."
+        "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+        "The BnF catalogue independently identifies the CBS Mozart3/4pair with Francescatti/Walter/Columbia Symphony and original1959phonogram. The saved Sony album contains all six ordered source movements with explicit violin,conductor,orchestra,composer roles; serenade tracks are declared extras. Ysaye’s Cadenza credit does not become a conflicting Composer role.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+        "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
       ]
     },
     "13069435": {
@@ -9784,9 +10222,19 @@
       ]
     },
     "10598540": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "5099751700227",
+        "name": "Bartok: Piano Concerto No. 1; Prokofiev: Piano Concerto No. 4 \"For the Left Hand\" [Rudolf Serkin - The Art of Interpretation]",
+        "artists": [
+          "Rudolf Serkin, Columbia Symphony Orchestra, Philadelphia Orchestra, George Szell, Eugene Ormandy"
+        ],
+        "label": "Sony Classical",
+        "release_date": "1963-01-01",
+        "image": "https://static.qobuz.com/images/covers/27/02/5099751700227_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/bartok-piano-concerto-no-1-prokofiev-piano-concerto-no-4-for-the-left-hand-rudolf-serkin-the-art-of-interpretation-rudolf-serkin-columbia-symphony-orchestra-the-philadelphia-orchestra-george-szell-eugene-ormandy/5099751700227"
+      },
       "candidates": [
         {
           "id": "5099751700227",
@@ -9798,87 +10246,229 @@
           "release_date": "1963-01-01",
           "image": "https://static.qobuz.com/images/covers/27/02/5099751700227_230.jpg",
           "url": "https://www.qobuz.com/fr-fr/album/bartok-piano-concerto-no-1-prokofiev-piano-concerto-no-4-for-the-left-hand-rudolf-serkin-the-art-of-interpretation-rudolf-serkin-columbia-symphony-orchestra-the-philadelphia-orchestra-george-szell-eugene-ormandy/5099751700227",
-          "status": "unchecked",
-          "confidence": null,
-          "coverage": 0.0,
-          "covered": 0,
-          "target_count": 2,
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 6,
+          "target_count": 6,
           "required_performers": [
             "Rudolf Serkin"
           ],
           "programme": [
             {
-              "target": "Concerto No. 1 For Piano And Orchestra",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": [],
+              "target": "A1: I - Allegro Moderato",
+              "source_path": [
+                0,
+                0
+              ],
+              "track_ids": [
+                175164
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
               "required_performers": [
                 "George Szell",
                 "Columbia Symphony Orchestra",
                 "Rudolf Serkin"
-              ],
-              "target_credit_scope": {
-                "source": "cached Discogs explicit work/position credits",
-                "positions": [
-                  "A1",
-                  "A2"
-                ],
-                "performers": [
-                  {
-                    "name": "George Szell",
-                    "role": "Conductor"
-                  },
-                  {
-                    "name": "Columbia Symphony Orchestra",
-                    "role": "Orchestra"
-                  },
-                  {
-                    "name": "Rudolf Serkin",
-                    "role": "Piano"
-                  }
-                ]
-              }
+              ]
             },
             {
-              "target": "Concerto No. 4 For Piano And Orchestra",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": [],
+              "target": "A2: II - Andante; III - Allegro Molto",
+              "source_path": [
+                0,
+                1
+              ],
+              "track_ids": [
+                175165,
+                175166
+              ],
+              "work_tracks": 2,
+              "credited_tracks": 2,
+              "required_performers": [
+                "George Szell",
+                "Columbia Symphony Orchestra",
+                "Rudolf Serkin"
+              ]
+            },
+            {
+              "target": "B1: I - Vivace",
+              "source_path": [
+                1,
+                0
+              ],
+              "track_ids": [
+                175167
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
               "required_performers": [
                 "Eugene Ormandy",
                 "The Philadelphia Orchestra",
                 "Rudolf Serkin"
+              ]
+            },
+            {
+              "target": "B2: II - Andante",
+              "source_path": [
+                1,
+                1
               ],
-              "target_credit_scope": {
-                "source": "cached Discogs explicit work/position credits",
-                "positions": [
-                  "B1",
-                  "B2",
-                  "B3",
-                  "B4"
-                ],
-                "performers": [
-                  {
-                    "name": "Eugene Ormandy",
-                    "role": "Conductor"
-                  },
-                  {
-                    "name": "The Philadelphia Orchestra",
-                    "role": "Orchestra"
-                  },
-                  {
-                    "name": "Rudolf Serkin",
-                    "role": "Piano"
-                  }
-                ]
-              }
+              "track_ids": [
+                175168
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Eugene Ormandy",
+                "The Philadelphia Orchestra",
+                "Rudolf Serkin"
+              ]
+            },
+            {
+              "target": "B3: III - Moderato",
+              "source_path": [
+                1,
+                2
+              ],
+              "track_ids": [
+                175169
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Eugene Ormandy",
+                "The Philadelphia Orchestra",
+                "Rudolf Serkin"
+              ]
+            },
+            {
+              "target": "B4: IV - Vivace",
+              "source_path": [
+                1,
+                3
+              ],
+              "track_ids": [
+                175170
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Eugene Ormandy",
+                "The Philadelphia Orchestra",
+                "Rudolf Serkin"
+              ]
             }
           ],
           "reasons": [
-            "0/2 target items supported after composer/work grouping; unresolved.",
-            "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
+            "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+            "Columbia’s contemporary February1963advertisement identifies precisely this Bartok1/Szell/Columbia and Prokofiev4/Ormandy/Philadelphia coupling. The saved Sony reissue contains all seven movements with each conductor/orchestra bound only to its own work. The source joined Bartok second/third band maps to those two distinct tracks. Full composer names with printed birth/death annotations are explicitly frozen source-bound spellings, never general aliases.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+            "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
           ],
-          "work_group_policy": "qobuz-work-groups-v1"
+          "work_group_policy": "qobuz-work-groups-v1",
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "A1: I - Allegro Moderato",
+                "source_path": [
+                  0,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  175164
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 559,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A2: II - Andante; III - Allegro Molto",
+                "source_path": [
+                  0,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  175165,
+                  175166
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 863,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B1: I - Vivace",
+                "source_path": [
+                  1,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  175167
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 255,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B2: II - Andante",
+                "source_path": [
+                  1,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  175168
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 624,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B3: III - Moderato",
+                "source_path": [
+                  1,
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  175169
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 485,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B4: IV - Vivace",
+                "source_path": [
+                  1,
+                  3
+                ],
+                "status": "complete",
+                "track_ids": [
+                  175170
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 86,
+                "source_duration_notes": []
+              }
+            ]
+          },
+          "recording_review": "Columbia’s contemporary February1963advertisement identifies precisely this Bartok1/Szell/Columbia and Prokofiev4/Ormandy/Philadelphia coupling. The saved Sony reissue contains all seven movements with each conductor/orchestra bound only to its own work. The source joined Bartok second/third band maps to those two distinct tracks. Full composer names with printed birth/death annotations are explicitly frozen source-bound spellings, never general aliases.",
+          "review_sources": [
+            "https://www.discogs.com/release/10598540",
+            "https://www.worldradiohistory.com/Archive-All-Audio/Archive-High-Fidelity/60s/High-Fidelity-1963-Feb.pdf"
+          ]
         },
         {
           "id": "dd9dzoeoikkta",
@@ -9976,14 +10566,27 @@
       "query": "rudolf serkin bartok concerto no 1 concerto no 4 for the left hand",
       "searched_at": "2026-11-12T14:44:16.294675+00:00",
       "reasons": [
-        "0/2 target items supported after composer/work grouping; unresolved.",
-        "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
+        "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+        "Columbia’s contemporary February1963advertisement identifies precisely this Bartok1/Szell/Columbia and Prokofiev4/Ormandy/Philadelphia coupling. The saved Sony reissue contains all seven movements with each conductor/orchestra bound only to its own work. The source joined Bartok second/third band maps to those two distinct tracks. Full composer names with printed birth/death annotations are explicitly frozen source-bound spellings, never general aliases.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+        "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
       ]
     },
     "3334175": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "rwruoiy8hkl5a",
+        "name": "Prokofiev: Violin Concertos Nos. 1 & 2",
+        "artists": [
+          "Isaac Stern"
+        ],
+        "label": "Sony Classical",
+        "release_date": "1983-01-01",
+        "image": "https://static.qobuz.com/images/covers/5a/kl/rwruoiy8hkl5a_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/prokofiev-violin-concertos-nos-1-2-isaac-stern/rwruoiy8hkl5a"
+      },
       "candidates": [
         {
           "id": "rwruoiy8hkl5a",
@@ -9995,11 +10598,11 @@
           "release_date": "1983-01-01",
           "image": "https://static.qobuz.com/images/covers/5a/kl/rwruoiy8hkl5a_230.jpg",
           "url": "https://www.qobuz.com/fr-fr/album/prokofiev-violin-concertos-nos-1-2-isaac-stern/rwruoiy8hkl5a",
-          "status": "unchecked",
-          "confidence": null,
-          "coverage": 0.0,
-          "covered": 0,
-          "target_count": 2,
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 6,
+          "target_count": 6,
           "required_performers": [
             "Eugene Ormandy",
             "Isaac Stern",
@@ -10007,20 +10610,216 @@
           ],
           "programme": [
             {
-              "target": "Violin Concerto No. 1 In D Major, Op. 19",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "target": "A1: I Andantino: Andante Assai",
+              "source_path": [
+                0,
+                0
+              ],
+              "track_ids": [
+                97151403
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Eugene Ormandy",
+                "Isaac Stern",
+                "The Philadelphia Orchestra"
+              ]
             },
             {
-              "target": "Violin Concerto No. 2 In G Minor, Op. 63",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "target": "A2: II Scherzo: Vivacissimo",
+              "source_path": [
+                0,
+                1
+              ],
+              "track_ids": [
+                97151404
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Eugene Ormandy",
+                "Isaac Stern",
+                "The Philadelphia Orchestra"
+              ]
+            },
+            {
+              "target": "A3: III Moderato",
+              "source_path": [
+                0,
+                2
+              ],
+              "track_ids": [
+                97151405
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Eugene Ormandy",
+                "Isaac Stern",
+                "The Philadelphia Orchestra"
+              ]
+            },
+            {
+              "target": "B1: I Allegro Moderato",
+              "source_path": [
+                1,
+                0
+              ],
+              "track_ids": [
+                97151406
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Eugene Ormandy",
+                "Isaac Stern",
+                "The Philadelphia Orchestra"
+              ]
+            },
+            {
+              "target": "B2: II Andante Assai",
+              "source_path": [
+                1,
+                1
+              ],
+              "track_ids": [
+                97151407
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Eugene Ormandy",
+                "Isaac Stern",
+                "The Philadelphia Orchestra"
+              ]
+            },
+            {
+              "target": "B3: III Allegro, Ben Marcato",
+              "source_path": [
+                1,
+                2
+              ],
+              "track_ids": [
+                97151408
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Eugene Ormandy",
+                "Isaac Stern",
+                "The Philadelphia Orchestra"
+              ]
             }
           ],
           "reasons": [
-            "0/2 target items supported after composer/work grouping; unresolved."
+            "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+            "The contemporary1964Stern/Ormandy Prokofiev review and Sony’s Columbia-discography account corroborate this recording family. The saved Sony reissue has both complete three-movement concertos with positive Stern/Ormandy/Philadelphia/Prokofiev roles; all six source bands remain distinct. The later issue date is not an asserted session date.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+            "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "A1: I Andantino: Andante Assai",
+                "source_path": [
+                  0,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  97151403
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 565,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A2: II Scherzo: Vivacissimo",
+                "source_path": [
+                  0,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  97151404
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 218,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A3: III Moderato",
+                "source_path": [
+                  0,
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  97151405
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 479,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B1: I Allegro Moderato",
+                "source_path": [
+                  1,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  97151406
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 628,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B2: II Andante Assai",
+                "source_path": [
+                  1,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  97151407
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 574,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B3: III Allegro, Ben Marcato",
+                "source_path": [
+                  1,
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  97151408
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 361,
+                "source_duration_notes": []
+              }
+            ]
+          },
+          "recording_review": "The contemporary1964Stern/Ormandy Prokofiev review and Sony’s Columbia-discography account corroborate this recording family. The saved Sony reissue has both complete three-movement concertos with positive Stern/Ormandy/Philadelphia/Prokofiev roles; all six source bands remain distinct. The later issue date is not an asserted session date.",
+          "review_sources": [
+            "https://www.discogs.com/release/3334175",
+            "https://www.unz.com/PDF/PERIODICAL/SaturdayRev-1964dec26/48-50/",
+            "https://www.sonyclassical.com/news/news-details/isaac-stern"
           ]
         },
         {
@@ -10143,7 +10942,11 @@
       "query": "eugene ormandy prokofiev violin concertos no 1 in d major no 2 in",
       "searched_at": "2026-11-12T14:44:31.288647+00:00",
       "reasons": [
-        "0/2 target items supported after composer/work grouping; unresolved."
+        "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+        "The contemporary1964Stern/Ormandy Prokofiev review and Sony’s Columbia-discography account corroborate this recording family. The saved Sony reissue has both complete three-movement concertos with positive Stern/Ormandy/Philadelphia/Prokofiev roles; all six source bands remain distinct. The later issue date is not an asserted session date.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+        "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
       ]
     },
     "8999534": {
@@ -10386,7 +11189,16 @@
       "searched_at": "2026-11-12T14:45:31.639882+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The best Bach candidate supplies only the double concerto from the source1981celebration. The saved Vivaldi/Mozart alternatives do not establish the full nine-band concert with Mehta/NewYorkPhilharmonic and all source-scoped Perlman/Zukerman roles.",
+        "limitations": [
+          "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+          "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
+        ]
+      }
     },
     "3000291": {
       "status": "unchecked",
@@ -12156,10 +12968,374 @@
       ]
     },
     "6268701": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0886444938174",
+        "name": "Glenn Gould Plays Bach, Vol. 3 - English and French Suites",
+        "artists": [
+          "Glenn Gould"
+        ],
+        "label": "Sony Classical",
+        "release_date": "2015-05-15",
+        "image": "https://static.qobuz.com/images/covers/74/81/0886444938174_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/glenn-gould-plays-bach-vol-3-english-and-french-suites-glenn-gould/0886444938174"
+      },
       "candidates": [
+        {
+          "id": "0886444938174",
+          "name": "Glenn Gould Plays Bach, Vol. 3 - English and French Suites",
+          "artists": [
+            "Glenn Gould"
+          ],
+          "label": "Sony Classical",
+          "release_date": "2015-05-15",
+          "image": "https://static.qobuz.com/images/covers/74/81/0886444938174_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/glenn-gould-plays-bach-vol-3-english-and-french-suites-glenn-gould/0886444938174",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 8,
+          "target_count": 8,
+          "required_performers": [
+            "Glenn Gould"
+          ],
+          "programme": [
+            {
+              "target": "A1: Suite No. 1 (D Minor / D-Moll / Ré Mineur), BWV 812",
+              "source_path": [
+                0
+              ],
+              "track_ids": [
+                24137623,
+                24137627,
+                24137630,
+                24137634,
+                24137636,
+                24137638
+              ],
+              "work_tracks": 6,
+              "credited_tracks": 6,
+              "required_performers": [
+                "Glenn Gould"
+              ]
+            },
+            {
+              "target": "A2: Suite No. 2 (C Minor / C-Moll / Ut Mineur), BWV 813",
+              "source_path": [
+                1
+              ],
+              "track_ids": [
+                24137640,
+                24137642,
+                24137644,
+                24137646,
+                24137648,
+                24137650
+              ],
+              "work_tracks": 6,
+              "credited_tracks": 6,
+              "required_performers": [
+                "Glenn Gould"
+              ]
+            },
+            {
+              "target": "B1: Suite No. 3 (B Minor / H-Moll / Si Mineur), BWV 814",
+              "source_path": [
+                2
+              ],
+              "track_ids": [
+                24137652,
+                24137654,
+                24137656,
+                24137658,
+                24137660,
+                24137662
+              ],
+              "work_tracks": 6,
+              "credited_tracks": 6,
+              "required_performers": [
+                "Glenn Gould"
+              ]
+            },
+            {
+              "target": "B2: Suite No. 4 (E Flat Major / Es-Dur / Mi Bémol Majeur), BWV 815",
+              "source_path": [
+                3
+              ],
+              "track_ids": [
+                24137664,
+                24137666,
+                24137668,
+                24137671,
+                24137674,
+                24137677,
+                24137680
+              ],
+              "work_tracks": 7,
+              "credited_tracks": 7,
+              "required_performers": [
+                "Glenn Gould"
+              ]
+            },
+            {
+              "target": "C1: Suite No. 5 (G Major / G-Dur / Sol Majeur), BWV 816",
+              "source_path": [
+                4
+              ],
+              "track_ids": [
+                24137684,
+                24137687,
+                24137690,
+                24137694,
+                24137697,
+                24137701,
+                24137704
+              ],
+              "work_tracks": 7,
+              "credited_tracks": 7,
+              "required_performers": [
+                "Glenn Gould"
+              ]
+            },
+            {
+              "target": "C2: Suite No. 6 (E Major / E-Dur / Mi Majeur), BWV 817",
+              "source_path": [
+                5
+              ],
+              "track_ids": [
+                24137707,
+                24137710,
+                24137713,
+                24137715,
+                24137717,
+                24137719,
+                24137721,
+                24137723
+              ],
+              "work_tracks": 8,
+              "credited_tracks": 8,
+              "required_performers": [
+                "Glenn Gould"
+              ]
+            },
+            {
+              "target": "D1: Ouverture",
+              "source_path": [
+                6,
+                0
+              ],
+              "track_ids": [
+                24137725
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Glenn Gould"
+              ]
+            },
+            {
+              "target": "D2: Courante - Gavotte I - Gavotte II - Passepied I - Passepied II - Sarabande - Bourrée I - Barrée II - Gigue - Echo",
+              "source_path": [
+                6,
+                1
+              ],
+              "track_ids": [
+                24137727,
+                24137729,
+                24137731,
+                24137733,
+                24137735,
+                24137737,
+                24137739,
+                24137743,
+                24137746,
+                24137750
+              ],
+              "work_tracks": 10,
+              "credited_tracks": 10,
+              "required_performers": [
+                "Glenn Gould"
+              ]
+            }
+          ],
+          "reasons": [
+            "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+            "Gould’s official chronology documents FrenchSuites1–4in1973and5/6plus FrenchOverture in1974, agreeing with source notes identifying M32347/M32853. One saved Sony compilation supplies all51movements: six whole-suite source bands plus the Overture’s two physical bands. Every printed band total fits existing timing tolerance; no movement or suite is inferred from a title alone.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+            "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "A1: Suite No. 1 (D Minor / D-Moll / Ré Mineur), BWV 812",
+                "source_path": [
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  24137623,
+                  24137627,
+                  24137630,
+                  24137634,
+                  24137636,
+                  24137638
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 676,
+                "digital_duration_seconds": 671,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A2: Suite No. 2 (C Minor / C-Moll / Ut Mineur), BWV 813",
+                "source_path": [
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  24137640,
+                  24137642,
+                  24137644,
+                  24137646,
+                  24137648,
+                  24137650
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 572,
+                "digital_duration_seconds": 559,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B1: Suite No. 3 (B Minor / H-Moll / Si Mineur), BWV 814",
+                "source_path": [
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  24137652,
+                  24137654,
+                  24137656,
+                  24137658,
+                  24137660,
+                  24137662
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 536,
+                "digital_duration_seconds": 529,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B2: Suite No. 4 (E Flat Major / Es-Dur / Mi Bémol Majeur), BWV 815",
+                "source_path": [
+                  3
+                ],
+                "status": "complete",
+                "track_ids": [
+                  24137664,
+                  24137666,
+                  24137668,
+                  24137671,
+                  24137674,
+                  24137677,
+                  24137680
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 553,
+                "digital_duration_seconds": 542,
+                "source_duration_notes": []
+              },
+              {
+                "target": "C1: Suite No. 5 (G Major / G-Dur / Sol Majeur), BWV 816",
+                "source_path": [
+                  4
+                ],
+                "status": "complete",
+                "track_ids": [
+                  24137684,
+                  24137687,
+                  24137690,
+                  24137694,
+                  24137697,
+                  24137701,
+                  24137704
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 657,
+                "digital_duration_seconds": 654,
+                "source_duration_notes": []
+              },
+              {
+                "target": "C2: Suite No. 6 (E Major / E-Dur / Mi Majeur), BWV 817",
+                "source_path": [
+                  5
+                ],
+                "status": "complete",
+                "track_ids": [
+                  24137707,
+                  24137710,
+                  24137713,
+                  24137715,
+                  24137717,
+                  24137719,
+                  24137721,
+                  24137723
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 630,
+                "digital_duration_seconds": 626,
+                "source_duration_notes": []
+              },
+              {
+                "target": "D1: Ouverture",
+                "source_path": [
+                  6,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  24137725
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 592,
+                "digital_duration_seconds": 589,
+                "source_duration_notes": []
+              },
+              {
+                "target": "D2: Courante - Gavotte I - Gavotte II - Passepied I - Passepied II - Sarabande - Bourrée I - Barrée II - Gigue - Echo",
+                "source_path": [
+                  6,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  24137727,
+                  24137729,
+                  24137731,
+                  24137733,
+                  24137735,
+                  24137737,
+                  24137739,
+                  24137743,
+                  24137746,
+                  24137750
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 923,
+                "digital_duration_seconds": 921,
+                "source_duration_notes": []
+              }
+            ]
+          },
+          "recording_review": "Gould’s official chronology documents FrenchSuites1–4in1973and5/6plus FrenchOverture in1974, agreeing with source notes identifying M32347/M32853. One saved Sony compilation supplies all51movements: six whole-suite source bands plus the Overture’s two physical bands. Every printed band total fits existing timing tolerance; no movement or suite is inferred from a title alone.",
+          "review_sources": [
+            "https://www.discogs.com/release/6268701",
+            "https://glenngould.com/history/",
+            "https://glenngould.com/music/bach-the-french-suites-vol-2-overture-in-the-french-style/"
+          ]
+        },
         {
           "id": "0886445077308",
           "name": "Bach: The French Suites Nos. 1-4, BWV 812-815 - Gould Remastered",
@@ -12293,72 +13469,6 @@
           ]
         },
         {
-          "id": "0886444938174",
-          "name": "Glenn Gould Plays Bach, Vol. 3 - English and French Suites",
-          "artists": [
-            "Glenn Gould"
-          ],
-          "label": "Sony Classical",
-          "release_date": "2015-05-15",
-          "image": "https://static.qobuz.com/images/covers/74/81/0886444938174_230.jpg",
-          "url": "https://www.qobuz.com/fr-fr/album/glenn-gould-plays-bach-vol-3-english-and-french-suites-glenn-gould/0886444938174",
-          "status": "unchecked",
-          "confidence": null,
-          "coverage": 0.0,
-          "covered": 0,
-          "target_count": 7,
-          "required_performers": [
-            "Glenn Gould"
-          ],
-          "programme": [
-            {
-              "target": "Suite No. 1 (D Minor / D-Moll / Ré Mineur), BWV 812",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Suite No. 2 (C Minor / C-Moll / Ut Mineur), BWV 813",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Suite No. 3 (B Minor / H-Moll / Si Mineur), BWV 814",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Suite No. 4 (E Flat Major / Es-Dur / Mi Bémol Majeur), BWV 815",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Suite No. 5 (G Major / G-Dur / Sol Majeur), BWV 816",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Suite No. 6 (E Major / E-Dur / Mi Majeur), BWV 817",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            },
-            {
-              "target": "Overture In The French Style, BWV 831",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
-            }
-          ],
-          "reasons": [
-            "0/7 target items supported after composer/work grouping; unresolved."
-          ]
-        },
-        {
           "id": "0886445221237",
           "name": "Glenn Gould. The Complete Columbia Album Collection",
           "artists": [
@@ -12428,7 +13538,11 @@
       "query": "glenn gould bach the french suites",
       "searched_at": "2026-11-12T14:48:31.458145+00:00",
       "reasons": [
-        "0/7 target items supported after composer/work grouping; unresolved."
+        "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+        "Gould’s official chronology documents FrenchSuites1–4in1973and5/6plus FrenchOverture in1974, agreeing with source notes identifying M32347/M32853. One saved Sony compilation supplies all51movements: six whole-suite source bands plus the Overture’s two physical bands. Every printed band total fits existing timing tolerance; no movement or suite is inferred from a title alone.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+        "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
       ]
     },
     "5349319": {
@@ -12589,7 +13703,15 @@
             }
           ],
           "reasons": [
+            "The31movement compilation covers the listed sonatas, but source sonata6says A major whereas digital metadata says F major; source sonata2finale says Allegro Assai whereas the file says Rondo Grazioso. Multiple printed timings exceed existing per-band tolerance (for example3:48versus3:55,2:39versus2:45). Separate remasters cover only subsets.",
+            "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+            "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver.",
             "0/9 target items supported after composer/work grouping; unresolved."
+          ],
+          "recording_review_decision": "withhold",
+          "recording_review": "The31movement compilation covers the listed sonatas, but source sonata6says A major whereas digital metadata says F major; source sonata2finale says Allegro Assai whereas the file says Rondo Grazioso. Multiple printed timings exceed existing per-band tolerance (for example3:48versus3:55,2:39versus2:45). Separate remasters cover only subsets.",
+          "review_sources": [
+            "https://www.discogs.com/release/5349319"
           ]
         },
         {
@@ -12831,7 +13953,16 @@
       "searched_at": "2026-11-12T14:48:46.492035+00:00",
       "reasons": [
         "0/9 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The31movement compilation covers the listed sonatas, but source sonata6says A major whereas digital metadata says F major; source sonata2finale says Allegro Assai whereas the file says Rondo Grazioso. Multiple printed timings exceed existing per-band tolerance (for example3:48versus3:55,2:39versus2:45). Separate remasters cover only subsets.",
+        "limitations": [
+          "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+          "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
+        ]
+      }
     },
     "36122362": {
       "status": "unchecked",
@@ -17427,14 +18558,521 @@
       ]
     },
     "2930473": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
-      "candidates": [],
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "av98godsw1g2b",
+        "name": "Beethoven: Piano Concertos 1-5",
+        "artists": [
+          "Leon Fleisher"
+        ],
+        "label": "Sony Classical",
+        "release_date": "2013-05-31",
+        "image": "https://static.qobuz.com/images/covers/2b/1g/av98godsw1g2b_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/beethoven-piano-concertos-1-5-leon-fleisher/av98godsw1g2b"
+      },
+      "candidates": [
+        {
+          "id": "av98godsw1g2b",
+          "name": "Beethoven: Piano Concertos 1-5",
+          "artists": [
+            "Leon Fleisher"
+          ],
+          "label": "Sony Classical",
+          "release_date": "2013-05-31",
+          "image": "https://static.qobuz.com/images/covers/2b/1g/av98godsw1g2b_230.jpg",
+          "url": "https://www.qobuz.com/fr-fr/album/beethoven-piano-concertos-1-5-leon-fleisher/av98godsw1g2b",
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 15,
+          "target_count": 15,
+          "required_performers": [
+            "George Szell",
+            "Leon Fleisher",
+            "The Cleveland Orchestra"
+          ],
+          "programme": [
+            {
+              "target": "A: 1. Satz: Allegro Con Brio",
+              "source_path": [
+                1
+              ],
+              "track_ids": [
+                57834700
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "George Szell",
+                "Leon Fleisher",
+                "The Cleveland Orchestra"
+              ]
+            },
+            {
+              "target": "B1: 2. Satz: Largo",
+              "source_path": [
+                2
+              ],
+              "track_ids": [
+                57834701
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "George Szell",
+                "Leon Fleisher",
+                "The Cleveland Orchestra"
+              ]
+            },
+            {
+              "target": "B2: 3. Satz: Rondo: Allegro Scherzando",
+              "source_path": [
+                3
+              ],
+              "track_ids": [
+                57834702
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "George Szell",
+                "Leon Fleisher",
+                "The Cleveland Orchestra"
+              ]
+            },
+            {
+              "target": "C1: 1. Satz: Allegro Con Brio",
+              "source_path": [
+                5
+              ],
+              "track_ids": [
+                57834703
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "George Szell",
+                "Leon Fleisher",
+                "The Cleveland Orchestra"
+              ]
+            },
+            {
+              "target": "C2: 2. Satz: Adagio",
+              "source_path": [
+                6
+              ],
+              "track_ids": [
+                57834704
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "George Szell",
+                "Leon Fleisher",
+                "The Cleveland Orchestra"
+              ]
+            },
+            {
+              "target": "C3: 3. Satz: Rondo: Molto Allegro",
+              "source_path": [
+                7
+              ],
+              "track_ids": [
+                57834705
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "George Szell",
+                "Leon Fleisher",
+                "The Cleveland Orchestra"
+              ]
+            },
+            {
+              "target": "D1: 1. Satz: Allegro Moderato",
+              "source_path": [
+                9
+              ],
+              "track_ids": [
+                57834706
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "George Szell",
+                "Leon Fleisher",
+                "The Cleveland Orchestra"
+              ]
+            },
+            {
+              "target": "D2: 2. Satz: Andante Con Moto",
+              "source_path": [
+                10
+              ],
+              "track_ids": [
+                57834707
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "George Szell",
+                "Leon Fleisher",
+                "The Cleveland Orchestra"
+              ]
+            },
+            {
+              "target": "D3: 3. Satz: Rondo: Vivace",
+              "source_path": [
+                11
+              ],
+              "track_ids": [
+                57834708
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "George Szell",
+                "Leon Fleisher",
+                "The Cleveland Orchestra"
+              ]
+            },
+            {
+              "target": "E: 1. Satz: Allegro Con Brio",
+              "source_path": [
+                13
+              ],
+              "track_ids": [
+                57834709
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "George Szell",
+                "Leon Fleisher",
+                "The Cleveland Orchestra"
+              ]
+            },
+            {
+              "target": "F1: 2. Satz: Largo",
+              "source_path": [
+                14
+              ],
+              "track_ids": [
+                57834710
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "George Szell",
+                "Leon Fleisher",
+                "The Cleveland Orchestra"
+              ]
+            },
+            {
+              "target": "F2: 3. Satz: Rondo: Allegro",
+              "source_path": [
+                15
+              ],
+              "track_ids": [
+                57834711
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "George Szell",
+                "Leon Fleisher",
+                "The Cleveland Orchestra"
+              ]
+            },
+            {
+              "target": "G: 1. Satz: Allegro",
+              "source_path": [
+                17
+              ],
+              "track_ids": [
+                57834712
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "George Szell",
+                "Leon Fleisher",
+                "The Cleveland Orchestra"
+              ]
+            },
+            {
+              "target": "H1: 2. Satz: Adagio Un Poco Mosso",
+              "source_path": [
+                18
+              ],
+              "track_ids": [
+                57834713
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "George Szell",
+                "Leon Fleisher",
+                "The Cleveland Orchestra"
+              ]
+            },
+            {
+              "target": "H2: 3. Satz: Rondo: Allegro Ma Non Tanto",
+              "source_path": [
+                19
+              ],
+              "track_ids": [
+                57834714
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "George Szell",
+                "Leon Fleisher",
+                "The Cleveland Orchestra"
+              ]
+            }
+          ],
+          "reasons": [
+            "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+            "The Cleveland Orchestra’s own history documents Fleisher/Szell’s complete Epic Beethoven cycle, recorded1959–61. All15source bands, in the unusual1/2/4/3/5LP order, occur with positive Fleisher/Szell/Cleveland and Beethoven roles in the saved Sony set. Preserve all five structural headings and every movement, not fifteen interchangeable tempo labels.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+            "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
+          ],
+          "work_group_policy": "qobuz-work-groups-v1",
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "A: 1. Satz: Allegro Con Brio",
+                "source_path": [
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  57834700
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 993,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B1: 2. Satz: Largo",
+                "source_path": [
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  57834701
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 740,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B2: 3. Satz: Rondo: Allegro Scherzando",
+                "source_path": [
+                  3
+                ],
+                "status": "complete",
+                "track_ids": [
+                  57834702
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 514,
+                "source_duration_notes": []
+              },
+              {
+                "target": "C1: 1. Satz: Allegro Con Brio",
+                "source_path": [
+                  5
+                ],
+                "status": "complete",
+                "track_ids": [
+                  57834703
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 778,
+                "source_duration_notes": []
+              },
+              {
+                "target": "C2: 2. Satz: Adagio",
+                "source_path": [
+                  6
+                ],
+                "status": "complete",
+                "track_ids": [
+                  57834704
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 539,
+                "source_duration_notes": []
+              },
+              {
+                "target": "C3: 3. Satz: Rondo: Molto Allegro",
+                "source_path": [
+                  7
+                ],
+                "status": "complete",
+                "track_ids": [
+                  57834705
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 338,
+                "source_duration_notes": []
+              },
+              {
+                "target": "D1: 1. Satz: Allegro Moderato",
+                "source_path": [
+                  9
+                ],
+                "status": "complete",
+                "track_ids": [
+                  57834706
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 1088,
+                "source_duration_notes": []
+              },
+              {
+                "target": "D2: 2. Satz: Andante Con Moto",
+                "source_path": [
+                  10
+                ],
+                "status": "complete",
+                "track_ids": [
+                  57834707
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 308,
+                "source_duration_notes": []
+              },
+              {
+                "target": "D3: 3. Satz: Rondo: Vivace",
+                "source_path": [
+                  11
+                ],
+                "status": "complete",
+                "track_ids": [
+                  57834708
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 547,
+                "source_duration_notes": []
+              },
+              {
+                "target": "E: 1. Satz: Allegro Con Brio",
+                "source_path": [
+                  13
+                ],
+                "status": "complete",
+                "track_ids": [
+                  57834709
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 923,
+                "source_duration_notes": []
+              },
+              {
+                "target": "F1: 2. Satz: Largo",
+                "source_path": [
+                  14
+                ],
+                "status": "complete",
+                "track_ids": [
+                  57834710
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 587,
+                "source_duration_notes": []
+              },
+              {
+                "target": "F2: 3. Satz: Rondo: Allegro",
+                "source_path": [
+                  15
+                ],
+                "status": "complete",
+                "track_ids": [
+                  57834711
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 513,
+                "source_duration_notes": []
+              },
+              {
+                "target": "G: 1. Satz: Allegro",
+                "source_path": [
+                  17
+                ],
+                "status": "complete",
+                "track_ids": [
+                  57834712
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 1167,
+                "source_duration_notes": []
+              },
+              {
+                "target": "H1: 2. Satz: Adagio Un Poco Mosso",
+                "source_path": [
+                  18
+                ],
+                "status": "complete",
+                "track_ids": [
+                  57834713
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 505,
+                "source_duration_notes": []
+              },
+              {
+                "target": "H2: 3. Satz: Rondo: Allegro Ma Non Tanto",
+                "source_path": [
+                  19
+                ],
+                "status": "complete",
+                "track_ids": [
+                  57834714
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 578,
+                "source_duration_notes": []
+              }
+            ]
+          },
+          "recording_review": "The Cleveland Orchestra’s own history documents Fleisher/Szell’s complete Epic Beethoven cycle, recorded1959–61. All15source bands, in the unusual1/2/4/3/5LP order, occur with positive Fleisher/Szell/Cleveland and Beethoven roles in the saved Sony set. Preserve all five structural headings and every movement, not fifteen interchangeable tempo labels.",
+          "review_sources": [
+            "https://www.discogs.com/release/2930473",
+            "https://www.clevelandorchestra.com/posts/beethovens-piano-concertos-and-the-cleveland-orchestra"
+          ]
+        }
+      ],
       "query": "george szell beethoven die funf klavierkonzerte",
       "searched_at": "2026-11-12T14:54:47.422348+00:00",
       "reasons": [
-        "No first-pass search results; broader search is unresolved."
+        "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+        "The Cleveland Orchestra’s own history documents Fleisher/Szell’s complete Epic Beethoven cycle, recorded1959–61. All15source bands, in the unusual1/2/4/3/5LP order, occur with positive Fleisher/Szell/Cleveland and Beethoven roles in the saved Sony set. Preserve all five structural headings and every movement, not fifteen interchangeable tempo labels.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+        "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
       ]
     },
     "14829435": {
@@ -20926,18 +22564,38 @@
             }
           ],
           "reasons": [
+            "The saved album contains Brandenburg4–6plus OrchestralSuite4, omitting Brandenburg1–3and the source bonus rehearsal LP. It also omits positive evidence for several explicitly named soloists/continuo players.",
+            "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+            "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver.",
             "0/13 target items supported after composer/work grouping; unresolved.",
             "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
           ],
-          "work_group_policy": "qobuz-work-groups-v1"
+          "work_group_policy": "qobuz-work-groups-v1",
+          "recording_review_decision": "withhold",
+          "recording_review": "The saved album contains Brandenburg4–6plus OrchestralSuite4, omitting Brandenburg1–3and the source bonus rehearsal LP. It also omits positive evidence for several explicitly named soloists/continuo players.",
+          "review_sources": [
+            "https://www.discogs.com/release/8470218"
+          ]
         }
       ],
       "query": "pablo casals bach the six brandenburg concertos",
       "searched_at": "2026-11-12T14:58:32.506896+00:00",
       "reasons": [
+        "The saved album contains Brandenburg4–6plus OrchestralSuite4, omitting Brandenburg1–3and the source bonus rehearsal LP. It also omits positive evidence for several explicitly named soloists/continuo players.",
+        "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+        "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver.",
         "0/13 target items supported after composer/work grouping; unresolved.",
         "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The saved album contains Brandenburg4–6plus OrchestralSuite4, omitting Brandenburg1–3and the source bonus rehearsal LP. It also omits positive evidence for several explicitly named soloists/continuo players.",
+        "limitations": [
+          "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+          "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
+        ]
+      }
     },
     "6599724": {
       "status": "unchecked",
@@ -21311,7 +22969,15 @@
             }
           ],
           "reasons": [
+            "The1948ML4041source splits the first movement into six named bands/sections, while all complete candidates provide one unsplit first-movement track. Candidate timings differ substantially across Serkin/Ormandy recording families, including the explicitly1950–56collection; no saved primary evidence binds one transfer to the source LP or its internal boundaries.",
+            "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+            "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver.",
             "0/1 target items supported after composer/work grouping; unresolved."
+          ],
+          "recording_review_decision": "withhold",
+          "recording_review": "The1948ML4041source splits the first movement into six named bands/sections, while all complete candidates provide one unsplit first-movement track. Candidate timings differ substantially across Serkin/Ormandy recording families, including the explicitly1950–56collection; no saved primary evidence binds one transfer to the source LP or its internal boundaries.",
+          "review_sources": [
+            "https://www.discogs.com/release/7946604"
           ]
         }
       ],
@@ -21319,12 +22985,31 @@
       "searched_at": "2026-11-12T14:59:02.452748+00:00",
       "reasons": [
         "0/1 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The1948ML4041source splits the first movement into six named bands/sections, while all complete candidates provide one unsplit first-movement track. Candidate timings differ substantially across Serkin/Ormandy recording families, including the explicitly1950–56collection; no saved primary evidence binds one transfer to the source LP or its internal boundaries.",
+        "limitations": [
+          "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+          "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
+        ]
+      }
     },
     "23764721": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "5099751286325",
+        "name": "Mozart: Piano Concertos Nos. 9 & 20 [Rudolf Serkin - The Art of Interpretation]",
+        "artists": [
+          "Rudolf Serkin, The Philadelphia Orchestra, Eugene Ormandy, Marlboro Festival Orchestra, Alexander Schneider"
+        ],
+        "label": "Sony Classical",
+        "release_date": "2003-01-01",
+        "image": "https://static.qobuz.com/images/covers/25/63/5099751286325_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/mozart-piano-concertos-nos-9-20-rudolf-serkin-the-art-of-interpretation-rudolf-serkin-the-philadelphia-orchestra-eugene-ormandy-marlboro-festival-orchestra-alexander-schneider/5099751286325"
+      },
       "candidates": [
         {
           "id": "5099751286325",
@@ -21336,11 +23021,11 @@
           "release_date": "2003-01-01",
           "image": "https://static.qobuz.com/images/covers/25/63/5099751286325_230.jpg",
           "url": "https://www.qobuz.com/fr-fr/album/mozart-piano-concertos-nos-9-20-rudolf-serkin-the-art-of-interpretation-rudolf-serkin-the-philadelphia-orchestra-eugene-ormandy-marlboro-festival-orchestra-alexander-schneider/5099751286325",
-          "status": "unchecked",
-          "confidence": null,
-          "coverage": 0.0,
-          "covered": 0,
-          "target_count": 1,
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 3,
+          "target_count": 3,
           "required_performers": [
             "Eugene Ormandy",
             "Rudolf Serkin",
@@ -21348,21 +23033,130 @@
           ],
           "programme": [
             {
-              "target": "Concerto No. 20 In D Minor For Piano And Orchestra, K. 466",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "target": "A1: Allegro",
+              "source_path": [
+                0,
+                0
+              ],
+              "track_ids": [
+                171005
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Eugene Ormandy",
+                "Rudolf Serkin",
+                "The Philadelphia Orchestra"
+              ]
+            },
+            {
+              "target": "B1: Romance",
+              "source_path": [
+                0,
+                1
+              ],
+              "track_ids": [
+                171006
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Eugene Ormandy",
+                "Rudolf Serkin",
+                "The Philadelphia Orchestra"
+              ]
+            },
+            {
+              "target": "B2: Allegro Assai",
+              "source_path": [
+                0,
+                2
+              ],
+              "track_ids": [
+                171007
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Eugene Ormandy",
+                "Rudolf Serkin",
+                "The Philadelphia Orchestra"
+              ]
             }
           ],
           "reasons": [
-            "0/1 target items supported after composer/work grouping; unresolved."
+            "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+            "Columbia’s contemporary January1956Mozart catalogue advertisement explicitly identifies ML4424as Serkin/Ormandy/Philadelphia K466. The saved Sony historical reissue contains all three source movements with those positive musicians. Its full Mozart Composer string includes lifespan annotations, explicitly bound to this source review; no general composer alias or invented session date.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+            "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "A1: Allegro",
+                "source_path": [
+                  0,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  171005
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 750,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B1: Romance",
+                "source_path": [
+                  0,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  171006
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 541,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B2: Allegro Assai",
+                "source_path": [
+                  0,
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  171007
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 426,
+                "source_duration_notes": []
+              }
+            ]
+          },
+          "recording_review": "Columbia’s contemporary January1956Mozart catalogue advertisement explicitly identifies ML4424as Serkin/Ormandy/Philadelphia K466. The saved Sony historical reissue contains all three source movements with those positive musicians. Its full Mozart Composer string includes lifespan annotations, explicitly bound to this source review; no general composer alias or invented session date.",
+          "review_sources": [
+            "https://www.discogs.com/release/23764721",
+            "https://www.worldradiohistory.com/Archive-All-Audio/Archive-High-Fidelity/50s/High-Fidelity-1956-Jana.pdf"
           ]
         }
       ],
       "query": "eugene ormandy mozart concerto no 20 in d minor for piano and orchestra",
       "searched_at": "2026-11-12T14:59:17.615605+00:00",
       "reasons": [
-        "0/1 target items supported after composer/work grouping; unresolved."
+        "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+        "Columbia’s contemporary January1956Mozart catalogue advertisement explicitly identifies ML4424as Serkin/Ormandy/Philadelphia K466. The saved Sony historical reissue contains all three source movements with those positive musicians. Its full Mozart Composer string includes lifespan annotations, explicitly bound to this source review; no general composer alias or invented session date.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+        "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
       ]
     },
     "7194998": {
@@ -23047,10 +24841,18 @@
             }
           ],
           "reasons": [
+            "The source names New York Philharmonic on Bruch; the candidate positively credits Francescatti/Schippers but names New York Philharmonic Orchestra. That exact ensemble identity is not accepted by the current no-alias musician check. Mendelssohn also carries an additional Cleveland Orchestra credit on one track; no general ensemble substitution is adopted.",
+            "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+            "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver.",
             "0/2 target items supported after composer/work grouping; unresolved.",
             "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
           ],
-          "work_group_policy": "qobuz-work-groups-v1"
+          "work_group_policy": "qobuz-work-groups-v1",
+          "recording_review_decision": "withhold",
+          "recording_review": "The source names New York Philharmonic on Bruch; the candidate positively credits Francescatti/Schippers but names New York Philharmonic Orchestra. That exact ensemble identity is not accepted by the current no-alias musician check. Mendelssohn also carries an additional Cleveland Orchestra credit on one track; no general ensemble substitution is adopted.",
+          "review_sources": [
+            "https://www.discogs.com/release/4046757"
+          ]
         },
         {
           "id": "0074646459522",
@@ -23144,9 +24946,21 @@
       "query": "george szell bartholdy violin concerto violin concerto no 1",
       "searched_at": "2026-11-12T15:01:17.620527+00:00",
       "reasons": [
+        "The source names New York Philharmonic on Bruch; the candidate positively credits Francescatti/Schippers but names New York Philharmonic Orchestra. That exact ensemble identity is not accepted by the current no-alias musician check. Mendelssohn also carries an additional Cleveland Orchestra credit on one track; no general ensemble substitution is adopted.",
+        "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+        "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver.",
         "0/2 target items supported after composer/work grouping; unresolved.",
         "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The source names New York Philharmonic on Bruch; the candidate positively credits Francescatti/Schippers but names New York Philharmonic Orchestra. That exact ensemble identity is not accepted by the current no-alias musician check. Mendelssohn also carries an additional Cleveland Orchestra credit on one track; no general ensemble substitution is adopted.",
+        "limitations": [
+          "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+          "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
+        ]
+      }
     },
     "7809198": {
       "status": "unchecked",
@@ -23160,9 +24974,19 @@
       ]
     },
     "7766716": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0886446469928",
+        "name": "Brahms: Concerto No. 1 in D Minor for Piano and Orchestra, Op. 15",
+        "artists": [
+          "Rudolf Serkin"
+        ],
+        "label": "Sony Classical",
+        "release_date": "1947-01-01",
+        "image": "https://static.qobuz.com/images/covers/28/99/0886446469928_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/brahms-concerto-no-1-in-d-minor-for-piano-and-orchestra-op-15-rudolf-serkin/0886446469928"
+      },
       "candidates": [
         {
           "id": "0886446469928",
@@ -23174,11 +24998,11 @@
           "release_date": "1947-01-01",
           "image": "https://static.qobuz.com/images/covers/28/99/0886446469928_230.jpg",
           "url": "https://www.qobuz.com/fr-fr/album/brahms-concerto-no-1-in-d-minor-for-piano-and-orchestra-op-15-rudolf-serkin/0886446469928",
-          "status": "unchecked",
-          "confidence": null,
-          "coverage": 0.0,
-          "covered": 0,
-          "target_count": 1,
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 3,
+          "target_count": 3,
           "required_performers": [
             "Rudolf Serkin",
             "Fritz Reiner",
@@ -23186,14 +25010,119 @@
           ],
           "programme": [
             {
-              "target": "Concerto No. 1 In D Minor For Piano And Orchestra, Op. 15",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "target": "A: First Movement: Maestoso",
+              "source_path": [
+                0,
+                0
+              ],
+              "track_ids": [
+                42627018
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Rudolf Serkin",
+                "Fritz Reiner",
+                "Pittsburgh Symphony Orchestra"
+              ]
+            },
+            {
+              "target": "B1: Second Movement: Adagio",
+              "source_path": [
+                0,
+                1
+              ],
+              "track_ids": [
+                42627020
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Rudolf Serkin",
+                "Fritz Reiner",
+                "Pittsburgh Symphony Orchestra"
+              ]
+            },
+            {
+              "target": "B2: Third Movement: Rondo (Allegro Non Troppo)",
+              "source_path": [
+                0,
+                2
+              ],
+              "track_ids": [
+                42627022
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Rudolf Serkin",
+                "Fritz Reiner",
+                "Pittsburgh Symphony Orchestra"
+              ]
             }
           ],
           "reasons": [
-            "0/1 target items supported after composer/work grouping; unresolved."
+            "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+            "The University of Maryland IPAM guide places Serkin/Reiner’s Brahms Dminor concerto in his early Columbia discography, distinct from later Serkin/Szell recordings. The saved Sony remaster explicitly credits Serkin/Reiner/Pittsburgh on all three source movements and identifies the historical phonogram. This supports the ML4100recording family; source label-design/issue-date uncertainty remains.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+            "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "A: First Movement: Maestoso",
+                "source_path": [
+                  0,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  42627018
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 1186,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B1: Second Movement: Adagio",
+                "source_path": [
+                  0,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  42627020
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 801,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B2: Third Movement: Rondo (Allegro Non Troppo)",
+                "source_path": [
+                  0,
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  42627022
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 643,
+                "source_duration_notes": []
+              }
+            ]
+          },
+          "recording_review": "The University of Maryland IPAM guide places Serkin/Reiner’s Brahms Dminor concerto in his early Columbia discography, distinct from later Serkin/Szell recordings. The saved Sony remaster explicitly credits Serkin/Reiner/Pittsburgh on all three source movements and identifies the historical phonogram. This supports the ML4100recording family; source label-design/issue-date uncertainty remains.",
+          "review_sources": [
+            "https://www.discogs.com/release/7766716",
+            "https://lib.guides.umd.edu/ipam-buyers-guide/S-Z"
           ]
         },
         {
@@ -23328,7 +25257,11 @@
       "query": "rudolf serkin brahms concerto no 1 in d minor for piano and orchestra",
       "searched_at": "2026-11-12T15:01:47.811063+00:00",
       "reasons": [
-        "0/1 target items supported after composer/work grouping; unresolved."
+        "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+        "The University of Maryland IPAM guide places Serkin/Reiner’s Brahms Dminor concerto in his early Columbia discography, distinct from later Serkin/Szell recordings. The saved Sony remaster explicitly credits Serkin/Reiner/Pittsburgh on all three source movements and identifies the historical phonogram. This supports the ML4100recording family; source label-design/issue-date uncertainty remains.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+        "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
       ]
     },
     "4300898": {
@@ -133276,10 +135209,18 @@
             }
           ],
           "reasons": [
+            "Source Martinu duo lists three bands, but both cached editions contain only two named movements; source B2.3AllegroMolto remains unaccounted. Both Vivaldi candidates positively credit Malcom Hamilton, while the source names Malcolm Hamilton. No silent performer spelling alias or invented digital movement split.",
+            "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+            "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver.",
             "0/3 target items supported after composer/work grouping; unresolved.",
             "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
           ],
-          "work_group_policy": "qobuz-work-groups-v1"
+          "work_group_policy": "qobuz-work-groups-v1",
+          "recording_review_decision": "withhold",
+          "recording_review": "Source Martinu duo lists three bands, but both cached editions contain only two named movements; source B2.3AllegroMolto remains unaccounted. Both Vivaldi candidates positively credit Malcom Hamilton, while the source names Malcolm Hamilton. No silent performer spelling alias or invented digital movement split.",
+          "review_sources": [
+            "https://www.discogs.com/release/6953193"
+          ]
         }
       ],
       "query": "jascha heifetz arensky trio in d minor concerto for violin and cello in",
@@ -133287,7 +135228,16 @@
       "reasons": [
         "0/3 target items supported after composer/work grouping; unresolved.",
         "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Source Martinu duo lists three bands, but both cached editions contain only two named movements; source B2.3AllegroMolto remains unaccounted. Both Vivaldi candidates positively credit Malcom Hamilton, while the source names Malcolm Hamilton. No silent performer spelling alias or invented digital movement split.",
+        "limitations": [
+          "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+          "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
+        ]
+      }
     },
     "9703869": {
       "status": "unchecked",
@@ -135728,7 +137678,15 @@
             }
           ],
           "reasons": [
+            "All three Op.37tracks in the older RCA compilation credit Busoni and Beethoven as Composer. The modern alternative supplies Symphony of the Air only as Associated Performer. Complete movements do not resolve those conflicts.",
+            "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+            "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver.",
             "0/1 target items supported after composer/work grouping; unresolved."
+          ],
+          "recording_review_decision": "withhold",
+          "recording_review": "All three Op.37tracks in the older RCA compilation credit Busoni and Beethoven as Composer. The modern alternative supplies Symphony of the Air only as Associated Performer. Complete movements do not resolve those conflicts.",
+          "review_sources": [
+            "https://www.discogs.com/release/2845198"
           ]
         }
       ],
@@ -135736,7 +137694,16 @@
       "searched_at": "2026-11-12T17:26:43.227263+00:00",
       "reasons": [
         "0/1 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "All three Op.37tracks in the older RCA compilation credit Busoni and Beethoven as Composer. The modern alternative supplies Symphony of the Air only as Associated Performer. Complete movements do not resolve those conflicts.",
+        "limitations": [
+          "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+          "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
+        ]
+      }
     },
     "2208689": {
       "status": "probable",
@@ -135937,7 +137904,16 @@
       "searched_at": "2026-11-12T17:27:13.410592+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The RCA63044candidate supplies the complete Chopin Second Concerto but not the source Andante Spianato and Grande Polonaise Op22. Other saved albums do not provide both source works together with the required cast.",
+        "limitations": [
+          "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+          "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
+        ]
+      }
     },
     "2207158": {
       "status": "probable",
@@ -143090,7 +145066,16 @@
       "searched_at": "2026-11-12T17:34:14.007647+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The full cached candidate explicitly identifies the1939Toscanini cycle. The1980Victrola/Fabbri source has no session notes or band timings establishing that recording family. The other saved alternative supplies only Symphony2with associated-only orchestra credits.",
+        "limitations": [
+          "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+          "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
+        ]
+      }
     },
     "2559625": {
       "status": "probable",
@@ -145353,9 +147338,19 @@
       }
     },
     "12524051": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "ha5y5btyaellb",
+        "name": "Six Evolutions - Bach: Cello Suites",
+        "artists": [
+          "Yo-Yo Ma"
+        ],
+        "label": "Sony Classical",
+        "release_date": "2018-08-17",
+        "image": "https://static.qobuz.com/images/covers/lb/el/ha5y5btyaellb_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/six-evolutions-bach-cello-suites-yo-yo-ma/ha5y5btyaellb"
+      },
       "candidates": [
         {
           "id": "ha5y5btyaellb",
@@ -145367,61 +147362,1125 @@
           "release_date": "2018-08-17",
           "image": "https://static.qobuz.com/images/covers/lb/el/ha5y5btyaellb_230.jpg",
           "url": "https://www.qobuz.com/fr-fr/album/six-evolutions-bach-cello-suites-yo-yo-ma/ha5y5btyaellb",
-          "status": "unchecked",
-          "confidence": null,
-          "coverage": 0.0,
-          "covered": 0,
-          "target_count": 6,
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 36,
+          "target_count": 36,
           "required_performers": [
             "Yo-Yo Ma"
           ],
           "programme": [
             {
-              "target": "Unaccompanied Cello Suite No. 1 In G Major, BWV 1007",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "target": "A-1: Prélude",
+              "source_path": [
+                0,
+                0
+              ],
+              "track_ids": [
+                50631687
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Yo-Yo Ma"
+              ]
             },
             {
-              "target": "Unaccompanied Cello Suite No. 2 In D Minor, BWV 1008",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "target": "A-2: Allemande",
+              "source_path": [
+                0,
+                1
+              ],
+              "track_ids": [
+                50631688
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Yo-Yo Ma"
+              ]
             },
             {
-              "target": "Unaccompanied Cello Suite No. 3 In C Major, BWV 1009",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "target": "A-3: Courante",
+              "source_path": [
+                0,
+                2
+              ],
+              "track_ids": [
+                50631689
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Yo-Yo Ma"
+              ]
             },
             {
-              "target": "Unaccompanied Cello Suite No. 4 In E-flat Major, BWV 1010",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "target": "A-4: Sarabande",
+              "source_path": [
+                0,
+                3
+              ],
+              "track_ids": [
+                50631690
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Yo-Yo Ma"
+              ]
             },
             {
-              "target": "Unaccompanied Cello Suite No. 5 In C Minor, BWV 1011",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "target": "A-5: Menuets I & II",
+              "source_path": [
+                0,
+                4
+              ],
+              "track_ids": [
+                50631691
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Yo-Yo Ma"
+              ]
             },
             {
-              "target": "Unaccompanied Cello Suite No. 6 In D Major, BWV 1012",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "target": "A-6: Gigue",
+              "source_path": [
+                0,
+                5
+              ],
+              "track_ids": [
+                50631692
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Yo-Yo Ma"
+              ]
+            },
+            {
+              "target": "B-1: Prélude",
+              "source_path": [
+                1,
+                0
+              ],
+              "track_ids": [
+                50631693
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Yo-Yo Ma"
+              ]
+            },
+            {
+              "target": "B-2: Allemande",
+              "source_path": [
+                1,
+                1
+              ],
+              "track_ids": [
+                50631694
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Yo-Yo Ma"
+              ]
+            },
+            {
+              "target": "B-3: Courante",
+              "source_path": [
+                1,
+                2
+              ],
+              "track_ids": [
+                50631695
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Yo-Yo Ma"
+              ]
+            },
+            {
+              "target": "B-4: Sarabande",
+              "source_path": [
+                1,
+                3
+              ],
+              "track_ids": [
+                50631696
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Yo-Yo Ma"
+              ]
+            },
+            {
+              "target": "B-5: Menuets I & II",
+              "source_path": [
+                1,
+                4
+              ],
+              "track_ids": [
+                50631697
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Yo-Yo Ma"
+              ]
+            },
+            {
+              "target": "B-6: Gigue",
+              "source_path": [
+                1,
+                5
+              ],
+              "track_ids": [
+                50631698
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Yo-Yo Ma"
+              ]
+            },
+            {
+              "target": "C-1: Prélude",
+              "source_path": [
+                2,
+                0
+              ],
+              "track_ids": [
+                50631699
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Yo-Yo Ma"
+              ]
+            },
+            {
+              "target": "C-2: Allemande",
+              "source_path": [
+                2,
+                1
+              ],
+              "track_ids": [
+                50631700
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Yo-Yo Ma"
+              ]
+            },
+            {
+              "target": "C-3: Courante",
+              "source_path": [
+                2,
+                2
+              ],
+              "track_ids": [
+                50631701
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Yo-Yo Ma"
+              ]
+            },
+            {
+              "target": "C-4: Sarabande",
+              "source_path": [
+                2,
+                3
+              ],
+              "track_ids": [
+                50631702
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Yo-Yo Ma"
+              ]
+            },
+            {
+              "target": "C-5: Bourées I & II",
+              "source_path": [
+                2,
+                4
+              ],
+              "track_ids": [
+                50631703
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Yo-Yo Ma"
+              ]
+            },
+            {
+              "target": "C-6: Gigue",
+              "source_path": [
+                2,
+                5
+              ],
+              "track_ids": [
+                50631704
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Yo-Yo Ma"
+              ]
+            },
+            {
+              "target": "D-1: Prélude",
+              "source_path": [
+                3,
+                0
+              ],
+              "track_ids": [
+                50631705
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Yo-Yo Ma"
+              ]
+            },
+            {
+              "target": "D-2: Allemande",
+              "source_path": [
+                3,
+                1
+              ],
+              "track_ids": [
+                50631706
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Yo-Yo Ma"
+              ]
+            },
+            {
+              "target": "D-3: Courante",
+              "source_path": [
+                3,
+                2
+              ],
+              "track_ids": [
+                50631707
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Yo-Yo Ma"
+              ]
+            },
+            {
+              "target": "D-4: Sarabande",
+              "source_path": [
+                3,
+                3
+              ],
+              "track_ids": [
+                50631708
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Yo-Yo Ma"
+              ]
+            },
+            {
+              "target": "D-5: Bourées I & II",
+              "source_path": [
+                3,
+                4
+              ],
+              "track_ids": [
+                50631709
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Yo-Yo Ma"
+              ]
+            },
+            {
+              "target": "D-6: Gigue",
+              "source_path": [
+                3,
+                5
+              ],
+              "track_ids": [
+                50631710
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Yo-Yo Ma"
+              ]
+            },
+            {
+              "target": "E-1: Prélude",
+              "source_path": [
+                4,
+                0
+              ],
+              "track_ids": [
+                50631711
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Yo-Yo Ma"
+              ]
+            },
+            {
+              "target": "E-2: Allemande",
+              "source_path": [
+                4,
+                1
+              ],
+              "track_ids": [
+                50631712
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Yo-Yo Ma"
+              ]
+            },
+            {
+              "target": "E-3: Courante",
+              "source_path": [
+                4,
+                2
+              ],
+              "track_ids": [
+                50631713
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Yo-Yo Ma"
+              ]
+            },
+            {
+              "target": "E-4: Sarabande",
+              "source_path": [
+                4,
+                3
+              ],
+              "track_ids": [
+                50631714
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Yo-Yo Ma"
+              ]
+            },
+            {
+              "target": "E-5: Gavottes I & II",
+              "source_path": [
+                4,
+                4
+              ],
+              "track_ids": [
+                50631715
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Yo-Yo Ma"
+              ]
+            },
+            {
+              "target": "E-6: Gigue",
+              "source_path": [
+                4,
+                5
+              ],
+              "track_ids": [
+                50631716
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Yo-Yo Ma"
+              ]
+            },
+            {
+              "target": "F-1: Prélude",
+              "source_path": [
+                5,
+                0
+              ],
+              "track_ids": [
+                50631717
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Yo-Yo Ma"
+              ]
+            },
+            {
+              "target": "F-2: Allemande",
+              "source_path": [
+                5,
+                1
+              ],
+              "track_ids": [
+                50631718
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Yo-Yo Ma"
+              ]
+            },
+            {
+              "target": "F-3: Courante",
+              "source_path": [
+                5,
+                2
+              ],
+              "track_ids": [
+                50631719
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Yo-Yo Ma"
+              ]
+            },
+            {
+              "target": "F-4: Sarabande",
+              "source_path": [
+                5,
+                3
+              ],
+              "track_ids": [
+                50631720
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Yo-Yo Ma"
+              ]
+            },
+            {
+              "target": "F-5: Gavottes I & II",
+              "source_path": [
+                5,
+                4
+              ],
+              "track_ids": [
+                50631721
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Yo-Yo Ma"
+              ]
+            },
+            {
+              "target": "F-6: Gigue",
+              "source_path": [
+                5,
+                5
+              ],
+              "track_ids": [
+                50631722
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Yo-Yo Ma"
+              ]
             }
           ],
           "reasons": [
-            "0/6 target items supported after composer/work grouping; unresolved."
+            "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+            "Sony’s2018SixEvolutions announcement and the FreeLibrary recording catalogue corroborate the album/session family; source notes give MechanicsHall12–15December2017. All36ordered source bands have positive YoYoMa Cello and Bach Composer, and every individual duration exactly matches the saved file. No substitution of his earlier Bach cycles.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+            "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "A-1: Prélude",
+                "source_path": [
+                  0,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  50631687
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 150,
+                "digital_duration_seconds": 150,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A-2: Allemande",
+                "source_path": [
+                  0,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  50631688
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 255,
+                "digital_duration_seconds": 255,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A-3: Courante",
+                "source_path": [
+                  0,
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  50631689
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 154,
+                "digital_duration_seconds": 154,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A-4: Sarabande",
+                "source_path": [
+                  0,
+                  3
+                ],
+                "status": "complete",
+                "track_ids": [
+                  50631690
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 150,
+                "digital_duration_seconds": 150,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A-5: Menuets I & II",
+                "source_path": [
+                  0,
+                  4
+                ],
+                "status": "complete",
+                "track_ids": [
+                  50631691
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 207,
+                "digital_duration_seconds": 207,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A-6: Gigue",
+                "source_path": [
+                  0,
+                  5
+                ],
+                "status": "complete",
+                "track_ids": [
+                  50631692
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 117,
+                "digital_duration_seconds": 117,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B-1: Prélude",
+                "source_path": [
+                  1,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  50631693
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 252,
+                "digital_duration_seconds": 252,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B-2: Allemande",
+                "source_path": [
+                  1,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  50631694
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 207,
+                "digital_duration_seconds": 207,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B-3: Courante",
+                "source_path": [
+                  1,
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  50631695
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 108,
+                "digital_duration_seconds": 108,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B-4: Sarabande",
+                "source_path": [
+                  1,
+                  3
+                ],
+                "status": "complete",
+                "track_ids": [
+                  50631696
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 247,
+                "digital_duration_seconds": 247,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B-5: Menuets I & II",
+                "source_path": [
+                  1,
+                  4
+                ],
+                "status": "complete",
+                "track_ids": [
+                  50631697
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 181,
+                "digital_duration_seconds": 181,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B-6: Gigue",
+                "source_path": [
+                  1,
+                  5
+                ],
+                "status": "complete",
+                "track_ids": [
+                  50631698
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 147,
+                "digital_duration_seconds": 147,
+                "source_duration_notes": []
+              },
+              {
+                "target": "C-1: Prélude",
+                "source_path": [
+                  2,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  50631699
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 194,
+                "digital_duration_seconds": 194,
+                "source_duration_notes": []
+              },
+              {
+                "target": "C-2: Allemande",
+                "source_path": [
+                  2,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  50631700
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 224,
+                "digital_duration_seconds": 224,
+                "source_duration_notes": []
+              },
+              {
+                "target": "C-3: Courante",
+                "source_path": [
+                  2,
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  50631701
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 188,
+                "digital_duration_seconds": 188,
+                "source_duration_notes": []
+              },
+              {
+                "target": "C-4: Sarabande",
+                "source_path": [
+                  2,
+                  3
+                ],
+                "status": "complete",
+                "track_ids": [
+                  50631702
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 216,
+                "digital_duration_seconds": 216,
+                "source_duration_notes": []
+              },
+              {
+                "target": "C-5: Bourées I & II",
+                "source_path": [
+                  2,
+                  4
+                ],
+                "status": "complete",
+                "track_ids": [
+                  50631703
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 219,
+                "digital_duration_seconds": 219,
+                "source_duration_notes": []
+              },
+              {
+                "target": "C-6: Gigue",
+                "source_path": [
+                  2,
+                  5
+                ],
+                "status": "complete",
+                "track_ids": [
+                  50631704
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 177,
+                "digital_duration_seconds": 177,
+                "source_duration_notes": []
+              },
+              {
+                "target": "D-1: Prélude",
+                "source_path": [
+                  3,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  50631705
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 292,
+                "digital_duration_seconds": 292,
+                "source_duration_notes": []
+              },
+              {
+                "target": "D-2: Allemande",
+                "source_path": [
+                  3,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  50631706
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 263,
+                "digital_duration_seconds": 263,
+                "source_duration_notes": []
+              },
+              {
+                "target": "D-3: Courante",
+                "source_path": [
+                  3,
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  50631707
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 231,
+                "digital_duration_seconds": 231,
+                "source_duration_notes": []
+              },
+              {
+                "target": "D-4: Sarabande",
+                "source_path": [
+                  3,
+                  3
+                ],
+                "status": "complete",
+                "track_ids": [
+                  50631708
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 248,
+                "digital_duration_seconds": 248,
+                "source_duration_notes": []
+              },
+              {
+                "target": "D-5: Bourées I & II",
+                "source_path": [
+                  3,
+                  4
+                ],
+                "status": "complete",
+                "track_ids": [
+                  50631709
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 296,
+                "digital_duration_seconds": 296,
+                "source_duration_notes": []
+              },
+              {
+                "target": "D-6: Gigue",
+                "source_path": [
+                  3,
+                  5
+                ],
+                "status": "complete",
+                "track_ids": [
+                  50631710
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 182,
+                "digital_duration_seconds": 182,
+                "source_duration_notes": []
+              },
+              {
+                "target": "E-1: Prélude",
+                "source_path": [
+                  4,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  50631711
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 397,
+                "digital_duration_seconds": 397,
+                "source_duration_notes": []
+              },
+              {
+                "target": "E-2: Allemande",
+                "source_path": [
+                  4,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  50631712
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 346,
+                "digital_duration_seconds": 346,
+                "source_duration_notes": []
+              },
+              {
+                "target": "E-3: Courante",
+                "source_path": [
+                  4,
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  50631713
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 128,
+                "digital_duration_seconds": 128,
+                "source_duration_notes": []
+              },
+              {
+                "target": "E-4: Sarabande",
+                "source_path": [
+                  4,
+                  3
+                ],
+                "status": "complete",
+                "track_ids": [
+                  50631714
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 190,
+                "digital_duration_seconds": 190,
+                "source_duration_notes": []
+              },
+              {
+                "target": "E-5: Gavottes I & II",
+                "source_path": [
+                  4,
+                  4
+                ],
+                "status": "complete",
+                "track_ids": [
+                  50631715
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 268,
+                "digital_duration_seconds": 268,
+                "source_duration_notes": []
+              },
+              {
+                "target": "E-6: Gigue",
+                "source_path": [
+                  4,
+                  5
+                ],
+                "status": "complete",
+                "track_ids": [
+                  50631716
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 167,
+                "digital_duration_seconds": 167,
+                "source_duration_notes": []
+              },
+              {
+                "target": "F-1: Prélude",
+                "source_path": [
+                  5,
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  50631717
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 284,
+                "digital_duration_seconds": 284,
+                "source_duration_notes": []
+              },
+              {
+                "target": "F-2: Allemande",
+                "source_path": [
+                  5,
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  50631718
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 399,
+                "digital_duration_seconds": 399,
+                "source_duration_notes": []
+              },
+              {
+                "target": "F-3: Courante",
+                "source_path": [
+                  5,
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  50631719
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 231,
+                "digital_duration_seconds": 231,
+                "source_duration_notes": []
+              },
+              {
+                "target": "F-4: Sarabande",
+                "source_path": [
+                  5,
+                  3
+                ],
+                "status": "complete",
+                "track_ids": [
+                  50631720
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 241,
+                "digital_duration_seconds": 241,
+                "source_duration_notes": []
+              },
+              {
+                "target": "F-5: Gavottes I & II",
+                "source_path": [
+                  5,
+                  4
+                ],
+                "status": "complete",
+                "track_ids": [
+                  50631721
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 218,
+                "digital_duration_seconds": 218,
+                "source_duration_notes": []
+              },
+              {
+                "target": "F-6: Gigue",
+                "source_path": [
+                  5,
+                  5
+                ],
+                "status": "complete",
+                "track_ids": [
+                  50631722
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": 225,
+                "digital_duration_seconds": 225,
+                "source_duration_notes": []
+              }
+            ]
+          },
+          "recording_review": "Sony’s2018SixEvolutions announcement and the FreeLibrary recording catalogue corroborate the album/session family; source notes give MechanicsHall12–15December2017. All36ordered source bands have positive YoYoMa Cello and Bach Composer, and every individual duration exactly matches the saved file. No substitution of his earlier Bach cycles.",
+          "review_sources": [
+            "https://www.discogs.com/release/12524051",
+            "https://www.sonyclassical.com/news/news-details/yo-yo-ma-1",
+            "https://catalog.freelibrary.org/Record/2428267"
           ]
         }
       ],
       "query": "yo yo ma bach six evolutions cello suites",
       "searched_at": "2026-11-12T17:38:44.021381+00:00",
       "reasons": [
-        "0/6 target items supported after composer/work grouping; unresolved."
+        "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+        "Sony’s2018SixEvolutions announcement and the FreeLibrary recording catalogue corroborate the album/session family; source notes give MechanicsHall12–15December2017. All36ordered source bands have positive YoYoMa Cello and Bach Composer, and every individual duration exactly matches the saved file. No substitution of his earlier Bach cycles.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+        "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
       ]
     },
     "11059547": {

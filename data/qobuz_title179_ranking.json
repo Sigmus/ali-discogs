@@ -3,164 +3,8 @@
   "reviewed_on": "2026-11-16",
   "frozen_release_count": 179,
   "diagnostic_sha256": "f2a79c5a8f0da3afe863f72042d99ab9b7c776733eb010cb479e8a91630d3cbb",
-  "counts": {
-    "full_support_needs_completeness": 13,
-    "partial_support": 6
-  },
-  "entries": [
-    {
-      "discogs_id": "2845198",
-      "title": "Concerto No. 3, In C Minor, Op. 37",
-      "bucket": "full_support_needs_completeness",
-      "best_album_id": "0090266303625",
-      "experimental_coverage": 1.0,
-      "completeness": "unknown"
-    },
-    {
-      "discogs_id": "2930473",
-      "title": "Die Fünf Klavierkonzerte",
-      "bucket": "full_support_needs_completeness",
-      "best_album_id": "av98godsw1g2b",
-      "experimental_coverage": 1.0,
-      "completeness": "unknown"
-    },
-    {
-      "discogs_id": "3334175",
-      "title": "Violin Concertos (No. 1 In D Major No. 2 In G Minor)",
-      "bucket": "full_support_needs_completeness",
-      "best_album_id": "rwruoiy8hkl5a",
-      "experimental_coverage": 1.0,
-      "completeness": "unknown"
-    },
-    {
-      "discogs_id": "5349319",
-      "title": "Piano Sonatas",
-      "bucket": "full_support_needs_completeness",
-      "best_album_id": "0886443628663",
-      "experimental_coverage": 1.0,
-      "completeness": "unknown"
-    },
-    {
-      "discogs_id": "5756277",
-      "title": "Violin Concerto No.3 In G Major, K. 216 - Violin Concerto No.4 In D Major, K 218",
-      "bucket": "full_support_needs_completeness",
-      "best_album_id": "k8oyqi4mqkmpc",
-      "experimental_coverage": 1.0,
-      "completeness": "unknown"
-    },
-    {
-      "discogs_id": "6268701",
-      "title": "The French Suites = Französischen Suiten = Suites Françaises / Overture In The French Style, BWV 831 = Ouvertüre Nach Französischer Art = Ouverture À La Française",
-      "bucket": "full_support_needs_completeness",
-      "best_album_id": "0886444938174",
-      "experimental_coverage": 1.0,
-      "completeness": "unknown"
-    },
-    {
-      "discogs_id": "7766716",
-      "title": "Concerto No. 1 In D Minor For Piano And Orchestra, Op. 15",
-      "bucket": "full_support_needs_completeness",
-      "best_album_id": "0886446469928",
-      "experimental_coverage": 1.0,
-      "completeness": "unknown"
-    },
-    {
-      "discogs_id": "7946604",
-      "title": "Concerto In A Minor For Piano And Orchestra, Op. 54",
-      "bucket": "full_support_needs_completeness",
-      "best_album_id": "0074643725620",
-      "experimental_coverage": 1.0,
-      "completeness": "unknown"
-    },
-    {
-      "discogs_id": "8103249",
-      "title": "Mozart Violin Concertos",
-      "bucket": "full_support_needs_completeness",
-      "best_album_id": "5099706647522",
-      "experimental_coverage": 1.0,
-      "completeness": "unknown"
-    },
-    {
-      "discogs_id": "10598540",
-      "title": "Concerto No. 1 / Concerto No. 4 (For The Left Hand)",
-      "bucket": "full_support_needs_completeness",
-      "best_album_id": "5099751700227",
-      "experimental_coverage": 1.0,
-      "completeness": "unknown"
-    },
-    {
-      "discogs_id": "12524051",
-      "title": "Six Evolutions - Cello Suites",
-      "bucket": "full_support_needs_completeness",
-      "best_album_id": "ha5y5btyaellb",
-      "experimental_coverage": 1.0,
-      "completeness": "unknown"
-    },
-    {
-      "discogs_id": "16108064",
-      "title": "Sinfonia N.1 - Sinfonia N°2",
-      "bucket": "full_support_needs_completeness",
-      "best_album_id": "o4kob3b17kiec",
-      "experimental_coverage": 1.0,
-      "completeness": "unknown"
-    },
-    {
-      "discogs_id": "23764721",
-      "title": "Concerto No. 20 In D Minor For Piano And Orchestra (K. 466)",
-      "bucket": "full_support_needs_completeness",
-      "best_album_id": "5099751286325",
-      "experimental_coverage": 1.0,
-      "completeness": "unknown"
-    },
-    {
-      "discogs_id": "6953193",
-      "title": "Trio (In D Minor) / Concerto For Violin And Cello (In B-flat) / Duo For Violin And Cello",
-      "bucket": "partial_support",
-      "best_album_id": "ht7zw8wnm1c4b",
-      "experimental_coverage": 0.6666666666666666,
-      "completeness": "unknown"
-    },
-    {
-      "discogs_id": "4046757",
-      "title": "Violin Concerto / Violin Concerto No. 1",
-      "bucket": "partial_support",
-      "best_album_id": "v80qry6tkmyyc",
-      "experimental_coverage": 0.5,
-      "completeness": "unknown"
-    },
-    {
-      "discogs_id": "6651774",
-      "title": "The Rubinstein Story (Concerto No. 2 And Andante Spianato And Grande Polonaise)",
-      "bucket": "partial_support",
-      "best_album_id": "0090266304424",
-      "experimental_coverage": 0.5,
-      "completeness": "unknown"
-    },
-    {
-      "discogs_id": "3670806",
-      "title": "Isaac Stern 60th Anniversary Celebration From Lincoln Center",
-      "bucket": "partial_support",
-      "best_album_id": "5099706647126",
-      "experimental_coverage": 0.3333333333333333,
-      "completeness": "unknown"
-    },
-    {
-      "discogs_id": "11061422",
-      "title": "Suites For Harpsichord",
-      "bucket": "partial_support",
-      "best_album_id": "polefedtyqvaa",
-      "experimental_coverage": 0.2,
-      "completeness": "unknown"
-    },
-    {
-      "discogs_id": "8470218",
-      "title": "The Six Brandenburg Concertos",
-      "bucket": "partial_support",
-      "best_album_id": "0074644625424",
-      "experimental_coverage": 0.15384615384615385,
-      "completeness": "unknown"
-    }
-  ],
+  "counts": {},
+  "entries": [],
   "resolved_entries": [
     {
       "discogs_id": "4431461",
@@ -215,6 +59,87 @@
       "experimental_coverage": 1.0,
       "completeness": "complete",
       "published_status": "probable"
+    },
+    {
+      "discogs_id": "2930473",
+      "title": "Die Fünf Klavierkonzerte",
+      "bucket": "full_support_needs_completeness",
+      "best_album_id": "av98godsw1g2b",
+      "experimental_coverage": 1.0,
+      "completeness": "unknown",
+      "published_status": "probable"
+    },
+    {
+      "discogs_id": "3334175",
+      "title": "Violin Concertos (No. 1 In D Major No. 2 In G Minor)",
+      "bucket": "full_support_needs_completeness",
+      "best_album_id": "rwruoiy8hkl5a",
+      "experimental_coverage": 1.0,
+      "completeness": "unknown",
+      "published_status": "probable"
+    },
+    {
+      "discogs_id": "5756277",
+      "title": "Violin Concerto No.3 In G Major, K. 216 - Violin Concerto No.4 In D Major, K 218",
+      "bucket": "full_support_needs_completeness",
+      "best_album_id": "k8oyqi4mqkmpc",
+      "experimental_coverage": 1.0,
+      "completeness": "unknown",
+      "published_status": "probable"
+    },
+    {
+      "discogs_id": "6268701",
+      "title": "The French Suites = Französischen Suiten = Suites Françaises / Overture In The French Style, BWV 831 = Ouvertüre Nach Französischer Art = Ouverture À La Française",
+      "bucket": "full_support_needs_completeness",
+      "best_album_id": "0886444938174",
+      "experimental_coverage": 1.0,
+      "completeness": "unknown",
+      "published_status": "probable"
+    },
+    {
+      "discogs_id": "7766716",
+      "title": "Concerto No. 1 In D Minor For Piano And Orchestra, Op. 15",
+      "bucket": "full_support_needs_completeness",
+      "best_album_id": "0886446469928",
+      "experimental_coverage": 1.0,
+      "completeness": "unknown",
+      "published_status": "probable"
+    },
+    {
+      "discogs_id": "8103249",
+      "title": "Mozart Violin Concertos",
+      "bucket": "full_support_needs_completeness",
+      "best_album_id": "5099706647522",
+      "experimental_coverage": 1.0,
+      "completeness": "unknown",
+      "published_status": "probable"
+    },
+    {
+      "discogs_id": "10598540",
+      "title": "Concerto No. 1 / Concerto No. 4 (For The Left Hand)",
+      "bucket": "full_support_needs_completeness",
+      "best_album_id": "5099751700227",
+      "experimental_coverage": 1.0,
+      "completeness": "unknown",
+      "published_status": "probable"
+    },
+    {
+      "discogs_id": "12524051",
+      "title": "Six Evolutions - Cello Suites",
+      "bucket": "full_support_needs_completeness",
+      "best_album_id": "ha5y5btyaellb",
+      "experimental_coverage": 1.0,
+      "completeness": "unknown",
+      "published_status": "probable"
+    },
+    {
+      "discogs_id": "23764721",
+      "title": "Concerto No. 20 In D Minor For Piano And Orchestra (K. 466)",
+      "bucket": "full_support_needs_completeness",
+      "best_album_id": "5099751286325",
+      "experimental_coverage": 1.0,
+      "completeness": "unknown",
+      "published_status": "probable"
     }
   ],
   "reviewed_unresolved_entries": [
@@ -266,6 +191,176 @@
         "limitations": [
           "Recording-family acceptance does not verify exact LP pressing, take, transfer or mastering.",
           "No source rewrite, global work-title promotion, composer/performer alias or associated-role waiver."
+        ]
+      }
+    },
+    {
+      "discogs_id": "2845198",
+      "title": "Concerto No. 3, In C Minor, Op. 37",
+      "bucket": "full_support_needs_completeness",
+      "best_album_id": "0090266303625",
+      "experimental_coverage": 1.0,
+      "completeness": "unknown",
+      "saved_review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "All three Op.37tracks in the older RCA compilation credit Busoni and Beethoven as Composer. The modern alternative supplies Symphony of the Air only as Associated Performer. Complete movements do not resolve those conflicts.",
+        "limitations": [
+          "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+          "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
+        ]
+      }
+    },
+    {
+      "discogs_id": "5349319",
+      "title": "Piano Sonatas",
+      "bucket": "full_support_needs_completeness",
+      "best_album_id": "0886443628663",
+      "experimental_coverage": 1.0,
+      "completeness": "unknown",
+      "saved_review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The31movement compilation covers the listed sonatas, but source sonata6says A major whereas digital metadata says F major; source sonata2finale says Allegro Assai whereas the file says Rondo Grazioso. Multiple printed timings exceed existing per-band tolerance (for example3:48versus3:55,2:39versus2:45). Separate remasters cover only subsets.",
+        "limitations": [
+          "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+          "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
+        ]
+      }
+    },
+    {
+      "discogs_id": "7946604",
+      "title": "Concerto In A Minor For Piano And Orchestra, Op. 54",
+      "bucket": "full_support_needs_completeness",
+      "best_album_id": "0074643725620",
+      "experimental_coverage": 1.0,
+      "completeness": "unknown",
+      "saved_review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The1948ML4041source splits the first movement into six named bands/sections, while all complete candidates provide one unsplit first-movement track. Candidate timings differ substantially across Serkin/Ormandy recording families, including the explicitly1950–56collection; no saved primary evidence binds one transfer to the source LP or its internal boundaries.",
+        "limitations": [
+          "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+          "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
+        ]
+      }
+    },
+    {
+      "discogs_id": "16108064",
+      "title": "Sinfonia N.1 - Sinfonia N°2",
+      "bucket": "full_support_needs_completeness",
+      "best_album_id": "o4kob3b17kiec",
+      "experimental_coverage": 1.0,
+      "completeness": "unknown",
+      "saved_review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The full cached candidate explicitly identifies the1939Toscanini cycle. The1980Victrola/Fabbri source has no session notes or band timings establishing that recording family. The other saved alternative supplies only Symphony2with associated-only orchestra credits.",
+        "limitations": [
+          "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+          "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
+        ]
+      }
+    },
+    {
+      "discogs_id": "6953193",
+      "title": "Trio (In D Minor) / Concerto For Violin And Cello (In B-flat) / Duo For Violin And Cello",
+      "bucket": "partial_support",
+      "best_album_id": "ht7zw8wnm1c4b",
+      "experimental_coverage": 0.6666666666666666,
+      "completeness": "unknown",
+      "saved_review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Source Martinu duo lists three bands, but both cached editions contain only two named movements; source B2.3AllegroMolto remains unaccounted. Both Vivaldi candidates positively credit Malcom Hamilton, while the source names Malcolm Hamilton. No silent performer spelling alias or invented digital movement split.",
+        "limitations": [
+          "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+          "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
+        ]
+      }
+    },
+    {
+      "discogs_id": "4046757",
+      "title": "Violin Concerto / Violin Concerto No. 1",
+      "bucket": "partial_support",
+      "best_album_id": "v80qry6tkmyyc",
+      "experimental_coverage": 0.5,
+      "completeness": "unknown",
+      "saved_review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The source names New York Philharmonic on Bruch; the candidate positively credits Francescatti/Schippers but names New York Philharmonic Orchestra. That exact ensemble identity is not accepted by the current no-alias musician check. Mendelssohn also carries an additional Cleveland Orchestra credit on one track; no general ensemble substitution is adopted.",
+        "limitations": [
+          "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+          "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
+        ]
+      }
+    },
+    {
+      "discogs_id": "6651774",
+      "title": "The Rubinstein Story (Concerto No. 2 And Andante Spianato And Grande Polonaise)",
+      "bucket": "partial_support",
+      "best_album_id": "0090266304424",
+      "experimental_coverage": 0.5,
+      "completeness": "unknown",
+      "saved_review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The RCA63044candidate supplies the complete Chopin Second Concerto but not the source Andante Spianato and Grande Polonaise Op22. Other saved albums do not provide both source works together with the required cast.",
+        "limitations": [
+          "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+          "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
+        ]
+      }
+    },
+    {
+      "discogs_id": "3670806",
+      "title": "Isaac Stern 60th Anniversary Celebration From Lincoln Center",
+      "bucket": "partial_support",
+      "best_album_id": "5099706647126",
+      "experimental_coverage": 0.3333333333333333,
+      "completeness": "unknown",
+      "saved_review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The best Bach candidate supplies only the double concerto from the source1981celebration. The saved Vivaldi/Mozart alternatives do not establish the full nine-band concert with Mehta/NewYorkPhilharmonic and all source-scoped Perlman/Zukerman roles.",
+        "limitations": [
+          "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+          "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
+        ]
+      }
+    },
+    {
+      "discogs_id": "11061422",
+      "title": "Suites For Harpsichord",
+      "bucket": "partial_support",
+      "best_album_id": "polefedtyqvaa",
+      "experimental_coverage": 0.2,
+      "completeness": "unknown",
+      "saved_review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The saved22track anthology includes two versions of the final Harmonious Blacksmith air/variations from Suite5, not the five complete Handel suites printed on the1935source programme. Generic Artist/MainArtist metadata also does not itself verify the harpsichord session.",
+        "limitations": [
+          "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+          "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
+        ]
+      }
+    },
+    {
+      "discogs_id": "8470218",
+      "title": "The Six Brandenburg Concertos",
+      "bucket": "partial_support",
+      "best_album_id": "0074644625424",
+      "experimental_coverage": 0.15384615384615385,
+      "completeness": "unknown",
+      "saved_review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The saved album contains Brandenburg4–6plus OrchestralSuite4, omitting Brandenburg1–3and the source bonus rehearsal LP. It also omits positive evidence for several explicitly named soloists/continuo players.",
+        "limitations": [
+          "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+          "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
         ]
       }
     }

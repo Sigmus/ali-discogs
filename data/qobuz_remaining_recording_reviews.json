@@ -18566,6 +18566,3224 @@
         "191162": "6dd1fbed313a126fc73a14f2e06047a8430d4d8f49de89673ebe1fb5c1379b82",
         "191163": "ffdfd9e967a249c80908a76a66077f8ad43d8d39730465200d36ee5d5209c08d"
       }
+    },
+    {
+      "discogs_id": "2845198",
+      "album_id": "0090266303625",
+      "target_sha256": "5394056b7d36d62ba3af9864e015119bfb69bf3a47a86c31ccdf8331a736f1db",
+      "source_sha256": "5a9d2ba0b7ea26e64a760510b9dc02043b588b5668b09ec3eaf4f042a1b21d50",
+      "album_sha256": "5b55acc1c69657600b90082e87c3d0250c94f88c9bd0e2b46b4b7eb5f5e56eef",
+      "decision": "withhold",
+      "recording_review": "All three Op.37tracks in the older RCA compilation credit Busoni and Beethoven as Composer. The modern alternative supplies Symphony of the Air only as Associated Performer. Complete movements do not resolve those conflicts.",
+      "sources": [
+        "https://www.discogs.com/release/2845198"
+      ],
+      "limitations": [
+        "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+        "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
+      ],
+      "external_source_files": []
+    },
+    {
+      "discogs_id": "2930473",
+      "album_id": "av98godsw1g2b",
+      "target_sha256": "078b0ee7bea2687423fd9d76b9b410999351bc11d770eee304a6a869f4d8a0dc",
+      "source_sha256": "115f13b865d492b5d352f5f90b54dee64d9d578eb522dd75ca3f43ceb38e5e70",
+      "album_sha256": "fe9e3fcdedb2c5a40a241733a79b8bae7e5add9579bce1a80a7b3fe83658aedd",
+      "decision": "probable",
+      "recording_review": "The Cleveland Orchestra’s own history documents Fleisher/Szell’s complete Epic Beethoven cycle, recorded1959–61. All15source bands, in the unusual1/2/4/3/5LP order, occur with positive Fleisher/Szell/Cleveland and Beethoven roles in the saved Sony set. Preserve all five structural headings and every movement, not fifteen interchangeable tempo labels.",
+      "sources": [
+        "https://www.discogs.com/release/2930473",
+        "https://www.clevelandorchestra.com/posts/beethovens-piano-concertos-and-the-cleveland-orchestra"
+      ],
+      "limitations": [
+        "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+        "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
+      ],
+      "external_source_files": [
+        {
+          "path": "data/review_sources/title19-2930473/source-observation.txt",
+          "sha256": "06eb5f13fb97df73af68108f0b5bcb3f09c138d713064e79910c9a4693e225fc"
+        }
+      ],
+      "review_kind": "source-leaf-bands",
+      "source_outline_sha256": "e3aed41ea8aca735343a0009b065b417e95a8b38cf097696819c5aa025c9f475",
+      "source_leaves": [
+        {
+          "path": [
+            1
+          ],
+          "source_work": "1. Satz: Allegro Con Brio",
+          "title": "1. Satz: Allegro Con Brio",
+          "position": "A",
+          "duration": ""
+        },
+        {
+          "path": [
+            2
+          ],
+          "source_work": "2. Satz: Largo",
+          "title": "2. Satz: Largo",
+          "position": "B1",
+          "duration": ""
+        },
+        {
+          "path": [
+            3
+          ],
+          "source_work": "3. Satz: Rondo: Allegro Scherzando",
+          "title": "3. Satz: Rondo: Allegro Scherzando",
+          "position": "B2",
+          "duration": ""
+        },
+        {
+          "path": [
+            5
+          ],
+          "source_work": "1. Satz: Allegro Con Brio",
+          "title": "1. Satz: Allegro Con Brio",
+          "position": "C1",
+          "duration": ""
+        },
+        {
+          "path": [
+            6
+          ],
+          "source_work": "2. Satz: Adagio",
+          "title": "2. Satz: Adagio",
+          "position": "C2",
+          "duration": ""
+        },
+        {
+          "path": [
+            7
+          ],
+          "source_work": "3. Satz: Rondo: Molto Allegro",
+          "title": "3. Satz: Rondo: Molto Allegro",
+          "position": "C3",
+          "duration": ""
+        },
+        {
+          "path": [
+            9
+          ],
+          "source_work": "1. Satz: Allegro Moderato",
+          "title": "1. Satz: Allegro Moderato",
+          "position": "D1",
+          "duration": ""
+        },
+        {
+          "path": [
+            10
+          ],
+          "source_work": "2. Satz: Andante Con Moto",
+          "title": "2. Satz: Andante Con Moto",
+          "position": "D2",
+          "duration": ""
+        },
+        {
+          "path": [
+            11
+          ],
+          "source_work": "3. Satz: Rondo: Vivace",
+          "title": "3. Satz: Rondo: Vivace",
+          "position": "D3",
+          "duration": ""
+        },
+        {
+          "path": [
+            13
+          ],
+          "source_work": "1. Satz: Allegro Con Brio",
+          "title": "1. Satz: Allegro Con Brio",
+          "position": "E",
+          "duration": ""
+        },
+        {
+          "path": [
+            14
+          ],
+          "source_work": "2. Satz: Largo",
+          "title": "2. Satz: Largo",
+          "position": "F1",
+          "duration": ""
+        },
+        {
+          "path": [
+            15
+          ],
+          "source_work": "3. Satz: Rondo: Allegro",
+          "title": "3. Satz: Rondo: Allegro",
+          "position": "F2",
+          "duration": ""
+        },
+        {
+          "path": [
+            17
+          ],
+          "source_work": "1. Satz: Allegro",
+          "title": "1. Satz: Allegro",
+          "position": "G",
+          "duration": ""
+        },
+        {
+          "path": [
+            18
+          ],
+          "source_work": "2. Satz: Adagio Un Poco Mosso",
+          "title": "2. Satz: Adagio Un Poco Mosso",
+          "position": "H1",
+          "duration": ""
+        },
+        {
+          "path": [
+            19
+          ],
+          "source_work": "3. Satz: Rondo: Allegro Ma Non Tanto",
+          "title": "3. Satz: Rondo: Allegro Ma Non Tanto",
+          "position": "H2",
+          "duration": ""
+        }
+      ],
+      "source_heading_groups": [
+        {
+          "source_path": [
+            0
+          ],
+          "title": "Konzert Nr. 1 C-dur Op 15",
+          "covered_source_paths": [
+            [
+              1
+            ],
+            [
+              2
+            ],
+            [
+              3
+            ]
+          ]
+        },
+        {
+          "source_path": [
+            4
+          ],
+          "title": "Konzert Nr. 2 B-dur Op 19",
+          "covered_source_paths": [
+            [
+              5
+            ],
+            [
+              6
+            ],
+            [
+              7
+            ]
+          ]
+        },
+        {
+          "source_path": [
+            8
+          ],
+          "title": "Konzert Nr. 4 G-dur Op 58",
+          "covered_source_paths": [
+            [
+              9
+            ],
+            [
+              10
+            ],
+            [
+              11
+            ]
+          ]
+        },
+        {
+          "source_path": [
+            12
+          ],
+          "title": "Konzert Nr. 3 C-moll Op 37",
+          "covered_source_paths": [
+            [
+              13
+            ],
+            [
+              14
+            ],
+            [
+              15
+            ]
+          ]
+        },
+        {
+          "source_path": [
+            16
+          ],
+          "title": "Konzert Nr. 5 Es-dur Op 73",
+          "covered_source_paths": [
+            [
+              17
+            ],
+            [
+              18
+            ],
+            [
+              19
+            ]
+          ]
+        }
+      ],
+      "bindings": [
+        {
+          "source_path": [
+            1
+          ],
+          "track_ids": [
+            57834700
+          ],
+          "track_sha256": [
+            "365d26ccf81b8bf2a08847e297e65b1526861cd10e5b2c8f62e6fe8c5de09063"
+          ],
+          "required_performers": [
+            "George Szell",
+            "Leon Fleisher",
+            "The Cleveland Orchestra"
+          ],
+          "composer": "Ludwig van Beethoven"
+        },
+        {
+          "source_path": [
+            2
+          ],
+          "track_ids": [
+            57834701
+          ],
+          "track_sha256": [
+            "4f033f238a8cc90d47e1ff9c6f687310b1173dd0ec2ac5ecb7b032e2a4d92a5e"
+          ],
+          "required_performers": [
+            "George Szell",
+            "Leon Fleisher",
+            "The Cleveland Orchestra"
+          ],
+          "composer": "Ludwig van Beethoven"
+        },
+        {
+          "source_path": [
+            3
+          ],
+          "track_ids": [
+            57834702
+          ],
+          "track_sha256": [
+            "9c95b438d917991d4adcddc678e1d9f9c42ba5d53620c9ba0bddae2543393a38"
+          ],
+          "required_performers": [
+            "George Szell",
+            "Leon Fleisher",
+            "The Cleveland Orchestra"
+          ],
+          "composer": "Ludwig van Beethoven"
+        },
+        {
+          "source_path": [
+            5
+          ],
+          "track_ids": [
+            57834703
+          ],
+          "track_sha256": [
+            "75766a05aade2b334692eb962e5081f45fd23c9390bb6bcea897c9b46403a797"
+          ],
+          "required_performers": [
+            "George Szell",
+            "Leon Fleisher",
+            "The Cleveland Orchestra"
+          ],
+          "composer": "Ludwig van Beethoven"
+        },
+        {
+          "source_path": [
+            6
+          ],
+          "track_ids": [
+            57834704
+          ],
+          "track_sha256": [
+            "28b129c07788e81145d369b966a55411ef57ef7053d1bdaa3b2843631b1748bf"
+          ],
+          "required_performers": [
+            "George Szell",
+            "Leon Fleisher",
+            "The Cleveland Orchestra"
+          ],
+          "composer": "Ludwig van Beethoven"
+        },
+        {
+          "source_path": [
+            7
+          ],
+          "track_ids": [
+            57834705
+          ],
+          "track_sha256": [
+            "4d6069a40b716db0066d590bfb7b7223e681e8d9bc58dca9dd896195c943dfa2"
+          ],
+          "required_performers": [
+            "George Szell",
+            "Leon Fleisher",
+            "The Cleveland Orchestra"
+          ],
+          "composer": "Ludwig van Beethoven"
+        },
+        {
+          "source_path": [
+            9
+          ],
+          "track_ids": [
+            57834706
+          ],
+          "track_sha256": [
+            "ffa3d57b959e62aad61d3b40a27f5a734c139ce5c8662f4f5b741c24f92e72c6"
+          ],
+          "required_performers": [
+            "George Szell",
+            "Leon Fleisher",
+            "The Cleveland Orchestra"
+          ],
+          "composer": "Ludwig van Beethoven"
+        },
+        {
+          "source_path": [
+            10
+          ],
+          "track_ids": [
+            57834707
+          ],
+          "track_sha256": [
+            "9b5884fcf6f899b8836a1b7aa82c5a40815e18e2303f5d6ebf021b4f29cdb11b"
+          ],
+          "required_performers": [
+            "George Szell",
+            "Leon Fleisher",
+            "The Cleveland Orchestra"
+          ],
+          "composer": "Ludwig van Beethoven"
+        },
+        {
+          "source_path": [
+            11
+          ],
+          "track_ids": [
+            57834708
+          ],
+          "track_sha256": [
+            "bbf2184b4925de15cad322e291149a1d24252d8137195802c9c0fc4bd94811a7"
+          ],
+          "required_performers": [
+            "George Szell",
+            "Leon Fleisher",
+            "The Cleveland Orchestra"
+          ],
+          "composer": "Ludwig van Beethoven"
+        },
+        {
+          "source_path": [
+            13
+          ],
+          "track_ids": [
+            57834709
+          ],
+          "track_sha256": [
+            "5c1596e1b4ba5d4cce1ad1e01c262e022550aaa15b8f914ee888f3991a34df8b"
+          ],
+          "required_performers": [
+            "George Szell",
+            "Leon Fleisher",
+            "The Cleveland Orchestra"
+          ],
+          "composer": "Ludwig van Beethoven"
+        },
+        {
+          "source_path": [
+            14
+          ],
+          "track_ids": [
+            57834710
+          ],
+          "track_sha256": [
+            "48ca08499b1033be44c9eaa33611e1487ffbdfeb13483af3771af71d68db242a"
+          ],
+          "required_performers": [
+            "George Szell",
+            "Leon Fleisher",
+            "The Cleveland Orchestra"
+          ],
+          "composer": "Ludwig van Beethoven"
+        },
+        {
+          "source_path": [
+            15
+          ],
+          "track_ids": [
+            57834711
+          ],
+          "track_sha256": [
+            "07af7ab3bb403329eb2e590b1c2a6173a0e4468d56845371da19ba06129b1934"
+          ],
+          "required_performers": [
+            "George Szell",
+            "Leon Fleisher",
+            "The Cleveland Orchestra"
+          ],
+          "composer": "Ludwig van Beethoven"
+        },
+        {
+          "source_path": [
+            17
+          ],
+          "track_ids": [
+            57834712
+          ],
+          "track_sha256": [
+            "becd9dfd652c7262d9d961ee324ab8cf71daf698547a5f07d734f733ecbac6c7"
+          ],
+          "required_performers": [
+            "George Szell",
+            "Leon Fleisher",
+            "The Cleveland Orchestra"
+          ],
+          "composer": "Ludwig van Beethoven"
+        },
+        {
+          "source_path": [
+            18
+          ],
+          "track_ids": [
+            57834713
+          ],
+          "track_sha256": [
+            "c99d5da2530f06bba6c9470b166f1c86b541b51fba21d002599d458764cee9d0"
+          ],
+          "required_performers": [
+            "George Szell",
+            "Leon Fleisher",
+            "The Cleveland Orchestra"
+          ],
+          "composer": "Ludwig van Beethoven"
+        },
+        {
+          "source_path": [
+            19
+          ],
+          "track_ids": [
+            57834714
+          ],
+          "track_sha256": [
+            "d720cced3d0a86d2d3d8beb1eb5881aaa09ea2a46aa3b952a46e83e8ab89b6b1"
+          ],
+          "required_performers": [
+            "George Szell",
+            "Leon Fleisher",
+            "The Cleveland Orchestra"
+          ],
+          "composer": "Ludwig van Beethoven"
+        }
+      ],
+      "extra_track_ids": [],
+      "selected_track_fingerprints": {
+        "57834700": "365d26ccf81b8bf2a08847e297e65b1526861cd10e5b2c8f62e6fe8c5de09063",
+        "57834701": "4f033f238a8cc90d47e1ff9c6f687310b1173dd0ec2ac5ecb7b032e2a4d92a5e",
+        "57834702": "9c95b438d917991d4adcddc678e1d9f9c42ba5d53620c9ba0bddae2543393a38",
+        "57834703": "75766a05aade2b334692eb962e5081f45fd23c9390bb6bcea897c9b46403a797",
+        "57834704": "28b129c07788e81145d369b966a55411ef57ef7053d1bdaa3b2843631b1748bf",
+        "57834705": "4d6069a40b716db0066d590bfb7b7223e681e8d9bc58dca9dd896195c943dfa2",
+        "57834706": "ffa3d57b959e62aad61d3b40a27f5a734c139ce5c8662f4f5b741c24f92e72c6",
+        "57834707": "9b5884fcf6f899b8836a1b7aa82c5a40815e18e2303f5d6ebf021b4f29cdb11b",
+        "57834708": "bbf2184b4925de15cad322e291149a1d24252d8137195802c9c0fc4bd94811a7",
+        "57834709": "5c1596e1b4ba5d4cce1ad1e01c262e022550aaa15b8f914ee888f3991a34df8b",
+        "57834710": "48ca08499b1033be44c9eaa33611e1487ffbdfeb13483af3771af71d68db242a",
+        "57834711": "07af7ab3bb403329eb2e590b1c2a6173a0e4468d56845371da19ba06129b1934",
+        "57834712": "becd9dfd652c7262d9d961ee324ab8cf71daf698547a5f07d734f733ecbac6c7",
+        "57834713": "c99d5da2530f06bba6c9470b166f1c86b541b51fba21d002599d458764cee9d0",
+        "57834714": "d720cced3d0a86d2d3d8beb1eb5881aaa09ea2a46aa3b952a46e83e8ab89b6b1"
+      }
+    },
+    {
+      "discogs_id": "3334175",
+      "album_id": "rwruoiy8hkl5a",
+      "target_sha256": "91a7ba4eedb40b31b659658ebcd6cc217ef3de6e2152bf2d8f007e2d9e551687",
+      "source_sha256": "1516db8ed9aa3de797f37270f6048f57375006203056b2c6b28d2ff2591ec414",
+      "album_sha256": "aa81f09d9669c408ee2ef39fca4459175176852a3507c31a60a820a971152777",
+      "decision": "probable",
+      "recording_review": "The contemporary1964Stern/Ormandy Prokofiev review and Sony’s Columbia-discography account corroborate this recording family. The saved Sony reissue has both complete three-movement concertos with positive Stern/Ormandy/Philadelphia/Prokofiev roles; all six source bands remain distinct. The later issue date is not an asserted session date.",
+      "sources": [
+        "https://www.discogs.com/release/3334175",
+        "https://www.unz.com/PDF/PERIODICAL/SaturdayRev-1964dec26/48-50/",
+        "https://www.sonyclassical.com/news/news-details/isaac-stern"
+      ],
+      "limitations": [
+        "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+        "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
+      ],
+      "external_source_files": [
+        {
+          "path": "data/review_sources/title19-3334175/source-observation.txt",
+          "sha256": "c211109c2beaaa2a7b4da41be0d6cdb09fb93b5d81bab473a5001d4a5e680f6c"
+        }
+      ],
+      "review_kind": "source-leaf-bands",
+      "source_outline_sha256": "5a97e54776136a90bfdd8f5c2c23a91bfe3664b86fb668861eb5369ec1b2768c",
+      "source_leaves": [
+        {
+          "path": [
+            0,
+            0
+          ],
+          "source_work": "Violin Concerto No. 1 In D Major, Op. 19",
+          "title": "I Andantino: Andante Assai",
+          "position": "A1",
+          "duration": ""
+        },
+        {
+          "path": [
+            0,
+            1
+          ],
+          "source_work": "Violin Concerto No. 1 In D Major, Op. 19",
+          "title": "II Scherzo: Vivacissimo",
+          "position": "A2",
+          "duration": ""
+        },
+        {
+          "path": [
+            0,
+            2
+          ],
+          "source_work": "Violin Concerto No. 1 In D Major, Op. 19",
+          "title": "III Moderato",
+          "position": "A3",
+          "duration": ""
+        },
+        {
+          "path": [
+            1,
+            0
+          ],
+          "source_work": "Violin Concerto No. 2 In G Minor, Op. 63",
+          "title": "I Allegro Moderato",
+          "position": "B1",
+          "duration": ""
+        },
+        {
+          "path": [
+            1,
+            1
+          ],
+          "source_work": "Violin Concerto No. 2 In G Minor, Op. 63",
+          "title": "II Andante Assai",
+          "position": "B2",
+          "duration": ""
+        },
+        {
+          "path": [
+            1,
+            2
+          ],
+          "source_work": "Violin Concerto No. 2 In G Minor, Op. 63",
+          "title": "III Allegro, Ben Marcato",
+          "position": "B3",
+          "duration": ""
+        }
+      ],
+      "source_heading_groups": [],
+      "bindings": [
+        {
+          "source_path": [
+            0,
+            0
+          ],
+          "track_ids": [
+            97151403
+          ],
+          "track_sha256": [
+            "3b65d4939c6d9b6be41f46cdda93aa26dba432c02693553337185755e004d896"
+          ],
+          "required_performers": [
+            "Eugene Ormandy",
+            "Isaac Stern",
+            "The Philadelphia Orchestra"
+          ],
+          "composer": "Sergei Prokofiev"
+        },
+        {
+          "source_path": [
+            0,
+            1
+          ],
+          "track_ids": [
+            97151404
+          ],
+          "track_sha256": [
+            "053cabc2f9f71b8ec82ce08cfe855c7210d766d29b394bb12b3d702ebde7808d"
+          ],
+          "required_performers": [
+            "Eugene Ormandy",
+            "Isaac Stern",
+            "The Philadelphia Orchestra"
+          ],
+          "composer": "Sergei Prokofiev"
+        },
+        {
+          "source_path": [
+            0,
+            2
+          ],
+          "track_ids": [
+            97151405
+          ],
+          "track_sha256": [
+            "5b40ec37a9131d967c312fc4abc9552690da91ebd21ea2ca089dfaaaa5b2bcab"
+          ],
+          "required_performers": [
+            "Eugene Ormandy",
+            "Isaac Stern",
+            "The Philadelphia Orchestra"
+          ],
+          "composer": "Sergei Prokofiev"
+        },
+        {
+          "source_path": [
+            1,
+            0
+          ],
+          "track_ids": [
+            97151406
+          ],
+          "track_sha256": [
+            "775f5c0edb857539976d8245fff1a7505d3169c850732e5aea61b1140c72b8bc"
+          ],
+          "required_performers": [
+            "Eugene Ormandy",
+            "Isaac Stern",
+            "The Philadelphia Orchestra"
+          ],
+          "composer": "Sergei Prokofiev"
+        },
+        {
+          "source_path": [
+            1,
+            1
+          ],
+          "track_ids": [
+            97151407
+          ],
+          "track_sha256": [
+            "53358e017654b5c58b896e54c8f9a9128dcc4ea507b2f3098c39e71d9facf4f5"
+          ],
+          "required_performers": [
+            "Eugene Ormandy",
+            "Isaac Stern",
+            "The Philadelphia Orchestra"
+          ],
+          "composer": "Sergei Prokofiev"
+        },
+        {
+          "source_path": [
+            1,
+            2
+          ],
+          "track_ids": [
+            97151408
+          ],
+          "track_sha256": [
+            "0a53a2956948c43397fb7a38fc286b976620963d1cf3ec7873e26a2dd93113cc"
+          ],
+          "required_performers": [
+            "Eugene Ormandy",
+            "Isaac Stern",
+            "The Philadelphia Orchestra"
+          ],
+          "composer": "Sergei Prokofiev"
+        }
+      ],
+      "extra_track_ids": [],
+      "selected_track_fingerprints": {
+        "97151403": "3b65d4939c6d9b6be41f46cdda93aa26dba432c02693553337185755e004d896",
+        "97151404": "053cabc2f9f71b8ec82ce08cfe855c7210d766d29b394bb12b3d702ebde7808d",
+        "97151405": "5b40ec37a9131d967c312fc4abc9552690da91ebd21ea2ca089dfaaaa5b2bcab",
+        "97151406": "775f5c0edb857539976d8245fff1a7505d3169c850732e5aea61b1140c72b8bc",
+        "97151407": "53358e017654b5c58b896e54c8f9a9128dcc4ea507b2f3098c39e71d9facf4f5",
+        "97151408": "0a53a2956948c43397fb7a38fc286b976620963d1cf3ec7873e26a2dd93113cc"
+      }
+    },
+    {
+      "discogs_id": "5349319",
+      "album_id": "0886443628663",
+      "target_sha256": "541306d04059e8a52413ba29c0d71c8de87e0ee33efb382b7e2d27e2230b51cf",
+      "source_sha256": "14b34b7da8519ed409f77f0e6f2a6392ed088ee8a547ecb7a52ddaaa6e5b6828",
+      "album_sha256": "80b196f309682b4e7ec206cb8cc23c1d7b96ff26b866ce52df21adfc497cea18",
+      "decision": "withhold",
+      "recording_review": "The31movement compilation covers the listed sonatas, but source sonata6says A major whereas digital metadata says F major; source sonata2finale says Allegro Assai whereas the file says Rondo Grazioso. Multiple printed timings exceed existing per-band tolerance (for example3:48versus3:55,2:39versus2:45). Separate remasters cover only subsets.",
+      "sources": [
+        "https://www.discogs.com/release/5349319"
+      ],
+      "limitations": [
+        "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+        "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
+      ],
+      "external_source_files": []
+    },
+    {
+      "discogs_id": "5756277",
+      "album_id": "k8oyqi4mqkmpc",
+      "target_sha256": "da75f87e19bd1fb31d717a42f793580cfa4692ee79bffd823f10690e2bb95af0",
+      "source_sha256": "b4361025bf702ed678d1313421d10165001092cadeea632f896bb51fedba14cb",
+      "album_sha256": "8afa0a9bc7de0cf0e991db3d0ddb20240f299e9ad49f508122422a694bdc2e67",
+      "decision": "probable",
+      "recording_review": "The BnF catalogue independently identifies the CBS Mozart3/4pair with Francescatti/Walter/Columbia Symphony and original1959phonogram. The saved Sony album contains all six ordered source movements with explicit violin,conductor,orchestra,composer roles; serenade tracks are declared extras. Ysaye’s Cadenza credit does not become a conflicting Composer role.",
+      "sources": [
+        "https://www.discogs.com/release/5756277",
+        "https://catalogue.bnf.fr/ark:/12148/cb38117682c"
+      ],
+      "limitations": [
+        "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+        "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
+      ],
+      "external_source_files": [
+        {
+          "path": "data/review_sources/title19-5756277/source-observation.txt",
+          "sha256": "73d635cf7ac9fdbe98b724f17fd3d63b9bafd5ad91653e1590d6fffc7f664a51"
+        }
+      ],
+      "review_kind": "source-leaf-bands",
+      "source_outline_sha256": "866836ab05cdfb1d4f116aab920b77bb71c47117071191f3a06461e945372a31",
+      "source_leaves": [
+        {
+          "path": [
+            0,
+            0
+          ],
+          "source_work": "Concerto N.3 In Sol Magg. K.216 Per Violino E Orchestra",
+          "title": "I. Allegro",
+          "position": "A1",
+          "duration": ""
+        },
+        {
+          "path": [
+            0,
+            1
+          ],
+          "source_work": "Concerto N.3 In Sol Magg. K.216 Per Violino E Orchestra",
+          "title": "II. Adagio",
+          "position": "A2",
+          "duration": ""
+        },
+        {
+          "path": [
+            0,
+            2
+          ],
+          "source_work": "Concerto N.3 In Sol Magg. K.216 Per Violino E Orchestra",
+          "title": "III. Rondò (Allegro)",
+          "position": "A3",
+          "duration": ""
+        },
+        {
+          "path": [
+            1,
+            0
+          ],
+          "source_work": "Concerto N.4 In Re Magg. K.218 Per Violino E Orchestra",
+          "title": "I. Allegro",
+          "position": "B1",
+          "duration": ""
+        },
+        {
+          "path": [
+            1,
+            1
+          ],
+          "source_work": "Concerto N.4 In Re Magg. K.218 Per Violino E Orchestra",
+          "title": "II. Andante Cantabile ",
+          "position": "B2",
+          "duration": ""
+        },
+        {
+          "path": [
+            1,
+            2
+          ],
+          "source_work": "Concerto N.4 In Re Magg. K.218 Per Violino E Orchestra",
+          "title": "III. Rondeau ( Andante Grazioso, Allegro Ma Non Troppo)",
+          "position": "B3",
+          "duration": ""
+        }
+      ],
+      "source_heading_groups": [],
+      "bindings": [
+        {
+          "source_path": [
+            0,
+            0
+          ],
+          "track_ids": [
+            57591633
+          ],
+          "track_sha256": [
+            "20d056e12996ca050d7e7243a3f2f8a29934fa62028d285c34a6e8c3da466ba0"
+          ],
+          "required_performers": [
+            "Bruno Walter",
+            "Zino Francescatti",
+            "Columbia Symphony Orchestra"
+          ],
+          "composer": "Wolfgang Amadeus Mozart"
+        },
+        {
+          "source_path": [
+            0,
+            1
+          ],
+          "track_ids": [
+            57591634
+          ],
+          "track_sha256": [
+            "3c2426b85c0434bef31f54911966d9b3af57b354ba4ba6501702fc06ca57c735"
+          ],
+          "required_performers": [
+            "Bruno Walter",
+            "Zino Francescatti",
+            "Columbia Symphony Orchestra"
+          ],
+          "composer": "Wolfgang Amadeus Mozart"
+        },
+        {
+          "source_path": [
+            0,
+            2
+          ],
+          "track_ids": [
+            57591635
+          ],
+          "track_sha256": [
+            "538800b1555c4a91e550deb23b57e3f538647b8618d9bf45eec22c0a8f279de3"
+          ],
+          "required_performers": [
+            "Bruno Walter",
+            "Zino Francescatti",
+            "Columbia Symphony Orchestra"
+          ],
+          "composer": "Wolfgang Amadeus Mozart"
+        },
+        {
+          "source_path": [
+            1,
+            0
+          ],
+          "track_ids": [
+            57591636
+          ],
+          "track_sha256": [
+            "a5b90607f1b6eb7cc5dfbfe1e3a80534cd0a27e9e0a92e3c44a84515106ef1b0"
+          ],
+          "required_performers": [
+            "Bruno Walter",
+            "Zino Francescatti",
+            "Columbia Symphony Orchestra"
+          ],
+          "composer": "Wolfgang Amadeus Mozart"
+        },
+        {
+          "source_path": [
+            1,
+            1
+          ],
+          "track_ids": [
+            57591637
+          ],
+          "track_sha256": [
+            "de10e2e57d9cc78fb0e781f8d4564935a20ffdeff2aa2b639c234055c5726f12"
+          ],
+          "required_performers": [
+            "Bruno Walter",
+            "Zino Francescatti",
+            "Columbia Symphony Orchestra"
+          ],
+          "composer": "Wolfgang Amadeus Mozart"
+        },
+        {
+          "source_path": [
+            1,
+            2
+          ],
+          "track_ids": [
+            57591638
+          ],
+          "track_sha256": [
+            "cc6107a981933e2c78cdaca077c528cdc22a4f32ed664cbcc5048b3e09a79b8d"
+          ],
+          "required_performers": [
+            "Bruno Walter",
+            "Zino Francescatti",
+            "Columbia Symphony Orchestra"
+          ],
+          "composer": "Wolfgang Amadeus Mozart"
+        }
+      ],
+      "extra_track_ids": [
+        57591639,
+        57591640,
+        57591641,
+        57591642
+      ],
+      "selected_track_fingerprints": {
+        "57591633": "20d056e12996ca050d7e7243a3f2f8a29934fa62028d285c34a6e8c3da466ba0",
+        "57591634": "3c2426b85c0434bef31f54911966d9b3af57b354ba4ba6501702fc06ca57c735",
+        "57591635": "538800b1555c4a91e550deb23b57e3f538647b8618d9bf45eec22c0a8f279de3",
+        "57591636": "a5b90607f1b6eb7cc5dfbfe1e3a80534cd0a27e9e0a92e3c44a84515106ef1b0",
+        "57591637": "de10e2e57d9cc78fb0e781f8d4564935a20ffdeff2aa2b639c234055c5726f12",
+        "57591638": "cc6107a981933e2c78cdaca077c528cdc22a4f32ed664cbcc5048b3e09a79b8d"
+      }
+    },
+    {
+      "discogs_id": "6268701",
+      "album_id": "0886444938174",
+      "target_sha256": "79fc30cdbb390285fdd7a17156937e512e8587c839c1713cdd05c66c0c361f41",
+      "source_sha256": "d564208f14b854a78f33418b4c8cebe93b5e785698465fd62dbdb2717ab7cf18",
+      "album_sha256": "d4eaecd422c295162f6156ea14e3ea1a598a8d8f3e86f3acf5a80388f6b0846b",
+      "decision": "probable",
+      "recording_review": "Gould’s official chronology documents FrenchSuites1–4in1973and5/6plus FrenchOverture in1974, agreeing with source notes identifying M32347/M32853. One saved Sony compilation supplies all51movements: six whole-suite source bands plus the Overture’s two physical bands. Every printed band total fits existing timing tolerance; no movement or suite is inferred from a title alone.",
+      "sources": [
+        "https://www.discogs.com/release/6268701",
+        "https://glenngould.com/history/",
+        "https://glenngould.com/music/bach-the-french-suites-vol-2-overture-in-the-french-style/"
+      ],
+      "limitations": [
+        "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+        "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
+      ],
+      "external_source_files": [
+        {
+          "path": "data/review_sources/title19-6268701/source-observation.txt",
+          "sha256": "6fe88140fb721c5ab515fbea6b958a68883d9cbc69d86f54f80c97fd1ac166f2"
+        }
+      ],
+      "review_kind": "source-leaf-bands",
+      "source_outline_sha256": "260e943c6f80f12b96c003460c5ecc3da7541eb1ce89081ef3877851d53a7586",
+      "source_leaves": [
+        {
+          "path": [
+            0
+          ],
+          "source_work": "Suite No. 1 (D Minor / D-Moll / Ré Mineur), BWV 812",
+          "title": "Suite No. 1 (D Minor / D-Moll / Ré Mineur), BWV 812",
+          "position": "A1",
+          "duration": "11:16"
+        },
+        {
+          "path": [
+            1
+          ],
+          "source_work": "Suite No. 2 (C Minor / C-Moll / Ut Mineur), BWV 813",
+          "title": "Suite No. 2 (C Minor / C-Moll / Ut Mineur), BWV 813",
+          "position": "A2",
+          "duration": "9:32"
+        },
+        {
+          "path": [
+            2
+          ],
+          "source_work": "Suite No. 3 (B Minor / H-Moll / Si Mineur), BWV 814",
+          "title": "Suite No. 3 (B Minor / H-Moll / Si Mineur), BWV 814",
+          "position": "B1",
+          "duration": "8:56"
+        },
+        {
+          "path": [
+            3
+          ],
+          "source_work": "Suite No. 4 (E Flat Major / Es-Dur / Mi Bémol Majeur), BWV 815",
+          "title": "Suite No. 4 (E Flat Major / Es-Dur / Mi Bémol Majeur), BWV 815",
+          "position": "B2",
+          "duration": "9:13"
+        },
+        {
+          "path": [
+            4
+          ],
+          "source_work": "Suite No. 5 (G Major / G-Dur / Sol Majeur), BWV 816",
+          "title": "Suite No. 5 (G Major / G-Dur / Sol Majeur), BWV 816",
+          "position": "C1",
+          "duration": "10:57"
+        },
+        {
+          "path": [
+            5
+          ],
+          "source_work": "Suite No. 6 (E Major / E-Dur / Mi Majeur), BWV 817",
+          "title": "Suite No. 6 (E Major / E-Dur / Mi Majeur), BWV 817",
+          "position": "C2",
+          "duration": "10:30"
+        },
+        {
+          "path": [
+            6,
+            0
+          ],
+          "source_work": "Overture In The French Style, BWV 831",
+          "title": "Ouverture",
+          "position": "D1",
+          "duration": "9:52"
+        },
+        {
+          "path": [
+            6,
+            1
+          ],
+          "source_work": "Overture In The French Style, BWV 831",
+          "title": "Courante - Gavotte I - Gavotte II - Passepied I - Passepied II - Sarabande - Bourrée I - Barrée II - Gigue - Echo",
+          "position": "D2",
+          "duration": "15:23"
+        }
+      ],
+      "source_heading_groups": [],
+      "bindings": [
+        {
+          "source_path": [
+            0
+          ],
+          "track_ids": [
+            24137623,
+            24137627,
+            24137630,
+            24137634,
+            24137636,
+            24137638
+          ],
+          "track_sha256": [
+            "52cc409e09297e1a40ba2120a932540f930717d652f0f5374db3e0b476282564",
+            "517c421de5f06c5147effa6baae0e131776413dc8ff674b7cfa65f5b8c6e35b3",
+            "89153ed6de0b14fc158badeccd99fd547c51eb3ec425a3e6abd239a009618192",
+            "01d1c8be325fd30839d656f4125d8df97e479f6ca9b216937ddfbfe0d02b7393",
+            "fc6cf914055168c1d176c2ca0dbfd0c7f14e7c8cf41d5581963397a17f21dbeb",
+            "4033bec3b6ef7f1212415b05ac6ac80c245ccde5e4f2cf1459eda1e06a5445d1"
+          ],
+          "required_performers": [
+            "Glenn Gould"
+          ],
+          "composer": "Johann Sebastian Bach"
+        },
+        {
+          "source_path": [
+            1
+          ],
+          "track_ids": [
+            24137640,
+            24137642,
+            24137644,
+            24137646,
+            24137648,
+            24137650
+          ],
+          "track_sha256": [
+            "7f06d33153c2d984de23597e05dbe8678c9125443c4c82d3f3bbebaf9ab9971c",
+            "4ef08af8dd54785020c099e128fa78a5edaf929380303927a2022d1135c2b3d5",
+            "90c1bde7fd05e7f1e9b13fc437a4fa572946a7b881c375c7444a27b23aa97dc0",
+            "4fddc1074d8a7a2eb8a993f560a9f8ef7f63e1475a9294a45d2267ce59254136",
+            "56a53a87b6ccbc037e3162ed3fd6f57dd053b20b5449899037cdd8f8687f9101",
+            "56925a41cbff4079447cee781852fbe89263ed70fc03e66326e84dde286bff98"
+          ],
+          "required_performers": [
+            "Glenn Gould"
+          ],
+          "composer": "Johann Sebastian Bach"
+        },
+        {
+          "source_path": [
+            2
+          ],
+          "track_ids": [
+            24137652,
+            24137654,
+            24137656,
+            24137658,
+            24137660,
+            24137662
+          ],
+          "track_sha256": [
+            "872e7c821a015fde51942d68de229f7a83ec37ba7e582c0db65d8f9c9027066c",
+            "4c7a3354175cb429f6b9b5ab1264d4dbee29104b547241228f0f4913fd138d6c",
+            "1a1eac9fb288d55fac4578d5057080470d6d3ae189c721b9c1d14dddcf2374ac",
+            "c8aaa572c28cf800a3cde63fe2cf2c2106a1a73f8a5e36352c1e75888e97cf70",
+            "504ec1cfee06933bd49d018c05775cb17b40b2770b260bcc4af5e99ac58edddb",
+            "12f3a1b062f3f4e829ea474d068ec53a9a4d942e69c1c60866aa75f1569b26d7"
+          ],
+          "required_performers": [
+            "Glenn Gould"
+          ],
+          "composer": "Johann Sebastian Bach"
+        },
+        {
+          "source_path": [
+            3
+          ],
+          "track_ids": [
+            24137664,
+            24137666,
+            24137668,
+            24137671,
+            24137674,
+            24137677,
+            24137680
+          ],
+          "track_sha256": [
+            "e261a318eeb187f1f0993aec477e214645064a4460ff32c728981137c0a1517d",
+            "0de535a5f16c95d70fcdba49d95600a54703f58430ac3738a3f17dedc99ca2de",
+            "9e97825d58f0923a9da25dcca0c92ad87d2d82fb0cb9385929d221999933dbe9",
+            "a09ee34963a690aabd1dcec27e5a6e4f6c61eda658eab0b56127d7644a28b565",
+            "0a80bb5c8a45f4dfbedbbcf1c4a6614274dfa90f91d30d0ac682b28ae209f678",
+            "66d973048eab076b49f6587d9a01c1a737ff4fae73cf86c766d10f3e090fcc03",
+            "a8023e0bf82c91d49cd35307e8b2ef5b9e01b7b80b31bb983f354f885201ef96"
+          ],
+          "required_performers": [
+            "Glenn Gould"
+          ],
+          "composer": "Johann Sebastian Bach"
+        },
+        {
+          "source_path": [
+            4
+          ],
+          "track_ids": [
+            24137684,
+            24137687,
+            24137690,
+            24137694,
+            24137697,
+            24137701,
+            24137704
+          ],
+          "track_sha256": [
+            "076a65fe8009951d7b1df29ae250b8746b8593f71749298a7454c28a79a7cf00",
+            "1dbe520f92bb9d2af7dda977ac7794b501e5a2e6f5f02712cb7551f9b943131d",
+            "0eb2ba6033826a5e28f1655a7f065fd1ac6950c979832fca12c92280f1518ac2",
+            "49ae7892ae8425156b8b75d09ac6a0a33427f7a34151849c67e21d4c7250dc3a",
+            "f643fd5f83f3ed7e19e21b4b90f830ebd0c7e18ce7caacab4d50c4eda1b13be6",
+            "acf62e26985a2a2555e20b202b7dd3d525b366444233cae40d28c87cc450ea8e",
+            "e08bfc57cb98a67de46897b8d46e45cb09bbc833517cab185803fa4505616465"
+          ],
+          "required_performers": [
+            "Glenn Gould"
+          ],
+          "composer": "Johann Sebastian Bach"
+        },
+        {
+          "source_path": [
+            5
+          ],
+          "track_ids": [
+            24137707,
+            24137710,
+            24137713,
+            24137715,
+            24137717,
+            24137719,
+            24137721,
+            24137723
+          ],
+          "track_sha256": [
+            "c64af098865548f65624fdf90501c7d83c38c83f590680defb3f03571508bb23",
+            "b98b40546f33b52161b32567224c9e5670a2dbb6b9fc00dee3a589fec70372bf",
+            "42064d21bd89ecdd1a3fc725b20b84e29b52d5b46344737288c516b88b00648a",
+            "8ca0a6f64f1e66f3282ee7606fedfa072b563abff36639150e9b8b89afa219d6",
+            "ef0a3a97dd0ea5c7fd218c6b6fb006730a2c206f0b55a8b876d64cddcba1694c",
+            "f158f39203b56ccee56088822d73980a5801b8f6aad10b6b2ce931874db5e454",
+            "e140726bbb2a409c11a039e97c8bd20651bd4ce095cee443fba9fdf150f78329",
+            "91abc6f2a20cdf134c21ef6928e12b842fa47d6b5bfed177bc5a1daeec51b83e"
+          ],
+          "required_performers": [
+            "Glenn Gould"
+          ],
+          "composer": "Johann Sebastian Bach"
+        },
+        {
+          "source_path": [
+            6,
+            0
+          ],
+          "track_ids": [
+            24137725
+          ],
+          "track_sha256": [
+            "bdee287db3da6a9540de9dbe644b0264c6d725db2b5b11929d6414181c3a81ae"
+          ],
+          "required_performers": [
+            "Glenn Gould"
+          ],
+          "composer": "Johann Sebastian Bach"
+        },
+        {
+          "source_path": [
+            6,
+            1
+          ],
+          "track_ids": [
+            24137727,
+            24137729,
+            24137731,
+            24137733,
+            24137735,
+            24137737,
+            24137739,
+            24137743,
+            24137746,
+            24137750
+          ],
+          "track_sha256": [
+            "907564ef284fa7b286273fdf0d15460625f19d33dc8f7fadf7b0675caa03878e",
+            "4a7f9667b8d9721220146fdf08021c56f1c4e3dde735196e4d9ab7f425a2041f",
+            "3f304f08d83509770df41a84a9ef2d9233d31301d6aef73b43aa73df468636da",
+            "bfcac4b9e8429ea3f1057ae483091c3ec9e0b1ebe6393ef730aa854abfc84d6c",
+            "1c6e8c5d0d971c5d28114f89e6e28c45832194a81141f8f218aaaee8d1b8a5d3",
+            "4c5a1e15e7a3cab12acd8b008a62bdcda4ee95650c6a5ff59e25f58348f64817",
+            "9fe53aafe9c955ff371eac3903eb2abceadec7db0f83d1fb12b9b6772f063ec8",
+            "82923688c6942da496de8957a0b6c67acb05733339f9fb502e8ec139f8f6051d",
+            "682bee9790c1406db10ba51e4898e8667d6e8d2f27c2f7b4c47411bf50b825e7",
+            "bbea140860dd9c1f247eccf2f4d78bd0348951470828311f8d579253fdd09cf2"
+          ],
+          "required_performers": [
+            "Glenn Gould"
+          ],
+          "composer": "Johann Sebastian Bach"
+        }
+      ],
+      "extra_track_ids": [
+        24137480,
+        24137484,
+        24137488,
+        24137494,
+        24137497,
+        24137501,
+        24137503,
+        24137505,
+        24137507,
+        24137509,
+        24137511,
+        24137513,
+        24137515,
+        24137517,
+        24137519,
+        24137521,
+        24137523,
+        24137527,
+        24137531,
+        24137534,
+        24137540,
+        24137544,
+        24137548,
+        24137554,
+        24137558,
+        24137562,
+        24137565,
+        24137568,
+        24137571,
+        24137573,
+        24137575,
+        24137577,
+        24137579,
+        24137581,
+        24137583,
+        24137585,
+        24137587,
+        24137590,
+        24137592,
+        24137595,
+        24137599,
+        24137602,
+        24137606,
+        24137611,
+        24137615,
+        24137620
+      ],
+      "selected_track_fingerprints": {
+        "24137623": "52cc409e09297e1a40ba2120a932540f930717d652f0f5374db3e0b476282564",
+        "24137627": "517c421de5f06c5147effa6baae0e131776413dc8ff674b7cfa65f5b8c6e35b3",
+        "24137630": "89153ed6de0b14fc158badeccd99fd547c51eb3ec425a3e6abd239a009618192",
+        "24137634": "01d1c8be325fd30839d656f4125d8df97e479f6ca9b216937ddfbfe0d02b7393",
+        "24137636": "fc6cf914055168c1d176c2ca0dbfd0c7f14e7c8cf41d5581963397a17f21dbeb",
+        "24137638": "4033bec3b6ef7f1212415b05ac6ac80c245ccde5e4f2cf1459eda1e06a5445d1",
+        "24137640": "7f06d33153c2d984de23597e05dbe8678c9125443c4c82d3f3bbebaf9ab9971c",
+        "24137642": "4ef08af8dd54785020c099e128fa78a5edaf929380303927a2022d1135c2b3d5",
+        "24137644": "90c1bde7fd05e7f1e9b13fc437a4fa572946a7b881c375c7444a27b23aa97dc0",
+        "24137646": "4fddc1074d8a7a2eb8a993f560a9f8ef7f63e1475a9294a45d2267ce59254136",
+        "24137648": "56a53a87b6ccbc037e3162ed3fd6f57dd053b20b5449899037cdd8f8687f9101",
+        "24137650": "56925a41cbff4079447cee781852fbe89263ed70fc03e66326e84dde286bff98",
+        "24137652": "872e7c821a015fde51942d68de229f7a83ec37ba7e582c0db65d8f9c9027066c",
+        "24137654": "4c7a3354175cb429f6b9b5ab1264d4dbee29104b547241228f0f4913fd138d6c",
+        "24137656": "1a1eac9fb288d55fac4578d5057080470d6d3ae189c721b9c1d14dddcf2374ac",
+        "24137658": "c8aaa572c28cf800a3cde63fe2cf2c2106a1a73f8a5e36352c1e75888e97cf70",
+        "24137660": "504ec1cfee06933bd49d018c05775cb17b40b2770b260bcc4af5e99ac58edddb",
+        "24137662": "12f3a1b062f3f4e829ea474d068ec53a9a4d942e69c1c60866aa75f1569b26d7",
+        "24137664": "e261a318eeb187f1f0993aec477e214645064a4460ff32c728981137c0a1517d",
+        "24137666": "0de535a5f16c95d70fcdba49d95600a54703f58430ac3738a3f17dedc99ca2de",
+        "24137668": "9e97825d58f0923a9da25dcca0c92ad87d2d82fb0cb9385929d221999933dbe9",
+        "24137671": "a09ee34963a690aabd1dcec27e5a6e4f6c61eda658eab0b56127d7644a28b565",
+        "24137674": "0a80bb5c8a45f4dfbedbbcf1c4a6614274dfa90f91d30d0ac682b28ae209f678",
+        "24137677": "66d973048eab076b49f6587d9a01c1a737ff4fae73cf86c766d10f3e090fcc03",
+        "24137680": "a8023e0bf82c91d49cd35307e8b2ef5b9e01b7b80b31bb983f354f885201ef96",
+        "24137684": "076a65fe8009951d7b1df29ae250b8746b8593f71749298a7454c28a79a7cf00",
+        "24137687": "1dbe520f92bb9d2af7dda977ac7794b501e5a2e6f5f02712cb7551f9b943131d",
+        "24137690": "0eb2ba6033826a5e28f1655a7f065fd1ac6950c979832fca12c92280f1518ac2",
+        "24137694": "49ae7892ae8425156b8b75d09ac6a0a33427f7a34151849c67e21d4c7250dc3a",
+        "24137697": "f643fd5f83f3ed7e19e21b4b90f830ebd0c7e18ce7caacab4d50c4eda1b13be6",
+        "24137701": "acf62e26985a2a2555e20b202b7dd3d525b366444233cae40d28c87cc450ea8e",
+        "24137704": "e08bfc57cb98a67de46897b8d46e45cb09bbc833517cab185803fa4505616465",
+        "24137707": "c64af098865548f65624fdf90501c7d83c38c83f590680defb3f03571508bb23",
+        "24137710": "b98b40546f33b52161b32567224c9e5670a2dbb6b9fc00dee3a589fec70372bf",
+        "24137713": "42064d21bd89ecdd1a3fc725b20b84e29b52d5b46344737288c516b88b00648a",
+        "24137715": "8ca0a6f64f1e66f3282ee7606fedfa072b563abff36639150e9b8b89afa219d6",
+        "24137717": "ef0a3a97dd0ea5c7fd218c6b6fb006730a2c206f0b55a8b876d64cddcba1694c",
+        "24137719": "f158f39203b56ccee56088822d73980a5801b8f6aad10b6b2ce931874db5e454",
+        "24137721": "e140726bbb2a409c11a039e97c8bd20651bd4ce095cee443fba9fdf150f78329",
+        "24137723": "91abc6f2a20cdf134c21ef6928e12b842fa47d6b5bfed177bc5a1daeec51b83e",
+        "24137725": "bdee287db3da6a9540de9dbe644b0264c6d725db2b5b11929d6414181c3a81ae",
+        "24137727": "907564ef284fa7b286273fdf0d15460625f19d33dc8f7fadf7b0675caa03878e",
+        "24137729": "4a7f9667b8d9721220146fdf08021c56f1c4e3dde735196e4d9ab7f425a2041f",
+        "24137731": "3f304f08d83509770df41a84a9ef2d9233d31301d6aef73b43aa73df468636da",
+        "24137733": "bfcac4b9e8429ea3f1057ae483091c3ec9e0b1ebe6393ef730aa854abfc84d6c",
+        "24137735": "1c6e8c5d0d971c5d28114f89e6e28c45832194a81141f8f218aaaee8d1b8a5d3",
+        "24137737": "4c5a1e15e7a3cab12acd8b008a62bdcda4ee95650c6a5ff59e25f58348f64817",
+        "24137739": "9fe53aafe9c955ff371eac3903eb2abceadec7db0f83d1fb12b9b6772f063ec8",
+        "24137743": "82923688c6942da496de8957a0b6c67acb05733339f9fb502e8ec139f8f6051d",
+        "24137746": "682bee9790c1406db10ba51e4898e8667d6e8d2f27c2f7b4c47411bf50b825e7",
+        "24137750": "bbea140860dd9c1f247eccf2f4d78bd0348951470828311f8d579253fdd09cf2"
+      }
+    },
+    {
+      "discogs_id": "7766716",
+      "album_id": "0886446469928",
+      "target_sha256": "771faaf7306732b93ed8ebf58d19e89489f8f0f0804e4eb043443bd336acdfc1",
+      "source_sha256": "12786ebfaf5693b8f6e6bc965c564552563aadf2e89e381efb8e011467c72a0f",
+      "album_sha256": "6c5edc2eedef2a7935121f7f932b569328e337adda29600a24dcce6cd7eb7977",
+      "decision": "probable",
+      "recording_review": "The University of Maryland IPAM guide places Serkin/Reiner’s Brahms Dminor concerto in his early Columbia discography, distinct from later Serkin/Szell recordings. The saved Sony remaster explicitly credits Serkin/Reiner/Pittsburgh on all three source movements and identifies the historical phonogram. This supports the ML4100recording family; source label-design/issue-date uncertainty remains.",
+      "sources": [
+        "https://www.discogs.com/release/7766716",
+        "https://lib.guides.umd.edu/ipam-buyers-guide/S-Z"
+      ],
+      "limitations": [
+        "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+        "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
+      ],
+      "external_source_files": [
+        {
+          "path": "data/review_sources/title19-7766716/source-observation.txt",
+          "sha256": "4f0a02cbe9d06836c283aa214f8ab3b8018abf21b4cc03d038fda18538faeddb"
+        }
+      ],
+      "review_kind": "source-leaf-bands",
+      "source_outline_sha256": "766984a05d255081ad067f0e2617109cca0a5c9f3609228c69414c38938fb839",
+      "source_leaves": [
+        {
+          "path": [
+            0,
+            0
+          ],
+          "source_work": "Concerto No. 1 In D Minor For Piano And Orchestra, Op. 15",
+          "title": "First Movement: Maestoso",
+          "position": "A",
+          "duration": ""
+        },
+        {
+          "path": [
+            0,
+            1
+          ],
+          "source_work": "Concerto No. 1 In D Minor For Piano And Orchestra, Op. 15",
+          "title": "Second Movement: Adagio",
+          "position": "B1",
+          "duration": ""
+        },
+        {
+          "path": [
+            0,
+            2
+          ],
+          "source_work": "Concerto No. 1 In D Minor For Piano And Orchestra, Op. 15",
+          "title": "Third Movement: Rondo (Allegro Non Troppo)",
+          "position": "B2",
+          "duration": ""
+        }
+      ],
+      "source_heading_groups": [],
+      "bindings": [
+        {
+          "source_path": [
+            0,
+            0
+          ],
+          "track_ids": [
+            42627018
+          ],
+          "track_sha256": [
+            "ecdee657cdb83c25e046331ff9f8240ba8900e92a035e7c8bcbbd407a31dd166"
+          ],
+          "required_performers": [
+            "Rudolf Serkin",
+            "Fritz Reiner",
+            "Pittsburgh Symphony Orchestra"
+          ],
+          "composer": "Johannes Brahms"
+        },
+        {
+          "source_path": [
+            0,
+            1
+          ],
+          "track_ids": [
+            42627020
+          ],
+          "track_sha256": [
+            "dd56f91523e9cb0dc93467fa798a2504c30e4180c75061109991209b67ba0a0c"
+          ],
+          "required_performers": [
+            "Rudolf Serkin",
+            "Fritz Reiner",
+            "Pittsburgh Symphony Orchestra"
+          ],
+          "composer": "Johannes Brahms"
+        },
+        {
+          "source_path": [
+            0,
+            2
+          ],
+          "track_ids": [
+            42627022
+          ],
+          "track_sha256": [
+            "a935d3b7e559a356162ba1b86c8ef31aafbfb15fea92b96b177ddabf9efc1ec0"
+          ],
+          "required_performers": [
+            "Rudolf Serkin",
+            "Fritz Reiner",
+            "Pittsburgh Symphony Orchestra"
+          ],
+          "composer": "Johannes Brahms"
+        }
+      ],
+      "extra_track_ids": [],
+      "selected_track_fingerprints": {
+        "42627018": "ecdee657cdb83c25e046331ff9f8240ba8900e92a035e7c8bcbbd407a31dd166",
+        "42627020": "dd56f91523e9cb0dc93467fa798a2504c30e4180c75061109991209b67ba0a0c",
+        "42627022": "a935d3b7e559a356162ba1b86c8ef31aafbfb15fea92b96b177ddabf9efc1ec0"
+      }
+    },
+    {
+      "discogs_id": "7946604",
+      "album_id": "0074643725620",
+      "target_sha256": "bb6930a0142c8adf8cd3438f24739d41a0006ee6ce4fb4956c21b3a3860a26c6",
+      "source_sha256": "e55e14f5674b574045f94d798aefd8b6c7613098a9f83cde8438407c32f160e0",
+      "album_sha256": "092cf43ad79ccc9d261c18355232fdaad786ddecb53a738a5aaed4fbf0e3c6b1",
+      "decision": "withhold",
+      "recording_review": "The1948ML4041source splits the first movement into six named bands/sections, while all complete candidates provide one unsplit first-movement track. Candidate timings differ substantially across Serkin/Ormandy recording families, including the explicitly1950–56collection; no saved primary evidence binds one transfer to the source LP or its internal boundaries.",
+      "sources": [
+        "https://www.discogs.com/release/7946604"
+      ],
+      "limitations": [
+        "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+        "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
+      ],
+      "external_source_files": []
+    },
+    {
+      "discogs_id": "8103249",
+      "album_id": "b8lm68nol2zyb",
+      "target_sha256": "d0efcb36adacc7c70ab727151faace7de940687e6253be0f9e51934633900c10",
+      "source_sha256": "c5179f30d2c624ca291c8b00decd06749c7f322be3e09574c28db8e807ba3219",
+      "album_sha256": "65f86e9028b1f3c0050f90b46443ae368309fc44e94dcab4e571a4445b8c8b4c",
+      "decision": "probable",
+      "recording_review": "The1978festival programme’s CBS catalogue advertisement identifies Stern/Szell/Columbia’s Mozart1/5coupling. The saved Sony reissue provides both complete three-movement source works with positive named cast and Mozart-only Composer; Joachim is explicitly Cadenza, not Composer. Choose the plain full-name composer edition rather than silently stripping dates from another edition.",
+      "sources": [
+        "https://www.discogs.com/release/8103249",
+        "https://media.nuitsdefourviere.com/assets/n/daa121c6/1978_programme_de_saison_ndf.pdf"
+      ],
+      "limitations": [
+        "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+        "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
+      ],
+      "external_source_files": [
+        {
+          "path": "data/review_sources/title19-8103249/source-observation.txt",
+          "sha256": "f7892db0ba480a75e00ef796c15ddfef21846e5cbd730739c7e3a50e0c814a87"
+        }
+      ],
+      "review_kind": "source-leaf-bands",
+      "source_outline_sha256": "65a648a3fe86823b9f274a3443a0d255f11043d4287adbc4745451b4c92ec209",
+      "source_leaves": [
+        {
+          "path": [
+            0,
+            0
+          ],
+          "source_work": "Concerto No. 1 In B-Flat Major For Violin And Orchestra, K. 207",
+          "title": "Allegro Moderato",
+          "position": "A1",
+          "duration": ""
+        },
+        {
+          "path": [
+            0,
+            1
+          ],
+          "source_work": "Concerto No. 1 In B-Flat Major For Violin And Orchestra, K. 207",
+          "title": "Adagio",
+          "position": "A2",
+          "duration": ""
+        },
+        {
+          "path": [
+            0,
+            2
+          ],
+          "source_work": "Concerto No. 1 In B-Flat Major For Violin And Orchestra, K. 207",
+          "title": "Presto",
+          "position": "A3",
+          "duration": ""
+        },
+        {
+          "path": [
+            1,
+            0
+          ],
+          "source_work": "Concerto No. 5 In A Major For Violin And Orchestra K. 219 \"Turkish\"",
+          "title": "Allegro Aperto",
+          "position": "B1",
+          "duration": ""
+        },
+        {
+          "path": [
+            1,
+            1
+          ],
+          "source_work": "Concerto No. 5 In A Major For Violin And Orchestra K. 219 \"Turkish\"",
+          "title": "Adagio",
+          "position": "B2",
+          "duration": ""
+        },
+        {
+          "path": [
+            1,
+            2
+          ],
+          "source_work": "Concerto No. 5 In A Major For Violin And Orchestra K. 219 \"Turkish\"",
+          "title": "Tempo Di Menuetto; Allegro",
+          "position": "B3",
+          "duration": ""
+        }
+      ],
+      "source_heading_groups": [],
+      "bindings": [
+        {
+          "source_path": [
+            0,
+            0
+          ],
+          "track_ids": [
+            50280827
+          ],
+          "track_sha256": [
+            "8ee8bb33cbc4441010c0c6402e507385dc51c49a85db38da76d52bed469750ba"
+          ],
+          "required_performers": [
+            "Isaac Stern",
+            "George Szell",
+            "Columbia Symphony Orchestra"
+          ],
+          "composer": "Wolfgang Amadeus Mozart"
+        },
+        {
+          "source_path": [
+            0,
+            1
+          ],
+          "track_ids": [
+            50280828
+          ],
+          "track_sha256": [
+            "d34a9c34bd5bb1dca0fdd7e76a5bb6d88b2be646e088395e63ddb5dde79a7346"
+          ],
+          "required_performers": [
+            "Isaac Stern",
+            "George Szell",
+            "Columbia Symphony Orchestra"
+          ],
+          "composer": "Wolfgang Amadeus Mozart"
+        },
+        {
+          "source_path": [
+            0,
+            2
+          ],
+          "track_ids": [
+            50280829
+          ],
+          "track_sha256": [
+            "ff7ace4e05d55cbc4bd183e09394521f249949d6c59dde9c46d803dec61302d5"
+          ],
+          "required_performers": [
+            "Isaac Stern",
+            "George Szell",
+            "Columbia Symphony Orchestra"
+          ],
+          "composer": "Wolfgang Amadeus Mozart"
+        },
+        {
+          "source_path": [
+            1,
+            0
+          ],
+          "track_ids": [
+            50280830
+          ],
+          "track_sha256": [
+            "304e3459cde493e197534237b3bb5b13e24855842b686956141bc57d28ae3cd1"
+          ],
+          "required_performers": [
+            "Isaac Stern",
+            "George Szell",
+            "Columbia Symphony Orchestra"
+          ],
+          "composer": "Wolfgang Amadeus Mozart"
+        },
+        {
+          "source_path": [
+            1,
+            1
+          ],
+          "track_ids": [
+            50280831
+          ],
+          "track_sha256": [
+            "cae16f4a328048e0800828bb7018bfecea0c80310833f55dbb3a43192206fc1f"
+          ],
+          "required_performers": [
+            "Isaac Stern",
+            "George Szell",
+            "Columbia Symphony Orchestra"
+          ],
+          "composer": "Wolfgang Amadeus Mozart"
+        },
+        {
+          "source_path": [
+            1,
+            2
+          ],
+          "track_ids": [
+            50280832
+          ],
+          "track_sha256": [
+            "3f52e1cc669bb17f5af9c19a785d8eeb2915e7bf8e4cc33835b2b795d6862977"
+          ],
+          "required_performers": [
+            "Isaac Stern",
+            "George Szell",
+            "Columbia Symphony Orchestra"
+          ],
+          "composer": "Wolfgang Amadeus Mozart"
+        }
+      ],
+      "extra_track_ids": [
+        50280833,
+        50280834,
+        50280835
+      ],
+      "selected_track_fingerprints": {
+        "50280827": "8ee8bb33cbc4441010c0c6402e507385dc51c49a85db38da76d52bed469750ba",
+        "50280828": "d34a9c34bd5bb1dca0fdd7e76a5bb6d88b2be646e088395e63ddb5dde79a7346",
+        "50280829": "ff7ace4e05d55cbc4bd183e09394521f249949d6c59dde9c46d803dec61302d5",
+        "50280830": "304e3459cde493e197534237b3bb5b13e24855842b686956141bc57d28ae3cd1",
+        "50280831": "cae16f4a328048e0800828bb7018bfecea0c80310833f55dbb3a43192206fc1f",
+        "50280832": "3f52e1cc669bb17f5af9c19a785d8eeb2915e7bf8e4cc33835b2b795d6862977"
+      }
+    },
+    {
+      "discogs_id": "10598540",
+      "album_id": "5099751700227",
+      "target_sha256": "86ef0a0639420cc14af46f5ada7a8c6d06cb2fe6c42938cfb73d2288eb5e896a",
+      "source_sha256": "425b683e729dff4e864914386cf1589be6a92f82b5ede1da351ef4eecc39c082",
+      "album_sha256": "8fee141b15a980665c1c7f3daacb3c155607e8aa433fe731ad449ad450ebffae",
+      "decision": "probable",
+      "recording_review": "Columbia’s contemporary February1963advertisement identifies precisely this Bartok1/Szell/Columbia and Prokofiev4/Ormandy/Philadelphia coupling. The saved Sony reissue contains all seven movements with each conductor/orchestra bound only to its own work. The source joined Bartok second/third band maps to those two distinct tracks. Full composer names with printed birth/death annotations are explicitly frozen source-bound spellings, never general aliases.",
+      "sources": [
+        "https://www.discogs.com/release/10598540",
+        "https://www.worldradiohistory.com/Archive-All-Audio/Archive-High-Fidelity/60s/High-Fidelity-1963-Feb.pdf"
+      ],
+      "limitations": [
+        "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+        "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
+      ],
+      "external_source_files": [
+        {
+          "path": "data/review_sources/title19-10598540/source-observation.txt",
+          "sha256": "981a5dfb071163a583e0060b0a370eff28ee1eb9fcd2e24b98bf84014ecc42af"
+        }
+      ],
+      "source_composer_spellings": [
+        {
+          "source_name": "Béla Bartók",
+          "file_name": "BÉLA BARTÓK (1881-1945)",
+          "reason": "The exact full source composer name is preserved in the candidate Composer field, with birth/death annotations only; the contemporary Columbia coupling independently identifies this same work/composer."
+        },
+        {
+          "source_name": "Sergei Prokofiev",
+          "file_name": "SERGEI PROKOFIEV (1891-1953)",
+          "reason": "The exact full source composer name is preserved in the candidate Composer field, with birth/death annotations only; the contemporary Columbia coupling independently identifies this same work/composer."
+        }
+      ],
+      "review_kind": "source-leaf-bands",
+      "source_outline_sha256": "63b672ba6c0c93cff57d682d751fbd4b957f3ea69976f319b7ae7e1d7d176fff",
+      "source_leaves": [
+        {
+          "path": [
+            0,
+            0
+          ],
+          "source_work": "Concerto No. 1 For Piano And Orchestra",
+          "title": "I - Allegro Moderato",
+          "position": "A1",
+          "duration": ""
+        },
+        {
+          "path": [
+            0,
+            1
+          ],
+          "source_work": "Concerto No. 1 For Piano And Orchestra",
+          "title": "II - Andante; III - Allegro Molto",
+          "position": "A2",
+          "duration": ""
+        },
+        {
+          "path": [
+            1,
+            0
+          ],
+          "source_work": "Concerto No. 4 For Piano And Orchestra",
+          "title": "I - Vivace",
+          "position": "B1",
+          "duration": ""
+        },
+        {
+          "path": [
+            1,
+            1
+          ],
+          "source_work": "Concerto No. 4 For Piano And Orchestra",
+          "title": "II - Andante",
+          "position": "B2",
+          "duration": ""
+        },
+        {
+          "path": [
+            1,
+            2
+          ],
+          "source_work": "Concerto No. 4 For Piano And Orchestra",
+          "title": "III - Moderato",
+          "position": "B3",
+          "duration": ""
+        },
+        {
+          "path": [
+            1,
+            3
+          ],
+          "source_work": "Concerto No. 4 For Piano And Orchestra",
+          "title": "IV - Vivace",
+          "position": "B4",
+          "duration": ""
+        }
+      ],
+      "source_heading_groups": [],
+      "bindings": [
+        {
+          "source_path": [
+            0,
+            0
+          ],
+          "track_ids": [
+            175164
+          ],
+          "track_sha256": [
+            "4460467ffc4663aa965391e33261e076bba2f39bb56880498508c90d8fc6abb6"
+          ],
+          "required_performers": [
+            "George Szell",
+            "Columbia Symphony Orchestra",
+            "Rudolf Serkin"
+          ],
+          "composer": "BÉLA BARTÓK (1881-1945)"
+        },
+        {
+          "source_path": [
+            0,
+            1
+          ],
+          "track_ids": [
+            175165,
+            175166
+          ],
+          "track_sha256": [
+            "6fa35ea3982f4e7ac66405fa7756635f1a85d8b8baafaacb8376f5abd2b5a2f9",
+            "47c048ffe3789c902840a1ad5d43624c796011cb3e95ce40ae23da24fa5b7e53"
+          ],
+          "required_performers": [
+            "George Szell",
+            "Columbia Symphony Orchestra",
+            "Rudolf Serkin"
+          ],
+          "composer": "BÉLA BARTÓK (1881-1945)"
+        },
+        {
+          "source_path": [
+            1,
+            0
+          ],
+          "track_ids": [
+            175167
+          ],
+          "track_sha256": [
+            "931b73bce10129a368384318df7014195c6fd94b1ad1719252682b095246149a"
+          ],
+          "required_performers": [
+            "Eugene Ormandy",
+            "The Philadelphia Orchestra",
+            "Rudolf Serkin"
+          ],
+          "composer": "SERGEI PROKOFIEV (1891-1953)"
+        },
+        {
+          "source_path": [
+            1,
+            1
+          ],
+          "track_ids": [
+            175168
+          ],
+          "track_sha256": [
+            "f7f78339354f2a836820148ecee8f59b28bebffc2a57a58091f775be08a7c049"
+          ],
+          "required_performers": [
+            "Eugene Ormandy",
+            "The Philadelphia Orchestra",
+            "Rudolf Serkin"
+          ],
+          "composer": "SERGEI PROKOFIEV (1891-1953)"
+        },
+        {
+          "source_path": [
+            1,
+            2
+          ],
+          "track_ids": [
+            175169
+          ],
+          "track_sha256": [
+            "26ed7435c8b677889770977b46b7241409c6650ba60ffb19e2d87052daf9d660"
+          ],
+          "required_performers": [
+            "Eugene Ormandy",
+            "The Philadelphia Orchestra",
+            "Rudolf Serkin"
+          ],
+          "composer": "SERGEI PROKOFIEV (1891-1953)"
+        },
+        {
+          "source_path": [
+            1,
+            3
+          ],
+          "track_ids": [
+            175170
+          ],
+          "track_sha256": [
+            "04f7d91568efd9d719286434ce5b277cb012c51413d282ee4a8becdce152ee47"
+          ],
+          "required_performers": [
+            "Eugene Ormandy",
+            "The Philadelphia Orchestra",
+            "Rudolf Serkin"
+          ],
+          "composer": "SERGEI PROKOFIEV (1891-1953)"
+        }
+      ],
+      "extra_track_ids": [],
+      "selected_track_fingerprints": {
+        "175164": "4460467ffc4663aa965391e33261e076bba2f39bb56880498508c90d8fc6abb6",
+        "175165": "6fa35ea3982f4e7ac66405fa7756635f1a85d8b8baafaacb8376f5abd2b5a2f9",
+        "175166": "47c048ffe3789c902840a1ad5d43624c796011cb3e95ce40ae23da24fa5b7e53",
+        "175167": "931b73bce10129a368384318df7014195c6fd94b1ad1719252682b095246149a",
+        "175168": "f7f78339354f2a836820148ecee8f59b28bebffc2a57a58091f775be08a7c049",
+        "175169": "26ed7435c8b677889770977b46b7241409c6650ba60ffb19e2d87052daf9d660",
+        "175170": "04f7d91568efd9d719286434ce5b277cb012c51413d282ee4a8becdce152ee47"
+      }
+    },
+    {
+      "discogs_id": "12524051",
+      "album_id": "ha5y5btyaellb",
+      "target_sha256": "717a12ffca0dfa4c22afd19447322c30dd438545f07ec16b7fd07531b9e41f46",
+      "source_sha256": "67dec5a089e75d6219d96c3754340eae73d09f94badbac7d1066b26f0e5d7d12",
+      "album_sha256": "1a953696da0c67d77c82b0f73bd97650dd301454499b12ee263f4f0193bc9d89",
+      "decision": "probable",
+      "recording_review": "Sony’s2018SixEvolutions announcement and the FreeLibrary recording catalogue corroborate the album/session family; source notes give MechanicsHall12–15December2017. All36ordered source bands have positive YoYoMa Cello and Bach Composer, and every individual duration exactly matches the saved file. No substitution of his earlier Bach cycles.",
+      "sources": [
+        "https://www.discogs.com/release/12524051",
+        "https://www.sonyclassical.com/news/news-details/yo-yo-ma-1",
+        "https://catalog.freelibrary.org/Record/2428267"
+      ],
+      "limitations": [
+        "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+        "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
+      ],
+      "external_source_files": [
+        {
+          "path": "data/review_sources/title19-12524051/source-observation.txt",
+          "sha256": "b7adba8c686314f50b4f0c1022ffac8e42c50c725a5dbc2932fea010add5e3fc"
+        }
+      ],
+      "review_kind": "source-leaf-bands",
+      "source_outline_sha256": "5653872327d21e72642583064c527857211c7092bc37f922d51c61170ffe6fc6",
+      "source_leaves": [
+        {
+          "path": [
+            0,
+            0
+          ],
+          "source_work": "Unaccompanied Cello Suite No. 1 In G Major, BWV 1007",
+          "title": "Prélude",
+          "position": "A-1",
+          "duration": "2:30"
+        },
+        {
+          "path": [
+            0,
+            1
+          ],
+          "source_work": "Unaccompanied Cello Suite No. 1 In G Major, BWV 1007",
+          "title": "Allemande",
+          "position": "A-2",
+          "duration": "4:15"
+        },
+        {
+          "path": [
+            0,
+            2
+          ],
+          "source_work": "Unaccompanied Cello Suite No. 1 In G Major, BWV 1007",
+          "title": "Courante",
+          "position": "A-3",
+          "duration": "2:34"
+        },
+        {
+          "path": [
+            0,
+            3
+          ],
+          "source_work": "Unaccompanied Cello Suite No. 1 In G Major, BWV 1007",
+          "title": "Sarabande",
+          "position": "A-4",
+          "duration": "2:30"
+        },
+        {
+          "path": [
+            0,
+            4
+          ],
+          "source_work": "Unaccompanied Cello Suite No. 1 In G Major, BWV 1007",
+          "title": "Menuets I & II",
+          "position": "A-5",
+          "duration": "3:27"
+        },
+        {
+          "path": [
+            0,
+            5
+          ],
+          "source_work": "Unaccompanied Cello Suite No. 1 In G Major, BWV 1007",
+          "title": "Gigue",
+          "position": "A-6",
+          "duration": "1:57"
+        },
+        {
+          "path": [
+            1,
+            0
+          ],
+          "source_work": "Unaccompanied Cello Suite No. 2 In D Minor, BWV 1008",
+          "title": "Prélude",
+          "position": "B-1",
+          "duration": "4:12"
+        },
+        {
+          "path": [
+            1,
+            1
+          ],
+          "source_work": "Unaccompanied Cello Suite No. 2 In D Minor, BWV 1008",
+          "title": "Allemande",
+          "position": "B-2",
+          "duration": "3:27"
+        },
+        {
+          "path": [
+            1,
+            2
+          ],
+          "source_work": "Unaccompanied Cello Suite No. 2 In D Minor, BWV 1008",
+          "title": "Courante",
+          "position": "B-3",
+          "duration": "1:48"
+        },
+        {
+          "path": [
+            1,
+            3
+          ],
+          "source_work": "Unaccompanied Cello Suite No. 2 In D Minor, BWV 1008",
+          "title": "Sarabande",
+          "position": "B-4",
+          "duration": "4:07"
+        },
+        {
+          "path": [
+            1,
+            4
+          ],
+          "source_work": "Unaccompanied Cello Suite No. 2 In D Minor, BWV 1008",
+          "title": "Menuets I & II",
+          "position": "B-5",
+          "duration": "3:01"
+        },
+        {
+          "path": [
+            1,
+            5
+          ],
+          "source_work": "Unaccompanied Cello Suite No. 2 In D Minor, BWV 1008",
+          "title": "Gigue",
+          "position": "B-6",
+          "duration": "2:27"
+        },
+        {
+          "path": [
+            2,
+            0
+          ],
+          "source_work": "Unaccompanied Cello Suite No. 3 In C Major, BWV 1009",
+          "title": "Prélude",
+          "position": "C-1",
+          "duration": "3:14"
+        },
+        {
+          "path": [
+            2,
+            1
+          ],
+          "source_work": "Unaccompanied Cello Suite No. 3 In C Major, BWV 1009",
+          "title": "Allemande",
+          "position": "C-2",
+          "duration": "3:44"
+        },
+        {
+          "path": [
+            2,
+            2
+          ],
+          "source_work": "Unaccompanied Cello Suite No. 3 In C Major, BWV 1009",
+          "title": "Courante",
+          "position": "C-3",
+          "duration": "3:08"
+        },
+        {
+          "path": [
+            2,
+            3
+          ],
+          "source_work": "Unaccompanied Cello Suite No. 3 In C Major, BWV 1009",
+          "title": "Sarabande",
+          "position": "C-4",
+          "duration": "3:36"
+        },
+        {
+          "path": [
+            2,
+            4
+          ],
+          "source_work": "Unaccompanied Cello Suite No. 3 In C Major, BWV 1009",
+          "title": "Bourées I & II",
+          "position": "C-5",
+          "duration": "3:39"
+        },
+        {
+          "path": [
+            2,
+            5
+          ],
+          "source_work": "Unaccompanied Cello Suite No. 3 In C Major, BWV 1009",
+          "title": "Gigue",
+          "position": "C-6",
+          "duration": "2:57"
+        },
+        {
+          "path": [
+            3,
+            0
+          ],
+          "source_work": "Unaccompanied Cello Suite No. 4 In E-flat Major, BWV 1010",
+          "title": "Prélude",
+          "position": "D-1",
+          "duration": "4:52"
+        },
+        {
+          "path": [
+            3,
+            1
+          ],
+          "source_work": "Unaccompanied Cello Suite No. 4 In E-flat Major, BWV 1010",
+          "title": "Allemande",
+          "position": "D-2",
+          "duration": "4:23"
+        },
+        {
+          "path": [
+            3,
+            2
+          ],
+          "source_work": "Unaccompanied Cello Suite No. 4 In E-flat Major, BWV 1010",
+          "title": "Courante",
+          "position": "D-3",
+          "duration": "3:51"
+        },
+        {
+          "path": [
+            3,
+            3
+          ],
+          "source_work": "Unaccompanied Cello Suite No. 4 In E-flat Major, BWV 1010",
+          "title": "Sarabande",
+          "position": "D-4",
+          "duration": "4:08"
+        },
+        {
+          "path": [
+            3,
+            4
+          ],
+          "source_work": "Unaccompanied Cello Suite No. 4 In E-flat Major, BWV 1010",
+          "title": "Bourées I & II",
+          "position": "D-5",
+          "duration": "4:56"
+        },
+        {
+          "path": [
+            3,
+            5
+          ],
+          "source_work": "Unaccompanied Cello Suite No. 4 In E-flat Major, BWV 1010",
+          "title": "Gigue",
+          "position": "D-6",
+          "duration": "3:02"
+        },
+        {
+          "path": [
+            4,
+            0
+          ],
+          "source_work": "Unaccompanied Cello Suite No. 5 In C Minor, BWV 1011",
+          "title": "Prélude",
+          "position": "E-1",
+          "duration": "6:37"
+        },
+        {
+          "path": [
+            4,
+            1
+          ],
+          "source_work": "Unaccompanied Cello Suite No. 5 In C Minor, BWV 1011",
+          "title": "Allemande",
+          "position": "E-2",
+          "duration": "5:46"
+        },
+        {
+          "path": [
+            4,
+            2
+          ],
+          "source_work": "Unaccompanied Cello Suite No. 5 In C Minor, BWV 1011",
+          "title": "Courante",
+          "position": "E-3",
+          "duration": "2:08"
+        },
+        {
+          "path": [
+            4,
+            3
+          ],
+          "source_work": "Unaccompanied Cello Suite No. 5 In C Minor, BWV 1011",
+          "title": "Sarabande",
+          "position": "E-4",
+          "duration": "3:10"
+        },
+        {
+          "path": [
+            4,
+            4
+          ],
+          "source_work": "Unaccompanied Cello Suite No. 5 In C Minor, BWV 1011",
+          "title": "Gavottes I & II",
+          "position": "E-5",
+          "duration": "4:28"
+        },
+        {
+          "path": [
+            4,
+            5
+          ],
+          "source_work": "Unaccompanied Cello Suite No. 5 In C Minor, BWV 1011",
+          "title": "Gigue",
+          "position": "E-6",
+          "duration": "2:47"
+        },
+        {
+          "path": [
+            5,
+            0
+          ],
+          "source_work": "Unaccompanied Cello Suite No. 6 In D Major, BWV 1012",
+          "title": "Prélude",
+          "position": "F-1",
+          "duration": "4:44"
+        },
+        {
+          "path": [
+            5,
+            1
+          ],
+          "source_work": "Unaccompanied Cello Suite No. 6 In D Major, BWV 1012",
+          "title": "Allemande",
+          "position": "F-2",
+          "duration": "6:39"
+        },
+        {
+          "path": [
+            5,
+            2
+          ],
+          "source_work": "Unaccompanied Cello Suite No. 6 In D Major, BWV 1012",
+          "title": "Courante",
+          "position": "F-3",
+          "duration": "3:51"
+        },
+        {
+          "path": [
+            5,
+            3
+          ],
+          "source_work": "Unaccompanied Cello Suite No. 6 In D Major, BWV 1012",
+          "title": "Sarabande",
+          "position": "F-4",
+          "duration": "4:01"
+        },
+        {
+          "path": [
+            5,
+            4
+          ],
+          "source_work": "Unaccompanied Cello Suite No. 6 In D Major, BWV 1012",
+          "title": "Gavottes I & II",
+          "position": "F-5",
+          "duration": "3:38"
+        },
+        {
+          "path": [
+            5,
+            5
+          ],
+          "source_work": "Unaccompanied Cello Suite No. 6 In D Major, BWV 1012",
+          "title": "Gigue",
+          "position": "F-6",
+          "duration": "3:45"
+        }
+      ],
+      "source_heading_groups": [],
+      "bindings": [
+        {
+          "source_path": [
+            0,
+            0
+          ],
+          "track_ids": [
+            50631687
+          ],
+          "track_sha256": [
+            "26fae4941d7b2ae2a4a49084e6899237d9cb558ff31e7c789df27b5656943286"
+          ],
+          "required_performers": [
+            "Yo-Yo Ma"
+          ],
+          "composer": "Johann Sebastian Bach"
+        },
+        {
+          "source_path": [
+            0,
+            1
+          ],
+          "track_ids": [
+            50631688
+          ],
+          "track_sha256": [
+            "59b7c25486cf6e39c2b22e263d0f704bcb9a245849db5960e0058ac8a699672c"
+          ],
+          "required_performers": [
+            "Yo-Yo Ma"
+          ],
+          "composer": "Johann Sebastian Bach"
+        },
+        {
+          "source_path": [
+            0,
+            2
+          ],
+          "track_ids": [
+            50631689
+          ],
+          "track_sha256": [
+            "fc5f59a648f1a3d852d0dfbddb11f1f4dc61499a44b9e6b40ab100815d89dc6e"
+          ],
+          "required_performers": [
+            "Yo-Yo Ma"
+          ],
+          "composer": "Johann Sebastian Bach"
+        },
+        {
+          "source_path": [
+            0,
+            3
+          ],
+          "track_ids": [
+            50631690
+          ],
+          "track_sha256": [
+            "929539f5fdf5d065764ba935ef1f9a7987d4149c7858167176b3399be802aa3f"
+          ],
+          "required_performers": [
+            "Yo-Yo Ma"
+          ],
+          "composer": "Johann Sebastian Bach"
+        },
+        {
+          "source_path": [
+            0,
+            4
+          ],
+          "track_ids": [
+            50631691
+          ],
+          "track_sha256": [
+            "5769f969c8f48186efd4dd92a21e5185abee488112015cac7bb48a6e5cd8e749"
+          ],
+          "required_performers": [
+            "Yo-Yo Ma"
+          ],
+          "composer": "Johann Sebastian Bach"
+        },
+        {
+          "source_path": [
+            0,
+            5
+          ],
+          "track_ids": [
+            50631692
+          ],
+          "track_sha256": [
+            "96c75eae012606e466a8f20e20b1113887f1f5ee0c32af520a3c3b48c836ff8a"
+          ],
+          "required_performers": [
+            "Yo-Yo Ma"
+          ],
+          "composer": "Johann Sebastian Bach"
+        },
+        {
+          "source_path": [
+            1,
+            0
+          ],
+          "track_ids": [
+            50631693
+          ],
+          "track_sha256": [
+            "455a9ddef99184ee35e7e794115180bafcc9a77a0d32eaee08ac58874c402ec7"
+          ],
+          "required_performers": [
+            "Yo-Yo Ma"
+          ],
+          "composer": "Johann Sebastian Bach"
+        },
+        {
+          "source_path": [
+            1,
+            1
+          ],
+          "track_ids": [
+            50631694
+          ],
+          "track_sha256": [
+            "ea4bb1b815b41e9bd3cb8b1ceda43d15936b25ce03b9881c6d3436b89a5a6eec"
+          ],
+          "required_performers": [
+            "Yo-Yo Ma"
+          ],
+          "composer": "Johann Sebastian Bach"
+        },
+        {
+          "source_path": [
+            1,
+            2
+          ],
+          "track_ids": [
+            50631695
+          ],
+          "track_sha256": [
+            "41e854df132955531be567a9dd8347dbfd71c6508fae62aecf7994013fe6f5e2"
+          ],
+          "required_performers": [
+            "Yo-Yo Ma"
+          ],
+          "composer": "Johann Sebastian Bach"
+        },
+        {
+          "source_path": [
+            1,
+            3
+          ],
+          "track_ids": [
+            50631696
+          ],
+          "track_sha256": [
+            "89b5cc3e71d1b8debe67d4e95ba7c384788d08fc6ed2932edcb421f0578c199f"
+          ],
+          "required_performers": [
+            "Yo-Yo Ma"
+          ],
+          "composer": "Johann Sebastian Bach"
+        },
+        {
+          "source_path": [
+            1,
+            4
+          ],
+          "track_ids": [
+            50631697
+          ],
+          "track_sha256": [
+            "7ac01dbcbde6722781e2376eb36e02d87016512f95b5927111ed140b58722097"
+          ],
+          "required_performers": [
+            "Yo-Yo Ma"
+          ],
+          "composer": "Johann Sebastian Bach"
+        },
+        {
+          "source_path": [
+            1,
+            5
+          ],
+          "track_ids": [
+            50631698
+          ],
+          "track_sha256": [
+            "b8dfc7c087586db08c4d55be8caa4796467f8a888b562c97e91dfb5e61a9f51d"
+          ],
+          "required_performers": [
+            "Yo-Yo Ma"
+          ],
+          "composer": "Johann Sebastian Bach"
+        },
+        {
+          "source_path": [
+            2,
+            0
+          ],
+          "track_ids": [
+            50631699
+          ],
+          "track_sha256": [
+            "58c9324c4fa162a5ce4bd867eca03b744732647892366e858b124cb055769953"
+          ],
+          "required_performers": [
+            "Yo-Yo Ma"
+          ],
+          "composer": "Johann Sebastian Bach"
+        },
+        {
+          "source_path": [
+            2,
+            1
+          ],
+          "track_ids": [
+            50631700
+          ],
+          "track_sha256": [
+            "3983b1dbed98b70e50120dbe6145a164910b534543d3600b1fbb0ffeb3a1cbf4"
+          ],
+          "required_performers": [
+            "Yo-Yo Ma"
+          ],
+          "composer": "Johann Sebastian Bach"
+        },
+        {
+          "source_path": [
+            2,
+            2
+          ],
+          "track_ids": [
+            50631701
+          ],
+          "track_sha256": [
+            "b0d82c022ad46ce3193a70debc73fa8136f9f9393a02cf38457c0fcf3f5eae34"
+          ],
+          "required_performers": [
+            "Yo-Yo Ma"
+          ],
+          "composer": "Johann Sebastian Bach"
+        },
+        {
+          "source_path": [
+            2,
+            3
+          ],
+          "track_ids": [
+            50631702
+          ],
+          "track_sha256": [
+            "51c1fb20f6b7ae32336fb306bb36d1e897c9f59f6685ab6c817705384ff1722e"
+          ],
+          "required_performers": [
+            "Yo-Yo Ma"
+          ],
+          "composer": "Johann Sebastian Bach"
+        },
+        {
+          "source_path": [
+            2,
+            4
+          ],
+          "track_ids": [
+            50631703
+          ],
+          "track_sha256": [
+            "74620f8c409f9ed9c796501d6c569881352e0d088c60a58ad65084f0b22a552d"
+          ],
+          "required_performers": [
+            "Yo-Yo Ma"
+          ],
+          "composer": "Johann Sebastian Bach"
+        },
+        {
+          "source_path": [
+            2,
+            5
+          ],
+          "track_ids": [
+            50631704
+          ],
+          "track_sha256": [
+            "6057ec7b7984779885e1c07e2ccc70db9f962ac132cb4434b52a8a3e34623fe2"
+          ],
+          "required_performers": [
+            "Yo-Yo Ma"
+          ],
+          "composer": "Johann Sebastian Bach"
+        },
+        {
+          "source_path": [
+            3,
+            0
+          ],
+          "track_ids": [
+            50631705
+          ],
+          "track_sha256": [
+            "98974a2f0e7f4af42d657ef0f182d651b057676f85d128222eb4cc139b9cbb1a"
+          ],
+          "required_performers": [
+            "Yo-Yo Ma"
+          ],
+          "composer": "Johann Sebastian Bach"
+        },
+        {
+          "source_path": [
+            3,
+            1
+          ],
+          "track_ids": [
+            50631706
+          ],
+          "track_sha256": [
+            "b096e464f167c0593fb234c59ba625c3e0c4db77f9cd77cba7e448e72fa4b031"
+          ],
+          "required_performers": [
+            "Yo-Yo Ma"
+          ],
+          "composer": "Johann Sebastian Bach"
+        },
+        {
+          "source_path": [
+            3,
+            2
+          ],
+          "track_ids": [
+            50631707
+          ],
+          "track_sha256": [
+            "58543bd07af119fcfc2f795bf2b02e38bb981230ebb377db1bdfb2fa5424ed14"
+          ],
+          "required_performers": [
+            "Yo-Yo Ma"
+          ],
+          "composer": "Johann Sebastian Bach"
+        },
+        {
+          "source_path": [
+            3,
+            3
+          ],
+          "track_ids": [
+            50631708
+          ],
+          "track_sha256": [
+            "c393954dddaea7f5a59061a185f79bbf446f6cf7148a092458af29a353e29bd3"
+          ],
+          "required_performers": [
+            "Yo-Yo Ma"
+          ],
+          "composer": "Johann Sebastian Bach"
+        },
+        {
+          "source_path": [
+            3,
+            4
+          ],
+          "track_ids": [
+            50631709
+          ],
+          "track_sha256": [
+            "a84d42d92fd97267bafae55154e26300b72c783cc44606ef5ec38ec2f8466d6b"
+          ],
+          "required_performers": [
+            "Yo-Yo Ma"
+          ],
+          "composer": "Johann Sebastian Bach"
+        },
+        {
+          "source_path": [
+            3,
+            5
+          ],
+          "track_ids": [
+            50631710
+          ],
+          "track_sha256": [
+            "4e6b48afcc57ad16e62627a10ea41383a1ea38194d956c5931b751aa834202f8"
+          ],
+          "required_performers": [
+            "Yo-Yo Ma"
+          ],
+          "composer": "Johann Sebastian Bach"
+        },
+        {
+          "source_path": [
+            4,
+            0
+          ],
+          "track_ids": [
+            50631711
+          ],
+          "track_sha256": [
+            "cf45d4db254c76ea158d55ed4575abcf532f3b3582c984ebb0e2631919b02c81"
+          ],
+          "required_performers": [
+            "Yo-Yo Ma"
+          ],
+          "composer": "Johann Sebastian Bach"
+        },
+        {
+          "source_path": [
+            4,
+            1
+          ],
+          "track_ids": [
+            50631712
+          ],
+          "track_sha256": [
+            "cd928f438a3dff08720b2e3640d6bd9742dd6e679605fd042edaf555733bd2bc"
+          ],
+          "required_performers": [
+            "Yo-Yo Ma"
+          ],
+          "composer": "Johann Sebastian Bach"
+        },
+        {
+          "source_path": [
+            4,
+            2
+          ],
+          "track_ids": [
+            50631713
+          ],
+          "track_sha256": [
+            "b24879f5e91ef4d8003d15f93c099a0aaf45656a29b249426559baf1cddd529d"
+          ],
+          "required_performers": [
+            "Yo-Yo Ma"
+          ],
+          "composer": "Johann Sebastian Bach"
+        },
+        {
+          "source_path": [
+            4,
+            3
+          ],
+          "track_ids": [
+            50631714
+          ],
+          "track_sha256": [
+            "a8b4e21f07f5728ae2e6f1f15e2638d440d5f08d0d87c25edfda2127a535485d"
+          ],
+          "required_performers": [
+            "Yo-Yo Ma"
+          ],
+          "composer": "Johann Sebastian Bach"
+        },
+        {
+          "source_path": [
+            4,
+            4
+          ],
+          "track_ids": [
+            50631715
+          ],
+          "track_sha256": [
+            "d235203905a0e522d99485180944785787e0393456cd8fe8f26393f3b1ee1860"
+          ],
+          "required_performers": [
+            "Yo-Yo Ma"
+          ],
+          "composer": "Johann Sebastian Bach"
+        },
+        {
+          "source_path": [
+            4,
+            5
+          ],
+          "track_ids": [
+            50631716
+          ],
+          "track_sha256": [
+            "12f09dfb4c2b22fb272b2eea956673d8274597842e3660c6f86e644b0e427719"
+          ],
+          "required_performers": [
+            "Yo-Yo Ma"
+          ],
+          "composer": "Johann Sebastian Bach"
+        },
+        {
+          "source_path": [
+            5,
+            0
+          ],
+          "track_ids": [
+            50631717
+          ],
+          "track_sha256": [
+            "7ca6b11f8373b2acf77b02955a368691368174c7c20f5dd416cbc1d5907d7ad5"
+          ],
+          "required_performers": [
+            "Yo-Yo Ma"
+          ],
+          "composer": "Johann Sebastian Bach"
+        },
+        {
+          "source_path": [
+            5,
+            1
+          ],
+          "track_ids": [
+            50631718
+          ],
+          "track_sha256": [
+            "714fd8529479fd702edcde553d1b86eb884aa859dd4d624f984f27eb2aa48fd8"
+          ],
+          "required_performers": [
+            "Yo-Yo Ma"
+          ],
+          "composer": "Johann Sebastian Bach"
+        },
+        {
+          "source_path": [
+            5,
+            2
+          ],
+          "track_ids": [
+            50631719
+          ],
+          "track_sha256": [
+            "00bc6d4d0caa982915b08477d498e3a89a0a9d1afe86b03e33096e2f7534e53c"
+          ],
+          "required_performers": [
+            "Yo-Yo Ma"
+          ],
+          "composer": "Johann Sebastian Bach"
+        },
+        {
+          "source_path": [
+            5,
+            3
+          ],
+          "track_ids": [
+            50631720
+          ],
+          "track_sha256": [
+            "4e99b90e1f1b7f46a9ea32faba64866e91f4b5aae23f1167cd512d19fff8e4af"
+          ],
+          "required_performers": [
+            "Yo-Yo Ma"
+          ],
+          "composer": "Johann Sebastian Bach"
+        },
+        {
+          "source_path": [
+            5,
+            4
+          ],
+          "track_ids": [
+            50631721
+          ],
+          "track_sha256": [
+            "d89feb7662efddd2d45b0d2e7fd859060900d195e0fe02e029d0918a20c7e64d"
+          ],
+          "required_performers": [
+            "Yo-Yo Ma"
+          ],
+          "composer": "Johann Sebastian Bach"
+        },
+        {
+          "source_path": [
+            5,
+            5
+          ],
+          "track_ids": [
+            50631722
+          ],
+          "track_sha256": [
+            "6e9cf73f001439412f9aac8da0d215e584c96209e3354bc8527dee5ee43fd7dd"
+          ],
+          "required_performers": [
+            "Yo-Yo Ma"
+          ],
+          "composer": "Johann Sebastian Bach"
+        }
+      ],
+      "extra_track_ids": [],
+      "selected_track_fingerprints": {
+        "50631687": "26fae4941d7b2ae2a4a49084e6899237d9cb558ff31e7c789df27b5656943286",
+        "50631688": "59b7c25486cf6e39c2b22e263d0f704bcb9a245849db5960e0058ac8a699672c",
+        "50631689": "fc5f59a648f1a3d852d0dfbddb11f1f4dc61499a44b9e6b40ab100815d89dc6e",
+        "50631690": "929539f5fdf5d065764ba935ef1f9a7987d4149c7858167176b3399be802aa3f",
+        "50631691": "5769f969c8f48186efd4dd92a21e5185abee488112015cac7bb48a6e5cd8e749",
+        "50631692": "96c75eae012606e466a8f20e20b1113887f1f5ee0c32af520a3c3b48c836ff8a",
+        "50631693": "455a9ddef99184ee35e7e794115180bafcc9a77a0d32eaee08ac58874c402ec7",
+        "50631694": "ea4bb1b815b41e9bd3cb8b1ceda43d15936b25ce03b9881c6d3436b89a5a6eec",
+        "50631695": "41e854df132955531be567a9dd8347dbfd71c6508fae62aecf7994013fe6f5e2",
+        "50631696": "89b5cc3e71d1b8debe67d4e95ba7c384788d08fc6ed2932edcb421f0578c199f",
+        "50631697": "7ac01dbcbde6722781e2376eb36e02d87016512f95b5927111ed140b58722097",
+        "50631698": "b8dfc7c087586db08c4d55be8caa4796467f8a888b562c97e91dfb5e61a9f51d",
+        "50631699": "58c9324c4fa162a5ce4bd867eca03b744732647892366e858b124cb055769953",
+        "50631700": "3983b1dbed98b70e50120dbe6145a164910b534543d3600b1fbb0ffeb3a1cbf4",
+        "50631701": "b0d82c022ad46ce3193a70debc73fa8136f9f9393a02cf38457c0fcf3f5eae34",
+        "50631702": "51c1fb20f6b7ae32336fb306bb36d1e897c9f59f6685ab6c817705384ff1722e",
+        "50631703": "74620f8c409f9ed9c796501d6c569881352e0d088c60a58ad65084f0b22a552d",
+        "50631704": "6057ec7b7984779885e1c07e2ccc70db9f962ac132cb4434b52a8a3e34623fe2",
+        "50631705": "98974a2f0e7f4af42d657ef0f182d651b057676f85d128222eb4cc139b9cbb1a",
+        "50631706": "b096e464f167c0593fb234c59ba625c3e0c4db77f9cd77cba7e448e72fa4b031",
+        "50631707": "58543bd07af119fcfc2f795bf2b02e38bb981230ebb377db1bdfb2fa5424ed14",
+        "50631708": "c393954dddaea7f5a59061a185f79bbf446f6cf7148a092458af29a353e29bd3",
+        "50631709": "a84d42d92fd97267bafae55154e26300b72c783cc44606ef5ec38ec2f8466d6b",
+        "50631710": "4e6b48afcc57ad16e62627a10ea41383a1ea38194d956c5931b751aa834202f8",
+        "50631711": "cf45d4db254c76ea158d55ed4575abcf532f3b3582c984ebb0e2631919b02c81",
+        "50631712": "cd928f438a3dff08720b2e3640d6bd9742dd6e679605fd042edaf555733bd2bc",
+        "50631713": "b24879f5e91ef4d8003d15f93c099a0aaf45656a29b249426559baf1cddd529d",
+        "50631714": "a8b4e21f07f5728ae2e6f1f15e2638d440d5f08d0d87c25edfda2127a535485d",
+        "50631715": "d235203905a0e522d99485180944785787e0393456cd8fe8f26393f3b1ee1860",
+        "50631716": "12f09dfb4c2b22fb272b2eea956673d8274597842e3660c6f86e644b0e427719",
+        "50631717": "7ca6b11f8373b2acf77b02955a368691368174c7c20f5dd416cbc1d5907d7ad5",
+        "50631718": "714fd8529479fd702edcde553d1b86eb884aa859dd4d624f984f27eb2aa48fd8",
+        "50631719": "00bc6d4d0caa982915b08477d498e3a89a0a9d1afe86b03e33096e2f7534e53c",
+        "50631720": "4e99b90e1f1b7f46a9ea32faba64866e91f4b5aae23f1167cd512d19fff8e4af",
+        "50631721": "d89feb7662efddd2d45b0d2e7fd859060900d195e0fe02e029d0918a20c7e64d",
+        "50631722": "6e9cf73f001439412f9aac8da0d215e584c96209e3354bc8527dee5ee43fd7dd"
+      }
+    },
+    {
+      "discogs_id": "16108064",
+      "album_id": "o4kob3b17kiec",
+      "target_sha256": "5693513b2eb9f7fd74c55facaa43421e3e3543f0631e873461f4e5c8a9d51a9e",
+      "source_sha256": "eb69c6311f10024ec4653a9d5ae806cd7f4109da68c77830d3a739b1c893c5f8",
+      "album_sha256": "573cf9ac5f03a9dd69acbed6edb9814a663176559ac31bdd3bab6a898bfc67aa",
+      "decision": "withhold",
+      "recording_review": "The full cached candidate explicitly identifies the1939Toscanini cycle. The1980Victrola/Fabbri source has no session notes or band timings establishing that recording family. The other saved alternative supplies only Symphony2with associated-only orchestra credits.",
+      "sources": [
+        "https://www.discogs.com/release/16108064"
+      ],
+      "limitations": [
+        "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+        "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
+      ],
+      "external_source_files": []
+    },
+    {
+      "discogs_id": "23764721",
+      "album_id": "5099751286325",
+      "target_sha256": "56ff93b966082bc18583e24066950b36486b0029681e8dbc7bb2d078500eabb5",
+      "source_sha256": "606e96d74634167265a7bf2f95f8844fc2f0d06d22a8aa470851901f1922e98e",
+      "album_sha256": "4761296d0b3938ea93986079bf5d8a43c332109fe2619416bbaa28b74f13b79d",
+      "decision": "probable",
+      "recording_review": "Columbia’s contemporary January1956Mozart catalogue advertisement explicitly identifies ML4424as Serkin/Ormandy/Philadelphia K466. The saved Sony historical reissue contains all three source movements with those positive musicians. Its full Mozart Composer string includes lifespan annotations, explicitly bound to this source review; no general composer alias or invented session date.",
+      "sources": [
+        "https://www.discogs.com/release/23764721",
+        "https://www.worldradiohistory.com/Archive-All-Audio/Archive-High-Fidelity/50s/High-Fidelity-1956-Jana.pdf"
+      ],
+      "limitations": [
+        "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+        "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
+      ],
+      "external_source_files": [
+        {
+          "path": "data/review_sources/title19-23764721/source-observation.txt",
+          "sha256": "379f18b83d950518fc0ff2265e61e9169d968fab72db75fbb1f3d78bd99f5350"
+        }
+      ],
+      "source_composer_spellings": [
+        {
+          "source_name": "Wolfgang Amadeus Mozart",
+          "file_name": "Wolfgang Amadeus Mozart (1756-1791)",
+          "reason": "The exact full source composer name occurs with only lifespan annotations in the frozen candidate; the contemporary Columbia advertisement independently names Mozart K466 on ML4424."
+        }
+      ],
+      "review_kind": "source-leaf-bands",
+      "source_outline_sha256": "30aa172ec80c562a29775b3bf1f9fa338763a9c9abca09cb2d0e4c2e3e098f3b",
+      "source_leaves": [
+        {
+          "path": [
+            0,
+            0
+          ],
+          "source_work": "Concerto No. 20 In D Minor For Piano And Orchestra, K. 466",
+          "title": "Allegro",
+          "position": "A1",
+          "duration": ""
+        },
+        {
+          "path": [
+            0,
+            1
+          ],
+          "source_work": "Concerto No. 20 In D Minor For Piano And Orchestra, K. 466",
+          "title": "Romance",
+          "position": "B1",
+          "duration": ""
+        },
+        {
+          "path": [
+            0,
+            2
+          ],
+          "source_work": "Concerto No. 20 In D Minor For Piano And Orchestra, K. 466",
+          "title": "Allegro Assai",
+          "position": "B2",
+          "duration": ""
+        }
+      ],
+      "source_heading_groups": [],
+      "bindings": [
+        {
+          "source_path": [
+            0,
+            0
+          ],
+          "track_ids": [
+            171005
+          ],
+          "track_sha256": [
+            "35d2becdb577ceb6a791fb31e3544d36e8bd85ab89f573b6021b31192c5dc5fd"
+          ],
+          "required_performers": [
+            "Eugene Ormandy",
+            "Rudolf Serkin",
+            "The Philadelphia Orchestra"
+          ],
+          "composer": "Wolfgang Amadeus Mozart (1756-1791)"
+        },
+        {
+          "source_path": [
+            0,
+            1
+          ],
+          "track_ids": [
+            171006
+          ],
+          "track_sha256": [
+            "ee0f88d9d8fc796d7c921361b40111e275087d05297b966061695ae825a23820"
+          ],
+          "required_performers": [
+            "Eugene Ormandy",
+            "Rudolf Serkin",
+            "The Philadelphia Orchestra"
+          ],
+          "composer": "Wolfgang Amadeus Mozart (1756-1791)"
+        },
+        {
+          "source_path": [
+            0,
+            2
+          ],
+          "track_ids": [
+            171007
+          ],
+          "track_sha256": [
+            "0bec4912860659d268a445696b46adacda620d243072e72d43d26a41c54194a1"
+          ],
+          "required_performers": [
+            "Eugene Ormandy",
+            "Rudolf Serkin",
+            "The Philadelphia Orchestra"
+          ],
+          "composer": "Wolfgang Amadeus Mozart (1756-1791)"
+        }
+      ],
+      "extra_track_ids": [
+        171002,
+        171003,
+        171004
+      ],
+      "selected_track_fingerprints": {
+        "171005": "35d2becdb577ceb6a791fb31e3544d36e8bd85ab89f573b6021b31192c5dc5fd",
+        "171006": "ee0f88d9d8fc796d7c921361b40111e275087d05297b966061695ae825a23820",
+        "171007": "0bec4912860659d268a445696b46adacda620d243072e72d43d26a41c54194a1"
+      }
+    },
+    {
+      "discogs_id": "6953193",
+      "album_id": "ht7zw8wnm1c4b",
+      "target_sha256": "f72a7bc942eff89eae5647467674f11a50039b3ea88677e1719d16f1ad0f1b89",
+      "source_sha256": "155f9603445cb604610656b10d8ab078b5e1005beb41a2055288dd68ba1bcd15",
+      "album_sha256": "d9e96a846b2e8776dcb5a8987ca686422387cd1095d9de9d6b42f19aee1107d3",
+      "decision": "withhold",
+      "recording_review": "Source Martinu duo lists three bands, but both cached editions contain only two named movements; source B2.3AllegroMolto remains unaccounted. Both Vivaldi candidates positively credit Malcom Hamilton, while the source names Malcolm Hamilton. No silent performer spelling alias or invented digital movement split.",
+      "sources": [
+        "https://www.discogs.com/release/6953193"
+      ],
+      "limitations": [
+        "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+        "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
+      ],
+      "external_source_files": []
+    },
+    {
+      "discogs_id": "4046757",
+      "album_id": "v80qry6tkmyyc",
+      "target_sha256": "41f0e14e27ac5902d1f3cc5ca7a5459ebd2b671cdf8abc052699a949e9966cb7",
+      "source_sha256": "859c0fc0dd3912b84d3d52ea35c67684f8bff131e5b9b02b5f9a46896321c40c",
+      "album_sha256": "7fea6f2e94380b7268a72ee9381279dc7dd4e818d60ad08df6e003442649cd5f",
+      "decision": "withhold",
+      "recording_review": "The source names New York Philharmonic on Bruch; the candidate positively credits Francescatti/Schippers but names New York Philharmonic Orchestra. That exact ensemble identity is not accepted by the current no-alias musician check. Mendelssohn also carries an additional Cleveland Orchestra credit on one track; no general ensemble substitution is adopted.",
+      "sources": [
+        "https://www.discogs.com/release/4046757"
+      ],
+      "limitations": [
+        "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+        "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
+      ],
+      "external_source_files": []
+    },
+    {
+      "discogs_id": "6651774",
+      "album_id": "0090266304424",
+      "target_sha256": "a9981497961c2ad4a104aaf1022676e47222df32cebc6a277135cbc22735892a",
+      "source_sha256": "86710c7f316310924f56c8ed3cfe5c7c229b214877afe37be9e30c27904a450c",
+      "album_sha256": "10d950e6dc696b08d3a119cf13b365a7ba5b83404a402bf434501eea2ca34467",
+      "decision": "withhold",
+      "recording_review": "The RCA63044candidate supplies the complete Chopin Second Concerto but not the source Andante Spianato and Grande Polonaise Op22. Other saved albums do not provide both source works together with the required cast.",
+      "sources": [
+        "https://www.discogs.com/release/6651774"
+      ],
+      "limitations": [
+        "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+        "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
+      ],
+      "external_source_files": []
+    },
+    {
+      "discogs_id": "3670806",
+      "album_id": "5099706647126",
+      "target_sha256": "326c6cb3ebc5dd4e13818d4590b0420a37a2ac21cf7b4a6d92ce3f58f0b45b92",
+      "source_sha256": "17189281584aa2a5502117749277778c85fd97de23e4b443190e64631bddda6e",
+      "album_sha256": "9a1c33328b14b01b93711fbb304dbb815ec5fc5705fc7398403ac6f3f6d6d5d7",
+      "decision": "withhold",
+      "recording_review": "The best Bach candidate supplies only the double concerto from the source1981celebration. The saved Vivaldi/Mozart alternatives do not establish the full nine-band concert with Mehta/NewYorkPhilharmonic and all source-scoped Perlman/Zukerman roles.",
+      "sources": [
+        "https://www.discogs.com/release/3670806"
+      ],
+      "limitations": [
+        "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+        "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
+      ],
+      "external_source_files": []
+    },
+    {
+      "discogs_id": "11061422",
+      "album_id": "polefedtyqvaa",
+      "target_sha256": "ef13c1423aeb363d877f218e3bda88f31bd7a46f5b838163206e46ec2b00a7d9",
+      "source_sha256": "8fdcda6bba817321c248deb192c60dfc558cb428677311b1d4b81e441ae09b23",
+      "album_sha256": "b80428b09cb7bbc65eebc8a159e9406e21b660529f0a9d80878fb3b656e8aff8",
+      "decision": "withhold",
+      "recording_review": "The saved22track anthology includes two versions of the final Harmonious Blacksmith air/variations from Suite5, not the five complete Handel suites printed on the1935source programme. Generic Artist/MainArtist metadata also does not itself verify the harpsichord session.",
+      "sources": [
+        "https://www.discogs.com/release/11061422"
+      ],
+      "limitations": [
+        "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+        "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
+      ],
+      "external_source_files": []
+    },
+    {
+      "discogs_id": "8470218",
+      "album_id": "0074644625424",
+      "target_sha256": "266d8957eeb74da0842d30bbfa496ae869dc0a62968ac1c434f98d0edcd42bd0",
+      "source_sha256": "d939f81823c1faeec18b55ff5cf24777e9d96053a5efab3dbd7ca0c1c8250816",
+      "album_sha256": "e676faba425e582b64898738b5df4a860fec8af39dbb790dde316e39eaa8791b",
+      "decision": "withhold",
+      "recording_review": "The saved album contains Brandenburg4–6plus OrchestralSuite4, omitting Brandenburg1–3and the source bonus rehearsal LP. It also omits positive evidence for several explicitly named soloists/continuo players.",
+      "sources": [
+        "https://www.discogs.com/release/8470218"
+      ],
+      "limitations": [
+        "Recording-family acceptance does not verify exact LP pressing, take, digital transfer or mastering.",
+        "No source/cache rewrite, global work-title/composer/performer alias or associated-role waiver."
+      ],
+      "external_source_files": []
     }
   ]
 }

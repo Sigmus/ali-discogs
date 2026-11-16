@@ -2290,3 +2290,18 @@ Primary-source observations and source/album/track hashes saved in
 publication diff pass. Spotify/source/cache/scorer unchanged. Qobuz UI copies:
 12Found/172Probable/225Reviewed · unresolved/332Unchecked. Remaining title leads:
 13completeness+6partial. Local commit; no push/deployment.
+
+## 2026-11-16 — Remaining nineteen title-context leads completed
+
+User-authorized19case batch:9Probable85(2930473,3334175,5756277,6268701,
+7766716,8103249,10598540,12524051,23764721),10explicit holds with next evidence
+requirements. Preserve51Gould movements/eight source bands, all36YoYoMa bands,
+joined BartokII/IIIband and work-scoped conductors/orchestras. Two exact full
+composer strings with lifespan annotations use existing source-bound spellings;
+no general alias. Raw source programme/credit, session, named musician and omitted
+coupling/rehearsal gaps stay visible. No provider calls or global scoring change.
+All290script tests, normalization/static build,19browser detail checks and exact
+publication diff pass. Only19release records changed; Spotify/source/caches intact.
+UIcopies12Found/181Probable/235Reviewed · unresolved/313Unchecked. All28title
+leads now15accepted/13held/0pending; next suggested diagnostic is the151remaining
+work/title cases. Docs/queues updated; local commit only, no push/deployment.

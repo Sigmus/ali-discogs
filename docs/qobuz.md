@@ -642,3 +642,10 @@ strict composer guards and high-score hold precedence. Six use existing
 source-leaf reviews; three remain explicit holds. The frozen title diagnostic
 remains unchanged; queue only is refreshed against saved publication decisions.
 See [batch](plans/2026-11-16-qobuz-title9.md). No live work-field policy adoption.
+
+`uv run --with requests python scripts/qobuz_title19_audit.py` validates the
+remaining nineteen title-context decisions (9Probable/10holds). Guards preserve
+all source bands, full suite groups, joined movements, work-specific musicians
+and exact source-bound annotated composer strings. All28diagnostic leads now have
+saved recording decisions; the untouched original179diagnostic is retained.
+See [results](plans/2026-11-16-qobuz-title19.md). No live work-field rule adopted.

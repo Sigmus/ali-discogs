@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "reviewed_on": "2026-11-15",
-  "population": "323 unique releases currently categorized work_or_credit_unresolved",
+  "population": "304 unique releases currently categorized work_or_credit_unresolved",
   "rules": {
     "priority_review": "Unheld cached candidate supports >=50% of current source units; known/reviewed blockers excluded.",
     "secondary_partial_lead": "Some current support, below50%; known/reviewed blockers excluded.",
@@ -11,7 +11,7 @@
   },
   "counts": {
     "known_constraint": 3,
-    "no_current_supported_units": 320
+    "no_current_supported_units": 301
   },
   "entries": [
     {
@@ -261,14 +261,6 @@
       "uncached_hits": 0
     },
     {
-      "discogs_id": "2845198",
-      "title": "Concerto No. 3, In C Minor, Op. 37",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0090266303625",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
       "discogs_id": "2872749",
       "title": "Weihnachtsoratorium BWV 248",
       "queue": "no_current_supported_units",
@@ -291,14 +283,6 @@
       "best_cached_album_id": "u1vziwq8ptjob",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 0
-    },
-    {
-      "discogs_id": "2930473",
-      "title": "Die Fünf Klavierkonzerte",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "av98godsw1g2b",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 9
     },
     {
       "discogs_id": "2954706",
@@ -445,14 +429,6 @@
       "uncached_hits": 0
     },
     {
-      "discogs_id": "3334175",
-      "title": "Violin Concertos (No. 1 In D Major No. 2 In G Minor)",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0074644200324",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
       "discogs_id": "3337609",
       "title": "Somethin' Else",
       "queue": "no_current_supported_units",
@@ -537,14 +513,6 @@
       "title": "Concerto Pour Violon Et Orchestre",
       "queue": "no_current_supported_units",
       "best_cached_album_id": "0002894579382",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "3670806",
-      "title": "Isaac Stern 60th Anniversary Celebration From Lincoln Center",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894192142",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 0
     },
@@ -667,14 +635,6 @@
       "best_cached_album_id": "0002894698102",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 3
-    },
-    {
-      "discogs_id": "4046757",
-      "title": "Violin Concerto / Violin Concerto No. 1",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0074646459522",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
     },
     {
       "discogs_id": "4079723",
@@ -933,14 +893,6 @@
       "uncached_hits": 0
     },
     {
-      "discogs_id": "5349319",
-      "title": "Piano Sonatas",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0886443628663",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
       "discogs_id": "5366612",
       "title": "Requiem",
       "queue": "no_current_supported_units",
@@ -1017,14 +969,6 @@
       "title": "Weihnachts Oratorium (Christmas Oratorio)",
       "queue": "no_current_supported_units",
       "best_cached_album_id": "0002894469152",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "5756277",
-      "title": "Violin Concerto No.3 In G Major, K. 216 - Violin Concerto No.4 In D Major, K 218",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0074644595222",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 0
     },
@@ -1133,14 +1077,6 @@
       "uncached_hits": 0
     },
     {
-      "discogs_id": "6268701",
-      "title": "The French Suites = Französischen Suiten = Suites Françaises / Overture In The French Style, BWV 831 = Ouvertüre Nach Französischer Art = Ouverture À La Française",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0886444938174",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
       "discogs_id": "6287818",
       "title": "Violin Concertos 1-5",
       "queue": "no_current_supported_units",
@@ -1237,14 +1173,6 @@
       "uncached_hits": 6
     },
     {
-      "discogs_id": "6651774",
-      "title": "The Rubinstein Story (Concerto No. 2 And Andante Spianato And Grande Polonaise)",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0090266304424",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 5
-    },
-    {
       "discogs_id": "6652492",
       "title": "Quattro Pezzi Sacri",
       "queue": "no_current_supported_units",
@@ -1321,14 +1249,6 @@
       "title": "The Messiah",
       "queue": "no_current_supported_units",
       "best_cached_album_id": "h7yaqqcr2eitb",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "6953193",
-      "title": "Trio (In D Minor) / Concerto For Violin And Cello (In B-flat) / Duo For Violin And Cello",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0886443008960",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 0
     },
@@ -1477,14 +1397,6 @@
       "uncached_hits": 0
     },
     {
-      "discogs_id": "7766716",
-      "title": "Concerto No. 1 In D Minor For Piano And Orchestra, Op. 15",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0827969344729",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
       "discogs_id": "7785901",
       "title": "Die Walküre",
       "queue": "no_current_supported_units",
@@ -1521,14 +1433,6 @@
       "title": "Missa Solemnis",
       "queue": "no_current_supported_units",
       "best_cached_album_id": "0886446346205",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "7946604",
-      "title": "Concerto In A Minor For Piano And Orchestra, Op. 54",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0074643725620",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 0
     },
@@ -1577,14 +1481,6 @@
       "title": "13 Preludes",
       "queue": "no_current_supported_units",
       "best_cached_album_id": "0002894190682",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "8103249",
-      "title": "Mozart Violin Concertos",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0074643780827",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 0
     },
@@ -1641,14 +1537,6 @@
       "title": "Siegfried",
       "queue": "no_current_supported_units",
       "best_cached_album_id": "0002894603112",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "8470218",
-      "title": "The Six Brandenburg Concertos",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0074644625424",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 0
     },
@@ -1941,14 +1829,6 @@
       "uncached_hits": 0
     },
     {
-      "discogs_id": "10598540",
-      "title": "Concerto No. 1 / Concerto No. 4 (For The Left Hand)",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "5099751700227",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
       "discogs_id": "10675304",
       "title": "Tristan Und Isolde",
       "queue": "no_current_supported_units",
@@ -1969,14 +1849,6 @@
       "title": "Symphonie No. 4",
       "queue": "no_current_supported_units",
       "best_cached_album_id": "eqe56x94dpixc",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "11061422",
-      "title": "Suites For Harpsichord",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "polefedtyqvaa",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 0
     },
@@ -2129,14 +2001,6 @@
       "title": "La Passion Selon Saint Matthieu",
       "queue": "no_current_supported_units",
       "best_cached_album_id": "8718564801750",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "12524051",
-      "title": "Six Evolutions - Cello Suites",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "ha5y5btyaellb",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 0
     },
@@ -2381,14 +2245,6 @@
       "uncached_hits": 8
     },
     {
-      "discogs_id": "16108064",
-      "title": "Sinfonia N.1 - Sinfonia N°2",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0886446344348",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 1
-    },
-    {
       "discogs_id": "17470435",
       "title": "Concerto N. 1 In Re Maggiore, Op. 6 / Concerto N. 3 In Si Minore, Op. 61",
       "queue": "no_current_supported_units",
@@ -2501,14 +2357,6 @@
       "uncached_hits": 9
     },
     {
-      "discogs_id": "23764721",
-      "title": "Concerto No. 20 In D Minor For Piano And Orchestra (K. 466)",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "5099751286325",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
       "discogs_id": "23950082",
       "title": "Suites For Cello Unaccompanied No.5 In C Minor And No.6 In D Major - Great Recordings Of The Century",
       "queue": "no_current_supported_units",
@@ -2605,5 +2453,5 @@
       "uncached_hits": 0
     }
   ],
-  "inventory_sha256": "f8132f97601c8cad488e56fa1d616ca8998880a0a1827a15613cd5ef89aff408"
+  "inventory_sha256": "b7e01f5328f830d01b57cf8aa31f8637432af39d1ee38224f642b9dd45b69524"
 }

@@ -1,19 +1,19 @@
 {
   "schema_version": 1,
   "reviewed_on": "2026-11-16",
-  "unique_unresolved_releases": 556,
+  "unique_unresolved_releases": 547,
   "review_state_counts": {
-    "no_saved_decision": 331,
-    "reviewed_unresolved": 225
+    "no_saved_decision": 312,
+    "reviewed_unresolved": 235
   },
   "planning_families": {
-    "credit_evidence": 205,
+    "credit_evidence": 208,
     "no_cached_candidate": 6,
-    "other_saved_blocker": 59,
+    "other_saved_blocker": 61,
     "partial_programme_or_completeness": 5,
-    "recording_identity": 42,
-    "source_programme_mapping": 69,
-    "work_title_or_catalogue_mapping_unresolved": 170
+    "recording_identity": 44,
+    "source_programme_mapping": 72,
+    "work_title_or_catalogue_mapping_unresolved": 151
   },
   "groups": {
     "credit_support_unresolved": 150,
@@ -38,7 +38,7 @@
     "saved:composer-and-band-map": 1,
     "saved:conductor-and-programme": 1,
     "saved:conductor-credit": 1,
-    "saved:conflicting-composer-metadata": 1,
+    "saved:conflicting-composer-metadata": 2,
     "saved:conflicting-session-marker-and-transfer": 1,
     "saved:conflicting_named_singer": 2,
     "saved:cortot-session-pairing": 1,
@@ -58,6 +58,7 @@
     "saved:different_recording": 1,
     "saved:edition-and-ensemble": 1,
     "saved:ensemble-identity": 1,
+    "saved:ensemble-name-and-extra-credit": 1,
     "saved:ensemble-role-and-members": 1,
     "saved:exact-ensemble-identity": 1,
     "saved:explicit-instrument-role-and-identity": 1,
@@ -81,9 +82,13 @@
     "saved:joined-work-transfer-unverified": 1,
     "saved:large-programme-catalogue-gaps": 1,
     "saved:live-source-and-named-members": 1,
+    "saved:missing-concertos-rehearsals-and-soloists": 1,
+    "saved:missing-coupling": 1,
     "saved:missing-orchestra-credit": 1,
     "saved:missing-orchestra-role": 1,
     "saved:missing-positive-concerto-credit": 1,
+    "saved:missing-programme-and-cast": 1,
+    "saved:missing-suite-programme": 1,
     "saved:missing-track-credits": 1,
     "saved:missing-waltz-recital-scope": 1,
     "saved:missing_box_programme": 1,
@@ -119,13 +124,15 @@
     "saved:raw-harp-and-conductor-scopes": 1,
     "saved:recital-programme-map": 1,
     "saved:recorded-legacy-box-incomplete": 1,
+    "saved:recording-and-section-boundaries": 1,
     "saved:recording-family-conflict": 1,
-    "saved:recording-provenance-unresolved": 2,
+    "saved:recording-provenance-unresolved": 3,
     "saved:recording-unbound": 3,
     "saved:recording_family": 1,
     "saved:reject-recording": 3,
     "saved:separate-bruckner-wagner-recordings": 1,
     "saved:single-work-vocal-sections-and-raw-credits": 1,
+    "saved:source-band-and-musician-gap": 1,
     "saved:source-choir-organ": 1,
     "saved:source-composer-conflict": 1,
     "saved:source-container-duration-conflict": 1,
@@ -133,6 +140,7 @@
     "saved:source-heading-and-programme": 1,
     "saved:source-number-and-movement-order": 2,
     "saved:source-opus-subdivision": 1,
+    "saved:source-programme-discrepancy": 1,
     "saved:source-programme-hold": 1,
     "saved:source-role-and-aria-map": 1,
     "saved:source-role-conflict": 1,
@@ -152,7 +160,7 @@
     "saved:work-scoped-pianist": 1,
     "saved:wrong-cast-moldau": 1,
     "saved:wrong_accompanist_and_programme": 1,
-    "work_title_or_catalogue_mapping_unresolved": 170
+    "work_title_or_catalogue_mapping_unresolved": 151
   },
   "entries": [
     {
@@ -862,13 +870,13 @@
     {
       "discogs_id": "2845198",
       "title": "Concerto No. 3, In C Minor, Op. 37",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:conflicting-composer-metadata",
+      "planning_family": "other_saved_blocker",
       "cached_candidate_count": 2,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "All three Op.37tracks in the older RCA compilation credit Busoni and Beethoven as Composer. The modern alternative supplies Symphony of the Air only as Associated Performer. Complete movements do not resolve those conflicts.",
+      "next_action": "Resolve co-composer metadata with authoritative evidence or separately review associated-role semantics; no credit deletion."
     },
     {
       "discogs_id": "2857544",
@@ -922,17 +930,6 @@
       "planning_family": "credit_evidence",
       "cached_candidate_count": 1,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
-    },
-    {
-      "discogs_id": "2930473",
-      "title": "Die Fünf Klavierkonzerte",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
-      "cached_candidate_count": 1,
-      "uncached_hits": 9,
       "finding": null,
       "next_action": null
     },
@@ -1201,17 +1198,6 @@
       "next_action": null
     },
     {
-      "discogs_id": "3334175",
-      "title": "Violin Concertos (No. 1 In D Major No. 2 In G Minor)",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
-      "cached_candidate_count": 4,
-      "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
-    },
-    {
       "discogs_id": "3337609",
       "title": "Somethin' Else",
       "review_state": "no_saved_decision",
@@ -1423,13 +1409,13 @@
     {
       "discogs_id": "3670806",
       "title": "Isaac Stern 60th Anniversary Celebration From Lincoln Center",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:missing-programme-and-cast",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 8,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "The best Bach candidate supplies only the double concerto from the source1981celebration. The saved Vivaldi/Mozart alternatives do not establish the full nine-band concert with Mehta/NewYorkPhilharmonic and all source-scoped Perlman/Zukerman roles.",
+      "next_action": "Locate the complete concert programme and positive per-work cast evidence in one edition before promotion."
     },
     {
       "discogs_id": "3699703",
@@ -1643,13 +1629,13 @@
     {
       "discogs_id": "4046757",
       "title": "Violin Concerto / Violin Concerto No. 1",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:ensemble-name-and-extra-credit",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 2,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "The source names New York Philharmonic on Bruch; the candidate positively credits Francescatti/Schippers but names New York Philharmonic Orchestra. That exact ensemble identity is not accepted by the current no-alias musician check. Mendelssohn also carries an additional Cleveland Orchestra credit on one track; no general ensemble substitution is adopted.",
+      "next_action": "Corroborate the exact New York Philharmonic/Orchestra spelling and additional Mendelssohn ensemble credit in a separately source-bound review; do not borrow Szell/Columbia credits across works."
     },
     {
       "discogs_id": "4073133",
@@ -2270,13 +2256,13 @@
     {
       "discogs_id": "5349319",
       "title": "Piano Sonatas",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:source-programme-discrepancy",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 5,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "The31movement compilation covers the listed sonatas, but source sonata6says A major whereas digital metadata says F major; source sonata2finale says Allegro Assai whereas the file says Rondo Grazioso. Multiple printed timings exceed existing per-band tolerance (for example3:48versus3:55,2:39versus2:45). Separate remasters cover only subsets.",
+      "next_action": "Inspect original labels/booklet and transfer provenance before reconciling these exact key/tempo/timing discrepancies; do not waive duration checks."
     },
     {
       "discogs_id": "5366612",
@@ -2417,17 +2403,6 @@
       "group": "credit_support_unresolved",
       "planning_family": "credit_evidence",
       "cached_candidate_count": 5,
-      "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
-    },
-    {
-      "discogs_id": "5756277",
-      "title": "Violin Concerto No.3 In G Major, K. 216 - Violin Concerto No.4 In D Major, K 218",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
-      "cached_candidate_count": 2,
       "uncached_hits": 0,
       "finding": null,
       "next_action": null
@@ -2675,17 +2650,6 @@
       "next_action": "Find the complete Schwarzkopf/Moore recital or independently verify each original recital recording; retain the wrong-pianist controls."
     },
     {
-      "discogs_id": "6268701",
-      "title": "The French Suites = Französischen Suiten = Suites Françaises / Overture In The French Style, BWV 831 = Ouvertüre Nach Französischer Art = Ouverture À La Française",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
-      "cached_candidate_count": 4,
-      "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
-    },
-    {
       "discogs_id": "6287818",
       "title": "Violin Concertos 1-5",
       "review_state": "no_saved_decision",
@@ -2864,13 +2828,13 @@
     {
       "discogs_id": "6651774",
       "title": "The Rubinstein Story (Concerto No. 2 And Andante Spianato And Grande Polonaise)",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:missing-coupling",
+      "planning_family": "other_saved_blocker",
       "cached_candidate_count": 4,
       "uncached_hits": 5,
-      "finding": null,
-      "next_action": null
+      "finding": "The RCA63044candidate supplies the complete Chopin Second Concerto but not the source Andante Spianato and Grande Polonaise Op22. Other saved albums do not provide both source works together with the required cast.",
+      "next_action": "Find a complete single-edition programme containing both the concerto and Op22; do not combine separate digital albums."
     },
     {
       "discogs_id": "6652276",
@@ -3062,13 +3026,13 @@
     {
       "discogs_id": "6953193",
       "title": "Trio (In D Minor) / Concerto For Violin And Cello (In B-flat) / Duo For Violin And Cello",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:source-band-and-musician-gap",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 2,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Source Martinu duo lists three bands, but both cached editions contain only two named movements; source B2.3AllegroMolto remains unaccounted. Both Vivaldi candidates positively credit Malcom Hamilton, while the source names Malcolm Hamilton. No silent performer spelling alias or invented digital movement split.",
+      "next_action": "Inspect original label/score for the third duo band and retain the named harpsichord requirement; no invented movement split or performer alias."
     },
     {
       "discogs_id": "6993029",
@@ -3456,17 +3420,6 @@
       "next_action": "Map every source18group/child through opus–Deutsch equivalences and session family, preserving split/joined dances and all source bands."
     },
     {
-      "discogs_id": "7766716",
-      "title": "Concerto No. 1 In D Minor For Piano And Orchestra, Op. 15",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
-      "cached_candidate_count": 5,
-      "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
-    },
-    {
       "discogs_id": "7785901",
       "title": "Die Walküre",
       "review_state": "no_saved_decision",
@@ -3568,13 +3521,13 @@
     {
       "discogs_id": "7946604",
       "title": "Concerto In A Minor For Piano And Orchestra, Op. 54",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:recording-and-section-boundaries",
+      "planning_family": "recording_identity",
       "cached_candidate_count": 5,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "The1948ML4041source splits the first movement into six named bands/sections, while all complete candidates provide one unsplit first-movement track. Candidate timings differ substantially across Serkin/Ormandy recording families, including the explicitly1950–56collection; no saved primary evidence binds one transfer to the source LP or its internal boundaries.",
+      "next_action": "Establish source session/master identity and corroborate the six first-movement sections before a bounded mapping; no reused digital track for six leaves."
     },
     {
       "discogs_id": "7956843",
@@ -3656,17 +3609,6 @@
     {
       "discogs_id": "8079435",
       "title": "13 Preludes",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
-      "cached_candidate_count": 5,
-      "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
-    },
-    {
-      "discogs_id": "8103249",
-      "title": "Mozart Violin Concertos",
       "review_state": "no_saved_decision",
       "group": "work_title_or_catalogue_mapping_unresolved",
       "planning_family": "work_title_or_catalogue_mapping_unresolved",
@@ -3832,13 +3774,13 @@
     {
       "discogs_id": "8470218",
       "title": "The Six Brandenburg Concertos",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:missing-concertos-rehearsals-and-soloists",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 1,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "The saved album contains Brandenburg4–6plus OrchestralSuite4, omitting Brandenburg1–3and the source bonus rehearsal LP. It also omits positive evidence for several explicitly named soloists/continuo players.",
+      "next_action": "Require all six concertos plus the rehearsal programme and named source musicians; no bonus-disc omission or ensemble-credit waiver."
     },
     {
       "discogs_id": "8534837",
@@ -4578,17 +4520,6 @@
       "next_action": null
     },
     {
-      "discogs_id": "10598540",
-      "title": "Concerto No. 1 / Concerto No. 4 (For The Left Hand)",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
-      "cached_candidate_count": 2,
-      "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
-    },
-    {
       "discogs_id": "10675304",
       "title": "Tristan Und Isolde",
       "review_state": "no_saved_decision",
@@ -4723,13 +4654,13 @@
     {
       "discogs_id": "11061422",
       "title": "Suites For Harpsichord",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:missing-suite-programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 1,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "The saved22track anthology includes two versions of the final Harmonious Blacksmith air/variations from Suite5, not the five complete Handel suites printed on the1935source programme. Generic Artist/MainArtist metadata also does not itself verify the harpsichord session.",
+      "next_action": "Obtain complete suites2/10/5/14/7and recording/instrument evidence; excerpt hits are not suite completeness."
     },
     {
       "discogs_id": "11077579",
@@ -5056,17 +4987,6 @@
       "review_state": "no_saved_decision",
       "group": "credit_support_unresolved",
       "planning_family": "credit_evidence",
-      "cached_candidate_count": 1,
-      "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
-    },
-    {
-      "discogs_id": "12524051",
-      "title": "Six Evolutions - Cello Suites",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
       "cached_candidate_count": 1,
       "uncached_hits": 0,
       "finding": null,
@@ -5702,13 +5622,13 @@
     {
       "discogs_id": "16108064",
       "title": "Sinfonia N.1 - Sinfonia N°2",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:recording-provenance-unresolved",
+      "planning_family": "recording_identity",
       "cached_candidate_count": 4,
       "uncached_hits": 1,
-      "finding": null,
-      "next_action": null
+      "finding": "The full cached candidate explicitly identifies the1939Toscanini cycle. The1980Victrola/Fabbri source has no session notes or band timings establishing that recording family. The other saved alternative supplies only Symphony2with associated-only orchestra credits.",
+      "next_action": "Inspect source sleeve/label recording data before choosing1939or a later RCAcycle; issue year is not recording date."
     },
     {
       "discogs_id": "16349973",
@@ -6041,17 +5961,6 @@
       "next_action": null
     },
     {
-      "discogs_id": "23764721",
-      "title": "Concerto No. 20 In D Minor For Piano And Orchestra (K. 466)",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
-      "cached_candidate_count": 1,
-      "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
-    },
-    {
       "discogs_id": "23950082",
       "title": "Suites For Cello Unaccompanied No.5 In C Minor And No.6 In D Major - Great Recordings Of The Century",
       "review_state": "no_saved_decision",
@@ -6284,13 +6193,14 @@
     "Grouping authorizes no new retrieval, identity alias, role waiver or automatic promotion."
   ],
   "source_hashes": {
-    "data/qobuz_unmatched_audit.json": "f8132f97601c8cad488e56fa1d616ca8998880a0a1827a15613cd5ef89aff408",
-    "data/qobuz_matches.json": "a6ba747da67820b0146ae8269590f419acccaa77be75b2c2e8e2a2b8a1be9b6e",
+    "data/qobuz_unmatched_audit.json": "b7e01f5328f830d01b57cf8aa31f8637432af39d1ee38224f642b9dd45b69524",
+    "data/qobuz_matches.json": "2a866c3fd42a5e493b216fe41e62ff8384f9eb976a687508b6e9147b48ea60a8",
     "data/qobuz_credit12_recording_audit.json": "f720a1cc1c5beec68dbe0b3ae45b80e5fd003d272f4cc5ca872f6863e1105092",
     "data/qobuz_final_cached2_recording_audit.json": "0d6a38e1817de98fc971d7a0e9c92f972c24e0eff503fc569951030c0e29da73",
     "data/qobuz_fullsupport16_recording_audit.json": "4187655cdfbfbc21fc9895b0818c8755a72596608a5ce7d1579ac38e1901510a",
     "data/qobuz_partial38_recording_audit.json": "cd4607193942f467815228cf9fa831887e0439f27146b9cf7d3f3637663f698d",
     "data/qobuz_secondary23_recording_audit.json": "7a2c245c90f30b437f1e4fba32c38b3ce6932eefb29af9232332f80a7358ca38",
+    "data/qobuz_title19_recording_audit.json": "fdbab134fb3332d958416505c1e2d97507b341eba4161856a156abbc9a3935be",
     "data/qobuz_title9_recording_audit.json": "79fc8ec4f68e790f354fa56722eca0aea7d82a771627cd201ee68e462becaef2",
     "data/qobuz_work_context9_recording_audit.json": "1ebe1ea51d3862297c4573606aa05dc92e606e27eb75c98dd661f5e683754fb4",
     "data/qobuz_zero104_recording_audit.json": "bbf837b84c3acdb9e80462c4a5ae8d8cbf285f830c45e33ab7dd1eadc40b1712"
