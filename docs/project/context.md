@@ -8,8 +8,8 @@ and cache commands. This directory owns current planning.
 
 ## Current state
 
-- Branch main; enrichment pushed through3632140 on16November at user request.
-  Local enrichment/review-progress checkpoints not pushed. Pages not verified.
+- Branch main; enrichment pushed through3a8d374 on17November at user request.
+  Pages deployment not verified.
 - Collection741copies/740unique. Saved labels: Spotify254Found/273Probable/
   210NotFound/4Unchecked; Qobuz12Found/189Probable/540Unchecked copies.
 - Qobuz publication `data/qobuz_matches.json` is separate from Spotify collection

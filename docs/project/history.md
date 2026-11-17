@@ -2461,3 +2461,9 @@ favicon404. Only4publicationrecords changed, only1acceptedlabel; originalsource/
 cache/Spotify/151diagnostic unchanged.0Qobuz/audio calls. UIcopies12Found/
 189Probable/295Reviewed · unresolved/245Unchecked. Localcommit, no push/deploy.
 [Results and next83case scope](../plans/2026-11-17-qobuz-focused4.md).
+
+## 2026-11-17 — Enrichment checkpoints pushed
+
+At user request, pushed18localmaincommits through3a8d374toorigin/main; GitHub
+accepted9b614d3..3a8d374. Includes completed musician/catalogue/focused reviews,
+recording evidence, tests and planning. No Pages deployment verification claimed.
