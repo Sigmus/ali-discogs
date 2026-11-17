@@ -35,7 +35,7 @@
   "richter_review_fingerprint": "a14865f86e46150593e39bfa285fa6c7c61c8f46147b8094c0cb048fd02118ab",
   "round2_review_fingerprint": "be60742c3d35f5a9aa67f200642f7fcde98a52562a46130e043db8f4aa7c851e",
   "round2_metadata_fingerprint": "9db62d7bf62d4b77f5acf422dfde77959f845f4dc00b2ac0e10c02ccea295860",
-  "remaining_review_fingerprint": "9fd393d2d6a20d3fe6c7f62d4822da97327f4a0ea53cb601ef71771ce00ce4c5",
+  "remaining_review_fingerprint": "24bbf9137b1f50c5a03e4732ba226f9735a8664008977d826129c8cf50bb4544",
   "remaining_metadata_fingerprint": "393b2d12e176160ab311b65267b38bdc8c205222e12f792bf07eba5c1fcfafbf",
   "remaining_followup_metadata_fingerprint": "27f348ece695ea639208db441eb24e3eaa4368a6a32aafc952f02208c1f217c7",
   "seven_album_metadata_fingerprint": "139f9b336c68b56ea22c18362cb0481c026366c5d359142f2bb702fe1233a4fc",
@@ -2693,7 +2693,17 @@
       "searched_at": "2026-11-12T14:31:30.859641+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The cached Busch box includes Suites BWV1067/1068, but Busch Chamber Players is Ensemble, FeaturedArtist and Marcel Moyse is Flute, FeaturedArtist on relevant tracks; neither role alone is currently accepted. Raw source names Moyse globally without a work scope, so a new review must not silently remove him from Suite3. Two unsegmented source bands also need complete movement inventories.",
+        "limitations": [
+          "Hold concerns inspected cached editions, not proof the recording is absent from Qobuz.",
+          "Raw source programme, named musicians and ambiguous scopes remain intact. No general name, role or duration waiver.",
+          "Verify source flute scope, ensemble/flute role semantics and the complete two-suite mapping before any promotion; no inferred participation or general role waiver."
+        ]
+      }
     },
     "12872526": {
       "status": "unchecked",
@@ -2704,7 +2714,17 @@
       "searched_at": "2026-11-12T14:31:45.525619+00:00",
       "reasons": [
         "No first-pass search results; broader search is unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The cached Busch box contains the named Bach suites and positive Adolf Busch conductor credits, but Busch Chamber Players is only Ensemble, FeaturedArtist under current role rules. Source Volume II has twelve leaves, including repeated A5 positions and joined dances; those exact structural leaves remain unbound.",
+        "limitations": [
+          "Hold concerns inspected cached editions, not proof the recording is absent from Qobuz.",
+          "Raw source programme, named musicians and ambiguous scopes remain intact. No general name, role or duration waiver.",
+          "Validate ensemble-role semantics separately and map all twelve source leaves by source paths rather than duplicate printed positions; preserve joined dance sections and recording provenance."
+        ]
+      }
     },
     "3503146": {
       "status": "unchecked",
@@ -30681,15 +30701,38 @@
             }
           ],
           "reasons": [
+            "The Backhaus edition contains all three Mozart K331 movements (392/274/195 seconds) among eleven tracks, but credits use interprète and compositeur rather than the current accepted performer/composer roles. The source has no timings or independently established recording version. No broad French-role equivalence is adopted.",
+            "Hold concerns inspected cached editions, not proof the recording is absent from Qobuz.",
+            "Raw source programme, named musicians and ambiguous scopes remain intact. No general name, role or duration waiver.",
+            "Validate exact localized role semantics and recording-family provenance in a bounded proposal, then retain all three source movements and correct composer identity.",
             "0/1 target items supported after composer/work grouping; unresolved."
+          ],
+          "recording_review_decision": "withhold",
+          "recording_review": "The Backhaus edition contains all three Mozart K331 movements (392/274/195 seconds) among eleven tracks, but credits use interprète and compositeur rather than the current accepted performer/composer roles. The source has no timings or independently established recording version. No broad French-role equivalence is adopted.",
+          "review_sources": [
+            "https://www.discogs.com/release/8949471"
           ]
         }
       ],
       "query": "wilhelm backhaus mozart piano sonata no 11 in a major k 331",
       "searched_at": "2026-11-12T15:08:33.168124+00:00",
       "reasons": [
+        "The Backhaus edition contains all three Mozart K331 movements (392/274/195 seconds) among eleven tracks, but credits use interprète and compositeur rather than the current accepted performer/composer roles. The source has no timings or independently established recording version. No broad French-role equivalence is adopted.",
+        "Hold concerns inspected cached editions, not proof the recording is absent from Qobuz.",
+        "Raw source programme, named musicians and ambiguous scopes remain intact. No general name, role or duration waiver.",
+        "Validate exact localized role semantics and recording-family provenance in a bounded proposal, then retain all three source movements and correct composer identity.",
         "0/1 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The Backhaus edition contains all three Mozart K331 movements (392/274/195 seconds) among eleven tracks, but credits use interprète and compositeur rather than the current accepted performer/composer roles. The source has no timings or independently established recording version. No broad French-role equivalence is adopted.",
+        "limitations": [
+          "Hold concerns inspected cached editions, not proof the recording is absent from Qobuz.",
+          "Raw source programme, named musicians and ambiguous scopes remain intact. No general name, role or duration waiver.",
+          "Validate exact localized role semantics and recording-family provenance in a bounded proposal, then retain all three source movements and correct composer identity."
+        ]
+      }
     },
     "6812312": {
       "status": "unchecked",
@@ -33814,7 +33857,16 @@
             }
           ],
           "reasons": [
+            "Both complete Solti Walküre editions contain positive declarations for every raw source cast member somewhere in the opera. None declares the entire cast on every track, which is expected for opera but cannot establish the ten LP-side mappings. Source incipits identify side starts, including a joined Schläfst du Gast / Der Männer Sippe digital track and splits within Act II scenes; exact end/start boundaries and source-specific vocal participation remain unbound. Excerpt editions cannot replace the full source programme.",
+            "Hold concerns inspected cached editions, not proof the recording is absent from Qobuz.",
+            "Raw source programme, named musicians and ambiguous scopes remain intact. No general name, role or duration waiver.",
+            "Establish exact LP-side boundaries and positive source-role/scene scopes for all named singers, including Frick, Watts, Little and Fassbaender. Do not require every singer in every scene or borrow credits across scenes.",
             "0/1 target items supported after composer/work grouping; unresolved."
+          ],
+          "recording_review_decision": "withhold",
+          "recording_review": "Both complete Solti Walküre editions contain positive declarations for every raw source cast member somewhere in the opera. None declares the entire cast on every track, which is expected for opera but cannot establish the ten LP-side mappings. Source incipits identify side starts, including a joined Schläfst du Gast / Der Männer Sippe digital track and splits within Act II scenes; exact end/start boundaries and source-specific vocal participation remain unbound. Excerpt editions cannot replace the full source programme.",
+          "review_sources": [
+            "https://www.discogs.com/release/3100828"
           ]
         },
         {
@@ -33945,7 +33997,17 @@
       "searched_at": "2026-11-12T15:12:18.418454+00:00",
       "reasons": [
         "0/1 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Both complete Solti Walküre editions contain positive declarations for every raw source cast member somewhere in the opera. None declares the entire cast on every track, which is expected for opera but cannot establish the ten LP-side mappings. Source incipits identify side starts, including a joined Schläfst du Gast / Der Männer Sippe digital track and splits within Act II scenes; exact end/start boundaries and source-specific vocal participation remain unbound. Excerpt editions cannot replace the full source programme.",
+        "limitations": [
+          "Hold concerns inspected cached editions, not proof the recording is absent from Qobuz.",
+          "Raw source programme, named musicians and ambiguous scopes remain intact. No general name, role or duration waiver.",
+          "Establish exact LP-side boundaries and positive source-role/scene scopes for all named singers, including Frick, Watts, Little and Fassbaender. Do not require every singer in every scene or borrow credits across scenes."
+        ]
+      }
     },
     "6935886": {
       "status": "unchecked",
@@ -36015,7 +36077,16 @@
             }
           ],
           "reasons": [
+            "Both complete Solti Walküre editions contain positive declarations for every raw source cast member somewhere in the opera. None declares the entire cast on every track, which is expected for opera but cannot establish the ten LP-side mappings. Source incipits identify side starts, including a joined Schläfst du Gast / Der Männer Sippe digital track and splits within Act II scenes; exact end/start boundaries and source-specific vocal participation remain unbound. Excerpt editions cannot replace the full source programme.",
+            "Hold concerns inspected cached editions, not proof the recording is absent from Qobuz.",
+            "Raw source programme, named musicians and ambiguous scopes remain intact. No general name, role or duration waiver.",
+            "Establish exact LP-side boundaries and positive source-role/scene scopes for all named singers, including Frick, Watts, Little and Fassbaender. Do not require every singer in every scene or borrow credits across scenes.",
             "0/1 target items supported after composer/work grouping; unresolved."
+          ],
+          "recording_review_decision": "withhold",
+          "recording_review": "Both complete Solti Walküre editions contain positive declarations for every raw source cast member somewhere in the opera. None declares the entire cast on every track, which is expected for opera but cannot establish the ten LP-side mappings. Source incipits identify side starts, including a joined Schläfst du Gast / Der Männer Sippe digital track and splits within Act II scenes; exact end/start boundaries and source-specific vocal participation remain unbound. Excerpt editions cannot replace the full source programme.",
+          "review_sources": [
+            "https://www.discogs.com/release/11077579"
           ]
         },
         {
@@ -36146,7 +36217,17 @@
       "searched_at": "2026-11-12T15:13:48.327515+00:00",
       "reasons": [
         "0/1 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Both complete Solti Walküre editions contain positive declarations for every raw source cast member somewhere in the opera. None declares the entire cast on every track, which is expected for opera but cannot establish the ten LP-side mappings. Source incipits identify side starts, including a joined Schläfst du Gast / Der Männer Sippe digital track and splits within Act II scenes; exact end/start boundaries and source-specific vocal participation remain unbound. Excerpt editions cannot replace the full source programme.",
+        "limitations": [
+          "Hold concerns inspected cached editions, not proof the recording is absent from Qobuz.",
+          "Raw source programme, named musicians and ambiguous scopes remain intact. No general name, role or duration waiver.",
+          "Establish exact LP-side boundaries and positive source-role/scene scopes for all named singers, including Frick, Watts, Little and Fassbaender. Do not require every singer in every scene or borrow credits across scenes."
+        ]
+      }
     },
     "12218789": {
       "status": "unchecked",
@@ -36232,7 +36313,16 @@
             }
           ],
           "reasons": [
+            "Both complete Solti Walküre editions contain positive declarations for every raw source cast member somewhere in the opera. None declares the entire cast on every track, which is expected for opera but cannot establish the ten LP-side mappings. Source incipits identify side starts, including a joined Schläfst du Gast / Der Männer Sippe digital track and splits within Act II scenes; exact end/start boundaries and source-specific vocal participation remain unbound. Excerpt editions cannot replace the full source programme.",
+            "Hold concerns inspected cached editions, not proof the recording is absent from Qobuz.",
+            "Raw source programme, named musicians and ambiguous scopes remain intact. No general name, role or duration waiver.",
+            "Establish exact LP-side boundaries and positive source-role/scene scopes for all named singers, including Frick, Watts, Little and Fassbaender. Do not require every singer in every scene or borrow credits across scenes.",
             "0/1 target items supported after composer/work grouping; unresolved."
+          ],
+          "recording_review_decision": "withhold",
+          "recording_review": "Both complete Solti Walküre editions contain positive declarations for every raw source cast member somewhere in the opera. None declares the entire cast on every track, which is expected for opera but cannot establish the ten LP-side mappings. Source incipits identify side starts, including a joined Schläfst du Gast / Der Männer Sippe digital track and splits within Act II scenes; exact end/start boundaries and source-specific vocal participation remain unbound. Excerpt editions cannot replace the full source programme.",
+          "review_sources": [
+            "https://www.discogs.com/release/12218789"
           ]
         },
         {
@@ -36363,7 +36453,17 @@
       "searched_at": "2026-11-12T15:13:48.334113+00:00",
       "reasons": [
         "0/1 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Both complete Solti Walküre editions contain positive declarations for every raw source cast member somewhere in the opera. None declares the entire cast on every track, which is expected for opera but cannot establish the ten LP-side mappings. Source incipits identify side starts, including a joined Schläfst du Gast / Der Männer Sippe digital track and splits within Act II scenes; exact end/start boundaries and source-specific vocal participation remain unbound. Excerpt editions cannot replace the full source programme.",
+        "limitations": [
+          "Hold concerns inspected cached editions, not proof the recording is absent from Qobuz.",
+          "Raw source programme, named musicians and ambiguous scopes remain intact. No general name, role or duration waiver.",
+          "Establish exact LP-side boundaries and positive source-role/scene scopes for all named singers, including Frick, Watts, Little and Fassbaender. Do not require every singer in every scene or borrow credits across scenes."
+        ]
+      }
     },
     "5735182": {
       "status": "unchecked",
@@ -69247,10 +69347,19 @@
             }
           ],
           "reasons": [
+            "The 46-track Böhm Zauberflöte edition positively declares all raw source names somewhere, including Arndt and small roles. Seven source bands span scene ranges while the digital version separates spoken dialogue and music. Source selector B. D, F is ambiguous; global source assignments cannot be silently rewritten. Highlights and other cast editions omit musicians or source sections.",
+            "Hold concerns inspected cached editions, not proof the recording is absent from Qobuz.",
+            "Raw source programme, named musicians and ambiguous scopes remain intact. No general name, role or duration waiver.",
+            "Bind all seven source bands to exact dialogue/music sections and validate source cast scopes, retaining ambiguous selectors and named small roles.",
             "0/1 target items supported after composer/work grouping; unresolved.",
             "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
           ],
-          "work_group_policy": "qobuz-work-groups-v1"
+          "work_group_policy": "qobuz-work-groups-v1",
+          "recording_review_decision": "withhold",
+          "recording_review": "The 46-track Böhm Zauberflöte edition positively declares all raw source names somewhere, including Arndt and small roles. Seven source bands span scene ranges while the digital version separates spoken dialogue and music. Source selector B. D, F is ambiguous; global source assignments cannot be silently rewritten. Highlights and other cast editions omit musicians or source sections.",
+          "review_sources": [
+            "https://www.discogs.com/release/7228304"
+          ]
         },
         {
           "id": "hfexndvg9xtnc",
@@ -69868,9 +69977,23 @@
       "query": "karl bohm mozart die zauberflote",
       "searched_at": "2026-11-12T15:47:20.711541+00:00",
       "reasons": [
+        "The 46-track Böhm Zauberflöte edition positively declares all raw source names somewhere, including Arndt and small roles. Seven source bands span scene ranges while the digital version separates spoken dialogue and music. Source selector B. D, F is ambiguous; global source assignments cannot be silently rewritten. Highlights and other cast editions omit musicians or source sections.",
+        "Hold concerns inspected cached editions, not proof the recording is absent from Qobuz.",
+        "Raw source programme, named musicians and ambiguous scopes remain intact. No general name, role or duration waiver.",
+        "Bind all seven source bands to exact dialogue/music sections and validate source cast scopes, retaining ambiguous selectors and named small roles.",
         "0/1 target items supported after composer/work grouping; unresolved.",
         "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "The 46-track Böhm Zauberflöte edition positively declares all raw source names somewhere, including Arndt and small roles. Seven source bands span scene ranges while the digital version separates spoken dialogue and music. Source selector B. D, F is ambiguous; global source assignments cannot be silently rewritten. Highlights and other cast editions omit musicians or source sections.",
+        "limitations": [
+          "Hold concerns inspected cached editions, not proof the recording is absent from Qobuz.",
+          "Raw source programme, named musicians and ambiguous scopes remain intact. No general name, role or duration waiver.",
+          "Bind all seven source bands to exact dialogue/music sections and validate source cast scopes, retaining ambiguous selectors and named small roles."
+        ]
+      }
     },
     "6591890": {
       "status": "unchecked",
@@ -97632,10 +97755,19 @@
             }
           ],
           "reasons": [
+            "Kleiber Tristan candidate gfkyhvl8nhm2b contains the full named source cast somewhere across 29 sections. Ten LP bands split Acts II/III mid-scene without timed boundaries; source does not assign each singer to a band. The 27-track alternative is a different cast and cannot supply source singers.",
+            "Hold concerns inspected cached editions, not proof the recording is absent from Qobuz.",
+            "Raw source programme, named musicians and ambiguous scopes remain intact. No general name, role or duration waiver.",
+            "Resolve exact split-scene LP-side cuts and positive source cast participation without assuming album-wide names perform every section.",
             "0/2 target items supported after composer/work grouping; unresolved.",
             "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
           ],
-          "work_group_policy": "qobuz-work-groups-v1"
+          "work_group_policy": "qobuz-work-groups-v1",
+          "recording_review_decision": "withhold",
+          "recording_review": "Kleiber Tristan candidate gfkyhvl8nhm2b contains the full named source cast somewhere across 29 sections. Ten LP bands split Acts II/III mid-scene without timed boundaries; source does not assign each singer to a band. The 27-track alternative is a different cast and cannot supply source singers.",
+          "review_sources": [
+            "https://www.discogs.com/release/10675304"
+          ]
         },
         {
           "id": "0723721233853",
@@ -97689,9 +97821,23 @@
       "query": "carlos kleiber wagner tristan und isolde",
       "searched_at": "2026-11-12T16:10:52.253324+00:00",
       "reasons": [
+        "Kleiber Tristan candidate gfkyhvl8nhm2b contains the full named source cast somewhere across 29 sections. Ten LP bands split Acts II/III mid-scene without timed boundaries; source does not assign each singer to a band. The 27-track alternative is a different cast and cannot supply source singers.",
+        "Hold concerns inspected cached editions, not proof the recording is absent from Qobuz.",
+        "Raw source programme, named musicians and ambiguous scopes remain intact. No general name, role or duration waiver.",
+        "Resolve exact split-scene LP-side cuts and positive source cast participation without assuming album-wide names perform every section.",
         "0/2 target items supported after composer/work grouping; unresolved.",
         "Work-aware evidence uses composer boundaries, bounded movement-title context and conservative contiguous recording groups."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "Kleiber Tristan candidate gfkyhvl8nhm2b contains the full named source cast somewhere across 29 sections. Ten LP bands split Acts II/III mid-scene without timed boundaries; source does not assign each singer to a band. The 27-track alternative is a different cast and cannot supply source singers.",
+        "limitations": [
+          "Hold concerns inspected cached editions, not proof the recording is absent from Qobuz.",
+          "Raw source programme, named musicians and ambiguous scopes remain intact. No general name, role or duration waiver.",
+          "Resolve exact split-scene LP-side cuts and positive source cast participation without assuming album-wide names perform every section."
+        ]
+      }
     },
     "9070830": {
       "status": "unchecked",
@@ -122794,9 +122940,19 @@
       ]
     },
     "4079723": {
-      "status": "unchecked",
-      "confidence": null,
-      "album": null,
+      "status": "probable",
+      "confidence": 0.85,
+      "album": {
+        "id": "0002894788630",
+        "name": "Franck: Piece Heroique; Three Chorales",
+        "artists": [
+          "Marcel Dupré"
+        ],
+        "label": "Decca Music Group Ltd.",
+        "release_date": "2015-10-01",
+        "image": "https://static.qobuz.com/images/covers/30/86/0002894788630_230.jpg",
+        "url": "https://www.qobuz.com/fr-fr/album/franck-piece-heroique-three-chorales-marcel-dupre/0002894788630"
+      },
       "candidates": [
         {
           "id": "0002894788630",
@@ -122808,40 +122964,143 @@
           "release_date": "2015-10-01",
           "image": "https://static.qobuz.com/images/covers/30/86/0002894788630_230.jpg",
           "url": "https://www.qobuz.com/fr-fr/album/franck-piece-heroique-three-chorales-marcel-dupre/0002894788630",
-          "status": "unchecked",
-          "confidence": null,
-          "coverage": 0.0,
-          "covered": 0,
+          "status": "probable",
+          "confidence": 0.85,
+          "coverage": 1,
+          "covered": 4,
           "target_count": 4,
           "required_performers": [],
           "programme": [
             {
-              "target": "Pièce Héroïque",
+              "target": "A1: Pièce Héroïque",
+              "source_path": [
+                0
+              ],
+              "track_ids": [
+                27578140
+              ],
               "work_tracks": 1,
-              "credited_tracks": 0,
-              "track_ids": []
+              "credited_tracks": 1,
+              "required_performers": [
+                "Marcel Dupré"
+              ]
             },
             {
-              "target": "Chorale No. 1 In E Major",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "target": "A2: Chorale No. 1 In E Major",
+              "source_path": [
+                1
+              ],
+              "track_ids": [
+                27578142
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Marcel Dupré"
+              ]
             },
             {
-              "target": "Chorale No. 2 In B Minor",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "target": "B1: Chorale No. 2 In B Minor",
+              "source_path": [
+                2
+              ],
+              "track_ids": [
+                27578144
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Marcel Dupré"
+              ]
             },
             {
-              "target": "Chorale No. 3 In A Minor",
-              "work_tracks": 0,
-              "credited_tracks": 0,
-              "track_ids": []
+              "target": "B2: Chorale No. 3 In A Minor",
+              "source_path": [
+                3
+              ],
+              "track_ids": [
+                27578146
+              ],
+              "work_tracks": 1,
+              "credited_tracks": 1,
+              "required_performers": [
+                "Marcel Dupré"
+              ]
             }
           ],
           "reasons": [
-            "0/4 target items supported after composer/work grouping; unresolved."
+            "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+            "All four source Franck organ works bind in order to the Mercury Dupré recording. The source names Saint Thomas Church, New York City; the Dupré Association corroborates this 1957 Mercury programme and its 2015 restoration. Each track positively declares Dupré as MainArtist and Franck as Composer. No reliance on AssociatedPerformer alone or on Dupré being incorrectly listed as a source composer.",
+            "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+            "The association describes remastering from original tapes, not equality of the LP transfer with the digital mastering. Source has no track durations; exact pressing, take and transfer equality not verified.",
+            "Raw collection lists Dupré among composers as well as naming him as organist; the review preserves that data and requires only the correct Franck composer declaration on each of these four works. No general source-role correction."
+          ],
+          "discovery": "reviewed-pilot-lead",
+          "completeness": {
+            "status": "complete",
+            "works": [
+              {
+                "target": "A1: Pièce Héroïque",
+                "source_path": [
+                  0
+                ],
+                "status": "complete",
+                "track_ids": [
+                  27578140
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 497,
+                "source_duration_notes": []
+              },
+              {
+                "target": "A2: Chorale No. 1 In E Major",
+                "source_path": [
+                  1
+                ],
+                "status": "complete",
+                "track_ids": [
+                  27578142
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 954,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B1: Chorale No. 2 In B Minor",
+                "source_path": [
+                  2
+                ],
+                "status": "complete",
+                "track_ids": [
+                  27578144
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 819,
+                "source_duration_notes": []
+              },
+              {
+                "target": "B2: Chorale No. 3 In A Minor",
+                "source_path": [
+                  3
+                ],
+                "status": "complete",
+                "track_ids": [
+                  27578146
+                ],
+                "scope": "reviewed-complete-source-band",
+                "source_duration_seconds": null,
+                "digital_duration_seconds": 810,
+                "source_duration_notes": []
+              }
+            ]
+          },
+          "recording_review": "All four source Franck organ works bind in order to the Mercury Dupré recording. The source names Saint Thomas Church, New York City; the Dupré Association corroborates this 1957 Mercury programme and its 2015 restoration. Each track positively declares Dupré as MainArtist and Franck as Composer. No reliance on AssociatedPerformer alone or on Dupré being incorrectly listed as a source composer.",
+          "review_sources": [
+            "https://www.discogs.com/release/4079723",
+            "https://www.stsulpice.com/Docs/Dupre_Recordings_EN.pdf"
           ]
         },
         {
@@ -122986,7 +123245,11 @@
       "query": "franck piece heroique three chorales",
       "searched_at": "2026-11-12T16:55:25.055491+00:00",
       "reasons": [
-        "0/4 target items supported after composer/work grouping; unresolved."
+        "Every raw source band is retained in a frozen source-position/track mapping. Existing explicit work-scoped musician requirements remain; no credit is borrowed from another piece.",
+        "All four source Franck organ works bind in order to the Mercury Dupré recording. The source names Saint Thomas Church, New York City; the Dupré Association corroborates this 1957 Mercury programme and its 2015 restoration. Each track positively declares Dupré as MainArtist and Franck as Composer. No reliance on AssociatedPerformer alone or on Dupré being incorrectly listed as a source composer.",
+        "Bounded reviewed programme is complete; 85% is a heuristic Probable level, not exact-edition verification.",
+        "The association describes remastering from original tapes, not equality of the LP transfer with the digital mastering. Source has no track durations; exact pressing, take and transfer equality not verified.",
+        "Raw collection lists Dupré among composers as well as naming him as organist; the review preserves that data and requires only the correct Franck composer declaration on each of these four works. No general source-role correction."
       ]
     },
     "10480488": {
@@ -130850,15 +131113,38 @@
             }
           ],
           "reasons": [
+            "All nine titles, order and durations agree exactly, but the cache declares only Reinier Baas as MainArtist/Composer (Joe Henderson composes Black Narcissus). Raw source also names alto saxophonists Ben Van Gelder and Maarten Hogenhuis, bassist Sean Fasciani and drummer Mark Schilders; none is declared in the cached track credits. Current source-role extraction underrepresents saxophone/bass/drums, so an empty diagnostic gap is not a complete lineup.",
+            "Hold concerns inspected cached editions, not proof the recording is absent from Qobuz.",
+            "Raw source programme, named musicians and ambiguous scopes remain intact. No general name, role or duration waiver.",
+            "Obtain positive recording-specific evidence for the entire raw instrumental lineup and audit source-role extraction separately. Exact timings and the front artist alone cannot waive the other musicians.",
             "0/9 target items supported after composer/work grouping; unresolved."
+          ],
+          "recording_review_decision": "withhold",
+          "recording_review": "All nine titles, order and durations agree exactly, but the cache declares only Reinier Baas as MainArtist/Composer (Joe Henderson composes Black Narcissus). Raw source also names alto saxophonists Ben Van Gelder and Maarten Hogenhuis, bassist Sean Fasciani and drummer Mark Schilders; none is declared in the cached track credits. Current source-role extraction underrepresents saxophone/bass/drums, so an empty diagnostic gap is not a complete lineup.",
+          "review_sources": [
+            "https://www.discogs.com/release/5085113"
           ]
         }
       ],
       "query": "baas mostly improvised instrumental indie music",
       "searched_at": "2026-11-12T17:10:56.123975+00:00",
       "reasons": [
+        "All nine titles, order and durations agree exactly, but the cache declares only Reinier Baas as MainArtist/Composer (Joe Henderson composes Black Narcissus). Raw source also names alto saxophonists Ben Van Gelder and Maarten Hogenhuis, bassist Sean Fasciani and drummer Mark Schilders; none is declared in the cached track credits. Current source-role extraction underrepresents saxophone/bass/drums, so an empty diagnostic gap is not a complete lineup.",
+        "Hold concerns inspected cached editions, not proof the recording is absent from Qobuz.",
+        "Raw source programme, named musicians and ambiguous scopes remain intact. No general name, role or duration waiver.",
+        "Obtain positive recording-specific evidence for the entire raw instrumental lineup and audit source-role extraction separately. Exact timings and the front artist alone cannot waive the other musicians.",
         "0/9 target items supported after composer/work grouping; unresolved."
-      ]
+      ],
+      "review": {
+        "state": "reviewed_unresolved",
+        "decision": "withhold",
+        "reason": "All nine titles, order and durations agree exactly, but the cache declares only Reinier Baas as MainArtist/Composer (Joe Henderson composes Black Narcissus). Raw source also names alto saxophonists Ben Van Gelder and Maarten Hogenhuis, bassist Sean Fasciani and drummer Mark Schilders; none is declared in the cached track credits. Current source-role extraction underrepresents saxophone/bass/drums, so an empty diagnostic gap is not a complete lineup.",
+        "limitations": [
+          "Hold concerns inspected cached editions, not proof the recording is absent from Qobuz.",
+          "Raw source programme, named musicians and ambiguous scopes remain intact. No general name, role or duration waiver.",
+          "Obtain positive recording-specific evidence for the entire raw instrumental lineup and audit source-role extraction separately. Exact timings and the front artist alone cannot waive the other musicians."
+        ]
+      }
     },
     "1252193": {
       "status": "unchecked",

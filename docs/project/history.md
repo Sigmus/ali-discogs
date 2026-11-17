@@ -2496,3 +2496,27 @@ Local commit only; no push/deployment. [Evidence and reproduction](../plans/2026
 At user request, pushed main 05ad280..d2e0498 to origin/main successfully.
 Includes all83 recording decisions, five Probable promotions, frozen evidence,
 345 passing script tests and updated planning. Pages deployment not verified.
+
+## 2026-11-17 — Credit150 triage and first ten recording reviews
+
+Frozen all150remaining credit-support cases /476cached candidates in a portable,
+read-only per-work/name diagnostic. Primary groups:133missing required-name
+on matching work,6positive-only-on-other-work,5programme-mapping,3unaccepted-role,
+2roleless/composer-only and1no matching work. Flags overlap; not match confidence.
+First10source/recording reviews complete across30alternatives:Dupré4079723Probable85,
+9holds. Dupré's four source Franck works retain positive MainArtist independent
+of AssociatedPerformer and correct composer, corroborated by the Dupré Association's
+1957SaintThomas/Mercury and2015restoration account. No source timing, pressing,
+take or transfer equality invented. Baas5085113retains four missing raw named
+saxophone/bass/drums musicians despite exact titles/timings and incomplete source
+role extraction. Opera side/dialogue cuts, localized French roles, Busch ensemble/
+flute roles and ambiguous source assignments stay held; no policy waiver.
+
+354script tests pass, normalization/build and accepted/heldlocaldetails pass;
+only existingfavicon404. Deterministic compressed diagnostic verified. Exactly10
+publicationrecords changed; only1label. Originalsource/cache/Spotify and prior
+frozen diagnostics unchanged. Sequential queue refresh leaves140credit cases
+without decisions; recurring BerlinerPhilharmoniker9, Oistrach6, LSO6, Vienna6
+and Pitz6gaps identify follow-up groups. No Qobuz/audio calls or source rewrites.
+UIcopies12Found/195Probable/382Reviewed · unresolved/152Unchecked. Localcommit,
+no push/deploy. [Evidence/limits/next groups](../plans/2026-11-17-qobuz-credit150.md).

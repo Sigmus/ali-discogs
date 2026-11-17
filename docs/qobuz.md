@@ -670,3 +670,21 @@ new tolerance. Exact source/digital values and the superseded hold are retained
 in the approval artifact; changing a reviewed track duration fails revalidation.
 `qobuz_title3_audit.py` now verifies2Probable/1hold; removing the timing notes
 restores the original blocker. [Decision/impact](plans/2026-11-16-qobuz-timing-sensitivity.md).
+
+### Remaining credit-support triage (17 November)
+
+`uv run --with requests python scripts/qobuz_credit150_triage.py` inspects the
+frozen remaining 150 credit-support cases / 476 cached candidates. It writes
+`data/qobuz_credit150_triage.json.gz` deterministically; read with Python's
+`gzip.open(..., 'rt')` and `json.load`. This is a diagnostic snapshot, not the
+shrinking workflow queue or a recording decision. Positive names on other works,
+associated-only roles, absent exact-name declarations and unaccepted roles stay
+separate. Primary group counts use explicit precedence, not match confidence.
+
+`uv run --with requests python scripts/qobuz_credit10_audit.py` reproduces the
+first ten recording reviews: Dupré/Franck Probable, nine holds. The source-leaf
+review requires Dupré's positive MainArtist declaration independently of his
+AssociatedPerformer declaration, and the correct Franck composer on all four
+tracks. The Baas hold preserves four source-named musicians missed by the current
+source-role extraction. No general instrument, ensemble, translated-role or
+source-role policy is enabled. [Scope/results](plans/2026-11-17-qobuz-credit150.md).

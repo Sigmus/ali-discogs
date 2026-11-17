@@ -1,21 +1,21 @@
 {
   "schema_version": 1,
   "reviewed_on": "2026-11-16",
-  "unique_unresolved_releases": 534,
+  "unique_unresolved_releases": 533,
   "review_state_counts": {
-    "reviewed_unresolved": 373,
-    "no_saved_decision": 161
+    "reviewed_unresolved": 382,
+    "no_saved_decision": 151
   },
   "planning_families": {
-    "credit_evidence": 255,
+    "credit_evidence": 245,
     "no_cached_candidate": 6,
-    "other_saved_blocker": 63,
+    "other_saved_blocker": 66,
     "partial_programme_or_completeness": 5,
     "recording_identity": 57,
-    "source_programme_mapping": 148
+    "source_programme_mapping": 154
   },
   "groups": {
-    "credit_support_unresolved": 150,
+    "credit_support_unresolved": 140,
     "no_cached_candidate": 6,
     "partial_programme_or_completeness": 5,
     "saved:aria-work-cast-scope": 1,
@@ -162,14 +162,20 @@
     "saved:source-soloist-and-one-file-scope": 1,
     "saved:source-typos-large-piano-box": 1,
     "saved:source_cast_or_band_mapping": 27,
+    "saved:source_instrumental_lineup_missing": 1,
     "saved:source_number_and_partial_coupling": 1,
     "saved:source_orchestras_missing_positive_roles": 1,
+    "saved:source_scene_and_dialogue_mapping": 1,
+    "saved:source_scene_boundaries": 4,
     "saved:source_timing_hold": 1,
     "saved:split-act-source-boundaries": 1,
     "saved:split-programme": 1,
     "saved:split-programme-identity": 1,
     "saved:split-programme-recording-identity": 1,
     "saved:transfer-and-joined-source-bands": 1,
+    "saved:unaccepted_ensemble_and_flute_roles": 1,
+    "saved:unaccepted_ensemble_role": 1,
+    "saved:unaccepted_localized_roles": 1,
     "saved:unresolved_joined_demonstrations": 1,
     "saved:vocal-cast": 2,
     "saved:withhold": 40,
@@ -1031,13 +1037,13 @@
     {
       "discogs_id": "3100828",
       "title": "Die Walküre",
-      "review_state": "no_saved_decision",
-      "group": "credit_support_unresolved",
-      "planning_family": "credit_evidence",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:source_scene_boundaries",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 5,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Both complete Solti Walküre editions contain positive declarations for every raw source cast member somewhere in the opera. None declares the entire cast on every track, which is expected for opera but cannot establish the ten LP-side mappings. Source incipits identify side starts, including a joined Schläfst du Gast / Der Männer Sippe digital track and splits within Act II scenes; exact end/start boundaries and source-specific vocal participation remain unbound. Excerpt editions cannot replace the full source programme.",
+      "next_action": "Establish exact LP-side boundaries and positive source-role/scene scopes for all named singers, including Frick, Watts, Little and Fassbaender. Do not require every singer in every scene or borrow credits across scenes."
     },
     {
       "discogs_id": "3130380",
@@ -1623,17 +1629,6 @@
       "next_action": "Obtain positive musician-role evidence or decide a separately scoped correction policy; no ComposerLyricist-to-pianist or quintet-to-person alias."
     },
     {
-      "discogs_id": "4079723",
-      "title": "Pièce Héroïque / Three Chorales",
-      "review_state": "no_saved_decision",
-      "group": "credit_support_unresolved",
-      "planning_family": "credit_evidence",
-      "cached_candidate_count": 4,
-      "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
-    },
-    {
       "discogs_id": "4082656",
       "title": "Das Wohltemperierte Klavier / Zweiter Teil",
       "review_state": "reviewed_unresolved",
@@ -2054,13 +2049,13 @@
     {
       "discogs_id": "5085113",
       "title": "Mostly Improvised Instrumental Indie Music",
-      "review_state": "no_saved_decision",
-      "group": "credit_support_unresolved",
-      "planning_family": "credit_evidence",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:source_instrumental_lineup_missing",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 1,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "All nine titles, order and durations agree exactly, but the cache declares only Reinier Baas as MainArtist/Composer (Joe Henderson composes Black Narcissus). Raw source also names alto saxophonists Ben Van Gelder and Maarten Hogenhuis, bassist Sean Fasciani and drummer Mark Schilders; none is declared in the cached track credits. Current source-role extraction underrepresents saxophone/bass/drums, so an empty diagnostic gap is not a complete lineup.",
+      "next_action": "Obtain positive recording-specific evidence for the entire raw instrumental lineup and audit source-role extraction separately. Exact timings and the front artist alone cannot waive the other musicians."
     },
     {
       "discogs_id": "5089404",
@@ -3088,13 +3083,13 @@
     {
       "discogs_id": "7228304",
       "title": "Die Zauberflöte",
-      "review_state": "no_saved_decision",
-      "group": "credit_support_unresolved",
-      "planning_family": "credit_evidence",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:source_scene_and_dialogue_mapping",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 5,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "The 46-track Böhm Zauberflöte edition positively declares all raw source names somewhere, including Arndt and small roles. Seven source bands span scene ranges while the digital version separates spoken dialogue and music. Source selector B. D, F is ambiguous; global source assignments cannot be silently rewritten. Highlights and other cast editions omit musicians or source sections.",
+      "next_action": "Bind all seven source bands to exact dialogue/music sections and validate source cast scopes, retaining ambiguous selectors and named small roles."
     },
     {
       "discogs_id": "7248321",
@@ -3858,13 +3853,13 @@
     {
       "discogs_id": "8949471",
       "title": "Piano Sonata No. 11 In A Major (K. 331)",
-      "review_state": "no_saved_decision",
-      "group": "credit_support_unresolved",
-      "planning_family": "credit_evidence",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:unaccepted_localized_roles",
+      "planning_family": "other_saved_blocker",
       "cached_candidate_count": 1,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "The Backhaus edition contains all three Mozart K331 movements (392/274/195 seconds) among eleven tracks, but credits use interprète and compositeur rather than the current accepted performer/composer roles. The source has no timings or independently established recording version. No broad French-role equivalence is adopted.",
+      "next_action": "Validate exact localized role semantics and recording-family provenance in a bounded proposal, then retain all three source movements and correct composer identity."
     },
     {
       "discogs_id": "8962178",
@@ -4441,13 +4436,13 @@
     {
       "discogs_id": "10675304",
       "title": "Tristan Und Isolde",
-      "review_state": "no_saved_decision",
-      "group": "credit_support_unresolved",
-      "planning_family": "credit_evidence",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:source_scene_boundaries",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 2,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Kleiber Tristan candidate gfkyhvl8nhm2b contains the full named source cast somewhere across 29 sections. Ten LP bands split Acts II/III mid-scene without timed boundaries; source does not assign each singer to a band. The 27-track alternative is a different cast and cannot supply source singers.",
+      "next_action": "Resolve exact split-scene LP-side cuts and positive source cast participation without assuming album-wide names perform every section."
     },
     {
       "discogs_id": "10676527",
@@ -4584,13 +4579,13 @@
     {
       "discogs_id": "11077579",
       "title": "Die Walküre",
-      "review_state": "no_saved_decision",
-      "group": "credit_support_unresolved",
-      "planning_family": "credit_evidence",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:source_scene_boundaries",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 5,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Both complete Solti Walküre editions contain positive declarations for every raw source cast member somewhere in the opera. None declares the entire cast on every track, which is expected for opera but cannot establish the ten LP-side mappings. Source incipits identify side starts, including a joined Schläfst du Gast / Der Männer Sippe digital track and splits within Act II scenes; exact end/start boundaries and source-specific vocal participation remain unbound. Excerpt editions cannot replace the full source programme.",
+      "next_action": "Establish exact LP-side boundaries and positive source-role/scene scopes for all named singers, including Frick, Watts, Little and Fassbaender. Do not require every singer in every scene or borrow credits across scenes."
     },
     {
       "discogs_id": "11291879",
@@ -4848,13 +4843,13 @@
     {
       "discogs_id": "12218789",
       "title": "Die Walküre",
-      "review_state": "no_saved_decision",
-      "group": "credit_support_unresolved",
-      "planning_family": "credit_evidence",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:source_scene_boundaries",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 5,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Both complete Solti Walküre editions contain positive declarations for every raw source cast member somewhere in the opera. None declares the entire cast on every track, which is expected for opera but cannot establish the ten LP-side mappings. Source incipits identify side starts, including a joined Schläfst du Gast / Der Männer Sippe digital track and splits within Act II scenes; exact end/start boundaries and source-specific vocal participation remain unbound. Excerpt editions cannot replace the full source programme.",
+      "next_action": "Establish exact LP-side boundaries and positive source-role/scene scopes for all named singers, including Frick, Watts, Little and Fassbaender. Do not require every singer in every scene or borrow credits across scenes."
     },
     {
       "discogs_id": "12329947",
@@ -4980,13 +4975,13 @@
     {
       "discogs_id": "12872526",
       "title": "Suites (Complete) Vol. II",
-      "review_state": "no_saved_decision",
-      "group": "credit_support_unresolved",
-      "planning_family": "credit_evidence",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:unaccepted_ensemble_role",
+      "planning_family": "other_saved_blocker",
       "cached_candidate_count": 1,
       "uncached_hits": 6,
-      "finding": null,
-      "next_action": null
+      "finding": "The cached Busch box contains the named Bach suites and positive Adolf Busch conductor credits, but Busch Chamber Players is only Ensemble, FeaturedArtist under current role rules. Source Volume II has twelve leaves, including repeated A5 positions and joined dances; those exact structural leaves remain unbound.",
+      "next_action": "Validate ensemble-role semantics separately and map all twelve source leaves by source paths rather than duplicate printed positions; preserve joined dance sections and recording provenance."
     },
     {
       "discogs_id": "12977198",
@@ -5090,13 +5085,13 @@
     {
       "discogs_id": "13406445",
       "title": "Suites (Complete) Vol. I",
-      "review_state": "no_saved_decision",
-      "group": "credit_support_unresolved",
-      "planning_family": "credit_evidence",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:unaccepted_ensemble_and_flute_roles",
+      "planning_family": "other_saved_blocker",
       "cached_candidate_count": 1,
       "uncached_hits": 6,
-      "finding": null,
-      "next_action": null
+      "finding": "The cached Busch box includes Suites BWV1067/1068, but Busch Chamber Players is Ensemble, FeaturedArtist and Marcel Moyse is Flute, FeaturedArtist on relevant tracks; neither role alone is currently accepted. Raw source names Moyse globally without a work scope, so a new review must not silently remove him from Suite3. Two unsegmented source bands also need complete movement inventories.",
+      "next_action": "Verify source flute scope, ensemble/flute role semantics and the complete two-suite mapping before any promotion; no inferred participation or general role waiver."
     },
     {
       "discogs_id": "13419516",
@@ -6068,9 +6063,10 @@
     "Grouping authorizes no new retrieval, identity alias, role waiver or automatic promotion."
   ],
   "source_hashes": {
-    "data/qobuz_unmatched_audit.json": "b6fd77045a1ee3e513c1693a38b6589ac8a1d2a9e53fe00fd03e26c99809b111",
-    "data/qobuz_matches.json": "34c551721231da102a95015a16d71651194a9bb5624d86b98f25c339c6bbeecd",
+    "data/qobuz_unmatched_audit.json": "7684e00e7dce1a7aec4d1d641f348a6f7463cea28c2d34466b4a8bf31d1194d0",
+    "data/qobuz_matches.json": "0daa467c071c4246347273a20438f7263f8cab0c635c5f84e7caa8c1d084cd79",
     "data/qobuz_catalogue40_recording_audit.json": "67d2cdb0cd161671d405df2fb0a941cb19b6b6e72167791869aa08c97215eed4",
+    "data/qobuz_credit10_recording_audit.json": "96de3fa7cbe78807b14925fff74f691782ad8f11acc5be132e716d3197c3bdce",
     "data/qobuz_credit12_recording_audit.json": "f720a1cc1c5beec68dbe0b3ae45b80e5fd003d272f4cc5ca872f6863e1105092",
     "data/qobuz_final_cached2_recording_audit.json": "0d6a38e1817de98fc971d7a0e9c92f972c24e0eff503fc569951030c0e29da73",
     "data/qobuz_focused4_recording_audit.json": "fd8f48b4c71e62b1e43a9c14b579e2d5cb742e540b40bc36de2e6032de7c8702",

@@ -46,7 +46,7 @@ def build(inventory, reviewed):
 def main():
     path = ROOT/'data/qobuz_unmatched_audit.json'
     reviewed = {}
-    for name in ['qobuz_priority14_batch_audit.json', 'qobuz_secondary23_recording_audit.json', 'qobuz_fullsupport16_recording_audit.json', 'qobuz_partial38_recording_audit.json', 'qobuz_zero104_recording_audit.json', 'qobuz_final_cached2_recording_audit.json', 'qobuz_credit12_recording_audit.json', 'qobuz_work_context9_recording_audit.json', 'qobuz_title9_recording_audit.json', 'qobuz_title19_recording_audit.json', 'qobuz_title3_recording_audit.json', 'qobuz_name2_recording_audit.json', 'qobuz_trio_recording_audit.json', 'qobuz_musician18_recording_audit.json', 'qobuz_catalogue40_recording_audit.json', 'qobuz_focused4_recording_audit.json', 'qobuz_title83_recording_audit.json']:
+    for name in ['qobuz_priority14_batch_audit.json', 'qobuz_secondary23_recording_audit.json', 'qobuz_fullsupport16_recording_audit.json', 'qobuz_partial38_recording_audit.json', 'qobuz_zero104_recording_audit.json', 'qobuz_final_cached2_recording_audit.json', 'qobuz_credit12_recording_audit.json', 'qobuz_work_context9_recording_audit.json', 'qobuz_title9_recording_audit.json', 'qobuz_title19_recording_audit.json', 'qobuz_title3_recording_audit.json', 'qobuz_name2_recording_audit.json', 'qobuz_trio_recording_audit.json', 'qobuz_musician18_recording_audit.json', 'qobuz_catalogue40_recording_audit.json', 'qobuz_focused4_recording_audit.json', 'qobuz_title83_recording_audit.json', 'qobuz_credit10_recording_audit.json']:
         source = ROOT/'data'/name
         if not source.exists():
             continue

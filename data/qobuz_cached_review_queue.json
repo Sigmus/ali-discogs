@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "reviewed_on": "2026-11-15",
-  "population": "153 unique releases currently categorized work_or_credit_unresolved",
+  "population": "143 unique releases currently categorized work_or_credit_unresolved",
   "rules": {
     "priority_review": "Unheld cached candidate supports >=50% of current source units; known/reviewed blockers excluded.",
     "secondary_partial_lead": "Some current support, below50%; known/reviewed blockers excluded.",
@@ -11,7 +11,7 @@
   },
   "counts": {
     "known_constraint": 3,
-    "no_current_supported_units": 150
+    "no_current_supported_units": 140
   },
   "entries": [
     {
@@ -187,14 +187,6 @@
       "best_cached_album_id": "0002894630792",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 5
-    },
-    {
-      "discogs_id": "3100828",
-      "title": "Die Walküre",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894786192",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
     },
     {
       "discogs_id": "3130380",
@@ -381,14 +373,6 @@
       "uncached_hits": 5
     },
     {
-      "discogs_id": "4079723",
-      "title": "Pièce Héroïque / Three Chorales",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894788630",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
       "discogs_id": "4101347",
       "title": "Klavierquintett Op. 34 ·  Piano Quintet",
       "queue": "no_current_supported_units",
@@ -481,14 +465,6 @@
       "title": "Concerto No.1 / Concerto No.2",
       "queue": "no_current_supported_units",
       "best_cached_album_id": "0002894462002",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "5085113",
-      "title": "Mostly Improvised Instrumental Indie Music",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "ztlihe8zksqfb",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 0
     },
@@ -685,14 +661,6 @@
       "uncached_hits": 4
     },
     {
-      "discogs_id": "7228304",
-      "title": "Die Zauberflöte",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894454642",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
       "discogs_id": "7341892",
       "title": "La Mer / Nocturnes",
       "queue": "no_current_supported_units",
@@ -869,14 +837,6 @@
       "uncached_hits": 0
     },
     {
-      "discogs_id": "8949471",
-      "title": "Piano Sonata No. 11 In A Major (K. 331)",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "4035122003413",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
       "discogs_id": "9272710",
       "title": "Ella & Louis",
       "queue": "no_current_supported_units",
@@ -949,28 +909,12 @@
       "uncached_hits": 0
     },
     {
-      "discogs_id": "10675304",
-      "title": "Tristan Und Isolde",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0723721233853",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
       "discogs_id": "10798025",
       "title": "The Complete Symphonies (Historic Broadcast Recordings)",
       "queue": "no_current_supported_units",
       "best_cached_album_id": "0002894740302",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 8
-    },
-    {
-      "discogs_id": "11077579",
-      "title": "Die Walküre",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894786192",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
     },
     {
       "discogs_id": "11345826",
@@ -1021,14 +965,6 @@
       "uncached_hits": 0
     },
     {
-      "discogs_id": "12218789",
-      "title": "Die Walküre",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894786192",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
       "discogs_id": "12329947",
       "title": "Les Quatuors Pour Piano Et Cordes",
       "queue": "no_current_supported_units",
@@ -1051,14 +987,6 @@
       "best_cached_album_id": "8718564801750",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 0
-    },
-    {
-      "discogs_id": "12872526",
-      "title": "Suites (Complete) Vol. II",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "5099921297052",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 6
     },
     {
       "discogs_id": "13069435",
@@ -1099,14 +1027,6 @@
       "best_cached_album_id": "0002894142542",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 0
-    },
-    {
-      "discogs_id": "13406445",
-      "title": "Suites (Complete) Vol. I",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "5099921297052",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 6
     },
     {
       "discogs_id": "13419516",
@@ -1245,5 +1165,5 @@
       "uncached_hits": 0
     }
   ],
-  "inventory_sha256": "b6fd77045a1ee3e513c1693a38b6589ac8a1d2a9e53fe00fd03e26c99809b111"
+  "inventory_sha256": "7684e00e7dce1a7aec4d1d641f348a6f7463cea28c2d34466b4a8bf31d1194d0"
 }
