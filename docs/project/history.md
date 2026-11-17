@@ -2490,3 +2490,9 @@ holds and 161 with no saved decision (150 credit-support, five completeness,
 six no-cache). UI copies: 12 Found / 194 Probable / 373 Reviewed · unresolved /
 162 Unchecked. Next suggested action is grouping the 150 credit-support cases.
 Local commit only; no push/deployment. [Evidence and reproduction](../plans/2026-11-17-qobuz-title83.md).
+
+## 2026-11-17 — Title83 checkpoint pushed
+
+At user request, pushed main 05ad280..d2e0498 to origin/main successfully.
+Includes all83 recording decisions, five Probable promotions, frozen evidence,
+345 passing script tests and updated planning. Pages deployment not verified.
