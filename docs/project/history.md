@@ -2520,3 +2520,9 @@ without decisions; recurring BerlinerPhilharmoniker9, Oistrach6, LSO6, Vienna6
 and Pitz6gaps identify follow-up groups. No Qobuz/audio calls or source rewrites.
 UIcopies12Found/195Probable/382Reviewed · unresolved/152Unchecked. Localcommit,
 no push/deploy. [Evidence/limits/next groups](../plans/2026-11-17-qobuz-credit150.md).
+
+## 2026-11-17 — Credit150 checkpoint pushed
+
+At user request, pushed main cb9eba3..fad2f5f to origin/main successfully.
+Includes frozen150case triage, first10recording decisions, DupréProbable promotion,
+354passing script tests and updated planning. Pages deployment not verified.

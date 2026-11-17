@@ -8,7 +8,7 @@ and cache commands. This directory owns current planning.
 
 ## Current state
 
-- Branch main; enrichment pushed through d2e0498 on17November at user request.
+- Branch main; enrichment pushed through fad2f5f on17November at user request.
   Pages deployment not verified.
 - Collection741copies/740unique. Saved labels: Spotify254Found/273Probable/
   210NotFound/4Unchecked; Qobuz12Found/195Probable/534Unchecked copies.
