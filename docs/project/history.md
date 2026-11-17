@@ -2446,3 +2446,18 @@ smoke checks pass; onlyfavicon404. Only40publication records changed; only2label
 changed. Source/cache/Spotify/earlierdiagnostic unchanged;0Qobuz/audio calls.
 UIcopies12Found/188Probable/292Reviewed · unresolved/249Unchecked. Local commit,
 no push/deploy. [Results and next focused batch](../plans/2026-11-16-qobuz-catalogue40.md).
+
+## 2026-11-17 — Four focused composer/catalogue cases
+
+All4/10candidatecomparisons reviewed:Rubinstein5163525Probable85; Richter8079435,
+Ravel15438425andSerkin15527713withheld. Rubinstein's2LPsides retain all8digital
+tracks, correct pianist/composer pertrack,1572/1610and1288/1274source/digital
+seconds within existing tolerance. BnFindexed work-pair corroboration saved with
+direct-page cache-miss disclosed; exactsession/pressing/transfer not verified.
+Otherholds preserve prelude key/name/sourceidentity, unboundoperasides/composer/
+orchestracredits and rolelesssourceorchestras. No new alias/role/composer waiver.
+338script tests, normalization/build and accepted/heldlocaldetails pass; only
+favicon404. Only4publicationrecords changed, only1acceptedlabel; originalsource/
+cache/Spotify/151diagnostic unchanged.0Qobuz/audio calls. UIcopies12Found/
+189Probable/295Reviewed · unresolved/245Unchecked. Localcommit, no push/deploy.
+[Results and next83case scope](../plans/2026-11-17-qobuz-focused4.md).

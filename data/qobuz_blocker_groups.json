@@ -1,19 +1,19 @@
 {
   "schema_version": 1,
   "reviewed_on": "2026-11-16",
-  "unique_unresolved_releases": 540,
+  "unique_unresolved_releases": 539,
   "review_state_counts": {
-    "no_saved_decision": 248,
-    "reviewed_unresolved": 292
+    "no_saved_decision": 244,
+    "reviewed_unresolved": 295
   },
   "planning_families": {
-    "credit_evidence": 215,
+    "credit_evidence": 217,
     "no_cached_candidate": 6,
     "other_saved_blocker": 63,
     "partial_programme_or_completeness": 5,
-    "recording_identity": 56,
+    "recording_identity": 57,
     "source_programme_mapping": 108,
-    "work_title_or_catalogue_mapping_unresolved": 87
+    "work_title_or_catalogue_mapping_unresolved": 83
   },
   "groups": {
     "credit_support_unresolved": 150,
@@ -110,6 +110,7 @@
     "saved:neumann-cycle-incomplete": 1,
     "saved:nineteen-source-waltz-conflicts": 1,
     "saved:notation_plus_other_blockers": 1,
+    "saved:opera_side_cast_and_composer_gaps": 1,
     "saved:orchestra-identity": 3,
     "saved:organ-programme-map": 1,
     "saved:pair-structure-and-session": 1,
@@ -118,6 +119,7 @@
     "saved:partial_programme": 1,
     "saved:partial_programme_and_catalogue_systems": 1,
     "saved:performer-identity-and-session": 1,
+    "saved:prelude_identity_and_source_discrepancy": 1,
     "saved:programme-and-cast": 1,
     "saved:programme-and-identity": 1,
     "saved:programme-and-orchestra": 2,
@@ -158,6 +160,7 @@
     "saved:source-soloist-and-one-file-scope": 1,
     "saved:source-typos-large-piano-box": 1,
     "saved:source_number_and_partial_coupling": 1,
+    "saved:source_orchestras_missing_positive_roles": 1,
     "saved:split-act-source-boundaries": 1,
     "saved:split-programme": 1,
     "saved:split-programme-identity": 1,
@@ -172,7 +175,7 @@
     "saved:work-scoped-pianist": 1,
     "saved:wrong-cast-moldau": 1,
     "saved:wrong_accompanist_and_programme": 1,
-    "work_title_or_catalogue_mapping_unresolved": 87
+    "work_title_or_catalogue_mapping_unresolved": 83
   },
   "entries": [
     {
@@ -2156,17 +2159,6 @@
       "next_action": null
     },
     {
-      "discogs_id": "5163525",
-      "title": "Sonata In B Minor / \"Wanderer\" Fantasy",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
-      "cached_candidate_count": 1,
-      "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
-    },
-    {
       "discogs_id": "5192278",
       "title": "The 5 Piano Concertos / Choral Fantasy",
       "review_state": "no_saved_decision",
@@ -3588,13 +3580,13 @@
     {
       "discogs_id": "8079435",
       "title": "13 Preludes",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:prelude_identity_and_source_discrepancy",
+      "planning_family": "recording_identity",
       "cached_candidate_count": 5,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Candidate va30yv9sajc6a lists all13source prelude numbers, but spells pianist Svjatoslav Richter versus source Sviatoslav Richter; source Op23No8key is A-flat major while candidate says B-flat minor. Other DG editions contain only subsets, and Tchaikovsky Op23tracks must never satisfy Rachmaninoff Op23. Concatenated opus/member numbers and French role strings in another candidate do not establish positive source credits or recording identity.",
+      "next_action": "Corroborate the exact Melodiya source recording and pianist spelling, resolve Op23No8key discrepancy, then bind all13source leaves; no global composer/pianist alias or partial-set acceptance."
     },
     {
       "discogs_id": "8121703",
@@ -5491,24 +5483,24 @@
     {
       "discogs_id": "15438425",
       "title": "L´Heure Espagnole",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:opera_side_cast_and_composer_gaps",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 1,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Source has two LP sides labelled first/second part. Cache has24opera scenes including XIXcontinuation, but no verified side boundary. Inspected scene strings omit positive composer declarations, name roleless Orchestre National R.T.F. rather than source Orchestre National De France, and singers occur per scene. Title similarity does not fill side/cast/composer/ensemble evidence.",
+      "next_action": "Establish exact source side split and recording/cast identity with positive composer/orchestra declarations; do not invent scene-to-side boundaries or borrow the whole cast onto every scene."
     },
     {
       "discogs_id": "15527713",
       "title": "Concerto No. 1 In G Minor / Concerto No. 2 In D Minor",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:source_orchestras_missing_positive_roles",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 3,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Candidate contains both Serkin/Ormandy Mendelssohn piano concertos but source Philadelphia/Columbia orchestras are roleless strings. Track composer uses lifespan-annotated Felix Mendelssohn versus full source name. Source explicitly assigns Philadelphia to Op25and Columbia to Op40; preserve those scopes. Ormandy anthology has the violin concerto, not both piano works; AgeOfElegance does not supply them.",
+      "next_action": "Retain exact composer-identity/source-orchestra scopes and obtain positive orchestral performance declarations for every bound piano-concerto track; no roleless-credit waiver."
     },
     {
       "discogs_id": "15587453",
@@ -6128,11 +6120,12 @@
     "Grouping authorizes no new retrieval, identity alias, role waiver or automatic promotion."
   ],
   "source_hashes": {
-    "data/qobuz_unmatched_audit.json": "aab3fc90ed8850a073b0afa6132561dc5e7a04614794023ca005018cbfdb5ec5",
-    "data/qobuz_matches.json": "e5951decaa541cf3c9cc07ae588c2321f59d35aa08c98886d593bdfb5ba36339",
+    "data/qobuz_unmatched_audit.json": "a0a12f409e64c06e014798d4c4b35c98de05ffb9ef942543512dfd0b0596db14",
+    "data/qobuz_matches.json": "b21a82ac5f1009ebb71d345e2eb640530f4252c0a1c1ce55bb2baf377a7895b4",
     "data/qobuz_catalogue40_recording_audit.json": "67d2cdb0cd161671d405df2fb0a941cb19b6b6e72167791869aa08c97215eed4",
     "data/qobuz_credit12_recording_audit.json": "f720a1cc1c5beec68dbe0b3ae45b80e5fd003d272f4cc5ca872f6863e1105092",
     "data/qobuz_final_cached2_recording_audit.json": "0d6a38e1817de98fc971d7a0e9c92f972c24e0eff503fc569951030c0e29da73",
+    "data/qobuz_focused4_recording_audit.json": "fd8f48b4c71e62b1e43a9c14b579e2d5cb742e540b40bc36de2e6032de7c8702",
     "data/qobuz_fullsupport16_recording_audit.json": "4187655cdfbfbc21fc9895b0818c8755a72596608a5ce7d1579ac38e1901510a",
     "data/qobuz_musician18_recording_audit.json": "9c8bd7a26f44ae68417d4239f83c776c6f18779705caddb47fe7037e792d1e2e",
     "data/qobuz_name2_recording_audit.json": "62a557a54ab7285eabc379d15d0710d60d56f6ba3a748879e01b28eed3f3a8ba",

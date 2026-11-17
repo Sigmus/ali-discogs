@@ -1,0 +1,1311 @@
+{
+  "schema_version": 1,
+  "reviewed_on": "2026-11-17",
+  "status": "complete",
+  "frozen_release_ids": [
+    "5163525",
+    "8079435",
+    "15438425",
+    "15527713"
+  ],
+  "entries": [
+    {
+      "discogs_id": "5163525",
+      "title": "Sonata In B Minor / \"Wanderer\" Fantasy",
+      "outcome": "probable",
+      "finding_kind": "complete_source_sides",
+      "finding": "Source LSC2871Liszt Sonata sideA and Schubert Wanderer sideB bind four digital tracks each. Positive Arthur Rubinstein and the correct composer on every selected track, complete ordered groups and source/digital durations1572/1610and1288/1274seconds within existing tolerance. Institutional catalogue corroborates the performer/repertoire pairing; exact pressing/takes/transfer not verified.",
+      "next_action": "Retain both exact source-side groups, positive composer/pianist checks and source timing differences.",
+      "target_sha256": "b063bb65f33bb1d9501f8e83eff4b49b1ed70af28a40d92d33a6231d60acc13e",
+      "source_sha256": "344f1e401ea7c4251f63dffc56f49b6177e333dfb387b138f004509cd470bfdb",
+      "review_album_id": "0886446203515",
+      "review_album_sha256": "b880124dd295b32ab1c1a68cca2ff043974e5445ff6e2a63f0f5d67b981f0b15",
+      "source_programme": [
+        {
+          "position": "A",
+          "type_": "track",
+          "artists": [
+            {
+              "name": "Franz Liszt",
+              "anv": "Liszt",
+              "join": "",
+              "role": "",
+              "tracks": "",
+              "id": 226461,
+              "resource_url": "https://api.discogs.com/artists/226461"
+            }
+          ],
+          "title": "Sonata In B Minor",
+          "duration": "26:12"
+        },
+        {
+          "position": "B",
+          "type_": "track",
+          "artists": [
+            {
+              "name": "Franz Schubert",
+              "anv": "Schubert",
+              "join": "",
+              "role": "",
+              "tracks": "",
+              "id": 283469,
+              "resource_url": "https://api.discogs.com/artists/283469"
+            }
+          ],
+          "title": "\"Wanderer\" Fantasy (Fantasia In C, Op. 15 [D. 760])",
+          "duration": "21:28"
+        }
+      ],
+      "source_credits": [
+        {
+          "name": "Sergio Marcotulli",
+          "anv": "",
+          "join": "",
+          "role": "Engineer",
+          "tracks": "",
+          "id": 382753,
+          "resource_url": "https://api.discogs.com/artists/382753"
+        },
+        {
+          "name": "Bernard Jacobson",
+          "anv": "",
+          "join": "",
+          "role": "Liner Notes",
+          "tracks": "",
+          "id": 1668035,
+          "resource_url": "https://api.discogs.com/artists/1668035"
+        },
+        {
+          "name": "Arthur Rubinstein",
+          "anv": "Artur Rubinstein",
+          "join": "",
+          "role": "Piano [Pianist]",
+          "tracks": "",
+          "id": 824202,
+          "resource_url": "https://api.discogs.com/artists/824202"
+        },
+        {
+          "name": "Max Wilcox",
+          "anv": "",
+          "join": "",
+          "role": "Producer",
+          "tracks": "",
+          "id": 718437,
+          "resource_url": "https://api.discogs.com/artists/718437"
+        }
+      ],
+      "source_artists": [
+        {
+          "name": "Arthur Rubinstein",
+          "anv": "Artur Rubinstein",
+          "join": ",",
+          "role": "",
+          "tracks": "",
+          "id": 824202,
+          "resource_url": "https://api.discogs.com/artists/824202",
+          "thumbnail_url": "https://i.discogs.com/CMehi_807Tetc8LYMbR83oVLLi5vYhNs-u2uiyRVOsc/rs:fit/g:sm/q:90/h:426/w:319/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTgyNDIw/Mi0xNzY2OTQ0MzM1/LTEzMzIuanBlZw.jpeg"
+        },
+        {
+          "name": "Franz Liszt",
+          "anv": "Liszt",
+          "join": ",",
+          "role": "",
+          "tracks": "",
+          "id": 226461,
+          "resource_url": "https://api.discogs.com/artists/226461",
+          "thumbnail_url": "https://i.discogs.com/o0eWp89l7AnQTiX69vwXiM2mau1GD5N4Q3huspSX8ks/rs:fit/g:sm/q:90/h:600/w:446/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIyNjQ2/MS0xNjA4MDU3MDgy/LTkyOTcucG5n.jpeg"
+        },
+        {
+          "name": "Franz Schubert",
+          "anv": "Schubert",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 283469,
+          "resource_url": "https://api.discogs.com/artists/283469",
+          "thumbnail_url": "https://i.discogs.com/GOoPUdfJcy_J2Sr_mOis-QReVFmvcVifbs-gE55wTak/rs:fit/g:sm/q:90/h:600/w:503/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI4MzQ2/OS0xNzMxMTMxNDgx/LTcxMTMuanBlZw.jpeg"
+        }
+      ],
+      "source_notes": null,
+      "selected_track_fingerprints": {
+        "36079973": "051ca31b013e89e223b104c3f46131959f1e940dd80d81d066869e3f64f44731",
+        "36079975": "5cffe77923191484916bf5ac623a2da48c661c051654969e558b09bb1c6c7fbd",
+        "36079977": "7e8d5e4349790c3f491d742cd15a74fcc7f1e1df102847f47b900cf091677655",
+        "36079979": "bbb4dc855efdc99361c9dbcc8b12675c42d06c662d3719f5c6494d11e7bcdef3",
+        "36079981": "b7293f1abfd814fc16e3b3707632bf19c7f22ca4051fa746c6efdb5409295326",
+        "36079983": "969586beb52248a5aa945922661b503a61c5958c09a06a00c719da9f45a5d614",
+        "36079985": "1af6983155bf48fa1e66a4693cf159ba8c2ea6bb344a4c64e1449340d72f069b",
+        "36079987": "31f86d5cfb78fff8104f60ee017f90112170b121a28477efe97289028d45a386"
+      },
+      "cached_alternative_checks": [
+        {
+          "album_id": "0886446203515",
+          "title": "Liszt: Piano Sonata in B Minor, S. 178 - Schubert: Fantasy in C Major, D. 760 \"Wanderer\"",
+          "album_sha256": "b880124dd295b32ab1c1a68cca2ff043974e5445ff6e2a63f0f5d67b981f0b15",
+          "track_manifest_sha256": "af426a321a767ea1fc1aab4ef6f91f4d0d5d723c32d0e6430d482390738a22cd",
+          "tracks_count": 8,
+          "track_titles": [
+            "I. Lento assai",
+            "II. Andante sostenuto",
+            "III. Allegro energico",
+            "Stretta quasi presto",
+            "I. Allegro con fuoco, ma non troppo",
+            "II. Adagio",
+            "III. Presto",
+            "IV. Allegro"
+          ]
+        }
+      ],
+      "original_diagnostic_family": "shared_catalogue_but_unresolved_title_structure",
+      "result": {
+        "discogs_id": "5163525",
+        "album_id": "0886446203515",
+        "decision": "probable",
+        "recording_review": "Source LSC2871Liszt Sonata sideA and Schubert Wanderer sideB bind four digital tracks each. Positive Arthur Rubinstein and the correct composer on every selected track, complete ordered groups and source/digital durations1572/1610and1288/1274seconds within existing tolerance. Institutional catalogue corroborates the performer/repertoire pairing; exact pressing/takes/transfer not verified.",
+        "sources": [
+          "https://www.discogs.com/release/5163525",
+          "https://catalogue.bnf.fr/affiner.do?afficheRegroup=false&critereRecherche=&index=AUT3&listeAffinages=FacOeu_13918278&motRecherche=&nbResultParPage=100&numNotice=13977375&triResultParPage=14&trouveDansFiltre=NoticePUB&typeNotice="
+        ],
+        "limitations": [
+          "Recording-family assessment only; exact LP pressing, takes and mastering/transfer not verified.",
+          "Source programme, names, key/timing discrepancies and positive credit requirements are preserved. No general composer, performer, role or catalogue waiver.",
+          "Source sideA26:12versus digital26:50and sideB21:28versus21:14are retained; they pass existing tolerance without exceptions. Work identity is bound per source side, not a global missing-opus or D/Op equivalence."
+        ],
+        "eligible": true,
+        "blockers": [],
+        "completeness": {
+          "status": "complete",
+          "works": [
+            {
+              "target": "A: Sonata In B Minor",
+              "source_path": [
+                0
+              ],
+              "status": "complete",
+              "track_ids": [
+                36079973,
+                36079975,
+                36079977,
+                36079979
+              ],
+              "scope": "reviewed-complete-source-band",
+              "source_duration_seconds": 1572,
+              "digital_duration_seconds": 1610,
+              "source_duration_notes": []
+            },
+            {
+              "target": "B: \"Wanderer\" Fantasy (Fantasia In C, Op. 15 [D. 760])",
+              "source_path": [
+                1
+              ],
+              "status": "complete",
+              "track_ids": [
+                36079981,
+                36079983,
+                36079985,
+                36079987
+              ],
+              "scope": "reviewed-complete-source-band",
+              "source_duration_seconds": 1288,
+              "digital_duration_seconds": 1274,
+              "source_duration_notes": []
+            }
+          ]
+        }
+      }
+    },
+    {
+      "discogs_id": "8079435",
+      "title": "13 Preludes",
+      "outcome": "withhold",
+      "finding_kind": "prelude_identity_and_source_discrepancy",
+      "finding": "Candidate va30yv9sajc6a lists all13source prelude numbers, but spells pianist Svjatoslav Richter versus source Sviatoslav Richter; source Op23No8key is A-flat major while candidate says B-flat minor. Other DG editions contain only subsets, and Tchaikovsky Op23tracks must never satisfy Rachmaninoff Op23. Concatenated opus/member numbers and French role strings in another candidate do not establish positive source credits or recording identity.",
+      "next_action": "Corroborate the exact Melodiya source recording and pianist spelling, resolve Op23No8key discrepancy, then bind all13source leaves; no global composer/pianist alias or partial-set acceptance.",
+      "target_sha256": "4f607032551718ad0a031eb8ef94f08f3896f9caa96501d00e48cf86b23c3e2b",
+      "source_sha256": "4fe55b76e3ed12544fb23aebebecf25ce73140c2fce03ebb5635b70801038b6e",
+      "review_album_id": "va30yv9sajc6a",
+      "review_album_sha256": "9174930a77a0638af434c81f14372f58bc01961326bb1d5d26219cdd1b4a1ae9",
+      "source_programme": [
+        {
+          "position": "",
+          "type_": "heading",
+          "title": "6 Preludi Op. 23",
+          "duration": ""
+        },
+        {
+          "position": "A1",
+          "type_": "track",
+          "title": "Fa Diesis Minore, Largo (No. 1)",
+          "duration": ""
+        },
+        {
+          "position": "A2",
+          "type_": "track",
+          "title": "Si Bemolle Maggiore, Maestoso (No. 2)",
+          "duration": ""
+        },
+        {
+          "position": "A3",
+          "type_": "track",
+          "title": "Re Maggiore, Andante Cantabile (No. 4)",
+          "duration": ""
+        },
+        {
+          "position": "A4",
+          "type_": "track",
+          "title": "Sol Minore, Alla Marcia (No. 5)",
+          "duration": ""
+        },
+        {
+          "position": "A5",
+          "type_": "track",
+          "title": "DoMinore, Allegro (No. 7)",
+          "duration": ""
+        },
+        {
+          "position": "A6",
+          "type_": "track",
+          "title": "La Bemolle Maggiore, Allegro Vivace (No. 8)",
+          "duration": ""
+        },
+        {
+          "position": "",
+          "type_": "heading",
+          "title": "7 Preludi Op. 32",
+          "duration": ""
+        },
+        {
+          "position": "B1",
+          "type_": "track",
+          "title": "Do Maggiore, Allegro Vivace (No. 1)",
+          "duration": ""
+        },
+        {
+          "position": "B2",
+          "type_": "track",
+          "title": "Si Bemolle Minore, Allegretto (No. 2)",
+          "duration": ""
+        },
+        {
+          "position": "B3",
+          "type_": "track",
+          "title": "Fa Minore, Allegro Appassionato (No. 6)",
+          "duration": ""
+        },
+        {
+          "position": "B4",
+          "type_": "track",
+          "title": "Fa Maggiore, Moderato (No. 7)",
+          "duration": ""
+        },
+        {
+          "position": "B5",
+          "type_": "track",
+          "title": "La Maggiore, Allegro Moderato (No. 9)",
+          "duration": ""
+        },
+        {
+          "position": "B6",
+          "type_": "track",
+          "title": "Si Minore, Lento (No. 10)",
+          "duration": ""
+        },
+        {
+          "position": "B7",
+          "type_": "track",
+          "title": "Sol Diesis Minore, Allegro (No. 12)",
+          "duration": ""
+        }
+      ],
+      "source_credits": [
+        {
+          "name": "Sergei Rachmaninoff",
+          "anv": "S. Rachmaninov",
+          "join": "",
+          "role": "Composed By",
+          "tracks": "",
+          "id": 206280,
+          "resource_url": "https://api.discogs.com/artists/206280"
+        },
+        {
+          "name": "Horst Lindner",
+          "anv": "",
+          "join": "",
+          "role": "Engineer",
+          "tracks": "",
+          "id": 859039,
+          "resource_url": "https://api.discogs.com/artists/859039"
+        },
+        {
+          "name": "Sviatoslav Richter",
+          "anv": "",
+          "join": "",
+          "role": "Piano",
+          "tracks": "",
+          "id": 834578,
+          "resource_url": "https://api.discogs.com/artists/834578"
+        }
+      ],
+      "source_artists": [
+        {
+          "name": "Sviatoslav Richter",
+          "anv": "",
+          "join": "Plays",
+          "role": "",
+          "tracks": "",
+          "id": 834578,
+          "resource_url": "https://api.discogs.com/artists/834578",
+          "thumbnail_url": "https://i.discogs.com/VXAAy2OP3ukXltmgdPaNs69J1HKdqRMSYV3pjRjs0qY/rs:fit/g:sm/q:90/h:489/w:500/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTgzNDU3/OC0xMjM1MTM2MjU0/LmpwZWc.jpeg"
+        },
+        {
+          "name": "Sergei Rachmaninoff",
+          "anv": "S. Rachmaninov",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 206280,
+          "resource_url": "https://api.discogs.com/artists/206280",
+          "thumbnail_url": "https://i.discogs.com/9-WPhdARuqRZdoXUUAlkMSp0tNdDXe-LwKeRyNxjZzQ/rs:fit/g:sm/q:90/h:600/w:472/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIwNjI4/MC0xNzY1NjU3NDM5/LTkzNTcuanBlZw.jpeg"
+        }
+      ],
+      "source_notes": "P Melodiya/la Voce del padrone 1973",
+      "selected_track_fingerprints": {
+        "139676314": "7c77c83f4198fee07111b5e3b41f24209e6b82b9cec2742481a9a946da2718f1",
+        "139676315": "ed1a6b689f118c80f73f483d3599a90468f6adccb4f77e4f422dd6f02ded836a",
+        "139676316": "a0fa4d14f3e2cd65ed0bdd6b5369c0fc8cb5f00274a5319e6ebfd5e5c2bce184",
+        "139676317": "5c66da97d5fd9b116841dddc0593a1688f4871e61023b0bccb047da879b2e11a",
+        "139676318": "0fb12543801f0fcaba23fb05115e7b7d6f3e78baa70e6c1583174503be96b8ad",
+        "139676319": "f21e411b9e5158f468d83b0296b0cca29614245de6957ad3b84201d64c0fdc33",
+        "139676320": "fd31b2e5126f3b75e9102144738d143ae13d005d631605e70ac5736ee699a889",
+        "139676321": "798c12b1c859c89fd3e74b5bbebc522ab01472515982a420fb45fb7d8bce3e79",
+        "139676322": "07e0a5960f7f976d5d2c25c88c44a8ea11badb6ee16f5f73f54625b0ef98b8f9",
+        "139676323": "074f43f60f170e90704ac6441f7f8925d788598fb71b5ab36516b7c4924d20ff",
+        "139676324": "f4e3c03f27ee303a32302b84a9de9ed409ed4a2b7c2159faf45750a8c19fe750",
+        "139676325": "4531e5ce4cd270db077aa3983a54ce66206050b775dfc4baf83d87144db648d2",
+        "139676326": "066698a0c4f46bffd0056a0d45fa402110d395058c0bceb12992cfdadbc5955c",
+        "139676327": "804b0b261e278ce34859bd262b207687aab83016d55b88a7c7b02a1b2ccbc153",
+        "139676328": "4ecd3421d703d3e36d723b98150a844034279db5ed64e25da89ac925feb9869f",
+        "139676329": "846575c3477fa4613a358253f9ec3cd08c884b5d979655ce5b30000cca001f6b",
+        "139676330": "067ecf5a08e9d2ca862a0aa329ec02aa3a31758c9b8342e12da5dda1d03f989d",
+        "139676331": "59f410f76ca9288f23ed0196a62f7cca05b6629ce26a2b39754038cd6e62730e",
+        "139676332": "b9631751293358631976adf05aaba06b3bd596737c01462cae8b3dbe505b1cda",
+        "139676333": "f2ccc29e26eea3e08c8985a3de7b9674001ffcc183fcc7efb68791b56da7061f",
+        "139676334": "5adfbc858e8aa3ef4117f2452d43f9a1ecaa4d208bd4cf2a6ef947479f3d946f",
+        "139676335": "3c474b0043a2bf1b686a2be80514d23762087715689ee217cb8850f4d3477729"
+      },
+      "cached_alternative_checks": [
+        {
+          "album_id": "0002894190682",
+          "title": "Tchaikovsky: Piano Concerto No.1 / Rachmaninov: Préludes",
+          "album_sha256": "e2f9d11220855326d4ae736a55694ffd42eef0252c760d69f4b860c0b3b0f9e7",
+          "track_manifest_sha256": "e3bca279adc975b12069d3bc6218b20bb12aa6e7b0b163620244e88f0991f890",
+          "tracks_count": 8,
+          "track_titles": [
+            "Tchaikovsky: Piano Concerto No. 1 in B-Flat Minor, Op. 23: I. Allegro non troppo e molto maestoso – Allegro con spirito",
+            "Tchaikovsky: Piano Concerto No. 1 in B-Flat Minor, Op. 23: II. Andantino semplice – Prestissimo – Tempo I",
+            "Tchaikovsky: Piano Concerto No. 1 in B-Flat Minor, Op. 23: III. Allegro con fuoco – Molto meno mosso – Allegro vivo",
+            "Rachmaninoff: 13 Préludes, Op. 32: No. 1 Allegro vivace In C Major",
+            "Rachmaninoff: 13 Préludes, Op. 32: No. 2 Allegretto In B Flat Major",
+            "Rachmaninoff: 10 Preludes, Op. 23: No. 2 Maestoso In B Flat Major",
+            "Rachmaninoff: 10 Preludes, Op. 23: No. 5 Alla marcia in G Minor",
+            "Rachmaninoff: 10 Preludes, Op. 23: No. 7 Allegro In C Minor"
+          ]
+        },
+        {
+          "album_id": "0002894576672",
+          "title": "Sviatoslav Richter - In Memoriam",
+          "album_sha256": "fb0b5b49f600edca9966333fe8286254da5faceb3f6bbce82900f43742482ec9",
+          "track_manifest_sha256": "424c51f03bf327d4efeb1118f0f521b41fb9c94b46f7b70c6f05782eb5293110",
+          "tracks_count": 31,
+          "track_titles": [
+            "J.S. Bach: Prelude and Fugue in C (WTK, Book I, No. 1), BWV 846",
+            "Prelude and Fugue in C sharp minor (WTK, Book I, No. 4), BWV 849",
+            "Praeludium 5 - Fuga 5 a 4",
+            "Praeludium 6 - Fuga 6 a 3",
+            "Praeludium 8 - Fuga 8 a 3",
+            "Haydn: Piano Sonata In G Minor, H.XVI No.44: 1. Moderato",
+            "Haydn: Piano Sonata In G Minor, H.XVI No.44: 2. Allegretto",
+            "Chopin: Ballade No. 3 In A Flat, Op. 47",
+            "Chopin: Ballade No. 4 in F minor, Op. 52",
+            "Chopin: Polonaise No. 7 in A flat, Op. 61 Polonaise-Fantaisie: Polonaise No. 7 in A flat, Op. 61 Polonaise-Fantaisie",
+            "Chopin: 12 Etudes, Op. 10: No. 1 In C",
+            "Chopin: 12 Etudes, Op. 10: No. 12 In C Minor \"Revolutionary\"",
+            "Schubert: Allegretto In C Minor, D.915",
+            "Schubert: 17 Landler, D.366: Ländler In A Major",
+            "Schumann: Abegg Variations, Op. 1",
+            "Debussy: Estampes, L. 100: 1. Pagodes",
+            "Debussy: Estampes, L. 100: 2. Soirée dans Grenade",
+            "Debussy: Estampes, L. 100: 3. Jardins sous la pluie",
+            "Debussy: Préludes / Book 1, L.117: 2. Voiles",
+            "Debussy: Préludes / Book 1, L.117: 3. Le vent dans la plaine",
+            "Debussy: Préludes / Book 1, L.117: 5. Les collines d'Anacapri",
+            "Rachmaninoff: 10 Preludes, Op. 23: No. 2 Maestoso In B Flat Major",
+            "Rachmaninoff: 10 Preludes, Op. 23: No. 4 Andante cantabile In D Major",
+            "Rachmaninoff: 10 Preludes, Op. 23: No. 5 Alla marcia in G Minor",
+            "Rachmaninoff: 10 Preludes, Op. 23: No. 7 Allegro In C Minor",
+            "Rachmaninoff: 13 Préludes, Op. 32: No. 1 Allegro vivace In C Major",
+            "Rachmaninoff: 13 Préludes, Op. 32: No. 2 Allegretto In B Flat Major",
+            "Rachmaninoff: Prélude In G Sharp Minor, Op. 32, No. 12",
+            "Prokofiev: Visions Fugitives, Op. 22: 3. Allegretto",
+            "Prokofiev: Visions Fugitives, Op. 22: 6. Con eleganza",
+            "Prokofiev: Visions Fugitives, Op. 22: 9. Allegretto tranquillo"
+          ]
+        },
+        {
+          "album_id": "0002894778122",
+          "title": "Pianist Of The Century (Complete DG Solo / Concerto Recordings)",
+          "album_sha256": "c2f173c3decaf75a30cd9e712f84b4c92ecf6247a0389e8df33c82bd8ba39953",
+          "track_manifest_sha256": "75348d5b2e211eed253663ef0f2e2f55078b85bbd22100e76d826dc1d5c49d90",
+          "tracks_count": 75,
+          "track_titles": [
+            "2. G Minor",
+            "I. Eintritt",
+            "II. Jäger auf der Lauer",
+            "III. Einsame Blumen",
+            "IV. Verrufene Stelle",
+            "V. Freundliche Landschaft",
+            "VI. Herberge",
+            "VII. Vogel als Prophet",
+            "VIII. Jagdlied",
+            "IX. Abschied",
+            "1. Des Abends",
+            "2. Aufschwung",
+            "3. Warum?",
+            "5. In der Nacht",
+            "7. Traumes-Wirren",
+            "8. Ende vom Lied",
+            "I. Allegro (Cadenza: Beethoven, WoO 58/1)",
+            "II. Romance",
+            "III. Rondo. Allegro assai (Cadenza: Beethoven, WoO 58/2)",
+            "I. Allegro con brio",
+            "II. Moderato ben accentuato",
+            "III. Toccata",
+            "IV. Larghetto",
+            "V. Vivo",
+            "I. Moderato",
+            "II. Adagio sostenuto",
+            "III. Allegro scherzando",
+            "No. 1 Allegro vivace In C Major",
+            "No. 2 Allegretto In B Flat Major",
+            "No. 2 Maestoso In B Flat Major",
+            "No. 4 Andante cantabile In D Major",
+            "No. 5 Alla marcia in G Minor",
+            "No. 7 Allegro In C Minor",
+            "I. Allegro affettuoso",
+            "II. Intermezzo (Andantino grazioso)",
+            "III. Allegro vivace",
+            "Schumann: Introduction & Allegro Appassionato for Piano & Orchestra, Op. 92",
+            "No. 1 in F (Markiert und kräftig)",
+            "Allegro",
+            "1. Moderato",
+            "2. Allegretto",
+            "Chopin: Ballade No. 3 In A Flat, Op. 47",
+            "2. Voiles",
+            "3. Le vent dans la plaine",
+            "5. Les collines d'Anacapri",
+            "I. Andante dolce - Allegro moderato - Andante - Andante dolce come prima - Allegro",
+            "II. Andante sognando",
+            "III. Vivace - Allegro ben marcato - Andantino - Vivace",
+            "I. Allegro non troppo e molto maestoso – Allegro con spirito",
+            "II. Andantino semplice – Prestissimo – Tempo I",
+            "III. Allegro con fuoco – Molto meno mosso – Allegro vivo",
+            "Beethoven: Rondo for Piano and Orchestra in B Flat Major, WoO. 6",
+            "I. Allegro con brio",
+            "II. Largo",
+            "III. Rondo (Allegro)",
+            "Polonaise No. 7 in A flat, Op. 61 Polonaise",
+            "No. 1 In C",
+            "No. 12 In C Minor \"Revolutionary\"",
+            "Chopin: Ballade No. 4 in F minor, Op. 52",
+            "1. Pagodes",
+            "2. Soirée dans Grenade",
+            "3. Jardins sous la pluie",
+            "Allegro - Presto con allegrezza Meno vivo - Prestissimo",
+            "J.S. Bach: Prelude and Fugue in C (WTK, Book I, No. 1), BWV 846",
+            "Prelude and Fugue in C sharp minor (WTK, Book I, No. 4), BWV 849",
+            "Praeludium 5 - Fuga 5 a 4",
+            "Praeludium 6 - Fuga 6 a 3",
+            "Praeludium 8 - Fuga 8 a 3",
+            "Schubert: Allegretto In C Minor, D.915",
+            "Ländler In A Major",
+            "Schumann: Abegg Variations, Op. 1",
+            "Rachmaninoff: Prélude In G Sharp Minor, Op. 32, No. 12",
+            "3. Allegretto",
+            "6. Con eleganza",
+            "9. Allegretto tranquillo"
+          ]
+        },
+        {
+          "album_id": "4035122402483",
+          "title": "Ravel & Rachmaninov : Preludes",
+          "album_sha256": "9ba3814535996090f3a4a7923ce6d809b84068a5cd6097d2c4d0154eb267a41f",
+          "track_manifest_sha256": "192a4d016b2c3054fd4b31baf4e5a3819656ce78b2499fbe48f2c18d63f90c4a",
+          "tracks_count": 16,
+          "track_titles": [
+            "Pavane pour une infante défunte",
+            "Gaspard de la nuit",
+            "Jeux d'eau",
+            "Valses nobles et sentimentales",
+            "Alborada del Gracioso",
+            "Prelude in F Sharp Minor, Op. 231",
+            "Prelude In A Major Op. 329",
+            "Prelude In B Minor Op. 3210",
+            "Prelude In G Sharp Minor Op. 3212",
+            "Prelude In A Flat Major Op. 238",
+            "Prelude In F Major Op.238",
+            "Prelude In C Major Op. 321",
+            "Prelude In B Flat Minor Op. 322",
+            "Prelude In B Flat Major Op.232",
+            "Prelude In D Major Op.234",
+            "Prelude In C Major Op.237"
+          ]
+        },
+        {
+          "album_id": "va30yv9sajc6a",
+          "title": "Sergei Rachmaninov: Etudes-Tableaux & Preludes (excerpts)",
+          "album_sha256": "9174930a77a0638af434c81f14372f58bc01961326bb1d5d26219cdd1b4a1ae9",
+          "track_manifest_sha256": "4c089b754d691e416b5b414029ca29f1304a4fe7fd49dfb8f95d739082b4f825",
+          "tracks_count": 22,
+          "track_titles": [
+            "Etudes-Tableaux, Op. 33: No. 9 in C Sharp Minor (Grave)",
+            "Etudes-Tableaux, Op. 33: No. 5 in D Minor (Moderato)",
+            "Etudes-Tableaux, Op. 33: No. 6 in E Flat Minor (Non allegro - Presto)",
+            "Etudes-Tableaux, Op. 39: No. 1 in C Minor (Allegro agitato)",
+            "Etudes-tableaux, Op. 39: No. 2 in A Minor (Lento assai)",
+            "Etudes-Tableaux, Op. 39: No. 3 in F-Sharp Minor (Allegro molto)",
+            "Etudes-tableaux, Op. 39: No. 4 in B Minor (Allegro assai)",
+            "Etudes-Tableaux, Op. 39: No. 7 in C Minor (Lento)",
+            "Etudes-Tableaux, Op. 39: No. 9 in D Major (Allegro moderato)",
+            "Preludes, Op. 23: No. 1 in F-Sharp Minor (Largo)",
+            "Preludes, Op. 23: No. 2 in B-Flat Major (Maestoso)",
+            "Preludes, Op. 23: No. 4 in D Major (Andante cantabile)",
+            "Preludes, Op. 23: No. 5 in G Minor (Alla marcia)",
+            "Preludes, Op. 23: No. 8 in B-Flat Minor (Allegro vivace)",
+            "Preludes, Op. 23: No. 7 in C Minor (Allegro)",
+            "Preludes, Op. 32: No. 2 in B-Flat Minor (Allegretto)",
+            "Preludes, Op. 32: No. 1 in C major (Allegro vivace)",
+            "Preludes, Op. 32: No. 6 in F Minor (Allegro appassionato)",
+            "Preludes, Op. 32: No. 7 in F Major (Moderato)",
+            "Preludes, Op. 32: No. 9 in A Major (Allegro moderato)",
+            "Preludes, Op. 32: No. 10 in B Minor (Lento)",
+            "Preludes, Op. 32: No. 12 in G-Sharp Minor (Allegro)"
+          ]
+        }
+      ],
+      "original_diagnostic_family": "title_similarity_rejected_by_composer_guards",
+      "result": {
+        "discogs_id": "8079435",
+        "album_id": "va30yv9sajc6a",
+        "decision": "withhold",
+        "recording_review": "Candidate va30yv9sajc6a lists all13source prelude numbers, but spells pianist Svjatoslav Richter versus source Sviatoslav Richter; source Op23No8key is A-flat major while candidate says B-flat minor. Other DG editions contain only subsets, and Tchaikovsky Op23tracks must never satisfy Rachmaninoff Op23. Concatenated opus/member numbers and French role strings in another candidate do not establish positive source credits or recording identity.",
+        "sources": [
+          "https://www.discogs.com/release/8079435"
+        ],
+        "limitations": [
+          "Recording-family assessment only; exact LP pressing, takes and mastering/transfer not verified.",
+          "Source programme, names, key/timing discrepancies and positive credit requirements are preserved. No general composer, performer, role or catalogue waiver.",
+          "Hold concerns inspected editions only, not proof of absence from Qobuz."
+        ],
+        "eligible": false,
+        "completeness": {
+          "status": "unknown",
+          "works": []
+        }
+      }
+    },
+    {
+      "discogs_id": "15438425",
+      "title": "L´Heure Espagnole",
+      "outcome": "withhold",
+      "finding_kind": "opera_side_cast_and_composer_gaps",
+      "finding": "Source has two LP sides labelled first/second part. Cache has24opera scenes including XIXcontinuation, but no verified side boundary. Inspected scene strings omit positive composer declarations, name roleless Orchestre National R.T.F. rather than source Orchestre National De France, and singers occur per scene. Title similarity does not fill side/cast/composer/ensemble evidence.",
+      "next_action": "Establish exact source side split and recording/cast identity with positive composer/orchestra declarations; do not invent scene-to-side boundaries or borrow the whole cast onto every scene.",
+      "target_sha256": "58e18ed0ccbe92ccbc69f63662af27cc1b85c9b8ae3566ab52b859e70ede3ede",
+      "source_sha256": "dcebd00c14383e7783ff429e333be3e18ce7ce0d65fd264e5bc5ac5d026821b9",
+      "review_album_id": "0002894497692",
+      "review_album_sha256": "3c5b9b25c539bb540c2fdccbc7b3c4eca028aea0b78ac555c1f616fc1c6dfc23",
+      "source_programme": [
+        {
+          "position": "",
+          "type_": "index",
+          "title": "L´Heure Espagnole",
+          "duration": "",
+          "sub_tracks": [
+            {
+              "position": "A",
+              "type_": "track",
+              "title": "Erster Teil",
+              "duration": ""
+            },
+            {
+              "position": "B",
+              "type_": "track",
+              "title": "Zweiter Teil",
+              "duration": ""
+            }
+          ]
+        }
+      ],
+      "source_credits": [
+        {
+          "name": "Maurice Ravel",
+          "anv": "Ravel",
+          "join": "",
+          "role": "Composed By",
+          "tracks": "",
+          "id": 216140,
+          "resource_url": "https://api.discogs.com/artists/216140"
+        },
+        {
+          "name": "Lorin Maazel",
+          "anv": "",
+          "join": "",
+          "role": "Conductor",
+          "tracks": "",
+          "id": 415720,
+          "resource_url": "https://api.discogs.com/artists/415720"
+        },
+        {
+          "name": "Heinz Becker (3)",
+          "anv": "",
+          "join": "",
+          "role": "Liner Notes",
+          "tracks": "",
+          "id": 1628169,
+          "resource_url": "https://api.discogs.com/artists/1628169"
+        },
+        {
+          "name": "Orchestre National De France",
+          "anv": "Orchestre National, Paris",
+          "join": "",
+          "role": "Orchestra",
+          "tracks": "",
+          "id": 626175,
+          "resource_url": "https://api.discogs.com/artists/626175"
+        },
+        {
+          "name": "Heinz Wildhagen",
+          "anv": "",
+          "join": "",
+          "role": "Recorded By",
+          "tracks": "",
+          "id": 565422,
+          "resource_url": "https://api.discogs.com/artists/565422"
+        },
+        {
+          "name": "Karl Faust",
+          "anv": "",
+          "join": "",
+          "role": "Recording Supervisor",
+          "tracks": "",
+          "id": 463963,
+          "resource_url": "https://api.discogs.com/artists/463963"
+        },
+        {
+          "name": "Jane Berbié",
+          "anv": "Jeanne Berbié",
+          "join": "",
+          "role": "Vocals [Conception]",
+          "tracks": "",
+          "id": 1402406,
+          "resource_url": "https://api.discogs.com/artists/1402406"
+        },
+        {
+          "name": "José Van Dam",
+          "anv": "",
+          "join": "",
+          "role": "Vocals [Don Inigo Gomez]",
+          "tracks": "",
+          "id": 833163,
+          "resource_url": "https://api.discogs.com/artists/833163"
+        },
+        {
+          "name": "Michel Sénéchal",
+          "anv": "Michel Senechal",
+          "join": "",
+          "role": "Vocals [Gonzalve]",
+          "tracks": "",
+          "id": 1092548,
+          "resource_url": "https://api.discogs.com/artists/1092548"
+        },
+        {
+          "name": "Gabriel Bacquier",
+          "anv": "",
+          "join": "",
+          "role": "Vocals [Ramiro]",
+          "tracks": "",
+          "id": 835968,
+          "resource_url": "https://api.discogs.com/artists/835968"
+        },
+        {
+          "name": "Jean Giraudeau",
+          "anv": "",
+          "join": "",
+          "role": "Vocals [Torquemada]",
+          "tracks": "",
+          "id": 884633,
+          "resource_url": "https://api.discogs.com/artists/884633"
+        }
+      ],
+      "source_artists": [
+        {
+          "name": "Maurice Ravel",
+          "anv": "",
+          "join": "–",
+          "role": "",
+          "tracks": "",
+          "id": 216140,
+          "resource_url": "https://api.discogs.com/artists/216140",
+          "thumbnail_url": "https://i.discogs.com/2hNnZy1KIPvlJu2KDOUBCxGEfvT4tlrQS3LDVU-Gvp4/rs:fit/g:sm/q:90/h:600/w:450/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTIxNjE0/MC0xNzM2ODkxMTkx/LTczOTYuanBlZw.jpeg"
+        },
+        {
+          "name": "Lorin Maazel",
+          "anv": "",
+          "join": "·",
+          "role": "",
+          "tracks": "",
+          "id": 415720,
+          "resource_url": "https://api.discogs.com/artists/415720",
+          "thumbnail_url": "https://i.discogs.com/f1iirrWIZwdtY6QvxVanlttdpIIeMST5ZYta5xzU5Mw/rs:fit/g:sm/q:90/h:600/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTQxNTcy/MC0xNTc0MDcwNzc5/LTE2OTMuanBlZw.jpeg"
+        },
+        {
+          "name": "Orchestre National De France",
+          "anv": "Orchestre National, Paris",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 626175,
+          "resource_url": "https://api.discogs.com/artists/626175",
+          "thumbnail_url": "https://i.discogs.com/iLloVJCotKprFeVFaNBiob6YHj3DhW8Bl6zagVI3C1A/rs:fit/g:sm/q:90/h:545/w:563/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYyNjE3/NS0xNDQ1MjYzNzQz/LTQxMzQuanBlZw.jpeg"
+        }
+      ],
+      "source_notes": "German first edition pressing with big tulip \"Alle Hersteller\" labels, housed in a gatefold sleeve that was specifically created for distribution on the French market.\n\nSleeve notes and booklet are only in French. . \n\nSticker on front cover that changed the previous label number.",
+      "selected_track_fingerprints": {
+        "546792": "5dce6be260d5aabd68c24480d6d05ffb1b5c2f21c19923f0e39179feecdbdade",
+        "546794": "b9cb658094bc9b1466707171fad0de7caccc0b65923602098fdbbbf5b7a9e1d4",
+        "546796": "954801e900bbb342f642a6f001e197426f86d31b7e573a616a195dcaeaba2f94",
+        "546798": "256b92a1923b4ffb0133440e8376b3faa9871ef66b2cdddfdae3f5bcbe6ef9b5",
+        "546800": "70158e959ab611b28311a570362c628b0fbefc5cd0d82325858b798ce0860f09",
+        "546802": "e0a9470d79ebf650cc55fc724b3483abd0de5b32149c57c3e603400d925394a1",
+        "546804": "e3a414fe410717bc27bb5f1b2672052129deee2b8e1aa6229a3523f7bde24df6",
+        "546806": "43744b9ee0062755ae1025a4f75114a343c3c5c61d2559af5f3233c0c0c35290",
+        "546808": "8397a9e9bff9a6586f7401c86630b111e251b9cc375ce7ff9d42509064674697",
+        "546810": "45b97c6d922bb0c4ced07555ed0c0b215136896e9d5907416663a106e37fa038",
+        "546812": "700ace36548c10f090fed8710ffe5207dc46081ec72a053b967d53130e7eaa88",
+        "546814": "46444840a45fddfd19035eee789ed4b22cc5bca59ac324c37e1d73bf390268f3",
+        "546816": "b577f781e067c8da6e6cf1bedcb192041e2c0e7bf5cd6ee21d72b6d8c06cc41d",
+        "546818": "25b432d04ffcc734a4f9223326b70e5c3fa9d9bfee827865f6130cffe3d0429e",
+        "546820": "0fd6ab1287c52369b0bee02f38eb5a0d423099ae998cf916d9cef92799fc77de",
+        "546822": "08163bd0e8fbd6790c05ca7996a9edce74e4ec0aaf1728a7da0effd14dd6cbc3",
+        "546824": "f94a2f1b772c81074ea2624d2a7b3010d889507b7e70b7128fafd7de20b67508",
+        "546826": "572f59bcee1732dce0971e4f8b0caabca7528ad56c5ced9c687863d65d05fd61",
+        "546828": "322f4bff0f5dcd910d2780f399466340d95e492fea3a6686a86046541cbdc317",
+        "546830": "6ccd205d658c1f71d4d7eacd6647ea86a87d3280fcee86d05fab6505307e1055",
+        "546832": "8b8dfbed7721c37973eff1ab40bff76409ddf399dd398bcf1cbc62800aaed866",
+        "546834": "ba705387d8aa44851e181f1c0feec4d1a27c9bdd9a54a999ebea4b842611cf9c",
+        "546836": "932f80811d24653e19f74ee3279a6f59877c35d84bd8dce9cf38d5ab942ee073",
+        "546838": "30cbc5bb24f8fdf334c322f1c0006c9ba5aab76e59fe3588b0840484f4754a98",
+        "546840": "036be5edc40dbb175c09f8c145356ac4565abbd0b2f3df3210cad0ac6bb7dd8a",
+        "546842": "7c6b03180c26939d1817788be419fcb2d2e83f900850d9e68185455b62473d83",
+        "546844": "633b86188ff98ecaaa987d13bfb239f8deebdee8bb620bcaf629cb6e3a52f4e4",
+        "546846": "9c075e7e05558094cb0af9e96df010895452e05ecc6b15a3890ffa62b11bc57a",
+        "546848": "b138dfe0fc8f93fc9f28a30e0c4b637bf731e2df507657225337c70a3d9d62af",
+        "546793": "3eeff54bbe51033b84945c8adf5bc48c9d7e3f0a08b7dd14613e7252db43865b",
+        "546795": "1c6c7abc5a79a311c08cac600b3de4d4e020f4a9a31cf582662d06f3e5596f50",
+        "546797": "67b74b0d1034af3fbd22104c9a22fdc92b908fa7cb5f9ba8c97e355031789fbe",
+        "546799": "b621931aa033302836a8a3d7fd0d50cc8a5cbe1359b082f18f11bf3af9dfdf69",
+        "546801": "55e2a922bd5c0c7afe8e19d53826ddcaa7e1238953dd9d9a593406532dadb8b8",
+        "546803": "a88fcff23a223ee5adc04b5285a959fd94fb1e0fa07cc6b1d08955df24b5fd19",
+        "546805": "bd4de0d797547d523bcc09c722936d595298471e14872fad96341ed9dc3f9203",
+        "546807": "35364847f2a3958953ca7a6203337a71bdd847007bb87f3d2e215ad69def8e42",
+        "546809": "eafaa08e4110c32aaa71d0d1b24625af8d620bbd10ba2ec7b4d36420a0fa5f2c",
+        "546811": "7bc73797d0628396057c849d0d0edd0969279e60a57db39978d0b363028c4b7b",
+        "546813": "c4b6f61c8352a9335052748e3927fd4727f7e82df65edf9b1d594512ac14f63d",
+        "546815": "f3dfddde1c876bba4f5444326d9a795d122d8745ed9f92e0b1dd332a6507288b",
+        "546817": "938079986b17e14cf3aa911514df824e6a18b2fabefcd4c67f60de4ca551287a",
+        "546819": "23f888ed0ad03865fb51e8579384a273e0887db69b2c4c46be792b0ff90af661",
+        "546821": "e3d732c71a36ae1c374a66efcfb61dd6cf33d80afeec8278cf369b9e4c1bb3b6",
+        "546823": "50ec3edfc15292ff19e0795d4b95c5deaf0d2f878c5b68ecbbfa59cd23bc1d0d",
+        "546825": "9096bad3e03eeab372c0178d6ac6dca63a2086dce2f87554faf355389227116d",
+        "546827": "43545311140f237d52e5bdc2c69e2af5addeb1bce35bc5303ed36e2c3860871c",
+        "546829": "bd4880b3df780fa9417e55356c4a120fa426d336dc4ee7aa9526f0d1325137d4",
+        "546831": "74685da4012f47753e26c40cae5740b09213c11afa3a80411d8f348a22937ba6",
+        "546833": "769de73a07699866214b425a7ffd88a182c75bb937ad0d1f8bcf3bf93ddc073d",
+        "546835": "129e805827a8f4a86175a67f012804cf33cae0a274de0d6a08d2301fdf7fbba0",
+        "546837": "f1ced8bbdfbdf396c805f8949e6750765bb0506d22eaa9a7ab6857bcd3fa5247",
+        "546839": "923f7b98c0324c83c6ffa3ad5105bca1abd34702189d09e2d848dea78874c74c",
+        "546841": "b02dacd75f038b8f2c8dd08b8ce48f8d5978d93d31548ea40f030ac5b038ee49",
+        "546843": "186f87107e68b975b454104ebddc8e85228e88497e373213615f0899a0667803",
+        "546845": "7b033f21a020beb91db8318101c8d7be4e2a745c8f691159be9b6022422a223a",
+        "546847": "4575f47954bde9a4f966390d2c96db8b1752bf9bfa14d669890179477b321131",
+        "546849": "20f2524ed775bf2bab1babd0a3f2493d86e185ca2637289bb8d4875e9dea472c"
+      },
+      "cached_alternative_checks": [
+        {
+          "album_id": "0002894497692",
+          "title": "Maurice Ravel : L'Enfant et les sortilèges - L'Heure espagnole - Nicolai Rimsky-Korsakov : Capriccio espagnol - Igor Stravinsky : The Song of the Nightingale",
+          "album_sha256": "3c5b9b25c539bb540c2fdccbc7b3c4eca028aea0b78ac555c1f616fc1c6dfc23",
+          "track_manifest_sha256": "8520fe4eb4cea1899fa30fb1cf73e89dc34f5b125929a50952e4cf9691eaa22d",
+          "tracks_count": 58,
+          "track_titles": [
+            "Ravel: L'heure espagnole, M. 52: Introduction",
+            "Ravel: L'heure espagnole, M. 52: I. Señor Torquemada, horloger de Tolède",
+            "Ravel: L'heure espagnole, M. 52: II. Totor!",
+            "Ravel: L'heure espagnole, M. 52: III. Il reste, voilà bien ma chance!",
+            "Ravel: L'heure espagnole, M. 52: IV. Il était temps, voici Gonzalve!",
+            "Ravel: L'heure espagnole, M. 52: V. C'est fait, l'horloge est à sa place",
+            "Ravel: L'heure espagnole, M. 52: VI. Maintenant pas de temps à perdre!",
+            "Ravel: L'heure espagnole, M. 52: VII. Salut à la belle horlogère!",
+            "Ravel: L'heure espagnole, M. 52: VIII. Voilà! ... Et maintenant à l'autre!",
+            "Ravel: L'heure espagnole, M. 52: IX. Evidemment, elle me congédie",
+            "Ravel: L'heure espagnole, M. 52: X. Voilà ce que j'appelle une femme charmante",
+            "Ravel: L'heure espagnole, M. 52: XI. Monsieur! Ah! Monsieur!",
+            "Ravel: L'heure espagnole, M. 52: XII. Enfin, il part!",
+            "Ravel: L'heure espagnole, M. 52: XIII. Voilà l'objet!",
+            "Ravel: L'heure espagnole, M. 52: XIV. Ah! vous, n'est-ce pas, preste! leste!",
+            "Ravel: L'heure espagnole, M. 52: XV. En dépit de cette inhumaine",
+            "Ravel: L'heure espagnole, M. 52: XVI. Voilà ce que j'appelle une femme charmante",
+            "Ravel: L'heure espagnole, M. 52: XVII. Oh! la pitoyable aventure!",
+            "Ravel: L'heure espagnole, M. 52: XVIII. Voilà! ... Et maintenant, Senora, je suis prêt",
+            "Ravel: L'heure espagnole, M. 52: XIX. Mon oeil anxieux interroge",
+            "Ravel: L'heure espagnole, M. 52: XIX (Cont.). Adieu, cellule, adieu, donjon!",
+            "Ravel: L'heure espagnole, M. 52: XX. Il n'est pour l'horloger",
+            "Ravel: L'heure espagnole, M. 52: XXI. Pardieu, déménageur, vous venez à propos!",
+            "Ravel: L'heure espagnole, M. 52: Finale. Un financier ... Et un poète",
+            "Rimsky-Korsakov: Capriccio Espagnol, Op. 34: I. Alborada",
+            "Rimsky-Korsakov: Capriccio Espagnol, Op. 34: II. Variazioni",
+            "Rimsky-Korsakov: Capriccio Espagnol, Op. 34: III. Alborada",
+            "Rimsky-Korsakov: Capriccio Espagnol, Op. 34: IV. Scena e canto gitano",
+            "Rimsky-Korsakov: Capriccio Espagnol, Op. 34: V. Fandango asturiano",
+            "Ravel: L'enfant et les sortilèges, M. 71, Pt. 1: Introduction. J'ai pas envie de faire ma page",
+            "Ravel: L'enfant et les sortilèges, M. 71, Pt. 1: Bébé a été sage?",
+            "Ravel: L'enfant et les sortilèges, M. 71, Pt. 1: Ca m'est égal!",
+            "Ravel: L'enfant et les sortilèges, M. 71, Pt. 1: Votre serviteur humble, Bergère",
+            "Ravel: L'enfant et les sortilèges, M. 71, Pt. 1: Ding, ding, ding, ding",
+            "Ravel: L'enfant et les sortilèges, M. 71, Pt. 1: How's Your Mug?",
+            "Ravel: L'enfant et les sortilèges, M. 71, Pt. 1: Keng-ça-fou, mah-jong",
+            "Ravel: L'enfant et les sortilèges, M. 71, Pt. 1: Oh! Ma belle tasse chinoise!",
+            "Ravel: L'enfant et les sortilèges, M. 71, Pt. 1: Arrière! Je réchauffe les bons",
+            "Ravel: L'enfant et les sortilèges, M. 71, Pt. 1: Adieu, pastourelles!",
+            "Ravel: L'enfant et les sortilèges, M. 71, Pt. 1: Ah! C'est elle! C'est elle!",
+            "Ravel: L'enfant et les sortilèges, M. 71, Pt. 1: Toi, le coeur de la rose",
+            "Ravel: L'enfant et les sortilèges, M. 71, Pt. 1: Deux robinets coulent dans un réservoir!",
+            "Ravel: L'enfant et les sortilèges, M. 71, Pt. 1: Oh! Ma tête!",
+            "Ravel: L'enfant et les sortilèges, M. 71, Pt. 1: Duo miaulé",
+            "Ravel: L'enfant et les sortilèges, M. 71, Pt. 1: Musique d'insectes, de rainettes",
+            "Ravel: L'enfant et les sortilèges, M. 71, Pt. 2: Ah! Quelle joie de te retrouver, Jardin!",
+            "Ravel: L'enfant et les sortilèges, M. 71, Pt. 2: Où es-tu? Je te cherche ...",
+            "Ravel: L'enfant et les sortilèges, M. 71, Pt. 2: Ronde des chauves-souris",
+            "Ravel: L'enfant et les sortilèges, M. 71, Pt. 2: Danse des rainettes",
+            "Ravel: L'enfant et les sortilèges, M. 71, Pt. 2: Sauve-toi, sotte! Et la cage? La cage?",
+            "Ravel: L'enfant et les sortilèges, M. 71, Pt. 2: La Cage, c'était pour mieux voir ta pretesse",
+            "Ravel: L'enfant et les sortilèges, M. 71, Pt. 2: Ah! C'est l'enfant au couteau",
+            "Ravel: L'enfant et les sortilèges, M. 71, Pt. 2: Il a pansé la plaie ...",
+            "Ravel: L'enfant et les sortilèges, M. 71, Pt. 2: Il est bon, l'enfant, il est sage",
+            "Stravinsky: The Song of the Nightingale (Le chant du rossignol): Introduction",
+            "Stravinsky: The Song of the Nightingale (Le chant du rossignol): Chinese March",
+            "Stravinsky: The Song of the Nightingale (Le chant du rossignol): Song of the Nightingale",
+            "Stravinsky: The Song of the Nightingale (Le chant du rossignol): The Mechanical Nightingale's Game"
+          ]
+        }
+      ],
+      "original_diagnostic_family": "title_similarity_rejected_by_composer_guards",
+      "result": {
+        "discogs_id": "15438425",
+        "album_id": "0002894497692",
+        "decision": "withhold",
+        "recording_review": "Source has two LP sides labelled first/second part. Cache has24opera scenes including XIXcontinuation, but no verified side boundary. Inspected scene strings omit positive composer declarations, name roleless Orchestre National R.T.F. rather than source Orchestre National De France, and singers occur per scene. Title similarity does not fill side/cast/composer/ensemble evidence.",
+        "sources": [
+          "https://www.discogs.com/release/15438425"
+        ],
+        "limitations": [
+          "Recording-family assessment only; exact LP pressing, takes and mastering/transfer not verified.",
+          "Source programme, names, key/timing discrepancies and positive credit requirements are preserved. No general composer, performer, role or catalogue waiver.",
+          "Hold concerns inspected editions only, not proof of absence from Qobuz."
+        ],
+        "eligible": false,
+        "completeness": {
+          "status": "unknown",
+          "works": []
+        }
+      }
+    },
+    {
+      "discogs_id": "15527713",
+      "title": "Concerto No. 1 In G Minor / Concerto No. 2 In D Minor",
+      "outcome": "withhold",
+      "finding_kind": "source_orchestras_missing_positive_roles",
+      "finding": "Candidate contains both Serkin/Ormandy Mendelssohn piano concertos but source Philadelphia/Columbia orchestras are roleless strings. Track composer uses lifespan-annotated Felix Mendelssohn versus full source name. Source explicitly assigns Philadelphia to Op25and Columbia to Op40; preserve those scopes. Ormandy anthology has the violin concerto, not both piano works; AgeOfElegance does not supply them.",
+      "next_action": "Retain exact composer-identity/source-orchestra scopes and obtain positive orchestral performance declarations for every bound piano-concerto track; no roleless-credit waiver.",
+      "target_sha256": "7dd8141abd6a0180b6ddb98790c0cc6310b0982be867434c31b2ade311c74a9c",
+      "source_sha256": "073486d930be5e1236d28f328114dc67e01f6562877eeb168175d4876990bf68",
+      "review_album_id": "0696998984226",
+      "review_album_sha256": "00498862a85dab60f8ec190c315a5863709a09debada796255ec0a0433a18005",
+      "source_programme": [
+        {
+          "position": "",
+          "type_": "index",
+          "title": "Piano Concerto No. 1 In G Minor, Op. 25",
+          "duration": "",
+          "sub_tracks": [
+            {
+              "position": "A1",
+              "type_": "track",
+              "title": "Molto Allegro Con Fucco",
+              "duration": ""
+            },
+            {
+              "position": "A2",
+              "type_": "track",
+              "title": "Andante",
+              "duration": ""
+            },
+            {
+              "position": "A3",
+              "type_": "track",
+              "title": "Presto: Molto Allegro E Vivace",
+              "duration": ""
+            }
+          ]
+        },
+        {
+          "position": "",
+          "type_": "index",
+          "title": "Piano Concerto No. 2 In D Minor, Op. 40",
+          "duration": "",
+          "sub_tracks": [
+            {
+              "position": "B1",
+              "type_": "track",
+              "title": "Allegro Appasionato",
+              "duration": ""
+            },
+            {
+              "position": "B2",
+              "type_": "track",
+              "title": "Adagio",
+              "duration": ""
+            },
+            {
+              "position": "B3",
+              "type_": "track",
+              "title": "Presto Scherzando",
+              "duration": ""
+            }
+          ]
+        }
+      ],
+      "source_credits": [
+        {
+          "name": "Felix Mendelssohn-Bartholdy",
+          "anv": "Mendelssohn",
+          "join": "",
+          "role": "Composed By",
+          "tracks": "",
+          "id": 623293,
+          "resource_url": "https://api.discogs.com/artists/623293"
+        },
+        {
+          "name": "Eugene Ormandy",
+          "anv": "",
+          "join": "",
+          "role": "Conductor",
+          "tracks": "",
+          "id": 809856,
+          "resource_url": "https://api.discogs.com/artists/809856"
+        },
+        {
+          "name": "Joan Chissell",
+          "anv": "",
+          "join": "",
+          "role": "Liner Notes",
+          "tracks": "",
+          "id": 1639158,
+          "resource_url": "https://api.discogs.com/artists/1639158"
+        },
+        {
+          "name": "Columbia Symphony Orchestra",
+          "anv": "",
+          "join": "",
+          "role": "Orchestra",
+          "tracks": "B1 to B3",
+          "id": 517144,
+          "resource_url": "https://api.discogs.com/artists/517144"
+        },
+        {
+          "name": "The Philadelphia Orchestra",
+          "anv": "",
+          "join": "",
+          "role": "Orchestra",
+          "tracks": "A1 to A3",
+          "id": 27519,
+          "resource_url": "https://api.discogs.com/artists/27519"
+        },
+        {
+          "name": "Rudolf Serkin",
+          "anv": "",
+          "join": "",
+          "role": "Piano",
+          "tracks": "",
+          "id": 834223,
+          "resource_url": "https://api.discogs.com/artists/834223"
+        }
+      ],
+      "source_artists": [
+        {
+          "name": "Rudolf Serkin",
+          "anv": "Serkin",
+          "join": ",",
+          "role": "",
+          "tracks": "",
+          "id": 834223,
+          "resource_url": "https://api.discogs.com/artists/834223",
+          "thumbnail_url": "https://i.discogs.com/Bknx-vhOs3baJHddYPsvIQQQJPGuM5OH9WISCJ9AD0w/rs:fit/g:sm/q:90/h:444/w:403/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTgzNDIy/My0xNjQ3Mzk4MTgy/LTkwODIuanBlZw.jpeg"
+        },
+        {
+          "name": "Felix Mendelssohn-Bartholdy",
+          "anv": "Mendelssohn",
+          "join": ",",
+          "role": "",
+          "tracks": "",
+          "id": 623293,
+          "resource_url": "https://api.discogs.com/artists/623293",
+          "thumbnail_url": "https://i.discogs.com/yj_dvWBuvISWy8Cqx064d-BQkez8FJNQvLlHSUgWW4g/rs:fit/g:sm/q:90/h:600/w:465/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTYyMzI5/My0xNzc5OTAyMDg0/LTM0ODcuanBlZw.jpeg"
+        },
+        {
+          "name": "The Philadelphia Orchestra",
+          "anv": "",
+          "join": "/",
+          "role": "",
+          "tracks": "",
+          "id": 27519,
+          "resource_url": "https://api.discogs.com/artists/27519",
+          "thumbnail_url": "https://i.discogs.com/TRK-s9TRJGG6TkkO6HLnVq4cIQA2nWLKAOhEI9Hn4HM/rs:fit/g:sm/q:90/h:242/w:352/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTI3NTE5/LTE3NDMzNjg5MTct/NjY2Ni5wbmc.jpeg"
+        },
+        {
+          "name": "Columbia Symphony Orchestra",
+          "anv": "",
+          "join": ",",
+          "role": "",
+          "tracks": "",
+          "id": 517144,
+          "resource_url": "https://api.discogs.com/artists/517144",
+          "thumbnail_url": "https://i.discogs.com/8blRDEWlKiTyIk6jf8mdaK6Z-_dEiDYV0MoCdFb1Tmw/rs:fit/g:sm/q:90/h:224/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTUxNzE0/NC0xNzM0ODU2MTk4/LTU2MDMucG5n.jpeg"
+        },
+        {
+          "name": "Eugene Ormandy",
+          "anv": "",
+          "join": "",
+          "role": "",
+          "tracks": "",
+          "id": 809856,
+          "resource_url": "https://api.discogs.com/artists/809856",
+          "thumbnail_url": "https://i.discogs.com/PHqnjBZ50TWKrMQF8TjpJasSzZ1ZkrAJ0R10kqYUN-g/rs:fit/g:sm/q:90/h:539/w:600/czM6Ly9kaXNjb2dz/LWRhdGFiYXNlLWlt/YWdlcy9BLTgwOTg1/Ni0xNTc4NzA2Mzcy/LTE4MDUuanBlZw.jpeg"
+        }
+      ],
+      "source_notes": "First cat# on covers and spine. 2nd on labels.\n\nSpine string: \" «CBS Mendelssohn: Piano Concertos Nos. 1 & 2 Rudolf Serkin 72303\".\n\nBack cover info:\nCredited liner notes in English (only). \n\"GB\", vertically, on bottom right corner.\n\nCenter-labels info:\nCopyright rim text message in English.\n\"(MS 6128)\" bellow cat#.\n℗ 1966\nMade in England",
+      "selected_track_fingerprints": {
+        "95423": "efecc8bb6d764d0d569f82edfb759d77265a0949bc056118d0f0074784a88ba3",
+        "95424": "193b99ca26ff5cfbacb36b51b87c387b6faf6067380c6160215ea984f98840bf",
+        "95425": "e259ce51c3b2c8ce760611c78c44e65d7190ed3afe96fb9ee4fe46b5f3f337f2",
+        "95426": "95bc7d252d5f7c81fec8dc13758e041eaa24e1826d81fd15548fdafc2be3aa7a",
+        "95427": "7bea305809bd0c7686286a9c36c86c4827cc10185efa7ab8e12fcae01de3edbe",
+        "95428": "85795712b9a83013060e9c337bfc6c27eb801f233e2dffc7d66d6c41beb911e8",
+        "95429": "a064e35e2f553dddc090383333cfc96448057aca96d414e3ca3506570c02d453",
+        "95430": "e313350dd5a55bebe43ad9d41357eb4b7e9f4d72ff6ad1000a5df81585fff39a",
+        "95431": "e9670fefdc257920c9af6fd92b30e0db7f4bce526c9aae0bb7bd1dada82f2ec4"
+      },
+      "cached_alternative_checks": [
+        {
+          "album_id": "0074646236925",
+          "title": "Age of Elegance: Greatest Hits",
+          "album_sha256": "fce3b0a4543ecbf1026487af4e3e5be82eb46623d12ef04fb60b73791e087633",
+          "track_manifest_sha256": "c91582fe73089787eda68f37c639e7db97d0a4180bef6785e145ccb0db4a79ed",
+          "tracks_count": 20,
+          "track_titles": [
+            "String Quintet in E Major, Op. 11 No. 5, G. 275: III. Minuetto",
+            "Bagatelle in A Minor, WoO 59 \"Für Elise\"",
+            "Serse, HWV 40: Ombra mai fù \"Largo\"",
+            "VI. Air",
+            "VIII. Bourée",
+            "IX. Hornpipe",
+            "Trumpet Tune & Air, Z. 678",
+            "6 Minuets, WoO 10: No. 2 in G Major (Arr. T. Frost for Orchestra)",
+            "String Quartet in F Major, Op. 3 No. 5, Hob. III:17: II. Serenade. Andante cantabile",
+            "Iphigénie en Aulide, Wq. 40: Gavotte",
+            "Orfeo ed Euridice, Wq. 30: Dance of the Blessed Spirits",
+            "12 Contredanses, WoO 14",
+            "No. 1 in D Major",
+            "No. 3 in C Major \"Die Schlittenfahrt\"",
+            "Organ Concerto No. 6 in B-Flat Major, Op. 4, HWV 294: III. Allegro moderato (Transcribed for Harp and Orchestra)",
+            "Overture",
+            "Aire. Minuet",
+            "Eine kleine Nachtmusik, K. 525: II. Romanze. Andante",
+            "III. Menuet",
+            "IV. Finale. Vivace"
+          ]
+        },
+        {
+          "album_id": "0696998984226",
+          "title": "Mendelssohn : Piano & Violin Concertos",
+          "album_sha256": "00498862a85dab60f8ec190c315a5863709a09debada796255ec0a0433a18005",
+          "track_manifest_sha256": "bf46dc8c7125b5975a34b1d33f8c26ac203ec85dcc135664e3aa62cb60025d7d",
+          "tracks_count": 9,
+          "track_titles": [
+            "I. Molto allegro con fuoco",
+            "II. Andante",
+            "III. Presto -  Molto allegro e vivace",
+            "I. Allegro appassionato",
+            "II. Adagio -  Molto sostenuto",
+            "III. Finale.  Presto scherzando",
+            "I. Allegro molto appassionato",
+            "II. Andante -  Allegretto non troppo",
+            "III. Allegro molto vivace"
+          ]
+        },
+        {
+          "album_id": "t7d2fmiz1x5ba",
+          "title": "The Original Jacket Collection - Eugene Ormandy",
+          "album_sha256": "577aa8de322e54de121cb7f60bccba4184a8c3bcb85a81d3cbcf943a8eee6ad1",
+          "track_manifest_sha256": "72dcff788eb104ec99ad7b3a193fbb85ecbc7b923aad53975407874c388ed385",
+          "tracks_count": 104,
+          "track_titles": [
+            "I. I pini di Villa Borghese: Allegretto vivace - Vivace",
+            "II. Pini presso una catacomba: Lento",
+            "III. I pini del Gianicolo",
+            "IV. I pini della Via Appia: Tempo di Marcia",
+            "I. La fontana di Valle Giulia all'alba. Andante mosso",
+            "II. La fontana del Tritone al mattino. Vivo",
+            "III. La fontana di Trevi al merriggio. Allegro moderato - Allegro vivace - Largamente",
+            "IV. La fontana di Villa Medici al tramonto. Andante",
+            "I. Circenses",
+            "II. Il giubileo",
+            "III. L'Ottobrata",
+            "IV. La Befana",
+            "Promenade. Allegro giusto, nel modo russico; senza allegrezza, ma poco sostenuto",
+            "I. Gnomus (The Gnome). Vivo",
+            "Promenade. Moderato comodo assai e con delicatezza",
+            "II. Il vecchio castello (The Old Castle). Andante molto cantabile e con dolore",
+            "Promenade. Moderato non tanto, pesamente",
+            "III. Tuileries (Dispute between Children at Play). Allegretto non troppo, capriccioso",
+            "IV. Bydlo (Cattle). Sempre moderato, pesante",
+            "Promenade. Tranquillo",
+            "V. Ballet des petits poussins dans leurs coques (Ballet of the Unhatched Chicks). Scherzino. Vivo leggiero",
+            "VI. Samuel Goldenburg and Schmuyle. Andante",
+            "VII. Limoges: le marché (The Market Place of Limoges). Allegretto vivo, sempre scherzando",
+            "VIII. Catacombae: Sepulchrum Romanum (Catacombs: A Roman Grave). Largo",
+            "Cum mortuis in lingua morta (With the Dead in a Dead Language). Andante non troppo, con lamento",
+            "IX. La cabane de Baba-Yaga sur des pattes de poule (The Hut of Baba-Yaga on Chicken's Legs). Allegro con brio, feroce - Andante mosso",
+            "X. La grande porte de Kiev (The Great Gate of Kiev). Maestoso, con grandezza",
+            "I. The Sea and Sinbad's Ship",
+            "II. The Story of the Kalender Prince",
+            "III. The Young Prince and the Young Princess",
+            "IV. Festival at Baghdad - The Sea - The Ship Breaks Against a Cliff Surmounted by a Bronze Horseman",
+            "I. Largo -  Allegro molto",
+            "II. Allegro molto",
+            "III. Adagio",
+            "IV. Allegro vivace",
+            "Vocalise, Op. 34, No. 14",
+            "I. Andante - Allegro con anima",
+            "II. Andante cantabile con alcuna licenza - Moderato con anima",
+            "III. Valse. Allegro moderato",
+            "IV. Finale. Andante maestoso - Allegro vivace",
+            "I. Pezzo in forma di Sonatina. Andante non troppo - Allegro moderato",
+            "II. Valse. Moderato. Tempo di Valse",
+            "III. Élégie. Larghetto elegiaco",
+            "IV. Finale. Tema russo. Andante - Allegro con spirito",
+            "I. Introduzione. Andante non troppo; Allegro vivace",
+            "II. Giuoco delle coppie. Allegro scherzando",
+            "II. Elegia. Andante non troppo",
+            "IV. Intermezzo interrotto. Allegretto",
+            "V. Finale. Pesante - Presto",
+            "A csodálatos mandarin, Op. 19 \"The Miraculous Mandarin\"",
+            "1. In full flower. Poco adagio",
+            "2. Village dance. Allegro",
+            "I. Allegro molto appassionato",
+            "II. Andante",
+            "III. Allegretto non troppo - Allegro molto vivace",
+            "I. Allegro moderato",
+            "II. Canzonetta. Andante",
+            "III. Finale. Allegro vivacissimo",
+            "I. Allegretto - Allegro non troppo",
+            "II. Allegro",
+            "III. Lento",
+            "IV. Allegro molto",
+            "I. Allegretto",
+            "II. Moderato",
+            "III. Cadenza",
+            "IV. Allegro con moto",
+            "Toccata and Fugue in D Minor, BWV 565 (Orchestrated by Eugene Ormandy)",
+            "Cantata No. 156, BWV 156 - Sinfonia \"Arioso\"",
+            "I. Menuett in G Major, BWV Anh. 114",
+            "II. Musette in D Major, BWV Anh. 126",
+            "III. Bist du bei mir, BWV 508",
+            "IV. Marche in D Major, BWV Anh. 122",
+            "A Mighty Fortress is Our God",
+            "Cantata Herz und Mund und Tat und Leben, BWV 147: Jesu, Joy of Man's Desiring",
+            "Fugue in G Minor \"The Little\"",
+            "Passacaglia and Fugue in C Minor",
+            "Preludium in E Major",
+            "Suite No. 3: Air \"Air on the G String\"",
+            "Sheep May Safely Graze (from Cantata No. 208)",
+            "Come, Sweet Death",
+            "Wachet auf, ruft uns die Stimme, BWV 140 \"Sleepers Awake\": I. Wachet auf, ruft uns die Stimme (Arr. E. Ormandy for Orchestra)",
+            "Toccata, Adagio and Fugue in C Major, BWV 564 (Orchestrated by Eugene Ormandy)",
+            "I. Allegro spiritoso",
+            "II. Andante",
+            "III. Allegro",
+            "I. Allegro",
+            "II. Andante",
+            "III. Allegro assai",
+            "Sinfonia for 2 Flutes and Strings in D Minor, F. 65",
+            "I. Allegro moderato",
+            "II. Andante lento molto",
+            "III. Allegro",
+            "Nocturne (Orchestrated by Malcolm Sargent)",
+            "Cavalleria rusticana: Intermezzo",
+            "Londonderry Air (Arr. A. Harris for Orchestra)",
+            "Adagio for Strings, Op. 11",
+            "String Quartet No. 1 in D Major, Op. 11: II. Andante cantabile (Orchestral Version)",
+            "2 Pieces from Kuolema, Op. 44: No. 1, Valse triste",
+            "Notturno, No. 5 from Lyric Suite, Op. 54: Andante",
+            "2 Elegiac Melodies, Op. 34: No. 2, The Last Spring",
+            "Élégie (Arr. T. Frost for Orchestra)",
+            "10 Woodland Sketches, Op. 51: No. 1 To a Wild Rose (Orchestrated by Thomas Frost)",
+            "Fantasia on Greensleeves (Arranged by Ralph Greaves)",
+            "Fantasia on a Theme by Thomas Tallis - Largo sostenuto"
+          ]
+        }
+      ],
+      "original_diagnostic_family": "title_similarity_rejected_by_composer_guards",
+      "result": {
+        "discogs_id": "15527713",
+        "album_id": "0696998984226",
+        "decision": "withhold",
+        "recording_review": "Candidate contains both Serkin/Ormandy Mendelssohn piano concertos but source Philadelphia/Columbia orchestras are roleless strings. Track composer uses lifespan-annotated Felix Mendelssohn versus full source name. Source explicitly assigns Philadelphia to Op25and Columbia to Op40; preserve those scopes. Ormandy anthology has the violin concerto, not both piano works; AgeOfElegance does not supply them.",
+        "sources": [
+          "https://www.discogs.com/release/15527713"
+        ],
+        "limitations": [
+          "Recording-family assessment only; exact LP pressing, takes and mastering/transfer not verified.",
+          "Source programme, names, key/timing discrepancies and positive credit requirements are preserved. No general composer, performer, role or catalogue waiver.",
+          "Hold concerns inspected editions only, not proof of absence from Qobuz."
+        ],
+        "eligible": false,
+        "completeness": {
+          "status": "unknown",
+          "works": []
+        }
+      }
+    }
+  ],
+  "summary": {
+    "reviewed": 4,
+    "probable": 1,
+    "withhold": 3
+  },
+  "accepted_release_ids": [
+    "5163525"
+  ],
+  "qobuz_requests": 0
+}

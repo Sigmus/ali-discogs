@@ -1,6 +1,6 @@
 # Ali Discogs
 
-Updated: 2026-11-16, Europe/Amsterdam
+Updated: 2026-11-17, Europe/Amsterdam
 
 Static explorer for ajozi’s Discogs collection and Spotify/Qobuz evidence.
 [README](../../README.md) owns setup/build; [Qobuz guide](../qobuz.md) owns evidence
@@ -11,7 +11,7 @@ and cache commands. This directory owns current planning.
 - Branch main; enrichment pushed through3632140 on16November at user request.
   Local enrichment/review-progress checkpoints not pushed. Pages not verified.
 - Collection741copies/740unique. Saved labels: Spotify254Found/273Probable/
-  210NotFound/4Unchecked; Qobuz12Found/188Probable/541Unchecked copies.
+  210NotFound/4Unchecked; Qobuz12Found/189Probable/540Unchecked copies.
 - Qobuz publication `data/qobuz_matches.json` is separate from Spotify collection
   results. Labels/scores are saved data; Qobuz85/95 are heuristic levels, not
   probabilities. Legacy Spotify labels are not comparable accuracy measurements.
@@ -25,7 +25,7 @@ and cache commands. This directory owns current planning.
   defaults to frequency with individual Alphabetical checkbox. Search after
   Decade; outlined Clear/Pin icons after Search, delayed theme-aware tooltips.
 - Subtle filter band with optional pin; table headers always sticky.
-- Qobuz UI separates292Reviewed · unresolved from249Unchecked copies. Saved
+- Qobuz UI separates295Reviewed · unresolved from245Unchecked copies. Saved
   review progress is independent of match status; detail shows the saved blocker.
   Table sorts all columns; other views offer Year/Composer only.
 
@@ -56,10 +56,10 @@ and cache commands. This directory owns current planning.
   recording decisions remain in history and their linked frozen audits.
 - Earlier38partial-support reviews:6Probable/32holds. All104zero-rule reviews:
   3Probable/101holds. Frozen audits retain sources, alternatives and next actions.
-- Latest333script tests pass; catalogue40batch adds2Probable/38explicit holds.
+- Latest338script tests pass; focused4batch adds1Probable/3explicit holds.
   Collection/Spotify, scoring rules and cache bytes unchanged; explicit review
   lookup now includes the older metadata-needed archive.
-- 540unchecked unique:240work/credit,284withheld,5completeness,4rejected,
+- 539unchecked unique:236work/credit,287withheld,5completeness,4rejected,
   6empty,1source hold. Reviewed holds remain searchable evidence, not Not found.
 - Key holds include named ensemble members/chorus masters, associated-only roles,
   Oistrach identity, source-role conflicts, incomplete or unbound recording families.
@@ -75,23 +75,20 @@ Earlier source/recording holds and completed work-context reviews remain in
 and source-role experiments remain diagnostic; no role waiver adopted.
 All28title-context leads reviewed:15Probable/13holds,0pending.
 Frozen151diagnostic's3original gains reviewed:Heifetz7065721and Gould2548602
-Probable, Dido24278222split-act mapping held.87title/work cases lack decisions.
+Probable, Dido24278222split-act mapping held.83title/work cases lack decisions.
 Gould's3approved hash-bound timing exceptions retain original discrepancies;
 global tolerance unchanged. [Analysis](../plans/2026-11-16-qobuz-timing-sensitivity.md).
-All21musician-gap cases triaged:11programme/cast,6missing positive credits,
-2collective-identity issues,2name leads. Both leads now Probable85 with existing
-source-bound aliases:11876845Francescatti/Bernstein and21490438Fischer/Furtwangler.
-[Review/limits](../plans/2026-11-16-qobuz-name2.md).8535848trio diagnostic complete:
-8/8positive members/composer/timings; user approved exact collective decomposition.
-NowProbable85with exact source/candidate/approval hashes, every member/instrument
-required on every band. [Approval/limits](../plans/2026-11-16-qobuz-trio-identity.md).
-Remaining18musician-gap reviews complete:18holds,37candidate comparisons,
-0promotions. [Results/reopening prerequisites](../plans/2026-11-16-qobuz-musician18.md).
-Original21cohort now3accepted/18held; no open cases. RobinHoodDell/RCA attribution
-remains unresolved, not an alias. Catalogue40batch complete:2Probable(Duchable/
-Ozawa),38holds,82candidate comparisons. [Evidence/limits](../plans/2026-11-16-qobuz-catalogue40.md).
-No general catalogue rule or source correction. Next suggested batch:four focused
-cases5163525/8079435/15438425/15527713before broader83title-identity cases.
+Original21musician-gap cohort complete:3accepted/18held; no open cases.
+[Results/reopening prerequisites](../plans/2026-11-16-qobuz-musician18.md).
+Accepted trio8535848retains exact source/candidate/approval hashes and every
+member/instrument on every band; no general collective-membership waiver.
+[Approval](../plans/2026-11-16-qobuz-trio-identity.md). RobinHoodDell/RCA remains held.
+Catalogue40batch complete:2Probable(Duchable/Ozawa),38holds,82comparisons.
+[Evidence/limits](../plans/2026-11-16-qobuz-catalogue40.md).
+Focused4batch complete:Rubinstein5163525Probable85; Richter8079435,Ravel15438425
+and Serkin15527713held. [Evidence/limits](../plans/2026-11-17-qobuz-focused4.md).
+No general catalogue/composer/credit waiver. Next suggested batch:remaining83
+frozen no-title-anchor cases for source/work identity triage.
 Broader source-role parser audit is proposed, not adopted. Krips finale is not
 proven missing; joined-band mapping remains unresolved.
 

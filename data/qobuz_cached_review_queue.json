@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "reviewed_on": "2026-11-15",
-  "population": "240 unique releases currently categorized work_or_credit_unresolved",
+  "population": "236 unique releases currently categorized work_or_credit_unresolved",
   "rules": {
     "priority_review": "Unheld cached candidate supports >=50% of current source units; known/reviewed blockers excluded.",
     "secondary_partial_lead": "Some current support, below50%; known/reviewed blockers excluded.",
@@ -11,7 +11,7 @@
   },
   "counts": {
     "known_constraint": 3,
-    "no_current_supported_units": 237
+    "no_current_supported_units": 233
   },
   "entries": [
     {
@@ -757,14 +757,6 @@
       "uncached_hits": 4
     },
     {
-      "discogs_id": "5163525",
-      "title": "Sonata In B Minor / \"Wanderer\" Fantasy",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0886446203515",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
       "discogs_id": "5192278",
       "title": "The 5 Piano Concertos / Choral Fantasy",
       "queue": "no_current_supported_units",
@@ -1219,14 +1211,6 @@
       "best_cached_album_id": "0002894631652",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 6
-    },
-    {
-      "discogs_id": "8079435",
-      "title": "13 Preludes",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894190682",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
     },
     {
       "discogs_id": "8274997",
@@ -1781,22 +1765,6 @@
       "uncached_hits": 0
     },
     {
-      "discogs_id": "15438425",
-      "title": "L´Heure Espagnole",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894497692",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "15527713",
-      "title": "Concerto No. 1 In G Minor / Concerto No. 2 In D Minor",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0074646236925",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
       "discogs_id": "15693042",
       "title": "Callas Norma",
       "queue": "no_current_supported_units",
@@ -1941,5 +1909,5 @@
       "uncached_hits": 0
     }
   ],
-  "inventory_sha256": "aab3fc90ed8850a073b0afa6132561dc5e7a04614794023ca005018cbfdb5ec5"
+  "inventory_sha256": "a0a12f409e64c06e014798d4c4b35c98de05ffb9ef942543512dfd0b0596db14"
 }

@@ -24982,6 +24982,159 @@
         "Source catalogue text is preserved; no global catalogue, composer, musician-role or score relaxation.",
         "Inspected cached editions are unresolved, not proof that Qobuz lacks the recording."
       ]
+    },
+    {
+      "discogs_id": "5163525",
+      "album_id": "0886446203515",
+      "decision": "probable",
+      "target_sha256": "b063bb65f33bb1d9501f8e83eff4b49b1ed70af28a40d92d33a6231d60acc13e",
+      "source_sha256": "344f1e401ea7c4251f63dffc56f49b6177e333dfb387b138f004509cd470bfdb",
+      "album_sha256": "b880124dd295b32ab1c1a68cca2ff043974e5445ff6e2a63f0f5d67b981f0b15",
+      "recording_review": "Source LSC2871Liszt Sonata sideA and Schubert Wanderer sideB bind four digital tracks each. Positive Arthur Rubinstein and the correct composer on every selected track, complete ordered groups and source/digital durations1572/1610and1288/1274seconds within existing tolerance. Institutional catalogue corroborates the performer/repertoire pairing; exact pressing/takes/transfer not verified.",
+      "sources": [
+        "https://www.discogs.com/release/5163525",
+        "https://catalogue.bnf.fr/affiner.do?afficheRegroup=false&critereRecherche=&index=AUT3&listeAffinages=FacOeu_13918278&motRecherche=&nbResultParPage=100&numNotice=13977375&triResultParPage=14&trouveDansFiltre=NoticePUB&typeNotice="
+      ],
+      "limitations": [
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer not verified.",
+        "Source programme, names, key/timing discrepancies and positive credit requirements are preserved. No general composer, performer, role or catalogue waiver.",
+        "Source sideA26:12versus digital26:50and sideB21:28versus21:14are retained; they pass existing tolerance without exceptions. Work identity is bound per source side, not a global missing-opus or D/Op equivalence."
+      ],
+      "external_source_files": [
+        {
+          "path": "data/review_sources/focused4-rubinstein/primary-observation.json",
+          "sha256": "21f761ba708c2047405c166d06962dc6400f02b046b93131c3fc3cce1c748f0c"
+        }
+      ],
+      "review_kind": "source-leaf-bands",
+      "source_outline_sha256": "87338d1b19d9e29cbf968106079d79ee988ee5f4befa1c57b9b4e7ddd2e62004",
+      "source_leaves": [
+        {
+          "path": [
+            0
+          ],
+          "source_work": "Sonata In B Minor",
+          "title": "Sonata In B Minor",
+          "position": "A",
+          "duration": "26:12"
+        },
+        {
+          "path": [
+            1
+          ],
+          "source_work": "\"Wanderer\" Fantasy (Fantasia In C, Op. 15 [D. 760])",
+          "title": "\"Wanderer\" Fantasy (Fantasia In C, Op. 15 [D. 760])",
+          "position": "B",
+          "duration": "21:28"
+        }
+      ],
+      "source_heading_groups": [],
+      "extra_track_ids": [],
+      "selected_track_fingerprints": {
+        "36079973": "051ca31b013e89e223b104c3f46131959f1e940dd80d81d066869e3f64f44731",
+        "36079975": "5cffe77923191484916bf5ac623a2da48c661c051654969e558b09bb1c6c7fbd",
+        "36079977": "7e8d5e4349790c3f491d742cd15a74fcc7f1e1df102847f47b900cf091677655",
+        "36079979": "bbb4dc855efdc99361c9dbcc8b12675c42d06c662d3719f5c6494d11e7bcdef3",
+        "36079981": "b7293f1abfd814fc16e3b3707632bf19c7f22ca4051fa746c6efdb5409295326",
+        "36079983": "969586beb52248a5aa945922661b503a61c5958c09a06a00c719da9f45a5d614",
+        "36079985": "1af6983155bf48fa1e66a4693cf159ba8c2ea6bb344a4c64e1449340d72f069b",
+        "36079987": "31f86d5cfb78fff8104f60ee017f90112170b121a28477efe97289028d45a386"
+      },
+      "bindings": [
+        {
+          "source_path": [
+            0
+          ],
+          "track_ids": [
+            36079973,
+            36079975,
+            36079977,
+            36079979
+          ],
+          "track_sha256": [
+            "051ca31b013e89e223b104c3f46131959f1e940dd80d81d066869e3f64f44731",
+            "5cffe77923191484916bf5ac623a2da48c661c051654969e558b09bb1c6c7fbd",
+            "7e8d5e4349790c3f491d742cd15a74fcc7f1e1df102847f47b900cf091677655",
+            "bbb4dc855efdc99361c9dbcc8b12675c42d06c662d3719f5c6494d11e7bcdef3"
+          ],
+          "required_performers": [
+            "Arthur Rubinstein"
+          ],
+          "composer": "Franz Liszt"
+        },
+        {
+          "source_path": [
+            1
+          ],
+          "track_ids": [
+            36079981,
+            36079983,
+            36079985,
+            36079987
+          ],
+          "track_sha256": [
+            "b7293f1abfd814fc16e3b3707632bf19c7f22ca4051fa746c6efdb5409295326",
+            "969586beb52248a5aa945922661b503a61c5958c09a06a00c719da9f45a5d614",
+            "1af6983155bf48fa1e66a4693cf159ba8c2ea6bb344a4c64e1449340d72f069b",
+            "31f86d5cfb78fff8104f60ee017f90112170b121a28477efe97289028d45a386"
+          ],
+          "required_performers": [
+            "Arthur Rubinstein"
+          ],
+          "composer": "Franz Schubert"
+        }
+      ]
+    },
+    {
+      "discogs_id": "8079435",
+      "album_id": "va30yv9sajc6a",
+      "decision": "withhold",
+      "target_sha256": "4f607032551718ad0a031eb8ef94f08f3896f9caa96501d00e48cf86b23c3e2b",
+      "source_sha256": "4fe55b76e3ed12544fb23aebebecf25ce73140c2fce03ebb5635b70801038b6e",
+      "album_sha256": "9174930a77a0638af434c81f14372f58bc01961326bb1d5d26219cdd1b4a1ae9",
+      "recording_review": "Candidate va30yv9sajc6a lists all13source prelude numbers, but spells pianist Svjatoslav Richter versus source Sviatoslav Richter; source Op23No8key is A-flat major while candidate says B-flat minor. Other DG editions contain only subsets, and Tchaikovsky Op23tracks must never satisfy Rachmaninoff Op23. Concatenated opus/member numbers and French role strings in another candidate do not establish positive source credits or recording identity.",
+      "sources": [
+        "https://www.discogs.com/release/8079435"
+      ],
+      "limitations": [
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer not verified.",
+        "Source programme, names, key/timing discrepancies and positive credit requirements are preserved. No general composer, performer, role or catalogue waiver.",
+        "Hold concerns inspected editions only, not proof of absence from Qobuz."
+      ]
+    },
+    {
+      "discogs_id": "15438425",
+      "album_id": "0002894497692",
+      "decision": "withhold",
+      "target_sha256": "58e18ed0ccbe92ccbc69f63662af27cc1b85c9b8ae3566ab52b859e70ede3ede",
+      "source_sha256": "dcebd00c14383e7783ff429e333be3e18ce7ce0d65fd264e5bc5ac5d026821b9",
+      "album_sha256": "3c5b9b25c539bb540c2fdccbc7b3c4eca028aea0b78ac555c1f616fc1c6dfc23",
+      "recording_review": "Source has two LP sides labelled first/second part. Cache has24opera scenes including XIXcontinuation, but no verified side boundary. Inspected scene strings omit positive composer declarations, name roleless Orchestre National R.T.F. rather than source Orchestre National De France, and singers occur per scene. Title similarity does not fill side/cast/composer/ensemble evidence.",
+      "sources": [
+        "https://www.discogs.com/release/15438425"
+      ],
+      "limitations": [
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer not verified.",
+        "Source programme, names, key/timing discrepancies and positive credit requirements are preserved. No general composer, performer, role or catalogue waiver.",
+        "Hold concerns inspected editions only, not proof of absence from Qobuz."
+      ]
+    },
+    {
+      "discogs_id": "15527713",
+      "album_id": "0696998984226",
+      "decision": "withhold",
+      "target_sha256": "7dd8141abd6a0180b6ddb98790c0cc6310b0982be867434c31b2ade311c74a9c",
+      "source_sha256": "073486d930be5e1236d28f328114dc67e01f6562877eeb168175d4876990bf68",
+      "album_sha256": "00498862a85dab60f8ec190c315a5863709a09debada796255ec0a0433a18005",
+      "recording_review": "Candidate contains both Serkin/Ormandy Mendelssohn piano concertos but source Philadelphia/Columbia orchestras are roleless strings. Track composer uses lifespan-annotated Felix Mendelssohn versus full source name. Source explicitly assigns Philadelphia to Op25and Columbia to Op40; preserve those scopes. Ormandy anthology has the violin concerto, not both piano works; AgeOfElegance does not supply them.",
+      "sources": [
+        "https://www.discogs.com/release/15527713"
+      ],
+      "limitations": [
+        "Recording-family assessment only; exact LP pressing, takes and mastering/transfer not verified.",
+        "Source programme, names, key/timing discrepancies and positive credit requirements are preserved. No general composer, performer, role or catalogue waiver.",
+        "Hold concerns inspected editions only, not proof of absence from Qobuz."
+      ]
     }
   ]
 }
