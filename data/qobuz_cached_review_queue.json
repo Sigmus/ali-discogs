@@ -1,7 +1,7 @@
 {
   "schema_version": 1,
   "reviewed_on": "2026-11-15",
-  "population": "236 unique releases currently categorized work_or_credit_unresolved",
+  "population": "153 unique releases currently categorized work_or_credit_unresolved",
   "rules": {
     "priority_review": "Unheld cached candidate supports >=50% of current source units; known/reviewed blockers excluded.",
     "secondary_partial_lead": "Some current support, below50%; known/reviewed blockers excluded.",
@@ -11,7 +11,7 @@
   },
   "counts": {
     "known_constraint": 3,
-    "no_current_supported_units": 233
+    "no_current_supported_units": 150
   },
   "entries": [
     {
@@ -45,50 +45,10 @@
       "evidence": "docs/plans/2026-11-13-bitches-brew-credits.md"
     },
     {
-      "discogs_id": "594243",
-      "title": "A Love Supreme",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0060253742084",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 9
-    },
-    {
-      "discogs_id": "1010200",
-      "title": "Die Brandenburgischen Konzerte",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0828767004327",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "1421356",
-      "title": "The Great Louis Armstrong",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0825646223749",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "1512597",
-      "title": "Das Musikalische Opfer",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "ax12ux4mx3qma",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
       "discogs_id": "1555255",
       "title": "Parsifal",
       "queue": "no_current_supported_units",
       "best_cached_album_id": "0002894133472",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "2047925",
-      "title": "John Coltrane",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0060251748620",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 0
     },
@@ -117,14 +77,6 @@
       "uncached_hits": 0
     },
     {
-      "discogs_id": "2356725",
-      "title": "6. Symphonie",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894577162",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
       "discogs_id": "2380440",
       "title": "Simon Boccanegra",
       "queue": "no_current_supported_units",
@@ -145,14 +97,6 @@
       "title": "Falstaff",
       "queue": "no_current_supported_units",
       "best_cached_album_id": "0002894776498",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "2452986",
-      "title": "Années De Pèlerinage - Gesamt • Complete • Integrale",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894745632",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 0
     },
@@ -197,26 +141,10 @@
       "uncached_hits": 0
     },
     {
-      "discogs_id": "2725003",
-      "title": "5. Symphonie / Kindertotenlieder",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0724356694453",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 6
-    },
-    {
       "discogs_id": "2767598",
       "title": "Concerto In D Minor / The Swan Of Tuonela",
       "queue": "no_current_supported_units",
       "best_cached_album_id": "guwvjbdj2drhc",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "2872749",
-      "title": "Weihnachtsoratorium BWV 248",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894634522",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 0
     },
@@ -253,22 +181,6 @@
       "uncached_hits": 0
     },
     {
-      "discogs_id": "3018585",
-      "title": "Rienzi",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894791241",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "3044759",
-      "title": "Don Giovanni",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0077776307855",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
       "discogs_id": "3074016",
       "title": "Concerto No 3 En Ut Mineur",
       "queue": "no_current_supported_units",
@@ -281,14 +193,6 @@
       "title": "Die Walküre",
       "queue": "no_current_supported_units",
       "best_cached_album_id": "0002894786192",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "3103644",
-      "title": "Concerto For Violin",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "gkjv6b11cccdb",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 0
     },
@@ -307,14 +211,6 @@
       "best_cached_album_id": "0002894133212",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 4
-    },
-    {
-      "discogs_id": "3198746",
-      "title": "Götterdämmerung",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894757960",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
     },
     {
       "discogs_id": "3198796",
@@ -347,14 +243,6 @@
       "best_cached_album_id": "0825646180943",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 4
-    },
-    {
-      "discogs_id": "3293855",
-      "title": "Petrouchka",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894343312",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
     },
     {
       "discogs_id": "3312801",
@@ -397,28 +285,12 @@
       "uncached_hits": 0
     },
     {
-      "discogs_id": "3369031",
-      "title": "Catulli Carmina",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894490972",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
       "discogs_id": "3406649",
       "title": "Messe In H-moll • Mass In B Minor • Messe En Si Mineur - BWV 232",
       "queue": "no_current_supported_units",
       "best_cached_album_id": "0002894637012",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 9
-    },
-    {
-      "discogs_id": "3441916",
-      "title": "Tristan And Isolde (Complete)",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "cpwlmofgzevra",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 4
     },
     {
       "discogs_id": "3470778",
@@ -435,14 +307,6 @@
       "best_cached_album_id": "m9u4tuh82pbqa",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 6
-    },
-    {
-      "discogs_id": "3503146",
-      "title": "Mass In B Minor",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "5099991869456",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
     },
     {
       "discogs_id": "3646455",
@@ -469,14 +333,6 @@
       "uncached_hits": 0
     },
     {
-      "discogs_id": "3729749",
-      "title": "Préludes, 2ème Livre",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "bvc3arolnncza",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 4
-    },
-    {
       "discogs_id": "3735116",
       "title": "Symphony No. 15",
       "queue": "no_current_supported_units",
@@ -493,14 +349,6 @@
       "uncached_hits": 0
     },
     {
-      "discogs_id": "3849153",
-      "title": "Les Noces • Messe = Mass",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0886443827165",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 4
-    },
-    {
       "discogs_id": "3877405",
       "title": "Ella And Louis",
       "queue": "no_current_supported_units",
@@ -509,26 +357,10 @@
       "uncached_hits": 0
     },
     {
-      "discogs_id": "3893557",
-      "title": "First Steps (1951/54/56)",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0060253742084",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 1
-    },
-    {
       "discogs_id": "3985321",
       "title": "Nabucco",
       "queue": "no_current_supported_units",
       "best_cached_album_id": "0002894105122",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "3997747",
-      "title": "Quatre Concertos Pour Pianoforte",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "fnz8atdnicijb",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 0
     },
@@ -547,22 +379,6 @@
       "best_cached_album_id": "0724357474450",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 5
-    },
-    {
-      "discogs_id": "4023547",
-      "title": "Parsifal",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894757785",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "4035824",
-      "title": "Te Deum ‧ Gloria Aus Der F-Moll Messe ‧ 150. Psalm",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894698102",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 3
     },
     {
       "discogs_id": "4079723",
@@ -589,36 +405,12 @@
       "uncached_hits": 0
     },
     {
-      "discogs_id": "4169669",
-      "title": "Two Bach Concertos In A Minor In E Major",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0886445075571",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
       "discogs_id": "4219540",
       "title": "Hommage A Clara Haskil",
       "queue": "no_current_supported_units",
       "best_cached_album_id": "nsan43h7565bb",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 8
-    },
-    {
-      "discogs_id": "4286791",
-      "title": "Chamber Music = Kammermusik = Musique de Chambre",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "edity5n3c0pca",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "4374524",
-      "title": "Tristan Et Isolde",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0724358587357",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
     },
     {
       "discogs_id": "4382754",
@@ -661,14 +453,6 @@
       "uncached_hits": 9
     },
     {
-      "discogs_id": "4513316",
-      "title": "Piano Quintet In A Major Trout",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "p12zhh0qndvga",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
       "discogs_id": "4515278",
       "title": "Die Schöpfung · The Creation · La Création",
       "queue": "no_current_supported_units",
@@ -683,14 +467,6 @@
       "best_cached_album_id": "0002894832894",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 0
-    },
-    {
-      "discogs_id": "4726971",
-      "title": "Highlights From Das Rheingold And Die Walküre",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894787859",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 1
     },
     {
       "discogs_id": "4808850",
@@ -709,42 +485,10 @@
       "uncached_hits": 0
     },
     {
-      "discogs_id": "4975184",
-      "title": "Le Sacre Du Printemps",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894783729",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
       "discogs_id": "5085113",
       "title": "Mostly Improvised Instrumental Indie Music",
       "queue": "no_current_supported_units",
       "best_cached_album_id": "ztlihe8zksqfb",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "5140330",
-      "title": "St. Matthew Passion (Unabridged)",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894497562",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "5142584",
-      "title": "Concertos Pour Trompette",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894159802",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "5145180",
-      "title": "Konzert Für Violine Und Orchester (1935) / Rhapsodien Für Violine Und Orchester Nr.1 Und Nr.2",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0886446443850",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 0
     },
@@ -765,28 +509,12 @@
       "uncached_hits": 0
     },
     {
-      "discogs_id": "5249935",
-      "title": "Ibéria • La Mer • Prelude To \"The Afternoon Of A Faun\"",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894801118",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
       "discogs_id": "5254294",
       "title": "Complete Wind Music Vol. 4",
       "queue": "no_current_supported_units",
       "best_cached_album_id": "0002894557942",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 4
-    },
-    {
-      "discogs_id": "5261325",
-      "title": "Idomeneo",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894779385",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
     },
     {
       "discogs_id": "5366612",
@@ -797,28 +525,12 @@
       "uncached_hits": 0
     },
     {
-      "discogs_id": "5412170",
-      "title": "Der Fliegende Holländer",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0190295771539",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
       "discogs_id": "5454594",
       "title": "Lohengrin",
       "queue": "no_current_supported_units",
       "best_cached_album_id": "0724356741553",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 0
-    },
-    {
-      "discogs_id": "5512870",
-      "title": "Messa In Si Minore",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "bdqnga93vv6uc",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 1
     },
     {
       "discogs_id": "5519993",
@@ -845,28 +557,12 @@
       "uncached_hits": 0
     },
     {
-      "discogs_id": "5800193",
-      "title": "Tannhäuser (Paris Version)",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894787859",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 5
-    },
-    {
       "discogs_id": "5832068",
       "title": "Beethoven: Symphonies Nos. 1, 4 & 6 (\"Pastorale\")",
       "queue": "no_current_supported_units",
       "best_cached_album_id": "0886446344348",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 6
-    },
-    {
-      "discogs_id": "5916574",
-      "title": "Symphony No. 5 In B-flat (Original Version Of 1875-78)",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0090266394029",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
     },
     {
       "discogs_id": "5933977",
@@ -885,28 +581,12 @@
       "uncached_hits": 0
     },
     {
-      "discogs_id": "6091545",
-      "title": "Psalmen Davids, 1619 (Five Concertos For Soloists, Choruses & Instruments)",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "btchqd447im7b",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
       "discogs_id": "6105272",
       "title": "Streichquartette 1–15 · Klavierquintett G-Moll Op. 57",
       "queue": "no_current_supported_units",
       "best_cached_album_id": "g4nhgjv3d6wbc",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 6
-    },
-    {
-      "discogs_id": "6203854",
-      "title": "Theresa Mass",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894758584",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 3
     },
     {
       "discogs_id": "6220295",
@@ -941,14 +621,6 @@
       "uncached_hits": 0
     },
     {
-      "discogs_id": "6387921",
-      "title": "Beethoven Concerto N° 4 En Sol Majeur, Op. 58",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894631272",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 4
-    },
-    {
       "discogs_id": "6426765",
       "title": "Requiem",
       "queue": "no_current_supported_units",
@@ -971,14 +643,6 @@
       "best_cached_album_id": "0002894637012",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 4
-    },
-    {
-      "discogs_id": "6591027",
-      "title": "Six Concertos Pour Hautbois",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0706301568163",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
     },
     {
       "discogs_id": "6599724",
@@ -1005,58 +669,10 @@
       "uncached_hits": 0
     },
     {
-      "discogs_id": "6781135",
-      "title": "Kid Ory And His Creole Jazz Band",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "3610156779780",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 9
-    },
-    {
-      "discogs_id": "6790241",
-      "title": "Symphonie No.6 Pastorale",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894740182",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "6812312",
-      "title": "Die Meistersinger von Nürnberg",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894406062",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "6900724",
-      "title": "Les Deux Concertos Pour Piano",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0825646293216",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
       "discogs_id": "6929259",
       "title": "Tristan Und Isolde",
       "queue": "no_current_supported_units",
       "best_cached_album_id": "0724358587357",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "6935886",
-      "title": "Lohengrin",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0745099367466",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "6944995",
-      "title": "The Messiah",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "h7yaqqcr2eitb",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 0
     },
@@ -1075,14 +691,6 @@
       "best_cached_album_id": "0002894454642",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 0
-    },
-    {
-      "discogs_id": "7291425",
-      "title": "Brahms Piano Works Vol. 5, Hungarian Dances Volumes 1 & 2",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894211522",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 1
     },
     {
       "discogs_id": "7341892",
@@ -1109,14 +717,6 @@
       "uncached_hits": 0
     },
     {
-      "discogs_id": "7577224",
-      "title": "Pelleas Et Melisande",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894733512",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
       "discogs_id": "7620758",
       "title": "Symphony No. 9 In D Minor, Op. 125",
       "queue": "no_current_supported_units",
@@ -1129,14 +729,6 @@
       "title": "Magnificat",
       "queue": "no_current_supported_units",
       "best_cached_album_id": "0743212661729",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "7652134",
-      "title": "Der Fliegende Holländer",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0190295771539",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 0
     },
@@ -1155,14 +747,6 @@
       "best_cached_album_id": "4053796000941",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 0
-    },
-    {
-      "discogs_id": "7809198",
-      "title": "German Requiem Op.45 Volume 1 & 2",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894762860",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 7
     },
     {
       "discogs_id": "7860424",
@@ -1245,14 +829,6 @@
       "uncached_hits": 0
     },
     {
-      "discogs_id": "8409374",
-      "title": "Siegfried",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894603112",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
       "discogs_id": "8534837",
       "title": "Double Concerto / Piano Trio No. 1",
       "queue": "no_current_supported_units",
@@ -1261,26 +837,10 @@
       "uncached_hits": 9
     },
     {
-      "discogs_id": "8606394",
-      "title": "Ballettsuite »Gayaneh« / Orchestersuite »Der Goldene Hahn«",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894497692",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 9
-    },
-    {
       "discogs_id": "8835228",
       "title": "Neuf Ouvertures",
       "queue": "no_current_supported_units",
       "best_cached_album_id": "0002894807048",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "8840038",
-      "title": "Petrouchka",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "3610153693980",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 0
     },
@@ -1309,42 +869,10 @@
       "uncached_hits": 0
     },
     {
-      "discogs_id": "8930472",
-      "title": "Duke Ellington's Concert Of Sacred Music",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "u039ty7p254ka",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 4
-    },
-    {
       "discogs_id": "8949471",
       "title": "Piano Sonata No. 11 In A Major (K. 331)",
       "queue": "no_current_supported_units",
       "best_cached_album_id": "4035122003413",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "8965364",
-      "title": "Violin Concertos",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0888608645157",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "8970069",
-      "title": "Alexandre Nevsky (Cantate D'après La Musique Écrite Pour Le Film D'Eisenstein)",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "a5x02z4qm3ana",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 4
-    },
-    {
-      "discogs_id": "8982341",
-      "title": "Götterdämmerung",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894786194",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 0
     },
@@ -1381,14 +909,6 @@
       "uncached_hits": 3
     },
     {
-      "discogs_id": "9876105",
-      "title": "Parsifal, Originalaufnahme Von Den Bayreuther Festspielen 1951",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894786194",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 9
-    },
-    {
       "discogs_id": "9885636",
       "title": "Paukenmesse",
       "queue": "no_current_supported_units",
@@ -1405,34 +925,10 @@
       "uncached_hits": 0
     },
     {
-      "discogs_id": "10183213",
-      "title": "Richard Wagner: Tristan Und Isolde",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894797530",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "10220921",
-      "title": "Die Walküre",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "5099963182750",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
       "discogs_id": "10391853",
       "title": "9 Symphonien",
       "queue": "no_current_supported_units",
       "best_cached_album_id": "0002894630882",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "10408175",
-      "title": "Piano Concertos Nos. 1 And 2",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894785762",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 0
     },
@@ -1469,14 +965,6 @@
       "uncached_hits": 8
     },
     {
-      "discogs_id": "11058952",
-      "title": "Symphonie No. 4",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "eqe56x94dpixc",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
       "discogs_id": "11077579",
       "title": "Die Walküre",
       "queue": "no_current_supported_units",
@@ -1493,28 +981,12 @@
       "uncached_hits": 0
     },
     {
-      "discogs_id": "11410740",
-      "title": "Concerto Pour Piano Et Orchestre N° 2 En Ut Mineur, Op. 18 Pour Piano Et Orchestre",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0724358625752",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 6
-    },
-    {
       "discogs_id": "11504801",
       "title": "Symphonie No.3 »Eroica«",
       "queue": "no_current_supported_units",
       "best_cached_album_id": "0002894474442",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 0
-    },
-    {
-      "discogs_id": "11584908",
-      "title": "Symphonische Dichtungen",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894631582",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 3
     },
     {
       "discogs_id": "11599278",
@@ -1531,30 +1003,6 @@
       "best_cached_album_id": "0002894485182",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 3
-    },
-    {
-      "discogs_id": "11885669",
-      "title": "Sinfonia N°7",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0886446344348",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 1
-    },
-    {
-      "discogs_id": "11933784",
-      "title": "Les Quatre Saisons",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894762412",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "11951556",
-      "title": "Ouvertures",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0886446345840",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
     },
     {
       "discogs_id": "11971084",
@@ -1605,36 +1053,12 @@
       "uncached_hits": 0
     },
     {
-      "discogs_id": "12554746",
-      "title": "Canons",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "i4yb15ipb0zja",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "12561696",
-      "title": "Leçons De Tenebres",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "hz1o5gqp740ub",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
       "discogs_id": "12872526",
       "title": "Suites (Complete) Vol. II",
       "queue": "no_current_supported_units",
       "best_cached_album_id": "5099921297052",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 6
-    },
-    {
-      "discogs_id": "13011163",
-      "title": "Siegfried",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894603112",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
     },
     {
       "discogs_id": "13069435",
@@ -1649,14 +1073,6 @@
       "title": "Missa Solemnis",
       "queue": "no_current_supported_units",
       "best_cached_album_id": "0724356754751",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "13203869",
-      "title": "Lohengrin",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "mec9dbwl48hbb",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 0
     },
@@ -1701,22 +1117,6 @@
       "uncached_hits": 0
     },
     {
-      "discogs_id": "13434172",
-      "title": "Passio Secundum Joannem - »Johannes Passion«",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894637012",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 4
-    },
-    {
-      "discogs_id": "13872783",
-      "title": "Symphonies No.5 & No.9",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "5099943329052",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 7
-    },
-    {
       "discogs_id": "13957855",
       "title": "Missa Solemnis",
       "queue": "no_current_supported_units",
@@ -1749,14 +1149,6 @@
       "uncached_hits": 0
     },
     {
-      "discogs_id": "15081257",
-      "title": "Brandenburg Concertos, Volume 2: Nos. 2, 4 & 5",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894469152",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
       "discogs_id": "15225415",
       "title": "Orchestral Suites",
       "queue": "no_current_supported_units",
@@ -1773,14 +1165,6 @@
       "uncached_hits": 0
     },
     {
-      "discogs_id": "15926327",
-      "title": "Symphonies Nos. 5-10",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "woub7hzdnhq7b",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 5
-    },
-    {
       "discogs_id": "15926362",
       "title": "Symphonies Nos. 1-4",
       "queue": "no_current_supported_units",
@@ -1795,14 +1179,6 @@
       "best_cached_album_id": "pzus1ko2yfd5a",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 4
-    },
-    {
-      "discogs_id": "17657053",
-      "title": "Rusalka",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894605682",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
     },
     {
       "discogs_id": "18111055",
@@ -1825,22 +1201,6 @@
       "title": "Pierre Et Le Loup / Symphonie Des Jouets",
       "queue": "no_current_supported_units",
       "best_cached_album_id": "dnq3dr9dwbhmb",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "19024615",
-      "title": "Parsifal",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894757785",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "19469041",
-      "title": "Quattro Pezzi Sacri",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0696998961920",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 0
     },
@@ -1869,36 +1229,12 @@
       "uncached_hits": 4
     },
     {
-      "discogs_id": "23950082",
-      "title": "Suites For Cello Unaccompanied No.5 In C Minor And No.6 In D Major - Great Recordings Of The Century",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "ekesky8cfu5wb",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 4
-    },
-    {
       "discogs_id": "27761244",
       "title": "Tristan Und Isolde",
       "queue": "no_current_supported_units",
       "best_cached_album_id": "0002894406062",
       "supported_source_unit_fraction": 0.0,
       "uncached_hits": 0
-    },
-    {
-      "discogs_id": "28104379",
-      "title": "Tchaikovsky Symphony No.1",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894586282",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 0
-    },
-    {
-      "discogs_id": "28108858",
-      "title": "Sinfonia N. 3 In La Minore",
-      "queue": "no_current_supported_units",
-      "best_cached_album_id": "0002894667272",
-      "supported_source_unit_fraction": 0.0,
-      "uncached_hits": 4
     },
     {
       "discogs_id": "34330297",
@@ -1909,5 +1245,5 @@
       "uncached_hits": 0
     }
   ],
-  "inventory_sha256": "a0a12f409e64c06e014798d4c4b35c98de05ffb9ef942543512dfd0b0596db14"
+  "inventory_sha256": "b6fd77045a1ee3e513c1693a38b6589ac8a1d2a9e53fe00fd03e26c99809b111"
 }

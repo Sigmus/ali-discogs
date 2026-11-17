@@ -1,6 +1,6 @@
 # Backlog
 
-Updated: 2026-11-16, Europe/Amsterdam
+Updated: 2026-11-17, Europe/Amsterdam
 
 Only active work and proposals belong here. IDs stay stable. Completed work is
 in [history](history.md); previous detailed case notes and plan links are preserved
@@ -39,7 +39,7 @@ Final two supported cached leads reviewed:9283162Probable;15660391held.
 The diverse12credit-support sample is now reviewed:Reiner1896362Probable,
 11explicit holds. [Diagnostic/results](../plans/2026-11-16-qobuz-credit171.md).
 All11work-field gains are reviewed, including the [nine-case follow-up](../plans/2026-11-16-qobuz-work-context9.md):2HeifetzProbable/7holds.
-Current unreviewed split:150credit-support,83work/title,6no cached candidate and
+Current unreviewed split:150credit-support,6no cached candidate and
 5completeness cases. Vocal-role diagnostic complete: no candidate status/confidence changes or new
 complete source-unit support; live normalization deferred ([results](../plans/2026-11-16-qobuz-vocal-role-diagnostic.md)).
 All28title179diagnostic leads reviewed:15Probable/13holds,0pending. The remaining
@@ -63,8 +63,11 @@ explicit recording-identity hold. [Batch/prerequisites](../plans/2026-11-16-qobu
 Catalogue40batch complete:2Probable(Duchable/Ozawa),38holds across82candidate
 comparisons. [Results/reusable lessons](../plans/2026-11-16-qobuz-catalogue40.md).
 Focused4batch complete:1RubinsteinProbable/3holds,10candidate comparisons.
-[Results/reopening criteria](../plans/2026-11-17-qobuz-focused4.md). Next suggested
-batch:remaining83frozen no-title-anchor cases for source/work identity triage. No new retrieval or general
+[Results/reopening criteria](../plans/2026-11-17-qobuz-focused4.md). Title83batch now
+complete:5Probable/78holds across263candidate comparisons.
+[Results/reopening prerequisites](../plans/2026-11-17-qobuz-title83.md). Next suggested
+action:group the remaining150credit-support cases before a bounded review batch.
+No new retrieval or general
 catalogue/alias/role policy adopted. [Audit and next action](../plans/2026-11-16-qobuz-musician21.md).
 Timing sensitivity complete:onlyGould cleared proposed35%/consensus scenarios in
 30mapped reviews;11other timing-mentioned holds lack full leaf maps. User approved

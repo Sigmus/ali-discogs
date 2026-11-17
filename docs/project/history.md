@@ -2467,3 +2467,26 @@ cache/Spotify/151diagnostic unchanged.0Qobuz/audio calls. UIcopies12Found/
 At user request, pushed18localmaincommits through3a8d374toorigin/main; GitHub
 accepted9b614d3..3a8d374. Includes completed musician/catalogue/focused reviews,
 recording evidence, tests and planning. No Pages deployment verification claimed.
+
+## 2026-11-17 — All 83 source/work identity cases reviewed
+
+Completed the user-authorized frozen title83 batch in one pass: 263 cached
+candidate comparisons, 5 Probable recording families and 78 explicit holds.
+Accepted Stern/Bernstein Bartók 3103644, Gieseking Debussy Book II 3729749,
+Jochum Beethoven 6 6790241, Queffélec Ravel concertos 6900724 and Deller Couperin
+12561696. Exact source leaves/track hashes, positive required names/composers,
+existing durations and primary corroboration are saved. Publisher access limits
+are disclosed; no claim of exact pressing, take, mastering or transfer identity.
+Boston Stravinsky 4286791 has a complete nine-band map but remains held on
+Pastorale 170/179 seconds. No new timing exception, name/role waiver, source edit,
+Qobuz request or audio. Named cast/chorus masters and earlier transfer holds stay.
+
+345 script tests pass, including seven new regressions; normalization/build and
+local accepted/held detail checks pass, with only the existing favicon 404.
+Exactly 83 publication records changed; only five labels changed. Source, cache,
+Spotify and original151 diagnostic bytes unchanged. Refreshed dependent inventory,
+queue and blocker groups sequentially: 534 unresolved unique releases, 373 reviewed
+holds and 161 with no saved decision (150 credit-support, five completeness,
+six no-cache). UI copies: 12 Found / 194 Probable / 373 Reviewed · unresolved /
+162 Unchecked. Next suggested action is grouping the 150 credit-support cases.
+Local commit only; no push/deployment. [Evidence and reproduction](../plans/2026-11-17-qobuz-title83.md).

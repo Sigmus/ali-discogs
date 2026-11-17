@@ -1,19 +1,18 @@
 {
   "schema_version": 1,
   "reviewed_on": "2026-11-16",
-  "unique_unresolved_releases": 539,
+  "unique_unresolved_releases": 534,
   "review_state_counts": {
-    "no_saved_decision": 244,
-    "reviewed_unresolved": 295
+    "reviewed_unresolved": 373,
+    "no_saved_decision": 161
   },
   "planning_families": {
-    "credit_evidence": 217,
+    "credit_evidence": 255,
     "no_cached_candidate": 6,
     "other_saved_blocker": 63,
     "partial_programme_or_completeness": 5,
     "recording_identity": 57,
-    "source_programme_mapping": 108,
-    "work_title_or_catalogue_mapping_unresolved": 83
+    "source_programme_mapping": 148
   },
   "groups": {
     "credit_support_unresolved": 150,
@@ -56,6 +55,7 @@
     "saved:different-recording": 2,
     "saved:different-recording-family": 1,
     "saved:different-soloist": 1,
+    "saved:different_or_incomplete_programme": 23,
     "saved:different_recording": 1,
     "saved:different_saved_programme": 30,
     "saved:edition-and-ensemble": 1,
@@ -99,6 +99,7 @@
     "saved:missing_box_programme_and_transfer": 1,
     "saved:missing_musician_credit": 1,
     "saved:missing_positive_credit": 6,
+    "saved:missing_positive_source_credits": 11,
     "saved:missing_programme": 6,
     "saved:missing_programme_and_arrangement": 1,
     "saved:missing_scene_and_different_cast": 1,
@@ -129,6 +130,7 @@
     "saved:programme-and-soloist": 1,
     "saved:programme-missing": 16,
     "saved:programme-not-one-candidate": 1,
+    "saved:programme_structure_or_provenance": 16,
     "saved:quartet-box-raw-musicians": 1,
     "saved:raw-chorusmaster": 2,
     "saved:raw-chorusmaster-and-programme": 1,
@@ -159,8 +161,10 @@
     "saved:source-scope-and-instrument-role": 1,
     "saved:source-soloist-and-one-file-scope": 1,
     "saved:source-typos-large-piano-box": 1,
+    "saved:source_cast_or_band_mapping": 27,
     "saved:source_number_and_partial_coupling": 1,
     "saved:source_orchestras_missing_positive_roles": 1,
+    "saved:source_timing_hold": 1,
     "saved:split-act-source-boundaries": 1,
     "saved:split-programme": 1,
     "saved:split-programme-identity": 1,
@@ -174,20 +178,19 @@
     "saved:work-scoped-cast": 3,
     "saved:work-scoped-pianist": 1,
     "saved:wrong-cast-moldau": 1,
-    "saved:wrong_accompanist_and_programme": 1,
-    "work_title_or_catalogue_mapping_unresolved": 83
+    "saved:wrong_accompanist_and_programme": 1
   },
   "entries": [
     {
       "discogs_id": "594243",
       "title": "A Love Supreme",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:missing_positive_source_credits",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 1,
       "uncached_hits": 9,
-      "finding": null,
-      "next_action": null
+      "finding": "A LoveSupreme titles/parts are present but required McCoyTyner positive performance credit is absent. Preserve joinedPursuance/Psalm source band and prior hold; no sideman omission.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "669978",
@@ -203,13 +206,13 @@
     {
       "discogs_id": "1010200",
       "title": "Die Brandenburgischen Konzerte",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:missing_positive_source_credits",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 1,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "CollegiumAureumBrandenburg source names many individual instrumentalists absent from compatible digital credits. Ensemble name cannot replace all source players; preserve reordered concertos and19leaves.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "1012732",
@@ -291,13 +294,13 @@
     {
       "discogs_id": "1421356",
       "title": "The Great Louis Armstrong",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_or_incomplete_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 5,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Armstrong source has twelve specified tracks; saved reunion/songbook/party anthologies do not establish the entire source set or its orchestra.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "1470008",
@@ -313,13 +316,13 @@
     {
       "discogs_id": "1512597",
       "title": "Das Musikalische Opfer",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:missing_positive_source_credits",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 1,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "MunchingerMusicalOffering candidate omits named MischaFrey/GeorgBaynov positive credits; source15leaves versus16digital parts also needs exact mapping.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "1524282",
@@ -445,13 +448,13 @@
     {
       "discogs_id": "2047925",
       "title": "John Coltrane",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_or_incomplete_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 5,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Source combines Prestige TraneingIn/Soultrane-era sessions with RedGarland; saved Ballads/BlueTrain/Hartman/GiantSteps/Ellington editions are different programmes and personnel.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "2060839",
@@ -577,13 +580,13 @@
     {
       "discogs_id": "2356725",
       "title": "6. Symphonie",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:missing_positive_source_credits",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 1,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "KarajanMahler6 candidate does not positively declare source BerlinerPhilharmoniker; a title/work mapping alone cannot establish required orchestra.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "2380440",
@@ -643,13 +646,13 @@
     {
       "discogs_id": "2452986",
       "title": "Années De Pèlerinage - Gesamt • Complete • Integrale",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:missing_positive_source_credits",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 5,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Complete26track BermanAnnées candidate omits Berman from twelve track declaration strings. Preserve all26timed source pieces, heading groups and pianist requirement; partial other albums cannot fill them.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "2463301",
@@ -797,13 +800,13 @@
     {
       "discogs_id": "2725003",
       "title": "5. Symphonie / Kindertotenlieder",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_or_incomplete_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 1,
       "uncached_hits": 6,
-      "finding": null,
-      "next_action": null
+      "finding": "Source Karajan Mahler5plus Kindertotenlieder is not saved DasLiedvonDerErde; shared singer is not a match.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "2767598",
@@ -896,13 +899,13 @@
     {
       "discogs_id": "2872749",
       "title": "Weihnachtsoratorium BWV 248",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:missing_positive_source_credits",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 5,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Richter Christmas Oratorio source retains named Kurt Engert, Oswald Uhl and Otto Buechner, six complete cantata programmes and source timings. Cached editions do not establish every positive named instrumental credit and source section/cast scope; normalized source choir/orchestra-as-composers is a separate unresolved role defect, not permission to omit them.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "2877518",
@@ -973,24 +976,24 @@
     {
       "discogs_id": "3018585",
       "title": "Rienzi",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:source_cast_or_band_mapping",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 2,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Compatible Hollreiser Rienzi candidate still omits named source musicians/chorus masters and cannot yet be bound to ten source LP bands; anthology excerpts are partial.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "3044759",
       "title": "Don Giovanni",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:source_cast_or_band_mapping",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 5,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Giulini completeDonGiovanni candidates lack RobertoBenaglio; highlights omit source programme, and six source act-part bands lack exact digital boundaries.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "3066447",
@@ -1031,17 +1034,6 @@
       "review_state": "no_saved_decision",
       "group": "credit_support_unresolved",
       "planning_family": "credit_evidence",
-      "cached_candidate_count": 5,
-      "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
-    },
-    {
-      "discogs_id": "3103644",
-      "title": "Concerto For Violin",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
       "cached_candidate_count": 5,
       "uncached_hits": 0,
       "finding": null,
@@ -1094,13 +1086,13 @@
     {
       "discogs_id": "3198746",
       "title": "Götterdämmerung",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:source_cast_or_band_mapping",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 2,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "BoulezBayreuth Gotterdammerung has ten split source bands; orchestra-name declarations and exact split-scene boundaries remain unresolved.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "3198796",
@@ -1160,13 +1152,13 @@
     {
       "discogs_id": "3293855",
       "title": "Petrouchka",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:programme_structure_or_provenance",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 5,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "DoratiMinneapolisPetrouchka has mono/stereo historical versions documented by publisher. Compatible four-tableau candidate still needs exact source version/edition proof; cannot promote from cast/title alone.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "3312801",
@@ -1237,13 +1229,13 @@
     {
       "discogs_id": "3369031",
       "title": "Catulli Carmina",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:source_cast_or_band_mapping",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 3,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "JochumCatulliCarmina source includes UnknownArtist musical credit; compatible candidate does not identify that source musician. Other editions differ in cast; preserve full source programme and credit.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "3386012",
@@ -1281,13 +1273,13 @@
     {
       "discogs_id": "3441916",
       "title": "Tristan And Isolde (Complete)",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:source_cast_or_band_mapping",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 2,
       "uncached_hits": 4,
-      "finding": null,
-      "next_action": null
+      "finding": "FurtwanglerTristan source eleven bands requires named cast/chorus; saved complete remaster lacks several positive source declarations and exact side cuts; orchestral album is partial.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "3470778",
@@ -1314,13 +1306,13 @@
     {
       "discogs_id": "3503146",
       "title": "Mass In B Minor",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:source_cast_or_band_mapping",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 3,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "KlempererBminorMass candidates do not positively establish source BBCSymphonyChorus, and six source bands require exact section boundaries.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "3510156",
@@ -1422,17 +1414,6 @@
       "next_action": null
     },
     {
-      "discogs_id": "3729749",
-      "title": "Préludes, 2ème Livre",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
-      "cached_candidate_count": 1,
-      "uncached_hits": 4,
-      "finding": null,
-      "next_action": null
-    },
-    {
       "discogs_id": "3735116",
       "title": "Symphony No. 15",
       "review_state": "no_saved_decision",
@@ -1490,13 +1471,13 @@
     {
       "discogs_id": "3849153",
       "title": "Les Noces • Messe = Mass",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_or_incomplete_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 1,
       "uncached_hits": 4,
-      "finding": null,
-      "next_action": null
+      "finding": "Source Bernstein LesNoces plus Mass is represented by RiteofSpring only; missing both source works/choir personnel.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "3877405",
@@ -1512,13 +1493,13 @@
     {
       "discogs_id": "3893557",
       "title": "First Steps (1951/54/56)",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_or_incomplete_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 4,
       "uncached_hits": 1,
-      "finding": null,
-      "next_action": null
+      "finding": "Early Coltrane1951/54/56source tracks/casts are not A LoveSupreme, BlueTrain, GiantSteps or Ellington/Coltrane.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "3908329",
@@ -1567,13 +1548,13 @@
     {
       "discogs_id": "3997747",
       "title": "Quatre Concertos Pour Pianoforte",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_or_incomplete_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 1,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Source Sgrizzi/Corboz four OpVIIkeyboard concertos differ from saved BachBWV1052/1055/1056 and cast.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "4009817",
@@ -1600,24 +1581,24 @@
     {
       "discogs_id": "4023547",
       "title": "Parsifal",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:source_cast_or_band_mapping",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 5,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Knappertsbusch1962Parsifal source retains Pitz, named small roles and Bayreuth ensembles. Candidate identity/name/credit gaps and ten split LP bands remain; do not substitute another festival year.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "4035824",
       "title": "Te Deum ‧ Gloria Aus Der F-Moll Messe ‧ 150. Psalm",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_or_incomplete_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 2,
       "uncached_hits": 3,
-      "finding": null,
-      "next_action": null
+      "finding": "Source Bruckner TeDeum/Gloria/Psalm150 is represented by symphony cycles, not the whole vocal programme.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "4046757",
@@ -1688,13 +1669,13 @@
     {
       "discogs_id": "4169669",
       "title": "Two Bach Concertos In A Minor In E Major",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:missing_positive_source_credits",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 2,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "HeifetzBach source LosAngelesPhilharmonic is not positively established by saved doubleconcerto/OriginalJacket selections. Need both source single-violin concertos and recording cast.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "4191410",
@@ -1754,13 +1735,13 @@
     {
       "discogs_id": "4286791",
       "title": "Chamber Music = Kammermusik = Musique de Chambre",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:source_timing_hold",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 2,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Complete BostonSymphonyChamberPlayersStravinsky programme maps all nine source leaves with positive ensemble/composer. Pastorale source170seconds versus179digital exceeds existing5second/3%tolerance; retain exact discrepancy without an automatic timing exception.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "4300898",
@@ -1787,13 +1768,13 @@
     {
       "discogs_id": "4374524",
       "title": "Tristan Et Isolde",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:source_cast_or_band_mapping",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 5,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Furtwangler1952Tristan variants retain missing/renamed source chorus/cast declarations and twelve source side cuts. Prelude/Liebestod is not the complete opera.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "4382754",
@@ -1864,13 +1845,13 @@
     {
       "discogs_id": "4513316",
       "title": "Piano Quintet In A Major Trout",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:programme_structure_or_provenance",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 1,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "SchnabelTrout source credits ProArteQuartet, absent as a positive collective declaration in saved five-movement candidate. Need exact ensemble/recording identity without one-member substitution.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "4515278",
@@ -1952,13 +1933,13 @@
     {
       "discogs_id": "4726971",
       "title": "Highlights From Das Rheingold And Die Walküre",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:source_cast_or_band_mapping",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 4,
       "uncached_hits": 1,
-      "finding": null,
-      "next_action": null
+      "finding": "Source SoltiRheingold/Walkure highlights require exact excerpt endpoints and source role/cast scopes. FullRing contains candidate material, but five source cuts are not yet bound; separate digital editions cannot be combined.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "4755030",
@@ -2018,13 +1999,13 @@
     {
       "discogs_id": "4975184",
       "title": "Le Sacre Du Printemps",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:programme_structure_or_provenance",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 5,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Stravinsky-conducted Rite source has empty normalized composer list and two timed side bands; digital multiple recordings/parts require exact source composer/recording reconciliation, not inference from conductor name.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "5032079",
@@ -2117,35 +2098,35 @@
     {
       "discogs_id": "5140330",
       "title": "St. Matthew Passion (Unabridged)",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_or_incomplete_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 5,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Lehmann1949MatthewPassion source is represented by Bach cantatas/ChristmasOratorio, not the full source passion/cast.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "5142584",
       "title": "Concertos Pour Trompette",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:programme_structure_or_provenance",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 2,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Andre trumpet source mixes composers, arrangements and instrument pairings. Saved anthologies supply some compatible cast tracks, not a bound complete18leaf programme with source instrumental roles.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "5145180",
       "title": "Konzert Für Violine Und Orchester (1935) / Rhapsodien Für Violine Und Orchester Nr.1 Und Nr.2",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:missing_positive_source_credits",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 1,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Source normalized performers incorrectly include composerAlbanBerg, while NewYorkPhilharmonic is not positively established in candidate. Exact composer/nonperformer source reconciliation and orchestra roles needed; no silent credit deletion.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "5149154",
@@ -2172,13 +2153,13 @@
     {
       "discogs_id": "5249935",
       "title": "Ibéria • La Mer • Prelude To \"The Afternoon Of A Faun\"",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:programme_structure_or_provenance",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 1,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "ParayDebussy Iberia/LaMer/Faun source has7leaves and structural placeholder; saved anthology has only partial current positive cast support. Bind all source works/recording identity before acceptance.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "5254294",
@@ -2194,13 +2175,13 @@
     {
       "discogs_id": "5261325",
       "title": "Idomeneo",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_or_incomplete_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 2,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Full Fricsay/Vienna Idomeneo cannot be supplied by arias or Berlin ballet-music excerpts.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "5267091",
@@ -2260,13 +2241,13 @@
     {
       "discogs_id": "5412170",
       "title": "Der Fliegende Holländer",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:source_cast_or_band_mapping",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 5,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "KlempererFlyingDutchman candidates lack PeterGellhorn/BBCSymphonyChorus positive evidence and seven source side cuts remain unbound; live/other casts do not substitute.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "5454594",
@@ -2293,13 +2274,13 @@
     {
       "discogs_id": "5512870",
       "title": "Messa In Si Minore",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:source_cast_or_band_mapping",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 4,
       "uncached_hits": 1,
-      "finding": null,
-      "next_action": null
+      "finding": "Compatible KlempererBminorMass contains each named singer somewhere, not on each source band. Split Gloria/Credo side boundaries and positive scoped cast evidence remain; MatthewPassion is another work.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "5519819",
@@ -2392,13 +2373,13 @@
     {
       "discogs_id": "5800193",
       "title": "Tannhäuser (Paris Version)",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_or_incomplete_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 5,
       "uncached_hits": 5,
-      "finding": null,
-      "next_action": null
+      "finding": "Source Solti Tannhauser ParisVersion is represented by Ring/Walkure editions, not the source opera and cast.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "5806510",
@@ -2458,13 +2439,13 @@
     {
       "discogs_id": "5916574",
       "title": "Symphony No. 5 In B-flat (Original Version Of 1875-78)",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:programme_structure_or_provenance",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 9,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "WandBruckner5sourceCologne orchestra differs from saved ensemble-name declarations and later/live cycles. Exact Cologne1977recording/version needed; Schubert5is not Bruckner5.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "5933977",
@@ -2535,13 +2516,13 @@
     {
       "discogs_id": "6091545",
       "title": "Psalmen Davids, 1619 (Five Concertos For Soloists, Choruses & Instruments)",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_or_incomplete_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 5,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Source Schutz PsalmenDavids1619five works differ from KleineGeistlicheKonzerte/Christmas/GeistlicheChormusik1648 candidates; named source musicians remain required.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "6105272",
@@ -2568,13 +2549,13 @@
     {
       "discogs_id": "6203854",
       "title": "Theresa Mass",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_or_incomplete_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 1,
       "uncached_hits": 3,
-      "finding": null,
-      "next_action": null
+      "finding": "Source TheresaMass is not saved Harmoniemesse; the soloist/choir programme also differs.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "6210807",
@@ -2689,13 +2670,13 @@
     {
       "discogs_id": "6387921",
       "title": "Beethoven Concerto N° 4 En Sol Majeur, Op. 58",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_or_incomplete_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 1,
       "uncached_hits": 4,
-      "finding": null,
-      "next_action": null
+      "finding": "Barenboim/Klemperer BeethovenPianoConcerto4 is not the solo-sonata collection; pianist overlap is insufficient.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "6426765",
@@ -2755,13 +2736,13 @@
     {
       "discogs_id": "6591027",
       "title": "Six Concertos Pour Hautbois",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_or_incomplete_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 4,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Source sixAlbinoni oboeconcertos span OpVII/IX; cached Op9Nos1–6/mixed violin/oboe and adagio anthologies do not establish all six source concertos/casts.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "6591890",
@@ -2865,24 +2846,13 @@
     {
       "discogs_id": "6781135",
       "title": "Kid Ory And His Creole Jazz Band",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_or_incomplete_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 1,
       "uncached_hits": 9,
-      "finding": null,
-      "next_action": null
-    },
-    {
-      "discogs_id": "6790241",
-      "title": "Symphonie No.6 Pastorale",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
-      "cached_candidate_count": 2,
-      "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Source sixteenKidOry tracks/session personnel are not the saved four-track edition; BusterWilson/LloydGlenn declarations also absent.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "6807083",
@@ -2898,13 +2868,13 @@
     {
       "discogs_id": "6812312",
       "title": "Die Meistersinger von Nürnberg",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:source_cast_or_band_mapping",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 5,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "SoltiMeistersinger source named singers/chorus masters/childrens chorus are not established by saved full or orchestral editions. Preserve twelve source side cuts and source cast.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "6820841",
@@ -2951,17 +2921,6 @@
       "next_action": "Verify original source booklet/session family and explicit joined-band maps, including each work-specific pianist; do not waive transfer evidence."
     },
     {
-      "discogs_id": "6900724",
-      "title": "Les Deux Concertos Pour Piano",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
-      "cached_candidate_count": 2,
-      "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
-    },
-    {
       "discogs_id": "6907296",
       "title": "Concertos For Three Pianos Nos. 1 & 2 / Italian Concerto / Chromatic Fantasy & Fugue",
       "review_state": "reviewed_unresolved",
@@ -2986,24 +2945,24 @@
     {
       "discogs_id": "6935886",
       "title": "Lohengrin",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:source_cast_or_band_mapping",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 5,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Keilberth1953Lohengrin source is auto-coupled/nonlinear; retain exact part order, Pitz and source festival ensemble/cast evidence. Complete-opera title alone cannot resolve side/name gaps.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "6944995",
       "title": "The Messiah",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:source_cast_or_band_mapping",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 5,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "BeechamMessiah source includes introductory talk and auto-coupled parts/cast. Saved separatePartI/II–III editions and individual movements do not establish one complete source edition.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "6953193",
@@ -3173,13 +3132,13 @@
     {
       "discogs_id": "7291425",
       "title": "Brahms Piano Works Vol. 5, Hungarian Dances Volumes 1 & 2",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:programme_structure_or_provenance",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 4,
       "uncached_hits": 1,
-      "finding": null,
-      "next_action": null
+      "finding": "Source Katchen/MartyHungarianDances bundles21dances into8LPbands. Saved solo-piano collection gives incomplete positive duo credit coverage; exact four-hand edition, members and source grouped-key discrepancies need binding.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "7309632",
@@ -3283,13 +3242,13 @@
     {
       "discogs_id": "7577224",
       "title": "Pelleas Et Melisande",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:source_cast_or_band_mapping",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 4,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "AnsermetPelleas source requires thirteen source units, named Geneva chorus and SuisseRomande identity plus cast. Other casts/symphonic arrangements cannot substitute; exact source-band scope remains.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "7597643",
@@ -3338,13 +3297,13 @@
     {
       "discogs_id": "7652134",
       "title": "Der Fliegende Holländer",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:source_cast_or_band_mapping",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 5,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "KlempererFlyingDutchman variant retains BBCchorus/PeterGellhorn and exact seven-band mapping gaps; previously identified analogous release holds remain.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "7681255",
@@ -3415,13 +3374,13 @@
     {
       "discogs_id": "7809198",
       "title": "German Requiem Op.45 Volume 1 & 2",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_or_incomplete_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 2,
       "uncached_hits": 7,
-      "finding": null,
-      "next_action": null
+      "finding": "Source1949Karajan/Vienna GermanRequiem with Hotter/Schwarzkopf is not the symphony-only Brahms sets/BestOf programme.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "7830338",
@@ -3734,13 +3693,13 @@
     {
       "discogs_id": "8409374",
       "title": "Siegfried",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:source_cast_or_band_mapping",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 5,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "SoltiSiegfried has fifteen split source bands. Compatible complete candidates have cast-name/positive-role and exact scene-cut gaps; SiegfriedIdyll/commentary is not this opera.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "8470218",
@@ -3767,13 +3726,13 @@
     {
       "discogs_id": "8606394",
       "title": "Ballettsuite »Gayaneh« / Orchestersuite »Der Goldene Hahn«",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_or_incomplete_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 1,
       "uncached_hits": 9,
-      "finding": null,
-      "next_action": null
+      "finding": "Source Gayaneh/GoldenCockerel suites are not Ravel operas/CapriccioEspagnol/SongofNightingale; source cast metadata also needs reconciliation.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "8807550",
@@ -3822,13 +3781,13 @@
     {
       "discogs_id": "8840038",
       "title": "Petrouchka",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:programme_structure_or_provenance",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 2,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "KurtzPetrouchka source compresses whole ballet into two LP bands while cache has5or14sections. Exact side cuts and source version/recording proof needed; no invented tableau/side division.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "8860718",
@@ -3888,13 +3847,13 @@
     {
       "discogs_id": "8930472",
       "title": "Duke Ellington's Concert Of Sacred Music",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_or_incomplete_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 1,
       "uncached_hits": 4,
-      "finding": null,
-      "next_action": null
+      "finding": "Ellington SacredConcert source is not DukeEllington&JohnColtrane; positive artist alone cannot supply source songs.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "8949471",
@@ -3921,24 +3880,24 @@
     {
       "discogs_id": "8965364",
       "title": "Violin Concertos",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:programme_structure_or_provenance",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 5,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Milstein/SteinbergPittsburgh source combines Dvorak and Glazunov in joined source movements. Compatible seven-track edition needs exact source join and historic recording proof; other orchestras/couplings cannot substitute.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "8970069",
       "title": "Alexandre Nevsky (Cantate D'après La Musique Écrite Pour Le Film D'Eisenstein)",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:programme_structure_or_provenance",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 1,
       "uncached_hits": 4,
-      "finding": null,
-      "next_action": null
+      "finding": "PrevinNevsky source Londonorchestra/chorus, AnnaReynolds and ArthurOldham are not established by saved candidate declarations; work title alone is insufficient.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "8971581",
@@ -3954,13 +3913,13 @@
     {
       "discogs_id": "8982341",
       "title": "Götterdämmerung",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:source_cast_or_band_mapping",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 5,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Solti1964Gotterdammerung named cast appears across complete candidates but not across every source unit; fourteen split source bands and positive role/cast scopes remain unresolved.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "8999534",
@@ -4240,13 +4199,13 @@
     {
       "discogs_id": "9876105",
       "title": "Parsifal, Originalaufnahme Von Den Bayreuther Festspielen 1951",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_or_incomplete_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 1,
       "uncached_hits": 9,
-      "finding": null,
-      "next_action": null
+      "finding": "Source1951Bayreuth Parsifal is represented only by SoltiGotterdammerung, a different opera/cast.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "9876728",
@@ -4361,24 +4320,24 @@
     {
       "discogs_id": "10183213",
       "title": "Richard Wagner: Tristan Und Isolde",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:source_cast_or_band_mapping",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 5,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "BohmTristan source has ten timed split-act units; saved candidates have festival-orchestra name/cast gaps, other performances or excerpts. Retain chronology and exact side timing boundaries.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "10220921",
       "title": "Die Walküre",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:source_cast_or_band_mapping",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 3,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "KlempererWalkure source has act-label inconsistency and joined excerpts. Compatible17track candidate needs exact source cut/cast proof; orchestral excerpts do not fill missing sections.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "10301402",
@@ -4416,13 +4375,13 @@
     {
       "discogs_id": "10408175",
       "title": "Piano Concertos Nos. 1 And 2",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:programme_structure_or_provenance",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 3,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Katchen/ArgentaLiszt source has10musical leaves while compatible DGedition splits concertos into8tracks. Joined sections need exact complete source mapping and recording proof; source orchestra preserved.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "10423743",
@@ -4592,13 +4551,13 @@
     {
       "discogs_id": "11058952",
       "title": "Symphonie No. 4",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:source_cast_or_band_mapping",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 5,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "KlempererMahler4 candidate has Schwarzkopf only on finale; source global soprano is not explicitly scoped to that movement. Preserve source cast requirement pending positive scoped recording review; other live casts differ.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "11059547",
@@ -4669,13 +4628,13 @@
     {
       "discogs_id": "11410740",
       "title": "Concerto Pour Piano Et Orchestre N° 2 En Ut Mineur, Op. 18 Pour Piano Et Orchestre",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_or_incomplete_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 4,
       "uncached_hits": 6,
-      "finding": null,
-      "next_action": null
+      "finding": "Source RachmaninoffConcerto2plus Bizet/Mendelssohn samples is not Klemperer Mendelssohn symphonies/Elijah/anthology; normalized source principal cast is incomplete.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "11452132",
@@ -4713,13 +4672,13 @@
     {
       "discogs_id": "11584908",
       "title": "Symphonische Dichtungen",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_or_incomplete_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 2,
       "uncached_hits": 3,
-      "finding": null,
-      "next_action": null
+      "finding": "Source Kubelik/Bavarian symphonic poems are not Dvorak symphony cycle/No9plus other coupling; retain source orchestra.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "11599278",
@@ -4779,13 +4738,13 @@
     {
       "discogs_id": "11885669",
       "title": "Sinfonia N°7",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:programme_structure_or_provenance",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 4,
       "uncached_hits": 1,
-      "finding": null,
-      "next_action": null
+      "finding": "ToscaniniBeethoven7source specifies9November1951CarnegieHall. Saved1951/RCA and1939cycle alternatives need exact date/recording corroboration and source four-movement binding;1939is not interchangeable.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "11890675",
@@ -4812,13 +4771,13 @@
     {
       "discogs_id": "11933784",
       "title": "Les Quatre Saisons",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:missing_positive_source_credits",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 5,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "FourSeasons source explicitly names violinistGeorgesArmand; saved complete/partial/narrated editions omit his positive declaration. Retain all12source movements and soloist.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "11938919",
@@ -4834,13 +4793,13 @@
     {
       "discogs_id": "11951556",
       "title": "Ouvertures",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:programme_structure_or_provenance",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 5,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Toscanini source sixovertures spans different saved selections. Need one complete recording edition and exact source repertoire/date proof; generic conductor match cannot combine editions.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "11971084",
@@ -4955,24 +4914,13 @@
     {
       "discogs_id": "12554746",
       "title": "Canons",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:missing_positive_source_credits",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 1,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
-    },
-    {
-      "discogs_id": "12561696",
-      "title": "Leçons De Tenebres",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
-      "cached_candidate_count": 2,
-      "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "SecularCanons source47units retain GyorGirlsChorus identity; candidate choir spelling/positive declaration unresolved. Hoboken/count/version differences must not be collapsed to47matching tracks.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "12690141",
@@ -5054,13 +5002,13 @@
     {
       "discogs_id": "13011163",
       "title": "Siegfried",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:source_cast_or_band_mapping",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 5,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "SoltiSiegfried secondsource retains same fifteen-band scene-cut/cast gaps as8409374; source1962session notes are not permission to borrow scene credits or infer cuts.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "13069435",
@@ -5098,13 +5046,13 @@
     {
       "discogs_id": "13203869",
       "title": "Lohengrin",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:source_cast_or_band_mapping",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 5,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "LeinsdorfBoston Lohengrin source names Woitach, Silverstein and chorus-master personnel absent from saved declarations; other casts and ten auto-coupled bands remain unresolved.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "13252489",
@@ -5164,13 +5112,13 @@
     {
       "discogs_id": "13434172",
       "title": "Passio Secundum Joannem - »Johannes Passion«",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:source_cast_or_band_mapping",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 1,
       "uncached_hits": 4,
-      "finding": null,
-      "next_action": null
+      "finding": "Source KarlRichter1964JohnPassion named singers/instrumentalists are not established by the saved SacredMasterpieces declaration set;52source leaves/section joins still require explicit binding.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "13518279",
@@ -5252,13 +5200,13 @@
     {
       "discogs_id": "13872783",
       "title": "Symphonies No.5 & No.9",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:programme_structure_or_provenance",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 3,
       "uncached_hits": 7,
-      "finding": null,
-      "next_action": null
+      "finding": "BarbirolliMahler5and9source requires two different orchestras in one source box. Saved candidates split the works into separate editions or add Ruckert; exact source scope/coupling not established.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "13927062",
@@ -5428,13 +5376,13 @@
     {
       "discogs_id": "15081257",
       "title": "Brandenburg Concertos, Volume 2: Nos. 2, 4 & 5",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:missing_positive_source_credits",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 5,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "SourceMunchinger Brandenburg2/4/5requires Stuttgart orchestra; full/joined/partial candidates have orchestra-name/positive-role and complete9band gaps. Matching generic movement names are insufficient.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "15221307",
@@ -5549,13 +5497,13 @@
     {
       "discogs_id": "15926327",
       "title": "Symphonies Nos. 5-10",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:programme_structure_or_provenance",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 1,
       "uncached_hits": 5,
-      "finding": null,
-      "next_action": null
+      "finding": "HaitinkMahler5–10box has22source leaves including unfinished10and subdivided8. Large complete-cycle candidate needs exact source recording dates/editions, source part joins and full vocal/cast scopes; no title-count acceptance.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "15926362",
@@ -5648,13 +5596,13 @@
     {
       "discogs_id": "17657053",
       "title": "Rusalka",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:source_cast_or_band_mapping",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 5,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Source Rusalka normalized principal cast is empty and raw bands give act segments only. Complete candidates differ in cast/editions and eight source cuts need recording proof; a fantasy is not the opera.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "18111055",
@@ -5714,13 +5662,13 @@
     {
       "discogs_id": "19024615",
       "title": "Parsifal",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:source_cast_or_band_mapping",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 5,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Knappertsbusch1962Parsifal variant retains exact festival-year/cast/chorus-master and ten source side-cut requirements, same safeguards as4023547.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "19183792",
@@ -5736,13 +5684,13 @@
     {
       "discogs_id": "19469041",
       "title": "Quattro Pezzi Sacri",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:source_cast_or_band_mapping",
+      "planning_family": "credit_evidence",
       "cached_candidate_count": 1,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Source GiuliniPhilharmonia VerdiFourSacredPieces with JanetBaker/Pitz is not the saved laterBerlin/ErnstSenff/SharonSweet cast; four source works must remain source-cast-bound.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "20066470",
@@ -5901,13 +5849,13 @@
     {
       "discogs_id": "23950082",
       "title": "Suites For Cello Unaccompanied No.5 In C Minor And No.6 In D Major - Great Recordings Of The Century",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:programme_structure_or_provenance",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 1,
       "uncached_hits": 4,
-      "finding": null,
-      "next_action": null
+      "finding": "CasalsSuites5/6source retains prior transfer/recording limitations. Cache contains all suites but exact selected source movement/transfer provenance is unresolved; do not clear earlier hold from title/pianist similarity.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "24278222",
@@ -5978,24 +5926,24 @@
     {
       "discogs_id": "28104379",
       "title": "Tchaikovsky Symphony No.1",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_or_incomplete_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 5,
       "uncached_hits": 0,
-      "finding": null,
-      "next_action": null
+      "finding": "Source TchaikovskySymphony1 cannot be established by Maazel piano-concerto/Symphony2 and other early-recording selections; explicit work identity is required.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "28108858",
       "title": "Sinfonia N. 3 In La Minore",
-      "review_state": "no_saved_decision",
-      "group": "work_title_or_catalogue_mapping_unresolved",
-      "planning_family": "work_title_or_catalogue_mapping_unresolved",
+      "review_state": "reviewed_unresolved",
+      "group": "saved:different_or_incomplete_programme",
+      "planning_family": "source_programme_mapping",
       "cached_candidate_count": 1,
       "uncached_hits": 4,
-      "finding": null,
-      "next_action": null
+      "finding": "Source Previn RachmaninoffSymphony3and Aleko excerpts differ from saved PianoConcertos2/4 and two-piano rhapsody.",
+      "next_action": "Reopen only with positive source-bound evidence resolving the specific programme, musician, recording-version or timing blocker above; retain existing holds."
     },
     {
       "discogs_id": "29097343",
@@ -6120,8 +6068,8 @@
     "Grouping authorizes no new retrieval, identity alias, role waiver or automatic promotion."
   ],
   "source_hashes": {
-    "data/qobuz_unmatched_audit.json": "a0a12f409e64c06e014798d4c4b35c98de05ffb9ef942543512dfd0b0596db14",
-    "data/qobuz_matches.json": "b21a82ac5f1009ebb71d345e2eb640530f4252c0a1c1ce55bb2baf377a7895b4",
+    "data/qobuz_unmatched_audit.json": "b6fd77045a1ee3e513c1693a38b6589ac8a1d2a9e53fe00fd03e26c99809b111",
+    "data/qobuz_matches.json": "34c551721231da102a95015a16d71651194a9bb5624d86b98f25c339c6bbeecd",
     "data/qobuz_catalogue40_recording_audit.json": "67d2cdb0cd161671d405df2fb0a941cb19b6b6e72167791869aa08c97215eed4",
     "data/qobuz_credit12_recording_audit.json": "f720a1cc1c5beec68dbe0b3ae45b80e5fd003d272f4cc5ca872f6863e1105092",
     "data/qobuz_final_cached2_recording_audit.json": "0d6a38e1817de98fc971d7a0e9c92f972c24e0eff503fc569951030c0e29da73",
@@ -6133,6 +6081,7 @@
     "data/qobuz_secondary23_recording_audit.json": "7a2c245c90f30b437f1e4fba32c38b3ce6932eefb29af9232332f80a7358ca38",
     "data/qobuz_title19_recording_audit.json": "fdbab134fb3332d958416505c1e2d97507b341eba4161856a156abbc9a3935be",
     "data/qobuz_title3_recording_audit.json": "207f4d59065602a91b6c89bc056d470a2f8a9ad32631a43c2a58f7ce8c58485c",
+    "data/qobuz_title83_recording_audit.json": "aa3657dc4a11a9597a3fb750cf776eb11dbd659a402ae350e744cf01afa974c1",
     "data/qobuz_title9_recording_audit.json": "79fc8ec4f68e790f354fa56722eca0aea7d82a771627cd201ee68e462becaef2",
     "data/qobuz_trio_recording_audit.json": "4ef7f1ed0b4a7b9fc5e0a5101cf7b62fbf9d2d157878212ac63576ca558113de",
     "data/qobuz_work_context9_recording_audit.json": "1ebe1ea51d3862297c4573606aa05dc92e606e27eb75c98dd661f5e683754fb4",
